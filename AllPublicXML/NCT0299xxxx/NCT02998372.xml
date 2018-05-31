@@ -1,0 +1,220 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02998372</url>
+  </required_header>
+  <id_info>
+    <org_study_id>110908</org_study_id>
+    <nct_id>NCT02998372</nct_id>
+  </id_info>
+  <brief_title>Computational Simulation of Patellar Instability</brief_title>
+  <official_title>Computational Simulation of Dynamic Motion for Knees With Patellar Instability to Compare MPFL Reconstruction to Tibial Tuberosity Medialization as a Function of Knee Anatomy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Akron General Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Akron Children's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Akron General Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Computational simulation will be performed to represent motion of knees with a dislocating
+      kneecap. Common surgical treatment methods will be simulated and anatomical parameters
+      commonly associated with the dislocation will be varied in order to characterize the most
+      appropriate surgical approach as a function of knee anatomy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The two most common stabilization procedures for patients with recurrent patellar instability
+      are reconstruction of the medial patellofemoral ligament (MPFL) and medialization of the
+      tibial tuberosity. MPFL reconstruction has been growing in popularity, due in large part to
+      the technical demands of tibial tuberosity realignment and concerns related to bone healing
+      across the osteotomy. In cases of severe trochlear dysplasia and/or a dramatically
+      lateralized tibial tuberosity, an MPFL graft tensioned according to current standards may not
+      provide sufficient resistance to limit lateral patellar tracking that causes continued
+      instability. Increasing graft tension could overload medial patellofemoral cartilage. The
+      proposed study is based on the hypothesis that the ability of MPFL reconstruction to
+      effectively limit lateral patellar maltracking decreases as trochlear dysplasia and the
+      lateral position of the tibial tuberosity increase. Computational dynamic simulation of knee
+      function will be performed to establish anatomical standards for which tibial tuberosity
+      medicalization is more likely than MPFL reconstruction to limit patellar maltracking without
+      overloading patellofemoral cartilage. The first specific aim is to computationally replicate
+      lateral patellar maltracking and pressure applied to cartilage during function for patients
+      being treated for patellar instability. Multibody dynamics knee models representing patients
+      being treated for recurrent patellar instability will be based on 3D reconstructions from MRI
+      scans. The modeling technique treats the bones and cartilage surfaces as rigid bodies with
+      Hertzian contact determining contact forces and guiding joint motion. Discrete element
+      analysis techniques will be used to characterize contact pressure patterns based on overlap
+      of cartilage surfaces. Models will be individually validated by comparing output to in vivo
+      data. The source of the in vivo data will be computational reconstruction of in vivo function
+      based on motions performed by the patients who provide the imaging data for model
+      development. The second specific aim will be to computationally characterize the influence of
+      surgical stabilization on knee function for individual patients. MPFL reconstruction and
+      tibial tuberosity medialization, each with variations in surgical parameters, will be
+      simulated. The actual surgical procedures performed on the patients will be simulated, with
+      the influence on lateral tracking compared to in vivo results to validate the representation
+      of the surgical procedures. The third specific aim will be to compare surgical options as a
+      function of patellofemoral anatomy. Variations in patellar tracking and pressure applied to
+      cartilage will be compared between MPFL reconstruction and tuberosity medialization. In
+      addition, techniques to parametrically alter trochlear dysplasia and tuberosity
+      lateralization within the models will be developed. Simulations will be performed while
+      varying anatomy to set ranges over which each surgical option can limit patellar maltracking
+      without elevating contact pressures. The modeling system will be available for future studies
+      addressing additional surgical options and anatomical parameters related to patellar
+      instability.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">May 30, 2017</start_date>
+  <completion_date type="Anticipated">June 30, 2019</completion_date>
+  <primary_completion_date type="Anticipated">January 31, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Graphical representation of changes in knee motion due to surgery</measure>
+    <time_frame>16 months</time_frame>
+    <description>Computational models will be developed from MRI scans to show pre-operative and post-operative motion patterns for knees with instability</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Computational simulation of changes in knee motion due to surgery</measure>
+    <time_frame>24 months</time_frame>
+    <description>The models used to display motion will be converted to dynamic simulation models to predict the influence of multiple surgical approaches on knee motion</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Influence of anatomy on surgical effectiveness</measure>
+    <time_frame>24 months</time_frame>
+    <description>The simulation models will be used to relate the effectiveness of each procedure to the anatomy of the knees</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">5</enrollment>
+  <condition>Patellar Instability</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Anyone with a diagnosis of recurrent patellar dislocation to be surgically treated at Akron
+        Children's Hospital
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosis of recurrent patellar dislocation
+
+          -  Plan to be surgically treated at Akron Children's Hospital
+
+        Exclusion Criteria:
+
+          -  Additional Injuries unrelated to patellar instability for the knee of interest
+
+          -  Implantation of metallic hardware that could cause artifacts within MRI scans
+
+          -  Inability to remain still during MRI scans
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>89 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John Elias, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Akron General Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Akron Children's Hospital</name>
+      <address>
+        <city>Akron</city>
+        <state>Ohio</state>
+        <zip>44308-1046</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Elias JJ, Cosgarea AJ. Technical errors during medial patellofemoral ligament reconstruction could overload medial patellofemoral cartilage: a computational analysis. Am J Sports Med. 2006 Sep;34(9):1478-85. Epub 2006 May 9.</citation>
+    <PMID>16685097</PMID>
+  </reference>
+  <reference>
+    <citation>Biyani R, Elias JJ, Saranathan A, Feng H, Guseila LM, Morscher MA, Jones KC. Anatomical factors influencing patellar tracking in the unstable patellofemoral joint. Knee Surg Sports Traumatol Arthrosc. 2014 Oct;22(10):2334-41. doi: 10.1007/s00167-014-3195-y. Epub 2014 Jul 26.</citation>
+    <PMID>25063490</PMID>
+  </reference>
+  <reference>
+    <citation>Elias JJ, Carrino JA, Saranathan A, Guseila LM, Tanaka MJ, Cosgarea AJ. Variations in kinematics and function following patellar stabilization including tibial tuberosity realignment. Knee Surg Sports Traumatol Arthrosc. 2014 Oct;22(10):2350-6. doi: 10.1007/s00167-014-2905-9. Epub 2014 Feb 15.</citation>
+    <PMID>24531362</PMID>
+  </reference>
+  <reference>
+    <citation>Purevsuren T, Elias JJ, Kim K, Kim YH. Dynamic simulation of tibial tuberosity realignment: model evaluation. Comput Methods Biomech Biomed Engin. 2015;18(14):1606-10. doi: 10.1080/10255842.2014.936857. Epub 2014 Jul 15.</citation>
+    <PMID>25025488</PMID>
+  </reference>
+  <reference>
+    <citation>Fitzpatrick CK, Steensen RN, Tumuluri A, Trinh T, Bentley J, Rullkoetter PJ. Computational analysis of factors contributing to patellar dislocation. J Orthop Res. 2016 Mar;34(3):444-53. doi: 10.1002/jor.23041. Epub 2015 Sep 15.</citation>
+    <PMID>26331373</PMID>
+  </reference>
+  <reference>
+    <citation>Elias JJ, Saranathan A. Discrete element analysis for characterizing the patellofemoral pressure distribution: model evaluation. J Biomech Eng. 2013 Aug;135(8):81011. doi: 10.1115/1.4024287.</citation>
+    <PMID>23719962</PMID>
+  </reference>
+  <reference>
+    <citation>Guess TM, Liu H, Bhashyam S, Thiagarajan G. A multibody knee model with discrete cartilage prediction of tibio-femoral contact mechanics. Comput Methods Biomech Biomed Engin. 2013;16(3):256-70. doi: 10.1080/10255842.2011.617004. Epub 2011 Oct 4.</citation>
+    <PMID>21970765</PMID>
+  </reference>
+  <reference>
+    <citation>Guess TM, Thiagarajan G, Kia M, Mishra M. A subject specific multibody model of the knee with menisci. Med Eng Phys. 2010 Jun;32(5):505-15. doi: 10.1016/j.medengphy.2010.02.020. Epub 2010 Mar 31.</citation>
+    <PMID>20359933</PMID>
+  </reference>
+  <reference>
+    <citation>Elias JJ, Kelly MJ, Smith KE, Gall KA, Farr J. Dynamic Simulation of the Effects of Graft Fixation Errors During Medial Patellofemoral Ligament Reconstruction. Orthop J Sports Med. 2016 Sep 20;4(9):2325967116665080. eCollection 2016 Sep.</citation>
+    <PMID>27709116</PMID>
+  </reference>
+  <reference>
+    <citation>Elias JJ, Soehnlen NT, Guseila LM, Cosgarea AJ. Dynamic tracking influenced by anatomy in patellar instability. Knee. 2016 Jun;23(3):450-5. doi: 10.1016/j.knee.2016.01.021. Epub 2016 Feb 26.</citation>
+    <PMID>26922799</PMID>
+  </reference>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 16, 2016</study_first_submitted>
+  <study_first_submitted_qc>December 16, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 20, 2016</study_first_posted>
+  <last_update_submitted>January 8, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 8, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 9, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Akron General Medical Center</investigator_affiliation>
+    <investigator_full_name>John Elias, PhD</investigator_full_name>
+    <investigator_title>Senior Research Scientist</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

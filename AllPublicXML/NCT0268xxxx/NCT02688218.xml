@@ -1,0 +1,311 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02688218</url>
+  </required_header>
+  <id_info>
+    <org_study_id>15452</org_study_id>
+    <nct_id>NCT02688218</nct_id>
+  </id_info>
+  <brief_title>Exercise Detection Study</brief_title>
+  <official_title>Testing and Tuning a Multiparameter Exercise Detection Algorithm</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Oregon Health and Science University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Oregon Health and Science University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The risk of hypoglycemia in individuals with type 1 diabetes increases considerably during
+      exercise. As a result, many patients with type 1 diabetes experience fear of and reluctance
+      to pursue physical activity, in order to avoid the discomforting symptoms associated with
+      hypoglycemia. The bi-hormonal artificial pancreas, a device used for automatic delivery of
+      insulin and glucagon subcutaneously to subjects with type 1 diabetes, is paving the way to
+      revolutionize the management of this disease. The investigator's group has recently completed
+      a study of the bi-hormonal artificial pancreas system during exercise, suggesting reduced
+      hypoglycemia around the exercise period. In order to prepare for a future home study, the
+      ability to detect, grade, and classify physical activity so as to appropriately adjust system
+      parameters is vital in helping to prevent exercise induced hypoglycemia in the home setting.
+
+      This study is designed to collect 3-axis accelerometry data and heart rate data during a
+      variety of different home activities, as well as during formal exercise in both healthy
+      subjects and subjects with type 1 diabetes. Additionally, the investigators will observe the
+      change in glucose levels before and after exercise in subjects with type 1 diabetes.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The artificial pancreas, a device used for automatic delivery of insulin and glucagon
+      subcutaneously to subjects with type 1 diabetes, is paving the way to revolutionize the
+      management of this disease. Already, the benefit of improved glycemic control compared to
+      current open-loop pump therapy has been demonstrated in several trials. The investigator's
+      group has shown that artificial pancreas algorithm dual hormone system effectively manages
+      blood glucose in a clinic setting and the investigators have specifically shown great
+      progress using glucagon to reduce hypoglycemic episodes outside of exercise. The
+      investigators most recent inpatient study, as yet unpublished, shows that adjusting insulin
+      and glucagon delivery during closed loop treatment, after announcing exercise, effectively
+      reduces mean time below a glucose level of 70 mg/dl when compared to closed loop control
+      without adjustments. The investigators utilized initial open-loop data from this study to
+      help devise dosing changes for the artificial pancreas algorithm.
+
+      In order to prepare for a future home study, the ability to detect, grade, and classify
+      physical activity so as to appropriately adjust system parameters is vital in helping to
+      prevent exercise induced hypoglycemia in the home setting. Currently, our closed-loop system
+      transmits heart rate and accelerometry outputs from a Zephyrlife BioPatch monitoring device
+      to a Nexus 5 smart phone master controller via Bluetooth. The algorithm then converts the
+      heart rate and accelerometry data into modified estimated energy expenditure - accounting for
+      age, weight, height, sex, resting and sitting heart rates - to determine if exercise is
+      present. However, further data collection is needed to hone the specificity and sensitivity
+      of the detection algorithm to account for a wide variety of subject characteristics and
+      activities.
+
+      This study is designed to collect 3-axis accelerometry data and heart rate data during a
+      variety of different home activities, as well as during formal exercise, both aerobic
+      exercise (on a calibrated treadmill) and resistance exercise (straight-leg raises or
+      equivalent), in healthy subjects as well as subjects with type 1 diabetes. Optionally VO2
+      data from a portable VO2 mask will be obtained. The data collected will be used to further
+      enhance our algorithm that, in future closed-loop studies, will detect exercise and
+      automatically trigger algorithmic adjustments to reduce exercise-related hypoglycemia during
+      and after exercise in individuals with type 1 diabetes.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>February 2016</start_date>
+  <completion_date type="Anticipated">September 2018</completion_date>
+  <primary_completion_date type="Anticipated">June 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mean change in sensor glucose in subjects with type 1 diabetes</measure>
+    <time_frame>4 hours</time_frame>
+    <description>The mean change in sensor glucose before and after each exercise period (aerobic and resistance) during the study visit, obtained from Dexcom G4 sensors in the subjects with type 1 diabetes.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>Aerobic First, Resistance Second</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will complete three 15 minute periods of aerobic exercise, with 10 minute recovery between each period. This will be followed by 5-15 minute periods of up to 7 activities of daily living with an additional 20 minute period of resistance exercise, such as straight leg raises.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Resistance First, Aerobic Second</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will complete 5-15 minute periods of up to 7 activities of daily living with an additional 20 minute period of resistance exercise, such as straight leg raises. This will be followed by three 15 minute periods of aerobic exercise, with 10 minute recovery between each period.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Aerobic Exercise</intervention_name>
+    <description>Exercise for three 15 minute periods, with 10 minute rests between each period, and exercise intensity will vary between periods to achieve different energy expenditures, which may be determined based on VO2 measurements.</description>
+    <arm_group_label>Aerobic First, Resistance Second</arm_group_label>
+    <arm_group_label>Resistance First, Aerobic Second</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Resistance Exercise</intervention_name>
+    <description>Subjects will perform 5-15 minutes of up to 7 different activities of daily living, followed by 20 minutes of resistance exercise, such as straight leg raises.</description>
+    <arm_group_label>Aerobic First, Resistance Second</arm_group_label>
+    <arm_group_label>Resistance First, Aerobic Second</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        TYPE 1 DIABETIC SUBJECT CRITERIA
+
+        Inclusion criteria:
+
+          1. Male or female subjects 21 to 45 years of age with a diagnosis of T1D for at least 6
+             months on an insulin pump.
+
+          2. Physically active on a regular basis, i.e. at least 3 days of scheduled physical
+             activity per week and willing to perform approximately 60 minutes of exercise (as
+             determined by the investigator after reviewing the subjects activity level).
+
+          3. Willingness to follow all study procedures.
+
+          4. Willingness to sign informed consent and HIPAA documents.
+
+        Exclusion criteria:
+
+        a. Pregnancy or Lactation: i. For women of childbearing potential, there is a requirement
+        for a negative urine pregnancy test. b. Any cardiovascular disease, defined as a clinically
+        significant EKG abnormality at the time of screening or any history of: stroke, heart
+        failure, myocardial infarction, angina pectoris, or coronary arterial bypass graft or
+        angioplasty. Diagnosis of 2nd or 3rd degree heart block or any non-physiological arrhythmia
+        judged by the investigator to be exclusionary. c. Renal insufficiency (GFR &lt; 60 ml/min,
+        using the MDRD equation as report by the OHSU laboratory). d. Hematocrit of less than or
+        equal to 34%. e. History of severe hypoglycemia during the past 12 months prior to
+        screening visit or hypoglycemia unawareness as judged by the investigator. f. Adrenal
+        insufficiency. g. Any active infection. h. Known or suspected abuse of alcohol, narcotics,
+        or illicit drugs (except marijuana use).
+
+        i. Seizure disorder. j. Active foot ulceration. k. Severe peripheral arterial disease
+        characterized by ischemic rest pain or severe claudication. l. Major surgical operation
+        within 30 days prior to screening. m. Use of an investigational drug within 30 days prior
+        to screening. n. Chronic usage of any immunosuppressive medication (such as cyclosporine,
+        azathioprine, sirolimus, or tacrolimus). o. Bleeding disorder, treatment with warfarin, or
+        platelet count below 50,000. p. Current administration of oral or parenteral
+        corticosteroids. q. Any life threatening disease, including malignant neoplasms and medical
+        history of malignant neoplasms within the past 5 years prior to screening (except basal and
+        squamous cell skin cancer). r. Any concurrent illness, other than diabetes, that is not
+        controlled by a stable therapeutic regimen. s. Beta blockers or non-dihydropyridine calcium
+        channel blockers. t. A positive response to any of the questions from the Physical Activity
+        Readiness Questionnaire, see Appendix A. u. Any chest discomfort with physical activity,
+        including pain or pressure, or other types of discomfort. v. Any clinically significant
+        disease or disorder which in the opinion of the Investigator may jeopardize the subject's
+        safety or compliance with the protocol.
+
+        HEALTHY SUBJECT CRITERIA
+
+        Inclusion Criteria:
+
+          1. Male or female subjects 21 to 45 years of age.
+
+          2. Physically active on a regular basis, i.e. at least 3 days of scheduled physical
+             activity per week and willing to perform approximately 60 minutes of exercise (as
+             determined by the investigator after reviewing the subjects activity level).
+
+          3. Willingness to follow all study procedures.
+
+          4. Willingness to sign informed consent and HIPAA documents.
+
+        Exclusion criteria:
+
+          1. Pregnancy or Lactation: For women of childbearing potential, there is a requirement
+             for a negative urine pregnancy test.
+
+          2. Any history or evidence of renal insufficiency, adrenal insufficiency, liver disease
+             or anemia.
+
+          3. A history of cerebrovascular disease or coronary artery disease (or angina) regardless
+             of the time since occurrence.
+
+          4. Congestive heart failure, New York Heart Association (NYHA) any class.
+
+          5. Diagnosis of 1st, 2nd or 3rd degree heart block or any arrhythmia judged by the
+             investigator to be exclusionary.
+
+          6. Any condition which, in the opinion of the investigator, makes it difficult to engage
+             in vigorous physical activity.
+
+          7. Any active infection.
+
+          8. Severe peripheral arterial disease characterized by ischemic rest pain or severe
+             claudication.
+
+          9. Active alcohol abuse, substance abuse, or severe mental illness (as judged by the
+             principal investigator).
+
+         10. Active malignancy, except basal cell or squamous cell skin cancers.
+
+         11. Major surgical operation within 30 days prior to screening.
+
+         12. Seizure disorder.
+
+         13. Bleeding disorder, or treatment with warfarin.
+
+         14. Use of any chronic medications.
+
+         15. Use of an investigational drug within 30 days prior to screening.
+
+         16. Any reason the principal investigator deems exclusionary.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>45 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Joseph El Youssef, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Oregon Health and Science University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Oregon Health and Science University</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97239</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Castle JR, Engle JM, El Youssef J, Massoud RG, Yuen KC, Kagan R, Ward WK. Novel use of glucagon in a closed-loop system for prevention of hypoglycemia in type 1 diabetes. Diabetes Care. 2010 Jun;33(6):1282-7. doi: 10.2337/dc09-2254. Epub 2010 Mar 23.</citation>
+    <PMID>20332355</PMID>
+  </reference>
+  <reference>
+    <citation>Jacobs PG, El Youssef J, Castle J, Bakhtiani P, Branigan D, Breen M, Bauer D, Preiser N, Leonard G, Stonex T, Ward WK. Automated control of an adaptive bihormonal, dual-sensor artificial pancreas and evaluation during inpatient studies. IEEE Trans Biomed Eng. 2014 Oct;61(10):2569-81. doi: 10.1109/TBME.2014.2323248. Epub 2014 May 13.</citation>
+    <PMID>24835122</PMID>
+  </reference>
+  <reference>
+    <citation>Jacobs PG, El Youssef J, Castle JR, Engle JM, Branigan DL, Johnson P, Massoud R, Kamath A, Ward WK. Development of a fully automated closed loop artificial pancreas control system with dual pump delivery of insulin and glucagon. Conf Proc IEEE Eng Med Biol Soc. 2011;2011:397-400. doi: 10.1109/IEMBS.2011.6090127.</citation>
+    <PMID>22254332</PMID>
+  </reference>
+  <reference>
+    <citation>Jacobs PG, Resalat N, El Youssef J, Reddy R, Branigan D, Preiser N, Condon J, Castle J. Incorporating an Exercise Detection, Grading, and Hormone Dosing Algorithm Into the Artificial Pancreas Using Accelerometry and Heart Rate. J Diabetes Sci Technol. 2015 Oct 5;9(6):1175-84. doi: 10.1177/1932296815609371.</citation>
+    <PMID>26438720</PMID>
+  </reference>
+  <verification_date>September 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 17, 2016</study_first_submitted>
+  <study_first_submitted_qc>February 17, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 23, 2016</study_first_posted>
+  <last_update_submitted>September 18, 2017</last_update_submitted>
+  <last_update_submitted_qc>September 18, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 20, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Oregon Health and Science University</investigator_affiliation>
+    <investigator_full_name>Joseph El Youssef</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>exercise</keyword>
+  <keyword>artificial pancreas</keyword>
+  <keyword>hypoglycemia</keyword>
+  <keyword>type 1 diabetes</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <study_docs>
+    <study_doc>
+      <doc_id>STUDY00015452</doc_id>
+      <doc_type>Study Protocol</doc_type>
+      <doc_url>http://eirb.ohsu.edu</doc_url>
+      <doc_comment>Institutionally reviewed and accepted protocol for this study.</doc_comment>
+    </study_doc>
+  </study_docs>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

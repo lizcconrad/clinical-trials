@@ -1,0 +1,188 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02706665</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2013_10</org_study_id>
+    <nct_id>NCT02706665</nct_id>
+  </id_info>
+  <brief_title>Monitoring of Hypnosis State During General Anesthesia With Propofol by Patient State Index From SEDLine®</brief_title>
+  <official_title>Modelling Pharmacokinetic/Pharmacodynamic of Propofol Based on PSI Values From the SEDline®</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hospital Universitario de Canarias</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Masimo Corporation</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hospital Universitario de Canarias</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is the evaluation of possible relationships and correlation between
+      PSI values obtained from the SEDLine® monitor and the infusion rate of propofol during
+      general anesthesia.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Introduction:
+
+      There is a large intra-and interindividual variability in the effect of propofol. To deal
+      with this problem, a real-time monitoring and therefore a more accurate titration of
+      anesthetic agents is proposed. Brain function monitors based on a processed analysis of EEG
+      (Electroencephalogram) can help to control pharmacodynamic effects of hypnotic agents. PSI
+      values provide a measurement of the hypnotic effect of propofol. It will be observed an
+      inverse correlation between the propofol infusion rate and the PSI value.
+
+      Objectives:
+
+      To design a computer program to record simultaneously the propofol infusion rate, PSI and
+      Electromyogram (EMG).
+
+      To study the correlation between PSI values obtained from the SEDLine® monitor and the
+      infusion rate of propofol during general anesthesia.
+
+      To obtain a mathematical model of the system from data recorded with different identification
+      techniques.
+
+      Methods:
+
+      A group of patients scheduled for surgery under a standard total intravenous anesthesia
+      (TIVA) with propofol and remifentanil will be recruited. The hypnotic effect of propofol will
+      be monitored with the PSI from a SEDline monitor continuously. All anesthetic doses and their
+      changes fall within conventional dosing.
+
+      The procedure for recording data and obtaining the pharmacokinetics/pharmacodynamics (PK /
+      PD) model will be connecting a SEDLine® monitor to a laptop with an original program
+      developed by members of our team. The program automatically stores the infusion rate of
+      propofol (mg/kg/h) and the simultaneous values of PSI and frontal EMG. Graphics and data
+      collected will be explored with various systems of techniques for pattern recognition in
+      order to get the best fit to define a mathematical model of the dose of propofol and PSI
+      values. A subsequent computer analysis with MATLAB® will estimate the correlation between the
+      infusion of propofol infusion rate and PSI values.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>December 2015</start_date>
+  <primary_completion_date type="Anticipated">June 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>EEG processed will be measured by non invasive adhesive electrodes on the skin of the forehead's patient. A disposable sensor connected with a SEDLine provides de PSI index</measure>
+    <time_frame>During general anaesthesia in the operating room for a scheduled surgery.</time_frame>
+    <description>The values from the SEDLine ® monitor inversely correlate with the rate of infusion of propofol. Changes in that velocity correspond to changes in the effect site (CNS) and are related to the PSI values displayed in the monitor.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time from discontinuation of intravenous agents to open eyes to order</measure>
+    <time_frame>In the operation room at the end of surgery</time_frame>
+    <description>It will be measured with a chronometer</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">12</enrollment>
+  <condition>Hypnotic Effect</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>SEDline monitor</intervention_name>
+    <description>The SEDline monitor gives us the Patient State Index (PSI), a dimensionless number within a range of 0 to100.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Inpatients undergoing a surgery procedure with general anesthesia.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  American Society of Anesthesiologists classification of I, II, or III
+
+          -  Patient signed an informed consent
+
+        Exclusion Criteria:
+
+          -  Patients with prior neurological disease, epilepsy or stroke.
+
+          -  Patients who are receiving drug therapy that may alter processed EEG monitoring and
+             decrease the PSI accuracy.
+
+          -  American Society of Anesthesiologists classification IV or higher
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jose Antonio Reboso Morales, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hospital Universitario de Canarias</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jose Antonio Reboso Morales, MD, PhD</last_name>
+    <phone>0034 922678000</phone>
+    <email>jreboso@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Hospital Universitario de Canarias</name>
+      <address>
+        <city>La Laguna</city>
+        <state>Santa Cruz de Tenerife</state>
+        <zip>38320</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jose Antonio Reboso, MD, PhD</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>March 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 7, 2016</study_first_submitted>
+  <study_first_submitted_qc>March 7, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 11, 2016</study_first_posted>
+  <last_update_submitted>March 7, 2016</last_update_submitted>
+  <last_update_submitted_qc>March 7, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">March 11, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Anesthetics</keyword>
+  <keyword>Propofol</keyword>
+  <keyword>Electroencephalography</keyword>
+  <keyword>SEDline monitor</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Propofol</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

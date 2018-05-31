@@ -1,0 +1,160 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01448161</url>
+  </required_header>
+  <id_info>
+    <org_study_id>11-0858</org_study_id>
+    <nct_id>NCT01448161</nct_id>
+  </id_info>
+  <brief_title>A Machine Learning Approach to Continuous Vital Sign Data Analysis</brief_title>
+  <official_title>A Machine Learning Approach to Continuous Vital Sign Data Analysis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Colorado, Denver</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Colorado, Denver</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Study hypothesis: Machine Learning algorithms and techniques previously developed for use in
+      the robotics field can be applied to the field of medicine. These state-of-the-art, feature
+      extraction and machine learning techniques can utilize patient vital sign data from bedside
+      monitors to discover hidden relationships within the physiological waveforms and identify
+      physiological trends or concerning conditions that are predictive of various clinical events.
+      These algorithms could potentially provide preemptive alerts to clinicians of a developing
+      patient problem, well before any human could detect a worrisome combination of events or
+      trend in the data.
+
+      Specific aims:
+
+        1. Collect physiological waveform and numeric trend data from patient vital signs monitors
+           in ICUs at the University of Colorado Hospital and Children's Hospital Colorado.
+
+        2. Combine the physiological data from patient monitors with clinical data obtained from
+           patient Electronic Medical Records including IV fluids, medications, ventilator
+           settings, urine output, etc. for use in developing models of various clinical
+           conditions.
+
+        3. Apply Machine Learning techniques to these models to identify physiological waveform
+           features and trend information, which are characteristic and predictive of common
+           clinical conditions including but not limited to:
+
+             -  Post-operative atrial fibrillation and other cardiac dysrhythmias
+
+             -  Post-operative cardiac tamponade
+
+             -  Tension pneumothorax
+
+             -  Optimal post-operative and post-resuscitation fluid needs
+
+             -  Intracranial hypertension and cerebral perfusion pressure
+    </textblock>
+  </brief_summary>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date>December 2011</start_date>
+  <completion_date type="Anticipated">December 2019</completion_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Relevant Clinical Features</measure>
+    <time_frame>2 years</time_frame>
+    <description>The Primary outcome utilized in this study will be the identification of the most relevant clinical features for detecting a chosen clinical event as determined by the Machine Learning feature-extraction techniques.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1200</enrollment>
+  <condition>Vital Signs</condition>
+  <arm_group>
+    <arm_group_label>Pediatric and Adult ICU patients</arm_group_label>
+    <description>Pediatric and Adult ICU patients</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Pediatric and Adult ICU patients
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Age: 0 days - 89 years
+
+          2. Admitted to the surgical intensive care unit (SICU) at the University of Colorado
+             Hospital or to the pediatric intensive care unit (PICU) or children's intensive care
+             unit (CICU) at Children's Hospital Colorado or patients in the Childrens Hospital
+             Colorado (CHC) emergency room with the following conditions
+
+               1. Hemodynamic instability
+
+               2. Febrile &gt;38.5
+
+               3. Respiratory distress
+
+               4. Requiring mechanical ventilation
+
+               5. Requiring central access
+
+               6. Requiring vasoactive medications As well as the time that any of these patients
+                  might be in the operating rooms at Children's Hospital Colorado.
+
+        Exclusion Criteria:
+
+          1. Pregnant
+
+          2. Incarcerated
+
+          3. Limited access to or compromised monitoring sites for non-invasive finger and forehead
+             sensors
+
+          4. Brain death (GCS 3 with fixed, dilated pupils)), unless patient is actively being
+             resuscitated (see CPR specific details in protocol and application)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>89 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Steve Moulton, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Children's Hospital Colorado</affiliation>
+  </overall_official>
+  <verification_date>December 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 5, 2011</study_first_submitted>
+  <study_first_submitted_qc>October 6, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 7, 2011</study_first_posted>
+  <last_update_submitted>December 19, 2017</last_update_submitted>
+  <last_update_submitted_qc>December 19, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 21, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Pediatric</keyword>
+  <keyword>Adult</keyword>
+  <keyword>ICU</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

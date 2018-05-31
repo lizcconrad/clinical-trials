@@ -1,0 +1,179 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03212534</url>
+  </required_header>
+  <id_info>
+    <org_study_id>17-22319</org_study_id>
+    <nct_id>NCT03212534</nct_id>
+  </id_info>
+  <brief_title>Inpatient Mortality Prediction Algorithm Clinical Trial (IMPACT)</brief_title>
+  <acronym>IMPACT</acronym>
+  <official_title>A Randomized Clinical Trial of a Mortality Prediction Algorithm</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dascena</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Dascena</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Through the mapping of retrospective patient data into a discrete multidimensional space, a
+      novel algorithm for homeostatic analysis, was built to make outcome predictions. In this
+      prospective study, the ability of the algorithm to predict patient mortality and influence
+      clinical outcomes, will be investigated.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">July 2017</start_date>
+  <completion_date type="Anticipated">October 2017</completion_date>
+  <primary_completion_date type="Anticipated">October 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>In-hospital mortality</measure>
+    <time_frame>Through study completion, an average of 30 days</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hospital length of stay</measure>
+    <time_frame>Through study completion, an average of 30 days</time_frame>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Hospital readmission</measure>
+    <time_frame>Through study completion, an average of 30 days</time_frame>
+  </other_outcome>
+  <other_outcome>
+    <measure>ICU length of stay</measure>
+    <time_frame>Through study completion, an average of 30 days</time_frame>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1024</enrollment>
+  <condition>Decompensation, Heart</condition>
+  <condition>Decompensation; Heart, Congestive</condition>
+  <condition>Death</condition>
+  <arm_group>
+    <arm_group_label>Prediction Algorithm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Patient mortality prediction</intervention_name>
+    <description>Healthcare provider is notified of patient mortality prediction.</description>
+    <arm_group_label>Prediction Algorithm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All adult patients admitted to the participating units will be eligible.
+
+        Exclusion Criteria:
+
+          -  All patients younger than 18 years of age will be excluded.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David Shimabukuro</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, San Francisco</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ritankar Das</last_name>
+    <phone>872 228 5332</phone>
+    <email>ritankar@dascena.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>UCSF Moffit-Long Hospital</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>David W Shimabukuro, MDCM</last_name>
+      <phone>415-377-9528</phone>
+      <email>David.Shimabukuro@ucsf.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Desautels T, Calvert J, Hoffman J, Mao Q, Jay M, Fletcher G, Barton C, Chettipally U, Kerem Y, Das R. Using Transfer Learning for Improved Mortality Prediction in a Data-Scarce Hospital Setting. Biomed Inform Insights. 2017 Jun 12;9:1178222617712994. doi: 10.1177/1178222617712994. eCollection 2017.</citation>
+    <PMID>28638239</PMID>
+  </reference>
+  <reference>
+    <citation>Calvert J, Mao Q, Rogers AJ, Barton C, Jay M, Desautels T, Mohamadlou H, Jan J, Das R. A computational approach to mortality prediction of alcohol use disorder inpatients. Comput Biol Med. 2016 Aug 1;75:74-9. doi: 10.1016/j.compbiomed.2016.05.015. Epub 2016 May 24.</citation>
+    <PMID>27253619</PMID>
+  </reference>
+  <reference>
+    <citation>Calvert JS, Price DA, Barton CW, Chettipally UK, Das R. Discharge recommendation based on a novel technique of homeostatic analysis. J Am Med Inform Assoc. 2017 Jan;24(1):24-29. doi: 10.1093/jamia/ocw014. Epub 2016 Mar 28.</citation>
+    <PMID>27026611</PMID>
+  </reference>
+  <reference>
+    <citation>Calvert J, Mao Q, Hoffman JL, Jay M, Desautels T, Mohamadlou H, Chettipally U, Das R. Using electronic health record collected clinical variables to predict medical intensive care unit mortality. Ann Med Surg (Lond). 2016 Sep 6;11:52-57. eCollection 2016 Nov.</citation>
+    <PMID>27699003</PMID>
+  </reference>
+  <verification_date>July 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 6, 2017</study_first_submitted>
+  <study_first_submitted_qc>July 6, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 11, 2017</study_first_posted>
+  <last_update_submitted>July 6, 2017</last_update_submitted>
+  <last_update_submitted_qc>July 6, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 11, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Dascena</keyword>
+  <keyword>patient mortality</keyword>
+  <keyword>machine learning</keyword>
+  <keyword>algorithm</keyword>
+  <keyword>diagnostic</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

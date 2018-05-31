@@ -1,0 +1,1949 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02140645</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1218.162</org_study_id>
+    <nct_id>NCT02140645</nct_id>
+  </id_info>
+  <brief_title>Ascertainment of EMR-based Clinical Covariates Among Patients Receiving Oral and Non-insulin Injected Hypoglycemic Therapy</brief_title>
+  <official_title>Association of Clinical Covariates With Non-insulin Diabetes Medication Initiation Using Electronic Medical Records (EMR)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Boehringer Ingelheim</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Eli Lilly and Company</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Boehringer Ingelheim</source>
+  <brief_summary>
+    <textblock>
+      The objective of this study is to identify EMR-based clinical covariates and quantify their
+      association with the prescribing of each specific type 2 diabetes (T2DM) medication under
+      investigation. This will include an assessment of how well these covariates are captured
+      through claims data proxies, and their potential to confound comparative research of T2DM
+      medications.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Purpose:
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2014</start_date>
+  <completion_date type="Actual">March 2015</completion_date>
+  <primary_completion_date type="Actual">March 2015</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Missing EMR (Electronic Medical Record) Characteristic: Smoking</measure>
+    <time_frame>Up to 20 months</time_frame>
+    <description>The missing EMR characteristic smoking defined as current, unknown, versus past/never smoker.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic smoking was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Missing EMR Characteristic: Duration of Diabetes</measure>
+    <time_frame>Up to 20 months</time_frame>
+    <description>The missing EMR characteristic duration of diabetes defined as &gt;7, 5-6, 3-5, 1-3, &lt;1 (in years) in duration.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic duration of diabetes was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Missing EMR Characteristic: Duration of Diabetes (Continuous)</measure>
+    <time_frame>Up to 20 months</time_frame>
+    <description>The missing EMR characteristic duration of diabetes defined as starting year/starting age of diabetes.
+Linear regression models were ran using a prioritized list of claims-based covariates as predictors and the value of select EMR-based clinical characteristics duration of diabetes as continuous outcomes.
+The estimated value represented is actually prediction accuracy defined by R-squared.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Missing EMR Characteristic: BMI (Body Mass Index)</measure>
+    <time_frame>Up to 20 months</time_frame>
+    <description>The missing EMR characteristic BMI defined as not obese, overweight, obese, severe obesity.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic BMI was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Missing EMR Characteristic: BMI (Continuous)</measure>
+    <time_frame>Up to 20 months</time_frame>
+    <description>The missing EMR characteristic BMI is BMI value. Linear regression models were ran using a prioritized list of claims-based covariates as predictors and the value of select EMR-based clinical characteristics BMI as continuous outcomes.
+The estimated value represented is actually prediction accuracy defined by R-squared.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Missing EMR Characteristic: HbA1c (Hemoglobin A1c (Glycosylated Hemoglobin))</measure>
+    <time_frame>Up to 20 months</time_frame>
+    <description>The missing EMR characteristic HbA1c defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic HbA1c was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Missing EMR Characteristic: eGFR (Glomerular Filtration Rate)</measure>
+    <time_frame>Upto 20 months</time_frame>
+    <description>The missing EMR characteristic eGFR defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic eGFR was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Missing EMR Characteristic: Total Cholesterol</measure>
+    <time_frame>Up to 20 months</time_frame>
+    <description>The missing EMR characteristic total cholesterol defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic total cholesterol was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Missing EMR Characteristic: Systolic BP (Blood Pressure)</measure>
+    <time_frame>Up to 20 months</time_frame>
+    <description>The missing EMR characteristic systolic BP defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic systolic BP was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Missing EMR Characteristic: Diastolic BP</measure>
+    <time_frame>Up to 20 months</time_frame>
+    <description>The missing EMR characteristic diastolic BP defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic diastolic BP was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Binary EMR Characteristic: Neuropathy</measure>
+    <time_frame>Up to 20 months</time_frame>
+    <description>The missing EMR characteristic neuropathy defined as participants with any note of diabetic neuropathy.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic neuropathy was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Binary EMR Characteristic: Nephropathy</measure>
+    <time_frame>Upto 20 months</time_frame>
+    <description>The missing EMR characteristic nephropathy defined as participants with any note of diabetic nephropathy.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic nephropathy was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Binary EMR Characteristic: Retinopathy</measure>
+    <time_frame>Up to 20 months</time_frame>
+    <description>The missing EMR characteristic retinopathy defined as participants with any note of diabetic retinopathy.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic retinopathy was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Binary EMR Characteristic: Pancreatitis</measure>
+    <time_frame>Up to 20 months</time_frame>
+    <description>The missing EMR characteristic pancreatitis defined as participants with any note of prior pancreatitis.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic pancreatitis was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+  </primary_outcome>
+  <number_of_groups>6</number_of_groups>
+  <enrollment type="Actual">166613</enrollment>
+  <condition>Diabetes Mellitus, Type 2</condition>
+  <arm_group>
+    <arm_group_label>Linagliptin1</arm_group_label>
+    <description>T2DM patients initiating Linagliptin (DPP-4 comparison)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Other DPP4</arm_group_label>
+    <description>T2DM patients initiating a non-linagliptin DPP-4 inhibitor</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Linagliptin2</arm_group_label>
+    <description>T2DM patients initiating Linagliptin (glitizaone comparison)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Glitazones</arm_group_label>
+    <description>T2DM patients initiating Thiazolidinediones (glitazones)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sulfonylurea</arm_group_label>
+    <description>T2DM patients initiating any medication in the Sulfonylurea class</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Linagliptin3</arm_group_label>
+    <description>T2DM patients initiating Linagliptin (Sulfonylurea comparison)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>linagliptin</intervention_name>
+    <description>non-randomized</description>
+    <arm_group_label>Linagliptin1</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        T2DM patients aged 18 or older, initiating antidiabetic treatment after at least 6 months
+        of continuous enrollment
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          -  Dispensing of an oral or non-insulin injected hypoglycemic medication between May 2011
+             and June 2012
+
+          -  Diagnosis of type 2 diabetes mellitus
+
+          -  Presence of electronic medical records (for the EMR-based subset)
+
+        Exclusion criteria:
+
+          -  Age &lt;18 at T2DM medication initiation
+
+          -  Missing or ambiguous age or sex information
+
+          -  At least one diagnosis of type 1 diabetes mellitus
+
+          -  Less than 6 months enrolment in the database preceding the date of the first
+             dispensing
+
+          -  Prior use of the index drug
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Boehringer Ingelheim</last_name>
+    <role>Study Chair</role>
+    <affiliation>Boehringer Ingelheim</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://trials.boehringer-ingelheim.com/</url>
+  </link>
+  <verification_date>December 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 14, 2014</study_first_submitted>
+  <study_first_submitted_qc>May 14, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 16, 2014</study_first_posted>
+  <results_first_submitted>March 29, 2016</results_first_submitted>
+  <results_first_submitted_qc>December 15, 2016</results_first_submitted_qc>
+  <results_first_posted type="Estimate">February 8, 2017</results_first_posted>
+  <last_update_submitted>December 15, 2016</last_update_submitted>
+  <last_update_submitted_qc>December 15, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">February 8, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 2</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Linagliptin</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Existing data cohort design using data from the MarketScan database from May 2011 through December 2012. 492963 potential patients were identified in the database, but after removing patients who violated inclusion and exclusion criteria 166613 patients were actually analysed in the study.</recruitment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Linagliptin 1</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+        </group>
+        <group group_id="P2">
+          <title>Any Other DPP-4</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+        </group>
+        <group group_id="P3">
+          <title>Linagliptin 2</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+        </group>
+        <group group_id="P4">
+          <title>Pioglitazone</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+        </group>
+        <group group_id="P5">
+          <title>Linagliptin 3</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+        </group>
+        <group group_id="P6">
+          <title>Second Generation Sulfonylurea</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="5732"/>
+                <participants group_id="P2" count="64695"/>
+                <participants group_id="P3" count="4441"/>
+                <participants group_id="P4" count="14363"/>
+                <participants group_id="P5" count="3436"/>
+                <participants group_id="P6" count="73946"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="243"/>
+                <participants group_id="P2" count="3041"/>
+                <participants group_id="P3" count="205"/>
+                <participants group_id="P4" count="530"/>
+                <participants group_id="P5" count="150"/>
+                <participants group_id="P6" count="3050"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="5489"/>
+                <participants group_id="P2" count="61654"/>
+                <participants group_id="P3" count="4236"/>
+                <participants group_id="P4" count="13833"/>
+                <participants group_id="P5" count="3286"/>
+                <participants group_id="P6" count="70896"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Not linked</title>
+              <participants_list>
+                <participants group_id="P1" count="5489"/>
+                <participants group_id="P2" count="61654"/>
+                <participants group_id="P3" count="4236"/>
+                <participants group_id="P4" count="13833"/>
+                <participants group_id="P5" count="3286"/>
+                <participants group_id="P6" count="70896"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>All patients who did not violate any inclusion/exclusion criteria.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Linagliptin 1</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+        </group>
+        <group group_id="B2">
+          <title>Any Other DPP-4</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+        </group>
+        <group group_id="B3">
+          <title>Linagliptin 2</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+        </group>
+        <group group_id="B4">
+          <title>Pioglitazone</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+        </group>
+        <group group_id="B5">
+          <title>Linagliptin 3</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+        </group>
+        <group group_id="B6">
+          <title>Second Generation Sulfonylurea</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+        </group>
+        <group group_id="B7">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="243"/>
+            <count group_id="B2" value="3041"/>
+            <count group_id="B3" value="205"/>
+            <count group_id="B4" value="530"/>
+            <count group_id="B5" value="150"/>
+            <count group_id="B6" value="3050"/>
+            <count group_id="B7" value="7219"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="56.1" spread="11.6"/>
+                    <measurement group_id="B2" value="54.8" spread="11.2"/>
+                    <measurement group_id="B3" value="55.2" spread="11.7"/>
+                    <measurement group_id="B4" value="54.7" spread="11.1"/>
+                    <measurement group_id="B5" value="54.7" spread="11.8"/>
+                    <measurement group_id="B6" value="54.8" spread="11.7"/>
+                    <measurement group_id="B7" value="54.9" spread="11.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="118"/>
+                    <measurement group_id="B2" value="1310"/>
+                    <measurement group_id="B3" value="101"/>
+                    <measurement group_id="B4" value="194"/>
+                    <measurement group_id="B5" value="74"/>
+                    <measurement group_id="B6" value="1332"/>
+                    <measurement group_id="B7" value="3129"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="125"/>
+                    <measurement group_id="B2" value="1731"/>
+                    <measurement group_id="B3" value="104"/>
+                    <measurement group_id="B4" value="336"/>
+                    <measurement group_id="B5" value="76"/>
+                    <measurement group_id="B6" value="1718"/>
+                    <measurement group_id="B7" value="4090"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Missing EMR (Electronic Medical Record) Characteristic: Smoking</title>
+        <description>The missing EMR characteristic smoking defined as current, unknown, versus past/never smoker.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic smoking was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+        <time_frame>Up to 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Missing EMR (Electronic Medical Record) Characteristic: Smoking</title>
+          <description>The missing EMR characteristic smoking defined as current, unknown, versus past/never smoker.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic smoking was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>Percentage of participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Current</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9.1"/>
+                    <measurement group_id="O2" value="7.6"/>
+                    <measurement group_id="O3" value="10.7"/>
+                    <measurement group_id="O4" value="7.9"/>
+                    <measurement group_id="O5" value="11.3"/>
+                    <measurement group_id="O6" value="9.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Past</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="12.3"/>
+                    <measurement group_id="O2" value="12.2"/>
+                    <measurement group_id="O3" value="12.2"/>
+                    <measurement group_id="O4" value="10.2"/>
+                    <measurement group_id="O5" value="10.7"/>
+                    <measurement group_id="O6" value="10.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Never</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="32.9"/>
+                    <measurement group_id="O2" value="35.5"/>
+                    <measurement group_id="O3" value="32.7"/>
+                    <measurement group_id="O4" value="30.8"/>
+                    <measurement group_id="O5" value="34.7"/>
+                    <measurement group_id="O6" value="33.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unknown</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.8"/>
+                    <measurement group_id="O2" value="4.9"/>
+                    <measurement group_id="O3" value="6.3"/>
+                    <measurement group_id="O4" value="5.1"/>
+                    <measurement group_id="O5" value="6.0"/>
+                    <measurement group_id="O6" value="6.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>C-statistics</param_type>
+            <param_value>0.624</param_value>
+            <estimate_desc>The C-statistics can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Missing EMR Characteristic: Duration of Diabetes</title>
+        <description>The missing EMR characteristic duration of diabetes defined as &gt;7, 5-6, 3-5, 1-3, &lt;1 (in years) in duration.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic duration of diabetes was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+        <time_frame>Up to 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Missing EMR Characteristic: Duration of Diabetes</title>
+          <description>The missing EMR characteristic duration of diabetes defined as &gt;7, 5-6, 3-5, 1-3, &lt;1 (in years) in duration.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic duration of diabetes was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>Percentage of participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Less than 1 year</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.9"/>
+                    <measurement group_id="O2" value="13.7"/>
+                    <measurement group_id="O3" value="12.7"/>
+                    <measurement group_id="O4" value="11.1"/>
+                    <measurement group_id="O5" value="16.0"/>
+                    <measurement group_id="O6" value="15.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1.00-2.99 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.5"/>
+                    <measurement group_id="O2" value="14.2"/>
+                    <measurement group_id="O3" value="11.2"/>
+                    <measurement group_id="O4" value="10.0"/>
+                    <measurement group_id="O5" value="12.7"/>
+                    <measurement group_id="O6" value="13.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3.00-4.99 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="7.8"/>
+                    <measurement group_id="O2" value="7.8"/>
+                    <measurement group_id="O3" value="7.8"/>
+                    <measurement group_id="O4" value="8.3"/>
+                    <measurement group_id="O5" value="7.3"/>
+                    <measurement group_id="O6" value="8.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>5.00-6.99 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4.9"/>
+                    <measurement group_id="O2" value="5.1"/>
+                    <measurement group_id="O3" value="3.9"/>
+                    <measurement group_id="O4" value="5.7"/>
+                    <measurement group_id="O5" value="4.0"/>
+                    <measurement group_id="O6" value="4.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>7+ years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.3"/>
+                    <measurement group_id="O2" value="5.3"/>
+                    <measurement group_id="O3" value="5.4"/>
+                    <measurement group_id="O4" value="5.8"/>
+                    <measurement group_id="O5" value="5.3"/>
+                    <measurement group_id="O6" value="4.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>C-statistcs</param_type>
+            <param_value>0.597</param_value>
+            <estimate_desc>The C-statistics can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Missing EMR Characteristic: Duration of Diabetes (Continuous)</title>
+        <description>The missing EMR characteristic duration of diabetes defined as starting year/starting age of diabetes.
+Linear regression models were ran using a prioritized list of claims-based covariates as predictors and the value of select EMR-based clinical characteristics duration of diabetes as continuous outcomes.
+The estimated value represented is actually prediction accuracy defined by R-squared.</description>
+        <time_frame>Up to 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Missing EMR Characteristic: Duration of Diabetes (Continuous)</title>
+          <description>The missing EMR characteristic duration of diabetes defined as starting year/starting age of diabetes.
+Linear regression models were ran using a prioritized list of claims-based covariates as predictors and the value of select EMR-based clinical characteristics duration of diabetes as continuous outcomes.
+The estimated value represented is actually prediction accuracy defined by R-squared.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>Months</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.5" spread="3.7"/>
+                    <measurement group_id="O2" value="3.1" spread="3.3"/>
+                    <measurement group_id="O3" value="3.4" spread="3.7"/>
+                    <measurement group_id="O4" value="3.5" spread="3.1"/>
+                    <measurement group_id="O5" value="3.0" spread="3.4"/>
+                    <measurement group_id="O6" value="2.9" spread="3.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>R-squared</param_type>
+            <param_value>0.0858</param_value>
+            <estimate_desc>The R-squared can be between 0 and 1 and a value of 0 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Missing EMR Characteristic: BMI (Body Mass Index)</title>
+        <description>The missing EMR characteristic BMI defined as not obese, overweight, obese, severe obesity.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic BMI was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+        <time_frame>Up to 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Missing EMR Characteristic: BMI (Body Mass Index)</title>
+          <description>The missing EMR characteristic BMI defined as not obese, overweight, obese, severe obesity.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic BMI was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>Percentage of participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Underweight</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.4"/>
+                    <measurement group_id="O2" value="0.1"/>
+                    <measurement group_id="O3" value="0.5"/>
+                    <measurement group_id="O4" value="0.0"/>
+                    <measurement group_id="O5" value="0.7"/>
+                    <measurement group_id="O6" value="0.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Normal</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.1"/>
+                    <measurement group_id="O2" value="3.9"/>
+                    <measurement group_id="O3" value="2.0"/>
+                    <measurement group_id="O4" value="3.4"/>
+                    <measurement group_id="O5" value="2.7"/>
+                    <measurement group_id="O6" value="4.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Overweight</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.5"/>
+                    <measurement group_id="O2" value="11.8"/>
+                    <measurement group_id="O3" value="13.7"/>
+                    <measurement group_id="O4" value="15.5"/>
+                    <measurement group_id="O5" value="10.7"/>
+                    <measurement group_id="O6" value="14.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Obese</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="35.4"/>
+                    <measurement group_id="O2" value="35.1"/>
+                    <measurement group_id="O3" value="35.1"/>
+                    <measurement group_id="O4" value="29.6"/>
+                    <measurement group_id="O5" value="36.0"/>
+                    <measurement group_id="O6" value="34.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Severe Obesity</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="16.5"/>
+                    <measurement group_id="O2" value="15.5"/>
+                    <measurement group_id="O3" value="16.1"/>
+                    <measurement group_id="O4" value="10.9"/>
+                    <measurement group_id="O5" value="16.0"/>
+                    <measurement group_id="O6" value="15.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>C-statistics</param_type>
+            <param_value>0.623</param_value>
+            <estimate_desc>The C-statistics can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Missing EMR Characteristic: BMI (Continuous)</title>
+        <description>The missing EMR characteristic BMI is BMI value. Linear regression models were ran using a prioritized list of claims-based covariates as predictors and the value of select EMR-based clinical characteristics BMI as continuous outcomes.
+The estimated value represented is actually prediction accuracy defined by R-squared.</description>
+        <time_frame>Up to 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Missing EMR Characteristic: BMI (Continuous)</title>
+          <description>The missing EMR characteristic BMI is BMI value. Linear regression models were ran using a prioritized list of claims-based covariates as predictors and the value of select EMR-based clinical characteristics BMI as continuous outcomes.
+The estimated value represented is actually prediction accuracy defined by R-squared.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>Kg/m^2</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="36.3" spread="8.5"/>
+                    <measurement group_id="O2" value="35.5" spread="8.0"/>
+                    <measurement group_id="O3" value="36.1" spread="8.8"/>
+                    <measurement group_id="O4" value="34.2" spread="7.0"/>
+                    <measurement group_id="O5" value="36.6" spread="9.2"/>
+                    <measurement group_id="O6" value="35.1" spread="7.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>R-squared</param_type>
+            <param_value>0.1753</param_value>
+            <estimate_desc>The R-squared can be between 0 and 1 and a value of 0 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Missing EMR Characteristic: HbA1c (Hemoglobin A1c (Glycosylated Hemoglobin))</title>
+        <description>The missing EMR characteristic HbA1c defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic HbA1c was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+        <time_frame>Up to 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Missing EMR Characteristic: HbA1c (Hemoglobin A1c (Glycosylated Hemoglobin))</title>
+          <description>The missing EMR characteristic HbA1c defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic HbA1c was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>Percentage</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8.2" spread="1.4"/>
+                    <measurement group_id="O2" value="8.6" spread="1.9"/>
+                    <measurement group_id="O3" value="8.3" spread="1.4"/>
+                    <measurement group_id="O4" value="9.0" spread="2.2"/>
+                    <measurement group_id="O5" value="8.0" spread="1.5"/>
+                    <measurement group_id="O6" value="8.8" spread="2.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>C-statistics</param_type>
+            <param_value>0.699</param_value>
+            <estimate_desc>The C-statistics can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Missing EMR Characteristic: eGFR (Glomerular Filtration Rate)</title>
+        <description>The missing EMR characteristic eGFR defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic eGFR was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+        <time_frame>Upto 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Missing EMR Characteristic: eGFR (Glomerular Filtration Rate)</title>
+          <description>The missing EMR characteristic eGFR defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic eGFR was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>ml/min per 1.73 m^2</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="103.8" spread="19.2"/>
+                    <measurement group_id="O2" value="107.0" spread="18.0"/>
+                    <measurement group_id="O3" value="104.9" spread="18.7"/>
+                    <measurement group_id="O4" value="108.7" spread="19.3"/>
+                    <measurement group_id="O5" value="105.5" spread="18.5"/>
+                    <measurement group_id="O6" value="106.8" spread="18.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>C-statistics</param_type>
+            <param_value>0.683</param_value>
+            <estimate_desc>The C-statistics can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Missing EMR Characteristic: Total Cholesterol</title>
+        <description>The missing EMR characteristic total cholesterol defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic total cholesterol was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+        <time_frame>Up to 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Missing EMR Characteristic: Total Cholesterol</title>
+          <description>The missing EMR characteristic total cholesterol defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic total cholesterol was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>mg/dl</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="188.8" spread="59.7"/>
+                    <measurement group_id="O2" value="177.6" spread="47.0"/>
+                    <measurement group_id="O3" value="189.7" spread="62.9"/>
+                    <measurement group_id="O4" value="185.8" spread="58.8"/>
+                    <measurement group_id="O5" value="194.6" spread="53.1"/>
+                    <measurement group_id="O6" value="185.8" spread="50.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>C-statistics</param_type>
+            <param_value>0.757</param_value>
+            <estimate_desc>The C-statistics can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Missing EMR Characteristic: Systolic BP (Blood Pressure)</title>
+        <description>The missing EMR characteristic systolic BP defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic systolic BP was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+        <time_frame>Up to 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Missing EMR Characteristic: Systolic BP (Blood Pressure)</title>
+          <description>The missing EMR characteristic systolic BP defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic systolic BP was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>mmHg</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="130.2" spread="16.3"/>
+                    <measurement group_id="O2" value="129.7" spread="15.7"/>
+                    <measurement group_id="O3" value="131.0" spread="16.1"/>
+                    <measurement group_id="O4" value="131.5" spread="17.2"/>
+                    <measurement group_id="O5" value="131.2" spread="17.3"/>
+                    <measurement group_id="O6" value="131.3" spread="17.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>C-statistics</param_type>
+            <param_value>0.618</param_value>
+            <estimate_desc>The C-statistics can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Missing EMR Characteristic: Diastolic BP</title>
+        <description>The missing EMR characteristic diastolic BP defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic diastolic BP was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+        <time_frame>Up to 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Missing EMR Characteristic: Diastolic BP</title>
+          <description>The missing EMR characteristic diastolic BP defined as value in 6 months prior to and including index date.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic diastolic BP was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>mmHg</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="79.5" spread="10.6"/>
+                    <measurement group_id="O2" value="78.8" spread="10.0"/>
+                    <measurement group_id="O3" value="80.0" spread="10.2"/>
+                    <measurement group_id="O4" value="79.3" spread="10.6"/>
+                    <measurement group_id="O5" value="80.0" spread="10.5"/>
+                    <measurement group_id="O6" value="79.6" spread="10.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>C-statistics</param_type>
+            <param_value>0.618</param_value>
+            <estimate_desc>The C-statistics can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Binary EMR Characteristic: Neuropathy</title>
+        <description>The missing EMR characteristic neuropathy defined as participants with any note of diabetic neuropathy.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic neuropathy was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+        <time_frame>Up to 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Binary EMR Characteristic: Neuropathy</title>
+          <description>The missing EMR characteristic neuropathy defined as participants with any note of diabetic neuropathy.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic neuropathy was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>Percentage of participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9.9"/>
+                    <measurement group_id="O2" value="10.0"/>
+                    <measurement group_id="O3" value="10.7"/>
+                    <measurement group_id="O4" value="11.3"/>
+                    <measurement group_id="O5" value="12.0"/>
+                    <measurement group_id="O6" value="11.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>C-statistics</param_type>
+            <param_value>0.733</param_value>
+            <estimate_desc>The C-statistics can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Binary EMR Characteristic: Nephropathy</title>
+        <description>The missing EMR characteristic nephropathy defined as participants with any note of diabetic nephropathy.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic nephropathy was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+        <time_frame>Upto 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Binary EMR Characteristic: Nephropathy</title>
+          <description>The missing EMR characteristic nephropathy defined as participants with any note of diabetic nephropathy.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic nephropathy was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>Percentage of participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.8"/>
+                    <measurement group_id="O2" value="3.2"/>
+                    <measurement group_id="O3" value="5.9"/>
+                    <measurement group_id="O4" value="4.3"/>
+                    <measurement group_id="O5" value="4.7"/>
+                    <measurement group_id="O6" value="3.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>C-statistics</param_type>
+            <param_value>0.827</param_value>
+            <estimate_desc>The C-statistics can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Binary EMR Characteristic: Retinopathy</title>
+        <description>The missing EMR characteristic retinopathy defined as participants with any note of diabetic retinopathy.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic retinopathy was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+        <time_frame>Up to 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Binary EMR Characteristic: Retinopathy</title>
+          <description>The missing EMR characteristic retinopathy defined as participants with any note of diabetic retinopathy.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic retinopathy was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>Percentage of participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.2"/>
+                    <measurement group_id="O2" value="1.9"/>
+                    <measurement group_id="O3" value="1.0"/>
+                    <measurement group_id="O4" value="2.8"/>
+                    <measurement group_id="O5" value="1.3"/>
+                    <measurement group_id="O6" value="1.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>C-statistics</param_type>
+            <param_value>0.801</param_value>
+            <estimate_desc>The C-statistics can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Binary EMR Characteristic: Pancreatitis</title>
+        <description>The missing EMR characteristic pancreatitis defined as participants with any note of prior pancreatitis.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic pancreatitis was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+        <time_frame>Up to 20 months</time_frame>
+        <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Linagliptin 1</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to any other DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O2">
+            <title>Any Other DPP-4</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication DPP-4 (Dipeptidyl peptidase-4 inhibitors).</description>
+          </group>
+          <group group_id="O3">
+            <title>Linagliptin 2</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to pioglitazone.</description>
+          </group>
+          <group group_id="O4">
+            <title>Pioglitazone</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication pioglitazone.</description>
+          </group>
+          <group group_id="O5">
+            <title>Linagliptin 3</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication Linagliptin subjects matched to second generation sulfonylurea.</description>
+          </group>
+          <group group_id="O6">
+            <title>Second Generation Sulfonylurea</title>
+            <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication second generation sulfonylurea.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Binary EMR Characteristic: Pancreatitis</title>
+          <description>The missing EMR characteristic pancreatitis defined as participants with any note of prior pancreatitis.
+The associations between claims-based covariates and missingness on EMR characteristics were investigated by estimating a logistic regression model (and multinomial logistic regression, depending on the number of categories for the EMR characteristic) for each EMR characteristic where an indicator for missing the EMR characteristic pancreatitis was the dependent variable and all claims-based covariates were included as independent variables.
+The estimated value represented is actually prediction accuracy defined by C-statistics.</description>
+          <population>All subjects in MarketScan cohort meeting inclusion/exclusion criteria. EMR-linked subset: From the study group we identified patients who have EMR data available.</population>
+          <units>Percentage of participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="243"/>
+                <count group_id="O2" value="3041"/>
+                <count group_id="O3" value="205"/>
+                <count group_id="O4" value="530"/>
+                <count group_id="O5" value="150"/>
+                <count group_id="O6" value="3050"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.8"/>
+                    <measurement group_id="O2" value="0.5"/>
+                    <measurement group_id="O3" value="1.0"/>
+                    <measurement group_id="O4" value="0.2"/>
+                    <measurement group_id="O5" value="0.7"/>
+                    <measurement group_id="O6" value="0.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+              <group_id>O5</group_id>
+              <group_id>O6</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>C-statistics</param_type>
+            <param_value>0.836</param_value>
+            <estimate_desc>The C-statistics can be between 0.5 and 1 and a value of 0.5 indicates that the model is no better than chance at making a prediction and a value of 1.0 indicates that the model perfectly identifies those within a group and those not.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <desc>Serious and other (non-serious) adverse events were not of interest in this study and therefore were not collected or assessed as part of the study, in addition individual patient data is not available therefore adverse event data is not presented.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>MarketScan</title>
+          <description>Patients had a recorded diagnosis of type 2 diabetes mellitus (T2DM) using an oral and non-insulin injected glucose-lowering medication identified from the MarketScan database.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>Boehringer Ingelheim (BI) acknowledges that investigators have the right to publish the study results. Investigators shall provide BI with a copy of any publication or presentation for review prior to any submission. Such review will be done with regard to proprietary information, information related to patentable inventions, medical, scientific, and statistical accuracy within 60 days. BI may request a delay of the publication in order to protect BI's intellectual property rights.</restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Boehringer Ingelheim Call Center</name_or_title>
+      <organization>Boehringer Ingelheim (BI)</organization>
+      <phone>1800-243-0127</phone>
+      <email>clintriage.rdg@boehringer-ingelheim.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

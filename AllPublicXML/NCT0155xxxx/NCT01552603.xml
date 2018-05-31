@@ -1,0 +1,555 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01552603</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2011.11</org_study_id>
+    <nct_id>NCT01552603</nct_id>
+  </id_info>
+  <brief_title>Artificial Pancreas Control System in an Inpatient Setting</brief_title>
+  <official_title>Sensor-controlled Insulin- and Glucagon Delivery in Subjects With Type 1 Diabetes: Testing of an Automated System in a Supervised Inpatient Setting</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Legacy Health System</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Juvenile Diabetes Research Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Legacy Health System</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to verify an automated system of blood glucose control in Type I
+      Diabetics. The automated system consists of the investigational Artificial Pancreas Control
+      software (APC), two blood glucose sensors, and two hormone pumps, one for delivering insulin
+      to lower blood sugar, and the second for delivering glucagon to raise blood sugar. The blood
+      glucose sensors relays information to the Artificial Pancreas software, which uses the
+      Adaptive Proportional Device algorithm to determine the rate of insulin and glucagon infusion
+      by the hormone pumps. In prior studies, the Adaptive Proportional Device algorithm has been
+      verified, but required manual input into the computer and hormone pumps. This study differs
+      in that it uses a fully automated system under the control of the Artificial Pancreas Control
+      software. The importance of this change is that it is the next step to enable outpatient use
+      of automated, closed loop blood glucose control.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The objective of the current human study is to verify the components of the Artificial
+      Pancreas Control system during an inpatient study. This master controller software is
+      designed to be used in conjunction with two subcutaneous continuous glucose monitoring
+      systems to regulate blood glucose levels as well as two Omnipod pumps, one for administering
+      insulin and one for administering glucagon. The sensors communicate wirelessly with two
+      sensor receivers which will be interfaced with the APC by wireless USB connection. The
+      insulin and glucagon pumps will be controlled by the APC through a wireless USB connection.
+      The algorithm included in the APC is an automated version of the Adaptive Proportional
+      Derivative (APD) insulin and glucagon control algorithm, which was previously studied as an
+      investigational device. The APD has been studied in vivo (in 28 experiments, each 33 hr in
+      length, with manual adjustment of pumps) and no serious adverse effects were noted. Manual
+      input of the glucose sensor data and insulin/glucagon infusion rates will no longer be
+      necessary. The APC will be tested in vivo during 28 hour experiments in an inpatient setting
+      in preparation for outpatient testing.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2012</start_date>
+  <completion_date type="Actual">September 2013</completion_date>
+  <primary_completion_date type="Actual">August 2013</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mean Percent of Time in Target Blood Glucose Range</measure>
+    <time_frame>all 28 hour studies</time_frame>
+    <description>Mean percent of time venous blood glucose was sampled between 70-180 mg/dl</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mean Deviation From Target Blood Glucose</measure>
+    <time_frame>all 28 hour studies</time_frame>
+    <description>Mean difference of venous blood glucose from glucose target. Daytime venous blood glucose values (7am-11pm) subtracted from daytime target of 115 mg/dl. Nighttime venous blood glucose values (11pm-7am) subtracted from nighttime target of 140 mg/dl. This is a metric of how successful the closed loop algorithm was at controlling glucose.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">14</enrollment>
+  <condition>Type I Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Artificial Pancreas Control</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Type 1 Diabetes Mellitus subjects who fit the inclusion/exclusion criteria will undergo artificial pancreas closed-loop study for 28 hours. For the entire study, the adaptive component of Artificial Pancreas Control Software will be used to control the subject's blood glucose.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Artificial Pancreas Control Software</intervention_name>
+    <description>This master controller software is used in conjunction with two subcutaneous continuous glucose monitoring systems and two Omnipod pumps, one for administering aspart insulin (NovoLog) and one for administering glucagon (GlucaGen), to control blood glucose levels. The insulin and glucagon infusion rates are determined by an automated version of the Adaptive Proportional Derivative (APD) insulin and glucagon control algorithm.</description>
+    <arm_group_label>Artificial Pancreas Control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosis of type 1 diabetes mellitus for at least 1 year.
+
+          -  Male or female subjects 21 to 65 years of age.
+
+          -  Current use of an insulin pump.
+
+          -  Willingness to follow all study procedures, including attending all clinic visits.
+
+          -  Willingness to sign informed consent and HIPAA documents.
+
+        Exclusion Criteria:
+
+          -  Pregnancy or Lactation: For women of childbearing potential: there is a requirement
+             for a negative urine pregnancy test and for agreement to use contraception during the
+             study and for at least 1 month after participating in the study. Acceptable
+             contraception includes birth control pill / patch / vaginal ring, Depo-Provera,
+             Norplant, an IUD, the double barrier method (the woman uses a diaphragm and spermicide
+             and the man uses a condom), or abstinence.
+
+          -  Renal insufficiency (serum creatinine of 2.0 mg/dL or greater).
+
+          -  Serum ALT or AST equal to or greater than 3 times the upper limit of normal; hepatic
+             synthetic insufficiency as defined as a serum albumin of less than 3.3 g/dL; or serum
+             bilirubin of over 2.
+
+          -  Adrenal insufficiency
+
+          -  Hematocrit of less than or equal to 34%.
+
+          -  A history of cerebrovascular disease or coronary artery disease regardless of the time
+             since occurrence.
+
+          -  Congestive heart failure, NYHA class III or IV.
+
+          -  Diagnosis of 2nd or 3rd degree heart block or any arrhythmia judged by the
+             investigator to be exclusionary.
+
+          -  Any active infection.
+
+          -  Visual impairment preventing reading of glucose meter values or continuous glucose
+             monitoring device.
+
+          -  Physical impairment impeding the ability to use a glucose meter or glucose monitoring
+             device.
+
+          -  Active foot ulceration.
+
+          -  Severe peripheral arterial disease characterized by ischemic rest pain or severe
+             claudication.
+
+          -  Active alcohol abuse, substance abuse, or severe mental illness (as judged by the
+             principal investigator).
+
+          -  Active malignancy, except basal cell or squamous cell skin cancers.
+
+          -  Major surgical operation within 30 days prior to screening.
+
+          -  Seizure disorder.
+
+          -  Chronic usage of any immunosuppressive medication (such as cyclosporine, azathioprine,
+             sirolimus, or tacrolimus).
+
+          -  Current administration of oral or parenteral corticosteroids.
+
+          -  Use of an investigational drug within 30 days prior to screening.
+
+          -  Bleeding disorder, treatment with warfarin, or platelet count below 50,000.
+
+          -  Allergy to aspart insulin.
+
+          -  Allergy to glucagon.
+
+          -  Past history of pheochromocytoma or a family history of MEN 2, neurofibromatosis, or
+             von Hippel-Lindau disease.
+
+          -  Insulin resistance requiring more than 200 units per day.
+
+          -  Need for uninterrupted treatment of acetaminophen.
+
+          -  Intolerance of mild hypoglycemia (glucose 60-70 mg/dl).
+
+          -  History of hypoglycemic unawareness.
+
+          -  Insulin antibody level of ≥ 100 µUnits/ml.
+
+          -  C peptide level of ≥0.5 ng/ml.
+
+          -  Any concurrent illness, other than diabetes, that is not controlled by a stable
+             therapeutic regimen.
+
+          -  Any reason the principal investigator deems exclusionary
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>W K Ward, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Legacy Health Research</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Legacy Good Samaritan Hospital</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97210</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Oregon Health and Science University</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97239</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>El Youssef J, Castle JR, Branigan DL, Massoud RG, Breen ME, Jacobs PG, Bequette BW, Ward WK. A controlled study of the effectiveness of an adaptive closed-loop algorithm to minimize corticosteroid-induced stress hyperglycemia in type 1 diabetes. J Diabetes Sci Technol. 2011 Nov 1;5(6):1312-26.</citation>
+    <PMID>22226248</PMID>
+  </reference>
+  <verification_date>April 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 22, 2012</study_first_submitted>
+  <study_first_submitted_qc>March 9, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 13, 2012</study_first_posted>
+  <results_first_submitted>September 8, 2014</results_first_submitted>
+  <results_first_submitted_qc>September 15, 2014</results_first_submitted_qc>
+  <results_first_posted type="Estimate">September 17, 2014</results_first_posted>
+  <last_update_submitted>April 27, 2016</last_update_submitted>
+  <last_update_submitted_qc>April 27, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">June 3, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Legacy Health System</investigator_affiliation>
+    <investigator_full_name>W. Kenneth Ward</investigator_full_name>
+    <investigator_title>Senior Scientist</investigator_title>
+  </responsible_party>
+  <keyword>glucose sensors</keyword>
+  <keyword>artificial pancreas</keyword>
+  <keyword>Diabetes Mellitus</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pancrelipase</mesh_term>
+    <mesh_term>Pancreatin</mesh_term>
+    <mesh_term>Glucagon</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Artificial Pancreas Control</title>
+          <description>Type 1 Diabetes Mellitus subjects who fit the inclusion/exclusion criteria will undergo artificial pancreas closed-loop study for 28 hours. For the entire study, the adaptive component of Artificial Pancreas Control Software will be used to control the subject's blood glucose.
+Artificial Pancreas Control Software: This master controller software is used in conjunction with two subcutaneous continuous glucose monitoring systems and two Omnipod pumps, one for administering aspart insulin (NovoLog) and one for administering glucagon (GlucaGen), to control blood glucose levels. The insulin and glucagon infusion rates are determined by an automated version of the Adaptive Proportional Derivative (APD) insulin and glucagon control algorithm.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="14"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="13"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Physician Decision</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Artificial Pancreas Control</title>
+          <description>Type 1 Diabetes Mellitus subjects who fit the inclusion/exclusion criteria will undergo artificial pancreas closed-loop study for 28 hours. For the entire study, the adaptive component of Artificial Pancreas Control Software will be used to control the subject's blood glucose.
+Artificial Pancreas Control Software: This master controller software is used in conjunction with two subcutaneous continuous glucose monitoring systems and two Omnipod pumps, one for administering aspart insulin (NovoLog) and one for administering glucagon (GlucaGen), to control blood glucose levels. The insulin and glucagon infusion rates are determined by an automated version of the Adaptive Proportional Derivative (APD) insulin and glucagon control algorithm.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="14"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Mean Percent of Time in Target Blood Glucose Range</title>
+        <description>Mean percent of time venous blood glucose was sampled between 70-180 mg/dl</description>
+        <time_frame>all 28 hour studies</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Artificial Pancreas Control</title>
+            <description>Type 1 Diabetes Mellitus subjects who fit the inclusion/exclusion criteria will undergo artificial pancreas closed-loop study for 28 hours. For the entire study, the adaptive component of Artificial Pancreas Control Software will be used to control the subject's blood glucose.
+Artificial Pancreas Control Software: This master controller software is used in conjunction with two subcutaneous continuous glucose monitoring systems and two Omnipod pumps, one for administering aspart insulin (NovoLog) and one for administering glucagon (GlucaGen), to control blood glucose levels. The insulin and glucagon infusion rates are determined by an automated version of the Adaptive Proportional Derivative (APD) insulin and glucagon control algorithm.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Mean Percent of Time in Target Blood Glucose Range</title>
+          <description>Mean percent of time venous blood glucose was sampled between 70-180 mg/dl</description>
+          <units>percentage of time</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="62.4" spread="7.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Mean Deviation From Target Blood Glucose</title>
+        <description>Mean difference of venous blood glucose from glucose target. Daytime venous blood glucose values (7am-11pm) subtracted from daytime target of 115 mg/dl. Nighttime venous blood glucose values (11pm-7am) subtracted from nighttime target of 140 mg/dl. This is a metric of how successful the closed loop algorithm was at controlling glucose.</description>
+        <time_frame>all 28 hour studies</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Artificial Pancreas Control</title>
+            <description>Type 1 Diabetes Mellitus subjects who fit the inclusion/exclusion criteria will undergo artificial pancreas closed-loop study for 28 hours. For the entire study, the adaptive component of Artificial Pancreas Control Software will be used to control the subject's blood glucose.
+Artificial Pancreas Control Software: This master controller software is used in conjunction with two subcutaneous continuous glucose monitoring systems and two Omnipod pumps, one for administering aspart insulin (NovoLog) and one for administering glucagon (GlucaGen), to control blood glucose levels. The insulin and glucagon infusion rates are determined by an automated version of the Adaptive Proportional Derivative (APD) insulin and glucagon control algorithm.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Mean Deviation From Target Blood Glucose</title>
+          <description>Mean difference of venous blood glucose from glucose target. Daytime venous blood glucose values (7am-11pm) subtracted from daytime target of 115 mg/dl. Nighttime venous blood glucose values (11pm-7am) subtracted from nighttime target of 140 mg/dl. This is a metric of how successful the closed loop algorithm was at controlling glucose.</description>
+          <units>mg/dl</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="59.9" spread="51.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Artificial Pancreas Control</title>
+          <description>Type 1 Diabetes Mellitus subjects who fit the inclusion/exclusion criteria will undergo artificial pancreas closed-loop study for 28 hours. For the entire study, the adaptive component of Artificial Pancreas Control Software will be used to control the subject's blood glucose.
+Artificial Pancreas Control Software: This master controller software is used in conjunction with two subcutaneous continuous glucose monitoring systems and two Omnipod pumps, one for administering aspart insulin (NovoLog) and one for administering glucagon (GlucaGen), to control blood glucose levels. The insulin and glucagon infusion rates are determined by an automated version of the Adaptive Proportional Derivative (APD) insulin and glucagon control algorithm.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="14"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="14"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Blood and lymphatic system disorders</title>
+            <event_list>
+              <event>
+                <sub_title>hematoma</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="14"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Gastrointestinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>nausea</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="14"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Kenneth Ward</name_or_title>
+      <organization>Legacy Health System</organization>
+      <phone>971-570-2632</phone>
+      <email>kenward503@msn.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

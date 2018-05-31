@@ -1,0 +1,168 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02668549</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Observational Study 4A</org_study_id>
+    <secondary_id>2065-4A</secondary_id>
+    <nct_id>NCT02668549</nct_id>
+  </id_info>
+  <brief_title>Cross-Sectional Study to Define and Validate &quot;Doctor/Pharmacy Shopping&quot; as Outcomes Suggestive of Abuse and/or Addiction</brief_title>
+  <official_title>Cross-Sectional Study to Define and Validate &quot;Doctor/Pharmacy Shopping&quot; as Outcomes Suggestive of Abuse and/or Addiction</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Member Companies of the Opioid PMR Consortium</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>World Health Information Science Consultants, LLC</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>IMS Health</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Member Companies of the Opioid PMR Consortium</source>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to formulate definitions of doctor/pharmacy shopping and
+      evaluate its association with abuse/addiction
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Based on a review of the literature, the Food and Drug Administration (FDA) concluded that
+      more data are needed regarding the serious risks of misuse, abuse, addiction, overdose, and
+      death associated with the long-term use of extended release/long acting (ER/LA) opioid
+      analgesics. Thus, the FDA is requiring that ER/LA opioid analgesic drug sponsors conduct
+      post-marketing studies to assess these risks. The four observational post-marketing
+      requirement (PMR) studies are labeled Study #2065-1, Study #2065-2, Study #2065-3, and Study
+      #2065-4.
+
+      The objective of PMR Study #2065-4 is to define and validate &quot;doctor/pharmacy shopping&quot; as
+      outcomes suggestive of misuse, abuse and/or addiction.
+
+      Study #2065-4 consists of three sub-studies, Study 4A, Study 4B, and Study 4C. In the current
+      study (#2065 sub-study, Study 4A), the IMS® LRx database, a longitudinal pharmacy database
+      that captures both third-party and self-pay transactions, will be linked to the PharMetrics
+      Plus™ database, which contains provider, facility and pharmacy claims. From these databases,
+      patients with shopping behavior will be identified and evaluated against an algorithm for
+      abuse/addiction that will be developed and validated in PMR Study #2065-3B. Study #2065-3B
+      will review the literature for health information suggestive of abuse/addiction in medical
+      charts and medical claims. Then, through iterative processes that involve experts reviewing
+      claims profiles and medical charts, text searches of medical records using natural language
+      processing and supervised machine learning will identify and create a compilation of codes
+      and health information with the best specificity and sensitivity to identify patients with
+      opioid abuse/addiction. The compilation of codes and health information will be used to
+      develop the algorithm that Study 4A will apply to define abuse/addiction. Restricting the
+      validation of shopping behavior to only patients with diagnoses related to abuse would ignore
+      the population with undiagnosed abuse. By supplementing ICD-9 codes with other information
+      available on claims (e.g., addiction treatments, emergency visits) to define abuse/addiction,
+      the measurement bias will be decreased and the estimates of the association of shopping
+      behavior with abuse/addiction will be more valid. Categories of doctor shopping will be
+      derived from the population distributions of the multiple variables analyzed for opioid
+      users. The 4 categories will range from no shopping behavior (lowest level) to extensive
+      shopping behavior (most extreme). The specifics of how the categories will be defined will be
+      driven by the data.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <primary_completion_date type="Anticipated">January 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Numbers and proportions of patients with shopping behavior</measure>
+    <time_frame>Retrospective review over 18 month period starting with first dispensing in 2012</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sensitivity and predictive value of different levels of shopping behavior in relation with Algorithmically Identified Abuse and Addiction (AIAA)</measure>
+    <time_frame>Retrospective review over 18 month period starting with first dispensing in 2012</time_frame>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">164000</enrollment>
+  <condition>Opioid-Related Disorders</condition>
+  <condition>Opiate Addiction</condition>
+  <condition>Narcotic Abuse</condition>
+  <condition>Drug Abuse</condition>
+  <arm_group>
+    <arm_group_label>Patients with Opioid dispensings</arm_group_label>
+    <description>Patients receiving two or more opioid dispensings within 18 months</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients with Diuretic dispensings (neg control)</arm_group_label>
+    <description>Patients receiving two or more Diuretics dispensings within 18 months will serve as negative control</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>DB review for Doctor/Pharmacy Shopping Behavior</intervention_name>
+    <description>Database review to evaluate of doctor/pharmacy shopping behaviors</description>
+    <arm_group_label>Patients with Opioid dispensings</arm_group_label>
+    <arm_group_label>Patients with Diuretic dispensings (neg control)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients (18 years of age or older) with data in both IMS LRx and PharMetrics Plus,
+        who also have a minimum of two dispensings for IR or ER/LA opioids or two or more diuretic
+        dispensings. The first of these dispensings will have occurred in 2012 and an additional
+        dispensing within 18 months after the first. Dispensings will be determined from the IMS
+        LRx database.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Age ≥ 18 years
+
+          2. Minimum of two dispensings for IR or ER/LA opioids or two or more diuretic dispensings
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Soledad Cepeda, MD, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Janssen Research and Development</affiliation>
+  </overall_official>
+  <verification_date>April 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 20, 2016</study_first_submitted>
+  <study_first_submitted_qc>January 26, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 29, 2016</study_first_posted>
+  <last_update_submitted>April 26, 2017</last_update_submitted>
+  <last_update_submitted_qc>April 26, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 27, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Behavior, Addictive</mesh_term>
+    <mesh_term>Substance-Related Disorders</mesh_term>
+    <mesh_term>Opioid-Related Disorders</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

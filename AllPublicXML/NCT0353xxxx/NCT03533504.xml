@@ -1,0 +1,213 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03533504</url>
+  </required_header>
+  <id_info>
+    <org_study_id>14-601-D</org_study_id>
+    <nct_id>NCT03533504</nct_id>
+  </id_info>
+  <brief_title>Web Accessible Population Pharmacokinetics Service - Hemophilia: Sources of Variability</brief_title>
+  <acronym>WAPPS-Hemo</acronym>
+  <official_title>Exploring Sources of Variability in Individual Pharmacokinetics of Factor VIII and IX Concentrates in Hemophilia in the Web Accessible Population Pharmacokinetics Service - Hemophilia (WAPPS-Hemo) Database</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>McMaster University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>McMaster University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Using anonymized patient data collected as part of the WAPPS-Hemo project to explore the
+      sources of variability in individual pharmacokinetics (PK); use the sources of variability to
+      improve the performance of the WAPPS-Hemo models through the addition of the predictors of PK
+      variability as covariates.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Innovation and expected results: As the classical PK approach typically requires 11 samples,
+      which can be a burden to the patient, specific subgroups of individuals are often excluded
+      from analysis—including children, elderly and critical care patients. As WAPPS-Hemo is the
+      largest database of individual PK data, a large subgroup of pediatric patients and patients
+      with inhibitors are available for investigation, allowing for analysis of variability in
+      previously unavailable groups. Determining predictors of variability within patient outcome
+      will allow us to improve the current models used to estimate individual PK, resulting in
+      better individual care and use of resources.
+
+      Eligibility criteria: All valid data in the WAPPS-Hemo database will be used. All factor
+      concentrates will be included. All available covariates will be analyzed.
+
+      Patients: Individuals with hemophilia A or B, any severity, who are registered on WAPPS-Hemo
+      and for whom infusion and/or PK data are available. Both adult and pediatric patients will be
+      included. Patients with history of inhibitors will be included as a separate subgroup.
+
+      Available covariates: age, sex, weight, height, dose and type of factor administered (as
+      total and IU/kg), blood group, baseline factor level, positive history of inhibitors,
+      hematocrit, hemoglobin, serum creatinine and laboratory methods used to measure factor VIII
+      and factor IX.
+
+      Design: retrospective data analysis
+
+      Study database: The WAPPS-Hemo database will be used for the study. WAPPS-Hemo is a web
+      accessible platform developed and run by the Health Information Research Unit (HiRU) at
+      McMaster University. Data have been provided from participating hemophilia treatment centers
+      worldwide to the scope of obtaining individual PK estimates. Data collected are completely
+      anonymized, and re-use of the data for modelling and validation purposes was agreed upon by
+      the inputting physicians, who committed to inform their patients about use of their data for
+      system improvement.
+
+      Data extraction procedure: Data will be extracted from the WAPPS-Hemo database after
+      transforming the centre name into a numeric code. The data extracted will include: patient
+      age, sex, weight, height, dose and type of factor administered (as total and IU/kg), blood
+      group, baseline factor level, positive history of inhibitors, hematocrit, hemoglobin, serum
+      creatinine, laboratory methods used to measure factor VIII and factor IX, infused dose,
+      post-infusion measurement of plasma factor activity level, estimated terminal half-life and
+      time to 0.01, 0.02, and 0.05 IU/mL, with their credibility intervals, area under the curve
+      (AUC), central volume, and clearance. Once extracted, the data will be stored in a secure
+      server, located within the local network of the HiRU, protected by a proxy server and
+      firewall.
+
+      Data cleaning: Once extracted, the data will be cleaned. Duplicate submissions will be
+      removed, and all original data that has been duplicated from merged infusions will be
+      deleted. Any data not valid for modelling, such as user input errors, insufficient data, or
+      conditions that exclude use of patient data (such as use of inhibitors) will be removed and
+      excluded from analysis. The dataset will be analyzed to search for outliers. Input errors
+      missed at the source will be corrected where the incorrect measurement has been used (i.e.
+      weight, height).
+
+      Data Analysis: Multivariate hierarchical analysis will be performed on various factors (age,
+      sex, weight, height, dose and type of factor administered (as total and IU/kg), blood group,
+      baseline factor level, positive history of inhibitors, hematocrit, hemoglobin, and serum
+      creatinine, laboratory methods used to measure factor VIII and factor IX) to explore sources
+      of variability in patient outcome. Significant predictors will be used as covariates in
+      improvement of the model.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">May 9, 2018</start_date>
+  <completion_date type="Anticipated">June 30, 2019</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sources of variability in individual pharmacokinetics for factor VII and IX concentrates</measure>
+    <time_frame>2 years</time_frame>
+    <description>Multivariate hierarchical analysis will be performed on various factors (age, sex, weight, height, dose and type of factor administered (as total and IU/kg), blood group, baseline factor level, positive history of inhibitors, hematocrit, hemoglobin, and serum creatinine, laboratory methods used to measure factor VIII and factor IX) to explore sources of variability in patient outcome. Significant predictors will be used as covariates to improve the performance of WAPPS-Hemo models.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Hemophilia A</condition>
+  <condition>Hemophilia B</condition>
+  <arm_group>
+    <arm_group_label>Variability in individual PK</arm_group_label>
+    <description>Patients with hemophilia A or B, of any severity, who are registered on the web-accessible population pharmacokinetics- hemophilia (WAPPS-Hemo) database, and for whom infusion and/or PK data is available.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Variability in individual PK</intervention_name>
+    <description>Multivariate hierarchical analysis will be performed on various factors (age, sex, weight, height, dose and type of factor administered (as total and IU/kg), blood group, baseline factor level, positive history of inhibitors, hematocrit, hemoglobin, and serum creatinine, laboratory methods used to measure factor VIII and factor IX) to explore sources of variability in patient outcome.</description>
+    <arm_group_label>Variability in individual PK</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Participates are individuals with hemophilia A or B, any severity, who have agreed to input
+        of their data in the WAPPS-Hemo database, and who have sufficient infusion/PK data.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  individuals with hemophilia A or B
+
+          -  infusion/PK data is available on the WAPPS-Hemo database
+
+          -  given informed consent to data input on the WAPPS-Hemo database
+
+        Exclusion Criteria:
+
+        - individuals currently undergoing immune tolerance induction
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alfonso Iorio</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>McMaster University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>McMaster University</name>
+      <address>
+        <city>Hamilton</city>
+        <state>Ontario</state>
+        <zip>L8S4B2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <link>
+    <url>https://www.wapps-hemo.org/</url>
+    <description>WAPPS-Hemo website</description>
+  </link>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 10, 2018</study_first_submitted>
+  <study_first_submitted_qc>May 10, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 23, 2018</study_first_posted>
+  <last_update_submitted>May 10, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 10, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 23, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>pharmacokinetics</keyword>
+  <keyword>hemophilia</keyword>
+  <keyword>factor VII</keyword>
+  <keyword>factor IX</keyword>
+  <keyword>population pharmacokinetics</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hemophilia A</mesh_term>
+    <mesh_term>Hemophilia B</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Factor VIII</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,168 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03109275</url>
+  </required_header>
+  <id_info>
+    <org_study_id>69HCL16_0687</org_study_id>
+    <nct_id>NCT03109275</nct_id>
+  </id_info>
+  <brief_title>Connectome Characterization With Aging</brief_title>
+  <acronym>AGE-CONNECT</acronym>
+  <official_title>Connectome Characterization With Aging Using Functional and Structural MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hospices Civils de Lyon</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hospices Civils de Lyon</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The main aim of this project is to develop a new model to characterize brain connectivity and
+      its changes with aging. This characterization will be based on new sensitive and specific
+      markers, allowing a better understanding of structural and functional brain networks. To this
+      end, two complementary MRI methods will be developed: 1) Resting-state functional MRI
+      (rs-fMRI) which allows the measurement of cerebral activity in different cortical gray matter
+      regions, and 2) high angular resolution diffusion imaging (HARDI) MRI, which allows to
+      characterize brain tissue microarchitecture. HARDI sequences will be developed to acquire and
+      reconstruct fiber tractography of patient's brains. In combination with conventional MRI,
+      both HARDI and rs-fMRI will be used to estimate the connection degree between each pair of
+      cortical regions, so- called &quot;Connectome&quot;. Once generated, brain networks will be quantified
+      through numerous graph metrics, such as graph density, global efficiency and assortativity
+      (etc.), reflecting the organization and topology of subjects' connectivity with aging.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 22, 2016</start_date>
+  <completion_date type="Actual">June 25, 2016</completion_date>
+  <primary_completion_date type="Actual">June 25, 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Functional and structural connectivity MRI marker : resting-state fMRI</measure>
+    <time_frame>End of study (one year)</time_frame>
+    <description>Functional connectivity of grey matter (GM) using resting-state fMRI</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Functional and structural connectivity MRI marker : Functional connectivity</measure>
+    <time_frame>End of study (one year)</time_frame>
+    <description>Graph-theory methods analysis of functional connectivity of grey matter</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Functional and structural connectivity MRI marker : Diffusion tensor</measure>
+    <time_frame>End of study (one year)</time_frame>
+    <description>Structural connectivity of white matter (WM) fiber bundles measured by diffusion tensor imaging</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Functional and structural connectivity MRI marker : Structural connectivity</measure>
+    <time_frame>End of study (one year)</time_frame>
+    <description>Graph-theory methods analysis of Structural connectivity of white matter (WM) fiber</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Functional and structural connectivity MRI marker : SPM software</measure>
+    <time_frame>End of study (one year)</time_frame>
+    <description>Cortical and subcortical grey matter (GM) volumes using the SPM software</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Metrics of functional connectivity</measure>
+    <time_frame>End of study (one year)</time_frame>
+    <description>Calculation of functional connectivity metrics using graphs theory methods</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">10</enrollment>
+  <condition>Healthy</condition>
+  <arm_group>
+    <arm_group_label>Single MRI examination</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>40 subjects will benefit from a full MRI</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Reproducibility study</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>10 subjects will benefit from the realization of 3 MRI. An MRI examination performed at the time of inclusion and then an examination, at 3 months and at 9 months (ie 3 examinations per subject).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Single complete MRI intervention</intervention_name>
+    <description>MRI examination will comprise conventional T1 and FLAIR sequences, and advanced sequences such as rs-fMRI and High angular resolution MRI (HARDI).</description>
+    <arm_group_label>Single MRI examination</arm_group_label>
+    <arm_group_label>Reproducibility study</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Volunteers (Men and women) aged between 18 and 50 years
+
+          -  No neurological or psychiatric diseases
+
+        Exclusion Criteria:
+
+          -  MRI contraindications
+
+          -  Pregnant women or nursing women
+
+          -  Persons under guardianship or any other administrative or deprivation of liberty or of
+             right
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>50 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sabine Mouchet-Mages, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>CH le Vinatier</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>CH le Vinatier</name>
+      <address>
+        <city>Bron</city>
+        <zip>69500</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>February 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 1, 2017</study_first_submitted>
+  <study_first_submitted_qc>April 5, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 12, 2017</study_first_posted>
+  <last_update_submitted>April 5, 2017</last_update_submitted>
+  <last_update_submitted_qc>April 5, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 12, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

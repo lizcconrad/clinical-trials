@@ -1,0 +1,212 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01512927</url>
+  </required_header>
+  <id_info>
+    <org_study_id>201112015RIC</org_study_id>
+    <nct_id>NCT01512927</nct_id>
+  </id_info>
+  <brief_title>Electro Stethoscope in Detect Arteriovenous Fistula (AVF) Stenosis</brief_title>
+  <official_title>Electronic Stethoscope and Computer-aided Diagnostic System in Detecting Arteriovenous Fistula (AVF) Stenosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Taiwan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Taiwan University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The incidence and prevalence of end-stage renal disease (ESRD) in Taiwan are both the highest
+      worldwide from 2001 to 2008. In Taiwan, more than 90% of the ESRD patients are hemodialysis
+      patients. Either arteriovenous fistula (AVF) or arteriovenous graft (AV graft) is essential
+      for the vascular access of these patients. However, frequent AVF stenosis or thrombosis
+      occurs in 10-30% hemodialytic patients, and the rates are even higher, around 30-70%, in
+      those who has a past history of AVF/AV graft stenosis. Therefore, early detection of AVF
+      stenosis is essential in caring for these hemodialysis patients in terms of medical economics
+      and psychological impact. Unfortunately, angiographic study is expensive and invasive and
+      needs contrast medium injection. The diagnostic accuracy of color duplex ultrasound in AVF
+      stenosis remains satisfactory, but it is not always available when decreased AVF flow or an
+      acute thrombotic event occurs. Continuous AVF/ AV graft flow monitoring by patient himself is
+      a better option in terms of long-term care. Previous study indicated that stethoscope
+      waveform analysis could be used as an alternative to diagnosis of vascular stenosis.
+      Therefore, we aim to investigate AVF/ AV graft stenosis by using the electronic stethoscope
+      (3M Littmann) for AVF sound recording, followed by software analysis by using waveform
+      decomposition, principle component analysis (PCA) and sequential forward selection algorithm
+      [xx]. Our study results will provide a new diagnostic option, which is low cost, non-invasive
+      and self-monitoring, of AVF stenosis in ESRD patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Hemodialysis is a well-established method for removal of fluid and uremic toxins and
+      prolonging survival in patients with end-stage renal disease (ESRD). The most common
+      permanent vascular assesses are autogenous and non-autogenous arteriovenous (AV) fistula,
+      referred as AV fistula and AV graft, respectively. In Taiwan, both incidence and prevalence
+      of ESRD remain highest worldwide. However, frequent vascular stenosis/ thrombosis events
+      occurred because of repeated needle punctures. These will exert a large economic burden to
+      our society and psychological impacts on ESRD patients [1]. Therefore, it is essential to
+      develop an easy and patient-centered method to monitor the flow status in either AV fistula
+      or AV graft.
+
+      Physical examination and auscultation are simple monitoring methods to assess the vascular
+      access. There were several signs reported to be associated vascular stenosis, such as
+      prolonged bleeding, arm edema, and changes in pulse characteristics of the vascular access,
+      but they need a high level of skill and experience from the operator, such as doctors and
+      nurses [2].
+
+      Unfortunately, angiographic study is expensive and invasive and needs contrast medium
+      injection. The diagnostic accuracy of color duplex ultrasound in AVF stenosis remains
+      satisfactory, but it is not always available when decreased AVF flow or an acute thrombotic
+      event occurs. Continuous AVF/ AV graft flow monitoring by patient himself is a better option
+      in terms of long-term care. Previous study indicated that stethoscope waveform analysis could
+      be used as an alternative to diagnosis of vascular stenosis. Previous acoustic studies
+      indicated that increased sound intensity, extra sounds, and higher spectral energy
+      infrequency domain, ranging between 300 Hz and 1000 Hz. These findings are associated with
+      the change from laminar flow to turbulent flow downstream the site of vascular stenosis [3].
+      In addition, phonoangiography studies pointed out that the systolic peak of stenotic segment
+      is higher and narrower in the time domain compared to non-stenotic segment Methods: This is
+      an observational cohort study. We plan to recruit 150 eligible patients with ESRD under
+      regular hemodialysis for at least one year in national Taiwan University Hospital.
+
+        1. Data gathering A. The first group of patients (study group) will be recruited from hose
+           referred to endovascular intervention, e.g. angioplasty, due to vascular access
+           dysfunction (n=30). An electronic stethoscope (3M-Littmann) will be used to record
+           digital sound signals at 5 points with 30 seconds each, including AV junction, proximal
+           and distal to both needle puncture sites, respectively. All data will be transferred to
+           a computer for further anlaysis.
+
+           B. The second group (validation cohort) will be recruited from patients with regular
+           hemodialysis (HD) and received angioplasty at National Taiwan University Hospital
+           (n=120). Those patients who received angioplasty for AVF or AV graft stenosis will also
+           received follow-up angiography 12 weeks after angioplasty. We will record digital AVF/AV
+           graft sound signals as mentioned above. In addition, blood pressure and AVF/AVG venous
+           pressure, heart rate will be recorded. Diameter stenosis of restenotic segment will also
+           be recorded and a diameter stenosis of 50% is regarded as significant.
+
+        2. Post-processing The proposed method is based on the analysis of the envelope of the
+           sound signals. Before, calculating the envelope, all signals will be down-sampled to 2k
+           Hz, followed by a linear-phase, finite impulse response low-pass filter. PCA will then
+           be applied to analysis as described previously [1-4]. PCA (principal components
+           analysis)
+
+        3. Analysis Sensitivity, specificity and diagnostic accuracy will be calculated based on
+           each diagnostic criteria or basal function. Area under ROC curve will be calculated
+           based on each diagnostic criteria derived from PCA method.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>January 2012</start_date>
+  <completion_date type="Anticipated">December 2012</completion_date>
+  <primary_completion_date type="Anticipated">November 2012</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Arteriovenous Fistula</condition>
+  <arm_group>
+    <arm_group_label>ESRD with regular hemodialysis</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        150
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Age is more than 20 year-old.
+
+          2. End-stage renal disease with regular hemodialysis for more than one year
+
+        Exclusion Criteria:
+
+        1. AVF/ AV graft is not located in upper arm.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Dong-Feng Yeih, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>No.7, Chung Shan S. Rd., Zhongzheng Dist., Taipei City 100, Taiwan (R.O.C.)</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>DONG-FENG YEIH, Ph.D.</last_name>
+    <phone>886-2-23123456</phone>
+    <phone_ext>63738</phone_ext>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>National Taiwan University Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <zip>100</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>DONG-FENG YEIH, OPh.D.</last_name>
+      <phone>886-2-23123456</phone>
+      <phone_ext>63738</phone_ext>
+      <email>601126@ntuh.gov.tw</email>
+    </contact>
+    <investigator>
+      <last_name>DONG-FENG YEIH, Ph.D.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>January 2012</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 15, 2012</study_first_submitted>
+  <study_first_submitted_qc>January 18, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 19, 2012</study_first_posted>
+  <last_update_submitted>January 18, 2012</last_update_submitted>
+  <last_update_submitted_qc>January 18, 2012</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 19, 2012</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>National Taiwan University Hospital</investigator_affiliation>
+    <investigator_full_name>National Taiwan University Hospital</investigator_full_name>
+    <investigator_title>National Taiwan University Hospital</investigator_title>
+  </responsible_party>
+  <keyword>electronic stethoscope</keyword>
+  <keyword>arteriovenous fistula</keyword>
+  <keyword>hemodialysis,</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fistula</mesh_term>
+    <mesh_term>Arteriovenous Fistula</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

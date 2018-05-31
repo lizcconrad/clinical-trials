@@ -1,0 +1,147 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02697578</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PI-0311-2014</org_study_id>
+    <nct_id>NCT02697578</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence: a New Alternative to Analyse the Relationship Between Calcium, Phosphorus and PTH Concentrations in Haemodialysis Patients and Preventing the Cardiovascular Risk.</brief_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maimónides Biomedical Research Institute of Córdoba</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Maimónides Biomedical Research Institute of Córdoba</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In hemodialysis patients, deviations of serum concentration of calcium, phosphate or
+      parathyroid hormone from the values recommended by KDIGO are associated to a negative
+      outcome. The regulation of calcium, phosphate and parathyroid hormone is complex and each
+      parameter is not independently regulated. In hemodialysis patient's simultaneous modification
+      in these three parameters are the result of abnormal mineral metabolism and the treatment
+      used to correct these abnormalities that usually produce changes in more than one parameter.
+      The specific objective of this work is an accurate and exhaustive analysis and description of
+      the complex relationships between clinically relevant parameters in chronic kidney disease
+      metabolism bone disease. In order to achieve these objectives we have used a machine learning
+      approach Random Forest able to extract useful knowledge from a large database. The analysis
+      of the complex interactions between the different parameters needs an advance mathematical
+      approach such as Random Forest . The second aim of this study is to determine whether
+      calcium, phosphate and parathyroid hormone, Fibroblast growth factor 23 and calcitriol are
+      long-term associated with demographic features, mortality, co-morbidity and the therapy
+      prescribed. Compare the predictions obtained with conventional statistical analysis versus
+      the new model analysis based on artificial intelligence. Our preliminary results suggest that
+      there are interactions between some parameters that are strong enough to question whether the
+      evaluation of a given therapy can be based in the measurement of one single parameter.
+      Subsequently, we will analyze in a prospective study on incident patients, whether the use of
+      this new model may predict the cardiovascular risk and reduce the therapy cost.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 1, 2016</start_date>
+  <completion_date type="Anticipated">September 15, 2018</completion_date>
+  <primary_completion_date type="Anticipated">September 15, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change from Baseline Fibroblast growth factor 23 (pg/ml) at 24 months</measure>
+    <time_frame>Baseline, 24 months</time_frame>
+  </primary_outcome>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Chronic Kidney Disease</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Incident hemodialysis patients
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Incident hemodialysis patients
+
+          -  Non acute renal failure
+
+        Exclusion Criteria:
+
+          -  Previous treatment with cinacalcet
+
+          -  Neoplasia
+
+          -  Previous parathyrodectomy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alejandro Martín Malo, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Andalusian Public Health System</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Alejandro Martín Malo, MD</last_name>
+    <phone>0034957011906</phone>
+    <email>amartinma@senefro.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Hospital Universitario Reina Sofía</name>
+      <address>
+        <city>Córdoba</city>
+        <zip>14004</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alejandro Martín Malo, MD, PhD</last_name>
+      <phone>0034957511906</phone>
+      <email>amartinma@senefro.org</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>August 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 23, 2016</study_first_submitted>
+  <study_first_submitted_qc>February 26, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 3, 2016</study_first_posted>
+  <last_update_submitted>August 18, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 18, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 22, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Kidney Diseases</mesh_term>
+    <mesh_term>Renal Insufficiency, Chronic</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

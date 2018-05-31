@@ -1,0 +1,430 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01909947</url>
+  </required_header>
+  <id_info>
+    <org_study_id>APEX 01</org_study_id>
+    <secondary_id>288299</secondary_id>
+    <secondary_id>12-387-PED</secondary_id>
+    <nct_id>NCT01909947</nct_id>
+  </id_info>
+  <brief_title>Prediction of Extubation Readiness in Extreme Preterm Infants by the Automated Analysis of CardioRespiratory Behavior</brief_title>
+  <official_title>Prediction of Extubation Readiness in Extreme Preterm Infants by the Automated Analysis of CardioRespiratory Behavior: the APEX Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>McGill University Health Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Canadian Institutes of Health Research (CIHR)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Wayne State University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Brown University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>McGill University Health Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators hypothesize that machine learning methods using a combination of novel,
+      quantitative measures of cardio-respiratory variability can accurately predict the optimal
+      time to extubate extreme preterm infants. In this multicenter prospective study,
+      cardiorespiratory signals will be recorded from 250 extreme preterm infants who are eligible
+      for extubation. Automated signal analysis algorithms will compute a variety of metrics for
+      each infant describing the cardiorespiratory state. Machine learning methods will then be
+      used to find the optimal combination of these statistical measures and clinical features that
+      provide the best overall predictor of extubation readiness. Finally, investigators will
+      develop an Automated system for Prediction of EXtubation (APEX) that will integrate the
+      software for data acquisition, signal analysis, and outcome prediction into a single
+      application suitable for use by medical personnel in the Neonatal Intensive Care Unit (NICU).
+      The performance of APEX will later be clinically validated in 50 additional infants
+      prospectively.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      At birth, extreme preterm infants (≤28 weeks) have inconsistent respiratory drive, airway
+      instability, surfactant deficiency and immature lungs that frequently result in respiratory
+      failure. Management of these infants is difficult and most will require endotracheal
+      intubation and mechanical ventilation (ETT-MV) within the first days of life to survive.
+      ETT-MV is an invasive therapy that is associated with adverse clinical outcomes including
+      ventilator-associated pneumonia, impaired neurodevelopment, and increased mortality.
+      Consequently, clinicians try to remove ETT-MV as quickly as possible. However, 25 to 35% of
+      these extubation attempts will fail and infants will require reintubation, an intervention
+      that is also associated with increased morbidity and mortality. Therefore physicians must
+      determine the optimal time for extubation which minimizes the duration of ETT-MV and
+      maximizes the chances of success. A variety of objective measures have been proposed to
+      assist with this decision but none has proven to be useful clinically. Investigators from
+      this group have recently explored the predictive power of indices of autonomic nervous system
+      function based on measurements of heart rate (HRV) and respiratory variability (RV). The use
+      of sophisticated, automated algorithms to analyze those cardiorespiratory signals have shown
+      some promising preliminary results in predicting which infants can be extubated successfully.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 2013</start_date>
+  <completion_date type="Anticipated">September 2018</completion_date>
+  <primary_completion_date type="Anticipated">September 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Extubation Failure</measure>
+    <time_frame>Within 72 hours of extubation</time_frame>
+    <description>Infants will be considered to have failed extubation if they meet one or more of the following criteria within 72 hours of extubation:
+Fraction of inspired oxygen (FiO2) &gt; 0.5 in order to maintain oxygen saturation (SpO2) &gt; 88% or PaO2 &gt; 45 mmHg (for 2 consecutive hours)
+PaCO2 &gt; 55-60 mmHg with a pH &lt; 7.25 in two consecutive blood gases done 1-2 hours apart
+1 episode of apnea requiring positive pressure ventilation with bag and mask
+Multiple episodes of apnea (≥ 6 episodes / 6 hours).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The need for reintubation within 72h of the first planned extubation</measure>
+    <time_frame>Within 72 hours of extubation</time_frame>
+    <description>The decision to re-intubate will be made by the responsible physician, who may not always follow the guidelines stated in the primary objective. Therefore, reintubation will be assessed as a secondary outcome.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The need for reintubation</measure>
+    <time_frame>Anytime from the first planned extubation until discharge from the neonatal intensive care unit</time_frame>
+    <description>Infants will be prospectively followed from birth until discharge from the NICU. Therefore, infants who require reintubation at any time point from the first planned extubation until discharge from the neonatal intensive care unit will be documented</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Total duration of ETT-MV</measure>
+    <time_frame>Participants will be followed for the duration of hospital stay, an expected average of 10 weeks</time_frame>
+    <description>Total duration (in days) of endotracheal tube mechanical ventilation from the time of birth until discharge from the hospital</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Intraventricular hemorrhage</measure>
+    <time_frame>Participants will be followed for the duration of hospital stay, an expected average of 10 weeks</time_frame>
+    <description>Presence of Intraventricular Hemorrhage (IVH) from time of birth until discharge from the hospital. If IVH is present, the grade of the hemorrhage will be specified (as per Volpe's classification)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Patent Ductus Arteriosus</measure>
+    <time_frame>Participants will be followed for the duration of hospital stay, an expected average of 10 weeks</time_frame>
+    <description>Presence of a Patent Ductus Arteriosus (PDA) from the time of birth until discharge from hospital. If present, the therapeutic measures taken for closing the PDA (medical or surgical) will also be specified.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Oxygen supplementation at 28 days of life</measure>
+    <time_frame>This outcome will be assessed when participants have 28 days of life</time_frame>
+    <description>The need for any oxygen supplementation at 28 days of life</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Bronchopulmonary Dysplasia</measure>
+    <time_frame>This outcome will be assessed when participants are 36 weeks post-conceptual age</time_frame>
+    <description>The presence of Bronchopulmonary Dysplasia (BPD) will be assessed at 36 weeks Post Conceptual Age (PCA) and classified as mild, moderate or severe.
+Mild BPD: oxygen supplementation at 28 days of life but none at 36 weeks PCA
+Moderate BPD: FiO2 requirements of less than 0.3 at 36 weeks PCA
+Severe BPD: FiO2 requirements over 0.3 or CPAP or mechanical ventilation at 36 weeks PCA</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Retinopathy of Prematurity</measure>
+    <time_frame>This outcome will be assessed at the time of the first eye exam (approximately 31 weeks PCA) until the final eye exam prior to hospital discharge</time_frame>
+    <description>Participants will be assessed for the presence or absence of Retinopathy of Prematurity (ROP)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Necrotizing Enterocolitis</measure>
+    <time_frame>Participants will be followed for the duration of hospital stay, an expected average of 10 weeks</time_frame>
+    <description>Participants will be assessed for the presence or absence of Necrotizing Enterocolitis (NEC) throughout the course of their hospitalization. NEC will be classified according to Bell's modified staging criteria.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Death</measure>
+    <time_frame>Participants will be followed for the duration of hospital stay in the NICU, an expected average of 10 weeks</time_frame>
+    <description>Death occuring anytime during the hospitalization course in the NICU.</description>
+  </other_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">250</enrollment>
+  <condition>Prediction of Extubation Readiness</condition>
+  <arm_group>
+    <arm_group_label>Intubated extreme preterm infants</arm_group_label>
+    <description>Infants with a birth weight ≤ 1250 grams and requiring endotracheal tube and mechanical ventilation</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Cardiorespiratory signal acquisition</intervention_name>
+    <description>Cardiorespiratory signals will measure heart rate (using electrocardiography), chest and abdominal movements (using respiratory inductance plethysmography) and oxygen saturation (using pulse oximetry). Data will be acquired during 2 recording periods:
+A 60-minute period while the infant receives any mode of conventional mechanical ventilation
+A 5-minute period prior to extubation while the mode of ventilation is switched to endotracheal tube CPAP (Continuous Positive Airway Pressure), so that the respiratory pattern will be controlled by the infant</description>
+    <arm_group_label>Intubated extreme preterm infants</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Extreme preterm infants who are requiring endotracheal tube mechanical ventilation
+        (ETT-MV).
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All infants admitted to the NICU with a birth weight ≤ 1250 grams AND
+
+          -  Need for endotracheal tube mechanical ventilation
+
+        Exclusion Criteria:
+
+          -  Infants with major congenital anomalies
+
+          -  Infants with congenital heart disease and cardiac arrhythmias
+
+          -  Infants receiving vasopressor or sedative drugs at the time of extubation
+
+          -  Infants extubated directly from high frequency ventilation
+
+          -  Infants extubated to room air, oxyhood or low-flow nasal cannula
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Guilherme M Sant'Anna, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>McGill University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Guilherme M Sant'Anna, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>McGill University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Robert E Kearney, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>McGill University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Wissam Shalish, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>McGill University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Karen A Brown, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>McGill University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Doina Precup</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>McGill University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Sanjay Chawla, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Wayne State University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Martin Keszler, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brown University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Wissam Shalish, MD</last_name>
+    <phone>1-514-412-4400</phone>
+    <phone_ext>22341</phone_ext>
+    <email>wissam.shalish@mail.mcgill.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Guilherme M Sant'Anna, MD</last_name>
+    <phone>1-514-412-4400</phone>
+    <phone_ext>23489</phone_ext>
+    <email>guilherme.santanna@mcgill.ca</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Wayne State University</name>
+      <address>
+        <city>Detroit</city>
+        <state>Michigan</state>
+        <zip>48201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sanjay Chawla, MD</last_name>
+      <phone>313-745-5638</phone>
+      <email>schawla@dmc.org</email>
+    </contact>
+    <investigator>
+      <last_name>Sanjay Chawla, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Women and Infants Hospital of Rhode Island</name>
+      <address>
+        <city>Providence</city>
+        <state>Rhode Island</state>
+        <zip>02905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Martin Keszler, MD</last_name>
+      <email>mkeszler@wihri.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Royal Victoria Hospital</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H3A 1A1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Guilherme M Sant'Anna, MD</last_name>
+      <phone>1-514-412-4400</phone>
+      <phone_ext>23489</phone_ext>
+      <email>guilherme.santanna@mcgill.ca</email>
+    </contact>
+    <contact_backup>
+      <last_name>Wissam Shalish, MD</last_name>
+      <phone>1-514-412-4400</phone>
+      <phone_ext>22341</phone_ext>
+      <email>wissam.shalish@mail.mcgill.ca</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Guilherme M Sant'Anna, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Wissam Shalish, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Philippe Lamer, MN</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lara Kanbar</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Montreal Children's Hospital</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H3H 1P3</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Guilherme Sant'Anna, MD</last_name>
+      <phone>1-514-412-4400</phone>
+      <phone_ext>23489</phone_ext>
+      <email>guilherme.santanna@mcgill.ca</email>
+    </contact>
+    <contact_backup>
+      <last_name>Wissam Shalish, MD</last_name>
+      <phone>1-514-412-4400</phone>
+      <phone_ext>22341</phone_ext>
+      <email>wissam.shalish@mail.mcgill.ca</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Wissam Shalish, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Guilherme M Sant'Anna, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Philippe Lamer, MN</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lara Kanbar</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Jewish General Hospital</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H3T 1E2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lajos Kovacs, MD</last_name>
+      <email>lajos.kovacs@mcgill.ca</email>
+    </contact>
+    <investigator>
+      <last_name>Wissam Shalish, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Guilherme M Sant'Anna, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Philippe Lamer, MN</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lara Kanbar</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 17, 2013</study_first_submitted>
+  <study_first_submitted_qc>July 24, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 29, 2013</study_first_posted>
+  <last_update_submitted>February 6, 2017</last_update_submitted>
+  <last_update_submitted_qc>February 6, 2017</last_update_submitted_qc>
+  <last_update_posted type="Estimate">February 8, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>McGill University Health Center</investigator_affiliation>
+    <investigator_full_name>Guilherme Sant'Anna</investigator_full_name>
+    <investigator_title>Associate Professor of Pediatrics</investigator_title>
+  </responsible_party>
+  <keyword>Respiratory rate variability</keyword>
+  <keyword>Heart rate variability</keyword>
+  <keyword>Extubation readiness</keyword>
+  <keyword>Extubation failure</keyword>
+  <keyword>Clinical predictors</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

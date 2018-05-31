@@ -1,0 +1,888 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01582139</url>
+  </required_header>
+  <id_info>
+    <org_study_id>15970</org_study_id>
+    <secondary_id>5R21DK085641</secondary_id>
+    <nct_id>NCT01582139</nct_id>
+  </id_info>
+  <brief_title>Feasibility Study of Closed Loop Control in Type 1 Diabetes Using Heart Rate Monitoring as an Exercise Marker</brief_title>
+  <official_title>Feasibility Study of Closed Loop Control in Type 1 Diabetes Using Heart Rate Monitoring as an Exercise Marker</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>DexCom, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Insulet Corporation</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Abbott Diabetes Care</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to see if the Artificial Pancreas Platform (AP Platform = Cell
+      Phone + Closed Loop Control) can successfully control blood sugar in people with type 1
+      diabetes mellitus on insulin pump therapy in a hospital setting. Investigators will also be
+      studying to see if information about heart rate can help the AP Platform reduce hypoglycemia
+      related to exercise.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The combination of the Control to Range system and the cell phone is called the &quot;Artificial
+      Pancreas (AP) Platform&quot;. The purpose of this study is to see if this investigational
+      technology can help control blood sugar in people with type 1 diabetes mellitus on insulin
+      pump therapy can be successfully used and supervised in a hospital setting. This study is
+      also being done to see if giving information about heart rate to the Closed-to-Range System
+      can reduce hypoglycemia as it relates to exercise. Subjects will exercise on an exercise bike
+      in the clinical research unit. During one exercise testing session, the Closed-to-Range
+      System will receive information about your heart rate (Experimental Condition). During the
+      other exercise testing session, the Control to Range System will not receive information
+      about your heart rate (Control Condition). This part of the study is being done to see
+      whether heart rate information helps the Closed-to-Range System reduce the occurrences of
+      exercise-related hypoglycemia.
+
+      The Closed-to-Range system has two parts (modules) that can work together or separately.
+
+      A. The Safety Supervision Module (SSM) helps to prevent low blood sugars. It can reduce the
+      amount of basal insulin that the pump is delivering and alert you if carbohydrates are needed
+      to help prevent a low blood sugar. This module will be active at all times during the
+      operation of the Closed-to-Range System.
+
+      B. The Hyperglycemia Mitigation Module (HMM) helps to prevent high blood sugars. It can
+      instruct the insulin pump to deliver small boluses to help prevent high blood sugar. It can
+      also help warn you of a possible pump problem if the blood sugar level is not responding to
+      the insulin as it should.
+
+      The Closed-to-Range System works with the insulin pump and continuous glucose monitor to help
+      keep the blood sugar in a desired range (80-180 mg/dL) during the day and help avoid
+      hypoglycemia during the night.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2012</start_date>
+  <completion_date type="Actual">August 2012</completion_date>
+  <primary_completion_date type="Actual">August 2012</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Hypoglycemic Events</measure>
+    <time_frame>26 hours (x2 admissions)</time_frame>
+    <description>Plasma glucose based number of hypoglycemic events, defined as consecutive plasma readings below 70mg/dl to measure the capacity of the system to protect patients against the risk of hypoglycemia. Two events separated by only one Yellow Springs Instrument (YSI) value over 70 are considered to form a single event.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Low Blood Glucose Index</measure>
+    <time_frame>26 hours (x2 admissions)</time_frame>
+    <description>A measure of the risk of hypoglycemia. It quantifies the frequency and the extent of low BG readings.
+A LBGI &lt; 2.5 is associated with a low-risk of hypoglycemia, LBGI 2.5-5 is associated with a moderate risk of hypoglycemia, and LBGI &gt; 5 is associated with a high-risk of hypoglycemia.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average Glucose Drop</measure>
+    <time_frame>26 hours (2x admissions)</time_frame>
+    <description>Average glucose drops at specific time points after the onset of exercise; defined as the difference between plasma glucose at onset of exercise and the glucose values reached at 40 and 60 min post onset of exercise.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in Range</measure>
+    <time_frame>26 hours (x2 admissions)</time_frame>
+    <description>Percent time spent within target (70-180 mg/dL) range.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">12</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Experimental Condition: (Heart-Rate Informed SSM+HMM)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>An experimental condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is informed about heart rate</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control Condition (SSM+HMM)</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>A control condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is not informed about heart rate.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Heart rate informed SSM+HMM</intervention_name>
+    <description>The Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) of the Closed Loop is informed about heart rate during exercise. The goal is to demonstrate the feasibility of a modular insulin management system based on continuous glucose monitoring that additionally employs heart rate information to reduce exercise-related hypoglycemic episodes.</description>
+    <arm_group_label>Experimental Condition: (Heart-Rate Informed SSM+HMM)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria
+
+          1. ≥21 and &lt;65 years old with clinical diagnosis of Type 1 Diabetes Mellitus for at least
+             1 year.
+
+          2. Criteria for documented hyperglycemia (at least 1 criterion must be met):
+
+               1. Fasting glucose ≥126 mg/dL - confirmed
+
+               2. Two-hour Oral Glucose Tolerance Test (OGTT) glucose ≥200 mg/dL - confirmed
+
+               3. HbA1c ≥6.5% documented - confirmed
+
+               4. Random glucose ≥200 mg/dL with symptoms
+
+          3. No data at diagnosis is available but the participant has a convincing history of
+             hyperglycemia consistent with diabetes.
+
+             Criteria for requiring insulin at diagnosis (at least 1 criterion must be met):
+
+               1. Participant required insulin at diagnosis and continually thereafter
+
+               2. Participant did not start insulin at diagnosis but upon investigator review
+                  likely needed insulin (significant hyperglycemia that did not respond to oral
+                  agents) and did require insulin eventually and used continually
+
+               3. Participant did not start insulin at diagnosis but continued to be hyperglycemic,
+                  had positive islet cell antibodies - consistent with latent autoimmune diabetes
+                  (LADA) in adults and did require insulin eventually and used continually.
+
+                  Criteria for Type 1 Diabetes Mellitus (at least 1 criterion must be met)
+
+               4. Documented low or absent C-peptide level.
+
+               5. Documented presence of Islet Cell Cytoplasmic Autoantibodies (ICA) or Glutamic
+                  Acid Decarboxylase (GAD65) antibodies.
+
+          4. Use of an insulin pump to treat his/her diabetes for at least 6 months
+
+          5. Actively using a bolus calculator with the current insulin pump with pre-defined
+             parameters for carbohydrate (CHO) ratio, insulin sensitivity factor (ISF), and target
+             glucose
+
+          6. HbA1c between 5.0% and 10.5% as measured with DCA2000 or equivalent device
+
+          7. Not currently known to be pregnant, breast feeding, or intending to become pregnant
+             (females)
+
+          8. Demonstration of proper mental status and cognition for the study.
+
+          9. Willingness to avoid consumption of acetaminophen-containing products during the study
+             interventions involving continuous glucose monitor use.
+
+         10. If on antihypertensive, thyroid, anti-depressant or lipid lowering medication, have
+             stability on the medication for at least 2 months prior to enrollment in the study.
+
+        Exclusion Criteria
+
+          1. Clinical diagnosis of Type 2 Diabetes Mellitus
+
+          2. Diabetic ketoacidosis within the 6 months prior to enrollment
+
+          3. Severe hypoglycemia resulting in seizure or loss of consciousness in the 3 months
+             prior to enrollment
+
+          4. Pregnancy, breast feeding, or intention of becoming pregnant
+
+          5. Uncontrolled arterial hypertension (diastolic blood pressure &gt;90 mmHg and/or systolic
+             blood pressure &gt;160 mmHg)
+
+          6. Hematocrit &lt;36% (females); &lt;38% (males)
+
+          7. Uncontrolled thyroid disease or thyroid replacement as determined by a
+             thyroid-stimulating hormone (TSH) out of the UVa reference range.
+
+          8. Impaired hepatic function measured as alanine aminotransferase or aspartate
+             aminotransferase &gt;2 times the upper limit of normal
+
+          9. Impaired renal function measured as creatinine &gt;1.5 mg/dL
+
+         10. Conditions which may increase the risk of hypoglycemia such as known coronary artery
+             disease (e.g. history of myocardial infarction, acute coronary syndrome, therapeutic
+             coronary intervention, coronary bypass or stenting procedure, stable or unstable
+             angina, episode of chest pain of cardiac etiology with documented EKG changes, or
+             positive stress test or catheterization with coronary blockages &gt;50%), congestive
+             heart failure, history of cerebrovascular event, seizure disorder, syncope, adrenal
+             insufficiency, neurologic disease or atrial fibrillation
+
+         11. Additional conditions which may inhibit the ability to perform exercise on a
+             stationary bike (e.g. injury to or immobility of limbs, neuromuscular disease,
+             exercise-induced asthma requiring inhaler use within the last 12 months or clinically
+             impaired pulmonary function)
+
+         12. Use of a medication that significantly lowers heart rate (beta blockers, reserpine,
+             guanethidine, methyldopa, clonidine, cimetidine, digitalis, calcium channel blockers,
+             amiodarone, antiarrythmic drugs, or lithium)
+
+         13. History of a systemic or deep tissue infection with methicillin-resistant staph aureus
+             or Candida albicans
+
+         14. Use of a device that may pose electromagnetic compatibility issues and/or
+             radiofrequency interference with the continuous glucose monitor (CGM) (implantable
+             cardioverter-defibrillator, electronic pacemaker, neurostimulator, intrathecal pump,
+             and cochlear implants)
+
+         15. Medical condition requiring use of an acetaminophen-containing medication that cannot
+             be withheld for the study admissions.
+
+         16. Psychiatric disorders that would interfere with study tasks (e.g. inpatient
+             psychiatric treatment within 6 months prior to enrollment, uncontrolled anxiety or
+             panic disorder)
+
+         17. Mental incapacity, unwillingness or language barriers precluding adequate
+             understanding or cooperation
+
+         18. Current or recent alcohol or drug abuse by patient history
+
+         19. Medical conditions that would make operating a CGM, cell phone or insulin pump
+             difficult (e.g. blindness, severe arthritis, immobility)
+
+         20. Any skin condition that prevents sensor or pump placement on the abdomen or arm (e.g.
+             bad sunburn, pre-existing dermatitis, intertrigo, psoriasis, extensive scarring,
+             cellulitis)
+
+         21. Known microvascular (diabetic) complications (other than diabetic non-proliferative
+             retinopathy), such as history of laser coagulation, proliferative diabetic
+             retinopathy, known diabetic nephropathy (other than microalbuminuria with normal
+             creatinine) or neuropathy requiring treatment
+
+         22. Active gastroparesis requiring current medical therapy
+
+         23. If on antihypertensive, thyroid, anti-depressant or lipid lowering medication, lack of
+             stability on the medication for the past 2 months prior to enrollment in the study
+
+         24. Known bleeding diathesis or dyscrasia
+
+         25. Known allergy to medical adhesives, components of the insulin pump insertion set or
+             continuous glucose monitor sensor
+
+         26. Anticoagulant therapy other than aspirin
+
+         27. Oral steroids
+
+         28. Active enrollment in another clinical trial
+
+         29. Unwillingness to avoid acetaminophen while the continuous glucose monitor is in use.
+
+         30. Unwillingness to withhold dietary supplements two weeks prior to admission and for the
+             duration of the study participation.
+
+         31. Subjects with basal rates less than 0.05.
+
+        Restrictions on use of other drugs or treatments
+
+          1. Pramlintide, liraglutide and exenatide will be held for the duration of the study
+             intervention.
+
+          2. Oral steroids are excluded
+
+          3. Anticoagulant therapy other than aspirin is excluded
+
+          4. Acetaminophen will not be allowed while the continuous glucose monitor is in use
+
+          5. Dietary supplements will be withheld two weeks prior to admission and for the duration
+             of study participation
+
+          6. Beta blockers, reserpine, guanethidine, methyldopa, clonidine, cimetidine, digitalis,
+             calcium channel blockers, amiodarone, antiarrythmic drugs, and lithium are excluded
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marc Breton, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia Center for Diabetes Technology</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Virginia</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22908</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Breton MD, Brown SA, Karvetski CH, Kollar L, Topchyan KA, Anderson SM, Kovatchev BP. Adding heart rate signal to a control-to-range artificial pancreas system improves the protection against hypoglycemia during exercise in type 1 diabetes. Diabetes Technol Ther. 2014 Aug;16(8):506-11. doi: 10.1089/dia.2013.0333. Epub 2014 Apr 4.</citation>
+    <PMID>24702135</PMID>
+  </results_reference>
+  <verification_date>July 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 18, 2012</study_first_submitted>
+  <study_first_submitted_qc>April 18, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 20, 2012</study_first_posted>
+  <results_first_submitted>June 27, 2014</results_first_submitted>
+  <results_first_submitted_qc>July 28, 2014</results_first_submitted_qc>
+  <results_first_posted type="Estimate">August 15, 2014</results_first_posted>
+  <last_update_submitted>July 28, 2014</last_update_submitted>
+  <last_update_submitted_qc>July 28, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">August 15, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Marc Breton</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Pancreas Project</keyword>
+  <keyword>AP Platform</keyword>
+  <keyword>Insulin Pump</keyword>
+  <keyword>Continuous Glucose Monitor</keyword>
+  <keyword>Closed-Loop Control</keyword>
+  <keyword>Control-to-Range</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Control First, Then Experimental</title>
+          <description>Control, SSM+HMM: A control condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is not informed about heart rate.
+Experimental, Heart-Rate Informed SSM: An experimental condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is informed about heart rate</description>
+        </group>
+        <group group_id="P2">
+          <title>Experimental First, Then Control</title>
+          <description>Control, SSM+HMM: A control condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is not informed about heart rate.
+Experimental, Heart-Rate Informed SSM: An experimental condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is informed about heart rate</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="6"/>
+                <participants group_id="P2" count="6"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="6"/>
+                <participants group_id="P2" count="6"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Control First, Then Experimental</title>
+          <description>Control, SSM+HMM: A control condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is not informed about heart rate.
+Experimental, Heart-Rate Informed SSM: An experimental condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is informed about heart rate</description>
+        </group>
+        <group group_id="B2">
+          <title>Experimental First, Then Control</title>
+          <description>Control, SSM+HMM: A control condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is not informed about heart rate.
+Experimental, Heart-Rate Informed SSM: An experimental condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is informed about heart rate</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="6"/>
+            <count group_id="B2" value="6"/>
+            <count group_id="B3" value="12"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                    <measurement group_id="B2" value="6"/>
+                    <measurement group_id="B3" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Hypoglycemic Events</title>
+        <description>Plasma glucose based number of hypoglycemic events, defined as consecutive plasma readings below 70mg/dl to measure the capacity of the system to protect patients against the risk of hypoglycemia. Two events separated by only one Yellow Springs Instrument (YSI) value over 70 are considered to form a single event.</description>
+        <time_frame>26 hours (x2 admissions)</time_frame>
+        <population>Twelve subjects completed the study. The first two subjects were excluded from the analysis because of protocol violations during the exercise session (the intensity chosen was very high: rating of perceived exertion of 9 out of 10 instead of rating of perceived exertion of 9 out of 20). Results from the 10 remaining subjects are presented below.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Experimental: Heart-Rate Informed SSM+HMM</title>
+            <description>An experimental condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is informed about heart rate
+Heart rate informed SSM+HMM: The Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) of the Closed Loop is informed about heart rate during exercise. The goal is to demonstrate the feasibility of a modular insulin management system based on continuous glucose monitoring that additionally employs heart rate information to reduce exercise-related hypoglycemic episodes.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control: SSM+HMM</title>
+            <description>A control condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is not informed about heart rate.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Hypoglycemic Events</title>
+          <description>Plasma glucose based number of hypoglycemic events, defined as consecutive plasma readings below 70mg/dl to measure the capacity of the system to protect patients against the risk of hypoglycemia. Two events separated by only one Yellow Springs Instrument (YSI) value over 70 are considered to form a single event.</description>
+          <population>Twelve subjects completed the study. The first two subjects were excluded from the analysis because of protocol violations during the exercise session (the intensity chosen was very high: rating of perceived exertion of 9 out of 10 instead of rating of perceived exertion of 9 out of 20). Results from the 10 remaining subjects are presented below.</population>
+          <units>hypoglycemic events</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+                <count group_id="O2" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>During Exercise (t=0.5h)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>During Recovery (t=2.5h)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Overnight (t=8h)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Low Blood Glucose Index</title>
+        <description>A measure of the risk of hypoglycemia. It quantifies the frequency and the extent of low BG readings.
+A LBGI &lt; 2.5 is associated with a low-risk of hypoglycemia, LBGI 2.5-5 is associated with a moderate risk of hypoglycemia, and LBGI &gt; 5 is associated with a high-risk of hypoglycemia.</description>
+        <time_frame>26 hours (x2 admissions)</time_frame>
+        <population>Twelve subjects completed the study. The first two subjects were excluded from the analysis because of protocol violations during the exercise session (the intensity chosen was very high: rating of perceived exertion of 9 out of 10 instead of rating of perceived exertion of 9 out of 20). Results from the 10 remaining subjects are presented below.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Experimental: Heart-Rate Informed SSM+HMM</title>
+            <description>An experimental condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is informed about heart rate
+Heart rate informed SSM+HMM: The Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) of the Closed Loop is informed about heart rate during exercise. The goal is to demonstrate the feasibility of a modular insulin management system based on continuous glucose monitoring that additionally employs heart rate information to reduce exercise-related hypoglycemic episodes.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control: SSM+HMM</title>
+            <description>A control condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is not informed about heart rate.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Low Blood Glucose Index</title>
+          <description>A measure of the risk of hypoglycemia. It quantifies the frequency and the extent of low BG readings.
+A LBGI &lt; 2.5 is associated with a low-risk of hypoglycemia, LBGI 2.5-5 is associated with a moderate risk of hypoglycemia, and LBGI &gt; 5 is associated with a high-risk of hypoglycemia.</description>
+          <population>Twelve subjects completed the study. The first two subjects were excluded from the analysis because of protocol violations during the exercise session (the intensity chosen was very high: rating of perceived exertion of 9 out of 10 instead of rating of perceived exertion of 9 out of 20). Results from the 10 remaining subjects are presented below.</population>
+          <units>index score</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+                <count group_id="O2" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>During Exercise (t=0.5h)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.84" spread="0.60"/>
+                    <measurement group_id="O2" value="2.72" spread="1.61"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>During Recovery (t=2.5h)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.81" spread="1.2"/>
+                    <measurement group_id="O2" value="1.83" spread="1.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Overnight (t=8h)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.98" spread="0.41"/>
+                    <measurement group_id="O2" value="0.49" spread="0.21"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Average Glucose Drop</title>
+        <description>Average glucose drops at specific time points after the onset of exercise; defined as the difference between plasma glucose at onset of exercise and the glucose values reached at 40 and 60 min post onset of exercise.</description>
+        <time_frame>26 hours (2x admissions)</time_frame>
+        <population>The first two subjects were excluded from the analysis because of protocol violations during the exercise session (the intensity chosen was very high: rating of perceived exertion of 9 out of 10 instead of rating of perceived exertion of 9 out of 20). Results from the 10 remaining subjects are presented.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Experimental: Heart-Rate Informed SSM+HMM</title>
+            <description>An experimental condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is informed about heart rate
+Heart rate informed SSM+HMM: The Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) of the Closed Loop is informed about heart rate during exercise. The goal is to demonstrate the feasibility of a modular insulin management system based on continuous glucose monitoring that additionally employs heart rate information to reduce exercise-related hypoglycemic episodes.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control: SSM+HMM</title>
+            <description>A control condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is not informed about heart rate.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Average Glucose Drop</title>
+          <description>Average glucose drops at specific time points after the onset of exercise; defined as the difference between plasma glucose at onset of exercise and the glucose values reached at 40 and 60 min post onset of exercise.</description>
+          <population>The first two subjects were excluded from the analysis because of protocol violations during the exercise session (the intensity chosen was very high: rating of perceived exertion of 9 out of 10 instead of rating of perceived exertion of 9 out of 20). Results from the 10 remaining subjects are presented.</population>
+          <units>mg/dL</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+                <count group_id="O2" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>60 min since exercise onset</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-3.4" spread="12"/>
+                    <measurement group_id="O2" value="-27.7" spread="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>40 min since exercise onset</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-5" spread="10"/>
+                    <measurement group_id="O2" value="-29" spread="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Time in Range</title>
+        <description>Percent time spent within target (70-180 mg/dL) range.</description>
+        <time_frame>26 hours (x2 admissions)</time_frame>
+        <population>Twelve subjects completed the study. The first two subjects were excluded from the analysis because of protocol violations during the exercise session (the intensity chosen was very high: rating of perceived exertion of 9 out of 10 instead of rating of perceived exertion of 9 out of 20). Results from the 10 remaining subjects are presented below.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Experimental: Heart-Rate Informed SSM+HMM</title>
+            <description>An experimental condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is informed about heart rate
+Heart rate informed SSM+HMM: The Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) of the Closed Loop is informed about heart rate during exercise. The goal is to demonstrate the feasibility of a modular insulin management system based on continuous glucose monitoring that additionally employs heart rate information to reduce exercise-related hypoglycemic episodes.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control: SSM+HMM</title>
+            <description>A control condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is not informed about heart rate.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Time in Range</title>
+          <description>Percent time spent within target (70-180 mg/dL) range.</description>
+          <population>Twelve subjects completed the study. The first two subjects were excluded from the analysis because of protocol violations during the exercise session (the intensity chosen was very high: rating of perceived exertion of 9 out of 10 instead of rating of perceived exertion of 9 out of 20). Results from the 10 remaining subjects are presented below.</population>
+          <units>percentage of time spent in range</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+                <count group_id="O2" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Overall</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="81" spread="3.9"/>
+                    <measurement group_id="O2" value="75" spread="4.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>During Exercise (t=0.5h)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="91" spread="7.3"/>
+                    <measurement group_id="O2" value="85" spread="10.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>During Recovery (t=2.5h)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="86" spread="9.3"/>
+                    <measurement group_id="O2" value="84" spread="7.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Overnight (t=8h)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="89" spread="7.1"/>
+                    <measurement group_id="O2" value="84" spread="9.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Control: SSM+HMM</title>
+          <description>A control condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is not informed about heart rate.</description>
+        </group>
+        <group group_id="E2">
+          <title>Experimental: Heart Rate Informed SSM+HMM</title>
+          <description>Experimental:
+An experimental condition involving an exercise session where the Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) is informed about heart rate
+Heart rate informed SSM+HMM: The Safety Supervision Module + Hyperglycemic Mitigation Module (SSM+HMM) of the Closed Loop is informed about heart rate during exercise. The goal is to demonstrate the feasibility of a modular insulin management system based on continuous glucose monitoring that additionally employs heart rate information to reduce exercise-related hypoglycemic episodes.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Musculoskeletal and connective tissue disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Knee Pain</sub_title>
+                <counts group_id="E1" events="2" subjects_affected="1" subjects_at_risk="12"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Skin and subcutaneous tissue disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Mild Erythema</sub_title>
+                <counts group_id="E1" events="5" subjects_affected="1" subjects_at_risk="12"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Marc D Breton, Ph.D.</name_or_title>
+      <organization>University of Virginia</organization>
+      <phone>434-982-6484</phone>
+      <email>mb6nt@virginia.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,298 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03524456</url>
+  </required_header>
+  <id_info>
+    <org_study_id>101180</org_study_id>
+    <nct_id>NCT03524456</nct_id>
+  </id_info>
+  <brief_title>Home Blood Pressure SMS Telemonitoring in the Primary Care Setting</brief_title>
+  <official_title>Home Blood Pressure Telemonitoring With an Adapted Device With SMS Capability in the Primary Care Setting</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Universidad Peruana Cayetano Heredia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Universidad Peruana Cayetano Heredia</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Hypertension is a public health problem worldwide, being responsible for 9.4 million deaths
+      worldwide each year, as well as contributing to the burden of coronary, cerebrovascular,
+      renal diseases, among others. The monitoring of blood pressure at home has gained importance
+      in recent years, being related to adherence to treatment, as well as in the prevention of
+      complications and optimization of pressure levels; In the same way, the use of information
+      and communication technologies (ICT) in health has contributed to the improvement of
+      communication systems by providing alternative tele-monitoring in this type of diseases.
+
+      Objective:
+
+      To evaluate the impact of tele-monitoring at home through tensiometers with integrated SMS
+      system (text message), for the sending and recording of blood pressure and heart rate data in
+      the primary care setting.
+
+      Methods:
+
+      A randomized controlled trial will be conducted, evaluating the intervention with the
+      integrated blood pressure device with SMS capability, comparing it with the standard care.
+      After a follow-up of 1 month, the effect on the values of systolic and diastolic blood
+      pressure will be evaluated, as well as the adherence to treatment and complications related
+      to arterial hypertension. A sample number of 20 participants per group was calculated, with a
+      significance of 95% and a power of 80%, to detect a minimum significant difference of 10
+      mmHg.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Objectives
+
+      Main Objective:
+
+      To evaluate the impact of the home blood pressure telemonitoring through a device with
+      integrated SMS system, in blood pressure values in uncontrolled hypertensive patients.
+
+      Secondary objectives:
+
+        1. Compare adherence to treatment at the beginning and end of the follow-up between the
+           group that uses integrated tele-monitoring with SMS and the usual monitoring.
+
+        2. Describe the experiences of the participants of the intervention group with the
+           tele-monitoring system.
+
+      Methods
+
+      Study design: A randomized controlled trial will be conducted, which will be followed for 1
+      month. The main measurement will be to evaluate the difference in blood pressure levels in
+      both groups at the end of the follow-up, the intervention group would use the device for 2
+      weeks.
+
+      Intervention group: Tele-monitoring with sphygmomanometer with SMS capacity Control group:
+      Regular monitoring Follow-up time: 1 month Primary Outcome: Difference in systolic and
+      diastolic blood pressure
+
+      Population: Hypertensive patients who attend a Primary Care Centers:
+
+      Condevilla Health Center
+
+      Inclusion criteria:
+
+      Older than 18 years-old. Diagnosis of hypertension more than 3 months ago. Not Controlled In
+      antihypertensive medication
+
+      Exclusion criteria:
+
+      Patient with chronic kidney disease on hemodialysis or peritoneal dialysis. Pregnant women.
+      Travel or change of address in the next 1 month.
+
+      Sample:
+
+      A sample of 20 participants per group was calculated, with a significance of 95% and a power
+      of 80%, to show a difference of 10 mmHg, with a standard deviation of 10 and 12 according to
+      the literature evaluated.
+
+      Assignment of groups:
+
+      A selection of patients will be made in the clinic of the health centers. If the inclusion
+      and exclusion criteria are met, they will be invited to participate in the study, after
+      accepting and signing the informed consent, a randomization will be made for complete blocks
+      of 4 (2 controls, 2 interventions) until the total of 40 participants is reached, 20 in the
+      intervention group and 20 in the control group.
+
+      Intervention group:
+
+      Participants will receive general education on hypertension and general care as well as
+      training for the use of the tensiometer and a graphic guide provided by the manufacturer of
+      the tensiometer.
+
+      The participants of the intervention group will receive a commercial blood pressure monitor
+      &quot;Omron Series 10®&quot; which was integrated into an SMS messaging system using open hardware
+      developing boards.
+
+      The measurement scheme will be programmed 4 times a day: 2 in the morning, and 2 in the
+      evening with a 3-minute interval. If no record is received in 24hrs, specific reminder text
+      messages will be sent to the patient, caregiver and/or relative, if after 2 days, there is no
+      measurement, the patient will be contacted by phone and / or caregiver / family.
+
+      The SMS of the tensiometer to the information center will include the following data:
+
+      Systolic blood pressure Diastolic blood pressure Heart Rate Date Hour
+
+      The sphygmomanometer SMS will be sent to the information and monitoring center that will be
+      hosted on a server in the cloud. The information and monitoring system will store blood
+      pressure records and would be accessible to the primary care centers physicians, they would
+      be free to any decision making regarding treatment adjustment or scheduling visits to the
+      patients.
+
+      Development of tensiometer with SMS capacity:
+
+      An information acquisition and SMS sending station capable of capturing the tensiometer
+      measurement will be developed using Arduino ® development cards.
+
+      The tensiometer will be linked through its USB interface to the development board, which in
+      turn will send the blood pressure data automatically.
+
+      It should be mentioned that the operation of the tensiometer has not been altered, and
+      remains the same as that recommended by the manufacturer. At the end of the pressure
+      collection, the data will be sent automatically.
+
+      Control group:
+
+      The control group will receive the same educational session, and the usual monitoring in
+      Health Centers will continue.
+
+      Outcome:
+
+      The difference in blood pressure values will be made, after 1 month of follow-up, under the
+      same conditions as the initial measurement, as well as adherence to treatment, complications,
+      and compliance with scheduled appointments during follow-up.
+
+      Analysis plan:
+
+      The primary statistical analysis will be a Mann-Whitney test of two independent samples
+      comparing the change in blood pressure measured between the baseline and after 1 month of
+      follow-up.
+
+      A secondary analysis of medication differences, adherence to treatment, complications, and
+      fulfillment of appointments will be made, between the 2 study groups The level of
+      significance will be given by a value of p &lt;0.05.
+
+      Ethical aspects
+
+      Written informed consent will be requested from participants and caregivers / relatives.
+
+      The equipment will include a SIM card that will be recharged by the researchers of the study,
+      as well as the cost of the equipment and the messaging packages will be covered by the
+      researchers throughout the follow-up.
+
+      The present protocol will be presented to the CIE of the UPCH as well as to the CIE of the
+      HNCH for its approval.
+
+      The data obtained will be confidential, the personal identifiers will be separated from the
+      analysis database, which will be stored in a separate database, stored with a password to
+      which only the researchers will have access. The SMS data will be sent in an encrypted way so
+      that it can only be read by the information center.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 9, 2018</start_date>
+  <completion_date type="Anticipated">October 2018</completion_date>
+  <primary_completion_date type="Anticipated">August 31, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Blood pressure diference</measure>
+    <time_frame>1 month</time_frame>
+    <description>Changes in the blood pressure levels would be compare in both study groups</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Hypertension</condition>
+  <arm_group>
+    <arm_group_label>Home blood pressure monitoring</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual monitoring</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Home blood pressure monitoring</intervention_name>
+    <description>Participants would use a blood pressure device at home, that sends the readings automatically to the health center via SMS. The physicians would use this tool for medication management or rescheduling visits.</description>
+    <arm_group_label>Home blood pressure monitoring</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Older than 18 years-old.
+
+          -  Diagnosis of hypertension more than 3 months ago.
+
+          -  Not Controlled hypertension
+
+          -  In antihypertensive medication
+
+        Exclusion Criteria:
+
+          -  Patient with chronic kidney disease on hemodialysis or peritoneal dialysis.
+
+          -  Pregnant women.
+
+          -  Travel or change of address in the next 4 weeks
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Renzo JC Calderon-Anyosa, MD</last_name>
+    <phone>934180465</phone>
+    <email>renzo.calderon.a@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Centro de Salud Condevilla</name>
+      <address>
+        <city>Lima</city>
+        <country>Peru</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jose Nestares, MD</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Peru</country>
+  </location_countries>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 2, 2018</study_first_submitted>
+  <study_first_submitted_qc>May 2, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 14, 2018</study_first_posted>
+  <last_update_submitted>May 2, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 2, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 14, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Universidad Peruana Cayetano Heredia</investigator_affiliation>
+    <investigator_full_name>Renzo Calderon</investigator_full_name>
+    <investigator_title>Researcher</investigator_title>
+  </responsible_party>
+  <keyword>home blood pressure monitoring</keyword>
+  <keyword>sms</keyword>
+  <keyword>primary care</keyword>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

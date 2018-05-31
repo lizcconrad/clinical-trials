@@ -1,0 +1,305 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02580435</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2356-15-SMC</org_study_id>
+    <nct_id>NCT02580435</nct_id>
+  </id_info>
+  <brief_title>Deciphering the Role of the Gut Microbiota in Multiple Sclerosis</brief_title>
+  <official_title>Deciphering the Role of the Gut Microbiota in Multiple Sclerosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sheba Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Weizmann Institute of Science</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sheba Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Multiple sclerosis (MS) is an inflammatory disease that affects the nervous system and
+      results in a wide range of signs and symptoms including physical and cognitive problems.
+      Recent evidence demonstrates that interactions between the host immune system and the
+      commensal gut microbiota have a key role in the development of the disease. However, the
+      natures of these interactions are poorly studied, and the set of bacteria with pathogenic or
+      protective potential are unknown. Here, the investigators propose a multi-pronged approach to
+      deciphering the role of the microbiota in MS, by developing microbiome-based machine learning
+      algorithms aimed at: (1) distinguishing healthy individuals from MS patients; (2) predicting
+      the time since the onset of MS in relation to disease activity by predicting next relapse and
+      neurological progression; (3) identifying microbiome signatures that characterize the relapse
+      state; (4) distinguishing various MS phenotypes in relation to blood and microbiome
+      transcriptome signatures; (5) predicting response to various immunomodulatory treatments in
+      relation to blood and microbiome transcriptome signatures. Overall, these studies should
+      establish the role of the microbiome in multiple sclerosis, resulting in a set of
+      non-invasive tools for characterization of the disease; identification of the kinetics of MS
+      using microbiome as a readout; and allowing the prediction of individuals prone to MS based
+      on their microbiome and in relation to their protein expression. These new set of diagnostic
+      and predictive tools may thus add a novel and unexplored dimension to the study of the
+      disease that may lead in the future to new therapeutic avenues based on designing
+      microbiome-targeted interventions.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Description of methods and plan of operation
+
+      Our research plan consists of the following steps:
+
+        1. Cohort assembly. For each of the above aims the investigators will use the unique
+           database of the Sheba Medical Center to identify the relevant individuals and invite
+           them to take part in the study. Prof. Achiron has much experience in conducting many
+           research projects that utilize the unique patient database available to the Center. For
+           the first aim comparing MS patients to healthy individuals the investigators will select
+           sex-, age- and diet-matched healthy individuals, ideally selecting spouses of MS
+           patients as healthy controls as individuals living in the same environment have more
+           similar microbiota. In our second aim comparing MS patients with similar time from
+           diagnosis but different disease severity, the investigators will select MS patients that
+           span the largest possible spectrum of disease severity as judged by the EDSS score
+           employed by the Center. For the final aim individuals at high risk of relapse will be
+           invited for profiling every 6 months and if relapse occurs, they will be profiled upon
+           their visit to the Center as well as one month after the relapse event.
+
+        2. Cohort profiling. From each patient, the investigators will obtain a multi-dimensional
+           data from the MS database consisting, as appropriate, of a subset of: (1) Clinical
+           metadata, including: Consent form; Medications; annual relapse rate; (2) Blood tests,
+           including a complete blood count, complete biochemistry, lipid profile, cholesterol
+           profile; (3) Complete neurological examination for obtaining an EDSS score, cognitive
+           assessment, gait assessment; MRI imaging data, evoked potentials, treatment response;
+           (4) Blood samples will be processed for protein mRNA expression and peripheral blood
+           mononuclear cells (PBMCs) will be separated on Ficoll-Hypaque gradient, total RNA
+           purified, labeled, hybridized to Genechip array (U133A2), and scanned (GeneArray-TM
+           scanner G2500A; Hewlett Packard) according to the manufacturer's protocol (Affymetrix,
+           Santa Clara, CA). MAS5 software (Affymetrix) will be used to analyze the scanned arrays
+           containing ~22,000 gene transcripts corresponding to 14,500 well-annotated human genes.
+           (5) Gut microbiota profile obtained from stool samples will be processed for shotgun
+           metagenomic sequencing and 16S rRNA profiling. Gut microbiota profiling will be done
+           from stool samples that will be immediately flash-frozen in liquid nitrogen and
+           preserved at a minimum of -80°C until further processing. Samples will then be processed
+           by an automated robotic pipeline that was developed in the Segal lab at Weizmann. This
+           pipeline works in 96-well format and can extract DNA from 96 stool samples within one
+           day, prepare DNA Illumina libraries for shotgun metagenomic sequencing within another
+           day, and carry out multiplexed polymerase chain reaction (PCR) amplification of the 16S
+           rRNA gene in another day. Thus, every 96-stool sample group collected can be processed
+           robotically for both 16S and metagenomic sequencing within 3 days under the supervision
+           of one lab technician.
+
+        3. Data analysis and algorithmic development. (I) Microbiota: To comprehensively study the
+           role of the microbiome in MS, the investigators will go much beyond the standard 16S
+           rRNA analysis and into analysis of full shotgun metagenome samples. By sequencing the
+           entire DNA content of stool samples, metagenome sequencing can potentially provide much
+           more information as compared to 16S, as it allows to study genome structure, structural
+           variants, and gene and metabolic pathway functions. After extracting these features from
+           the microbiome (see below in Preliminary Results), the investigators will start by
+           employing basic univariate and multivariate association tests, and continue with more
+           complex machine learning models that attempt to distinguish individuals with MS from
+           those without based on microbiome features (aim 1), to classify disease severity (aim
+           2), to predict relapse risk (aim 3), to differentiate between MS disease phenotypes
+           i.e., radiologically isolated syndrome (RIS), clinically isolated syndrome (CIS),
+           relapsing-remitting MS (RRMS), primary-progressive MS (PPMS), (aim 4), and to identify
+           treatment responders (aim 5). (II) Blood: To analyze protein expression Partek Genomics
+           Software (www.partek.com) will be used.
+
+        4. Univariate and multivariate analyses. The investigators will first compute the
+           correlation (Pearson and Spearman) between all microbiome features extracted across all
+           profiled individuals and the different patient measurements (EDSS score, time from
+           relapse, etc.), and correct for the multiple hypotheses performed. Since the
+           investigators will generate a vast number of microbiome features and many of them are
+           highly correlated to each other, this analysis may suffer from lack of statistical
+           power, especially given that the number of participants will be far smaller than the
+           number of features. For this reason, the investigators will also perform multivariate
+           analyses (e.g., singular value decomposition, principal component analysis) since the
+           key components identified by these methods capture the main variation in the data in a
+           way that takes into account the internal structure and relationships between the
+           different input features. The investigators will then test whether projections of the
+           data by any of the main principal components in this analysis provides a significant
+           segregation of the participants by their measured metabolic parameters. As a different
+           type of multivariate analysis, the investigators will also employ different unsupervised
+           clustering methods (e.g., hierarchical clustering, naïve Bayes) to cluster the
+           participants by their microbiome feature data, and then examine the clusters for
+           enrichment in normal or abnormal metabolic parameters.
+
+      Machine learning algorithms. As a more global approach aimed at quantifying the overall
+      contribution of the microbiome to MS and at unraveling the relative contribution of the
+      different microbiome features, the investigators will classify the study participants into
+      several groups in each aim (e.g., in aim 1 patients versus healthy individuals; in aim 2
+      individuals with high versus low EDSS score for the similar time from MS diagnosis), and
+      develop different computational methods (e.g., boosted decision trees, Support Vector Machine
+      algorithms (SVMs)) for this classification problem using only the microbiome features
+      generated above. The investigators will use a cross validation scheme, whereby the model
+      training is done on the data of a randomly chosen subset of participants and then tested on
+      the data of the remaining held out participants. In addition, the investigators will leave
+      aside a test set on which the investigators will evaluate the final model that is derived in
+      cross validation, allowing a true estimate of the performance of our models. As the number of
+      microbiome features and thus the number of dimensions is large, the investigators will employ
+      various feature selection approaches as means of avoiding overfitting and reducing
+      dimensionality. The Segal lab (Weizmann) has pioneered the development of several such
+      methods in similar settings in the area of gene regulation. The investigators will also use a
+      similar scheme to predict the continuous EDSS score representing MS severity. The problem
+      setup is similar to classification, but the method development is quite different as the
+      classification methods are replaced with regression type of methods (e.g., linear regression,
+      probabilistic models, stochastic gradient descent).
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date>December 2015</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>1. Change in expression of intestinal microbiome composition between MS patients and healthy controls.</measure>
+    <time_frame>5 years</time_frame>
+    <description>Intestinal microbiome composition and function of a cohort of 50 untreated early MS patients, up to 12 months from onset, untreated with immunomodulatory drugs or steroids for at least 3 months, as well as 50 age-, sex-, and diet-matched healthy controls (obtained from the Weizmann DataBank) will be performed.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change in microbiome expression intestinal microbiome composition between MS patients phenotypes.</measure>
+    <time_frame>5 years</time_frame>
+    <description>Intestinal microbiome composition and function and blood profiling of 100 patients with different disease phenotypes (RIS=20; CIS=30; RRMS=30; PPMS=20) will be performed.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">520</enrollment>
+  <condition>Multiple Sclerosis</condition>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      From each patient, the investigarors will obtain
+
+        1. Clinical metadata, including: Consent form; Medications; annual relapse rate;
+
+        2. Blood tests, including a complete blood count, complete biochemistry, lipid profile,
+           cholesterol profile;
+
+        3. Gut microbiota profile obtained from stool samples will be processed for shotgun
+           metagenomic sequencing and 16S rRNA profiling. Gut microbiota profiling will be done
+           from stool samples that will be immediately flash-frozen in liquid nitrogen and
+           preserved at a minimum of -80oC until further processing.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The Multiple Sclerosis Center at Sheba Medical Center is currently following and treating
+        3710 out of ~5000 MS patients in Israel and as such represents a unique opportunity to
+        unravel the role of the microbiome in MS, since it offers the possibility to identify
+        multiple subgroups of patients in an attempt to detect microbiome signatures. A total of
+        520 subjects will be included in the study as is further specified. The data for 100
+        healthy control subjects will be obtained from the Weizmann DataBank by Prof Eran Segal.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosis of RIS, CIS, RRMS, PPMS.
+
+          -  Signed written informed consent.
+
+        Exclusion Criteria:
+
+          -  Pregnancy
+
+          -  Lactation
+
+          -  Severe cognitive decline.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Anat Achiron, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sheba Medical Center</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Anat Achiron, MD, PhD</last_name>
+    <phone>97235303932</phone>
+    <email>anat.achiron@sheba.health.gov.il</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Eran Segal, PhD</last_name>
+    <phone>972542239989</phone>
+    <email>Eran.Segal@weizmann.ac.il</email>
+  </overall_contact_backup>
+  <reference>
+    <citation>Maslowski KM, Vieira AT, Ng A, Kranich J, Sierro F, Yu D, Schilter HC, Rolph MS, Mackay F, Artis D, Xavier RJ, Teixeira MM, Mackay CR. Regulation of inflammatory responses by gut microbiota and chemoattractant receptor GPR43. Nature. 2009 Oct 29;461(7268):1282-6. doi: 10.1038/nature08530.</citation>
+    <PMID>19865172</PMID>
+  </reference>
+  <reference>
+    <citation>Slack E, Hapfelmeier S, Stecher B, Velykoredko Y, Stoel M, Lawson MA, Geuking MB, Beutler B, Tedder TF, Hardt WD, Bercik P, Verdu EF, McCoy KD, Macpherson AJ. Innate and adaptive immunity cooperate flexibly to maintain host-microbiota mutualism. Science. 2009 Jul 31;325(5940):617-20. doi: 10.1126/science.1172747.</citation>
+    <PMID>19644121</PMID>
+  </reference>
+  <reference>
+    <citation>Hapfelmeier S, Lawson MA, Slack E, Kirundi JK, Stoel M, Heikenwalder M, Cahenzli J, Velykoredko Y, Balmer ML, Endt K, Geuking MB, Curtiss R 3rd, McCoy KD, Macpherson AJ. Reversible microbial colonization of germ-free mice reveals the dynamics of IgA immune responses. Science. 2010 Jun 25;328(5986):1705-9. doi: 10.1126/science.1188454.</citation>
+    <PMID>20576892</PMID>
+  </reference>
+  <reference>
+    <citation>Geuking MB, Cahenzli J, Lawson MA, Ng DC, Slack E, Hapfelmeier S, McCoy KD, Macpherson AJ. Intestinal bacterial colonization induces mutualistic regulatory T cell responses. Immunity. 2011 May 27;34(5):794-806. doi: 10.1016/j.immuni.2011.03.021. Epub 2011 May 19.</citation>
+    <PMID>21596591</PMID>
+  </reference>
+  <reference>
+    <citation>Berer K, Mues M, Koutrolos M, Rasbi ZA, Boziki M, Johner C, Wekerle H, Krishnamoorthy G. Commensal microbiota and myelin autoantigen cooperate to trigger autoimmune demyelination. Nature. 2011 Oct 26;479(7374):538-41. doi: 10.1038/nature10554.</citation>
+    <PMID>22031325</PMID>
+  </reference>
+  <reference>
+    <citation>Achiron A, Gurevich M, Snir Y, Segal E, Mandel M. Zinc-ion binding and cytokine activity regulation pathways predicts outcome in relapsing-remitting multiple sclerosis. Clin Exp Immunol. 2007 Aug;149(2):235-42. Epub 2007 May 4.</citation>
+    <PMID>17488294</PMID>
+  </reference>
+  <reference>
+    <citation>Suez J, Korem T, Zeevi D, Zilberman-Schapira G, Thaiss CA, Maza O, Israeli D, Zmora N, Gilad S, Weinberger A, Kuperman Y, Harmelin A, Kolodkin-Gal I, Shapiro H, Halpern Z, Segal E, Elinav E. Artificial sweeteners induce glucose intolerance by altering the gut microbiota. Nature. 2014 Oct 9;514(7521):181-6. doi: 10.1038/nature13793. Epub 2014 Sep 17.</citation>
+    <PMID>25231862</PMID>
+  </reference>
+  <reference>
+    <citation>Thaiss CA, Zeevi D, Levy M, Zilberman-Schapira G, Suez J, Tengeler AC, Abramson L, Katz MN, Korem T, Zmora N, Kuperman Y, Biton I, Gilad S, Harmelin A, Shapiro H, Halpern Z, Segal E, Elinav E. Transkingdom control of microbiota diurnal oscillations promotes metabolic homeostasis. Cell. 2014 Oct 23;159(3):514-29. doi: 10.1016/j.cell.2014.09.048. Epub 2014 Oct 16.</citation>
+    <PMID>25417104</PMID>
+  </reference>
+  <verification_date>October 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 18, 2015</study_first_submitted>
+  <study_first_submitted_qc>October 19, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 20, 2015</study_first_posted>
+  <last_update_submitted>October 28, 2015</last_update_submitted>
+  <last_update_submitted_qc>October 28, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">October 29, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sheba Medical Center</investigator_affiliation>
+    <investigator_full_name>Prof. Anat Achiron</investigator_full_name>
+    <investigator_title>Director &amp; Chair, Multiple Sclerosis Center</investigator_title>
+  </responsible_party>
+  <keyword>multiple sclerosis</keyword>
+  <keyword>microbiome</keyword>
+  <keyword>prediction</keyword>
+  <keyword>outcome</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sclerosis</mesh_term>
+    <mesh_term>Multiple Sclerosis</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

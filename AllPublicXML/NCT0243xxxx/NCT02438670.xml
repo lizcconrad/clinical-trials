@@ -1,0 +1,288 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02438670</url>
+  </required_header>
+  <id_info>
+    <org_study_id>13-68u</org_study_id>
+    <nct_id>NCT02438670</nct_id>
+  </id_info>
+  <brief_title>MPC Versus PID for Closed Loop Insulin Delivery</brief_title>
+  <official_title>Use of a PID (Proportional-Integral-Derivative) Controller Versus an MPC (Model Predictive Control) Controller Algorithm and Health Monitoring System (HMS) for Closed-Loop Insulin Delivery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sansum Diabetes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of California, Santa Barbara</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sansum Diabetes Research Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of this proposed study is to compare use of a PID (Proportional-Integral-Derivative)
+      controller versus an MPC (Model Predictive Control) controller algorithm in an artificial
+      pancreas system, all other components and study design being equal. The study design, power
+      calculation and endpoints were developed based on the results of an initial feasibility study
+      (ClinicalTrials.gov Identifier: NCT01987206) that has already been completed.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This randomized crossover study consists of an evaluation of either type of control algorithm
+      (MPC or PID) as a part of the Artificial Pancreas (AP) device during two periods of 27.5-hour
+      closed-loop control in a minimally supervised setting (outpatient research area at the
+      William Sansum Diabetes Center, Santa Barbara, CA) separated by a minimum of 5 days and a
+      maximum of 2 weeks. The 27.5-hour period includes: 2 announced meals (dinner and breakfast of
+      65g and 50g CHO respectively) preceded with a dose of rapid-acting insulin equivalent to 100%
+      bolus based on each subject's Insulin to Carbohydrate (I:C) ratio and 1 unannounced meal
+      (lunch of 65g carbohydrates, same meal content as dinner); complete night from 12:00 am to
+      7:00 am. The goal is to demonstrate that the AP device is able to maintain the subject blood
+      glucose within a safe range at all times.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2015</start_date>
+  <completion_date type="Actual">September 2015</completion_date>
+  <primary_completion_date type="Actual">September 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Time spent in safe blood glucose range</measure>
+    <time_frame>27.5-hours</time_frame>
+    <description>The percentage of time spent in safe blood glucose range of 70-180 mg/dl, comparing MPC, PID and the 24-hour period of Open-Loop Care just prior to each study session. More time spent inside the desired range will be considered successful.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Glucose level extremes and need for outside intervention</measure>
+    <time_frame>27.5-hours</time_frame>
+    <description>The secondary endpoint measures glucose extremes (the time spent in the hypoglycemic range &lt;70 mg/dl, time spent in the hyperglycemic range &gt;180 mg/dl) and the need for outside intervention to prevent hypoglycemia or hyperglycemia comparing MPC, PID and the 24-hour period of Open-Loop Care just prior to each study session. Interventions would be insulin injections or oral carbohydrates given to the subject by the physician, as well as alerts from the health monitoring system. No need for physician intervention will be considered a successful outcome.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Open-Loop Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The subjects Open-Loop Care for the 24-hour period prior to each study sessions assessed for time in the target range 70-180 mg/dL, and frequency of hypoglycemia and hyperglycemia as assessed by CGM.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PID algorithm with HMS</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will be treated with closed-loop care for 27.5h using a proportional-integral-derivative (PID) control algorithm, incorporating a personalized model of glucose-insulin dynamics.
+The health monitoring system (HMS) predicts impending hypoglycemia, and will be used in both experimental arms as an important safety feature of the device.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>MPC algorithm with HMS</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will be treated with closed-loop care for 27.5h using a model predictive control (MPC) control algorithm with HMS, using the identical model as in the first experimental arm.
+The health monitoring system (HMS) predicts impending hypoglycemia, and will be used in both experimental arms as an important safety feature of the device.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>PID control algorithm</intervention_name>
+    <arm_group_label>PID algorithm with HMS</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MPC control algorithm</intervention_name>
+    <arm_group_label>MPC algorithm with HMS</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinical diagnosis of type 1 diabetes for at least one year and using an insulin pump
+             for at least 6 months with commercially available rapid acting insulin.
+
+          -  The diagnosis of type 1 diabetes is based on the investigator's judgment; C peptide
+             level and antibody determinations are not needed.
+
+          -  Age 21 to 65 years
+
+          -  For females, not currently known to be pregnant or nursing
+
+          -  HbA1c between 5 to 10%, as measured with DCA2000 or equivalent device
+
+          -  Willing to perform the calibration of the study CGMs using a fingerstick only and
+             willing to follow instructions for insulin pump and CGM wear.
+
+          -  Willing to use the study CGM and study insulin pump during closed-loop.
+
+          -  Able to and agrees to avoid the following medication starting 24 hours before sensor
+             wear through completion of the close loop study visit: acetaminophen, prednisone, and
+             pseudoephedrine.
+
+          -  An understanding of and willingness to follow the protocol and sign the informed
+             consent.
+
+        Exclusion Criteria:
+
+          -  Exhibit hypoglycemia unawareness.
+
+          -  Indications of cardiac arrhythmia.
+
+          -  Pregnancy (as determined by a positive blood pregnancy test performed in females of
+             childbearing capacity during screening visit and urine test at time of admission for
+             in-patient visit) or nursing mother.
+
+          -  Diabetic ketoacidosis in the past 6 months prior to enrollment requiring emergency
+             room visit or hospitalization
+
+          -  Severe hypoglycemia resulting in seizure or loss of consciousness in the 12 months
+             prior to enrollment
+
+          -  Current treatment for a seizure disorder; Subjects with a history of seizures may be
+             included in the study if they receive written clearance from their neurologist
+
+          -  Active infection
+
+          -  A known medical condition that in the judgment of the investigator might interfere
+             with the completion of the protocol such as cognitive deficit.
+
+          -  Mental incapacity, unwillingness or language barriers precluding adequate
+             understanding or co-operation, including subjects not able to read or write.
+
+          -  Coronary artery disease or heart failure.
+
+          -  Subjects with a history of coronary artery disease may be included in the study if
+             they receive written clearance from their cardiologist
+
+          -  Presence of a known adrenal disorder
+
+          -  Active gastroparesis
+
+          -  If on antihypertensive, thyroid, anti-depressant or lipid lowering medication, lack of
+             stability on the medication for the past 2 months prior to enrollment in the study
+
+          -  Uncontrolled thyroid disease; Adequately treated thyroid disease and celiac disease do
+             not exclude subjects from enrollment
+
+          -  Abuse of alcohol
+
+          -  Current use of a beta blocker medication
+
+          -  Laboratory results:
+
+        Hematocrit &lt; 30% or &gt;55% A1C &gt; 10% Abnormal liver or renal function (Transaminase &gt;2 times
+        the upper limit of normal, Creatinine&gt; 1.5 mg/dL) Labs drawn at screening visit or within
+        one month prior to screening (for other purposes) will suffice for enrollment purposes
+        related to hematocrit
+
+          -  Subject has skin conditions that, in the determination of the investigator, would
+             preclude wearing the study devices (infusion set and sensor), in the abdomen. Examples
+             include but are not limited to: psoriasis, burns, scaring, eczema, tattoos, and
+             significant hypertrophy at sites of device wear; any known allergy to medical
+             adhesives.
+
+          -  Currently on long-term treatment using prednisone. If subject had been on short term
+             treatment of prednisone, defer enrollment until underlying condition and prednisone
+             treatment have resolved.
+
+          -  Allergy to study drug, food or other study material.
+
+          -  Clinically significant screening ECG, physical examination, laboratory test, or vital
+             sign abnormality.
+
+          -  Exposure to any investigational drug within 30 days.
+
+          -  History of malignancy within the 5 years before screening (other than basal cell
+             carcinoma).
+
+          -  Currently smoking or discontinued smoking (including cigarettes, cigars, pipes) over
+             the past 6 months.
+
+          -  Current participation in another investigational trial.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jordan E Pinsker, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sansum Diabetes Research Institute</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Eyal Dassau, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, Santa Barbara</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Francis J Doyle III, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, Santa Barbara</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>William Sansum Diabetes Center</name>
+      <address>
+        <city>Santa Barbara</city>
+        <state>California</state>
+        <zip>93105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Pinsker JE, Lee JB, Dassau E, Seborg DE, Bradley PK, Gondhalekar R, Bevier WC, Huyett L, Zisser HC, Doyle FJ 3rd. Randomized Crossover Comparison of Personalized MPC and PID Control Algorithms for the Artificial Pancreas. Diabetes Care. 2016 Jul;39(7):1135-42. doi: 10.2337/dc15-2344. Epub 2016 Jun 11.</citation>
+    <PMID>27289127</PMID>
+  </results_reference>
+  <verification_date>July 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 6, 2015</study_first_submitted>
+  <study_first_submitted_qc>May 7, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 8, 2015</study_first_posted>
+  <last_update_submitted>July 20, 2016</last_update_submitted>
+  <last_update_submitted_qc>July 20, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 22, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Artificial Pancreas</keyword>
+  <keyword>Type 1 Diabetes</keyword>
+  <keyword>MPC</keyword>
+  <keyword>PID</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin</mesh_term>
+  </intervention_browse>
+  <pending_results>
+    <submitted>October 18, 2017</submitted>
+    <returned>November 17, 2017</returned>
+  </pending_results>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

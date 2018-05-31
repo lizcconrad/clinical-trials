@@ -1,0 +1,256 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03481075</url>
+  </required_header>
+  <id_info>
+    <org_study_id>17.310</org_study_id>
+    <nct_id>NCT03481075</nct_id>
+  </id_info>
+  <brief_title>Patient Specific Biomechanical Modeling of Abdominal Aortic Aneurysm to Improve Aortic Endovascular Repair</brief_title>
+  <acronym>AAA2D3DIII</acronym>
+  <official_title>Patient Specific Biomechanical Modeling of Abdominal Aortic Aneurysm to Improve Aortic Endovascular Repair</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centre hospitalier de l'Université de Montréal (CHUM)</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Siemens Healthineers</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Natural Sciences and Engineering Research Council, Canada</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>MEDTEQ Innovation for Health</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Centre hospitalier de l'Université de Montréal (CHUM)</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project is aiming at the integration of a biomechanical computer program with a guidance
+      code to simulate the endovascular repair (EVAR) procedure of abdominal aortic aneurysm (AAA).
+      The computational time associated with finite element simulation generally renders its usage
+      impractical for real-time application. Based on data collected during clinical interventions
+      and a priori knowledge of AAA and endovascular device mechanical modeling, the investigators
+      are proposing a deformable registration between preoperative CT-scans and per-operative
+      fluoroscopy that will take into account prior simulations of participant specific EVAR
+      procedures. To avoid the computational cost of a full finite element simulation, the
+      investigators propose a simplified and real-time compliant repetitive mechanical behaviour
+      based on participant specific parameters.
+
+      The results of this research will provide the Canadian industry with the first realistic
+      deformable vascular geometry tool for live endovascular intervention guidance. The proposed
+      biomechanical modeling can be translated to other vascular intervention procedure by
+      adjusting the biomechanical parameters.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Endovascular surgery requires of special surgical tools inserted and navigated through the
+      vascular system to reach the site of a disease remotely. This navigation and treatment are
+      perform under video X-Ray imager called fluoroscopy. This low-power X-Ray reveals only the
+      bones, even though the surgery is performed on the vessels. Chemical agent dye can paint
+      momentarily the vessel, but this agent is toxic when used in high dosage.
+
+      In order to help the surgeon navigate its way, the investigators are developing with Siemens
+      Healthineers an enhance visualization software that displays on the fluoroscopic image the
+      vascular structures of the patient and adapts its shape by the deformation force of the
+      endovascular tools. This can reduce the use of contrast agent, reduce the intervention time
+      (thus reducing radiation exposure) and generally improve the surgical outcomes.
+
+      To deform the vascular structure without its visualization, the investigators will use a
+      mathematical function to compute the vessel shape when subjected to endovascular tools
+      influence. This function will be based on biomechanical computer simulations performed on a
+      large database of interventional images. Tissues of the entire abdominal region will be
+      simplified and modeled to achieve the most realistic behaviour. Biomechanical simulations
+      have been used in numerous medical applications as a validation tool. The investigators want
+      to innovate and bring this complex simulation result to a live and reactive application. This
+      technological innovation will improve substantially the performances and reliability of image
+      fusion assisting software and set a new standard in medical care practices.The main
+      objectives of this collaborative research project are:
+
+        1. Build a simulation model dataset based on existing patient data.
+
+        2. Compare simulation on per-operative data and improve the results accuracy over the large
+           dataset by integrating the needed biomechanical properties and constitutive models.
+
+        3. Propose a workflow compatible with the Siemens architecture that implements the
+           simulation output overlay
+
+        4. Based on the investigators existing biomechanical model, identify geometric,
+           biomechanical and patient specific parameters such as tortuosity, calcification degree
+           and distribution, presence and morphology of thrombus, material elastic properties of
+           the incorporated structures and contact mechanics with surrounding structures.
+
+        5. Develop a mathematical tool to deform a vascular model to recreate the numerical
+           mechanical behaviour.
+
+        6. Extend the simulation transfer method to a generic solution that can be adapted for
+           interventions for other anatomic territories (ie neurovascular intervention: vessel
+           deformation from coils and flow diverters)
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">April 1, 2018</start_date>
+  <completion_date type="Anticipated">May 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">May 1, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Clinical validation of the biomechanical prototype software</measure>
+    <time_frame>DAY 0</time_frame>
+    <description>Measure of the mean 2D error of renal artery marker position (z direction) on the first DSA acquisition performed after insertion of the main body delivery device as describe in the clinical validation of the biomechanical prototype software.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Fluoroscopy time</measure>
+    <time_frame>DAY 0</time_frame>
+    <description>Measure of the procedural fluoroscopy time and when using the prototype during surgery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Contrast agent used</measure>
+    <time_frame>DAY 0</time_frame>
+    <description>Measure of the total amount of contrast agent when using the prototype during surgery</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Aortic Aneurysm</condition>
+  <arm_group>
+    <arm_group_label>Rigid and Elastic registration softwares</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Biomechanical computer program</intervention_name>
+    <description>Fusion assisting software for image-guided intervention</description>
+    <arm_group_label>Rigid and Elastic registration softwares</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients with a clinical indication for EVAR/FEVAR of AAA and meeting anatomic
+             inclusion criteria on preoperative enhanced CT-scan compatible with an endovascular
+             repair.
+
+          -  Willing and capable of providing informed consent
+
+        Exclusion Criteria:
+
+          -  Contraindication to endovascular repair
+
+          -  Creatinine clearance &lt; 30ml/min
+
+          -  History of severe allergy to iodinated contrast (anaphylaxis, bronchospasm)
+
+          -  Absence of recent previous thin-slice enhanced CT-scanner examination (stent planning
+             based on MRI examination or non-enhanced CT examination).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gilles Soulez, MD,MSc</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Centre hospitalier de l'Université de Montréal (CHUM)</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jennifer Satterthwaite, MSc</last_name>
+    <phone>514-890-8000</phone>
+    <phone_ext>23483</phone_ext>
+    <email>jennifer.satterthwaite.chum@ssss.gouv.qc.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Andrée Cliche, MSc</last_name>
+    <phone>514-890-8000</phone>
+    <phone_ext>28212</phone_ext>
+    <email>andree.cliche.chum@ssss.gouv.qc.ca</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Centre Hospitalier de l'université de Montréal</name>
+      <address>
+        <city>Montréal</city>
+        <state>Quebec</state>
+        <zip>H2X 3E4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Jennifer Satterthwaite, MSc</last_name>
+      <phone>514-890-8000</phone>
+      <phone_ext>23483</phone_ext>
+      <email>jennifer.satterthwaite.chum@ssss.gouv.qc.ca</email>
+    </contact>
+    <contact_backup>
+      <last_name>Andrée Cliche, MSc</last_name>
+      <phone>514-890-8000</phone>
+      <phone_ext>28212</phone_ext>
+      <email>andree.cliche.chum@ssss.gouv.qc.ca</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Eric Therasse, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 8, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 21, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 29, 2018</study_first_posted>
+  <last_update_submitted>March 21, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 21, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 29, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Aortic Aneurysm, Abdominal</keyword>
+  <keyword>Imaging, Three-Dimensional</keyword>
+  <keyword>Tomography Scanners, X-Ray Computed</keyword>
+  <keyword>Angiography, Digital Subtraction</keyword>
+  <keyword>Endovascular Procedures</keyword>
+  <keyword>Radiography, Interventional</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Aneurysm</mesh_term>
+    <mesh_term>Aortic Aneurysm</mesh_term>
+    <mesh_term>Aortic Aneurysm, Abdominal</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

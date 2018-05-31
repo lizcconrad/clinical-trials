@@ -1,0 +1,240 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02396472</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CarnegieMU</org_study_id>
+    <nct_id>NCT02396472</nct_id>
+  </id_info>
+  <brief_title>Mental Health Pathways in Internet Support Groups</brief_title>
+  <official_title>Internet Support Groups: Identifying and Improving Pathways for Mental Health</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Carnegie Mellon University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Pittsburgh</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institute of Mental Health (NIMH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>American Cancer Society, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Carnegie Mellon University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      People facing serious health threats increasingly use Internet health support communities to
+      obtain informational support, emotional support and other resources. This study introduces
+      software algorithms similar to those used by social media sites to put people in touch with
+      helpful information and social interactions. Participants from the American Cancer Society's
+      Cancer Support Network will have access to this online support group using the default
+      interface that orders content by broad content category and date or with a new interface that
+      highlights communication content and people that match users' interests and needs.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Internet support groups (ISGs) are online communities where people come together to exchange
+      information, emotional support and other resources. They are an important resource for
+      patients grappling with serious medical conditions. Although participation in health-related
+      ISGs has been associated with significant reductions in participant-reported depression,
+      anxiety and other indicators of psychological distress, many ISG members leave too soon to
+      benefit. In a parallel study, we are using state-of-the art machine learning and automated
+      language analysis techniques to assess the types of interactions that keep people
+      participating in these groups and that lead to improved psychosocial well-being and health
+      quality of life and how these interactions develop. The clinical trial described here uses
+      these technologies and insights from our empirical research to build, deploy, and evaluate
+      interventions that improve the interactions in Internet health support groups.
+
+      We will develop and pilot-test interventions to encourage effective communication processes
+      identified in our empirical research. Participants from the American Cancer Society's Cancer
+      Support Network will access this support group using either the default interface that orders
+      content by disease diagnosis and date or with a new interface that sometimes highlights
+      communication content and people who match their interests and needs. We will test whether
+      mood, satisfaction with interactions and engagement in the group increase following
+      interventions that (a) increase participants' receipt of individualized support from others;
+      (b) provide participants with opportunities to offer support to others; (c) facilitate
+      participants' expression of emotions; and (d) help participants form relationships with
+      compatible peers. In a series of small, randomized experiments, we will examine how these
+      interventions affect participants' communication behaviors as well as short-term engagement
+      and satisfaction with their online interactions.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 2016</start_date>
+  <completion_date type="Anticipated">April 2019</completion_date>
+  <primary_completion_date type="Anticipated">April 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>Double (Participant, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Read message (Does the user read the message they were exposed to?)</measure>
+    <time_frame>1 day</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Interaction satisfaction (Self-report measure of satisfaction 3-item survey)</measure>
+    <time_frame>1 day</time_frame>
+    <description>Self-report measure of satisfaction with a random sample of messages. This is a 3-item survey that will be delivered as a pop-up questionnaire following a random sample of the messages users were exposed to.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Reply to message (How long does it take the users to reply to a message they were exposed to, if they reply at all.)</measure>
+    <time_frame>2 days</time_frame>
+    <description>How long does it take the users to reply to a message they were exposed to, if they reply at all.</description>
+  </secondary_outcome>
+  <number_of_arms>5</number_of_arms>
+  <enrollment type="Anticipated">6500</enrollment>
+  <condition>Depression</condition>
+  <condition>Stress</condition>
+  <condition>Anxiety</condition>
+  <arm_group>
+    <arm_group_label>Order by time and topic</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Volunteers from the American Cancer Society's Cancer Survivors' Network (CSN) will see some of their messages delivered using CSN's default ordering, which shows messages within a conversational thread ordered by time stamp. Conversational threads are nested within a broad topic-based forum, like breast cancer or colorectal cancer survivors.
+Note that this is a within-participant trial, so that all participants participate in all arms of the trial. Messages, not people, are randomly assigned to condition.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order by information relevance</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>In this condition some messages will be highlighted if they match the type of content the user has previously shown interest in, by previously contributing or reading semantically similar material.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order by social relationship</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>In this condition some messages will be highlighted because they come from people the user has previously shown interest in, by previously reading their posts or communicating with them.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order by help giving</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>In this condition some messages will be highlighted because they seek help and therefore provide an opportunity for participants to provide social support to others.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order by self-disclosure</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>In this condition some messages will be highlighted because in them the writer is self-disclosing, and they provide provide an opportunity for participants to self-disclose in return.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Order by time and topic</intervention_name>
+    <arm_group_label>Order by time and topic</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Order by information relevance</intervention_name>
+    <arm_group_label>Order by information relevance</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Order by social relationship</intervention_name>
+    <arm_group_label>Order by social relationship</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Order by help giving</intervention_name>
+    <arm_group_label>Order by help giving</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Order by self-disclosure</intervention_name>
+    <arm_group_label>Order by self-disclosure</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Is an existing or new registrant to the American Cancer Society's Cancer Support
+             Network.
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Robert E Kraut, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Carnegie Mellon University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Robert E Kraut, PhD</last_name>
+    <phone>412 268-7694</phone>
+    <email>robert.kraut@cmu.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Indra Danti</last_name>
+    <phone>412 268-4431</phone>
+    <email>indras@cs.cmu.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Carnegie Mellon University</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15213</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://kraut.hciresearch.org/recent-articles-and-chapters</url>
+    <description>Robert Kraut's recent articles and book chapters</description>
+  </link>
+  <reference>
+    <citation>Wang YC, Kraut RE, Levine JM. Eliciting and receiving online support: using computer-aided content analysis to examine the dynamics of online social support. J Med Internet Res. 2015 Apr 20;17(4):e99. doi: 10.2196/jmir.3558.</citation>
+    <PMID>25896033</PMID>
+  </reference>
+  <reference>
+    <citation>Vlahovic, T., Wang, Y.-C., Kraut, R. E., &amp; Levine, J. M. (2014). Support matching and satisfaction in an online breast cancer support community. CHI'14: Proceedings of the ACM Conference on Human Factors in Computing Systems (pp. 1625-1634 ). NY: ACM.</citation>
+  </reference>
+  <reference>
+    <citation>Wang, Y., Kraut, R., &amp; Levine, J. (2012). To stay or leave? the relationship of emotional and informational support to commitment in online health support groups CSCW '12 Proceedings of the ACM 2012 conference on Computer Supported Cooperative Work (pp. 833-842). NY: ACM.</citation>
+  </reference>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 15, 2015</study_first_submitted>
+  <study_first_submitted_qc>March 23, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 24, 2015</study_first_posted>
+  <last_update_submitted>March 5, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 5, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 6, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>social support</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

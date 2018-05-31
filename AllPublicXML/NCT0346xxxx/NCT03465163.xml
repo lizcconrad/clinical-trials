@@ -1,0 +1,200 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03465163</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HREC/17/SVHM/146</org_study_id>
+    <nct_id>NCT03465163</nct_id>
+  </id_info>
+  <brief_title>A Deep Brain Stimulation System in Epilepsy: Tracking Neural Excitability</brief_title>
+  <official_title>Safety and Efficacy of a Deep Brain Stimulation System in Epilepsy: A Feasibility Study for Tracking Neural Excitability</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>St Vincent's Hospital Melbourne</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Melbourne</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>St Vincent's Hospital Melbourne</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>No</is_unapproved_device>
+    <is_ppsd>No</is_ppsd>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The main purpose of this research project is to evaluate the safety and effectiveness of a
+      surgically implanted device called the Medtronic Activa PC+S System in patients with
+      medically refractory epilepsy (people who have seizures that are not completely controlled by
+      medical therapy). The system sends small electrical pulses into a part of the brain called
+      the thalamus to help control seizures. It sends this signal in regularly, regardless of if a
+      seizure is occurring. A different version of this device is already approved for the
+      treatment of epilepsy in Australia. This study aims to use the brain's responses to single
+      pulse electrical stimulation to measure the level of seizure susceptibility. The
+      investigators would like to show that this measure can be used to provide more effective deep
+      brain stimulation therapies, to stop seizures.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 27, 2018</start_date>
+  <completion_date type="Anticipated">December 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in Seizure Rate</measure>
+    <time_frame>Recorded throughout the baseline (2-4 months post implant) and probe calibrated DBS phase( 6-8 months post implant)</time_frame>
+    <description>Comparing the number of seizures per patient, as recorded by Medtronic Activa PC+S system in the baseline vs. probe calibrated DBS phase.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Determine if probing responses provide a seizure susceptibility measure.</measure>
+    <time_frame>Throughout probing phase (4-6 months post implant)</time_frame>
+    <description>Calculate probability of seizure in the near future given the features of the probing response shape during pre-ictal and inter-ictal periods on training dataset and then test predictive power on remaining data. Features defining the probing response shape will include peak amplitude and peak latency. Seizure occurrences will be determined by the Medtronic PC+S device.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in brain excitability following DBS treatment, assessed according to changes in probing response energy before and after stimulation therapy.</measure>
+    <time_frame>Throughout probing phase (4-6 months post implant) and probe calibrated DBS phase (6-8 months post implant).</time_frame>
+  </secondary_outcome>
+  <number_of_arms>5</number_of_arms>
+  <enrollment type="Anticipated">5</enrollment>
+  <condition>Epilepsy</condition>
+  <condition>Nodular Heterotopia</condition>
+  <arm_group>
+    <arm_group_label>Recovery</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Two months recovery (no stimulation) following bilateral implantation of Medtronic PC+S devices into the anterior nucleus of the thalamus and the hippocampus. Thirty second EEG snapshots will be recorded every 15 minutes</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Baseline</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>No stimulation, 30 second EEG snapshots recorded every 15 minutes We require a minimum of 5 seizures to occur during this phase.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Probing</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Deep Brain Stimulation Electrically stimulate the thalamus continuously at a low frequency (2Hz). Thirty second EEG snapshots recorded every 15 minutes.
+We require a minimum of 5 seizures to occur during this phase.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Probe Calibrated Deep Brain Stimulation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Deep Brain Stimulation In this phase we explore 18 deep brain stimulation parameter configurations (three stimulus intensities; 3,4,5 Volts, six different frequencies; 125 130, 135, 140,145, 150 Hz) during two of the clinic visits. Each deep brain stimulation parameter configuration will be tested for 1 minute with 4 minutes between each configuration test. The probing responses will be used to optimise the deep brain stimulation parameters for each participant. This phase of the study continues for 2 months.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open Deep Brain Stimulation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Deep Brain Stimulation During this phase the deep brain stimulation parameters may be altered from the probing optimised parameters according to patient needs.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Deep Brain Stimulation</intervention_name>
+    <description>The device is called the Medtronic Activa PC+S system. Two devices will be implanted per participant. The electrodes will be surgically implanted bilaterally into the hippocampus and anterior nucleus of the thalamus.</description>
+    <arm_group_label>Probing</arm_group_label>
+    <arm_group_label>Probe Calibrated Deep Brain Stimulation</arm_group_label>
+    <arm_group_label>Open Deep Brain Stimulation</arm_group_label>
+    <other_name>DBS</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Patients with epilepsy with non-resectable pathologies, or clearly defined focal seizures
+        without a defined structural pathology.
+
+        Patients will be required to have a seizure diary (of up to 3 months) recording at least
+        five seizures per month that are well separated in time (at least 8 hours apart).
+
+        Exclusion Criteria:
+
+        Previous diagnosis of psychogenic/non-epileptic seizures
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Katrina Dell, PhD</last_name>
+    <phone>+61413894084</phone>
+    <email>katrina.dell@unimelb.edu.au</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Matias Maturana, PhD</last_name>
+    <phone>+61433380872</phone>
+    <email>matiasim@unimelb.edu.au</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>St Vincent's Hospital Melbourne</name>
+      <address>
+        <city>Melbourne</city>
+        <state>Victora</state>
+        <zip>3065</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Katrina Dell, PhD</last_name>
+      <phone>+61413894084</phone>
+      <email>katrina.richards.90@gmail.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Matias Maturana, PhD</last_name>
+      <phone>+61433380872</phone>
+      <email>matiasim@unimelb.edu.au</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+  </location_countries>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 7, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 7, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 14, 2018</study_first_posted>
+  <last_update_submitted>April 9, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 9, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 11, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>St Vincent's Hospital Melbourne</investigator_affiliation>
+    <investigator_full_name>Mark Cook</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Epilepsy</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

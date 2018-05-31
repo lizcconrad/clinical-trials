@@ -1,0 +1,166 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02720562</url>
+  </required_header>
+  <id_info>
+    <org_study_id>201406032RINB</org_study_id>
+    <nct_id>NCT02720562</nct_id>
+  </id_info>
+  <brief_title>Addressing Motion and Confounds Issues in Resting fMRI- Application of Multi-echo EPI Scanning</brief_title>
+  <official_title>Addressing Motion and Confounds Issues in Resting fMRI- Application of Multi-echo EPI Scanning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Taiwan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Taiwan University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Resting state functional MRI is widely used for studying brain functional networks. However,
+      in-scanner head movement and other non-neuronal noise can disproportionately bias
+      connectivity estimates, despite various preprocessing efforts. To address these issues, the
+      technique combining data acquisition with multiecho (ME) echo planar imaging and analysis
+      with spatial independent component analysis (ICA), called ME-ICA, has been develop to
+      distinguish BOLD (neuronal) and non-BOLD (artifactual) components based on linear echo-time
+      dependence of signals, and has been demonstrated to successfully remove non-neuronal
+      confounds. Nonetheless, such research approach has never been applied in psychiatric
+      populations. The study aims to fill in the gap as shown in the following.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Specific Aims:
+
+        1. To replicate feasibility and efficacy of multi-echo fMRI in removal of non-neuronal
+           confounds as shown in work of Kundu and colleagues (2012, 2013)
+
+        2. To characterize intrinsic functional connectivity(iFC) differences between adults with
+           attention deficit hyperactivity disorder(ADHD) and healthy volunteers using ME-ICA
+           denoising methods. Then compare the results with iFC differences derived from
+           single-echo fMRI scan, in order to further separate &quot;authentic&quot; group differences from
+           spurious findings introduced by non-neuronal confounds.
+
+        3. To explore the neural signature of in-scanner motion restlessness by comparing
+           intrasubject differences in iFC between single-echo and multi-echo fMRI, and
+           inter-subject differences between subjects of high- and low- motion levels.
+
+      The investigators plan to recruit 80 participants (40 adults with ADHD, 40 healthy control),
+      without current and past history of any systemic physical illness, neither any major
+      psychiatric disorder other than ADHD. All the participants will receive psychiatric
+      interviews (The Chinese Version of the Kiddie Epidemiologic version of the Schedule for
+      Affective Disorders and Schizophrenia, K-SADS-E). They will receive the Wechsler Adult
+      Intelligence Scale-3rd edition(WAIS-III) first to ensure their full-scale IQ greater than 80.
+      The MRI assessments (T1 imaging, single-echo echo planar imaging(EPI) and multi-echo EPI
+      resting-state fMRI) will be subsequently arranged within 2 weeks after
+      psychiatric/neuropsychological assessments.
+
+      This study (1) will be the first report in Taiwan in terms of implementation of multi-echo
+      EPI for denoise; (2) will be the first report in the world on the functional connective
+      differences using multi-echo EPI; (3) will provide further evidence about the mechanism
+      underpinning in-scanner motion restless and improve specificity of motion biomarkers by using
+      multi-echo EPI.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2015</start_date>
+  <primary_completion_date type="Actual">December 2015</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Psychiatric Interview</measure>
+    <time_frame>1 hour</time_frame>
+    <description>Subjects will be interviewed by Chinese Version of the Kiddie Epidemiologic version of the Schedule for Affective Disorders and Schizophrenia (K-SADS-E)</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">80</enrollment>
+  <condition>Attention-deficit/Hyperactivity Disorder</condition>
+  <arm_group>
+    <arm_group_label>ADHD group</arm_group_label>
+    <description>Subjects with clinical diagnosis of ADHD according to the DSM-IV criteria</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>TD group</arm_group_label>
+    <description>Typically development controls without lifetime diagnosis with ADHD</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The sample consists of 40 adults with ADHD and 40 age-, sex-matched healthy volunteers.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        1. Subjects who have clinical diagnosis of a ADHD according to the DSM-IV and DSM-5
+        diagnostic criteria
+
+        Exclusion Criteria:
+
+          1. Systemic medical illness
+
+          2. Current symptoms or lifetime history of DSM-5 diagnosis of mood disorder, any
+             psychotic disorder, substance use disorder, learning disability, pervasive
+             developmental disorder, claustrophobia, obsessive compulsive disorder, or mental
+             retardation.
+
+          3. With neurodegenerative disorder, epilepsy, involuntary movement disorder, congenital
+             metabolic disorder, brain tumor, history of severe head trauma, and history of
+             craniotomy;
+
+          4. Full-scale IQ &lt; 80.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>35 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Hsiang-Yuan Lin, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Dept of Psychiatry, National Taiwan University Hospital</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Susan Shur-Fen Gau, MD, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>National Taiwan University Hospital &amp; College of Medicine</affiliation>
+  </overall_official>
+  <verification_date>March 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 22, 2016</study_first_submitted>
+  <study_first_submitted_qc>March 25, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 28, 2016</study_first_posted>
+  <last_update_submitted>March 25, 2016</last_update_submitted>
+  <last_update_submitted_qc>March 25, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">March 28, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Attention Deficit Disorder with Hyperactivity</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

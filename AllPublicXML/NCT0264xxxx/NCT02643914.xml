@@ -1,0 +1,229 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02643914</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1R21DA038467-01</org_study_id>
+    <nct_id>NCT02643914</nct_id>
+  </id_info>
+  <brief_title>Control Systems Approach to Predicting Individualized Dynamics of Nicotine Cravings</brief_title>
+  <official_title>Using Control Systems to Predict Individualized Dynamics of Nicotine Cravings</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stony Brook University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Stony Brook University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Nicotine is the most common drug of abuse in the United States, and has addiction strength
+      comparable to cocaine, heroin, and alcohol. It is the primary addictive component of tobacco,
+      and its use markedly increases risk for cancer, heart disease, asthma, miscarriage, and
+      infant mortality. Addiction is thought to be caused primarily by the intersection of two
+      components: 1) the impact of drug pharmacokinetics on the dynamics of dopamine response, and
+      2) dysregulation of the brain's reward circuit. While the term 'dysregulated' tends to be
+      used qualitatively within the neuroscience literature, regulation has a precise and testable
+      meaning in control systems engineering, which has yet to be addressed in a quantitative
+      manner by current neuroimaging methods or models of addiction. Current approaches to
+      neuroimaging have primarily focused on identifying nodes and causal connections within the
+      meso-circuit of interest, but have yet to take the next step in treating these nodes and
+      connection as a self-interacting dynamical system evolving over time. Such an approach is
+      critical for improving our understanding, and therefore prediction, of trajectories for
+      addiction as well as recovery.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Nicotine is the most common drug of abuse in the United States, and has addiction strength
+      comparable to cocaine, heroin, and alcohol. It is the primary addictive component of tobacco,
+      and its use markedly increases risk for cancer, heart disease, asthma, miscarriage, and
+      infant mortality. Addiction is thought to be caused primarily by the intersection of two
+      components: 1) the impact of drug pharmacokinetics on the dynamics of dopamine response, and
+      2) dysregulation of the brain's reward circuit. While the term 'dysregulated' tends to be
+      used qualitatively within the neuroscience literature, regulation has a precise and testable
+      meaning in control systems engineering, which has yet to be addressed in a quantitative
+      manner by current neuroimaging methods or models of addiction. Current approaches to
+      neuroimaging have primarily focused on identifying nodes and causal connections within the
+      meso-circuit of interest, but have yet to take the next step in treating these nodes and
+      connection as a self-interacting dynamical system evolving over time. Such an approach is
+      critical for improving the understanding, and therefore prediction, of trajectories for
+      addiction as well as recovery. These trajectories are likely to be nonlinear (e.g., involving
+      thresholds, saturation, and self-reinforcement), as well as highly specific to each
+      individual. This study is designed to provide the first step towards addressing this gap:
+      integrating ultra-high-field (7T) and ultra-fast (&lt;1s) fMRI with computational modeling, to
+      provide a bridge between the dynamics of meso-circuit regulation and the dynamics of human
+      addictive behavior. The investigators propose to test the hypothesis that control systems
+      regulation, measured by dynamic analyses of fMRI data, can predict—on an individual
+      basis—exactly when an addicted smoker will want to take his next puff. This will be achieved
+      by first validating a MR-compatible nicotine delivery system, by comparing its
+      neurobiological and autonomic effects against those of a cigarette and e-cigarette. Once this
+      is achieved, the investigators will then acquire fMRI data from addicted smokers while they
+      'smoke.' Using individual subjects' neuroimaging data, the investigators will derive coupled
+      differential equations for a control system that predicts craving and behavioral response for
+      that individual. Using independent data sets to estimate the parameters and to test them, the
+      investigators will assess the model's accuracy in predicting each individual subject's
+      cravings, as measured behaviorally by the frequency at which each smoker self-administers
+      nicotine. If successful, this approach could then be exploited to develop individualized
+      prevention and treatment of addiction by identifying individual-specific amplitude, duration,
+      and frequency of dosing in nicotine replacement therapy that is least likely to trigger
+      cravings. More generally, the methods proposed have the potential to rigorously examine
+      system-wide dysregulation in addiction for the first time, opening the door to exploration of
+      other dysregulatory brain-based diseases in humans.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>September 2015</start_date>
+  <completion_date type="Anticipated">December 2017</completion_date>
+  <primary_completion_date type="Actual">June 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Autonomic nervous system activity will be measured by analysis of heart rate variability and electric dermal activity alongside a 0-10 craving scale.</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">23</enrollment>
+  <condition>Nicotine Addiction</condition>
+  <condition>Cigarette Smoking</condition>
+  <arm_group>
+    <arm_group_label>Nicotine Cravings</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Nicotine</intervention_name>
+    <arm_group_label>Nicotine Cravings</arm_group_label>
+    <other_name>Nicotrol NS</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MR Compatible Nicotine Delivery Device</intervention_name>
+    <arm_group_label>Nicotine Cravings</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        21-65years of age
+
+        Moderate to severe addiction to smoking/nicotine
+
+        Willingness to withdraw from nicotine for 12 hours prior to testing
+
+        Eyesight correctable to 20/20 with contact lenses.
+
+        Exclusion Criteria:
+
+        Electrical implants such as cardiac pacemakers or perfusion pumps
+
+        Ferromagnetic implants such as aneurysm clips, surgical clips, prostheses, artificial
+        hearts, valves with steel parts, metal fragments, shrapnel, facial tattoos, or steel
+        implants
+
+        Claustrophobia
+
+        Pregnancy or breastfeeding (for females, pregnancy status will be confirmed with urine
+        test)
+
+        Chronic nasal congestion, sinusitis, or common cold Use of nicotine cessation therapy
+        (patch, gum, inhaler, nasal spray)
+
+        History of asthma, cardiovascular or peripheral vascular disease (anginas, arrhythmias,
+        myocardial infarction, Raynaud's disease, insulin dependent diabetes)
+
+        History of neurological disease (brain tumor, stroke, traumatic brain injury, epilepsy)
+
+        Current use of psychotropic medication
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Lilianne Mujica-Parodi, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stony Brook University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Bioengineering Building , Stony Brook University</name>
+      <address>
+        <city>Stony Brook</city>
+        <state>New York</state>
+        <zip>11794</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Koob GF, Volkow ND. Neurocircuitry of addiction. Neuropsychopharmacology. 2010 Jan;35(1):217-38. doi: 10.1038/npp.2009.110. Review. Erratum in: Neuropsychopharmacology. 2010 Mar;35(4):1051.</citation>
+    <PMID>19710631</PMID>
+  </reference>
+  <reference>
+    <citation>Koob GF. Addiction is a Reward Deficit and Stress Surfeit Disorder. Front Psychiatry. 2013 Aug 1;4:72. doi: 10.3389/fpsyt.2013.00072. eCollection 2013.</citation>
+    <PMID>23914176</PMID>
+  </reference>
+  <reference>
+    <citation>Volkow ND, Fowler JS, Wang GJ. The addicted human brain viewed in the light of imaging studies: brain circuits and treatment strategies. Neuropharmacology. 2004;47 Suppl 1:3-13. Review.</citation>
+    <PMID>15464121</PMID>
+  </reference>
+  <reference>
+    <citation>Fagerström KO. Measuring degree of physical dependence to tobacco smoking with reference to individualization of treatment. Addict Behav. 1978;3(3-4):235-41.</citation>
+    <PMID>735910</PMID>
+  </reference>
+  <reference>
+    <citation>Heatherton TF, Kozlowski LT, Frecker RC, Fagerström KO. The Fagerström Test for Nicotine Dependence: a revision of the Fagerström Tolerance Questionnaire. Br J Addict. 1991 Sep;86(9):1119-27.</citation>
+    <PMID>1932883</PMID>
+  </reference>
+  <reference>
+    <citation>Mujica-Parodi LR, Strey HH, Frederick B, Savoy R, Cox D, Botanov Y, Tolkunov D, Rubin D, Weber J. Chemosensory cues to conspecific emotional stress activate amygdala in humans. PLoS One. 2009 Jul 29;4(7):e6415. doi: 10.1371/journal.pone.0006415.</citation>
+    <PMID>19641623</PMID>
+  </reference>
+  <verification_date>June 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 24, 2015</study_first_submitted>
+  <study_first_submitted_qc>December 28, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 31, 2015</study_first_posted>
+  <last_update_submitted>June 29, 2017</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 2, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stony Brook University</investigator_affiliation>
+    <investigator_full_name>Lilianne Strey</investigator_full_name>
+    <investigator_title>Associate Professor, Department of Biomedical Engineering</investigator_title>
+  </responsible_party>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Nicotine</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

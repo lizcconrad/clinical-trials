@@ -1,0 +1,181 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03381885</url>
+  </required_header>
+  <id_info>
+    <org_study_id>UCLA IRB#16-000932-002</org_study_id>
+    <nct_id>NCT03381885</nct_id>
+  </id_info>
+  <brief_title>Natural Experiment: &quot;Gentle Nudge&quot; Intervention, Eliminating Phone Call Requirement</brief_title>
+  <acronym>LBP-ED</acronym>
+  <official_title>Natural Experiment: &quot;Gentle Nudge&quot; Intervention, Eliminating Phone Call Requirement</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, Los Angeles</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>LAC+USC Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Los Angeles Department of Health Services</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>American Board of Internal Medicine</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of California, Los Angeles</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Back pain costs the U.S. over $100 billion annually, and much of this spending is wasteful
+      due to the overuse of advanced diagnostic imaging. Despite prominent clinical guidelines and
+      the nationally recognized Choosing Wisely campaign discouraging use of costly and low value
+      imaging, magnetic resonance imaging (MRI) and computed tomography (CT) studies remain
+      frequently overused. Real-time electronic clinical decision support (CDS) at the point of
+      care has been increasingly emphasized as an important strategy to improve the value of back
+      pain management; however, studies suggest that CDS at best only modestly influences practice
+      patterns. The aim is to implement a behavioral economic-based intervention in the ED to
+      promote the use of CDS system.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Despite prominent clinical guidelines and the nationally recognized Choosing Wisely campaign
+      discouraging use of costly and low value imaging, magnetic resonance imaging (MRI) and
+      computed tomography (CT) studies remain frequently overused. Few studies have rigorously
+      investigated the causes of CDS' limited influence on care as well as interventions to enhance
+      CDS' impact on reducing low value imaging. The implementation of CDS to reduce low value MRI
+      and CT imaging studies for back pain at a large safety net health system was monitored. The
+      CDS systems was integrated into the electronic health record system. Clinicians answered
+      several questions and select from a list of basic imaging indications and CDS provides an
+      American College of Radiology Appropriateness Criteria score. Appropriate scores ranged from
+      7-9, borderline scores ranging from 4-6, and inappropriate scores ranging from 1-3
+      (clinicians are encouraged to cancel inappropriate orders).
+
+      Electronic order data on imaging studies was pulled using CPT billable data and imaging
+      studies were categorized as appropriate, canceled, changed, and unscored orders. Early
+      observation of CDS implementation revealed that LAC+USC Medical Center (one of 16 sites) had
+      high percentages of unscored orders. At this intervention site, a &quot;nudge&quot; grounded in
+      behavioral economic theory (nudge=gentle incentive, preserving freedom of choice) was
+      provided where clinicians ordering medium or high scoring studies could bypass the usual
+      mandatory phone call to radiology. This natural experiment was evaluated using a
+      quasi-experimental difference-in-differences (DinD) analysis to measure whether high scores
+      increased and unscored studies decreased at the intervention site vs. 15 control sites over
+      time. Generalized linear regression models were used that accounted for clustering by
+      practice site and adjusting for patient and clinician characteristics.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">February 2015</start_date>
+  <completion_date type="Actual">February 2016</completion_date>
+  <primary_completion_date type="Actual">January 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of Unscored Imaging Orders</measure>
+    <time_frame>6 months from the date of intervention implementation</time_frame>
+    <description>Change in the percentage of Unscored Imaging Orders</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Appropriate, Borderline and Inappropriate Imaging Orders</measure>
+    <time_frame>6 months from the date of intervention implementation</time_frame>
+    <description>Change in the percentage of Appropriateness, Borderline and Inappropriate Imaging Orders</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">20000</enrollment>
+  <condition>Back Pain</condition>
+  <condition>X-rays</condition>
+  <condition>MRI</condition>
+  <condition>CT Scan</condition>
+  <condition>Clinical Decision Support Tool</condition>
+  <arm_group>
+    <arm_group_label>Intervention Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A &quot;nudge&quot; grounded in behavioral economic theory (nudge=gentle incentive, preserving freedom of choice)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>No &quot;nudge&quot;</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Gentle Nudge</intervention_name>
+    <description>Clinicians ordering medium or high scoring imaging studies could bypass the usual mandatory phone call to radiology.</description>
+    <arm_group_label>Intervention Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Usual Standard Procedure</intervention_name>
+    <description>Clinicians ordering imaging studies required mandatory phone to radiology</description>
+    <arm_group_label>Control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adults with Lower Back Pain receiving treatment at Los Angeles Department of Health
+             Services Facility (LAC-DHS)
+
+          -  Adults whose physicians order Imaging Studies (CT SCANs and MRIs)
+
+        Exclusion Criteria:
+
+          -  Non-LAC-DHS patients
+
+          -  Patient without Lower Back Pain
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <verification_date>December 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 12, 2017</study_first_submitted>
+  <study_first_submitted_qc>December 20, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 22, 2017</study_first_posted>
+  <last_update_submitted>December 20, 2017</last_update_submitted>
+  <last_update_submitted_qc>December 20, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 22, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, Los Angeles</investigator_affiliation>
+    <investigator_full_name>Catherine A. Sarkisian</investigator_full_name>
+    <investigator_title>Professor in Residence</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Back Pain</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

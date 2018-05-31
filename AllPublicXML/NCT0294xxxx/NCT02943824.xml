@@ -1,0 +1,235 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02943824</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1.1.1</org_study_id>
+    <nct_id>NCT02943824</nct_id>
+  </id_info>
+  <brief_title>Machine-learning Optimization for Prostate Brachytherapy Planning</brief_title>
+  <acronym>MOPP</acronym>
+  <official_title>Machine-learning Optimization for Prostate Brachytherapy Planning (MOPP): a Randomized-controlled Trial Evaluating Dosimetric Outcomes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sunnybrook Health Sciences Centre</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Sunnybrook Health Sciences Centre</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The proposed, mono-institutional, randomized-controlled trial aims to determine whether the
+      dosimetric outcomes following prostate Low-Dose-Rate (LDR) brachytherapy, planned using a
+      novel machine learning (ML-LDR) algorithm, are equivalent to manual treatment planning
+      techniques. Forty-two patients with low-to-intermediate-risk prostate cancer will be planned
+      using ML-LDR and expert manual treatment planning over the course of the 12-month study.
+      Expert radiation oncology (RO) physicians will then evaluate and modify blinded, randomized
+      plans prior to implantation in patients. Planning time, pre-operative dosimetry, and plan
+      modifications will be assessed before treatment, and post-operative dosimetry will be
+      evaluated 1-month following the implant, respectively.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Study Outline:
+
+      Traditionally treatment planning for prostate Low-Dose-Rate (LDR) brachytherapy has relied on
+      manual planning by an expert treatment planner. This process involves the planner selecting
+      the location of 80-110 small, radioactive seeds within the prostate; the goal of this process
+      is to maximize the amount of radiation delivered to the cancer while minimizing radiation to
+      healthy tissues, all while making sure the seeds are implantable by the physician. Although
+      this process is effective it is time-consuming (taking anywhere from 30 minutes to several
+      hours to plan).
+
+      Machine learning (ML), a form of statistical computation that relies on historical training
+      information to adapt and predict novel solutions, has significant potential for improving the
+      efficiency and uniformity of prostate LDR brachytherapy. The ability of this algorithm to
+      mimic several features demonstrated by expert treatment plans has been difficult to perform
+      using conventional computer algorithms and is a significant advantage. It is expected that by
+      implementing an ML program in the planning workflow for prostate LDR brachytherapy it is
+      possible to significantly decrease the planning time, while improving the uniformity of plan
+      outcomes, and maintaining comparable quality to human planners.
+
+      This study will evaluate whether a computer program based on machine learning (ML) can be
+      used to maintain plan quality in prostate LDR brachytherapy that is not inferior to manual
+      planning by a human expert. In addition, it is expected that planning time may decrease to
+      only a few minutes using ML planning.
+
+      What Will Happen:
+
+      If you decide to participate in this study your first visit will involve an ultrasound study
+      of your prostate to map out the treatment area. After your initial visit for ultrasound
+      imaging nothing further is required on your part for the purposes of the study.
+
+      Your images and treatment information will then be used to create a brachytherapy treatment
+      plan by both a human planner, and one by an ML program. Only one treatment plan from one of
+      these groups (a process known as randomization) will be used, your treating physician will
+      not know where your plan came from (a process known as blinding). Your physician will examine
+      the plans, grade its acceptability, and make modifications to it if needed. This final plan
+      will be used to deliver your brachytherapy.
+
+      Follow-Up Visits:
+
+      You will have a follow-up study approximately 1 month after your brachytherapy treatment. The
+      purpose of this study is to gauge how well your brachytherapy was delivered.
+
+      For the follow-up study you will have a CT scan to show the area that was treated (the
+      prostate gland). No further action is required on your part.
+
+      Length of Study Participation:
+
+      Your participation in this study will after your follow-up visit, approximately 1 month after
+      your brachytherapy treatment.
+
+      A total of 42 patients will be enrolled in this study from the Odette Cancer Centre.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">August 24, 2017</start_date>
+  <completion_date type="Anticipated">June 2018</completion_date>
+  <primary_completion_date type="Anticipated">June 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>post-operative prostate V100%</measure>
+    <time_frame>1 month</time_frame>
+    <description>After receiving treatment patients are discharged. Over the coming month prostate edema decreases. Approximately 1 month following treatment patients have a CT scan and the plan dosimetry is re-computed from actual radioactive seed positions. One of the key dosimetry metrics used to assess the quality of the outcomes is the prostate V100%. This metric will be compared between ML and RT groups.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Pre-operative planning time</measure>
+    <time_frame>1 min to 1 hour</time_frame>
+    <description>During initial planning of brachytherapy the total planning time required for each case will be compared between ML and RT groups.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pre-operative dosimetry</measure>
+    <time_frame>1 min to 1 hour</time_frame>
+    <description>Along with planning time the final dosimetry of the preoperative plan will be compared between ML and RT groups.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency &amp; magnitude of plan modifications</measure>
+    <time_frame>1-5 min</time_frame>
+    <description>During physician QA of both ML and RT plans the time, and magnitude of any plan modifications will be captured and compared between the two groups.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">42</enrollment>
+  <condition>Prostatic Neoplasms</condition>
+  <arm_group>
+    <arm_group_label>Machine Learning Planning</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients will be pre-operatively planned using a machine-learning computer program. An expert radiation oncologist will evaluate the plan prior to implantation. The prescription dose is 145 Gy for monotherapy LDR brachytherapy.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Radiation Therapist Planning</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patients will be pre-operatively planned manually by an expert radiation therapist (&gt; 60 cases planned). An expert radiation oncologist will evaluate the plan prior to implantation.The prescription dose is 145 Gy for monotherapy LDR brachytherapy.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Machine Learning Planning</intervention_name>
+    <description>The intervention being tested is a novel approach to planning LDR treatment plans using a machine learning computer algorithm.</description>
+    <arm_group_label>Machine Learning Planning</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Radiation Therapist Planning</intervention_name>
+    <description>The intervention being compared to the experimental arm is conventional manual planning by a human expert LDR brachytherapy planner.</description>
+    <arm_group_label>Radiation Therapist Planning</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosed low- or intermediate-risk prostate cancer patients opting for I-125 LDR
+             brachytherapy at the Sunnybrook Odette Cancer Centre.
+
+          -  Prostate volume on TRUS &lt; 60 cc.
+
+          -  Ability to give informed consent to participate in the study
+
+        Exclusion Criteria:
+
+          -  Locally advanced or metastatic disease.
+
+          -  Prior Trans Urethral Resection of the Prostate (TURP).
+
+          -  International Prostate Symptom Score (IPSS) &gt; 18
+
+          -  Patients receiving salvage or boost treatments after primary external radiation or
+             brachytherapy.
+
+          -  Patients on study protocols with prescription doses other than 145 Gy.
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ananth Ravi, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Toronto Sunnybrook Regional Cancer Centre</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Sunnybrook Odette Cancer Centre</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M4N3M5</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 21, 2016</study_first_submitted>
+  <study_first_submitted_qc>October 21, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 25, 2016</study_first_posted>
+  <last_update_submitted>March 8, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 8, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 9, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>brachytherapy</keyword>
+  <keyword>machine learning</keyword>
+  <keyword>treatment planning</keyword>
+  <keyword>Low-Dose-Rate brachytherapy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prostatic Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

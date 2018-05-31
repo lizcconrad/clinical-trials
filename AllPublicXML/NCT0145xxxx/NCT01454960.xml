@@ -1,0 +1,275 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01454960</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1RC4AG039115-01-2</org_study_id>
+    <secondary_id>1RC4AG039115-01</secondary_id>
+    <nct_id>NCT01454960</nct_id>
+  </id_info>
+  <brief_title>Use of Behavioral Economics to Improve Treatment of Acute Respiratory Infections (Pilot Study)</brief_title>
+  <acronym>BEARI</acronym>
+  <official_title>Use of Behavioral Economics to Improve Treatment of Acute Respiratory Infections (Pilot Study)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Southern California</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Aging (NIA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Southern California</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Bacteria resistant to antibiotic therapy are a major public health problem. The evolution of
+      multi-drug resistant pathogens may be encouraged by provider prescribing behavior.
+      Inappropriate use of antibiotics for nonbacterial infections and overuse of broad spectrum
+      antibiotics can lead to the development of resistant strains. Though providers are adequately
+      trained to know when antibiotics are and are not comparatively effective, this has not been
+      sufficient to affect critical provider practices.
+
+      The intent of this study is to apply behavioral economic theory to reduce the rate of
+      antibiotic prescriptions for acute respiratory diagnoses for which guidelines do not call for
+      antibiotics. Specifically targeted are infections that are likely to be viral.
+
+      The objective of this study is to improve provider decisions around treatment of acute
+      respiratory infections.
+
+      The participants are practicing attending physicians or advanced practice nurses (i.e.
+      providers) at participating clinics who see acute respiratory infection patients. A maximum
+      of 550 participants will be recruited for this study.
+
+      Providers consenting to participate will fill out a baseline questionnaire online. Subsequent
+      to baseline data collection and enrollment, participating clinic sites will be randomized to
+      the study arms, as described below.
+
+      There will be a control arm, with clinic sites randomized in a multifactorial design to up to
+      three interventions that leverage the electronic medical record: Order Sets that are
+      triggered by EHR workflow containing exclusively guideline concordant choices (SA, for
+      Suggested Alternatives); Accountable Justification (AJ) triggered by discordant prescriptions
+      that populate the note with provider's rationale for guideline exceptions ; and performance
+      feedback that benchmarks providers' own performance to that of their peers (PC, for Peer
+      Comparison).
+
+      The outcomes of interest are antibiotic prescribing patterns, including prescribing rates and
+      changes in prescribing rates over time.
+
+      The intervention period will be over one year, with a one-year follow up period to measure
+      persistence of the effect after EHR features are returned to the original state and providers
+      no longer receive email alerts.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Each consented provider will be randomized to 1 of 8 cells in a factorial design with equal
+      probability. If results of retrospective data analysis imply that design will be improved by
+      stratification, randomization will be stratified by factors that could influence outcomes.
+
+      Data will be collected from Northwestern University's Enterprise Data Warehouse which houses
+      copies of data recorded in the Epic electronic health record. Data elements from qualifying
+      office visits will be collected from coded portions of the electronic health record.
+
+      An encounter is eligible for intervention if the patient's diagnosis is in the selected group
+      of acute respiratory infections. The intervention EHR functions will be triggered when
+      clinicians initiate an antibiotic prescription or enter a diagnosis for an acute respiratory
+      infection that has a defined Order Set. If an antibiotic from a list of frequently
+      misprescribed antibiotics is ordered and a diagnosis has not yet been entered, providers will
+      be prompted to enter a diagnosis. If the diagnosis entered is acute nasopharyngitis; acute
+      laryngeopharyngitis/acute upper respiratory infection; acute bronchitis; bronchitis not
+      specified as acute or chronic; or flu; the interventions will be triggered. The
+      diagnosis-appropriate order set will pop-up for providers in the Suggested Alternatives (SA)
+      arm, while clinicians randomized to the Accountable Justification (AJ) arm will receive an
+      alert and be required to enter a brief statement justifying their antibiotic prescription if
+      antibiotics are not indicated for the diagnosis entered. This note will then be added to the
+      patient's medical record.
+
+      Clinicians randomized to the Peer Comparison (PC) condition will receive monthly updates
+      about their antibiotic prescribing practices relative to other clinicians in their practice.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2011</start_date>
+  <completion_date type="Actual">September 2014</completion_date>
+  <primary_completion_date type="Actual">February 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Factorial Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Antibiotic Prescribing Rate for 5 Specific Acute Respiratory Infection Diagnoses</measure>
+    <time_frame>2 years</time_frame>
+    <description>Changes in antibiotic prescribing rate for the following ICD-9 diagnoses:
+460 Acute nasopharyngitis (common cold)
+465 Acute laryngeopharyngitis/acute upper respiratory infection
+466 Acute bronchitis
+490 Bronchitis not specified as acute or chronic
+487 Flu</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Antibiotic Prescribing Rates for Expanded List of Acute Respiratory Infection Diagnoses</measure>
+    <time_frame>2 years</time_frame>
+    <description>We will monitor overall prescribing for the specified diagnoses and other Acute Respiratory Infection diagnoses, including cough/fever and pneumonia.</description>
+  </secondary_outcome>
+  <number_of_arms>8</number_of_arms>
+  <enrollment type="Actual">28</enrollment>
+  <condition>Acute Respiratory Infections (ARIs)</condition>
+  <arm_group>
+    <arm_group_label>SA, AJ, PC</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants are given all 3 interventions:
+Suggested Alternatives, Accountable Justification, and Peer Comparison.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SA, AJ</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the Suggested Alternatives and Accountable Justification interventions, but not the Peer Comparison intervention.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SA, PC</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the Suggested Alternatives and Peer Comparison interventions, but not the Accountable Justification intervention.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>AJ, PC</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the Accountable Justification and Peer Comparison interventions, but not the Suggested Alternatives intervention.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Peer Comparison</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the Peer Comparison intervention, but do not receive the Suggested Alternatives or Accountable Justification interventions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Suggested Alternatives</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the Suggested Alternatives intervention, but not the Accountable Justification or Peer Comparison interventions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Accountable Justification</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the Accountable Justification intervention, but do not receive the Suggested Alternatives or Peer Comparison interventions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Participants do not receive any of the 3 interventions.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Clinical Decision Support: Accountable Justification</intervention_name>
+    <description>Accountable Justification is triggered by discordant prescriptions that populate the EHR note with provider's rationale for guideline exceptions (AJ).</description>
+    <arm_group_label>SA, AJ, PC</arm_group_label>
+    <arm_group_label>SA, AJ</arm_group_label>
+    <arm_group_label>AJ, PC</arm_group_label>
+    <arm_group_label>Accountable Justification</arm_group_label>
+    <other_name>AJ</other_name>
+    <other_name>Accountable Justification</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Audit and Feedback: Peer Comparison</intervention_name>
+    <description>Performance feedback that benchmarks providers' own performance to that of their peers (PC, for Peer Comparison).</description>
+    <arm_group_label>SA, AJ, PC</arm_group_label>
+    <arm_group_label>SA, PC</arm_group_label>
+    <arm_group_label>AJ, PC</arm_group_label>
+    <arm_group_label>Peer Comparison</arm_group_label>
+    <other_name>PC</other_name>
+    <other_name>Peer Comparison</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>CDS Order Sets: Suggested Alternatives</intervention_name>
+    <description>Order Sets that are triggered by EHR workflow containing exclusively guideline concordant choices (SA, for Suggested Alternatives).</description>
+    <arm_group_label>SA, AJ, PC</arm_group_label>
+    <arm_group_label>SA, AJ</arm_group_label>
+    <arm_group_label>SA, PC</arm_group_label>
+    <arm_group_label>Suggested Alternatives</arm_group_label>
+    <other_name>SA</other_name>
+    <other_name>Suggested Alternatives</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        A practicing attending physician or advanced practice nurse (&quot;provider&quot;) at Northwestern
+        University's NMFF GIM Clinic in 2011-2013 who sees acute respiratory infection patients.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Stephen Persell, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Northwestern University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jason N Doctor, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>University of Southern California</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Northwestern Medical Faculty Foundation General Internal Medicine Clinic</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611-2923</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 4, 2011</study_first_submitted>
+  <study_first_submitted_qc>October 18, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 19, 2011</study_first_posted>
+  <last_update_submitted>March 31, 2017</last_update_submitted>
+  <last_update_submitted_qc>March 31, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 4, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Southern California</investigator_affiliation>
+    <investigator_full_name>Jason Doctor</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Antibiotics</keyword>
+  <keyword>Inappropriate Prescribing</keyword>
+  <keyword>Respiratory Tract Infections</keyword>
+  <keyword>Behavioral Research</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infection</mesh_term>
+    <mesh_term>Communicable Diseases</mesh_term>
+    <mesh_term>Respiratory Tract Infections</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

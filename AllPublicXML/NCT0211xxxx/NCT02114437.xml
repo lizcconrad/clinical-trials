@@ -1,0 +1,207 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02114437</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Closed-Loop</org_study_id>
+    <nct_id>NCT02114437</nct_id>
+  </id_info>
+  <brief_title>Closed-Loop Target Controlled Infusion in Laparoscopic Cholecystectomy</brief_title>
+  <acronym>CLTCI</acronym>
+  <official_title>Closed-Loop Target Controlled Infusion of Propofol and Remifentanil Guided by Narcotrend Index in Laparoscopic Cholecystectomy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Guangzhou General Hospital of Guangzhou Military Command</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Guangzhou General Hospital of Guangzhou Military Command</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Laparoscopic Cholecystectomy applied to Artificial pneumoperitoneum and the extent of
+      Surgical stimulation cause the wave of hemodynamics increase vigorously, which make it
+      difficult to judge the depth of anesthesia according to traditional hemodynamics index such
+      as heart rate and blood pressure.In case of this, the investigators design this research to
+      study the Closed-Loop Target Controlled Infusion to anaesthesia of individualization guided
+      by a Narcotrend index monitor in Laparoscopic Cholecystectomy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Anesthetics alter electrocortical activity in a dose-dependent manner,and it is suggested
+      that electroencephalographic(EEG)activity can provide a reliable basis for a surrogate
+      measurement of hypnosis.An EEG monitor,the Narcotrend Index(NI),has proven useful to titrate
+      hypnotic drugs.Because it is a single composite measure monitored continuously,it has been
+      used in controlled studies to automatically guide propofol
+      administration.Conversely,automated delivery systems for opioids have seldom been described
+      using EEG activity There are no specific measures to quantify analgesia
+      directly.Nevertheless,in the interaction between opioid-hypnotic synergy and loss of
+      consciousness,when the dose of analgesic administered is sufficient to inhibit autonomic
+      response to noxious stimuli,then the required hypnotic concentration is only that needed to
+      achieve loss of consciousness.Moreover,a noxious stimulus such as laryngoscopy or periosteal
+      pressure to the tibia may cause electrocortical activation with an increase in Narcotrend
+      index,which indirectly reflects the analgesic state or the level of
+      antinociception.Finally,an excitatory EEG arousal reaction resulting from nociceptive
+      stimulation can provide a rational basis for analgesia administration.It can then be
+      hypothesized that Narcotrend index could also be the controlled variable for opioid
+      administration.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>March 2014</start_date>
+  <completion_date type="Anticipated">March 2015</completion_date>
+  <primary_completion_date type="Actual">July 2014</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Narcotrend index</measure>
+    <time_frame>5minutes</time_frame>
+    <description>the controller in the current study measures and calculates the error(NI error),which is the difference between the set point(NI=36)and the measured NI.If the NI error is different from 0,the controller determines a new propoflo and/or remifentanil concentration.The error size determines which drug will be modified:if the NI error is small,only the remifentanil is changed;if the NI error is higher,the two drug concentrations are changed.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>induction duration</measure>
+    <time_frame>within 10 minutes from the start of of propofol administration</time_frame>
+    <description>duration of induction defined as the time elapsed from the start of propofol administration to the moment when the NI value decreased to &lt;46</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>26&lt;NI&lt;46</measure>
+    <time_frame>within two hours from the beginning to the end of the infusion of propofol</time_frame>
+    <description>percentage of time in which the NI index between 26 and 46 during the maintenance.</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">38</enrollment>
+  <condition>Cholecystolithiasis</condition>
+  <arm_group>
+    <arm_group_label>Closed-loop TCI</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>the controller in the current study measures and calculates the error(NI error),which is the difference between the set point(NI=36)and the measured NI.If the NI error is different from 0,the controller determines a new propoflo and/or remifentanil concentration.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Opened-loop TCI</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>the investigator modified the effect-site target concentrations of both drugs without minimum or maximum concentration limits to maintain NI at approximately 36 within a range of 26 to 46 to the extent possible.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Closed-loop TCI</intervention_name>
+    <description>the controller in the current study measures and calculates the error(NI error),which is the difference between the set point(NI=36)and the measured NI.If the NI error is different from 0,the controller determines a new propoflo and/or remifentanil concentration.</description>
+    <arm_group_label>Closed-loop TCI</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Opened-loop TCI</intervention_name>
+    <description>the investigator modified the effect-site target concentrations of both drugs without minimum or maximum concentration limits to maintain NI at approximately 36 within a range of 26 to 46 to the extent possible.</description>
+    <arm_group_label>Opened-loop TCI</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. require general anesthesia
+
+          2. expected to last&gt;30 minutes
+
+          3. 18~90 years
+
+          4. ASA Ⅰ~Ⅳ level
+
+        Exclusion Criteria:
+
+          1. psychiatric illness
+
+          2. supraspinal neurological disorders
+
+          3. cranial neurosurgical procedures
+
+          4. patients equipped with a pacemaker
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>bo xu</last_name>
+    <phone>88653387</phone>
+    <phone_ext>020</phone_ext>
+    <email>xubo333@hotmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Guangzhou Military Region General Hospital, Department of Anesthesiology</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510010</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Liuxun Li</last_name>
+      <phone>13631387935</phone>
+      <phone_ext>86</phone_ext>
+      <email>276978230@qq.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Liu N, Chazot T, Hamada S, Landais A, Boichut N, Dussaussoy C, Trillat B, Beydon L, Samain E, Sessler DI, Fischler M. Closed-loop coadministration of propofol and remifentanil guided by bispectral index: a randomized multicenter study. Anesth Analg. 2011 Mar;112(3):546-57. doi: 10.1213/ANE.0b013e318205680b. Epub 2011 Jan 13.</citation>
+    <PMID>21233500</PMID>
+  </reference>
+  <verification_date>March 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 28, 2014</study_first_submitted>
+  <study_first_submitted_qc>April 13, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 15, 2014</study_first_posted>
+  <last_update_submitted>March 11, 2015</last_update_submitted>
+  <last_update_submitted_qc>March 11, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">March 12, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Guangzhou General Hospital of Guangzhou Military Command</investigator_affiliation>
+    <investigator_full_name>bo xu</investigator_full_name>
+    <investigator_title>associate chief physician</investigator_title>
+  </responsible_party>
+  <keyword>Closed-Loop TCI</keyword>
+  <keyword>NI</keyword>
+  <keyword>Laparoscopic Cholecystectomy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cholecystolithiasis</mesh_term>
+    <mesh_term>Cholelithiasis</mesh_term>
+    <mesh_term>Gallstones</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Remifentanil</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

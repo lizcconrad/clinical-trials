@@ -1,0 +1,225 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02275104</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CHUBX 2013/35</org_study_id>
+    <nct_id>NCT02275104</nct_id>
+  </id_info>
+  <brief_title>Multimodal Image Processing Software to Guide Cardiac Ablation Therapy</brief_title>
+  <acronym>MIGAT</acronym>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Bordeaux</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital, Bordeaux</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      MIGAT will develop and transfer software tools to assist ablation therapy of cardiac
+      arrhythmias. The scientific background and objectives of MIGAT differ between atrial and
+      ventricular arrhythmias, because the knowledge on structure-function relationships and the
+      definition of ablation targets are different.
+
+      Hypothesis: The combination of body surface mapping and imaging will enable a comprehensive
+      non-invasive assessment of cardiac arrhythmia mechanisms and localization, myocardial
+      structural substrate, and cardiac anatomy, all of which should be of value to better define
+      targets for ablation therapy. No software solution is currently available for multimodal data
+      processing, fusion, and integration in 3-dimensional mapping systems to assist ablation.
+      Because such a development requires a trans-disciplinary approach (cardiac electrophysiology,
+      imaging, computer sciences), it is likely to emerge from an academic initiative.
+
+      Objectives: MIGAT will gather resources from the Liryc Institute (L'Institut de Rythmologie
+      et Modélisation Cardiaque), the Inria (Institut National de Recherche en Informatique et en
+      Automatique) and the University Hospital of Bordeaux to develop a computer-based solution
+      with high expected impact on the daily management of cardiac electrical disorders. The
+      research program will benefit from the MUSIC (Magnetom Avanto, Siemens, Erlangen, Germany)
+      equipment recently funded as part of the &quot;Investissement d'Avenir&quot; program, and combining
+      state-of-the-art electrophysiology and magnetic resonance imaging technology. MIGAT will
+      involve software engineers, computer science researchers, cardiologists, radiologists and
+      clinical research personnel with the following objectives:
+
+        -  Development of a multimodal data processing software to assist cardiac ablation
+
+        -  Optimization and Validation of the software in terms of user experience
+
+        -  Optimization and Validation of the software in terms of clinical performance
+
+        -  Optimization of software quality compatible with subsequent device certification and
+           randomized-controlled evaluation
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Cardiac electrical disorders are a major cause of human mortality and morbidity worldwide.
+      Catheter ablation therapy has become part of international recommendations for the management
+      of both atrial and ventricular arrhythmias. Advanced catheter localization systems now enable
+      3-dimensional mapping of cardiac electrical activity. The integration of 3-dimensional
+      imaging data acquired prior to the procedure and its merging with the mapping geometry was
+      shown feasible. Available non-invasive imaging modalities can provide critical complementary
+      information to assist cardiac mapping and ablation. Multidetector computed tomography can
+      provide valuable information on patient's anatomy (cardiac chambers, pulmonary veins,
+      coronary arteries and veins, phrenic nerve or oesophagus location, epicardial fat thickness).
+      Magnetic resonance imaging and positron emission tomography can provide valuable information
+      on myocardial substrate (scar location), because most arrhythmias occur on structurally
+      diseased hearts. In addition, a body surface mapping technology was recently developed,
+      enabling non-invasive real-time whole-heart 3-dimensional electrophysiological mapping. The
+      system computes unipolar epicardial electrograms from an array of body surface potentials
+      acquired with a multi-electrode vest. Because of its real-time and whole-heart nature, body
+      surface mapping gives access to the assessment of previously non-mappable arrhythmias such as
+      cardiac fibrillation and non-sustained or poorly tolerated arrhythmias. This technology might
+      be of value to preemptively identify ablation targets form epicardial activation (earliest
+      epicardial exit of the circuit in cardiac reentrant tachycardias, location of rotor cores in
+      cardiac fibrillation).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 1, 2014</start_date>
+  <completion_date type="Actual">July 21, 2016</completion_date>
+  <primary_completion_date type="Actual">July 21, 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>To build MIGAT software</measure>
+    <time_frame>28 months</time_frame>
+    <description>It consists in integrating currently available research prototypes in MedInria software framework. Currently available functionalities will be translated into software specification, and implemented to build MIGAT software.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To test MIGAT for real-time guidance during cardiac ablation procedures.</measure>
+    <time_frame>28 months</time_frame>
+    <description>To get feedback from clinical data in terms of user experience and accuracy of non-invasive predictions. Radiologists and cardiologists will acquire, process and integrate non-invasive data during 100 cardiac ablation procedures.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>To improve the compatibility of MIGAT with daily clinical use</measure>
+    <time_frame>28 months</time_frame>
+    <description>Radiologists and cardiologists will produce data on their comfort of use (simplicity and rapidity of data preparation before procedures, clarity of procedural displays). An Onsite Software Engineer will be located in the Liryc Institute and will perform the verification and validation tasks, following each procedure with the clinicians in the hospital. He will translate clinical needs into software specification.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlations between MIGAT predictions from non-invasive data, and ablation targets observed during invasive procedures</measure>
+    <time_frame>28 months</time_frame>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">100</enrollment>
+  <condition>Ventricular Arrhythmias</condition>
+  <condition>Persistent Atrial Fibrillation</condition>
+  <arm_group>
+    <arm_group_label>Ventricular arrhythmias</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Persistent atrial fibrillation</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Contrast-enhanced ECG-gated multi-detector computed tomography</intervention_name>
+    <description>Depending on potential contra-indications to iodine-enhanced computed tomography. It will be performed using the usual method on a 64-slice dual energy scanner. Data will be acquired after the injection of 120 mL iodine contrast media. Contrast will be injected at the rate of 4 mL/s without additional saline flush in order to obtain homogeneous enhancement of the 4 cardiac chambers, there by simplifying subsequent segmentation. The objective will be to obtain a 3-dimensional imaging of cardiac structures</description>
+    <arm_group_label>Ventricular arrhythmias</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Magnetic resonance imaging</intervention_name>
+    <description>Depending on potential contra-indications to gadolinium-enhanced magnetic resonance. It will be performed on the 1.5 Tesla clinical device associated to MUSIC equipment (Magnetom Avanto, Siemens, Erlangen, Germany). Myocardial fibrosis will be imaged using a free-breathing delayed-enhancement method initially developed for atrial imaging. The method uses a 3-dimensional, inversion recovery-prepared, ECG-gated and respiratory-navigated Turbo Fast Low Angle Shot sequence with fat saturation. Acquisition will be initiated 15 minutes after the injection of a double-dose of gadolinium-based contrast media.</description>
+    <arm_group_label>Ventricular arrhythmias</arm_group_label>
+    <arm_group_label>Persistent atrial fibrillation</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Positron emission tomography</intervention_name>
+    <description>Only in patients with a contra-indication to magnetic resonance imaging. It will be performed on a PET/CT 600 device. Acquisition will be preceded by a standard metabolic preparation for 18 fluoro-deoxy-glucose viability imaging. The objective will be to obtain a 3-dimensional imaging of ventricular scar.</description>
+    <arm_group_label>Ventricular arrhythmias</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Body surface mapping</intervention_name>
+    <description>It will be obtained using a 252-electrode vest. The position of each electrode with respect to epicardium will be assessed at multi-detector computed tomography prior to mapping. In patients referred for ventricular arrhythmia, body surface mapping will aim at recording the clinical arrhythmia whenever possible. In patients referred for atrial arrhythmia, body surface mapping will aim at recording atrial fibrillation.</description>
+    <arm_group_label>Ventricular arrhythmias</arm_group_label>
+    <arm_group_label>Persistent atrial fibrillation</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Cardiac ablation procedure</intervention_name>
+    <description>Ventricular procedures will be performed endocardially using trans-septal or retro-aortic approach, potentially combined with sub-xiphoid epicardial access. Atrial procedures will be performed endocardially using trans-septal approach to access the left atrium. Bi-atrial bipolar contact mapping will be performed at high density during atrial fibrillation prior to ablation.</description>
+    <arm_group_label>Ventricular arrhythmias</arm_group_label>
+    <arm_group_label>Persistent atrial fibrillation</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with ventricular arrhythmias or persistent atrial fibrillation
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age &gt; 18 years old
+
+          -  Body weight &lt; 140 kg
+
+          -  Indicated ablation for ventricular tachycardia or persistent atrial fibrillation
+
+        Exclusion Criteria:
+
+          -  Severe renal insufficiency defined by creatinine clearance &lt; 30 mL/min
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Hôpital cardiologique du Haut-Lévêque</name>
+      <address>
+        <city>Pessac</city>
+        <zip>33604</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>February 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 7, 2014</study_first_submitted>
+  <study_first_submitted_qc>October 22, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 27, 2014</study_first_posted>
+  <last_update_submitted>February 16, 2017</last_update_submitted>
+  <last_update_submitted_qc>February 16, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 17, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Ventricular arrhythmias</keyword>
+  <keyword>Persistent atrial fibrillation</keyword>
+  <keyword>Ablation guidance</keyword>
+  <keyword>Software</keyword>
+  <keyword>MRI (Magnetic resonance imaging)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

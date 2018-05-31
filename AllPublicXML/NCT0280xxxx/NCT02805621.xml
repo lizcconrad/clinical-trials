@@ -1,0 +1,203 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02805621</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Machine</org_study_id>
+    <nct_id>NCT02805621</nct_id>
+  </id_info>
+  <brief_title>Machine leArning Based CT angiograpHy derIved FFR: a Multi-ceNtEr, Registry</brief_title>
+  <acronym>Machine</acronym>
+  <official_title>Machine leArning Based CT angiograpHy derIved FFR a Multi-ceNtEr, Registry</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Erasmus Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Asan Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Hospital, Linkoeping</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Institute of Cardiology, Warsaw, Poland</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Medical University of South Carolina</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Siemens Healthcare Diagnostics Inc</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Erasmus Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Demonstrate in a large multicenter population the diagnostic performance of a pre-commercial
+      on-site, local, CT angiography derived FFR algorithm in comparison to invasive FFR.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      To retrospectively evaluate the diagnostic accuracy of FFRCT, in patients with known or
+      suspected CAD. the investigators propose to do technical assessment of the software and
+      evaluate how different parameters effect the outcome. Validate the FFTCT outcome by comparing
+      the FFRCT values with invasive FFR values from retrospective patient data. To analyze the
+      potential of FFRCT on decision making and prognosis.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2016</start_date>
+  <completion_date type="Actual">January 2017</completion_date>
+  <primary_completion_date type="Actual">January 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic accuracy of local reduced order CFD and machine learning based CT angiography derived FFR, both validated against invasive FFR. Measured at both vessel and patient level.</measure>
+    <time_frame>6 months</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Influence of calcium on diagnostic accuracy of CT angiography derived FFR.</measure>
+    <time_frame>6 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Confidence intervals of CT angiography derived FFR</measure>
+    <time_frame>6 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Direct vessel based comparison between CT angiography derived FFR and QCT stenosis measurements</measure>
+    <time_frame>6 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Analysis of anatomically mild stenosis (&lt;50% lumen diameter reduction) but functionally significant (invasive FFR ≤ 0.80)</measure>
+    <time_frame>6 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Long term clinical outcome of CT angiography derived FFR</measure>
+    <time_frame>12 months</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">352</enrollment>
+  <condition>Coronary Heart Disease</condition>
+  <condition>Coronary Artery Disease</condition>
+  <arm_group>
+    <arm_group_label>Subject</arm_group_label>
+    <description>Patients with know or suspected coronary artery disease, who underwent both CT angiography and invasive coronary angiography including invasive FFR measurements.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        In general, each center used its own specific inclusion and exclusion criteria. Here the
+        investigators describe the general criteria, please see the respected publications for a
+        detailed description.1-4
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Know or suspect coronary artery disease followed within 6 months by an invasive FFR
+             measurement.
+
+        Exclusion Criteria:
+
+          -  Cardiac event between coronary CT angiography and the invasive FFR procedure,
+             noninterpretable coronary CT angiography image quality, or incomplete coronary CT
+             angiography coverage.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Koen Nieman, MD PHD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Erasmus Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>ErasmusMC</name>
+      <address>
+        <city>Rotterdam</city>
+        <state>Zuid Holland</state>
+        <zip>3015CE</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <reference>
+    <citation>De Geer J, Sandstedt M, Björkholm A, Alfredsson J, Janzon M, Engvall J, Persson A. Software-based on-site estimation of fractional flow reserve using standard coronary CT angiography data. Acta Radiol. 2016 Oct;57(10):1186-92. doi: 10.1177/0284185115622075. Epub 2015 Dec 20.</citation>
+    <PMID>26691914</PMID>
+  </reference>
+  <reference>
+    <citation>Kruk M, Wardziak Ł, Demkow M, Pleban W, Pręgowski J, Dzielińska Z, Witulski M, Witkowski A, Rużyłło W, Kępka C. Workstation-Based Calculation of CTA-Based FFR for Intermediate Stenosis. JACC Cardiovasc Imaging. 2016 Jun;9(6):690-9. doi: 10.1016/j.jcmg.2015.09.019. Epub 2016 Feb 17.</citation>
+    <PMID>26897667</PMID>
+  </reference>
+  <reference>
+    <citation>Baumann S, Wang R, Schoepf UJ, Steinberg DH, Spearman JV, Bayer RR 2nd, Hamm CW, Renker M. Coronary CT angiography-derived fractional flow reserve correlated with invasive fractional flow reserve measurements--initial experience with a novel physician-driven algorithm. Eur Radiol. 2015 Apr;25(4):1201-7. doi: 10.1007/s00330-014-3482-5. Epub 2014 Nov 18.</citation>
+    <PMID>25403173</PMID>
+  </reference>
+  <reference>
+    <citation>Coenen A, Lubbers MM, Kurata A, Kono A, Dedic A, Chelu RG, Dijkshoorn ML, Gijsen FJ, Ouhlous M, van Geuns RJ, Nieman K. Fractional flow reserve computed from noninvasive CT angiography data: diagnostic performance of an on-site clinician-operated computational fluid dynamics algorithm. Radiology. 2015 Mar;274(3):674-83. doi: 10.1148/radiol.14140992. Epub 2014 Oct 13.</citation>
+    <PMID>25322342</PMID>
+  </reference>
+  <reference>
+    <citation>Yang DH, Kim YH, Roh JH, Kang JW, Ahn JM, Kweon J, Lee JB, Choi SH, Shin ES, Park DW, Kang SJ, Lee SW, Lee CW, Park SW, Park SJ, Lim TH. Diagnostic performance of on-site CT-derived fractional flow reserve versus CT perfusion. Eur Heart J Cardiovasc Imaging. 2017 Apr 1;18(4):432-440. doi: 10.1093/ehjci/jew094.</citation>
+    <PMID>27354345</PMID>
+  </reference>
+  <verification_date>January 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 15, 2016</study_first_submitted>
+  <study_first_submitted_qc>June 15, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 20, 2016</study_first_posted>
+  <last_update_submitted>January 3, 2017</last_update_submitted>
+  <last_update_submitted_qc>January 3, 2017</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 4, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Erasmus Medical Center</investigator_affiliation>
+    <investigator_full_name>Laurens Groenendijk</investigator_full_name>
+    <investigator_title>dr</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+    <mesh_term>Heart Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

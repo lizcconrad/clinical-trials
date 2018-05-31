@@ -1,0 +1,887 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02404103</url>
+  </required_header>
+  <id_info>
+    <org_study_id>14.1024</org_study_id>
+    <nct_id>NCT02404103</nct_id>
+  </id_info>
+  <brief_title>Flunisolide HFA in Children With Small Airway Disease</brief_title>
+  <official_title>Flunisolide HFA in Children With Small Airway Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Louisville</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Meda Pharmaceuticals</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Louisville</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to see how two doses of Flunisolide HFA (an FDA approved inhaled
+      medication to treat asthma) affect the small airways in children with asthma.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a prospective, randomized, parallel, open label study. The primary aim is to compare
+      the average change in spirometric values (Forced expiratory volume 1 (FEV1) and Forced
+      Expiratory Flow 25-75% (FEF 25-75%) and Impulse Oscillometry System (IOS) values (Resistance
+      at 5 Hz (R5), Resistance at 20 Hz (R20), Area of reactance (AX), Resonant frequency (Fres))
+      from baseline to week 6 from participants randomized flunisolide hydrofluoroalkane (HFA) 1
+      inhalation BID and to flunisolide HFA 2 inhalations BID. The change in scores from baseline
+      to six week follow up will initially be compared using paired t-tests and Chi-squared tests
+      for trend. Repeated measurements will be analyzed using generalized linear mixed-effects
+      regression modeling (GLMM) techniques. For continuous outcomes (e.g. FEV1, FEF 25-75%, Fres,
+      reactance at 5 Hz (X5), AX, R5-R20). The identity link function and normal distribution will
+      be used. For count data (e.g., use of Beta-agonists, episodes of coughing, episodes of
+      wheezing, etc.) the log link function and the Poisson distribution will be used. If we
+      dichotomize outcomes (e.g., a Beta-agonist was used, coughing occurred, etc.) the logit link
+      function and Bernoulli distribution will be used.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2015</start_date>
+  <completion_date type="Actual">June 2017</completion_date>
+  <primary_completion_date type="Actual">May 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Spirometry Forced Expiratory Volume 1 (FEV1) After Flunisolide</measure>
+    <time_frame>Before and after treatment at baseline and six week followup</time_frame>
+    <description>the most used outcome in respiratory studies</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Impulse Oscillometry (IOS) Area of Reactance (AX) After Flunisolide Treatment</measure>
+    <time_frame>Baseline and six week followup</time_frame>
+    <description>A composite measure of small airway dysfunction. A reduction in IOS scores indicate an improvement.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Spirometry Forced Expiratory Flow 25-75% (FEF 25-75%)</measure>
+    <time_frame>baseline and six week followup</time_frame>
+    <description>Indirectly assess small airway function.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Impulse Oscillometry (IOS) Resistance 5 (R5)</measure>
+    <time_frame>initial visit and six week followup</time_frame>
+    <description>Resistance of the respiratory system at 5 Hz is a measure of total airway resistance. Elevated value is indicative of respiratory dysfunction.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">26</enrollment>
+  <condition>Childhood Asthma</condition>
+  <arm_group>
+    <arm_group_label>Flunisolide 160 mcg per day</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patients will receive inhaled Flunisolide HFA 80 mcg twice per day for a total of 160 mcg per day over the 6 week study period</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Flunisolide 320 mcg per day</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patients will receive inhaled Flunisolide HFA 160 mcg twice per day for a total of 320 mcg per day over the 6 week study period</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Flunisolide HFA</intervention_name>
+    <arm_group_label>Flunisolide 160 mcg per day</arm_group_label>
+    <arm_group_label>Flunisolide 320 mcg per day</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosis of asthma
+
+          -  Informed consent by parent or legal guardian
+
+          -  6 years to 18 years of age at screening visit
+
+          -  ability to comply with medication use, study visits and study procedures as judged by
+             the site investigator
+
+          -  FEF 25-75% &lt;65% of predicted as a marker for small airway disease
+
+        Exclusion Criteria:
+
+          -  Acute wheezing at screening visit or at Baseline visit
+
+          -  Acute intercurrent respiratory infection, defined as an increase in cough, wheezing,
+             or respiratory rate with onset in 1 week preceding screening visit or 3 weeks
+             preceding baseline visit
+
+          -  Oxygen saturation &lt;95% at screening visit or at Baseline visit
+
+          -  Clinically significant upper airway obstruction as determined by the Site Investigator
+             (e.g. severe laryngomalacia, markedly enlarged tonsils, significant snoring, diagnosed
+             obstructive sleep apnea.
+
+          -  Severe gastroesophageal reflux, defined as persistent frequent emesis despite
+             anti-reflux therapy
+
+          -  Physical findings that would compromise the safety of the subject or the quality of
+             the study data as determined by site investigator
+
+          -  Inhaled Corticosteroids (ICS) use within 7 days of Baseline visit; systemic steroids
+             within 30 days
+
+          -  Cystic Fibrosis, Interstitial lung disease (ILD) history of severe Bronchopulmonary
+             dysplasia (BPD) or other underling significant respiratory disease apart from asthma
+
+          -  Potential subjects who are pregnant may not enroll in the study
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>6 Years</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>University of Louisville Pediatric Pulmonology</name>
+      <address>
+        <city>Louisville</city>
+        <state>Kentucky</state>
+        <zip>40202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 18, 2015</study_first_submitted>
+  <study_first_submitted_qc>March 25, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 31, 2015</study_first_posted>
+  <results_first_submitted>July 5, 2017</results_first_submitted>
+  <results_first_submitted_qc>September 21, 2017</results_first_submitted_qc>
+  <results_first_posted type="Actual">October 20, 2017</results_first_posted>
+  <last_update_submitted>December 13, 2017</last_update_submitted>
+  <last_update_submitted_qc>December 13, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 14, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Louisville</investigator_affiliation>
+    <investigator_full_name>Nemr Eid</investigator_full_name>
+    <investigator_title>Principal investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Flunisolide</mesh_term>
+    <mesh_term>Fluocinolone Acetonide</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Flunisolide 160 mcg Per Day</title>
+          <description>Patients will receive inhaled Flunisolide HFA 80 mcg twice per day for a total of 160 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+        </group>
+        <group group_id="P2">
+          <title>Flunisolide 320 mcg Per Day</title>
+          <description>Patients will receive inhaled Flunisolide HFA 160 mcg twice per day for a total of 320 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="14"/>
+                <participants group_id="P2" count="12"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="10"/>
+                <participants group_id="P2" count="9"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="3"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Adverse Event</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Lost to Follow-up</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="3"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Those subjects that completed the study protocol.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Flunisolide 160 mcg Per Day</title>
+          <description>Patients will receive inhaled Flunisolide HFA 80 mcg twice per day for a total of 160 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+        </group>
+        <group group_id="B2">
+          <title>Flunisolide 320 mcg Per Day</title>
+          <description>Patients will receive inhaled Flunisolide HFA 160 mcg twice per day for a total of 320 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="10"/>
+            <count group_id="B2" value="9"/>
+            <count group_id="B3" value="19"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10.1" spread="3.8"/>
+                    <measurement group_id="B2" value="11.1" spread="2.9"/>
+                    <measurement group_id="B3" value="10.5" spread="3.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="3"/>
+                    <measurement group_id="B3" value="5"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                    <measurement group_id="B2" value="6"/>
+                    <measurement group_id="B3" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="6"/>
+                    <measurement group_id="B3" value="10"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                    <measurement group_id="B2" value="3"/>
+                    <measurement group_id="B3" value="9"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                    <measurement group_id="B2" value="9"/>
+                    <measurement group_id="B3" value="19"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Spirometry Forced Expiratory Volume 1 (FEV1) After Flunisolide</title>
+        <description>the most used outcome in respiratory studies</description>
+        <time_frame>Before and after treatment at baseline and six week followup</time_frame>
+        <population>Those subjects that completed the study protocol.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Flunisolide 160 mcg Per Day Pretreatment - Baseline</title>
+            <description>Baseline value for Patients who received inhaled Flunisolide HFA 80 mcg twice per day for a total of 160 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+          </group>
+          <group group_id="O2">
+            <title>Flunisolide 320 mcg Per Day Pretreatment - Baseline</title>
+            <description>Baseline for patients who received inhaled Flunisolide HFA 160 mcg twice per day for a total of 320 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+          </group>
+          <group group_id="O3">
+            <title>Flunisolide 160 mcg Per Day Posttreatment - 6 Wks</title>
+            <description>After 6 weeks treatment value for Patients who received inhaled Flunisolide HFA 80 mcg twice per day for a total of 160 mcg per day over the 6 week study period</description>
+          </group>
+          <group group_id="O4">
+            <title>Flunisolide 320 mcg Per Day Posttreatment - 6 Weeks</title>
+            <description>After 6 week valeus for patients who received inhaled Flunisolide HFA 160 mcg twice per day for a total of 320 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Spirometry Forced Expiratory Volume 1 (FEV1) After Flunisolide</title>
+          <description>the most used outcome in respiratory studies</description>
+          <population>Those subjects that completed the study protocol.</population>
+          <units>% of predicted</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+                <count group_id="O2" value="9"/>
+                <count group_id="O3" value="10"/>
+                <count group_id="O4" value="9"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="80.4" spread="10.8"/>
+                    <measurement group_id="O2" value="78.7" spread="9.0"/>
+                    <measurement group_id="O3" value="85.0" spread="10.3"/>
+                    <measurement group_id="O4" value="77.0" spread="7.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>The primary goal of the current study is to determine the effects of Aerospan on lung function in children with small airway obstruction with two doses.</non_inferiority_desc>
+            <p_value>.148</p_value>
+            <method>Mixed Models Analysis</method>
+            <method_desc>generalized linear mixed-effects models (GLMM) using the identity link function and normal distribution were used</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>A goal was to evaluate whether flunisolide HFA 320 mcg when compared to flunisolide 160 mcg lead to significantly better improvement in the same outcome measures over time.</non_inferiority_desc>
+            <p_value>.740</p_value>
+            <method>Mixed Models Analysis</method>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>generalized linear mixed-effects models (GLMM) using the identity link function and normal distribution were used</non_inferiority_desc>
+            <p_value>.921</p_value>
+            <method>Mixed Models Analysis</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Impulse Oscillometry (IOS) Area of Reactance (AX) After Flunisolide Treatment</title>
+        <description>A composite measure of small airway dysfunction. A reduction in IOS scores indicate an improvement.</description>
+        <time_frame>Baseline and six week followup</time_frame>
+        <population>Those subjects that completed the study protocol.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Flunisolide 160 mcg Per Day Pretreatment - Baseline</title>
+            <description>Before Patients received inhaled Flunisolide HFA 80 mcg twice per day for a total of 160 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+          </group>
+          <group group_id="O2">
+            <title>Flunisolide 320 mcg Per Day Pretreatment - Baseline</title>
+            <description>Before Patients received inhaled Flunisolide HFA 160 mcg twice per day for a total of 320 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+          </group>
+          <group group_id="O3">
+            <title>Flunisolide 160 mcg Per Day Posttreatment - 6 Wks</title>
+            <description>After 6 weeks treatment value forPatients who received inhaled Flunisolide HFA 80 mg twice per day.</description>
+          </group>
+          <group group_id="O4">
+            <title>Flunisolide 320 mcg Per Day Posttreatment - 6 Weeks</title>
+            <description>After 6 weeks treatment value for Patients who received inhaled Flunisolide HFA 160 mg twiece a day.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Impulse Oscillometry (IOS) Area of Reactance (AX) After Flunisolide Treatment</title>
+          <description>A composite measure of small airway dysfunction. A reduction in IOS scores indicate an improvement.</description>
+          <population>Those subjects that completed the study protocol.</population>
+          <units>cmH2O/L</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+                <count group_id="O2" value="9"/>
+                <count group_id="O3" value="10"/>
+                <count group_id="O4" value="9"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="17.4" spread="12.3"/>
+                    <measurement group_id="O2" value="13.9" spread="16.6"/>
+                    <measurement group_id="O3" value="18.5" spread="9.6"/>
+                    <measurement group_id="O4" value="14.9" spread="13.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>The primary goal of the current study is to determine the effects of Aerospan on lung function in children with small airway obstruction.</non_inferiority_desc>
+            <p_value>.872</p_value>
+            <method>Mixed Models Analysis</method>
+            <method_desc>generalized linear mixed-effects models (GLMM) using the identity link function and normal distribution were used</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>secondary goal was to evaluate whether flunisolide HFA 320 mcg when compared to flunisolide 160 mcg lead to significantly better improvement in the same outcome measures over time.</non_inferiority_desc>
+            <p_value>0.820</p_value>
+            <method>Mixed Models Analysis</method>
+            <method_desc>generalized linear mixed-effects models (GLMM) using the identity link function and normal distribution were used</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>A goal was to evaluate whether flunisolide HFA 320 mcg when compared to flunisolide 160 mcg lead to significantly better improvement in the same outcome measures over time.</non_inferiority_desc>
+            <p_value>0.582</p_value>
+            <method>Mixed Models Analysis</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Spirometry Forced Expiratory Flow 25-75% (FEF 25-75%)</title>
+        <description>Indirectly assess small airway function.</description>
+        <time_frame>baseline and six week followup</time_frame>
+        <population>Those subjects that completed the study protocol.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Flunisolide 160 mcg Per Day Pretreatment - Baseline</title>
+            <description>Baseline in Patients who received inhaled Flunisolide HFA 80 mcg twice per day for a total of 160 mcg per day over the 6 week study period</description>
+          </group>
+          <group group_id="O2">
+            <title>Flunisolide 320 mcg Per Day Pretreatment - Baseline</title>
+            <description>Baseline in patients who received inhaled Flunisolide HFA 160 mcg twice per day for a total of 320 mcg per day over the 6 week study period</description>
+          </group>
+          <group group_id="O3">
+            <title>Flunisolide 160 mcg Per Day Posttreatment - 6 Wks</title>
+            <description>Six week followup in Patients who received inhaled Flunisolide HFA 80 mcg twice per day for a total of 160 mcg per day over the 6 week study period</description>
+          </group>
+          <group group_id="O4">
+            <title>Flunisolide 320 mcg Per Day Posttreatment - 6 Weeks</title>
+            <description>Six week followup in patients who received inhaled Flunisolide HFA 160 mcg twice per day for a total of 320 mcg per day over the 6 week study period</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Spirometry Forced Expiratory Flow 25-75% (FEF 25-75%)</title>
+          <description>Indirectly assess small airway function.</description>
+          <population>Those subjects that completed the study protocol.</population>
+          <units>% of predicted</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+                <count group_id="O2" value="9"/>
+                <count group_id="O3" value="10"/>
+                <count group_id="O4" value="9"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="60.3" spread="20.0"/>
+                    <measurement group_id="O2" value="61.5" spread="13.7"/>
+                    <measurement group_id="O3" value="57.7" spread="12.1"/>
+                    <measurement group_id="O4" value="65.2" spread="18.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>The primary aim is to compare the average change in spirometric values (FEV1 and FEF25-75%) and AX from baseline to Week 6 from participants randomized flunisolide HFA 1 inhalation BID and to flunisolide HFA 2 inhalations BID.</non_inferiority_desc>
+            <p_value>.782</p_value>
+            <method>Mixed Models Analysis</method>
+            <method_desc>generalized linear mixed-effects models (GLMM) using the identity link function and normal distribution were used.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>The primary aim is to compare the average change in spirometric values (FEV1 and FEF25-75%) and AX from baseline to Week 6 from participants randomized flunisolide HFA 1 inhalation BID and to flunisolide HFA 2 inhalations BID.</non_inferiority_desc>
+            <p_value>.906</p_value>
+            <method>Mixed Models Analysis</method>
+            <method_desc>generalized linear mixed-effects models (GLMM) using the identity link function and normal distribution were used.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>The primary aim is to compare the average change in spirometric values (FEV1 and FEF25-75%) and AX from baseline to Week 6 from participants randomized flunisolide HFA 1 inhalation BID and to flunisolide HFA 2 inhalations BID.</non_inferiority_desc>
+            <p_value>.102</p_value>
+            <method>Mixed Models Analysis</method>
+            <method_desc>generalized linear mixed-effects models (GLMM) using the identity link function and normal distribution were used.</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Impulse Oscillometry (IOS) Resistance 5 (R5)</title>
+        <description>Resistance of the respiratory system at 5 Hz is a measure of total airway resistance. Elevated value is indicative of respiratory dysfunction.</description>
+        <time_frame>initial visit and six week followup</time_frame>
+        <population>Only data for subjects who completed study are presented.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Flunisolide 160 mcg Per Day Pretreatment - Baseline</title>
+            <description>Baseline value for Patients who received inhaled Flunisolide HFA 80 mcg twice per day for a total of 160 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+          </group>
+          <group group_id="O2">
+            <title>Flunisolide 320 mcg Per Day Pretreatment - Baseline</title>
+            <description>Baseline for patients who received inhaled Flunisolide HFA 160 mcg twice per day for a total of 320 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+          </group>
+          <group group_id="O3">
+            <title>Flunisolide 160 mcg Per Day Posttreatment - 6 Wks</title>
+            <description>After 6 weeks treatment value for Patients who received inhaled Flunisolide HFA 80 mcg twice per day for a total of 160 mcg per day over the 6 week study period</description>
+          </group>
+          <group group_id="O4">
+            <title>Flunisolide 320 mcg Per Day Posttreatment - 6 Weeks</title>
+            <description>After 6 week valeus for patients who received inhaled Flunisolide HFA 160 mcg twice per day for a total of 320 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Impulse Oscillometry (IOS) Resistance 5 (R5)</title>
+          <description>Resistance of the respiratory system at 5 Hz is a measure of total airway resistance. Elevated value is indicative of respiratory dysfunction.</description>
+          <population>Only data for subjects who completed study are presented.</population>
+          <units>cmH2O(L/s)</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+                <count group_id="O2" value="9"/>
+                <count group_id="O3" value="10"/>
+                <count group_id="O4" value="9"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6.5" spread="2.0"/>
+                    <measurement group_id="O2" value="5.8" spread="2.3"/>
+                    <measurement group_id="O3" value="7.0" spread="1.4"/>
+                    <measurement group_id="O4" value="6.0" spread="1.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>To assess the impact of flunisolide on small airway parameters using spirometry and impulse oscillometry and determine whether there is a dose-related difference (320 mcg vs 160 mcg) with flunisolide HFA in pediatric patients who have evidence of small airway obstruction.</non_inferiority_desc>
+            <p_value>.620</p_value>
+            <method>Mixed Models Analysis</method>
+            <method_desc>generalized linear mixed-effects models (GLMM) using the identity link function and normal distribution were used.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>To assess the impact of flunisolide on small airway parameters using spirometry and impulse oscillometry and determine whether there is a dose-related difference (320 mcg vs 160 mcg) with flunisolide HFA in pediatric patients who have evidence of small airway obstruction.</non_inferiority_desc>
+            <p_value>.543</p_value>
+            <method>Mixed Models Analysis</method>
+            <method_desc>generalized linear mixed-effects models (GLMM) using the identity link function and normal distribution were used</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <non_inferiority_type>Equivalence</non_inferiority_type>
+            <non_inferiority_desc>To assess the impact of flunisolide on small airway parameters using spirometry and impulse oscillometry and determine whether there is a dose-related difference (320 mcg vs 160 mcg) with flunisolide HFA in pediatric patients who have evidence of small airway obstruction.</non_inferiority_desc>
+            <p_value>.6</p_value>
+            <method>Mixed Models Analysis</method>
+            <method_desc>generalized linear mixed-effects models (GLMM) using the identity link function and normal distribution were used</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>up to 6 weeks</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Flunisolide 160 mcg Per Day</title>
+          <description>Patients will receive inhaled Flunisolide HFA 80 mcg twice per day for a total of 160 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+        </group>
+        <group group_id="E2">
+          <title>Flunisolide 320 mcg Per Day</title>
+          <description>Patients will receive inhaled Flunisolide HFA 160 mcg twice per day for a total of 320 mcg per day over the 6 week study period
+Flunisolide HFA</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="10"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="9"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="10"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="9"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Renal and urinary disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Urinary tract infection</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="10"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="9"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="10"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="9"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>The small numbers of subjects who qualified and completed the study.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Nemr Eid, MD</name_or_title>
+      <organization>University Louisville</organization>
+      <phone>502-852-3772</phone>
+      <email>n.eid@louisville.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

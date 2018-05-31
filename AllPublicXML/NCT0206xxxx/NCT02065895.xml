@@ -1,0 +1,827 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02065895</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2012P-000401</org_study_id>
+    <nct_id>NCT02065895</nct_id>
+  </id_info>
+  <brief_title>Effect of Gain on Closed-Loop Insulin</brief_title>
+  <official_title>Effect of Gain on Closed-Loop Insulin</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Joslin Diabetes Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Juvenile Diabetes Research Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Joslin Diabetes Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to test the ability of an advanced external Physiologic Insulin
+      Delivery (ePID) algorithm (a step by step process used to develop a solution to a problem) to
+      get acceptable meal responses over a range of gain. Gain is defined as how much insulin is
+      given in response to a change in a patient's glucose level.
+
+      This study also examines the effectiveness of the external Physiologic Insulin Delivery
+      (ePID) closed-loop insulin delivery computer software. The investigators would like to assess
+      whether fasting target levels can be achieved as the closed-loop gain increases or decreases,
+      and to evaluate the system's ability to produce an acceptable breakfast meal response.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      There have been significant advances in diabetes management technology, including more
+      sophisticated insulin pumps and more accurate real-time continuous glucose monitors. The next
+      technological development is widely thought to be the introduction of an algorithm linking
+      the pump and sensor to form a closed-loop insulin delivery system. The algorithm used for
+      this purpose needs to be robust to changes in an individual's insulin sensitivity, and the
+      sensor's sensitivity to glucose. Insulin sensitivity (how much the patient's glucose level
+      changes in response to a change in insulin delivery) and algorithm gain (how much insulin is
+      delivered in response to a change in glucose) determine the systems overall closed-loop gain.
+      Ideally, the overall gain can be set to achieve the lowest possible peak postprandial glucose
+      response without postprandial hypoglycemia. However, if the algorithm's gain is set to a
+      fixed value and the subject's insulin sensitivity changes, the overall-gain will change. Some
+      degradation in closed-loop performance might be acceptable during periods whenever the
+      subject's insulin sensitivity is low (i.e., the subject is insulin resistant) and the risk of
+      hypoglycemia may actually be reduced. However, if the subject becomes more sensitive the
+      system may become less stable and the risk of postprandial hypoglycemia may increase. In
+      addition to changes in insulin sensitivity, glucose sensors will sometimes over- or
+      under-read blood glucose as sensor sensitivity increases or decreases. This will result in a
+      change in the closed-loop algorithm's effective target. The purpose of this study is to
+      evaluate the ability of an advanced Physiologic Insulin Delivery algorithm to achieve an
+      acceptable breakfast response as the gain and effective target glucose level changes.
+      Specifically:
+
+        1. to assess the fasting glucose levels achieved as the overall closed-loop gain and
+           effective target is increased or decreased, and
+
+        2. determine the system's ability to produce an acceptable breakfast meal response under
+           these conditions
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>December 2013</start_date>
+  <completion_date type="Actual">April 2015</completion_date>
+  <primary_completion_date type="Actual">April 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>Study subjects are studied under closed-loop control on three occasions: once with the glucose values used for control equal to blood glucose (NO error), once with values 33% higher than blood glucose (HIGH error), and once with values 20% lower than blood glucose (LOW error). The six different sequences of these three exposures then comprise the six arms of this crossover study.</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Glucose Area Under the Curve (AUC) Breakfast</measure>
+    <time_frame>On day #1, day #2 and day #3 (each day could be 24 hours to 7 days apart from prior one, and completed within 6 week period) 8:00 AM to 2:00 PM on day following admission, with samples obtained every 10-15 minutes, for each sequence of calibration errors</time_frame>
+    <description>Glucose Area Under the Curve (AUC) Breakfast defines the total exposure to glucose during breakfast. Breakfast is typically considered the most difficult meal to control; low AUC is desirable.This outcome measure was analyzed for each of the three calibration error values (high error, no error and low error).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Peak and Nadir Postprandial Glucose Concentration</measure>
+    <time_frame>On day #1, day #2 and day #3 (each day could be 24 hours to 7 days apart from prior one, and completed within 6 week period) 8:00 AM to 12:00 PM on day following admission, with samples obtained every 10-15 minutes, for each sequence of calibration errors</time_frame>
+    <description>Highest and lowest glucose concentrations obtained during breakfast meal.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Nighttime Time-in-target 5.0-8.33mmol/l (Controller Set-point Plus and Minus 15 mg/dL)</measure>
+    <time_frame>On day #1, day #2 and day #3 (each day could be 24 hours to 7 days apart from prior one, and completed within 6 week period) 12:00 AM to 6:00 AM on day following admission, with samples obtained every 10-15 minutes, for each sequence of calibration errors</time_frame>
+    <description>Night-time in target range 5.0-8.33, following the 3 hour controller initialization period blood glucose remained at or near target.</description>
+  </other_outcome>
+  <number_of_arms>6</number_of_arms>
+  <enrollment type="Actual">8</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>HIGH error, LOW error, NO error</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects were randomized to receive overnight and breakfast closed-loop glucose control glucose on three occasions: first with glucose-value-used-for-control higher than blood glucose (HIGH error), then second with glucose-value-used-for-control lower than blood glucose (LOW error), then third with glucose-value-used-for-control equal blood glucose (NO error).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>HIGH error, NO error, LOW error</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects were randomized to receive overnight and breakfast closed-loop glucose control glucose on three occasions: first with glucose-value-used-for-control higher than blood glucose (HIGH error), then second with glucose-value-used-for-control equal blood glucose (NO error), then third with glucose-value-used-for-control lower than blood glucose (LOW error).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>NO error, HIGH error, LOW error</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects were randomized to receive overnight and breakfast closed-loop glucose control glucose on three occasions: first with glucose-value-used-for-control equal blood glucose (NO error), then second with glucose-values-used-for-control higher than blood glucose (HIGH error), then third with glucose-value-used-for-control lower than blood glucose (LOW error).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>NO error, LOW error, HIGH error</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects were randomized to receive overnight and breakfast closed-loop glucose control glucose on three occasions: first with glucose-value-used-for-control equal blood glucose (NO error), then second with glucose-value-used-for-control lower than blood glucose (LOW error), then third with glucose-value-used-for-control higher than blood glucose (HIGH error).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>LOW error, NO error, HIGH error</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects were randomized to receive overnight and breakfast closed-loop glucose control glucose on three occasions: first with with glucose-value-used-for-control lower than blood glucose (LOW error), then second with glucose-value-used-for-control equal blood glucose (NO error), then third with glucose-value-used-for-control higher than blood glucose (HIGH error).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>LOW error, HIGH error, NO error</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects were randomized to receive overnight and breakfast closed-loop glucose control glucose on three occasions: first with glucose-value-used-for-control lower than blood glucose (LOW error), then second with glucose-value-used-for-control equal blood glucose (NO error), then third glucose-value-used-for-control higher than blood glucose (HIGH error),</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>HIGH error</intervention_name>
+    <description>Overnight and breakfast closed-loop control were performed using a target glucose of 120 mg/dL but with the glucose-value-used-for-control equal to 1.33 times the true glucose value (analogous to higher gain lower target).</description>
+    <arm_group_label>HIGH error, LOW error, NO error</arm_group_label>
+    <arm_group_label>HIGH error, NO error, LOW error</arm_group_label>
+    <arm_group_label>NO error, HIGH error, LOW error</arm_group_label>
+    <arm_group_label>NO error, LOW error, HIGH error</arm_group_label>
+    <arm_group_label>LOW error, NO error, HIGH error</arm_group_label>
+    <arm_group_label>LOW error, HIGH error, NO error</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>NO error</intervention_name>
+    <description>Overnight and breakfast closed-loop control were performed using a target glucose of 120 mg/dL and glucose-value-used-for-control equal to the true glucose value.</description>
+    <arm_group_label>HIGH error, LOW error, NO error</arm_group_label>
+    <arm_group_label>HIGH error, NO error, LOW error</arm_group_label>
+    <arm_group_label>NO error, HIGH error, LOW error</arm_group_label>
+    <arm_group_label>NO error, LOW error, HIGH error</arm_group_label>
+    <arm_group_label>LOW error, NO error, HIGH error</arm_group_label>
+    <arm_group_label>LOW error, HIGH error, NO error</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>LOW error</intervention_name>
+    <description>Overnight and breakfast closed-loop control were performed using a target glucose of 120 mg/dL but with the glucose-value-used-for-control equal to 0.8 times the true glucose value (analogous to lower gain higher target).</description>
+    <arm_group_label>HIGH error, LOW error, NO error</arm_group_label>
+    <arm_group_label>HIGH error, NO error, LOW error</arm_group_label>
+    <arm_group_label>NO error, HIGH error, LOW error</arm_group_label>
+    <arm_group_label>NO error, LOW error, HIGH error</arm_group_label>
+    <arm_group_label>LOW error, NO error, HIGH error</arm_group_label>
+    <arm_group_label>LOW error, HIGH error, NO error</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Type 1 diabetes for &gt; 3 years
+
+          -  Manage diabetes using a continuous glucose monitor and continuous subcutaneous insulin
+             infusion pump
+
+          -  Non obese (BMI &lt; 30)
+
+          -  Aged 18 - 75 years old
+
+          -  HbA1c &lt; 8 %
+
+        Exclusion Criteria:
+
+          -  renal or hepatic failure
+
+          -  cancer or lymphoma
+
+          -  Malabsorption or malnourishment
+
+          -  Hypercortisolism
+
+          -  Alcoholism or drug abuse
+
+          -  Anemia (hematocrit &lt; 36 in females and &lt;40 in males)
+
+          -  Eating disorder
+
+          -  Dietary restrictions
+
+          -  Acetaminophen allergy
+
+          -  Chronic acetaminophen use
+
+          -  Glucocorticoid therapy
+
+          -  History of gastroparesis
+
+          -  Use of Beta blockers
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Howard Wolpert, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Joslin Diabetes Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Joslin Diabetes Center</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Steil GM, Panteleon AE, Rebrin K. Closed-loop insulin delivery-the path to physiological glucose control. Adv Drug Deliv Rev. 2004 Feb 10;56(2):125-44. Review.</citation>
+    <PMID>14741112</PMID>
+  </reference>
+  <reference>
+    <citation>Steil GM, Rebrin K, Janowski R, Darwin C, Saad MF. Modeling beta-cell insulin secretion--implications for closed-loop glucose homeostasis. Diabetes Technol Ther. 2003;5(6):953-64.</citation>
+    <PMID>14709197</PMID>
+  </reference>
+  <reference>
+    <citation>Steil GM, Rebrin K, Darwin C, Hariri F, Saad MF. Feasibility of automating insulin delivery for the treatment of type 1 diabetes. Diabetes. 2006 Dec;55(12):3344-50.</citation>
+    <PMID>17130478</PMID>
+  </reference>
+  <reference>
+    <citation>Weinzimer SA, Steil GM, Swan KL, Dziura J, Kurtz N, Tamborlane WV. Fully automated closed-loop insulin delivery versus semiautomated hybrid control in pediatric patients with type 1 diabetes using an artificial pancreas. Diabetes Care. 2008 May;31(5):934-9. doi: 10.2337/dc07-1967. Epub 2008 Feb 5.</citation>
+    <PMID>18252903</PMID>
+  </reference>
+  <reference>
+    <citation>Steil GM, Palerm CC, Kurtz N, Voskanyan G, Roy A, Paz S, Kandeel FR. The effect of insulin feedback on closed loop glucose control. J Clin Endocrinol Metab. 2011 May;96(5):1402-8. doi: 10.1210/jc.2010-2578. Epub 2011 Mar 2.</citation>
+    <PMID>21367930</PMID>
+  </reference>
+  <reference>
+    <citation>Loutseiko M, Voskanyan G, Keenan DB, Steil GM. Closed-loop insulin delivery utilizing pole placement to compensate for delays in subcutaneous insulin delivery. J Diabetes Sci Technol. 2011 Nov 1;5(6):1342-51.</citation>
+    <PMID>22226251</PMID>
+  </reference>
+  <reference>
+    <citation>Buchanan TA, Xiang AH, Peters RK, Kjos SL, Berkowitz K, Marroquin A, Goico J, Ochoa C, Azen SP. Response of pancreatic beta-cells to improved insulin sensitivity in women at high risk for type 2 diabetes. Diabetes. 2000 May;49(5):782-8.</citation>
+    <PMID>10905487</PMID>
+  </reference>
+  <reference>
+    <citation>Panteleon AE, Loutseiko M, Steil GM, Rebrin K. Evaluation of the effect of gain on the meal response of an automated closed-loop insulin delivery system. Diabetes. 2006 Jul;55(7):1995-2000.</citation>
+    <PMID>16804068</PMID>
+  </reference>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 7, 2014</study_first_submitted>
+  <study_first_submitted_qc>February 14, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 19, 2014</study_first_posted>
+  <results_first_submitted>August 23, 2017</results_first_submitted>
+  <results_first_submitted_qc>April 5, 2018</results_first_submitted_qc>
+  <results_first_posted type="Actual">April 6, 2018</results_first_posted>
+  <last_update_submitted>May 14, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 14, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 17, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Physiologic Insulin Delivery (PID)</keyword>
+  <keyword>Closed Loop</keyword>
+  <keyword>Sensor</keyword>
+  <keyword>Insulin sensitivity</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Written informed consent was obtained from all 8 participants at the Joslin Diabetes Center. All study related activities were conducted at the Center for Clinical Investigations at the Beth Israel deaconess Medical Center.</recruitment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>HIGH Error First, LOW Error Second, Then NO Error Third</title>
+          <description>In this arm, subjects were randomized to undergo in-clinic closed-loop control of nighttime and breakfast glucose on three occasions: first with the glucose value used for control calculated to be 33% higher than the true glucose value (HIGH error), then second with the value calculated to be 20% lower than the true value (LOW error), then third with the value equal to the true value (NO error). These conditions reflect real-life conditions that would be expected if closed-loop artificial pancreas control is effected with different sensor calibration error. No meal announcement was provided (simulates condition where patient forgets to announce meal), and all subjects were controlled with the same closed-loop gain (simulates conditions where an individual's insulin sensitivity changes). Intervention period: 17 hours; minimum washout period was 7 hours, maximum was 62 days (varied among subjects, allowed up to 3 months to complete all 3 interventions).</description>
+        </group>
+        <group group_id="P2">
+          <title>HIGH Error First, NO Error Second, Then LOW Error Third</title>
+          <description>In this arm, subjects were were randomized to undergo in-clinic closed-loop control of nighttime and breakfast glucose on three occasions: first with the glucose value used for control calculated to be 33% higher than the true glucose value (HIGH error), then second with the value calculated to equal the true value (NO error), and then third with the value calculated to be 20% lower than the true value (LOW error). These conditions reflect real-life conditions that would be expected if closed-loop artificial pancreas control is effected with different sensor calibration error. No meal announcement was provided (simulates condition where patient forgets to announce meal), and all subjects were controlled with the same closed-loop gain (simulates conditions where an individual's insulin sensitivity changes). Intervention period: 17 hours; minimum washout period was 7 hours, maximum was 62 days (varied among subjects, allowed up to 3 months to complete all 3 interventions).</description>
+        </group>
+        <group group_id="P3">
+          <title>NO Error First, LOW Error Second, HIGH Error Third</title>
+          <description>In this arm, subjects were were randomized to undergo in-clinic closed-loop control of nighttime and breakfast glucose on three occasions: first with the glucose value used for control equal the true value (NO error), then second with the value calculated to be 20% lower than the true value (LOW error), and then third with the value calculated to be 33% higher than the true glucose value (HIGH error). These conditions reflect real-life conditions that would be expected if closed-loop artificial pancreas control is effected with different sensor calibration error. No meal announcement was provided (simulates condition where patient forgets to announce meal), and all subjects were controlled with the same closed-loop gain (simulates conditions where an individual's insulin sensitivity changes). Intervention period: 17 hours; minimum washout period was 7 hours, maximum was 62 days (varied among subjects, allowed up to 3 months to complete all 3 interventions).</description>
+        </group>
+        <group group_id="P4">
+          <title>NO Error First, HIGH Error Second, LOW Error Third</title>
+          <description>In this arm, subjects were were randomized to undergo in-clinic closed-loop control of nighttime and breakfast glucose on three occasions: first with the glucose value used for control calculated equal the true value (NO error), and then second with the value calculated as 33% higher than the true glucose value (HIGH error), and then third with the value calculated to to be 20% lower than the true glucose value (LOW error). These conditions reflect real-life conditions that would be expected if closed-loop artificial pancreas control is effected with different sensor calibration error. No meal announcement was provided (simulates condition where patient forgets to announce meal), and all subjects were controlled with the same closed-loop gain (simulates conditions where an individual's insulin sensitivity changes).Intervention period: 17 hours; minimum washout period was 7 hours, maximum was 62 days (varied among subjects, allowed up to 3 months to complete all 3 interventions).</description>
+        </group>
+        <group group_id="P5">
+          <title>LOW Error First, NO Error Second, HIGH Error Third</title>
+          <description>In this arm, subjects were were randomized to undergo in-clinic closed-loop control of nighttime and breakfast glucose on three occasions: first with the glucose value used for control calculated to be 20% lower than the true glucose value (LOW error), then second with the value calculated to equal the true value (NO error), and then third with the value calculated to be 33% higher than the true value. These conditions reflect real-life conditions that would be expected if closed-loop artificial pancreas control is effected with different sensor calibration error. No meal announcement was provided (simulates condition where patient forgets to announce meal), and all subjects were controlled with the same closed-loop gain (simulates conditions where an individual's insulin sensitivity changes). Intervention period: 17 hours; minimum washout period was 7 hours,maximum was 62 days (varied among subjects, allowed up to 3 months to complete all 3 interventions).</description>
+        </group>
+        <group group_id="P6">
+          <title>LOW Error First, HIGH Error Second, NO Error Third</title>
+          <description>In this arm, subjects were were randomized to undergo in-clinic closed-loop control of nighttime and breakfast glucose on three occasions: first with the glucose value used for control calculated to be 20% lower than the true glucose value (LOW error), then second with the value calculated to be 33% higher than the true value (HIGH error), and then third with the value calculated to be equal the true value (NO error). These conditions reflect real-life conditions that would be expected if closed-loop artificial pancreas control is effected with different sensor calibration error. No meal announcement was provided (simulates condition where patient forgets to announce meal), and all subjects were controlled with the same closed-loop gain (simulates conditions where an individual's insulin sensitivity changes). Intervention period: 17 hours; minimum washout period was 7 hours, maximum was 62 days (varied among subjects, allowed up to 3 months to complete all 3 interventions).</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="3"/>
+                <participants group_id="P3" count="1"/>
+                <participants group_id="P4" count="1"/>
+                <participants group_id="P5" count="1"/>
+                <participants group_id="P6" count="1"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="2"/>
+                <participants group_id="P3" count="1"/>
+                <participants group_id="P4" count="0"/>
+                <participants group_id="P5" count="1"/>
+                <participants group_id="P6" count="1"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="1"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="1"/>
+                <participants group_id="P5" count="0"/>
+                <participants group_id="P6" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Protocol Violation</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="1"/>
+                <participants group_id="P5" count="0"/>
+                <participants group_id="P6" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Scheduling conflicts</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+                <participants group_id="P5" count="0"/>
+                <participants group_id="P6" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>One subject withdrew prior to visit 1; of the seven subjects admitted on 3 occasions, two had protocol violations on one occasion (one subject experienced technical problems; one subject completed the nighttime period but was called away on an emergency prior to breakfast); 5 subjects completed the study per protocol.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Closed-loop Control</title>
+          <description>Closed-loop control was performed from 9:00 PM to 2:00 the day following admission on three occasions: once with a glucose-value-used-for control calculated to be higher than the true blood glucose (analogous to a sensor glucose signal that is miss-calibrated); once with the value equal to blood glucose (analogous to a sensor signal with no calibration), and once with the value calculated to be lower than blood glucose. Six different arms were utilized, defined by the differing sequences of each of the three values used for control (no error, high error and low error previously defined). On each occasion control was separated into the nighttime period (midnight to 08:00 AM) and breakfast period (8:00 AM to 2:00 PM).</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="8"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="57" lower_limit="40" upper_limit="71"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <population>One subject withdrew</population>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Median duration of diabetes</title>
+          <units>years</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="47" lower_limit="11" upper_limit="62"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Daily insulin use</title>
+          <units>units/day</units>
+          <param>Mean</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="35.4" lower_limit="27" upper_limit="45.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>HbA1c</title>
+          <units>%</units>
+          <param>Mean</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7.7" lower_limit="6.8" upper_limit="8.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Glucose Area Under the Curve (AUC) Breakfast</title>
+        <description>Glucose Area Under the Curve (AUC) Breakfast defines the total exposure to glucose during breakfast. Breakfast is typically considered the most difficult meal to control; low AUC is desirable.This outcome measure was analyzed for each of the three calibration error values (high error, no error and low error).</description>
+        <time_frame>On day #1, day #2 and day #3 (each day could be 24 hours to 7 days apart from prior one, and completed within 6 week period) 8:00 AM to 2:00 PM on day following admission, with samples obtained every 10-15 minutes, for each sequence of calibration errors</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>HIGH Error</title>
+            <description>Glucose sensor errors leading to sensor glucose reading higher than that true blood glucose result in closed-loop control systems (artificial pancreas) behaving as if the control gain is increased and the target is lowered. In this arm we study closed-loop control with a sensor signal reading 33% higher than blood glucose.</description>
+          </group>
+          <group group_id="O2">
+            <title>NO Error</title>
+            <description>Glucose sensor errors leading to sensor glucose reading higher than that true blood glucose result in closed-loop control systems (artificial pancreas) behaving as if the control gain is increased and the target is lowered. In this arm we study closed-loop control with a sensor signal reading equal to blood glucose.</description>
+          </group>
+          <group group_id="O3">
+            <title>LOW Error</title>
+            <description>Glucose sensor errors leading to sensor glucose reading higher than that true blood glucose result in closed-loop control systems (artificial pancreas) behaving as if the control gain is increased and the target is lowered. In this arm we study closed-loop control with a sensor signal reading 20% lower than blood glucose.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Glucose Area Under the Curve (AUC) Breakfast</title>
+          <description>Glucose Area Under the Curve (AUC) Breakfast defines the total exposure to glucose during breakfast. Breakfast is typically considered the most difficult meal to control; low AUC is desirable.This outcome measure was analyzed for each of the three calibration error values (high error, no error and low error).</description>
+          <units>mmol/l/min</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="5"/>
+                <count group_id="O2" value="5"/>
+                <count group_id="O3" value="5"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="66.8" lower_limit="53.3" upper_limit="80.3"/>
+                    <measurement group_id="O2" value="48.8" lower_limit="41.1" upper_limit="56.4"/>
+                    <measurement group_id="O3" value="37.4" lower_limit="33.4" upper_limit="41.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Differences among the 3 groups were assessed by repeated measures ANOVA using Sidak’s correction for multiple comparisons. All subjects were analyzed as a single group, no comparison group.</groups_desc>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <non_inferiority_desc>ANOVA was used to first tests the hypothesis that there is a difference among the three groups.</non_inferiority_desc>
+            <p_value>0.0011</p_value>
+            <p_value_desc>The p value was adjusted for multiple comparisons using Sidak’s correction. A priori the pimary outcome was defined as blood glucose AUC from 8 am - 12pm; however we used blood glucose AUC from 8am - 2pm to capture the entire meal response.</p_value_desc>
+            <method>ANOVA</method>
+            <param_type>Mean Difference (Final Values)</param_type>
+            <param_value>66.8</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>33.4</ci_lower_limit>
+            <ci_upper_limit>80.3</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Peak and Nadir Postprandial Glucose Concentration</title>
+        <description>Highest and lowest glucose concentrations obtained during breakfast meal.</description>
+        <time_frame>On day #1, day #2 and day #3 (each day could be 24 hours to 7 days apart from prior one, and completed within 6 week period) 8:00 AM to 12:00 PM on day following admission, with samples obtained every 10-15 minutes, for each sequence of calibration errors</time_frame>
+        <population>Analysis was limited to the 5 subjects completed all aspects of the study per protocol (i.e. 5 subjects who completed all three scheduled breakfast meals).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Gain Increased and Target Decreased</title>
+            <description>Closed-loop control performed with a sensor reading higher than blood glucose behave as if the control gain has been increased and the target set lowered</description>
+          </group>
+          <group group_id="O2">
+            <title>Nadir Mean</title>
+            <description>Closed-loop control performed with a sensor reading higher than blood glucose behave as if the control gain has been increased and the target set lowered</description>
+          </group>
+          <group group_id="O3">
+            <title>Gain Decreased and Target Increased</title>
+            <description>Closed-loop control performed with a sensor reading lower than blood glucose behave as if the control gain has been lowered and the target increased</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Peak and Nadir Postprandial Glucose Concentration</title>
+          <description>Highest and lowest glucose concentrations obtained during breakfast meal.</description>
+          <population>Analysis was limited to the 5 subjects completed all aspects of the study per protocol (i.e. 5 subjects who completed all three scheduled breakfast meals).</population>
+          <units>mmol/l</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="5"/>
+                <count group_id="O2" value="5"/>
+                <count group_id="O3" value="5"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Peak glucose concentration</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="13.3" lower_limit="11.3" upper_limit="15.4"/>
+                    <measurement group_id="O2" value="11.8" lower_limit="9.8" upper_limit="14.0"/>
+                    <measurement group_id="O3" value="11.3" lower_limit="10.2" upper_limit="12.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Nadir glucose concentration</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4.5" lower_limit="3.8" upper_limit="5.2"/>
+                    <measurement group_id="O2" value="4.8" lower_limit="3.7" upper_limit="6.5"/>
+                    <measurement group_id="O3" value="6.6" lower_limit="5.6" upper_limit="7.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <p_value>0.0059</p_value>
+            <method>ANOVA</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Nighttime Time-in-target 5.0-8.33mmol/l (Controller Set-point Plus and Minus 15 mg/dL)</title>
+        <description>Night-time in target range 5.0-8.33, following the 3 hour controller initialization period blood glucose remained at or near target.</description>
+        <time_frame>On day #1, day #2 and day #3 (each day could be 24 hours to 7 days apart from prior one, and completed within 6 week period) 12:00 AM to 6:00 AM on day following admission, with samples obtained every 10-15 minutes, for each sequence of calibration errors</time_frame>
+        <population>Analysis was limited to the 6 subjects completing all 3 nighttime periods per protocol</population>
+        <group_list>
+          <group group_id="O1">
+            <title>HIGH Error</title>
+            <description>Closed-loop control performed with sensor glucose reading higher than blood glucose behaves as if the controller gain has been increased and the target lowered</description>
+          </group>
+          <group group_id="O2">
+            <title>NO Errror</title>
+            <description>Reference nighttime response for comparison with closed-loop control with sensor glucose reading higher than blood glucose and lower than blood glucose.</description>
+          </group>
+          <group group_id="O3">
+            <title>LOW Error</title>
+            <description>Closed-loop control performed with sensor glucose reading lower than blood glucose behaves as if the controller gain has been lowered and the target increased</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Nighttime Time-in-target 5.0-8.33mmol/l (Controller Set-point Plus and Minus 15 mg/dL)</title>
+          <description>Night-time in target range 5.0-8.33, following the 3 hour controller initialization period blood glucose remained at or near target.</description>
+          <population>Analysis was limited to the 6 subjects completing all 3 nighttime periods per protocol</population>
+          <units>percentage of time in target range</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="6"/>
+                <count group_id="O2" value="6"/>
+                <count group_id="O3" value="6"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="88" lower_limit="87" upper_limit="100"/>
+                    <measurement group_id="O2" value="100" lower_limit="100" upper_limit="100"/>
+                    <measurement group_id="O3" value="80" lower_limit="54" upper_limit="86"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Study data was collected over a 6 month period, in the Center for Clinical Investigations at the Beth Israel Deaconess Medical Center</time_frame>
+      <desc>Adverse events were to be reported to the CCI in accordance with CCI policy (Section XII, G of the CCI Policy and Procedure manual) on reporting such events</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>HIGH Error First, NO Error Second, LOW Error Third</title>
+          <description>Nighttime and Breakfast closed-loop glucose control was performed on 3 occasions: first with the glucose value used for control calculated to be 33% higher than the true glucose (HIGH error), then with the value equal to the true glucose (NO error), and then with the value calculated to be 80% of the true value (LOW error).</description>
+        </group>
+        <group group_id="E2">
+          <title>HIGH Error First, LOW Error Second, NO Error Third</title>
+          <description>Nighttime and Breakfast closed-loop glucose control was performed on 3 occasions: first with the glucose value used for control calculated to be 33% higher than the true glucose (HIGH error), then with the value calculated to be 80% of the true value (LOW error), and then with the value equal to the true glucose (NO error).</description>
+        </group>
+        <group group_id="E3">
+          <title>NO Error First, HIGH Error Second, LOW Error Third</title>
+          <description>Nighttime and Breakfast closed-loop glucose control was performed on 3 occasions: first with the glucose value used for control equal to the true glucose (NO error), then with the value calculated to be 33% higher than the true glucose (HIGH error), and then with the value calculated to be 80% of the true value (LOW error).</description>
+        </group>
+        <group group_id="E4">
+          <title>NO Error First, LOW Error Second, HIGH Error Third</title>
+          <description>Nighttime and Breakfast closed-loop glucose control was performed on 3 occasions: first with the glucose value used for control equal to the true glucose (NO error), then with the value calculated to be 80% of the true value (LOW error) and then with the value calculated to be 33% higher than the true glucose (HIGH error)</description>
+        </group>
+        <group group_id="E5">
+          <title>LOW Error First, NO Error Second, HIGH Error Third</title>
+          <description>Nighttime and Breakfast closed-loop glucose control was performed on 3 occasions: first with the glucose value used for control equal 80% of the true value (LOW error), then with value equal to the true glucose (NO error), and then with the value calculated to be calculated to be 33% higher than the true glucose (HIGH error).</description>
+        </group>
+        <group group_id="E6">
+          <title>LOW Error First, HIGH Error Second, NO Error Third</title>
+          <description>Nighttime and Breakfast closed-loop glucose control was performed on 3 occasions: first with the glucose value used for control calculated to be 20% lower than the true glucose (LOW error), then with the value calculated to be 30% higher than the true value (HIGH error) and then with the value equal to the true glucose (NO error)</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="2"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="1"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="1"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="1"/>
+                <counts group_id="E5" subjects_affected="0" subjects_at_risk="1"/>
+                <counts group_id="E6" subjects_affected="0" subjects_at_risk="1"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="2"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="1"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="1"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="1"/>
+                <counts group_id="E5" subjects_affected="0" subjects_at_risk="1"/>
+                <counts group_id="E6" subjects_affected="0" subjects_at_risk="1"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="2"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="1"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="1"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="1"/>
+                <counts group_id="E5" subjects_affected="0" subjects_at_risk="1"/>
+                <counts group_id="E6" subjects_affected="0" subjects_at_risk="1"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>In this study sensor calibration errors were simulated using a YSI reference glucose values; however, this may not fully capture errors that are due to delays between plasma and the interstitial fluid glucose value measured by a glucose sensor.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Garry M. Steil, PhD</name_or_title>
+      <organization>Boston Children's Hospital</organization>
+      <phone>617-355-7504</phone>
+      <email>garry.steil@childrens.harvard.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

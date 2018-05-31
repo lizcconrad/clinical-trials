@@ -1,0 +1,226 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03177148</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BMi2+</org_study_id>
+    <nct_id>NCT03177148</nct_id>
+  </id_info>
+  <brief_title>Population Effects of MI on Pediatric Obesity in Primary Care</brief_title>
+  <acronym>BMi2+</acronym>
+  <official_title>Population Effects of Motivational Interviewing on Pediatric Obesity in Primary Care</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Michigan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>American Academy of Pediatrics</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ann &amp; Robert H Lurie Children's Hospital of Chicago</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Michigan</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this cluster randomized effectiveness trial, pediatric primary care practices will be
+      recruited from the American Academy of Pediatrics' national Pediatric Research in Office
+      Settings (PROS) practice-based research network, as well as the client database of the
+      Physician's Computer Company (PCC) - an Electronic Health Record (EHR) vendor. We will
+      recruit 18 practices. 9 practices will be randomized to the Intervention arm and 9 practices
+      to Usual Care. Intervention arm practices will select 1-2 pediatric clinicians to receive
+      in-person training in Motivational Interviewing (MI), behavioral therapy, billing and coding,
+      and study procedures. Usual Care practices will select 1-2 pediatric clinicians to receive
+      billing / coding and study protocol training only, via telephone and webinar; they will be
+      offered in-person MI training at the close of the trial. Around 316 parents of overweight or
+      obese children (BMI &gt; 85th percentile for age and gender) between 3 and 8 years of age at
+      baseline that are patients of participating Intervention arm clinicians will be enrolled.
+      Over 24 months, these parents may receive up to 4 in-person, MI-based counseling sessions
+      with a trained pediatric clinician and up to 6 telephone counseling sessions with an
+      MI-trained Registered Dietician (RD). There will be no study-specific contact with parents or
+      their children in Usual Care practices during the trial - they will continue to receive usual
+      care. EHR and billing data for all 3-8 year old children within all participating practices
+      will be extracted by PCC to permit determination of the effectiveness of the intervention
+      versus usual care on change in BMI z-score among 3 groups: 1) all eligible children in the
+      Intervention arm), 2) all eligible children whose parent actively participates in the trial ,
+      and 3) all 3-8 year old children in all participating practices.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 1, 2017</start_date>
+  <completion_date type="Anticipated">May 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>After two years of intervention arm study, the usual care arm will receive MI training.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>BMI z-score at 2 years from baseline</measure>
+    <time_frame>2 years from baseline</time_frame>
+    <description>A Generalized Linear Mixed Model (GLMM) will be the primary analytic approach where BMI z-score at 2 years amongst eligible youth is the primary outcome, and a 2 level primary independent variable &quot;TX&quot;: Usual Care=0, MI Intervention=1, along with baseline BMI z score as a covariate. Potential covariates include: days since baseline, sex, age, and ethnicity. The study employs a nested cohort design, with practices assigned to condition, as such, outcome variables at the individual level are correlated. To control for cluster randomization effects we will utilize SAS/PROC MIXED. For all mixed analyses, practice will be treated as a random effect with TX condition nested in practice. Various autocorrelation structures will be tested, although simple unstructured (un) or variance components (vc) will be used for the random practice effect. Key potential effect modifiers include age, race, and gender and on the provider level, pediatrician vs. family practitioner.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Effectiveness among patients of study clinicians trained in MI and whose parent actively participates in the intervention</measure>
+    <time_frame>2 years from baseline</time_frame>
+    <description>Although the primary intention to treat analyses described analytically above for primary outcome will include all patients assigned to groups regardless of intervention exposure, as a secondary analysis, we will examine effects among the subsample of children who parents actively participated in the intervention. As indicated, active participation is defined as a parent receiving at least 1 MI counseling session from either a trained clinician or registered dietician. The same GLMM modeling approach discussed above will be employed to test this secondary aim.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Population level effects</measure>
+    <time_frame>2 years from baseline</time_frame>
+    <description>To assess the effect of the intervention at the population level, we will employ a Generalized Linear Mixed Model (GLMM) approach, similar to the analytic plan for AIM I, where BMI z-score at 2 years is the DV, and a 2 level primary independent variable &quot;TX&quot;: Usual Care=0, MI Training=1, along with baseline BMI z score as a covariate. Data from all age-eligible children in all participating practices will be included in the analysis.</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">316</enrollment>
+  <condition>Pediatric Obesity</condition>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>1-2 pediatric clinicians per practice will be trained in study procedures, current obesity treatment guidelines, and obesity billing and coding via telephone and webinar
+NO active enrollment of parents
+Secure extraction of HIPAA limited Electronic Health Record (EHR) and billing data from practices for outcomes analyses
+At the end of the intervention period, 1-2 pediatric clinicians will be offered the in-person MI training and DVD materials</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Intervention by Clinicians</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Clinicians complete surveys during enrollment and end of the intervention
+1-2 clinicians from each practice will receive 2.5 days of in-person MI training, two scored encounters with a standardized patient, and an interactive DVD MI booster training system focusing on pediatric obesity.
+Enroll 35 eligible parents per practice
+Clinicians give up to 4 in-person, MI sessions to enrolled parents over 2 years.
+Dietitians will provide up to 6 telephone counseling sessions.
+•Parents will complete surveys after enrollment and at the end of intervention</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Intervention by Clinicians</intervention_name>
+    <description>PCPs deliver 4 sessions of MI in person, and RDs deliver 6 sessions of MI via telephone. PCPs and RDs will receive 2 days of MI training.</description>
+    <arm_group_label>Intervention by Clinicians</arm_group_label>
+    <other_name>MI Intervention</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Usual Care</intervention_name>
+    <description>PCPs provide care as normal</description>
+    <arm_group_label>Usual Care</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  For Practices: Currently use Physician's Computer Company (PCC) as their Electronic
+             Health Record (EHR) vendor
+
+          -  For Clinicians: Have been employed by the practice for at least 1 year on or before
+             July 1, 2017 Work &gt; half time (at least 6 sessions per week)
+
+          -  For Parents: Parent or legal guardian of a child that meets the following criteria: At
+             least 3 but not yet 8 years of age on the date of the baseline data pull (estimated to
+             occur in the summer or fall of 2017). BMI for age and gender &gt; 85th percentile -
+             documented at an office visit that occurred during the 12 months prior to the baseline
+             data pull. Most recent well-child visit was with a participating study clinician
+             during the 24 months prior to the baseline data pull
+
+        Exclusion Criteria:
+
+          -  For Practices: Offer a comprehensive weight loss program or access to a RD at or
+             through the practice. Unable or unwilling to send all participating study clinicians
+             to in-person training.Unable or unwilling to identify and assign a study coordinator
+             for the study
+
+          -  For Clinicians: &gt; 1 day of prior training in MI within the past 10 years. Prior
+             participation in the AAP/PROS Healthy Lifestyles Pilot Study (HLS; AAP IRB protocol #
+             01SC01) or Brief Motivational Interviewing to Reduce Body Mass Index (BMI2) Study (AAP
+             IRB protocol # 07RE01).
+
+          -  For Parents: Does not speak either English or Spanish. Parent or legal guardian of a
+             child who has any of the following documented in their EHR: Type I or Type II
+             diabetes. Daily or chronic use of medications known to affect growth and mood /
+             behavior (growth hormones, SSRIs, stimulants).Use of atypical antipsychotics. A
+             chronic, limiting, severe medical disorder, syndrome, or other condition (e.g., Downs
+             syndrome, cerebral palsy)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>3 Years</minimum_age>
+    <maximum_age>8 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Kennet Resnicow, Ph.D.</last_name>
+    <phone>(734) 904-3888</phone>
+    <email>kresnic@umich.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Emerson Delacroix, M.A.C.P.</last_name>
+    <email>emmed@umich.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Pediatric Research in Office Settings</name>
+      <address>
+        <city>Elk Grove Village</city>
+        <state>Illinois</state>
+        <zip>60007</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alison Bocian, MSc</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 31, 2017</study_first_submitted>
+  <study_first_submitted_qc>May 31, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 6, 2017</study_first_posted>
+  <last_update_submitted>September 12, 2017</last_update_submitted>
+  <last_update_submitted_qc>September 12, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 13, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Michigan</investigator_affiliation>
+    <investigator_full_name>Ken Resnicow</investigator_full_name>
+    <investigator_title>Professor, Health Behavior &amp; Health Education</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Obesity</mesh_term>
+    <mesh_term>Pediatric Obesity</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Given the minimal risk associated with the intervention, we will utilize an internal DSMB with the addition of two outside members. Drs. Resnicow, Wasserman, and Fiks, will comprise the internal members. In addition Drs. Sarah Barlow and Robert Siegel, who both served on the DSMB for BMI2, will comprise the outside members. The DSMB will meet once to twice per year to review study progress, e.g., recruitment, retention, drop out as well as possible adverse events. We will exclude any study investigators as voting members of the DSMB. The PIs from the University of Michigan and AAP will attend all meetings but will not participate in any voting.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

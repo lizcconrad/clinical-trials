@@ -1,0 +1,159 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01813942</url>
+  </required_header>
+  <id_info>
+    <org_study_id>201302013RINC</org_study_id>
+    <nct_id>NCT01813942</nct_id>
+  </id_info>
+  <brief_title>Platform for Medical Information Extraction From Incomplete Data</brief_title>
+  <official_title>Platform for Medical Information Extraction From Incomplete Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Taiwan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Science Council, Taiwan</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>National Taiwan University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In order to perform research smoothly, the process of information extraction is required for
+      translating data in clinical text into available format for analysis and statistic. In
+      medical research, the problem of missing data occurs frequently. It is important to develop
+      the method with better imputation performance in the stability and accuracy. The purposes of
+      this project are to provide the data integration and extraction methods for handling the
+      structured and unstructured data sources in more efficient ways, to provide the validation
+      scheme for facilitating the data reviewing of extracted results produced by information
+      extraction modules, to increase the quality of clinical data by comparing the data from
+      different data sources and correcting data errors and inconsistent, to handle the clinical
+      data with the properties of time series and incompleteness, to increase accuracy of data
+      analysis and increase quality of health care by improving the completeness and correctness of
+      clinical data, to provide flexibility of methods in the platform. In the project, the disease
+      topic is focused on the liver cancer patients' clinical data and we hope the methods in the
+      projects can be extended to handle other diseases by replacing these knowledge models in the
+      future.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Because of the increasing adoption of Electronic Medical Record (EMR) systems, the data
+      access of EMR is more and more convenient. However, there still have difficulties in
+      analyzing all the clinical data directly due to a large number of records using the narrative
+      format. In order to perform research smoothly, the process of information extraction is
+      required for translating data in clinical text into available format for analysis and
+      statistic. In medical research, the problem of missing data occurs frequently. It is
+      important to develop the method with better imputation performance in the stability and
+      accuracy. The purposes of this project are to provide the data integration and extraction
+      methods for handling the structured and unstructured data sources in more efficient ways, to
+      provide the validation scheme for facilitating the data reviewing of extracted results
+      produced by information extraction modules, to increase the quality of clinical data by
+      comparing the data from different data sources and correcting data errors and inconsistent,
+      to handle the clinical data with the properties of time series and incompleteness, to
+      increase accuracy of data analysis and increase quality of health care by improving the
+      completeness and correctness of clinical data, to provide flexibility of methods in the
+      platform. In the project, the disease topic is focused on the liver cancer patients' clinical
+      data and we hope the methods in the projects can be extended to handle other diseases by
+      replacing these knowledge models in the future.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>March 2013</start_date>
+  <completion_date type="Anticipated">March 2016</completion_date>
+  <primary_completion_date type="Anticipated">March 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The number of patients correctly identified by recurrence predictive model</measure>
+    <time_frame>3 years</time_frame>
+    <description>The recurrence predictive model is developed using the incomplete data set, this model is used for predicting the recurrent status of patient who received the specific treatment for liver cancer. The number of patients correctly identified by recurrence predictive model is regarded as the primary outcome measure.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Liver Cancer</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with liver cancer
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Patients with liver cancer
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Feipei Lai</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>National Taiwan University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Feipei Lai</last_name>
+    <phone>+886-2-33664924</phone>
+    <email>flai@ntu.edu.tw</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>National Taiwan University Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Feipei Lai</last_name>
+      <phone>+886-2-33664924</phone>
+      <email>flai@ntu.edu.tw</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>October 2013</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 5, 2013</study_first_submitted>
+  <study_first_submitted_qc>March 14, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 19, 2013</study_first_posted>
+  <last_update_submitted>October 25, 2013</last_update_submitted>
+  <last_update_submitted_qc>October 25, 2013</last_update_submitted_qc>
+  <last_update_posted type="Estimate">October 28, 2013</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>clinical narrative report</keyword>
+  <keyword>time series data</keyword>
+  <keyword>missing value</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Liver Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

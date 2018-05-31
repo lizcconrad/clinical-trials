@@ -1,0 +1,243 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03384550</url>
+  </required_header>
+  <id_info>
+    <org_study_id>001-Ally</org_study_id>
+    <nct_id>NCT03384550</nct_id>
+  </id_info>
+  <brief_title>Can a Smartphone App That Includes a Chatbot-based Coaching and Incentives Increase Physical Activity in Healthy Adults?</brief_title>
+  <official_title>Investigating Different Intervention Components of a Smartphone App to Promote Physical Activity: The ALLY Micro-Randomized Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of St.Gallen</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>CSS health insurance</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of St.Gallen</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators conduct a micro-randomized trial to test main effects and moderators of
+      three different intervention components of Ally, a mHealth intervention to promote physical
+      activity that is offered to customers of a large Swiss health insurance. Interventions
+      include the use of different incentive strategies, a weekly planning intervention and daily
+      message prompts to support self-regulation. The Health Action Process Approach (HAPA) as well
+      as principles from behavioral economics were used to guide the development of interventions.
+      Further, sensor data is collected in order to enable prediction of latent contextual
+      variables. These data can be used to build prediction models for the user's state of
+      receptivity, i.e. points in time where the user is able and/or willing to receive, process
+      and utilize the support provided. The results of this study enable the evidence-based
+      development of a just-in-time adaptive intervention for physical activity.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Just-in-time adaptive interventions (JITAIs) have recently been proposed as framework for
+      health interventions that exploit the potential of mobile health information and sensing
+      technologies. By obtaining contextual information for example from smartphone sensors (e.g.
+      location, time of day), a JITAI adapts the provision of interventions over time with the goal
+      to deliver support when the person needs it most (state of vulnerability) and is most likely
+      to be receptive (state of receptivity).
+
+      To facilitate the development of a JITAI for physical activity, the present study has the
+      following objectives:
+
+        1. To quantify main effects and interactions of three intervention components of Ally, a
+           mHealth intervention for physical activity.
+
+        2. To identify moderators for these intervention components to formulate evidence-based
+           decision rules.
+
+        3. To train machine learning models that predict the user's state of receptivity
+
+      A micro-randomized trial design is used to meet the objectives of the study. Customers of a
+      large Swiss health insurance company will use Ally over a 10-day baseline and a 6-week study
+      period. During the baseline period, participants only have access to the dashboard of the app
+      and no interventions are administered. During the intervention period, Ally provides daily
+      personalized step goals and different interventions via an interactive chatbot interface
+      based on the MobileCoach system (www.mobile-coach.eu). We investigate the following
+      intervention components as between-subject or within-subject experimental factors during the
+      intervention period: daily self-regulation coaching (two levels, within-subjects), a weekly
+      planning intervention (3 levels, within-subjects) and different incentive strategies (3
+      levels, between-subjects).
+
+      Primary outcome will be the difference in achievement of the daily personalized step goal
+      between intervention and control conditions for all intervention components. We expect all
+      intervention components to increase the probability of goal achievement. Sensitivity analyses
+      will be conducted for per protocol analysis and adjustment for covariates. Moderators of
+      intervention components will be investigated exploratively.
+
+      To reach objective 3, we will collect a wide range of smartphone sensor data as well as usage
+      logs of the Ally app throughout the study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 24, 2017</start_date>
+  <completion_date type="Actual">January 31, 2018</completion_date>
+  <primary_completion_date type="Actual">December 17, 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Factorial Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Daily goal achievement</measure>
+    <time_frame>seven weeks</time_frame>
+    <description>Goal achievement will be assessed daily by comparing participants daily step count to the respective individualized step goal</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Steps per day</measure>
+    <time_frame>seven weeks</time_frame>
+    <description>Steps will be measured daily via the GoogleFit or Apple Health application using the smartphone's built-in accelerometer</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Behavioral regulation in physical activity</measure>
+    <time_frame>seven weeks</time_frame>
+    <description>Behavioral regulation in physical activity will be measured using the second version of the Behavioral Regulation in Exercise Questionnaire (BREQ-2). The BREQ-2 consists of five subscales which represent different forms of regulation along the extrinisc-intrinsic continuum of motivation. Because the external regulation subscale in the BREQ-2 exclusively relates to external regulation by other people, it is substituted by the corresponding sub-scale of the Situational Motivation Scale (SIMS). Scores will be reported for each subscale separately. Answers are given on a five-point likert scale with the endpoints 0-not true for me and 4-very true for me.
+Scores range from 0 to 16 for the subscales amotivation, external regulation, identified regulation and intrinsic regulation and from 0-12 for the subscale introjected regulation with higher scores representing a stronger manifestation of the respective form of regulation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Engagement</measure>
+    <time_frame>seven weeks</time_frame>
+    <description>App engagement is measured using the number and length of app launch sessions per day. An app launch session is defined as any interaction of the user with the Ally app, separated by five minutes between events. If a user left the app open and did not take action for 5 minutes or more, then the next interaction with the app counts as a new session.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Non-usage attrition</measure>
+    <time_frame>seven weeks</time_frame>
+    <description>Non-usage attrition is measured using the proportion of users that have stopped using the app for at least 7 days (i.e. there are &gt;7 days between their last session and the end of the study,</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">274</enrollment>
+  <condition>Physical Activity</condition>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Participants in this arm receive no incentives.
+As all participants, participants in this arm receive self-regulation coaching on 50% of the days during the intervention period. For each participant, days during the intervention period are randomly allocated to a coaching or a no coaching condition using an allocation ratio of 1:1.
+As all participants, participants in this arm also receive either an action planning, a coping planning or no planning condition each Sunday during the intervention period. Participants are randomized to one out of nine sequences of planning interventions according to a uniform and strongly balanced intervention schedule</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Financial Incentives</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants in this arm receive financial incentives.
+As all participants, participants in this arm receive self-regulation coaching on 50% of the days during the intervention period. For each participant, days during the intervention period are randomly allocated to a coaching or a no coaching condition using an allocation ratio of 1:1.
+As all participants, participants in this arm also receive either an action planning, a coping planning or no planning condition each Sunday during the intervention period. Participants are randomized to one out of nine sequences of planning interventions according to a uniform and strongly balanced intervention schedule</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Charity Incentives</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants in this receive charity incentives.
+As all participants, participants in this arm receive self-regulation coaching on 50% of the days during the intervention period. For each participant, days during the intervention period are randomly allocated to a coaching or a no coaching condition using an allocation ratio of 1:1.
+As all participants, participants in this arm also receive either an action planning, a coping planning or no planning condition each Sunday during the intervention period. Participants are randomized to one out of nine sequences of planning interventions according to a uniform and strongly balanced intervention schedule</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Self-regulation coaching</intervention_name>
+    <description>Short (2-5 min.) dialogue with the digital coach who provides information relevant for behavioral self-regulation, such as a goal reminder, the distance between the current step count and the goal and strategies to increase daily steps. Participants are randomized to self-regulation coaching or control (no coaching) on a daily basis.</description>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_label>Financial Incentives</arm_group_label>
+    <arm_group_label>Charity Incentives</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Planning</intervention_name>
+    <description>A dialogue with the digital coach who prompts the participant to either formulate action plans (when and where the participant can go for a walk) or coping plans (strategies to respond to barriers for increasing daily steps) for the upcoming week. Participants are randomized on a weekly basis to action planning, coping planning or control (no planning).</description>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_label>Financial Incentives</arm_group_label>
+    <arm_group_label>Charity Incentives</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Financial Incentives</intervention_name>
+    <description>Participants receive CHF 1 ($1) for each day they meet a personalized adaptive step goal.</description>
+    <arm_group_label>Financial Incentives</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Charity Incentives</intervention_name>
+    <description>Participants donate CHF 1 ($1) to a charity of choice for each day they meet a personalized adaptive step goal.</description>
+    <arm_group_label>Charity Incentives</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Possession of iPhone (5s or newer) or Android smartphone (Android 4.0 or higher)
+
+        Exclusion Criteria:
+
+          -  not enrolled in a complementary health insurance plan
+
+          -  actively using an activity tracker or comparable smartphone app
+
+          -  working night shifts
+
+          -  presence of medical condition(s) that prohibit increased levels of physical activity
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Tobias Kowatsch, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of St.Gallen</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Center for Digital Health Interventions</name>
+      <address>
+        <city>Saint Gallen</city>
+        <zip>9000</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>December 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 14, 2017</study_first_submitted>
+  <study_first_submitted_qc>December 19, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 27, 2017</study_first_posted>
+  <last_update_submitted>March 24, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 24, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 27, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>All collected data will be irreversibly anonymized and made available in a public non-profit data repository. Data that can potentially identify participants will be deleted (e.g. e-mail addresses) or altered in a way that prevents identification (e.g. global positioning system (GPS) data will be converted to abstract features, such as &quot;at home/not at home&quot;). Consent to publish anonymized data is obtained from all participants.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

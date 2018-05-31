@@ -1,0 +1,488 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01862133</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CFDA# 93.719</org_study_id>
+    <nct_id>NCT01862133</nct_id>
+  </id_info>
+  <brief_title>Aspiring to Awesome- Patient Preference Privacy Selections in EMR</brief_title>
+  <official_title>Aspiring to Awesome- Patient Preference Privacy Selections in EMR</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Indiana University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Department of Health and Human Services</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Regenstrief Institute, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Indiana University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Health information technology, including health information exchange, offers the potential to
+      improve care by providing an integrated view of relevant, integrated patient information from
+      multiple health care providers practicing in multiple sites. However, realizing that
+      potential can be difficult, particularly with respect sensitive information. Increasingly,
+      patients, patient advocate groups, and even the National Coordinator for Health Information
+      Technology are pushing for patients to have more granular control over specifically who can
+      see what personal health information in their electronic health records.
+
+      This will be a demonstration project aimed at showing the initial feasibility a system
+      allowing patient controls on their electronic health records. Because of the exploratory
+      nature of the research, the investigators do not have specific hypotheses. The investigators
+      hope that this demonstration and feasibility project will lead to more extensive prospective
+      evaluations of patient control of access to their health records and other tools for
+      enhancing patient control over access to their health records.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In 2010, ONC launched a Challenge Grant program that called for proposals for &quot;enabling
+      enhanced query for patient care.&quot; Under this program, the Regenstrief Institute and Indiana
+      University developed a Web-based program for patients' to express their preferences for who
+      can access data in their electronic health records (EHR). It then applied these preferences
+      by modifying an existing EHR viewer called Careweb® that is used by the Indiana Network for
+      Patient Care and Eskenazi Health, an urban public health system in Indianapolis.
+
+      This study:
+
+        1. Produced a bioethical report on &quot;points to consider&quot; to inform electronic health record
+           designers concerning giving patients granular control over access to their health data.
+
+        2. Interviewed patients to assess their desires for granular level of control over which
+           personal health information should be shared, with whom, and for what purpose, and
+           whether those preferences vary depending on the sensitivity of patients' health
+           information.
+
+        3. Developed a Web-based patient-centered user interface that allows them to choose whether
+           to provide or restrict access to their health information, focusing on who (health care
+           providers and non-providers), what information (all, none, sensitive information only),
+           and when (periods of time in their lives during which they desire restricting access to
+           their health information) .
+
+        4. Reprogrammed the user interface of Careweb®, a data viewing system used by clinicians in
+           Eskenazi Health, the third largest safety net health system in the U.S., and the Indiana
+           Network for Patient Care, the oldest, largest, and most comprehensive health information
+           exchange in the country. The reprogrammed viewer interface allows patients' preferences
+           to control who sees what information in a patient's electronic health record.
+
+        5. Performed a demonstration study among 32 health care providers (9 physicians and 23
+           clinical staff) and 105 patients in an inner city primary care practice where patients
+           recorded their preferences concerning who could access what information in their
+           electronic health records, and then implemented those preferences during a 6-month
+           real-world study in Eskenazi Health.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2013</start_date>
+  <completion_date type="Actual">March 2014</completion_date>
+  <primary_completion_date type="Actual">December 2013</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Patients Recording Preferences to Restrict Provider Access to Some or All Electronic Health Record (EHR) Data</measure>
+    <time_frame>6 month study</time_frame>
+    <description>Patients had to restrict access to either all data or one of five categories of &quot;sensitive&quot; data (sexually transmitted infections, HIV/AIDS, sexual health and pregnancy, drug and alcohol use and abuse, and mental health information) to one or more of the study providers.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Providers' Opinion of Patients' Controlling EHR Access</measure>
+    <time_frame>6 month study</time_frame>
+    <description>Percent of providers answering &quot;Strongly Agree&quot; or &quot;Agree&quot; to the following question on the post-study survey: &quot;I think it is OK for patients to have control over who sees what information in their electronic health records.&quot;</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">136</enrollment>
+  <condition>Sexually Transmitted Diseases</condition>
+  <arm_group>
+    <arm_group_label>Patient Preferences</arm_group_label>
+    <description>Patients were eligible if they had visited their primary care physician at least twice in the previous 1 year and were fluent in English. Each patient subject used an online program to record their preferences what each of their providers can see. The electronic medical record (EMR) will then apply them to data displays.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Primary Care Providers</arm_group_label>
+    <description>All healthcare providers (physicians, nurses, and other clinic staff) were eligible to participate in this study. For those enrolled, display of patient data in the EMR was dictated by the patient subject's preferences for who should see what data.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Patient preferences</intervention_name>
+    <description>Software for recording patients' preferences for which providers see which parts of their EMRs, and EMR software for restricting access to data based on patients' preferences.</description>
+    <arm_group_label>Primary Care Providers</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Primary Care Clinic
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        For Patients:
+
+          -  all adults 18 years or older who were fluent in English and had visited the study
+             primary care clinic at least twice in the previous year
+
+        For Providers:
+
+          -  all personnel of all types practicing in General Medicine Clinic, both Firms A and B,
+             on the 4th floor of Wishard's Primary Care Center. For those physicians who agree to
+             participate, attempted to recruit 10 patients who had visited their primary care
+             physician at least twice in the previous 1 year.
+
+        Exclusion Criteria:
+
+          -  will be lack of English fluency and inability to communicate due to physiologic or
+             cognitive difficulties.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>William Tierney, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Indiana University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Wishard Health Services, Primary Care Center</name>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <zip>46202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Caine K, Tierney WM. Point and counterpoint: patient control of access to data in their electronic health records. J Gen Intern Med. 2015 Jan;30 Suppl 1:S38-41. doi: 10.1007/s11606-014-3061-0.</citation>
+    <PMID>25480723</PMID>
+  </reference>
+  <reference>
+    <citation>Meslin EM, Schwartz PH. How bioethics principles can aid design of electronic health records to accommodate patient granular control. J Gen Intern Med. 2015 Jan;30 Suppl 1:S3-6. doi: 10.1007/s11606-014-3062-z.</citation>
+    <PMID>25480724</PMID>
+  </reference>
+  <results_reference>
+    <citation>Leventhal JC, Cummins JA, Schwartz PH, Martin DK, Tierney WM. Designing a system for patients controlling providers' access to their electronic health records: organizational and technical challenges. J Gen Intern Med. 2015 Jan;30 Suppl 1:S17-24. doi: 10.1007/s11606-014-3055-y.</citation>
+    <PMID>25480722</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Schwartz PH, Caine K, Alpert SA, Meslin EM, Carroll AE, Tierney WM. Patient preferences in controlling access to their electronic health records: a prospective cohort study in primary care. J Gen Intern Med. 2015 Jan;30 Suppl 1:S25-30. doi: 10.1007/s11606-014-3054-z.</citation>
+    <PMID>25480721</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Tierney WM, Alpert SA, Byrket A, Caine K, Leventhal JC, Meslin EM, Schwartz PH. Provider responses to patients controlling access to their electronic health records: a prospective cohort study in primary care. J Gen Intern Med. 2015 Jan;30 Suppl 1:S31-7. doi: 10.1007/s11606-014-3053-0.</citation>
+    <PMID>25480720</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Caine K, Kohn S, Lawrence C, Hanania R, Meslin EM, Tierney WM. Designing a patient-centered user interface for access decisions about EHR data: implications from patient interviews. J Gen Intern Med. 2015 Jan;30 Suppl 1:S7-16. doi: 10.1007/s11606-014-3049-9.</citation>
+    <PMID>25480719</PMID>
+  </results_reference>
+  <verification_date>December 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 15, 2013</study_first_submitted>
+  <study_first_submitted_qc>May 22, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 24, 2013</study_first_posted>
+  <results_first_submitted>March 12, 2015</results_first_submitted>
+  <results_first_submitted_qc>March 12, 2015</results_first_submitted_qc>
+  <results_first_posted type="Estimate">March 23, 2015</results_first_posted>
+  <last_update_submitted>December 20, 2017</last_update_submitted>
+  <last_update_submitted_qc>December 20, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 19, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Electronic Health Record</keyword>
+  <keyword>Health Information Technology</keyword>
+  <keyword>Patient Privacy</keyword>
+  <keyword>Personal Health Information</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sexually Transmitted Diseases</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <pre_assignment_details>107 primary care clinic patients were enrolled and signed informed consent statements. 2 failed to complete the patient preference dialog and study questionnaire.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Patient Preferences</title>
+          <description>Patients were eligible if they had visited their primary care physician at least twice in the previous 1 year and were fluent in English. Each patient subject used an online program to record their preferences what each of their providers can see. The electronic medical record (EMR) will then apply them to data displays.
+141 adult primary care clinic patients were approached 38 refused to participate 107 were enrolled and signed informed consent statements 2 failed to complete the patient preference dialog and study questionnaire 105 completed the patient preference dialog and were included in the study 92 subjects returned to the clinic during the 6-month study</description>
+        </group>
+        <group group_id="P2">
+          <title>Primary Care Providers</title>
+          <description>All healthcare providers (physicians, nurses, and other clinic staff) were eligible to participate in this study. For those enrolled, display of patient data in the EMR was dictated by the patient subject's preferences for who should see what data.
+Patient preferences: Software for recording patients' preferences for which providers see which parts of their EMRs, and EMR software for restricting access to data based on patients' preferences.
+11 physicians and 23 additional clinic staff (5 nurses, 4 clinical nurse assistants, 3 physicians' assistants, 2 nurse practitioners, and 9 medical assistance worked in the study primary care clinic at the time of the study
+2 physicians were excluded because their patients were mainly Spanish speaking
+1 physician verbally agreed to be in the study but never signed the informed consent statement
+8 physicians and all 23 of the other clinic staff were enrolled and signed informed consent statements and completed in the study</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="105"/>
+                <participants group_id="P2" count="31"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Returned During 6 mo Study</title>
+              <participants_list>
+                <participants group_id="P1" count="92"/>
+                <participants group_id="P2" count="31"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="105">All 105 patients recorded preferences; 92 (88%) returned to the study clinic during the 6 mo. study</participants>
+                <participants group_id="P2" count="31"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Data collected from enrolled patients was limited to gender, race/ethnicity, age, and whether they had highly sensitive information (as defined in Methods) in their electronic health records. This information was obtained from patients' electronic medical records only.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Patient Preferences</title>
+          <description>Patients were eligible if they had visited their primary care physician at least twice in the previous 1 year and were fluent in English. Each patient subject used an online program to record their preferences what each of their providers can see. The electronic medical record (EMR) will then apply them to data displays.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="105"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="55" spread="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="73"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="32"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="105"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Patients Recording Preferences to Restrict Provider Access to Some or All Electronic Health Record (EHR) Data</title>
+        <description>Patients had to restrict access to either all data or one of five categories of &quot;sensitive&quot; data (sexually transmitted infections, HIV/AIDS, sexual health and pregnancy, drug and alcohol use and abuse, and mental health information) to one or more of the study providers.</description>
+        <time_frame>6 month study</time_frame>
+        <population>All patients recorded their preferences and completed the questionnaire. 24 (77%) of the 31 providers completed the anonymous post-study questionnaire.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Patient Preferences</title>
+            <description>Patients were eligible if they had visited their primary care physician at least twice in the previous 1 year and were fluent in English. Each patient subject used an online program to record their preferences what each of their providers can see. The electronic medical record (EMR) will then apply them to data displays.
+141 adult primary care clinic patients were approached 38 refused to participate 107 were enrolled and signed informed consent statements 2 failed to complete the patient preference dialog and study questionnaire 105 completed the patient preference dialog and were included in the study 92 subjects returned to the clinic during the 6-month study</description>
+          </group>
+          <group group_id="O2">
+            <title>Primary Care Providers</title>
+            <description>All healthcare providers (physicians, nurses, and other clinic staff) were eligible to participate in this study. For those enrolled, display of patient data in the EMR was dictated by the patient subject's preferences for who should see what data.
+Patient preferences: Software for recording patients' preferences for which providers see which parts of their EMRs, and EMR software for restricting access to data based on patients' preferences.
+11 physicians and 23 additional clinic staff (5 nurses, 4 clinical nurse assistants, 3 physicians' assistants, 2 nurse practitioners, and 9 medical assistance worked in the study primary care clinic at the time of the study
+2 physicians were excluded because their patients were mainly Spanish speaking
+1 physician verbally agreed to be in the study but never signed the informed consent statement
+8 physicians and all 23 of the other clinic staff were enrolled and signed informed consent statements and completed in the study
+24</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Patients Recording Preferences to Restrict Provider Access to Some or All Electronic Health Record (EHR) Data</title>
+          <description>Patients had to restrict access to either all data or one of five categories of &quot;sensitive&quot; data (sexually transmitted infections, HIV/AIDS, sexual health and pregnancy, drug and alcohol use and abuse, and mental health information) to one or more of the study providers.</description>
+          <population>All patients recorded their preferences and completed the questionnaire. 24 (77%) of the 31 providers completed the anonymous post-study questionnaire.</population>
+          <units>participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="105"/>
+                <count group_id="O2" value="24"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="45"/>
+                    <measurement group_id="O2" value="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Providers' Opinion of Patients' Controlling EHR Access</title>
+        <description>Percent of providers answering &quot;Strongly Agree&quot; or &quot;Agree&quot; to the following question on the post-study survey: &quot;I think it is OK for patients to have control over who sees what information in their electronic health records.&quot;</description>
+        <time_frame>6 month study</time_frame>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>6 months</time_frame>
+      <desc>Patient complaints</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Patient Preferences</title>
+          <description>Patients were eligible if they had visited their primary care physician at least twice in the previous 1 year and were fluent in English. Each patient subject used an online program to record their preferences what each of their providers can see. The electronic medical record (EMR) will then apply them to data displays.</description>
+        </group>
+        <group group_id="E2">
+          <title>Primary Care Providers</title>
+          <description>All healthcare providers (physicians, nurses, and other clinic staff) were eligible to participate in this study. For those enrolled, display of patient data in the EMR was dictated by the patient subject's preferences for who should see what data.
+Patient preferences: Software for recording patients' preferences for which providers see which parts of their EMRs, and EMR software for restricting access to data based on patients' preferences.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="105"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="31"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>1</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="105"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="31"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>We could not separate the anonymous post-study provider survey results and comments by provider type because the numbers within the physicians and nurses were sufficiently small that anonymity could have been lost.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>William M. Tierney, MD</name_or_title>
+      <organization>Regenstrief Institute</organization>
+      <phone>(317) 274-9094</phone>
+      <email>wtierney@regenstrief.org</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

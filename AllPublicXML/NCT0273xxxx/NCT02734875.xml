@@ -1,0 +1,198 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02734875</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2015P000893/BWH</org_study_id>
+    <nct_id>NCT02734875</nct_id>
+  </id_info>
+  <brief_title>Improving Quality of Care - Managing Atrial Fibrillation Through Care Teams and Health Information Technology</brief_title>
+  <acronym>IQ-MATCH</acronym>
+  <official_title>Improving Quality of Care - Managing Atrial Fibrillation Through Care Teams and Health Information Technology</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This stepped wedge randomized intervention will apply machine learning algorithms in an
+      electronic health record system to identify primary care patients with non-valvular atrial
+      fibrillation (AF) who are at high risk of stroke and not on anticoagulation therapy. An
+      Anticoagulant Management Service (AMS) will offer support to primary care providers regarding
+      treatment for relevant patients (either warfarin and novel oral anticoagulants).
+
+      This study seeks to:
+
+        1. increase the proportion of appropriately anticoagulated patients with AF,
+
+        2. understand the reasons for lack of anticoagulation, and
+
+        3. document the proportion of patients with AF who are appropriately not anticoagulated
+           (e.g. patient refusal, contraindication).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Atrial fibrillation (AF) is the most common type of cardiac arrhythmia and is associated with
+      significant mortality and morbidity from stroke, thromboembolism, and related cardiovascular
+      conditions. While the risk of stroke for AF patients as a whole tends to be greater than the
+      general population; within the AF patient population, the risk of stroke is modified by the
+      presence or absence of additional risk factors such as age, comorbid conditions, and prior
+      stroke history.
+
+      There is a wealth of evidence for the effectiveness of anticoagulation therapy to prevent
+      stroke and thromboembolism, but while anticoagulants have been demonstrated to be highly
+      effective at preventing stroke and embolic events among AF patients, they are also known to
+      increase the risk of major bleeding events. Anticoagulation with warfarin and other VKA drugs
+      can be complex to manage. These drugs have narrow therapeutic windows and require close
+      monitoring to stay within the target international normalized ratio (INR). They also have
+      many known food and drug interactions.
+
+      In the last few years, several novel oral anticoagulants (NOAC) such as dabigatran,
+      rivaroxaban, and apixaban have entered the market. While each of the NOACs demonstrated
+      non-inferiority to warfarin in a large randomized clinical trial prior to FDA approval,
+      experience with NOACs is limited in practice.
+
+      Our intervention will combine the ability of health information technology to filter large
+      volumes of data with human capacity to understand subtleties and barriers for complex
+      clinical decision making. Our intervention will facilitate a connection between patients,
+      treating clinicians, and an established Anticoagulant Management Service (AMS) for
+      coordinated care. We will use information from the EHR to direct additional efforts and
+      resources toward reaching potentially unrecognized or undertreated atrial fibrillation
+      patients with the greatest need for preventive anticoagulation therapy and lowest risk of
+      adverse effects. This electronic safety net will assist with efficient allocation of scarce
+      resources beyond usual care. The proposed clinical decision support/care-coordination process
+      will be designed to address many of these identified barriers to appropriate anticoagulation
+      therapy among AF patients. Here we define &quot;appropriate&quot; anticoagulation as a guideline
+      informed shared decision between individual patients and their care team.
+
+      This intervention utilizes a stepped wedge design involving 14 primary care clinics
+      affiliated with the Brigham and Women's Hospital. The timing of clinic entry to the
+      intervention arm will be randomized.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Not yet recruiting</last_known_status>
+  <start_date>May 2016</start_date>
+  <primary_completion_date type="Anticipated">March 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Anticoagulation therapy</measure>
+    <time_frame>randomization to 1 month post randomization</time_frame>
+    <description>the proportion of eligible patients who initiate anticoagulation therapy following randomization to intervention or usual care</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1400</enrollment>
+  <condition>Atrial Fibrillation</condition>
+  <arm_group>
+    <arm_group_label>Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Primary care providers in the intervention arm will receive lists of their patients with AF who are identified as being at high risk of stroke but not currently on anticoagulation therapy. Along with this list, which includes information on risks and benefits of anticoagulation, primary care providers will receive an offer of assistance from a respected Anticoagulation Management Service within the hospital network to help manage anticoagulation for referred patients.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Primary care providers will provide usual care.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Intervention</intervention_name>
+    <description>The intervention arm offers primary care providers additional information on patient risks and benefits as well as an offer of assistance with managing a patient's anticoagulation from a respected service at BWH.</description>
+    <arm_group_label>Intervention</arm_group_label>
+    <other_name>Anticoagulant</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Non-valvular atrial fibrillation as identified by machine learning algorithms
+
+          -  Primary care provider within Brigham and Women's Hospital
+
+          -  No evidence of a prescription for an anticoagulant in medical record for at least 1
+             year
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Shirley Wang, PhD, ScM</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Shirley Wang, PhD, ScM</last_name>
+    <phone>617-525-8376</phone>
+    <email>swang1@bwh.harvard.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Sara Dejene</last_name>
+    <phone>617-264-5817</phone>
+    <email>szdejene@partners.org</email>
+  </overall_contact_backup>
+  <verification_date>April 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 6, 2016</study_first_submitted>
+  <study_first_submitted_qc>April 11, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 12, 2016</study_first_posted>
+  <last_update_submitted>April 11, 2016</last_update_submitted>
+  <last_update_submitted_qc>April 11, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 12, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Shirley Vichy Wang</investigator_full_name>
+    <investigator_title>Assistant Professor of Medicine at Harvard Medical School and Associate Epidemiologist in the Division of Pharmacoepidemiology and Pharmacoeconomics at Brigham and Women's Hospital</investigator_title>
+  </responsible_party>
+  <keyword>anticoagulants</keyword>
+  <keyword>NOACs</keyword>
+  <keyword>warfarin</keyword>
+  <keyword>randomized designed delay</keyword>
+  <keyword>intervention</keyword>
+  <keyword>machine learning algorithm</keyword>
+  <keyword>primary care</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Anticoagulants</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>There is no plan to share individual participant data outside of the staff and participants themselves.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

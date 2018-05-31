@@ -1,0 +1,187 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02820168</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SMB01262016</org_study_id>
+    <nct_id>NCT02820168</nct_id>
+  </id_info>
+  <brief_title>Designing a Programming Language for Patient-Oriented Prescriptions</brief_title>
+  <acronym>POP-PL</acronym>
+  <official_title>Designing a Programming Language for Patient-Oriented Prescriptions</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Northwestern University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Northwestern University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to create a human-readable and executable computer language to
+      implement medical prescriptions and to evaluate and refine this language, with the goal of
+      improving safety and efficacy of patient care.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Preventable errors in healthcare are a leading cause of patient injury and death. Despite
+      extensive effort and the expenditure of billions of dollars, computerization has failed to
+      solve this problem. Research has shown that software design and debugging of a paper
+      prescription markedly decreases the rate of injury and death associated with use of opioids
+      in hospitalized patients. To further the application of insights from software engineering to
+      the practice of medicine, the PIs will design and build a Patient-Oriented Prescription
+      Programming Language (POP-PL) and evaluate if this new platform can be used to improve
+      medical management of patients. The design of POP-PL will be based on building an
+      understanding of the process of medical treatment of patients. This project is a
+      collaboration between computer scientists and clinicians at Northwestern Medicine. The
+      collaborating clinicians are co-investigators on this research project and also are providing
+      healthcare to the patients that are being observed. The computer scientists and other
+      research staff have undergone human subjects research training and are co-investigators on
+      this research project as well. The clinician-investigators will oversee research project
+      staff during all observations of patients, clinical encounters between healthcare providers
+      and patients, and interactions between healthcare providers and healthcare information
+      systems. Researchers involved in this study will observe interactions between health care
+      providers and patients and will collate these observations with data from electronic data
+      sources. Since this research is based mainly upon observation and chart review and will not
+      involve any interventions or changes to patient care, the risk to study participants is
+      minimal, involving inadvertent disclosure of healthcare information. This risk will be
+      mitigated by anonymizing collected data.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 2016</start_date>
+  <completion_date type="Anticipated">June 2026</completion_date>
+  <primary_completion_date type="Anticipated">June 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Evaluation of Differences between Ideal and Actual Performance of Prescriptions by Number of Deviations between Sequences of Events</measure>
+    <time_frame>2 years</time_frame>
+    <description>Investigators will express the intent of prescriptions in prescription programming language. Investigators will then compare the actual performance of the prescription in a clinical environment to the performance of the prescription in a simulated environment based on the same inputs as occurred in the real clinical environment.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">570</enrollment>
+  <condition>Patients</condition>
+  <condition>Programming Languages</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients seen at Northwestern Memorial Hospital and Northwestern Medicine Clinics
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients between the ages of 18 and 50 years old who receive care at the Northwestern
+             Maternal Fetal Medicine Clinic (MFM)
+
+          -  Patients between the ages of 18 and 50 years old who visit Northwestern Medicine
+             outpatient facilities and are patients of a clinician who is a coinvestigator on this
+             project.
+
+          -  Patients who are between the ages of 18 and 50 years old, are hospitalized at
+             Northwestern Medicine inpatient facilities, and are patients of a clinician who is a
+             coinvestigator on this project.
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>50 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Steven M Belknap, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Northwestern University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Steven M Belknap, MD</last_name>
+    <phone>312-399-4950</phone>
+    <email>sbelknap@northwestern.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Dennis P West, PhD</last_name>
+    <email>dwest@northwestern.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Northwestern Medicine Clinics</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Steven M Belknap, MD</last_name>
+      <phone>312-399-4950</phone>
+      <email>sbelknap@northwestern.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Northwestern Memorial Hospital</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Steven M Belknap, MD</last_name>
+      <phone>312-399-4950</phone>
+      <email>sbelknap@northwestern.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 16, 2016</study_first_submitted>
+  <study_first_submitted_qc>June 28, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 30, 2016</study_first_posted>
+  <last_update_submitted>March 6, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 6, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 7, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Northwestern University</investigator_affiliation>
+    <investigator_full_name>Steven M Belknap</investigator_full_name>
+    <investigator_title>Research Assistant Professor, Dermatology</investigator_title>
+  </responsible_party>
+  <keyword>Designing</keyword>
+  <keyword>Patient-Oriented</keyword>
+  <keyword>Prescriptions</keyword>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

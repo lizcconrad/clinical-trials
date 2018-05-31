@@ -1,0 +1,998 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00916929</url>
+  </required_header>
+  <id_info>
+    <org_study_id>40006062/D</org_study_id>
+    <nct_id>NCT00916929</nct_id>
+  </id_info>
+  <brief_title>Detect Fluid Early From Intra-thoracic Impedance Monitoring</brief_title>
+  <acronym>DEFEAT-PE</acronym>
+  <official_title>Detect Fluid Early From Intra-thoracic Impedance Monitoring</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>St. Jude Medical</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>St. Jude Medical</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To demonstrate the safety and effectiveness of the Impedance Monitoring Feature in St Jude
+      Medical cardiac devices.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2009</start_date>
+  <completion_date type="Actual">March 2012</completion_date>
+  <primary_completion_date type="Actual">February 2011</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Triple (Participant, Care Provider, Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>False Positive Rate</measure>
+    <time_frame>6-months</time_frame>
+    <description>False Positive Rate is the the number of departures from the device's programmed threshold that are unrelated to a heart failure event. The False Positive Rate per patient year of follow up should be less than 1.5.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity</measure>
+    <time_frame>6-months</time_frame>
+    <description>Sensitivity is defined as the ability of the algorithm to detect heart failure events. Sensitivity is calculated as the number of heart failure events detected by the algorithm (true positives) divided by the total number of heart failure events (true positives + false positives).</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">162</enrollment>
+  <condition>Heart Failure</condition>
+  <arm_group>
+    <arm_group_label>Implantable Cardioverter Defibrillator (ICD)</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Impedance Monitoring Feature in an Implantable Cardioverter Defibrillator (ICD).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cardiac Resynchronization Therapy (CRT-D)</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Impedance Monitoring Feature in a Cardiac Resynchronization Therapy (CRT-D) device.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Impedance Monitoring Feature</intervention_name>
+    <description>Algorithm in cardiac device that measures intra-thoracic impedance from the implanted leads</description>
+    <arm_group_label>Implantable Cardioverter Defibrillator (ICD)</arm_group_label>
+    <arm_group_label>Cardiac Resynchronization Therapy (CRT-D)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Must have a St. Jude Medical (SJM) ICD or CRT-D for at least 31 days
+
+          -  Must have had an episode of acute decompensated heart failure (ADHF) within the past 6
+             months
+
+        Exclusion Criteria:
+
+          -  History of kidney disease requiring hemodialysis
+
+          -  Refractory end stage heart failure
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Edwin K Heist, MD, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Massachusetts General Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Alabama at Birmingham</name>
+      <address>
+        <city>Birmingham</city>
+        <state>Alabama</state>
+        <zip>35249</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Arizona Arrhythmia Research Center</name>
+      <address>
+        <city>Phoenix</city>
+        <state>Arizona</state>
+        <zip>85016</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Arkansas Cardiology, PA</name>
+      <address>
+        <city>Little Rock</city>
+        <state>Arkansas</state>
+        <zip>72005</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Little Rock Cardiology Clinic, PA</name>
+      <address>
+        <city>Little Rock</city>
+        <state>Arkansas</state>
+        <zip>72211</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Glendale Memorial Hospital and MC</name>
+      <address>
+        <city>Glendale</city>
+        <state>California</state>
+        <zip>91204</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Cardiac Rhythm Specialists, Inc</name>
+      <address>
+        <city>Northridge</city>
+        <state>California</state>
+        <zip>91325</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Colorado Cardiac Alliance, LLC</name>
+      <address>
+        <city>Colorado Springs</city>
+        <state>Colorado</state>
+        <zip>80907</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Shands Jacksonville</name>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <zip>32209</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Watson Clinic Center</name>
+      <address>
+        <city>Lakeland</city>
+        <state>Florida</state>
+        <zip>33805</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Orlando Heart Center</name>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <zip>32806</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Tallahassee Research Institute</name>
+      <address>
+        <city>Tallahassee</city>
+        <state>Florida</state>
+        <zip>32308</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Iowa Heart Center</name>
+      <address>
+        <city>West Des Moines</city>
+        <state>Iowa</state>
+        <zip>50266</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Massachusetts General Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Cardiology Consultants of East Michigan</name>
+      <address>
+        <city>Flint</city>
+        <state>Michigan</state>
+        <zip>48532</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Thoracic Cardiovascular HC Found. (Sparrow Research)</name>
+      <address>
+        <city>Lansing</city>
+        <state>Michigan</state>
+        <zip>48910</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hattiesburg Clinic</name>
+      <address>
+        <city>Hattiesburg</city>
+        <state>Mississippi</state>
+        <zip>39401</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>North Mississippi Medical Center</name>
+      <address>
+        <city>Tupelo</city>
+        <state>Mississippi</state>
+        <zip>38801</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Deborah Heart and Lung Center</name>
+      <address>
+        <city>Browns Mills</city>
+        <state>New Jersey</state>
+        <zip>08015</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Associated Cardiovascular Consultants</name>
+      <address>
+        <city>Cherry Hill</city>
+        <state>New Jersey</state>
+        <zip>08034</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>New York Presbyterian Hospital / Cornell University</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10021</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mid Carolina Cardiology</name>
+      <address>
+        <city>Charlotte</city>
+        <state>North Carolina</state>
+        <zip>28204</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The Cleveland Clinic Foundation</name>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44195</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Ohio State University</name>
+      <address>
+        <city>Columbus</city>
+        <state>Ohio</state>
+        <zip>43210</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Hospital Fairfield</name>
+      <address>
+        <city>Fairfield</city>
+        <state>Ohio</state>
+        <zip>45014</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Saint Vincent Consultants in Cardiovascular Diseases</name>
+      <address>
+        <city>Erie</city>
+        <state>Pennsylvania</state>
+        <zip>16502</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital of the University of PA</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Thomas Jefferson University Hospital</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19107</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>York Hospital</name>
+      <address>
+        <city>York</city>
+        <state>Pennsylvania</state>
+        <zip>17403</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Medical University of South Carolina</name>
+      <address>
+        <city>Charleston</city>
+        <state>South Carolina</state>
+        <zip>29425</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Methodist University Hospital</name>
+      <address>
+        <city>Memphis</city>
+        <state>Tennessee</state>
+        <zip>38104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>St Thomas Hospital</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37205</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>South Texas Cardiovascular Consultants</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Sentara Norfolk General Hospital</name>
+      <address>
+        <city>Norfolk</city>
+        <state>Virginia</state>
+        <zip>23507</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The Hope Heart Institute</name>
+      <address>
+        <city>Bellevue</city>
+        <state>Washington</state>
+        <zip>98004</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2013</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 8, 2009</study_first_submitted>
+  <study_first_submitted_qc>June 8, 2009</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 10, 2009</study_first_posted>
+  <results_first_submitted>December 18, 2012</results_first_submitted>
+  <results_first_submitted_qc>May 14, 2013</results_first_submitted_qc>
+  <results_first_posted type="Estimate">June 24, 2013</results_first_posted>
+  <last_update_submitted>June 21, 2013</last_update_submitted>
+  <last_update_submitted_qc>June 21, 2013</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 2, 2013</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Patient enrollment began on June 9, 2009 and ended on June 30, 2010. All patients had to be implanted at least 31 days prior to enrollment with a legally marketed St Jude Medical device capable of enabling the impedance monitoring feature.</recruitment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Implantable Cardioverter Defibrillator (ICD) Device</title>
+          <description>Impedance Monitoring Feature: Implantable Cardioverter Defibrillator (ICD) algorithm measures impedance from 2 vectors: right ventricle to can and right ventricle to coil</description>
+        </group>
+        <group group_id="P2">
+          <title>Cardiac Resynchronization Therapy (CRT-D) Device</title>
+          <description>Impedance Monitoring Feature: Cardiac Resynchronization Therapy device algorithm measures impedance from 2 vectors: left ventricle to can and right ventricle to coil.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="80"/>
+                <participants group_id="P2" count="82"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="70"/>
+                <participants group_id="P2" count="53"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="10"/>
+                <participants group_id="P2" count="29"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Lost to Follow-up</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="3"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Death</title>
+              <participants_list>
+                <participants group_id="P1" count="5"/>
+                <participants group_id="P2" count="10"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="5"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Left ventricular epicardial lead</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="2"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Transferred to hospice care</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>System explant</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Moved to another state</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Device unable to process impedance data</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="7"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>ICD Device</title>
+          <description>Impedance Monitoring Feature: Implantable Cardioverter Defibrillator (ICD) algorithm measures impedance from 2 vectors: right ventricle to can and right ventricle to coil</description>
+        </group>
+        <group group_id="B2">
+          <title>CRT-D Device</title>
+          <description>Impedance Monitoring Feature: Cardiac Resynchronization Therapy (CRT-D) algorithm measures impedance from 2 vectors: left ventricle to can and right ventricle to coil.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="80"/>
+            <count group_id="B2" value="82"/>
+            <count group_id="B3" value="162"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="44"/>
+                    <measurement group_id="B2" value="36"/>
+                    <measurement group_id="B3" value="80"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="36"/>
+                    <measurement group_id="B2" value="46"/>
+                    <measurement group_id="B3" value="82"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="61" spread="14"/>
+                    <measurement group_id="B2" value="66" spread="13"/>
+                    <measurement group_id="B3" value="64" spread="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="32"/>
+                    <measurement group_id="B2" value="13"/>
+                    <measurement group_id="B3" value="45"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="48"/>
+                    <measurement group_id="B2" value="69"/>
+                    <measurement group_id="B3" value="117"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="80"/>
+                    <measurement group_id="B2" value="82"/>
+                    <measurement group_id="B3" value="162"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>False Positive Rate</title>
+        <description>False Positive Rate is the the number of departures from the device's programmed threshold that are unrelated to a heart failure event. The False Positive Rate per patient year of follow up should be less than 1.5.</description>
+        <time_frame>6-months</time_frame>
+        <population>All patients participating in the study were included in the analysis with a total of 82 patients in each arm. Of the 82 patients implanted with ICD, 2 were upgraded to CRT-D. These 2 patients were censored from the ICD cohort and included in the CRT-D cohort at the time of upgrade based on as-treated analysis principle resulting.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Cardiac Resynchronization Therapy (CRT-D) Device</title>
+            <description>Algorithm in cardiac device that measures intra-thoracic impedance from the implanted leads</description>
+          </group>
+          <group group_id="O2">
+            <title>Implantable Cardioverter Defibrillator (ICD) Device</title>
+            <description>Algorithm in cardiac device that measures intra-thoracic impedance from implanted leads</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>False Positive Rate</title>
+          <description>False Positive Rate is the the number of departures from the device's programmed threshold that are unrelated to a heart failure event. The False Positive Rate per patient year of follow up should be less than 1.5.</description>
+          <population>All patients participating in the study were included in the analysis with a total of 82 patients in each arm. Of the 82 patients implanted with ICD, 2 were upgraded to CRT-D. These 2 patients were censored from the ICD cohort and included in the CRT-D cohort at the time of upgrade based on as-treated analysis principle resulting.</population>
+          <units>departures from device threshold</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="84"/>
+                <count group_id="O2" value="80"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.8" lower_limit="1.8" upper_limit="2.17"/>
+                    <measurement group_id="O2" value="1.49" lower_limit="1.49" upper_limit="1.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>For each patient cohort, the hypothesis is formally expressed as follows:
+H0: Expected False Positive Rate ≥1.5 per patient-year of follow-up Ha: Expected False Positive Rate &lt;1.5 per patient-year of follow-up
+The null hypothesis is rejected at the 5% significance level if the 95% upper confidence limit (UCL) for expected FPR is less than 1.5 per patient-year of follow-up.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>rate per patient year of follow up</param_type>
+            <param_value>1.5</param_value>
+            <ci_percent>95</ci_percent>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Sensitivity</title>
+        <description>Sensitivity is defined as the ability of the algorithm to detect heart failure events. Sensitivity is calculated as the number of heart failure events detected by the algorithm (true positives) divided by the total number of heart failure events (true positives + false positives).</description>
+        <time_frame>6-months</time_frame>
+        <population>All patients enrolled in the study were included in this analysis with a total of 82 patients in each group. Of the 82 patients implanted with ICD, 2 were upgraded to CRT-D during data collection period. These 2 patients were censored from ICD cohort and included in CRT-D cohort at the time of upgrade based on as-treated analysis principle.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Cardiac Resynchronizaiton Therapy (CRT-D) Device</title>
+            <description>Algorithm in cardiac device that measures intra-thoracic impedance from the implanted leads</description>
+          </group>
+          <group group_id="O2">
+            <title>Implantable Cardioverter Defibrillator (ICD) Device</title>
+            <description>Algorithm in cardiac device that measures intra-thoracic impedance from the implanted leads</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Sensitivity</title>
+          <description>Sensitivity is defined as the ability of the algorithm to detect heart failure events. Sensitivity is calculated as the number of heart failure events detected by the algorithm (true positives) divided by the total number of heart failure events (true positives + false positives).</description>
+          <population>All patients enrolled in the study were included in this analysis with a total of 82 patients in each group. Of the 82 patients implanted with ICD, 2 were upgraded to CRT-D during data collection period. These 2 patients were censored from ICD cohort and included in CRT-D cohort at the time of upgrade based on as-treated analysis principle.</population>
+          <units>percentage of true positives</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="84"/>
+                <count group_id="O2" value="80"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="40" lower_limit="26" upper_limit="40"/>
+                    <measurement group_id="O2" value="30.8" lower_limit="16.3" upper_limit="30.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>For each patient cohort, the hypothesis is formally expressed as follows:
+H0: Sensitivity ≤ 50% Ha: Sensitivity &gt; 50%
+The desired outcome was to reject the null hypothesis at the 5% significance level. The null hypothesis is rejected at the 5% significance level if the 95% lower confidence limit (LCL) for sensitivity is greater than 50%.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>sensitivity</param_type>
+            <param_value>50</param_value>
+            <dispersion_type>Standard Error of the Mean</dispersion_type>
+            <dispersion_value>5</dispersion_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>1-Sided</ci_n_sides>
+            <ci_lower_limit>50</ci_lower_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>755.98 patient months for CRT-D cohort; 902.37 patient months for ICD cohort</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>CRT-D Device</title>
+          <description>Impedance Monitoring Feature: Cardiac Resynchronization Therapy (CRT-D) algorithm measures impedance from 2 vectors: left ventricle to can and right ventricle to coil</description>
+        </group>
+        <group group_id="E2">
+          <title>ICD Device</title>
+          <description>Impedance Monitoring Feature: Implantable Cardioverter Defibrillator (ICD) algorithm measures impedance from 2 vectors: right ventricle to can and right ventricle to coil</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="82"/>
+                <counts group_id="E2" subjects_affected="3" subjects_at_risk="80"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Device Migration</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="82"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="80"/>
+              </event>
+              <event>
+                <sub_title>Loss of Capture (LV lead related)</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="82"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="80"/>
+              </event>
+              <event>
+                <sub_title>Lead dislodgement / migration (RV lead related)</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="82"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="80"/>
+              </event>
+              <event>
+                <sub_title>Infection (system related)</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="82"/>
+                <counts group_id="E2" events="2" subjects_affected="2" subjects_at_risk="80"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>1</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="6" subjects_at_risk="82"/>
+                <counts group_id="E2" subjects_affected="8" subjects_at_risk="80"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Elevated Pacing Threshold (LV lead related)</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="82"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="80"/>
+              </event>
+              <event>
+                <sub_title>Phrenic Nerve / Diaphragmatic Stimulation (LV lead related)</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="82"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="80"/>
+              </event>
+              <event>
+                <sub_title>Twiddler Syndrome</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="82"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="80"/>
+              </event>
+              <event>
+                <sub_title>Therapy for Non Ventricular Rhythm</sub_title>
+                <counts group_id="E1" events="3" subjects_affected="3" subjects_at_risk="82"/>
+                <counts group_id="E2" events="8" subjects_affected="6" subjects_at_risk="80"/>
+              </event>
+              <event>
+                <sub_title>Bleeding / Hematoma</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="82"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="80"/>
+              </event>
+              <event>
+                <sub_title>Unable to Turn Impedance Data Collection on</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="82"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="80"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>The only disclosure restriction on the PI is that the sponsor can review results communications prior to public release and can embargo communications regarding trial results for a period that is less than or equal to 60 days. The sponsor cannot require changes to the communication and cannot extend the embargo.</restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>There were no limitations of the trial.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Tamara Shipman</name_or_title>
+      <organization>St Jude Medical</organization>
+      <phone>408 522-6410</phone>
+      <email>tshipman@sjm.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

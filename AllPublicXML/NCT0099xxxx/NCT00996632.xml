@@ -1,0 +1,574 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00996632</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MGiuricin</org_study_id>
+    <nct_id>NCT00996632</nct_id>
+  </id_info>
+  <brief_title>The Use of a High-frequency Ultrasonic Knife in Breast Cancer Surgery</brief_title>
+  <acronym>UKBC</acronym>
+  <official_title>Randomized Controlled Study of Benefits of Ultrasonic Knife in Breast Cancer Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Trieste</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Trieste</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background: Lymphatic stasis and seroma formation are common complications of axillary
+      lymphadenectomy in breast cancer surgery. The investigators aim is to test the hypothesis
+      that the use of an ultrasonic knife for axillary dissection reduces the total amount and
+      duration of persistent drainage and length of hospital stay. Method: The investigators have
+      conducted a randomized trial on 94 patients (1 male, 93 females, mean age 64.7 years) who
+      presented to the investigators unit with operable breast carcinoma. Patients in group A (38
+      cases) were operated on using exclusively the ultrasonic knife. Patients in group B (56
+      cases) were operated on using the conventional diathermy knife.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The ultrasonic knife we have used in our study exploits the electrical impulses produced by a
+      high-frequency ultrasound generator, transferred to a hand piece and converted into a
+      mechanical movement at a frequency of 55.5 kHz (11,12) (Ultracision®, Ethicon Endo Surgery ).
+      We have chosen this instrument because the relatively low temperatures generated in the
+      process, ranging from 50 to 100 °C, result in a coagulative necrosis which allows both
+      cutting and effective sealing of blood and lymphatic vessels, therefore preventing lymphatic
+      leaks more effectively compared with conventional diathermy. The latter produces temperature
+      up to 400 °C resulting in char formation and deleterious thermal effects to a distance of up
+      to 1cm from the blade and extensive formation of necrotic tissue.
+
+      We have estimated Using the data of a previous unpublished pilot study, the sample size
+      required for our trial using the data of a previous unpublished pilot study, indicating that
+      to detect a significant difference in length of stay (delta = 4of four days, with a mean
+      standard deviationsdigma of = 4.5 days, between the two groups with a level of significance
+      of alpha = 5% and a power of1 - beta = 90%), we needed to enroll was estimated in 28 patients
+      in each group arm. As a precaution we decided to increase the sample size by 25% to 35
+      patients per group arm, in case we needed to use non-parametric tests in subsequent
+      statistical analysis. A total of 94 patients with operable breast carcinoma were recruited
+      between January 2000 and December 2004: 1 male and 93 females (min 34, q1 58, median 65, mean
+      64.7, q3 73, max 95). All patients underwent total mastectomy or quadrantectomy and 1st or
+      2nd level axillary lymphadenectomy. Patients were randomly allocated to two treatment groups:
+      patients allocated to Group A were operated on using exclusively the ultrasonic knife
+      (Ultracision®, Ethicon Endo Surgery) for both the mastectomy or quadrantectomy and axillary
+      dissection (38 cases, mean age of 64.6 years, min 34, q1 58, median 66, q3 70, max 95);
+      patients allocated to Group B (control group) were operated on using a conventional
+      diarthermy knife was (56 cases, mean age of 65.0 years,min 37, q1 59, median 65, q3 74, max
+      89). In all cases the type of a redon n°14 suction drain was left in the axillary cavity and
+      removed as soon as the amount of fluid dropped to 35 ml/24h or less. The patient was
+      discharged home the same day the drain was removed.
+
+      During the postoperative period the following data were collected: the total amount of fluid
+      drained, the number of days the drain was leftof drainage, the length of post-operative stay,
+      and early and late complications. Early complications were specifically recorded: wound
+      seromas and hematomas, wound infections, necrosis of wound margins and period of time (in
+      days) the seroma needed to be needle-aspirated following removal of the drain. Late
+      complications recorded were lymphedema, strength and sensation deficits and chronic arm pain.
+      A cost analysis was also done considering materials employed and length of hospital stay.
+      Statistical analysis was done using open source &quot;R&quot; software, version 2.5.1 (18). The
+      Shapiro-Wilk test was used to verify the normal distribution of data; heteroscedastic,
+      normally distributed data were analysed using the F-test of variance; Student's t test was
+      used for homoscedastic data. For non normally distributed data the non-parametric
+      Wilcoxon-Mann-Whitney test was used. Survival analysis was analysed using Cox's regression
+      model, in the hypothesis of proportional risk.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2000</start_date>
+  <completion_date type="Actual">November 2004</completion_date>
+  <primary_completion_date type="Actual">September 2004</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Drainage Volume</measure>
+    <time_frame>discharge day</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time of Discharge</measure>
+    <time_frame>days</time_frame>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">94</enrollment>
+  <condition>Breast Cancer</condition>
+  <arm_group>
+    <arm_group_label>A</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients were operated using an ultrasonic knife (Ultracision®, Ethicon Endo Surgery)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>B</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patients were operated using a conventional diarthermy knife</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>ultrasonic knife (Ultracision®, Ethicon Endo Surgery)</intervention_name>
+    <description>mastectomy or quadrantectomy and axillary dissection by an ultrasonic knife (Ultracision®, Ethicon Endo Surgery)</description>
+    <arm_group_label>A</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>conventional diarthermy knife</intervention_name>
+    <description>mastectomy or quadrantectomy and axillary dissection using conventional diarthermy knife</description>
+    <arm_group_label>B</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Operable breast cancer
+
+        Exclusion Criteria:
+
+          -  Inoperable breast cancer
+
+          -  BMI &gt; 25
+
+          -  Neoadiuvant radioterapy
+
+          -  Carcinomastitis
+
+          -  Previous phlebitis of omolateral arm
+
+          -  Collagen disease
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>36 Years</minimum_age>
+    <maximum_age>95 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Nicolò de Manzini, Professor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Trieste</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Trieste</name>
+      <address>
+        <city>Trieste</city>
+        <zip>34100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>November 2009</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 24, 2009</study_first_submitted>
+  <study_first_submitted_qc>September 30, 2009</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 16, 2009</study_first_posted>
+  <results_first_submitted>April 24, 2009</results_first_submitted>
+  <results_first_submitted_qc>September 30, 2009</results_first_submitted_qc>
+  <results_first_posted type="Estimate">October 16, 2009</results_first_posted>
+  <last_update_submitted>November 4, 2009</last_update_submitted>
+  <last_update_submitted_qc>November 4, 2009</last_update_submitted_qc>
+  <last_update_posted type="Estimate">November 11, 2009</last_update_posted>
+  <responsible_party>
+    <name_title>Pr Nicolò de Manzini</name_title>
+    <organization>University of Trieste</organization>
+  </responsible_party>
+  <keyword>breast cancer</keyword>
+  <keyword>ultrasonic knife</keyword>
+  <keyword>volume drainage</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Patients affected by Breast Cancer</recruitment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Ultrasonic</title>
+          <description>Patients were operated using an ultrasonic knife (Ultracision Ethicon TM)</description>
+        </group>
+        <group group_id="P2">
+          <title>Conventional</title>
+          <description>Patients were operated by a conventional diatherm knife</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="38"/>
+                <participants group_id="P2" count="56"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="38"/>
+                <participants group_id="P2" count="56"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Physician Decision</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Ultrasonic</title>
+          <description>Patients were operated using an ultrasonic knife (Ultracision Ethicon TM)</description>
+        </group>
+        <group group_id="B2">
+          <title>Conventional</title>
+          <description>Patients were operated by a conventional diatherm knife</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="38"/>
+            <count group_id="B2" value="56"/>
+            <count group_id="B3" value="94"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="19"/>
+                    <measurement group_id="B2" value="26"/>
+                    <measurement group_id="B3" value="45"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="19"/>
+                    <measurement group_id="B2" value="30"/>
+                    <measurement group_id="B3" value="49"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="64.6" spread="12.3"/>
+                    <measurement group_id="B2" value="65.0" spread="12.5"/>
+                    <measurement group_id="B3" value="64.7" spread="12.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="37"/>
+                    <measurement group_id="B2" value="56"/>
+                    <measurement group_id="B3" value="93"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Italy</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="38"/>
+                    <measurement group_id="B2" value="56"/>
+                    <measurement group_id="B3" value="94"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Drainage Volume</title>
+        <description>volume in milliliters of axillary drainage</description>
+        <time_frame>discharge day</time_frame>
+        <population>the number of participants for analysis was determined by mean of power sample size calculation</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Ultrasonic</title>
+            <description>Patients were operated using an ultrasonic knife (Ultracision Ethicon TM)</description>
+          </group>
+          <group group_id="O2">
+            <title>Conventional</title>
+            <description>Patients were operated by a conventional diatherm knife</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Drainage Volume</title>
+          <description>volume in milliliters of axillary drainage</description>
+          <population>the number of participants for analysis was determined by mean of power sample size calculation</population>
+          <units>milliliters</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="38"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="182.6" spread="267.1"/>
+                    <measurement group_id="O2" value="525.2" spread="629.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>null hypothesis is that drainage volumes are not different</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>&lt;0.05</p_value>
+            <method>Wilcoxon (Mann-Whitney)</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Time of Discharge</title>
+        <description>evaluation about the time of discharge from hospital</description>
+        <time_frame>days</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Ultrasonic</title>
+            <description>Patients were operated using an ultrasonic knife (Ultracision Ethicon TM)</description>
+          </group>
+          <group group_id="O2">
+            <title>Conventional</title>
+            <description>Patients were operated by a conventional diatherm knife</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Time of Discharge</title>
+          <description>evaluation about the time of discharge from hospital</description>
+          <units>Days</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="38"/>
+                <count group_id="O2" value="56"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4.5" spread="2.1"/>
+                    <measurement group_id="O2" value="8.1" spread="5.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>null hypothesis is that Stay in Hospital Days are not different</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.05</p_value>
+            <method>Wilcoxon (Mann-Whitney)</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Ultrasonic</title>
+          <description>Patients were operated using an ultrasonic knife (Ultracision Ethicon TM)</description>
+        </group>
+        <group group_id="E2">
+          <title>Conventional</title>
+          <description>Patients were operated by a conventional diatherm knife</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>The only disclosure restriction on the PI is that the sponsor can review results communications prior to public release and can embargo communications regarding trial results for a period that is less than or equal to 60 days. The sponsor cannot require changes to the communication and cannot extend the embargo.</restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Prof. Nicolò de Manzini</name_or_title>
+      <organization>University of Trieste</organization>
+      <phone>+390403994152</phone>
+      <email>nicolo.demanzini@aots.sanita.fvg.it</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

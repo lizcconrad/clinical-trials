@@ -1,0 +1,319 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02847767</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H15-02341</org_study_id>
+    <nct_id>NCT02847767</nct_id>
+  </id_info>
+  <brief_title>Dynamic Contrast Enhanced HCC SABR Liver Study</brief_title>
+  <official_title>Dynamic Contrast Enhanced Imaging of Patients Receiving SABR for Unresectable or Medically Inoperable Hepatocellular Carcinoma in BC</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>British Columbia Cancer Agency</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of British Columbia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>British Columbia Cancer Agency</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The high dose per fraction (&gt;10Gy/fraction) used in Stereotactic Ablative Body Radiotherapy
+      (SABR) has been shown to be more effective at local tumor control than treatments employing
+      more conventional dose fractions. The mechanisms for this are currently under debate. One
+      possible mechanism for this increased effectiveness is that high dose/fraction causes
+      significant vascular damage to the tumor. This study hopes to measure vascular integrity pre
+      and post SABR treatment using kinetic models obtained from dynamic contrast enhanced CT.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Purpose:
+
+      The purpose of this study is to determine if high dose per fraction SABR has an impact on the
+      vasculature of both the tumor and of healthy liver tissue.
+
+      Hypothesis:
+
+      High dose / fraction in HCC patients with tumours &lt; 5 cm will result in detectable changes to
+      kinetic model parameters derived from dynamic contrast enhanced images.
+
+      Objectives:
+
+      Primary objective:
+
+      To quantify changes in tumor vascular support for patients receiving SABR.
+
+      Secondary objectives:
+
+      To investigate the correlation between PK derived model liver perfusion parameters and QoL
+      metrics as measured by EORTC QLQ-C30 and FACT-Hep QoL assessments.
+
+      Research Methods:
+
+      Target population are patients receiving liver SABR for no more than 2 discrete liver tumors
+      with a maximum dimension &lt;5cm.
+
+      Perfusion CT Image Data Post Processing and Analysis. Patient motion will be corrected using
+      deformable registration, fiducial tracking, and RPM breathing traces. Organ ROIs will be
+      added to the perfusion image series by manually translating anatomical planning CT ROIs to
+      the motion-corrected perfusion image series, or by algorithmically deforming planning ROIs.
+      Portal vein and abdominal aorta ROIs will be demarcated.
+
+      Analysis will proceed via custom software we have built during related projects. Contrast
+      enhancement time courses will be generated for key structures (i.e., abdominal aorta, portal
+      vein, and gross liver tissues) and used to derive a variety of perfusion map images, such as
+      liver perfusion, mean transit time, arterial fraction, and distribution volume. A distributed
+      parameter model will be preferred for kinetic modeling. Supplementary non-parametric
+      techniques will be used for other parameters of interest (e.g., IAUC, maximum slope).
+
+      Images acquired before and after treatment will be registered so that parameter maps can be
+      compared on a per-patient basis. Changes in perfusion parameters will be characterized with
+      special emphasis placed on regional structure and clustering effects. Pre and post parameter
+      maps will be computed near individual-voxel level. Regions of interest (1) within or near
+      tumour and (2) at a low-dose portion of liver will be defined. A distribution of parameters
+      within each ROI will be used to generate estimates of the mean parameters and uncertainty.
+      Estimates of mean parameters and whole distributions will be compared using standard
+      statistical comparisons (t-test and Whitney respectively).
+
+      Quality of Life We will evaluate quality of life (QOL) in HCC patients treated with SBRT
+      using EORTC QLQ-C30 and FACT-Hep QOL assessments at baseline, 3, 6, 9 and 12 months.
+      Correlation between perfusion parameter changes and patient outcomes or QOL (second-order
+      analysis) will be applied if statistically significant first-order parameter changes can be
+      detected. Standard correlative measures such as the Pearson product-moment correlation
+      measure will be used to assess statistical significance. As there is currently no data
+      relating liver perfusion to toxicity or quality of life, this study will examine whether a
+      change in liver perfusion is correlated with enhanced or reduced QOL.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date>July 2016</start_date>
+  <completion_date type="Anticipated">October 2018</completion_date>
+  <primary_completion_date type="Anticipated">October 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Changes in tumour vasculature as assessed by changes PL derived model parameters</measure>
+    <time_frame>1 week after cancer treatment</time_frame>
+    <description>To quantify changes in tumor vascular support for patients receiving SABR.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Association (correlation) between aggregate QOL scores and PK derived model parameters</measure>
+    <time_frame>1 week after cancer treatment</time_frame>
+    <description>To investigate the correlation between PK derived model liver perfusion parameters and QOL metrics as measured by EORTC QLQ-C30 and FACT-Hep QOL assessments.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Carcinoma, Hepatocellular</condition>
+  <arm_group>
+    <arm_group_label>Perfusion Imaging</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>IV contrast perfusion CT will be performed at baseline and at 1 week after completing treatment. Perfusion imaging is similar to a diagnostic CT except a smaller region is serially imaged post contrast injection with multiple data acquisitions and high temporal resolution.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Perfusion Imaging</intervention_name>
+    <description>IV contrast perfusion CT will be performed at baseline and at 1 week after completing treatment. Perfusion imaging is similar to a diagnostic CT except a smaller region is serially imaged post contrast injection with multiple data acquisitions and high temporal resolution</description>
+    <arm_group_label>Perfusion Imaging</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        All the following criteria must be met:
+
+          1. Age &gt; 18 years old
+
+          2. Multi-phase CT scan and/or MRI of the liver within 8 weeks of radiation planning
+             demonstrating:
+
+               -  Liver tumours &lt; 5 cm
+
+               -  No more than 2 discrete liver tumours
+
+               -  Normal liver &gt; 700 cc
+
+          3. Patients must have HCC diagnosed by either: i) pathological confirmation, or ii)
+             intrahepatic vascular enhancement of the lesion demonstrated by at least two imaging
+             modalities, or iii) intrahepatic vascular enhancement of the lesion demonstrated by
+             one imaging modality if AFP &gt; 200 in the setting of liver cirrhosis or chronic
+             hepatitis B without cirrhosis (EASL consensus guidelines [2])
+
+          4. Liver HCC must be deemed unresectable as determined by an experienced hepatobiliary
+             surgeon, or the patient must be medically inoperable or refuse surgery,
+
+          5. Patients must be discussed in a multidisciplinary setting, with representatives from
+             Medical Oncology, Radiation Oncology, Surgery, Interventional Radiology, and
+             Hepatology. Patients must be considered ineligible for standard local treatments,
+             including surgery, liver transplantation, radiofrequency ablation, and targeted
+             biologics. Some subjects could be potential candidates for sorafenib but normally this
+             treatment is not considered before all local treatment options have been considered,
+             as the response rate to sorafenib is low (2% in the SHARP study). Patients might be
+             candidates for sorafenib after progression on the study treatment or if they do not
+             want to participate and in both cases they will be referred to a medical oncologist.
+             Patients may have received prior TACE and had an incomplete response. Ineffective or
+             incomplete TACE is defined as incomplete filling by lipiodol-doxorubicin mixture used
+             by either angiography or CT ≥1 month after TACE or by increasing alpha-fetoprotein
+             level. Patients must have recovered from the effects of previous therapies before SBRT
+             with a minimum 4-week period between TACE and SBRT.
+
+          6. Eastern Clinical Oncology Group performance status 0, 1, or 2 (Appendix III), or a
+             Karnofsky performance status of ≥ 60 (Appendix IV)
+
+          7. Adequate organ function as assessed by the following blood work:
+
+               -  Hemoglobin ≥ 90 g/L
+
+               -  Absolute neutrophil count ≥ 1.0 bil/L
+
+               -  Platelets ≥ 50 bil/L
+
+               -  AST and ALT not to exceed 3x upper limit of normal
+
+          8. Child-Turcotte-Pugh assessment within 8 weeks of treatment date (Appendix II):
+
+               -  Bilirubin ≤ 3 mg/dL (&lt; 50 µmol/L)
+
+               -  Albumin above 28 g/L
+
+               -  INR &lt; 1.7 and/or correctable with vitamin K (unless on anticoagulation therapy)
+
+               -  No ascites or encephalopathy
+
+               -  Child-Turcotte-Pugh score must be ≤ 7
+
+          9. BCLC Stage B or C (portal venous invasion or liver hilum nodal disease only; (Appendix
+             I)
+
+         10. Life expectancy &gt; 6 months
+
+         11. No chemotherapy or systemic therapy concurrent with radiotherapy
+
+         12. Previous treatment(s) with radiofrequency ablation, surgery, TACE, Y90, percutaneous
+             ethanol injection, or chemotherapy are not exclusion criteria provided that recurrence
+             or lack of tumour response has been documented. Patients who decline, or not eligible
+             for, these treatments will also be considered eligible.
+
+         13. Patient signs a study-specific informed consent form. If the patient's mental status
+             precludes this, written informed consent may be given by the patient's legal
+             representative. A translator will be provided if the patient has a language barrier.
+
+         14. Treatment plans meet acceptable dose constraints and Liver Veff is ≤ 0.55
+
+        Exclusion Criteria:
+
+          1. Patients with active hepatitis, encephalopathy, or ascites related to liver failure
+
+          2. Female patients who are pregnant (verify with blood test if patient is
+             pre-menopausal). Pre-menopausal patients may also not become pregnant during
+             participation in this study.
+
+          3. Prior external beam radiation to the upper abdomen
+
+          4. Patients with distant metastases or extrahepatic nodal progression (patients with
+             portal venous thrombosis and liver hilum nodal involvement remain eligible)
+
+          5. Patients who have &lt; 700 cc of normal liver.
+
+          6. Child-Turcotte-Pugh scores &gt; 7
+
+          7. BCLC Stage A, C (N1 and/or M1), D
+
+          8. Prior gastric, duodenal, or variceal bleed within the past 2 months
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Francois Benard, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>British Columbia Cancer Agency</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Steven Thomas</last_name>
+    <phone>604-877-6000</phone>
+    <phone_ext>2024</phone_ext>
+    <email>sthomas-02@bccancer.bc.ca</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>BC Cancer Agency Fraser Valley Centre</name>
+      <address>
+        <city>Surrey</city>
+        <state>British Columbia</state>
+        <zip>V3V 1Z2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>BC Cancer Agency Vancouver Centre</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <zip>V5Z 4E6</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>July 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 5, 2016</study_first_submitted>
+  <study_first_submitted_qc>July 25, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 28, 2016</study_first_posted>
+  <last_update_submitted>July 25, 2016</last_update_submitted>
+  <last_update_submitted_qc>July 25, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 28, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>British Columbia Cancer Agency</investigator_affiliation>
+    <investigator_full_name>Francois Benard</investigator_full_name>
+    <investigator_title>Scientific Director, Functional Imaging</investigator_title>
+  </responsible_party>
+  <keyword>Liver Perfusion</keyword>
+  <keyword>Hepatocellular Carcinoma</keyword>
+  <keyword>Dynamic Contrast-Enhanced Computed Tomography</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma</mesh_term>
+    <mesh_term>Carcinoma, Hepatocellular</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

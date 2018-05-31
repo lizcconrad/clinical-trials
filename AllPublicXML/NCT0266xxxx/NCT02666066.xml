@@ -1,0 +1,215 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02666066</url>
+  </required_header>
+  <id_info>
+    <org_study_id>15-43-05/08-intern</org_study_id>
+    <nct_id>NCT02666066</nct_id>
+  </id_info>
+  <brief_title>Radiomics for Prediction of Survival in GBM</brief_title>
+  <acronym>Radiomics</acronym>
+  <official_title>Radiomics for the Prediction of Survival in GBM After Radiotherapy With/Without Temozolomide</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maastricht Radiation Oncology</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Maastricht Radiation Oncology</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Radiomics, the extraction of large amounts of quantitative image features to convert medical
+      images into minable data, is an in-development field that intends to provide accurate risk
+      stratification of oncologic patients. Published prognostic scores only take clinical
+      variables into account. The investigators hypothesize that a combination of CT/MRI features,
+      molecular biology and clinical data can provide an accurate prediction of medical outcome.
+      The long term objective is to build a Decision Support System based on the predictive models
+      established in this study.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Human oncologic tissues exhibit strong phenotypic differences. Due to advances in both
+      acquisition and analysis methods of medical imaging technologies, the extraction of reliable
+      and informative image features to quantify these differences is currently possible.
+      Radiomics, the extraction of large amounts of quantitative image features to convert medical
+      images into minable data, is an in-development field that intends to provide accurate risk
+      stratification of oncologic patients. Previous studies at Maastro demonstrated the importance
+      of a large number (n=440) of these radiomics features to quantify the tumor phenotype by
+      intensity, shape and texture. A landmark study was the extraction of imaging features from
+      computed tomography (CT) data of 943 patients with non-small cell lung cancer (NSCLC) and
+      head and neck squamous cell carcinoma (HNSCC) cancer in six distinct datasets 1. The model
+      was trained on lung cancer patients and showed that a large number of radiomics features also
+      have strong prognostic power in head and neck cancer patients. These data suggest that
+      radiomics signatures decode a general prognostic phenotype existing in both NSCLC and HNSCC
+      patients.
+
+      The investigators anticipate that their results will be a starting point of a novel field
+      applying advanced computational methodologies on to medical imaging data, merging fields of
+      medical imaging and bioinformatics. Also, as CT imaging has been applied in routine clinical
+      oncology practice over decades in almost every hospital worldwide, the application of their
+      analysis has potential to improve decision support in a large number of cancer patients.
+
+      Glioblastoma (GBM) are the most common type of primary brain tumors with an annual incidence
+      of approximately 500 patients in the Netherlands. Despite extensive treatment including a
+      resection, radiation therapy and chemotherapy, the median overall survival is only 14.6
+      months 7. On CT and magnetic resonance imaging (MRI) GBM usually appear as a heterogeneous
+      tumor with central areas of necrosis, surrounded by thick irregular walls of solid, living
+      neoplastic tissue. The gross tumor is often surrounded by extensive edema and it usually
+      exerts considerable mass effect. So far several prognostic and predictive factors have been
+      identified including age, performance status, extent of resection and biomarkers such as
+      MGMT, EGFRvIII and IDH1. However, the value of imaging biomarkers such as radiomics has not
+      yet fully been explored.
+
+      Radiomics can have an important role in the prediction of prognosis for patients with a GBM.
+      As some patients only survive a few months, a subset of patients (10%) survives more than 5
+      years after diagnosis. Identification of these patients may benefit treatment decision by
+      e.g. offering short-term survivors best-supportive care.
+
+      The investigators hypothesize that a combination of CT/MRI features, molecular biology and
+      clinical data can provide an accurate prediction of medical outcome. The long term objective
+      is to build a Decision Support System based on the predictive models established in this
+      study.
+
+      An extensive dataset consisting of imaging, clinical, treatment data and outcomes of 360
+      patients treated in Maastricht since 2004 has been retrospectively collected. This includes
+      128 patients diagnosed with a biopsy only, with a tumor in situ on the planning CT. This
+      dataset will be used to build predictive models of outcome (survival at 6- and 12 months).
+      This analysis will be complemented by a radiomics study, analyzing both CT and MRI radiomics
+      features.
+
+      In order to prove its value the signature will be validated on external datasets.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>January 2016</start_date>
+  <completion_date type="Anticipated">July 2018</completion_date>
+  <primary_completion_date type="Actual">January 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitive value of 6 months survival after radiotherapy with radiomics</measure>
+    <time_frame>6 months</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitive value of 12 months survival after radiotherapy with radiomics</measure>
+    <time_frame>12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specificity value of 6 months survival after radiotherapy with radiomics</measure>
+    <time_frame>6 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specificity value of 12 months survival after radiotherapy with radiomics</measure>
+    <time_frame>12 months</time_frame>
+  </secondary_outcome>
+  <enrollment type="Actual">289</enrollment>
+  <condition>Glioblastoma</condition>
+  <condition>Glioma</condition>
+  <condition>Astrocytoma</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Histologically proven glioblastoma, diagnosed with a biopsy only, and treated with curative
+        intent
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Histologically proven glioblastoma
+
+          -  Diagnosed with a biopsy only
+
+          -  Treated with curative intent
+
+          -  Required data available (clinical/radiological/radiotherapy structure set)
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Maastricht Radiation Oncology (MAASTRO clinic)</name>
+      <address>
+        <city>Maastricht</city>
+        <state>Limburg</state>
+        <zip>6229ET</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <link>
+    <url>https://www.youtube.com/watch?v=Tq980GEVP0Y</url>
+    <description>Radiomics: Decoding the Tumor Phenotype with Non-Invasive Imaging</description>
+  </link>
+  <reference>
+    <citation>Aerts HJ, Velazquez ER, Leijenaar RT, Parmar C, Grossmann P, Carvalho S, Bussink J, Monshouwer R, Haibe-Kains B, Rietveld D, Hoebers F, Rietbergen MM, Leemans CR, Dekker A, Quackenbush J, Gillies RJ, Lambin P. Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach. Nat Commun. 2014 Jun 3;5:4006. doi: 10.1038/ncomms5006. Erratum in: Nat Commun. 2014;5:4644. Cavalho, Sara [corrected to Carvalho, Sara].</citation>
+    <PMID>24892406</PMID>
+  </reference>
+  <reference>
+    <citation>Lambin P, Rios-Velazquez E, Leijenaar R, Carvalho S, van Stiphout RG, Granton P, Zegers CM, Gillies R, Boellard R, Dekker A, Aerts HJ. Radiomics: extracting more information from medical images using advanced feature analysis. Eur J Cancer. 2012 Mar;48(4):441-6. doi: 10.1016/j.ejca.2011.11.036. Epub 2012 Jan 16. Review.</citation>
+    <PMID>22257792</PMID>
+  </reference>
+  <reference>
+    <citation>Carvalho S, Leijenaar RT, Velazquez ER, Oberije C, Parmar C, van Elmpt W, Reymen B, Troost EG, Oellers M, Dekker A, Gillies R, Aerts HJ, Lambin P. Prognostic value of metabolic metrics extracted from baseline positron emission tomography images in non-small cell lung cancer. Acta Oncol. 2013 Oct;52(7):1398-404. doi: 10.3109/0284186X.2013.812795. Epub 2013 Sep 9.</citation>
+    <PMID>24047338</PMID>
+  </reference>
+  <reference>
+    <citation>Leijenaar RT, Carvalho S, Velazquez ER, van Elmpt WJ, Parmar C, Hoekstra OS, Hoekstra CJ, Boellaard R, Dekker AL, Gillies RJ, Aerts HJ, Lambin P. Stability of FDG-PET Radiomics features: an integrated analysis of test-retest and inter-observer variability. Acta Oncol. 2013 Oct;52(7):1391-7. doi: 10.3109/0284186X.2013.812798. Epub 2013 Sep 9.</citation>
+    <PMID>24047337</PMID>
+  </reference>
+  <reference>
+    <citation>Panth KM, Leijenaar RT, Carvalho S, Lieuwes NG, Yaromina A, Dubois L, Lambin P. Is there a causal relationship between genetic changes and radiomics-based image features? An in vivo preclinical experiment with doxycycline inducible GADD34 tumor cells. Radiother Oncol. 2015 Sep;116(3):462-6. doi: 10.1016/j.radonc.2015.06.013. Epub 2015 Jul 7.</citation>
+    <PMID>26163091</PMID>
+  </reference>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 24, 2016</study_first_submitted>
+  <study_first_submitted_qc>January 24, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 28, 2016</study_first_posted>
+  <last_update_submitted>March 20, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 20, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 21, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Glioblastoma</mesh_term>
+    <mesh_term>Astrocytoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

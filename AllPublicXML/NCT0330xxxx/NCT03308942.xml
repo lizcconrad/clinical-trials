@@ -1,0 +1,644 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03308942</url>
+  </required_header>
+  <id_info>
+    <org_study_id>3000-02-001</org_study_id>
+    <nct_id>NCT03308942</nct_id>
+  </id_info>
+  <brief_title>Study of Niraparib Administered Alone and in Combination With PD-1 Inhibitor in Patients With Non-Small Cell Lung Cancer</brief_title>
+  <official_title>Phase 2, Multi-Arm Study of Niraparib Administered Alone and in Combination With PD-1 Inhibitor in Patients With Non-Small Cell Lung Cancer</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Tesaro, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>INC Research</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Covance</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Myriad Genetics, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>NeoGenomics Laboratories</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>DrugDev</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Resolution Bioscience</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Tesaro, Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A phase 2 study to evaluate the efficacy of niraparib alone and in combination with PD-1
+      inhibitor in three cohorts: all histologies with high PD-L1 expression (greater than 50%
+      TPS), all histologies low PD-L1 expression (1-49% TPS), and squamous cell lung cancer.
+      [TPS=Tumor Proportion Score]
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 29, 2017</start_date>
+  <completion_date type="Anticipated">May 2019</completion_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Objective Response Rate in patients with NSCLC whose tumors have high PD-L1 expression (Tumor Proportion Score &gt;= 50%)</measure>
+    <time_frame>Stage 1 6-8 months</time_frame>
+    <description>Proportion of patients with the confirmed overall response of complete response or partial response</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Objective Response Rate in patients with NSCLC whose tumors express PD-L1 (Tumor Proportion Score 1-49%)</measure>
+    <time_frame>Stage 1 6-8 months</time_frame>
+    <description>Proportion of patients with the confirmed overall response of complete response or partial response</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Objective Response Rate in patients with squamous NSCLC</measure>
+    <time_frame>Stage 1 6-8 months</time_frame>
+    <description>Proportion of patients with the confirmed overall response of complete response or partial response</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Treatment emergent adverse events, serious adverse events, assessment of clinical laboratory values</measure>
+    <time_frame>Stage 1 6-8 months</time_frame>
+    <description>Assessed by CTCAE v4.03</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Duration of response</measure>
+    <time_frame>Stage 1 6-8 months</time_frame>
+    <description>Time from first documented complete response or partial response until the subsequent documented disease progression or death</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival</measure>
+    <time_frame>Stage 1 6-8 months</time_frame>
+    <description>Time from date of first dose to date of death</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Disease control rate</measure>
+    <time_frame>Stage 1 6-8 months</time_frame>
+    <description>Proportion of patients with best overall response of complete response, partial response, or stable disease</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Progression free survival</measure>
+    <time_frame>Stage 1 6-8 months</time_frame>
+    <description>Time from date of first dose to date of disease progression or death</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacokinetic parameter: area under the curve of niraparib</measure>
+    <time_frame>Stage 1 6-8 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacokinetic parameter: maximum concentration of niraparib</measure>
+    <time_frame>Stage 1 6-8 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacokinetic parameter: maximum concentration at steady state of niraparib</measure>
+    <time_frame>Stage 1 6-8 months</time_frame>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">136</enrollment>
+  <condition>Lung Neoplasms</condition>
+  <arm_group>
+    <arm_group_label>NSCLC High PD-L1 Expressing</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All Non-small cell lung cancer histologies with a high expression of PD-L1 as defined as TPS greater or equal to 50%. Treated with combination of niraparib and PD-1 Inhibitor.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>NSCLC Low PD-L1 Expressing</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All Non-small cell lung cancer histologies with a low expression of PD-L1 as defined as TPS 1-49%. Treated with combination of niraparib and PD-1 Inhibitor.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Squamous NSCLC</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Squamous non-small cell lung cancer. Treated with niraparib monotherapy.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Niraparib</intervention_name>
+    <description>PARP inhibitor, Capsule, 200mg dose, QD</description>
+    <arm_group_label>NSCLC High PD-L1 Expressing</arm_group_label>
+    <arm_group_label>NSCLC Low PD-L1 Expressing</arm_group_label>
+    <arm_group_label>Squamous NSCLC</arm_group_label>
+    <other_name>Zejula</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>PD-1 Inhibitor</intervention_name>
+    <description>Monoclonal antibody, IV administration</description>
+    <arm_group_label>NSCLC High PD-L1 Expressing</arm_group_label>
+    <arm_group_label>NSCLC Low PD-L1 Expressing</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        General Inclusion Criteria:
+
+          1. Male or female at least 18 years of age
+
+          2. Histological or cytological proven advanced (unresectable) or metastatic NSCLC as
+             defined as stage IIIB (positive supraclavicular lymph nodes) not amenable to
+             definitive chemoradiotherapy or stage IV NSCLC
+
+          3. Measurable disease by RECIST v1.1
+
+          4. ECOG performance status of 0 to 1
+
+          5. Adequate organ function, defined as (Note: CBC test should be obtained without
+             transfusion or receipt of colony stimulating factors within 2 weeks before obtaining
+             sample):
+
+               1. Absolute neutrophil count (ANC) ≥ 1500/µL
+
+               2. Platelets ≥ 100,000/µL
+
+               3. Hemoglobin ≥ 9 g/dL or ≥ 5.6 mmol/L
+
+               4. Serum creatinine ≤ 1.5 × upper limit of normal (ULN) or calculated creatinine
+                  clearance ≥ 50 mL/min using Cockcroft-Gault equation for patients with creatinine
+                  levels &gt; 1.5× institutional ULN
+
+               5. Total bilirubin ≤ 1.5 × ULN except in patients with Gilbert's syndrome. Patients
+                  with Gilbert's syndrome may enroll if direct bilirubin ≤ 1.5 × ULN of the direct
+                  bilirubin.
+
+               6. Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) ≤ 2.5 × ULN
+                  unless liver metastases are present, in which case they must be ≤ 5× ULN
+
+               7. International normalized ratio (INR) or prothrombin time (PT) ≤ 1.5 × ULN unless
+                  patient is receiving anticoagulant therapy as long as PT or partial
+                  thromboplastin time (PTT) is within therapeutic range of intended use of
+                  anticoagulants
+
+               8. Activated partial thromboplastin time (aPTT) ≤ 1.5 × ULN unless patient is
+                  receiving anticoagulant therapy as long as PT or PTT is within therapeutic range
+                  of intended use
+
+          6. Provision of (archival or fresh) FFPE tumor tissue. (For Cohort 3 only: if diagnosis
+             was made by cytology and archival tissue is not available, patient will not need to
+             provide tumor tissue)
+
+          7. Able to take oral medications
+
+          8. Female patient has a negative serum pregnancy test within 72 hours prior to taking
+             study drug if of childbearing potential, and agrees to abstain from activities that
+             could result in pregnancy from enrollment through 120 days after the last dose of
+             study treatment, or be of non-childbearing potential.
+
+          9. Male patient agrees to use an adequate method of contraception starting with the first
+             dose of study therapy through 120 days after the last dose of study therapy.
+
+         10. Able to understand the study procedures and agree to participate in the study by
+             providing written informed consent
+
+        Cohort Specific Inclusion Criteria:
+
+          1. Cohort 1 (combination of niraparib and PD-1 inhibitor): patients must have tumors with
+             high PD-L1 expression (TPS ≥ 50%) per local assessment; with no known EGFR sensitizing
+             mutation and/or ROS-1 or ALK translocations, and no prior systemic chemotherapy or
+             PD-1/PD-L1 inhibitor treatment for metastatic NSCLC
+
+          2. Cohort 2 (combination of niraparib and PD-1 inhibitor): patients must have tumors with
+             PD-L1 expression (TPS between 1% and 49%) per local assessment, with no known
+             EGFR-sensitizing mutation and/or ROS-1 or ALK translocation, and no prior systemic
+             chemotherapy or PD-1/PD-L1 inhibitor treatment for metastatic NSCLC
+
+          3. Cohort 3 (single agent niraparib): patients must have metastatic sqNSCLC and have
+             progressed after both prior platinum-based chemotherapy and prior PD-1 or PD-L1
+             inhibitor treatment
+
+        Cohorts 1 and 2 Exclusion Criteria:
+
+          1. Has received systemic therapy for the treatment of advanced stage NSCLC. Completion of
+             treatment with chemotherapy and/or radiation as part of neoadjuvant/adjuvant therapy
+             is allowed as long as therapy was completed at least 6 months prior to the diagnosis
+             of metastatic disease
+
+          2. Prior therapy with an anti-PD-1, anti-PD-L1, or anti-PD-L2 agent
+
+          3. Known hypersensitivity to the components of niraparib, PD-1 inhibitor, or their
+             excipients
+
+          4. Known EGFR (exon 19 and 21) mutations, ALK translocations, and/or ROS-1 translocations
+
+          5. Condition (such as transfusion dependent anemia or thrombocytopenia), therapy, or
+             laboratory abnormality that might confound the study results, or interfere with the
+             patient's participation for the full duration of the study treatment. Patients who
+             received colony stimulating factors (eg, granulocyte colony-stimulating factor
+             [G-CSF], granulocyte macrophage colony-stimulating factor [GM-CSF] or recombinant
+             erythropoietin) within 2 weeks prior to the first dose of study treatment are not
+             eligible
+
+          6. Has not recovered (ie, to ≤ Grade 1 or to baseline) from chemotherapy induced AEs.
+             Note: Patient with ≤ Grade 1 neuropathy or ≤ Grade 2 alopecia is an exception to this
+             criterion and may qualify for the study. Persistent &gt; Grade 2 toxicity from prior
+             cancer therapy
+
+          7. Known diagnosis of immunodeficiency or is receiving systemic steroid therapy or any
+             other form of immunosuppressive therapy within 7 days prior to the first dose of study
+             treatment
+
+          8. Immunocompromised patient (Note: patients with splenectomy are allowed)
+
+          9. Current participation in a treatment study or past participation in a study of an
+             investigational agent within 4 weeks before the first dose of study treatment
+
+         10. Symptomatic uncontrolled brain or leptomeningeal metastases
+
+         11. Active autoimmune disease that required systemic treatment in the past 2 years (ie,
+             with use of disease-modifying agents, corticosteroids, or immunosuppressive drugs).
+             Replacement therapy (eg, thyroxine, insulin, or physiologic corticosteroid replacement
+             therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of
+             systemic treatment
+
+         12. Major surgery within 3 weeks of starting the study or patient has not recovered from
+             any effects of any major surgery
+
+         13. Other active concomitant malignancy that warrants systemic therapy
+
+         14. Poor medical risk due to a serious, uncontrolled medical disorder, nonmalignant
+             systemic disease, or active, uncontrolled infection. Examples include, but are not
+             limited to, uncontrolled ventricular arrhythmia, recent (within 90 days) myocardial
+             infarction, uncontrolled major seizure disorder, unstable spinal cord compression,
+             superior vena cava syndrome, uncontrolled hypertension, or any psychiatric disorder
+             that prohibits obtaining informed consent
+
+         15. Has received a transfusion (platelets or red blood cells) within 3 weeks before the
+             first dose of niraparib
+
+         16. Known interstitial lung disease, drug-related pneumonitis, or radiation pneumonitis
+             requiring steroid treatment
+
+         17. Patient is pregnant, breastfeeding, or expecting to conceive children, while receiving
+             study treatment and for 3 months after the last dose of study treatment
+
+         18. Known active hepatic disease (known hepatic cirrhosis, hepatitis B surface antigen
+             positive status, or suspected active hepatitis C infection)
+
+         19. Prior treatment with a known poly (ADP-ribose) polymerase (PARP) inhibitor
+
+         20. Patient who received a live vaccine within 30 days of planned start of study therapy
+
+         21. Known history of MDS or AML
+
+        Cohort 3 Exclusion Criteria:
+
+          1. Platinum-treated patient that progressed while on or within less than 8 weeks from the
+             last day of platinum administration
+
+          2. Known hypersensitivity to the components of niraparib or excipients
+
+          3. Condition (such as transfusion dependent anemia or thrombocytopenia), therapy, or
+             laboratory abnormality that might confound the study results, or interfere with the
+             patient's participation for the full duration of the study treatment. Patients who
+             received colony stimulating factors (eg, G-CSF, GM-CSF or recombinant erythropoietin)
+             within 2 weeks prior to the first dose of study treatment are not eligible
+
+          4. Has not recovered (ie, to ≤ Grade 1 or to baseline) from chemotherapy induced AEs.
+             Note: Patient with ≤ Grade 1 neuropathy or ≤ Grade 2 alopecia is an exception to this
+             criterion and may qualify for the study. Persistent &gt; Grade 2 toxicity from prior
+             cancer therapy
+
+          5. Known diagnosis of immunodeficiency or is receiving systemic steroid therapy or any
+             other form of immunosuppressive therapy within 7 days prior to the first dose of study
+             treatment
+
+          6. Current participation in a treatment study or past participation in a study of an
+             investigational agent within 4 weeks before the first dose of study treatment
+
+          7. Symptomatic uncontrolled brain or leptomeningeal metastases.
+
+          8. Major surgery within 3 weeks of starting the study or patient has not recovered from
+             any effects of any major surgery
+
+          9. Other active concomitant malignancy that warrants systemic therapy
+
+         10. Poor medical risk due to a serious, uncontrolled medical disorder, nonmalignant
+             systemic disease or active, uncontrolled infection. Examples include, but are not
+             limited to, uncontrolled ventricular arrhythmia, recent (within 90 days) myocardial
+             infarction, uncontrolled major seizure disorder, unstable spinal cord compression,
+             superior vena cava syndrome, uncontrolled hypertension, or any psychiatric disorder
+             that prohibits obtaining informed consent
+
+         11. Has received a transfusion (platelets or red blood cells) within 3 weeks of the first
+             dose of niraparib
+
+         12. Patient is pregnant, breastfeeding, or expecting to conceive children, while receiving
+             study treatment and for 3 months after the last dose of study treatment
+
+         13. Immunocompromised patient (Note: patients with splenectomy are allowed)
+
+         14. Known active hepatic disease (known hepatic cirrhosis, hepatitis B surface antigen
+             positive status, or suspected active hepatitis C infection)
+
+         15. Prior treatment with a known poly (ADP-ribose) polymerases (PARP) inhibitor
+
+         16. Patient who received a live vaccine within 30 days of planned start of study therapy
+
+         17. Known history of MDS or AML
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Beth Zaharoff</last_name>
+    <phone>(781)209-5485</phone>
+    <email>bzaharoff@tesarobio.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Innovative Clinical Research Institute</name>
+      <address>
+        <city>Tucson</city>
+        <state>Arizona</state>
+        <zip>85745</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Innovative Clinical Research Institute</name>
+      <address>
+        <city>Whittier</city>
+        <state>California</state>
+        <zip>90603</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hematology Oncology Assoc of the Treasure Coast</name>
+      <address>
+        <city>Port Saint Lucie</city>
+        <state>Florida</state>
+        <zip>34952</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Emory University - Winship Cancer Institute</name>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <zip>30322</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Ingalls Memorial Hospital</name>
+      <address>
+        <city>Harvey</city>
+        <state>Illinois</state>
+        <zip>60426</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Healthcare Research Network III</name>
+      <address>
+        <city>Tinley Park</city>
+        <state>Illinois</state>
+        <zip>60487</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>PMG Research of McFarland Clinic</name>
+      <address>
+        <city>Ames</city>
+        <state>Iowa</state>
+        <zip>50010</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Montgomery Cancer Center</name>
+      <address>
+        <city>Mount Sterling</city>
+        <state>Kentucky</state>
+        <zip>40353</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Dana-Farber Cancer Institute</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Summit Medical Group</name>
+      <address>
+        <city>Morristown</city>
+        <state>New Jersey</state>
+        <zip>07960</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Duke Cancer Institute</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27710</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Kinston Medical Specialists</name>
+      <address>
+        <city>Kinston</city>
+        <state>North Carolina</state>
+        <zip>28504</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Gabrail Cancer Center Research LLC</name>
+      <address>
+        <city>Canton</city>
+        <state>Ohio</state>
+        <zip>44718</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospitals Case Medical Center</name>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44106</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Columbus Regional Research Institute</name>
+      <address>
+        <city>Columbus</city>
+        <state>Ohio</state>
+        <zip>31904</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Toledo Clinic Cancer Center</name>
+      <address>
+        <city>Toledo</city>
+        <state>Ohio</state>
+        <zip>43623</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Tennessee Oncology</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37203</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Kadlec Clinic Hematology and Oncology</name>
+      <address>
+        <city>Kennewick</city>
+        <state>Washington</state>
+        <zip>99336</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Nortwest Medical Specialists</name>
+      <address>
+        <city>Tacoma</city>
+        <state>Washington</state>
+        <zip>98405</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 3, 2017</study_first_submitted>
+  <study_first_submitted_qc>October 9, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 13, 2017</study_first_posted>
+  <last_update_submitted>May 2, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 2, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 3, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Niraparib</keyword>
+  <keyword>Zejula</keyword>
+  <keyword>PARP Inhibitor</keyword>
+  <keyword>PD-1 Inhibitor</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma, Non-Small-Cell Lung</mesh_term>
+    <mesh_term>Lung Neoplasms</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Niraparib</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

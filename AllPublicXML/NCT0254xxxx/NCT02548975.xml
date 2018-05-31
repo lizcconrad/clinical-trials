@@ -1,0 +1,262 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02548975</url>
+  </required_header>
+  <id_info>
+    <org_study_id>123456789</org_study_id>
+    <nct_id>NCT02548975</nct_id>
+  </id_info>
+  <brief_title>Risk Factors for Delirium Following Cardiac Surgery</brief_title>
+  <official_title>Risk Factors for Delirium Following Cardiac Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Vanderbilt University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Vanderbilt University Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate several potential risk factors for postoperative delirium in cardiac
+      surgery patients. The risk factors will include use of specific preoperative, intraoperative,
+      and/or postoperative medications. Other risk factors investigated may include exposure to
+      cardiopulmonary bypass, surgical technique, and or duration of surgery.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In order to understand the role of medication usage and/or cardiopulmonary bypass, the
+      investigators propose to leverage the perioperative data warehouse (PDW), an IRB approved
+      data registry, to retrospectively evaluate the subjects. All patient data available in the
+      warehouse may be included in the review. At this time, there are approximately 750,000
+      patients in the PDW. All data will be accessed retrospectively after the patient has been
+      seen for their care here at Vanderbilt.
+
+      The Vanderbilt Perioperative Information Management System (VPIMS) is part of an integrated
+      system that covers the entire perioperative process including instrument &amp; supply management,
+      scheduling, and status displays. Because of the extensive effort that has been put toward
+      in-house intraoperative software development, the Vanderbilt Anesthesiology &amp; Perioperative
+      Informatics Research (VAPIR) Division is able to benefit from the availability of thousands
+      of historical intraoperative records, each containing detailed physiologic information. The
+      PDW incorporates VPIMS and electronic healthcare records (EHR) to build its database. In
+      addition to PDW, information from the Society for Thoracic Surgeons (STS) database will be
+      used in our study.
+
+      The database uses algorithms created by programmers with the assistance clinicians to screen
+      the data and assess for accuracy and completeness. Once the data is compounded and uploaded,
+      each variable is screened for outliers by a clinician. Outliers will be assessed and
+      validated by a clinician based on trends from the raw data. The data collected for this study
+      includes an extensive data dictionary listed below:
+
+      variable teeid anescasenumber mrn date orintime orouttime age gender race hx_dialysis_vpec
+      hx_dialysis_hemodialysis_vpec hx_dialysis_peritoneal_vpec hx_esrd creatinine_base
+      creatinine_pod1 creatinine_pod2 creatinine_pod3 creatinine_pod4 creatinine_pod5
+      creatinine_pod6 creatinine_pod7 creatinine_pod8 creatinine_pod9 creatinine_pod10 hx_htn hx_mi
+      ck_preop ckmb_preop troponin_preop hx_cabg hx_angioplasty hx_angina hx_chf hx_ef_less_35
+      hx_chf_recent_hospital hx_chf_stable hx_chf_currentsigns hx_afib hx_aflutter
+      hx_carotid_disease_current hx_carotid_disease_past hx_dementia hx_depression hx_stroke hx_tia
+      hx_claudication chol_base ldl_base hdl_base triglycerides_base hx_copd hx_emphysema
+      hx_smoking_current hx_smoking_quitless3months hx_smoking_quitmore3months hx_osa
+      hx_hypoxia_ra_sat_less92 hx_home_o2 diabetes hba1c charlson_index weight height bmi hct_base
+      hb_base platelet_count_base hx_neoplasm statin_preopyesno clopidogrel_preop aspirin_preop
+      betablocker_preop aceinhibitor_preop diuretic_preop preop_meds ph_intraop_first
+      ph_intraop_last ph_intraop_min ph_intraop_max ph_intraop_median ph_intraop_count
+      po2_intraop_first po2_intraop_last po2_intraop_min po2_intraop_max po2_intraop_median
+      po2_intraop_count lactate_intraop_first lactate_intraop_last lactate_intraop_min
+      lactate_intraop_max lactate_intraop_median lactate_intraop_count ebl_intraop hespan_intraop
+      lr_intraop lr5dex_intraop ns_intraop plasmalyte_intraop input_intraop uop_intraop
+      emergency_surgery procedure_cpt procedure_descriptor cabg_grafts cpb_on_time1 cpb_off_time1
+      cpb_on_time2 cpb_off_time2 cpb_on_time3 cpb_off_time3 cpb_on_time4 cpb_off_time4 cpb_on_time5
+      cpb_off_time5 cpb_duration cpb_duration_calculated cbp_recorded_matches_calculated
+      ao_clamp_duration circ_arrest_duration ultrafiltration_volume pump_drugs uop_onpump
+      prbc_intraop_ml prbc_intraop_unit ffp_intraop_ml ffp_intraop_unit platelets_intraop_ml
+      platelets_intraop_unit cryo_intraop_ml cryo_intraop_unit prbc_postop ffp_postop
+      platelets_postop cryo_postop ckmb_pod1 req_reop_24 req_reop_72 is_reop wbc_base wbc_pod1
+      wbc_pod2 wbc_pod3 wbc_pod4 wbc_pod5 wbc_pod6 wbc_pod7 wbc_pod8 wbc_pod9 wbc_pod10 ph_pod1
+      ph_pod2 ph_pod3 ph_pod4 ph_pod5 ph_pod6 ph_pod7 ph_pod8 ph_pod9 ph_pod10 lactate_pod1
+      lactate_pod2 lactate_pod3 lactate_pod4 lactate_pod5 lactate_pod6 lactate_pod7 lactate_pod8
+      lactate_pod9 lactate_pod10 pfratio_pod1 pfratio_pod2 pfratio_pod3 pfratio_pod4 pfratio_pod5
+      pfratio_pod6 pfratio_pod7 pfratio_pod8 pfratio_pod9 pfratio_pod10 creatinine_pod30
+      creatinine_pod60 creatinine_pod90 creatinine_pod365 dialysis_postop_predischarge
+      dialysis_postop_pod30 dialysis_postop_pod60 dialysis_postop_pod90 dialysis_postop_pod365
+      cam_icu_pod1 cam_icu_pod2 cam_icu_pod3 cam_icu_pod4 cam_icu_pod5 cam_icu_pod6 cam_icu_pod7
+      cam_icu_pod8 cam_icu_pod9 cam_icu_pod10 rass_pod1 rass_pod2 rass_pod3 rass_pod4 rass_pod5
+      rass_pod6 rass_pod7 rass_pod8 rass_pod9 rass_pod10 los_icu los los_surgery_discharge
+      death_inhospital death_date death_pod30 death_pod60 death_pod90 death_pod365 afib_postop
+      afib_postop_datetime afib_hours_between_orouttime_and_afib_postop_datetime afib_postop_ecg
+      stroke_postop ventilation_time
+
+      The size of the registry for cardiac surgery patients in currently over 8,000 patients which
+      should be more than enough to demonstrate an effect.
+
+      The following is a brief description of the investigators data analysis:
+
+        -  Categorical variables will be expressed as frequency and percentage.
+
+        -  Continuous variables will be reported as median and interquartile range (IQR).
+
+        -  the investigators will compare the prevalence of medication use with the incidence of
+           postoperative delirium and adjust for confounders.
+
+        -  Analysis will initially be completed with adjusting for confounders, and then consider
+           matching patients with propensity score based on initial results.
+
+        -  Statistical significance (p≤0.05) for categorical variables will be computed using the
+           Fisher's exact test or chi-squared and the Deuchler-Wilcoxon procedure or t-test for
+           continuous variables.
+
+        -  An iterative expectation-maximization (EM) algorithm will be considered to account for
+           missing values or other form of imputation method unless deletion of missing data is
+           more ideal.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2009</start_date>
+  <completion_date type="Actual">November 2016</completion_date>
+  <primary_completion_date type="Actual">October 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Incidence of delirium</measure>
+    <time_frame>During ICU stay, average may be 4 days</time_frame>
+    <description>CAM-ICU positive at any time after cardiac surgery</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Duration of delirium</measure>
+    <time_frame>During ICU stay, average may be 4 days</time_frame>
+    <description>Duration of delirium in days with CAM-ICU positive</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In hospital and 30 day mortality</measure>
+    <time_frame>During hospital admission and within 30 days of surgery</time_frame>
+    <description>Mortality during hospital admission and within 30 days of surgery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Acute kidney injury</measure>
+    <time_frame>During hospital stay, average may be 1 week</time_frame>
+    <description>Kidney injury defined using KDIGO AKI staging criteria</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Atrial fibrillation</measure>
+    <time_frame>During hospital stay, average may be 1 week</time_frame>
+    <description>Atrial fibrillation defined as documentation of atrial fibrillation by bedside nurse in nursing flowsheet</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total length of stay</measure>
+    <time_frame>During hospital stay, average may be 1 week</time_frame>
+    <description>Total length of stay defined as difference between admission and discharge dates</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Days in ICU</measure>
+    <time_frame>During ICU stay, average may be 4 days</time_frame>
+    <description>Days in ICU defined as total days in ICU before floor transfer</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">5600</enrollment>
+  <condition>Delirium</condition>
+  <arm_group>
+    <arm_group_label>Delirium</arm_group_label>
+    <description>Patients diagnosed with delirium at any time postoperatively with the CAM-ICU.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No delirium</arm_group_label>
+    <description>Patients not diagnosed with delirium postoperatively.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Statin, beta blocker</intervention_name>
+    <description>Patients receiving either statin or beta blockers prior to cardiac surgery.</description>
+    <arm_group_label>Delirium</arm_group_label>
+    <arm_group_label>No delirium</arm_group_label>
+    <other_name>Statin &amp; beta blocker are the classes of drugs which will be included in the study and will include multiple generic medications in each of these drug clasess</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Cardiopulmonary bypass</intervention_name>
+    <description>Patients exposed to cardiopulmonary bypass during cardiac surgery.</description>
+    <arm_group_label>Delirium</arm_group_label>
+    <arm_group_label>No delirium</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Cardiac surgery patients over 18 years old at Vanderbilt University Medical Center
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Patients undergoing elective cardiac surgery (coronary artery bypass grafting (CABG),
+        CABG+valve(s), valve only)
+
+        *depending on the study - OR aortic valve replacement (will include patients undergoing
+        transcatheter aortic valve replacement (TAVR) and patients undergoing only aortic valve
+        replacement with CPB)
+
+        Exclusion Criteria:
+
+        Emergency cases will be excluded.
+
+        *depending on the study - Patients undergoing any valve replacement surgery other than
+        aortic valve
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jason O'Neal, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Vanderbilt University Medical Center</affiliation>
+  </overall_official>
+  <verification_date>February 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 4, 2015</study_first_submitted>
+  <study_first_submitted_qc>September 10, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 14, 2015</study_first_posted>
+  <last_update_submitted>February 17, 2017</last_update_submitted>
+  <last_update_submitted_qc>February 17, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 20, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Vanderbilt University</investigator_affiliation>
+    <investigator_full_name>Jason O'Neal</investigator_full_name>
+    <investigator_title>Instructor in Clinical Anesthesiology</investigator_title>
+  </responsible_party>
+  <keyword>Cardiac surgery</keyword>
+  <keyword>Risk factors</keyword>
+  <keyword>Postoperative delirium</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Delirium</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hydroxymethylglutaryl-CoA Reductase Inhibitors</mesh_term>
+    <mesh_term>Adrenergic beta-Antagonists</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

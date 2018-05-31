@@ -1,0 +1,684 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00374452</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IMV 04-062</org_study_id>
+    <nct_id>NCT00374452</nct_id>
+  </id_info>
+  <brief_title>VISN Collaborative for Improving Hypertension Management With ATHENA-HTN</brief_title>
+  <acronym>HTN</acronym>
+  <official_title>VISN Collaborative for Improving Hypertension Management With ATHENA-HTN</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project is a VA HSR&amp;D-funded Quality Enhancement Research Initiative (QUERI) project to
+      translate into practice evidence about clinical management of primary hypertension. The
+      project aims to contribute to quality improvement of care for patients with primary
+      hypertension. The project implemented a clinical decision support (CDS) system for primary
+      care clinicians and evaluated the implementation by studying the following: impact on the
+      clinicians' prescribing and their patients' blood pressures; the clinician satisfaction with
+      the CDS; and organizational factors in the implementation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background / Rationale:
+
+      Despite the existence of evidence-based guidelines, there is a gap between evidence-based
+      recommended best medical practice and actual practice. In previous work, we used hypertension
+      as a model to study the translation of research regarding clinical blood pressure targets and
+      drug choice into primary care practice through computer-based implementation of clinical
+      practice guidelines. In collaboration with experts in guideline-automation at Stanford Center
+      for Biomedical Informatics Research (BMIR) (formerly known as Stanford Medical Informatics,
+      SMI), we developed an innovative clinical decision support system: ATHENA-CDS-HTN
+      (hypertension) also known as ATHENA-HTN. ATHENA-HTN is a knowledge-based CDS that uses
+      knowledge bases (KBs) of clinical knowledge of hypertension encoded into computable formats.
+      Clinical data from an electronic health records system is processed with the knowledge in the
+      KB by an execution engine (also known as a guideline interpreter) that generates
+      patient-specific outputs with conclusions about the current state of the patient with respect
+      to the guidelines as shown in the patient's electronic health record data and also generates
+      detailed recommendations for next steps in clinical management of the patient's hypertension.
+      The system is designed to take account of multiple data elements in the patients' clinical
+      data including co-morbid diagnoses that are relevant to hypertension and its treatment, other
+      medications currently prescribed, history of adverse drug reactions/events, and selected
+      laboratory values relevant to hypertension and its management. In previous work, we had
+      demonstrated that deploying this CDS system in VA primary care clinics was feasible and that
+      clinicians found the system usable and useful, as shown by their actual extensive use of the
+      system and their response to a questionnaire survey. The current project was funded by the
+      Department of Veterans Affairs Health Services Research and Development (HSR&amp;D), under a
+      special funding initiative for Quality Enhancement Initiative (QUERI) projects designed to
+      improve care for hypertension by collaboration with a Veterans Integrated Service Network
+      (VISN) to implement programs to encourage use of established best-practices for managing
+      hypertension according to evidence-based guidelines available at the time of the study. These
+      studies were known as &quot;VISN Collaboratives&quot;. The studies did not involve any new drugs or new
+      uses of established drugs, but rather encouraging use of established drugs recommended in
+      standard evidence-based guidelines for care. The focus of the study was implementation of
+      existing known best practices in managing hypertension, using the CDS as a vehicle to bring
+      information to the point-of-care, with detailed individualized recommendations about patients
+      presented to the primary care provider at the time the provider sees patients in scheduled
+      outpatient primary care clinic visits.
+
+      Objective(s):
+
+      Our objectives in this VISN Implementation Collaborative included: (1) implement
+      evidence-based guidelines for hypertension in a CDS system by upgrading the ATHENA-HTN
+      knowledge-base (KB) to the most recent guidelines; (2) deploy the CDS system in 5 medical
+      centers within VISN 1 to generate individualized recommendations to primary care clinicians
+      caring for patients in outpatient clinics; (3) evaluate the implementation including the
+      organizational aspects.
+
+      Methods:
+
+      In Phase 1 we plan to update the KB and conduct offline testing; to revise the M (formerly
+      known as MUMPS) program that extracts patient data daily from VistA to extract additional
+      data elements; to streamline the system architecture to make it easier to implement in
+      multiple sites; to work with the site-PIs to obtain IRB approval at 5 implementation sites in
+      VISN 1 plus the coordinating site at VA Palo Alto; to improve the user interface design; to
+      identify and resolve issues in implementing new information technology in multiple different
+      VA medical centers (VAMC) with different Computerized Patient Record System (CPRS)
+      implementations and different methods of distributing computer access to clinicians; to train
+      the site PIs in use of the system; and perform baseline data analysis to inform the
+      randomization. In Phase 2 we plan to recruit primary care providers from the participating 5
+      medical centers in VISN 1; randomize clinics to ATHENA-HTN intervention or usual care; deploy
+      the system for intervention providers; train intervention providers in use of the system; and
+      conduct a 12-month clinical trial of the system.
+
+      Status:
+
+      The project has been completed. We completed Institutional Review Board (IRB) approvals at
+      all five medical centers. We updated the knowledge base of computable knowledge regarding
+      hypertension and conducted offline testing. Our system was deployed to all five medical
+      centers. While we were preparing for deployment of the CDS, one site changed from a
+      rich-client environment to a thin-client environment for the medical center computers; we
+      developed new code to run the system in a thin client environment. The previous programming
+      computed recommendations of the CDS based on clinical data available the night before the
+      clinic visit (in order to pre-compute advisories for faster display during clinic); in this
+      project we developed software code to obtain automatic blood pressure updates for the day of
+      visit if these were entered by clinical staff at the time of the visit. VA Palo Alto staff
+      worked with staff at each VAMC to validate clinical data extraction at each site. We
+      developed code for a clinician to select, optionally, for blood pressure write-back to VA
+      VistA so that if clinicians entered to our CDS a blood pressure measurement that they had
+      just taken so they could view updated recommendations based on the repeat blood pressure they
+      would not also have to enter that blood pressure separately to electronic health record. We
+      recruited primary care providers (clinicians) at each of 5 medical centers to participate in
+      the project. One of the 5 medical centers completed the installation of the ATHENA-HTN
+      system, but did not continue with the intervention period, so the intervention included 4
+      rather than 5 medical centers. Our site-principal investigators and project coordinator
+      trained intervention providers on use of the system by offering short phone calls for
+      training or in-person introduction, and by making the system available for a short period of
+      time for familiarity. Records of patients seen by the clinicians in this training period were
+      excluded from analyses. We completed a 6-8 month intervention period for the clinical trial
+      at the 4 participating medical centers. Our random allocation was at clinic level, where a
+      clinic is a substation of a medical center (station). Before initiating data analyses, we
+      prepared a detailed data analysis plan.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2007</start_date>
+  <completion_date type="Actual">March 2011</completion_date>
+  <primary_completion_date type="Actual">May 2010</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mean Percentages of Events After Index Visit to Primary Care by Patient</measure>
+    <time_frame>up to one year after index visit</time_frame>
+    <description>The outcome measure was mean percentages of Events after index visit to primary care by patients. The Events were the first event in the patient record after the index clinic visit for the patient, as follows. Event 1 is intensification of pharmacotherapy for hypertension. Event 2 is patient achieves below-target blood pressure (BP). Event 3 is patient does not achieve below-target BP nor is there intensification of pharmacotherapy for hypertension. Event 4 is patient does not achieve BP target, does not have intensified pharmacotherapy, and does not return for further BP measurements. Each patient was assigned one and only one Event. If a patient has pharmacotherapy intensified and also achieved BP below-target, the patient was assigned to whichever happened first. An initial model fitting all 4 events did not detect a difference by study arm for mean percentage of Event 4; final findings are based on a denominator of Events 1 - 3.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">103</enrollment>
+  <condition>Hypertension</condition>
+  <arm_group>
+    <arm_group_label>ATHENA-CDS-HTN plus Guideline Link</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ATHENA-CDS-HTN plus Guideline Link. ATHENA-CDS-HTN display on the cover sheet of electronic health record, plus link to the guidelines</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Guideline Link Only</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Guideline Link Only. Link to The Seventh Report of the Joint National Committee on Prevention Detection and Treatment of High Blood Pressure (JNC7) and to VA-Department of Defense (DoD) hypertension guidelines</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>ATHENA-CDS-HTN plus Guideline Link</intervention_name>
+    <description>ATHENA display provides guideline-based recommendations to clinicians at the time of patient care.</description>
+    <arm_group_label>ATHENA-CDS-HTN plus Guideline Link</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Guideline Link Only</intervention_name>
+    <description>Primary care providers were sent, once, a link (URL) to the VA/DoD and JNC7 hypertension guidelines.</description>
+    <arm_group_label>Guideline Link Only</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Must be primary care clinicians (for example, physician or nurse practitioner) at one
+             of the participating VA medical centers. This study is NOT recruiting patients.
+
+          -  The primary care clinician must have a panel of patients for whom he or she provides
+             direct care.
+
+        Exclusion Criteria:
+
+          -  Anyone who does not meet inclusion criteria.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mary K. Goldstein, MD MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>VA Palo Alto Health Care System</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>VA Palo Alto Health Care System</name>
+      <address>
+        <city>Palo Alto</city>
+        <state>California</state>
+        <zip>94304</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>VA Connecticut Health Care System (Newington)</name>
+      <address>
+        <city>Newington</city>
+        <state>Connecticut</state>
+        <zip>06111</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>VA Connecticut Health Care System (West Haven)</name>
+      <address>
+        <city>West Haven</city>
+        <state>Connecticut</state>
+        <zip>06516</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Edith Nourse Rogers Memorial Veterans Hospital, Bedford</name>
+      <address>
+        <city>Bedford</city>
+        <state>Massachusetts</state>
+        <zip>01730</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>VA Boston Healthcare System Jamaica Plain Campus, Jamaica Plain, MA</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02130</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>VA Medical Center, Manchester</name>
+      <address>
+        <city>Manchester</city>
+        <state>New Hampshire</state>
+        <zip>03104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>VA Medical Center, Providence</name>
+      <address>
+        <city>Providence</city>
+        <state>Rhode Island</state>
+        <zip>02908</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Martins SB, Lai S, Tu S, Shankar R, Hastings SN, Hoffman BB, Dipilla N, Goldstein MK. Offline testing of the ATHENA Hypertension decision support system knowledge base to improve the accuracy of recommendations. AMIA Annu Symp Proc. 2006:539-43.</citation>
+    <PMID>17238399</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Chan AS, Shankar RD, Coleman RW, Matins SB, Hoffman BB, Goldstein MK. Leveraging point-of-care clinician feedback to study barriers to guideline adherence. AMIA Annu Symp Proc. 2005:915.</citation>
+    <PMID>16779202</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Trafton J, Martins S, Michel M, Lewis E, Wang D, Combs A, Scates N, Tu S, Goldstein MK. Evaluation of the acceptability and usability of a decision support system to encourage safe and effective use of opioid therapy for chronic, noncancer pain by primary care providers. Pain Med. 2010 Apr;11(4):575-85. doi: 10.1111/j.1526-4637.2010.00818.x. Epub 2010 Mar 1.</citation>
+    <PMID>20202142</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Michel M, Trafton J, Martins S, Wang D, Tu S, Johnson N, Goldstein MK. Improving Patient Safety Using ATHENA-Decision Support System Technology: The Opioid Therapy for Chronic Pain Experience. In: Henriksen K, Battles JB, Keyes MA, Grady ML, editors. Advances in Patient Safety: New Directions and Alternative Approaches (Vol. 4: Technology and Medication Safety). Rockville (MD): Agency for Healthcare Research and Quality (US); 2008 Aug.</citation>
+    <PMID>21249951</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Bosworth HB, Olsen MK, Dudley T, Orr M, Goldstein MK, Datta SK, McCant F, Gentry P, Simel DL, Oddone EZ. Patient education and provider decision support to control blood pressure in primary care: a cluster randomized trial. Am Heart J. 2009 Mar;157(3):450-6. doi: 10.1016/j.ahj.2008.11.003. Epub 2009 Jan 10.</citation>
+    <PMID>19249414</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Goldstein MK. Using health information technology to improve hypertension management. Curr Hypertens Rep. 2008 Jun;10(3):201-7. Review.</citation>
+    <PMID>18765090</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Cucciare MA, Ketroser N, Wilbourne P, Midboe AM, Cronkite R, Berg-Smith SM, Chardos J. Teaching motivational interviewing to primary care staff in the Veterans Health Administration. J Gen Intern Med. 2012 Aug;27(8):953-61. doi: 10.1007/s11606-012-2016-6. Epub 2012 Feb 28.</citation>
+    <PMID>22370769</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Steinman MA, Goldstein MK. When tight blood pressure control is not for everyone: a new model for performance measurement in hypertension. Jt Comm J Qual Patient Saf. 2010 Apr;36(4):164-72.</citation>
+    <PMID>20402373</PMID>
+  </results_reference>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 8, 2006</study_first_submitted>
+  <study_first_submitted_qc>September 8, 2006</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 11, 2006</study_first_posted>
+  <results_first_submitted>October 19, 2017</results_first_submitted>
+  <results_first_submitted_qc>October 19, 2017</results_first_submitted_qc>
+  <results_first_posted type="Actual">December 18, 2017</results_first_posted>
+  <last_update_submitted>March 2, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 2, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 29, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>hypertension</keyword>
+  <keyword>practice guidelines</keyword>
+  <keyword>quality of health care</keyword>
+  <keyword>decision support systems</keyword>
+  <keyword>evidence-based medicine</keyword>
+  <keyword>medical informatics</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypertension</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <pre_assignment_details>The study initially involved 5 medical centers with 103 participants across the medical centers. One of the 5 medical centers completed installation of ATHENA-HTN system, but did not continue with the intervention period, so the intervention included 4 medical centers with 82 participants.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Guideline Link Only</title>
+          <description>Link to The Seventh Report of the Joint National Committee on Prevention Detection Evaluation and Treatment of High Blood Pressure (JNC7) and to VA-Department of Defense (DoD) hypertension guidelines
+Link to Hypertension Guidelines: Primary care providers were sent, once, a link (URL) to the VA-DoD and JNC7 hypertension guidelines.</description>
+        </group>
+        <group group_id="P2">
+          <title>ATHENA-CDS-HTN</title>
+          <description>ATHENA display providing guideline-based recommendations to clinicians at the time of patient care. Link to JNC7 guidelines.
+ATHENA-Hypertension clinical decision support system: ATHENA display provides guideline-based recommendations to clinicians at the time of patient care.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="34"/>
+                <participants group_id="P2" count="48"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Intervention Started</title>
+              <participants_list>
+                <participants group_id="P1" count="30"/>
+                <participants group_id="P2" count="46"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="29"/>
+                <participants group_id="P2" count="43"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="5"/>
+                <participants group_id="P2" count="5"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Left clinic before intervention started</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Change in job role before intervention</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Left clinic after intervention started</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="2"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Baseline characteristics of primary care providers who started intervention period</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Guideline Link Only</title>
+          <description>Link to JNC7 and to VA-DoD hypertension guidelines
+Link to Hypertension Guidelines: Primary care providers were sent, once, a link (URL) to the VA/DoD and JNC7 hypertension guidelines.</description>
+        </group>
+        <group group_id="B2">
+          <title>ATHENA-CDS-HTN</title>
+          <description>ATHENA display providing guideline-based recommendations to clinicians at the time of patient care. Link to JNC7 guidelines.
+ATHENA-Hypertension clinical decision support system: ATHENA display provides guideline-based recommendations to clinicians at the time of patient care.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="30"/>
+            <count group_id="B2" value="46"/>
+            <count group_id="B3" value="76"/>
+          </count_list>
+        </analyzed>
+        <analyzed>
+          <units>clinics</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="10"/>
+            <count group_id="B2" value="10"/>
+            <count group_id="B3" value="20"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age, Customized</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <units_analyzed>Participants</units_analyzed>
+          <class_list>
+            <class>
+              <title>Age &gt;= 18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="30"/>
+                    <measurement group_id="B2" value="46"/>
+                    <measurement group_id="B3" value="76"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex/Gender, Customized</title>
+          <description>Measured percentage of male participants per clinic site, then mean of these percentages for study arm.</description>
+          <units>percentage of male participants</units>
+          <param>Number</param>
+          <units_analyzed>Participants</units_analyzed>
+          <class_list>
+            <class>
+              <title>Mean percentage male participants per clinic</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="35.5"/>
+                    <measurement group_id="B2" value="24.6"/>
+                    <measurement group_id="B3" value="30.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <units_analyzed>Participants</units_analyzed>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="30"/>
+                    <measurement group_id="B2" value="46"/>
+                    <measurement group_id="B3" value="76"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Mean Percentages of Events After Index Visit to Primary Care by Patient</title>
+        <description>The outcome measure was mean percentages of Events after index visit to primary care by patients. The Events were the first event in the patient record after the index clinic visit for the patient, as follows. Event 1 is intensification of pharmacotherapy for hypertension. Event 2 is patient achieves below-target blood pressure (BP). Event 3 is patient does not achieve below-target BP nor is there intensification of pharmacotherapy for hypertension. Event 4 is patient does not achieve BP target, does not have intensified pharmacotherapy, and does not return for further BP measurements. Each patient was assigned one and only one Event. If a patient has pharmacotherapy intensified and also achieved BP below-target, the patient was assigned to whichever happened first. An initial model fitting all 4 events did not detect a difference by study arm for mean percentage of Event 4; final findings are based on a denominator of Events 1 - 3.</description>
+        <time_frame>up to one year after index visit</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Guideline Link Only</title>
+            <description>Link to JNC7 and to VA-DoD hypertension guidelines
+Link to Hypertension Guidelines: Primary care providers were sent, once, a link (URL) to the VA/DoD and JNC hypertension guidelines.</description>
+          </group>
+          <group group_id="O2">
+            <title>ATHENA-CDS-HTN</title>
+            <description>ATHENA display providing guideline-based recommendations to clinicians at the time of patient care. Link to JNC7 guidelines.
+ATHENA-Hypertension clinical decision support system: ATHENA display provides guideline-based recommendations to clinicians at the time of patient care.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Mean Percentages of Events After Index Visit to Primary Care by Patient</title>
+          <description>The outcome measure was mean percentages of Events after index visit to primary care by patients. The Events were the first event in the patient record after the index clinic visit for the patient, as follows. Event 1 is intensification of pharmacotherapy for hypertension. Event 2 is patient achieves below-target blood pressure (BP). Event 3 is patient does not achieve below-target BP nor is there intensification of pharmacotherapy for hypertension. Event 4 is patient does not achieve BP target, does not have intensified pharmacotherapy, and does not return for further BP measurements. Each patient was assigned one and only one Event. If a patient has pharmacotherapy intensified and also achieved BP below-target, the patient was assigned to whichever happened first. An initial model fitting all 4 events did not detect a difference by study arm for mean percentage of Event 4; final findings are based on a denominator of Events 1 - 3.</description>
+          <units>mean percentage of events</units>
+          <param>Number</param>
+          <units_analyzed>clinic sites</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="30"/>
+                <count group_id="O2" value="46"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>clinic sites</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+                <count group_id="O2" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Event 1</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="25.4"/>
+                    <measurement group_id="O2" value="30.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Event 2</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="59.6"/>
+                    <measurement group_id="O2" value="55.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Event 3</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="16.2"/>
+                    <measurement group_id="O2" value="13.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>We compared the mean percentages of events per clinician between study arms, using mixed model regression adjusting for medical center, clinic type (community-based clinic vs not), clinician discipline (MD vs non-MD), presence of pharmacist in the clinic, and mean age of clinician's panels of patients as fixed effects, and clinic as a random effect to account for clustering of clinicians within clinics.</groups_desc>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <p_value>&gt;0.1</p_value>
+            <method>Mixed Models Analysis</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Up to one year.</time_frame>
+      <desc>The study did not provide any intervention to patients. Patients were receiving their usual care from their primary care providers (clinicians.) The providers in the study were the study participants. The providers were theoretically at risk that the study might identify or disclose adverse information about their clinical management of patients. Another theoretical risk was that a provider might find the clinical decision support intrusive and problematic for clinical care.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Guideline Link Only</title>
+          <description>Guideline Link Only. Link to JNC7 and to VA-DoD hypertension guidelines
+Guideline Link Only: Primary care providers were sent, once, a link (URL) to the VA/DoD and JNC hypertension guidelines.</description>
+        </group>
+        <group group_id="E2">
+          <title>ATHENA-CDS-HTN Plus Guideline Link</title>
+          <description>ATHENA-Clinical Decision Support (CDS)-HTN plus Guideline Link. ATHENA-CDS-HTN display on the cover sheet of electronic health record, plus link to the guidelines
+ATHENA-CDS-HTN plus Guideline Link: ATHENA-CDS-HTN display provides guideline-based recommendations to clinicians at the time of patient care.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="31"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="46"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="31"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="46"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>The study has originally planned to include 5 large medical centers. One of the medical centers dropped out before the intervention started. This lowered the number of clinic sites and of participants (clinicians).</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Mary K. Goldstein, MD</name_or_title>
+      <organization>VA Palo Alto Health Care System</organization>
+      <phone>650-493-5000 ext 1,1,62105</phone>
+      <email>mary.goldstein@va.gov</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

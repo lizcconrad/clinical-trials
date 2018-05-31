@@ -1,0 +1,893 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01593852</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NL39479.060.012</org_study_id>
+    <nct_id>NCT01593852</nct_id>
+  </id_info>
+  <brief_title>X-ray Dose Reduction in Electrophysiology</brief_title>
+  <official_title>X-ray Dose Reduction in Electrophysiology</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Philips Healthcare</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Catharina Ziekenhuis Eindhoven</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Philips Healthcare</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Allura Clarity is a novel X-ray imaging technology, that combines advanced real-time image
+      noise reduction algorithms, with state-of-the-art hardware to reduce patient entrance dose
+      significantly. This is realized by anatomy-specific optimization of the full acquisition
+      chain (grid switch, beam filtering, pulse width, spot size, detector and image processing
+      engine) for every clinical task individually. Furthermore, smaller focal spot sizes and
+      shorter pulses are used, which are known to positively influence image quality .
+
+      The primary aim of this study is to verify if a significant reduction in total procedural
+      X-ray dose during electrophysiological interventions can be achieved by using advanced image
+      processing (Allura Clarity).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      X-ray dose and image quality are related by laws of physics. Low dose and high image quality
+      cannot be achieved at the same time. However, image processing algorithms can help an x-ray
+      system to acquire images with lower dose without influencing image quality or achieving
+      higher image quality with equal dose.
+
+      In order to introduce a dose reduction technology the most important aspect is to validate
+      the diagnostic image information. Philips has developed a new algorithm that is capable to
+      process images with similar image quality but acquired at lower dose.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2012</start_date>
+  <completion_date type="Actual">January 2013</completion_date>
+  <primary_completion_date type="Actual">January 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Cumulative Dose Area Product (DAP) Value</measure>
+    <time_frame>Day 0</time_frame>
+    <description>Percentage reduction of reduced X-ray dose settings (Allura Clarity) vs. regular X-ray dose settings (AlluraXper) in DAP.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Cumulative Air Kerma (AK) Value</measure>
+    <time_frame>Day 0</time_frame>
+    <description>Percentage reduction of reducted X-ray dose settings (Allura Clarity) vs. regular X-ray dose settings (AlluraXper) in AK.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Staff Dose Measured by DoseAware and Electronic Personal Dosimeter (EPD)</measure>
+    <time_frame>Day 0</time_frame>
+    <description>Staff dose measured by Electronic Personal Dosimeter (EPD) worn by the operator over the lead apron (EPD operator) and the other mounted at a fixed location in the EP laboratory (EPD fixed)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Physician Professional Judgment on Procedural Success</measure>
+    <time_frame>Day 0</time_frame>
+    <description>Measurement of professional judgment (yes/no) of the treating physician.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Procedure Duration</measure>
+    <time_frame>Day 0</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Fluoroscopy Time</measure>
+    <time_frame>Day 0</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Physician Professional Judgment on Adequacy of Images for Performing the EP Procedure</measure>
+    <time_frame>Day 0</time_frame>
+    <description>If fluoroscopy time (see results in other secondary outcomes), number of exposure frames (see below) and procedure duration (see results in other secondary outcomes) are equivalent between the two groups, this will indicate that image quality (IQ) is equally adequate in both groups.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Usage of Physician Controlled Dose Settings</measure>
+    <time_frame>Day 0</time_frame>
+    <description>In both groups, default fluoroscopy dose settings were 'low', but could be changed by the operator to a medium or high setting for better imaging. The necessity to increase fluoroscopy dose for better imaging to medium or high was registered as a percentage of total number of fluoroscopy frames.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Serious Adverse Events</measure>
+    <time_frame>Day 0 if any</time_frame>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">136</enrollment>
+  <condition>Arrhythmias, Cardiac</condition>
+  <arm_group>
+    <arm_group_label>Regular X-ray dose settings</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Reduced X-ray dose settings</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Advanced image processing</intervention_name>
+    <description>Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+    <arm_group_label>Reduced X-ray dose settings</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Regular image processing</intervention_name>
+    <description>Acquisition of x-ray images with regular X-ray dose and regular image processing</description>
+    <arm_group_label>Regular X-ray dose settings</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients with heart rhythm disturbances undergoing an interventional treatment for
+             their heart rhythm disturbance
+
+          -  Patients who are allowed, able, willing to and have provided informed consent
+
+          -  Patients to be treated with ablation for atrial fibrillation (paroxysmal, persistent
+             or permanent), atypical atrial flutter or patients to be treated with ablation for
+             ischemic or non-ischemic ventricular tachycardia
+
+          -  Patients who are treated in heart catheterization room 5 (HCK5) of the Catherina
+             Hospital
+
+        Exclusion Criteria:
+
+          -  Patients under 18 years of age.
+
+          -  Patient who are pregnant or breast feeding.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Lukas Dekker, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Catharina Ziekenhuis Eindhoven</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Catharina Ziekenhuis</name>
+      <address>
+        <city>Eindhoven</city>
+        <zip>5623 EJ</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <results_reference>
+    <citation>Dekker LR, van der Voort PH, Simmers TA, Verbeek XA, Bullens RW, Veer MV, Brands PJ, Meijer A. New image processing and noise reduction technology allows reduction of radiation exposure in complex electrophysiologic interventions while maintaining optimal image quality: a randomized clinical trial. Heart Rhythm. 2013 Nov;10(11):1678-82. doi: 10.1016/j.hrthm.2013.08.018. Epub 2013 Aug 22.</citation>
+    <PMID>23973946</PMID>
+  </results_reference>
+  <verification_date>February 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 27, 2012</study_first_submitted>
+  <study_first_submitted_qc>May 7, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 8, 2012</study_first_posted>
+  <results_first_submitted>December 9, 2013</results_first_submitted>
+  <results_first_submitted_qc>December 9, 2013</results_first_submitted_qc>
+  <results_first_posted type="Estimate">January 29, 2014</results_first_posted>
+  <last_update_submitted>February 17, 2014</last_update_submitted>
+  <last_update_submitted_qc>February 17, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">March 18, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>X-rays</keyword>
+  <keyword>Cardiac Electrophysiology</keyword>
+  <keyword>Image Processing, Computer-Assisted</keyword>
+  <keyword>Catheter Ablation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Arrhythmias, Cardiac</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Reduced X-ray Dose Settings</title>
+          <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing
+Advanced image processing : Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+        </group>
+        <group group_id="P2">
+          <title>Regular X-ray Dose Settings</title>
+          <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="68"/>
+                <participants group_id="P2" count="68"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="68"/>
+                <participants group_id="P2" count="68"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Reduced X-ray Dose Settings</title>
+          <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing
+Advanced image processing : Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+        </group>
+        <group group_id="B2">
+          <title>Regular X-ray Dose Settings</title>
+          <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="68"/>
+            <count group_id="B2" value="68"/>
+            <count group_id="B3" value="136"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="58" spread="14"/>
+                    <measurement group_id="B2" value="65" spread="9"/>
+                    <measurement group_id="B3" value="61" spread="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="18"/>
+                    <measurement group_id="B2" value="17"/>
+                    <measurement group_id="B3" value="35"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="50"/>
+                    <measurement group_id="B2" value="51"/>
+                    <measurement group_id="B3" value="101"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Netherlands</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="68"/>
+                    <measurement group_id="B2" value="68"/>
+                    <measurement group_id="B3" value="136"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Cumulative Dose Area Product (DAP) Value</title>
+        <description>Percentage reduction of reduced X-ray dose settings (Allura Clarity) vs. regular X-ray dose settings (AlluraXper) in DAP.</description>
+        <time_frame>Day 0</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Reduced X-ray Dose Settings (Allura Clarity)</title>
+            <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing
+Advanced image processing : Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+          </group>
+          <group group_id="O2">
+            <title>Regular X-ray Dose Settings (AlluraXper)</title>
+            <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Cumulative Dose Area Product (DAP) Value</title>
+          <description>Percentage reduction of reduced X-ray dose settings (Allura Clarity) vs. regular X-ray dose settings (AlluraXper) in DAP.</description>
+          <units>Gy*cm^2</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="68"/>
+                <count group_id="O2" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8.8" lower_limit="4.62" upper_limit="12.80"/>
+                    <measurement group_id="O2" value="15.3" lower_limit="9.14" upper_limit="25.53"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Non-Inferiority or Equivalence</non_inferiority_type>
+            <non_inferiority_desc>Based on historical dose observations, a sample size of 68 patients per study group (i.e. 62 evaluable patients for 10% dropout rate) for a total of 136 patient randomized will allow for 80% power to detect for approximately 40% reduction in dose area product (DAP). This sample size will allow for detection of approximately 40% reduction in air kerma (AK). No adjustment for multiple endpoints was performed as both endpoints are assessing radiation dose.</non_inferiority_desc>
+            <p_value>&lt;0.0001</p_value>
+            <method>Wilcoxon (Mann-Whitney)</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Staff Dose Measured by DoseAware and Electronic Personal Dosimeter (EPD)</title>
+        <description>Staff dose measured by Electronic Personal Dosimeter (EPD) worn by the operator over the lead apron (EPD operator) and the other mounted at a fixed location in the EP laboratory (EPD fixed)</description>
+        <time_frame>Day 0</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Reduced X-ray Dose Settings (Allura Clarity)</title>
+            <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing
+Advanced image processing : Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+          </group>
+          <group group_id="O2">
+            <title>Regular X-ray Dose Settings (AlluraXper)</title>
+            <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Staff Dose Measured by DoseAware and Electronic Personal Dosimeter (EPD)</title>
+          <description>Staff dose measured by Electronic Personal Dosimeter (EPD) worn by the operator over the lead apron (EPD operator) and the other mounted at a fixed location in the EP laboratory (EPD fixed)</description>
+          <units>µSv</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="68"/>
+                <count group_id="O2" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>EPD operator</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3" lower_limit="1.0" upper_limit="6.3"/>
+                    <measurement group_id="O2" value="6" lower_limit="3.3" upper_limit="10.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>EPD fixed</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="10" lower_limit="5.8" upper_limit="18.0"/>
+                    <measurement group_id="O2" value="19" lower_limit="9.0" upper_limit="38.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Physician Professional Judgment on Procedural Success</title>
+        <description>Measurement of professional judgment (yes/no) of the treating physician.</description>
+        <time_frame>Day 0</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Reduced X-ray Dose Settings (Allura Clarity)</title>
+            <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing
+Advanced image processing : Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+          </group>
+          <group group_id="O2">
+            <title>Regular X-ray Dose Settings (AlluraXper)</title>
+            <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Physician Professional Judgment on Procedural Success</title>
+          <description>Measurement of professional judgment (yes/no) of the treating physician.</description>
+          <units>percentage of procedural success</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="68"/>
+                <count group_id="O2" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="91"/>
+                    <measurement group_id="O2" value="91"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Procedure Duration</title>
+        <time_frame>Day 0</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Reduced X-ray Dose Settings (Allura Clarity)</title>
+            <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing
+Advanced image processing : Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+          </group>
+          <group group_id="O2">
+            <title>Regular X-ray Dose Settings (AlluraXper)</title>
+            <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Procedure Duration</title>
+          <units>minutes</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="68"/>
+                <count group_id="O2" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="160" spread="58"/>
+                    <measurement group_id="O2" value="162" spread="58"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Fluoroscopy Time</title>
+        <time_frame>Day 0</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Reduced X-ray Dose Settings (Allura Clarity)</title>
+            <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing
+Advanced image processing : Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+          </group>
+          <group group_id="O2">
+            <title>Regular X-ray Dose Settings (AlluraXper)</title>
+            <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Fluoroscopy Time</title>
+          <units>minutes</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="68"/>
+                <count group_id="O2" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="24" spread="13"/>
+                    <measurement group_id="O2" value="26" spread="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Physician Professional Judgment on Adequacy of Images for Performing the EP Procedure</title>
+        <description>If fluoroscopy time (see results in other secondary outcomes), number of exposure frames (see below) and procedure duration (see results in other secondary outcomes) are equivalent between the two groups, this will indicate that image quality (IQ) is equally adequate in both groups.</description>
+        <time_frame>Day 0</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Reduced X-ray Dose Settings (Allura Clarity)</title>
+            <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing
+Advanced image processing : Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+          </group>
+          <group group_id="O2">
+            <title>Regular X-ray Dose Settings (AlluraXper)</title>
+            <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Physician Professional Judgment on Adequacy of Images for Performing the EP Procedure</title>
+          <description>If fluoroscopy time (see results in other secondary outcomes), number of exposure frames (see below) and procedure duration (see results in other secondary outcomes) are equivalent between the two groups, this will indicate that image quality (IQ) is equally adequate in both groups.</description>
+          <units>Number of exposure frames</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="68"/>
+                <count group_id="O2" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="83" spread="89"/>
+                    <measurement group_id="O2" value="61" spread="66"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Usage of Physician Controlled Dose Settings</title>
+        <description>In both groups, default fluoroscopy dose settings were 'low', but could be changed by the operator to a medium or high setting for better imaging. The necessity to increase fluoroscopy dose for better imaging to medium or high was registered as a percentage of total number of fluoroscopy frames.</description>
+        <time_frame>Day 0</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Reduced X-ray Dose Settings (Allura Clarity)</title>
+            <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing
+Advanced image processing : Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+          </group>
+          <group group_id="O2">
+            <title>Regular X-ray Dose Settings (AlluraXper)</title>
+            <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Usage of Physician Controlled Dose Settings</title>
+          <description>In both groups, default fluoroscopy dose settings were 'low', but could be changed by the operator to a medium or high setting for better imaging. The necessity to increase fluoroscopy dose for better imaging to medium or high was registered as a percentage of total number of fluoroscopy frames.</description>
+          <units>percentage of total # of fluoro frames</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="68"/>
+                <count group_id="O2" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Low</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="86" spread="28"/>
+                    <measurement group_id="O2" value="88" spread="20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Medium</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2" spread="8"/>
+                    <measurement group_id="O2" value="2" spread="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>High</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="12" spread="24"/>
+                    <measurement group_id="O2" value="9" spread="19"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Serious Adverse Events</title>
+        <time_frame>Day 0 if any</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Reduced X-ray Dose Settings (Allura Clarity)</title>
+            <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing
+Advanced image processing : Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+          </group>
+          <group group_id="O2">
+            <title>Regular X-ray Dose Settings (AlluraXper)</title>
+            <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Serious Adverse Events</title>
+          <units>participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="68"/>
+                <count group_id="O2" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Cumulative Air Kerma (AK) Value</title>
+        <description>Percentage reduction of reducted X-ray dose settings (Allura Clarity) vs. regular X-ray dose settings (AlluraXper) in AK.</description>
+        <time_frame>Day 0</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Reduced X-ray Dose Settings (Allura Clarity)</title>
+            <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing
+Advanced image processing : Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+          </group>
+          <group group_id="O2">
+            <title>Regular X-ray Dose Settings (AlluraXper)</title>
+            <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Cumulative Air Kerma (AK) Value</title>
+          <description>Percentage reduction of reducted X-ray dose settings (Allura Clarity) vs. regular X-ray dose settings (AlluraXper) in AK.</description>
+          <units>mGy</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="68"/>
+                <count group_id="O2" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="75" lower_limit="42.85" upper_limit="122.73"/>
+                    <measurement group_id="O2" value="126" lower_limit="85.79" upper_limit="226.40"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Non-Inferiority or Equivalence</non_inferiority_type>
+            <non_inferiority_desc>Based on historical dose observations, a sample size of 68 patients per study group (i.e. 62 evaluable patients for 10% dropout rate) for a total of 136 patient randomized will allow for 80% power to detect for approximately 40% reduction in dose area product (DAP). This sample size will allow for detection of approximately 40% reduction in air kerma (AK). No adjustment for multiple endpoints was performed as both endpoints are assessing radiation dose.</non_inferiority_desc>
+            <p_value>&lt;0.0001</p_value>
+            <method>Wilcoxon (Mann-Whitney)</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>During procedure</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Reduced X-ray Dose Settings (Allura Clarity)</title>
+          <description>For patients in this group x-ray images are acquired with reduced dose settings of the x-ray system and advanced image processing
+Advanced image processing : Acquisition of x-ray images with reduced X-ray dose and advanced image processing</description>
+        </group>
+        <group group_id="E2">
+          <title>Regular X-ray Dose Settings (AlluraXper)</title>
+          <description>For patients in this group x-ray images are acquired with regular dose settings of the x-ray system and regular image processing</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="68"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="68"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Pericardial tamponade</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="68"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="68"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="68"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="68"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Lukas Dekker, MD, PhD</name_or_title>
+      <organization>Catharina Hospital Eindhoven</organization>
+      <phone>+31 40 239 7000</phone>
+      <email>lukas.dekker@catharina_ziekenhuis.nl</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

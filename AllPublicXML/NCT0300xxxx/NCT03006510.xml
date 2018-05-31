@@ -1,0 +1,186 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03006510</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16-20565</org_study_id>
+    <nct_id>NCT03006510</nct_id>
+  </id_info>
+  <brief_title>Hypoglycemia Prediction Model</brief_title>
+  <official_title>Leveraging the Power of the EMR: Using a Real Time Prediction Model to Decrease Inpatient Hypoglycemic Events</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of California, San Francisco</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Our goal for this Learning Healthcare System Demonstration Project is to reduce the rate of
+      inpatient hypoglycemia. Hypoglycemia can result in longer lengths of stay and increased
+      morbidity and mortality (ie falls and cardiovascular or cerebral events).
+
+      The group at Washington University (WSL) developed a predictive hypoglycemia risk score.
+      Using current glucose, body weight, creatinine clearance, insulin type and dosing, and oral
+      diabetic therapy, they identified patients at high risk for hypoglycemia and then provided
+      in-person education to the providers of these patients. This resulted in a 68% reduction in
+      severe hypoglycemia (blood glucose &lt; 40 mg/dL). This approach required significant personnel
+      hours and is difficult to replicate in other systems.
+
+      We will implement an EHR-based intervention at UCSF to predict which patients are at high
+      risk of inpatient hypoglycemia and take action to prevent the hypoglycemic event. In real
+      time, all adult (non OB) patients with a glucose &lt; 90, and a high risk of future hypoglycemia
+      (based on the WSL formula) will be identified. Patients will be randomly assigned to
+      intervention or no intervention (current standard care). The intervention will consist of an
+      automated provider alert with recommendations on what adjustments could be made to avoid a
+      potentially serious hypoglycemic event.
+
+      The outcomes that will be measured include: 1) reductions in serious hypoglycemic events, 2)
+      monitor the changes made by providers as a result of alerts in order to study provider
+      behavior and identify future areas of intervention, and 3) provider satisfaction with the
+      alert system.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date>January 2017</start_date>
+  <completion_date type="Anticipated">July 2018</completion_date>
+  <primary_completion_date type="Anticipated">January 2018</primary_completion_date>
+  <phase>Early Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Single (Care Provider)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The proportion of patients (in each group) who ultimately have a hypoglycemic event</measure>
+    <time_frame>72 hours</time_frame>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">6500</enrollment>
+  <condition>Hypoglycemia</condition>
+  <arm_group>
+    <arm_group_label>Alert</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>If glucose &lt;90 mg/dl and hypoglycemia prediction score &gt;35, then alert with suggestion for intervention sent to treating team</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No alert</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Routine standard care. If glucose &lt;90 mg/dl and hypoglycemia prediction score &gt;35, then report for investigators will be collected, but no active alert will be sent to teams.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Hypoglycemia prediction alert</intervention_name>
+    <description>In real time, for a patient with a glucose &lt;90 mg/d, using a hypoglycemia prediction model that takes into account patient weight, renal function, eating and insulin dosing a risk score is produced.
+If the Risk score is &gt;35, then the patient is determined to be at risk for hypoglycemia in the next 72 hours.
+If a patient is determined to be at risk for hypoglycemia, the following will occur:
+Alert will be generated and sent via &quot;careweb&quot; a pager alert system that sends the alert specifically to the current oncall provider The &quot;alert&quot; also points the provider to the EMR order section where a formal more detailed alert gives recommendationsd for changes in insulin dosing to potentially prevent hypoglycemia.</description>
+    <arm_group_label>Alert</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All adult inpatients having glucoses measured (point of care)
+
+        Exclusion Criteria:
+
+          -  adults admitted to obstetrics
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Robert J Rushakoff, MD</last_name>
+    <phone>4158853868</phone>
+    <email>robert.rushakoff@ucsf.edu</email>
+  </overall_contact>
+  <reference>
+    <citation>Turchin A, Matheny ME, Shubina M, Scanlon JV, Greenwood B, Pendergrass ML. Hypoglycemia and clinical outcomes in patients with diabetes hospitalized in the general ward. Diabetes Care. 2009 Jul;32(7):1153-7. doi: 10.2337/dc08-2127.</citation>
+    <PMID>19564471</PMID>
+  </reference>
+  <reference>
+    <citation>Nirantharakumar K, Marshall T, Kennedy A, Narendran P, Hemming K, Coleman JJ. Hypoglycaemia is associated with increased length of stay and mortality in people with diabetes who are hospitalized. Diabet Med. 2012 Dec;29(12):e445-8. doi: 10.1111/dme.12002.</citation>
+    <PMID>22937877</PMID>
+  </reference>
+  <reference>
+    <citation>Kagansky N, Levy S, Rimon E, Cojocaru L, Fridman A, Ozer Z, Knobler H. Hypoglycemia as a predictor of mortality in hospitalized elderly patients. Arch Intern Med. 2003 Aug 11-25;163(15):1825-9.</citation>
+    <PMID>12912719</PMID>
+  </reference>
+  <reference>
+    <citation>Carey M, Boucai L, Zonszein J. Impact of hypoglycemia in hospitalized patients. Curr Diab Rep. 2013 Feb;13(1):107-13. doi: 10.1007/s11892-012-0336-x. Review.</citation>
+    <PMID>23065370</PMID>
+  </reference>
+  <reference>
+    <citation>Garg R, Hurwitz S, Turchin A, Trivedi A. Hypoglycemia, with or without insulin therapy, is associated with increased mortality among hospitalized patients. Diabetes Care. 2013 May;36(5):1107-10. doi: 10.2337/dc12-1296. Epub 2012 Dec 17.</citation>
+    <PMID>23248192</PMID>
+  </reference>
+  <reference>
+    <citation>Desouza C, Salazar H, Cheong B, Murgo J, Fonseca V. Association of hypoglycemia and cardiac ischemia: a study based on continuous monitoring. Diabetes Care. 2003 May;26(5):1485-9.</citation>
+    <PMID>12716809</PMID>
+  </reference>
+  <reference>
+    <citation>Schwartz AV, Vittinghoff E, Sellmeyer DE, Feingold KR, de Rekeneire N, Strotmeyer ES, Shorr RI, Vinik AI, Odden MC, Park SW, Faulkner KA, Harris TB; Health, Aging, and Body Composition Study. Diabetes-related complications, glycemic control, and falls in older adults. Diabetes Care. 2008 Mar;31(3):391-6. Epub 2007 Dec 4. Erratum in: Diabetes Care. 2008 May;31(5):1089.</citation>
+    <PMID>18056893</PMID>
+  </reference>
+  <reference>
+    <citation>Dendy JA, Chockalingam V, Tirumalasetty NN, Dornelles A, Blonde L, Bolton PM, Meadows RY, Andrews SS. Identifying risk factors for severe hypoglycemia in hospitalized patients with diabetes. Endocr Pract. 2014 Oct;20(10):1051-6. doi: 10.4158/EP13467.OR.</citation>
+    <PMID>24936545</PMID>
+  </reference>
+  <reference>
+    <citation>Ulmer BJ, Kara A, Mariash CN. Temporal occurrences and recurrence patterns of hypoglycemia during hospitalization. Endocr Pract. 2015 May;21(5):501-7. doi: 10.4158/EP14355.OR. Epub 2015 Feb 9.</citation>
+    <PMID>25667368</PMID>
+  </reference>
+  <reference>
+    <citation>Elliott MB, Schafers SJ, McGill JB, Tobin GS. Prediction and prevention of treatment-related inpatient hypoglycemia. J Diabetes Sci Technol. 2012 Mar 1;6(2):302-9.</citation>
+    <PMID>22538139</PMID>
+  </reference>
+  <reference>
+    <citation>Kilpatrick CR, Elliott MB, Pratt E, Schafers SJ, Blackburn MC, Heard K, McGill JB, Thoelke M, Tobin GS. Prevention of inpatient hypoglycemia with a real-time informatics alert. J Hosp Med. 2014 Oct;9(10):621-6. doi: 10.1002/jhm.2221. Epub 2014 Jun 5.</citation>
+    <PMID>24898687</PMID>
+  </reference>
+  <verification_date>December 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 28, 2016</study_first_submitted>
+  <study_first_submitted_qc>December 29, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 30, 2016</study_first_posted>
+  <last_update_submitted>December 29, 2016</last_update_submitted>
+  <last_update_submitted_qc>December 29, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">December 30, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, San Francisco</investigator_affiliation>
+    <investigator_full_name>Robert Rushakoff</investigator_full_name>
+    <investigator_title>Professor of Medicine</investigator_title>
+  </responsible_party>
+  <keyword>inpatient diabetes</keyword>
+  <keyword>hypoglycemia</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypoglycemia</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

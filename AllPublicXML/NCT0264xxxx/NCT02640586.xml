@@ -1,0 +1,385 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02640586</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PNTRRC-MRI</org_study_id>
+    <nct_id>NCT02640586</nct_id>
+  </id_info>
+  <brief_title>Predicting Neoadjuvant Therapy Response of Rectal Cancer With MRI</brief_title>
+  <official_title>Predicting Neoadjuvant Therapy Response of Rectal Cancer With MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sun Ying-Shi</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Beijing Cancer Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to investigate if MRI scans performed after neoadjuvant
+      radiotherapy can predict the therapeutic response of rectal cancer following preoperative
+      chemo-radiotherapy. This will help doctors to better tailor treatments for rectal cancer in
+      the future.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      We proposed to constructed multi-parameter predictive model for predicting therapeutic
+      response and pathological complete response(pCR) of patients with rectal cancer who received
+      neoadjuvant chemoradiation. MR radiomics,convolutional neural networks, morphological
+      parameters and quantitative functional parameters derived from diffusion-weighted MR images
+      will be integrated for model construction.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 10, 2016</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Predictive value of eary MRI (14-16 days MRI) for assessing pathological complete response(pCR) at surgery</measure>
+    <time_frame>2 years</time_frame>
+    <description>A scoring system for predicting pCR will be developed based on MRI parameters and their changes between baseline and early MRI. No viable cancer cells seen in the resection specimen is regarded as pCR</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Predictive value of preoperative MRI(7-9 weeks after the completion of preoperative chemo-radiotherapy) for assessing pathological</measure>
+    <time_frame>2 years</time_frame>
+    <description>A scoring system for predicting pCR will be developed based on MRI parameters</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Predictive value of eary MRI (14-16 days after initiation of preoperative radio-chemotherapy) for assessing pathological response according to Tumour Regression Grade (TRG)</measure>
+    <time_frame>2 years</time_frame>
+    <description>A scoring system for predicting pathological response will be developed based on MRI parameters and their changes between baseline and early MRI.TRG1 is regarded as responder, and TRG2/3 is regarded as non-responder.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Feasibility of conducting MRI scans at 7-9 weeks after preoperative radio-chemotherapy</measure>
+    <time_frame>2 years</time_frame>
+    <description>This will be assessed in terms of whether MR imaging at 7-9 weeks after preoperative radio-chemotherapy adds any additional predictive value to imaging performed 14-16 days after initiation of preoperative radio-chemotherapy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MRI-predicted pCR and MRI-predicted response on long-term disease control and survival</measure>
+    <time_frame>3 years</time_frame>
+    <description>3 years disease-free survival and overall survival will be assessed</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictive value of preoperative MRI(7-9 weeks after the completion of preoperative chemo-radiotherapy) for assessing pathological response according to Tumour Regression Grade (TRG)</measure>
+    <time_frame>2 years</time_frame>
+    <description>A scoring system for predicting pathological response will be developed based on MRI parameters and their changes between baseline and early MRI.TRG1 is regarded as responder, and TRG2/3 is regarded as non-responder.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Rectal Neoplasms</condition>
+  <arm_group>
+    <arm_group_label>Assessing response with MRI</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Preoperative chemo-radiotherapy as standard treatment. Neoadjuvant therapy (long course intensity modulated radio-chemotherapy, GTV 50.6Gy, totally 22 fractions; Capecitabine 825mg/m2 /bid by oral administration).
+Three MR examinations: first MRI taken within 1 week before preoperative chemo-radiotherapy; second MRI taken between 14-16days after the initiation of radio-chemotherapy; third MRI taken 7-9 weeks after the completion of preoperative chemo-radiotherapy.
+All patients are scheduled to receive total mesorectal excision surgery 12-14 weeks after the completion of preoperative chemo-radiotherapy.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>three MR examination</intervention_name>
+    <description>Three MR examinations: first MRI taken within 1 week before preoperative chemo-radiotherapy; second MRI taken between 14-16days after the initiation of radio-chemotherapy; third MRI taken 7-9 weeks after the completion of preoperative chemo-radiotherapy.</description>
+    <arm_group_label>Assessing response with MRI</arm_group_label>
+    <other_name>imaging</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age &gt; 18 years
+
+          -  T3/4 or node positive biopsy-proved primary rectal cancer
+
+          -  Suitable for pre-operative chemoradiotherapy and surgical resection
+
+          -  No contraindication to MRI
+
+          -  Ability to understand and the willingness to sign a written informed consent document
+
+        Exclusion Criteria:
+
+          -  History or concurrent of other cancer
+
+          -  Previous therapy to pelvis
+
+          -  Unable/unwilling to have MRI
+
+          -  Pacemaker or implanted defibrillator
+
+          -  Pregnancy, lactation or inadequate contraception
+
+          -  Patients with a history of psychological illness or condition such as to interfere
+             with the patient's ability to understand requirements of the study
+
+          -  Unwilling or unable to give informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ying-Shi Sun, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>No.52 Fu Cheng Road, Hai Dian District, Beijing, 10142</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ying-Shi Sun, MD</last_name>
+    <phone>861088196822</phone>
+    <email>sys27@163.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Peking University Cancer Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <zip>100142</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ying-Shi Sun, MD</last_name>
+      <phone>861088196822</phone>
+      <email>sys27@163.com</email>
+    </contact>
+    <investigator>
+      <last_name>Ying-Shi Sun, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Beijing Chao Yang Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Tao Jiang, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Tao Jiang</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Beijing Friendship Hospital Capital Medical University</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Zheng-Han Yang, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Zheng-Han Yang</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Chinese Academy of Medical Sciences, Cancer Hospital &amp; Institute</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Han Ou-yang, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Han Ou-yang, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>The First Affiliated Hospital of Chongqing Medical University</name>
+      <address>
+        <city>Chongqing</city>
+        <state>Chongqing</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Fa-Jin Lv, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Fa-Jin Lv, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Guangxi Cancer Hospital</name>
+      <address>
+        <city>Guilin</city>
+        <state>Guangxi</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Dan-Ke Su, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Dan-Ke Su</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hubei Cancer Hospital</name>
+      <address>
+        <city>Wuhan</city>
+        <state>Hubei</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yu-Lin Liu, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Yu-Lin Liu, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hunan Cancer Hospital</name>
+      <address>
+        <city>Changsha</city>
+        <state>Hunan</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Xiao-Ping Yu, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Xiao-Ping Yu, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Jilin Cancer Hospital</name>
+      <address>
+        <city>Changchun</city>
+        <state>Jilin</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ji-Hong Zhao, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Ji-Hong Zhao, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>The First Affiliated Hospital of Jilin University</name>
+      <address>
+        <city>Changchun</city>
+        <state>Jilin</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Hui-Mao Zhang, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Hui-Mao Zhang, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Shanxi Cancer Hospital</name>
+      <address>
+        <city>Taiyuan</city>
+        <state>Shanxi</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Xiao-Tang Yang, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Xiao-Tang Yang, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 17, 2015</study_first_submitted>
+  <study_first_submitted_qc>December 23, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 29, 2015</study_first_posted>
+  <last_update_submitted>February 7, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 7, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 9, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Beijing Cancer Hospital</investigator_affiliation>
+    <investigator_full_name>Sun Ying-Shi</investigator_full_name>
+    <investigator_title>Chairman of Department of Radiology</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Rectal Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

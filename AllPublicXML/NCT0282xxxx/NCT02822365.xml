@@ -1,0 +1,206 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02822365</url>
+  </required_header>
+  <id_info>
+    <org_study_id>9592</org_study_id>
+    <secondary_id>NCI-2016-00747</secondary_id>
+    <secondary_id>9592</secondary_id>
+    <secondary_id>P30CA015704</secondary_id>
+    <secondary_id>R42CA167907</secondary_id>
+    <nct_id>NCT02822365</nct_id>
+  </id_info>
+  <brief_title>Pocket Phantom Tool in Improving Accuracy of Quantitative PET/CT Imaging of Patients With Solid Tumors</brief_title>
+  <official_title>Calibrated Methods for Quantitative PET/CT Imaging Phase II</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Washington</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Washington</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This pilot study tests the pocket phantom tool in improving the accuracy of quantitative
+      positron emission tomography/computed tomography (PET/CT) imaging of patients with solid
+      tumors. The pocket phantom tool may help test the accuracy of the PET/CT scanner and indicate
+      whether adjustments need to be made to get consistent information.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      PRIMARY OBJECTIVES:
+
+      I. Optimize the pocket phantom source design and the bias estimation algorithm: determine the
+      tolerances and variations in the source sphere geometry and radioactive filing process;
+      evaluate the need for higher-activity sources in the presence of increased attenuation (i.e.
+      thicker patients); optimize CT contrast levels for source boundary detection and localization
+      from CT images; evaluate the robustness for use with different scanner parameters (e.g. CT
+      slice thicknesses); modify bias estimation algorithm as needed to take into account changes.
+
+      II. Develop automated and robust ID pocket phantom processing and web-based software as a
+      service (SAS) analysis tools: automate initial identification of approximate location of the
+      pocket phantom; add automated DICOM analysis for web-based SAS analysis tools for imaging
+      sites.
+
+      III. Conduct phantom studies at multiple imaging centers to evaluate the performance with
+      different imaging protocols, scanners, and reconstruction methods. Also test at multiple time
+      points over 6-9 months to assess longitudinal stability.
+
+      IV. Conduct a comparative study with patients (at University of Washington [UW]) at multiple
+      time points over 6-12 months to evaluate the performance of the pocket phantom in oncology
+      patient imaging compared with current clinical practice.
+
+      OUTLINE:
+
+      Patients undergo a PET/CT scan as part of their standard clinical care. While still
+      positioned for the clinical scan, patients undergo additional research PET/CT scans in a
+      smaller region over 10 minutes with the pocket phantom placed nearby and a low-dose single
+      bed position CT scan for attenuation correction (CTAC).
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 24, 2016</start_date>
+  <completion_date type="Anticipated">August 2018</completion_date>
+  <primary_completion_date type="Anticipated">August 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Difference in measured versus known quantitative values of the pocket phantom</measure>
+    <time_frame>At day 1 (All data will be collected during the clinically scheduled appointment. Analysis will follow typical image reconstruction times.)</time_frame>
+    <description>Compare measured activity of the pocket phantom (as measured by a PET/CT scanner) to the known values of the pocket phantom (as calculated based on half-life activity of known source) to determine accuracy and precision of scanner calibration. This will be used to validate quantitative clinical measurements, like SUV (standardized uptake values), of known solid tumors.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Adult Solid Neoplasm</condition>
+  <arm_group>
+    <arm_group_label>Diagnostic (PET/CT)</arm_group_label>
+    <description>Patients undergo a PET/CT scan as part of their standard clinical care. While still positioned for the clinical scan, patients undergo additional research PET/CT scans in a smaller region over 10 minutes with the pocket phantom placed nearby and a low-dose single bed position CTAC.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Computed Tomography</intervention_name>
+    <description>Undergo PET/CT scan as clinically indicated (Note: CT is for attenuation correction and not for diagnostic purposes).</description>
+    <arm_group_label>Diagnostic (PET/CT)</arm_group_label>
+    <other_name>CAT</other_name>
+    <other_name>CAT Scan</other_name>
+    <other_name>Computerized Axial Tomography</other_name>
+    <other_name>Computerized Tomography</other_name>
+    <other_name>CT</other_name>
+    <other_name>CT SCAN</other_name>
+    <other_name>tomography</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Imaging Phantoms</intervention_name>
+    <description>Undergo limited field of view PET scan with the Pocket Phantom placed nearby to assist in scanner calibration. No additional PET tracer will be used.</description>
+    <arm_group_label>Diagnostic (PET/CT)</arm_group_label>
+    <other_name>Phantoms</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Positron Emission Tomography</intervention_name>
+    <description>Undergo PET/CT scan as clinically indicated.</description>
+    <arm_group_label>Diagnostic (PET/CT)</arm_group_label>
+    <other_name>Medical Imaging, Positron Emission Tomography</other_name>
+    <other_name>PET</other_name>
+    <other_name>PET SCAN</other_name>
+    <other_name>Positron Emission Tomography Scan</other_name>
+    <other_name>Positron-Emission Tomography</other_name>
+    <other_name>proton magnetic resonance spectroscopic imaging</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with solid tumors receiving clinically indicated PET/CT scans.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patient receiving clinically indicated PET/CT scan
+
+          -  Patient has a known solid tumor
+
+          -  Patient provides consent
+
+          -  Patient can tolerate additional time in scanner (i.e. not claustrophobic)
+
+        Exclusion Criteria:
+
+          -  Patient is pregnant
+
+          -  Patient cannot or does not provide consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Paul Kinahan</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Fred Hutch/University of Washington Cancer Consortium</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Fred Hutch/University of Washington Cancer Consortium</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Paul Kinahan</last_name>
+      <phone>206-543-0236</phone>
+    </contact>
+    <investigator>
+      <last_name>Paul Kinahan</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>August 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 22, 2016</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 4, 2016</study_first_posted>
+  <last_update_submitted>August 23, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 23, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 25, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,172 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01181544</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Gambro PI 2012</org_study_id>
+    <nct_id>NCT01181544</nct_id>
+  </id_info>
+  <brief_title>A Pilot Study of a Heparin Dosing Algorithm for Hemodialysis</brief_title>
+  <official_title>Heparin Dose Reduction During Hemodialysis With the Gambro Revaclear and Revaclear MAX Hemodialyzers: Pilot Study I and II</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Baxter Healthcare Corporation</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Louisville</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Gambro Renal Products, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Baxter Healthcare Corporation</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      During hemodialysis treatments, patients receive heparin to prevent clotting. The purpose of
+      this pilot study is to determine if the amount of heparin administered during a patient's
+      hemodialysis can be individualized using an equation for heparin dose adjustment.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2011</start_date>
+  <completion_date type="Actual">August 2011</completion_date>
+  <primary_completion_date type="Actual">August 2011</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in dialyzer blood compartment volume when the heparin dose is adjusted using a Robbins-Monro algorithm</measure>
+    <time_frame>up to 8 weeks</time_frame>
+    <description>The objective is to titrate each patient's heparin dose to the level that achieves adequate anticoagulation for that patient as assessed by the change in blood compartment volume of the dialyzer from pre- to post-dialysis. The strategy that will be used is the Robbins-Monro stochastic approximation algorithm.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Evaluation of dialyzer performance and visual assessment of clotting in the fiber bundle and the arterial and venous headers</measure>
+    <time_frame>up to 8 weeks</time_frame>
+    <description>Visual assessment of the dialyzer,measurement of ionic dialysance and ionic Kt/V.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">5</enrollment>
+  <condition>Renal Failure Chronic Requiring Hemodialysis</condition>
+  <arm_group>
+    <arm_group_label>Heparin dose titration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Heparin dose titration</intervention_name>
+    <description>Patients will begin the study using their currently prescribed heparin doses - both bolus and constant infusion - for three treatments to establish a baseline and provide information on inter-treatment variability in dialyzer clotting. Subsequently, the bolus and infusion rates will be titrated either upward or downward based on the Robbins-Monro process and an evaluation of dialyzer clotting during the preceding treatment. Heparin doses will be adjusted for a total of 30 dialyses.</description>
+    <arm_group_label>Heparin dose titration</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adults 18 years of age or older
+
+          -  Stable hemodialysis prescription prior to study enrollment
+
+          -  Dialyzing through a native fistula or Gore-Tex graft
+
+          -  Blood access must be able to provide a blood flow rate of 400 ml/min
+
+        Exclusion Criteria:
+
+          -  Non-compliance with dialysis
+
+          -  Hematocrit less than 28%
+
+          -  Active Infection
+
+          -  Diagnosis of Heparin-Induced Thrombocytopenia (HIT)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Richard A. Ward, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Louisville</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Louisville</name>
+      <address>
+        <city>Louisville</city>
+        <state>Kentucky</state>
+        <zip>40202-1718</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Farrell PC, Ward RA, Schindhelm K, Gotch F. Precise anticoagulation for routine hemodialysis. J Lab Clin Med. 1978 Aug;92(2):164-76.</citation>
+    <PMID>681809</PMID>
+  </reference>
+  <reference>
+    <citation>Smith BP, Ward RA, Brier ME. Prediction of anticoagulation during hemodialysis by population kinetics and an artificial neural network. Artif Organs. 1998 Sep;22(9):731-9.</citation>
+    <PMID>9754457</PMID>
+  </reference>
+  <reference>
+    <citation>Robbins H, Monro S. A stochastic approximation method. Ann Math Stat 22:400-407, 1951.</citation>
+  </reference>
+  <reference>
+    <citation>Association for the Advancement of Medical Instrumentation: Reuse of Hemodialyzers (ANSI/AAMI RD47:2003). Association for the Advancement of Medical Instrumentation, Arlington, VA, 2003.</citation>
+  </reference>
+  <verification_date>May 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 11, 2010</study_first_submitted>
+  <study_first_submitted_qc>August 11, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 13, 2010</study_first_posted>
+  <last_update_submitted>May 5, 2017</last_update_submitted>
+  <last_update_submitted_qc>May 5, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 8, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Anticoagulation</keyword>
+  <keyword>Heparin</keyword>
+  <keyword>Hemodialysis</keyword>
+  <keyword>Dialysis</keyword>
+  <keyword>Renal Dialysis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Renal Insufficiency</mesh_term>
+    <mesh_term>Kidney Failure, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Calcium heparin</mesh_term>
+    <mesh_term>Heparin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

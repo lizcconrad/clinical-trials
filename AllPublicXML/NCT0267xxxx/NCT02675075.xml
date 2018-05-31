@@ -1,0 +1,216 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02675075</url>
+  </required_header>
+  <id_info>
+    <org_study_id>N1902-P</org_study_id>
+    <secondary_id>I21RX001902</secondary_id>
+    <nct_id>NCT02675075</nct_id>
+  </id_info>
+  <brief_title>DESIPHER_Speech Degradation as an Indicator of Physiological Degeneration in ALS</brief_title>
+  <official_title>DESIPHER Speech Degradation as an Indicator of Physiological Degeneration in ALS</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Florida Institute for Human and Machine Cognition</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A disease called Amyotrophic lateral sclerosis (or ALS), which leads to difficulty
+      swallowing, breathing, and movement, has been found to be higher for those serving in the
+      military than in the general population. There are approximately 4,200 Veterans with ALS and
+      roughly 1,000 new cases each year. When doctors attempt to determine the degree to which an
+      ALS patient is suffering from the disease, they apply tests that are &quot;graded&quot; by experts.
+      However, this approach to testing patients may not be very accurate. Researchers aim to use a
+      system called DESIPHER to &quot;listen&quot; to ALS patients and find speech mistakes related to their
+      condition. Researchers believe that, by detecting different types of errors, DESIPHER serves
+      as a new kind of indicator of medical problems such as difficulty breathing or swallowing,
+      without human &quot;grading&quot;. This may also lead to a better system for automatically
+      understanding ALS patients' speech.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In 2008, Amyotrophic lateral sclerosis (ALS) or Lou Gehrig's Disease became a presumptively
+      compensable (service connected) disease as the Institute of Medicine (IOM) Committee stated
+      an association between the development of ALS and military service. According to the IOM
+      report, military service increases life risk of ALS by 1.5 fold. There are approximately
+      4,200 Veterans with ALS and roughly 1,000 new cases each year. At the Tampa VA, since 2007,
+      there has been a consistent rise in the number of Veterans diagnosed and treated with ALS.
+
+      Most physiological assessments that are commonly used to determine the functional status of
+      patients with ALS require trained clinical personnel to administer and interpret the results.
+      The investigators propose to use automatic speech understanding and machine learning software
+      (DESIPHER) to: identify speech pathologies and use them to predict other aspects of
+      physiological degeneration associated with ALS (e.g., respiratory difficulty or inability to
+      swallow), and ultimately improve speech recognition for those with speech impairments. The
+      investigators expect this to improve the ability to appropriately identify and intervene when
+      Veterans with ALS are at risk of serious adverse medical issues such as respiratory failure
+      and aspiration. The investigators postulate that analyzing the overall divergence of
+      (impaired) speech, from a &quot;normal&quot; baseline, will prove to be more robust and a better marker
+      for involvement than others that have been proposed.
+
+      Specific research questions to be addressed by this study are: (1) Is it possible to train a
+      speech recognition system to adapt to increasingly more frequent language/speech errors of
+      particular types, to produce an accurate textual transcript that would be readable by an ALS
+      patient's caregiver or physician? (2) Are specific changes in physiological functioning:
+      Forced Vital Capacity, tongue strength, speech velocity, weight (loss), aspiration risk, or
+      psychological distress, reflected in different types of language/speech errors associated
+      with ALS?
+
+      By understanding how speech functioning correlates with the degree to which other biophysical
+      functioning has degraded, it is possible to apply a new, non-invasive measure for assessing
+      the functionality of an ALS patient. In addition, the features associated with speech
+      degradation it is possible to adapt existing speech recognition software to a patient's
+      speech as it evolves over time, so that the quality of life for patients may be improved
+      through conversation with a computer.
+
+      Respiratory failure is the main cause of morbidity and mortality in ALS patients. The
+      investigators expect that the method of analyzing speech will present an excellent biomarker
+      for respiratory function, as there is an expected increase in pauses during speech due to the
+      necessity of increased frequency of respirations, a decrease in loudness, and decreased
+      overall velocity of speech. A second major cause of death is aspiration. As the articular
+      muscles decline, the investigators expect to note a decrease in the clarity of speech. Speech
+      involvement often precedes swallowing involvement in ALS; thus, the investigators expect that
+      increasing &quot;speech divergence&quot; will indicate potential aspiration risk.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2016</start_date>
+  <completion_date type="Actual">December 31, 2017</completion_date>
+  <primary_completion_date type="Actual">December 31, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in Lung Force Vital Capacity</measure>
+    <time_frame>up to 24 months</time_frame>
+    <description>FVC measures the ability of the lung to move air.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change in Speech - as measured by Speech Divergence</measure>
+    <time_frame>up to 24 months</time_frame>
+    <description>A measure looking at changes in vocal characteristics away from standard language.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in Tongue Strength</measure>
+    <time_frame>up to 24 months</time_frame>
+    <description>A physiological measurement of tongue muscle strength, in multiple directions. A force measured with Iowa Oral Performance Instrument (IOPI)</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">15</enrollment>
+  <condition>Amyotrophic Lateral Sclerosis</condition>
+  <arm_group>
+    <arm_group_label>Veterans With ALS</arm_group_label>
+    <description>This Cohort Study will admit all eligible, interested Veterans diagnosed with ALS who meet the inclusion criteria.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        A Cohort of Veteran diagnosed with ALS seen at the Tampa VA
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Veterans will be diagnosed with ALS
+
+          -  Native speakers of U.S. English
+
+          -  Will have bulbar involvement identified during initial ALS inpatient evaluation
+
+          -  Forced vital capacity (FVC) of greater than 50% of the expected value for age
+
+          -  An Amyotrophic Lateral Sclerosis Functional Rating Scale (ALSFRS-R) Score of 40 or
+             greater
+
+        Exclusion Criteria:
+
+          -  A diagnosis of dementia
+
+          -  FVC less than 50%
+
+          -  Inability to speak
+
+          -  Or inability to follow directions
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Samuel L. Phillips, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>James A. Haley Veterans' Hospital, Tampa, FL</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>James A. Haley Veterans' Hospital, Tampa, FL</name>
+      <address>
+        <city>Tampa</city>
+        <state>Florida</state>
+        <zip>33612</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 21, 2016</study_first_submitted>
+  <study_first_submitted_qc>February 2, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 5, 2016</study_first_posted>
+  <last_update_submitted>April 5, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 5, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 6, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Amyotrophic Lateral Sclerosis</keyword>
+  <keyword>Voice</keyword>
+  <keyword>Voice Quality</keyword>
+  <keyword>Total Lung Capacity</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sclerosis</mesh_term>
+    <mesh_term>Motor Neuron Disease</mesh_term>
+    <mesh_term>Amyotrophic Lateral Sclerosis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

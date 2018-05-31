@@ -1,0 +1,693 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01787175</url>
+  </required_header>
+  <id_info>
+    <org_study_id>5R18HS017186-03</org_study_id>
+    <nct_id>NCT01787175</nct_id>
+  </id_info>
+  <brief_title>VA Integrated Medication Manager</brief_title>
+  <acronym>IMM</acronym>
+  <official_title>Veterans Affairs Integrated Medication Manager</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Utah</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Agency for Healthcare Research and Quality (AHRQ)</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Utah</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to advance the science of healthcare informatics and to improve
+      medication management through the development of a new approach to the electronic medical
+      record called the Integrated Medication Manager (IMM).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In an attempt to address problems patient non-compliance with quality goals barriers to
+      access and integration of health information that impede achievement of treatment goals, the
+      VA is developing a new approach to the electronic medical record. The VA is moving away from
+      the paper-chart metaphor and towards an integrated representation of the patient's status and
+      care process across time. One of the first steps in the development phase has been to
+      explicitly relate patient conditions, therapies, and goals in the domain of pharmacotherapy.
+      This is called Integrated Medication Management and draws on Hollnagel's Contextual Control
+      Model. Providers will be able to plan care and create orders directly in the context of these
+      explicit relationships. This application will be implemented nationwide through a web
+      interface embedded within the existing Computerized Patient Record System (CPRS), the
+      graphical user interface to VA Information Systems (VistA).
+
+      Aim 1: Identify cognitive components of providers' therapeutic decision making in the field.
+
+      Aim 2. Refine and evaluate the Integrated Medication Manager using simulation studies.
+
+        -  Aim 2.a. Refine interfaces and logic of the Integrated Medication Manager.
+
+        -  Aim 2.b. Compare the performance of the Integrated Medication Manager and usual CPRS.
+
+      All hypotheses (below) test the use of IMM versus usual electronic medical record (EMR).
+
+        -  Speed of decision-making will be faster.
+
+        -  Accuracy of data interpretation (clinical assessment) will be higher.
+
+        -  Appropriateness of therapeutic plans will be higher.
+
+        -  Efficiency of gathering information will be higher.
+
+        -  Common ground measures will be higher.
+
+        -  Appropriateness of therapeutic plans will be higher when relevant data is outside the
+           usual time horizon.
+
+        -  Appropriateness of therapeutic plans will be higher when complex associations among
+           patient therapies and goals exist.
+
+        -  Appropriateness of therapeutic plans will be no lower when relevant data is not captured
+           by the displays of the IMM.
+
+        -  Appropriateness of therapeutic plans will be higher when highly salient data is not
+           germane to the most important problem.
+
+        -  Appropriateness of therapeutic plans will be higher when cognitive load is high due to
+           interruptions.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2007</start_date>
+  <completion_date type="Actual">March 2011</completion_date>
+  <primary_completion_date type="Actual">March 2011</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Amount of Time to Complete Assessment and Plan</measure>
+    <time_frame>10 minutes</time_frame>
+    <description>Each participant had 10 minutes maximum to review the patient case and write an Assessment and Plan.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of Written Assessment and Plan in Terms of Control and Status</measure>
+    <time_frame>10 minutes</time_frame>
+    <description>Each participant had 10 minutes maximum to review the patient case and write an Assessment and Plan. The primary outcome evaluated participants' recommendations for treatment of patient conditions. Participants reviewed a total of 10 patient cases and received a score between 0 and 3 points for each issue within each patient case. The final score for each participant was a proportion between 0 and 1. The proportion represented the sum of all points assigned to the participant, divided by the total number of points possible. Higher values on the scale represent greater accuracy of the written assessment and plan.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Identification of Planned Monitoring and Follow up Encounters in Assessment and Plan</measure>
+    <time_frame>10 minutes</time_frame>
+    <description>Each participant had 10 minutes maximum to review the patient case and write an Assessment and Plan. . The secondary outcome evaluated participants' recommendation about future monitoring of patient conditions. Participants reviewed a total of 10 patient cases and received a score of 0 or 1 point for each issue within each case. The final score for each participant was a proportion between 0 and 1. The proportion represented the sum of all points assigned to the participant, divided by the total number of points possible. Higher values on the scale represent a greater proportion of appropriate monitoring recommendations made.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">58</enrollment>
+  <condition>Electronic Health Records</condition>
+  <arm_group>
+    <arm_group_label>Integrated Medication Manager</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard EHR</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Integrated Medication Manager</intervention_name>
+    <description>A theory based electronic health record. Half of the provider participants were assigned the IMM to use. The other half were assigned the VA's CPRS EHR to use for the simulation. Providers were randomly assigned to a EHR to use.</description>
+    <arm_group_label>Integrated Medication Manager</arm_group_label>
+    <other_name>IMM</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Practiced in primary care for at least two years
+
+          -  Third year residents with two years of residency in internal medicine or family
+             practice
+
+          -  Do not have to be currently practicing
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jonathan Nebeker, MD, MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Utah</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>VA SLC Health Care System</name>
+      <address>
+        <city>Salt Lake City</city>
+        <state>Utah</state>
+        <zip>84148</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Asch SM, McGlynn EA, Hogan MM, Hayward RA, Shekelle P, Rubenstein L, Keesey J, Adams J, Kerr EA. Comparison of quality of care for patients in the Veterans Health Administration and patients in a national sample. Ann Intern Med. 2004 Dec 21;141(12):938-45.</citation>
+    <PMID>15611491</PMID>
+  </reference>
+  <reference>
+    <citation>Perlin JB, Pogach LM. Improving the outcomes of metabolic conditions: managing momentum to overcome clinical inertia. Ann Intern Med. 2006 Apr 4;144(7):525-7.</citation>
+    <PMID>16585667</PMID>
+  </reference>
+  <reference>
+    <citation>Morris AH. Developing and implementing computerized protocols for standardization of clinical decisions. Ann Intern Med. 2000 Mar 7;132(5):373-83.</citation>
+    <PMID>10691588</PMID>
+  </reference>
+  <reference>
+    <citation>Fox J, Alabassi A, Black E, Hurt C, Rose T. Modelling clinical goals: a corpus of examples and a tentative ontology. Stud Health Technol Inform. 2004;101:31-45.</citation>
+    <PMID>15537204</PMID>
+  </reference>
+  <reference>
+    <citation>Xiao Y, Hunter WA, Mackenzie CF, Jefferies NJ, Horst RL. Task complexity in emergency medical care and its implications for team coordination. LOTAS Group. Level One Trauma Anesthesia Simulation. Hum Factors. 1996 Dec;38(4):636-45.</citation>
+    <PMID>8976626</PMID>
+  </reference>
+  <reference>
+    <citation>Phillips LS, Branch WT, Cook CB, Doyle JP, El-Kebbi IM, Gallina DL, Miller CD, Ziemer DC, Barnes CS. Clinical inertia. Ann Intern Med. 2001 Nov 6;135(9):825-34. Review.</citation>
+    <PMID>11694107</PMID>
+  </reference>
+  <reference>
+    <citation>Nebeker JR, Hurdle JF, Bair BD. Future history: medical informatics in geriatrics. J Gerontol A Biol Sci Med Sci. 2003 Sep;58(9):M820-5. Review.</citation>
+    <PMID>14528038</PMID>
+  </reference>
+  <reference>
+    <citation>Crosson JC, Stroebel C, Scott JG, Stello B, Crabtree BF. Implementing an electronic medical record in a family medicine practice: communication, decision making, and conflict. Ann Fam Med. 2005 Jul-Aug;3(4):307-11.</citation>
+    <PMID>16046562</PMID>
+  </reference>
+  <reference>
+    <citation>Hayward RA, Asch SM, Hogan MM, Hofer TP, Kerr EA. Sins of omission: getting too little medical care may be the greatest threat to patient safety. J Gen Intern Med. 2005 Aug;20(8):686-91.</citation>
+    <PMID>16050875</PMID>
+  </reference>
+  <reference>
+    <citation>Tinetti ME, Bogardus ST Jr, Agostini JV. Potential pitfalls of disease-specific guidelines for patients with multiple conditions. N Engl J Med. 2004 Dec 30;351(27):2870-4.</citation>
+    <PMID>15625341</PMID>
+  </reference>
+  <reference>
+    <citation>Garg AX, Adhikari NK, McDonald H, Rosas-Arellano MP, Devereaux PJ, Beyene J, Sam J, Haynes RB. Effects of computerized clinical decision support systems on practitioner performance and patient outcomes: a systematic review. JAMA. 2005 Mar 9;293(10):1223-38. Review.</citation>
+    <PMID>15755945</PMID>
+  </reference>
+  <reference>
+    <citation>Shekelle PG. Invited commentary: Implementation of health information technology: an important but challenging field of inquiry. Proc (Bayl Univ Med Cent). 2006 Oct;19(4):313.</citation>
+    <PMID>17106490</PMID>
+  </reference>
+  <reference>
+    <citation>Weir CR, Nebeker JJ, Hicken BL, Campo R, Drews F, Lebar B. A cognitive task analysis of information management strategies in a computerized provider order entry environment. J Am Med Inform Assoc. 2007 Jan-Feb;14(1):65-75. Epub 2006 Oct 26.</citation>
+    <PMID>17068345</PMID>
+  </reference>
+  <reference>
+    <citation>Berg CA, Strough JN, Calderone KS, Sansone C, Weir C. The role of problem definitions in understanding age and context effects on strategies for solving everyday problems. Psychol Aging. 1998 Mar;13(1):29-44.</citation>
+    <PMID>9533188</PMID>
+  </reference>
+  <reference>
+    <citation>Weir CR. Linking information needs with evaluation: the role of task identification. Proc AMIA Symp. 1998:310-4.</citation>
+    <PMID>9929232</PMID>
+  </reference>
+  <reference>
+    <citation>Taatz H. [The problem of the time factor in orthodontic treatment]. Stomatol DDR. 1976 Feb;26(2):102-5. German.</citation>
+    <PMID>1065968</PMID>
+  </reference>
+  <reference>
+    <citation>Campbell M, Grimshaw J, Steen N. Sample size calculations for cluster randomised trials. Changing Professional Practice in Europe Group (EU BIOMED II Concerted Action). J Health Serv Res Policy. 2000 Jan;5(1):12-6.</citation>
+    <PMID>10787581</PMID>
+  </reference>
+  <reference>
+    <citation>Miller RH, Sim I. Physicians' use of electronic medical records: barriers and solutions. Health Aff (Millwood). 2004 Mar-Apr;23(2):116-26.</citation>
+    <PMID>15046136</PMID>
+  </reference>
+  <reference>
+    <citation>Bradley EH, Bogardus ST Jr, Tinetti ME, Inouye SK. Goal-setting in clinical medicine. Soc Sci Med. 1999 Jul;49(2):267-78.</citation>
+    <PMID>10414834</PMID>
+  </reference>
+  <verification_date>May 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 22, 2013</study_first_submitted>
+  <study_first_submitted_qc>February 5, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 8, 2013</study_first_posted>
+  <results_first_submitted>January 3, 2014</results_first_submitted>
+  <results_first_submitted_qc>May 17, 2016</results_first_submitted_qc>
+  <results_first_posted type="Estimate">June 23, 2016</results_first_posted>
+  <last_update_submitted>May 17, 2016</last_update_submitted>
+  <last_update_submitted_qc>May 17, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">June 23, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Medication Therapy Management</keyword>
+  <keyword>Clinical Decision Support Systems</keyword>
+  <keyword>Medical Informatics</keyword>
+  <keyword>Patient Care Management</keyword>
+  <keyword>United States Department of Veterans Affairs</keyword>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Recruitment 12/2010 to 3/2011 at the Salt Lake City VA and University of Utah health care systems. Simulations took place at either of these locations.</recruitment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Integrated Medication Manager</title>
+          <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.</description>
+        </group>
+        <group group_id="P2">
+          <title>Standard EHR</title>
+          <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="30"/>
+                <participants group_id="P2" count="28"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="30"/>
+                <participants group_id="P2" count="28"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned to use VA's CPRS (standard EHR). Providers were randomly assigned which system to use.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Integration Medication Manager</title>
+          <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.</description>
+        </group>
+        <group group_id="B2">
+          <title>Standard EHR</title>
+          <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="30"/>
+            <count group_id="B2" value="28"/>
+            <count group_id="B3" value="58"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="30"/>
+                    <measurement group_id="B2" value="28"/>
+                    <measurement group_id="B3" value="58"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="18"/>
+                    <measurement group_id="B2" value="15"/>
+                    <measurement group_id="B3" value="33"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                    <measurement group_id="B2" value="13"/>
+                    <measurement group_id="B3" value="25"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="30"/>
+                    <measurement group_id="B2" value="28"/>
+                    <measurement group_id="B3" value="58"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Amount of Time to Complete Assessment and Plan</title>
+        <description>Each participant had 10 minutes maximum to review the patient case and write an Assessment and Plan.</description>
+        <time_frame>10 minutes</time_frame>
+        <population>58 providers were enrolled</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Integrated Medication Manager</title>
+            <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard EHR</title>
+            <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Amount of Time to Complete Assessment and Plan</title>
+          <description>Each participant had 10 minutes maximum to review the patient case and write an Assessment and Plan.</description>
+          <population>58 providers were enrolled</population>
+          <units>minutes</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="30"/>
+                <count group_id="O2" value="28"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8.5" spread="1.9"/>
+                    <measurement group_id="O2" value="8.7" spread="1.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Null hypothesis: Participants will require the same amount of time to complete assessments and plans using either IMM or CPRS. Power calculation: With 2 replications per subject, and assuming an ICC of 0.15, a two-sided alpha 0.05 comparison adjusted for 5 multiple comparisons (adjusted alpha = 0.01), and power of 80%, an N of 32 clinicians was required for each group (32 using IMM, and 32 using CPRS).</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.047</p_value>
+            <method>Mixed-effects linear model</method>
+            <param_type>Difference in time to complete A&amp;P</param_type>
+            <param_value>-17.73</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>-35.24</ci_lower_limit>
+            <ci_upper_limit>-0.23</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Accuracy of Written Assessment and Plan in Terms of Control and Status</title>
+        <description>Each participant had 10 minutes maximum to review the patient case and write an Assessment and Plan. The primary outcome evaluated participants’ recommendations for treatment of patient conditions. Participants reviewed a total of 10 patient cases and received a score between 0 and 3 points for each issue within each patient case. The final score for each participant was a proportion between 0 and 1. The proportion represented the sum of all points assigned to the participant, divided by the total number of points possible. Higher values on the scale represent greater accuracy of the written assessment and plan.</description>
+        <time_frame>10 minutes</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Integrated Medication Manager</title>
+            <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard EHR</title>
+            <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Accuracy of Written Assessment and Plan in Terms of Control and Status</title>
+          <description>Each participant had 10 minutes maximum to review the patient case and write an Assessment and Plan. The primary outcome evaluated participants’ recommendations for treatment of patient conditions. Participants reviewed a total of 10 patient cases and received a score between 0 and 3 points for each issue within each patient case. The final score for each participant was a proportion between 0 and 1. The proportion represented the sum of all points assigned to the participant, divided by the total number of points possible. Higher values on the scale represent greater accuracy of the written assessment and plan.</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="30"/>
+                <count group_id="O2" value="28"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.609" lower_limit="0.581" upper_limit="0.637"/>
+                    <measurement group_id="O2" value="0.569" lower_limit="0.535" upper_limit="0.604"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Null hypothesis: Participants will receive the same scores for assessments and plans completed using either IMM or CPRS. Power calculation: With 2 replications per subject, and assuming an ICC of 0.15, a two-sided alpha 0.05 comparison adjusted for 5 multiple comparisons (adjusted alpha = 0.01), and power of 80%, an N of 32 clinicians was required for each group (32 using IMM, and 32 using CPRS).</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.15</p_value>
+            <method>Mixed-effects linear model</method>
+            <param_type>Value of problem scores for A&amp;P complete</param_type>
+            <param_value>0.04</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>-0.01</ci_lower_limit>
+            <ci_upper_limit>0.09</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Identification of Planned Monitoring and Follow up Encounters in Assessment and Plan</title>
+        <description>Each participant had 10 minutes maximum to review the patient case and write an Assessment and Plan. . The secondary outcome evaluated participants’ recommendation about future monitoring of patient conditions. Participants reviewed a total of 10 patient cases and received a score of 0 or 1 point for each issue within each case. The final score for each participant was a proportion between 0 and 1. The proportion represented the sum of all points assigned to the participant, divided by the total number of points possible. Higher values on the scale represent a greater proportion of appropriate monitoring recommendations made.</description>
+        <time_frame>10 minutes</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Integrated Medication Manager</title>
+            <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard EHR</title>
+            <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Identification of Planned Monitoring and Follow up Encounters in Assessment and Plan</title>
+          <description>Each participant had 10 minutes maximum to review the patient case and write an Assessment and Plan. . The secondary outcome evaluated participants’ recommendation about future monitoring of patient conditions. Participants reviewed a total of 10 patient cases and received a score of 0 or 1 point for each issue within each case. The final score for each participant was a proportion between 0 and 1. The proportion represented the sum of all points assigned to the participant, divided by the total number of points possible. Higher values on the scale represent a greater proportion of appropriate monitoring recommendations made.</description>
+          <units>proportion</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="30"/>
+                <count group_id="O2" value="28"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.505" lower_limit="0.459" upper_limit="0.551"/>
+                    <measurement group_id="O2" value="0.477" lower_limit="0.430" upper_limit="0.525"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Null hypothesis: Participants will receive the same proportion of acceptable scores for assessments and plans completed using either IMM or CPRS. Power calculation: With 2 replications per subject, and assuming an ICC of 0.15, a two-sided alpha 0.05 comparison adjusted for 5 multiple comparisons (adjusted alpha = 0.01), and power of 80%, an N of 32 clinicians was required for each group (32 using IMM, and 32 using CPRS).</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.005</p_value>
+            <method>Regression, Logistic</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>1.90</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>1.22</ci_lower_limit>
+            <ci_upper_limit>2.98</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Integrated Medication Manager</title>
+          <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.
+Integrated Medication Manager: A theory based electronic health record. Half of the provider participants were assigned the IMM to use. The other half were assigned the VA's CPRS EHR to use for the simulation. Providers were randomly assigned to a EHR to use.</description>
+        </group>
+        <group group_id="E2">
+          <title>Standard EHR</title>
+          <description>Experienced providers that participated in the EHR simulations. Half of the providers were assigned to use the new Integrated Medication Manager (intervention) during the simulation. The other half were assigned the VA's CPRS to use (standard EHR). Providers were randomly assigned which system to use.
+Integrated Medication Manager: A theory based electronic health record. Half of the provider participants were assigned the IMM to use. The other half were assigned the VA's CPRS EHR to use for the simulation. Providers were randomly assigned to a EHR to use.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="30"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="28"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="30"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="28"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>We were not able to evaluate a system-wide deployment of the resulting graphical user interface (GUI) (IMM) in terms of patient outcomes (Aim 3). We were unable to conduct Aim 3, which would have evaluated IMM in a cluster-randomized trial.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Dr. Jonathan Nebeker</name_or_title>
+      <organization>University of Utah Health Care System</organization>
+      <phone>801-582-1565 ext 2458</phone>
+      <email>Jonathan.Nebeker@hsc.utah.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,287 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02773875</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IDE G150122</org_study_id>
+    <nct_id>NCT02773875</nct_id>
+    <nct_alias>NCT02506764</nct_alias>
+    <nct_alias>NCT02514785</nct_alias>
+  </id_info>
+  <brief_title>Fault Detection, Zone MPC and DiAs System in T1D</brief_title>
+  <acronym>ZoneMPC</acronym>
+  <official_title>A Randomized Crossover Study to Evaluate the Efficacy of Fault Detection Algorithms Using the ZoneMPC Algorithm and DiAs System in Adult Subjects With Type 1 Diabetes in the Outpatient Setting</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Rensselaer Polytechnic Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Colorado, Denver</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Harvard University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, San Diego</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, Santa Barbara</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Rensselaer Polytechnic Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a randomized crossover study testing the efficacy of the Fault Detection algorithms
+      using the Zone MPC algorithm and DiAs artificial pancreas platform in adult patients with
+      type 1 diabetes. The trial will last for 6 weeks for each individual subject, with three
+      weeks using the AP algorithm and three weeks using sensor augmented pump in a randomized
+      order
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Investigational Device:
+
+      Artificial Pancreas System with Fault Detection Algorithms: Roche Accu-Check Spirit Combo
+      Insulin Pump, Dexcom G4P System with Share, Diabetes Assistant (DiAs) on Android phone, DiAs
+      Web Monitoring (DWM)
+
+      - referred to as Remote Monitoring Server, MPC control algorithm, Health Monitoring System
+      (HMS) algorithm. Sensor and infusion set fault detection algorithms will be applied offline
+      with data obtained from server and notifications will be sent to the clinician.
+
+      Control Arm:
+
+      Sensor-augmented insulin pump therapy: Subject will use their personal insulin pump and
+      Dexcom G4P System with Share.
+
+      Primary Objective:
+
+      To determine the efficacy of the fault detection algorithm. The primary outcome is based on
+      the amount of time the sensor glucose is &gt;250 mg/dL in the 4 hours preceding detection of the
+      infusion set failure during sensor augmented pump therapy vs. closed-loop control with fault
+      detection alerts.
+
+      Secondary Objectives:
+
+      To determine the effectiveness of the sensor fault detection algorithm. To determine the
+      efficacy of the Zone MPC controller by evaluating glycemic outcomes
+
+      Number of Subjects:
+
+      There will be 20 subjects recruited: 10 at Stanford and 10 at Denver (up to 36 subjects will
+      be enrolled to reach 20 subjects completing the study)
+
+      Diagnosis and Main Inclusion Criteria:
+
+      Adult subjects between 18 and 55 years of age inclusive, diagnosed with type 1 diabetes.
+
+      Trial Design:
+
+      This outpatient study will be conducted over 6 weeks as shown in the figure below. The 6-week
+      period will consist of two 2-week blocks of prolonged infusion set wear with a 1-week sensor
+      run-in period preceding each block. In each block, subjects will wear an infusion set for up
+      to 7 days. A new infusion set will be inserted at the start of each week in the block.
+      Following enrollment procedures, subjects will be randomized at a ratio of 1:1 to either use
+      the AP system with fault detection algorithms (intervention) or sensor-augmented pump therapy
+      (control) in the first block.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Not yet recruiting</last_known_status>
+  <start_date>May 2016</start_date>
+  <completion_date type="Anticipated">December 2016</completion_date>
+  <primary_completion_date type="Anticipated">November 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Amount of time sensor glucose levels are &gt;250 mg/dl</measure>
+    <time_frame>4 hours after insulin infusion set failure</time_frame>
+    <description>Amount of time sensor glucose levels are &gt;250 mg/dl in the control arm versus the experimental arm</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Effectiveness of sensor fault detection algorithm as defined by % of sensor failures caught by the system</measure>
+    <time_frame>During 2 week intervention period</time_frame>
+    <description>Effectiveness of sensor fault detection algorithm as defined by % of sensor failures caught by the system</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean sensor glucose values</measure>
+    <time_frame>2 week intervention period versus 2 week control period</time_frame>
+    <description>mean sensor glucose values</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time in range between 70-180 mg/dl</measure>
+    <time_frame>2 week intervention period versus 2 week control period</time_frame>
+    <description>Percent of time in range between 70-180 mg/dl</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>Sensor Augmented Pump (control)</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Use sensor augmented pump (SAP) for 3 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Artificial Pancreas (intervention)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Artificial pancreas system (Algorithm + CGM + pump)--use the AP system for 3 weeks which consists of: (1) Fault detection and Zone MPC algorithm housed on the DiAs platform + (2) Roche insulin pump + (3) Dexcom CGM</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Artificial pancreas system (Algorithm + CGM + pump)</intervention_name>
+    <description>The AP system using fault detection algorithms will determine whether insulin infusion problems are occurring and may prevent severe hyperglycemia due to its predictive nature</description>
+    <arm_group_label>Artificial Pancreas (intervention)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Clinical diagnosis of type 1 diabetes for at least 12 months
+
+          2. Daily insulin therapy for at least 12 months
+
+          3. Age between 18.0 to 55.0 years of age
+
+          4. Use of an insulin pump for at least 3 months
+
+          5. Subject comprehends English
+
+          6. Females of childbearing potential must use an adequate method of contraception and
+             have a negative pregnancy test
+
+          7. Total daily insulin requirement ≥ 0.3 units/kg/day
+
+          8. Subject has an adult companion, age &gt; 18 years, who lives with the subject, has access
+             to where they sleep, is willing to be in the house when the subject is sleeping and
+             willing to attend to the subject if there are safety concerns -
+
+        Exclusion Criteria:
+
+          1. Diabetic ketoacidosis in the past 6 months
+
+          2. Hypoglycemic seizure or loss of consciousness in the past 6 months
+
+          3. Subjects requiring an intermediate or long-acting insulin (such as NPH, detemir or
+             glargine)
+
+          4. Subjects using other anti-diabetic medications other than insulin (oral or injectable)
+             at the time of enrollment. Any prior use of other anti-diabetic medications must be
+             washed out for at least 8 weeks prior to enrollment.
+
+          5. Current use of other medications, which in the judgment of the investigator would be a
+             contraindication to participation in the study
+
+          6. Subject has a medical disorder that in the judgment of the investigator will affect
+             completion of any aspect of the protocol
+
+          7. Subject is currently participating in another investigational device or drug study
+             within 30 days or 5-half-lives of the drug.
+
+          8. Subject has a history of any cardiac or vascular disorder including, but not limited
+             to, myocardial infarction, unstable angina, coronary artery bypass surgery, coronary
+             artery stenting, transient ischemic attack, cerebrovascular accident, angina,
+             congestive heart failure, arrhythmia or thromboembolic disease
+
+          9. Subject has a history of hepatic disease
+
+         10. Subject has renal failure on dialysis
+
+         11. Systolic blood pressure &gt; 160 mmHg on screening visit
+
+         12. Diastolic blood pressure &gt; 90 mmHg on screening visit
+
+         13. Subjects with inadequately treated thyroid disease or celiac disease
+
+         14. Subject has a neurologic disorder that in the judgment of the investigator will affect
+             completion of the protocol
+
+         15. Subject has received inpatient psychiatric treatment in the past 6 months
+
+         16. Subject consumes more than an average of 4 standard alcoholic drinks/day in the last
+             30 days
+
+         17. Subject has an active skin condition that would affect sensor placement
+
+         18. Subject is unable to avoid acetaminophen for the duration of the study
+
+         19. Current use of oral/inhaled glucocorticoids or other medications, which in the
+             judgment of the investigator would be a contraindication to participation in the study
+
+         20. Subject is currently on beta blocker medication -
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>55 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>David Maahs, MD, PhD</last_name>
+    <email>David.Maahs@ucdenver.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Laurel Messer</last_name>
+    <email>Laurel.Messer@ucdenver.edu</email>
+  </overall_contact_backup>
+  <verification_date>May 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 11, 2016</study_first_submitted>
+  <study_first_submitted_qc>May 13, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 16, 2016</study_first_posted>
+  <last_update_submitted>May 13, 2016</last_update_submitted>
+  <last_update_submitted_qc>May 13, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 16, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Rensselaer Polytechnic Institute</investigator_affiliation>
+    <investigator_full_name>B. Wayne Bequette</investigator_full_name>
+    <investigator_title>Professor, Department of Chemical &amp; Biological Engineering Associate Director of Process Technologies</investigator_title>
+  </responsible_party>
+  <keyword>artificial pancreas</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pancrelipase</mesh_term>
+    <mesh_term>Pancreatin</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

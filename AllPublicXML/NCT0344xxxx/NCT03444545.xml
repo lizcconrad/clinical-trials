@@ -1,0 +1,236 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03444545</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CONNIE 1</org_study_id>
+    <nct_id>NCT03444545</nct_id>
+  </id_info>
+  <brief_title>Continous Cardiac Output - Non-Invasive Evaluation (CONNIE)</brief_title>
+  <acronym>CONNIE</acronym>
+  <official_title>The Performance of a Capnodynamic Method Compared to Transpulmonary Thermodilution in Open Abdominal Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Karolinska Institutet</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Stockholm County Council, Sweden</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Karolinska Institutet</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The capnodynamic method non-invasively calculates effective pulmonary blood flow (EPBF)
+      continuously during surgery. In this study EPBF is compared to cardiac output (CO) measured
+      with Transpulmonary Thermodilution (TPTD) att baseline and during hemodynamic changes in
+      patients scheduled for open abdominal surgery at the Karolinska University Hospital, Solna,
+      Sweden.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The capnodynamic method continuously calculates effective pulmonary blood flow (EPBF) with
+      the help of a capnodynamic equation:
+
+      ELV x (FACO2(n) - FACO2(n-1)) = deltat(n) x EPBF (CvCO2 - CvCO2(n)) - VTCO2
+
+      ELV Effective lung volume [L] EPBF Effective pulmonary blood flow [L/min] n current breath
+      n-1 previous breath FACO2 mean alveolar carbon dioxide fraction CvCO2 mixed venous carbon
+      dioxide content [Lgas/Lblood] CcCO2n pulmonary end-capillary carbon dioxide content
+      [Lgas/Lblood] VTCO2n volume [L] of carbon dioxide eliminated by the current, nth, breath
+      delta t n current breath cycle time [min]
+
+      The equation above describes the mole balance between the CO2 delivered to lungs (EPBF), the
+      volume taking part in the gas exchange (ELV) and CO2 excreted from the lungs (VTCO2).
+      Normally there is no difference in CO2 between the actual and the preceding breath as the
+      same amount of CO2 as delivered to the lungs as is excreted. When small changes in CO2
+      concentration are inserted into the equation obtained with short inspiratory or expiratory
+      pauses in three out of nine breaths, nine different equations are obtained. The three unknown
+      variables; ELV, EPBF and CvCO2can be solved with a linear least square optimization, a
+      well-known numerical mathematical principle. The breathing pattern is automatically
+      controlled by the ventilator which provides continuous calculations of EPBF where each value
+      represents the average of the preceding nine breaths and renews with each breath as the
+      newest replaces the oldest in the equation system.
+
+      At the day of surgery, included patients arrive 45 minutes earlier than otherwise at the
+      surgical unit. After safe surgical checklist, vital signs are measured and epidural catheter
+      inserted during a light sedation. Patients are anesthetized and muscle relaxed. An
+      endotracheal tube is inserted in the trachea. Central arterial and vein catheters are
+      inserted in sterile conditions with ultrasound guidance. Anesthesia is maintained with
+      propofol in target controlled infusion and a short acting opioid is added as needed.
+
+      The protocol in the first 25 patients comprises simultaneous measurements of EPBF and CO at
+      1) Baseline (three measurments), 2) PEEP 15cmH2O, 3) PEEP 5cmH2O 4) before epidural
+      activation, 5) 10-15 minutes after epidural activation 6) before volume infusion (when the
+      patient is considered hypovolemic by the attending anaesthesiologist) and 7) shortly after
+      volume infusion.
+
+      The attending anesthesiologist has the final responsibility on deciding the order of the
+      protocol, for example if volume infusion should precede PEEP 15 cmH20 if hypovolemia is
+      suspected.
+
+      The succeeding 10 patients (patients 26 to 35) are PEEP optimized before start of protocol
+      using a standardiazed open lung tool recruitment. During the PEEP elevation (step 2 in the
+      protocol above) 10cmH2O is added to the optimal PEEP and then released back to the baseline
+      optimal PEEP (step 3).
+
+      Each comparative measurement of CO and EPBF in the protocol includes as an average of three
+      TPTD measured with PiCCO2 and and the average of EPBF registered in the beginning of the
+      first TPTD and in the end of the last TPTD.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 29, 2015</start_date>
+  <completion_date type="Anticipated">September 1, 2018</completion_date>
+  <primary_completion_date type="Anticipated">May 31, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Absolute values of EPBF compared to Cardiac output</measure>
+    <time_frame>Mean CO vs EPBF from zero to 4 hours perioperatively</time_frame>
+    <description>Mean cardiac output as measured with transpulmonary thermodilution compared to mean effective pulmonary blood flow measured with the capnodynamic method at the start of first thermodilution and during the time interval zero to 4 hours.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Changes in EPBF compared to changes in Cardiac output</measure>
+    <time_frame>Mean CO vs mean EPBF from zero to 4 hours perioperatively</time_frame>
+    <description>Measurement of cardiac output and EPBF as described in Outcome 1 before and after hemodynamic changes.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">35</enrollment>
+  <condition>Cardiac Output, Low</condition>
+  <condition>Cardiac Output, High</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Capnodynamic method</intervention_name>
+    <description>Expired carbon dioxide is measured with a mainstream infrared sensor (Capnostat-3, Respironics Inc, Wallingford, CT, USA) and gas flow analysed with the flow sensor incorporated in the ventilator (Servo-i, Maquet Critical Care, Solna, Sweden) which was connected to a computer where all the mathematical analysis is carried out with a software written in Matlab™ (The Mathworks Inc, Natick, MA, USA).
+Instead of a fixed ratio between inspiration and expiration, three breaths out of every nine are prolonged with a 3-4 seconds longer expiration creating small changes in end- expiratory CO2</description>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Transpulmonary thermodilution</intervention_name>
+    <description>Each cardiac output measurement comprises an average of three thermodilutions performed successively one after another. TPTD is performed with a PiCCO2 monitor (Pulsion Medical Systems SE, Feldkirchen, Germany)</description>
+    <other_name>PiCCO</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients having major abdominal surgery requiring advanced hemodynamic monitoring
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Elective major abdominal surgery requiring advanced hemodynamic monitoring
+
+        Exclusion Criteria:
+
+          -  Symptomatic coronary artery disease, chronic obstructive pulmonary disease with
+             emphysema
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Hakan Björne, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Karolinska Institutet</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Thorir S Sigmundsson, MD</last_name>
+    <phone>0046738983287</phone>
+    <email>thorir.sigmundsson@sll.se</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Caroline Hallsjö-Sander, PhD</last_name>
+    <phone>0046708221338</phone>
+    <email>caroline.hallsjo-sander@sll.se</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Karolinska University Hospital</name>
+      <address>
+        <city>Stockholm</city>
+        <zip>17176</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Thorir S Sigmundsson, MD</last_name>
+      <phone>0046738983287</phone>
+      <email>thorir.sigmundsson@sll.se</email>
+    </contact>
+    <contact_backup>
+      <last_name>Hakan Björne, PhD</last_name>
+      <phone>0046733667548</phone>
+      <email>hakan.bjorne@sll.se</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Sweden</country>
+  </location_countries>
+  <link>
+    <url>http://ki.se/en/fyfa/karolinska-anaesthesia-research-group-for-major-surgery-karisma</url>
+  </link>
+  <reference>
+    <citation>Sigmundsson TS, Öhman T, Hallbäck M, Redondo E, Sipmann FS, Wallin M, Oldner A, Hällsjö Sander C, Björne H. Performance of a capnodynamic method estimating effective pulmonary blood flow during transient and sustained hypercapnia. J Clin Monit Comput. 2018 Apr;32(2):311-319. doi: 10.1007/s10877-017-0021-3. Epub 2017 May 11.</citation>
+    <PMID>28497180</PMID>
+  </reference>
+  <reference>
+    <citation>Sander CH, Sigmundsson T, Hallbäck M, Sipmann FS, Wallin M, Oldner A, Björne H. A modified breathing pattern improves the performance of a continuous capnodynamic method for estimation of effective pulmonary blood flow. J Clin Monit Comput. 2017 Aug;31(4):717-725. doi: 10.1007/s10877-016-9891-z. Epub 2016 Jun 1.</citation>
+    <PMID>27251701</PMID>
+  </reference>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 30, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 22, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 23, 2018</study_first_posted>
+  <last_update_submitted>February 22, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 22, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 23, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Karolinska Institutet</investigator_affiliation>
+    <investigator_full_name>Anil Gupta</investigator_full_name>
+    <investigator_title>Associate professor in department of pharmacology and physiology</investigator_title>
+  </responsible_party>
+  <keyword>Cardiac output</keyword>
+  <keyword>Carbon dioxide</keyword>
+  <keyword>Intraoperative monitoring</keyword>
+  <keyword>Pulmonary blood flow</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cardiac Output, Low</mesh_term>
+    <mesh_term>Cardiac Output, High</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

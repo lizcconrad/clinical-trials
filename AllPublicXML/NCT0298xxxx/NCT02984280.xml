@@ -1,0 +1,153 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02984280</url>
+  </required_header>
+  <id_info>
+    <org_study_id>15/0440</org_study_id>
+    <nct_id>NCT02984280</nct_id>
+  </id_info>
+  <brief_title>Specific Respiratory Infections as Triggers of Acute Medical Events</brief_title>
+  <official_title>Specific Respiratory Infections as Triggers of Acute Medical Events: Time Series Analysis Using LabBase and Hospital Episode Statistics</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University College, London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Public Health England</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University College, London</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will investigate whether there is a population-level association between
+      circulating respiratory viruses and NHS hospital admissions for acute vascular events using
+      data from national infection surveillance and Hospital Episode Statistics.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      We will conduct a time series study correlating anonymised population level data on all
+      samples from NHS laboratories testing positive for six common respiratory viruses with
+      admissions to NHS hospitals in England for a range of cardiac and vascular outcomes over the
+      time period 01/01/2004 to 31/12/2014. This will involve generating Poisson regression models
+      controlling for factors such as seasonal and long-term trends, environmental temperature and
+      humidity.
+
+      This study is funded by an Academy of Medical Sciences Starter Grant for Clinical Lecturers.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2016</start_date>
+  <completion_date type="Actual">March 2017</completion_date>
+  <primary_completion_date type="Actual">March 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Ecologic or Community</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Acute myocardial infarction</measure>
+    <time_frame>01/01/2004 to 31/12/2014</time_frame>
+    <description>ICD-10 coded</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Stroke</measure>
+    <time_frame>01/01/2004 to 31/12/2014</time_frame>
+    <description>ICD-10 coded</description>
+  </primary_outcome>
+  <enrollment type="Actual">787000</enrollment>
+  <condition>Influenza, Human</condition>
+  <condition>Respiratory Syncytial Virus Infections</condition>
+  <condition>Parainfluenza</condition>
+  <condition>Rhinovirus</condition>
+  <condition>Adenovirus</condition>
+  <condition>Human Metapneumovirus Pneumonia</condition>
+  <condition>Cardiovascular Diseases</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult population of England who have received NHS care during the study period.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Any individual with a record of an eligible outcome (ICD-10 coded hospitalisation for
+             myocardial infarction or stroke) within the study period aged 45+ years
+
+          -  Any individual with a record of an eligible exposure (laboratory-confirmed respiratory
+             virus) within the study period at any age
+
+        Exclusion Criteria:
+
+          -  Outcome events occurring in people aged &lt;45 years
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>45 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Charlotte MJ Warren-Gash, MRCP PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UCL</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University College London (UCL)</name>
+      <address>
+        <city>London</city>
+        <zip>NW1 2DA</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>November 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 2, 2016</study_first_submitted>
+  <study_first_submitted_qc>December 2, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 6, 2016</study_first_posted>
+  <last_update_submitted>May 3, 2017</last_update_submitted>
+  <last_update_submitted_qc>May 3, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 4, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infection</mesh_term>
+    <mesh_term>Communicable Diseases</mesh_term>
+    <mesh_term>Cardiovascular Diseases</mesh_term>
+    <mesh_term>Pneumonia</mesh_term>
+    <mesh_term>Virus Diseases</mesh_term>
+    <mesh_term>Respiratory Tract Infections</mesh_term>
+    <mesh_term>Influenza, Human</mesh_term>
+    <mesh_term>Respiratory Syncytial Virus Infections</mesh_term>
+    <mesh_term>Paramyxoviridae Infections</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

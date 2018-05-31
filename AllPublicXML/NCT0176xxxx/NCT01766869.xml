@@ -1,0 +1,163 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01766869</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HP-00054431</org_study_id>
+    <nct_id>NCT01766869</nct_id>
+  </id_info>
+  <brief_title>Improving Cancer Foci Detection in Prostate Cancer Using Multiparametric MRI/MRS</brief_title>
+  <acronym>GCC 1261</acronym>
+  <official_title>Improving Cancer Foci Detection in Prostate Cancer Using Multiparametric MRI/MRS and Machine Learning to Better Manage the Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Maryland</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Maryland</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators' goal is to develop a non-selective and non-invasive procedure to identify
+      aggressive tumors and simultaneously identify their exact location in Prostate cancer
+      patients undergoing radical prostatectomy by combining multiparametric MRI and machine
+      learning techniques. The combination of multi-parametric MRI and machine learning (validated
+      using histopathology) can lead to increased sensitivity and specificity of cancer foci in the
+      prostate, and help in isolating aggressive from indolent tumors. This increased sensitivity
+      and specificity may eventually lead to: a) a reduction in the number of patients that undergo
+      unnecessary treatment, and b) enhance current treatment options by enabling the use of
+      focused therapies. The investigators will recruit 15 patients with prostate cancer that are
+      currently scheduled to undergo radical prostatectomy into the study. All patients will obtain
+      an advanced MRI study prior to the radical prostatectomy. MRI scans will include a)
+      high-resolution volumetric images using T1 and T2-weighted imaging, b) vascular images using
+      dynamic contrast enhanced (DCE) imaging, c) biophysical microstructure images using
+      diffusion-weighted imaging, and d) biochemical images using MR spectroscopic imaging.
+      Following radical prostatectomy, a pathologist will grade the prostatectomy specimens based
+      on standard of care (Gleason grading system). Correlations will be generated between the
+      parameters obtained from scans and from clinical assessments.
+    </textblock>
+  </brief_summary>
+  <overall_status>Withdrawn</overall_status>
+  <why_stopped>
+    No participants enrolled
+  </why_stopped>
+  <start_date>April 2015</start_date>
+  <completion_date type="Actual">April 2015</completion_date>
+  <primary_completion_date type="Actual">April 2015</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Primary Objective: distinguishing high-grade tumors vs. low-grade tumors and normal prostate</measure>
+    <time_frame>16 months</time_frame>
+    <description>Whether advanced MR imaging techniques can be used to train machine-learning techniques to distinguish high-grade tumors from low-grade tumors and normal prostate. The machine-learning techniques will be trained using histopathology data as the ground truth.
+To achieve this we will obtain volumetric images of the various tissue attributes (listed below) and match them to histopathology:
+Vascular permeability (ktrans) using dynamic contrast enhanced MRI (DCE-MRI)
+Morphological changes captured using T2 and diffusion changes using diffusion weighted MRI (DW-MRI)
+Metabolic signatures of (choline+creatine)/citrate) or CC/C using magnetic resonance spectroscopic imaging (MRSI)
+Correlate in vivo imaging findings to ex vivo histopathology using deformable image registration
+Develop a multiclass support vector machine (SVM) using the set of multi-parametric images as input, and use it predict a score akin to the Gleason score.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Secondary Objective: non-invasive and quantitative test to accurately identify the tumor grade and location.</measure>
+    <time_frame>16 months</time_frame>
+    <description>Advanced MR imaging techniques can be used alone in classifying tumor grade. Datasets collected will be partitioned into subsets that will be used for testing the machine learning techniques. For example: 90% of the data will be used for training and the remaining 10% will be used for testing. This process will be repeated over a combination of different subsets. Our hypothesis is that Machine Learning methods will assist in analyzing the differences between aggressive tumors, indolent tumors, and normal tissue. We further hypothesize this analysis will help in synthesizing an imaging-based &quot;score&quot; that can identify an aggressive tumor from indolent tumors and normal tissue in new cases after training. We believe using multi-parametric MRI combined with an advanced machine learning technique can improve the sensitivity and specificity of tumor foci detection. This will result in a non-invasive and quantitative test to accurately identify the tumor grade and location.</description>
+  </secondary_outcome>
+  <enrollment type="Actual">0</enrollment>
+  <condition>Prostate Cancer</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        prostate cancer patients that have elected to go for radical prostatectomy
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. All male patients that have opted for radical prostatectomy
+
+          2. Subjects must be capable of giving informed consent.
+
+          3. Subjects must not be claustrophobic.
+
+        Exclusion Criteria:
+
+          1. Subjects with pacemakers.
+
+          2. Subjects who have metallic ferromagnetic implants or pumps.
+
+          3. All females are excluded from this study.
+
+          4. Subjects with kidney disease of any severity or on hemodialysis.
+
+          5. Subjects with known allergies to gadolinium-based contrast agents.
+
+          6. Subjects incapable of lying on their backs for up to an hour at a time.
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Warren D'Souza, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UMD</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Ummc Msgcc</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 8, 2013</study_first_submitted>
+  <study_first_submitted_qc>January 9, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 11, 2013</study_first_posted>
+  <last_update_submitted>June 7, 2016</last_update_submitted>
+  <last_update_submitted_qc>June 7, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">June 8, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Maryland</investigator_affiliation>
+    <investigator_full_name>Department of Radiation Oncology</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Prostate Cancer</keyword>
+  <keyword>MRI/MRS</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prostatic Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

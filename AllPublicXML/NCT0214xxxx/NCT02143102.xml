@@ -1,0 +1,217 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02143102</url>
+  </required_header>
+  <id_info>
+    <org_study_id>305</org_study_id>
+    <nct_id>NCT02143102</nct_id>
+  </id_info>
+  <brief_title>Non-invasive Computer-Aided Phenotyping of Vasculopathy</brief_title>
+  <acronym>Q-CAMP</acronym>
+  <official_title>vascuCAP: Non-invasive Computer-Aided Phenotyping of Vasculopathy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Elucid Bioimaging Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Elucid Bioimaging Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators use MRI and/or CT to evaluate the extent, as well as, the structure,
+      composition, and functional aspects of atherosclerotic plaques in human carotid and femoral
+      arteries in patients scheduled to undergo an endarterectomy of the aforementioned vascular
+      beds as part of their routine clinical care.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators hypothesize that in vivo MRI and/or CT examinations of patients, when
+      suitably acquired and analyzed with the vascuCAP™ analysis software, can provide a
+      sufficiently accurate profile of plaque characteristics to provide an objective basis for
+      patient management. Study subjects include patients undergoing endarterectomies to mitigate
+      their clinical risk or symptoms for conditions including stroke, claudication, and critical
+      limb ischemia. The endarterectomy specimens removed at surgery will allow a direct comparison
+      between the MRI information obtained prior to the surgery and the histopathological analyses
+      of the arterial specimens. The vascuCAP™ measurements of structural and functional features
+      of the arterial wall will be performed in patients undergoing endarterectomy. Measured
+      results will be compared in a blinded fashion with histology to assess performance of plaque
+      profiling and build a pilot prediction model for risk scoring.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2014</start_date>
+  <completion_date type="Actual">June 30, 2017</completion_date>
+  <primary_completion_date type="Actual">March 14, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Bias, precision, and reproducibility of plaque as assessed by MRI and/or CT analyzed by vascuCAP™ relative to histopathology as ground truth.</measure>
+    <time_frame>Assessed on tissue samples collected within 30 days of MRI</time_frame>
+    <description>We use MRI and/or CT analyzed by vascuCAP™ to evaluate the extent, as well as, the structure, composition, and functional aspects of atherosclerotic plaques in human carotid and femoral arteries in patients scheduled to undergo an endarterectomy of the aforementioned vascular beds as part of their routine clinical care. The endarterectomy specimens removed at surgery will allow a direct comparison between the MRI information obtained prior to the surgery and the histopathological analyses of the arterial specimens. The vascuCAPTM measurements of structural and functional features of the arterial wall will be performed in patients undergoing endarterectomy. Measured results will be compared in a blinded fashion with histology to assess performance of plaque profiling.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of plaque type characterization by MRI and/or CT analyzed by vascuCAP™ as compared to histopathology as ground truth</measure>
+    <time_frame>Assessed on tissue samples collected within 30 days of MRI</time_frame>
+    <description>Classify the target lesion according to whether the analytes suggest it is not a plaque, or if it is, which of the 8 AHA types best fits the analyte profile. for each of the AHA types according to histopathology, we will report the frequency with which vascuCAPTM's classification agrees with histopathology.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">128</enrollment>
+  <condition>Carotid Atherosclerosis</condition>
+  <condition>Peripheral Arterial Disease</condition>
+  <arm_group>
+    <arm_group_label>Training set</arm_group_label>
+    <description>Data from subjects in the training set will be utilized to further develop the vascuCAPTM classifiers.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Testing set</arm_group_label>
+    <description>Data from subjects in the testing set will be used to assess the study endpoints.</description>
+  </arm_group>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      After endarterectomy during surgery, the excised plaque specimens will be sent to the
+      hospital's pathology lab to be analyzed.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Individuals must meet one of the following inclusion criteria in order to be eligible to
+        participate in the study:
+
+          -  Case subjects will be patients with documented carotid atherosclerosis, scheduled for
+             magnetic resonance or CT angiography and subsequent elective endarterectomy with 30
+             days of enrollment in the study
+
+          -  Case subjects will be patients with peripheral arterial disease (PAD) with clinical
+             symptoms, scheduled for magnetic resonance or CT angiography and indicated
+             endarterectomy of diseased areas of femoral arteries within 30 days of enrollment in
+             the study
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Individuals must meet one of the following inclusion criteria in order to be eligible to
+        participate in the study:
+
+          -  Case subjects will be patients with documented carotid atherosclerosis, scheduled for
+             magnetic resonance or CT angiography and subsequent elective endarterectomy with 30
+             days of enrollment in the study
+
+          -  Case subjects will be patients with peripheral arterial disease (PAD) with clinical
+             symptoms, scheduled for magnetic resonance or CT angiography and indicated
+             endarterectomy of diseased areas of femoral arteries within 30 days of enrollment in
+             the study
+
+        Exclusion Criteria:
+
+          -  Subjects with claustrophobia or inability to tolerate prior MRI studies.
+
+          -  Subjects with metal implants that are not MRI compatible (LSU detailed checklist to be
+             attached) including: Subjects with any type of bio-implant activated by mechanical,
+             electronic, or magnetic means (e.g. cochlear implants, pacemakers, neurostimulators,
+             biostimulators, electronic infusion pumps, etc.). Subjects with any type of
+             ferromagnetic bio-implant that could potentially be displaced or damaged, such as
+             aneurysm clips, metallic skull plates, etc.
+
+          -  Subjects with a history of kidney disease or dialysis that are unable to receive
+             intravenous gadolinium contrast material.
+
+          -  Female subjects. A urine pregnancy test will be required of all female subjects of
+             childbearing potential prior to inclusion in this study. Pregnant or nursing females
+             will be excluded from the study.
+
+          -  Subjects who cannot adhere to the experimental protocol.
+
+          -  Subjects allergic to contrast material.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Andrew J. Buckler, M.S.</last_name>
+    <role>Study Director</role>
+    <affiliation>Elucid Biomaging Inc.</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>West Jefferson Medical Center</name>
+      <address>
+        <city>Marrero</city>
+        <state>Louisiana</state>
+        <zip>70072</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>LSU ILH</name>
+      <address>
+        <city>New Orleans</city>
+        <state>Louisiana</state>
+        <zip>70112</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>August 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 15, 2014</study_first_submitted>
+  <study_first_submitted_qc>May 19, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 20, 2014</study_first_posted>
+  <last_update_submitted>August 1, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 1, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 2, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atherosclerosis</mesh_term>
+    <mesh_term>Peripheral Arterial Disease</mesh_term>
+    <mesh_term>Peripheral Vascular Diseases</mesh_term>
+    <mesh_term>Vascular Diseases</mesh_term>
+    <mesh_term>Carotid Artery Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <pending_results>
+    <submitted>September 7, 2017</submitted>
+    <returned>October 4, 2017</returned>
+    <submitted>October 6, 2017</submitted>
+    <returned>November 6, 2017</returned>
+    <submitted>November 7, 2017</submitted>
+  </pending_results>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

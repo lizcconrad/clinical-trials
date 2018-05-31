@@ -1,0 +1,339 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01369290</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ESP-3152</org_study_id>
+    <secondary_id>EEG Signal Processing</secondary_id>
+    <nct_id>NCT01369290</nct_id>
+  </id_info>
+  <brief_title>Electroencephalography (EEG) Signal Processing</brief_title>
+  <acronym>EEG-SP</acronym>
+  <official_title>EEG Signal Processing as a Predictor of Antidepressant Response</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>St. Joseph's Healthcare Hamilton</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>St. Joseph's Healthcare Hamilton</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Current methods of choosing treatment for major depressive disorder (MDD) are inefficient.
+      The Strategic Treatment to Achieve Remission of Depression (STAR*D) Trial revealed that only
+      about 1/3 of patients treated with antidepressant drugs will go into remission with the first
+      medication chosen. We hypothesize that pattern recognition software using Machine Learning
+      methods can accurately predict response to a variety of antidepressant medications (ADM) or
+      cognitive behavior therapy (CBT) after training using pre-treatment demographic, clinical,
+      laboratory or electroencephalographic (EEG) data. These algorithms might assist the clinician
+      to chose, for any given patient, an antidepressant treatment option with greater probability
+      of favourable response than is achievable using current best practise methods.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Objective of this study:
+
+      To improve antidepressant treatment efficacy by determining,in advance, a given subject's
+      probability of response to a range of antidepressant treatments. The study is intended to to
+      further train and test, in a larger sample of depressed subjects, a digital system that has
+      been shown to be an accurate predictor of antidepressant response in pilot studies. The
+      accuracy of the trained predictive model based on machine learning methodology is the primary
+      outcome we are interested in studying.
+
+      Subjects:
+
+      males and females age 18-70 years of age.
+
+      Inclusion Criteria:
+
+      Meet DSM IV criteria for MDD on Structured Clinical Interview for DSM IV (SCID) capable of
+      providing informed consent
+
+      Exclusion Criteria:
+
+      Psychosis; acute suicidal intent or plan; alcohol or drug dependence within 3 months;
+      previous treatment with 3 or more of the following:
+
+        -  adequate CBT
+
+        -  adequate trials of the study antidepressant medications [adequacy definitions: ≥ 4 weeks
+           of i) venlafaxine ≥150 mg/day, ii) bupropion ≥150 mg/day iii) escitalopram ≥ 10 mg/day
+           iv) duloxetine ≥ 30 mg/day v) ≥ 8 CBT sessions over ≥ 8 weeks
+
+        -  unstable medical illness
+
+        -  ECT within 6 months
+
+        -  pregnancy or sexually active female not using contraception.
+
+      Study Design:
+
+      Pre-treatment data collection:
+
+      After 10 days of psychotropic medication washout demographic, syndromatic, illness severity ,
+      biochemical/hematological and electroencephalographic data will be collected from which a
+      list of potential response predictor variables will later be extracted.
+
+      The data collected include the following areas
+
+        -  Depression Severity: evaluated using the Montgomery Asberg Depression Rating Scale
+           (MADRS) and the Beck II Depression Rating Scale.
+
+        -  Anxiety Severity: measured using the Spielberger Stait-Trait Anxiety Index.
+
+        -  Diagnosis and Syndromatic Features: documented using the Structured Clinical Interview
+           for DSM IV (SCID).
+
+        -  Personality Attributes: determined using the Minnestota Multi-phasic Personality
+           Inventory (MMPI) and the NEO-Personality Inventory.
+
+        -  Social Support: measured using the Perceived Social Support from Friends and Family
+           rating scale (PSS).
+
+        -  Previous Antidepressant Medication Treatment (range and adequacy): determined using a
+           modified and updated version of the Michigan Adequacy of Treatment Scale.
+
+        -  Hematological/Biochemical Testing: complete blood count, hepatic transaminases, thyroid
+           stimulating hormone level, serum creatinine, serum calcium, serum magnesium, fasting
+           blood glucose and serum B12.
+
+      Antidepressant Treatment:
+
+      The antidepressant treatment will be administered in Phase I. Subjects who show less than a
+      50% response to the treatment at the end of Phase I will receive a different treatment in
+      Phase II. There will be a 10 day period between phases I and II during which the
+      antidepressant medication (if used in Phase I) is tapered and discontinued .
+
+      Treatment choice is made naturalistically i.e. patient preference is taken into account, but
+      patients cannot receive a treatment if they have previously failed to respond to an adequate
+      trial of that treatment. Subjects judged insufficiently &quot;psychologically minded&quot; are not
+      offered CBT. If the patient has no preference regarding treatment, the choice of treatment is
+      determined randomly.
+
+      Treatment options:
+
+      i) escitalopram for 6 weeks ii) venlafaxine for 6 weeks iii) bupropion for 6 weeks iv)
+      duloxetine for 6 weeks v) cognitive behaviour therapy (CBT) for 12 weeks. Antidepressant
+      medication dosing will follow established medical procedures and published dose guidelines.
+      CBT is administered in manualized format by highly trained therapists.
+
+      Data Analysis:
+
+      After treatment, subjects will be classified as responders or non-reponders using the %
+      change in the MADRS score from pre-treatment to post treatment. Subjects will be considered
+      to be responders if the post treatment MADRS score has dropped by 50% or more from the
+      baseline score. The machine learning algorithms will be trained using features extracted from
+      the pre-treatment demographic, syndromatic, illness severity , biochemical/hematological and
+      electroencephalographic data and Phase I treatment response as the classification variable.
+      The algorithm will first be tested using nested cross-validation &quot;leave N out&quot; techniques
+      using only Phase I data.
+
+      Overfitting of the predictive algorithm is not entirely excluded as a possibility, even using
+      nested cross validation methods. For this reason the resulting algorithm will be further
+      tested in Phase II subjects using the predictive features extracted from pre-treatment data
+      but, in this instance, using treatment response data from Phase II treatment. The
+      pre-treatment demographic, syndromatic, illness severity , biochemical/hematological and
+      electroencephalographic data data for Phase II subjects will only have been employed to train
+      the algorithm for the treatment they received during Phase I and not for the treatment
+      received during Phase II. Under these circumstances retesting of the algorithm using Phase II
+      treatment outcome constitutes testing in an entirely independent sample.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>October 2009</start_date>
+  <completion_date type="Anticipated">October 2013</completion_date>
+  <primary_completion_date type="Anticipated">October 2012</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Machine learning</measure>
+    <time_frame>6 weeks with medication, or 12 weeks with CBT</time_frame>
+    <description>The accuracy of the trained predictive model based on machine learning methodology is the primary outcome we are interested in studying. The primary outcome measure, i.e. model performance accuracy, is tested using the jack-knifed &quot;leave N out&quot; nested cross validation method with response being determined using the MDRS scale.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Machine learning</measure>
+    <time_frame>6 weeks with medication, 12 weeks with CBT</time_frame>
+    <description>The accuracy of the trained predictive model based on machine learning methodology is the primary outcome we are interested in studying. The primary outcome measure, i.e. model performance accuracy, is tested using the jack-knifed &quot;leave N out&quot; nested cross validation method with response being determined using the Beck II scale.</description>
+  </secondary_outcome>
+  <number_of_groups>5</number_of_groups>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Major Depressive Disorder</condition>
+  <arm_group>
+    <arm_group_label>Drug 1</arm_group_label>
+    <description>Venlafaxine</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Drug 2</arm_group_label>
+    <description>Bupropion</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Drug 3</arm_group_label>
+    <description>Escitalopram</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Drug 4</arm_group_label>
+    <description>Duloxetine</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Psychotherapy</arm_group_label>
+    <description>Cognitive behaviour therapy</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Venlafaxine</intervention_name>
+    <description>75 to 375 mg/day for 6 weeks. If no response at 6 weeks, reassignment to one of the other treatment groups for a further 6 to 12 weeks in phase II.</description>
+    <arm_group_label>Drug 1</arm_group_label>
+    <other_name>Effexor</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>bupropion</intervention_name>
+    <description>150 to 300 mg daily for 6 weeks. If no response at 6 weeks, reassignment to one of the other treatment groups for a further 6 to 12 weeks in phase II.</description>
+    <arm_group_label>Drug 2</arm_group_label>
+    <other_name>Wellbutrin</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>escitalopram</intervention_name>
+    <description>10 to 30 mg daily for 6 weeks. If no response at 6 weeks, reassignment to one of the other treatment groups for a further 6 to 12 weeks in phase II.</description>
+    <arm_group_label>Drug 3</arm_group_label>
+    <other_name>Cipralex</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Psychotherapy</intervention_name>
+    <description>Once weekly CBT psychotherapy session for 12 weeks. If no response at 12 weeks, reassignment to one of the other treatment groups for a further 6 weeks in phase II.</description>
+    <arm_group_label>Psychotherapy</arm_group_label>
+    <other_name>CBT</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Duloxetine</intervention_name>
+    <description>30 to 60 mg daily for 6 weeks. If no response at 6 weeks, reassignment to one of the other treatment groups for a further 6 to 12 weeks in phase II.</description>
+    <arm_group_label>Drug 4</arm_group_label>
+    <other_name>Cymbalta</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Outpatients with Major Depressive Disorder from the Greater Hamilton Area
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clients with Major Depression
+
+          -  Males and Females ages 18 - 70
+
+        Exclusion Criteria:
+
+          -  Clients who have known neurological problems
+
+          -  Clients with a history of severe head injury
+
+          -  Clients with strong thoughts of suicide
+
+          -  Clients who have had ECT or Cognitive Behavior Therapy within 6 months
+
+          -  Females who are sexually active and are not on adequate birth control
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gary M Hasey, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>St. Joseph's Healthcare and McMaster University, Hamilton</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Rose Marie Mueller, RN</last_name>
+    <phone>905-522-1155</phone>
+    <phone_ext>36629</phone_ext>
+    <email>rmueller@stjoes.ca</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>St. Joseph's Healthcare, Centre for Mountain Health Services</name>
+      <address>
+        <city>Hamilton</city>
+        <state>Ontario</state>
+        <zip>L8N 3K7</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rose Marie Mueller, RN</last_name>
+      <phone>905-522-1155</phone>
+      <phone_ext>36629</phone_ext>
+      <email>rmueller@stjoes.ca</email>
+    </contact>
+    <investigator>
+      <last_name>Gary M Hasey, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>November 2011</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 18, 2010</study_first_submitted>
+  <study_first_submitted_qc>June 7, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 8, 2011</study_first_posted>
+  <last_update_submitted>November 28, 2011</last_update_submitted>
+  <last_update_submitted_qc>November 28, 2011</last_update_submitted_qc>
+  <last_update_posted type="Estimate">November 30, 2011</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>St. Joseph's Healthcare Hamilton</investigator_affiliation>
+    <investigator_full_name>Gary Hasey</investigator_full_name>
+    <investigator_title>Associate Professor, Department of Psychiatry and Behavioral Neurosciences</investigator_title>
+  </responsible_party>
+  <keyword>Depression</keyword>
+  <keyword>Antidepressant Medication</keyword>
+  <keyword>CBT</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Depressive Disorder</mesh_term>
+    <mesh_term>Depression</mesh_term>
+    <mesh_term>Depressive Disorder, Major</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Antidepressive Agents</mesh_term>
+    <mesh_term>Citalopram</mesh_term>
+    <mesh_term>Bupropion</mesh_term>
+    <mesh_term>Duloxetine Hydrochloride</mesh_term>
+    <mesh_term>Venlafaxine Hydrochloride</mesh_term>
+    <mesh_term>Dexetimide</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

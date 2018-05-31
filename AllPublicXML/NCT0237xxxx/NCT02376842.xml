@@ -1,0 +1,247 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02376842</url>
+  </required_header>
+  <id_info>
+    <org_study_id>3675309</org_study_id>
+    <nct_id>NCT02376842</nct_id>
+  </id_info>
+  <brief_title>Study of an Electronic Health Record-embedded Severe Sepsis Early Warning Alert</brief_title>
+  <official_title>Single-blind Randomized Trial of a Commercially Sold Electronic Health Record Based Severe Sepsis Early Warning Best Practice Alert.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Stanford University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators hypothesize that implementing an electronic health record-based early
+      warning system for severe infections (severe sepsis) will decrease the time to antibiotic
+      order. The study will consist of an algorithm which will monitor lab values, vital signs, and
+      nursing documentation for signs of severe sepsis. When these criteria are met, an alert will
+      be delivered via the electronic health record to a nurse and doctor and simultaneously an
+      alert via pager to another nurse. The investigators plan to randomize which patients will
+      generate these alerts and analyze the data after collecting information for approximately 6
+      months which will be sufficient to detect a 10% difference in the two patient groups.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Sepsis is the leading cause of mortality at Stanford Hospital and ranks only 54th out of 119
+      hospitals according to UHC data with approximately 60 episodes of documented sepsis per
+      quarter. Based on some preliminary data, there is concern that sepsis is both being
+      recognized late and not treated in a timely enough fashion. In fact, there are evidence and
+      expert guidelines that suggestion-delaying antibiotics in a patient with septic shock can
+      increase mortality by 6.7% per hour (1C recommendation in severe sepsis by the Surviving
+      Sepsis Campaign authors). As part of a hospital wide initiative to improve our treatment of
+      sepsis and ultimately reduce sepsis-related mortality, an EHR-based clinical decision support
+      (aka BPA) will be implemented. This BPA will be an algorithm that will alert practitioners
+      and trigger clinical workflow after criteria are met. Criteria include lab values, vital
+      signs and nursing flow sheet descriptions of perfusion (Table 1). The algorithm will alert
+      when, in a 24 hour period, three criteria from the manifestation group, one criteria from the
+      suspected infection group and one criteria from the organ dysfunction group. Note that one
+      variable (eg creatinine &gt; 2) can fulfill criteria in more than one group. Figure 1 contains
+      details of proposed EHR workflow. After criteria are met, whomever is next in the chart with
+      RN or MD user-type, will receive an interruptive alert via the EHR; simultaneously a page
+      will automatically be sent by the EHR to a crisis nurse who will assess the patient and
+      notify the primary MD and RN.
+
+      Electronic early warning systems and predictive analytic tools lack rigorous evaluation and
+      standardization. There are literature demonstrating unintended consequences and even harms
+      from the implementation of electronic health records and clinical decision support tools. As
+      such, this is a situation of clinical equipoise in which it is unclear whether this quality
+      improvement initiative will benefit patient care or not. To evaluate this question, the
+      severe sepsis BPA will be initiated in a randomized fashion with each patient randomly
+      assigned to either potentially generate this alert as described above or to generate this
+      alert silently such that only quality improvement staff will be aware that criteria have been
+      met via the EHR.
+
+      This is a randomized, single-blind prospective quality improvement study. Patients will be
+      randomized by encounter to have the BPA visible or invisible during hospital admission. If
+      visible, the alert will display to the primary nurse and physician and send a page to a
+      crisis nurse when BPA criteria are met. If invisible, the alert will be triggered but will be
+      invisible to the care team (only visible to quality improvement staff via the EHR)
+
+        -  Inclusion criteria
+
+           o Admitted to Stanford Hospital (inpatient or observation status) to any medical or
+           surgical service for at least 24 hours during the period of the study
+
+        -  Exclusion criteria
+
+           o Admitted to an intensive-care level service (MICU, SICU, CVICU, CCU)
+
+        -  While ideally we will make this available to ICU patients, the alert is likely to be far
+           less specific in ICU patients and less clinically useful given the high level of care
+           (eg 1:1 nursing and hourly vital signs).
+
+           o Patient code status is DNR/C (comfort care only)
+
+        -  These patients would not be appropriate to treat with antibiotics and aggressive care
+           generally give the comfort care goals of care.
+
+           o Emergency Department patients (may be included in the near future)
+
+        -  Primary endpoints
+
+           o Percentage of patients receiving antibiotics within three hours
+
+        -  Secondary endpoints
+
+             -  Percentage of patients with hypotension or lactate &gt;= 4 who received at least 30
+                ml/kg fluid
+
+             -  Rate of 3 hour sepsis bundle completion (serum lactate, blood cultures,
+                antibiotics)
+
+             -  Length of hospital stay
+
+             -  Cost of hospital stay per day and overall cost
+
+             -  Mortality at hospital discharge
+
+        -  Sample size and duration
+
+             -  Based on prior studies, we predict a 10-15% difference in one or more primary
+                endpoints (see Sawyer et. Al, Crit Care Med. 2011 March, 39:469)
+
+             -  We therefore anticipate enrolling 1500 patients, an estimated 150 of whom will have
+                true sepsis, over approximately six months, to achieve 80% power.
+
+        -  Analysis will compare endpoints among all patients in the treatment and control groups
+
+        -  Early stopping will be decided by an oversight committee which will review data at 3
+           months. If there is statistically significant different of more than 10% between groups,
+           the study will be terminated early and in discussion with hospital quality and safety
+           committee, use whichever strategy is superior for all patients in the hospital.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2014</start_date>
+  <completion_date type="Actual">March 2015</completion_date>
+  <primary_completion_date type="Actual">March 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <masking>Single (Care Provider)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of patients with an antibiotic order within 3 hours of the alert</measure>
+    <time_frame>3 hours</time_frame>
+    <description>Time from when the alert fires until appropriate antibiotics are ordered will be measured via the electronic health record and a sample of cases will be verified by manual chart review.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">1149</enrollment>
+  <condition>Severe Sepsis</condition>
+  <arm_group>
+    <arm_group_label>Severe sepsis early warning best practice alert</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patients in this arm will actively generate the alert.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard care</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>This arm will be the current standard of care and will not generate the alert.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Severe sepsis early warning best practice alert</intervention_name>
+    <arm_group_label>Severe sepsis early warning best practice alert</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Standard care</intervention_name>
+    <arm_group_label>Standard care</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Admitted to Stanford Hospital (inpatient or observation status) to any medical or
+             surgical service for at least 24 hours during the period of the study
+
+        Exclusion Criteria:
+
+          -  Admitted to an intensive-care level service (MICU, SICU, CVICU, CCU)
+
+          -  Patient code status is DNR/C (comfort care only)
+
+          -  Patients less than 18 years of age at time of admission.
+
+          -  Emergency Department patients (may be included in the near future)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Stanford Hospital</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Westphal GA, Koenig Á, Caldeira Filho M, Feijó J, de Oliveira LT, Nunes F, Fujiwara K, Martins SF, Roman Gonçalves AR. Reduced mortality after the implementation of a protocol for the early detection of severe sepsis. J Crit Care. 2011 Feb;26(1):76-81. doi: 10.1016/j.jcrc.2010.08.001. Epub 2010 Oct 30.</citation>
+    <PMID>21036531</PMID>
+  </reference>
+  <reference>
+    <citation>Nelson JL, Smith BL, Jared JD, Younger JG. Prospective trial of real-time electronic surveillance to expedite early care of severe sepsis. Ann Emerg Med. 2011 May;57(5):500-4. doi: 10.1016/j.annemergmed.2010.12.008. Epub 2011 Jan 12.</citation>
+    <PMID>21227543</PMID>
+  </reference>
+  <results_reference>
+    <citation>Brandt BN, Gartner AB, Moncure M, Cannon CM, Carlton E, Cleek C, Wittkopp C, Simpson SQ. Identifying severe sepsis via electronic surveillance. Am J Med Qual. 2015 Nov-Dec;30(6):559-65. doi: 10.1177/1062860614541291. Epub 2014 Jun 26.</citation>
+    <PMID>24970280</PMID>
+  </results_reference>
+  <verification_date>November 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 3, 2014</study_first_submitted>
+  <study_first_submitted_qc>February 25, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 3, 2015</study_first_posted>
+  <last_update_submitted>November 16, 2015</last_update_submitted>
+  <last_update_submitted_qc>November 16, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">November 17, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stanford University</investigator_affiliation>
+    <investigator_full_name>N. Lance Downing, MD</investigator_full_name>
+    <investigator_title>Principle Investigator</investigator_title>
+  </responsible_party>
+  <keyword>severe sepsis infection</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sepsis</mesh_term>
+    <mesh_term>Toxemia</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,321 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02464449</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IIR 13-350</org_study_id>
+    <nct_id>NCT02464449</nct_id>
+  </id_info>
+  <brief_title>Patient-Centered Pain Care Using Artificial Intelligence and Mobile Health Tools</brief_title>
+  <acronym>REACT (AI CBT)</acronym>
+  <official_title>Patient-Centered Pain Care Using Artificial Intelligence and Mobile Health Tools</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate a new approach for back pain care management using artificial
+      intelligence and evidence-based cognitive behavioral therapy (AI-CBT) so that services
+      automatically adapt to each Veteran's unique needs, achieving outcomes as good as standard
+      care but with less clinician time.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Cognitive behavioral therapy (CBT) is one of the most effective treatments for chronic back
+      pain. However, only half of Veterans have access to trained CBT therapists, and program
+      expansion is costly. Moreover, VA CBT programs consist of 10 weekly hour-long sessions
+      delivered using an approach that is out-of-sync with stepped-care models designed to ensure
+      that scarce resources are used as effectively and efficiently as possible. Data from prior
+      CBT trials have documented substantial variation in patients' needs for extended treatment,
+      and the characteristics of effective programs vary significantly. Some patients improve after
+      the first few sessions while others need more extensive contact. After initially establishing
+      a behavioral plan, still other Veterans may be able to reach behavioral and symptom goals
+      using a personalized combination of manuals, shorter follow-up contacts with a therapist, and
+      automated telephone monitoring and self-care support calls. In partnership with the National
+      Pain Management Program, the investigators propose to apply state-of-the-art principles from
+      &quot;reinforcement learning&quot; (a field of artificial intelligence or AI used successfully in
+      robotics and on-line consumer targeting) to develop an evidence-based, personalized CBT pain
+      management service that automatically adapts to each Veteran's unique and changing needs
+      (AI-CBT). AI-CBT will use feedback from patients about their progress in pain-related
+      functioning measured daily via pedometer step-counts to automatically personalize the
+      intensity and type of patient support; thereby ensuring that scarce therapist resources are
+      used as efficiently as possible and potentially allowing programs with fixed budgets to serve
+      many more Veterans. The specific aims of the study are to: (1) demonstrate that AI-CBT has
+      non-inferior pain-related outcomes compared to standard telephone CBT; (2) document that
+      AI-CBT achieves these outcomes with more efficient use of scarce clinician resources as
+      evidenced by less overall therapist time and no increase in the use of other VA health
+      services; and (3) demonstrate the intervention's impact on proximal outcomes associated with
+      treatment response, including program engagement, pain management skill acquisition,
+      satisfaction with care, and patients' likelihood of dropout. The investigators will use
+      qualitative interviews with patients, clinicians, and VA operational partners to ensure that
+      the service has features that maximize scalability, broad scale adoption, and impact. 278
+      patients with chronic back pain will be recruited from the VA Connecticut Healthcare System
+      and the VA Ann Arbor Healthcare System, and randomized to standard 10-sessions of telephone
+      CBT versus AI-CBT. All patients will begin with weekly hour-long telephone counseling, but
+      for patients in the AI-CBT group, those who demonstrate a significant treatment response will
+      be stepped down through less resource-intensive alternatives to hour-long contacts,
+      including: (a) 15 minute contacts with a therapist, and (b) CBT clinician feedback provided
+      via interactive voice response calls (IVR). The AI engine will learn what works best in terms
+      of patients' personally-tailored treatment plan based on daily feedback via IVR about
+      patients' pedometer-measured step counts as well as their CBT skill practice and physical
+      functioning. The AI algorithm the investigators will use is designed to be as efficient as
+      possible, so that the system can learn what works best for a given patient based on the
+      collective experience of other similar patients as well as the individual's own history. The
+      investigator's hypothesis is that AI-CBT will result in pain-related functional outcomes that
+      are no worse (and possibly better) than the standard approach, but by scaling back the
+      intensity of contact that is not resulting in marginal gains in pain control, the AI-CBT
+      approach will be significantly less costly in terms of therapy time. Secondary hypotheses are
+      that AI-CBT will result in greater patient engagement and patient satisfaction. Outcomes will
+      be measured at three and six months post recruitment and will include pain-related
+      interference, treatment satisfaction, and treatment dropout.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 24, 2017</start_date>
+  <completion_date type="Anticipated">May 31, 2019</completion_date>
+  <primary_completion_date type="Anticipated">March 31, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>pain-related disability</measure>
+    <time_frame>3 and 6 months post enrollment</time_frame>
+    <description>The 24-item Roland Morris Disability Questionnaire is an IMMPACT endorsed measure of pain-related disability for persons with chronic low back pain.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>global pain intensity</measure>
+    <time_frame>3 and 6 months post enrollment</time_frame>
+    <description>Global pain intensity will be assessed using the Numeric Rating Scale (NRS-1) an IMMPACT-recommended 11-point numeric rating scale of pain severity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pain-Related Interference</measure>
+    <time_frame>3 and 6 months post enrollment</time_frame>
+    <description>Pain-related interference will be measured using Brief Pain Inventory - Short Form (BPI). The BPI is a consensus-endorsed measure of pain-related interference.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>depression symptom severity</measure>
+    <time_frame>3 and 6 months post enrollment</time_frame>
+    <description>Depression symptom severity will be assessed using the 21-item Beck Depression Inventory (BDI), a widely used measure with excellent internal consistency and stability.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">276</enrollment>
+  <condition>Back Pain</condition>
+  <arm_group>
+    <arm_group_label>AI CBT</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>AI CBT engine will make recommendations to step-down or step-up intensity of CBT FU based on what patient reports and what other similar patients report. Stepped care model.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard telephone CBT</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Behavioral: AI-CBT</intervention_name>
+    <description>AI CBT engine will make recommendations to step-down or step-up intensity of CBT follow-up based on what patient reports and what other similar patients report. Stepped care model.</description>
+    <arm_group_label>AI CBT</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Behavioral: Standard Telephone CBT</intervention_name>
+    <description>Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.</description>
+    <arm_group_label>Standard telephone CBT</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Back pain-related dx including back and spine conditions and nerve compression and a
+             score of &gt;=4 (indicating moderate pain) on the 0-10 Numerical Rating Scale on at least
+             two separate outpatient encounters in the past year
+
+          -  At least 1 outpatient visit in last 12 months
+
+          -  At least moderate pain-related disability as determined by a score of 5+on the Roland
+             Morris Disability Questionnaire
+
+          -  At least moderate musculoskeletal pain as indicated by a pain score of &gt;=4 on the
+             Numeric Rating Scale
+
+          -  Pain on at least half the days of the prior 6 months as reported on the Chronic Pain
+             item
+
+          -  Touch-tone cell or land line phone.
+
+        Exclusion Criteria:
+
+          -  COPD requiring oxygen
+
+          -  Cancer requiring chemotherapy
+
+          -  Currently receiving CBT
+
+          -  Suicidality
+
+          -  Receiving surgical tx related to back pain
+
+          -  Active psychotic symptoms
+
+          -  Severe depressive symptoms
+
+          -  Can't speak English
+
+          -  Sensory deficits that would impair participation in telephone calls
+
+          -  Patient not planning to get care at study site
+
+          -  PCP not affiliated with study site
+
+          -  Limited life expectancy (COPD requiring oxygen or Cancer requiring chemotherapy
+
+          -  Active psychotic symptoms, suicidality, severe depressive symptoms (Beck Depression
+             Inventory (BDI) score or 30+)
+
+          -  Substance use disorder or dependence, active manic episode, or poorly controlled
+             bipolar disorder as identified by MMini International Neuropsychiatric Interview
+
+          -  Severe depression identified by chart review of diagnoses and mental health treatment
+             notes
+
+          -  Cognitive impairment defined by a score of &lt;=5 on the Six-Item screener
+
+          -  Current CBT or surgical treatment related to back pain.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John D. Piette, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>VA Ann Arbor Healthcare System, Ann Arbor, MI</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Alicia A. Heapy, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>VA Connecticut Healthcare System West Haven Campus, West Haven, CT</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Audrey Barick, BA MPH</last_name>
+    <phone>(734) 845-3636</phone>
+    <email>abarick@umich.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Nicolle Marinec, MPH</last_name>
+    <phone>(734) 845-3653</phone>
+    <email>Nicolle.Marinec@va.gov</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>VA Connecticut Healthcare System West Haven Campus, West Haven, CT</name>
+      <address>
+        <city>West Haven</city>
+        <state>Connecticut</state>
+        <zip>06516</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alicia A Heapy, PhD</last_name>
+      <phone>203-932-5711</phone>
+      <phone_ext>2299</phone_ext>
+      <email>alicia.heapy@va.gov</email>
+    </contact>
+    <investigator>
+      <last_name>Alicia A. Heapy, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mary Driscoll, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>VA Ann Arbor Healthcare System, Ann Arbor, MI</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Audrey Barick, BA MPH</last_name>
+      <phone>734-845-3636</phone>
+      <email>abarick@umich.edu</email>
+    </contact>
+    <investigator>
+      <last_name>John D. Piette, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mark A. Ilgen, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Piette JD, Krein SL, Striplin D, Marinec N, Kerns RD, Farris KB, Singh S, An L, Heapy AA. Patient-Centered Pain Care Using Artificial Intelligence and Mobile Health Tools: Protocol for a Randomized Study Funded by the US Department of Veterans Affairs Health Services Research and Development Program. JMIR Res Protoc. 2016 Apr 7;5(2):e53. doi: 10.2196/resprot.4995.</citation>
+    <PMID>27056770</PMID>
+  </results_reference>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 29, 2015</study_first_submitted>
+  <study_first_submitted_qc>June 2, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 8, 2015</study_first_posted>
+  <last_update_submitted>February 13, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 13, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 15, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Cognitive Behavioral Therapy</keyword>
+  <keyword>Mobile Health Technology</keyword>
+  <keyword>Patient Care Management</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Back Pain</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

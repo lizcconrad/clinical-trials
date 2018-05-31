@@ -1,0 +1,537 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01886807</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Apneic Oxygenation</org_study_id>
+    <nct_id>NCT01886807</nct_id>
+  </id_info>
+  <brief_title>The Use of Apneic Oxygenation During Prolonged Intubation in Pediatric Patients: a Randomized Clinical Trial</brief_title>
+  <official_title>The Use of Apneic Oxygenation During Prolonged Intubation in Pediatric Patients: a Randomized Clinical Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Texas Southwestern Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Texas Southwestern Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Patient demographics (age, height and weight) will be collected for 546 consecutive patients
+      presenting for dental restoration under general anesthesia. The baseline saturation will be
+      recorded. The induction of anesthesia will be standardized for all patients. All patients
+      will undergo an inhalational induction administered by face mask. After inserting an
+      intravenous (IV) line, rocuronium will be administered. Intravenous propofol and fentanyl
+      could be added at the discretion of the anesthesiologist. The patients will be mask
+      ventilated then be with a mixture of Air/Oxygen (O2) to achieve an FiO2 of 0.3 for 3 minutes
+      after the administration of rocuronium.
+
+      Patients will be randomly assigned to one of three groups for the purpose of airway
+      management: 1) direct laryngoscopy for nasotracheal intubation without oxygen insufflation
+      (DL group); 2) direct laryngoscopy for nasotracheal intubation with oxygen insufflation (DLO2
+      Group); and 3) nasotracheal intubation using the Truview PCD video laryngoscope (VL Group).
+      Computer-generated treatment allocations (using the PLAN procedure in SAS statistical
+      software, using random-sized blocks) will be maintained in sequentially numbered sealed
+      envelopes that will be opened after consent is obtained. The laryngoscopy and intubations
+      will be performed by the study investigators who are faculty anesthesiologists or by the
+      mid-level or resident or fellow working with them.
+
+      The study will be stopped when:
+
+        -  the patient will be intubated and a CO2 trace is obtained on the capnography or
+
+        -  if the patient desaturates to 90%
+
+        -  or if the patient shows signs of cardiac instability (ectopic beats, arrhythmia or
+           hypotension)
+
+      Randomized groups will be compared for balance on potentially confounding baseline variables
+      using descriptive statistics. Primary outcome: In the primary hypothesis, desaturation will
+      be characterized using both time to 1% saturation drop from the baseline and the rate (slope)
+      of desaturation after an initial 1% drop. We will consider a given intubation technique (DLO2
+      or VL) better than DL on controlling saturation if found noninferior (i.e., not worse) on
+      both outcomes and superior on at least one of the outcomes. Thus our primary hypothesis will
+      be assessed in a joint hypothesis testing framework described by Mascha and Turan. We
+      a-priori define the non-inferiority delta for the outcome time to 1% drop as 5 seconds (or
+      1.05 if using hazard ratio) and the slope delta as 0.05 percent per second.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Secondary outcomes:
+
+      Secondary-1. We will conduct tests for superiority to compare the Truview and DL with oxygen
+      cannula methods on each of the two primary outcomes, and report the treatment effect
+      estimates and adjusted confidence intervals. Notably, the study is not powered to be able to
+      assess equivalence between these two oxygen techniques.
+
+      Secondary-2. We will compare the three randomized groups on total desaturation slope (rate)
+      using a random slope linear mixed effects model with repeated measures. This model will allow
+      accounting for the variability of the saturation rate for the patients and possible
+      correlation of the saturation measurements within a patient (autoregressive correlation). We
+      only will use saturation data before it reaches 90%.
+
+      Secondary-3. We will assess the relative efficacy of Truview and DL with oxygen cannula in
+      preventing 90% saturation compared with DL alone using 2-tailed chi-square tests of
+      proportions (for superiority), summarized with a relative risk and confidence interval.
+
+      Secondary -4: We will assess the correlation between the rate of desaturation and both age
+      and body mass index, independent of randomized group. This will be done in the context of a
+      random slope model as in the primary aim, assessing the interaction between the mean
+      desaturation slope and each of age and body mass index.
+
+      To restrict overall Type I error of the secondary hypotheses at 5% we will apply Bonferroni
+      correction for multiple inferences and adjustment for interim analyses.
+
+      Interim analyses will be conducted every 25% of the maximum planned enrollment using a groups
+      sequential design to test for efficacy and futility. We will use a gamma spending function
+      (gamma = -4 for efficacy and -2 for futility) to maintain the significance level for the
+      primary outcome at 2.5% and the power at 90% across the interim analyses. Significance
+      criteria for all tests will be adjusted for interim analyses based on the above-mentioned
+      gamma spending function and the corresponding z-statistic at teach interim look.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>June 2013</start_date>
+  <completion_date type="Actual">May 2015</completion_date>
+  <primary_completion_date type="Actual">October 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Oxygen Saturation</measure>
+    <time_frame>From start of intubation attempt to completion of intubation</time_frame>
+    <description>In the primary hypothesis, desaturation will be characterized using both time to 1% saturation drop from the baseline and the rate (slope) of desaturation after an initial 1% drop.We will consider a given intubation technique (DLO2 or VL) better than DL on controlling saturation if found noninferior (i.e., not worse) on both outcomes and superior on at least one of the outcome.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Time to 1% Saturation Drop</measure>
+    <time_frame>From beginning to end of laryngoscopy</time_frame>
+    <description>Kaplan-Meyer estimate 25th percentile along with adjusted 95% confidence limits were reported instead of usual 50th percentile (median) since there was not enough non-censored data for the DLO2 group (not many patients dropped 1% in SO2 from their baseline )</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Heart Rate</measure>
+    <time_frame>From start of intubation attempt to completion of intubation</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Blood Pressure</measure>
+    <time_frame>From start of intubation attempt to completion of intubation</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intubation Duration</measure>
+    <time_frame>From start of intubation attempt to completion of intubation</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Blood Loss</measure>
+    <time_frame>At the completion of intubation</time_frame>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">482</enrollment>
+  <condition>Intubation of Pediatric Dental Surgery Patients</condition>
+  <arm_group>
+    <arm_group_label>(DL group)</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>direct laryngoscopy for nasotracheal intubation without oxygen insufflation</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>(DL-O2 Group)</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>direct laryngoscopy for nasotracheal intubation with oxygen insufflation</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>(VL Group)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>nasotracheal intubation using the Truview PCD video laryngoscope</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>TrueView PCD Video Laryngoscope</intervention_name>
+    <arm_group_label>(DL group)</arm_group_label>
+    <arm_group_label>(DL-O2 Group)</arm_group_label>
+    <arm_group_label>(VL Group)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Children scheduled for dental restoration under general nasotracheal anesthesia
+
+          -  Patient age 1-17 years
+
+          -  American Society of Anesthesiology physical status I, II, III.
+
+        Exclusion Criteria:
+
+          -  Patients at risk of pulmonary aspiration
+
+          -  Patient with known or suspected difficult airway
+
+          -  Respiratory infections/disease
+
+          -  Congenital heart disease
+
+          -  Hemodynamic instability
+
+          -  Patients with known latex allergy
+
+          -  Increased intracranial pressure
+
+          -  Patients with known or suspected basilar skull fracture
+
+          -  American Society of Anesthesiology physical status ≥ IV
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>1 Year</minimum_age>
+    <maximum_age>17 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jeffrey Steiner, DO</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UT Southwestern Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Children's Medical Center Dallas</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <zip>75235</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 19, 2013</study_first_submitted>
+  <study_first_submitted_qc>June 21, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 26, 2013</study_first_posted>
+  <results_first_submitted>April 8, 2016</results_first_submitted>
+  <results_first_submitted_qc>October 14, 2016</results_first_submitted_qc>
+  <results_first_posted type="Estimate">December 7, 2016</results_first_posted>
+  <last_update_submitted>October 14, 2016</last_update_submitted>
+  <last_update_submitted_qc>October 14, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">December 7, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Texas Southwestern Medical Center</investigator_affiliation>
+    <investigator_full_name>Peter Szmuk</investigator_full_name>
+    <investigator_title>Professor of Anesthesiology</investigator_title>
+  </responsible_party>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>(DL Group)</title>
+          <description>direct laryngoscopy for nasotracheal intubation without oxygen insufflation</description>
+        </group>
+        <group group_id="P2">
+          <title>(DL-O2 Group)</title>
+          <description>direct laryngoscopy for nasotracheal intubation with oxygen insufflation</description>
+        </group>
+        <group group_id="P3">
+          <title>(VL Group)</title>
+          <description>nasotracheal intubation using the Truview PCD video laryngoscope</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="164"/>
+                <participants group_id="P2" count="155"/>
+                <participants group_id="P3" count="163"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="159"/>
+                <participants group_id="P2" count="145"/>
+                <participants group_id="P3" count="153"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="5"/>
+                <participants group_id="P2" count="10"/>
+                <participants group_id="P3" count="10"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>(DL Group)</title>
+          <description>direct laryngoscopy for nasotracheal intubation without oxygen insufflation</description>
+        </group>
+        <group group_id="B2">
+          <title>(DL-O2 Group)</title>
+          <description>direct laryngoscopy for nasotracheal intubation with oxygen insufflation</description>
+        </group>
+        <group group_id="B3">
+          <title>(VL Group)</title>
+          <description>nasotracheal intubation using the Truview PCD video laryngoscope</description>
+        </group>
+        <group group_id="B4">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="159"/>
+            <count group_id="B2" value="145"/>
+            <count group_id="B3" value="153"/>
+            <count group_id="B4" value="457"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4.3" spread="1.9"/>
+                    <measurement group_id="B2" value="4.4" spread="2.1"/>
+                    <measurement group_id="B3" value="4.7" spread="2.0"/>
+                    <measurement group_id="B4" value="4.5" spread="2.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="71"/>
+                    <measurement group_id="B2" value="71"/>
+                    <measurement group_id="B3" value="72"/>
+                    <measurement group_id="B4" value="214"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="88"/>
+                    <measurement group_id="B2" value="74"/>
+                    <measurement group_id="B3" value="81"/>
+                    <measurement group_id="B4" value="243"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Oxygen Saturation</title>
+        <description>In the primary hypothesis, desaturation will be characterized using both time to 1% saturation drop from the baseline and the rate (slope) of desaturation after an initial 1% drop.We will consider a given intubation technique (DLO2 or VL) better than DL on controlling saturation if found noninferior (i.e., not worse) on both outcomes and superior on at least one of the outcome.</description>
+        <time_frame>From start of intubation attempt to completion of intubation</time_frame>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Time to 1% Saturation Drop</title>
+        <description>Kaplan-Meyer estimate 25th percentile along with adjusted 95% confidence limits were reported instead of usual 50th percentile (median) since there was not enough non-censored data for the DLO2 group (not many patients dropped 1% in SO2 from their baseline )</description>
+        <time_frame>From beginning to end of laryngoscopy</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>(DL Group)</title>
+            <description>direct laryngoscopy for nasotracheal intubation without oxygen insufflation
+TrueView PCD Video Laryngoscope</description>
+          </group>
+          <group group_id="O2">
+            <title>(DL-O2 Group)</title>
+            <description>direct laryngoscopy for nasotracheal intubation with oxygen insufflation
+TrueView PCD Video Laryngoscope</description>
+          </group>
+          <group group_id="O3">
+            <title>(VL Group)</title>
+            <description>nasotracheal intubation using the Truview PCD video laryngoscope
+TrueView PCD Video Laryngoscope</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Time to 1% Saturation Drop</title>
+          <description>Kaplan-Meyer estimate 25th percentile along with adjusted 95% confidence limits were reported instead of usual 50th percentile (median) since there was not enough non-censored data for the DLO2 group (not many patients dropped 1% in SO2 from their baseline )</description>
+          <units>seconds</units>
+          <param>Median</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="159"/>
+                <count group_id="O2" value="145"/>
+                <count group_id="O3" value="153"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="30" lower_limit="24" upper_limit="39"/>
+                    <measurement group_id="O2" value="67" lower_limit="35" upper_limit="149"/>
+                    <measurement group_id="O3" value="75" lower_limit="37" upper_limit="122"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Heart Rate</title>
+        <time_frame>From start of intubation attempt to completion of intubation</time_frame>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Blood Pressure</title>
+        <time_frame>From start of intubation attempt to completion of intubation</time_frame>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Intubation Duration</title>
+        <time_frame>From start of intubation attempt to completion of intubation</time_frame>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Blood Loss</title>
+        <time_frame>At the completion of intubation</time_frame>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>(DL Group)</title>
+          <description>direct laryngoscopy for nasotracheal intubation without oxygen insufflation</description>
+        </group>
+        <group group_id="E2">
+          <title>(DL-O2 Group)</title>
+          <description>direct laryngoscopy for nasotracheal intubation with oxygen insufflation</description>
+        </group>
+        <group group_id="E3">
+          <title>(VL Group)</title>
+          <description>nasotracheal intubation using the Truview PCD video laryngoscope</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="164"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="155"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="163"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="164"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="155"/>
+                <counts group_id="E3" subjects_affected="3" subjects_at_risk="163"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Gastrointestinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>vomiting</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="164"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="155"/>
+                <counts group_id="E3" events="3" subjects_affected="3" subjects_at_risk="163"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Jeffrey Steiner, PI</name_or_title>
+      <organization>UTSouthwestern Medical Center</organization>
+      <phone>214-456-0606</phone>
+      <email>jeffrey.steiner@utsouthwestern.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

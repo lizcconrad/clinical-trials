@@ -1,0 +1,523 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03497871</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HeartMan</org_study_id>
+    <nct_id>NCT03497871</nct_id>
+  </id_info>
+  <brief_title>Personal Decision Support System for Heart Failure Management</brief_title>
+  <acronym>HeartMan</acronym>
+  <official_title>Proof-of-concept RCT: A Wearable Mobile Device to Improve Disease Management in Patients With Congestive Heart Failure</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Jozef Stefan Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University Ghent</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Roma La Sapienza</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Jozef Stefan Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Despite the availability of evidence-based guidelines for disease management in patients with
+      congestive heart failure (CHF), the uptake of these guidelines in clinical practice is
+      sub-optimal and adherence rates are disappointing. Within the HeartMan project, a personal
+      e-health system was developed to help CHF patients manage their disease, with the ultimate
+      goal to improve health-related quality of life (HRQoL). The system uses wrist-band sensors to
+      monitor patients' physical activity and physiological parameters. These data are connected to
+      a decision support system, providing medical advice to patients concerning physical exercise,
+      nutrition, medication intake, clinical measurements, environment management, and mental
+      support. The decision support system is based on predictive models, clinical care guidelines
+      and expert knowledge. The advice will be personalized according to each individual patient's
+      medical and psychological profile, and will be presented to the patient through the user
+      interface of a mobile application on a smartphone. A proof of concept trial with a 1:2
+      (control:intervention) randomization protocol was designed. The sample size calculation was
+      based on primary outcome data from the previous CHIRON project, showing that 90 patients are
+      needed to show at least -5.8 (± 6 to 8 s.d.) beats/min difference in average daily awake
+      heart rate difference - as a fundamental parameter correlating with patient reported HRQoL -
+      with 90% power between the two groups. Data collection will include an estimation of exercise
+      capacity based on a six-minute walking test, and questionnaire assessments using standardized
+      instruments. The trial will be initiated in two countries. In order to account for possible
+      dropouts, 60 patients will be enrolled in Italy and 60 in Belgium (20 control and 40
+      intervention patients in each country). Target patients are stable ambulatory CHF patients
+      (NYHA class 2-3; reduced left ventricular ejection fraction ≤40%). Eligible patients will be
+      recruited by their treating physician from collaborating medical centers in both countries;
+      they will be enrolled in the trial after giving informed consent for participation. After
+      baseline assessment, patients will be randomized into either the intervention (duration of 6
+      months) or control (usual care) condition. Data collection will be repeated at the end of the
+      trial.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background:
+
+      1-2% of people in the developed world suffer from heart failure (HF), which costs the society
+      around 100 billion USD per year. Although the improvements in treatment have lately decreased
+      the number of hospitalizations and deaths due to HF, the burden still remains high with
+      around half of the HF patients being expected to die within five years and HF being the most
+      frequent cause of hospitalization in people aged over 65.
+
+      Since there is no cure available at present, a better management of HF is crucial. A proper
+      disease management may not only relieve symptoms, prevent hospitalization or improve
+      survival, but may also affect the patient's health-related quality of life (HRQoL). The
+      European Society of Cardiology (ESC) Task Force produced evidence-based guidelines for the
+      diagnosis and management of HF, intended to be used by clinical practitioners. Despite the
+      availability of these guidelines, registry data consistently show an insufficient uptake in
+      clinical practice. Of particular concern is the poor implementation of exercise guidelines,
+      even though regular physical activity and structured exercise in CHF patients are strongly
+      recommended. Nonetheless, participation rates of CHF patients in cardiac rehabilitation are
+      generally below 20% in Europe. This calls for more specific recommendations on how to give
+      lifestyle advice to patients in a personalized fashion.
+
+      A promising technology for improving disease management in HF may be mobile health (mHealth),
+      which encompasses the use of mobile devices as a support for the practice of medicine.
+      mHealth has already been implemented to provide regular follow-up and physiological
+      monitoring, to ensure safety and detect complications in order to prevent subsequent health
+      care utilization. In addition, it may also be a tool to deliver education and to support
+      patients regarding self-monitoring and self-management. However, evidence on the
+      effectiveness of this approach in HF patients has been mixed. Several meta-analyses suggest
+      clinical benefits, but large clinical trials did not show any effect on readmission or death.
+      Nevertheless, the recent BEAT-HF trial found that remote patient management did not reduce
+      rehospitalization or mortality but reported instead an improvement in quality of life.
+
+      Patient-reported outcomes (PROs), such as HRQoL or perceived health status, have increasingly
+      been recognized as outcomes of interest in HF and coronary patients in general. PROs are not
+      surrogates for harder endpoints such as mortality, but rather represent independent outcomes
+      with harder endpoints not necessarily reflecting of how a disease and its symptoms are
+      experienced by the patient. Furthermore, HRQoL and health status have been shown to be
+      predictive of clinical events in patients with HF. These findings show that patients'
+      perceptions of worsening symptoms carry vital prognostic information, and should be
+      implemented in trials evaluating disease management.
+
+      An aspect that has been largely ignored in these types of trials concerning mHealth
+      technology, is the psychological aspect that is necessary to start changing behavior and to
+      cope with the symptoms of HF. Psychological interventions such as cognitive behavioral
+      therapy and mindfulness exercises have already been shown to be successful in changing
+      behavior and to significantly reduce anxiety, depression and symptoms which are common in HF
+      patients. Therefore, implementing psychological interventions into mHealth technology may
+      offer an added value to this tool.
+
+      The HeartMan project aims to develop a personal health system to help HF patients managing
+      their disease with the ultimate goal to improve HRQoL. In this system, HF patients are
+      monitored not only focusing on their physical condition but also on the patient's
+      psychological state. This information is integrated into a decision support system, using
+      this information to both compute prognostic information based on predictive models, clinical
+      care guidelines and expert knowledge and also to suggest the most appropriate intervention to
+      modify and manage their lifestyle. Furthermore, these interventions are presented in a way
+      adapted to the patient's psychological profile in order to increase the adherence to the
+      medical device.
+
+      Study design:
+
+      HeartMan is a proof-of-concept randomized controlled 1:2 trial (RCT), being conducted at four
+      hospitals in two countries (Belgium and Italy) to compare usual care in HF patients with the
+      addition of a personal mHealth system on top of standard care. Sixty patients are enrolled in
+      Italy and 60 in Belgium for a participation during six months, resulting in 40 patients in
+      total in the control group and 80 in the intervention group.
+
+      Ethical approval:
+
+      This study has been approved by the ethical committees of the participating hospitals in both
+      countries, with the ethical committee of the University Hospital in Ghent and Rieti General
+      Hospital as the central ethical committees. Written informed consent is obtained from all
+      participants prior to enrollment in the study. In addition, the HeartMan device which is used
+      during the trial has been approved by the Federal Agency for Medicine and Health products in
+      Belgium (FAGG: Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten) and Italy
+      (AIFA: Agenzia Italiana del Farmaco).
+
+      Sample size calculation:
+
+      The sample size calculation was based on primary outcome data from the previous CHIRON
+      project (Mlakar et al., 2018) showing that 90 patients are needed to show at least 5.8 beats
+      per min in average daily awake heart rate difference - as a fundamental parameter correlating
+      with patient-reported HRQoL - with 90% power between the two groups. Thus in order to account
+      for possible dropouts, the trial is executed enrolling 60 patients in each of the two
+      participating countries based on a 1:2 randomization protocol.
+
+      Statistical analysis:
+
+      The main analysis of the primary and secondary endpoints is based on the Intention To Treat
+      principle, i.e. including all patients in the analysis who did not drop out within the first
+      4 weeks of the trial since these patients are replaced. In order to assess the clinical
+      effect of the HeartMan intervention on the different outcomes (except for mortality and
+      hospitalization), an additional per-protocol analysis is performed in patients who adhere to
+      the treatment plan for at least 50%. Based on these results, a dose-response analysis is
+      conducted to verify the relation between the level of adherence and intervention effects.
+
+      Prior to each analysis, distribution of the variables is checked in order to choose the
+      correct statistical test and outliers are identified. In all analyses, p values &lt;0.05 are
+      considered to be statistically significant.
+
+      Effects of the proof-of-concept trial are assessed by analyzing baseline and end of
+      investigation data between and among treatment groups. The primary endpoint of the HeartMan
+      project is the self-reported improvement in HRQoL which is analyzed using T-tests or it's non
+      parametric variant and chi square tests to compare the characteristics between the groups. If
+      necessary, a multiple linear regression approach is chosen to adjust for confounding
+      variables. In order to assess the effect of the intervention among the different groups a
+      repeated measures design with time*group interaction effect is chosen. A similar statistical
+      approach is also performed for the secondary analyses. Secondary objectives within the
+      HeartMan intervention are the effects on behavioral outcomes, illness perception and clinical
+      outcomes which may ultimately have an impact on disease management and HRQoL.
+
+      An objective parallel to the effect on HRQoL, is the impact of the HeartMan system on a
+      combined endpoint of mortality and hospitalization. This objective is assessed by making a
+      comparison of patient characteristics and the use of the HeartMan intervention between
+      event-free patients and those who had an event during the 6 months trial. Furthermore, a
+      Kaplan Meier analysis is performed to investigate event-free survival.
+
+      A great effort is made to have complete data on outcome measures and to use all obtained
+      information. Early drop-out within 4 weeks after starting the intervention is treated as
+      actual drop-out and replacement by novel candidates is foreseen. During the trial, the level
+      of adherence is assessed and in case a low adherence is noticed (&lt;50%), patients are actively
+      contacted by a member of the research team in order to avoid drop-out.
+
+      For those who eventually drop out in a later phase, efforts will be made to perform the end
+      of study examination and if this is not feasible, these will be considered as missing data.
+      In the case of missing data, some of the outcome measures (e.g. heart rate or blood pressure)
+      can be retrieved through data from the HeartMan system, using the Last Observation Carried
+      Forward (LOCF) principle.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2018</start_date>
+  <completion_date type="Anticipated">April 2019</completion_date>
+  <primary_completion_date type="Anticipated">March 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in self-care and health-related quality of life (1)</measure>
+    <time_frame>Change from baseline to post-interventional measurement, assessed up to 36 weeks.</time_frame>
+    <description>Change from baseline in self-reported improvement in self-care and health-related quality of life on the Self-care of Heart Failure Index at 6 months.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change in self-care and health-related quality of life (2)</measure>
+    <time_frame>Change from baseline to post-interventional measurement, assessed up to 36 weeks.</time_frame>
+    <description>Change from baseline in self-reported improvement in self-care and health-related quality of life on the Minnesota Living with Heart Failure Questionnaire at 6 months.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Mortality and hospitalization</measure>
+    <time_frame>This is an ongoing measurement during the 6 months trial period.</time_frame>
+    <description>Number of patients with (treatment-related) serious adverse events (SAE), based on hospital records and according to good clinical practice (GCP) guidelines ISO 14155.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in adherence to dietary recommendations</measure>
+    <time_frame>This is an ongoing measurement during the 6 months trial period.</time_frame>
+    <description>The effect of HeartMan on adherence to dietary recommendations, measured by a self-composed questionnaire. Patients get asked regularly and randomly during the 6 months trial period to fill in the questionnaire via the HeartMan application.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in activity behavior</measure>
+    <time_frame>This is an ongoing measurement during the 6 months trial period.</time_frame>
+    <description>The effect of HeartMan on activity behavior, measured by the estimated energy expenditure via the accelerometer in the HeartMan wristband.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in medication adherence</measure>
+    <time_frame>This is an ongoing measurement during the 6 months trial period.</time_frame>
+    <description>The effect of HeartMan on medication adherence, measured by questioning the patients about their medication intake on a weekly basis during the 6 months trial period.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in sexual activity (1)</measure>
+    <time_frame>Change from baseline to post-interventional measurement, assessed up to 36 weeks.</time_frame>
+    <description>The effect of HeartMan on sexual activity. Change from baseline in sexual activity on the Sexual Adjustment Scale at 6 months.
+This is a six-item self-report subscale of the Psychosocial Adjustment Scale that assesses illness-related changes in the quality of sexuality and relationship over the past month. Answers are provided using a four-point Likert scale in which a score of 0 is equal to &quot;no disturbance&quot; and a score of 3 is equal to &quot;marked disturbance&quot;. The total score ranges from 0-18, whereby the lower the score the less the disturbance and vice versa.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in sexual activity (2)</measure>
+    <time_frame>Change from baseline to post-interventional measurement, assessed up to 36 weeks.</time_frame>
+    <description>The effect of HeartMan on sexual activity. Change from baseline in sexual activity on the Needs for Counselling Scale in chronic Heart Failure at 6 months.
+The questions in each domain are answered with a four-point Likert scale in which a score of 1 is equal to &quot;totally not important&quot; and a score of 4 is equal to &quot;very important&quot;. An average score of 2.5 or more is considered to be important and counseling is recommended. A total score is not applicable.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in illness perception</measure>
+    <time_frame>Change from baseline to post-interventional measurement, assessed up to 36 weeks.</time_frame>
+    <description>The effect of HeartMan on illness perception. Change from baseline in illness perception on the Brief Illness Perception Questionnaire at 6 months.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in exercise tolerance (1)</measure>
+    <time_frame>This is an ongoing measurement during the 6 months trial period.</time_frame>
+    <description>The effect of HeartMan on exercise tolerance. Measured by the change in resting heart rate and heart rate during exercise via the accelerometer in the HeartMan wristband.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in exercise tolerance (2)</measure>
+    <time_frame>Change from baseline to post-interventional measurement, assessed up to 36 weeks.</time_frame>
+    <description>The effect of HeartMan on exercise tolerance. Change from baseline in distance obtained at the six-minute walking test at 6 months.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in anxiety</measure>
+    <time_frame>Change from baseline to post-interventional measurement, assessed up to 36 weeks.</time_frame>
+    <description>Effect of psychological interventions in HeartMan using cognitive behavioral therapy and mindfulness exercise. Change from baseline in anxiety on the State Trait Anxiety Inventory at 6 months.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in depression</measure>
+    <time_frame>Change from baseline to post-interventional measurement, assessed up to 36 weeks.</time_frame>
+    <description>Effect of psychological interventions in HeartMan using cognitive behavioral therapy and mindfulness exercises. Change from baseline in depressive feelings on the Beck Depression Inventory II at 6 months.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in patient's experience with HeartMan</measure>
+    <time_frame>Change from baseline to post-interventional measurement, assessed up to 36 weeks.</time_frame>
+    <description>Evaluation of the patient's experience with HeartMan to assess the expectations towards the system and the patient's experiences. Change from baseline in patient's experience with HeartMan on the unified theory of acceptance and use of technology questionnaire (adapted for the aims of the HeartMan system and to the population of elderly users) at 6 months.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Heart Failure, Congestive</condition>
+  <arm_group>
+    <arm_group_label>HeartMan intervention group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>80 patients are in the intervention group (40 in Belgium and 40 in Italy).
+They use the HeartMan system in addition to receiving standard care.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard care (control) group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>40 patients are in the no-intervention group (20 in Belgium and 20 in Italy).
+They receive standard care, which consists of optimal medical treatment according to the international guidelines. In addition, written and oral education on heart failure disease and its management is provided by the heart failure nurse at the moment a patient has been diagnosed with heart failure or whenever he is rehospitalized for heart failure if necessary. Further support after discharge is possible by giving the patient the opportunity to call with the heart failure nurse in case he has questions about his treatment or health condition. Regular visits with the treating physician are scheduled several times per year.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>HeartMan system</intervention_name>
+    <description>The HeartMan system uses wristband sensors to monitor patients' physical activity and physiological parameters. These data are connected to a decision support system, providing medical advice to patients concerning physical exercise, nutrition, medication intake, clinical measurements, environment management, and mental support. The decision support system is based on predictive models, clinical care guidelines and expert knowledge. The advice will be personalized according to each individual patient's medical and psychological profile, and will be presented to the patient through the user interface of a mobile application on a smartphone.</description>
+    <arm_group_label>HeartMan intervention group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Willing and able to make use of a smartphone and to give informed consent for
+             participation to the study
+
+          -  Ischemic or non-ischemic heart failure disease
+
+          -  Functional New York Heart Association (NYHA) class 2-3
+
+          -  Reduced left ventricular ejection fraction ≤40%
+
+          -  Ambulatory heart failure patients in stable condition: at least one hospitalization
+             due to their heart failure once, but no hospitalization during the month before start
+             of the trial and no planned surgery
+
+          -  Good cognitive function, if cognitive impairment is suspected the patient will be
+             evaluated by using the Mini Mental State Examination (MMSE)
+
+          -  Sufficient knowledge of the native language (Dutch in Belgium, Italian in Italy)
+
+        Exclusion Criteria:
+
+          -  Heart failure patients who fulfill the above mentioned criteria, but suffer from a
+             concomitant end-stage chronic kidney disease necessitating haemodialysis
+
+          -  Heart failure patients who fulfill the above mentioned criteria, but are already
+             participating in a disease management program, influencing the HeartMan intervention
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Els Clays, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Ghent</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Paolo Emilio Puddu, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Roma La Sapienza</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Mitja Lustrek, PhD</last_name>
+    <phone>+386 1 4773380</phone>
+    <email>mitja.lustrek@ijs.si</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>OLV Hospital Aalst</name>
+      <address>
+        <city>Aalst</city>
+        <zip>9300</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marc Vanderheyden</last_name>
+      <phone>+32 5 3724433</phone>
+      <email>marc.vanderheyden@olvz-aalst.be</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>General Hospital Maria Middelares</name>
+      <address>
+        <city>Ghent</city>
+        <zip>9000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Johan De Sutter</last_name>
+      <phone>+32 9 2468600</phone>
+      <email>johan.desutter@ugent.be</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Ghent</name>
+      <address>
+        <city>Ghent</city>
+        <zip>9000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michel De Pauw</last_name>
+      <phone>+32 9 3323344</phone>
+      <email>hartcentrum@uzgent.be</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Rieti General Hospital</name>
+      <address>
+        <city>Rieti</city>
+        <zip>02100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paolo Emilio Puddu, PhD</last_name>
+      <phone>+39 328 8988618</phone>
+      <email>paoloemilio.puddu@uniroma1.it</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+    <country>Italy</country>
+  </location_countries>
+  <link>
+    <url>http://heartman-project.eu/</url>
+    <description>HeartMan - Personal Decision Support System for Heart Failure Management</description>
+  </link>
+  <reference>
+    <citation>Mosterd A, Hoes AW. Clinical epidemiology of heart failure. Heart. 2007 Sep;93(9):1137-46. Review.</citation>
+    <PMID>17699180</PMID>
+  </reference>
+  <reference>
+    <citation>Cook C, Cole G, Asaria P, Jabbour R, Francis DP. The annual global economic burden of heart failure. Int J Cardiol. 2014 Feb 15;171(3):368-76. doi: 10.1016/j.ijcard.2013.12.028. Epub 2013 Dec 22. Review.</citation>
+    <PMID>24398230</PMID>
+  </reference>
+  <reference>
+    <citation>Roger VL. Epidemiology of heart failure. Circ Res. 2013 Aug 30;113(6):646-59. doi: 10.1161/CIRCRESAHA.113.300268. Review.</citation>
+    <PMID>23989710</PMID>
+  </reference>
+  <reference>
+    <citation>McDonagh TA, Blue L, Clark AL, Dahlström U, Ekman I, Lainscak M, McDonald K, Ryder M, Strömberg A, Jaarsma T; European Society of Cardiology Heart Failure Association Committee on Patient Care. European Society of Cardiology Heart Failure Association Standards for delivering heart failure care. Eur J Heart Fail. 2011 Mar;13(3):235-41. doi: 10.1093/eurjhf/hfq221. Epub 2010 Dec 15.</citation>
+    <PMID>21159794</PMID>
+  </reference>
+  <reference>
+    <citation>Piepoli MF, Conraads V, Corrà U, Dickstein K, Francis DP, Jaarsma T, McMurray J, Pieske B, Piotrowicz E, Schmid JP, Anker SD, Solal AC, Filippatos GS, Hoes AW, Gielen S, Giannuzzi P, Ponikowski PP. Exercise training in heart failure: from theory to practice. A consensus document of the Heart Failure Association and the European Association for Cardiovascular Prevention and Rehabilitation. Eur J Heart Fail. 2011 Apr;13(4):347-57. doi: 10.1093/eurjhf/hfr017.</citation>
+    <PMID>21436360</PMID>
+  </reference>
+  <reference>
+    <citation>Bjarnason-Wehrens B, McGee H, Zwisler AD, Piepoli MF, Benzer W, Schmid JP, Dendale P, Pogosova NG, Zdrenghea D, Niebauer J, Mendes M; Cardiac Rehabilitation Section European Association of Cardiovascular Prevention and Rehabilitation. Cardiac rehabilitation in Europe: results from the European Cardiac Rehabilitation Inventory Survey. Eur J Cardiovasc Prev Rehabil. 2010 Aug;17(4):410-8. doi: 10.1097/HJR.0b013e328334f42d.</citation>
+    <PMID>20300001</PMID>
+  </reference>
+  <reference>
+    <citation>Black JT, Romano PS, Sadeghi B, Auerbach AD, Ganiats TG, Greenfield S, Kaplan SH, Ong MK; BEAT-HF Research Group. A remote monitoring and telephone nurse coaching intervention to reduce readmissions among patients with heart failure: study protocol for the Better Effectiveness After Transition - Heart Failure (BEAT-HF) randomized controlled trial. Trials. 2014 Apr 13;15:124. doi: 10.1186/1745-6215-15-124.</citation>
+    <PMID>24725308</PMID>
+  </reference>
+  <reference>
+    <citation>Inglis SC, Clark RA, Dierckx R, Prieto-Merino D, Cleland JG. Structured telephone support or non-invasive telemonitoring for patients with heart failure. Cochrane Database Syst Rev. 2015 Oct 31;(10):CD007228. doi: 10.1002/14651858.CD007228.pub3. Review.</citation>
+    <PMID>26517969</PMID>
+  </reference>
+  <reference>
+    <citation>Chaudhry SI, Mattera JA, Curtis JP, Spertus JA, Herrin J, Lin Z, Phillips CO, Hodshon BV, Cooper LS, Krumholz HM. Telemonitoring in patients with heart failure. N Engl J Med. 2010 Dec 9;363(24):2301-9. doi: 10.1056/NEJMoa1010029. Epub 2010 Nov 16. Erratum in: N Engl J Med. 2011 Feb 3;364(5):490. N Engl J Med. 2013 Nov 7;369(19):1869.</citation>
+    <PMID>21080835</PMID>
+  </reference>
+  <reference>
+    <citation>Koehler F, Winkler S, Schieber M, Sechtem U, Stangl K, Böhm M, Boll H, Baumann G, Honold M, Koehler K, Gelbrich G, Kirwan BA, Anker SD; Telemedical Interventional Monitoring in Heart Failure Investigators. Impact of remote telemedical management on mortality and hospitalizations in ambulatory patients with chronic heart failure: the telemedical interventional monitoring in heart failure study. Circulation. 2011 May 3;123(17):1873-80. doi: 10.1161/CIRCULATIONAHA.111.018473. Epub 2011 Mar 28.</citation>
+    <PMID>21444883</PMID>
+  </reference>
+  <reference>
+    <citation>Ong MK, Romano PS, Edgington S, Aronow HU, Auerbach AD, Black JT, De Marco T, Escarce JJ, Evangelista LS, Hanna B, Ganiats TG, Greenberg BH, Greenfield S, Kaplan SH, Kimchi A, Liu H, Lombardo D, Mangione CM, Sadeghi B, Sadeghi B, Sarrafzadeh M, Tong K, Fonarow GC; Better Effectiveness After Transition–Heart Failure (BEAT-HF) Research Group. Effectiveness of Remote Patient Monitoring After Discharge of Hospitalized Patients With Heart Failure: The Better Effectiveness After Transition -- Heart Failure (BEAT-HF) Randomized Clinical Trial. JAMA Intern Med. 2016 Mar;176(3):310-8. doi: 10.1001/jamainternmed.2015.7712. Erratum in: JAMA Intern Med. 2016 Apr;176(4):568. Erratum in: JAMA Intern Med. 2016 Jun 1;176(6):871.</citation>
+    <PMID>26857383</PMID>
+  </reference>
+  <reference>
+    <citation>Zannad F, Garcia AA, Anker SD, Armstrong PW, Calvo G, Cleland JG, Cohn JN, Dickstein K, Domanski MJ, Ekman I, Filippatos GS, Gheorghiade M, Hernandez AF, Jaarsma T, Koglin J, Konstam M, Kupfer S, Maggioni AP, Mebazaa A, Metra M, Nowack C, Pieske B, Piña IL, Pocock SJ, Ponikowski P, Rosano G, Ruilope LM, Ruschitzka F, Severin T, Solomon S, Stein K, Stockbridge NL, Stough WG, Swedberg K, Tavazzi L, Voors AA, Wasserman SM, Woehrle H, Zalewski A, McMurray JJ. Clinical outcome endpoints in heart failure trials: a European Society of Cardiology Heart Failure Association consensus document. Eur J Heart Fail. 2013 Oct;15(10):1082-94. doi: 10.1093/eurjhf/hft095. Epub 2013 Jun 19.</citation>
+    <PMID>23787718</PMID>
+  </reference>
+  <reference>
+    <citation>Anker SD, Agewall S, Borggrefe M, Calvert M, Jaime Caro J, Cowie MR, Ford I, Paty JA, Riley JP, Swedberg K, Tavazzi L, Wiklund I, Kirchhof P. The importance of patient-reported outcomes: a call for their comprehensive integration in cardiovascular clinical trials. Eur Heart J. 2014 Aug 7;35(30):2001-9. doi: 10.1093/eurheartj/ehu205. Epub 2014 Jun 5. Review.</citation>
+    <PMID>24904027</PMID>
+  </reference>
+  <reference>
+    <citation>Chamberlain AM, Manemann SM, Dunlay SM, Spertus JA, Moser DK, Berardi C, Kane RL, Weston SA, Redfield MM, Roger VL. Self-rated health predicts healthcare utilization in heart failure. J Am Heart Assoc. 2014 May 28;3(3):e000931. doi: 10.1161/JAHA.114.000931.</citation>
+    <PMID>24870937</PMID>
+  </reference>
+  <reference>
+    <citation>O'Connor CM, Whellan DJ, Wojdyla D, Leifer E, Clare RM, Ellis SJ, Fine LJ, Fleg JL, Zannad F, Keteyian SJ, Kitzman DW, Kraus WE, Rendall D, Piña IL, Cooper LS, Fiuzat M, Lee KL. Factors related to morbidity and mortality in patients with chronic heart failure with systolic dysfunction: the HF-ACTION predictive risk score model. Circ Heart Fail. 2012 Jan;5(1):63-71. doi: 10.1161/CIRCHEARTFAILURE.111.963462. Epub 2011 Nov 23.</citation>
+    <PMID>22114101</PMID>
+  </reference>
+  <reference>
+    <citation>Ponikowski P, Voors AA, Anker SD, Bueno H, Cleland JG, Coats AJ, Falk V, González-Juanatey JR, Harjola VP, Jankowska EA, Jessup M, Linde C, Nihoyannopoulos P, Parissis JT, Pieske B, Riley JP, Rosano GM, Ruilope LM, Ruschitzka F, Rutten FH, van der Meer P; Authors/Task Force Members; Document Reviewers. 2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: The Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC). Developed with the special contribution of the Heart Failure Association (HFA) of the ESC. Eur J Heart Fail. 2016 Aug;18(8):891-975. doi: 10.1002/ejhf.592. Epub 2016 May 20.</citation>
+    <PMID>27207191</PMID>
+  </reference>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 13, 2018</study_first_submitted>
+  <study_first_submitted_qc>April 6, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 13, 2018</study_first_posted>
+  <last_update_submitted>April 6, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 6, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 13, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Heart failure</keyword>
+  <keyword>Self-management</keyword>
+  <keyword>Health-related quality of life</keyword>
+  <keyword>mHealth</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

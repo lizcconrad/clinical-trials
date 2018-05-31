@@ -1,0 +1,630 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01869647</url>
+  </required_header>
+  <id_info>
+    <org_study_id>5R01H50118322</org_study_id>
+    <nct_id>NCT01869647</nct_id>
+  </id_info>
+  <brief_title>Feasibility and Impact of a Decision Rule for Imaging of Emergency Department Patients With Suspected Kidney Stone</brief_title>
+  <official_title>Feasibility and Impact of a Decision Rule for Imaging of Emergency Department Patients With Suspected Kidney Stone</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Yale University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Agency for Healthcare Research and Quality (AHRQ)</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Yale University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is the third phase (feasibility and impact) of a three-phase project designed to derive,
+      validate and test the feasibility and impact of implementing clinical decision support to
+      safely limit the use of Computerized Tomography (CT) and its accompanying radiation and cost
+      in emergency department patients with suspected renal colic.
+
+      Hypothesis: Using a before and after model, integration of a clinical prediction rule into
+      decisions about imaging in patients with suspected renal colic will result in a reduction of
+      between 25-50% of radiation received from CT scanning in this population, without adverse
+      affects on patient-centered outcomes.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients that a clinician deems a CT Flank Pain Protocol for suspected kidney stone is
+      warranted based on their usual practice will be eligible for enrollment. Clinicians will be
+      encouraged to page the Research Associate (RA) prior to ordering the CT, and an automatic
+      page will go out for all CT flank pain protocols that are ordered via EPIC. RAs will approach
+      eligible subjects for written informed consent. Subjects who are incapable or unwilling to
+      provide informed consent, including non-English speaking patients will be excluded.
+
+      Following written informed consent, eligibility for the S.T.O.N.E. score will be determined.
+
+      Subjects that consent to enrollment but have exclusion criteria will be enrolled
+      observationally to determine the performance of the S.T.O.N.E. score and outcomes in these
+      groups, but will not be eligible for alternate imaging pathways.
+
+      Subjects who do not have any of the above exclusion criteria will be placed in one of three
+      groups based on the S.T.O.N.E. score (which may be supplemented by gestalt clinician pre-test
+      probability and/or point-of-care ultrasound for hydronephrosis). The groups are low,
+      moderate, or high and correspond to the likelihood of the patient having a kidney stone as
+      described in results from phases I and II.Subjects in the &quot;high&quot; likelihood of stone group
+      will be eligible to get either Ultra Low Dose Computerized Tomography (ULDCT) or &quot;expectant
+      management&quot;. The choice will be determined by the primary clinician in conjunction with the
+      patient. If ULDCT is elected, the scan will be read diagnostically by the radiologist and the
+      clinician will treat the patient based on these results. If the expectant management option
+      is chosen, no CT will be done during the ED visit and they will be treated as if they have a
+      kidney stone. We will attempt to contact these patients at ~1 week after their ED visit, and
+      they will also have the option to contact our study team. If symptoms are persistent for a
+      week or more, subjects may of course pursue further clinical care with the clinician of their
+      choice and this will not be billed to the study.
+
+      Subjects in the &quot;moderate&quot; likelihood of stone group will be given the option to receive
+      either a standard dose CT or ULDCT. Again, the decision of which imaging option to choose
+      will be made by the primary clinician in conjunction with the patient.
+
+      In the &quot;low&quot; likelihood of stone group the RA will present the data from the stone score to
+      the physician and explain that patient is unlikely to have a kidney stone and they will be
+      advised that probability of a stone is very low and that alternate imaging choices may be
+      warranted. If they still choose to order a CT Flank Pain Protocol they will be asked to
+      provide reasoning and the patient will receive a regular dose CT Flank Pain Protocol.
+
+      All subjects will be followed during their Emergency Department (ED) course and follow-up
+      care (records in EPIC), with an attempt to contact the patient at ~90 days after the initial
+      ED visit. Outcomes will include the number of eligible patients that receive regular dose CT,
+      ULDCT, or the expectant management option. Radiation dose received will be measured with
+      comparison of both the expected radiation dose if regular CT had been performed in all
+      eligible patients and using a before and after model from phases I and II. We will also
+      follow all patients to determine the prevalence and timing of diagnosis and/or intervention
+      for kidney stone or other pathology. We will qualitatively compare the prevalence of
+      alternative causes of symptoms and incidental findings (and follow-up) for regular and low
+      dose CTs.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2013</start_date>
+  <completion_date type="Actual">July 2014</completion_date>
+  <primary_completion_date type="Actual">July 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Radiation Exposure (Dose-Length-Product) at Baseline</measure>
+    <time_frame>Baseline (at enrollment)</time_frame>
+    <description>Radiation exposure at baseline was collected using the mean dose length product mGy*cm.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Prevalence of Urological Intervention</measure>
+    <time_frame>90 days</time_frame>
+    <description>This measure presents the prevalence of participants needing urological intervention in each arm within 90 days.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">264</enrollment>
+  <condition>Kidney Stones</condition>
+  <arm_group>
+    <arm_group_label>&quot;high&quot; likelihood of stone group</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Subjects in the &quot;high&quot; likelihood of stone group will be eligible to get either ULDCT or &quot;expectant management&quot;. The choice will be determined by the primary clinician in conjunction with the patient. If ULDCT is elected, the scan will be read diagnostically by the radiologist and the clinician will treat the patient based on these results. If the expectant management option is chosen, no CT will be done during the ED visit and they will be treated as if they have a kidney stone. Participants in this group will receive Ultra low dose CT scan.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>&quot;moderate&quot; likelihood of stone group</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Subjects in the &quot;moderate&quot; likelihood of stone group will be given the option to receive either a standard dose CT or ULDCT. Again, the decision of which imaging option to choose will be made by the primary clinician in conjunction with the patient. Participants in this group will receive regular or low dose CT scan.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>&quot;low&quot; likelihood of stone group</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>In the &quot;low&quot; likelihood of stone group the RA will present the data from the stone score to the physician and explain that patient is unlikely to have a kidney stone and they will be advised that probability of a stone is very low and that alternate imaging choices may be warranted. If they still choose to order a CT Flank Pain Protocol they will be asked to provide reasoning and the patient will receive a regular dose CT Flank Pain Protocol. Participants in this group will not receive imaging.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Ultra low dose CT scan</intervention_name>
+    <description>Ultra low dose CT scan</description>
+    <arm_group_label>&quot;high&quot; likelihood of stone group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Regular CT or Low Dose CT scan</intervention_name>
+    <description>Regular CT or Low Dose CT scan</description>
+    <arm_group_label>&quot;moderate&quot; likelihood of stone group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>No imaging</intervention_name>
+    <description>No imaging</description>
+    <arm_group_label>&quot;low&quot; likelihood of stone group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients 18 or older who present to the adult YNHH ED, Saint Raphael Campus ED or SMC
+             ED in whom renal colic is suspected upon presentation, and the physician intends to
+             order a CT FPP study for suspicion of a kidney stone. Members of all ethnic and racial
+             groups are eligible.
+
+        Exclusion Criteria:
+
+          -  Exclusion Criteria Patients will be excluded for any one of the following reasons:
+             patients that are
+
+               1. pregnant
+
+               2. prisoners
+
+               3. unable or unwilling to consent (including non-English speaking)
+
+               4. with a history or physical evidence of recent trauma
+
+               5. renal colic not suspected by clinician
+
+        Patients with the following will not be eligible for alternate imaging, but will be
+        enrolled observationally:
+
+          1. evidence of infection (leucocytes in urine, fever)
+
+          2. pre-existing renal disease (including creatinine 1.5 or greater)
+
+          3. prior urologic intervention
+
+          4. active malignancy (within last 6 months)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Christopher L Moore, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Yale University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Yale University</name>
+      <address>
+        <city>New Haven</city>
+        <state>Connecticut</state>
+        <zip>06519</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 23, 2013</study_first_submitted>
+  <study_first_submitted_qc>May 30, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 5, 2013</study_first_posted>
+  <results_first_submitted>June 17, 2016</results_first_submitted>
+  <results_first_submitted_qc>July 28, 2016</results_first_submitted_qc>
+  <results_first_posted type="Estimate">September 21, 2016</results_first_posted>
+  <last_update_submitted>July 28, 2016</last_update_submitted>
+  <last_update_submitted_qc>July 28, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">September 21, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>kidney stones</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Emergencies</mesh_term>
+    <mesh_term>Calculi</mesh_term>
+    <mesh_term>Kidney Calculi</mesh_term>
+    <mesh_term>Nephrolithiasis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>&quot;High&quot; Likelihood of Stone Group</title>
+          <description>Subjects in the &quot;high&quot; likelihood of stone group will be eligible to get either ULDCT or &quot;expectant management&quot;. The choice will be determined by the primary clinician in conjunction with the patient. If ULDCT is elected, the scan will be read diagnostically by the radiologist and the clinician will treat the patient based on these results. If the expectant management option is chosen, no CT will be done during the ED visit and they will be treated as if they have a kidney stone.
+&quot;high&quot; likelihood of stone group: Ultra low dose CT scan</description>
+        </group>
+        <group group_id="P2">
+          <title>&quot;Moderate&quot; Likelihood of Stone Group</title>
+          <description>Subjects in the &quot;moderate&quot; likelihood of stone group will be given the option to receive either a standard dose CT or ULDCT. Again, the decision of which imaging option to choose will be made by the primary clinician in conjunction with the patient.
+&quot;moderate&quot; likelihood of stone group: Regular CT or Low Dose CT scan</description>
+        </group>
+        <group group_id="P3">
+          <title>&quot;Low&quot; Likelihood of Stone Group</title>
+          <description>In the &quot;low&quot; likelihood of stone group the RA will present the data from the stone score to the physician and explain that patient is unlikely to have a kidney stone and they will be advised that probability of a stone is very low and that alternate imaging choices may be warranted. If they still choose to order a CT Flank Pain Protocol they will be asked to provide reasoning and the patient will receive a regular dose CT Flank Pain Protocol.
+&quot;low&quot; likelihood of stone group: No imaging</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="66"/>
+                <participants group_id="P2" count="136"/>
+                <participants group_id="P3" count="62"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="65"/>
+                <participants group_id="P2" count="130"/>
+                <participants group_id="P3" count="62"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="6"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>&quot;High&quot; Likelihood of Stone Group</title>
+          <description>Subjects in the &quot;high&quot; likelihood of stone group will be eligible to get either ULDCT or &quot;expectant management&quot;. The choice will be determined by the primary clinician in conjunction with the patient. If ULDCT is elected, the scan will be read diagnostically by the radiologist and the clinician will treat the patient based on these results. If the expectant management option is chosen, no CT will be done during the ED visit and they will be treated as if they have a kidney stone.
+&quot;high&quot; likelihood of stone group: Ultra low dose CT scan</description>
+        </group>
+        <group group_id="B2">
+          <title>&quot;Moderate&quot; Likelihood of Stone Group</title>
+          <description>Subjects in the &quot;moderate&quot; likelihood of stone group will be given the option to receive either a standard dose CT or ULDCT. Again, the decision of which imaging option to choose will be made by the primary clinician in conjunction with the patient.
+&quot;moderate&quot; likelihood of stone group: Regular CT or Low Dose CT scan</description>
+        </group>
+        <group group_id="B3">
+          <title>&quot;Low&quot; Likelihood of Stone Group</title>
+          <description>In the &quot;low&quot; likelihood of stone group the RA will present the data from the stone score to the physician and explain that patient is unlikely to have a kidney stone and they will be advised that probability of a stone is very low and that alternate imaging choices may be warranted. If they still choose to order a CT Flank Pain Protocol they will be asked to provide reasoning and the patient will receive a regular dose CT Flank Pain Protocol.
+&quot;low&quot; likelihood of stone group: No imaging</description>
+        </group>
+        <group group_id="B4">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="66"/>
+            <count group_id="B2" value="136"/>
+            <count group_id="B3" value="62"/>
+            <count group_id="B4" value="264"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="62"/>
+                    <measurement group_id="B2" value="129"/>
+                    <measurement group_id="B3" value="54"/>
+                    <measurement group_id="B4" value="245"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="7"/>
+                    <measurement group_id="B3" value="8"/>
+                    <measurement group_id="B4" value="19"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="42.2" spread="14.1"/>
+                    <measurement group_id="B2" value="44.0" spread="13.7"/>
+                    <measurement group_id="B3" value="46.1" spread="14.7"/>
+                    <measurement group_id="B4" value="44.0" spread="14.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                    <measurement group_id="B2" value="58"/>
+                    <measurement group_id="B3" value="45"/>
+                    <measurement group_id="B4" value="118"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="51"/>
+                    <measurement group_id="B2" value="78"/>
+                    <measurement group_id="B3" value="17"/>
+                    <measurement group_id="B4" value="146"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="66"/>
+                    <measurement group_id="B2" value="136"/>
+                    <measurement group_id="B3" value="62"/>
+                    <measurement group_id="B4" value="264"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Radiation Exposure (Dose-Length-Product) at Baseline</title>
+        <description>Radiation exposure at baseline was collected using the mean dose length product mGy*cm.</description>
+        <time_frame>Baseline (at enrollment)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>&quot;High&quot; Likelihood of Stone Group</title>
+            <description>Subjects in the &quot;high&quot; likelihood of stone group will be eligible to get either ULDCT or &quot;expectant management&quot;. The choice will be determined by the primary clinician in conjunction with the patient. If ULDCT is elected, the scan will be read diagnostically by the radiologist and the clinician will treat the patient based on these results. If the expectant management option is chosen, no CT will be done during the ED visit and they will be treated as if they have a kidney stone.
+&quot;high&quot; likelihood of stone group: Ultra low dose CT scan</description>
+          </group>
+          <group group_id="O2">
+            <title>&quot;Moderate&quot; Likelihood of Stone Group</title>
+            <description>Subjects in the &quot;moderate&quot; likelihood of stone group will be given the option to receive either a standard dose CT or ULDCT. Again, the decision of which imaging option to choose will be made by the primary clinician in conjunction with the patient.
+&quot;moderate&quot; likelihood of stone group: Regular CT or Low Dose CT scan</description>
+          </group>
+          <group group_id="O3">
+            <title>&quot;Low&quot; Likelihood of Stone Group</title>
+            <description>In the &quot;low&quot; likelihood of stone group the RA will present the data from the stone score to the physician and explain that patient is unlikely to have a kidney stone and they will be advised that probability of a stone is very low and that alternate imaging choices may be warranted. If they still choose to order a CT Flank Pain Protocol they will be asked to provide reasoning and the patient will receive a regular dose CT Flank Pain Protocol.
+&quot;low&quot; likelihood of stone group: No imaging</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Radiation Exposure (Dose-Length-Product) at Baseline</title>
+          <description>Radiation exposure at baseline was collected using the mean dose length product mGy*cm.</description>
+          <units>mGy*cm</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="65"/>
+                <count group_id="O2" value="130"/>
+                <count group_id="O3" value="62"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="293.5" lower_limit="210.5" upper_limit="377"/>
+                    <measurement group_id="O2" value="482.1" lower_limit="398.2" upper_limit="566"/>
+                    <measurement group_id="O3" value="915.99" lower_limit="834.2" upper_limit="998"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Prevalence of Urological Intervention</title>
+        <description>This measure presents the prevalence of participants needing urological intervention in each arm within 90 days.</description>
+        <time_frame>90 days</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>&quot;High&quot; Likelihood of Stone Group</title>
+            <description>Subjects in the &quot;high&quot; likelihood of stone group will be eligible to get either ULDCT or &quot;expectant management&quot;. The choice will be determined by the primary clinician in conjunction with the patient. If ULDCT is elected, the scan will be read diagnostically by the radiologist and the clinician will treat the patient based on these results. If the expectant management option is chosen, no CT will be done during the ED visit and they will be treated as if they have a kidney stone.
+&quot;high&quot; likelihood of stone group: Ultra low dose CT scan</description>
+          </group>
+          <group group_id="O2">
+            <title>&quot;Moderate&quot; Likelihood of Stone Group</title>
+            <description>Subjects in the &quot;moderate&quot; likelihood of stone group will be given the option to receive either a standard dose CT or ULDCT. Again, the decision of which imaging option to choose will be made by the primary clinician in conjunction with the patient.
+&quot;moderate&quot; likelihood of stone group: Regular CT or Low Dose CT scan</description>
+          </group>
+          <group group_id="O3">
+            <title>&quot;Low&quot; Likelihood of Stone Group</title>
+            <description>In the &quot;low&quot; likelihood of stone group the RA will present the data from the stone score to the physician and explain that patient is unlikely to have a kidney stone and they will be advised that probability of a stone is very low and that alternate imaging choices may be warranted. If they still choose to order a CT Flank Pain Protocol they will be asked to provide reasoning and the patient will receive a regular dose CT Flank Pain Protocol.
+&quot;low&quot; likelihood of stone group: No imaging</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Prevalence of Urological Intervention</title>
+          <description>This measure presents the prevalence of participants needing urological intervention in each arm within 90 days.</description>
+          <units>participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="65"/>
+                <count group_id="O2" value="130"/>
+                <count group_id="O3" value="62"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="19"/>
+                    <measurement group_id="O2" value="24"/>
+                    <measurement group_id="O3" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>&quot;High&quot; Likelihood of Stone Group</title>
+          <description>Subjects in the &quot;high&quot; likelihood of stone group will be eligible to get either ULDCT or &quot;expectant management&quot;. The choice will be determined by the primary clinician in conjunction with the patient. If ULDCT is elected, the scan will be read diagnostically by the radiologist and the clinician will treat the patient based on these results. If the expectant management option is chosen, no CT will be done during the ED visit and they will be treated as if they have a kidney stone.
+&quot;high&quot; likelihood of stone group: Ultra low dose CT scan</description>
+        </group>
+        <group group_id="E2">
+          <title>&quot;Moderate&quot; Likelihood of Stone Group</title>
+          <description>Subjects in the &quot;moderate&quot; likelihood of stone group will be given the option to receive either a standard dose CT or ULDCT. Again, the decision of which imaging option to choose will be made by the primary clinician in conjunction with the patient.
+&quot;moderate&quot; likelihood of stone group: Regular CT or Low Dose CT scan</description>
+        </group>
+        <group group_id="E3">
+          <title>&quot;Low&quot; Likelihood of Stone Group</title>
+          <description>In the &quot;low&quot; likelihood of stone group the RA will present the data from the stone score to the physician and explain that patient is unlikely to have a kidney stone and they will be advised that probability of a stone is very low and that alternate imaging choices may be warranted. If they still choose to order a CT Flank Pain Protocol they will be asked to provide reasoning and the patient will receive a regular dose CT Flank Pain Protocol.
+&quot;low&quot; likelihood of stone group: No imaging</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="66"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="136"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="62"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="66"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="136"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="62"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Chris L. Moore</name_or_title>
+      <organization>Yale Emergency Medicine</organization>
+      <phone>(203)737-3313</phone>
+      <email>chris.moore@yale.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

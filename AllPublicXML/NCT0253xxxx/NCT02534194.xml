@@ -1,0 +1,185 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02534194</url>
+  </required_header>
+  <id_info>
+    <org_study_id>15020</org_study_id>
+    <nct_id>NCT02534194</nct_id>
+  </id_info>
+  <brief_title>Gestational Age Assessment Tool</brief_title>
+  <acronym>GestATion</acronym>
+  <official_title>Gestational Age Assessment Tool for Newborn Babies</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Nottingham</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Bill and Melinda Gates Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Nottingham</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In the UK and worldwide many babies are born without carers knowing their gestation as the
+      mothers will not have had good antenatal care. It is possible to estimate gestation but this
+      requires a detailed clinical exam. The investigators wish to improve this by using software
+      analysis to pick out features of the baby (face and foot) to try and estimate the gestation
+      of the baby once it is born. The investigators will also look explore if the software can
+      distinguish the normal face or a baby in discomfort.
+
+      Good estimation of gestation can result in more targeted management of the baby. The
+      investigators will capture the images of newborn babies, from a variety of gestations, and
+      use this dataset to teach the software to estimate gestational age and level of discomfort.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Clinical techniques for the calculation of gestation include fetal ultrasound and clinical
+      assessment tools, such as the Ballard Score, following birth. These techniques are rarely
+      available (ultrasound which is expensive and requires trained users) or require significant
+      training (Ballard) which makes them unsuitable for large scale assessment in many low-middle
+      income (LMI) countries. In the UK, the gestational age of babies of mothers with no antenatal
+      care requires a detailed clinical examination which can lack accuracy. Clinical assessment of
+      postnatal gestational age utilises anatomical characteristics of the face, ear and foot
+      during newborn development. There is an element of subjectiveness which reduces the precision
+      of such an assessment which is only reduced with significant training and experience. Simpler
+      techniques of postnatal gestational age assessment such as anthropometric measures are time
+      consuming and lack the accuracy required. Emerging evidence suggests that gestational age can
+      be calculated postnatally by measuring the newborn foot length and comparing to population
+      appropriate charts. However, when used on their own, the specificity and sensitivity are
+      still below acceptable limits to allow universal adoption.
+
+      New software-based analytical techniques now make it possible to perform fully automatic
+      recognition of facial actions and dimensions. The investigators have developed techniques
+      that allow live video facial feature identification and measurement using advanced analytical
+      techniques of muscle actions. These techniques have been used for facial expression analysis
+      as well as automated facial feature localization. The investigators propose that the same
+      analysis could be used to create a unique gestational age assessment tool using a simple
+      brief video clip of the newborns' face and foot.
+
+      Accurate assessment of gestational age, especially in LMI countries, could ensure high risk
+      newborns receive appropriate low cost interventions to reduce morbidity and mortality. In the
+      UK this could allow better estimation of babies born to mothers with no antenatal care where
+      the gestational age is unclear. We propose a smartphone based, ethnic appropriate, combined
+      face and foot video analysis tool to accurately determine gestational age of the newborn.
+      Such a system could adapted to incorporate pain assessment tools to help inform treatment
+      options and study new therapies.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2015</start_date>
+  <completion_date type="Actual">May 11, 2018</completion_date>
+  <primary_completion_date type="Actual">April 15, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Software analysis tool estimates the gestational age of a newborn baby to within 1 week of its actual gestation</measure>
+    <time_frame>12 months</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Quantification of pain from facial features during uncomfortable procedures.</measure>
+    <time_frame>12 months</time_frame>
+    <description>Comparison with two pain scores, the neonatal Pain Assessment Tool (PAT, scored 0 (no pain) to 10 (significant pain)) and the Neonatal Infant Pain Scale (NIPS, scored 0 (no pain) to 7 (significant pain)). The software will be calibrated from these pain scores. This approach hasn't previously been performed so the software scoring system will be developed alongside these commonly used measures.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">150</enrollment>
+  <condition>Immature Newborn</condition>
+  <condition>Premature Birth</condition>
+  <arm_group>
+    <arm_group_label>Newborn Infant</arm_group_label>
+    <description>Newborn babies (within 7 days of birth) born between 23-42 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Image acquisition</intervention_name>
+    <description>Images of baby's face (including ear) and feet</description>
+    <arm_group_label>Newborn Infant</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Newborn babies within 7 days of birth recruited from Nottingham University Hospitals NHS
+        Trust.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Where the baby's gestational age is known (based on antenatal care)
+
+          -  With written informed parental consent.
+
+        Exclusion Criteria:
+
+          -  No parental consent
+
+          -  Babies undergoing palliative care
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>6 Months</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Don Sharkey, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Nottingham</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Nottingham University Hospitals NHS Trust</name>
+      <address>
+        <city>Nottingham</city>
+        <state>Nottinghamshire</state>
+        <zip>NG72UH</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 4, 2015</study_first_submitted>
+  <study_first_submitted_qc>August 24, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 27, 2015</study_first_posted>
+  <last_update_submitted>May 11, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 11, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 14, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Gestation</keyword>
+  <keyword>Premature</keyword>
+  <keyword>Infants</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Premature Birth</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

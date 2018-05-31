@@ -1,0 +1,236 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03369886</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1708-037-058</org_study_id>
+    <nct_id>NCT03369886</nct_id>
+  </id_info>
+  <brief_title>The Relationship Between Macular OCTA and GCIPL and Their Combinational Index Using AI</brief_title>
+  <official_title>The Relationship Between Macular Optic Coherence Tomography Angiography and Ganglion Cell Layer and Their Combinational Index Using Artificial Neural Network</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Pusan National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Pusan National University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Macular GCIPLT and vessel density will be measured with Spectralis optical coherence
+      tomography and Topcon swept-source OCT respectively. Linear, quadratic and exponential
+      regression models will be used to investigate relationship between GCIPLT and vessel density.
+      Multilayer neural network will bel used to make single combined parameter and the diagnostic
+      performance will be also compared.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a prospective, cross-sectional study. All recruited glaucoma patients and healthy
+      subjects will be underwent a complete ophthalmic examination including measurement of the
+      best-corrected visual acuity (BCVA), a slit-lamp examination, gonioscopy, funduscopy,
+      biometry using the IOL Master (Carl Zeiss Meditec, Dublin, CA, USA), and standard automated
+      perimetry (SAP). Central corneal thickness (CCT) will be measured using ultrasonic pachymetry
+      (Pachmate; DGH Technology, Exton, PA, USA). Keratometry will be measured with an Auto
+      Kerato-Refractometer (ARK-510A; NIDEK, Hiroshi, Japan). All of the patients will be also
+      examined using red-free RNFL photographs and optic disc stereoscopic photographs. Two
+      different OCT exam will be performed to measure macular GCIPLT and macular vessel density,
+      spectral domain optic coherence tomography (SD-OCT) and swept source optic coherence
+      tomography angiography (SS-OCTA), respectively.
+
+      &lt;Optical Coherence Tomography Angiography Imaging&gt; The macular angiographic images will be
+      obtained using a swept-source OCT (SS-OCT) device (DRI OCT Atlantis; Topcon, Tokyo, Japan).
+      SS-OCT uses infrared light, wavelength of 1050 nm which is longer than conventional SD-OCT,
+      at 100,000 A-scans per second. This longer infrared light source has advantages of deep
+      signal penetration through the retina and choroid. Its axial and transversal resolution is 7
+      and 20 μm in tissue, respectively. Volumetric OCT scans were taken from 6 × 6 mm cubes. Each
+      cube consists of 320 clusters of 4 repeated B-scans centered on the fovea. Moving objects
+      (mostly blood flows) are detected by measuring intensity fluctuations from these repeatedly
+      scanned OCT images. This methodology is termed as OCTARA (OCT Angiography Ratio Analysis)
+      algorithm where calculations are based on a ratio between the intensity values across points
+      within one scan, and identical points in the repeated scans. OCTARA provides relative
+      sensitivity advantage of the order of 10 ~ 50 times for medium to low blood flow. Automated
+      segmentation was performed by OCT software to separate each layer of the retina. The en-face
+      images of the superficial capillary network were derived from an en-face slab, ranged from
+      the internal limiting membrane (ILM) to the inner border of the inner nuclear layer (INL).
+
+      The investigators developed a custom windows software with Microsoft Visual studio 2012 and
+      C# language with a dot net library. This software calculates the sectoral average vessel
+      density exactly matching to the GCIPL sectors. It requires two image files, superficial
+      vascular layer image and color vessel density map, exported from OCTA instrument. Once after
+      two image files were loaded, fovea is automatically detected but in case software fails, user
+      can manually set foveal location. Then, it calculates mean sectoral vessel density between
+      two ellipsoidal boundaries, outer boundary 4800 x 3000 µm and inner boundary 1200 x 1000 µm
+      (width x height) centered on fovea. This diameter of inner and outer ellipse and angle of
+      sectorization is exactly matched to the GCIPL sectorization. The mean vessel density was
+      calculated from color density map. First, custom software scans all pixel colors within the
+      sectoral boundary. Then, each pixel colors are converted to the vessel density values
+      according to the manufacturer's guide. Finally, it takes average of all vessel density
+      values. This mean vessel density is a unitless value ranged from 0 to 100.
+
+      &lt;Spectral-Domain Optical Coherence Tomography Imaging&gt; The Cirrus SD-OCT instrument (Carl
+      Zeiss Meditec, Software version 6.0) will be used to measure macular GCIPLT. After pupil
+      dilation using 0.5% tropicamide and 0.5% phenylephrine, a single macular scan (200 × 200
+      macular cube scan protocol) of each eye was acquired. The GCA algorithm automatically
+      segmented the GCIPL and RNFL and calculated the thickness of the macular GCIPL and RNFL
+      within a 14.13 mm2 elliptical annulus area centered on the fovea. The inner and outer
+      ellipsoidal boundary is exactly matched to the sectoral vessel density calculated by our
+      custom software. Average, minimum, and six sectoral (superotemporal, superior, superonasal,
+      inferonasal, inferior, and inferotemporal) GCIPLT values were obtained. For quality control,
+      the investigators set the minimum signal strength of all included SD-OCT scans to 6.0.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 25, 2017</start_date>
+  <completion_date type="Anticipated">August 31, 2018</completion_date>
+  <primary_completion_date type="Anticipated">August 31, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>3 subject groups:
+Normal control:
+Subjects who has normal fundus, normal visual field and normal intraocular pressure.
+Early glaucoma:
+: Patients who shows glaucomatous visual field abnormality but visual field mean deviation is &gt; -6 dB
+Advanced glaucoma : Patients who shows glaucomatous visual field abnormality but visual field mean deviation is &lt; -6 dB</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Vessel density</measure>
+    <time_frame>20 minutes</time_frame>
+    <description>Macular vessel density measured by optical coherence tomography angiography</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">206</enrollment>
+  <condition>Angiography</condition>
+  <condition>Glaucoma, Open-Angle</condition>
+  <arm_group>
+    <arm_group_label>Early glaucoma group</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Patients whose visual field mean deviation is &gt; -6dB OCT angiography will be taken but there are no difference between patients' group. The same OCT angiography protocol will be applied to all patients' group.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Advanced glaucoma group</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Patients whose visual field mean deviation is &lt; -6dB OCT angiography will be taken but there are no difference between patients' group. The same OCT angiography protocol will be applied to all patients' group.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Optical Coherence Tomography Angiography (OCTA)</intervention_name>
+    <description>The images will be obtained using a commercial swept-source OCT (SS-OCT) device (DRI OCT Atlantis; Topcon, Tokyo, Japan). SS-OCT uses infrared light, wavelength of 1050 nm which is longer than conventional SD-OCT, at 100,000 A-scans per second. This longer infrared light source has advantages of deep signal penetration through the retina and choroid. Its axial and transversal resolution is 7 and 20 μm in tissue, respectively. Volumetric OCT scans were taken from 6 × 6 mm cubes. Each cube consists of 320 clusters of 4 repeated B-scans centered on the fovea. Moving objects (mostly blood flows) are detected by measuring intensity fluctuations from these repeatedly scanned OCT images. Automated segmentation was performed by OCT software to separate each layer of the retina. The en-face images of the superficial capillary network were derived from an en-face slab, ranged from the internal limiting membrane (ILM) to the inner border of the inner nuclear layer (INL).</description>
+    <arm_group_label>Early glaucoma group</arm_group_label>
+    <arm_group_label>Advanced glaucoma group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  participants were age &gt; 18 years
+
+          -  clear cornea and clear ocular media
+
+          -  BCVA ≥ 20/40
+
+          -  a refractive error within ± 6.0 diopters (D), and astigmatism ± 3.0 D.
+
+        Exclusion Criteria:
+
+          -  History of diabetes, uveitis, secondary glaucoma
+
+          -  corneal abnormalities, non-glaucomatous optic neuropathies
+
+          -  Previous ocular trauma
+
+          -  Previous ocular surgery or laser treatment,
+
+          -  Any other eye disease except for glaucoma
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>19 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Pusan National University Hospital</name>
+      <address>
+        <city>Busan</city>
+        <zip>49214</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jiwoong Lee, M.D., Ph.D</last_name>
+      <phone>+821020407706</phone>
+      <email>alertlee@naver.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Keunheung Park, M.D.</last_name>
+      <phone>+821056540115</phone>
+      <email>climyth@naver.com</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <results_reference>
+    <citation>Lévêque PM, Zéboulon P, Brasnu E, Baudouin C, Labbé A. Optic Disc Vascularization in Glaucoma: Value of Spectral-Domain Optical Coherence Tomography Angiography. J Ophthalmol. 2016;2016:6956717. doi: 10.1155/2016/6956717. Epub 2016 Feb 22.</citation>
+    <PMID>26998352</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Rao HL, Pradhan ZS, Weinreb RN, Riyazuddin M, Dasari S, Venugopal JP, Puttaiah NK, Rao DA, Devi S, Mansouri K, Webers CA. A comparison of the diagnostic ability of vessel density and structural measurements of optical coherence tomography in primary open angle glaucoma. PLoS One. 2017 Mar 13;12(3):e0173930. doi: 10.1371/journal.pone.0173930. eCollection 2017.</citation>
+    <PMID>28288185</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Suh MH, Zangwill LM, Manalastas PI, Belghith A, Yarmohammadi A, Medeiros FA, Diniz-Filho A, Saunders LJ, Weinreb RN. Deep Retinal Layer Microvasculature Dropout Detected by the Optical Coherence Tomography Angiography in Glaucoma. Ophthalmology. 2016 Dec;123(12):2509-2518. doi: 10.1016/j.ophtha.2016.09.002. Epub 2016 Oct 18.</citation>
+    <PMID>27769587</PMID>
+  </results_reference>
+  <verification_date>December 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 6, 2017</study_first_submitted>
+  <study_first_submitted_qc>December 6, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 12, 2017</study_first_posted>
+  <last_update_submitted>December 28, 2017</last_update_submitted>
+  <last_update_submitted_qc>December 28, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 29, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>OCTA</keyword>
+  <keyword>Angiography</keyword>
+  <keyword>Artificial neural network</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Glaucoma, Open-Angle</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Unpersonalized measurement data and ophthalmic examination data can be shared with other researchers.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

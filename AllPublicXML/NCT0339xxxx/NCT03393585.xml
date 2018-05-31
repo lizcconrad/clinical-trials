@@ -1,0 +1,250 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03393585</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Resprate 2017</org_study_id>
+    <secondary_id>EKNZ 2017-01583</secondary_id>
+    <nct_id>NCT03393585</nct_id>
+  </id_info>
+  <brief_title>Respiratory Rates - Accuracy of Contact-free Monitoring of Respiratory Rates</brief_title>
+  <official_title>Respiratory Rates - Accuracy of Contact-free Monitoring of Respiratory Rates in the Triage Setting of an Emergency Department</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Christian Nickel</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Philips Healthcare</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Basel, Switzerland</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Respiratory rate is an important predictor for many clinical outcomes in Emergency Medicine.
+      Nevertheless it's measurement is often omitted as it is time-consuming and cumbersome. It is
+      the only vital sign that is not routinely assessed by a device. In a pilot study was showed
+      that a camera based monitoring system measures reliably respiratory rates in healthy
+      volunteers.
+
+      The goal of this study is to test the accuracy of the same system in real patients in the
+      triage setting of an Emergency Department (ED).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      For triage of emergency patients at the Emergency Department of the University Hospital Basel
+      the emergency severity index (ESI) is used. At decision point &quot;D&quot; in the ESI-algorithm vital
+      signs such as respiratory rate, heart rate and oxygen saturation are needed.
+
+      According to the guidelines the respiratory rate is visually counted for one minute
+      (WHOrecommendation) by a triage nurse.
+
+      Simultaneously in addition to the visual counting, it is planned to measure the same vital
+      sign as part of our study also through a camera-based prototype application (CBPA) and
+      capnography as a gold standard.
+
+      Hence the triage process is not prolongated through our study, only completed and a guideline
+      compliant procedure is ensured which is only performed in a relatively low percentage in the
+      ED of the University Hospital Basel. Clinical decisions are exclusively based on the actual
+      clinical standard of visual counting and are not influenced by the measurements of our study.
+
+      For the capnography, which were considered as the most accurate method, the patient wears a
+      nasal sample line (Philips® Heartstart MRx mit Philips® Smart CapnoLine™PlusO2Long Oral/Nasal
+      Sample Line).
+
+      The CBPA system consists of a notebook (HP Zbook 15 G3, S/N: CND705IXT6), USB-camera with
+      lens (Tamron CCTV lens, CE 4402789484; UI3060 camera, 20170329-E347840), USB-harddrive
+      (Western digital R/N D8B, S/N: WXA1E661J0XJ) to save the signals and an implement
+      camera-based algorithm for extraction of breathing signals. The camera is pointing towards
+      the torso of the patient to display it on the screen in a real-time application. The software
+      is able to detect the respiratory-specific chest movements and generates a respiratory wave
+      on the computer. From the configuration and frequency of these respiratory waves the software
+      calculates the respiratory rate. No videos are recorded.
+
+      The data is acquired in a standardised protocol and stored coded in an Access®-database. To
+      prevent potential bias the vital signs will be written down in the following order: 1. RR by
+      visual counting 2. RR by CBPA 3. RR by capnography. The measurements take place in rooms of
+      the ED which are designated to triage emergency patients.
+
+      As possible confounders sex, age and BMI are registered.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">December 23, 2017</start_date>
+  <completion_date type="Actual">April 6, 2018</completion_date>
+  <primary_completion_date type="Actual">April 6, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Specificity and sensitivity of the camera based prototype application (CBPA)</measure>
+    <time_frame>1 year</time_frame>
+    <description>In this study respiratory rates are obtained by 3 methods. 1. Camera based measurement, 2. with capnography and 3. with the WHO criterion standard of counting breaths for 1 Minute (18 measurements in whole). We want to study the Specificity and sensitivity of the CBPA compared to the gold standard (capnography)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Upgrade of patient's ESI level due to CBPA (from Level 3 to 2)</measure>
+    <time_frame>1 year</time_frame>
+    <description>Number of Patients with a RR measured by CBPA higher than 20 leading to an upgrade at decision Point D of the Triage algorithm (ESI)</description>
+  </secondary_outcome>
+  <enrollment type="Actual">650</enrollment>
+  <condition>Emergencies</condition>
+  <condition>Tachypnea</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>touchless vital signs monitoring</intervention_name>
+    <description>We measure Respiratory Rates in the Triage of Patients entering an Emergency Department by three different methods.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population will contain patients running through triage of the Emergency
+        Department with an indication for vital sign assessment. The data will only be collected in
+        the University Hospital of Basel.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All walk-in patients older than 18 with a presumed ESI score of 2-3 presenting to the
+             ED of the University Hospital of Basel will be eligible for inclusion.
+
+        Exclusion Criteria:
+
+          -  Excluded will be (1) patients brought in by ambulance or helicopter, (2) unstable
+             patients needing immediate medical treatment, (3) confused, restless, deaf patients
+             having difficulty to follow the study instructions (4) Clear signs of refusal to
+             participate the study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Christian H Nickel, PD Dr. med</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Emergency Department, University Hospital Basel</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University Hospital Basel</name>
+      <address>
+        <city>Basel</city>
+        <zip>4031</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <reference>
+    <citation>Hodgetts TJ, Kenward G, Vlachonikolis IG, Payne S, Castle N. The identification of risk factors for cardiac arrest and formulation of activation criteria to alert a medical emergency team. Resuscitation. 2002 Aug;54(2):125-31.</citation>
+    <PMID>12161291</PMID>
+  </reference>
+  <reference>
+    <citation>Strauß R, Ewig S, Richter K, König T, Heller G, Bauer TT. The prognostic significance of respiratory rate in patients with pneumonia: a retrospective analysis of data from 705,928 hospitalized patients in Germany from 2010-2012. Dtsch Arztebl Int. 2014 Jul 21;111(29-30):503-8, i-v. doi: 10.3238/arztebl.2014.0503.</citation>
+    <PMID>25142073</PMID>
+  </reference>
+  <reference>
+    <citation>Bone RC, Sprung CL, Sibbald WJ. Definitions for sepsis and organ failure. Crit Care Med. 1992 Jun;20(6):724-6.</citation>
+    <PMID>1597021</PMID>
+  </reference>
+  <reference>
+    <citation>Brabrand M, Havshøj U, Graham CA. Validation of the qSOFA score for identification of septic patients: A retrospective study. Eur J Intern Med. 2016 Dec;36:e35-e36. doi: 10.1016/j.ejim.2016.09.004. Epub 2016 Sep 15.</citation>
+    <PMID>27640097</PMID>
+  </reference>
+  <reference>
+    <citation>Mower WR, Sachs C, Nicklin EL, Safa P, Baraff LJ. A comparison of pulse oximetry and respiratory rate in patient screening. Respir Med. 1996 Nov;90(10):593-9.</citation>
+    <PMID>8959116</PMID>
+  </reference>
+  <reference>
+    <citation>Subbe CP, Kruger M, Rutherford P, Gemmel L. Validation of a modified Early Warning Score in medical admissions. QJM. 2001 Oct;94(10):521-6.</citation>
+    <PMID>11588210</PMID>
+  </reference>
+  <reference>
+    <citation>Goldhill DR, White SA, Sumner A. Physiological values and procedures in the 24 h before ICU admission from the ward. Anaesthesia. 1999 Jun;54(6):529-34.</citation>
+    <PMID>10403864</PMID>
+  </reference>
+  <reference>
+    <citation>Grossmann FF, Nickel CH, Christ M, Schneider K, Spirig R, Bingisser R. Transporting clinical tools to new settings: cultural adaptation and validation of the Emergency Severity Index in German. Ann Emerg Med. 2011 Mar;57(3):257-64. doi: 10.1016/j.annemergmed.2010.07.021. Epub 2010 Oct 16.</citation>
+    <PMID>20952097</PMID>
+  </reference>
+  <reference>
+    <citation>Hossein Nejad H, Banaie M, Seyedhosseini Davarani SH, Khazaeipour Z. Evaluation of the Significance of Vital Signs in the Up-Triage of Patients Visiting Emergency Department from Emergency Severity Index Level 3 to 2. Acta Med Iran. 2016 Jun;54(6):366-9.</citation>
+    <PMID>27306342</PMID>
+  </reference>
+  <reference>
+    <citation>Hogan J. Why don't nurses monitor the respiratory rates of patients? Br J Nurs. 2006 May 11-24;15(9):489-92.</citation>
+    <PMID>16723921</PMID>
+  </reference>
+  <reference>
+    <citation>Lovett PB, Buchwald JM, Stürmann K, Bijur P. The vexatious vital: neither clinical measurements by nurses nor an electronic monitor provides accurate measurements of respiratory rate in triage. Ann Emerg Med. 2005 Jan;45(1):68-76.</citation>
+    <PMID>15635313</PMID>
+  </reference>
+  <reference>
+    <citation>Edmonds ZV, Mower WR, Lovato LM, Lomeli R. The reliability of vital sign measurements. Ann Emerg Med. 2002 Mar;39(3):233-7.</citation>
+    <PMID>11867974</PMID>
+  </reference>
+  <reference>
+    <citation>Folke M, Cernerud L, Ekström M, Hök B. Critical review of non-invasive respiratory monitoring in medical care. Med Biol Eng Comput. 2003 Jul;41(4):377-83. Review.</citation>
+    <PMID>12892358</PMID>
+  </reference>
+  <reference>
+    <citation>Becker C, Achermann S, Rocque M, Kirenko I, Schlack A, Dreher-Hummel T, Zumbrunn T, Bingisser R, Nickel CH. Camera-based measurement of respiratory rates is reliable. Eur J Emerg Med. 2017 Jun 1. doi: 10.1097/MEJ.0000000000000476. [Epub ahead of print]</citation>
+    <PMID>28574856</PMID>
+  </reference>
+  <reference>
+    <citation>Flahault A, Cadilhac M, Thomas G. Sample size calculation should be performed for design accuracy in diagnostic test studies. J Clin Epidemiol. 2005 Aug;58(8):859-62.</citation>
+    <PMID>16018921</PMID>
+  </reference>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 21, 2017</study_first_submitted>
+  <study_first_submitted_qc>January 2, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 8, 2018</study_first_posted>
+  <last_update_submitted>April 20, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 20, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 23, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University Hospital, Basel, Switzerland</investigator_affiliation>
+    <investigator_full_name>Christian Nickel</investigator_full_name>
+    <investigator_title>PD MD</investigator_title>
+  </responsible_party>
+  <keyword>Respiratory Rates</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Emergencies</mesh_term>
+    <mesh_term>Tachypnea</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

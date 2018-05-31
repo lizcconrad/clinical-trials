@@ -1,0 +1,280 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03336554</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CBTRA-02</org_study_id>
+    <nct_id>NCT03336554</nct_id>
+  </id_info>
+  <brief_title>Epigenetic Biomarker for Osteosarcoma</brief_title>
+  <official_title>Indentifying Epigenetic Biomarkers From Peripheral Blood of Osteosarcoma Patients Based on hMe-Seal Technique</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University People's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Peking University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Northwestern University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Chicago</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Peking University People's Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      hMe-Seal is a low-input whole-genome cell-free 5hmC sequencing method based on selective
+      chemical labeling. It uses β-glucosyltransferase (βGT) to selectively label 5hmC with a
+      biotin via an azide-modified glucose for pull-down of 5hmC-containing DNA fragments for
+      sequencing. After selectively constructing 5hmC library, highthroughput-sequencing will be
+      performed on an Illumina Nextseq-500 instrument. By ways of Rawdata processing, differential
+      loci between Osteosarcoma group and control group will be detected to indentify specific
+      epigenetic biomarkers of Osteosarcoma.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigator want to enroll 100 osteosarcoma participants initially treated in
+      Musculoskeletal Tumor Center of Peking University People's Hospital(PKUPH). All those
+      participants will follow the chemo-protocol for osteosarcoma in PKUPH.8 ml of peripheral
+      blood would be drawed before each cycle of chemotherapy for further analysis. After
+      definitive surgery, participants will need to take 8ml of peripheral blood every 2 months for
+      6 months. A total of 6 times of blood drawing will need to be done.
+
+      In hMe-Seal approach, peripheral blood is collected into EDTA-coated Vacutainers. Plasma is
+      collected from the blood samples after centrifugation at 1 600× g for 10 min at 4 °C and 16
+      000× g at 10 min at 4 °C. CfDNA is extracted using the Circulating Nucleic Acid Kit(QIAGEN).
+      After that, cfDNA (1-10 ng) is end repaired, 3'-adenylated and ligated to DNA Barcodes using
+      KAPA Hyper Prep Kit (Kapa Biosystems). Ligated DNA is incubated in a solution containing
+      HEPES buffer, UDP-6-N3-Glc and βGT . After that, DBCO-PEG4-biotin is directly added to the
+      reaction mixture. Next, DNA is purified by Micro Bio-Spin 30 Column (Bio-Rad). The purified
+      DNA is incubated with M270 Streptavidin beads (Life Technologies) in specific buffer. The
+      beads are subsequently undergone three 5-min washes each with four kinds of different
+      buffers. All binding and washing are done at room temperature with gentle rotation. Beads are
+      then resuspended in water and amplified with 16 cycles of PCR amplification. The PCR products
+      are purified using AMPure XP beads. Pair-end 38bp sequencing is performed on the NextSeq-500
+      instrument.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 1, 2017</start_date>
+  <completion_date type="Anticipated">December 31, 2018</completion_date>
+  <primary_completion_date type="Anticipated">October 30, 2018</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>5 Years</target_duration>
+  <primary_outcome>
+    <measure>Histologic response</measure>
+    <time_frame>2 months</time_frame>
+    <description>For osteosarcoma, tumor necrosis rate will be done for every participant. On pathologic examination, the surgical specimens were carefully studied and sectioned. This evaluation included establishing the gross extent of the tumor[26, 27] and noting its soft tissue component and lines of surgical resection[27]. An average of 10-20 histologic specimens were examined in each of the en bloc resections to delineate the extension of osteosarcoma up and down the marrow cavity and to study the effects of chemotherapy on the tumor (viable, partially, largely, or totally necrotic), which were then calculated as tumor necrosis rate as paper described.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Objective Response Rate</measure>
+    <time_frame>2 months</time_frame>
+    <description>According to RECIST 1.1, participants who meet the criteria of complete response and partial response.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Progression-free survival</measure>
+    <time_frame>2 years</time_frame>
+    <description>Progression-free survival (PFS) will be calculated from the start of chemotherapy to first progression.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival</measure>
+    <time_frame>5 years</time_frame>
+    <description>Overall survival (OS) will be calculated from the start of chemotherapy to death.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Histologic Response (Tumor Necrosis Rate)</condition>
+  <condition>Objective Response Rate for Neoadjuvant Chemotherapy, ORR</condition>
+  <condition>Progression-free Survival, PFS</condition>
+  <condition>Overall Survival, OS</condition>
+  <arm_group>
+    <arm_group_label>observation group</arm_group_label>
+    <description>One group of participants are under observation. This trial has two phase. Phase I: 40 participants will be enrolled. Only if epigenetic cfDNA library has been built, investigators would move on to Phase II. Another 60 participants will be enrolled for further analysis.</description>
+  </arm_group>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Peripheral blood with enough free DNA should be segregation. If the peripheral blood is not
+      taken properly, it should be disposed of it or blood should be drawn again for DNA
+      amplication and analysis.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Biopsy proved high-grade osteosarcoma, who should be older than 10 years and could complete
+        routine chemo-protocol for osteosarcoma, could get enrolled.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  1) histologically confirmed high-grade osteosarcoma;
+
+          -  2) older than 10 yrs;
+
+          -  3) initially treated in Musculoskeletal Tumor Center of Peking University People's
+             Hospital;
+
+          -  4) Serum samples are available;
+
+          -  5) completed neo-adjuvant chemotherapy and at least 8 cycles of adjuvant chemotherapy;
+
+          -  6) expected to live longer than 3 months with Eastern Cooperative Oncology Group
+             performance status of 0 or 1;
+
+          -  7) acceptable hematologic, hepatic, and renal function.
+
+        Exclusion Criteria:
+
+          -  1) Serum samples are not qualified;
+
+          -  2) Patients who could not complete neo-adjuvant chemotherapy or at least 4-month
+             adjuvant chemotherapy;
+
+          -  3) lost to follow-up.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>10 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Wei Guo, M.D.and Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Musculoskeletal Tumor Center of Peking University People's Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Lu Xie, M.D.</last_name>
+    <phone>+86-13401044719</phone>
+    <email>sweetdoctor@163.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jie Xu, M.D</last_name>
+    <phone>+86-15901040835</phone>
+    <email>xujie_pkuph@sina.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Peking University People's Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <zip>100044</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Tingting Ren, Ph.D.</last_name>
+      <phone>+86-13810095026</phone>
+      <email>tumorcenter@163.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Bernthal NM, Federman N, Eilber FR, Nelson SD, Eckardt JJ, Eilber FC, Tap WD. Long-term results (&gt;25 years) of a randomized, prospective clinical trial evaluating chemotherapy in patients with high-grade, operable osteosarcoma. Cancer. 2012 Dec 1;118(23):5888-93. doi: 10.1002/cncr.27651. Epub 2012 May 30.</citation>
+    <PMID>22648705</PMID>
+  </reference>
+  <reference>
+    <citation>Bielack S, Jürgens H, Jundt G, Kevric M, Kühne T, Reichardt P, Zoubek A, Werner M, Winkelmann W, Kotz R. Osteosarcoma: the COSS experience. Cancer Treat Res. 2009;152:289-308. doi: 10.1007/978-1-4419-0284-9_15. Review.</citation>
+    <PMID>20213397</PMID>
+  </reference>
+  <reference>
+    <citation>Marina NM, Smeland S, Bielack SS, Bernstein M, Jovic G, Krailo MD, Hook JM, Arndt C, van den Berg H, Brennan B, Brichard B, Brown KLB, Butterfass-Bahloul T, Calaminus G, Daldrup-Link HE, Eriksson M, Gebhardt MC, Gelderblom H, Gerss J, Goldsby R, Goorin A, Gorlick R, Grier HE, Hale JP, Hall KS, Hardes J, Hawkins DS, Helmke K, Hogendoorn PCW, Isakoff MS, Janeway KA, Jürgens H, Kager L, Kühne T, Lau CC, Leavey PJ, Lessnick SL, Mascarenhas L, Meyers PA, Mottl H, Nathrath M, Papai Z, Randall RL, Reichardt P, Renard M, Safwat AA, Schwartz CL, Stevens MCG, Strauss SJ, Teot L, Werner M, Sydes MR, Whelan JS. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1): an open-label, international, randomised controlled trial. Lancet Oncol. 2016 Oct;17(10):1396-1408. doi: 10.1016/S1470-2045(16)30214-5. Epub 2016 Aug 25.</citation>
+    <PMID>27569442</PMID>
+  </reference>
+  <reference>
+    <citation>Duchman KR, Gao Y, Miller BJ. Prognostic factors for survival in patients with high-grade osteosarcoma using the Surveillance, Epidemiology, and End Results (SEER) Program database. Cancer Epidemiol. 2015 Aug;39(4):593-9. doi: 10.1016/j.canep.2015.05.001. Epub 2015 May 20.</citation>
+    <PMID>26002013</PMID>
+  </reference>
+  <reference>
+    <citation>Tang XD, Guo W, Yang RL, Yang Y, Ji T. [Limb salvage surgery for osteosarcoma around the knee in children and adolescent patients]. Zhonghua Wai Ke Za Zhi. 2007 May 15;45(10):669-72. Chinese.</citation>
+    <PMID>17688817</PMID>
+  </reference>
+  <reference>
+    <citation>Xie L, Guo W, Tang X, Yang Y, Xu J. Effects of Arsenic Trioxide on Minor Progressive High-Grade Osteosarcoma of the Extremities Metastatic to the Lung: Results of 39 Patients Treated in a Single Institution. Case Rep Oncol. 2016 Oct 17;9(3):610-628. eCollection 2016 Sep-Dec.</citation>
+    <PMID>27920692</PMID>
+  </reference>
+  <reference>
+    <citation>Guo W, Sun X, Ji T, Tang X. Outcome of surgical treatment of pelvic osteosarcoma. J Surg Oncol. 2012 Sep 15;106(4):406-10. doi: 10.1002/jso.23076. Epub 2012 Feb 27.</citation>
+    <PMID>22371155</PMID>
+  </reference>
+  <reference>
+    <citation>Fei D, Li Y, Zhao D, Zhao K, Dai L, Gao Z. Serum miR-9 as a prognostic biomarker in patients with osteosarcoma. J Int Med Res. 2014 Aug;42(4):932-7. doi: 10.1177/0300060514534643. Epub 2014 Jun 24.</citation>
+    <PMID>24962996</PMID>
+  </reference>
+  <reference>
+    <citation>Fu HL, Shao L, Wang Q, Jia T, Li M, Yang DP. A systematic review of p53 as a biomarker of survival in patients with osteosarcoma. Tumour Biol. 2013 Dec;34(6):3817-21. doi: 10.1007/s13277-013-0966-x. Epub 2013 Sep 7. Review.</citation>
+    <PMID>24014053</PMID>
+  </reference>
+  <reference>
+    <citation>Bachman M, Uribe-Lewis S, Yang X, Williams M, Murrell A, Balasubramanian S. 5-Hydroxymethylcytosine is a predominantly stable DNA modification. Nat Chem. 2014 Dec;6(12):1049-55. doi: 10.1038/nchem.2064. Epub 2014 Sep 21.</citation>
+    <PMID>25411882</PMID>
+  </reference>
+  <reference>
+    <citation>Valinluck V, Tsai HH, Rogstad DK, Burdzy A, Bird A, Sowers LC. Oxidative damage to methyl-CpG sequences inhibits the binding of the methyl-CpG binding domain (MBD) of methyl-CpG binding protein 2 (MeCP2). Nucleic Acids Res. 2004 Aug 9;32(14):4100-8. Print 2004.</citation>
+    <PMID>15302911</PMID>
+  </reference>
+  <reference>
+    <citation>Chapman CG, Mariani CJ, Wu F, Meckel K, Butun F, Chuang A, Madzo J, Bissonette MB, Kwon JH, Godley LA. TET-catalyzed 5-hydroxymethylcytosine regulates gene expression in differentiating colonocytes and colon cancer. Sci Rep. 2015 Dec 3;5:17568. doi: 10.1038/srep17568. Erratum in: Sci Rep. 2016 Apr 28;6:24963.</citation>
+    <PMID>26631571</PMID>
+  </reference>
+  <verification_date>November 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 6, 2017</study_first_submitted>
+  <study_first_submitted_qc>November 6, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 8, 2017</study_first_posted>
+  <last_update_submitted>November 8, 2017</last_update_submitted>
+  <last_update_submitted_qc>November 8, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 13, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>osteosarcoma</keyword>
+  <keyword>epigenetic biomarker</keyword>
+  <keyword>hMe-Seal technique</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Necrosis</mesh_term>
+    <mesh_term>Osteosarcoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>The investigators of this study would like to share IPD. However other cooperative institution's consent will be needed for sharing IPD.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

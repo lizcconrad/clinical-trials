@@ -1,0 +1,290 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01824654</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CE12.333</org_study_id>
+    <nct_id>NCT01824654</nct_id>
+  </id_info>
+  <brief_title>Enhanced Guidance for Endovascular Repair of Abdominal Aortic Aneurysm</brief_title>
+  <acronym>AAA 2D/3D II</acronym>
+  <official_title>Endovascular Repair of Abdominal Aortic Aneurysm: Enhanced Guidance by Elastic Registration Between CT-Scanner and Fluoroscopy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centre hospitalier de l'Université de Montréal (CHUM)</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Siemens AG</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Canadian Institutes of Health Research (CIHR)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Queen Elizabeth II Health Sciences Centre</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Centre hospitalier de l'Université de Montréal (CHUM)</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      An increasing incidence of abdominal aortic aneurysms (AAA) is observed in our ageing
+      population. Since it is less invasive, endovascular repair (EVAR) by stent-graft (SG)
+      insertion is frequently indicated in patients with intermediate and high-operative risk.
+      Patient selection and stent planning for EVAR is done on CT-scans based on specific anatomic
+      criteria. SG are inserted in the catheterization laboratory under digital substraction
+      angiography (DSA) and fluoroscopic guidance. With this technology, no soft-tissue
+      differentiation is available during the intervention and important information are lacking
+      such as thrombus and aneurysm extension close to proximal and distal landing zones. Our team
+      has recently patented a software allowing the extraction of the AAA (lumen and thrombus) from
+      pre-operative CT-scanner. In collaboration with Siemens medical, the investigators have
+      integrated this technology to the Siemens workstation in the catheterization laboratory. The
+      investigators can now import the aortic lumen and thrombus meshes segmented from
+      pre-operative CT-scans and perform a rigid registration with fluoroscopy and DSA data to
+      enhance visualization of soft tissue during EVAR.
+
+      Our preliminary results are encouraging in terms of feasibility and visualization. However,
+      the delivery device of the SG and the guidewire used during the intervention are stiff and
+      induce a deformation of aortic lumen and thrombus. This deformation impairs the accuracy of
+      rigid registration. The investigators propose to improve registration accuracy by
+      implementing an elastic deformation of aortic lumen and wall based on the segmentation of
+      endovascular devices (delivery device, guidewires and catheters) inserted during the
+      procedure and by biomechanical modeling.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This project has 3 objectives: 1. To implement and validate a new optimized workflow enabling
+      rigid registration between AAA meshes extracted from preoperative CT-scan with fluoroscopic
+      images. 2. To develop an elastic registration of the AAA meshes based on 2D or 3D modeling of
+      the endovascular device. 3. To validate the accuracy of elastic registration and compare it
+      with the rigid registration.
+
+      Experimental protocol: These 3 objectives will be completed in three experimental phases:
+
+        1. Improvement and implementation of the current rigid registration software. In this
+           phase, several new features such as an improved correction system by automatic capture
+           of DSA, an automated 3D/3D rigid registration, recognition of the origin of internal
+           iliac arteries will be implemented. This new beta version will be tested in 20 patients
+           at CHUM Research center and Dalhousie University-QEII Health Sciences Centre.
+
+        2. Implementation of an elastic registration based on endovascular device segmentation and
+           center line corrections. The luminal path of the segmented lumen on preoperative CT-scan
+           will be aligned with the path of the endovascular devices, then an elastic deformation
+           of the aortic lumen and thrombus meshes generated from CT-scanner will be applied and
+           registered to fluoroscopic and DSA images. A workflow allowing a fast recognition and
+           segmentation of endovascular devices from one to three stereotaxic fluoroscopic views
+           will be implemented in the Leonardo workstation and tested off-line on the previous 20
+           patient database and also in-vitro in realistic phantoms.
+
+        3. Online validation of elastic registration: The best strategy as defined above will be
+           validated clinically on-line. The beta version will be tested in real time in 20
+           patients requiring SG procedures and compared to the prior cohort having EVAR/FEVAR
+           procedures with rigid registration. The accuracy of rigid and elastic registrations will
+           be compared in the two experimental groups.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>April 2013</start_date>
+  <completion_date type="Anticipated">September 2017</completion_date>
+  <primary_completion_date type="Actual">June 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Clinical validation of the new rigid registration software</measure>
+    <time_frame>Day 0: On the first DSA acquisition performed after insertion of the main body device (before correction)</time_frame>
+    <description>The measure of the mean 2D error in the z axis (cranio-caudal direction) of the renal arteries marker positions on the first DSA acquisition performed after insertion of the main body delivery device (before correction). It will be measured after exportation of the video on the Leonardo screen overlaying DSA and rigid registration of AAA meshes and renal markers.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Clinical validation of the new elastic registration software</measure>
+    <time_frame>Day 0: On the first DSA acquisition performed after insertion of the main body delivery device (before correction)</time_frame>
+    <description>The measure of the mean 2D error of renal artery marker position (z direction) on the first DSA acquisition performed after insertion of the main body delivery device as describe in the clinical validation of the new rigid registration software.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Aortic Aneurysm, Abdominal</condition>
+  <arm_group>
+    <arm_group_label>Rigid and Elastic registration softwares</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Validation of the new rigid registration software</intervention_name>
+    <description>Several new features of this beta software such as an improved correction system by automatic capture of DSA, an automated 3D/3D rigid registration, recognition of the origin of internal iliac arteries will be implemented. This new beta version will be tested in 20 cases of EVAR/FEVAR at CHUM Research center and Dalhousie University-QEII Health Sciences Centre.</description>
+    <arm_group_label>Rigid and Elastic registration softwares</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Validation of the new elastic registration software</intervention_name>
+    <description>This software integrating deformation of vasculature induced by insertion of endovascular devices will be tested in real time in 20 patients requiring SG procedures at CHUM Research center and Dalhousie University-QEII Health Sciences Centre and compared to the prior cohort having EVAR/FEVAR procedures with rigid registration.</description>
+    <arm_group_label>Rigid and Elastic registration softwares</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients with a clinical indication for EVAR/FEVAR of AAA and meeting anatomic
+             inclusion criteria on preoperative enhanced CT-scan compatible with an endovascular
+             repair.
+
+          -  Willing and capable of providing informed consent
+
+        Exclusion Criteria:
+
+          -  Contraindication to endovascular repair
+
+          -  Creatinine clearance &lt; 30ml/min
+
+          -  History of severe allergy to iodinated contrast (anaphylaxis, bronchospasm)
+
+          -  Absence of recent previous thin-slice enhanced CT-scanner examination (stent planning
+             based on MRI examination or non-enhanced CT examination).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gilles Soulez, MD,MSc</last_name>
+    <role>Study Director</role>
+    <affiliation>Centre hospitalier de l'Université de Montréal (CHUM)</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Dominique Aubin, MSc</last_name>
+    <phone>514-890-8000</phone>
+    <phone_ext>23483</phone_ext>
+    <email>dominique.aubin.chum@ssss.gouv.qc.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jennifer Satterthwaite, M.Sc.</last_name>
+    <phone>514-890-8000</phone>
+    <phone_ext>23483</phone_ext>
+    <email>jennifer.satterthwaite.chum@ssss.gouv.qc.ca</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Queen Elizabeth II Health Science Centre</name>
+      <address>
+        <city>Halifax</city>
+        <state>Nova Scotia</state>
+        <zip>B3H 2Y9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Christopher Lightfoot, MD</last_name>
+      <phone>902-473-2018</phone>
+      <email>cblightf@dal.ca</email>
+    </contact>
+    <investigator>
+      <last_name>Christopher Lightfoot, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Hospitalier de l'université de Montréal</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H2L 4M1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Dominique Aubin, MSc</last_name>
+      <phone>514-890-8000</phone>
+      <phone_ext>23483</phone_ext>
+      <email>dominique.aubin.chum@ssss.gouv.qc.ca</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jennifer Satterthwaite, M.Sc.</last_name>
+      <phone>514-890-8000</phone>
+      <phone_ext>23483</phone_ext>
+      <email>jennifer.satterthwaite.chum@ssss.gouv.qc.ca</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Gilles Soulez, MD.M.Sc.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Guy Cloutier, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jacques DeGuise, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Stéphane Elkoury, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Claude Kauffmann, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>An Tang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Éric Therasse, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>September 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 2, 2013</study_first_submitted>
+  <study_first_submitted_qc>April 4, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 5, 2013</study_first_posted>
+  <last_update_submitted>August 2, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 2, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 3, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Aortic Aneurysm, Abdominal</keyword>
+  <keyword>Imaging, Three-Dimensional</keyword>
+  <keyword>Tomography Scanners, X-Ray Computed</keyword>
+  <keyword>Angiography, Digital Subtraction</keyword>
+  <keyword>Endovascular Procedures</keyword>
+  <keyword>Radiography, Interventional</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Aneurysm</mesh_term>
+    <mesh_term>Aortic Aneurysm</mesh_term>
+    <mesh_term>Aortic Aneurysm, Abdominal</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,707 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02598492</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2015P001945</org_study_id>
+    <nct_id>NCT02598492</nct_id>
+  </id_info>
+  <brief_title>Imputation of PaO2 From SaO2</brief_title>
+  <official_title>Imputation of PaO2 From SaO2 in the Respiratory Component of the Sequential Organ Failure Assessment (SOFA) Score</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Chinese PLA General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tianjin Nankai Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Fudan University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Peking Union Medical College Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Navy General Hospital, Beijing</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Gansu Provincial Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Shanxi Dayi Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Chengdu PLA General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>First Hospital of Jilin University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Second Hospital of Hebei Medical University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>307 Hospital of PLA</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Beijing 302 Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Guang'anmen Hospital of China Academy of Chinese Medical Sciences</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Peking University First Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>First Teaching Hospital of Tianjin University of Traditional Chinese Medicine</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aims of this study are (1) to find out the relationship between PaO2 and SaO2 among
+      mechanically ventilated patients and (2) to create a reliable system to utilize SF ratios to
+      impute the PF ratios in assessing the respiratory parameter of the SOFA score.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The Sequential Organ Failure Assessment (SOFA) score is validated as a measure of severity of
+      illness over time in intensive care unit (ICU) patients and can be used to follow the course
+      of organ dysfunction and response to treatment1. SOFA has become a frequently used scoring
+      system of patients in multi-organ failure, given its high sensitivity and specificity as a
+      predictor of morbidity and mortality in critically ill patients2. The severity of respiratory
+      dysfunction is measured in the SOFA score by PaO2/FiO2 (PF) ratio, which is also used as a
+      measure of severity of hypoxemia in patients with acute respiratory distress syndrome (ARDS).
+
+      An invasive sampling of arterial blood gas (ABG) is required to measure the PaO2 for the PF.
+      Often, patients with less severe hypoxemia may not clinically undergo ABG testing on a
+      routine basis; hence the clinical and research utility of the SOFA scoring system is reduced.
+      Furthermore, previous studies revealed concerns about anemia following repeated blood
+      sampling; hence, the tendency to implement less invasive approaches have led to less frequent
+      ABG measurements in critically ill patients3. However, almost all ICU patients are monitored
+      with pulse oximeters, which measure the percent saturation of hemoglobin with oxygen (SpO2).
+      Whether SpO2 can be used to impute PaO2 for determining the PF ratio has not been robustly
+      evaluated in a prospective study of critically ill patients.
+
+      Prior work investigating the association between PaO2 and SpO2 includes a post hoc study of
+      ARDS Network patients4. This study excluded patients at altitude, used a linear model for a
+      highly non-linear relationship, and could not determine whether SpO2 and PaO2 were
+      simultaneously measured. A similar approach was applied to ARDS Network patients to derive an
+      SpO2-based respiratory subscore of the SOFA score5. Several similar, retrospective studies
+      have been performed in mechanically ventilated children, consistently using linear models of
+      correlation between SF and PF ratios, with similar limitations6-9.
+
+      The Ellis inversion10 of the Severinghaus equation11 provides a useful non-linear method for
+      imputing PaO2 from SaO2. This technique has been used in multiple cohorts of patients with
+      pneumonia12-14. This simple calculation can be improved by incorporating PaCO2 and pH values,
+      which could be available from venous blood gases that may be obtained in patients without
+      arterial catheters. Because Severinghaus/Ellis estimates SaO2, a method for estimating SaO2
+      from SpO2 is necessary. There is no current validated and reliable method for calculating
+      SaO2 on the basis of a measured SpO2. Skin pigmentation affects accuracy of SpO2, as do sex
+      and oximeter type15,16.
+
+      The aims of this study are (1) to find out the relationship between PaO2 and SaO2 among
+      mechanically ventilated patients and (2) to create a reliable system to utilize SF ratios to
+      impute the PF ratios in assessing the respiratory parameter of the SOFA score.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>September 2015</start_date>
+  <completion_date type="Anticipated">September 2017</completion_date>
+  <primary_completion_date type="Anticipated">September 2017</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Year</target_duration>
+  <primary_outcome>
+    <measure>To evaluate the relationship between PaO2 and SaO2 among mechanically ventilated patients</measure>
+    <time_frame>one year</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>To utilize SF ratios to impute the PF ratios in assessing the respiratory parameter of the SOFA score</measure>
+    <time_frame>one year</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Acute Respiratory Failure</condition>
+  <arm_group>
+    <arm_group_label>Imputation of SF to PF</arm_group_label>
+    <description>Patients required invasive mechanical ventilation within 6 hours after intubation</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>arterial blood gas</intervention_name>
+    <description>Just record clinical lab data</description>
+    <arm_group_label>Imputation of SF to PF</arm_group_label>
+    <other_name>oxygena saturation</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adults &gt; 18 years old who are invasively mechanically ventilated in an ED or ICU
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Mechanically ventilated patient in a participating ICU or ED.
+
+          2. Arterial blood gas ordered and obtained for clinical reasons.
+
+        Exclusion Criteria:
+
+          1. Age &lt; 18 years
+
+          2. Pregnancy
+
+          3. Prisoners
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Peter C Hou, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Peter C Hou, MD</last_name>
+    <phone>617-732-5640</phone>
+    <email>phou@bwh.harvard.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Yuning Shih, MD</last_name>
+    <phone>626-841-9207</phone>
+    <email>yshih6@partners.org</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Brigham and Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Peter C Hou, MD</last_name>
+      <phone>617-732-5640</phone>
+      <email>phou@bwh.harvard.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Yuning Shih, MD</last_name>
+      <email>yshih6@partners.org</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Gansu Provinical Hospital</name>
+      <address>
+        <city>Lanzhou</city>
+        <state>Gansu</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Xiandong Wang, MD</last_name>
+      <email>wxd_724@163.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Second Hospital of Hebei Medical University</name>
+      <address>
+        <city>Shijiazhuang</city>
+        <state>Hebei</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Jian-ling Su, MD</last_name>
+      <email>13230161096@163.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>First Affiliated Hospital of Jilin University</name>
+      <address>
+        <city>Jilin</city>
+        <state>Jilin</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ming-li Sun, MD</last_name>
+      <email>sunmingli_1972@163.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Shanxi Dayi Hospital</name>
+      <address>
+        <city>Dayi</city>
+        <state>Shanxi</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Weidong Wu, MD</last_name>
+      <email>13503545010@163.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Chengdu Military General Hospital</name>
+      <address>
+        <city>Chengdu</city>
+        <state>Sichuan</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Fuxiang Li, MD</last_name>
+      <email>lfx98@163.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>301 People's Liberation Army General Hospital (PLAGH)</name>
+      <address>
+        <city>Beijing</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Hong-jun Kang, MD</last_name>
+      <email>doctorklbd@126.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Feihu Zhou, MD, PhD</last_name>
+      <email>zhoufh301@126.com</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>302 Military Hospital of China</name>
+      <address>
+        <city>Beijing</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ke Li, MD</last_name>
+      <email>like_icu@163.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>307 Military Hospital of China</name>
+      <address>
+        <city>Beijing</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Yan Li, MD</last_name>
+      <email>liyanmdhuxi@163.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Guang An Men Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Hai-tao Lan, MD</last_name>
+      <email>Lan.haitao@mayo.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Guang-xi Li, MD</last_name>
+      <email>Li.Guangxi@mayo.edu</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Peking Union Medical College Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Chun-Ting Wang, MD</last_name>
+      <email>bjwct@163.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jun Xu, MD</last_name>
+      <email>xujunfree@126.com</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Peking University First Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Xie Min, MD</last_name>
+      <email>xiemin0913@163.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Dong-Xin Wang, MD</last_name>
+      <email>wangdongxin@hotmail.com</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>PLA Navy General Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Yuhong Liu, MD</last_name>
+      <email>doctorliu1974@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Zhongshan Hospital Fudan University</name>
+      <address>
+        <city>Shanghai</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Jun Yin, MD</last_name>
+      <email>yin.jun@zs-hospital.sh.cn</email>
+    </contact>
+    <contact_backup>
+      <last_name>Yuan-Lin Song, MD</last_name>
+      <email>song.yuanlin@zs-hospital.sh.cn</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Chun-Xue Bai, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>First Teaching Hospital of Tianjin University of Traditional Chinese Medicine</name>
+      <address>
+        <city>Tianjin</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Mengyuan Guo, MD</last_name>
+      <email>guomy1979@163.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Tianjin Nankai Hospital</name>
+      <address>
+        <city>Tianjin</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Wei Shao, MD</last_name>
+      <email>shaoweimaomao@126.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Chiayi Chang Gung Memorial Hospital</name>
+      <address>
+        <city>Chiayi</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Tsung-Ming Yang, MD</last_name>
+      <email>n120633@cgmh.org.tw</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Kaohsiung Chang Gung Memorial Hospital</name>
+      <address>
+        <city>Kaohsiung</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Shih-Feng Liu, MD, PhD</last_name>
+      <email>liuphysico@yahoo.com.tw</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Kaohsiung Medical University Hospital</name>
+      <address>
+        <city>Kaohsiung</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Chau-Chyun Sheu, MD</last_name>
+      <email>sheucc@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Linkou Chang Gung Memorial Hospital</name>
+      <address>
+        <city>Linkou</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Kuo-Chin Kao, MD, PhD</last_name>
+      <email>kck0502@cgmh.org.tw</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>National Taiwan University Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Shuenn-Wen Kou, MD</last_name>
+      <email>Shuenn8@gmail.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Yih-Sharng Chen, MD, PhD</last_name>
+      <email>yschen11@ntu.edu.tw</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>National Yang-Ming University Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Cheng-Yu Chen, MD, PhD</last_name>
+      <email>david.chengyu@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Taipei City Hospital, Heping-Fuyou branch</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Hsi Chu, MD</last_name>
+      <email>juicymd88@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Taipei Medical University Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Sen-Kuang Hou, MD</last_name>
+      <email>kuanglfang@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Taipei Veterans General Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Kuang-Yao Yang, MD, PhD</last_name>
+      <email>kyyang@vghtpe.gov.tw</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+    <country>Taiwan</country>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Vincent JL, de Mendonça A, Cantraine F, Moreno R, Takala J, Suter PM, Sprung CL, Colardyn F, Blecher S. Use of the SOFA score to assess the incidence of organ dysfunction/failure in intensive care units: results of a multicenter, prospective study. Working group on &quot;sepsis-related problems&quot; of the European Society of Intensive Care Medicine. Crit Care Med. 1998 Nov;26(11):1793-800.</citation>
+    <PMID>9824069</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Vincent JL, Ferreira F, Moreno R. Scoring systems for assessing organ dysfunction and survival. Crit Care Clin. 2000 Apr;16(2):353-66. Review.</citation>
+    <PMID>10768086</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ferguson ND, Frutos-Vivar F, Esteban A, Fernández-Segoviano P, Aramburu JA, Nájera L, Stewart TE. Acute respiratory distress syndrome: underrecognition by clinicians and diagnostic accuracy of three clinical definitions. Crit Care Med. 2005 Oct;33(10):2228-34.</citation>
+    <PMID>16215375</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Rice TW, Wheeler AP, Bernard GR, Hayden DL, Schoenfeld DA, Ware LB; National Institutes of Health, National Heart, Lung, and Blood Institute ARDS Network. Comparison of the SpO2/FIO2 ratio and the PaO2/FIO2 ratio in patients with acute lung injury or ARDS. Chest. 2007 Aug;132(2):410-7. Epub 2007 Jun 15.</citation>
+    <PMID>17573487</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Pandharipande PP, Shintani AK, Hagerman HE, St Jacques PJ, Rice TW, Sanders NW, Ware LB, Bernard GR, Ely EW. Derivation and validation of Spo2/Fio2 ratio to impute for Pao2/Fio2 ratio in the respiratory component of the Sequential Organ Failure Assessment score. Crit Care Med. 2009 Apr;37(4):1317-21. doi: 10.1097/CCM.0b013e31819cefa9.</citation>
+    <PMID>19242333</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Khemani RG, Patel NR, Bart RD 3rd, Newth CJL. Comparison of the pulse oximetric saturation/fraction of inspired oxygen ratio and the PaO2/fraction of inspired oxygen ratio in children. Chest. 2009 Mar;135(3):662-668. doi: 10.1378/chest.08-2239. Epub 2008 Nov 24.</citation>
+    <PMID>19029434</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Khemani RG, Thomas NJ, Venkatachalam V, Scimeme JP, Berutti T, Schneider JB, Ross PA, Willson DF, Hall MW, Newth CJ; Pediatric Acute Lung Injury and Sepsis Network Investigators (PALISI). Comparison of SpO2 to PaO2 based markers of lung disease severity for children with acute lung injury. Crit Care Med. 2012 Apr;40(4):1309-16. doi: 10.1097/CCM.0b013e31823bc61b.</citation>
+    <PMID>22202709</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Thomas NJ, Shaffer ML, Willson DF, Shih MC, Curley MA. Defining acute lung disease in children with the oxygenation saturation index. Pediatr Crit Care Med. 2010 Jan;11(1):12-7. doi: 10.1097/PCC.0b013e3181b0653d.</citation>
+    <PMID>19561556</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Lobete C, Medina A, Rey C, Mayordomo-Colunga J, Concha A, Menéndez S. Correlation of oxygen saturation as measured by pulse oximetry/fraction of inspired oxygen ratio with Pao2/fraction of inspired oxygen ratio in a heterogeneous sample of critically ill children. J Crit Care. 2013 Aug;28(4):538.e1-7. doi: 10.1016/j.jcrc.2012.12.006. Epub 2013 Feb 8.</citation>
+    <PMID>23395312</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ellis RK. Determination of PO2 from saturation. J Appl Physiol (1985). 1989 Aug;67(2):902.</citation>
+    <PMID>2793692</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Severinghaus JW. Simple, accurate equations for human blood O2 dissociation computations. J Appl Physiol Respir Environ Exerc Physiol. 1979 Mar;46(3):599-602.</citation>
+    <PMID>35496</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Lanspa MJ, Jones BE, Brown SM, Dean NC. Mortality, morbidity, and disease severity of patients with aspiration pneumonia. J Hosp Med. 2013 Feb;8(2):83-90. doi: 10.1002/jhm.1996. Epub 2012 Nov 26.</citation>
+    <PMID>23184866</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Dean NC, Jones JP, Aronsky D, Brown S, Vines CG, Jones BE, Allen T. Hospital admission decision for patients with community-acquired pneumonia: variability among physicians in an emergency department. Ann Emerg Med. 2012 Jan;59(1):35-41. doi: 10.1016/j.annemergmed.2011.07.032. Epub 2011 Sep 9.</citation>
+    <PMID>21907451</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Brown SM, Jones BE, Jephson AR, Dean NC; Infectious Disease Society of America/American Thoracic Society 2007. Validation of the Infectious Disease Society of America/American Thoracic Society 2007 guidelines for severe community-acquired pneumonia. Crit Care Med. 2009 Dec;37(12):3010-6. doi: 10.1097/CCM.0b013e3181b030d9.</citation>
+    <PMID>19789456</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Bickler PE, Feiner JR, Severinghaus JW. Effects of skin pigmentation on pulse oximeter accuracy at low saturation. Anesthesiology. 2005 Apr;102(4):715-9.</citation>
+    <PMID>15791098</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Feiner JR, Severinghaus JW, Bickler PE. Dark skin decreases the accuracy of pulse oximeters at low oxygen saturation: the effects of oximeter probe type and gender. Anesth Analg. 2007 Dec;105(6 Suppl):S18-23, tables of contents.</citation>
+    <PMID>18048893</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Utada K, Matayoshi Y, Fujita F, Nakamura K, Matsuda N, Kondoh K, Tamura H. [Equilibration period for PaO2 following alteration of FIO2 in mechanically ventilated patients]. Masui. 2000 Mar;49(3):312-5. Japanese.</citation>
+    <PMID>10752330</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Fildissis G, Katostaras T, Moles A, Katsaros A, Myrianthefs P, Brokalaki H, Tsoumakas K, Baltopoulos G. Oxygenation equilibration time after alteration of inspired oxygen in critically ill patients. Heart Lung. 2010 Mar-Apr;39(2):147-52. doi: 10.1016/j.hrtlng.2009.06.009. Epub 2009 Aug 13.</citation>
+    <PMID>20207275</PMID>
+  </results_reference>
+  <verification_date>July 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 4, 2015</study_first_submitted>
+  <study_first_submitted_qc>November 4, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 6, 2015</study_first_posted>
+  <last_update_submitted>July 13, 2017</last_update_submitted>
+  <last_update_submitted_qc>July 13, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 17, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Peter Chuanyi Hou</investigator_full_name>
+    <investigator_title>Associate Physician</investigator_title>
+  </responsible_party>
+  <keyword>Mechanical Ventilator</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Respiratory Insufficiency</mesh_term>
+    <mesh_term>Respiratory Distress Syndrome, Adult</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

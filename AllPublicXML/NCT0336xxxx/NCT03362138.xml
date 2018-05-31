@@ -1,0 +1,373 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03362138</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AQ16842</org_study_id>
+    <nct_id>NCT03362138</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence-assisted Evaluation of Pigmented Skin Lesions</brief_title>
+  <acronym>NNCD</acronym>
+  <official_title>Dermoscopy Evaluation of Pigmented Skin Lesions by a Neuronal Network Clinical Decision Support: an Open Prospective Non Interventional Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assuta Hospital Systems</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Assuta Hospital Systems</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Malignant melanoma (MM) is a deadly cancer, claiming globally about 160000 new cases per year
+      and 48000 deaths at a 1:28 lifetime incidence (2016).
+
+      The golden standard, dermoscopy, enables Dermatologists to diagnose with a sensitivity of
+      40%, and a 8-12% specificity, approximately. Additional diagnostic abilities are restricted
+      to devices which are either unproved or experimental.
+
+      A new technology of Neuronal Network Clinical Decision Support (NNCD) was developed. It uses
+      a dermoscopic imaging device and a camera able to capture an image. The photo is transferred
+      to a Cloud Server and further analyzed by a trained classifier. Classifier training is aimed
+      at a high accuracy diagnosis of Dysplastic Nevi (DN), Spitz Nevi and Malignant Melanoma
+      detection with assistance from a Deep Neuronal Learning network (DLN). Diagnosis output is an
+      excise or do not excise recommendation for pigmented skin lesions.
+
+      A total of 80 subjects already referred to biopsy pigmented skin lesions will be examined by
+      dermoscopy imaging in a non interventional study. Artificial Intelligence output results, as
+      measured by 2 different dermoscopes, to be compared to ground truth biopsies.
+
+      Primary endpoints are sensitivity and specificity detection of the NNCD techniques. Secondary
+      endpoints are the positive and negative prediction ratios of NNCD techniques.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background
+
+      Malignant melanoma (MM) is a deadly cancer, claiming globally about 160000 new cases per year
+      and 48000 deaths [1]. The incidence rate for MM ascended between 1950 and 2007 more than
+      17-fold in men (1.9 to 33.5 per 100,000) and more than 9-fold in women (2.6 to 25.3 per
+      100,000) [2]. It is estimated that 76000 new cases and 9000 deaths are diagnosed/ year (US,
+      only, 2017) [3]. European Countries yield 22000/yr. stage 4 melanomas.
+
+      MM starts de novo in about 70% of subjects, with a small 2 millimeters or more superficial
+      skin lesion which, if left undiagnosed, might develop into a more advanced stage cancer,
+      followed by silent lymph node spreading and invasion of vital organs such as liver and brain.
+      MM is staged by either direct invasion into the skin, the Breslow scale in mm, or by its skin
+      level involvement, a Clark 1-5 structural skin level of involvement. Both methods of
+      assessment are predictors of long term survival, which is almost unchanged at a Breslow depth
+      beneath 1 mm and much decreased beyond Clark III stage. Therefore early detection of
+      melanoma, generally tagged as small melanoma, is critical.
+
+      Present Methodologies of MM detection
+
+      The following different methods and diagnostic means for detection of the cutaneous melanoma
+      are currently employed as a means of diagnosis:
+
+        1. Visual recognition by an Asymmetry, Border, Color, Diameter and Evolvement (ABCDE rule).
+           A 30 year old methodology and still running, assessing: ABCDE. It is used by part of US
+           dermatologists who trust their clinical skills and instincts [4]. Due to its innate
+           complexity and myriad of recognition patterns, dermoscopy by epiluminescence microscopy
+           is considered as ineffective by 60% of the non users dermatologists and 30% report it as
+           time consuming, rendering it impracticable. The abovementioned rule was reviewed in 2015
+           [5] and teaches the use of a diameter greater than 6 mm as a criteria for melanoma
+           recognition. Consequently, it does not contribute to early detection of a melanoma,
+           which might be life saving, since 70-80% of melanomas start de novo as small melanomas.
+           An attempt to change the Diameter criteria, i.e. a decrease in the postulated 6 mm
+           Diameter, leads to a major decrease in sensitivity and specificity, rendering the ABCDE
+           ineffective for early melanoma detection. It is concluded that these basic visual
+           criteria, although widely used, are a non effective prevention method due to their
+           innate criteria which misses the evolving melanomas, since all melanomas start as small
+           melanomas.
+
+        2. Epiluminescence microscopy is a 65 years old art, which is considered the golden
+           standard of evaluation. It is highly dependent on the skills and knowledge of the
+           diagnostician. Epiluminescence microscopy is a the bridge between clinical observation
+           and histopathological diagnosis. It allows visualization of skin pigments up to the
+           papillary dermis and improves detection sensitivity and specificity. Analysis is made by
+           a clinician based on dermoscopy rules [6], which are based on a complicated dermoscopic
+           pattern analysis.
+
+           Complete dermoscopic pattern analysis of a lesion is the mainstream of diagnosis. Each
+           of the dermoscopic patterns can diverge in extent, diameter, general or local
+           appearance, or evolve as multi patterns with various area of expression on the same
+           lesion and rendering the diagnosis beyond an encyclopedic task.
+
+           Due to the complexity of the dermoscopic pattern analysis method, different
+           modifications were proposed, such as a simplified ABCD rule, an intermediate 7 rules
+           assessment and a 11 rules checklist. The myriad of data and its interpretation render
+           even experts in dermoscopy to identify melanomas with a relative low ratio from 5:1 to
+           15:1, i.e. the number of biopsies of benign lesions performed in order to make the
+           diagnosis of one skin melanoma.
+
+           Furthermore, there are claims that one diagnostic sign might be more sensitive that
+           other signs, alike the criteria of a light brown structureless area. Dermatologists
+           commonly fail in diagnosing early small melanoma which is the critical period of growth
+           of the tumor and most efficacious prevention.
+
+        3. Visual recognition by temporal total body photography is yet non standardized
+           methodology, a time consuming and patient expensive procedure. It uses the human
+           comparison assessment and is subjected to biases of pixel photo during performance of
+           the measurement, due to lighting, background and camera position. Addition of patient
+           assessment by artificial intelligence, an analysis based on computer evaluation of
+           different colorimetric and geometric parameters of a lesion in real time, confer a
+           limited advantage only, yielding sometimes more false positives compared to
+           inexperienced or even experienced clinicians.
+
+        4. Multi Spectrometry devices, which provide measurements of melanin, collagen and
+           hemoglobin with further use of image analysis, do not confer any advantage to
+           epiluminescence microscopy. Although displaying a higher sensitivity, these
+           methodologies specificity are considerably below that of simple epiluminescence
+           microscopy in melanoma identification rate .
+
+        5. Confocal scanning microscopy, a procedure which uses a low power laser for a 3D imaging.
+           An effective means of diagnosis. However, the use of this methodology is limited by its
+           high cost, a prolonged (6 mo) learning curve of 2000-4000 images, and the requirement
+           for a highly specialized and trained personal, since this methodology is highly
+           subjected to artifacts.
+
+        6. Experimental under development methods: alike Electrical impedance spectroscopy, Optical
+           coherence tomography, High frequency ultrasound, Laser doppler perfusion imaging,
+           Dynamic thermal imaging, Photoacoustic microscopy, to be further developed and proved.
+
+      Clinical Requirements
+
+      It is desirable to identify a new non invasive methodology which will
+
+        1. Improve Sensitivity of diagnosis of pigmented skin lesions, alike dysplastic nevi, Spitz
+           nevi and MM
+
+        2. Identify small MM,
+
+        3. Increase Specificity of lesions to be biopsied
+
+        4. Non invasive fast technology.
+
+      Common Practice
+
+      Commonly, a patient is evaluated by a physician due to either a skin lesion complaint or,
+      with high risk patients, a summon to visit on a regular basis.
+
+      Only some of the dermatologists employ dermoscopy or are skilled to use it since it may seem
+      to be time consuming. There is no international standard of degree of skill. Even a golden
+      standard textbook of dermoscopy is not existent.
+
+      Upon recognition of suspicious lesion, patient is referred to a surgeon for biopsy.
+
+      As recently reviewed and in view of the above-mentioned, the incidence of melanoma is
+      continuing to increase. All present methods commonly do not diagnose melanoma at an early
+      stage and epiluminescence microscopy is highly user dependant and commonly misses the
+      diagnosis . Early excision is the only strategy to reduce the death toll associated with
+      melanoma. Unnecessary excision of benign lesions increases morbidity and raise healthcare
+      costs associated with melanoma screening, resulting in recommended restrictions to a total
+      body screening by Surgeon General (2016) and questioning the efficacy of such a screening.
+
+      The requirement for a more systemized methodology and system is obvious in view of the
+      expected increase in melanoma incidence to a 1:15 within the next 15 years. A new device able
+      to capture the window of opportunity of Dysplastic Nevus to small melanoma is highly useful
+      for today healthcare systems.
+
+      Primary Study Objectives
+
+        -  A Sensitivity of at least 75% for Classifier results as compared to biopsy Sensitivity
+           is the percentage of correctly diagnosed dysplastic nevi, Spitz nevi or melanomas. [
+           Designated as safety issue: No ].
+
+        -  A Sensitivity of at least 85% for an Modified Classifier Technology (MCT) results as
+           compared to biopsy. Sensitivity is the percentage of correctly diagnosed dysplastic
+           nevi, Spitz nevi or melanomas. [ Designated as safety issue: No ]
+
+        -  A Specificity of at least 33% for Classifier results as compared to biopsy. Specificity
+           is the percentage of correctly identified dysplastic nevi, Spitz nevi or melanomas. [
+           Designated as safety issue: No ]
+
+        -  A Specificity of at least 33% for MCT results as compared to biopsy. Specificity is the
+           percentage of correctly identified dysplastic nevi, Spitz nevi or melanomas. [
+           Designated as safety issue: No ]
+
+      Secondary Study Objectives
+
+        -  The positive predictive value of MCT, compared to the biopsy result [ Designated as
+           safety issue: No ]
+
+        -  The negative predictive value of MCT, [ Designated as safety issue: No ]
+
+        -  The false positive rate of MCT, [ Designated as safety issue: No ]
+
+        -  The false negative rate of MCT, [ Designated as safety issue: No ]
+
+        -  The difference between two dermoscopes, [ Designated as safety issue: No ]
+
+        -  The positive predictive value of Classifier, compared to the biopsy result [ Designated
+           as safety issue: No ]
+
+        -  The negative predictive value of Classifier, [ Designated as safety issue: No ]
+
+        -  The false positive rate of Classifier, [ Designated as safety issue: No ]
+
+        -  The false negative rate of Classifier, [ Designated as safety issue: No ]
+
+        -  Clinical decision Sensitivity and Specificity rates.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 6, 2017</start_date>
+  <completion_date type="Anticipated">March 31, 2019</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity for Classifier results as compared to biopsy</measure>
+    <time_frame>15 months</time_frame>
+    <description>A Sensitivity of at least 75% for Classifier results as compared to biopsy</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The positive predictive value of MCT</measure>
+    <time_frame>15 months</time_frame>
+    <description>The positive predictive value of MCT, compared to the biopsy result</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The negative predictive value of MCT</measure>
+    <time_frame>15 months</time_frame>
+    <description>The negative predictive value of MCT, compared to the biopsy result</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">80</enrollment>
+  <condition>Melanoma</condition>
+  <condition>Pigmented Skin Lesion</condition>
+  <condition>Dysplastic Nevi</condition>
+  <arm_group>
+    <arm_group_label>Dermoscopy</arm_group_label>
+    <description>Dermoscopic imaging of a lesion decided to be biopsied</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>dermoscopy</intervention_name>
+    <description>Solely after the dermatologist has decided to biopsy a lesion and sent the patient to biopsy, a dermoscopic image is captured by a camera attached to a dermoscope.</description>
+    <arm_group_label>Dermoscopy</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Biopsied lesion
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects examined at a Dermatologic speciality clinic.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patient aged 18-90 years
+
+          -  A pigmented lesion by dermoscopy.
+
+          -  Clinical management by the examining dermatologist results in biopsy
+
+          -  The diameter of the pigmented area is between 1 and 40 millimeters
+
+          -  The patient has consented to participate in the study and has signed the Informed
+             Consent Form
+
+        Exclusion Criteria:
+
+          -  Non intact skin (ulcers, bleeding)
+
+          -  The lesion is located within 1 cm of the eye
+
+          -  The lesion is located on mucosal surfaces
+
+          -  The lesion is on or under nails
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Avi Dascalu, MD. Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Bostel LLC</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Avi Dascalu, MD, Ph.D.</last_name>
+    <phone>+972544306331</phone>
+    <email>dasc17@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Robert Raleigh, MBA</last_name>
+    <phone>+781-348-0707</phone>
+    <email>rraleigh@braintreelabs.com</email>
+  </overall_contact_backup>
+  <reference>
+    <citation>Eggermont AM, Spatz A, Robert C. Cutaneous melanoma. Lancet. 2014 Mar 1;383(9919):816-27. doi: 10.1016/S0140-6736(13)60802-8. Epub 2013 Sep 19. Review.</citation>
+    <PMID>24054424</PMID>
+  </reference>
+  <reference>
+    <citation>Mayer JE, Swetter SM, Fu T, Geller AC. Screening, early detection, education, and trends for melanoma: current status (2007-2013) and future directions: Part I. Epidemiology, high-risk groups, clinical strategies, and diagnostic technology. J Am Acad Dermatol. 2014 Oct;71(4):599.e1-599.e12; quiz 610, 599.e12. doi: 10.1016/j.jaad.2014.05.046. Review.</citation>
+    <PMID>25219716</PMID>
+  </reference>
+  <reference>
+    <citation>Siegel R, Naishadham D, Jemal A. Cancer statistics, 2012. CA Cancer J Clin. 2012 Jan-Feb;62(1):10-29. doi: 10.3322/caac.20138. Epub 2012 Jan 4.</citation>
+    <PMID>22237781</PMID>
+  </reference>
+  <reference>
+    <citation>Noor O 2nd, Nanda A, Rao BK. A dermoscopy survey to assess who is using it and why it is or is not being used. Int J Dermatol. 2009 Sep;48(9):951-2. doi: 10.1111/j.1365-4632.2009.04095.x.</citation>
+    <PMID>19702978</PMID>
+  </reference>
+  <reference>
+    <citation>American Academy of Dermatology Ad Hoc Task Force for the ABCDEs of Melanoma, Tsao H, Olazagasti JM, Cordoro KM, Brewer JD, Taylor SC, Bordeaux JS, Chren MM, Sober AJ, Tegeler C, Bhushan R, Begolka WS. Early detection of melanoma: reviewing the ABCDEs. J Am Acad Dermatol. 2015 Apr;72(4):717-23. doi: 10.1016/j.jaad.2015.01.025. Epub 2015 Feb 16. Review.</citation>
+    <PMID>25698455</PMID>
+  </reference>
+  <reference>
+    <citation>Campos-do-Carmo G, Ramos-e-Silva M. Dermoscopy: basic concepts. Int J Dermatol. 2008 Jul;47(7):712-9. doi: 10.1111/j.1365-4632.2008.03556.x. Review.</citation>
+    <PMID>18613881</PMID>
+  </reference>
+  <verification_date>November 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 27, 2017</study_first_submitted>
+  <study_first_submitted_qc>December 3, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 5, 2017</study_first_posted>
+  <last_update_submitted>December 3, 2017</last_update_submitted>
+  <last_update_submitted_qc>December 3, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 5, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>melanoma</keyword>
+  <keyword>dysplastic nevus</keyword>
+  <keyword>artificial intelligence</keyword>
+  <keyword>early diagnosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Melanoma</mesh_term>
+    <mesh_term>Pigmentation Disorders</mesh_term>
+    <mesh_term>Dysplastic Nevus Syndrome</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

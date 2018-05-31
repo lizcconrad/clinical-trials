@@ -1,0 +1,196 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02355132</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB00007327</org_study_id>
+    <secondary_id>R01HL107647</secondary_id>
+    <nct_id>NCT02355132</nct_id>
+  </id_info>
+  <brief_title>Assessing a Medicaid Randomized Insurance Experiment Within Community Clinics</brief_title>
+  <acronym>AMRIC</acronym>
+  <official_title>Assessing a Medicaid Randomized Insurance Experiment Within Community Clinics</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Oregon Health and Science University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Kaiser Foundation Hospitals, Center for Health Research</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ochin, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Heart, Lung, and Blood Institute (NHLBI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Oregon Health and Science University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study examines the impact of a randomized insurance experiment on preventive services
+      receipt and healthcare utilization in safety net patients using linked public insurance
+      claims and safety net clinics' electronic health record (EHR) data.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In 2008, the Oregon Medicaid program used a &quot;lottery&quot; (Oregon Experiment) to allocate limited
+      insurance resources to low income adults who did not categorically qualify for traditional
+      Medicaid coverage. Thousands were randomly selected to apply for Medicaid; many others were
+      not selected. This &quot;natural policy experiment&quot; is the first population-level randomization of
+      insurance coverage since Rand's 1971-1982 experiment. We will use data from safety net
+      clinics that share a common electronic health record (EHR) operated by OCHIN, a non-profit
+      organization in Portland, Oregon. As one of the nation's largest linked community health
+      center networks, the OCHIN EHR database records nearly all visits to safety net clinics in
+      Oregon with one patient chart linked across &gt;100 community health centers. We will link
+      Medicaid claims data and the OCHIN database to determine patients that had applied to
+      participate in the Oregon Experiment, as well as to determine those that gained insurance via
+      this experiment. We will test the hypothesis that public insurance coverage is associated
+      with higher rates of receiving preventive care services and increased healthcare utilization
+      among persons with a usual source of primary care. To that end, we will analyze preventive
+      care and utilization patterns among the OCHIN clinic patients affected by Oregon's Medicaid
+      Experiment. This study capitalizes on two unique opportunities: an EHR database linking &gt;100
+      community health centers, and the quasi-experimental design of Oregon's randomized Medicaid
+      experiment.
+
+      The specific aims related to the Oregon Experiment are:
+
+      1) To compare post-intervention rates of preventive services receipt among OCHIN patients
+      randomized to the Oregon Experiment group (intervention group), compared to those not in the
+      coverage group (comparison group); and 3) To compare post-intervention rates of ambulatory
+      healthcare utilization among OCHIN patients randomized to the Oregon Experiment group
+      (intervention group), compared to those not in the coverage group (comparison group).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2011</start_date>
+  <completion_date type="Actual">March 2016</completion_date>
+  <primary_completion_date type="Actual">March 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Preventive service receipt</measure>
+    <time_frame>36 months post Oregon Experiment selection (post-period)</time_frame>
+    <description>Number of patients with receipt of the following preventive services in the post-period (each outcome assessed individually by whether person met age, gender, and diagnosis criteria (if applicable): body mass index, blood pressure, smoking, pap test, mammography, colorectal cancer screening, chlamydia screening, lipid test, flu vaccination, pneumococcal vaccination, HbA1c test, glucose test) using ICD-9-CM diagnosis and procedure codes, CPT and HCPCS codes, LOINC codes, medication codes, relevant code groupings and codes specific to the OCHIN EHR.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Ambulatory healthcare utilization</measure>
+    <time_frame>36 months post Oregon Experiment selection (post-period)</time_frame>
+    <description>Number of visits in the post-period for the following services: total primary care office visits, total behavioral/mental health visits, labs, referrals, immunizations, imaging)</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">308283</enrollment>
+  <condition>Cardiovascular Disease</condition>
+  <condition>Cancer</condition>
+  <arm_group>
+    <arm_group_label>Insurance Intervention Arm</arm_group_label>
+    <description>Oregon OCHIN patients that put their names on the reservation list for the Oregon Experiment and were randomly chosen to apply for insurance coverage via the Oregon Experiment</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <description>Oregon OCHIN patients that put their names on the reservation list for the Oregon Experiment and were not chosen to apply for insurance coverage via the Oregon Experiment</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Insurance Intervention</intervention_name>
+    <description>Random selection to apply for Medicaid coverage through Oregon Experiment drawings held between March and October 2008</description>
+    <arm_group_label>Insurance Intervention Arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult individuals on the Oregon Experiment 'reservation list' (applied for the Oregon
+        Experiment) linked to individual patients in an Oregon safety net clinic that is part of
+        the OCHIN, Inc network using Link Plus software and demographic variables common to both
+        datasets.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  must have applied for the Oregon Experiment in 2006
+
+          -  must have been a patient in an Oregon safety net clinic that is part of the OCHIN, Inc
+             network
+
+          -  for preventive services outcomes only, matched patients had to have been at a clinic
+             with an electronic health record system by 3/11/08
+
+        Exclusion Criteria:
+
+          -  under 19 years of age
+
+          -  over 64 years of age
+
+          -  not alive at the end of the 36 month post-period
+
+          -  unknown/missing gender
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>19 Years</minimum_age>
+    <maximum_age>64 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jennifer E DeVoe, MD, DPhil</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Oregon Health and Science University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Heather Angier, MPH</last_name>
+    <role>Study Director</role>
+    <affiliation>Oregon Health &amp; Science Univerisity</affiliation>
+  </overall_official>
+  <verification_date>October 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 30, 2015</study_first_submitted>
+  <study_first_submitted_qc>January 30, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 4, 2015</study_first_posted>
+  <last_update_submitted>May 18, 2016</last_update_submitted>
+  <last_update_submitted_qc>May 18, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 19, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Oregon Health and Science University</investigator_affiliation>
+    <investigator_full_name>Jennifer E DeVoe, MD DPhil</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Medicaid</keyword>
+  <keyword>public insurance</keyword>
+  <keyword>cardiovascular disease</keyword>
+  <keyword>prevention</keyword>
+  <keyword>community health centers</keyword>
+  <keyword>electronic health records</keyword>
+  <keyword>cancer prevention</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cardiovascular Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,209 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03033394</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRAS 207217 REC 16/LO/2179</org_study_id>
+    <nct_id>NCT03033394</nct_id>
+  </id_info>
+  <brief_title>Beta-lactam Pharmacokinetics in Secondary Care</brief_title>
+  <official_title>Defining Adult Beta-lactam Antimicrobial Pharmacokinetics Across the Secondary Care Setting</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Imperial College London</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Currently in the UK, TDM is routinely performed for aminoglycosides and glycopeptide
+      antimicrobial agents, given fears over the narrow therapeutic window of these agents and the
+      serious adverse events associated with toxicity. However, in critical care the role of TDM
+      for optimisation of therapy has been demonstrated to help optimise dosing of patients who
+      tend to have variable pharmacokinetic parameters (J. A. Roberts et al,). This is of growing
+      importance given that low concentrations of antimicrobial agents, below a micro-organisms
+      minimum inhibitory concentration (MIC) is believed to be a major driver of AMR. The
+      investigators set out to explore whether similar observations in PK-PD target variability are
+      currently being observed across the secondary care setting (outside of critical care) and
+      whether these appear to be impacting on clinical outcomes.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      3.1 STUDY PARTICIPANTS
+
+        -  Drug level sampling will be undertaken within the first 120 hours of commencing
+           antimicrobial therapy once at steady state (after at least 4-5 doses have been
+           administered to those on treatment).
+
+        -  All patients will be consented using the participation information leaflet and consent
+           form provided in appendix 1.
+
+      3.2 DRUG LEVEL SAMPLING
+
+        -  An extra 3mls of blood will be collected during the patient's routine daily phlebotomy
+           round following their consent. They will be enrolled for up to 72 hours or two days of
+           routine blood tests (whichever is shorter). Up to 10 samples may be taken during the 2
+           days the patient is enrolled, depending on the number of routine blood tests the patient
+           receives during that day. No more than 3mls will be taken per each routine blood sample.
+           For example, if the individuals will only have routine blood tests taken at 8am on day 1
+           and day 2. Then only two extra samples will be taken (3mls on D1 and 3mls on D2).
+
+        -  The time they received their dose of antimicrobials, the length of infusion time, and
+           time the sample was collected will all be recorded.
+
+        -  PK/PD indices for evaluation will be time over minimum inhibitory concentration (T&gt;MIC)
+
+      3.3 SAMPLE PREPARTION AND ANLYSIS
+
+        -  All blood samples will be allowed to clot for 15 minutes at room temperature and then
+           centrifuged at 2,400rpm for 10 minutes. Sera from each sample will be separated into
+           three vials and stored at -800C.
+
+        -  Beta-lactam concentrations will be measured using validated high-performance liquid
+           chromatography methods.
+
+      3.4 PHARMCOKINETIC-PHARMACODYNAMIC MODELLING
+
+        -  Data will be anonymized and analyzed using Pmetrics in R.
+
+        -  Different pharmacokinetic models will be explored using in built statistical analysis
+           options and visual predictive checks.
+
+        -  Pharmacodynamic models will then be incorporated into the model using evidence
+           identified in the literature for selection of parameters.
+
+        -  Monte Carlo simulation will then be used to for simulation of target attainments and
+           analysis of pharmacodynamic outcomes
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">February 20, 2017</start_date>
+  <completion_date type="Anticipated">August 1, 2019</completion_date>
+  <primary_completion_date type="Anticipated">August 1, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of individuals attaining a defined pharmacokinetic-pharmacodynamic target for antimicrobial therapy</measure>
+    <time_frame>Two to 10 samples taken during the first 120 hours of antimicrobial therapy</time_frame>
+    <description>Time over minimum inhibitory concentration (T&gt;MIC)</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">250</enrollment>
+  <condition>Pharmacokinetics</condition>
+  <condition>Beta Lactam Adverse Reaction</condition>
+  <condition>Penicillin Allergy</condition>
+  <arm_group>
+    <arm_group_label>Beta-lactam antibiotic</arm_group_label>
+    <description>Observational pharmacokinetic study of non-critical care patients receiving beta-lactam antibiotics for management of infections.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Beta-lactam antibiotic</intervention_name>
+    <description>Routine clinical dosing</description>
+    <arm_group_label>Beta-lactam antibiotic</arm_group_label>
+    <other_name>Penicillin</other_name>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Plasma
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Participants will be recruited within the first 120 hours of commencing antimicrobial
+        therapy once at steady state (after at least 4-5 doses have been administered to those on
+        treatment) in patients receiving beta-lactam therapy in the non-critical care setting
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult subjects over 18 years old
+
+          -  Capacity to consent to participation
+
+          -  Receiving target antimicrobial for less than 120 hours OR receiving a target
+             antimicrobial for surgical prophylaxis.
+
+          -  Appropriate venous access (or for venous access to be gained)
+
+        Exclusion Criteria:
+
+          -  Children under 18 years old
+
+          -  Lacking capacity or prisoner
+
+          -  Anaemia or bleeding disorder, deemed significant by the patients physician
+
+          -  Patients physicians deems that they are not suitable for inclusion in the study
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Holmes Alison</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Health Protection Research Unit in HCAI &amp; AMR</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Timothy M Rawson, MBBS BSc</last_name>
+    <phone>02033132732</phone>
+    <email>tmr07@ic.ac.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Juliet Allibone</last_name>
+    <phone>02033132732</phone>
+    <email>head.ops@imperial.ac.uk</email>
+  </overall_contact_backup>
+  <verification_date>January 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 19, 2017</study_first_submitted>
+  <study_first_submitted_qc>January 24, 2017</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 26, 2017</study_first_posted>
+  <last_update_submitted>January 24, 2017</last_update_submitted>
+  <last_update_submitted_qc>January 24, 2017</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 26, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Anti-Bacterial Agents</mesh_term>
+    <mesh_term>Lactams</mesh_term>
+    <mesh_term>beta-Lactams</mesh_term>
+    <mesh_term>Antibiotics, Antitubercular</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

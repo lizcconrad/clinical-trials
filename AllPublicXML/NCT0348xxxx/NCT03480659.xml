@@ -1,0 +1,147 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03480659</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HKG-KZ-BrCa-101</org_study_id>
+    <nct_id>NCT03480659</nct_id>
+  </id_info>
+  <brief_title>Detection of Breast Cancer With Non-invasive Method Based on DNA Methylation of Circulated Tumor DNA, PBMC</brief_title>
+  <official_title>Breast Cancer Screening Using DNA Methylation Changes in Circulated Tumor, PBMC and T-cells DNA.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>HKGepitherapeutics</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Kazakh Research Institute of Oncology/Radiology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Montreal EpiTerapia Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Canada-Kazakhstan EpiTerapia Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>HKGepitherapeutics</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A central challenge in the fight against breast cancer is how to detect disease in a
+      noninvasive manner before it is detectable by imaging methods. Although inroads have been
+      made with more sensitive imaging techniques for earlier detection of breast cancer, these
+      techniques are limited by the size of lesion that could be detected. Alternatively, several
+      blood proteomic biomarkers have been proposed but none offer as of yet sufficient predictive
+      power. Consequently, effective non-invasive tools as prognostic indicators and biomarkers of
+      breast cancer are urgently needed.
+
+      The purpose of this study is to develop and test non-invasive biomarkers based on methylation
+      changes in PBMC and circulated tumor DNA in breast cancer patients.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 1, 2018</start_date>
+  <completion_date type="Anticipated">May 1, 2019</completion_date>
+  <primary_completion_date type="Anticipated">May 1, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>DNA methylation of circulated tumor and PBMC DNA and its Correlation to Development and prediction of breast cancer</measure>
+    <time_frame>6 months to 1 year</time_frame>
+    <description>We will develop the linear model and a threshold value differentiating breast cancer from control based on the 100 patient training set. The model will be provided to the researchers:
+Methylation score=CG1*b1+CG2*b2+ CG3*b3 + e
+CG1 is the methylation value of the first CG b1 is the regression coefficient for the first CG and e equals the intercept.
+We will develop the regression coefficient and intercept as well as the DNA methylation values for each patient for each CG. We will first compute the polygenic methylation score for each patient. Then based on the computer threshold based on the training cohort will call the samples as breast cancer or not.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Breast Cancer</condition>
+  <condition>Breast Cancer Female</condition>
+  <arm_group>
+    <arm_group_label>Breast Cancer</arm_group_label>
+    <description>Early stage luminal A and triple negative breast cancer [TNBC] (estrogen receptor-negative (ER-), progesterone receptor-negative (PR-) and HER2-negative (HER2-)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <description>Age matched control females</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients will be assigned an ID that will be kept confidential according to hospital
+        regulations. IDs will be randomized so that identity will not be revealed except to the
+        approved hospital personnel. Methylation data will be returned to the hospital for follow
+        up of progression of disease and for assessing early prediction of progression of Breast
+        cancer and will be entered into the data base. Other clinical follow up data will be
+        entered into the electronic data base. All data will be captured in case report form
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Histological confirmed breast cancer subtypes (DCIS and invasive)
+
+        Exclusion Criteria:
+
+          -  Pregnant women
+
+          -  Minors (subjects less than 18 years of age)
+
+          -  Prisoners
+
+          -  Patients with known infectious disease, such as human immunodeficiency virus (HIV),
+             tuberculosis (TB), or hepatitis B, C
+
+          -  Patients having other than one cancer
+
+          -  Subjects unable to consent for themselves
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>Breast cancer females</gender_description>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 21, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 28, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 29, 2018</study_first_posted>
+  <last_update_submitted>March 28, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 28, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 29, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,307 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03453996</url>
+  </required_header>
+  <id_info>
+    <org_study_id>REB17-0039</org_study_id>
+    <nct_id>NCT03453996</nct_id>
+  </id_info>
+  <brief_title>Contrast RISK (Reducing Injury Sustained by Kidneys)</brief_title>
+  <acronym>Contrast RISK</acronym>
+  <official_title>Evaluating Enhanced Clinical Decision Support for Prevention of Contrast-Induced Acute Kidney Injury in Cardiac Catheterization</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Calgary</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Alberta Innovates</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Alberta Health Services</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Alberta</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Calgary</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Diagnostic and therapeutic cardiac catheterization procedures are important interventions to
+      reduce the risk of death, avoid future cardiovascular events, and improve quality of life of
+      people with heart disease. However, exposure to the radiocontrast dyes required for these
+      procedures can lead to contrast-induced acute kidney injury (CI-AKI); a common and costly
+      complication. There are accurate ways to identify patients at increased risk of this
+      complication and strategies to prevent CI-AKI. This involves ensuring that patients who are
+      at risk have procedures done with the minimum amount of X-ray contrast dye required, and that
+      they receive optimal intravenous fluids at the time of the procedure.
+
+      This study will evaluate the implementation of a strategy where computerized decision support
+      tools are used to help doctors identify patients at risk of CI-AKI, as well as make decisions
+      about how much contrast dye to use and how much intravenous fluid to provide to patients who
+      are identified at risk of CI-AKI in cardiac catheterization.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Overview: Randomized stepped-wedge trial to evaluate the impact of implementing a
+      computerized decision support strategy that incorporates CI-AKI risk prediction and
+      calculation of safe contrast dye limits and intravenous fluid recommendations.
+
+      Study Population: Adult patients undergoing diagnostic or interventional coronary angiography
+      procedures will be eligible if not already receiving dialysis. Patients receiving emergency
+      primary percutaneous coronary intervention (PCI) for ST-elevation myocardial infarction will
+      be excluded.
+
+      Intervention: Multivariable clinical risk prediction model to estimate risk of CI-AKI and
+      safe contrast limits for patients above the median (&gt;5%) predicted risk of CI-AKI.
+      Intravenous fluids recommendations based on weight and left-ventricular end-diastolic
+      pressure will also be provided for patients identified above the median risk of CI-AKI.
+
+      The National Cardiovascular Data Registry (NCDR) Cath-PCI Registry AKI risk model will be
+      used to estimated the predicted risk of CI-AKI, and safe contrast limits will be estimated
+      using the ePRISM, Acute Kidney Injury Model with Contrast Sensitivities and Dialysis Risk
+      (Health Outcomes Sciences) software, incorporated within the Alberta Provincial Project for
+      Outcomes Assessment in Coronary Heart Disease (APPROACH) Cardiac Catheterization software.
+
+      Study Design: Using a stepped-wedge design, clusters of cardiologists who perform diagnostic
+      or therapeutic cardiac catheterization in each centre will be randomized to be introduced to
+      the intervention at sequential time points spaced over 20 months. At each step, cardiologists
+      who have not yet been randomized will serve as controls.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">January 22, 2018</start_date>
+  <completion_date type="Anticipated">September 30, 2019</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Acute Kidney Injury</measure>
+    <time_frame>Within 7 days after procedure</time_frame>
+    <description>&gt;26 micromol/L or 50% increase in serum creatinine</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Post-Procedural Hospital Bed Days</measure>
+    <time_frame>Thirty days after procedure</time_frame>
+    <description>Number of days in hospital including length of stay plus readmissions up to 30 days after procedure</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Death</measure>
+    <time_frame>One year after procedure</time_frame>
+    <description>Total mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>All-cause Readmission</measure>
+    <time_frame>One year after procedure</time_frame>
+    <description>Hospital Readmission</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac Readmission</measure>
+    <time_frame>One year after procedure</time_frame>
+    <description>Hospital readmission for angina, myocardial infarction, heart failure, or unplanned revascularization procedure (excluding staged procedures)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Kidney Readmission</measure>
+    <time_frame>On year after procedure</time_frame>
+    <description>Hospital readmission for acute kidney injury or dialysis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>End-stage Kidney Disease</measure>
+    <time_frame>One year after procedure</time_frame>
+    <description>Kidney failure requiring dialysis, kidney transplantation, or conservative management of kidney failure with eGFR&lt;15 mL/min/1.73m2</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Generic Quality of Life</measure>
+    <time_frame>One year after procedure</time_frame>
+    <description>EQ-5D</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiovascular-specific quality of life</measure>
+    <time_frame>One year after procedure</time_frame>
+    <description>Seattle Angina Questionnaire</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Safe Contrast Limit</measure>
+    <time_frame>Day of procedure</time_frame>
+    <description>Proportion of procedures completed with or below safe contrast limit</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intravenous Fluid</measure>
+    <time_frame>Day of procedure</time_frame>
+    <description>Proportion of patients who received recommended intravenous fluids, based on weight and LVEDP (patients with active or recent heart failure within the last 2 weeks or for whom LVEDP could not be measured excluded)</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Total direct health care costs</measure>
+    <time_frame>One year after procedure</time_frame>
+    <description>Total direct health care costs</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Cost per quality-adjusted life year</measure>
+    <time_frame>One year after procedure</time_frame>
+    <description>Total direct health care costs per quality adjusted life year</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1044</enrollment>
+  <condition>Acute Kidney Injury (Nontraumatic)</condition>
+  <condition>Coronary Artery Disease</condition>
+  <arm_group>
+    <arm_group_label>Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cardiologists will receive computerized clinical decision support information for CI-AKI prevention for patients identified above the median (&gt; 5%) risk of AKI based on the NCDR risk prediction model for CI-AKI.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Usual care.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Intervention</intervention_name>
+    <description>Computerized clinical decision support intervention. This intervention consists of 2 decision support components for CI-AKI prevention:
+Estimation of safe contrast limit to reduce the relative risk of CI-AKI by 20% (ePRISM Acute Kidney Injury Model with Contrast Sensitivities and Dialysis Risk software from Health Outcomes Sciences)
+Patient weight and left ventricular end diastolic pressure (LVEDP) based intravenous crystalloid fluid recommendation.</description>
+    <arm_group_label>Intervention</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Control</intervention_name>
+    <description>Usual procedural care provided by cardiologist without introduction of the computerized clinical decision support information.</description>
+    <arm_group_label>Control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult patients undergoing diagnostic coronary angiography or coronary intervention in
+             Alberta
+
+        Exclusion Criteria:
+
+          -  Emergency primary percutaneous coronary intervention for ST-elevation myocardial
+             infarction
+
+          -  Receiving dialysis at time of cardiac catheterization procedure
+
+          -  Non-Alberta resident
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Matthew T James, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Calgary</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Foothills Medical Centre</name>
+      <address>
+        <city>Calgary</city>
+        <state>Alberta</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Royal Alexandra Hospital</name>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Alberta Hospital</name>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <link>
+    <url>http://www.h-outcomes.com/</url>
+    <description>Health Outcomes Sciences</description>
+  </link>
+  <link>
+    <url>http://www.approach.org/</url>
+    <description>Alberta Provincial Project for Outcomes Assessment in Coronary Heart Disease</description>
+  </link>
+  <reference>
+    <citation>Tsai TT, Patel UD, Chang TI, Kennedy KF, Masoudi FA, Matheny ME, Kosiborod M, Amin AP, Weintraub WS, Curtis JP, Messenger JC, Rumsfeld JS, Spertus JA. Validated contemporary risk model of acute kidney injury in patients undergoing percutaneous coronary interventions: insights from the National Cardiovascular Data Registry Cath-PCI Registry. J Am Heart Assoc. 2014 Dec;3(6):e001380.</citation>
+    <PMID>25516439</PMID>
+  </reference>
+  <reference>
+    <citation>Amin AP, Bach RG, Caruso ML, Kennedy KF, Spertus JA. Association of Variation in Contrast Volume With Acute Kidney Injury in Patients Undergoing Percutaneous Coronary Intervention. JAMA Cardiol. 2017 Sep 1;2(9):1007-1012. doi: 10.1001/jamacardio.2017.2156.</citation>
+    <PMID>28678988</PMID>
+  </reference>
+  <reference>
+    <citation>Allen DW, Ma B, Leung KC, Graham MM, Pannu N, Traboulsi M, Goodhart D, Knudtson ML, James MT. Risk Prediction Models for Contrast-Induced Acute Kidney Injury Accompanying Cardiac Catheterization: Systematic Review and Meta-analysis. Can J Cardiol. 2017 Jun;33(6):724-736. doi: 10.1016/j.cjca.2017.01.018. Epub 2017 Feb 1. Review.</citation>
+    <PMID>28545621</PMID>
+  </reference>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 27, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 27, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 5, 2018</study_first_posted>
+  <last_update_submitted>March 2, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 2, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 6, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>acute kidney injury</keyword>
+  <keyword>heart disease</keyword>
+  <keyword>cardiac catheterization</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Wounds and Injuries</mesh_term>
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+    <mesh_term>Acute Kidney Injury</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Due to Alberta privacy regulations, unable to share data</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

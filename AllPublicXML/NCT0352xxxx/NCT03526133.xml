@@ -1,0 +1,188 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03526133</url>
+  </required_header>
+  <id_info>
+    <org_study_id>70485317.0.0000.0068</org_study_id>
+    <nct_id>NCT03526133</nct_id>
+  </id_info>
+  <brief_title>Validation of Sleep Apnea Diagnosis Device</brief_title>
+  <official_title>Validation of a Wireless Wearable Sensor Using Mobile Technology and Cloud Computing for the Diagnosis of Sleep Apnea</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Sao Paulo General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Biologix Sistemas Ltda</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Sao Paulo General Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Obstructive sleep apnea (OSA) is common and largely underdiagnosed disease. The standard
+      method for the diagnosis of OSA is a complete night polysomnography (PSG). Simple methods for
+      OSA diagnosis are necessary. The overnight oximetry with the oxygen desaturation index (ODI)
+      has been largely investigated as a diagnostic test for OSA but its accuracy remains
+      undefined. The aim of our study is to evaluate if an wireless polygraph (Oxistar) is accurate
+      to diagnosis OSA in patients referred to a Sleep Lab.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Consecutive patients referred to the sleep laboratory with suspected diagnosis of OSA
+      underwent in-laboratory polysomnography (PSG) and simultaneously wireless polygraph. The PSG
+      oximeter and the wireless polygraph were worn on different fingers of the same hand. All
+      sleep studies were reviewed by one blind investigator according the 2017 American Academy of
+      Sleep Medicine recommendations. The number of desaturations from wireless polygraph at the 3
+      predefined threshold levels (of ODI-2%, ODI-3%, or ODI-4%) was derived automatically using
+      proprietary algorithm. Moderate to severe OSA was defined as AHI ≥ 15 events/h. The
+      diagnostic accuracy of ODI-2%, 3%, and 4% for the diagnosis of moderate-severe OSA were
+      calculated for cut-off values from 1 to 20 desaturation events/h. The sleep actimetry was
+      compared with the sleep stages from PSG, most of the statistical metrics applied for
+      diagnosis were used to evaluate the applicability of this proposed method.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 7, 2017</start_date>
+  <completion_date type="Anticipated">July 7, 2018</completion_date>
+  <primary_completion_date type="Anticipated">July 7, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity</measure>
+    <time_frame>Night during the polysomnography exam</time_frame>
+    <description>Sensitivity of Oxistar device to detect apnea events compared to gold-standard polysomnography</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Specificity</measure>
+    <time_frame>Night during the polysomnography exam</time_frame>
+    <description>Specificity of Oxistar device to detect apnea events compared to gold-standard polysomnography</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Area under the curve (AUC)</measure>
+    <time_frame>Night during the polysomnography exam</time_frame>
+    <description>AUC from ROC curves reflects the accuracy of Oxistar device to detect apnea events compared to gold-standard polysomnography</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Bland-Altman Graph</measure>
+    <time_frame>Night during the polysomnography exam</time_frame>
+    <description>The Bland-Altman graph evaluates the &quot;agreement&quot; between the gold-standard polysomnography and Oxistar device</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Interclass Correlation Coefficient (ICC)</measure>
+    <time_frame>Night during the polysomnography exam</time_frame>
+    <description>ICC measures the reliability of measurements or ratings between the gold-standard polysomnography and Oxistar device</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sleep Actigraphy</measure>
+    <time_frame>Night during the polysomnography exam</time_frame>
+    <description>Actigraphy is the continuous measurement of activity or movement with the use of a small device called an actigraph. Periods of movement suggest wakefulness while those of relative stillness would likely correspond to sleep or quiescence. The Oxistar has a embeded actigraph whose data will be compared with the sleep stage scoring from polysomnography (PSG), the gold standard for sleep assessment. Epoch-by-epoch (30 seconds) agreement between the actigraph and PSG will be assessed by calculating sensitivity, specificity, accuracy, area under the curve (AUC), Bland-Altman graph and interclass correlation coefficient (ICC)</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Sleep Apnea</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Polysomnography (PSG) and wireless sensor Oxistar</intervention_name>
+    <description>Monitoring the apnea-hypopnea index (AHI) derived from PSG and the oxygen desaturation index (ODI) obtained by the Oxistar.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Consecutive patients referred to a university-based tertiary sleep referral centre.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  referred by medical staff for an overnight assessment for suspected sleep apnea
+
+        Exclusion Criteria:
+
+          -  polysomnography for the CPAP titration
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Geraldo Lorenzi-Filho, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Associate Professor</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Andrea Fonseca da Cruz, PhD</last_name>
+    <phone>+55 11 3039-8088</phone>
+    <email>andrea.cruz@biologix.com.br</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Incor - Heart Institute, Sleep Laboratory</name>
+      <address>
+        <city>Sao Paulo</city>
+        <zip>05403-900</zip>
+        <country>Brazil</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Geraldo Lorenzi-Filho, MD, PhD</last_name>
+      <phone>55 11 2661-5486</phone>
+      <email>geraldo.lorenzi@incor.usp.br</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Brazil</country>
+  </location_countries>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 12, 2018</study_first_submitted>
+  <study_first_submitted_qc>May 3, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 16, 2018</study_first_posted>
+  <last_update_submitted>May 3, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 3, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 16, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>sleep apnea</keyword>
+  <keyword>polygraph</keyword>
+  <keyword>home sleep apnea test (HSAT)</keyword>
+  <keyword>apnea hypopnea index (AHI)</keyword>
+  <keyword>oxygen desaturation index (ODI)</keyword>
+  <keyword>portable monitor</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Apnea</mesh_term>
+    <mesh_term>Sleep Apnea Syndromes</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

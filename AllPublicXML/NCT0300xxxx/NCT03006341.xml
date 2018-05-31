@@ -1,0 +1,231 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03006341</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1160-0219</org_study_id>
+    <nct_id>NCT03006341</nct_id>
+  </id_info>
+  <brief_title>Validation of Predictors of OAC Initiation Using EMR Data</brief_title>
+  <official_title>Validation of Predictors for Oral Anticoagulant Medication Choice Using EMR Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Boehringer Ingelheim</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Boehringer Ingelheim</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objectives of this study are, first, to identify select clinical covariates from
+      electronic medical records (EMR) that might be associated with initiation of oral
+      anticoagulant medications (dabigatran or warfarin) in patients with non-valvular atrial
+      fibrillation (NVAF) at risk for stroke; second, to quantify the association between EMR-based
+      clinical characteristics and patterns of insurance claims; third, to assess the potential for
+      unmeasured confounding in dabigatran vs warfarin comparative effectiveness and safety studies
+      based on administrative claims databases.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">February 28, 2017</start_date>
+  <completion_date type="Actual">May 9, 2017</completion_date>
+  <primary_completion_date type="Actual">May 9, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Obesity</measure>
+    <time_frame>up to 12 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Smoking</measure>
+    <time_frame>up to 12 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Alcohol consumption</measure>
+    <time_frame>up to 12 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Abnormal renal function</measure>
+    <time_frame>up to 12 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Bleeding history or predisposition</measure>
+    <time_frame>up to 12 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Renal function (estimated GFR closest to index dispensing)</measure>
+    <time_frame>up to 12 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Serum Creatinine (closest to index dispensing)</measure>
+    <time_frame>up to 12 months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Abnormal liver function</measure>
+    <time_frame>up to 12 months</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Duration of atrial fibrillation</measure>
+    <time_frame>up to 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>History of adherence: non-adherent/adherent</measure>
+    <time_frame>up to 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hypertension</measure>
+    <time_frame>up to 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Uncontrolled Hypertension</measure>
+    <time_frame>up to 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Congestive Heart Failure</measure>
+    <time_frame>up to 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prior Transient Ischemic Attack</measure>
+    <time_frame>up to 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diabetes</measure>
+    <time_frame>up to 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hyperlipidemia</measure>
+    <time_frame>up to 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HAS-BLED Score</measure>
+    <time_frame>up to 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Use of antiplatelets or Non-steroidal Anti-inflammatory Drugs</measure>
+    <time_frame>within 1 month</time_frame>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">140187</enrollment>
+  <condition>Atrial Fibrillation</condition>
+  <arm_group>
+    <arm_group_label>Dabigatran etexilate</arm_group_label>
+    <description>NVAF patients initiating dabigatran etexilate</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Warfarin</arm_group_label>
+    <description>NVAF patients initiating warfarin</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dabigatran etexilate</intervention_name>
+    <description>observed upto 12 months</description>
+    <arm_group_label>Dabigatran etexilate</arm_group_label>
+    <other_name>PRADAXA</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Warfarin</intervention_name>
+    <description>Observed upto 12 months</description>
+    <arm_group_label>Warfarin</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with a recorded diagnosis of atrial fibrillation without evidence of valvular
+        etiology and at risk for stroke
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  First dispensing of warfarin or dabigatran between October 2010 and December 2014
+
+          -  Diagnosis of atrial fibrillation
+
+          -  ≥ 12 months enrolment in the database preceding the date of the first dispensing
+
+          -  Age ≥ 18
+
+          -  CHA2DS2-VASc score ≥ 1
+
+        Exclusion Criteria:
+
+          -  Prior use of oral anticoagulation
+
+          -  Evidence of valvular atrial fibrillation
+
+          -  Missing or ambiguous age or sex information
+
+          -  Patients with a nursing home stay during baseline
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Brigham &amp; Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://trials.boehringer-ingelheim.com</url>
+  </link>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 28, 2016</study_first_submitted>
+  <study_first_submitted_qc>December 28, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 30, 2016</study_first_posted>
+  <last_update_submitted>April 20, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 20, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 23, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Warfarin</mesh_term>
+    <mesh_term>Dabigatran</mesh_term>
+  </intervention_browse>
+  <pending_results>
+    <submitted>May 4, 2018</submitted>
+  </pending_results>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

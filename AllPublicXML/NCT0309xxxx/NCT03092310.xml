@@ -1,0 +1,294 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03092310</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Pro00020556</org_study_id>
+    <nct_id>NCT03092310</nct_id>
+  </id_info>
+  <brief_title>Feasibility Evaluation of an Artificial Pancreas With Glucose Prediction Trust Index</brief_title>
+  <official_title>Feasibility Evaluation of an Artificial Pancreas With an Enhanced Model Predictive Control (eMPC) Controller and a Health Monitoring System (HMS) With a Glucose Prediction Trust Index</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sansum Diabetes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Harvard University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sansum Diabetes Research Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_ppsd>No</is_ppsd>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this pilot study is to establish that closed-loop insulin delivery with a
+      target enchanted model predictive control (eMPC)/Health Monitoring System (HMS) algorithms
+      with a trust index of the predicted glucose value is safe and effective, to analyze and learn
+      to improve upon the accuracy of the predicted glucose values, and to collect efficacy data to
+      inform a future larger study.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a feasibility study of an artificial pancreas (AP) system with our previously
+      validated target eMPC and HMS algorithms, with the addition of a trust index of the predicted
+      glucose value integrated into the portable Artificial Pancreas System (pAPS). The system will
+      be evaluated on up to 20 subjects, with the goal of 10 subjects completing a 48-hour
+      closed-loop session at one clinical site (William Sansum Diabetes Center). During the session
+      subjects will bolus for all meals and snacks and perform a 45-minute walking session.
+
+      The purpose of this pilot study is to establish that closed-loop insulin delivery with a
+      target enchanted model predictive control (eMPC)/Health Monitoring System (HMS) algorithms
+      with a trust index of the predicted glucose value is safe and effective, to analyze and learn
+      to improve upon the accuracy of the predicted glucose values, and to collect efficacy data to
+      inform a future larger study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 20, 2017</start_date>
+  <completion_date type="Anticipated">December 2017</completion_date>
+  <primary_completion_date type="Anticipated">November 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percent time within the target glucose range of 70-180 mg/dl overall as assessed by continuous glucose monitoring (CGM).</measure>
+    <time_frame>48 hours</time_frame>
+    <description>The primary endpoint for this pilot study will be time within the target glucose range of 70-180 mg/dl overall as assessed by continuous glucose monitoring (CGM), during closed-loop use, determining if the combination of eMPC and the assessment of trust index can provide safe and effective glucose control.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Assessment of the trust index predictions vs. standard eMPC glucose predictions.</measure>
+    <time_frame>48 hours</time_frame>
+    <description>During closed-loop use, assessment of the trust index predictions vs. standard eMPC glucose predictions (frequency of moving away from nominal weights of predicted glucose).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency of hypoglycemia during closed-loop use.</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Frequency of hypoglycemia during closed-loop use, defined as percent time glucose is below predefined thresholds of 70 mg/dl, 60 mg/dl and 50 mg/dL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency of hyperglycemia during closed-loop use.</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Frequency of hyperglycemia during closed-loop use, defined as percent time glucose is above predefined thresholds of 180 mg/dl, 250 mg/dl, and 300 mg/dL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent time within the target glucose range of 70-140 mg/dl during closed-loop use.</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Percent time within the target glucose range of 70-140 mg/dl overall as assessed by continuous glucose monitoring (CGM), during closed-loop use.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent time glucose is within range 70-150 mg/dl postprandial within 5 hours following meals, during closed-loop use.</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Percent time glucose is within range 70-150 mg/dl postprandial within 5 hours following meals, during closed-loop use.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Standard Deviation and Coefficient of Variation of glucose values</measure>
+    <time_frame>48 hours</time_frame>
+    <description>To measure glycemic variability, the standard deviation and coefficient of variation of glucose values (as measured by continuous glucose monitoring) will be determined during the 48 hours of closed-loop use.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Markers of hypo- and hyperglycemia</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Markers of hypo- and hyperglycemia, to include LBGI (Low blood glucose index) and HBGI (High blood glucose index), during closed-loop use.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Insulin Doses Given</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Change in total daily doses and post prandial insulin doses given during the 48 hours of closed-loop use.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of treatments given for hypoglycemia (defined as carbohydrates given for treatment of a documented or suspected low blood sugar), during the 48 hours of closed-loop use.</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Treatments for hypoglycemia given during the 48 hours of closed-loop use. Hypoglycemia treatments may be given in response to alerts from the HMS, if blood glucose &lt; 70 mg/dL, or at the request of the subject or investigator.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of alerts given by the HMS to prevent hypoglycemia</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Number of alerts given by the HMS to prevent hypoglycemia during closed-loop use.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Failure analysis of the devices/connectivity issues that may occur (# disconnects and device restarts).</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Failure analysis of the devices/connectivity issues that may occur during closed-loop use. This includes number of CGM communication losses with 3 or more missed points, and number of times the entire system required a restart.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Artificial Pancreas</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The artificial pancreas device will employ its enhanced Model Predictive Control (MPC) algorithm with a target glucose level of 110 mg/dL with a trust index for MPC-predicted glucose values, weighing future glucose predictions and only acting on predictions with higher weight in the trust index. The Health Monitoring System algorithm uses the same CGM data as the MPC control algorithm but utilizes a separate algorithm for trending and predictions of future glucose values. Using a redundant and independent algorithm is an important safety feature of the overall AP device.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Artificial Pancreas Device</intervention_name>
+    <description>Artificial Pancreas Device</description>
+    <arm_group_label>Artificial Pancreas</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age ≥ 18 and ≤ 75 years at the time of screening.
+
+          -  Clinical diagnosis of type 1 diabetes for at least one year.
+
+          -  Has been using an insulin pump for at least 6 months at the time of screening.
+
+          -  HbA1c &lt; 10%, as performed by point of care or central laboratory testing. A1c will be
+             assessed at the screening visit, or if already completed within 2 months of the
+             screening visit, the prior lab value may be used in lieu of repeating this assessment.
+
+          -  Serum creatinine of &lt; 2.0 mg/dL. Serum creatinine will be assessed at the screening
+             visit, or if already completed within 2 months of the screening visit, the prior lab
+             value may be used in lieu of repeating this assessment.
+
+          -  Bolus for all meals and snacks that contain ≥ 5 grams of carbohydrate.
+
+          -  Willing to perform at least 7 fingerstick blood glucose tests a day.
+
+          -  Willing to refrain from taking acetaminophen products for the duration of the clinical
+             trial. If acetaminophen is taken, subject is to avoid making any insulin dosing
+             decisions based on CGM for at least 12 hours.
+
+          -  Willing to abide by the study protocol and use study-provided devices, including the
+             Omnipod, Dexcom CGM, glucometer, ketone meter and pAPS tablet.
+
+        Exclusion Criteria:
+
+          -  Pregnancy
+
+          -  One or more episodes of hypoglycemia requiring an emergency room visit or
+             hospitalization in the past 6 months.
+
+          -  One or more episodes of hyperglycemia requiring an emergency room visit or
+             hospitalization in the past 6 months.
+
+          -  Known unstable cardiac disease or untreated cardiac disease, as revealed by history or
+             physical examination.
+
+          -  Dermatological conditions that would preclude wearing a CGM sensor or Pod.
+
+          -  One or more seizures in the past year.
+
+          -  Screening A1c ≥ 10% or serum creatinine ≥ 2.0 mg/dL.
+
+          -  Any condition that could interfere with participating in the trial, based on
+             investigator judgment.
+
+          -  Concurrent use of any non-insulin glucose-lowering agent (including GLP-1 agonists,
+             Symlin, DPP-4 inhibitors, SGLT-2 inhibitors, biguanides, sulfonylureas and
+             naturaceuticals), defined as using any of these medications within 30 days of the
+             screening visit or during the study.
+
+          -  Participation in another pharmaceutical or device trial at the time of enrollment or
+             during the study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jordan E Pinsker, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sansum Diabetes Research Institute</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Eyal Dassau, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Harvard John A. Paulson School of Engineering and Applied Sciences, Harvard University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Francis J Doyle III, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Harvard John A. Paulson School of Engineering and Applied Sciences, Harvard University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Alejandro Leguna, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Harvard John A. Paulson School of Engineering and Applied Sciences, Harvard University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Mei Mei Church, NP</last_name>
+    <phone>805-682-7640</phone>
+    <phone_ext>265</phone_ext>
+    <email>mchurch@sansum.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>William Sansum Diabetes Center</name>
+      <address>
+        <city>Santa Barbara</city>
+        <state>California</state>
+        <zip>93105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mei Mei Church, NP</last_name>
+      <phone>805-682-7640</phone>
+      <phone_ext>265</phone_ext>
+      <email>mchurch@sansum.org</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 15, 2017</study_first_submitted>
+  <study_first_submitted_qc>March 20, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 27, 2017</study_first_posted>
+  <last_update_submitted>March 20, 2017</last_update_submitted>
+  <last_update_submitted_qc>March 20, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 27, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sansum Diabetes Research Institute</investigator_affiliation>
+    <investigator_full_name>Jordan Pinsker</investigator_full_name>
+    <investigator_title>Research Physician</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Pancreas</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pancrelipase</mesh_term>
+    <mesh_term>Pancreatin</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

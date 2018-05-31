@@ -1,0 +1,744 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01714505</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16457</org_study_id>
+    <secondary_id>JDRF 22-2011-649</secondary_id>
+    <nct_id>NCT01714505</nct_id>
+  </id_info>
+  <brief_title>Early Feasibility Study 2 of Outpatient Control-to-Range - Testing System Efficacy</brief_title>
+  <official_title>Early Feasibility Study 2 of Outpatient Control-to-Range - Testing System Efficacy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Juvenile Diabetes Research Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sansum Diabetes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Padova</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Hospital, Montpellier</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      An unblinded, randomized, cross-over design with each patient participating in two 40-hour
+      outpatient admissions: (a) Experimental involving automated Control-to-Range (CTR) and (b)
+      Control using Continuous Glucose Monitor (CGM)- augmented insulin pump treatment outside of a
+      hospital based clinical research center. The principal goal is to validate a smart
+      phone-based control-to-range (CTR) system for ambulatory use and to estimate the effect of
+      CTR vs. sensor-augmented pump therapy, thereby providing justification for further larger
+      home-based trials of CTR.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The overall objective of this project is to sequentially test, validate, obtain regulatory
+      approval for, and deploy at home, a closed-loop Control-to-Range (CTR) system for optimal
+      blood glucose (BG) regulation in people with type 1 diabetes. The CTR system is comprised of
+      two algorithmic layers: a Safety Supervision Module (SSM) and Insulin on Board Tracking and
+      Safety Module (ITSM), and an automated Range Correction Module (RCM). Both modules will
+      receive continuous glucose monitoring (CGM) and insulin delivery data. The SSM and ITSM will
+      monitor the safety of the subject's continuous subcutaneous insulin infusion pump (CSII) to
+      prevent hypoglycemia. The RCM will be responsible for optimizing BG control and mitigating
+      postprandial hyperglycemic excursions through series of insulin boluses. To run CTR, we will
+      use our wearable artificial pancreas platform, known as DiAs (Diabetes Assistant), which
+      consists of a smart phone running CTR and connected to standard insulin delivery and CGM
+      devices.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2012</start_date>
+  <completion_date type="Actual">January 2013</completion_date>
+  <primary_completion_date type="Actual">January 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Safety, Low Blood Glucose Index (LBGI)</measure>
+    <time_frame>40 hours (x2 admissions)</time_frame>
+    <description>The LBGI reflects the frequency and extent of hypoglycemic episodes and presents the results in &quot;risk space.&quot; Thus the LBGI is a weighted average of the number of hypoglycemic readings, with progressively increasing weights as BG levels go down. The increase of the weights follows a risk function; thus the LBGI has been associated with risk for hypoglycemia and prediction of severe hypoglycemic episodes.
+LBGI &lt; 2.5 is associated with low risk of hypoglycemia, 2.5 &lt; LBGI &lt; 5 is associated with a moderate risk of hypoglycemia and LBGI &gt; 5 is associated with a high risk of hypoglycemia.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Safety, Frequency of Hypoglycemia</measure>
+    <time_frame>40 hours (x 2 admissions)</time_frame>
+    <description>Hypoglycemic episodes are defined as BG &lt; 3.9mmol/L</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Efficacy, Time Spent in Target Range</measure>
+    <time_frame>40 hours (x2 admissions)</time_frame>
+    <description>Percentage of time in the target range of 3.9-10 mmol/L (70-180 mg/dL).</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Diabetes Mellitus, Type 1</condition>
+  <arm_group>
+    <arm_group_label>Experimental Involving Automated CTR</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Closed-Loop Control: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in Control to Range (CTR) or in Safety Only mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will not be allowed to administer correction boluses between meals and snacks as the DiAs will automatically be adjusting insulin to correct for hyperglycemia. The total doses recommended by the DiAs prior to meals and snacks includes the correction dose and Insulin on Board (IOB) calculated by the system.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>CGM-Augmented Insulin Pump Treatment</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Open Loop Control: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in open-loop mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will be permitted to administer correction boluses at any time during the Control Admission, whether or not they are eating a scheduled meal or snack. DiAs will be initialized with the subject's typical insulin pump settings. The subject will be reminded that all treatment decisions should be based on fingerstick values and not on continuous glucose monitor (CGM) values.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Diabetes Assistant (DiAs)</intervention_name>
+    <description>A medical platform that uses a smart-phone to connect to a continuous glucose sensor to insulin pump and run closed-loop control. The cell phone runs the Control to Range and is connected to work with the insulin pump and continuous glucose monitor to help keep the blood sugar in a desired range (80-180 mg/dL during the day) and help avoid hypoglycemia during the night.</description>
+    <arm_group_label>Experimental Involving Automated CTR</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. ≥21 and &lt;65 years old.
+
+          2. Clinical diagnosis of type 1 diabetes mellitus. For an individual to be enrolled at
+             least one criterion from each list must be met.
+
+             o Criteria for documented hyperglycemia (at least 1 must be met): i. Fasting glucose
+             ≥126 mg/dL - confirmed ii. Two-hour Oral Glucose Tolerance Test (OGTT) glucose ≥200
+             mg/dL - confirmed iii. HbA1c ≥6.5% documented - confirmed iv. Random glucose ≥200
+             mg/dL with symptoms v. No data at diagnosis is available but the participant has a
+             convincing history of hyperglycemia consistent with diabetes
+
+             o Criteria for requiring insulin at diagnosis (1 must be met): i. Participant required
+             insulin at diagnosis and continually thereafter ii. Participant did not start insulin
+             at diagnosis but upon investigator review likely needed insulin (significant
+             hyperglycemia that did not respond to oral agents) and did require insulin eventually
+             and used continually iii. Participant did not start insulin at diagnosis but continued
+             to be hyperglycemic, had positive islet cell antibodies - consistent with latent
+             autoimmune diabetes in adults (LADA) and did require insulin eventually and used
+             continually
+
+          3. Use of an insulin pump to treat his/her diabetes for at least 1 year.
+
+          4. Familiarity with a bolus calculator with the current insulin pump with pre-defined
+             parameters for carbohydrate (CHO) ratio, insulin sensitivity factor (ISF), target
+             glucose and active insulin.
+
+          5. HbA1c &lt;9% as measured with DCA2000 or equivalent device.
+
+          6. Not currently known to be pregnant, breast feeding, or intending to become pregnant
+             (females).
+
+          7. Demonstration of proper mental status and cognition for the study.
+
+          8. Willingness to avoid consumption of acetaminophen-containing products during the study
+             interventions involving CGM use.
+
+          9. If on antihypertensive, thyroid, anti-depressant or lipid lowering medication, have
+             stability on the medication for at least 2 months prior to enrollment in the study.
+
+        Exclusion Criteria:
+
+          1. Severe hypoglycemia resulting in seizure, loss of consciousness, or diabetic
+             ketoacidosis within the 12 months prior to enrollment.
+
+          2. Pregnancy; breast feeding, or intention of becoming pregnant.
+
+          3. Uncontrolled arterial hypertension (Resting diastolic blood pressure &gt;90 mmHg and/or
+             systolic blood pressure &gt;160 mmHg).
+
+          4. Conditions which may increase the risks associated with possible hypoglycemia, such as
+             any active cardiac disorder/arrhythmia, uncontrolled coronary artery disease during
+             the previous year (e.g. history of myocardial infarction, acute coronary syndrome,
+             therapeutic coronary intervention, coronary bypass or stenting procedure, stable or
+             unstable angina, episode of chest pain of cardiac etiology with documented EKG
+             changes, or positive stress test or catheterization with coronary blockages &gt;50%),
+             congestive heart failure, history of cerebrovascular event, seizure disorder, syncope,
+             adrenal insufficiency, neurologic disease or atrial fibrillation.
+
+          5. Self-reported hypoglycemia unawareness.
+
+          6. History of a systemic or deep tissue infection with methicillin-resistant staph aureus
+             or Candida albicans.
+
+          7. Use of a device that may pose electromagnetic compatibility issues and/or
+             radiofrequency interference with the CGM (implantable cardioverter-defibrillator,
+             electronic pacemaker, neurostimulator, intrathecal pump, and cochlear implants).
+
+          8. Anticoagulant therapy other than aspirin.
+
+          9. Oral steroids.
+
+         10. Medical condition requiring use of an acetaminophen-containing medication that cannot
+             be withheld for the study admissions.
+
+         11. Psychiatric disorders that would interfere with study tasks (e.g. inpatient
+             psychiatric treatment within 6 months prior to enrollment).
+
+         12. Mental incapacity, unwillingness or language barriers precluding adequate
+             understanding or cooperation.
+
+         13. Known current or recent alcohol or drug abuse.
+
+         14. Medical conditions that would make operating a CGM, the DiAs cell phone or insulin
+             pump difficult (e.g. blindness, severe arthritis, immobility).
+
+         15. Any skin condition that prevents sensor or pump placement on the abdomen or arm (e.g.
+             bad sunburn, pre-existing dermatitis, intertrigo, psoriasis, extensive scarring,
+             cellulitis).
+
+         16. In adherence with the One Touch Ultra 2 User Guide, subjects with hematocrit levels
+             less than 30% and above 55% will be excluded.
+
+         17. Impaired hepatic function measured as alanine aminotransferase or aspartate
+             aminotransferase ≥three times the upper reference limit.
+
+         18. Impaired renal function measured as creatinine &gt;1.2 times above the upper limit of
+             normal.
+
+         19. Uncontrolled microvascular (diabetic) complications, such as current proliferative
+             diabetic retinopathy or macular edema, known diabetic nephropathy (other than
+             microalbuminuria with normal creatinine) or neuropathy requiring treatment.
+
+         20. Active gastroparesis requiring current medical therapy.
+
+         21. If on antihypertensive, thyroid, anti-depressant or lipid lowering medication, lack of
+             stability on the medication for the past 2 months prior to enrollment in the study.
+
+         22. Uncontrolled thyroid disease.
+
+         23. Known bleeding diathesis or dyscrasia.
+
+         24. Known allergy to medical adhesives, components of the insulin pump insertion set or
+             continuous glucose monitor sensor.
+
+         25. Active enrollment in another clinical trial.
+
+         26. Use of anti-diabetic agents other than continuous subcutaneous insulin infusion (CSII)
+             including long-acting insulin, intermediate-acting insulin, metformin, sulfonylureas,
+             meglitinides, thiazolidinediones, DPP-IV inhibitors, glucagon-like peptide 1 agonists,
+             and alpha-glucosidase inhibitors
+
+         27. Subjects with basal rates less than 0.01U/hr.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>64 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Boris P. Kovatchev, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Sansum Diabetes Research Institute</name>
+      <address>
+        <city>Santa Barbara</city>
+        <state>California</state>
+        <zip>93105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Virginia</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22908</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://care.diabetesjournals.org/content/early/2014/06/09/dc13-2076.full.pdf+html</url>
+    <description>CLC running on a smartphone (DiAs) in outpatient conditions reduced hypoglycemia and hypoglycemia treatments when compared with sensor-augmented pump therapy.</description>
+  </link>
+  <results_reference>
+    <citation>Kovatchev BP, Renard E, Cobelli C, Zisser HC, Keith-Hynes P, Anderson SM, Brown SA, Chernavvsky DR, Breton MD, Mize LB, Farret A, Place J, Bruttomesso D, Del Favero S, Boscari F, Galasso S, Avogaro A, Magni L, Di Palma F, Toffanin C, Messori M, Dassau E, Doyle FJ 3rd. Safety of outpatient closed-loop control: first randomized crossover trials of a wearable artificial pancreas. Diabetes Care. 2014 Jul;37(7):1789-96. doi: 10.2337/dc13-2076. Epub 2014 Jun 14.</citation>
+    <PMID>24929429</PMID>
+  </results_reference>
+  <verification_date>August 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 23, 2012</study_first_submitted>
+  <study_first_submitted_qc>October 23, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 26, 2012</study_first_posted>
+  <results_first_submitted>August 8, 2014</results_first_submitted>
+  <results_first_submitted_qc>September 5, 2014</results_first_submitted_qc>
+  <results_first_posted type="Estimate">September 9, 2014</results_first_posted>
+  <last_update_submitted>September 5, 2014</last_update_submitted>
+  <last_update_submitted_qc>September 5, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">September 9, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Boris Kovatchev, PhD</investigator_full_name>
+    <investigator_title>Director, UVA Center for Diabetes Technology</investigator_title>
+  </responsible_party>
+  <keyword>Diabetes Mellitus, Type 1</keyword>
+  <keyword>Continuous Glucose Monitor</keyword>
+  <keyword>Artificial Pancreas</keyword>
+  <keyword>Insulin Pump</keyword>
+  <keyword>Closed Loop control</keyword>
+  <keyword>Open Loop treatment</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Open-Loop Then Closed-Loop Control</title>
+          <description>Open-Loop: Insulin delivery will be controlled by the DiAs system running in open-loop mode. The subject will interact with the system through its GUI. Subjects will be permitted to administer correction boluses at any time during the Control Admission, whether or not they are eating a scheduled meal or snack. DiAs will be initialized with the subject's typical insulin pump settings.
+Closed-Loop: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in Control to Range (CTR) or in Safety Only mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will not be allowed to administer correction boluses between meals and snacks as the DiAs will automatically be adjusting insulin to correct for hyperglycemia.</description>
+        </group>
+        <group group_id="P2">
+          <title>Closed-Loop Then Open-Loop Control</title>
+          <description>Closed-Loop: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in Control to Range (CTR) or in Safety Only mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will not be allowed to administer correction boluses between meals and snacks as the DiAs will automatically be adjusting insulin to correct for hyperglycemia.
+Open-Loop: Insulin delivery will be controlled by the DiAs system running in open-loop mode. The subject will interact with the system through its GUI. Subjects will be permitted to administer correction boluses at any time during the Control Admission, whether or not they are eating a scheduled meal or snack. DiAs will be initialized with the subject's typical insulin pump settings.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Admission 1 (40 Hours)</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="10"/>
+                <participants group_id="P2" count="10"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="9"/>
+                <participants group_id="P2" count="9"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>Admission 2 (40 Hours)</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="9"/>
+                <participants group_id="P2" count="9"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="9"/>
+                <participants group_id="P2" count="9"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Open and Closed Loop Control</title>
+          <description>Closed-Loop: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in Control to Range (CTR) or in Safety Only mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will not be allowed to administer correction boluses between meals and snacks as the DiAs will automatically be adjusting insulin to correct for hyperglycemia.
+Open-Loop: Insulin delivery will be controlled by the DiAs system running in open-loop mode. The subject will interact with the system through its GUI. Subjects will be permitted to administer correction boluses at any time during the Control Admission, whether or not they are eating a scheduled meal or snack. DiAs will be initialized with the subject's typical insulin pump settings.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="20"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Safety, Low Blood Glucose Index (LBGI)</title>
+        <description>The LBGI reflects the frequency and extent of hypoglycemic episodes and presents the results in “risk space.” Thus the LBGI is a weighted average of the number of hypoglycemic readings, with progressively increasing weights as BG levels go down. The increase of the weights follows a risk function; thus the LBGI has been associated with risk for hypoglycemia and prediction of severe hypoglycemic episodes.
+LBGI &lt; 2.5 is associated with low risk of hypoglycemia, 2.5 &lt; LBGI &lt; 5 is associated with a moderate risk of hypoglycemia and LBGI &gt; 5 is associated with a high risk of hypoglycemia.</description>
+        <time_frame>40 hours (x2 admissions)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed-loop Control to Range</title>
+            <description>Closed-Loop Control: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in Control to Range (CTR) or in Safety Only mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will not be allowed to administer correction boluses between meals and snacks as the DiAs will automatically be adjusting insulin to correct for hyperglycemia. The total doses recommended by the DiAs prior to meals and snacks includes the correction dose and Insulin on Board (IOB) calculated by the system.
+Diabetes Assistant (DiAs): A medical platform that uses a smart-phone to connect to a continuous glucose sensor to insulin pump and run closed-loop control. The cell phone runs the Control to Range and is connected to work with the insulin pump and continuous glucose monitor to help keep the blood sugar in a desired range (80-180 mg/dL during the day) and help avoid hypoglycemia during the night.</description>
+          </group>
+          <group group_id="O2">
+            <title>Open-Loop CGM-Augmented Insulin Pump Therapy</title>
+            <description>Open Loop Control: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in open-loop mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will be permitted to administer correction boluses at any time during the Control Admission, whether or not they are eating a scheduled meal or snack. DiAs will be initialized with the subject's typical insulin pump settings. The subject will be reminded that all treatment decisions should be based on fingerstick values and not on continuous glucose monitor (CGM) values.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Safety, Low Blood Glucose Index (LBGI)</title>
+          <description>The LBGI reflects the frequency and extent of hypoglycemic episodes and presents the results in “risk space.” Thus the LBGI is a weighted average of the number of hypoglycemic readings, with progressively increasing weights as BG levels go down. The increase of the weights follows a risk function; thus the LBGI has been associated with risk for hypoglycemia and prediction of severe hypoglycemic episodes.
+LBGI &lt; 2.5 is associated with low risk of hypoglycemia, 2.5 &lt; LBGI &lt; 5 is associated with a moderate risk of hypoglycemia and LBGI &gt; 5 is associated with a high risk of hypoglycemia.</description>
+          <units>index score</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="18"/>
+                <count group_id="O2" value="18"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.64" spread="0.72"/>
+                    <measurement group_id="O2" value="1.12" spread="0.77"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.003</p_value>
+            <method>t-test, 1 sided</method>
+            <method_desc>Paired t-tests: compare LBGI, carbohydrates for hypoglycemia treatment, % of time in range and average BG on CLC vs OL.</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Efficacy, Time Spent in Target Range</title>
+        <description>Percentage of time in the target range of 3.9–10 mmol/L (70–180 mg/dL).</description>
+        <time_frame>40 hours (x2 admissions)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed-loop Control to Range</title>
+            <description>Closed-Loop Control: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in Control to Range (CTR) or in Safety Only mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will not be allowed to administer correction boluses between meals and snacks as the DiAs will automatically be adjusting insulin to correct for hyperglycemia. The total doses recommended by the DiAs prior to meals and snacks includes the correction dose and Insulin on Board (IOB) calculated by the system.
+Diabetes Assistant (DiAs): A medical platform that uses a smart-phone to connect to a continuous glucose sensor to insulin pump and run closed-loop control. The cell phone runs the Control to Range and is connected to work with the insulin pump and continuous glucose monitor to help keep the blood sugar in a desired range (80-180 mg/dL during the day) and help avoid hypoglycemia during the night.</description>
+          </group>
+          <group group_id="O2">
+            <title>Open-Loop CGM-Augmented Insulin Pump Therapy</title>
+            <description>Open Loop Control: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in open-loop mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will be permitted to administer correction boluses at any time during the Control Admission, whether or not they are eating a scheduled meal or snack. DiAs will be initialized with the subject's typical insulin pump settings. The subject will be reminded that all treatment decisions should be based on fingerstick values and not on continuous glucose monitor (CGM) values.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Efficacy, Time Spent in Target Range</title>
+          <description>Percentage of time in the target range of 3.9–10 mmol/L (70–180 mg/dL).</description>
+          <units>percentage of time spent in range</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="18"/>
+                <count group_id="O2" value="18"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="66.1" spread="18.6"/>
+                    <measurement group_id="O2" value="70.7" spread="21.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>&gt;0.1</p_value>
+            <method>t-test, 1 sided</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Safety, Frequency of Hypoglycemia</title>
+        <description>Hypoglycemic episodes are defined as BG &lt; 3.9mmol/L</description>
+        <time_frame>40 hours (x 2 admissions)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed-loop Control to Range</title>
+            <description>Closed-Loop Control: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in Control to Range (CTR) or in Safety Only mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will not be allowed to administer correction boluses between meals and snacks as the DiAs will automatically be adjusting insulin to correct for hyperglycemia. The total doses recommended by the DiAs prior to meals and snacks includes the correction dose and Insulin on Board (IOB) calculated by the system.
+Diabetes Assistant (DiAs): A medical platform that uses a smart-phone to connect to a continuous glucose sensor to insulin pump and run closed-loop control. The cell phone runs the Control to Range and is connected to work with the insulin pump and continuous glucose monitor to help keep the blood sugar in a desired range (80-180 mg/dL during the day) and help avoid hypoglycemia during the night.</description>
+          </group>
+          <group group_id="O2">
+            <title>Open-Loop CGM-Augmented Insulin Pump Therapy</title>
+            <description>Open Loop Control: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in open-loop mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will be permitted to administer correction boluses at any time during the Control Admission, whether or not they are eating a scheduled meal or snack. DiAs will be initialized with the subject's typical insulin pump settings. The subject will be reminded that all treatment decisions should be based on fingerstick values and not on continuous glucose monitor (CGM) values.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Safety, Frequency of Hypoglycemia</title>
+          <description>Hypoglycemic episodes are defined as BG &lt; 3.9mmol/L</description>
+          <units>hypoglycemic episodes/participant</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="18"/>
+                <count group_id="O2" value="18"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.22" spread="0.4"/>
+                    <measurement group_id="O2" value="2.39" spread="0.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.02</p_value>
+            <method>Wilcoxon (Mann-Whitney)</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Closed-loop Control to Range</title>
+          <description>Closed-Loop Control: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in Control to Range (CTR) or in Safety Only mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will not be allowed to administer correction boluses between meals and snacks as the DiAs will automatically be adjusting insulin to correct for hyperglycemia. The total doses recommended by the DiAs prior to meals and snacks includes the correction dose and Insulin on Board (IOB) calculated by the system.
+Diabetes Assistant (DiAs): A medical platform that uses a smart-phone to connect to a continuous glucose sensor to insulin pump and run closed-loop control. The cell phone runs the Control to Range and is connected to work with the insulin pump and continuous glucose monitor to help keep the blood sugar in a desired range (80-180 mg/dL during the day) and help avoid hypoglycemia during the night.</description>
+        </group>
+        <group group_id="E2">
+          <title>Open-Loop CGM-Augmented Insulin Pump Therapy</title>
+          <description>Open Loop Control: Insulin delivery will be controlled by the Diabetes Assistant (DiAs) system running in open-loop mode. The subject will interact with the system through its Graphic User Interface (GUI). Subjects will be permitted to administer correction boluses at any time during the Control Admission, whether or not they are eating a scheduled meal or snack. DiAs will be initialized with the subject's typical insulin pump settings. The subject will be reminded that all treatment decisions should be based on fingerstick values and not on continuous glucose monitor (CGM) values.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="19"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="5" subjects_at_risk="19"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Endocrine disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hyperglycemia</sub_title>
+                <counts group_id="E1" events="3" subjects_affected="3" subjects_at_risk="19"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Hyper and Hypoglycemia</sub_title>
+                <description>Patient was referred to endocrinologist for inappropriate pump parameters.</description>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="19"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Investigations</title>
+            <event_list>
+              <event>
+                <sub_title>System Malfunction</sub_title>
+                <counts group_id="E1" events="2" subjects_affected="2" subjects_at_risk="19"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Boris Kovatchev, PhD</name_or_title>
+      <organization>University of Virginia</organization>
+      <phone>434-924-5592</phone>
+      <email>boris@virginia.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,340 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03263702</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GCO 17-1873</org_study_id>
+    <nct_id>NCT03263702</nct_id>
+  </id_info>
+  <brief_title>RADAR Clinical Trial</brief_title>
+  <official_title>Real-time Electrogram Analysis for Drivers of AtRial Fibrillation (RADAR)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Vivek Reddy</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>AFTx, Inc</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Icahn School of Medicine at Mount Sinai</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>No</is_unapproved_device>
+    <is_ppsd>No</is_ppsd>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This prospective, multicenter, observational study will examine the ability of real time
+      electrogram processing mapping to identify driver domains to target for ablation in
+      persistent AF patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      ABSTRACT: Recent clinical trials have shown that targeting rotors and focal impulses (FIs)
+      during atrial fibrillation (AF) ablation improves outcomes. This study evaluated whether a
+      novel computational mapping algorithm (CMA) could identify FIs and rotors, and characterize
+      rotors when incidental ablation resulted in rhythm changes. Three-dimensional (3D) left
+      atrial electroanatomic maps were created from signals recorded from multipolar circular
+      mapping catheters in 61 patients undergoing persistent AF ablation. Forty of 61acquired
+      patient datasets were of adequate quality for analysis CMA, employing an AF pattern
+      recognition algorithm, creating 3D panoramic AF maps identifying drivers of AF (FI and
+      rotors) post procedure. Rotors were further classified as substrate (SBR) or non-substrate
+      based (NSBR) on the basis of rotor stability, proximity to voltage transition zones and
+      complex fractionated atrial electrograms (CFAEs). Incidentally ablated identified AF drivers,
+      including SBRs and NSBRs, were evaluated for rhythm changes. A total of 172 drivers were
+      identified in 40 patients (2.2 drivers/patient). Seventy percent were rotors (120/172) and
+      30% were FIs (52/172). Sixty-seven percent of rotors were classified as SBR vs 33% as NSBR.
+      Incidental ablation of SBRs resulted in rhythm change 91% of the time versus only 24% of the
+      time for NSBR (p&lt;0.0001).
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 26, 2017</start_date>
+  <completion_date type="Anticipated">June 15, 2019</completion_date>
+  <primary_completion_date type="Anticipated">June 15, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Rate of Atrial Fibrillation termination</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Acute Procedural Outcomes as defined by termination of Atrial Fibrillation into NSR or AT</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants Free from recurrent AT/AF</measure>
+    <time_frame>at 12 months</time_frame>
+    <description>Clinical Outcome Analysis - Freedom from recurrent AT/AF</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Rate of post-ablation inducibility of AF</measure>
+    <time_frame>Day 1</time_frame>
+    <description>Post-ablation inducibility of AF (&gt; 5 mins) with burst pacing</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total duration of RF ablation</measure>
+    <time_frame>Day 1</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total duration of Fluoro time</measure>
+    <time_frame>Day 1</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total duration of exposure</measure>
+    <time_frame>Day 1</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total duration of procedure time</measure>
+    <time_frame>Day 1</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Procedure-related adverse events</measure>
+    <time_frame>up to 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Major Adverse Cardiac Events (MACE)</measure>
+    <time_frame>12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Serious Adverse Events</measure>
+    <time_frame>12 months</time_frame>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">65</enrollment>
+  <condition>Persistent Atrial Fibrillation</condition>
+  <arm_group>
+    <arm_group_label>Computational Mapping Algorithm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>AF mapping (utilizing CMA) will be performed and used to point the operator to regions within a heart chamber that should be interrogated further for suspicious electrogram activity, as measured by the St. Jude Ensite System, and ablated if the suspicious electrogram activity persists.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Computational Mapping Algorithm</intervention_name>
+    <description>This software enables high resolution temporospatial mapping of atria for the identification of drivers of AF. CMA receives data from standard of care, commercially available 3D Mapping Systems (St. Jude Ensite System) and catheters and processes the data in a unique way. Electrogram and anatomy data are fed from the commercially available 3D Mapping System to an adjacent laptop computer, via an Ethernet connection, that is running CMA. CMA then processes the electrogram data and generates a map of where the potential AF driver domains are located and superimposes those potential AF driver domain targets onto the 3D geometry of the anatomy (provided by the 3D mapping system).</description>
+    <arm_group_label>Computational Mapping Algorithm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  ≥ 18 years of age.
+
+          -  Patients are considered eligible if they have symptomatic or drug-refractory AF and
+             are planned to undergo a catheter ablation procedure for persistent AF (ether a first
+             procedure or a redo procedure)
+
+          -  Ability to understand the requirements of the study and sign the informed consent
+             form.
+
+          -  Willingness to adhere to study restrictions and comply with all post-procedural
+             follow-up requirements
+
+          -  Projected lifespan greater than 1 year.
+
+        Exclusion Criteria:
+
+          -  They have long-standing persistent AF prior to the first procedure (defined as AF
+             greater than one year's duration).
+
+          -  Rheumatic heart disease
+
+          -  Current intra-cardiac thrombus
+
+          -  History of MI or Coronary Artery Bypass Grafting (CABG) within 6 weeks
+
+          -  Unstable angina
+
+          -  CVA or TIA within 3 months
+
+          -  Contraindication to anticoagulation
+
+          -  Class IV HF
+
+          -  Unable to sign consent
+
+          -  Projected lifespan of &lt; 1 year
+
+          -  Women known to be pregnant or to have positive beta-HCG (Human Chorionic
+             Gonadotropin).
+
+          -  Participation in another study that would interfere with this study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>19 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Vivek Reddy, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Icahn School of Medicine at Mount Sinai</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Sam Cammack, MA, MPH</last_name>
+    <phone>212-824-8931</phone>
+    <email>sam.cammack@mountsinai.org</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Betsy Ellsworth, ANP</last_name>
+    <phone>212-824-8902</phone>
+    <email>betsy.ellsworth@mountsinai.org</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Colorado Medical Center</name>
+      <address>
+        <city>Denver</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alisha Shudy</last_name>
+      <phone>303-724-3938</phone>
+      <email>alisha.shudy@UCDenver.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Duy Nguyen, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>South Denver Cardiology</name>
+      <address>
+        <city>Denver</city>
+        <state>Colorado</state>
+        <zip>80120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Brenda Hulbert</last_name>
+      <phone>303-715-2210</phone>
+    </contact>
+    <investigator>
+      <last_name>Sri Sundaram, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Massachusetts General Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Eleanor Lorton</last_name>
+      <phone>617-643-0456</phone>
+      <email>Eleanor.Lorton@mgh.harvard.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Moussa Mansour, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Icahn School of Medicine at Mount Sinai</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sam Cammack, MA, MPH</last_name>
+      <phone>212-824-8931</phone>
+      <email>sam.cammack@mountsinai.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Betsy Ellsworth, MSN, ANP</last_name>
+      <phone>212-824-8902</phone>
+      <email>betsy.ellsworth@mountsinai.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Vivek Reddy, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Seton Medical Center</name>
+      <address>
+        <city>Austin</city>
+        <state>Texas</state>
+        <zip>78705</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Virginia Remeny, RN</last_name>
+      <phone>512-324-3434</phone>
+    </contact>
+    <investigator>
+      <last_name>Kristopher Heinzman, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 28, 2017</study_first_submitted>
+  <study_first_submitted_qc>August 23, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 28, 2017</study_first_posted>
+  <last_update_submitted>April 24, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 24, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 25, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Icahn School of Medicine at Mount Sinai</investigator_affiliation>
+    <investigator_full_name>Vivek Reddy</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Persistent Atrial Fibrillation</keyword>
+  <keyword>mapping</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

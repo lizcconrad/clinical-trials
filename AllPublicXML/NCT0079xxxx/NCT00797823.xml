@@ -1,0 +1,782 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00797823</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB4311</org_study_id>
+    <nct_id>NCT00797823</nct_id>
+  </id_info>
+  <brief_title>Sensor-Augmented Insulin Delivery: Insulin Plus Glucagon Versus Insulin Alone</brief_title>
+  <official_title>A Comparison of Two Sensor-Augmented Glycemic Control Systems in Persons With Type 1 Diabetes Mellitus: Subcutaneous (SC) Insulin and Glucagon Delivery vs. SC Insulin Only</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Legacy Health System</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Juvenile Diabetes Research Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Oregon Health and Science University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Legacy Health System</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aims to test an insulin and glucagon delivery algorithm designed to be used in
+      conjunction with a continuous glucose monitoring system. This combined glucose
+      sensing/hormone delivery approach is a step on the way to eventual development of an
+      artificial (or automated) pancreas. The insulin and glucagon delivery algorithm is based on
+      the difference between the current blood glucose and the target glucose (proportional error)
+      and the rate of change in blood glucose (derivative error), both adjusted for the recent
+      glucose history. This algorithm is called the Fading Memory Proportional-Derivative (FMPD)
+      Algorithm. The principal investigator of this study has published previous research regarding
+      the use of this algorithm and found it to be well-suited to control blood glucose in type 1
+      diabetic animals. The addition of glucagon was helpful; better glycemic control with fewer
+      glucose excursions were observed when small intermittent infusions of subcutaneous glucagon
+      were given during times of impending low blood sugar (Ward et al. 2008).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The objective of the current human study is to compare glycemic control in persons with Type
+      1 Diabetes using the FMPD Insulin plus Glucagon Delivery Algorithm vs. the FMPD Insulin-Alone
+      Algorithm. Subjects will undergo two 28-hour sensor-augmented glycemic control studies. Each
+      subject will be fitted with two short term continuous glucose monitoring systems and two
+      subcutaneous (SC) infusion catheters. These catheters will allow for SC delivery of insulin
+      and glucagon (or insulin plus a glucagon placebo). The accuracy of the wire sensors will be
+      verified every 10 minutes with a venous blood glucose test. For the first 4 hours, the
+      insulin and glucagon delivery will be controlled by venous blood in order to assess and
+      compare the accuracy of the two sensors, after which the more accurate sensor (if it remains
+      accurate) will control the FMPD algorithm. The main outcomes of our study are time spent in
+      the target range (70 - 180 mg/dl) and the percentage of studies requiring intervention due to
+      hypoglycemia (glucose &lt; 70 mg/dl). The accuracy of the sensors over the life of the study
+      will also be evaluated.
+
+      The specific system used in this study of frequent blood testing and the use of two separate
+      infusion pumps is not feasible for every day use for individuals with diabetes. However, if
+      the glucose control algorithm (with or without the use of glucagon) provides effective blood
+      glucose management over long time periods the calculation program may be integrated into a
+      continuous blood glucose monitoring system with an insulin and glucagon pump.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2008</start_date>
+  <completion_date type="Actual">September 2009</completion_date>
+  <primary_completion_date type="Actual">September 2009</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Effectiveness of Closed Loop Diabetes Control</measure>
+    <time_frame>1 year</time_frame>
+    <description>Effectiveness of closed loop diabetes control will be measured by mean glucose.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percent of Time Venous Blood Glucose &lt;70 mg/dl</measure>
+    <time_frame>1 year</time_frame>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">14</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>Insulin + Placebo</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Glycemic control of subject participants was managed by the closed-loop system which delivered insulin and normal saline (instead of glucagon) as a placebo, based upon algorithm calculations.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Insulin + Glucagon</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Glycemic control of subject participants was managed by the system which delivered insulin and glucagon based upon algorithm calculations.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Pilot Study</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Pilot studies designed to assess safety of the system. Includes 6 participants undergoing 7 studies.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Insulin, Asp(B28)-</intervention_name>
+    <description>Insulin dosing and frequency calculated by Fading Memory Proportional Derivative algorithm</description>
+    <arm_group_label>Insulin + Placebo</arm_group_label>
+    <arm_group_label>Insulin + Glucagon</arm_group_label>
+    <arm_group_label>Pilot Study</arm_group_label>
+    <other_name>Aspart insulin</other_name>
+    <other_name>Novolog</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Glucagon</intervention_name>
+    <description>During incipient hypoglycemia, glucagon was given in an attempt to prevent overt hypoglycemia. Dosing and frequency was calculated by the Fading Memory Proportional Derivative algorithm</description>
+    <arm_group_label>Insulin + Glucagon</arm_group_label>
+    <arm_group_label>Pilot Study</arm_group_label>
+    <other_name>Glucagen</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <description>Saline solution 0.9%</description>
+    <arm_group_label>Insulin + Placebo</arm_group_label>
+    <arm_group_label>Pilot Study</arm_group_label>
+    <other_name>Normal saline, NaCl 0.9%</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age 21-65, history of Type 1 Diabetes Mellitus for &gt; 3 months.
+
+          -  Women:
+
+               -  For women of childbearing potential, a negative urine pregnancy test is required
+                  on the first day of the study prior to sensor insertion AND the subject must
+                  agree to use contraception prior to and during the study.
+
+               -  For menopausal women or those who have undergone surgical sterilization, no
+                  pregnancy test or contraception will be required.
+
+          -  Willingness to attend all clinic visits and participate in two 28-hour studies or one
+             9-hour study.
+
+          -  Hemoglobin A1C of 5.0-10%. (Values below 5.0 suggest a severe tendency towards
+             hypoglycemia, and values above 10% suggest severely uncontrolled diabetes with risk
+             for ketoacidosis.)
+
+          -  Body mass index of 19-35.
+
+        Exclusion Criteria:
+
+          -  Pregnancy, lactation or refusal to use contraception.
+
+          -  Use of any investigational drug during the 30 days prior to screening.
+
+          -  Enrollment or participation in any other research studies 30 days prior to and during
+             the entirety of sensor insertion.
+
+          -  Current alcohol abuse, substance abuse, or severe mental illness (as judged by the
+             Principal Investigator (PI)).
+
+          -  Any prior cerebrovascular accident or major permanent neurological damage such as
+             aphasia, hemiparesis, or dementia.
+
+          -  A history of cerebrovascular disease or cardiovascular disease regardless of the time
+             since occurrence.
+
+          -  Coronary artery disease (symptomatic or asymptomatic) as manifested by unstable
+             angina, acute coronary syndrome, myocardial infarction or therapeutic coronary
+             procedure (e.g., Percutaneous Transluminal Coronary Angioplasty (PTCA), stent
+             placement, Coronary Artery By-pass Grafting (CABG)) within the prior 6 months.
+
+          -  Any degree of heart failure (as defined by New York Heart Association)..
+
+          -  Renal insufficiency (serum creatinine of &gt; 2.5).
+
+          -  Current foot or leg ulceration.
+
+          -  Peripheral arterial disease with uncontrolled claudication.
+
+          -  Active uncontrolled malignancy except basal cell or squamous cell skin cancers.
+
+          -  Concurrent illness, other than diabetic mellitus, that is not controlled by a stable
+             therapeutic regimen.
+
+          -  Hemoglobin A1C of less than 5.0 or greater than 10%.
+
+          -  A total bilirubin level above 1.5 mg/dl.
+
+          -  Medications: Oral or parenteral corticosteroids (glucocorticoid therapy) are
+             exclusions; topical corticosteroids are not.
+
+          -  Any chronic immunosuppressive medication (such as cyclosporine, azathioprine,
+             sirolimus, or tacrolimus).
+
+          -  Visual impairment that would prevent reading the display of the Medtronic Guardian®
+             Receiver.
+
+          -  Physical impairment that would prevent using the buttons of the Medtronic Guardian®
+             Receiver.
+
+          -  Serum Alanine Transaminase (ALT) or Aspartate Transaminase (AST) ≥3x the upper limit
+             of normal.
+
+          -  Serum albumin level of &lt; 3.2 g/dl.
+
+          -  Severe anemia as defined by a hematocrit of &lt; 28%.
+
+          -  Severe serum electrolyte abnormality (sodium, potassium, carbon dioxide, chloride).
+
+          -  Cardiac rhythm disturbance characterized by: 2nd or 3rd degree heart block,
+             bradycardia of less than 50 bpm (exception of bradycardia in an aerobic athlete),
+             tachycardia of greater than 100 bpm, or any arrhythmia judged by the investigator to
+             be exclusionary.
+
+          -  A history of Human Immunodeficiency Virus (HIV) infection.
+
+          -  An active hepatitis infection.
+
+          -  Known allergy to any type of insulin
+
+          -  Insulin resistance requiring more than 200 units of insulin per day
+
+          -  Known bleeding disorders or chronic usage of warfarin.
+
+          -  Any known seizure disorder.
+
+          -  Past history of pheochromocytoma or a family history of Multiple Endocrine Neoplasia
+             (MEN) 2A, MEN 2B, neurofibromatosis, or von Hippel-Lindau disease.
+
+          -  Hypoglycemic unawareness or chronic hypoglycemia.
+
+          -  A severe hypoglycemic event which required hospitalization within the past two years.
+
+          -  Adrenal insufficiency.
+
+          -  Insulinoma.
+
+          -  Use of both acetaminophen and ascorbic acid.
+
+          -  Impaired mentation or psychiatric diagnoses
+
+          -  Uncontrolled candidiasis.
+
+          -  Any known allergy to glucagon.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>William K. Ward, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Legacy Health System</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Legacy Research</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97232</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>August 2009</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 24, 2008</study_first_submitted>
+  <study_first_submitted_qc>November 24, 2008</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 25, 2008</study_first_posted>
+  <results_first_submitted>June 24, 2011</results_first_submitted>
+  <results_first_submitted_qc>August 18, 2011</results_first_submitted_qc>
+  <results_first_posted type="Estimate">September 26, 2011</results_first_posted>
+  <last_update_submitted>October 4, 2011</last_update_submitted>
+  <last_update_submitted_qc>October 4, 2011</last_update_submitted_qc>
+  <last_update_posted type="Estimate">October 7, 2011</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Legacy Health System</investigator_affiliation>
+    <investigator_full_name>W. Kenneth Ward</investigator_full_name>
+    <investigator_title>Senior Scientist</investigator_title>
+  </responsible_party>
+  <keyword>diabetes</keyword>
+  <keyword>pancreas</keyword>
+  <keyword>beta cell</keyword>
+  <keyword>glucagon</keyword>
+  <keyword>insulin</keyword>
+  <keyword>hypoglycemia</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+    <mesh_term>Insulin Aspart</mesh_term>
+    <mesh_term>Glucagon</mesh_term>
+    <mesh_term>Glucagon-Like Peptide 1</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Patients were recruited from the Oregon Health and Science University (OHSU) outpatient clinics in Portland, Oregon.</recruitment_details>
+      <pre_assignment_details>A total of 22 studies in 14 subjects were performed. 6 subjects participated in 7 9-hour pilot studies, 6 with insulin and glucagon and 1 with insulin + placebo to assess the safety of the protocol. 8 subjects then underwent 2 interventional studies each for a total of 16 studies, one with insulin and placebo and one with insulin and glucagon.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Insulin + Glucagon -&gt; Insulin + Placebo)</title>
+          <description>This group consists of x participants initially randomized to the insulin plus glucagon (latter to prevent hypoglycemia) intervention for glycemic control of type 1 diabetes during the first period, then insulin plus placebo in the second period. The control system was comprised of glucose sensors, a computer algorithm, and actuator pumps in a circuit meant to automatically adjust insulin and glucagon infusion rates based on glucose values delivered to the algorithm (a closed-loop system, as it is meant to exclude human intervention).</description>
+        </group>
+        <group group_id="P2">
+          <title>Insulin + Placebo -&gt; Insulin + Glucagon</title>
+          <description>This group consists of x participants initially randomized to the insulin plus placebo intervention for glycemic control of type 1 diabetes during the first period, then insulin plus glucagon (latter to prevent hypoglycemia) in the second period. The control system was comprised of glucose sensors, a computer algorithm, and actuator pumps in a circuit meant to automatically adjust insulin and glucagon infusion rates based on glucose values delivered to the algorithm (a closed-loop system, as it is meant to exclude human intervention).</description>
+        </group>
+        <group group_id="P3">
+          <title>Pilot</title>
+          <description>Pilot studies included 6 participants, one of whom underwent an insulin + glucagon and an insulin + placebo study, while 5 underwent only one insulin + glucagon study.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Pilot Studies</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="0">Not involved in pilot studies</participants>
+                <participants group_id="P2" count="0">Not involved in pilot studies</participants>
+                <participants group_id="P3" count="6"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="6"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>First Period (Initial Randomization)</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="0">Pilot studies only performed during initial period.</participants>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Physician Decision</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+        <period>
+          <title>Second Period (Crossover)</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Insulin + Glucagon -&gt; Insulin + Placebo)</title>
+          <description>This group consists of x participants initially randomized to the insulin plus glucagon (latter to prevent hypoglycemia) intervention for glycemic control of type 1 diabetes during the first period, then insulin plus placebo in the second period. The control system was comprised of glucose sensors, a computer algorithm, and actuator pumps in a circuit meant to automatically adjust insulin and glucagon infusion rates based on glucose values delivered to the algorithm (a closed-loop system, as it is meant to exclude human intervention).</description>
+        </group>
+        <group group_id="B2">
+          <title>Insulin + Placebo -&gt; Insulin + Glucagon</title>
+          <description>This group consists of x participants initially randomized to the insulin plus placebo intervention for glycemic control of type 1 diabetes during the first period, then insulin plus glucagon (latter to prevent hypoglycemia) in the second period. The control system was comprised of glucose sensors, a computer algorithm, and actuator pumps in a circuit meant to automatically adjust insulin and glucagon infusion rates based on glucose values delivered to the algorithm (a closed-loop system, as it is meant to exclude human intervention).</description>
+        </group>
+        <group group_id="B3">
+          <title>Pilot</title>
+          <description>Pilot studies included 6 participants, one of whom underwent an insulin + glucagon and an insulin + placebo study, while 5 underwent only one insulin + glucagon study.</description>
+        </group>
+        <group group_id="B4">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="4"/>
+            <count group_id="B2" value="4"/>
+            <count group_id="B3" value="6"/>
+            <count group_id="B4" value="14"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="6"/>
+                    <measurement group_id="B4" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="33.3" spread="10.5"/>
+                    <measurement group_id="B2" value="39.8" spread="10.7"/>
+                    <measurement group_id="B3" value="35.1" spread="17.4"/>
+                    <measurement group_id="B4" value="36.7" spread="13.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="3"/>
+                    <measurement group_id="B4" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="3"/>
+                    <measurement group_id="B4" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="6"/>
+                    <measurement group_id="B4" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Effectiveness of Closed Loop Diabetes Control</title>
+        <description>Effectiveness of closed loop diabetes control will be measured by mean glucose.</description>
+        <time_frame>1 year</time_frame>
+        <population>The number of participants for analysis was determined was per protocol.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Placebo Comparator: Insulin Alone</title>
+            <description>No glucagon given during closed loop control-insulin only</description>
+          </group>
+          <group group_id="O2">
+            <title>Active Comparator: Insulin Plus Glucagon</title>
+            <description>Insulin plus glucagon given (latter to prevent hypoglycemia) for closed loop control.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Effectiveness of Closed Loop Diabetes Control</title>
+          <description>Effectiveness of closed loop diabetes control will be measured by mean glucose.</description>
+          <population>The number of participants for analysis was determined was per protocol.</population>
+          <units>mg/dl</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="13"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="136.9" spread="5.0"/>
+                    <measurement group_id="O2" value="149.5" spread="5.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percent of Time Venous Blood Glucose &lt;70 mg/dl</title>
+        <time_frame>1 year</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Placebo Comparator: Insulin Alone</title>
+            <description>No glucagon given during closed loop control-insulin only</description>
+          </group>
+          <group group_id="O2">
+            <title>Active Comparator: Insulin Plus Glucagon</title>
+            <description>Insulin plus glucagon given (latter to prevent hypoglycemia) for closed loop control.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percent of Time Venous Blood Glucose &lt;70 mg/dl</title>
+          <units>percent of time</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="13"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.8" spread="0.67"/>
+                    <measurement group_id="O2" value="1.15" spread="0.41"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Over 1 year for entire research period, and over the study period for each individual study.</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Insulin + Glucagon -&gt; Insulin + Placebo)</title>
+          <description>This group consists of x participants initially randomized to the insulin plus glucagon (latter to prevent hypoglycemia) intervention for glycemic control of type 1 diabetes during the first period, then insulin plus placebo in the second period. The control system was comprised of glucose sensors, a computer algorithm, and actuator pumps in a circuit meant to automatically adjust insulin and glucagon infusion rates based on glucose values delivered to the algorithm (a closed-loop system, as it is meant to exclude human intervention).</description>
+        </group>
+        <group group_id="E2">
+          <title>Insulin + Placebo -&gt; Insulin + Glucagon</title>
+          <description>This group consists of x participants initially randomized to the insulin plus placebo intervention for glycemic control of type 1 diabetes during the first period, then insulin plus glucagon (latter to prevent hypoglycemia) in the second period. The control system was comprised of glucose sensors, a computer algorithm, and actuator pumps in a circuit meant to automatically adjust insulin and glucagon infusion rates based on glucose values delivered to the algorithm (a closed-loop system, as it is meant to exclude human intervention).</description>
+        </group>
+        <group group_id="E3">
+          <title>Pilot</title>
+          <description>Pilot studies included 6 participants, one of whom underwent an insulin + glucagon and an insulin + placebo study, while 5 underwent only one insulin + glucagon study.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="4"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="4"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="6"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="4" subjects_at_risk="4"/>
+                <counts group_id="E2" subjects_affected="4" subjects_at_risk="4"/>
+                <counts group_id="E3" subjects_affected="1" subjects_at_risk="6"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Endocrine disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Severe Hypoglycemia</sub_title>
+                <description>Venous blood glucose &lt; 60 mg/dl, requiring treatment with intravenous (IV) dextrose.</description>
+                <counts group_id="E1" events="55" subjects_affected="4" subjects_at_risk="4"/>
+                <counts group_id="E2" events="67" subjects_affected="4" subjects_at_risk="4"/>
+                <counts group_id="E3" events="1" subjects_affected="1" subjects_at_risk="6"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Gastrointestinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Nausea and vomiting</sub_title>
+                <assessment>Non-systematic Assessment</assessment>
+                <description>Nausea reported by patient (+/- vomiting), related to glucagon administration.</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="4"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="4"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="6"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>W Kenneth Ward MD</name_or_title>
+      <organization>Legacy Health System</organization>
+      <phone>503-413-5171</phone>
+      <email>wardk@ohsu.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

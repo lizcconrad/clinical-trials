@@ -1,0 +1,191 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02839057</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AxisFractureSweden</org_study_id>
+    <nct_id>NCT02839057</nct_id>
+  </id_info>
+  <brief_title>Survival After Surgical Treatment of Axis Fractures in Elderly</brief_title>
+  <official_title>Survival After Surgical Treatment of Axis Fractures in Elderly: A National Registry Based Cohort Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Uppsala University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Uppsala University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Fractures of the second cervical vertebra (C2) are the most common spinal fracture among the
+      elderly. Non-surgical treatment comprises of cervical collar treatment for 12 weeks, while
+      surgical treatment for elderly could mean posterior fixation C1-C2 without collar treatment
+      or anterior screw osteosynthesis C2 with 6 weeks of collar treatment. A meta-analysis of
+      retrospective studies has recently found an improved survival with surgical treatment. This
+      national registry study is designed to estimate the survival of non-surgical and surgical
+      treatment in a population-based cohort.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The Swedish National Patient Registry (NPR) is hosted by the Swedish Agency of Health and
+      Welfare and contains all patient contacts within Sweden with a coverage of &gt;90% for
+      orthopaedic diagnoses. Registered are main diagnosis and co-morbidity using the ICD-9 code
+      until 1996 and from 1997 onward ICD-10 codes. Treatment is coded since 1996 using the Swedish
+      classification of surgical procedures. Furthermore, information on hospitalisation time is
+      available from the registry.
+
+      In the Swedish Cause of Death Registry (CDR) all deaths in Sweden are registered with date of
+      death and cause of death. While date of death coverage is complete, the cause of death has
+      only 46% agreement with the final hospital diagnosis.
+
+      All patients with the main diagnosis of C2 fracture (ICD-10: S12.1) treated between January
+      1st 1996 to December 31st 2014 are extracted from the NPR and merged with the CDR for
+      incident deaths. Prior to data transmission, the Swedish Agency of Health and Welfare
+      anonymised the individual personal identification numbers using a key which remained with the
+      Agency.
+
+      Invalid age data will be excluded either due to missing entries or mismatch with date of
+      death. Multiple admissions (cases with same identification number but more than 12 months
+      between admissions) and duplicate entries (cases with same identification number) will be
+      removed from the dataset, after valuable co-morbidity data from the duplicate entries were
+      stored in the original record. Duplicate entries originate from separate recordings from each
+      hospital if the patient is referred to a specialised hospital. Furthermore, primarily
+      non-surgically treated cases with a change of treatment modality are registered as surgical
+      patients. The registered hospitalisation time for these patients is the combined non-surgical
+      and surgical in-hospital treatment period.
+
+      From each record the Charlson Comorbidity Index (CCI) is calculated. Using Swedish surgical
+      procedure codes for spinal fusion (&quot;NAG&quot;) and spinal osteosynthesis (&quot;NAJ&quot;) patients
+      receiving surgical treatment were marked, and the cohort divided into two groups receiving
+      non-surgical or surgical treatment.
+
+      The age distribution differences of patients with C2-fractures treated surgically and
+      non-surgically was visualised with a density distribution plot. A logit logistic regression
+      analysis identified covariates of surgical treatment assignment and was presented with 95%
+      confidence intervals (C.I.) and statistical probability p. Goodness-of-fit of the model was
+      presented with pseudo-r2 according to McFadden.
+
+      Using the Kaplan-Meier method for non-surgical and surgical treatment mean survival, as well
+      as survival rate at 3 months, 1 year, and 2 years was determined, and visualised using a
+      Kaplan-Meier plot with 99% C.I. With the Cox proportional hazards regression method multiple
+      covariates contributing to survival are entered and hazard ratio (HR) presented with 95% C.I.
+      and probability p. As relevant covariates for survival besides surgical treatment age,
+      gender, spinal cord injury, and CCI were identified. Since the assumption was that the
+      medical advancement improved patient survival in general during the last decades, even year
+      of admission was included as covariate in the model. In order to identify a cut-off age where
+      a treatment modality is not associated anymore with greater survival the adjusted HR of a
+      certain age and above was plotted over age with 95% C.I.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2015</start_date>
+  <completion_date type="Actual">December 2016</completion_date>
+  <primary_completion_date type="Actual">December 2016</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>20 Years</target_duration>
+  <primary_outcome>
+    <measure>Survival</measure>
+    <time_frame>Censored observational time (20 years)</time_frame>
+    <description>Survival as registered in Swedish National Cause of Death Registry</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">6231</enrollment>
+  <condition>Spinal Fractures</condition>
+  <arm_group>
+    <arm_group_label>Surgical treatment</arm_group_label>
+    <description>Patients ≥70 years with C2 fracture coded in patient registry (ICD-10: S12.1) treated with surgical fracture stabilisation</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-surgical treatment</arm_group_label>
+    <description>Patients ≥70 years with C2 fracture coded in patient registry (ICD-10: S12.1) treated non-surgically</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Non-surgical treatment</intervention_name>
+    <description>Cervical collar immobilisation for 12 weeks.</description>
+    <arm_group_label>Non-surgical treatment</arm_group_label>
+    <other_name>Conservative treatment</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Surgical treatment</intervention_name>
+    <description>Stabilisation of C2-fracture by posterior fusion C1-C2, posterior fusion C2-C3, anterior fusion C2-C3 (no postoperative collar) or anterior screw osteosynthesis C2 (postoperative collar for 6 weeks).</description>
+    <arm_group_label>Surgical treatment</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        National patient registry extract with patients suffering from C2 fracture
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  C2-fracture
+
+          -  Age ≥70 years
+
+        Exclusion Criteria:
+
+          -  no C2-fracture
+
+          -  Age &lt;70 years
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>70 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <reference>
+    <citation>Robinson Y, Robinson AL, Olerud C. Systematic review on surgical and nonsurgical treatment of type II odontoid fractures in the elderly. Biomed Res Int. 2014;2014:231948. doi: 10.1155/2014/231948. Epub 2014 Feb 10. Review.</citation>
+    <PMID>24683543</PMID>
+  </reference>
+  <verification_date>May 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 18, 2016</study_first_submitted>
+  <study_first_submitted_qc>July 19, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 20, 2016</study_first_posted>
+  <last_update_submitted>May 18, 2017</last_update_submitted>
+  <last_update_submitted_qc>May 18, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 19, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Axis fractures</keyword>
+  <keyword>Elderly</keyword>
+  <keyword>Mortality</keyword>
+  <keyword>Surgical treatment</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fractures, Bone</mesh_term>
+    <mesh_term>Spinal Fractures</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

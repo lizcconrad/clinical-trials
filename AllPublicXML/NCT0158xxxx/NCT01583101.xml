@@ -1,0 +1,410 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01583101</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CHICA_Highlight_Study</org_study_id>
+    <nct_id>NCT01583101</nct_id>
+  </id_info>
+  <brief_title>Child Health Improvement Through Computer Automation (CHICA) Highlighting Study</brief_title>
+  <official_title>Increasing Prompt Response Rates in the CHICA System</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Indiana University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Indiana University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators have developed a novel decision support system for implementing clinical
+      guidelines in pediatric practice. CHICA (Child Health Improvement through Computer
+      Automation) combines three elements: (1) pediatric guidelines encoded in Arden Syntax; (2) a
+      dynamic, scannable paper user interface; and (3) an HL7-compliant interface to existing
+      electronic medical record systems. The result is a system that both delivers &quot;just-in-time&quot;
+      patient-relevant guidelines to physicians during the clinical encounter, and accurately
+      captures structured data from all who interact with it. Preliminary work with CHICA has
+      demonstrated the feasibility of using the system to implement and evaluate clinical
+      guidelines.
+
+      However, analyses have shown that physicians ignore a fair number of prompts. The
+      investigators would like to experiment with changes to the system to see if they can increase
+      physicians' response rates. This could include highlighting prompts, reordering them, or
+      flagging them in other ways. The main outcome of interest in the rate at which physicians
+      answer prompts.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      We have developed a novel decision support system for implementing clinical guidelines in
+      pediatric practice. CHICA (Child Health Improvement through Computer Automation) combines
+      three elements: (1) pediatric guidelines encoded in Arden Syntax; (2) a dynamic, scannable
+      paper user interface; and (3) an HL7-compliant interface to existing electronic medical
+      record systems. The result is a system that both delivers &quot;just-in-time&quot; patient-relevant
+      guidelines to physicians during the clinical encounter, and accurately captures structured
+      data from all who interact with it. Preliminary work with CHICA has demonstrated the
+      feasibility of using the system to implement and evaluate clinical guidelines.
+
+      However, analyses have shown that physicians ignore a fair number of prompts. We would like
+      to experiment with changes to the system to see if we can increase physicians' response
+      rates. This could include highlighting prompts, reordering them, or flagging them in other
+      ways. The main outcome of interest is the rate at which physicians answer prompts.
+
+      This will be a randomized, controlled trial of the CHICA system to see if we can improve
+      prompt response rates. We will randomize physicians or clinics to receive some form of prompt
+      change, including highlighting them, reordering them, or flagging them. No other changes will
+      be made to care.
+
+      We will extract data from the CHICA system for all patients seen in our study clinics. This
+      data will include a the clinic location, whether or not a physician responded to a prompt,
+      the prompt's position on the form, the patient's gender, the rule priority of the prompt,
+      rule title, patient insurance category, the patient's age in days, and the name of the
+      provider. The main outcome of interest is whether or not a prompt was answered (discussed/not
+      discussed).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2012</start_date>
+  <completion_date type="Actual">October 2012</completion_date>
+  <primary_completion_date type="Actual">October 2012</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The Number of Prompts That Were Responded to</measure>
+    <time_frame>1 year</time_frame>
+    <description>The main outcome of interest is whether or not a prompt was answered (discussed/not discussed).</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">2237</enrollment>
+  <condition>Physician Behavior</condition>
+  <arm_group>
+    <arm_group_label>Receiving Highlighted Prompts</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Prompts received by physicians were highlighted.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Receiving Non-highlighted Prompts</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Prompts received by physicians were not highlighted.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Receiving Highlighted Prompts</intervention_name>
+    <description>Prompts received by physicians were highlighted.</description>
+    <arm_group_label>Receiving Highlighted Prompts</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Receiving Non-highlighted Prompts</intervention_name>
+    <description>Prompts received by physicians were not highlighted.</description>
+    <arm_group_label>Receiving Non-highlighted Prompts</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Physicians practicing in one of our four CHICA clinics who use CHICA
+
+        Exclusion Criteria:
+
+          -  Not being a physician practicing in one of our four CHICA clinics who use CHICA
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Aaron E Carroll, MD, MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Indiana University School of Medicine</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>IUMG Clinic System</name>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <zip>46202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 18, 2012</study_first_submitted>
+  <study_first_submitted_qc>April 19, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 23, 2012</study_first_posted>
+  <results_first_submitted>December 8, 2016</results_first_submitted>
+  <results_first_submitted_qc>February 2, 2017</results_first_submitted_qc>
+  <results_first_posted type="Actual">March 23, 2017</results_first_posted>
+  <last_update_submitted>April 10, 2017</last_update_submitted>
+  <last_update_submitted_qc>April 10, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 15, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Indiana University</investigator_affiliation>
+    <investigator_full_name>Aaron Carroll</investigator_full_name>
+    <investigator_title>Assoc. Prof of Pediatrics</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <pre_assignment_details>While physicians were the ones that received prompts, the prompts are the unit of analysis.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Highlighted Prompts</title>
+          <description>Physicians received highlighted prompts.</description>
+        </group>
+        <group group_id="P2">
+          <title>Non-highlighted Prompts</title>
+          <description>Physicians received prompts that were not highlighted.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="1076"/>
+                <participants group_id="P2" count="1161"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1076"/>
+                <participants group_id="P2" count="1161"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Receiving Highlighted Prompts</title>
+          <description>These patients received highlighted prompts.</description>
+        </group>
+        <group group_id="B2">
+          <title>Receiving Non-highlighted Prompts</title>
+          <description>These patients received prompts that were not highlighted.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="1076"/>
+            <count group_id="B2" value="1161"/>
+            <count group_id="B3" value="2237"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1076"/>
+                    <measurement group_id="B2" value="1161"/>
+                    <measurement group_id="B3" value="2237"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex/Gender, Customized</title>
+          <description>We did not record gender for this study, and so it is not known.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Unknown</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1076"/>
+                    <measurement group_id="B2" value="1161"/>
+                    <measurement group_id="B3" value="2237"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>The Number of Prompts That Were Responded to</title>
+        <description>The main outcome of interest is whether or not a prompt was answered (discussed/not discussed).</description>
+        <time_frame>1 year</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Receiving Highlighted Prompts</title>
+            <description>Prompts received by physicians were highlighted.</description>
+          </group>
+          <group group_id="O2">
+            <title>Receiving Non-highlighted Prompts</title>
+            <description>Prompts received by physicians were not highlighted.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>The Number of Prompts That Were Responded to</title>
+          <description>The main outcome of interest is whether or not a prompt was answered (discussed/not discussed).</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1076"/>
+                <count group_id="O2" value="1161"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="672"/>
+                    <measurement group_id="O2" value="712"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Highlighted Prompts</title>
+          <description>These patients received highlighted prompts.</description>
+        </group>
+        <group group_id="E2">
+          <title>Non-highlighted Prompts</title>
+          <description>These patients received prompts that were not highlighted.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="1076"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="1161"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="1076"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="1161"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Aaron E. Carroll, MD, MS</name_or_title>
+      <organization>Indiana University School of Medicine</organization>
+      <phone>3172789616</phone>
+      <email>aaecarro@iu.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

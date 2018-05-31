@@ -1,0 +1,785 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01418313</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GCO 01-1032</org_study_id>
+    <secondary_id>R01HL071021</secondary_id>
+    <nct_id>NCT01418313</nct_id>
+  </id_info>
+  <brief_title>Non-Invasive Imaging of Atherosclerosis</brief_title>
+  <official_title>In Vivo Molecular Imaging (MRI) of Atherothrombotic Lesions</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Icahn School of Medicine at Mount Sinai</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Heart, Lung, and Blood Institute (NHLBI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institutes of Health (NIH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>New York University School of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Icahn School of Medicine at Mount Sinai</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to develop and validate novel magnetic resonance imaging (MRI),
+      dynamic contrast enhanced (DCE)-MRI and positron emission tomography (PET)/MR techniques for
+      the detection and risk stratification of patients with atherosclerosis.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Atherosclerosis is responsible for the majority of disabilities and deaths in developed
+      countries. Previous studies have shown that sudden clinical events correlate highly with
+      plaque composition and the degree of plaque inflammation. These results stress the importance
+      of developing non-invasive surrogate markers of plaque inflammation to detect asymptomatic
+      high-risk plaques in clinical settings. Dynamic contrast enhanced (DCE) magnetic resonance
+      imaging (MRI) and 18F fluorodeoxyglucose (FDG) positron emission tomography (PET) with
+      combined computed tomography (CT) have shown promise in characterizing and quantifying
+      metabolic activity (i.e., glycolysis/ inflammation) in atherosclerosis, by targeting the
+      presence of neovessels (DCE-MRI) and inflammatory cells such as macrophages (18F-FDG PET) in
+      plaques of both animal and human subjects. However, several challenges need to be overcome
+      prior to translating these imaging approaches to clinical practice. A significant obstacle to
+      adapting conventional DCE-MRI approaches to atherosclerosis includes the necessity to image
+      with high spatial resolution to capture plaque heterogeneity. This can be achieved with
+      longer scan times, but conflicts with need for high temporal resolution required for accurate
+      arterial input function sampling and quantification of contrast agent uptake. In Aim 1, the
+      investigators will develop and validate a novel dual-imaging sequence for DCE-MRI of
+      atherosclerosis where the investigators acquire a high temporal resolution, but low spatial
+      resolution, AIF image and a high spatial resolution/low temporal resolution vessel wall image
+      to allow accurate quantification of contrast agent uptake within plaques. This approach will
+      be compared to conventional approaches in both a rabbit model of atherosclerosis and in human
+      subjects. The limited spatial resolution of conventional PET scanners has an impact on the
+      accuracy of 18F-FDG PET quantification in atherosclerotic plaques because of the partial
+      volume effect (PVE). A posteriori PVE correction methods using high-resolution anatomical
+      images acquired with a different imaging modality can improve quantification, but are
+      challenging since they require accurate co-registration between the another imaging modality
+      and PET. MR is an ideal choice for this second imaging modality as it produces
+      high-resolution anatomical images without the use of ionizing radiation. A combined MR/PET
+      scanner may therefore be better suited for developing novel PVE correction methodologies. As
+      part of Aim 2, the investigators will develop and validate the combined MR-PET(FDG) imaging
+      approach to improve the quantification of atherosclerotic plaque metabolic activity.
+      Attenuation correction based on MR will be compared with CT based attenuation correction.
+      Approaches to improved PVE correction and optimal circulation time for plaque imaging will
+      also be validated in both rabbits and humans. Finally, imaging parameters derived from the
+      improved DCE-MRI and MR- PET(FDG) will be validated in patients undergoing carotid
+      endarterectomy (CEA), with the primary endpoint of establishing the relationship between
+      imaging and histological markers of plaque inflammation. Additionally, the investigators will
+      assess the relationship (if any) with serum biomarkers and, as an exploratory endpoint, the
+      investigators will study by real time PCR the relationship of imaging with the gene
+      expression of markers of plaque vulnerability.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>September 2011</start_date>
+  <completion_date type="Anticipated">June 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Correlation between imaging and biomarkers of atherosclerosis</measure>
+    <time_frame>5 years</time_frame>
+    <description>R correlation coefficient</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>DCE-MRI kinetic parameters</measure>
+    <time_frame>3 years</time_frame>
+    <description>Parameters evaluating the uptake of MR contrast agent in atherosclerotic plaques. Kinetic parameters Ktrans (1/min) , ve (a.u.), vp (a.u.), Kep (1/min)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>FDG uptake parameters</measure>
+    <time_frame>3 years</time_frame>
+    <description>Parameters evaluating the uptake of FDG in atherosclerotic plaques. Standardized uptake value (SUV) (a.u.); target to background ratio (TBR) (a.u.)</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">159</enrollment>
+  <condition>Atherosclerosis</condition>
+  <arm_group>
+    <arm_group_label>DCE-MRI</arm_group_label>
+    <description>Magnetic resonance imaging (MRI) with and without FDA approved contrast agents: MRI is a non invasive imaging technique used to visualize the internal structure of the body in detail. The MRI machine is an oversized magnet that is always on. It will be used in this study to provide anatomical and functional (MRI with contrast) information about atherosclerotic plaques.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PET/CT and PET/MR</arm_group_label>
+    <description>Positron emission tomography (PET)/ computer tomography (CT): PET is a nuclear medicine imaging technique, which produces images of functional processes in the body. The system detects pairs of gamma rays emitted indirectly by a positron-emitting radionuclide (tracer), which is introduced into the body on a biologically active molecule. Nowadays PET imaging is most useful in combination with anatomical imaging, such as CT scanners, thereby PET scanners are now available with integrated high-end multi-detector row CT scanners. Because the two scans can be performed in immediate sequence during the same session and with the patient not changing position between the two scans, areas of abnormality on PET images can be directly correlated with anatomy on the CT images.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PET/MR</arm_group_label>
+    <description>Positron emission tomography (PET)/MRI: PET is a nuclear medicine imaging technique, which produces images of functional processes in the body. The system detects pairs of gamma rays emitted indirectly by a positron-emitting radionuclide (tracer), which is introduced into the body on a biologically active molecule. To avoid the additional radiation deriving from the CT scan during PET/CT imaging, nowadays PET imaging can be paired with MR anatomical images.</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Whole Blood, Endarterectomy Specimens
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects in the New York area referred by primary care physician, or recruited through
+        Lifeline Screening or ResearchMatch.org, or Mount Sinai Broadcast emails and flyers.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Volunteers with carotid artery disease who are MRI and CT compatible.
+
+          -  All subjects will have either a
+
+               -  clinical diagnosis of atherosclerosis,
+
+               -  and/or risk factors
+
+               -  and/or family history of disease
+
+        Exclusion criteria:
+
+          -  Glomerular filtration rate &lt;30mg/ml (for MRI with contrast)
+
+          -  Subjects who have any ferromagnetic implants (e.g. aneurysm clip, ICD, pacemaker,
+             etc.) or a condition that may be contraindicated for the MRI procedure (e.g.
+             claustrophobia )
+
+          -  Pregnant patients will be excluded from the present study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Zahi A Fayad, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Icahn School of Medicine at Mount Sinai</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Juan G Aguinaldo, MD</last_name>
+    <phone>212-824-8459</phone>
+    <email>gilbert.aguinaldo@mssm.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Icahn School of Medicine at Mount Sinai</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Zahi Fayad, PhD</last_name>
+      <email>zahi.fayad@mssm.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Venkatesh Mani, PhD</last_name>
+    </contact_backup>
+    <investigator>
+      <last_name>Venkatesh Mani, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Zahi A Fayad, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Moustafa RR, Izquierdo-Garcia D, Fryer TD, Graves MJ, Rudd JH, Gillard JH, Weissberg PL, Baron JC, Warburton EA. Carotid plaque inflammation is associated with cerebral microembolism in patients with recent transient ischemic attack or stroke: a pilot study. Circ Cardiovasc Imaging. 2010 Sep;3(5):536-41. doi: 10.1161/CIRCIMAGING.110.938225. Epub 2010 Jul 16.</citation>
+    <PMID>20639303</PMID>
+  </reference>
+  <reference>
+    <citation>Rudd JH, Warburton EA, Fryer TD, Jones HA, Clark JC, Antoun N, Johnström P, Davenport AP, Kirkpatrick PJ, Arch BN, Pickard JD, Weissberg PL. Imaging atherosclerotic plaque inflammation with [18F]-fluorodeoxyglucose positron emission tomography. Circulation. 2002 Jun 11;105(23):2708-11.</citation>
+    <PMID>12057982</PMID>
+  </reference>
+  <reference>
+    <citation>Kwee RM, Teule GJ, van Oostenbrugge RJ, Mess WH, Prins MH, van der Geest RJ, Ter Berg JW, Franke CL, Korten AG, Meems BJ, Hofman PA, van Engelshoven JM, Wildberger JE, Kooi ME. Multimodality imaging of carotid artery plaques: 18F-fluoro-2-deoxyglucose positron emission tomography, computed tomography, and magnetic resonance imaging. Stroke. 2009 Dec;40(12):3718-24. doi: 10.1161/STROKEAHA.109.564088. Epub 2009 Oct 29.</citation>
+    <PMID>19875738</PMID>
+  </reference>
+  <reference>
+    <citation>Silvera SS, Aidi HE, Rudd JH, Mani V, Yang L, Farkouh M, Fuster V, Fayad ZA. Multimodality imaging of atherosclerotic plaque activity and composition using FDG-PET/CT and MRI in carotid and femoral arteries. Atherosclerosis. 2009 Nov;207(1):139-43. doi: 10.1016/j.atherosclerosis.2009.04.023. Epub 2009 Apr 24.</citation>
+    <PMID>19467659</PMID>
+  </reference>
+  <reference>
+    <citation>Nahrendorf M, Zhang H, Hembrador S, Panizzi P, Sosnovik DE, Aikawa E, Libby P, Swirski FK, Weissleder R. Nanoparticle PET-CT imaging of macrophages in inflammatory atherosclerosis. Circulation. 2008 Jan 22;117(3):379-87. Epub 2007 Dec 24.</citation>
+    <PMID>18158358</PMID>
+  </reference>
+  <reference>
+    <citation>Bertagna F, Bosio G, Caobelli F, Motta F, Biasiotto G, Giubbini R. Role of 18F-fluorodeoxyglucose positron emission tomography/computed tomography for therapy evaluation of patients with large-vessel vasculitis. Jpn J Radiol. 2010 Apr;28(3):199-204. doi: 10.1007/s11604-009-0408-2. Epub 2010 May 1.</citation>
+    <PMID>20437130</PMID>
+  </reference>
+  <reference>
+    <citation>Rogers IS, Nasir K, Figueroa AL, Cury RC, Hoffmann U, Vermylen DA, Brady TJ, Tawakol A. Feasibility of FDG imaging of the coronary arteries: comparison between acute coronary syndrome and stable angina. JACC Cardiovasc Imaging. 2010 Apr;3(4):388-97. doi: 10.1016/j.jcmg.2010.01.004.</citation>
+    <PMID>20394901</PMID>
+  </reference>
+  <reference>
+    <citation>Benedetto R, Carneiro MP, Junqueira FA, Coutinho A Jr, von Ristow A, Fonseca LM. (18)F-FDG in distinction of atherosclerotic plaque: Innovation in PET/MRI technology. Arq Bras Cardiol. 2009 Dec;93(6):e84-7, e97-100. English, Portuguese.</citation>
+    <PMID>20379625</PMID>
+  </reference>
+  <reference>
+    <citation>Saam T, Rominger A, Wolpers S, Nikolaou K, Rist C, Greif M, Cumming P, Becker A, Foerster S, Reiser MF, Bartenstein P, Hacker M. Association of inflammation of the left anterior descending coronary artery with cardiovascular risk factors, plaque burden and pericardial fat volume: a PET/CT study. Eur J Nucl Med Mol Imaging. 2010 Jun;37(6):1203-12. doi: 10.1007/s00259-010-1432-2. Epub 2010 Mar 19.</citation>
+    <PMID>20300933</PMID>
+  </reference>
+  <reference>
+    <citation>Graebe M, Pedersen SF, Højgaard L, Kjaer A, Sillesen H. 18FDG PET and ultrasound echolucency in carotid artery plaques. JACC Cardiovasc Imaging. 2010 Mar;3(3):289-95. doi: 10.1016/j.jcmg.2010.01.001.</citation>
+    <PMID>20223427</PMID>
+  </reference>
+  <reference>
+    <citation>Menezes LJ, Kayani I, Ben-Haim S, Hutton B, Ell PJ, Groves AM. What is the natural history of 18F-FDG uptake in arterial atheroma on PET/CT? Implications for imaging the vulnerable plaque. Atherosclerosis. 2010 Jul;211(1):136-40. doi: 10.1016/j.atherosclerosis.2010.01.012. Epub 2010 Jan 22.</citation>
+    <PMID>20202634</PMID>
+  </reference>
+  <reference>
+    <citation>Hays AG, Hirsch GA, Kelle S, Gerstenblith G, Weiss RG, Stuber M. Noninvasive visualization of coronary artery endothelial function in healthy subjects and in patients with coronary artery disease. J Am Coll Cardiol. 2010 Nov 9;56(20):1657-65. doi: 10.1016/j.jacc.2010.06.036.</citation>
+    <PMID>21050976</PMID>
+  </reference>
+  <reference>
+    <citation>Balu N, Wang J, Dong L, Baluyot F, Chen H, Yuan C. Current techniques for MR imaging of atherosclerosis. Top Magn Reson Imaging. 2009 Aug;20(4):203-15. doi: 10.1097/RMR.0b013e3181ea287d. Review.</citation>
+    <PMID>20805731</PMID>
+  </reference>
+  <reference>
+    <citation>Muntendam P, McCall C, Sanz J, Falk E, Fuster V; High-Risk Plaque Initiative. The BioImage Study: novel approaches to risk assessment in the primary prevention of atherosclerotic cardiovascular disease--study design and objectives. Am Heart J. 2010 Jul;160(1):49-57.e1. doi: 10.1016/j.ahj.2010.02.021.</citation>
+    <PMID>20598972</PMID>
+  </reference>
+  <reference>
+    <citation>Li F, McDermott MM, Li D, Carroll TJ, Hippe DS, Kramer CM, Fan Z, Zhao X, Hatsukami TS, Chu B, Wang J, Yuan C. The association of lesion eccentricity with plaque morphology and components in the superficial femoral artery: a high-spatial-resolution, multi-contrast weighted CMR study. J Cardiovasc Magn Reson. 2010 Jul 1;12:37. doi: 10.1186/1532-429X-12-37.</citation>
+    <PMID>20591197</PMID>
+  </reference>
+  <reference>
+    <citation>Dong L, Kerwin WS, Ferguson MS, Li R, Wang J, Chen H, Canton G, Hatsukami TS, Yuan C. Cardiovascular magnetic resonance in carotid atherosclerotic disease. J Cardiovasc Magn Reson. 2009 Dec 15;11:53. doi: 10.1186/1532-429X-11-53. Review.</citation>
+    <PMID>20003520</PMID>
+  </reference>
+  <reference>
+    <citation>Bornstedt A, Burgmaier M, Hombach V, Marx N, Rasche V. Dual stack black blood carotid artery CMR at 3T: application to wall thickness visualization. J Cardiovasc Magn Reson. 2009 Nov 10;11:45. doi: 10.1186/1532-429X-11-45.</citation>
+    <PMID>19903348</PMID>
+  </reference>
+  <reference>
+    <citation>Tahara N, Kai H, Ishibashi M, Nakaura H, Kaida H, Baba K, Hayabuchi N, Imaizumi T. Simvastatin attenuates plaque inflammation: evaluation by fluorodeoxyglucose positron emission tomography. J Am Coll Cardiol. 2006 Nov 7;48(9):1825-31. Epub 2006 Oct 17.</citation>
+    <PMID>17084257</PMID>
+  </reference>
+  <reference>
+    <citation>Lobatto ME, Fayad ZA, Silvera S, Vucic E, Calcagno C, Mani V, Dickson SD, Nicolay K, Banciu M, Schiffelers RM, Metselaar JM, van Bloois L, Wu HS, Fallon JT, Rudd JH, Fuster V, Fisher EA, Storm G, Mulder WJ. Multimodal clinical imaging to longitudinally assess a nanomedical anti-inflammatory treatment in experimental atherosclerosis. Mol Pharm. 2010 Dec 6;7(6):2020-9. doi: 10.1021/mp100309y. Epub 2010 Nov 8.</citation>
+    <PMID>21028895</PMID>
+  </reference>
+  <reference>
+    <citation>Sheikine Y, Akram K. FDG-PET imaging of atherosclerosis: Do we know what we see? Atherosclerosis. 2010 Aug;211(2):371-80. doi: 10.1016/j.atherosclerosis.2010.01.002. Epub 2010 Feb 1. Review.</citation>
+    <PMID>20202637</PMID>
+  </reference>
+  <reference>
+    <citation>Luypaert R, Sourbron S, Makkat S, de Mey J. Error estimation for perfusion parameters obtained using the two-compartment exchange model in dynamic contrast-enhanced MRI: a simulation study. Phys Med Biol. 2010 Nov 7;55(21):6431-43. doi: 10.1088/0031-9155/55/21/006. Epub 2010 Oct 15.</citation>
+    <PMID>20952813</PMID>
+  </reference>
+  <reference>
+    <citation>Kershaw LE, Cheng HL. Temporal resolution and SNR requirements for accurate DCE-MRI data analysis using the AATH model. Magn Reson Med. 2010 Dec;64(6):1772-80. doi: 10.1002/mrm.22573. Epub 2010 Aug 16.</citation>
+    <PMID>20715059</PMID>
+  </reference>
+  <reference>
+    <citation>Cao Y, Li D, Shen Z, Normolle D. Sensitivity of quantitative metrics derived from DCE MRI and a pharmacokinetic model to image quality and acquisition parameters. Acad Radiol. 2010 Apr;17(4):468-78. doi: 10.1016/j.acra.2009.10.021.</citation>
+    <PMID>20207317</PMID>
+  </reference>
+  <reference>
+    <citation>Cheng HL. Investigation and optimization of parameter accuracy in dynamic contrast-enhanced MRI. J Magn Reson Imaging. 2008 Sep;28(3):736-43. doi: 10.1002/jmri.21489.</citation>
+    <PMID>18777534</PMID>
+  </reference>
+  <reference>
+    <citation>Bisdas S, Nägele T, Schlemmer HP, Boss A, Claussen CD, Pichler B, Ernemann U. Switching on the lights for real-time multimodality tumor neuroimaging: The integrated positron-emission tomography/MR imaging system. AJNR Am J Neuroradiol. 2010 Apr;31(4):610-4. doi: 10.3174/ajnr.A1900. Epub 2009 Nov 26. Review.</citation>
+    <PMID>19942710</PMID>
+  </reference>
+  <reference>
+    <citation>Herzog H, Pietrzyk U, Shah NJ, Ziemons K. The current state, challenges and perspectives of MR-PET. Neuroimage. 2010 Feb 1;49(3):2072-82. doi: 10.1016/j.neuroimage.2009.10.036. Epub 2009 Oct 21.</citation>
+    <PMID>19853045</PMID>
+  </reference>
+  <reference>
+    <citation>Schlemmer HP, Pichler BJ, Schmand M, Burbar Z, Michel C, Ladebeck R, Jattke K, Townsend D, Nahmias C, Jacob PK, Heiss WD, Claussen CD. Simultaneous MR/PET imaging of the human brain: feasibility study. Radiology. 2008 Sep;248(3):1028-35. doi: 10.1148/radiol.2483071927.</citation>
+    <PMID>18710991</PMID>
+  </reference>
+  <reference>
+    <citation>Catana C, van der Kouwe A, Benner T, Michel CJ, Hamm M, Fenchel M, Fischl B, Rosen B, Schmand M, Sorensen AG. Toward implementing an MRI-based PET attenuation-correction method for neurologic studies on the MR-PET brain prototype. J Nucl Med. 2010 Sep;51(9):1431-8. doi: 10.2967/jnumed.109.069112.</citation>
+    <PMID>20810759</PMID>
+  </reference>
+  <reference>
+    <citation>Schlemmer HP, Pichler BJ, Krieg R, Heiss WD. An integrated MR/PET system: prospective applications. Abdom Imaging. 2009 Nov;34(6):668-74. doi: 10.1007/s00261-008-9450-2. Review.</citation>
+    <PMID>18773235</PMID>
+  </reference>
+  <reference>
+    <citation>Büscher K, Judenhofer MS, Kuhlmann MT, Hermann S, Wehrl HF, Schäfers KP, Schäfers M, Pichler BJ, Stegger L. Isochronous assessment of cardiac metabolism and function in mice using hybrid PET/MRI. J Nucl Med. 2010 Aug;51(8):1277-84. doi: 10.2967/jnumed.110.076448. Epub 2010 Jul 21.</citation>
+    <PMID>20660390</PMID>
+  </reference>
+  <reference>
+    <citation>Boss A, Bisdas S, Kolb A, Hofmann M, Ernemann U, Claussen CD, Pfannenberg C, Pichler BJ, Reimold M, Stegger L. Hybrid PET/MRI of intracranial masses: initial experiences and comparison to PET/CT. J Nucl Med. 2010 Aug;51(8):1198-205. doi: 10.2967/jnumed.110.074773. Epub 2010 Jul 21.</citation>
+    <PMID>20660388</PMID>
+  </reference>
+  <reference>
+    <citation>Boss A, Kolb A, Hofmann M, Bisdas S, Nägele T, Ernemann U, Stegger L, Rossi C, Schlemmer HP, Pfannenberg C, Reimold M, Claussen CD, Pichler BJ, Klose U. Diffusion tensor imaging in a human PET/MR hybrid system. Invest Radiol. 2010 May;45(5):270-4. doi: 10.1097/RLI.0b013e3181dc3671.</citation>
+    <PMID>20351651</PMID>
+  </reference>
+  <reference>
+    <citation>Ng TS, Procissi D, Wu Y, Jacobs RE. A robust coregistration method for in vivo studies using a first generation simultaneous PET/MR scanner. Med Phys. 2010 May;37(5):1995-2003.</citation>
+    <PMID>20527533</PMID>
+  </reference>
+  <reference>
+    <citation>Grazioso R, Ladebeck R, Schmand M, Krieg r. APD-based PET for combined MR-PET imaging. Paper presented at: Intl. Soc. Mag. Reson. Med., 2005.</citation>
+  </reference>
+  <reference>
+    <citation>Catana C, Benner TB, Van der Kouwe A, Hamm CM, Chonde DB, Michel CJ, Byars L, El Fakhri G, Alpert NM, Schmand M, Sorensen AG. Improved PET Data Quantification in an Integrated Brain MR-PET Scanner. Paper presented at: Intl. Mag. Reson. Med., 2010.</citation>
+  </reference>
+  <reference>
+    <citation>Rota Kops E, Wagenknecht G, Scheins J, Tellmann L, Herzog H. Attenuation Correction in MR-PET Scanners with Segmented T1-weighted MR Images. Paper presented at: IEEE Nuclear Science Symposium, 2009.</citation>
+  </reference>
+  <reference>
+    <citation>http://www.atlantactsi.org/news/2010/mr_pet.html.</citation>
+  </reference>
+  <reference>
+    <citation>Workshop for hybrid imaging with MR-PET, http://www.ieee.org/organizations/pubs/newsletters/npss/0609/Workshop_Hybrid_Imaging.html, 2008.</citation>
+  </reference>
+  <reference>
+    <citation>http://hybrid-pet-mr.eu/index.php.</citation>
+  </reference>
+  <reference>
+    <citation>Libby P. Harrison's Principles of Internal Medicine. Chapter 235. The Pathogenesis, Prevention, and Treatment of Atherosclerosis: McGrawHill; 2008.</citation>
+  </reference>
+  <reference>
+    <citation>Libby P, Ridker PM, Maseri A. Inflammation and atherosclerosis. Circulation. 2002 Mar 5;105(9):1135-43. Review.</citation>
+    <PMID>11877368</PMID>
+  </reference>
+  <reference>
+    <citation>Libby P. Inflammation and cardiovascular disease mechanisms. Am J Clin Nutr. 2006 Feb;83(2):456S-460S. Review.</citation>
+    <PMID>16470012</PMID>
+  </reference>
+  <reference>
+    <citation>Moreno PR, Purushothaman KR, Fuster V, O'Connor WN. Intimomedial interface damage and adventitial inflammation is increased beneath disrupted atherosclerosis in the aorta: implications for plaque vulnerability. Circulation. 2002 May 28;105(21):2504-11.</citation>
+    <PMID>12034657</PMID>
+  </reference>
+  <reference>
+    <citation>Fuster V, Moreno PR, Fayad ZA, Corti R, Badimon JJ. Atherothrombosis and high-risk plaque: part I: evolving concepts. J Am Coll Cardiol. 2005 Sep 20;46(6):937-54. Review.</citation>
+    <PMID>16168274</PMID>
+  </reference>
+  <reference>
+    <citation>Finn AV, Nakano M, Narula J, Kolodgie FD, Virmani R. Concept of vulnerable/unstable plaque. Arterioscler Thromb Vasc Biol. 2010 Jul;30(7):1282-92. doi: 10.1161/ATVBAHA.108.179739. Review.</citation>
+    <PMID>20554950</PMID>
+  </reference>
+  <reference>
+    <citation>Virmani R, Burke AP, Farb A, Kolodgie FD. Pathology of the vulnerable plaque. J Am Coll Cardiol. 2006 Apr 18;47(8 Suppl):C13-8.</citation>
+    <PMID>16631505</PMID>
+  </reference>
+  <reference>
+    <citation>Virmani R, Ladich ER, Burke AP, Kolodgie FD. Histopathology of carotid atherosclerotic disease. Neurosurgery. 2006 Nov;59(5 Suppl 3):S219-27; discussion S3-13. Review.</citation>
+    <PMID>17053606</PMID>
+  </reference>
+  <reference>
+    <citation>Moreno PR, Purushothaman KR, Sirol M, Levy AP, Fuster V. Neovascularization in human atherosclerosis. Circulation. 2006 May 9;113(18):2245-52. Review.</citation>
+    <PMID>16684874</PMID>
+  </reference>
+  <reference>
+    <citation>Moreno PR, Purushothaman KR, Zias E, Sanz J, Fuster V. Neovascularization in human atherosclerosis. Curr Mol Med. 2006 Aug;6(5):457-77. Review.</citation>
+    <PMID>16918368</PMID>
+  </reference>
+  <reference>
+    <citation>Fuster V, Fayad ZA, Moreno PR, Poon M, Corti R, Badimon JJ. Atherothrombosis and high-risk plaque: Part II: approaches by noninvasive computed tomographic/magnetic resonance imaging. J Am Coll Cardiol. 2005 Oct 4;46(7):1209-18. Review.</citation>
+    <PMID>16198833</PMID>
+  </reference>
+  <reference>
+    <citation>Narula J, Garg P, Achenbach S, Motoyama S, Virmani R, Strauss HW. Arithmetic of vulnerable plaques for noninvasive imaging. Nat Clin Pract Cardiovasc Med. 2008 Aug;5 Suppl 2:S2-10. doi: 10.1038/ncpcardio1247. Review.</citation>
+    <PMID>18641603</PMID>
+  </reference>
+  <reference>
+    <citation>Barrett T, Brechbiel M, Bernardo M, Choyke PL. MRI of tumor angiogenesis. J Magn Reson Imaging. 2007 Aug;26(2):235-49. Review.</citation>
+    <PMID>17623889</PMID>
+  </reference>
+  <reference>
+    <citation>Padhani AR. Dynamic contrast-enhanced MRI in clinical oncology: current status and future directions. J Magn Reson Imaging. 2002 Oct;16(4):407-22. Review.</citation>
+    <PMID>12353256</PMID>
+  </reference>
+  <reference>
+    <citation>Knopp MV, Giesel FL, Marcos H, von Tengg-Kobligk H, Choyke P. Dynamic contrast-enhanced magnetic resonance imaging in oncology. Top Magn Reson Imaging. 2001 Aug;12(4):301-8. Review.</citation>
+    <PMID>11687716</PMID>
+  </reference>
+  <reference>
+    <citation>Padhani AR, Husband JE. Dynamic contrast-enhanced MRI studies in oncology with an emphasis on quantification, validation and human studies. Clin Radiol. 2001 Aug;56(8):607-20. Review.</citation>
+    <PMID>11467863</PMID>
+  </reference>
+  <reference>
+    <citation>Yankeelov TE, Gore JC. Dynamic Contrast Enhanced Magnetic Resonance Imaging in Oncology: Theory, Data Acquisition, Analysis, and Examples. Curr Med Imaging Rev. 2009 May 1;3(2):91-107.</citation>
+    <PMID>19829742</PMID>
+  </reference>
+  <reference>
+    <citation>Walker-Samuel S, Leach MO, Collins DJ. Evaluation of response to treatment using DCE-MRI: the relationship between initial area under the gadolinium curve (IAUGC) and quantitative pharmacokinetic analysis. Phys Med Biol. 2006 Jul 21;51(14):3593-602. Epub 2006 Jul 6.</citation>
+    <PMID>16825751</PMID>
+  </reference>
+  <reference>
+    <citation>Parker GJM, Padhani AR. Quantitative MRI of the brain. Chapter 10: John Wiley &amp; Sons, Ltd; 2004.</citation>
+  </reference>
+  <reference>
+    <citation>Tofts PS. Optimal detection of blood-brain barrier defects with Gd-DTPA MRI-the influences of delayed imaging and optimised repetition time. Magn Reson Imaging. 1996;14(4):373-80.</citation>
+    <PMID>8782175</PMID>
+  </reference>
+  <reference>
+    <citation>Tofts PS. Modeling tracer kinetics in dynamic Gd-DTPA MR imaging. J Magn Reson Imaging. 1997 Jan-Feb;7(1):91-101. Review.</citation>
+    <PMID>9039598</PMID>
+  </reference>
+  <reference>
+    <citation>Tofts PS, Berkowitz B, Schnall MD. Quantitative analysis of dynamic Gd-DTPA enhancement in breast tumors using a permeability model. Magn Reson Med. 1995 Apr;33(4):564-8.</citation>
+    <PMID>7776889</PMID>
+  </reference>
+  <reference>
+    <citation>Tofts PS, Brix G, Buckley DL, Evelhoch JL, Henderson E, Knopp MV, Larsson HB, Lee TY, Mayr NA, Parker GJ, Port RE, Taylor J, Weisskoff RM. Estimating kinetic parameters from dynamic contrast-enhanced T(1)-weighted MRI of a diffusable tracer: standardized quantities and symbols. J Magn Reson Imaging. 1999 Sep;10(3):223-32. Review.</citation>
+    <PMID>10508281</PMID>
+  </reference>
+  <reference>
+    <citation>Yankeelov TE, Luci JJ, Lepage M, Li R, Debusk L, Lin PC, Price RR, Gore JC. Quantitative pharmacokinetic analysis of DCE-MRI data without an arterial input function: a reference region model. Magn Reson Imaging. 2005 May;23(4):519-29.</citation>
+    <PMID>15919597</PMID>
+  </reference>
+  <reference>
+    <citation>Yankeelov TE, Cron GO, Addison CL, Wallace JC, Wilkins RC, Pappas BA, Santyr GE, Gore JC. Comparison of a reference region model with direct measurement of an AIF in the analysis of DCE-MRI data. Magn Reson Med. 2007 Feb;57(2):353-61.</citation>
+    <PMID>17260371</PMID>
+  </reference>
+  <reference>
+    <citation>Yankeelov TE, DeBusk LM, Billheimer DD, Luci JJ, Lin PC, Price RR, Gore JC. Repeatability of a reference region model for analysis of murine DCE-MRI data at 7T. J Magn Reson Imaging. 2006 Nov;24(5):1140-7.</citation>
+    <PMID>17024660</PMID>
+  </reference>
+  <reference>
+    <citation>Yankeelov TE, Luci JJ, DeBusk LM, Lin PC, Gore JC. Incorporating the effects of transcytolemmal water exchange in a reference region model for DCE-MRI analysis: theory, simulations, and experimental results. Magn Reson Med. 2008 Feb;59(2):326-35. doi: 10.1002/mrm.21449.</citation>
+    <PMID>18228592</PMID>
+  </reference>
+  <reference>
+    <citation>Haberkorn U, Ziegler SI, Oberdorfer F, Trojan H, Haag D, Peschke P, Berger MR, Altmann A, van Kaick G. FDG uptake, tumor proliferation and expression of glycolysis associated genes in animal tumor models. Nucl Med Biol. 1994 Aug;21(6):827-34.</citation>
+    <PMID>9234332</PMID>
+  </reference>
+  <reference>
+    <citation>Golshani-Hebroni SG, Bessman SP. Hexokinase binding to mitochondria: a basis for proliferative energy metabolism. J Bioenerg Biomembr. 1997 Aug;29(4):331-8. Review.</citation>
+    <PMID>9387093</PMID>
+  </reference>
+  <reference>
+    <citation>Deichen JT, Prante O, Gack M, Schmiedehausen K, Kuwert T. Uptake of [18F]fluorodeoxyglucose in human monocyte-macrophages in vitro. Eur J Nucl Med Mol Imaging. 2003 Feb;30(2):267-73. Epub 2002 Nov 5.</citation>
+    <PMID>12552345</PMID>
+  </reference>
+  <reference>
+    <citation>Mamede M, Higashi T, Kitaichi M, Ishizu K, Ishimori T, Nakamoto Y, Yanagihara K, Li M, Tanaka F, Wada H, Manabe T, Saga T. [18F]FDG uptake and PCNA, Glut-1, and Hexokinase-II expressions in cancers and inflammatory lesions of the lung. Neoplasia. 2005 Apr;7(4):369-79.</citation>
+    <PMID>15967114</PMID>
+  </reference>
+  <reference>
+    <citation>Chowdhury FU, Shah N, Scarsbrook AF, Bradley KM. [18F]FDG PET/CT imaging of colorectal cancer: a pictorial review. Postgrad Med J. 2010 Mar;86(1013):174-82. doi: 10.1136/pgmj.2009.079087. Review.</citation>
+    <PMID>20237012</PMID>
+  </reference>
+  <reference>
+    <citation>van Dijk RA, Virmani R, von der Thüsen JH, Schaapherder AF, Lindeman JH. The natural history of aortic atherosclerosis: a systematic histopathological evaluation of the peri-renal region. Atherosclerosis. 2010 May;210(1):100-6. doi: 10.1016/j.atherosclerosis.2009.11.016. Epub 2009 Nov 26.</citation>
+    <PMID>20031134</PMID>
+  </reference>
+  <reference>
+    <citation>Virmani R, Kolodgie FD, Burke AP, Farb A, Schwartz SM. Lessons from sudden coronary death: a comprehensive morphological classification scheme for atherosclerotic lesions. Arterioscler Thromb Vasc Biol. 2000 May;20(5):1262-75. Review.</citation>
+    <PMID>10807742</PMID>
+  </reference>
+  <reference>
+    <citation>Itskovich VV, Samber DD, Mani V, Aguinaldo JG, Fallon JT, Tang CY, Fuster V, Fayad ZA. Quantification of human atherosclerotic plaques using spatially enhanced cluster analysis of multicontrast-weighted magnetic resonance images. Magn Reson Med. 2004 Sep;52(3):515-23.</citation>
+    <PMID>15334569</PMID>
+  </reference>
+  <reference>
+    <citation>Hatsukami TS, Yuan C. MRI in the early identification and classification of high-risk atherosclerotic carotid plaques. Imaging Med. 2010 Feb 1;2(1):63-75.</citation>
+    <PMID>20953294</PMID>
+  </reference>
+  <reference>
+    <citation>Underhill HR, Hatsukami TS, Fayad ZA, Fuster V, Yuan C. MRI of carotid atherosclerosis: clinical implications and future directions. Nat Rev Cardiol. 2010 Mar;7(3):165-73. doi: 10.1038/nrcardio.2009.246. Epub 2010 Jan 26. Review.</citation>
+    <PMID>20101259</PMID>
+  </reference>
+  <reference>
+    <citation>Chu B, Ferguson MS, Chen H, Hippe DS, Kerwin WS, Canton G, Yuan C, Hatsukami TS. Magnetic [corrected] resonance imaging [corrected] features of the disruption-prone and the disrupted carotid plaque. JACC Cardiovasc Imaging. 2009 Jul;2(7):883-96. doi: 10.1016/j.jcmg.2009.03.013. Review. Erratum in: JACC Cardiovasc Imaging. 2009 Sep;2(9):1146.</citation>
+    <PMID>19608140</PMID>
+  </reference>
+  <reference>
+    <citation>Chen H, Cai J, Zhao X, Underhill H, Ota H, Oikawa M, Dong L, Yuan C, Kerwin WS. Localized measurement of atherosclerotic plaque inflammatory burden with dynamic contrast-enhanced MRI. Magn Reson Med. 2010 Aug;64(2):567-73. doi: 10.1002/mrm.22369.</citation>
+    <PMID>20665799</PMID>
+  </reference>
+  <reference>
+    <citation>Kerwin W. Imaging of plaque cellular activity with contrast enhanced MRI. Stud Health Technol Inform. 2005;113:360-83.</citation>
+    <PMID>15923748</PMID>
+  </reference>
+  <reference>
+    <citation>Kerwin W, Hooker A, Spilker M, Vicini P, Ferguson M, Hatsukami T, Yuan C. Quantitative magnetic resonance imaging analysis of neovasculature volume in carotid atherosclerotic plaque. Circulation. 2003 Feb 18;107(6):851-6.</citation>
+    <PMID>12591755</PMID>
+  </reference>
+  <reference>
+    <citation>Kerwin WS, Cai J, Yuan C. Noise and motion correction in dynamic contrast-enhanced MRI for analysis of atherosclerotic lesions. Magn Reson Med. 2002 Jun;47(6):1211-7.</citation>
+    <PMID>12111968</PMID>
+  </reference>
+  <reference>
+    <citation>Kerwin WS, O'Brien KD, Ferguson MS, Polissar N, Hatsukami TS, Yuan C. Inflammation in carotid atherosclerotic plaque: a dynamic contrast-enhanced MR imaging study. Radiology. 2006 Nov;241(2):459-68. Epub 2006 Sep 11.</citation>
+    <PMID>16966482</PMID>
+  </reference>
+  <reference>
+    <citation>Kerwin WS, Oikawa M, Yuan C, Jarvik GP, Hatsukami TS. MR imaging of adventitial vasa vasorum in carotid atherosclerosis. Magn Reson Med. 2008 Mar;59(3):507-14. doi: 10.1002/mrm.21532.</citation>
+    <PMID>18306402</PMID>
+  </reference>
+  <reference>
+    <citation>Kerwin WS, Zhao X, Yuan C, Hatsukami TS, Maravilla KR, Underhill HR, Zhao X. Contrast-enhanced MRI of carotid atherosclerosis: dependence on contrast agent. J Magn Reson Imaging. 2009 Jul;30(1):35-40. doi: 10.1002/jmri.21826.</citation>
+    <PMID>19557844</PMID>
+  </reference>
+  <reference>
+    <citation>Calcagno C, Cornily JC, Hyafil F, Rudd JH, Briley-Saebo KC, Mani V, Goldschlager G, Machac J, Fuster V, Fayad ZA. Detection of neovessels in atherosclerotic plaques of rabbits using dynamic contrast enhanced MRI and 18F-FDG PET. Arterioscler Thromb Vasc Biol. 2008 Jul;28(7):1311-7. doi: 10.1161/ATVBAHA.108.166173. Epub 2008 May 8.</citation>
+    <PMID>18467641</PMID>
+  </reference>
+  <reference>
+    <citation>Calcagno C, Vucic E, Mani V, Goldschlager G, Fayad ZA. Reproducibility of black blood dynamic contrast-enhanced magnetic resonance imaging in aortic plaques of atherosclerotic rabbits. J Magn Reson Imaging. 2010 Jul;32(1):191-8. doi: 10.1002/jmri.22225.</citation>
+    <PMID>20578026</PMID>
+  </reference>
+  <reference>
+    <citation>Kim D, Axel L. Multislice, dual-imaging sequence for increasing the dynamic range of the contrast-enhanced blood signal and CNR of myocardial enhancement at 3T. J Magn Reson Imaging. 2006 Jan;23(1):81-6. Erratum in: J Magn Reson Imaging. 2007 Apr;25(4):878.</citation>
+    <PMID>16331593</PMID>
+  </reference>
+  <reference>
+    <citation>Conturo TE, Akbudak E, Kotys MS, Chen ML, Chun SJ, Hsu RM, Sweeney CC, Markham J. Arterial input functions for dynamic susceptibility contrast MRI: requirements and signal options. J Magn Reson Imaging. 2005 Dec;22(6):697-703.</citation>
+    <PMID>16261571</PMID>
+  </reference>
+  <reference>
+    <citation>Kotys MS, Akbudak E, Markham J, Conturo TE. Precision, signal-to-noise ratio, and dose optimization of magnitude and phase arterial input functions in dynamic susceptibility contrast MRI. J Magn Reson Imaging. 2007 Mar;25(3):598-611.</citation>
+    <PMID>17326084</PMID>
+  </reference>
+  <reference>
+    <citation>Calcagno C, Mani V, Ramachandran S, Fayad ZA. Dynamic contrast enhanced (DCE) magnetic resonance imaging (MRI) of atherosclerotic plaque angiogenesis. Angiogenesis. 2010 Jun;13(2):87-99. doi: 10.1007/s10456-010-9172-2. Epub 2010 Jun 6. Review.</citation>
+    <PMID>20526859</PMID>
+  </reference>
+  <reference>
+    <citation>Davies JR, Izquierdo-Garcia D, Rudd JH, Figg N, Richards HK, Bird JL, Aigbirhio FI, Davenport AP, Weissberg PL, Fryer TD, Warburton EA. FDG-PET can distinguish inflamed from non-inflamed plaque in an animal model of atherosclerosis. Int J Cardiovasc Imaging. 2010 Jan;26(1):41-8. doi: 10.1007/s10554-009-9506-6. Epub 2009 Sep 22.</citation>
+    <PMID>19784796</PMID>
+  </reference>
+  <reference>
+    <citation>Zhang Z, Machac J, Helft G, Worthley SG, Tang C, Zaman AG, Rodriguez OJ, Buchsbaum MS, Fuster V, Badimon JJ. Non-invasive imaging of atherosclerotic plaque macrophage in a rabbit model with F-18 FDG PET: a histopathological correlation. BMC Nucl Med. 2006 May 25;6:3.</citation>
+    <PMID>16725052</PMID>
+  </reference>
+  <reference>
+    <citation>Moustafa RR, Izquierdo-Garcia D, Jones PS, Graves MJ, Fryer TD, Gillard JH, Warburton EA, Baron JC. Watershed infarcts in transient ischemic attack/minor stroke with &gt; or = 50% carotid stenosis: hemodynamic or embolic? Stroke. 2010 Jul;41(7):1410-6. doi: 10.1161/STROKEAHA.110.580415. Epub 2010 May 27.</citation>
+    <PMID>20508190</PMID>
+  </reference>
+  <reference>
+    <citation>Bird JL, Izquierdo-Garcia D, Davies JR, Rudd JH, Probst KC, Figg N, Clark JC, Weissberg PL, Davenport AP, Warburton EA. Evaluation of translocator protein quantification as a tool for characterising macrophage burden in human carotid atherosclerosis. Atherosclerosis. 2010 Jun;210(2):388-91. doi: 10.1016/j.atherosclerosis.2009.11.047. Epub 2009 Dec 4.</citation>
+    <PMID>20056222</PMID>
+  </reference>
+  <reference>
+    <citation>Tawakol A, Migrino RQ, Bashian GG, Bedri S, Vermylen D, Cury RC, Yates D, LaMuraglia GM, Furie K, Houser S, Gewirtz H, Muller JE, Brady TJ, Fischman AJ. In vivo 18F-fluorodeoxyglucose positron emission tomography imaging provides a noninvasive measure of carotid plaque inflammation in patients. J Am Coll Cardiol. 2006 Nov 7;48(9):1818-24. Epub 2006 Oct 17.</citation>
+    <PMID>17084256</PMID>
+  </reference>
+  <reference>
+    <citation>Rudd JH, Myers KS, Bansilal S, Machac J, Woodward M, Fuster V, Farkouh ME, Fayad ZA. Relationships among regional arterial inflammation, calcification, risk factors, and biomarkers: a prospective fluorodeoxyglucose positron-emission tomography/computed tomography imaging study. Circ Cardiovasc Imaging. 2009 Mar;2(2):107-15. doi: 10.1161/CIRCIMAGING.108.811752. Epub 2009 Jan 26.</citation>
+    <PMID>19808576</PMID>
+  </reference>
+  <reference>
+    <citation>Graebe M, Pedersen SF, Borgwardt L, Højgaard L, Sillesen H, Kjaer A. Molecular pathology in vulnerable carotid plaques: correlation with [18]-fluorodeoxyglucose positron emission tomography (FDG-PET). Eur J Vasc Endovasc Surg. 2009 Jun;37(6):714-21. doi: 10.1016/j.ejvs.2008.11.018. Epub 2008 Dec 27.</citation>
+    <PMID>19112034</PMID>
+  </reference>
+  <reference>
+    <citation>Wu YW, Kao HL, Chen MF, Lee BC, Tseng WY, Jeng JS, Tzen KY, Yen RF, Huang PJ, Yang WS. Characterization of plaques using 18F-FDG PET/CT in patients with carotid atherosclerosis and correlation with matrix metalloproteinase-1. J Nucl Med. 2007 Feb;48(2):227-33. Erratum in: J Nucl Med. 2007 Sep;48(9):1430.</citation>
+    <PMID>17268019</PMID>
+  </reference>
+  <reference>
+    <citation>Worthley SG, Zhang ZY, Machac J, Helft G, Tang C, Liew GY, Zaman AG, Worthley MI, Fayad ZA, Buchsbaum MS, Fuster V, Badimon JJ. In vivo non-invasive serial monitoring of FDG-PET progression and regression in a rabbit model of atherosclerosis. Int J Cardiovasc Imaging. 2009 Mar;25(3):251-7. doi: 10.1007/s10554-008-9377-2. Epub 2008 Nov 1.</citation>
+    <PMID>18979182</PMID>
+  </reference>
+  <reference>
+    <citation>Izquierdo-Garcia D, Davies JR, Graves MJ, Rudd JH, Gillard JH, Weissberg PL, Fryer TD, Warburton EA. Comparison of methods for magnetic resonance-guided [18-F]fluorodeoxyglucose positron emission tomography in human carotid arteries: reproducibility, partial volume correction, and correlation between methods. Stroke. 2009 Jan;40(1):86-93. doi: 10.1161/STROKEAHA.108.521393. Epub 2008 Oct 16.</citation>
+    <PMID>18927453</PMID>
+  </reference>
+  <reference>
+    <citation>Rudd JH, Myers KS, Bansilal S, Machac J, Pinto CA, Tong C, Rafique A, Hargeaves R, Farkouh M, Fuster V, Fayad ZA. Atherosclerosis inflammation imaging with 18F-FDG PET: carotid, iliac, and femoral uptake reproducibility, quantification methods, and recommendations. J Nucl Med. 2008 Jun;49(6):871-8. doi: 10.2967/jnumed.107.050294. Epub 2008 May 15.</citation>
+    <PMID>18483100</PMID>
+  </reference>
+  <reference>
+    <citation>Rudd JH, Myers KS, Bansilal S, Machac J, Rafique A, Farkouh M, Fuster V, Fayad ZA. (18)Fluorodeoxyglucose positron emission tomography imaging of atherosclerotic plaque inflammation is highly reproducible: implications for atherosclerosis therapy trials. J Am Coll Cardiol. 2007 Aug 28;50(9):892-6. Epub 2007 Aug 13.</citation>
+    <PMID>17719477</PMID>
+  </reference>
+  <reference>
+    <citation>Huang SC, Hoffman EJ, Phelps ME, Kuhl DE. Quantitation in positron emission computed tomography: 2. Effects of inaccurate attenuation correction. J Comput Assist Tomogr. 1979 Dec;3(6):804-14.</citation>
+    <PMID>315970</PMID>
+  </reference>
+  <reference>
+    <citation>Rousset OG, Ma Y, Evans AC. Correction for partial volume effects in PET: principle and validation. J Nucl Med. 1998 May;39(5):904-11.</citation>
+    <PMID>9591599</PMID>
+  </reference>
+  <reference>
+    <citation>Christian TF, Rettmann DW, Aletras AH, Liao SL, Taylor JL, Balaban RS, Arai AE. Absolute myocardial perfusion in canines measured by using dual-bolus first-pass MR imaging. Radiology. 2004 Sep;232(3):677-84. Epub 2004 Jul 29.</citation>
+    <PMID>15284436</PMID>
+  </reference>
+  <reference>
+    <citation>Gatehouse PD, Elkington AG, Ablitt NA, Yang GZ, Pennell DJ, Firmin DN. Accurate assessment of the arterial input function during high-dose myocardial perfusion cardiovascular magnetic resonance. J Magn Reson Imaging. 2004 Jul;20(1):39-45.</citation>
+    <PMID>15221807</PMID>
+  </reference>
+  <reference>
+    <citation>Yuan C, Mitsumori LM, Ferguson MS, Polissar NL, Echelard D, Ortiz G, Small R, Davies JW, Kerwin WS, Hatsukami TS. In vivo accuracy of multispectral magnetic resonance imaging for identifying lipid-rich necrotic cores and intraplaque hemorrhage in advanced human carotid plaques. Circulation. 2001 Oct 23;104(17):2051-6.</citation>
+    <PMID>11673345</PMID>
+  </reference>
+  <reference>
+    <citation>Hofmann M, Pichler B, Schölkopf B, Beyer T. Towards quantitative PET/MRI: a review of MR-based attenuation correction techniques. Eur J Nucl Med Mol Imaging. 2009 Mar;36 Suppl 1:S93-104. doi: 10.1007/s00259-008-1007-7. Review.</citation>
+    <PMID>19104810</PMID>
+  </reference>
+  <reference>
+    <citation>Turkheimer FE, Aston JA, Asselin MC, Hinz R. Multi-resolution Bayesian regression in PET dynamic studies using wavelets. Neuroimage. 2006 Aug 1;32(1):111-21. Epub 2006 Apr 27.</citation>
+    <PMID>16644238</PMID>
+  </reference>
+  <reference>
+    <citation>Turkheimer FE, Aston JA, Banati RB, Riddell C, Cunningham VJ. A linear wavelet filter for parametric imaging with dynamic PET. IEEE Trans Med Imaging. 2003 Mar;22(3):289-301.</citation>
+    <PMID>12760547</PMID>
+  </reference>
+  <reference>
+    <citation>Turkheimer FE, Banati RB, Visvikis D, Aston JA, Gunn RN, Cunningham VJ. Modeling dynamic PET-SPECT studies in the wavelet domain. J Cereb Blood Flow Metab. 2000 May;20(5):879-93.</citation>
+    <PMID>10826539</PMID>
+  </reference>
+  <reference>
+    <citation>Turkheimer FE, Boussion N, Anderson AN, Pavese N, Piccini P, Visvikis D. PET image denoising using a synergistic multiresolution analysis of structural (MRI/CT) and functional datasets. J Nucl Med. 2008 Apr;49(4):657-66. doi: 10.2967/jnumed.107.041871. Epub 2008 Mar 14.</citation>
+    <PMID>18344430</PMID>
+  </reference>
+  <reference>
+    <citation>Turkheimer FE, Brett M, Visvikis D, Cunningham VJ. Multiresolution analysis of emission tomography images in the wavelet domain. J Cereb Blood Flow Metab. 1999 Nov;19(11):1189-208.</citation>
+    <PMID>10566965</PMID>
+  </reference>
+  <reference>
+    <citation>Boussion N, Hatt M, Lamare F, Bizais Y, Turzo A, Cheze-Le Rest C, Visvikis D. A multiresolution image based approach for correction of partial volume effects in emission tomography. Phys Med Biol. 2006 Apr 7;51(7):1857-76. Epub 2006 Mar 21.</citation>
+    <PMID>16552110</PMID>
+  </reference>
+  <reference>
+    <citation>Shidahara M, Tsoumpas C, Hammers A, Boussion N, Visvikis D, Suhara T, Kanno I, Turkheimer FE. Functional and structural synergy for resolution recovery and partial volume correction in brain PET. Neuroimage. 2009 Jan 15;44(2):340-8. doi: 10.1016/j.neuroimage.2008.09.012. Epub 2008 Sep 25.</citation>
+    <PMID>18852055</PMID>
+  </reference>
+  <reference>
+    <citation>Beyer T, Pichler B. A decade of combined imaging: from a PET attached to a CT to a PET inside an MR. Eur J Nucl Med Mol Imaging. 2009 Mar;36 Suppl 1:S1-2. doi: 10.1007/s00259-008-1041-5.</citation>
+    <PMID>19104807</PMID>
+  </reference>
+  <reference>
+    <citation>von Schulthess GK, Schlemmer HP. A look ahead: PET/MR versus PET/CT. Eur J Nucl Med Mol Imaging. 2009 Mar;36 Suppl 1:S3-9. doi: 10.1007/s00259-008-0940-9.</citation>
+    <PMID>19104804</PMID>
+  </reference>
+  <reference>
+    <citation>Hicks RJ, Lau EW. PET/MRI: a different spin from under the rim. Eur J Nucl Med Mol Imaging. 2009 Mar;36 Suppl 1:S10-4. doi: 10.1007/s00259-008-0966-z.</citation>
+    <PMID>19104800</PMID>
+  </reference>
+  <reference>
+    <citation>Mawlawi O, Townsend DW. Multimodality imaging: an update on PET/CT technology. Eur J Nucl Med Mol Imaging. 2009 Mar;36 Suppl 1:S15-29. doi: 10.1007/s00259-008-1016-6. Review.</citation>
+    <PMID>19104808</PMID>
+  </reference>
+  <reference>
+    <citation>Moser E, Stadlbauer A, Windischberger C, Quick HH, Ladd ME. Magnetic resonance imaging methodology. Eur J Nucl Med Mol Imaging. 2009 Mar;36 Suppl 1:S30-41. doi: 10.1007/s00259-008-0938-3. Review. Erratum in: Eur J Nucl Med Mol Imaging. 2009 Mar;36 Suppl 1:S42-3.</citation>
+    <PMID>19104805</PMID>
+  </reference>
+  <reference>
+    <citation>Slomka PJ, Baum RP. Multimodality image registration with software: state-of-the-art. Eur J Nucl Med Mol Imaging. 2009 Mar;36 Suppl 1:S44-55. doi: 10.1007/s00259-008-0941-8. Review.</citation>
+    <PMID>19104803</PMID>
+  </reference>
+  <reference>
+    <citation>Wehrl HF, Judenhofer MS, Wiehr S, Pichler BJ. Pre-clinical PET/MR: technological advances and new perspectives in biomedical research. Eur J Nucl Med Mol Imaging. 2009 Mar;36 Suppl 1:S56-68. doi: 10.1007/s00259-009-1078-0. Review.</citation>
+    <PMID>19194703</PMID>
+  </reference>
+  <reference>
+    <citation>Lecomte R. Novel detector technology for clinical PET. Eur J Nucl Med Mol Imaging. 2009 Mar;36 Suppl 1:S69-85. doi: 10.1007/s00259-008-1054-0. Review.</citation>
+    <PMID>19107476</PMID>
+  </reference>
+  <reference>
+    <citation>Delso G, Ziegler S. PET/MRI system design. Eur J Nucl Med Mol Imaging. 2009 Mar;36 Suppl 1:S86-92. doi: 10.1007/s00259-008-1008-6. Review.</citation>
+    <PMID>19104809</PMID>
+  </reference>
+  <reference>
+    <citation>Cornily JC, Hyafil F, Calcagno C, Briley-Saebo KC, Tunstead J, Aguinaldo JG, Mani V, Lorusso V, Cavagna FM, Fayad ZA. Evaluation of neovessels in atherosclerotic plaques of rabbits using an albumin-binding intravascular contrast agent and MRI. J Magn Reson Imaging. 2008 Jun;27(6):1406-11. doi: 10.1002/jmri.21369.</citation>
+    <PMID>18504763</PMID>
+  </reference>
+  <reference>
+    <citation>Haacke ME, Brown RW, Thompson MR, Venkatesan R. Magnetic Resonance Imaging: Physical Principles and Sequence Design: John Wiley &amp; Sons, IMC. Publication; 1999.</citation>
+  </reference>
+  <reference>
+    <citation>Nakamura K, Kimura K, Otani S, Asada S, Kameno Y. [Arrhythmia and its treatment after open-heart surgery--with particular reference to the effects of potassium administration]. Kyobu Geka. 1972 Jan;25(1):1-10. Japanese.</citation>
+    <PMID>5065243</PMID>
+  </reference>
+  <reference>
+    <citation>Ramachandran S, Calcagno C, Fayad ZA. Filtering and Phase-correlation based registration of Dynamic Contrast-Enhanced Magnetic Resonance Images. International Society for Magnetic Resonance in Medicine (ISMRM). Stockholm, Sweden; 2010.</citation>
+  </reference>
+  <reference>
+    <citation>Hyafil F, Cornily JC, Rudd JH, Machac J, Feldman LJ, Fayad ZA. Quantification of inflammation within rabbit atherosclerotic plaques using the macrophage-specific CT contrast agent N1177: a comparison with 18F-FDG PET/CT and histology. J Nucl Med. 2009 Jun;50(6):959-65. doi: 10.2967/jnumed.108.060749. Epub 2009 May 14.</citation>
+    <PMID>19443582</PMID>
+  </reference>
+  <reference>
+    <citation>Ogawa M, Ishino S, Mukai T, Asano D, Teramoto N, Watabe H, Kudomi N, Shiomi M, Magata Y, Iida H, Saji H. (18)F-FDG accumulation in atherosclerotic plaques: immunohistochemical and PET imaging study. J Nucl Med. 2004 Jul;45(7):1245-50.</citation>
+    <PMID>15235073</PMID>
+  </reference>
+  <reference>
+    <citation>Keereman V, Vandenberghe S, De Deene Y, Luypaert R, Broux T, Lemahieu I. MR-Based attenuation correction for PET using an Ultrashort Echo Time (UTE) sequence Paper presented at: IEEE Nuclear Science Symposium/Medical Imaging Conference 2009; Dresden, Germany</citation>
+  </reference>
+  <reference>
+    <citation>Luo RC, Yih CC, Su KL. Multisensor fusion and integration: approaches, applications, and future research directions IEEE Sensors Journal. 2002;2(2):107-119.</citation>
+  </reference>
+  <reference>
+    <citation>Font MA, Fernandez A, Carvajal A, Gamez C, Badimon L, Slevin M, Krupinski J. Imaging of early inflammation in low-to-moderate carotid stenosis by 18-FDG-PET. Front Biosci (Landmark Ed). 2009 Jan 1;14:3352-60.</citation>
+    <PMID>19273279</PMID>
+  </reference>
+  <reference>
+    <citation>Pedersen SF, Graebe M, Fisker Hag AM, Højgaard L, Sillesen H, Kjaer A. Gene expression and 18FDG uptake in atherosclerotic carotid plaques. Nucl Med Commun. 2010 May;31(5):423-9. doi: 10.1097/MNM.0b013e32833767e0.</citation>
+    <PMID>20145577</PMID>
+  </reference>
+  <reference>
+    <citation>North American Symptomatic Carotid Endarterectomy Trial Collaborators, Barnett HJM, Taylor DW, Haynes RB, Sackett DL, Peerless SJ, Ferguson GG, Fox AJ, Rankin RN, Hachinski VC, Wiebers DO, Eliasziw M. Beneficial effect of carotid endarterectomy in symptomatic patients with high-grade carotid stenosis. N Engl J Med. 1991 Aug 15;325(7):445-53.</citation>
+    <PMID>1852179</PMID>
+  </reference>
+  <reference>
+    <citation>Randomised trial of endarterectomy for recently symptomatic carotid stenosis: final results of the MRC European Carotid Surgery Trial (ECST). Lancet. 1998 May 9;351(9113):1379-87.</citation>
+    <PMID>9593407</PMID>
+  </reference>
+  <reference>
+    <citation>Saam T, Ferguson MS, Yarnykh VL, Takaya N, Xu D, Polissar NL, Hatsukami TS, Yuan C. Quantitative evaluation of carotid plaque composition by in vivo MRI. Arterioscler Thromb Vasc Biol. 2005 Jan;25(1):234-9. Epub 2004 Nov 4.</citation>
+    <PMID>15528475</PMID>
+  </reference>
+  <reference>
+    <citation>Saam T, Kerwin WS, Chu B, Cai J, Kampschulte A, Hatsukami TS, Zhao XQ, Polissar NL, Neradilek B, Yarnykh VL, Flemming K, Huston J 3rd, Insull W Jr, Morrisett JD, Rand SD, DeMarco KJ, Yuan C. Sample size calculation for clinical trials using magnetic resonance imaging for the quantitative assessment of carotid atherosclerosis. J Cardiovasc Magn Reson. 2005;7(5):799-808.</citation>
+    <PMID>16353440</PMID>
+  </reference>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 5, 2011</study_first_submitted>
+  <study_first_submitted_qc>August 15, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 17, 2011</study_first_posted>
+  <last_update_submitted>January 18, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 18, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 23, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Atherosclerosis</keyword>
+  <keyword>Non-invasive imaging</keyword>
+  <keyword>Magnetic Resonance Imaging</keyword>
+  <keyword>MRI</keyword>
+  <keyword>Positron Emission Tomography</keyword>
+  <keyword>PET/CT</keyword>
+  <keyword>PET/MRI</keyword>
+  <keyword>Inflammation</keyword>
+  <keyword>Neovascularization</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atherosclerosis</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

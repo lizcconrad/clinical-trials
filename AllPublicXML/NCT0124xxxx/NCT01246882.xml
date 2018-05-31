@@ -1,0 +1,462 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01246882</url>
+  </required_header>
+  <id_info>
+    <org_study_id>10-000134</org_study_id>
+    <nct_id>NCT01246882</nct_id>
+  </id_info>
+  <brief_title>Stroke Inpatient Rehabilitation Reinforcement of ACTivity</brief_title>
+  <acronym>SIRRACT</acronym>
+  <official_title>Stroke Inpatient Rehabilitation Reinforcement of ACTivty: An International Multisite Clinical Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, Los Angeles</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Taiwan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Washington University School of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Vigo</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Morinomiya Hospital, Osaka, Japan</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Mayo Clinic</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>IRCCS San Camillo, Venezia, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Fairlawn Hospital, Worcester, MA, USA</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Chonnam National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ain Shams University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>MedStar National Rehabilitation Network</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>St. Luke's Hospital, Pennsylvania</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Father Muller Medical College</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Burke Rehabilitation Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Burwood Hospital, Christchurch, New Zealand</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Gazi University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Ibadan</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Rehabilitation Hospital, Barcelona, Spain</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>IRCCS San Raffaele</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of California, Los Angeles</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to determine the effects of daily feedback about physical
+      activity (number of bouts of walking, duration of bouts, total walking distance, average and
+      fastest walking speed) and walking average speed compared to feedback about walking speed
+      only on walking-related outcomes during inpatient rehabilitation for stroke. For the first
+      time, daily walking and other exercise will be monitored by bilateral triaxial accelerometers
+      on the ankles. Activity-recognition algorithms will analyze the inpatient sensor data and
+      return a summary to the participants at each site.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Wireless Sensor System The inertial sensor system and activity-recognition algorithms were
+      previously described and tested for short-term reliability. Three sets of triaxial
+      accelerometers (Gulf Coast Data Concepts, Waveland, MS) were mailed to each site's
+      coordinator. Therapists placed one sensor on each ankle before participants got out of bed
+      each morning and removed them once they were in bed at the end of the day; sensor use during
+      weekends was optional. A soft snap band secured each sensor proximal to the medial malleolus,
+      flush against the bony tibia. Every night, sensors were plugged into a local computer to
+      recharge while accelerometer data were uploaded to the central server at UCLA for secure
+      storage and processing. Sensor Calibration and Data Processing In recognition of the
+      variations in gait speed and stand and swing symmetry that occur in patients who need
+      inpatient rehabilitation after stroke, we chose to generate individual templates of each
+      participant's gait from a pair of standardized walks. On study entry participants performed
+      two stopwatch- timed 10-meter walks at self-selected casual and safest fast walking speeds. A
+      hybrid classifier employing dynamic time warping and Naïve Bayes algorithms generated
+      statistical models of each participant's gait based on the two walks. Repeat walks were
+      performed and the templates updated weekly for the remainder of each participant's
+      rehabilitation stay to account for expected changes in gait parameters.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2011</start_date>
+  <completion_date type="Actual">November 2012</completion_date>
+  <primary_completion_date type="Actual">November 2012</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Gait speed</measure>
+    <time_frame>Discharge</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Distance walked in 3 minutes</measure>
+    <time_frame>Discharge</time_frame>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">140</enrollment>
+  <condition>Stroke</condition>
+  <arm_group>
+    <arm_group_label>Augmented activity feedback</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Feedback three times per week about 10-m walking speed, plus amount and types of physical activity measured using wireless bilateral ankle sensors that detect bouts of walking and cycling speed, duration, and distance.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>speed-only feedback</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Feedback three times per week about overground walking speed over 10 meters.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Augmented activity feedback</intervention_name>
+    <description>Feedback about walking speed and amount of physical activity will be provided 3 times per week from data acquired from wireless sensors on each ankle.</description>
+    <arm_group_label>Augmented activity feedback</arm_group_label>
+    <other_name>accelerometry</other_name>
+    <other_name>hemiparetic stroke</other_name>
+    <other_name>mobile health</other_name>
+    <other_name>wireless health</other_name>
+    <other_name>feedback about performance</other_name>
+    <other_name>physical therapy for stroke rehabilitation</other_name>
+    <other_name>locomotion</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Speed-only feedback</intervention_name>
+    <description>Feedback about walking speed will be provided 3 times per week.</description>
+    <arm_group_label>speed-only feedback</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Admission for acute inpatient rehabilitation of a first stroke (or second stroke after
+             full recovery from prior TIA/Stroke)
+
+          -  Time from onset of stroke to admission for rehabilitation &lt; 35 days
+
+          -  Stroke from any cause (thrombotic infarct, cardioembolus, intracerebral hemorrhage)
+             that includes unilateral hemiparesis. Hemiparesis means less than / equal to 4/5
+             strength by the British Medical Council scale for hip flexion tested supine and for
+             knee or ankle flexion and extension (scores less than / equal to 22 of 25 possible
+             points)
+
+          -  Ability to follow simple instructions, especially to understand verbal reinforcement
+             about activity.
+
+          -  Independent in mobility prior to admission by the Barthel Index.
+
+          -  Able to walk with no more than physical assistance of 2 persons for at least 5 steps
+             (for example, 3 strides of the left leg alternating with 2 on the right leg). Subjects
+             can use any type of assistive device and brace needed.
+
+          -  Able to understand and repeat information related to the Informed Consent. The subject
+             signs a Consent form.
+
+        Exclusion Criteria:
+
+          -  Current medical disease that will limit physical therapy at the time of randomization
+             or limited walking prior to the stroke, such as serious infection, DVT, orthostatic
+             hypotension, &gt; stage 2 decubitus ulcer of buttocks or legs, congestive heart failure,
+             claudication, and pain with weight-bearing or walking. Subjects can be entered if a
+             complication resolves within 7 days of admission screening.
+
+          -  Aphasia with inability to follow 2-step directions during therapeutic instructions or
+             answers Yes/No to questions with &lt; 75% accuracy related to personal health and
+             symptoms.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bruce H Dobkin, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, Los Angeles</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Fairlawn Hospital</name>
+      <address>
+        <city>Worcester</city>
+        <state>Massachusetts</state>
+        <zip>01602</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mayo Clinic</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Washington University</name>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <zip>63108</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Burke Rehabilitation Hospital</name>
+      <address>
+        <city>White Plains</city>
+        <state>New York</state>
+        <zip>10605</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>St. Luke's Hospital</name>
+      <address>
+        <city>Allentown</city>
+        <state>Pennsylvania</state>
+        <zip>18104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Ain Shams University</name>
+      <address>
+        <city>Cairo</city>
+        <country>Egypt</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Father Muller Medical College</name>
+      <address>
+        <city>Karnataka</city>
+        <country>India</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>National Rehabilitation Hospital</name>
+      <address>
+        <city>Dublin</city>
+        <country>Ireland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>San Raffaele Hospital</name>
+      <address>
+        <city>Milan</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Sam Camillo</name>
+      <address>
+        <city>Venice</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Morinomiya Hospital</name>
+      <address>
+        <city>Osaka</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Chonnam National Hospital</name>
+      <address>
+        <city>Gwangju</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Burwood Hospital</name>
+      <address>
+        <city>Christchurch</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Univeristy College Hospital</name>
+      <address>
+        <city>Ibadan</city>
+        <country>Nigeria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Rehabilitation Hospital</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Vigo</name>
+      <address>
+        <city>Vigo</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>National Taiwan University Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Gazi University</name>
+      <address>
+        <city>Ankara</city>
+        <country>Turkey</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Egypt</country>
+    <country>India</country>
+    <country>Ireland</country>
+    <country>Italy</country>
+    <country>Japan</country>
+    <country>Korea, Republic of</country>
+    <country>New Zealand</country>
+    <country>Nigeria</country>
+    <country>Spain</country>
+    <country>Taiwan</country>
+    <country>Turkey</country>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Dobkin BH, Dorsch A. The promise of mHealth: daily activity monitoring and outcome assessments by wearable sensors. Neurorehabil Neural Repair. 2011 Nov-Dec;25(9):788-98. doi: 10.1177/1545968311425908. Review.</citation>
+    <PMID>21989632</PMID>
+  </reference>
+  <results_reference>
+    <citation>Dorsch AK, Thomas S, Xu X, Kaiser W, Dobkin BH; SIRRACT investigators. SIRRACT: An International Randomized Clinical Trial of Activity Feedback During Inpatient Stroke Rehabilitation Enabled by Wireless Sensing. Neurorehabil Neural Repair. 2015 Jun;29(5):407-15. doi: 10.1177/1545968314550369. Epub 2014 Sep 26.</citation>
+    <PMID>25261154</PMID>
+  </results_reference>
+  <verification_date>May 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 22, 2010</study_first_submitted>
+  <study_first_submitted_qc>November 22, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 23, 2010</study_first_posted>
+  <last_update_submitted>May 8, 2017</last_update_submitted>
+  <last_update_submitted_qc>May 8, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 10, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, Los Angeles</investigator_affiliation>
+    <investigator_full_name>Bruce H. Dobkin</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Stroke, gait, walking, disability</keyword>
+  <keyword>wireless inertial sensing</keyword>
+  <keyword>mobile health</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Methamphetamine</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

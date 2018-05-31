@@ -1,0 +1,514 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00920231</url>
+  </required_header>
+  <id_info>
+    <org_study_id>C6731-R</org_study_id>
+    <nct_id>NCT00920231</nct_id>
+  </id_info>
+  <brief_title>Computer Vision System for the Blind Veteran</brief_title>
+  <official_title>Computer Vision System for the Blind Veteran</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a feasibility study involving a small number of blind subject to evaluate the
+      effectiveness of using a software and associated hardware components to assist the blind in
+      identifying and locating objects of interests and to assist in way finding tasks. After the
+      system has been successfully tested by the blindfolded engineers, it will be evaluated in a
+      small number of blind subjects.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is primarily an engineering project to develop computer vision algorithms for an
+      integrated system comprising of a laptop computer, webcam, gps, digital compass, microphone,
+      and stereo earphones. The system will be voice controlled. The algorithm will be trained to
+      identify and located objects and navigationally landmarks in real-time, previously selected
+      by sighted developers. After the system has passed objective engineering milestones, blind
+      subjects will be tested to determine whether the novel system will improve the ability of the
+      blind to travel over a test course in a hospital setting.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2011</start_date>
+  <completion_date type="Actual">September 2015</completion_date>
+  <primary_completion_date type="Actual">December 2013</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Frequency of Device Failures Per Attempt to Complete a Navigation Course</measure>
+    <time_frame>The subject is given as much time as needed to complete the task</time_frame>
+    <description>device failures were defined as any failure to provide correct location and direction information at thre appropriate time, resulting in a mistake that needed the initial prototype's ability to meet their travel needs at a good to excellent range.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Ability to Meet the Subjective Travel Needs of the Blind Subject</measure>
+    <time_frame>no time limit</time_frame>
+    <description>This is a subjective rating that incorporates user friendliness of the system and the specific needs of the subject. The subject is asked to rate whether the device meets his or her travel needs on a 1 to 7 scale with 1 being excellent and 7 being very poor.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">16</enrollment>
+  <condition>Blindness</condition>
+  <arm_group>
+    <arm_group_label>Arm 1 initial system</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>8 blind subjects are asked to use a prototype computer vision system to determine the challenges facing computer vision based indoor navigation.
+Subjects are asked to travel through the hallways of a large hospital from the front entrance to a side entrance. The pathway consists of 9 segments including corners, four-way intersections, and doorways, and the total length of the route was approximately 200 meters. This challenging route was designed to stress the capabilities of the navigation system. It is a route that even sighted persons may find difficult to follow without practice. Pedestrian traffic was present throughout the route and lighting conditions could change in two of the segments where there were windows and doors.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 2 modified system</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The system is redesigned in response to problems identified from the first phase of the study. The redesigned system is tested by a second set of 8 blind subjects in the same indoor path as used in Arm 1.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>initial system</intervention_name>
+    <description>The computer vision system is used to assist blind subject to navigate an extended path with multiple turns within a hospital setting.The initial prototype system would have been successfully tested for outdoor navigation and basic object recognition tasks.</description>
+    <arm_group_label>Arm 1 initial system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>modified system</intervention_name>
+    <description>The problems associated with the initial system were identified and modified. This modified system was tested with a second separate group of subjects. The redesigned system is used to assist blind subject to navigate the same extended path with multiple turns within a hospital setting.</description>
+    <arm_group_label>Arm 2 modified system</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  age 18 and over
+
+          -  legally blind
+
+        Exclusion Criteria:
+
+          -  decreased hearing
+
+          -  unable to understand or follow instructions
+
+          -  inability to walk and stand for 10 minutes
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Cha-Min Tang, PhD MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Baltimore VA Medical Center VA Maryland Health Care System, Baltimore, MD</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Atlanta VA Medical and Rehab Center, Decatur</name>
+      <address>
+        <city>Decatur</city>
+        <state>Georgia</state>
+        <zip>30033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Baltimore VA Medical Center VA Maryland Health Care System, Baltimore, MD</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 11, 2009</study_first_submitted>
+  <study_first_submitted_qc>June 12, 2009</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 15, 2009</study_first_posted>
+  <results_first_submitted>January 14, 2015</results_first_submitted>
+  <results_first_submitted_qc>March 31, 2015</results_first_submitted_qc>
+  <results_first_posted type="Estimate">April 2, 2015</results_first_posted>
+  <last_update_submitted>December 18, 2015</last_update_submitted>
+  <last_update_submitted_qc>December 18, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 22, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Blindness</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Initial Computer Vision System</title>
+          <description>a group of 8 blind subjects were tested with a prototype computer vision system build for outdoor navigation that relied on combination of GPS and location recognition for navigation information.
+the task was a wayfinding task starting from one point in the hospital and go to a point at another point in the hospital while navigating negotiating a number of turns over multiple corridors.</description>
+        </group>
+        <group group_id="P2">
+          <title>Modified Computer Vision System</title>
+          <description>a second group of 8 blind subjects were tested with a modified computer vision system.
+same task as the initial group with improved computer vision algorithm.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="8"/>
+                <participants group_id="P2" count="8"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="8"/>
+                <participants group_id="P2" count="8"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>a representative population for the VA of both sexes and ranging from 21 to 70. And they have a diverse set of reasons for blindness. But they all had sight once.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Initial System</title>
+          <description>a group of 8 blind subjects were tested with a prototype computer vision system build for outdoor navigation that relied on combination of GPS and location recognition for navigation information.
+the task was a wayfinding task starting from one point in the hospital and go to a point at another point in the hospital while navigating negotiating a number of turns over multiple corridors.</description>
+        </group>
+        <group group_id="B2">
+          <title>Modified System</title>
+          <description>a second group of 8 blind subjects were tested with a modified computer vision system.
+same task as the initial group with improved computer vision algorithm.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="8"/>
+            <count group_id="B2" value="8"/>
+            <count group_id="B3" value="16"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                    <measurement group_id="B2" value="7"/>
+                    <measurement group_id="B3" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <description>Initial system: 8 subjects with age range from 21 to 66; Modified system: 8 subjects with age range from 39 to 70</description>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="43" lower_limit="21" upper_limit="66"/>
+                    <measurement group_id="B2" value="52" lower_limit="39" upper_limit="70"/>
+                    <measurement group_id="B3" value="48" lower_limit="21" upper_limit="70"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="5"/>
+                    <measurement group_id="B3" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="3"/>
+                    <measurement group_id="B3" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                    <measurement group_id="B2" value="8"/>
+                    <measurement group_id="B3" value="16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Frequency of Device Failures Per Attempt to Complete a Navigation Course</title>
+        <description>device failures were defined as any failure to provide correct location and direction information at thre appropriate time, resulting in a mistake that needed the initial prototype's ability to meet their travel needs at a good to excellent range.</description>
+        <time_frame>The subject is given as much time as needed to complete the task</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Initial System</title>
+            <description>The subjects were asked to travel over a novel path in the hospital after given instructions how to reach the final destination. the computer vision system was used to provide additional information as when to turn and in what direction. the subjects were allowed to also use their white cane</description>
+          </group>
+          <group group_id="O2">
+            <title>Modified System</title>
+            <description>a second group of 8 subjects were tested with a system that incorporated modifications identified by the first group using the initial prototype system.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Frequency of Device Failures Per Attempt to Complete a Navigation Course</title>
+          <description>device failures were defined as any failure to provide correct location and direction information at thre appropriate time, resulting in a mistake that needed the initial prototype's ability to meet their travel needs at a good to excellent range.</description>
+          <units>number of device failures per attempt</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="8"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4.1" spread="1.2"/>
+                    <measurement group_id="O2" value="2" spread="0.82"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Ability to Meet the Subjective Travel Needs of the Blind Subject</title>
+        <description>This is a subjective rating that incorporates user friendliness of the system and the specific needs of the subject. The subject is asked to rate whether the device meets his or her travel needs on a 1 to 7 scale with 1 being excellent and 7 being very poor.</description>
+        <time_frame>no time limit</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Initial Prototype</title>
+            <description>The initial prototype is a system that has been successfully tested in outdoor navigation and successfully tested for simple object recognition.</description>
+          </group>
+          <group group_id="O2">
+            <title>Modified System</title>
+            <description>this computer vision system incorporates the needed changes identified by the first group of subjects using the initial prototype system.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Ability to Meet the Subjective Travel Needs of the Blind Subject</title>
+          <description>This is a subjective rating that incorporates user friendliness of the system and the specific needs of the subject. The subject is asked to rate whether the device meets his or her travel needs on a 1 to 7 scale with 1 being excellent and 7 being very poor.</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+                <count group_id="O2" value="8"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.0" spread="0.30"/>
+                    <measurement group_id="O2" value="2.3" spread="0.36"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Arm 1</title>
+          <description>the blind subject is asked to locate a randomly placed object with the assistance of the webcam/laptop computer.
+computer vision: a webcam-laptop based system to assist the blind in locating objects and in way finding.
+No adverse events</description>
+        </group>
+        <group group_id="E2">
+          <title>Arm 2</title>
+          <description>The subject without the assist device can only locate the object by groping and random searching with hands.
+No adverse events</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="8"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="8"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="8"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="8"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr Cha-Min Tang</name_or_title>
+      <organization>Baltimore VA MC</organization>
+      <phone>410 706-2347</phone>
+      <email>ctang@som.umaryland.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

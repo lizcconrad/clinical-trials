@@ -1,0 +1,287 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02725346</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GE 15-151</org_study_id>
+    <nct_id>NCT02725346</nct_id>
+  </id_info>
+  <brief_title>ArthroPlanner: A Surgical Planning Solution for Acromioplasty</brief_title>
+  <official_title>ArthroPlanner: A Surgical Planning Solution for Acromioplasty</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Adrien Schwitzguebel</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>La Tour Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A computer-assisted solution for acromioplasty is presented. The software allows surgeons to
+      better plan the surgical procedure by visualizing dynamic simulation of the patient's
+      shoulder joint during everyday activities. Impingements are dynamically detected and the
+      exact location and amount of bone to be resected is precisely computed. As a result, the
+      success of the acromioplasty does not only rely on the surgeon's experience or previous
+      recommendations, but on quantitative data. Although the clinical validation of this 3D
+      planning support is currently under evaluation, it may allow to recover more effectively
+      postoperative joint mobility, to get a better relationship with pain and a better healing
+      rate of the rotator cuff tendons.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Introduction Subacromial impingement of the rotator cuff between the anterior [1] or lateral
+      acromion [2] and the superior humeral head is a common disorder. This condition arises when
+      the subacromial space height is too narrow during active elevation or scaption of the arm
+      above shoulder level due to an abnormal hooked shape or large lateral extension of the
+      acromion.
+
+      In severe cases of impingement syndrome, an arthroscopic acromioplasty surgery is usually
+      performed to resect the different area of the acromion causing damage to the subacromial
+      structures. The exact location and the amount of bone to be resected is generally left to the
+      unique appreciation of the orthopedic surgeon during surgery. To improve the precision of
+      this resection, surgeons could greatly benefit from a surgical planning solution that aims at
+      providing precise information about the surgical procedure. Moreover, since subacromial
+      impingements are the result of a dynamic mechanism, an effective planning solution should
+      analyze both the morphological joint's structures and its dynamic behavior during shoulder
+      movements to fully apprehend the patient joint's condition.
+
+      Computer-assisted planning solution &quot;ArthroPlanner&quot; for acromioplasty is nowadays available.
+      The solution allows to perform standard morphological bony measurements, as well as 3D
+      simulations of the patient's joint during everyday shoulder activities. The software computes
+      the precise bone resection (location and amount) based on detected subacromial impingements
+      during motion.
+
+      The goal of this study was thus to compare clinical and radiological results of superior
+      rotator cuff repair with or without computer-assisted planning. The hypothesis was that
+      preoperative planning of acromioplasty would allowed more accurate bone resection, would
+      decrease postoperative impingements and consequently improved postoperative range of motion
+      and tendon healing.
+
+      Methods
+
+      We reconstruct the bones of the patient's shoulder joint (scapula and humerus from the
+      humeral head to the mid-shaft) from a CT image using Mimics software (Materialise NV, Leuven,
+      Belgium). The bones are then imported into ArthroPlanner software and the following steps are
+      performed:
+
+      First, generic bone models are produced using a template fitting approach that deforms a bone
+      template with an optimized topology (one for the scapula and one for humerus) to the
+      reconstructed bone. This allows us in the next steps to exploit anatomical correspondences
+      and to automatize landmarks and points selection on the mesh.
+
+      Second, biomechanical parameters are computed to permit motion description of the
+      glenohumeral joint. The glenohumeral joint center is automatically calculated by a sphere
+      fitting technique [3] that fits a sphere to the humeral head using the points of the proximal
+      humerus model. Bone coordinate systems are established for the scapula and humerus. based on
+      the definitions suggested by the International Society of Biomechanics [4] using anatomical
+      landmarks defined on the bone models. Missing landmarks such as the lateral and medial
+      epicondyles are identified on the CT image.
+
+      Third, morphological measurements are performed to analyze individual shoulder anatomy. The
+      Critical Shoulder Angle [5] and the β angle [6] are calculated, as they are criteria
+      associated with rotator cuff tears. The angles are computed in 3D based on bony landmarks and
+      can be, if necessary, interactively adjusted by the user by manipulating 3D handles in the
+      viewer.
+
+      Fourth, motion is applied at each time step to the humerus model with real-time evaluation of
+      impingement. The minimum humero-acromial distance that is typically used for the evaluation
+      of subacromial impingement is measured [7]. This distance is calculated in millimeters based
+      on the simulated bones models positions. A color scale is also used to map the variations of
+      distance on the scapula surface (red color = minimum distance, other colors = areas of
+      increased distance). Given the thickness of the potential impinged tissues, subacromial
+      impingement is considered when the computed humero-acromial distance is &lt; 6 mm, as suggested
+      in the literature [7]. To test a wide variability of realistic movements, a motion database
+      of daily activities (e.g., cross arm, comb hair) is used in addition to standard kinematic
+      sequences (e.g., elevation, scaption).
+
+      Finally, the acromial resection plan is defined based on the 3D simulation results. A color
+      map is used to represent areas where impingements occurred between the acromion and humerus
+      (Fig. 1D). The red color denotes the area with the smallest humero-acromial distance computed
+      over the different motion simulations.
+
+      The results at each step of the planning procedure are carefully validated by the user before
+      continuing to the next ones. At the end of the planning, a PDF report is generated that
+      contains patient's information and the measurements performed. The bones and the simulation
+      data are also exported to be used in a simple 3D viewer (Fig. 2) dedicated to the surgeon.
+      With this viewer, the surgeon is able to play all simulations, observe impingements
+      dynamically and review the resection plan.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Active, not recruiting</last_known_status>
+  <start_date>July 2015</start_date>
+  <completion_date type="Anticipated">December 2016</completion_date>
+  <primary_completion_date type="Actual">February 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Triple (Participant, Investigator, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Volume in mm3 of bone removal in four zones determine between pre- and postoperative computed tomography</measure>
+    <time_frame>6 months</time_frame>
+    <description>Accuracy of acromioplasty in relation to preoperative planning (zone 1 anterior, zone 2 lateral, zone 3 medial, zone 4 central).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Tendon healing determine with ultrasound with Sugaya criteria</measure>
+    <time_frame>6 month</time_frame>
+    <description>ultrasound realized by a blinded radiologist. This outcome will be considered as primary only if the first primary outcome is reached. Otherwise it will considered as a secondary outcome.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of gain of range of motion between groups of postoperative range of motion</measure>
+    <time_frame>6 month</time_frame>
+    <description>Evaluated by a independent and blind observer with dedicated software</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Constant score</measure>
+    <time_frame>6 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>American Shoulder and Elbow Surgeons score</measure>
+    <time_frame>6 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Simple shoulder value</measure>
+    <time_frame>6 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Single Assessment Numeric Evaluation score</measure>
+    <time_frame>6 months</time_frame>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">67</enrollment>
+  <condition>Shoulder Impingement Syndrome</condition>
+  <condition>Subacromial Impingement Syndrome</condition>
+  <condition>Tendon Injuries</condition>
+  <arm_group>
+    <arm_group_label>Computer-assisted planning</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Acromioplasty with planification</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No planning</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Acromioplasty without planification</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Acromioplasty with planning</intervention_name>
+    <arm_group_label>Computer-assisted planning</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Acromioplasty without planning</intervention_name>
+    <arm_group_label>No planning</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Arthroscopic supraspinatus repair
+
+        Exclusion Criteria:
+
+          -  Incomplete documentation
+
+          -  Follow-up of less than six months
+
+          -  Previous shoulder surgery
+
+          -  Contraindications for computed tomography
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>La Tour Hospital</name>
+      <address>
+        <city>Meyrin</city>
+        <state>Geneva</state>
+        <zip>1217</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <reference>
+    <citation>Neer CS 2nd. Anterior acromioplasty for the chronic impingement syndrome in the shoulder: a preliminary report. J Bone Joint Surg Am. 1972 Jan;54(1):41-50.</citation>
+    <PMID>5054450</PMID>
+  </reference>
+  <reference>
+    <citation>Nyffeler RW, Werner CM, Sukthankar A, Schmid MR, Gerber C. Association of a large lateral extension of the acromion with rotator cuff tears. J Bone Joint Surg Am. 2006 Apr;88(4):800-5.</citation>
+    <PMID>16595470</PMID>
+  </reference>
+  <reference>
+    <citation>Wu G, van der Helm FC, Veeger HE, Makhsous M, Van Roy P, Anglin C, Nagels J, Karduna AR, McQuade K, Wang X, Werner FW, Buchholz B; International Society of Biomechanics. ISB recommendation on definitions of joint coordinate systems of various joints for the reporting of human joint motion--Part II: shoulder, elbow, wrist and hand. J Biomech. 2005 May;38(5):981-992. Review.</citation>
+    <PMID>15844264</PMID>
+  </reference>
+  <reference>
+    <citation>Moor BK, Bouaicha S, Rothenfluh DA, Sukthankar A, Gerber C. Is there an association between the individual anatomy of the scapula and the development of rotator cuff tears or osteoarthritis of the glenohumeral joint?: A radiological study of the critical shoulder angle. Bone Joint J. 2013 Jul;95-B(7):935-41. doi: 10.1302/0301-620X.95B7.31028.</citation>
+    <PMID>23814246</PMID>
+  </reference>
+  <reference>
+    <citation>Daggett M, Werner B, Collin P, Gauci MO, Chaoui J, Walch G. Correlation between glenoid inclination and critical shoulder angle: a radiographic and computed tomography study. J Shoulder Elbow Surg. 2015 Dec;24(12):1948-53. doi: 10.1016/j.jse.2015.07.013. Epub 2015 Sep 6.</citation>
+    <PMID>26350880</PMID>
+  </reference>
+  <reference>
+    <citation>Charbonnier C, Chagué S, Kolo FC, Lädermann A. Shoulder motion during tennis serve: dynamic and radiological evaluation based on motion capture and magnetic resonance imaging. Int J Comput Assist Radiol Surg. 2015 Aug;10(8):1289-97. doi: 10.1007/s11548-014-1135-4. Epub 2014 Dec 14.</citation>
+    <PMID>25503926</PMID>
+  </reference>
+  <verification_date>May 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 11, 2016</study_first_submitted>
+  <study_first_submitted_qc>March 26, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 1, 2016</study_first_posted>
+  <last_update_submitted>May 18, 2016</last_update_submitted>
+  <last_update_submitted_qc>May 18, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 19, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>La Tour Hospital</investigator_affiliation>
+    <investigator_full_name>Adrien Schwitzguebel</investigator_full_name>
+    <investigator_title>MD</investigator_title>
+  </responsible_party>
+  <keyword>Surgical Planning Solution</keyword>
+  <keyword>Acromioplasty</keyword>
+  <keyword>Shoulder Surgery</keyword>
+  <keyword>Critical Shoulder Angle</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Syndrome</mesh_term>
+    <mesh_term>Rotator Cuff Injuries</mesh_term>
+    <mesh_term>Shoulder Impingement Syndrome</mesh_term>
+    <mesh_term>Tendon Injuries</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pharmaceutical Solutions</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

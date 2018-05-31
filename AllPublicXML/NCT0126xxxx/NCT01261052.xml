@@ -1,0 +1,637 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01261052</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2010.005</org_study_id>
+    <nct_id>NCT01261052</nct_id>
+  </id_info>
+  <brief_title>Real-time Adaptation to Changes in Insulin Sensitivity</brief_title>
+  <official_title>Sensor-Controlled Insulin and Glucagon Delivery in Subjects With Type 1 Diabetes: Real-time Adaptation to Changes in Insulin Sensitivity</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Legacy Health System</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Juvenile Diabetes Research Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Legacy Health System</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this research study is to test an automated blood glucose control system that
+      includes a new component designed to adapt to stress. The importance of this component is
+      that when Type 1 Diabetics are stressed (for example, from illness or infection), their body
+      is resistant to the effects of insulin. The investigators will be adjusting their blood
+      glucose using insulin and glucagon and making their body less sensitive to insulin with a
+      steroid, hydrocortisone. Insulin is a hormone that lowers blood glucose. Glucagon raises
+      blood glucose when it is low. Both are natural hormones made by people without diabetes.
+      Hydrocortisone is a steroid that will increase their blood glucose temporarily and will be
+      given every 4 hours. All subjects will participate in two 33 hour experiments. One experiment
+      will use the adaptive version of the sensor-based glucose control system. The other study
+      will use the original version of the control system, without the adaptive component, for the
+      first 13 hours. Then, the adaptive component will be added to the glucose control system for
+      the remaining 20 hours of the study. Our primary goal is to assess the effectiveness of the
+      adaptive component to control glucose levels in the presence of steroid-induced insulin
+      resistance in persons with Type 1 Diabetes Mellitus.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2010</start_date>
+  <completion_date type="Actual">April 2011</completion_date>
+  <primary_completion_date type="Actual">April 2011</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Measurement of the Effectiveness of APD and FMPD/APD Intervention in Adapting to Reduced Insulin Sensitivity</measure>
+    <time_frame>all 33 hour studies</time_frame>
+    <description>The effectiveness of the APD and FMPD/APD intervention in adapting to reduced insulin sensitivity was analyzed using mean glucose.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Measurement of APD and FMPD/APD Interventions in Controlling Post-prandial Blood Glucose With Reduced Insulin Sensitivity.</measure>
+    <time_frame>all 33 hour studies</time_frame>
+    <description>Assessment of control of post prandial hyperglycemia with APD and FMPD/APD interventions using mean post-prandial glucose (3 hours after meals).</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">14</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>FMPD/APD intervention</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Type 1 Diabetes Mellitus subjects who fit the inclusion/exclusion criteria will undergo artificial pancreas closed-loop study for 33 hours. For the first 13 hours, the original artificial pancreas algorithm FMPD, will be used to control the subject's blood glucose. After 13 hours, the adaptive component or APD will be used to control the subject's blood glucose for the remaining 20 hours.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>APD only intervention</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Type 1 Diabetes Mellitus subjects who fit the inclusion/exclusion criteria will undergo artificial pancreas closed-loop study for 33 hours. For the entire study, the adaptive component or APD will be used to control the subject's blood glucose.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>The Fading Memory Proportional Derivative/Adaptive Proportional Derivative Algorithm</intervention_name>
+    <description>The APD algorithm is based largely on a program that employs the Fading Memory Proportional Derivative (FMPD) insulin and glucagon infusion algorithm. The FMPD algorithm determines insulin and glucagon delivery rates based on proportional error, defined as the difference between the current glucose level and the target level, and the derivative error, defined as the rate of change of the glucose. The &quot;fading memory&quot; designation refers to weighting recent errors more heavily than remote errors.
+The APD algorithm, like the FMPD algorithm, will determine insulin and glucagon infusion rates based on sensed glucose values and utilizes the derivative and proportional glucose error to determine delivery rates of insulin. However, the APD algorithm has a model predictive element which also leads to frequent measurement of tissue sensitivity to insulin.</description>
+    <arm_group_label>FMPD/APD intervention</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>The Adaptive Proportional Derivative Algorithm</intervention_name>
+    <description>The APD algorithm is based largely on a program that employs the Fading Memory Proportional Derivative (FMPD) insulin and glucagon infusion algorithm. The FMPD algorithm determines insulin and glucagon delivery rates based on proportional error, defined as the difference between the current glucose level and the target level, and the derivative error, defined as the rate of change of the glucose. The &quot;fading memory&quot; designation refers to weighting recent errors more heavily than remote errors.
+The APD algorithm, like the FMPD algorithm, will determine insulin and glucagon infusion rates based on sensed glucose values and utilizes the derivative and proportional glucose error to determine delivery rates of insulin. However, the APD algorithm has a model predictive element which also leads to frequent measurement of tissue sensitivity to insulin.</description>
+    <arm_group_label>APD only intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosis of Type 1 Diabetes Mellitus for at least 1 year
+
+          -  Male or Female subjects 21 to 65 years of age
+
+          -  Willingness to follow all study procedures, including attending all clinic visits
+
+          -  Willingness to sign informed consent and HIPAA documents.
+
+        Exclusion Criteria:
+
+          -  Pregnancy or Lactation: For women of childbearing potential: there is a requirement
+             for a negative urine pregnancy test and for agreement to use contraception during the
+             study and for at least 1 month after participating in the study. Acceptable
+             contraception includes birth control pill / patch / vaginal ring, Depo-Provera,
+             Norplant, an IUD, the double barrier method (the woman uses a diaphragm and spermicide
+             and the man uses a condom), or abstinence.
+
+          -  Renal insufficiency (serum creatinine of 2.0 mg/dL or greater).
+
+          -  Serum ALT or AST equal to or greater than 3 times the upper limit of normal; hepatic
+             synthetic insufficiency as defined as a serum albumin of less than 3.3 g/dL; or serum
+             bilirubin of over 2.
+
+          -  Adrenal insufficiency
+
+          -  Hematocrit of less than or equal to 34%.
+
+          -  A history of cerebrovascular disease or coronary artery disease regardless of the time
+             since occurrence.
+
+          -  Congestive heart failure, NYHA class III or IV.
+
+          -  Cardiac rhythm disturbance characterized by: 2nd or 3rd degree heart block,
+             bradycardia of less than 50 bpm (exception of bradycardia in an aerobic athlete),
+             tachycardia of greater than 100 bpm, or any arrhythmia judged by the investigator to
+             be exclusionary.
+
+          -  Any active infection.
+
+          -  Visual impairment preventing reading of glucose meter values or continuous glucose
+             monitoring device.
+
+          -  Physical impairment impeding the ability to use a glucose meter or glucose monitoring
+             device.
+
+          -  Active foot ulceration.
+
+          -  Severe peripheral arterial disease characterized by ischemic rest pain or severe
+             claudication.
+
+          -  Active alcohol abuse, substance abuse, or severe mental illness (as judged by the
+             principal investigator).
+
+          -  Active malignancy, except basal cell or squamous cell skin cancers.
+
+          -  Major surgical operation within 30 days prior to screening.
+
+          -  Seizure disorder.
+
+          -  Any concurrent illness, other than diabetes, that is not controlled by a stable
+             therapeutic regimen.
+
+          -  Chronic usage of any immunosuppressive medication (such as cyclosporine, azathioprine,
+             sirolimus, or tacrolimus).
+
+          -  Current administration of oral or parenteral corticosteroids.
+
+          -  Use of an investigational drug within 30 days prior to screening.
+
+          -  Bleeding disorder, treatment with warfarin, or platelet count below 50,000.
+
+          -  History of major non-compliance.
+
+          -  Allergy to aspart insulin.
+
+          -  Allergy to glucagon.
+
+          -  Past history of pheochromocytoma or a family history of MEN 2, neurofibromatosis, or
+             von Hippel-Lindau disease.
+
+          -  Insulin resistance requiring more than 200 units per day.
+
+          -  Need for uninterrupted treatment of acetaminophen.
+
+          -  Intolerance of mild hypoglycemia (glucose 60-70 mg/dl).
+
+          -  Patients using all dietary supplements (except for vitamin supplements, calcium or
+             vitamin D in standard doses).
+
+          -  Patients with a history of glaucoma or who have not had an ophthalmologic exam in the
+             previous 2 years (because of the risk of increased intraocular pressure)
+
+          -  Patients with a history of psychiatric disease or steroid-induced psychosis.
+
+          -  Patients currently on estrogen supplementation (low dose estrogen contraceptives are
+             not exclusionary).
+
+          -  Chronic use of dietary supplements that contain adrenal cell extracts, adrenal
+             cortical extracts, or other hormones.
+
+          -  The use of dietary supplements (except for vitamin supplements, calcium or vitamin D
+             in standard doses) will be exclusionary (unless the subjects agrees to abstain from
+             taking such supplements for three weeks before beginning the study.
+
+          -  Administration of an immunization (such as a flu or travel immunization) or plans to
+             receive such an immunization within one week of beginning of the study.
+
+          -  Any reason the principal investigator deems exclusionary.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>W K Ward, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Legacy Health Research</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Legacy Good Samaritan Hospital</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97210</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Castle JR, Engle JM, El Youssef J, Massoud RG, Yuen KC, Kagan R, Ward WK. Novel use of glucagon in a closed-loop system for prevention of hypoglycemia in type 1 diabetes. Diabetes Care. 2010 Jun;33(6):1282-7. doi: 10.2337/dc09-2254. Epub 2010 Mar 23.</citation>
+    <PMID>20332355</PMID>
+  </reference>
+  <verification_date>November 2012</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 15, 2010</study_first_submitted>
+  <study_first_submitted_qc>December 15, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 16, 2010</study_first_posted>
+  <results_first_submitted>October 2, 2012</results_first_submitted>
+  <results_first_submitted_qc>October 30, 2012</results_first_submitted_qc>
+  <results_first_posted type="Estimate">November 29, 2012</results_first_posted>
+  <last_update_submitted>November 29, 2012</last_update_submitted>
+  <last_update_submitted_qc>November 29, 2012</last_update_submitted_qc>
+  <last_update_posted type="Estimate">December 3, 2012</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Legacy Health System</investigator_affiliation>
+    <investigator_full_name>W. Kenneth Ward</investigator_full_name>
+    <investigator_title>Senior Scientist</investigator_title>
+  </responsible_party>
+  <keyword>glucose sensors</keyword>
+  <keyword>artificial pancreas</keyword>
+  <keyword>Diabetes Mellitus</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+    <mesh_term>Insulin Resistance</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+    <mesh_term>Pancrelipase</mesh_term>
+    <mesh_term>Glucagon</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Subjects were recruited from the Greater Portland Oregon area and screened from Oct 2010 through January 2011 at a Legacy Health system clinic facility.</recruitment_details>
+      <pre_assignment_details>Each of the 14 subjects will participate in two artificial pancrease glucose control study interventions.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>All Study Participants</title>
+          <description>Type 1 Diabetes Mellitus subjects who fit the inclusion/exclusion criteria will undergo artificial pancreas closed-loop study for 33 hours. For one intervention for the first 13 hours, the original artificial pancreas algorithm FMPD, will be used to control the subject's blood glucose. After 13 hours, the adaptive component or APD will be used to control the subject's blood glucose for the remaining 20 hours. For the other intervention study, the adaptive component or APD will be used to control the subject's blood glucose for the entire 33 hours.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>FMPD/APD Intervention (33 Hours)</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="14"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="14"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>APD Only Intervention (33 Hours)</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="14"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="14"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>All Study Participants</title>
+          <description>Type 1 Diabetes Mellitus subjects who fit the inclusion/exclusion criteria will undergo artificial pancreas closed-loop study for 33 hours. For one intervention for the first 13 hours, the original artificial pancreas algorithm FMPD, will be used to control the subject's blood glucose. After 13 hours, the adaptive component or APD will be used to control the subject's blood glucose for the remaining 20 hours. For the other intervention study, the adaptive component or APD will be used to control the subject's blood glucose for the entire 33 hours.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="14"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="46.3" spread="7.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Measurement of the Effectiveness of APD and FMPD/APD Intervention in Adapting to Reduced Insulin Sensitivity</title>
+        <description>The effectiveness of the APD and FMPD/APD intervention in adapting to reduced insulin sensitivity was analyzed using mean glucose.</description>
+        <time_frame>all 33 hour studies</time_frame>
+        <population>The number of participants for analysis was determined by an intention to treat (ITT) analysis based on the initial treatment assignment</population>
+        <group_list>
+          <group group_id="O1">
+            <title>All Study Participants</title>
+            <description>Type 1 Diabetes Mellitus subjects who fit the inclusion/exclusion criteria will undergo artificial pancreas closed-loop study for 33 hours. For one intervention for the first 13 hours, the original artificial pancreas algorithm FMPD, will be used to control the subject's blood glucose. After 13 hours, the adaptive component or APD will be used to control the subject's blood glucose for the remaining 20 hours. For the other intervention study, the adaptive component or APD will be used to control the subject's blood glucose for the entire 33 hours.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Measurement of the Effectiveness of APD and FMPD/APD Intervention in Adapting to Reduced Insulin Sensitivity</title>
+          <description>The effectiveness of the APD and FMPD/APD intervention in adapting to reduced insulin sensitivity was analyzed using mean glucose.</description>
+          <population>The number of participants for analysis was determined by an intention to treat (ITT) analysis based on the initial treatment assignment</population>
+          <units>mg/dl</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="14"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>APD intervention</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="176" spread="64"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>FMPD intervention</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="195" spread="69"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Measurement of APD and FMPD/APD Interventions in Controlling Post-prandial Blood Glucose With Reduced Insulin Sensitivity.</title>
+        <description>Assessment of control of post prandial hyperglycemia with APD and FMPD/APD interventions using mean post-prandial glucose (3 hours after meals).</description>
+        <time_frame>all 33 hour studies</time_frame>
+        <population>The number of participants for analysis was determined by an intention to treat (ITT) analysis based on the initial treatment assignment</population>
+        <group_list>
+          <group group_id="O1">
+            <title>All Study Participants</title>
+            <description>Type 1 Diabetes Mellitus subjects who fit the inclusion/exclusion criteria will undergo artificial pancreas closed-loop study for 33 hours. For one intervention for the first 13 hours, the original artificial pancreas algorithm FMPD, will be used to control the subject's blood glucose. After 13 hours, the adaptive component or APD will be used to control the subject's blood glucose for the remaining 20 hours. For the other intervention study, the adaptive component or APD will be used to control the subject's blood glucose for the entire 33 hours.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Measurement of APD and FMPD/APD Interventions in Controlling Post-prandial Blood Glucose With Reduced Insulin Sensitivity.</title>
+          <description>Assessment of control of post prandial hyperglycemia with APD and FMPD/APD interventions using mean post-prandial glucose (3 hours after meals).</description>
+          <population>The number of participants for analysis was determined by an intention to treat (ITT) analysis based on the initial treatment assignment</population>
+          <units>mg/dl</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="14"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>APD intervention</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="199" spread="65"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>FMPD/APD intervention</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="218" spread="74"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Adverse event data was collected for 6 months.</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>APD Only Intervention</title>
+          <description>The APD algorithm is based largely on a program that employs the Fading Memory Proportional Derivative (FMPD) insulin and glucagon infusion algorithm. The FMPD algorithm determines insulin and glucagon delivery rates based on proportional error, defined as the difference between the current glucose level and the target level, and the derivative error, defined as the rate of change of the glucose. The &quot;fading memory&quot; designation refers to weighting recent errors more heavily than remote errors.
+The APD algorithm, like the FMPD algorithm, will determine insulin and glucagon infusion rates based on sensed glucose values and utilizes the derivative and proportional glucose error to determine delivery rates of insulin. However, the APD algorithm has a model predictive element which also leads to frequent measurement of tissue sensitivity to insulin.</description>
+        </group>
+        <group group_id="E2">
+          <title>FMPD/APD Intervention</title>
+          <description>The APD algorithm is based largely on a program that employs the Fading Memory Proportional Derivative (FMPD) insulin and glucagon infusion algorithm. The FMPD algorithm determines insulin and glucagon delivery rates based on proportional error, defined as the difference between the current glucose level and the target level, and the derivative error, defined as the rate of change of the glucose. The &quot;fading memory&quot; designation refers to weighting recent errors more heavily than remote errors.
+The APD algorithm, like the FMPD algorithm, will determine insulin and glucagon infusion rates based on sensed glucose values and utilizes the derivative and proportional glucose error to determine delivery rates of insulin. However, the APD algorithm has a model predictive element which also leads to frequent measurement of tissue sensitivity to insulin.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="14"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="14"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="14"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="14"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>upper extremity pain</sub_title>
+                <description>One event was characterized by upper extremity pain of unknown etiology (negative upper extremity venous Doppler/Duplex, ruling out thrombosis) which spontaneously resolved without sequelae.</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="14"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="14"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. W Kenneth Ward</name_or_title>
+      <organization>Legacy Health System</organization>
+      <phone>503-413-5171</phone>
+      <email>kenward503@msn.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,437 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02612168</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SA-001-4ev</org_study_id>
+    <nct_id>NCT02612168</nct_id>
+  </id_info>
+  <brief_title>Melanoma Image Analysis Algorithm (MIAA) Validation Study</brief_title>
+  <official_title>Effectiveness of an Image Analysing Algorithm to Diagnose Melanoma Compared to Gold Standard Histological Determination</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Skin Analytics Limited</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Skin Analytics Limited</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Prospective, single-arm, cross-sectional, study to establish the effectiveness of MIAA to
+      detect melanoma in pigmented lesions, compared to gold standard histological determination.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Skin Analytics Limited have developed an algorithm (MIAA) which reviews photographs of
+      pigmented lesions to determine whether melanoma is likely to be present. This study aims to
+      establish how well MIAA determines the presence or absence of melanoma, compared to a biopsy.
+
+      Pigmented lesions that a dermatologist has decided to biopsy, and are suitable for
+      photographing, will be photographed up to five times in a single visit. Three different
+      camera will be used, and two different dermoscopic lens attachments will be used on
+      smartphone cameras. Images will be analysed by MIAA and the results compared to the biopsy
+      result. Clinicians, patients and the statistical analysis team will be blinded to the result
+      of MIAA.
+
+      At least 65 pigmented lesions positive for melanoma (as determined by biopsy) are required,
+      which is predicted to mean 1250 patients will be recruited.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 11, 2017</start_date>
+  <completion_date type="Anticipated">June 30, 2018</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The Area Under the Curve of a Receiver Operating Characteristic (AUROC) curve of MIAA result, using a maximum likelihood estimation (MLE) from all of the available images of biopsied lesions, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Compare the MIAA result with the biopsy result</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The sensitivity of MIAA, using a MLE from all of the available images of biopsied lesions, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>%true positives, as determined by biopsy, identified</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The sensitivity of MIAA, using a MLE from all of the available images of non-biopsied lesions, compared to clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>%true positives, as determined by clinician, identified</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The specificity of MIAA, using a MLE from all of the available images of biopsied lesions, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>%true negatives, as determined by biopsy, identified</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The specificity of MIAA, using a MLE from all of the available images of non-biopsied lesions, compared to clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>%true negatives, as determined by clinician, identified</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The positive predictive value of MIAA, using a MLE from all of the available images of biopsied lesions, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subjects with a positive MIAA result have a positive biopsy result</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The positive predictive value of MIAA, using a MLE from all of the available images of non-biopsied lesions, compared to clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subjects with a positive MIAA result are thought likely to have melanoma by the clinician</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The negative predictive value of MIAA, using a MLE from all of the available images of biopsied lesions, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subjects with a negative MIAA result have a negative biopsy result</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The negative predictive value of MIAA, using a MLE from all of the available images of non-biopsied lesions, compared to clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subjects with a negative MIAA result are not thought likely to have melanoma by the clinician</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The false positive rate of MIAA, using a MLE from all of the available images of biopsied lesions, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subject with positive MIAA result has a negative biopsy result</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The false positive rate of MIAA, using a MLE from all of the available images of non-biopsied lesions, compared to clinical assesment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subject with positive MIAA result are not thought likely to have melanoma by the clinician</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The false negative rate of MIAA, using a MLE from all of the available images of biopsied lesions, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subject with negative MIAA result has a positive biopsy result</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The false negative rate of MIAA, using a MLE from all of the available images of non-biopsied lesions, compared to clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subject with negative MIAA result are thought likely to have melanoma by the clinician</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The AUROC of MIAA, using images of biopsied lesions from each of the image capture apparatus combinations, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Comparing the MIAA result, using images taken by each device, with the biopsy result</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The AUROC of MIAA, using images of non-biopsied lesions from each of the image capture apparatus combinations, compared to clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Comparing the MIAA result, using images taken by each device, with the clinician's diagnosis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The sensitivity of MIAA, using images of biopsied lesions from each of the image capture apparatus, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>%true positives, as determined by biopsy, identified by each imaging device</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The sensitivity of MIAA, using images of non-biopsied lesions from each of the image capture apparatus, compared to clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>%true positives, as determined by clinician, identified by each imaging device</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The specificity of MIAA, using images of biopsied lesions from each of the image capture apparatus, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>%true negatives, as determined by biopsy, identified by each imaging device</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The specificity of MIAA, using images of non-biopsied lesions from each of the image capture apparatus, compared to clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>%true negatives, as determined by clinician, identified by each imaging device</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The positive predictive value of MIAA, using images of biopsied lesions from each of the image capture apparatus, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subjects with a positive MIAA result, using images taken by each device, have a positive biopsy result</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The positive predictive value of MIAA, using images of non-biopsied lesions from each of the image capture apparatus, compared to clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subjects with a positive MIAA result, using images taken by each device, are thought likely to have melanoma by the clinician</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The negative predictive value of MIAA, using images of biopsied lesions from each of the image capture apparatus, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subjects with a negative MIAA result, using images taken by each device, have a negative biopsy result</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The negative predictive value of MIAA, using images of non-biopsied lesions from each of the image capture apparatus, compared to clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subjects with a negative MIAA result, using images taken by each device, are not thought likely to have melanoma by the clinician</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The false positive rate of MIAA, using images of biopsied lesions from each of the image capture apparatus, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subject with positive MIAA result, using images taken by each device, has a negative biopsy result</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The false positive rate of MIAA, using images of non-biopsied lesions from each of the image capture apparatus, compared to clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subject with positive MIAA result, using images taken by each device, are not thought likely to have melanoma by the clinician</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The false negative rate of MIAA, using images of biopsied lesions from each of the image capture apparatus, compared to the biopsy result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subject with negative MIAA result, using images taken by each device, has a positive biopsy result</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The false negative rate of MIAA, using images of non-biopsied lesions from each of the image capture apparatus, compared to clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Probability that subject with negative MIAA result, using images taken by each device, are thought likely to have melanoma by the clinician</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The concordance of MIAA result between each of the image capture apparatus</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>The extent to which the image capture apparatus generate the same MIAA results as the other devices</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The number of adverse events, including adverse device events and serious adverse events.</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>The number of adverse events, including adverse device events and serious adverse events.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The proportion of lesions with 4 images that can be analysed by MIAA</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>The proportion of lesions with 4 images that can be analysed by MIAA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The proportion of lesions with at least 1 readable images that can be analysed by MIAA,</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>The proportion of lesions with at least 1 readable images that can be analysed by MIAA,</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The AUROC curve of the MIAA result, using MLE from all of the available images of non-biopsied PLs, compared to the clinical assessment</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>Compare the MIAA result with the clinicians assessment</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Impact of patient characteristics on the AUROC assessment of MIAA</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>A statistical model will test the whether patient characteristics, such as age, gender, and skin type, affect the overall result and if so by how much</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Impact of the image variables on the AUROC assessment of MIAA</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>A statistical model will test the whether image variables, such as manufacturer and lens type, affect the overall result and if so by how much</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Impact of the assessing clinician's level of experience on the AUROC assessment of MIAA</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>A statistical model will test the whether the clinicians' level of experience affect the overall result and if so by how much</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>The concordance between the referring clinician's level of confidence for biopsy and the MIAA result</measure>
+    <time_frame>Study completion, on average 2 weeks</time_frame>
+    <description>The extent to which the clinician's assessment of melanoma is the same as biopsy and MIAA results</description>
+  </other_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Malignant Melanoma</condition>
+  <arm_group>
+    <arm_group_label>All patients</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Each patient will have any pigmented lesions (PLs) which are due to be biopsied, two PLs not due for biopsy and one patch of healthy skin photographed. Each will be photographed using three cameras: A standard DSLR and two smartphones with a dermoscopic lens attachment. Photographic images will be analysed by Melanoma Image Analysis Algorithm (MIAA)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Melanoma Image Analysis Algorithm (MIAA)</intervention_name>
+    <description>The images will be analysed by MIAA (Melanoma Image Analysis Algorithm). The MIAA result for PLs that are biopsied will be compared to the diagnosis made from the biopsy. The MIAA result for PLs not biopsied will be compared to clinician diagnosis.</description>
+    <arm_group_label>All patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participant is willing and able to give informed consent for participation in the
+             study,
+
+          -  Male or Female, aged 18 years or above,
+
+          -  Have at least 1 lesion suitable for photographing that is scheduled for biopsy to
+             determine the presence of melanoma,
+
+          -  In the Investigators opinion, able and willing to comply with all study requirements.
+
+        Exclusion Criteria:
+
+        • Any other significant disease or disorder which, in the opinion of the Investigator, may
+        either put the participants at risk because of participation in the study, or may influence
+        the result of the study, or the participant's ability to participate in the study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ioulios Palamaras, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Royal Free London NHS Foundation Trust</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Helen C Marsden, PhD</last_name>
+    <phone>+44 7971571995</phone>
+    <email>helen@hi-ve.co.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Neil Daly</last_name>
+    <phone>+44 7748 673187</phone>
+    <email>neil@skinanalytics.co.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Royal Devon and Exeter</name>
+      <address>
+        <city>Exeter</city>
+        <state>Devon</state>
+        <zip>EX2 5DW</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sara Best</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Whipps Corss Hospital</name>
+      <address>
+        <city>Leytonstone</city>
+        <state>London</state>
+        <zip>E11 1NR</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ade Aboaba</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Royal Stoke University Hospital</name>
+      <address>
+        <city>Stoke</city>
+        <state>Staffordshire</state>
+        <zip>ST4 6QG</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rochelle Rhodes</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Russells Hall Hospital</name>
+      <address>
+        <city>Dudley</city>
+        <state>West Midlands</state>
+        <zip>DY1 2HQ</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Tracy Henn</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Wara Mudunge</last_name>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Bristol Royal Infirmary</name>
+      <address>
+        <city>Bristol</city>
+        <zip>BS2 8AE</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Natasha Beck</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Royal Free London NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <zip>NW3 2QG</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ioulios Palamaras, MD PhD</last_name>
+      <phone>02083752585</phone>
+      <email>ioulios.palamaras@nhs.net</email>
+    </contact>
+    <contact_backup>
+      <last_name>Beatrice Yakubu</last_name>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Churchill Hospital</name>
+      <address>
+        <city>Oxford</city>
+        <zip>OX3 7LE</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 18, 2015</study_first_submitted>
+  <study_first_submitted_qc>November 19, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 23, 2015</study_first_posted>
+  <last_update_submitted>May 10, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 10, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 11, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Diagnosis</keyword>
+  <keyword>skin imaging</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Melanoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

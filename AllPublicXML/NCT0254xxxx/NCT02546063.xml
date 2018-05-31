@@ -1,0 +1,316 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02546063</url>
+  </required_header>
+  <id_info>
+    <org_study_id>100/15</org_study_id>
+    <nct_id>NCT02546063</nct_id>
+  </id_info>
+  <brief_title>Carbohydrate Estimation Supported by the GoCARB System</brief_title>
+  <official_title>Carbohydrate Estimation Supported by the GoCARB System in Individuals With Type 1 Diabetes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital Inselspital, Berne</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital Inselspital, Berne</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The standard method for determining the carbohydrate content of a meal in patients with
+      diabetes mellitus is the weighing of individual foods. However, in daily life, the weighing
+      is not practical at all times. Inaccurate estimation of meal's CHO content, leads to wrong
+      insulin doses and consequently to poor postprandial glucose control. Fact is that even well
+      trained diabetic individuals find it difficult to estimate CHO precisely and that especially
+      meals served on a plate are prone to false estimations underlining an emergent need for novel
+      approaches to CHO estimation.
+
+      GoCarb is a computer vision-based system for calculating the carbohydrate content of meals.
+      In a typical scenario, the user places a credit card-sized reference object next to the meal
+      and acquires two images using his/her smartphone. A series of computer vision modules
+      follows: the plate is detected and the different food items on the plate are automatically
+      segmented and recognized, while their 3D shape is reconstructed. On the basis of the shape,
+      the segmentation results and the reference card, the volume of each item is then estimated.
+      The CHO content is calculated by combining the food types with its volumes, and by using the
+      USDA nutritional database. Finally, the results are displayed to the user.
+
+      A preclinical study using the GoCarb system indicates that the system is able to estimate the
+      meal's CHO content with higher accuracy than individuals with T1D. Furthermore, the feedback
+      gathered by the participants showed that the system is easy to use even for non-smartphone
+      users.
+
+      The aim of this randomized, cross-over pilot study is to investigate the benefits of an
+      automated determination of the carbohydrate content of meals on glycemic control in subjects
+      with type 1 diabetes mellitus with sensor-augmented insulin pump therapy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background
+
+      For individuals with type 1 diabetes (T1D) the current gold standard to evaluate the
+      carbohydrate (CHO) amount of a meal is by carefully weighing its different components and
+      calculating the CHO content using reference nutritional tables. The resulting CHO amount is
+      then used to define the insulin dose needed to avoid an abnormal postprandial glucose
+      profile. Since this is a cumbersome procedure in real life, diabetic individuals often
+      estimate the CHO amount based on their personal experience. Especially for food served on a
+      plate CHO estimates are often significantly over or underestimated leading to high variation
+      in postprandial blood glucose. Besides the immediate risk of hypoglycaemia, there is emerging
+      evidence that suboptimal control of postprandial glucose is affiliated with increased risk
+      for long-term complications (e.g. diabetic micro- and macro-vascular diseases).
+
+      The effect of CHO counting in T1D control has been increasingly recognized and investigated.
+      A meta-analysis including five studies on individuals with T1D has shown, that improved CHO
+      counting accuracy reduces the HbA1c significantly (0.64% reduction in HbA1c compared to a
+      control group). Teaching adult individuals with T1D to count CHO reduces HbA1c significantly
+      and also leads to an improvement in quality of life. Similar findings are reported in
+      children, in whom higher CHO counting accuracy is associated with a lower HbA1c. Even a short
+      educational intervention of 4 weeks can still result in a significant and sustained effect on
+      HbA1c reduction 9 months after without having an increase in hypoglycaemia. Lower CHO
+      counting accuracy is a significant predictor of prolonged time in hyperglycaemic state. In
+      one study with adults only 31% of the participants estimated the CHO content with an error of
+      less than 20 grams per day and accurate CHO estimation were correlated with the lowest HbA1c
+      values. In line with these findings another study has shown that individuals on intensive
+      insulin therapy count CHO content of meals with an average error in the order of 16 grams or
+      21%. In general there is overestimation of small meals and a substantial underestimation of
+      large meals. While breakfast (+8.5%) and snacks (-5%) were estimated fairly accurately, lunch
+      (-28%) and dinner (-23%) are more prone to errors leading to an underestimation in the order
+      of 30 grams. In children, an inaccuracy of ±10grams does not deteriorate the postprandial
+      glycaemic control, whereas a ±20 grams variation significantly impacts the postprandial
+      glycaemia.
+
+      The debate how to optimally estimate CHO intake is on-going and controversial. Fact is that
+      even well trained diabetic individuals find it difficult to estimate CHO precisely and that
+      especially meals served on a plate are prone to false estimations underlining an emergent
+      need for novel approaches to CHO estimation. The investigators hypothesize that computer
+      vision supported CHO estimation can have a beneficial impact on postprandial glucose control,
+      ultimately leading to reduced episodes of hypoglycaemia and reduction in long term
+      complications.
+
+      The recent advances in smartphone technologies and computer vision permitted the development
+      of applications for the automatic dietary assessment through meal image analysis. The
+      applications are using either a number of images or a short video of the upcoming meal, as
+      captured by the user's smartphone. Although several systems have been proposed in the past
+      decade, none of them is designed for individuals with diabetes, while they rely on strong
+      assumptions, which often do not hold in real life, or require too much user input. The GoCARB
+      system provides CHO estimations to individuals with T1D, by using only two meal images. The
+      current version GoCARB has been designed to deal with
+
+        -  elliptical plates with a flat base;
+
+        -  single-dish images;
+
+        -  fully visible food items. The system works without assumptions on the food shape, while
+           it supports the following food classes: Pasta, green salad, meat, breaded food, beans,
+           carrots, mashed potato, rice, potatoes, bread, cheese, egg, couscous, mushrooms and
+           spätzli.
+
+      Objective
+
+      The purpose of this study is to investigate the effect of GoCARB-supported CHO estimation in
+      the postprandial glucose control of individuals with T1D on sensor augmented insulin pump
+      therapy.
+
+      In a typical scenario, the user places a credit card-sized reference object next to the meal
+      and acquires two images using her/his smartphone. A graphical user interface guides the user
+      in choosing the optimal angles for image acquisition based on the smartphone's built-in
+      sensors. The images are then transmitted to a dedicated server via Wi-Fi or the mobile
+      network. Then, the following computer vision algorithms are activated: the plate is detected
+      and the different food items on the plate are automatically segmented and recognized, while
+      their 3D shape is reconstructed. On the basis of the shape, the segmentation results and the
+      reference card, the volume and CHO content of each item is then calculated by combining the
+      food types with its volumes. Finally, the results are displayed to the user.
+
+      Methods
+
+      This study's overall objective is to perform a prospective randomized controlled clinical
+      pilot study comparing postprandial glucose control assisted by the GoCARB system against the
+      usual care approach by the participants. Scope of the study will be to investigate whether
+      the postprandial glucose profile is improved by using the GoCARB prototype for CHO
+      estimation. Postprandial glycaemia is evaluated using continuous glucose monitoring.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2015</start_date>
+  <completion_date type="Actual">December 2015</completion_date>
+  <primary_completion_date type="Actual">December 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Average of the postprandial area under the glucose curve (AUC) measured over three hours after each meal's start using Continuous Glucose Monitoring</measure>
+    <time_frame>14 days</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Composite of insulin-related parameters</measure>
+    <time_frame>14 days</time_frame>
+    <description>Calculated from daily bolus, basal and correction insulin</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose-related parameters</measure>
+    <time_frame>14 days</time_frame>
+    <description>Postprandial glucose levels within, below and above target</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Daily nutritional behavior in individuals with T1D</measure>
+    <time_frame>14 days</time_frame>
+    <description>Measured in kcal and documented by photographs</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>User satisfaction</measure>
+    <time_frame>14 days</time_frame>
+    <description>Composite measured by questionnaire: Participants will be invited to complete three questionnaires: i) a carbohydrate counting specific questionnaire including questions concerning educational level and former training of carbohydrate counting, and ii) a questionnaire related to GoCARB's features.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Diabetes Mellitus, Type 1</condition>
+  <condition>Carbohydrates</condition>
+  <arm_group>
+    <arm_group_label>GoCARB app</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Smartphone app</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Conventional carbohydrate estimating methods</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Individual usual carbohydrate estimation methods (weighing, experience, carbohydrate exchange tables etc.).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Smartphone App</intervention_name>
+    <description>The GoCARB system is a smartphone application designed to support type 1 diabetic patients with carbohydrate counting by providing automatic, accurate and near real-time CHO estimation for non-packed foods.</description>
+    <arm_group_label>GoCARB app</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Type 1 diabetes
+
+          -  Minimum age of 18 years old
+
+          -  Sensor-augmented pump therapy for at least six months
+
+          -  HbA1c levels within the last 4 months ≤ 8.5%
+
+          -  Familiar with carbohydrate (CHO) counting (e.g. CHO counting training in the past)
+
+          -  Normal insulin sensitivity (reflected by a daily insulin requirement of 0.3-1.0 U/kg
+             body weight)
+
+          -  Able to comprehend German or English
+
+          -  Written informed consent
+
+        Exclusion Criteria
+
+          -  Relevant diabetic complications
+
+          -  Hypoglycemia unawareness
+
+          -  More than one episode of severe hypoglycemia as defined by American Diabetes
+             Association in preceding 12 months
+
+          -  Pregnancy
+
+          -  Relevant psychiatric disorder
+
+          -  Active neoplasia
+
+          -  Participation in another study
+
+          -  Other individuals especially in need of protection (according to the guidelines of the
+             Swiss Academy of Medical Sciences)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Christoph Stettler</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Division of Endocrinology, Diabetes and Clinical Nutrition, Bern University Hospital</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Stavroula Mougiakakou</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Diabetes Technology Research Group, ARTORG Center for Biomedical Engineering Research, University of Bern</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Markus Laimer</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Division of Endocrinology, Diabetes and Clinical Nutrition, Bern University Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Division of Endocrinology, Diabetes and Clinical Nutrition, Bern University Hospital</name>
+      <address>
+        <city>Bern</city>
+        <zip>3010</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <link>
+    <url>http://gocarb.eu</url>
+    <description>Click here for more information about GoCARB</description>
+  </link>
+  <reference>
+    <citation>Anthimopoulos MM, Gianola L, Scarnato L, Diem P, Mougiakakou SG. A food recognition system for diabetic patients based on an optimized bag-of-features model. IEEE J Biomed Health Inform. 2014 Jul;18(4):1261-71. doi: 10.1109/JBHI.2014.2308928.</citation>
+    <PMID>25014934</PMID>
+  </reference>
+  <results_reference>
+    <citation>Agianniotis A, Anthimopoulos M, Daskalaki E, Drapela A, Stettler C, Diem P, Mougiakakou S. GoCARB in the Context of an Artificial Pancreas. J Diabetes Sci Technol. 2015 May;9(3):549-55. doi: 10.1177/1932296815583333. Epub 2015 Apr 21.</citation>
+    <PMID>25904142</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Anthimopoulos M, Dehais J, Shevchik S, Ransford BH, Duke D, Diem P, Mougiakakou S. Computer vision-based carbohydrate estimation for type 1 patients with diabetes using smartphones. J Diabetes Sci Technol. 2015 May;9(3):507-15. doi: 10.1177/1932296815580159. Epub 2015 Apr 16.</citation>
+    <PMID>25883163</PMID>
+  </results_reference>
+  <verification_date>August 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 4, 2015</study_first_submitted>
+  <study_first_submitted_qc>September 7, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 10, 2015</study_first_posted>
+  <last_update_submitted>August 9, 2016</last_update_submitted>
+  <last_update_submitted_qc>August 9, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">August 10, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

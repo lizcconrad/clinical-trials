@@ -1,0 +1,530 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01381952</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KUH-PMS-01</org_study_id>
+    <nct_id>NCT01381952</nct_id>
+  </id_info>
+  <brief_title>Image Quality and Radiation Dose in Angiography</brief_title>
+  <official_title>XRES4 Neuro Claim Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Karolinska University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Philips Medical Systems</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Karolinska University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      ClarityIQ is a novel X-ray imaging technology, that combines advanced real-time image noise
+      reduction algorithms, with state-of-the-art hardware to reduce patient entrance dose
+      significantly. This is realized by anatomy-specific optimization of the full acquisition
+      chain (grid switch, beam filtering, pulse width, spot size, detector and image processing
+      engine) for every clinical task individually. Furthermore, smaller focal spot sizes and
+      shorter pulses are used, which are known to positively influence image quality . The final
+      effect on the clinical image quality is investigated in this study.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The advent of interventional neuroradiology (INR) has changed the treatment of neurovascular
+      diseases by reducing the procedural invasiveness and the recovery time needed by patients,
+      thus improving clinical outcome. However, INR procedures often require many high-quality
+      digital substraction angiography (DSA) runs and long total fluoroscopy times, which can
+      result in patients being exposed to considerable radiation doses levels.
+
+      In order to introduce a dose reduction technology the most important aspect is to validate
+      the diagnostic image information. Philips has developed a real-time noise reduction algorithm
+      for DSA in neuroradiology that is capable to reduce the patient entrance dose by 75% without
+      loss of image quality.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>June 2011</start_date>
+  <completion_date type="Actual">September 2011</completion_date>
+  <primary_completion_date type="Actual">August 2011</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Double (Investigator, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Image Quality. For Each Included Participant 2 Images (1 AlluraXper; 1 AlluraClarity) Were Evaluated.</measure>
+    <time_frame>1 day</time_frame>
+    <description>The images were evaluated in randomized, blinded, offline readings. The anonymized images were displayed in pairs, i.e. the reference image run on one monitor (randomly left or right side) with the corresponding quarter-dose image run on the adjacent monitor. Three neuroradiologists graded the arterial, capillary, and venous phases separately. For each characteristic the images quality (IQ) were rated on a scale of 1 to 5 as 1 (very poor), 2 (mediocre), 3 (average), 4 (good), 5 (very good/excellent). An overall IQ score (3-15) was calculated as the sum of the score for these characteristics.
+A paired Student's t test is used to compare the overall IQ score between the 2 imaging techniques. If the upper limit of the 97.5% one-sided CI for the difference overall IQ between the two treatment groups does not exceed the pre-defined non-inferiority margin of 2.5 Clarity will be declared non-inferior to the current image acquisition settings for DSA.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Radiation Dose Measurements: Dose Area Product (DAP)</measure>
+    <time_frame>Participants were followed for the duration of the procedure</time_frame>
+    <description>Percentage of dose reduction of ClarityIQ vs. AlluraXper in Dose Area Product (DAP) calculated by DAP/frame.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Radiation Dose Measurements: Air Kerma (AK)</measure>
+    <time_frame>Participants were followed for the duration of the procedure</time_frame>
+    <description>Percentage of dose reduction of ClarityIQ vs. AlluraXper in Air Kerma (AK) calculated by AK/frame.</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Arteriovenous Malformations</condition>
+  <condition>Aneurysm</condition>
+  <condition>Stenosis</condition>
+  <condition>Dural Arteriovenous Malformations</condition>
+  <arm_group>
+    <arm_group_label>Reduced radiation dose (ClarityIQ)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Low dose DSA (75% reduction compared to normal dose) with novel X-ray imaging technology</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Normal radiation dose (AlluraXper)</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Normal dose DSA with conventional X-ray technology.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Low dose DSA (75% reduction compared to normal dose) with novel X-ray imaging technology.</intervention_name>
+    <description>Digital substraction angiography (DSA) with reduced dose settings (75% reduction expected) in combination with conventional X-ray imaging technology.</description>
+    <arm_group_label>Reduced radiation dose (ClarityIQ)</arm_group_label>
+    <other_name>ClarityIQ</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Normal dose DSA with conventional X-ray technology</intervention_name>
+    <description>Digital substraction angiography (DSA) with normal dose settings in combination with conventional X-ray imaging technology.</description>
+    <arm_group_label>Normal radiation dose (AlluraXper)</arm_group_label>
+    <other_name>AlluraXper</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age 18-80
+
+          -  Normal kidney function
+
+          -  Neurologically intact
+
+          -  Planned for diagnostic angiography or endovascular treatment
+
+        Exclusion Criteria:
+
+          -  Pregnancy
+
+          -  Other conditions that limit the use of contrast media or ionizing radiation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael Söderman, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Karolinska University Hospital</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Tommy Andersson, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Karolinska University Hospital</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Staffan Holmin, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Karolinska University Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Karolinska University Hospital</name>
+      <address>
+        <city>Solna</city>
+        <zip>SE-171 76</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Sweden</country>
+  </location_countries>
+  <verification_date>April 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 20, 2011</study_first_submitted>
+  <study_first_submitted_qc>June 23, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 27, 2011</study_first_posted>
+  <results_first_submitted>January 28, 2014</results_first_submitted>
+  <results_first_submitted_qc>April 23, 2014</results_first_submitted_qc>
+  <results_first_posted type="Estimate">May 22, 2014</results_first_posted>
+  <last_update_submitted>April 23, 2014</last_update_submitted>
+  <last_update_submitted_qc>April 23, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 22, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Karolinska University Hospital</investigator_affiliation>
+    <investigator_full_name>Michael Söderman</investigator_full_name>
+    <investigator_title>MD, PhD</investigator_title>
+  </responsible_party>
+  <keyword>X-ray</keyword>
+  <keyword>Image processing</keyword>
+  <keyword>Neuro angiography</keyword>
+  <keyword>Radiation exposure</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Aneurysm</mesh_term>
+    <mesh_term>Congenital Abnormalities</mesh_term>
+    <mesh_term>Arteriovenous Malformations</mesh_term>
+    <mesh_term>Hemangioma</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>The enrollment of patients occurred between 22 June 2011 and 11 August 2011</recruitment_details>
+      <pre_assignment_details>20 patients enrolled the study; 16 patients were undergoing diagnostic neuroangiography and 4 were undergoing INR procedures for different pathological conditions. All signed patient consent.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>AlluraXper - ClarityIQ</title>
+          <description>Angiogram with AlluraXper subsequently followed by angiogram with ClarityIQ</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Collected Dose and Image Information</title>
+              <participants_list>
+                <participants group_id="P1" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>AlluraXper - ClarityIQ</title>
+          <description>Angiogram with AlluraXper followed by angiogram with ClarityIQ</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="20"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="56" spread="11"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Sweden</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Image Quality. For Each Included Participant 2 Images (1 AlluraXper; 1 AlluraClarity) Were Evaluated.</title>
+        <description>The images were evaluated in randomized, blinded, offline readings. The anonymized images were displayed in pairs, i.e. the reference image run on one monitor (randomly left or right side) with the corresponding quarter-dose image run on the adjacent monitor. Three neuroradiologists graded the arterial, capillary, and venous phases separately. For each characteristic the images quality (IQ) were rated on a scale of 1 to 5 as 1 (very poor), 2 (mediocre), 3 (average), 4 (good), 5 (very good/excellent). An overall IQ score (3-15) was calculated as the sum of the score for these characteristics.
+A paired Student's t test is used to compare the overall IQ score between the 2 imaging techniques. If the upper limit of the 97.5% one-sided CI for the difference overall IQ between the two treatment groups does not exceed the pre-defined non-inferiority margin of 2.5 Clarity will be declared non-inferior to the current image acquisition settings for DSA.</description>
+        <time_frame>1 day</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>AlluraXper</title>
+            <description>Angiogram with AlluraXper followed by angiogram with ClarityIQ</description>
+          </group>
+          <group group_id="O2">
+            <title>Allura Clarity</title>
+            <description>Angiogram with AlluraXper followed by angiogram with ClarityIQ</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Image Quality. For Each Included Participant 2 Images (1 AlluraXper; 1 AlluraClarity) Were Evaluated.</title>
+          <description>The images were evaluated in randomized, blinded, offline readings. The anonymized images were displayed in pairs, i.e. the reference image run on one monitor (randomly left or right side) with the corresponding quarter-dose image run on the adjacent monitor. Three neuroradiologists graded the arterial, capillary, and venous phases separately. For each characteristic the images quality (IQ) were rated on a scale of 1 to 5 as 1 (very poor), 2 (mediocre), 3 (average), 4 (good), 5 (very good/excellent). An overall IQ score (3-15) was calculated as the sum of the score for these characteristics.
+A paired Student's t test is used to compare the overall IQ score between the 2 imaging techniques. If the upper limit of the 97.5% one-sided CI for the difference overall IQ between the two treatment groups does not exceed the pre-defined non-inferiority margin of 2.5 Clarity will be declared non-inferior to the current image acquisition settings for DSA.</description>
+          <units>Scores on a scale</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Investigator 1</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9.4" lower_limit="8.99" upper_limit="9.81"/>
+                    <measurement group_id="O2" value="11.9" lower_limit="11.33" upper_limit="12.42"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Investigator 2</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="13.1" lower_limit="12.75" upper_limit="13.45"/>
+                    <measurement group_id="O2" value="14.1" lower_limit="13.75" upper_limit="14.42"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Investigator 3</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.1" lower_limit="10.59" upper_limit="11.66"/>
+                    <measurement group_id="O2" value="12.1" lower_limit="11.42" upper_limit="12.68"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Radiation Dose Measurements: Dose Area Product (DAP)</title>
+        <description>Percentage of dose reduction of ClarityIQ vs. AlluraXper in Dose Area Product (DAP) calculated by DAP/frame.</description>
+        <time_frame>Participants were followed for the duration of the procedure</time_frame>
+        <population>All patients with recorded dose information and images for both angiograms were included (n=20)</population>
+        <group_list>
+          <group group_id="O1">
+            <title>AlluraXper - ClarityIQ</title>
+            <description>Angiogram with AlluraXper subsequently followed by angiogram with ClarityIQ</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Radiation Dose Measurements: Dose Area Product (DAP)</title>
+          <description>Percentage of dose reduction of ClarityIQ vs. AlluraXper in Dose Area Product (DAP) calculated by DAP/frame.</description>
+          <population>All patients with recorded dose information and images for both angiograms were included (n=20)</population>
+          <units>percentage of dose reduction</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="72.4" spread="1.95" lower_limit="71.5" upper_limit="73.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Radiation Dose Measurements: Air Kerma (AK)</title>
+        <description>Percentage of dose reduction of ClarityIQ vs. AlluraXper in Air Kerma (AK) calculated by AK/frame.</description>
+        <time_frame>Participants were followed for the duration of the procedure</time_frame>
+        <population>All patients with recorded dose information and images for both angiograms were included (n=20)</population>
+        <group_list>
+          <group group_id="O1">
+            <title>AlluraXper - ClarityIQ</title>
+            <description>Angiogram with AlluraXper subsequently followed by angiogram with ClarityIQ</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Radiation Dose Measurements: Air Kerma (AK)</title>
+          <description>Percentage of dose reduction of ClarityIQ vs. AlluraXper in Air Kerma (AK) calculated by AK/frame.</description>
+          <population>All patients with recorded dose information and images for both angiograms were included (n=20)</population>
+          <units>percentage of dose reduction</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="74.6" spread="0.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>AlluraXper - ClarityIQ</title>
+          <description>Angiogram with AlluraXper subsequently followed by angiogram with ClarityIQ</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>The only disclosure restriction on the PI is that the sponsor can review results communications prior to public release and can embargo communications regarding trial results for a period that is less than or equal to 60 days. The sponsor cannot require changes to the communication and cannot extend the embargo.</restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Söderman</name_or_title>
+      <organization>Karolinska University Hospital</organization>
+      <phone>+46851774037</phone>
+      <email>michael.soderman@karolinska.se</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

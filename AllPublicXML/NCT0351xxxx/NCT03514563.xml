@@ -1,0 +1,297 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03514563</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Protocol V1 6th September 2017</org_study_id>
+    <secondary_id>205923/Z/17/Z</secondary_id>
+    <secondary_id>231096</secondary_id>
+    <nct_id>NCT03514563</nct_id>
+  </id_info>
+  <brief_title>Three Dimensional Facial Growth Analysis</brief_title>
+  <official_title>Three Dimensional Analysis of Maxillofacial Growth in Patients With Cleft Lip and Palate</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Hull</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Dundee</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Hull</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Cleft lip and palate is the most common facial birth defect affecting one in 700 babies, and
+      frequently leads to problems in feeding, breathing, speech and/or hearing, and aesthetic
+      problems often leading to social and psychological problems. Poor growth of the upper jaw
+      affects nearly all patients with the condition, and can result in substantial misalignment of
+      the teeth requiring corrective surgery and associated dental treatment in early adulthood.
+
+      Surprisingly there is little evidence to support the current practice of delaying surgery
+      until early adulthood. It is apparently left until then because it is assumed this is when
+      the skull and face have stopped growing, but there is little available information on that
+      growth and when the different parts of the face and skull stop growing.
+
+      The goal of this study is to develop and test new computer-based methods to quantify skull
+      growth and related soft- tissues changes. This pilot work will demonstrate whether it is
+      possible to measure these developments and prepare the tools for a larger clinical study.
+      That clinical study will determine the full nature and extent of bone growth and related
+      soft-tissue changes during late adolescence, to identify if/when earlier surgery could be
+      carried out to correct any deformity and minimise the associated social stigmas of the
+      condition.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      OVERVIEW
+
+      The study will involve a three arm parallel cohort study considering patients with the
+      following conditions:
+
+        1. Class I malocclusion with no vertical facial anomalies, and no facial asymmetry or other
+           pathology;
+
+        2. Class III malocclusion with maxillary deficiency but no other vertical facial anomalies,
+           and no facial asymmetry or other pathology;
+
+        3. Patients with cleft lip and/or palate and a Class III malocclusion and no other
+           pathology.
+
+      DATA CAPTURE
+
+      a. MRI data will be obtained (for 10 subjects in each group) at age T0 and one year
+      afterwards (T1). This will provide accurate geometries to properly test the techniques. The
+      use of MRI scan data avoids the need for unnecessary exposure of patients to ionizing
+      radiation, it also allows the relationship between hard and soft tissues to be observed.
+
+      b. The same 10 patients in (a) will undergo an intra-oral scan captured using a Trios
+      intraoral scanner (3Shape, Aarhus, Denmark) which uses ultrafast optical sectioning
+      technology (non-invasive) to provide a 3D image of the dentition and dental occlusion and
+      facial stereophotogrammetry scan (Vectra H1 3D camera) for soft-tissue texture information at
+      ages T0 and T1.
+
+      3D DATA ANALYSIS
+
+        1. Reconstructed 3D geometries of the MRI scans at ages T0 and T1 will be superimposed to
+           determine the areas of skeletal and dental change in each subject. The scans will be
+           reconstructed and processed for the downstream 3D volume subtraction, using the
+           methodologies developed by the investigators and collaborators in similar dental and
+           skull biomechanics applications The T0 data will then be subtracted from the T1 data to
+           visualize and quantify the geometric changes in hard tissues arising from growth.
+
+        2. To investigate the external changes in soft tissues, 3D stereophotogrammetry scans will
+           be converted to shells. Colour-mapping will then provide quantification of the temporal
+           change in the soft tissues by 3D subtraction. Furthermore, to quantify the changes in
+           areas of complex-curvature e.g. the labiomental fold, 3D curvatures will be computed and
+           differences analysed using methods developed by the investigators.
+
+        3. To determine the growth correlation between soft- and hard-tissues, geometric
+           morphometric algorithms and bespoke computational methods will be developed. Firstly,
+           homologous landmarks will be identified automatically and 3D landmark templates will be
+           created to capture the surface geometries. Thereafter, discriminant function analysis
+           will be performed to compare the shape changes in each category for each age.
+
+        4. The intraoral scans will also be converted to shells along with the hard- and
+           soft-tissue information. Using Avizo software, subtraction and colour-mapping of the
+           intraoral images will then again provide quantification of the temporal change in the
+           occlusal relationships.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 1, 2018</start_date>
+  <completion_date type="Anticipated">August 31, 2019</completion_date>
+  <primary_completion_date type="Anticipated">February 28, 2019</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Year</target_duration>
+  <primary_outcome>
+    <measure>Identification of landmarks and growth quantities</measure>
+    <time_frame>August 2019</time_frame>
+    <description>Identification of homologous landmarks characterising skeletal, soft tissue and dental change during facial growth; Identification of optimal methods accurately quantifying skeletal, soft tissue and dental change during facial growth.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Patient attitudes on MRI</measure>
+    <time_frame>August 2019</time_frame>
+    <description>Patient attitudes on the use of magnetic resonance imaging (MRI) as an imaging modality to assess facial growth, including the practicalities and comfort of the MRI recording (and the use of a &quot;wax bite&quot;).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient attitudes on surgical timing</measure>
+    <time_frame>August 2019</time_frame>
+    <description>Patient attitudes on the issue of delayed surgical intervention and whether they prefer the concept of early surgery or waiting until later.</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Cleft Lip and Palate</condition>
+  <arm_group>
+    <arm_group_label>Group A</arm_group_label>
+    <description>MRI imaging, Optical scan and 3D photography for patients with Class I (non-skeletal) malocclusion with no facial asymmetry or other pathology.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group B</arm_group_label>
+    <description>MRI imaging, Optical scan and 3D photography for patients with Class III (skeletal-based) malocclusion with maxillary deficiency and normal vertical facial relationships, with no facial asymmetry or other pathology</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group C</arm_group_label>
+    <description>MRI imaging, Optical scan and 3D photography for patients with Cleft lip and/or palate and a Class III malocclusion and no other pathology</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>MRI imaging</intervention_name>
+    <description>MRI recordings of the craniofacial region</description>
+    <arm_group_label>Group A</arm_group_label>
+    <arm_group_label>Group B</arm_group_label>
+    <arm_group_label>Group C</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Optical scan</intervention_name>
+    <description>Optical intraoral scans</description>
+    <arm_group_label>Group A</arm_group_label>
+    <arm_group_label>Group B</arm_group_label>
+    <arm_group_label>Group C</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>3D photography</intervention_name>
+    <description>Facial stereophotogrammetry</description>
+    <arm_group_label>Group A</arm_group_label>
+    <arm_group_label>Group B</arm_group_label>
+    <arm_group_label>Group C</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Scotland
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Selection according to malocclusion characteristics.
+
+        Exclusion Criteria:
+
+          -  Specific age 12-13 years, outside of which will be excluded.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>12 Years</minimum_age>
+    <maximum_age>13 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael Fagan, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>University of Hull</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Grant McIntyre, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>University of Dundee</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Xinhui Ma, PhD</last_name>
+    <phone>+44(0)1482462170</phone>
+    <email>xinhui.ma@hull.ac.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Peter Mossey, PhD</last_name>
+    <phone>+44 (0)1382381 643</phone>
+    <email>p.a.mossey@dundee.ac.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Dundee Dental Hospital</name>
+      <address>
+        <city>Dundee</city>
+        <state>Scotland</state>
+        <zip>DD1 4HR</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <reference>
+    <citation>Martin CB, Ma X, McIntyre GT, Wang W, Lin P, Chalmers EV, Mossey PA. The validity and reliability of an automated method of scoring dental arch relationships in unilateral cleft lip and palate using the modified Huddart-Bodenham scoring system. Eur J Orthod. 2016 Aug;38(4):353-8. doi: 10.1093/ejo/cjw031. Epub 2016 Apr 22.</citation>
+    <PMID>27105652</PMID>
+  </reference>
+  <reference>
+    <citation>Ma X, Martin C, McIntyre G, Lin P, Mossey P. Digital Three-Dimensional Automation of the Modified Huddart and Bodenham Scoring System for Patients With Cleft Lip and Palate. Cleft Palate Craniofac J. 2017 Jul;54(4):481-486. doi: 10.1597/15-340. Epub 2016 May 2.</citation>
+    <PMID>27136074</PMID>
+  </reference>
+  <reference>
+    <citation>Chalmers EV, McIntyre GT, Wang W, Gillgrass T, Martin CB, Mossey PA. Intraoral 3D Scanning or Dental Impressions for the Assessment of Dental Arch Relationships in Cleft Care: Which is Superior? Cleft Palate Craniofac J. 2016 Sep;53(5):568-77. doi: 10.1597/15-036. Epub 2015 Dec 1.</citation>
+    <PMID>26623548</PMID>
+  </reference>
+  <reference>
+    <citation>Dobbyn L, Gillgrass T, McIntyre G, Macfarlane T, Mossey P. Validating the Clinical Use of the Modified Huddart and Bodenham Scoring System for Outcome in Cleft Lip and/or Palate. Cleft Palate Craniofac J. 2015 Nov;52(6):671-5. doi: 10.1597/12-170. Epub 2013 Aug 6.</citation>
+    <PMID>23919521</PMID>
+  </reference>
+  <reference>
+    <citation>Garg P, Ludwig KU, Böhmer AC, Rubini M, Steegers-Theunissen R, Mossey PA, Mangold E, Sharp AJ. Genome-wide analysis of parent-of-origin effects in non-syndromic orofacial clefts. Eur J Hum Genet. 2014 Jun;22(6):822-30. doi: 10.1038/ejhg.2013.235. Epub 2013 Oct 30.</citation>
+    <PMID>24169523</PMID>
+  </reference>
+  <reference>
+    <citation>Kasaven CP, McIntyre GT, Mossey PA. Accuracy of both virtual and printed 3-dimensional models for volumetric measurement of alveolar clefts before grafting with alveolar bone compared with a validated algorithm: a preliminary investigation. Br J Oral Maxillofac Surg. 2017 Jan;55(1):31-36. doi: 10.1016/j.bjoms.2016.08.016. Epub 2016 Sep 5.</citation>
+    <PMID>27608534</PMID>
+  </reference>
+  <reference>
+    <citation>McBride WA, McIntyre GT, Carroll K, Mossey PA. Subphenotyping and Classification of Orofacial Clefts: Need for Orofacial Cleft Subphenotyping Calls for Revised Classification. Cleft Palate Craniofac J. 2016 Sep;53(5):539-49. doi: 10.1597/15-029. Epub 2015 Jul 14.</citation>
+    <PMID>26171570</PMID>
+  </reference>
+  <reference>
+    <citation>Shaw K, McIntyre G, Mossey P, Menhinick A, Thomson D. Validation of conventional 2D lateral cephalometry using 3D cone beam CT. J Orthod. 2013 Mar;40(1):22-8. doi: 10.1179/1465313312Y.0000000009.</citation>
+    <PMID>23524544</PMID>
+  </reference>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 26, 2018</study_first_submitted>
+  <study_first_submitted_qc>May 1, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 2, 2018</study_first_posted>
+  <last_update_submitted>May 1, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 1, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 2, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Hull</investigator_affiliation>
+    <investigator_full_name>Xinhui Ma</investigator_full_name>
+    <investigator_title>Lecturer</investigator_title>
+  </responsible_party>
+  <keyword>Cleft Lip and Palate</keyword>
+  <keyword>Maxillofacial</keyword>
+  <keyword>Growth</keyword>
+  <keyword>3D</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cleft Lip</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

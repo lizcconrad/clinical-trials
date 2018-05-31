@@ -1,0 +1,523 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03079960</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P001449</org_study_id>
+    <nct_id>NCT03079960</nct_id>
+  </id_info>
+  <brief_title>Data-Driven Characterization of Neuronal Markers During Deep Brain Stimulation for Patients With Parkinson's Disease</brief_title>
+  <official_title>Data-Driven Characterization of Neuronal Markers During Deep Brain Stimulation for Patients With Parkinson's Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Prof. Dr. Volker Arnd Coenen</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Freiburg</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital Freiburg</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Deep brain stimulation (DBS) of the subthalamic nucleus (STN) has developed into a standard
+      therapy in the refractory stage of Parkinson's disease (PD). Implanted micro- and
+      macroelectrodes can be used to derive neural signals from the basal ganglia (BG). Cortical
+      signals can be obtained by measurements of the electroencephalogram (EEG) or the
+      electrocorticogram (ECoG). Both signal types can be used to characterize the motor system of
+      the patient and make it possible to estimate the effectiveness of a currently performed DBS.
+      However, the relationship between such neuronal features on the one hand and the DBS
+      stimulation parameters or the observable clinical effects on the other hand is very
+      individual and varies from patient to patient.
+
+      The aim of the present study is to: (1) determine neuronal characteristics that are
+      informative about the clinically relevant motor status of PD patients. (2) The investigation
+      and description of the complex non-stationary dynamics of neuronal characteristics as a
+      consequence of changing DBS stimulation parameters. (3) The study of the effect of changing
+      DBS stimulation parameters on motor performance.
+
+      The three objectives form an important building block for future adaptive closed-loop DBS
+      strategies (aDBS). Here, the stimulation parameters are to be adapted in the single-trial and
+      depending on the currently detected motor state of the patient. Since this is accessible only
+      to a very limited extent, it is to be investigated whether information about the motor state
+      can be obtained from the neural features.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Deep brain stimulation of the subthalamic nucleus (STN DBS) has developed into a standard
+      therapy for treating refractory stages of Parkinson's disease (PD). The large number of DBS
+      systems nowadays routinely implanted represent open loop technology. These so-called
+      continuous DBS (cDBS) systems are relatively simple from a technical perspective, as they
+      deliver uninterrupted high-frequency stimulation pulse trains typically 24 hours a day. The
+      stimulation is applied to the target area, like the STN, without taking into account the
+      current level of PD symptoms or the motor state of the patient. Changes to the stimulation
+      parameters -like pulse width, amplitude or frequency- can be applied only by a trained expert
+      during a so-called adjustment session, which usually takes place in the clinic. This limits
+      the number of adjustment sessions to at most a few per year. This may be sufficient to adapt
+      the system to long-term changes of a patient's state as induced by PD progress, which take
+      place over months and years, but certainly is not sufficient to react upon varying daily
+      conditions or changes on even smaller temporal scales. Despite being a widely accepted
+      approach, cDBS is known to cause several side effects such as speech impairment or tolerance
+      to treatment due to chronic continuous stimulation, and has disadvantages with regard to
+      energy efficiency and battery life of the implanted stimulation device.
+
+      In contrast to the available cDBS systems, it would be desirable to have adaptive DBS (aDBS)
+      systems, that provide stimulation on demand only and, for example, reduce or stop stimulation
+      delivery during periods of inactivity or when the motor performance of the patient is
+      sufficiently high. Even though a few aDBS prototypes have been reported in literature, they
+      are investigated in research contexts only and have not yet been included into clinical
+      routines.
+
+      To realize the closed loop control of a patient's motor symptoms by an aDBS approach, at
+      least one information source describing the motor state of the patient is required. On the
+      one hand, this information may be accessible via external sensors or wearables, which record
+      e.g. muscle tone, tremor, kinematic information etc. in every-day situations or during the
+      execution of specific motor tasks. Alternatively, the information may also be expressed by
+      specific brain signals, so-called neural markers, which correlate with the motor state and
+      can act as its surrogate.
+
+      Informative neural markers can be extracted from several brain areas and with different
+      recording technologies. Activity in the subthalamic nucleus (STN) and other basal ganglia can
+      be measured both during and after the implantation of the DBS electrodes in the form of local
+      field potentials (LFP) or microelectrode recordings (MER). Signals recorded either during
+      stimulation, from small time windows between stimulation sequences, or with stimulation
+      absent can provide information about the clinically relevant motor state of PD patients.
+      Additionally, it has been shown that neural signal recordings via magneto- or
+      electroencephalogram (MEG/EEG) and electrocorticogram (ECoG) may provide valuable
+      complementary information compared to the signals obtained from basal ganglia.
+
+      On a clinical level, the motor state of the patients can be assessed using part III of the
+      Unified Parkinson's Disease Rating Scale (UPDRS-III) test battery. Its assessment, however,
+      is rather time consuming and requires the involvement of a clinician (neurologist) and
+      consequently the full UPDRS-III score cannot be used for a aDBS implementation.
+      Unfortunately, with the current state of research, the information about the motor behavior
+      cannot simply be replaced by information collected via brain signals. The reasons is, that
+      the relation between relevant neural markers of the LFP and MER recordings, and the
+      individual motor symptoms (e.g. as described by the UPDRS-III) is far from complete and
+      requires further investigation.
+
+      To characterize candidates of neural markers, which can be utilized as surrogates for the
+      motor state, it is important to investigate two questions: (1) (How) does the marker change
+      upon applying DBS? (2) Is this change related to the clinical effects of DBS observed e.g. a
+      change in the UPDRS-III score? In this context, selected oscillatory components have been
+      described. The power of LFP oscillatory components in the beta range (12-30 Hz) has been
+      reported to drop upon DBS and, despite unclear causal relation and action mechanisms, it has
+      also been correlated to motor parkinsonian symptoms as bradykinesia and rigor. Furthermore,
+      the interaction of band power of other frequency components with specific PD motor symptoms
+      has been described. An example is the relation between the delta and gamma band power
+      recorded from the STN with dyskinetic symptoms and the correlation of high gamma band power
+      with UPDRS-III scores, and the modulation of high gamma through DBS or L-Dopa. Additionally,
+      DBS stimulation has also been observed to influence cross-frequency coupling between
+      cortical-cortical, cortical-subcortical and subcortical-subcortical structures.
+
+      Most studies on the effect of DBS on the motor system and on informative neural markers
+      report on global effects observed in group studies. However, grand average findings may not
+      provide sufficient information to control aDBS systems for an individual patient. This is
+      underlined by many recent studies from the field of brain-computer interfaces (BCI), where
+      informative neural signatures have been found to be subject-specific, and where
+      subject-specific methods for extracting informative neural markers have been applied
+      successfully. Hence we propose to refine the level of data analysis beyond the level of group
+      statistics.
+
+      Apart from neural markers being subject-specific, the implicit dynamics of both, the neural
+      markers and the DBS effects, should be considered:
+
+        -  Dynamics of the neural markers Even within an individual user and a single day, the
+           adaptation of DBS parameters may be required in order to compensate non-stationary
+           characteristics displayed by neural markers on several temporal scales : (a) On the
+           scale of hours to minutes, due to, e.g., changes in wakefulness/tiredness or circadian
+           cycle. (b) On the scale of minutes to seconds, variations e.g. in the attention level,
+           workload. (c) On even smaller time scales due to the current status of the motor system
+           (task preparation vs. task onset vs. sustained ongoing tasks, high force vs. precision
+           tasks, isometric vs. movement tasks etc.). It must be expected, that the individually
+           informative neural markers, which can be exploited to realize the closed-loop aDBS
+           system, are subject to change their informative content in the above-mentioned time
+           scales and scenarios.
+
+        -  Dynamics of the DBS effects Depending on the DBS parameters (e.g. intensity, frequency,
+           duration, pulse shape) of the stimulation pattern applied in the immediate past, the
+           effects onto (1) the motor system and onto (2) the informative neural markers are known
+           to persist from several seconds to minutes even after stimulation has been turned off
+           [Bronte-Stewart et al. 2009]. Due to this washout effect of DBS, the stimulation
+           strategy of an aDBS system will probably benefit from taking the (short term)
+           stimulation history into account. The duration and temporal dynamics of this so-called
+           washout period depends on the kind of motor symptom studied. It has been reported to be
+           longer for akinesia (minutes - hours) as opposed to rigidity (minutes). Thus it can be
+           hypothesized, that the dynamics of the washout effects for the motor symptoms and for
+           the neural markers are not the same.
+
+      The applicants of this proposal want to make a substantial step forward into the direction of
+      a fully closed-loop aDBS system. To reach this goal, it is necessary to develop data analysis
+      methods for brain signals, which are capable of identifying the aforementioned informative
+      neural markers, and to utilize them as input to decode the current motor state. For both
+      tasks, machine learning methods have been successfully investigated and utilized in the
+      context of closed loop BCI systems. Methods developed in this field allow for single-trial
+      decoding of non-invasive EEG signals and invasive signals like ECoG and LPF. The machine
+      learning methods enable the detection of movement intentions in single-trial and the decoding
+      imagined or executed movements. Furthermore, latest research of the applicants has shown,
+      that BCI approaches allow to even predict the task performance of an upcoming motor task,
+      which may be valuable information for brain state dependent closed-loop applications.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 4, 2017</start_date>
+  <completion_date type="Anticipated">February 28, 2018</completion_date>
+  <primary_completion_date type="Anticipated">February 28, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Single group, open label</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Correlation of stimulation parameters and motor performance</measure>
+    <time_frame>Days 1-4 after neurosurgery</time_frame>
+    <description>For each patient, a linear regression model will be trained to predict motor performance (target variable) given a stimulation parameter set (predictor). The r-value of each of the trained models across all subjects will be compared against the r-values obtained from resampled bootstrap models. Statistical significant differences between estimated and bootstrapped models will be assessed by a Wilcoxon test with a significance level of 5%. Endpoint is prediction of motor performance as assessed by the r-values of the estimated models.
+Stimulation parameters will include current (mA), frequency (Hz) and impulse width (µs). Motor performance will be evaluated by various motor tests (comparable to UPDRS).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Correlation of motor performance and informative neural markers</measure>
+    <time_frame>Days 1-4 after neurosurgery</time_frame>
+    <description>For each patient, the Pearson correlation between (1) the beta band power and the performance in the short motor tasks and (2) the best multivariate neural marker obtained by our models with the performance in the short motor tasks will be computed. The correlations obtained across all subjects will then be compared under the two conditions. Statistical significant difference between multivariate and beta markers will be estimated by a pairwise Wilcoxon test (significance level of 5%). Endpoint is prediction of motor performance as assessed by the r-values of the estimated models.
+Motor performance will be evaluated by various motor tests (comparable to UPDRS) and beta band frequency levels. Informative neural markers will be assessed by encephaloelectrograms (EEG), electroymyelograms (EMG) and physiological parameters (e.g. respiratory frequency).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation of stimulation parameters and informative neural markers</measure>
+    <time_frame>Days 1-4 after neurosurgery</time_frame>
+    <description>Analogue to the primary endpoint, a linear regression model is trained, which learns to predict the values of multivariate neural markers based on stimulation parameters. Again, we compare the r-values of the estimated models and of the corresponding models obtained after bootstrap resampling for each subject. Statistical significant differences between them will be assessed by a Wilcoxon test (significance level of 5%). Endpoint is prediction of neural marker values as assessed by the r-values of the estimated models.
+Informative neural markers will be assessed by encephaloelectrograms (EEG), electroymyelograms (EMG) and physiological parameters (e.g. respiratory frequency). Informative neural markers will be assessed by encephaloelectrograms (EEG), electroymyelograms (EMG) and physiological parameters (e.g. respiratory frequency).</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Parkinson Disease</condition>
+  <arm_group>
+    <arm_group_label>Electrophysiological recording and measurement devices</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>DBS implantation: patients undergo standard stereotactical neurosurgery for DBS implantation. Decision for DBS treatment has been made prior to inclusion into this study.
+Cables and connectors of the macro electrodes will stay externalized for cDBS adjustment procedures. The externalized connectors of the macroelectrodes allow for simultaneous stimulation of the STN and obtaining LFP recordings with electrophysiological recording and measurement devices from the STN for the fitting of DBS parameters, according to the standard clinical procedure.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Electrophysiological recording and measurement devices</intervention_name>
+    <description>Externalization of DBS connectors and macroelectrodes for simultaneous STN stimulation LFP recordings by the use of electrophysiological recording and measurement devices.</description>
+    <arm_group_label>Electrophysiological recording and measurement devices</arm_group_label>
+    <other_name>AlphaOmega Recording and Stimulation System</other_name>
+    <other_name>Leadpoint Recording and Stimulation System</other_name>
+    <other_name>BrainAmp Amplifier</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Male or female patients aged ≥ 35 and ≤ 75 years
+
+          2. Patients with diagnosed PD according to UK PDS Brain Bank Criteria.
+
+          3. Written informed consent.
+
+          4. Patients are eligible for STN DBS Surgery according to the guidelines of the DGN
+             (www.dgn.org)
+
+        Exclusion Criteria:
+
+          1. MR Imaging shows a contraindication for microelectrode recordings. If imaging shows a
+             high amount of blood vessels in the target region and no safe trajectory for inserting
+             the microelectrode can be found, then the patient may receive implantation of the
+             macroelectrode without preceding microelectrode measurements, but is excluded from the
+             study.
+
+          2. Contraindication for stereotactical neurosurgery.
+
+          3. Dementia (Mattis Dementia Rating Score ≤ 130)
+
+          4. Acute psychosis stated by a psychiatric physician
+
+          5. Unable to give written informed consent
+
+          6. Surgical contraindications
+
+          7. Medications that are likely to cause interactions in the opinion of the investigator
+
+          8. Fertile women not using adequate contraceptive methods: female condoms, diaphragm or
+             coil, each used in combination with spermicides; intra-uterine device; hormonal
+             contraception in combination with a mechanical method of contraception;
+
+          9. Current or planned pregnancy, nursing period
+
+         10. Contraindications according to device instructions or Investigator's Brochure:
+
+               1. Diathermy (shortwave, microwave, and/or therapeutic ultrasound diathermy)
+
+               2. Magnetic Resonance Imaging (MRI)
+
+               3. Patient incapability
+
+         11. Patients to be expected poor surgical candidates
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>35 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Volker Coenen, Prof. Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Hospital Freiburg</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Volker Coenen, Prof. Dr.</last_name>
+    <phone>+49 761 27050510</phone>
+    <email>volker.coenen@uniklinik-freiburg.de</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Michael Tangermann, Dr.</last_name>
+    <phone>+49 761 2038423</phone>
+    <email>michael.tangermann@blbt.uni-freiburg.de</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Medical Center - University of Freiburg - Clinic for Neurosurgery - Dept. of Stereotactical and Functional Neurosurgery</name>
+      <address>
+        <city>Freiburg im Breisgau</city>
+        <state>Baden-Württemberg</state>
+        <zip>79106</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michael Tangermann, Dr.</last_name>
+      <phone>+49 761 203</phone>
+      <phone_ext>8423</phone_ext>
+      <email>michael.tangermann@blbt.uni-freiburg.de</email>
+    </contact>
+    <contact_backup>
+      <last_name>Volker Arnd Coenen, Prof. Dr.</last_name>
+      <phone>+49 761 270</phone>
+      <phone_ext>50630</phone_ext>
+      <email>stereo@uniklinik-freiburg.de</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Volker Arnd Coenen, Prof. Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <reference>
+    <citation>Androulidakis AG, Kühn AA, Chen CC, Blomstedt P, Kempf F, Kupsch A, Schneider GH, Doyle L, Dowsey-Limousin P, Hariz MI, Brown P. Dopaminergic therapy promotes lateralized motor activity in the subthalamic area in Parkinson's disease. Brain. 2007 Feb;130(Pt 2):457-68. Epub 2007 Jan 8.</citation>
+    <PMID>17213215</PMID>
+  </reference>
+  <reference>
+    <citation>Beudel M, Brown P. Adaptive deep brain stimulation in Parkinson's disease. Parkinsonism Relat Disord. 2016 Jan;22 Suppl 1:S123-6. doi: 10.1016/j.parkreldis.2015.09.028. Epub 2015 Sep 15. Review.</citation>
+    <PMID>26411502</PMID>
+  </reference>
+  <reference>
+    <citation>Blankertz B, Lemm S, Treder M, Haufe S, Müller KR. Single-trial analysis and classification of ERP components--a tutorial. Neuroimage. 2011 May 15;56(2):814-25. doi: 10.1016/j.neuroimage.2010.06.048. Epub 2010 Jun 28.</citation>
+    <PMID>20600976</PMID>
+  </reference>
+  <reference>
+    <citation>Blankertz, B., Tomioka, R., Lemm, S., Kawanabe, M., &amp; Müller, K.-R. (2008). Optimizing spatial filters for robust EEG single-trial analysis. Signal Processing Magazine, IEEE, 25(1), 41-56.</citation>
+  </reference>
+  <reference>
+    <citation>Blumenfeld Z, Brontë-Stewart H. High Frequency Deep Brain Stimulation and Neural Rhythms in Parkinson's Disease. Neuropsychol Rev. 2015 Dec;25(4):384-97. doi: 10.1007/s11065-015-9308-7. Epub 2015 Nov 25. Review.</citation>
+    <PMID>26608605</PMID>
+  </reference>
+  <reference>
+    <citation>Blumenfeld Z, Velisar A, Miller Koop M, Hill BC, Shreve LA, Quinn EJ, Kilbane C, Yu H, Henderson JM, Brontë-Stewart H. Sixty hertz neurostimulation amplifies subthalamic neural synchrony in Parkinson's disease. PLoS One. 2015 Mar 25;10(3):e0121067. doi: 10.1371/journal.pone.0121067. eCollection 2015.</citation>
+    <PMID>25807463</PMID>
+  </reference>
+  <reference>
+    <citation>Borghini G, Astolfi L, Vecchiato G, Mattia D, Babiloni F. Measuring neurophysiological signals in aircraft pilots and car drivers for the assessment of mental workload, fatigue and drowsiness. Neurosci Biobehav Rev. 2014 Jul;44:58-75. doi: 10.1016/j.neubiorev.2012.10.003. Epub 2012 Oct 30. Review.</citation>
+    <PMID>23116991</PMID>
+  </reference>
+  <reference>
+    <citation>Carron R, Chaillet A, Filipchuk A, Pasillas-Lépine W, Hammond C. Closing the loop of deep brain stimulation. Front Syst Neurosci. 2013 Dec 20;7:112. doi: 10.3389/fnsys.2013.00112. Review.</citation>
+    <PMID>24391555</PMID>
+  </reference>
+  <reference>
+    <citation>Castaño-Candamil S, Meinel A, Dähne S, Tangermann M. Probing meaningfulness of oscillatory EEG components with bootstrapping, label noise and reduced training sets. Conf Proc IEEE Eng Med Biol Soc. 2015;2015:5159-62. doi: 10.1109/EMBC.2015.7319553.</citation>
+    <PMID>26737453</PMID>
+  </reference>
+  <reference>
+    <citation>Dähne S, Meinecke FC, Haufe S, Höhne J, Tangermann M, Müller KR, Nikulin VV. SPoC: a novel framework for relating the amplitude of neuronal oscillations to behaviorally relevant parameters. Neuroimage. 2014 Feb 1;86:111-22. doi: 10.1016/j.neuroimage.2013.07.079. Epub 2013 Aug 15.</citation>
+    <PMID>23954727</PMID>
+  </reference>
+  <reference>
+    <citation>Engel AK, Fries P. Beta-band oscillations--signalling the status quo? Curr Opin Neurobiol. 2010 Apr;20(2):156-65. doi: 10.1016/j.conb.2010.02.015. Epub 2010 Mar 30. Review.</citation>
+    <PMID>20359884</PMID>
+  </reference>
+  <reference>
+    <citation>Hamilton L, McConley M, Angermueller K, Goldberg D, Corba M, Kim L, Moran J, Parks PD, Sang Chin, Widge AS, Dougherty DD, Eskandar EN. Neural signal processing and closed-loop control algorithm design for an implanted neural recording and stimulation system. Conf Proc IEEE Eng Med Biol Soc. 2015 Aug;2015:7831-6. doi: 10.1109/EMBC.2015.7320207.</citation>
+    <PMID>26738107</PMID>
+  </reference>
+  <reference>
+    <citation>Castaño-Candamil, S., Meinel, A., Reis, J., Tangermann, M. Correlates to influence user performance in a hand motor rehabilitation task. Clinical Neurophysiology, Volume 126, Issue 8, e166-e167, 2015.</citation>
+  </reference>
+  <reference>
+    <citation>Höhne J, Bartz D, Hebart MN, Müller KR, Blankertz B. Analyzing neuroimaging data with subclasses: A shrinkage approach. Neuroimage. 2016 Jan 1;124(Pt A):740-751. doi: 10.1016/j.neuroimage.2015.09.031. Epub 2015 Sep 25.</citation>
+    <PMID>26407815</PMID>
+  </reference>
+  <reference>
+    <citation>Jayaram, V., Alamgir, M., Altun, Y., Schölkopf, B., &amp; Grosse-Wentrup, M. Transfer Learning in Brain-Computer Interfaces. arXiv preprint arXiv:1512.00296, 2015.</citation>
+  </reference>
+  <reference>
+    <citation>Khobragade N, Graupe D, Tuninetti D. Towards fully automated closed-loop Deep Brain Stimulation in Parkinson's disease patients: A LAMSTAR-based tremor predictor. Conf Proc IEEE Eng Med Biol Soc. 2015;2015:2616-9. doi: 10.1109/EMBC.2015.7318928.</citation>
+    <PMID>26736828</PMID>
+  </reference>
+  <reference>
+    <citation>Kindermans PJ, Tangermann M, Müller KR, Schrauwen B. Integrating dynamic stopping, transfer learning and language models in an adaptive zero-training ERP speller. J Neural Eng. 2014 Jun;11(3):035005. doi: 10.1088/1741-2560/11/3/035005. Epub 2014 May 19.</citation>
+    <PMID>24834896</PMID>
+  </reference>
+  <reference>
+    <citation>Kindermans PJ, Verstraeten D, Schrauwen B. A bayesian model for exploiting application constraints to enable unsupervised training of a P300-based BCI. PLoS One. 2012;7(4):e33758. doi: 10.1371/journal.pone.0033758. Epub 2012 Apr 4.</citation>
+    <PMID>22496763</PMID>
+  </reference>
+  <reference>
+    <citation>Kühn AA, Kempf F, Brücke C, Gaynor Doyle L, Martinez-Torres I, Pogosyan A, Trottenberg T, Kupsch A, Schneider GH, Hariz MI, Vandenberghe W, Nuttin B, Brown P. High-frequency stimulation of the subthalamic nucleus suppresses oscillatory beta activity in patients with Parkinson's disease in parallel with improvement in motor performance. J Neurosci. 2008 Jun 11;28(24):6165-73. doi: 10.1523/JNEUROSCI.0282-08.2008.</citation>
+    <PMID>18550758</PMID>
+  </reference>
+  <reference>
+    <citation>Kühn AA, Tsui A, Aziz T, Ray N, Brücke C, Kupsch A, Schneider GH, Brown P. Pathological synchronisation in the subthalamic nucleus of patients with Parkinson's disease relates to both bradykinesia and rigidity. Exp Neurol. 2009 Feb;215(2):380-7. doi: 10.1016/j.expneurol.2008.11.008. Epub 2008 Nov 25.</citation>
+    <PMID>19070616</PMID>
+  </reference>
+  <reference>
+    <citation>Little S, Beudel M, Zrinzo L, Foltynie T, Limousin P, Hariz M, Neal S, Cheeran B, Cagnan H, Gratwicke J, Aziz TZ, Pogosyan A, Brown P. Bilateral adaptive deep brain stimulation is effective in Parkinson's disease. J Neurol Neurosurg Psychiatry. 2016 Jul;87(7):717-21. doi: 10.1136/jnnp-2015-310972. Epub 2015 Sep 30.</citation>
+    <PMID>26424898</PMID>
+  </reference>
+  <reference>
+    <citation>Little S, Pogosyan A, Neal S, Zavala B, Zrinzo L, Hariz M, Foltynie T, Limousin P, Ashkan K, FitzGerald J, Green AL, Aziz TZ, Brown P. Adaptive deep brain stimulation in advanced Parkinson disease. Ann Neurol. 2013 Sep;74(3):449-57. doi: 10.1002/ana.23951. Epub 2013 Jul 12.</citation>
+    <PMID>23852650</PMID>
+  </reference>
+  <reference>
+    <citation>López-Azcárate J, Tainta M, Rodríguez-Oroz MC, Valencia M, González R, Guridi J, Iriarte J, Obeso JA, Artieda J, Alegre M. Coupling between beta and high-frequency activity in the human subthalamic nucleus may be a pathophysiological mechanism in Parkinson's disease. J Neurosci. 2010 May 12;30(19):6667-77. doi: 10.1523/JNEUROSCI.5459-09.2010.</citation>
+    <PMID>20463229</PMID>
+  </reference>
+  <reference>
+    <citation>Lotte F, Congedo M, Lécuyer A, Lamarche F, Arnaldi B. A review of classification algorithms for EEG-based brain-computer interfaces. J Neural Eng. 2007 Jun;4(2):R1-R13. Epub 2007 Jan 31. Review.</citation>
+    <PMID>17409472</PMID>
+  </reference>
+  <reference>
+    <citation>Makeig, S., Kothe, C., Mullen, T., Bigdely-Shamlo, N., Zhang, Z., &amp; Kreutz-Delgado, K. Evolving signal processing for brain-computer interfaces. Proceedings of the IEEE, 100(Special Centennial Issue), 1567-1584, 2012.</citation>
+  </reference>
+  <reference>
+    <citation>Meinel A, Castaño-Candamil S, Reis J, Tangermann M. Pre-Trial EEG-Based Single-Trial Motor Performance Prediction to Enhance Neuroergonomics for a Hand Force Task. Front Hum Neurosci. 2016 Apr 25;10:170. doi: 10.3389/fnhum.2016.00170. eCollection 2016.</citation>
+    <PMID>27199701</PMID>
+  </reference>
+  <reference>
+    <citation>Mohammed A, Zamani M, Bayford R, Demosthenous A. Patient specific Parkinson's disease detection for adaptive deep brain stimulation. Conf Proc IEEE Eng Med Biol Soc. 2015 Aug;2015:1528-31. doi: 10.1109/EMBC.2015.7318662.</citation>
+    <PMID>26736562</PMID>
+  </reference>
+  <reference>
+    <citation>Niketeghad S, Hebb AO, Nedrud J, Hanrahan SJ, Mahoor MH. Single trial behavioral task classification using subthalamic nucleus local field potential signals. Conf Proc IEEE Eng Med Biol Soc. 2014;2014:3793-6. doi: 10.1109/EMBC.2014.6944449.</citation>
+    <PMID>25570817</PMID>
+  </reference>
+  <reference>
+    <citation>Pan, S., Iplikci, S., Warwick, K., &amp; Aziz, T. Z. Parkinson's Disease tremor classification-A comparison between Support Vector Machines and neural networks. Expert Systems with Applications, 39(12), 10764-10771, 2012.</citation>
+  </reference>
+  <reference>
+    <citation>Pistohl T, Schulze-Bonhage A, Aertsen A, Mehring C, Ball T. Decoding natural grasp types from human ECoG. Neuroimage. 2012 Jan 2;59(1):248-60. doi: 10.1016/j.neuroimage.2011.06.084. Epub 2011 Jul 8.</citation>
+    <PMID>21763434</PMID>
+  </reference>
+  <reference>
+    <citation>Pollok B, Krause V, Martsch W, Wach C, Schnitzler A, Südmeyer M. Motor-cortical oscillations in early stages of Parkinson's disease. J Physiol. 2012 Jul 1;590(13):3203-12. doi: 10.1113/jphysiol.2012.231316. Epub 2012 Apr 30.</citation>
+    <PMID>22547636</PMID>
+  </reference>
+  <reference>
+    <citation>Priori A, Foffani G, Rossi L, Marceglia S. Adaptive deep brain stimulation (aDBS) controlled by local field potential oscillations. Exp Neurol. 2013 Jul;245:77-86. doi: 10.1016/j.expneurol.2012.09.013. Epub 2012 Sep 27. Review.</citation>
+    <PMID>23022916</PMID>
+  </reference>
+  <reference>
+    <citation>Priori A. Technology for deep brain stimulation at a gallop. Mov Disord. 2015 Aug;30(9):1206-12. doi: 10.1002/mds.26253. Epub 2015 May 23. Review.</citation>
+    <PMID>26011821</PMID>
+  </reference>
+  <reference>
+    <citation>Ramaker C, Marinus J, Stiggelbout AM, Van Hilten BJ. Systematic evaluation of rating scales for impairment and disability in Parkinson's disease. Mov Disord. 2002 Sep;17(5):867-76.</citation>
+    <PMID>12360535</PMID>
+  </reference>
+  <reference>
+    <citation>Rosa M, Arlotti M, Ardolino G, Cogiamanian F, Marceglia S, Di Fonzo A, Cortese F, Rampini PM, Priori A. Adaptive deep brain stimulation in a freely moving Parkinsonian patient. Mov Disord. 2015 Jun;30(7):1003-5. doi: 10.1002/mds.26241. Epub 2015 May 21.</citation>
+    <PMID>25999288</PMID>
+  </reference>
+  <reference>
+    <citation>Rosa M, Giannicola G, Servello D, Marceglia S, Pacchetti C, Porta M, Sassi M, Scelzo E, Barbieri S, Priori A. Subthalamic local field beta oscillations during ongoing deep brain stimulation in Parkinson's disease in hyperacute and chronic phases. Neurosignals. 2011;19(3):151-62. doi: 10.1159/000328508. Epub 2011 Jul 12.</citation>
+    <PMID>21757872</PMID>
+  </reference>
+  <reference>
+    <citation>Samek W, Meinecke FC, Muller KR. Transferring subspaces between subjects in brain--computer interfacing. IEEE Trans Biomed Eng. 2013 Aug;60(8):2289-98. doi: 10.1109/TBME.2013.2253608. Epub 2013 Mar 20.</citation>
+    <PMID>23529075</PMID>
+  </reference>
+  <reference>
+    <citation>Silberstein P, Pogosyan A, Kühn AA, Hotton G, Tisch S, Kupsch A, Dowsey-Limousin P, Hariz MI, Brown P. Cortico-cortical coupling in Parkinson's disease and its modulation by therapy. Brain. 2005 Jun;128(Pt 6):1277-91. Epub 2005 Mar 17.</citation>
+    <PMID>15774503</PMID>
+  </reference>
+  <reference>
+    <citation>Tangermann M, Müller KR, Aertsen A, Birbaumer N, Braun C, Brunner C, Leeb R, Mehring C, Miller KJ, Müller-Putz GR, Nolte G, Pfurtscheller G, Preissl H, Schalk G, Schlögl A, Vidaurre C, Waldert S, Blankertz B. Review of the BCI Competition IV. Front Neurosci. 2012 Jul 13;6:55. doi: 10.3389/fnins.2012.00055. eCollection 2012.</citation>
+    <PMID>22811657</PMID>
+  </reference>
+  <reference>
+    <citation>Tangermann M., Reis J. and Meinel A. Commonalities of Motor Performance Metrics are Revealed by Predictive Oscillatory EEG Components. In Proceedings of the 3rd International Congress on Neurotechnology, Electronics and Informatics, p32-38, 2015.</citation>
+  </reference>
+  <reference>
+    <citation>Weiss D, Klotz R, Govindan RB, Scholten M, Naros G, Ramos-Murguialday A, Bunjes F, Meisner C, Plewnia C, Krüger R, Gharabaghi A. Subthalamic stimulation modulates cortical motor network activity and synchronization in Parkinson's disease. Brain. 2015 Mar;138(Pt 3):679-93. doi: 10.1093/brain/awu380. Epub 2015 Jan 2.</citation>
+    <PMID>25558877</PMID>
+  </reference>
+  <reference>
+    <citation>Whitmer D, de Solages C, Hill B, Yu H, Henderson JM, Bronte-Stewart H. High frequency deep brain stimulation attenuates subthalamic and cortical rhythms in Parkinson's disease. Front Hum Neurosci. 2012 Jun 4;6:155. doi: 10.3389/fnhum.2012.00155. eCollection 2012.</citation>
+    <PMID>22675296</PMID>
+  </reference>
+  <verification_date>November 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 28, 2017</study_first_submitted>
+  <study_first_submitted_qc>March 14, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 15, 2017</study_first_posted>
+  <last_update_submitted>November 9, 2017</last_update_submitted>
+  <last_update_submitted_qc>November 9, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 13, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University Hospital Freiburg</investigator_affiliation>
+    <investigator_full_name>Prof. Dr. Volker Arnd Coenen</investigator_full_name>
+    <investigator_title>Prof. Dr.</investigator_title>
+  </responsible_party>
+  <keyword>Parkinson</keyword>
+  <keyword>DBS</keyword>
+  <keyword>Deep Brain Stimulation</keyword>
+  <keyword>LFP</keyword>
+  <keyword>Local Field Potentials</keyword>
+  <keyword>EEG</keyword>
+  <keyword>Electroencephalogram</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,228 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02199769</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STU 062013-058</org_study_id>
+    <nct_id>NCT02199769</nct_id>
+  </id_info>
+  <brief_title>Reducing Type 2 Diabetes Diagnostic Delays Using Decision Support</brief_title>
+  <official_title>Harnessing the Electronic Medical Record to Reduce Delays in the Diagnosis of Type 2 Diabetes: a Systems-based, Decision Support Approach</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Texas Southwestern Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Texas Southwestern Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will focus on the cohort of 20,000 established patients cared for by 31 attending
+      physicians in the outpatient, adult primary care practices at UT Southwestern (two general
+      internal medicine one family medicine and one geriatric practice). The investigators will
+      develop and implement an automated Diabetes Detection Tool (DDT) that does data mining on
+      electronic medical record (EMR) lab data to systematically identify all primary care patients
+      with elevated random plasma glucose results (RPGs) who are at high risk of diabetes and thus
+      in need of further testing. In a cluster-randomized trial, primary care providers will be
+      randomized to either the intervention/DDT arm or usual care. Providers in the intervention
+      arm will receive visit-based, EMR-enabled case identification and real-time decision support.
+      Outcomes will be tracked at a patient level. All subjects will be followed for 12 months to
+      assess rates of follow-up diabetes testing, time to testing, rates of subsequent diabetes
+      diagnosis, and time to diagnosis. The investigators hypothesize that the visit-based provider
+      decision support will be superior to usual care.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The growing epidemic of type 2 diabetes affects over 8.3% of the US population and presents a
+      major challenge to healthcare systems and public health. An additional 7 million people have
+      undiagnosed diabetes and over 79 million have pre-diabetes, which if unrecognized and
+      untreated can progress to full-blown diabetes. Although screening and diagnostic tests are
+      routinely available, health systems struggle to diagnose patients with diabetes in a timely
+      manner. In fact, clinical diagnosis lags 8-12 years behind the onset of glucose
+      dysregulation, resulting in diagnostic delays and the presence of diabetes complications at
+      the time of diagnosis. Among patients engaged in clinical care without a known diagnosis of
+      diabetes, nearly all patients have random plasma glucose (RPG) data available which
+      potentially provides valuable, early warning safety signals regarding the need for further
+      diabetes testing. However, elevated glucose values are commonly unrecognized and over 60% of
+      abnormal values are not followed-up with diabetes testing in a timely fashion. Opportunities
+      exist to leverage existing data within electronic medical records (EMR) to identify patients
+      in need of further diabetes testing and develop systems-based solutions to reduce: 1)
+      failures in following-up abnormal glucose tests, 2) delays in diagnosing diabetes, and 3)
+      frequency of missed diagnoses of diabetes.
+
+      This proposal will leverage the Epic EMR at the University of Texas Southwestern Medical
+      Center (UTSW) to improve the detection and follow-up testing rates of abnormal glucose values
+      in real-world practice.
+
+      The investigators will conduct a cluster randomized, pragmatic trial comparing the
+      effectiveness of a clinical decision support strategy versus usual care to reduce failures in
+      timely follow-up of abnormal RPGs.
+
+      The investigators will focus on the cohort of 20,000 established patients cared for by 31
+      attending physicians in three outpatient, adult primary care practices at UTSW (two general
+      internal medicine one family medicine and one geriatric practice). Primary care providers
+      (PCPs) will be randomized to either the clinical decision support intervention or usual care.
+      Providers in the clinical decision support/intervention arm will receive clinical decision
+      support that identifies abnormal random glucose values and prompts providers to conduct
+      diabetes screening. Outcomes will be tracked at the patient level and all subjects will be
+      followed for 12 months to assess rates of follow-up diabetes testing, time to testing, rates
+      of subsequent diabetes diagnosis, and time to diagnosis. Data on study eligibility, patient
+      clinical risk factors and sociodemographics, provider and visit characteristics, and outcomes
+      will be ascertained using the comprehensive Epic EMR. The investigators hypothesize that the
+      visit-based provider decision support will be superior to usual care.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 1, 2014</start_date>
+  <completion_date type="Actual">April 1, 2016</completion_date>
+  <primary_completion_date type="Actual">August 1, 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Resulted Diabetes Screening Test</measure>
+    <time_frame>90 days</time_frame>
+    <description>The proportion of patients completing diabetes testing, defined by a resulted A1C or fasting plasma glucose (FPG) within 90 days of the first best practice alert (BPA) fire or the time that the alert would have fired in the control group.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Ordered Diabetes Screening</measure>
+    <time_frame>90 days</time_frame>
+    <description>Proportion of individuals that have diabetes screening test ordered after BPA fires or would have fired in clinical practice</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to diabetes testing</measure>
+    <time_frame>12 months</time_frame>
+    <description>The time to ordered diabetes testing from the first alert fire or time when alert would have fired in usual care.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to diabetes diagnosis</measure>
+    <time_frame>12 months</time_frame>
+    <description>The time to diabetes diagnosis from first alert fire or when it would have fired in usual care.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pre-diabetes diagnosis</measure>
+    <time_frame>90 days</time_frame>
+    <description>The proportion of patients diagnosed with pre-diabetes.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diabetes Diagnosis</measure>
+    <time_frame>90 days</time_frame>
+    <description>proportion of patients meeting diabetes diagnostic criteria</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">747</enrollment>
+  <condition>Diabetes</condition>
+  <condition>Prediabetes</condition>
+  <arm_group>
+    <arm_group_label>Clinical Decision Support</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Visit-based, EMR-enabled case identification and real-time decision support to identify patients without diabetes who have a RBG&gt;= 125mg/dL and no resulted diabetes screening.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Diabetes screening/testing and diagnosis per usual care at the discretion of the treating physician.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Clinical Decision Support</intervention_name>
+    <description>Investigators will develop and implement an automated Diabetes Detection Tool (DDT) that does data mining on EMR lab data to systematically identify all primary care patients with elevated RPGs who are at high risk of diabetes and in need of further diabetes testing/screening.</description>
+    <arm_group_label>Clinical Decision Support</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Study Patients Included: will be those who are:
+
+               1. an established patient of a study PCP;
+
+               2. have no diagnosis of diabetes (encounter diagnoses, problem list, medical
+                  history);
+
+               3. over 18 years of age
+
+               4. have at least one RPG≥125mg/dL in the past 2 years
+
+        Exclusion Criteria:
+
+          -  Study Patients Excluded: will be those who are:
+
+               1. pregnant;
+
+               2. under 18 years of age and
+
+               3. Patients with an A1C&lt;6.5% in the past 12 months, as this would indicate the
+                  appropriate follow-up was done
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael E Bowen, MD, MPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UT Southwestern Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>UT Southwestern Medical Center</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <zip>75390</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 22, 2014</study_first_submitted>
+  <study_first_submitted_qc>July 23, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 24, 2014</study_first_posted>
+  <last_update_submitted>April 16, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 16, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 18, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Texas Southwestern Medical Center</investigator_affiliation>
+    <investigator_full_name>Michael Edward Bowen</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>Clinical decision support</keyword>
+  <keyword>Diabetes screening</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Prediabetic State</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

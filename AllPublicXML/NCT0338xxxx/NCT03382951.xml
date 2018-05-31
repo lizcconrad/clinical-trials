@@ -1,0 +1,294 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03382951</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H-40556</org_study_id>
+    <secondary_id>R01DK113269</secondary_id>
+    <nct_id>NCT03382951</nct_id>
+  </id_info>
+  <brief_title>Development and Validation of an Automated Measurement of Child Screen Media Use: FLASH</brief_title>
+  <official_title>Development and Validation of an Automated Measurement of Child Screen Media Use: FLASH</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Baylor College of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>William Marsh Rice University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Seattle Children's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Baylor College of Medicine</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Children's screen media use has been identified as a prominent cause for sedentary time that
+      has been linked to obesity and metabolic syndrome, as well as other unwanted physiologic,
+      psychosocial, and academic outcomes in children. However, no system that is automatic,
+      accurate and unobtrusive has been developed to assess children's screen use on different
+      platforms. Advances in technology, such as person detection, accurate facial recognition
+      based on images, and imaging, computer vision and signal processing algorithms now offer
+      novel and promising solutions to objectively and automatically measure people's screen
+      viewing behaviors. Investigators will leverage these recent advances and integrate them to
+      develop a first of its kind, in-home, unobtrusive, automatic, privacy preserving screen use
+      monitoring system: Family Level Assessment of Screen use in the Home (FLASH) that uses an
+      embedded computing platform connected to a video camera on larger, stationary screens
+      (FLASH-TV); or functions as a background app using a front facing camera (FLASH-Mobile). The
+      trans-disciplinary group, consisting of behavioral researchers at Baylor College of Medicine
+      (BCM) and electrical engineers at Rice University, will develop and asses the validity of the
+      FLASH to accurately identify whether and for how long a child is using screen media devices.
+      In this multiple-PI study, the development of FLASH is led by engineers at Rice. Once a final
+      system has been developed, alpha and beta tested, a validation study will take place in
+      observation labs by the BCM behavioral researchers with 6-10 year old children for FLASH-TV
+      and FLASH-Mobile (n=43). Comparisons of FLASH output will be made to staff observations of
+      children participating in a set of structured predefined activities. Next FLASH will be
+      assessed for feasibility and accuracy for identifying children's screen use across platforms
+      in a naturalistic home setting (n=46), compared to direct observation and screen use diaries.
+      FLASH has the potential of having a significant impact on public health and clinical research
+      regarding screen media use by improving scientist's ability to assess the children's screen
+      use. This can lead to better methodology to understand the impact of screen use on children's
+      health outcomes or intervention effects of screen media reduction programs.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Screen media use and TV viewing has been linked to child obesity through epidemiologic and
+      randomized controlled intervention studies, resulting in excess TV viewing becoming a public
+      health concern. Higher amounts of TV viewing among children have also been associated with
+      decreased fitness and higher risk of metabolic syndrome. While TV viewing has often been used
+      as a marker of sedentary behavior, it has been distinguished from inactivity (or lack of
+      physical activity (PA)), by a meta-analyses that found only a small negative (-0.13) effect
+      size between children's TV viewing and PA. A major limitation of the meta-analyses was most
+      included studies relied on parent or self-report of screen viewing behaviors, potentially
+      introducing errors and under or overestimating the true effect size. Screen media use and TV
+      viewing is a common sedentary behavior among children, and accurate assessment of screen use
+      is important to characterize the role it plays in children's overall sedentary behaviors.
+      Accurate assessment of screen media use and TV viewing is also needed to delineate the causal
+      pathways that screen use plays in children's physical activity, development of obesity, and
+      other health outcomes.
+
+      Substantial problems and limitations have been identified in the current available measures
+      of TV viewing, which reduces the likelihood of &quot;high quality exposure assessment&quot; of screen
+      use. The most commonly used measure, child self-report or parent-report to estimate the
+      minutes of TV viewing in a typical day has low correlation (0.27) with home
+      video-observations. The current gold standard method to measure children's TV viewing, direct
+      or video recorded observation, is too expensive and intrusive for most field studies. In
+      addition, it may cause privacy concerns for participants and requires additional costs of
+      coding the video recordings at a later time. TV diaries had higher correlations with home
+      video recording (r=0.84) than parent estimates, but are very burdensome requiring
+      documentation of child activity every 15 min for several days, which may introduce systematic
+      errors. Lastly, children's TV viewing behaviors are quickly changing and many children now
+      view TV shows and movies on other screen devices, such as smartphones and mobile tablets
+      (e.g. iPads or Kindles). In summary, the current ability to measure and monitor how much TV a
+      child watches is intrusive (observations), burdensome (TV diaries) or crude and fraught with
+      error and bias (general estimates). This limits researcher's ability to identify causal
+      associations with health outcomes. While automatic and objective measures of PA, such as
+      accelerometers, have shown validity and reliability for quantifying children's PA, no system
+      that is automatic, accurate and unobtrusive has been developed to assess children's screen
+      use on traditional TV screens or tablets.
+
+      Imaging, computer vision and signal processing algorithms have made tremendous progress in
+      the last decade, resulting in high-performance, reliable algorithms for many tasks such as
+      face detection, face recognition, gaze tracking, human activity recognition, and 3D sensing.
+      In collaboration with electrical engineers at Rice University, investigators at Baylor
+      College of Medicine are leveraging these recent advances to build a first-of-its-kind 'Family
+      Level Assessment of Screen use in the Home&quot; (FLASH), a fully integrated, unobtrusive system
+      for accurate, privacy preserving and reliable monitoring of TV and other screen usage by
+      children and adults in their homes. In this study, investigators will focus on (a)
+      Integrating the vision and signal processing algorithms and the imaging hardware required to
+      develop FLASH (Rice investigators); (b) Refining the FLASH hardware and the software pipeline
+      for TVs and mobile devices via alpha and beta laboratory studies (Rice and BCM
+      investigators); (c) Validating the FLASH TV and mobile device against the gold standard
+      (observations) among 6-10 year old children who are old enough to follow instructions in a
+      controlled observation laboratory to ensure fidelity to the protocol (BCM investigators), and
+      (d) Performing a preliminary investigation of the challenges for in-home use and adoption
+      (home feasibility study) (BCM investigators).
+
+      The ultimate goal of this project is to develop a highly accurate system to measure the
+      screen use by the index child, across diverse screens, including TVs, smartphones and
+      tablets. Since smartphones and tablets are similar in software and hardware, investigators
+      only need to develop two systems: FLASH-TV and FLASH-Mobile. Both systems will take a three
+      step approach: 1) use detection, 2) index user identification, and 3) usage logging, to
+      assess an index child's screen use. The goal is to merge a child's use across screen
+      platforms into one database to be able to track their screen use across devices along with
+      simultaneous use of devices.
+
+      FLASH will be developed collaboratively with electrical engineers at Rice University and
+      behavioral researchers at Baylor College of Medicine in a series of four studies:
+
+      STUDY 1: Iterative alpha-tests with small samples of family diads or triads (n=3-5 families
+      per trial) of the individual FLASH components and integrated FLASH systems in the CNRC
+      Metabolic Research Unit (MRU) Observational Lab. Investigators plan for these alpha-tests to
+      occur approximately every 3 months to assess the most recent advances of the FLASH
+      technology. Approximately 3-4 separate alpha test with 3-5 triads per test, resulting in an
+      anticipated sample of 42-60 participants (12-20 triads). The experiences from pilot studies
+      we have conducted, identified that iterative testing of new components with a small sample,
+      followed by refinement and retesting, allows for the ideal tight-loop feedback with input
+      from both teams to capitalize on human subject data collection and allow advancement of the
+      technology development.
+
+      STUDY 2: One or two beta tests (depending on results) of the integrated prototype FLASH
+      system with 10 family diads or triads per test will be conducted also in the CNRC MRU
+      Observational Lab, with a maximum on 60 participants (20 triads). The experience from the
+      pilot study suggests that data from 10 triads will allow adequate assessment of the
+      functionality of the FLASH prototype.
+
+      STUDY 3: Lab based validation of the final FLASH-TV and FLASH-Mobile devices in the CNRC MRU
+      Observational Lab with 48 parent-child triads. Investigators will recruit 48 parent-sibling
+      triads (144 participants) to complete the validation study. Five of the parent-sibling triads
+      (15 participants) will participate in a pilot study prior to starting data collection on the
+      remaining sample to refine the final validation protocol, if needed. Using a multilevel
+      analysis of variance of 30 second by 30 second observations within each child, and an
+      intra-class correlation between the observations of at least 0.8 if the device measures child
+      TV viewing at 30 second intervals, the total number of observations (variation inflation
+      factor = 96.2) will result in a needed sample size of 43 triads. This sample size will detect
+      a moderate effect size (g=0.15, or able to detect an interval to interval agreement between
+      FLASH and observations at ≥ 0.65) with a power of 0.8 and alpha ≥0.05, utilizing a binomial
+      test conducted in GPower 3.1. Given our pilot data,a higher correspondence is anticipated.
+
+      STUDY 4: Home feasibility study to assess families' willingness to have devices installed in
+      their home for a limited time study period and the ability of the FLASH devices to capture
+      children's screen use across an entire day. With a power of 80% and an alpha of 0.05, to
+      detect a moderate-to large effect (0.4) with bivariate correlation between minutes of TV
+      viewing as measured by FLASH compared to TV diaries a final sample size of 37 families will
+      be needed. A moderate-to-large effect size will help ensure high accuracy for FLASH to
+      measure TV viewing in the home. Investigators anticipate having complete data on 80% of
+      participating families and will therefore recruit 46 families (184 participants, estimating 4
+      family members per family) to achieve the final sample of 37 families.
+
+      Across the four studies, investigators therefore anticipate a total sample size of 448
+      participants (88 triads in studies 1-3 and 46 families in study 4). Each study is an
+      observational study with no group assignments and no control/placebo.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">October 19, 2017</start_date>
+  <completion_date type="Anticipated">February 28, 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Screen media use/viewing</measure>
+    <time_frame>once, upon enrollment</time_frame>
+    <description>Assessment of participant's screen media use as detected by the FLASH system. This will be assessed once per family triad during a task based protocol in the observational labs at the research center compared to staff coding of video/audio recordings of the same time period.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The feasibility to recruit families to test the of the FLASH devices their home</measure>
+    <time_frame>9 months</time_frame>
+    <description>Recruit 46 with at least one 6-10 year old child to use the FLASH on all the screens in their home for at least three days (1 weekend day and 2 weekdays) when deployed for a five day period.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The feasibility of the FLASH devices to be used in the family's home</measure>
+    <time_frame>9 months</time_frame>
+    <description>Obtain complete data for three days on 37 families (80%) of the 46 families recruited for the five day study.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The feasibility of the FLASH devices in children's homes to measure the amount of time a child spends viewing TV or other screens</measure>
+    <time_frame>three days</time_frame>
+    <description>The FLASH device is capable of capturing the minutes somebody watched a TV or used a mobile screen, as compared to direct staff observation among half the sample of children at home during a prearranged 3-hour period.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The feasibility of the FLASH devices in children's homes for future studies</measure>
+    <time_frame>three days</time_frame>
+    <description>Participating parents found the FLASH to be acceptable and not excessively intrusive to have in their home</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">448</enrollment>
+  <condition>Sedentary Lifestyle</condition>
+  <arm_group>
+    <arm_group_label>Healthy children</arm_group_label>
+    <description>Each study is an observational study with no group assignments and no control/placebo.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Healthy children living in the greater metropolitan area around the research center
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  index child 6-10 year old child along with parent (adult 18-65)
+
+          -  and for some studies a 6-14 years old sibling
+
+          -  family is fluent in English
+
+          -  parent willing to allow their children to watch age-appropriate TV or movies and play
+             age-appropriate digital/video games.
+
+        Exclusion Criteria:
+
+          -  Parent or child with a developmental, medical, mental or physical diagnosis (such as
+             Down's syndrome, Autism, psychosis, wheel-chair reliant) that would prevent him/her
+             from following the protocol.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>6 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Baylor College of Medicine</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 29, 2017</study_first_submitted>
+  <study_first_submitted_qc>December 21, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 26, 2017</study_first_posted>
+  <last_update_submitted>December 21, 2017</last_update_submitted>
+  <last_update_submitted_qc>December 21, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 26, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Baylor College of Medicine</investigator_affiliation>
+    <investigator_full_name>Teresia O'Connor</investigator_full_name>
+    <investigator_title>Associate Professor of Pediatrics</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

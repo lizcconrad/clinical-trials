@@ -1,0 +1,694 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01578980</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16130</org_study_id>
+    <nct_id>NCT01578980</nct_id>
+  </id_info>
+  <brief_title>Outpatient Control-to-Range: System and Monitoring Testing</brief_title>
+  <official_title>Outpatient Control-to-Range: System and Monitoring Testing</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Juvenile Diabetes Research Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, Santa Barbara</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A single arm, single treatment study is proposed to assess the feasibility of the AP Platform
+      (cell phone + Control to Range system) outside of a hospital based clinical research center.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Automated closed-loop control (CLC) of blood glucose, known as &quot;artificial pancreas&quot; (AP) can
+      have tremendous impact on the health and lives of people with type 1 diabetes (T1DM). This
+      inter-institutional and international research team has been on the forefront of CLC
+      developments since the beginning of the Juvenile Diabetes Research Foundation (JDRF)
+      Artificial Pancreas initiative in 2006. Thus far, the investigators have conducted three
+      closed-loop control clinical trials (totaling 60 subjects with T1DM), which demonstrated
+      significantly more time in an acceptable &quot;target&quot; blood glucose range during CLC, and
+      significantly fewer hypoglycemic events during CLC compared to open loop. The overall
+      objective is to sequentially test, validate, obtain regulatory approval for, and deploy at
+      home, a closed-loop Control-to-Range (CTR) system comprised of two algorithmic components: a
+      Safety Supervision Module (SSM) and a Hypoglycemia Mitigation Module (HMM). The SSM will
+      monitor the safety of the subject's continuous subcutaneous insulin infusion pump (CSII) to
+      prevent hypoglycemia and will also monitor the integrity of continuous glucose monitor (CGM)
+      data for signal sensor deviations or loss of sensitivity. The HMM will be responsible for the
+      optimal regulation of postprandial hyperglycemic excursions through correction boluses.
+
+      This study will test the ability of AP Platform to (1) run CTR in an outpatient setting, and
+      (2) be remotely monitored. Specifically, this study involves studying adults with T1DM who
+      are experienced insulin pump users. Subjects will spend two nights (~42 hours) in a local
+      hotel, during which the AP Platform will be remotely monitored in an adjacent hotel room for
+      validation that remote system monitoring can successfully occur. During the study, study
+      subjects will be responsible for operating the CTR system with nursing and technicians
+      available for additional support. A study physician and senior engineer will be on call.
+
+      Five subjects each will be enrolled at University of Virginia and the University of
+      California, Santa Barbara.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2012</start_date>
+  <completion_date type="Actual">June 2012</completion_date>
+  <primary_completion_date type="Actual">June 2012</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percent Time of Active CTR</measure>
+    <time_frame>42 hours</time_frame>
+    <description>The main endpoint will be the percent time with all expected data from CGM, pump and patient manual inputs that should be available on Artificial Pancreas platform and monitoring stations. To be considered as successful, this percent time will have to reach more than 80% of total time of investigation for the entire arm.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Frequency of Unplanned System Resets or Restarts</measure>
+    <time_frame>42 hours</time_frame>
+    <description>Frequency of unplanned system resets or restarts
+Secondary endpoints include the estimation of the failure rates of system components, frequency analysis of lost or inaccurate CGM records, and percent time of active CTR. The failure/missing data records will be compared to failure/missing data records from our past in-clinic studies.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Outpatient Control-to-Range</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Outpatient Control-to-Range: Testing system connectivity</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Outpatient Control-to-Range</intervention_name>
+    <description>Subjects will spend two nights (~42 hours) in a local hotel during which the AP Platform will be remotely monitored in an adjacent hotel room for validation that remote system monitoring can successfully occur.</description>
+    <arm_group_label>Outpatient Control-to-Range</arm_group_label>
+    <other_name>Ambulatory Artificial Pancreas</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        INCLUSION CRITERIA
+
+          1. ≥21 and &lt;65 years old
+
+          2. Clinical diagnosis of type 1 diabetes mellitus:
+
+               -  Criteria for documented hyperglycemia (at least 1 criterion must be met):
+
+                    -  Fasting glucose ≥126 mg/dL - confirmed
+
+                    -  Two-hour Oral Glucose Tolerance Test (OGTT) glucose ≥200 mg/dL - confirmed
+
+                    -  HbA1c ≥6.5% documented by history - confirmed
+
+                    -  Random glucose ≥200 mg/dL with symptoms
+
+                    -  No data at diagnosis is available but the participant has a convincing
+                       history of hyperglycemia consistent with diabetes
+
+               -  Criteria for requiring insulin at diagnosis (at least 1 criterion must be met):
+
+                    -  Participant required insulin at diagnosis and continually thereafter
+
+                    -  Participant did not start insulin at diagnosis but upon investigator review
+                       likely needed insulin (significant hyperglycemia that did not respond to
+                       oral agents) and did require insulin eventually and used continually
+
+                    -  Participant did not start insulin at diagnosis but continued to be
+                       hyperglycemic, had positive islet cell antibodies - consistent with latent
+                       autoimmune diabetes in adults (LADA) and did require insulin eventually and
+                       used continually
+
+          3. Use of an insulin pump to treat his/her diabetes for at least 1 year
+
+          4. Actively using an insulin pump with bolus calculator feature including predefined
+             parameters for carbohydrate ratio, insulin sensitivity factor, target blood glucose
+             (BG) and active insulin.
+
+          5. HbA1c between 6.0% - 9.0% as measured with DCA2000 or equivalent device
+
+          6. Not currently known to be pregnant, breast feeding, or intending to become pregnant
+             (females)
+
+          7. Demonstration of proper mental status and cognition for the study
+
+          8. Willingness to avoid consumption of acetaminophen-containing products during the study
+             interventions
+
+          9. If on antihypertensive, thyroid, anti-depressant or lipid lowering medication, have
+             stability on the medication for at least 2 months prior to enrollment in the study
+
+        EXCLUSION CRITERIA
+
+          1. Diabetic ketoacidosis within the 6 months prior to enrollment
+
+          2. Severe hypoglycemia resulting in seizure, loss of consciousness, or 3rd party
+             assistance in the 12 months prior to enrollment
+
+          3. Subject reports that he/she has hypoglycemia unawareness with severe low blood sugars
+             (e.g. &lt;50 mg/dL without symptoms)
+
+          4. Pregnancy; breast feeding, or intention of becoming pregnant
+
+          5. Uncontrolled arterial hypertension (diastolic blood pressure &gt;90 mmHg and/or systolic
+             blood pressure &gt;160 mmHg)
+
+          6. Conditions which may increase the risk of hypoglycemia such as any cardiac
+             disorder/arrhythmia, uncontrolled coronary artery disease during the previous year
+             (e.g. history of myocardial infarction, acute coronary syndrome, therapeutic coronary
+             intervention, coronary bypass or stenting procedure, stable or unstable angina,
+             episode of chest pain of cardiac etiology with documented EKG changes, or positive
+             stress test or catheterization with coronary blockages &gt;50%), congestive heart
+             failure, history of cerebrovascular event, seizure disorder, syncope, adrenal
+             insufficiency, neurologic disease or atrial fibrillation
+
+          7. Hematocrit &lt;40% (males) and &lt;35% (females)
+
+          8. History of a systemic or deep tissue infection with methicillin-resistant staph aureus
+             or Candida albicans
+
+          9. Use of a device that may pose electromagnetic compatibility issues and/or
+             radiofrequency interference with the CGM (implantable cardioverter-defibrillator,
+             electronic pacemaker, neurostimulator, intrathecal pump, and cochlear implants)
+
+         10. Anticoagulant therapy other than aspirin
+
+         11. Oral steroids
+
+         12. Medical condition requiring use of an acetaminophen-containing medication that cannot
+             be withheld for the study admissions.
+
+         13. Psychiatric disorders that would interfere with study tasks (e.g. inpatient
+             psychiatric treatment within 6 months prior to enrollment)
+
+         14. Mental incapacity, unwillingness or language barriers precluding adequate
+             understanding or cooperation
+
+         15. Known current or recent alcohol or drug abuse
+
+         16. Medical conditions that would make operating a CGM, cell phone, or insulin pump
+             difficult (e.g. blindness, severe arthritis, immobility)
+
+         17. Any skin condition that prevents sensor or pump placement on the abdomen or arm (e.g.
+             bad sunburn, pre-existing dermatitis, intertrigo, psoriasis, extensive scarring,
+             cellulitis)
+
+         18. Impaired hepatic function measured as alanine aminotransferase or aspartate
+             aminotransferase ≥three times the upper reference limit
+
+         19. Impaired renal function measured as creatinine &gt;1.2 times above the upper limit of
+             normal
+
+         20. Uncontrolled microvascular (diabetic) complications (other than diabetic
+             non-proliferative retinopathy), such as current proliferative diabetic retinopathy,
+             known diabetic nephropathy (other than microalbuminuria with normal creatinine) or
+             neuropathy requiring treatment
+
+         21. Active gastroparesis requiring current medical therapy
+
+         22. If taking antihypertensive, thyroid, anti-depressant or lipid lowering medication,
+             lack of stability on the medication for the past 2 months prior to enrollment in the
+             study
+
+         23. Uncontrolled thyroid disease
+
+         24. Known bleeding diathesis or dyscrasia
+
+         25. Known allergy to medical adhesives, components of the insulin pump insertion set or
+             continuous glucose monitor sensor
+
+         26. Active enrollment in another clinical trial
+
+         27. Unwillingness to withhold dietary supplements two weeks prior to admission and for the
+             duration of the study participation
+
+         28. Use of anti-diabetic agents other than CSII including long-acting insulin,
+             intermediate-acting insulin, metformin, sulfonylureas, meglitinides,
+             thiazolidinediones, DPP-IV inhibitors, glucagon-like peptide 1 agonists, and
+             alpha-glucosidase inhibitors
+
+         29. Subjects with basal rates less than 0.05.
+
+        RESTRICTIONS ON USE OF OTHER DRUGS OR TREATMENTS.
+
+          1. Use of anti-diabetic agents other than CSII including long-acting insulin,
+             intermediate-acting insulin, metformin, sulfonylureas, meglitinides,
+             thiazolidinediones, DPP-IV inhibitors, glucagon-like peptide 1 agonists, and
+             alpha-glucosidase inhibitors.
+
+          2. Oral steroids are excluded
+
+          3. Anticoagulant therapy other than aspirin is excluded
+
+          4. Acetaminophen will not be allowed while the continuous glucose monitor is in use
+
+          5. Dietary supplements will be withheld two weeks prior to admission and for the duration
+             of study participation
+
+          6. Medications that block symptoms of hypoglycemia, including but not limited to beta
+             blockers
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Boris P. Kovatchev, Ph.D.</last_name>
+    <role>Study Chair</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Sansum Diabetes Research Institute</name>
+      <address>
+        <city>Santa Barbara</city>
+        <state>California</state>
+        <zip>93105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Virginia</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22904</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://care.diabetesjournals.org/content/36/7/1851.full</url>
+  </link>
+  <results_reference>
+    <citation>Kovatchev BP, Renard E, Cobelli C, Zisser HC, Keith-Hynes P, Anderson SM, Brown SA, Chernavvsky DR, Breton MD, Farret A, Pelletier MJ, Place J, Bruttomesso D, Del Favero S, Visentin R, Filippi A, Scotton R, Avogaro A, Doyle FJ 3rd. Feasibility of outpatient fully integrated closed-loop control: first studies of wearable artificial pancreas. Diabetes Care. 2013 Jul;36(7):1851-8. doi: 10.2337/dc12-1965.</citation>
+    <PMID>23801798</PMID>
+  </results_reference>
+  <verification_date>August 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 13, 2012</study_first_submitted>
+  <study_first_submitted_qc>April 13, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 17, 2012</study_first_posted>
+  <results_first_submitted>August 8, 2014</results_first_submitted>
+  <results_first_submitted_qc>August 8, 2014</results_first_submitted_qc>
+  <results_first_posted type="Estimate">August 25, 2014</results_first_posted>
+  <last_update_submitted>September 5, 2014</last_update_submitted>
+  <last_update_submitted_qc>September 5, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">September 16, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Boris Kovatchev, PhD</investigator_full_name>
+    <investigator_title>Professor, Director of Center for Diabetes Technology</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Pancreas</keyword>
+  <keyword>Type 1 Diabetes Mellitus</keyword>
+  <keyword>Control-to-Range</keyword>
+  <keyword>Closed-Loop Control</keyword>
+  <keyword>Continuous Glucose Monitor</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pancrelipase</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Outpatient Control-to-Range</title>
+          <description>Outpatient Control-to-Range: Testing system connectivity
+Outpatient Control-to-Range: Subjects will spend two nights (~42 hours) in a local hotel during which the AP Platform will be remotely monitored in an adjacent hotel room for validation that remote system monitoring can successfully occur.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Outpatient Control-to-Range</title>
+          <description>Outpatient Control-to-Range: Testing system connectivity
+Outpatient Control-to-Range: Subjects will spend two nights (~42 hours) in a local hotel during which the AP Platform will be remotely monitored in an adjacent hotel room for validation that remote system monitoring can successfully occur.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="20"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>France</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Italy</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>HbA1c 6-9%</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Percent Time of Active CTR</title>
+        <description>The main endpoint will be the percent time with all expected data from CGM, pump and patient manual inputs that should be available on Artificial Pancreas platform and monitoring stations. To be considered as successful, this percent time will have to reach more than 80% of total time of investigation for the entire arm.</description>
+        <time_frame>42 hours</time_frame>
+        <population>The three pilot subjects (one for each country) were not included in the analysis.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Outpatient Control-to-Range</title>
+            <description>Outpatient Control-to-Range: Testing system connectivity
+Outpatient Control-to-Range: Subjects will spend two nights (~42 hours) in a local hotel during which the AP Platform will be remotely monitored in an adjacent hotel room for validation that remote system monitoring can successfully occur.
+42 hours total: 14 hours in open-loop 28 hours in closed-loop</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percent Time of Active CTR</title>
+          <description>The main endpoint will be the percent time with all expected data from CGM, pump and patient manual inputs that should be available on Artificial Pancreas platform and monitoring stations. To be considered as successful, this percent time will have to reach more than 80% of total time of investigation for the entire arm.</description>
+          <population>The three pilot subjects (one for each country) were not included in the analysis.</population>
+          <units>percentage of time of active CTR</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="17"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="98"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Frequency of Unplanned System Resets or Restarts</title>
+        <description>Frequency of unplanned system resets or restarts
+Secondary endpoints include the estimation of the failure rates of system components, frequency analysis of lost or inaccurate CGM records, and percent time of active CTR. The failure/missing data records will be compared to failure/missing data records from our past in-clinic studies.</description>
+        <time_frame>42 hours</time_frame>
+        <population>The three pilot subjects (one for each country) were not included in the analysis.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Outpatient Control-to-Range</title>
+            <description>Outpatient Control-to-Range: Testing system connectivity
+Outpatient Control-to-Range: Subjects will spend two nights (~42 hours) in a local hotel during which the AP Platform will be remotely monitored in an adjacent hotel room for validation that remote system monitoring can successfully occur.
+42 hours total: 14 hours in open-loop 28 hours in closed-loop</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Frequency of Unplanned System Resets or Restarts</title>
+          <description>Frequency of unplanned system resets or restarts
+Secondary endpoints include the estimation of the failure rates of system components, frequency analysis of lost or inaccurate CGM records, and percent time of active CTR. The failure/missing data records will be compared to failure/missing data records from our past in-clinic studies.</description>
+          <population>The three pilot subjects (one for each country) were not included in the analysis.</population>
+          <units>events per 24 hours</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="17"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Viliv S5 tablet (n=7)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.89"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Galaxy Nexus phone (n=10)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.58"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>42 hours</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Outpatient Control-to-Range</title>
+          <description>Outpatient Control-to-Range: Testing system connectivity
+Outpatient Control-to-Range: Subjects will spend two nights (~42 hours) in a local hotel during which the AP Platform will be remotely monitored in an adjacent hotel room for validation that remote system monitoring can successfully occur.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Non-systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="9" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Endocrine disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hypoglycemia</sub_title>
+                <description>Hypoglycemia &lt;60 mg/dL requiring carbohydrate treatment</description>
+                <counts group_id="E1" events="6" subjects_affected="6" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Staff Initiated System Shut-dowm</sub_title>
+                <description>Hyperglycemia due to site failure or tube occlusion</description>
+                <counts group_id="E1" events="3" subjects_affected="3" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Boris Kovatchev, PhD</name_or_title>
+      <organization>University of Virginia</organization>
+      <phone>434-924-5592</phone>
+      <email>bpk2u@virginia.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

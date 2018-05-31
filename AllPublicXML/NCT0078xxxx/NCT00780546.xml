@@ -1,0 +1,179 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00780546</url>
+  </required_header>
+  <id_info>
+    <org_study_id>200808047R</org_study_id>
+    <nct_id>NCT00780546</nct_id>
+  </id_info>
+  <brief_title>Spatial Epidemiology of Tuberculosis (TB) Infection</brief_title>
+  <official_title>Spatial Epidemiology of Tuberculosis Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Taiwan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Taiwan University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Data will be extracted from the NTUH medical records database, geocoded according to the
+      street address so that the case number, incidence, etc could be mapped. The spatial data
+      would be used to detect aggregation of TB cases, existence of &quot;hot spots&quot; and then determine
+      if they may merit further investigation or may have occurred by chance. The results from
+      these GIS-based analyses would address local variations in TB incidence and transmission.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a Geographic Information System (GIS)-based retrospective study. Data will be
+      extracted from the NTUH medical records database, including the date of notification, sex,
+      birth date, residence address, etc of each tuberculosis case. Each case will be geocoded to
+      generate spatial coordinates for mapping purpose based on the street address and postal code.
+      To protect the privacy of these patients, the personal identification data of TB patients,
+      including name and ID numbers, will not be encoded. The encoded data file will also be
+      strictly kept confidential.
+
+      Disease mapping is the usual means of presenting descriptive geographic data on disease
+      occurrence and creating accurate maps of disease morbidity and mortality. Maps convey instant
+      visual information on the spatial distribution of disease and can identify subtle patterns
+      which may be missed in tabular presentations. The purpose is to display variations in
+      ill-health (for example, related to the underlying sociodemography), formulate etiologic
+      hypotheses, aid surveillance to detect areas of high disease incidence, and help place
+      specific disease.
+
+      In detecting the spatial patterns of the points geocoded from the addresses, point pattern
+      analytical methods are used. Quadrat Analysis is one of them. This method evaluates a case
+      distribution by examining how its density changes over space. The density measured by Quadrat
+      Analysis is then compared with the density of a theoretically constructed random pattern to
+      see if the case distribution in question is more clustered or more dispersed than the random
+      pattern. Another one is Nearest Neighbor Statistic, which is derived from the average
+      distance between cases and each of their nearest neighbors and captures information on cases
+      between quadrats. Using ordered neighbor statistic can evaluate the pattern at different
+      spatial scales. A case pattern is said to be more clustered if its observed average distance
+      between nearest neighbors is found to be less than that of a random pattern. Ripley's K
+      statistic is an extension of the ordered neighbor statistics, which can be used to depict the
+      randomness of a case distribution over different spatial scales and capture the
+      characteristic of local variations.
+
+      To measure and test how dispersed/clustered the case locations are with respect to their
+      attribute values, e.g. socioeconomic status, spatial autocorrelation can be performed. If
+      significant positive spatial autocorrelation exists in a case distribution, cases with
+      similar characteristics tend to be near each other.
+
+      For polygon data in interval or ratio form, such as the tuberculosis incidence of different
+      districts, Moran's I index, Geary's Ratio and the G-statistic can be used. Moran's I uses the
+      mean of the attribute's data values as the benchmark for comparison when neighboring values
+      are evaluated; Geary's Ratio is based on a direct comparison of neighboring values;
+      G-statistic is based on the concept of spatial association or cross-product statistics and is
+      capable of detecting the presence of hot spots or cold spots. In case of spatial
+      heterogeneity, i.e. the magnitude of spatial autocorrelation varies over space, modified
+      versions of the previous three statistics can be used to evaluate spatial association at the
+      local scale.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Not yet recruiting</last_known_status>
+  <start_date>October 2008</start_date>
+  <completion_date type="Anticipated">July 2009</completion_date>
+  <primary_completion_date type="Anticipated">May 2009</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Ecologic or Community</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Tuberculosis</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        NTUH patients
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  TB patients of NTUH
+
+        Exclusion Criteria:
+
+          -  TB patient whose address cannot be geocoded
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Chi-Tai Fang, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>National Taiwan University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Tzai-Hung Wen, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>National Taiwan University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>In Chan Ng, bachelor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>National Taiwan University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>In Chan Ng, Bachelor</last_name>
+    <email>r96842013@ntu.edu.tw</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>National Taiwan University Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <zip>100</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>October 2008</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 24, 2008</study_first_submitted>
+  <study_first_submitted_qc>October 24, 2008</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 27, 2008</study_first_posted>
+  <last_update_submitted>October 24, 2008</last_update_submitted>
+  <last_update_submitted_qc>October 24, 2008</last_update_submitted_qc>
+  <last_update_posted type="Estimate">October 27, 2008</last_update_posted>
+  <responsible_party>
+    <name_title>Institute of Epidemiology</name_title>
+    <organization>Institute of Epidemiology</organization>
+  </responsible_party>
+  <keyword>tuberculosis</keyword>
+  <keyword>spatial epidemiology</keyword>
+  <keyword>geographic information system</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Tuberculosis</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,407 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02830126</url>
+  </required_header>
+  <id_info>
+    <org_study_id>201603038</org_study_id>
+    <secondary_id>1R21HS024581-01A1</secondary_id>
+    <nct_id>NCT02830126</nct_id>
+  </id_info>
+  <brief_title>Anesthesiology Control Tower</brief_title>
+  <acronym>ACTFAST</acronym>
+  <official_title>Anesthesiology Control Tower: Feedback Alerts to Supplement Treatments (ACTFAST)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Washington University School of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Agency for Healthcare Research and Quality (AHRQ)</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Washington University School of Medicine</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is a pragmatic, comparative effectiveness trial that will randomize approximately
+      12,000 adult surgical patients on an operating room (OR) level to a control or to an
+      intervention group. All OR clinicians will have access to decision support software within
+      the OR as a part of enhanced standard intraoperative care. The ACT will monitor patients in
+      both groups and will provide additional support to the clinicians assigned to intervention
+      ORs.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study will logically build on our previous work and utilize the already established
+      infrastructure and resources of the intra-operative electronic medical record and the
+      AlertWatch® alerting system. In conceptualizing this pilot study, as well as a larger
+      follow-up trial focused on clinical outcomes, we have been mindful of challenges put forward
+      to investigators by the National Institutes of Health, which seek to support low-cost,
+      pragmatic, patient-centered randomized controlled trials. Specifically in relation to
+      ACTFAST, (1) the highly developed, specialized IT infrastructure limits the investment
+      required for embarking on this study; (2) the study will be conducted entirely within the
+      context of routine clinical care, negating the need for dedicated trial-related visits; (3)
+      access to registries with granular data on complications and patient-reported outcomes
+      obviates the need for a new and costly infrastructure to track patient outcomes; (4)
+      inclusion of large numbers of broadly representative patients in this study will be highly
+      efficient with a waiver of informed consent. The design for this pilot proof-of-concept study
+      will be a randomized clinical effectiveness trial. It will include a 6-month pre-intervention
+      period during which time the ACT will be staffed but no alerts will be sent. This will allow
+      for the training of controllers, refinement of alerts, and optimization of processes for
+      obtaining and filtering information from diverse electronic sources. Following this period,
+      the trial will begin and run for 12 months. On a daily basis during the study period
+      (weekdays from 7am to 5pm), each operating room in Barnes-Jewish Hospital (BJH) will be
+      eligible for randomization, which will occur using computer-generated assignment.
+      Anesthesiology teams in ORs allocated to the experimental arm will receive the additional
+      support of the ACT in the form of control-tower alerts that complement the AlertWatch®
+      system. The outcomes of interest in this pilot study will be the usability and usefulness of
+      the ACT, clinician adherence to recommendations for monitoring, documentation and therapeutic
+      interventions, key physiologic variables such as temperature and blood pressure. We will also
+      document patient outcomes including duration of postoperative hospital stay, incidence of
+      postoperative morbidity (myocardial infarction, surgical site infection), functional
+      recovery, and postoperative quality of life. Data on these endpoints will inform the design
+      of a subsequent trial focused on clinically relevant outcomes, which will logically follow
+      the current pilot randomized trial. All of the alerts included in this study will be chosen
+      because they follow proven best intraoperative management practice and are in line with
+      national metrics for quality and safety.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 2016</start_date>
+  <completion_date type="Anticipated">December 2019</completion_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>Single (Care Provider)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Compliance with recommendations for intraoperative temperature management</measure>
+    <time_frame>1 day</time_frame>
+    <description>Proportion of patients with final recorded temperature in OR greater than 36 degrees Celsiustemperature, the target for this outcome was that the ACT intervention will increase the proportion of patients whose final recorded intraoperative temperature is above 36 degrees Celsius from 60% to 95%. For this calculation we assumed a standard deviation of core temperature of 0.9 degrees Celsius for both groups based on an unpublished EMR audit.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Compliance with recommendations for intraoperative blood glucose management</measure>
+    <time_frame>1 day</time_frame>
+    <description>Proportion of cases with blood glucose &lt;=180 mg/dL upon arrival to the anesthesia recovery area</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Assess the usability of the Anesthesiology Control Tower (ACT) for an operating suite</measure>
+    <time_frame>2 years</time_frame>
+    <description>Usability and usefulness are key features of successful implementation of new information technologies 24,99,100. The success of the proof-of-concept ACT implementation and its perceived usefulness and usability depend on participation and support of the entire anesthetic team. Our usability testing procedure will explore the 5Es (effectiveness, efficiency, engagement, error tolerance, ease of learning) needed to develop a useful and usable resource.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Intraoperative blood pressure management</measure>
+    <time_frame>1 day</time_frame>
+    <description>Mean duration of time spent with Mean Arterial Pressure &lt; 60 mmHg</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Temperature monitoring</measure>
+    <time_frame>1 day</time_frame>
+    <description>Proportion of procedures lasting greater than 1 hour with documented temperature</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Antibiotic dosing</measure>
+    <time_frame>1 day</time_frame>
+    <description>Proportion of procedures with appropriate administration of repeat doses of antibiotics</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intraoperative blood glucose management</measure>
+    <time_frame>1 day</time_frame>
+    <description>Proportion of cases with at least one dose of insulin administered for blood glucose greater than 180 mg/dL Intraoperative measurement of blood glucose in patients with type 1 diabetes undergoing cases &gt;= 1 hour in length and patients with type 2 diabetes undergoing cases &gt; 2 hours in length</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Train of four documentation</measure>
+    <time_frame>1 day</time_frame>
+    <description>Proportion of cases with a train of four documented prior to extubation if a nondepolarizing neuromuscular blocking agent was administered</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Ventilator management</measure>
+    <time_frame>1 day</time_frame>
+    <description>Proportion of cases with median tidal volume less than 10 mL/kg ideal body mass</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Volatile anesthetic utilization</measure>
+    <time_frame>1 day</time_frame>
+    <description>Mean and standard deviation of fresh gas flow rates for cases with volatile anesthetic use &gt; 80% of case duration</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative acute renal failure</measure>
+    <time_frame>30 days</time_frame>
+    <description>Incidence of individual outcomes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative atrial fibrillation</measure>
+    <time_frame>30 days</time_frame>
+    <description>Incidence of individual outcomes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative respiratory failure</measure>
+    <time_frame>30 days</time_frame>
+    <description>Incidence of individual outcome</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative delirium</measure>
+    <time_frame>30 days</time_frame>
+    <description>Incidence of individual outcome</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intraoperative awareness</measure>
+    <time_frame>30 days</time_frame>
+    <description>Incidence of individual outcomes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Surgical site infection</measure>
+    <time_frame>30 days</time_frame>
+    <description>Incidence of individual outcomes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>30-day readmission</measure>
+    <time_frame>30 days</time_frame>
+    <description>Incidence of individual outcomes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>30-day mortality</measure>
+    <time_frame>30 days</time_frame>
+    <description>Mortality will be assessed at 30 days</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">12000</enrollment>
+  <condition>Health Information Technology</condition>
+  <arm_group>
+    <arm_group_label>Anesthesiology Control Tower Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Patients managed by anesthesia teams without feedback alerts from the ACT</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Anesthesiology Control Tower Feedback</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients managed by anesthesia teams with feedback alerts from the ACT</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Anesthesiology Control Tower Feedback</intervention_name>
+    <description>Clinicians in the Anesthesiology Control Tower will provide extra support for the anesthesiology team in the operating room.</description>
+    <arm_group_label>Anesthesiology Control Tower Feedback</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  On a daily basis during the study period (weekdays from 7am to 5pm), each operating
+             room of Barnes-Jewish Hospital (BJH) will be eligible for randomization, which will
+             occur at the level of the operating room using computer-generated assignment.
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael S Avidan, MBBCh</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Daniel Helsten, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Anshuman Sharma, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Richard Benzinger, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Yixin Chen, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Mitchell Fingerman, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jason Gillihan, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Ryan Guffey, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Rocco Hueneke, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Joseph F Kras, MD, DDS, MA</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Anand Lakshminarasimhachar, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Teresa Murray, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Rashmi Rathor, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Tracey Stevens, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Martha Z Szabo, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Swarup S Varaday, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Troy Wildes, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Branden E Yee, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Bradley Fritz, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Mary C Politi, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Stephen Gregory, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Menelaos Karanikolas, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Helga Komen, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Ivan Kangrga, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Justin Knittel, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jonathan Zoller, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Sherry McKinnon, BS</last_name>
+    <phone>314-286-1768</phone>
+    <email>smckinnon@wustl.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Washington University School of Medicine</name>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <zip>63110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sherry McKinnon, BS</last_name>
+      <phone>314-286-1768</phone>
+      <email>mckinnos@anest.wustl.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Michael S. Avidan, MBBCh, FCASA</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 7, 2016</study_first_submitted>
+  <study_first_submitted_qc>July 7, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 12, 2016</study_first_posted>
+  <last_update_submitted>May 3, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 3, 2018</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 10, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Washington University School of Medicine</investigator_affiliation>
+    <investigator_full_name>Michael Avidan</investigator_full_name>
+    <investigator_title>Professor of Anesthesiology and Surgery</investigator_title>
+  </responsible_party>
+  <keyword>Outcomes</keyword>
+  <keyword>Information technology</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Anesthetics</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,617 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01347060</url>
+  </required_header>
+  <id_info>
+    <org_study_id>112605</org_study_id>
+    <nct_id>NCT01347060</nct_id>
+  </id_info>
+  <brief_title>Outcomes for Medicare Asthma Patients Taking Fluticasone Propionate/Salmeterol Xinafoate Combination Versus Inhaled Corticosteroids or Other Combination Therapy</brief_title>
+  <official_title>Outcomes for Medicare Asthma Patients Taking Fluticasone Propionate/Salmeterol Xinafoate Combination Versus Inhaled Corticosteroids or Other Combination Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>GlaxoSmithKline</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>GlaxoSmithKline</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study is to compare healthcare utilization and costs in
+      Medicare-eligible asthma patients (aged &gt;65) who receive fluticasone propionate/salmeterol
+      xinafoate combination or inhaled corticosteroids in a typical clinical practice using a
+      retrospective observational cohort study design of large managed care database. Outcomes on
+      interest include asthma related severe exacerbations defined as asthma related emergency
+      department visits, hospitalizations or combined emergency department/hospitalization. Other
+      outcomes of interest include use of albuterol, oral corticosteroids and overall asthma
+      related costs. Outcomes of interest will be compared between the two treatment cohorts
+      (fluticasone propionate/salmeterol xinafoate combination or inhaled corticosteroids).
+      Dichotomous outcomes (emergency visits, hospitalizations etc) will be compared using Cox
+      regression hazards analysis assessing time to first event for each asthma related endpoint
+      adjusting for differences in baseline demographics such as age, gender, previous asthma
+      medication use, co morbidities, costs, and plan demographics. Total asthma related costs will
+      also be compared using generalized linear models adjusting for baseline differences.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2009</start_date>
+  <completion_date type="Actual">April 2010</completion_date>
+  <primary_completion_date type="Actual">April 2010</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mean Number of Post-index Asthma-related Events Measured Using Medical and Pharmacy Claims</measure>
+    <time_frame>Up to 7 years from July 1, 2001 to June 30, 2008</time_frame>
+    <description>Asthma-related events were defined as events with any primary ICD-9 code of 493.xx for hospitalizations, emergency department visits, and combined hospitalization/emergency department visits. The post-index period is defined as 3-12 months after either the first administration of fluticasone propionate and salmetrol or inhaled corticosteroids. Medical and pharmacy claims are recorded healthcare encounters in a large managed care administrative insurance database.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mean Asthma-related Costs in the Post-index Period</measure>
+    <time_frame>Up to 7 years from July 1, 2001 to June 30, 2008</time_frame>
+    <description>Asthma-related costs were calculated as pharmacy costs, medical costs, and total asthma (pharmacy plus medical) costs. Medical costs were made up of asthma-related visits, hospitalizations, emergency department visits, and medical office visits. Pharmacy costs were comprised of all asthma-related medications used during the follow-up period. Medical services were identified by place of service and PharMetrics-specific confinement codes. Prescriptions were counted by 30-day fills, with fills less than 30 days rounded up to indicate one fill.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean Number of Albuterol (Short-acting β-Agonists) Canisters Dispensed Per Pharmacy Claim Per Participant</measure>
+    <time_frame>Up to 7 years from July 1, 2001 to June 30, 2008</time_frame>
+    <description>The number of albuterol canisters dispensed was used as a surrogate marker of asthma symptoms.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">17448</enrollment>
+  <condition>Asthma</condition>
+  <arm_group>
+    <arm_group_label>Medicare-eligible subjects with asthma</arm_group_label>
+    <description>Asthma subjects at least 65 years of age enrolled in a large Medicare managed care health plan.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>fluticasone propionate/salmeterol xinafoate combination</intervention_name>
+    <description>Fluticasone propionate/salmeterol xinafoate combination for asthma, all doses (100mcg/50mcg, 250 mcg/50mcg and 500 mcg/50mcg)</description>
+    <arm_group_label>Medicare-eligible subjects with asthma</arm_group_label>
+    <other_name>Advair (TM)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>inhaled corticosteroids</intervention_name>
+    <description>Inhaled corticosteroids: beclomethasone dipropionte, mometasone, fluticasone propionate, budesonide, and flunisolide</description>
+    <arm_group_label>Medicare-eligible subjects with asthma</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Medicare-eligible subjects age 65 years and older with a diagnosis of asthma being treated
+        with an inhaled corticosteroid
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Subjects with asthma as determined by ICD-9 codes and asthma drug use
+
+          -  at least 65 years of age
+
+          -  prescription for an inhaled corticosteroid
+
+        Exclusion Criteria:
+
+          -  a diagnosis of chronic obstructive pulmonary disease or
+
+          -  a prescription for a chronic obstructive pulmonary disease treatment
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>65 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>GSK Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>GlaxoSmithKline</affiliation>
+  </overall_official>
+  <verification_date>May 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 10, 2010</study_first_submitted>
+  <study_first_submitted_qc>May 3, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 4, 2011</study_first_posted>
+  <results_first_submitted>May 5, 2011</results_first_submitted>
+  <results_first_submitted_qc>May 5, 2011</results_first_submitted_qc>
+  <results_first_posted type="Estimate">June 1, 2011</results_first_posted>
+  <last_update_submitted>May 23, 2017</last_update_submitted>
+  <last_update_submitted_qc>May 23, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 25, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Asthma</keyword>
+  <keyword>treatment</keyword>
+  <keyword>Advair and inhaled corticosteroids</keyword>
+  <keyword>Medicare</keyword>
+  <keyword>Outcomes</keyword>
+  <keyword>costs</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Asthma</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fluticasone</mesh_term>
+    <mesh_term>Salmeterol Xinafoate</mesh_term>
+    <mesh_term>Fluticasone Propionate, Salmeterol Xinafoate Drug Combination</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <pre_assignment_details>Patients were not recruited for nor enrolled in this study. This study is a retrospective observational study. Data from medical records or insurance claims databases are anonymized and used to develop a patient cohort. All diagnoses and treatments are recorded in the course of routine medical practice.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Fluticasone Propionate and Salmeterol</title>
+          <description>Participants aged 65-79 years with 15-24 months of continuous enrollment (12 months pre-index and 3-12 months post-index), with asthma diagnosis, and who received (index) Fluticasone Propionate and Salmeterol 100 micrograms (mcg)/50 mcg, 250 mcg/50 mcg, and 500 mcg/50 mcg</description>
+        </group>
+        <group group_id="P2">
+          <title>Inhaled Corticosteroids</title>
+          <description>Participants aged 65-79 years with 15-24 months of continuous enrollment (12 months pre-index and 3-12 months post-index), with asthma diagnosis, and who received (index) Inhaled Corticosteroids (beclomethasone dipropionate, fluticasone propionate, mometasone furoate, triamcinolone, flunisolide, budesoninde). Due to the retrospective nature of this analysis, doses received and frequency of dosing are not known.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="9868"/>
+                <participants group_id="P2" count="7580"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="9868"/>
+                <participants group_id="P2" count="7580"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Fluticasone Propionate and Salmeterol</title>
+          <description>Participants aged 65-79 years with 15-24 months of continuous enrollment (12 months pre-index and 3-12 months post-index), with asthma diagnosis, and who received (index) Fluticasone Propionate and Salmeterol 100 micrograms (mcg)/50 mcg, 250 mcg/50 mcg, and 500 mcg/50 mcg</description>
+        </group>
+        <group group_id="B2">
+          <title>Inhaled Corticosteroids</title>
+          <description>Participants aged 65-79 years with 15-24 months of continuous enrollment (12 months pre-index and 3-12 months post-index), with asthma diagnosis, and who received (index) Inhaled Corticosteroids (beclomethasone dipropionate, fluticasone propionate, mometasone furoate, triamcinolone, flunisolide, budesoninde). Due to the retrospective nature of this analysis, doses received and frequency of dosing are not known.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="9868"/>
+            <count group_id="B2" value="7580"/>
+            <count group_id="B3" value="17448"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age, Customized</title>
+          <units>Participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>65-69 years old</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4153"/>
+                    <measurement group_id="B2" value="3064"/>
+                    <measurement group_id="B3" value="7217"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>70-74 years old</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2694"/>
+                    <measurement group_id="B2" value="2669"/>
+                    <measurement group_id="B3" value="5363"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>75-79 years old</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3021"/>
+                    <measurement group_id="B2" value="1847"/>
+                    <measurement group_id="B3" value="4868"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6083"/>
+                    <measurement group_id="B2" value="4800"/>
+                    <measurement group_id="B3" value="10883"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3785"/>
+                    <measurement group_id="B2" value="2780"/>
+                    <measurement group_id="B3" value="6565"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Number of participants with comorbid COPD at baseline</title>
+          <description>International Classification of Disease-9 (ICD-9) codes 491, 492, 496, 490-492.8, 493.00-493.91, 494, 495.0-505, 506.4</description>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9227"/>
+                    <measurement group_id="B2" value="7153"/>
+                    <measurement group_id="B3" value="16380"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Mean Number of Post-index Asthma-related Events Measured Using Medical and Pharmacy Claims</title>
+        <description>Asthma-related events were defined as events with any primary ICD-9 code of 493.xx for hospitalizations, emergency department visits, and combined hospitalization/emergency department visits. The post-index period is defined as 3-12 months after either the first administration of fluticasone propionate and salmetrol or inhaled corticosteroids. Medical and pharmacy claims are recorded healthcare encounters in a large managed care administrative insurance database.</description>
+        <time_frame>Up to 7 years from July 1, 2001 to June 30, 2008</time_frame>
+        <population>Participants contributing to the PharMetrics database (a large, multiplan insurance encounter database) who were identified in the study as having at least one pharmacy claim for fluticasone propionate/salmeterol or inhaled corticosteroids, had an ICD-9 code of 493.xx for asthma, and were at least 65 years of age within the time frame of the study.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Fluticasone Propionate and Salmeterol</title>
+            <description>Participants aged 65-79 years with 15-24 months of continuous enrollment (12 months pre-index and 3-12 months post-index), with asthma diagnosis, and who received (index) Fluticasone Propionate and Salmeterol 100 micrograms (mcg)/50 mcg, 250 mcg/50 mcg, and 500 mcg/50 mcg</description>
+          </group>
+          <group group_id="O2">
+            <title>Inhaled Corticosteroids</title>
+            <description>Participants aged 65-79 years with 15-24 months of continuous enrollment (12 months pre-index and 3-12 months post-index), with asthma diagnosis, and who received (index) Inhaled Corticosteroids (beclomethasone dipropionate, fluticasone propionate, mometasone furoate, triamcinolone, flunisolide, budesoninde). Due to the retrospective nature of this analysis, doses received and frequency of dosing are not known.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Mean Number of Post-index Asthma-related Events Measured Using Medical and Pharmacy Claims</title>
+          <description>Asthma-related events were defined as events with any primary ICD-9 code of 493.xx for hospitalizations, emergency department visits, and combined hospitalization/emergency department visits. The post-index period is defined as 3-12 months after either the first administration of fluticasone propionate and salmetrol or inhaled corticosteroids. Medical and pharmacy claims are recorded healthcare encounters in a large managed care administrative insurance database.</description>
+          <population>Participants contributing to the PharMetrics database (a large, multiplan insurance encounter database) who were identified in the study as having at least one pharmacy claim for fluticasone propionate/salmeterol or inhaled corticosteroids, had an ICD-9 code of 493.xx for asthma, and were at least 65 years of age within the time frame of the study.</population>
+          <units>Asthma-related events</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="9868"/>
+                <count group_id="O2" value="7580"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Inpatient visits</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.033" spread="0.21"/>
+                    <measurement group_id="O2" value="0.046" spread="0.25"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Emergency department visits</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.022" spread="0.18"/>
+                    <measurement group_id="O2" value="0.027" spread="0.20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Inpatient/emergency department visits</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.05" spread="0.30"/>
+                    <measurement group_id="O2" value="0.07" spread="0.35"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0051</p_value>
+            <p_value_desc>The P-value relates to differences in combined inpatient/emergency department.</p_value_desc>
+            <method>Regression, Cox</method>
+            <method_desc>Adjusted for baseline differences</method_desc>
+            <param_type>Hazard Ratio (HR)</param_type>
+            <param_value>0.80</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.68</ci_lower_limit>
+            <ci_upper_limit>0.93</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Mean Asthma-related Costs in the Post-index Period</title>
+        <description>Asthma-related costs were calculated as pharmacy costs, medical costs, and total asthma (pharmacy plus medical) costs. Medical costs were made up of asthma-related visits, hospitalizations, emergency department visits, and medical office visits. Pharmacy costs were comprised of all asthma-related medications used during the follow-up period. Medical services were identified by place of service and PharMetrics-specific confinement codes. Prescriptions were counted by 30-day fills, with fills less than 30 days rounded up to indicate one fill.</description>
+        <time_frame>Up to 7 years from July 1, 2001 to June 30, 2008</time_frame>
+        <population>Participants contributing to the PharMetrics database (a large, multiplan insurance encounter database) who were identified in the study as having at least one pharmacy claim for fluticasone propionate/salmeterol or inhaled corticosteroids, had an ICD-9 code of 493.xx for asthma, and were at least 65 years of age within the time frame of the study.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Fluticasone Propionate and Salmeterol</title>
+            <description>Participants aged 65-79 years with 15-24 months of continuous enrollment (12 months pre-index and 3-12 months post-index), with asthma diagnosis, and who received (index) Fluticasone Propionate and Salmeterol 100 micrograms (mcg)/50 mcg, 250 mcg/50 mcg, and 500 mcg/50 mcg</description>
+          </group>
+          <group group_id="O2">
+            <title>Inhaled Corticosteroids</title>
+            <description>Participants aged 65-79 years with 15-24 months of continuous enrollment (12 months pre-index and 3-12 months post-index), with asthma diagnosis, and who received (index) Inhaled Corticosteroids (beclomethasone dipropionate, fluticasone propionate, mometasone furoate, triamcinolone, flunisolide, budesoninde). Due to the retrospective nature of this analysis, doses received and frequency of dosing are not known.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Mean Asthma-related Costs in the Post-index Period</title>
+          <description>Asthma-related costs were calculated as pharmacy costs, medical costs, and total asthma (pharmacy plus medical) costs. Medical costs were made up of asthma-related visits, hospitalizations, emergency department visits, and medical office visits. Pharmacy costs were comprised of all asthma-related medications used during the follow-up period. Medical services were identified by place of service and PharMetrics-specific confinement codes. Prescriptions were counted by 30-day fills, with fills less than 30 days rounded up to indicate one fill.</description>
+          <population>Participants contributing to the PharMetrics database (a large, multiplan insurance encounter database) who were identified in the study as having at least one pharmacy claim for fluticasone propionate/salmeterol or inhaled corticosteroids, had an ICD-9 code of 493.xx for asthma, and were at least 65 years of age within the time frame of the study.</population>
+          <units>United States dollars</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="9868"/>
+                <count group_id="O2" value="7580"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Medical Services Costs</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="381" spread="2859"/>
+                    <measurement group_id="O2" value="462" spread="2859"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Pharmacy Costs</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1128" spread="1077"/>
+                    <measurement group_id="O2" value="939" spread="1125"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Total Asthma Costs</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1509" spread="3832"/>
+                    <measurement group_id="O2" value="1401" spread="3151"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.001</p_value>
+            <p_value_desc>The P-value is on the adjusted difference in total asthma costs.</p_value_desc>
+            <method>Regression, Linear</method>
+            <method_desc>Generalized Linear Model with a log-link and a gamma distribution adjusting for differences at baseline</method_desc>
+            <param_type>Mean Difference (Net)</param_type>
+            <param_value>883.23</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>731.66</ci_lower_limit>
+            <ci_upper_limit>1041.69</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Mean Number of Albuterol (Short-acting β-Agonists) Canisters Dispensed Per Pharmacy Claim Per Participant</title>
+        <description>The number of albuterol canisters dispensed was used as a surrogate marker of asthma symptoms.</description>
+        <time_frame>Up to 7 years from July 1, 2001 to June 30, 2008</time_frame>
+        <population>Participants contributing to the PharMetrics database (a large, multiplan insurance encounter database) who were identified in the study as having at least one pharmacy claim for fluticasone propionate/salmeterol or inhaled corticosteroids, had an ICD-9 code of 493.xx for asthma, and were at least 65 years of age within the time frame of the study.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Fluticasone Propionate and Salmeterol</title>
+            <description>Participants aged 65-79 years with 15-24 months of continuous enrollment (12 months pre-index and 3-12 months post-index), with asthma diagnosis, and who received (index) Fluticasone Propionate and Salmeterol 100 micrograms (mcg)/50 mcg, 250 mcg/50 mcg, and 500 mcg/50 mcg</description>
+          </group>
+          <group group_id="O2">
+            <title>Inhaled Corticosteroids</title>
+            <description>Participants aged 65-79 years with 15-24 months of continuous enrollment (12 months pre-index and 3-12 months post-index), with asthma diagnosis, and who received (index) Inhaled Corticosteroids (beclomethasone dipropionate, fluticasone propionate, mometasone furoate, triamcinolone, flunisolide, budesoninde). Due to the retrospective nature of this analysis, doses received and frequency of dosing are not known.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Mean Number of Albuterol (Short-acting β-Agonists) Canisters Dispensed Per Pharmacy Claim Per Participant</title>
+          <description>The number of albuterol canisters dispensed was used as a surrogate marker of asthma symptoms.</description>
+          <population>Participants contributing to the PharMetrics database (a large, multiplan insurance encounter database) who were identified in the study as having at least one pharmacy claim for fluticasone propionate/salmeterol or inhaled corticosteroids, had an ICD-9 code of 493.xx for asthma, and were at least 65 years of age within the time frame of the study.</population>
+          <units>albuterol canisters</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="9868"/>
+                <count group_id="O2" value="7580"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.01" spread="2.26"/>
+                    <measurement group_id="O2" value="1.5" spread="2.95"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>&lt;0.0001</p_value>
+            <method>Wilcoxon (Mann-Whitney)</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <desc>This was a retrospective observational study using a large health insurance claims database. Serious adverse events and non-serious adverse events were not collected.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Fluticasone Propionate and Salmeterol</title>
+          <description>Participants aged 65-79 years with 15-24 months of continuous enrollment (12 months pre-index and 3-12 months post-index), with asthma diagnosis, and who received (index) Fluticasone Propionate and Salmeterol 100 micrograms (mcg)/50 mcg, 250 mcg/50 mcg, and 500 mcg/50 mcg</description>
+        </group>
+        <group group_id="E2">
+          <title>Inhaled Corticosteroids</title>
+          <description>Participants aged 65-79 years with 15-24 months of continuous enrollment (12 months pre-index and 3-12 months post-index), with asthma diagnosis, and who received (index) Inhaled Corticosteroids (beclomethasone dipropionate, fluticasone propionate, mometasone furoate, triamcinolone, flunisolide, budesoninde). Due to the retrospective nature of this analysis, doses received and frequency of dosing are not known.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>GSK agreements may vary with individual investigators, but will not prohibit any investigator from publishing. GSK supports the publication of results from all centers of a multi-center trial but requests that reports based on single-site data not precede the primary publication of the entire clinical trial.</restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>GSK Response Center</name_or_title>
+      <organization>GlaxoSmithKline</organization>
+      <phone>866-435-7343</phone>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

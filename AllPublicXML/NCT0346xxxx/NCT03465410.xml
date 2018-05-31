@@ -1,0 +1,259 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03465410</url>
+  </required_header>
+  <id_info>
+    <org_study_id>OPTIMUS</org_study_id>
+    <nct_id>NCT03465410</nct_id>
+  </id_info>
+  <brief_title>OPTImization of the Dose of tacroliMUS by Bayesian Prediction</brief_title>
+  <acronym>OPTIMUS</acronym>
+  <official_title>OPTIMIZATION of the Dose of tacroliMUS by Bayesian Prediction in Renal Transplant Patients Including Pharmacogenetic Variables</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>NURIA LLOBERAS BLANCH</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hospital Universitari de Bellvitge</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The pharmacokinetics of tacrolimus (TAC) are characterized by high inter- and
+      intra-individual variability with narrow therapeutic range. Currently, the limiting point of
+      Tac drug monitoring is the inability to individualize doses during the first few days after
+      transplantation. Our group developed a population pharmacokinetic model (PPK) identifying
+      CYP3A4 * 22 and CYP3A5 * 3 polymorphisms and hematocrit as explanatory variables of the
+      observed variability in pre-dose (Co) concentrations. According to this model, the proportion
+      of patients that do not reach the therapeutic target is 40
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The results of the study of genetic polymorphisms performed in renal transplant patients at
+      our hospital demonstrated the influence of CYP3A5 * 3 and CYP3A4 * 22 single nucleotide
+      polymorphism (SNPs) on exposure to Tac. From these results, the first population
+      pharmacokinetic model was developed, which included CYP3A5 * 3 and CYP3A4 * 22 polymorphisms
+      as well as hematocrit as explanatory variables of interindividual variability. Based on our
+      population model and using the simulation tool, the percentage of patients reaching the
+      therapeutic target based on Co values within the range of 6-10 ng / mL was determined after
+      being dosed according to the strategy of Conventional dosage empirically according to Co
+      achieved. The simulation of 50 Co values according to the conventional dosage allowed to
+      determine the proportion of patients reaching the therapeutic target in each case and their
+      confidence interval. 40% of the patients did not reach the therapeutic objective. Based on
+      the clusters of the two polymorphisms, the percentages of patients on or below exposed varied
+      according to whether they were slow or fast metabolizers respectively. Due to this high
+      variability in Tac PK, the individualization of the Tac posology was calculated by
+      calculating the initial dose according to the population model previously developed and
+      adjusting the subsequent doses, as a function of the Tac Co through Bayesian approximations
+      with the inclusion of genotyping and Hematocrit, can contribute greatly to achieve optimal
+      exposure to the drug from the start of treatment in the immediate post-transplant and reduce
+      the variability observed in the Co-achieved; This may be particularly important for patients
+      with a slow and rapid metabolizer profile. All of this may contribute to minimizing adverse
+      effects, ensuring greater efficacy in the target population, reducing the risk of acute
+      rejection, and reducing associated costs.
+
+      In the present study we intend to incorporate pharmacogenomics for its application in de novo
+      patients, which will allow us to perform a more individualized therapy for each patient based
+      on the values of target Co and the CYP3A5 * 3 and CYP3 A4 * 22 polymorphisms of the patient
+      since The initiation of immunosuppressive therapy and thus improve efficiency and decrease
+      adverse effects.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 21, 2017</start_date>
+  <completion_date type="Anticipated">March 21, 2019</completion_date>
+  <primary_completion_date type="Anticipated">March 21, 2019</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>A randomized, prospective, multicenter study</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Tacrolimus plasmatic concentrations measurement</measure>
+    <time_frame>Day 6, 10, 15, 30, 60 and 90 post transplant</time_frame>
+    <description>Concentration measured at day 6, 10, 15, 30, 60 and 90 post transplant and after each Tacrolimus dose adjustment</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time to achieve Tacrolimus therapeutic target levels</measure>
+    <time_frame>90 days</time_frame>
+    <description>Time to achieve Tacrolimus therapeutic target levels within the 90 days post transplant</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Tacrolimus dose changes to achieve target levels</measure>
+    <time_frame>90 days</time_frame>
+    <description>Number of Tacrolimus dose changes to achieve target levels</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">90</enrollment>
+  <condition>KIDNEY TRANSPLANTATION</condition>
+  <arm_group>
+    <arm_group_label>GROUP I Standard adjustment</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Standard dosage of Tacrolimus</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>GROUP II Bayesian prediction adjustment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Bayesian prediction Tacrolimus dosage</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Standard dosage of Tacrolimus</intervention_name>
+    <description>Immediate release Tacrolimus (Prograf/Adoport)</description>
+    <arm_group_label>GROUP I Standard adjustment</arm_group_label>
+    <other_name>Tacrolimus</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Bayesian Prediction Tacrolimus dosage</intervention_name>
+    <description>Immediate release Tacrolimus (Prograf/Adoport)</description>
+    <arm_group_label>GROUP II Bayesian prediction adjustment</arm_group_label>
+    <other_name>Tacrolimus</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Kidney transplant recipients, from cadaveric and living donor.
+
+          -  Patients that are going to receive immediate release Tacrolimus (Prograf/Adoport) as
+             part of immunosuppressive treatment.
+
+          -  Concomitant immunosuppression with Mycophenolate mofetil/Mycophenolic acid and
+             steroids.
+
+          -  Induction with Basiliximab is permitted.
+
+          -  Subjects able to provide written informed consent.
+
+          -  Female subjects of child-bearing potential must have a negative serum pregnancy test
+             and must be practicing an effective, reliable, and medically approved contraceptive
+             regimen during the study.
+
+        Exclusion Criteria:
+
+          -  Subjects treated with drugs that can potentially interfere with Tacrolimus, especially
+             CYP3A4 inhibitors (telaprevir, boceprevir, ritonavir, ketoconazole, voriconazole,
+             itraconazole, telithromycin or clarithromycin) or CYP3A4 inductors (rifampicin or
+             rifabutine).
+
+          -  Subjects that receive induction treatment with Thymoglobulin or rituximab.
+
+          -  Subjects participating in another investigational study within 30 days before
+             inclusion.
+
+          -  Subjects with hepatopathy.
+
+          -  Subject or donor with a history of any malignancy (within the past 5 years), except
+             non-metastatic basal or squamous cell carcinoma of the skin .
+
+          -  Female subjects who are pregnant or breast feeding.
+
+          -  Subjects receiving an ABO incompatible kidney.
+
+          -  Subjects have Donor Specific Antibodies.
+
+          -  Recipients of an allograft with ischemic cold time &gt; or = 24 hours.
+
+          -  Subjects with a history of active hepatitis C virus (HCV-RNA positive) and/or
+             hepatitis B virus (DNA-HBV or HBsAg positive) infection.
+
+          -  Subjects with a history of human immunodeficiency virus (HIV-Ab positive) infection.
+
+          -  Subjects with psychiatric or physical illness that could interfere with the ability of
+             the subject to participate in the study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Núria Lloberas, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hospital Universitari de Bellvitge</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Núria Lloberas, PhD</last_name>
+    <phone>934035806</phone>
+    <email>nlloberas@ub.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Hospital Universitari de la Vall d'Hebron</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Francesc Moreso, PhD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitari de Bellvitge</name>
+      <address>
+        <city>L'Hospitalet De Llobregat</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Núria Lloberas, PhD</last_name>
+      <phone>0034934035806</phone>
+      <email>nlloberas@ub.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 23, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 13, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 14, 2018</study_first_posted>
+  <last_update_submitted>March 13, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 13, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 14, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Hospital Universitari de Bellvitge</investigator_affiliation>
+    <investigator_full_name>NURIA LLOBERAS BLANCH</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Tacrolimus</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

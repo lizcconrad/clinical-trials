@@ -1,0 +1,291 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00532051</url>
+  </required_header>
+  <id_info>
+    <org_study_id>OHSU IRB #00006612-IOL</org_study_id>
+    <secondary_id>7R01EY018184-04</secondary_id>
+    <nct_id>NCT00532051</nct_id>
+  </id_info>
+  <brief_title>Intraocular Lens Power Calculation After Laser Refractive Surgery Based on Optical Coherence Tomography</brief_title>
+  <acronym>OCT IOL</acronym>
+  <official_title>Guiding the Treatment of Anterior Eye Diseases With Optical Coherence Tomography</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Oregon Health and Science University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Eye Institute (NEI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Oregon Health and Science University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The long-term goal of this project is to utilize very high-speed optical coherence tomography
+      (OCT) technology to guide surgical treatments of corneal diseases. OCT is well known for its
+      exquisite resolution, but until recently it has not had sufficient speed to capture the shape
+      of the cornea because of eye motion during OCT scanning. The development of Fourier-domain
+      (FD) OCT technology has made the requisite speed possible.
+
+      The objective of this project is to develop methods for imaging the cornea with an FD-OCT
+      system that will precisely measure corneal shape and use this information to guide surgery.
+      Cataract surgery in patients with previous laser vision correction often leads to significant
+      near- or far-sightedness, a problem that could be resolved by using a more accurate
+      intraocular lens power selection formula based on the measurement of corneal refractive power
+      with OCT.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study is about an imaging method called Optical Coherence Tomography (OCT) which
+      provides detailed cross-sectional (layered) views of structures in the eye. The OCT system
+      scans a beam of light across the eye to take a picture. OCT provides a more detailed image
+      than other imaging methods of the eye such as ultrasound, CT scan (computed tomography) and
+      MRI (magnetic resonance imaging). In addition, OCT imaging does not touch the eye. OCT is
+      routinely used in imaging structures in the back of the eye (retina) and cornea. This study
+      uses high-speed FDA approved OCT systems. The proposed research plan is a combination of
+      clinical studies and software development to be performed synergistically. Clinical studies
+      will provide OCT images for image processing software development and testing. The image
+      processing software will provide automated measurement of anatomic parameters essential for
+      clinical use.
+
+      Cataract extraction and IOL implantation is the most common eye surgery. The power of the IOL
+      implant is calculated from 2 measurements: the axial eye length (AL) and keratometric power
+      (K). The Holladay II formula also uses the external corneal diameter (&quot;white-to-white&quot; or
+      WTW) and anterior chamber depth (ACD). These formulae work well (±0.5D) in normal eyes.
+      However, these formulae can leads to biased and unpredictable refractive results in eyes that
+      had refractive surgery procedures such as LASIK, PRK, and RK. With a large number of patients
+      undergoing refractive surgery every year, the problem is becoming more severe.
+
+      The conventional IOL formulae fail because several inherent assumptions are no longer true in
+      the eye that had refractive surgery. These assumptions are: 1) The corneal refractive power
+      is uniform. 2) The anterior and posterior corneal power has a fixed relationship such that
+      the overall corneal refractive power can be calculated from the anterior keratometry (or
+      topography) using the keratometric index. 3) The position of IOL can be predicted by K with
+      or without additional information such as WTW and ACD.
+
+      Relative to the posterior curvature, the anterior curvature becomes flatter after myopic
+      correction and steeper after hyperopic correction with LASIK or PRK. To adapt the
+      conventional IOL formulae to this situation, most surgeons use rigid contact lens
+      over-refraction to calculate an &quot;effective K.&quot; However, the accuracy of refraction in
+      cataract patients is poor due to poor vision. Alternatively, one could use a historical
+      method to calculate the effective K from pre-refractive surgery values. However, those
+      measurements are often no longer available. If many years have lapsed, the historical value
+      may no longer accurately reflect the current shape of the cornea.
+
+      The axial position of the IOL is determined by the positions of lens zonules and capsule
+      which is in turn related to the corneal curvature (K) in the normal eye. A flatter cornea
+      (lower K) is usually associated with a larger anterior segment, where the lens apparatus is
+      located further back. A more complex model that also uses a separately measured
+      white-to-white corneal diameter may be even more accurate. In post-refractive surgery eyes,
+      however, K is altered and no longer has the normal relationship with the size of the eye. One
+      way to get around this is to enter the pre-refractive surgery K. However, this historical
+      information is not always available. We believe that a better solution would be use an
+      entirely different approach that does not depend on the 3 above assumptions at all. Since OCT
+      can separately measure the corneal anterior and posterior surfaces and AC and lens
+      dimensions, we believe it has the potential of being the basis of a much better IOL
+      calculation formula.
+
+      Previously we developed a method to measure both anterior and posterior corneal surface
+      curvatures and obtain more accurate corneal power measurements than conventional keratometry,
+      which only measures the anterior surface. This was the basis of an OCT-based intraocular lens
+      (IOL) formula that showed better results than other formulas for post-myopic LASIK cataract
+      surgery. However, this formula was only on par with the best regression-based formulas in
+      eyes with previous hyperopic LASIK or radial keratectomy (RK), because IOL position
+      prediction error and higher-order corneal aberration limited the accuracy of optical
+      calculations in in these cases. We propose to improve IOL position prediction by using the
+      long-range OCT that can image the entire anterior eye and accurately measure the lens
+      equatorial position. We propose to more accurately determine corneal power in the presence of
+      high aberration by developing ray tracing techniques based on ultrahigh-speed OCT mapping of
+      corneal surfaces. Together, these new methods should improve IOL selection and refractive
+      outcome for all types of eyes. In addition, we will develop a new OCT-based toric IOL formula
+      that takes into account posterior corneal astigmatism, which is ignored in conventional
+      keratometry.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>April 2011</start_date>
+  <completion_date type="Anticipated">July 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>IOL power prediction (baseline visit)</measure>
+    <time_frame>Study enrollment</time_frame>
+    <description>Subjects will be assessed at study enrollment, and a prediction of the most suitable IOL power will be made.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>IOL power prediction error (post-operative visit)</measure>
+    <time_frame>No later than 6-months following cataract surgery.</time_frame>
+    <description>Subjects will be assessed no later than 6-months following cataract surgery to assess accuracy of IOL power prediction at baseline visit.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">360</enrollment>
+  <condition>Cataract</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>OCT measurements</intervention_name>
+    <description>This study is about a new imaging method to study the front part of the eye. This imaging method is called Optical Coherence Tomography (OCT) which provides detailed cross-sectional (layered) views of structures in the eye. The OCT system scans a beam of light across the eye to take a picture. OCT provides a more detailed image than other imaging methods of the eye such as ultrasound, CT scan (computed tomography), and MRI (magnetic resonance imaging). In addition, OCT imaging does not touch the eye. OCT is routinely used in imaging structures in the back of the eye (retina) and cornea. This study uses high-speed FDA approved OCT systemsThe measurements from the OCT systems are used in selecting IOL power.</description>
+    <other_name>Manufacturer/Name OCT Technology 510(K)</other_name>
+    <other_name>Optovue/RTVue-CAM Fourier-domain K071250</other_name>
+    <other_name>Bioptigen/Bioptigen Fourier-domain K063343</other_name>
+    <other_name>Zeiss/Visante Time-domain K051789</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        patients seeking cataract surgery with implantation of monofocal IOLs (including toric
+        IOLs) but not multifocal or accommodative IOLs.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  The subjects will be patients seeking cataract surgery with implantation of monofocal
+             IOLs (including toric IOLs) but not multifocal or accommodative IOLs.
+
+          -  Subjects will have had post-laser vision correction (LVC) such as previous LASIK, PRK,
+             laser sub-epithelial keratectomy (LASEK), epi-LASIK (surface laser ablation under a
+             microkeratome-created epithelial flap) or RK. The post-LVC group will be subdivided
+             into those who have previous hyperopic LVC and those who have previous myopic LVC.
+
+        Exclusion Criteria:
+
+          -  Inability to give informed consent.
+
+          -  Inability to maintain stable fixation for OCT imaging.
+
+          -  Inability to commit to required visits to complete the study.
+
+          -  Eyes with concurrent cataract, retinal diseases, glaucoma, or other eye conditions
+             that may limit the visual outcome after surgery.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David Huang, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Casey Eye Institute, Oregon Health &amp; Science University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Denzil Romfh, OD</last_name>
+    <phone>503-494-4351</phone>
+    <email>romfhd@ohsu.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Omkar Thaware, B Optom, MSVS</last_name>
+    <phone>503-494-7398</phone>
+    <email>thaware@ohsu.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Casey Eye Institute, Oregon Health &amp; Science University</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97229</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Denzil Romfh, OD</last_name>
+      <phone>503-494-4351</phone>
+      <email>romfhd@ohsu.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Omkar Thaware, B Optom, MSVS</last_name>
+      <phone>503-494-7398</phone>
+      <email>thaware@ohsu.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>David Huang, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Winston Chamberlain, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Afshan Nanji, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>John Clements, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lorinna Lombardi, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Seema Gupta, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ellen Davis, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Maolong Tang, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Yan Li, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Xinbo Zhang, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 18, 2007</study_first_submitted>
+  <study_first_submitted_qc>September 18, 2007</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 19, 2007</study_first_posted>
+  <last_update_submitted>April 9, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 9, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 11, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Oregon Health and Science University</investigator_affiliation>
+    <investigator_full_name>David Huang</investigator_full_name>
+    <investigator_title>: David Huang, MD, PhD, Professor of Ophthalmology</investigator_title>
+  </responsible_party>
+  <keyword>cataract, lasik, laser refractive surgery</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cataract</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

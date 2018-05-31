@@ -1,0 +1,207 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02200432</url>
+  </required_header>
+  <id_info>
+    <org_study_id>14762</org_study_id>
+    <nct_id>NCT02200432</nct_id>
+  </id_info>
+  <brief_title>Patient Experience Recommender System for Persuasive Communication Tailoring</brief_title>
+  <acronym>PERSPECT</acronym>
+  <official_title>PERSPECT: Patient Experience Recommender System for Persuasive Communication Tailoring</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Massachusetts, Worcester</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Massachusetts, Worcester</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to maximize patient perspective and effectively support
+      lifestyle choices, investigators will develop the &quot;Patient Experience Recommender System for
+      Persuasive Communication Tailoring.&quot; PERSPeCT is a computer system that will assess adult
+      smokers' perspective, to understand the patient's preferences for smoking cessation health
+      messages, and provide personalized, persuasive health communication that is useful to the
+      individual patient in making positive health behavior changes such as smoking cessation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      To maximize patient perspective and effectively support lifestyle choices, we will develop
+      the &quot;Patient Experience Recommender System for Persuasive Communication Tailoring.&quot; PERSPeCT
+      is an adaptive computer system that will assess a patient's individual perspective,
+      understand the patient's preferences for health messages, and provide personalized,
+      persuasive health communication relevant to the individual patient.
+
+      Investigators propose to overcome key weaknesses in existing top-down expert-driven health
+      communication interventions by applying advanced machine learning algorithms to adaptively
+      recommend messages based on the &quot;collective intelligence&quot; of thousands of patients. This work
+      will leverage a paradigm-shifting &quot;Web 2.0&quot; approach to adaptive personalization with the
+      potential for broad impact on the field of computer tailored health communication (CTHC).
+
+      Using knowledge from scientific experts, current CTHC interventions collect baseline patient
+      &quot;profiles&quot; and then use expert-written, rule-based systems to target messages to subsets of
+      patients. These market segmentation interventions show some promise in helping certain
+      patients reach lifestyle goals. Although theoretically sound, rule-based systems may not
+      account for socio-cultural concepts that have intrinsic importance to the targeted
+      population, thus limiting their relevance. Further, the rules do not adapt to patient
+      feedback.
+
+      Outside healthcare, companies like Google, Amazon, Netflix and Pandora have made extensive
+      use of adaptive recommendation systems to provide content with enhanced personal relevance.
+      These systems use machine learning algorithms to derive personalized recommendations from a
+      variety of data sources including preference feedback collected from individual users.
+
+      Within the scope of this Patient-Centered Outcomes Research Institute (PCORI) pilot,
+      investigators will address the challenges of adapting machine learning recommender systems to
+      CTHC in the specific context of patient decision support for smoking cessation. Investigators
+      have chosen this domain because smoking is a major preventable cause of death, and because we
+      have an existing database of 1,000 persuasive messages developed in a current federal grant
+      (R01 CA129091). Specific study aims are to:
+
+      Aim 1: Collect Explicit Feedback data in order to train PERSPeCT Recruit 700 smokers using
+      multiple, complimentary strategies, and using a web interface, ask smokers to provide (a)
+      Perspectives on smoking and quitting and socio-cultural context information and (b) Ratings
+      of the influential aspect of smoking cessation messages.
+
+      Aim 2: Design, Implement and Validate a customized recommendation framework This will involve
+      (a) developing and implementing a machine learning recommender system that integrates patient
+      profiles, message metadata, web site views and influence ratings, and (b)training the model
+      and validating its predictive performance.
+
+      Aim 3: Conduct a pilot randomized trial (n = 120 smokers) of PERSPeCT. Investigators
+      hypothesize that the PERSPeCT system will (H1) Select messages of increasing influence as
+      smokers provide more message ratings and (H2) Select messages with better influence than a
+      rule-based CTHC system when smokers provide a sufficient number of ratings CTHC systems
+      support patient decisions about behaviors, lifestyles, and choices. PERSPeCT addresses areas
+      of interest for PCORI, namely: 1) Identifying, testing, and/or evaluating methods that can be
+      used to assess the patient perspective when researching behaviors, lifestyles, and choices
+      within the patient's control; and 2) Developing, refining, testing, and/or evaluating
+      patient-centered approaches, including decision support tools. The study team is uniquely
+      positioned to accomplish these ambitious aims within the scope of this PCORI pilot because
+      investigators will utilize an existing database of persuasive messages from a previous study,
+      two years of data on the effectiveness of these messages and a trans-disciplinary team with
+      expertise in health communication, web systems engineering, and machine learning recommender
+      systems.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2014</start_date>
+  <completion_date type="Actual">June 2015</completion_date>
+  <primary_completion_date type="Actual">March 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>message influence</measure>
+    <time_frame>up to five months post data collection</time_frame>
+    <description>To evaluate the success of PERSPeCT in motivating smokers, we will conduct a pilot randomized trial. We hypothesize that the messages delivered by PERSPeCT will be more influential in encouraging a quit attempt, as compared with messages selected to be delivered by our current rule-based computer tailored messaging system.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">972</enrollment>
+  <condition>Smoking Cessation</condition>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The study's current rule-based CTHC system is embedded within the Decide2Quit.org web service. Control smokers will receive the current Decide2Quit.org system, including informational web pages, an interactive quit plan, plus pushed email messages. The messages will be selected using the current rule-based CTHC system. The CTHC selects messages based on decision rules (e.g: readiness to quit, gender) using information from a smoker's baseline profile. Participants will receive one message per day for 30 days</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The PERSPeCT intervention smokers will receive all components of the Decide2Quit.org web service, but persuasive email messages will be selected by the PERSPeCT recommender system developed in Aim 2. PERSPeCT will use data (see Figure 1) to predict messages that would be most influential to the participant. Intervention smokers will receive one PERSPeCT-generated message per day for 30 days. With each message rating, the PERSPeCT system will further adapt to patient preferences.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>PERSPeCT Recommender System</intervention_name>
+    <description>PERSPeCT will use data to predict messages that would be most influential to the participant in health behavioral change.
+&quot;Patient Experience Recommender System for Persuasive Communication Tailoring.&quot; PERSPeCT is an adaptive computer system that will assess a patient's individual perspective, understand the patient's preferences for health messages, and provide personalized, persuasive health communication relevant to the individual patient.</description>
+    <arm_group_label>Intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult smokers, 18 years of age or older with Internet access
+
+          -  Pregnant women.
+
+          -  English speakers able to obtain consent
+
+        Exclusion Criteria:Prisoners
+
+          -  Adult unable to consent
+
+          -  Infants, Children, Teenagers (those under the age of 18 years old)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Thomas K Houston, MD, MPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UMMS</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>The University of Massachusetts Medical School</name>
+      <address>
+        <city>Worcester</city>
+        <state>Massachusetts</state>
+        <zip>01655</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.decide2quit.org</url>
+    <description>Online smoking cessation intervention</description>
+  </link>
+  <verification_date>July 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 15, 2014</study_first_submitted>
+  <study_first_submitted_qc>July 23, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 25, 2014</study_first_posted>
+  <last_update_submitted>July 7, 2015</last_update_submitted>
+  <last_update_submitted_qc>July 7, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 9, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Massachusetts, Worcester</investigator_affiliation>
+    <investigator_full_name>Thomas Houston</investigator_full_name>
+    <investigator_title>Division Chief, Health Informatics and Implementation Science</investigator_title>
+  </responsible_party>
+  <keyword>Smoking Cessation</keyword>
+  <keyword>Persuasive Communication Tailoring</keyword>
+  <keyword>Health Behavior Change</keyword>
+  <keyword>Patient decision support</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,205 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01932034</url>
+  </required_header>
+  <id_info>
+    <org_study_id>LACUSC-Van-01</org_study_id>
+    <secondary_id>R01GM068968</secondary_id>
+    <nct_id>NCT01932034</nct_id>
+  </id_info>
+  <brief_title>Prospective Study to Optimize Vancomycin Dosing in Children and Adults Using Computer Software</brief_title>
+  <official_title>Prospective Study to Optimize Vancomycin Dosing in Children and Adults Using Multiple-Model Bayesian Adaptive Control</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Children's Hospital Los Angeles</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of General Medical Sciences (NIGMS)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Children's Hospital Los Angeles</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      We will compare the percentage of patients having therapeutic vancomycin serum concentrations
+      after current standard dosing, after dosing with our software. We will also include
+      therapeutic outcomes and costs in the analysis.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Recent guidelines to use the antibiotic vancomycin for serious, resistant gram-positive
+      bacterial infections advocate higher plasma concentrations than are routinely achieved with
+      conventional dosing. Moreover, there is wide interpatient variability in vancomycin plasma
+      concentrations, even with standardized dosing. The hypothesis for this study is that dosing
+      vancomycin assisted by computer software and Bayesian algorithms will lead to more rapid and
+      accurate attainment of therapeutic blood vancomycin concentrations in children and adults.
+      This study will enroll 90 patients per year for three years, totaling 270 patients. Eligible
+      patients will be of any age and who are to be prescribed vancomycin by their clinicians for
+      medical indications. Patients with vancomycin-resistant organisms, severe vancomycin
+      allergies or who need dialysis will not be eligible. Participants in the first group of 90
+      will be treated according to standard care. The second and third groups of patients will be
+      dosed with vancomycin according to the recommendations made by the study team using the
+      BestDose software developed by the USC Laboratory of Applied Pharmacokinetics. The second
+      group will be dosed with the software in its current form, and the third group with funded
+      updates. For all groups, no additional blood samples will be drawn for research purposes;
+      only routinely obtained clinical data will be used. The primary outcome in all groups will be
+      the percentage of participants with appropriate vancomycin concentrations. Secondary outcomes
+      in those who receive vancomycin for at least 72 hours will include effectiveness, toxicity
+      rates, and costs of therapy. Participation in the study will cease at the time of hospital
+      discharge or 72 hours after termination of vancomycin therapy.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 2012</start_date>
+  <completion_date type="Actual">July 4, 2016</completion_date>
+  <primary_completion_date type="Actual">July 1, 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Time to therapeutic vancomycin blood concentration</measure>
+    <time_frame>Within first week of dosing</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of blood samples sent for vancomycin concentration measurement</measure>
+    <time_frame>Duration of therapy, an average of 10 days in the hospital</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of nephrotoxicity</measure>
+    <time_frame>Duration of therapy, an average of 10 days in the hospital</time_frame>
+    <description>Defined as &gt;0.5 mg/dL or &gt;50% rise from baseline serum creatinine</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Actual">263</enrollment>
+  <condition>Bacterial Infections</condition>
+  <arm_group>
+    <arm_group_label>Standard dosing</arm_group_label>
+    <description>Vancomycin dosed and monitored according to standard practice</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>BestDose Computer Software</arm_group_label>
+    <description>Vancomycin dosed using BestDose computer software, targeting AUC rather than trough concentrations</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>BestDose Computer Software 2</arm_group_label>
+    <description>Vancomycin dosed using BestDose computer software, targeting AUC rather than trough concentrations and with computer-generated suggested optimal blood sampling times</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>BestDose Computer Software</intervention_name>
+    <description>BestDose is made by the USC Laboratory of Applied Pharmacokinetics. It uses a multiple-model, Bayesian adaptive control algorithm to find the maximally precise dose that will achieve a user-specified target concentration or concentrations.</description>
+    <arm_group_label>BestDose Computer Software</arm_group_label>
+    <arm_group_label>BestDose Computer Software 2</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Hospitalized infants, children, adolescents, and adults who require, but have not started
+        vancomycin therapy for infections with suspected or proven beta-lactam resistant
+        gram-positive bacteria will eligible for enrollment
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Hospitalized infants, children, adolescents, and adults who require, but have not
+             started vancomycin therapy for infections with suspected or proven beta-lactam
+             resistant gram-positive bacteria will eligible for enrollment.
+
+          2. Participants will of any age.
+
+          3. Participant/parent/legal guardian (as applicable) must be able and willing to provide
+             signed informed consent.
+
+        Exclusion Criteria:
+
+          1. Prior receipt of vancomycin for the same clinical event (e.g. the same fever of
+             unknown origin in a neutropenic patient defined as &lt;24 hours of no fever)
+
+          2. Known colonization or infection with a vancomycin resistant organism (MIC &gt; 2 mg/L)
+
+          3. Known hypersensitivity or intolerance to vancomycin
+
+          4. Patients on any form of dialysis
+
+          5. Not expected to survive &gt;72 hours.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael Neely, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Children's Hospital Los Angeles</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Los Angeles County - University of Southern California Medical Center</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 6, 2013</study_first_submitted>
+  <study_first_submitted_qc>August 27, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 30, 2013</study_first_posted>
+  <last_update_submitted>February 16, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 16, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 20, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Children's Hospital Los Angeles</investigator_affiliation>
+    <investigator_full_name>Michael Neely</investigator_full_name>
+    <investigator_title>Michael Neely, MD, MSc, FCP</investigator_title>
+  </responsible_party>
+  <keyword>Vancomycin</keyword>
+  <keyword>Pharmacokinetics</keyword>
+  <keyword>Pharmacodynamics</keyword>
+  <keyword>Decision support</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Bacterial Infections</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Vancomycin</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Individual data requests will be evaluated on a case-by-case basis.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

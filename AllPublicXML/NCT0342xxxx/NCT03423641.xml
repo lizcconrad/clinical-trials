@@ -1,0 +1,268 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03423641</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RI-RCR-1000</org_study_id>
+    <nct_id>NCT03423641</nct_id>
+  </id_info>
+  <brief_title>An Observational Study of the Safety of Direct-acting Antivirals in Patients With Hepatitis C</brief_title>
+  <official_title>Safety of Direct-Acting Antiviral Medications for Hepatitis C</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Kaiser Permanente</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>OneFlorida Clinical Research Consortium</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Patient-Centered Outcomes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Kaiser Permanente</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators will assess whether patients with the Hepatitis C virus (HCV) who are
+      prescribed direct-acting antiviral (DAA) medications experience higher rates of adverse
+      events than patients with HCV who are untreated. The investigators hypothesize that patients
+      receiving DAAs do not experience higher rates of adverse events compared to patients who have
+      not received DAAs. The study population is adults between the ages of 18 and 88 with any
+      indication of a diagnosis of HCV. An intervention group (those receiving a DAA) and
+      comparison group (those who are not treated) will be created using medication dispensing
+      data. Eligibility for the study will be determined from January 1, 2011 through December 31,
+      2017. Covariates will be collected from January 1, 2011 through December 31, 2017. Individual
+      study sites may have access to historical data prior to 2011 that can be used as covariates
+      or to identify individuals with HCV. The primary outcomes of interest include acute
+      myocardial infarction, neurological outcomes (e.g. acute stroke, intracranial bleed), acute
+      kidney failure, acute on chronic liver failure, hepatic decompensation, multiple organ
+      dysfunction syndrome, cancer, bradyarrhythmia, and death. The secondary outcomes include
+      decompensated cirrhosis, hospitalization, emergency department visit, and arrhythmia.
+      Outcomes will be assessed from January 1, 2011 through December 31, 2017. The investigators
+      will use two different analytic approaches to answer the question of interest: a Poisson
+      regression model and marginal structural modeling (MSM). The simpler Poisson model is an
+      extension of tabular rate of event analysis. The more complicated MSM model incorporates
+      modeling of the treatment decision to more flexibly control for confounding by indication.
+      For each outcome, the investigators will only record the first date an outcome occurs. Each
+      outcome will be modeled separately.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2011</start_date>
+  <completion_date type="Actual">December 31, 2017</completion_date>
+  <primary_completion_date type="Actual">December 31, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Acute Myocardial Infarction (AMI)</measure>
+    <time_frame>Patient diagnoses collected from encounters will be examined for the duration that patients are untreated. For patients that receive DAAs, diagnoses will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Encounter with an ICD-9 diagnosis code of 410.xx or ICD-10 diagnosis code of I21.xx.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Acute on Chronic Liver Failure</measure>
+    <time_frame>Labs and diagnoses collected from clinical encounters will be examined for the entire duration that patients are untreated. For patients that receive DAAs, labs and diagnoses will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>An acute change in MELD score of 5 or more and the change is deemed to have persisted (defined as meeting one of the following criteria: MELD continues to be elevated 3 months later, liver transplant, death).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Acute Kidney Failure (AKF)</measure>
+    <time_frame>Patient diagnoses collected from encounters will be examined for the duration that patients are untreated. For patients that receive DAAs, diagnoses will be examined for up to 180 days from the day the patient initiated a DAA .</time_frame>
+    <description>Encounters with an ICD-9 diagnosis code of 584.xx or ICD-10 diagnosis code of N17.xx.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Neurological Events</measure>
+    <time_frame>Encounter diagnoses will be examined for the duration that patients are untreated. For patients that receive DAAs, diagnoses will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Encounters with ICD-9 diagnosis code of 43x.xx or ICD-10 code of I6x.xx or G45.xx.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Multiple Organ Dysfunction Syndrome (MODS)</measure>
+    <time_frame>Encounter diagnoses will be examined for the duration that patients are untreated. For patients that receive DAAs, diagnoses will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Encounters with ICD-9 diagnosis code of 995.92, 995.94, 785.52 or ICD-10 code of R65.11 or R65.2x.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Death</measure>
+    <time_frame>Death dates will be examined for the duration that patients are untreated. For patients that receive DAAs, death dates will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Date of death in one or more records. Death data comes from medical records, Social Security, or state databases.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Decompensated Cirrhosis</measure>
+    <time_frame>Encounter diagnoses will be examined for the duration that patients are untreated. For patients that receive DAAs, diagnoses will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>A patient will be characterized as having decompensated cirrhosis from an encounter indicating hepatic encephalopathy, jaundice (ICD-9 diagnosis code of 782.4 or ICD-10 code of R17), ascites (ICD-9 diagnosis code of 789.5, 789.51, 789.59 or ICD-10 diagnosis code of R18.0, R18.8, K71.51, K70.11, or K70.31), or varices (ICD-9 diagnosis code of 456.0, 456.20 or ICD-10 diagnosis code of I85.01 or I85.11.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hospitalization</measure>
+    <time_frame>Inpatient hospital admissions will be examined for the duration that patients are untreated. For patients that receive DAAs, inpatient hospital admissions will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>An encounter in which the place of service is inpatient.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Emergency Department Visit</measure>
+    <time_frame>ED visits will be examined for the duration that patients are untreated. For patients that receive DAAs, ED visits will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>An encounter in which the place of service is an emergency department or urgent care center.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arrhythmia</measure>
+    <time_frame>Encounter diagnoses will be examined for the duration that patients are untreated. For patients that receive DAAs, diagnoses will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Encounters with an ICD-9 diagnosis code of 427.xx or 785.0 or an ICD-10 diagnosis code of I47.xx-I49.xx, R00.0, or R00.1.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Hepatocellular Carcinoma (HCC)</measure>
+    <time_frame>Encounter diagnoses will be examined for the duration that patients are untreated. For patients that receive DAAs, diagnoses will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Encounters with ICD-9 diagnosis code of 155.xx or ICD-10 code of C22.xx or confirmation of the diagnosis from a cancer registry.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Cancers other than HCC</measure>
+    <time_frame>Encounter diagnoses will be examined for the duration that patients are untreated. For patients that receive DAAs, diagnoses will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Encounters with ICD-9 codes 140.xx through 239.xx, except 155.xx or ICD-10 coes C00-D48 except C22.xx or confirmation of cancer diagnosis in a cancer registry.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Change in eGFR</measure>
+    <time_frame>Labs collected from clinical encounters will be examined for the duration that patients are untreated. For patients that receive DAAs, labs and diagnoses will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Clinically significant change between two adjacent testing periods based on creatinine labs.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Change in HbA1c</measure>
+    <time_frame>Labs collected from clinical encounters will be examined for the duration that patients are untreated. For patients that receive DAAs, labs and diagnoses will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>A change of 1 percentage point or more between two adjacent testing periods.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>HBV Reactivation</measure>
+    <time_frame>Encounter diagnoses will be examined for the duration that patients are untreated. For patients that receive DAAs, diagnoses and labs will be examined for up to 180 days from the day the patient initiated a DAA.</time_frame>
+    <description>Clinically meaningful evidence of reactivation with indications such as an AST/ALT flare.</description>
+  </other_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">120000</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Direct Acting Antivirals</arm_group_label>
+    <description>Patients who receive a direct acting antiviral enter the DAA cohort at the time of initiation of the drug.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Comparison</arm_group_label>
+    <description>The exposure time of patients who have not received a direct acting antiviral (patients can change from the comparison to the DAA group once they receive the medication)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Direct Acting Antivirals</intervention_name>
+    <description>The time period during which a patient is dispensed the medication and for up to 180 days after initiation of the medication.</description>
+    <arm_group_label>Direct Acting Antivirals</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The groups/cohorts will consist of all HCV patients from Kaiser Permanente Southern
+        California region, Kaiser Permanente Northern California region, and the OneFlorida
+        Clinical Research Consortium.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  HCV viral load
+
+          -  HCV genotype
+
+          -  HCV qualitative
+
+          -  HCV antibody
+
+          -  HCV drug
+
+          -  Continuously enrolled 12 months
+
+        Exclusion Criteria:
+
+          -  Each outcome will be analyzed separately as time to first event, thus people who
+             experience an outcome prior to their study start date are ineligible for analyses
+             related to that particular outcome.
+
+        The results will be examined for sensitivity to the following possible exclusion criteria:
+
+          -  Achieved SVR-12 prior to index date
+
+          -  HCV treatment experienced prior to index date
+
+          -  No visit in GI, Infectious Disease, or Liver Transplant / Hepatology
+
+          -  No positive HCV test (genotype, viral load, or qualitative)
+
+          -  No recent positive HCV test (genotype, viral load or qualitative)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>88 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Elizabeth A McGlynn, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Kaiser Permanente</affiliation>
+  </overall_official>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 31, 2018</study_first_submitted>
+  <study_first_submitted_qc>January 31, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 6, 2018</study_first_posted>
+  <last_update_submitted>February 10, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 10, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 13, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Kaiser Permanente</investigator_affiliation>
+    <investigator_full_name>Elizabeth A. McGlynn</investigator_full_name>
+    <investigator_title>Vice President, Kaiser Permanente Research; Executive Director, Center for Effectiveness and Safety Research</investigator_title>
+  </responsible_party>
+  <keyword>Drug-Related Side Effects and Adverse Reactions</keyword>
+  <keyword>Antiviral Agents / Adverse Effects</keyword>
+  <keyword>Antiviral Agents / Toxicity</keyword>
+  <keyword>Simeprevir</keyword>
+  <keyword>Sofosbuvir</keyword>
+  <keyword>Ledipasvir</keyword>
+  <keyword>Ombitasvir</keyword>
+  <keyword>Paritaprevir</keyword>
+  <keyword>Ritonavir</keyword>
+  <keyword>Dasabuvir</keyword>
+  <keyword>Daclatasvir</keyword>
+  <keyword>Elbasvir</keyword>
+  <keyword>Grazoprevir</keyword>
+  <keyword>Velpatasvir</keyword>
+  <keyword>Ribavirin</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Antiviral Agents</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Current plan is to make a de-identified data set available to investigators under specified conditions.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

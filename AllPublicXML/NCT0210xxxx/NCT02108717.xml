@@ -1,0 +1,215 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02108717</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2014-02</org_study_id>
+    <nct_id>NCT02108717</nct_id>
+  </id_info>
+  <brief_title>The Feasibility Study for Real-time Remote CT Reading for Suspected Acute Appendicitis Using iPhone</brief_title>
+  <acronym>Telemedicine</acronym>
+  <official_title>The Feasibility Study for Remote CT Reading for Suspected Acute Appendicitis Using iPhone With Remote Control System in Realtime Under the Ambient Bright.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hanyang University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hanyang University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      1. Purpose
+
+           - The investigators aim to evaluate the feasibility of iPhone based remote control
+           system as a real-time remote CT reading tool for suspected appendicitis under 3G network
+           and the suboptimal illumination.
+
+        2. Methods
+
+             -  A total of 120 abdominal CT examinations; sixty had no findings of appendicitis,
+                while the other sixty showed signs of acute appendicitis, were selected. The 16
+                raters reviewed these images using an LCD monitor of the PACS workstation and also
+                an iPhone which was connected to the PACS workstation via remote control system,
+                grading the probability of presence of acute appendicitis on each examination by a
+                five Likert scale.
+
+             -  The investigators will compare the diagnostic performance between two devices.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The 16 raters were randomly divided into two groups
+
+        -  The raters in group one reviewed the CT examinations numbered from one to 60 using LCD
+           monitor and reviewed the remaining CT examinations numbered from 61 to 120 using iPhone
+           with TeamViewer at their first visit
+
+        -  The other group firstly reviewed the CT scans numbered from one to 60 using iPhone with
+           TeamViewer and 61 to 120 with the LCD monitor.
+
+        -  They visited twice with an interval of four weeks and reviewed the CT scans using
+           revered devices at each session.
+
+        -  The raters were instructed to rate the likelihood of the presence or absence of
+           appendicitis in each case using a five-Likert scale (1 = obvious no appendicitis, 2 =
+           unlikely appendicitis, 3 = unsure, 4 = likely appendicitis, 5 = obvious appendicitis).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2014</start_date>
+  <completion_date type="Actual">May 2014</completion_date>
+  <primary_completion_date type="Actual">May 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic performance between iPhone and LCD monitor</measure>
+    <time_frame>within one day</time_frame>
+    <description>Dorfman-Berbaum-Metz method with RSCORE and semi-parametric estimation of ROC indices by using the DMB-MRMC software (version 2.3, available at http://perception.radiology.uiowa.edu)
+95% confidence interval
+The reviewers and cases are taken as random factors</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Diagnostic accuracy between the iPhone and the LCD monitor</measure>
+    <time_frame>within one day</time_frame>
+    <description>◆ Sensitivity, specificity
+gold standard: The pathology report and the results of clinical follow up
+grade 1, 2 and 3 = negative appendicitis findings
+grade 4 and 5 = positive appendicitis findings
+McNemar's test to compare the sensitivity and specificity between the iPhad and the LCD monitor</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">16</enrollment>
+  <condition>Telemedicine</condition>
+  <arm_group>
+    <arm_group_label>Group I</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The raters in this group one firstly reviewed the CT scans numbered from one to 60 using LCD monitor and after mandatory rests of 20 minutes, reviewed the remaining CT examinations numbered from 61 to 120 using iPhone with TeamViewer at their first visit.
+They visited twice with an interval of four weeks and reviewed the CT scans using revered devices at each session.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group II</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The raters in this group II firstly reviewed the CT scans numbered from one to 60 using iPhone with TeamViewer and 61 to 120 with the LCD monitor.
+They visited twice with an interval of four weeks and reviewed the CT scans using revered devices at each session.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Remote CT reading using the iPhone</intervention_name>
+    <arm_group_label>Group I</arm_group_label>
+    <arm_group_label>Group II</arm_group_label>
+    <other_name>Smartphone (A1530, iPhone 5S, USA)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>CT reading using LCD monitor</intervention_name>
+    <arm_group_label>Group I</arm_group_label>
+    <arm_group_label>Group II</arm_group_label>
+    <other_name>LCD monitor (MX210, EIZO, Japan)</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Board certified emergency physicians with a clinical experience of 5 years and over.
+
+        Exclusion Criteria:
+
+          -  Corrected eyesight &lt; 20/30
+
+          -  Color weakness or blindness
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>33 Years</minimum_age>
+    <maximum_age>45 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bo Seung Kang, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Hanyang University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Hanyang university guri hospital, Department of emergency medicine</name>
+      <address>
+        <city>Guri</city>
+        <state>GyeongGido</state>
+        <zip>471-701</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <link>
+    <url>http://www.displaymate.com/Smartphone_ShootOut_2.htm</url>
+    <description>Displaymate: Flagship Smartphone Display Technology Shoot-Out</description>
+  </link>
+  <link>
+    <url>http://www.teamviewer.com/en/products/security.aspx</url>
+    <description>TeamViewer information for remote support and remote access</description>
+  </link>
+  <link>
+    <url>http://www.akamai.com/dl/akamai/akamai-soti-q313.pdf?WT.mc_id=soti_Q313</url>
+    <description>The State of the Internet, 3rd Quarter, 2013</description>
+  </link>
+  <reference>
+    <citation>Choi HJ, Lee JH, Kang BS. Remote CT reading using an ultramobile PC and web-based remote viewing over a wireless network. J Telemed Telecare. 2012 Jan;18(1):26-31. doi: 10.1258/jtt.2011.110412. Epub 2011 Nov 8.</citation>
+    <PMID>22067287</PMID>
+  </reference>
+  <reference>
+    <citation>Choudhri AF, Carr TM 3rd, Ho CP, Stone JR, Gay SB, Lambert DL. Handheld device review of abdominal CT for the evaluation of acute appendicitis. J Digit Imaging. 2012 Aug;25(4):492-6. doi: 10.1007/s10278-011-9431-9.</citation>
+    <PMID>22146833</PMID>
+  </reference>
+  <reference>
+    <citation>Park JB, Choi HJ, Lee JH, Kang BS. An assessment of the iPad 2 as a CT teleradiology tool using brain CT with subtle intracranial hemorrhage under conventional illumination. J Digit Imaging. 2013 Aug;26(4):683-90. doi: 10.1007/s10278-013-9580-0.</citation>
+    <PMID>23404630</PMID>
+  </reference>
+  <verification_date>May 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 7, 2014</study_first_submitted>
+  <study_first_submitted_qc>April 8, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 9, 2014</study_first_posted>
+  <last_update_submitted>May 6, 2014</last_update_submitted>
+  <last_update_submitted_qc>May 6, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 8, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Hanyang University</investigator_affiliation>
+    <investigator_full_name>Changsun Kim</investigator_full_name>
+    <investigator_title>Clinical assistant professor</investigator_title>
+  </responsible_party>
+  <keyword>Telemedicine</keyword>
+  <keyword>appendicitis</keyword>
+  <keyword>remote consultation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Appendicitis</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

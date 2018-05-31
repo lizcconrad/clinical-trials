@@ -1,0 +1,249 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02702063</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MUVienna 1139/2015</org_study_id>
+    <nct_id>NCT02702063</nct_id>
+  </id_info>
+  <brief_title>Calibrating Cardiac Output Measurement of Electrical Cardiometry With Transthoracic Echocardiography</brief_title>
+  <acronym>EC vs TTE</acronym>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Medical University of Vienna</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of California, San Diego</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Medical University of Vienna</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Cardiac output (CO) is a key variable when describing the cardiovascular system. Electrical
+      cardiometry (EC) is a non-invasive method in measuring stroke volume and cardiac output.
+      However, its accuracy has been inconsistent. Therefore Martin et al. have compared
+      measurements with echocardiographic measurements and propose calibration with left ventricle
+      outflow tract (LVOT)-measurements obtained from transthoracic echocardiography (TTE). This
+      study was performed in pregnant women at term. Goal of this study is to validate their
+      formula in non-pregnant outpatients undergoing echocardiography for cardiology work-up.
+      Secondary aim is to perform a leg raising test and to compare changes in stroke volume
+      observed with either EC or TTE.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Cardiac output (CO) is a key variable when describing and treating the cardiovascular system.
+      The ideal cardiac output (CO) monitor would be safe, non-invasive, low-cost, painless, easy
+      to interpret and would allow for the continuous, hands-free acquisition of accurate data.
+      Electrical cardiometry (EC), a more recent version of impedance cardiography (ICG), meets
+      many of the criteria for an ideal monitor and previously published research suggests that EC
+      successfully trends CO1-3, but its accuracy in measuring absolute values of stroke volume
+      (SV) has been inconsistent in published research4-8. Electrical cardiometry works by sending
+      an insensible high frequency alternating current through the thorax and measures changes in
+      thoracic impedance that are attributed to systolic blood flow acceleration over the cardiac
+      cycle. Using fiducial points in the tracing of the first derivative of impedance, EC
+      calculates left ventricular ejection time (LVET) and mean velocity of blood during systole.
+      By further estimating a patient constant that is primarily based on body mass ('volume of
+      electrically participating tissue' (VEPT)), stroke volume is estimated in the following way:
+
+      - SVEC = VEPT * Mean blood velocity * corrected Flow Time (FTc).
+
+      Cardiac output monitors are typically validated against a reference standard, which has
+      traditionally been thermodilution using a pulmonary artery catheter (PAC). Given the risks
+      associated with the use of pulmonary artery catheters9 an alternative method, such as
+      transthoracic echocardiography (TTE), lends itself as valuable substitute technique for
+      measuring CO. Transthoracic echocardiography is safe, painless and non-invasive. Similarly to
+      EC, SV estimate by TTE is based on a measurement of mean blood velocity and ejection time
+      (mean blood velocity x ejection time = velocity time integral, VTI; (Figure 3)). However, in
+      contrast to EC, the parameters for blood velocity and left ventricular ejection time are not
+      multiplied with a normative patient constant, but with a measured parameter: the left
+      ventricular outflow tract area (LVOT area):
+
+      - SVTTE = LVOT area * mean blood velocity * ejection time. Main disadvantage of using TTE for
+      CO-measurement is advanced training that is needed to obtain VTI measurements and that it is
+      highly labor intense to obtain repeated VTIs for continuous or repeated CO measurements.
+      Measurement of LVOT area, by contrast, is a one-time measurement obtained from parasternal
+      long axis view, which necessitates only basic training of TTE.
+
+      Recently Martin and colleagues10 compared SV parameters derived from EC and TTE in a sample
+      of 44 healthy pregnant volunteers and found excellent agreement in mean left ventricular
+      ejection time and heart rate. However, agreement in SV was poor with a percentage error of
+      42% in Bland-Altman analysis. Hypothesizing that both methodologies in estimating SV, EC and
+      TTE, use measures for blood velocity and systolic ejection time, Martin et al. hypothesized
+      that agreement between both methods could be significantly improved by calibrating SV-EC with
+      the LVOT area that is derived from one time TTE measurement. Based on a multiplicative linear
+      regression model and following log-linear transformation Martin et al. derived the following
+      formula for calibration:
+
+      SVEC_Modified = 2.2 * LVOT_area(0.705) * SV_EC(0.388) * Weight(0.21) By applying this
+      formula, agreement in SV measurements significantly improved and percentage error decreased
+      to 22 %. However, data was derived from a very specific patient population (pregnant women)
+      and accuracy of the modified SV-assessment was not validated in a prospective manner.
+
+      Therefore, this study proposes to compare SV-estimates derived from EC and TTE in
+      non-pregnant outpatients undergoing routine echocardiography assessment. Primary aim of this
+      study is to evaluate if agreement between both methods can be improved by calibrating
+      SV-measurements obtained from electrocardiometry with a one-time LVOT area measurement
+      obtained from TTE.
+
+      Secondary aim will be to perform passive leg raising test and compare sensitivity in both
+      identifying fluid responsiveness between both monitoring methodologies.
+
+      Third aim is to compare CO derived measurements from EC and TTE with gold standard
+      measurements derived from patients undergoing routine right heart catheterisation for
+      evaluation of cardiac and pulmonary function.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>October 2015</start_date>
+  <completion_date type="Anticipated">December 2016</completion_date>
+  <primary_completion_date type="Anticipated">April 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>agreement Stroke volume</measure>
+    <time_frame>3 seconds</time_frame>
+    <description>SV measured by TTE, RHC and EC will be compared</description>
+  </primary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">75</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <arm_group>
+    <arm_group_label>TTE vs. EC + calibration group</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>50 Patients undergoing routine transthoracic echocardiography at laboratory for transthoracic echocardiography at the department of cardiology of Medical University Vienna will be enrolled following informed consent. Non-inclusion criteria are inability to understand study procedure and age under 18 years old.
+Patients with any grade of aortic regurgitation, congenital heart disease with intracardiac shunt (left-right shunt or right-left shunt) or arrhythmia (atrial fibrillation) or withdrawing consent during study procedure will be excluded. In addition, patients with intraabdominal (IAH), intracranial (ICH) hypertension or any disease of the hip joint, will not be included into the trial.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Right heart catheterisation</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Twenty five patients undergoing routine right heart catheterization (RHC) at the department of cardiology for the evaluation of suspected pulmonary hypertension or heart failure will be included in this trial. EC measurements will be obtained during RHC, and a TTE (for measuring LVOT-area) will be performed immediately before undergoing RHC. Inclusion and exclusion criteria are similar as described above.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Passive leg raising test</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>50 Patients undergoing routine transthoracic echocardiography at laboratory for transthoracic echocardiography at the department of cardiology of Medical University Vienna will be enrolled following informed consent. Non-inclusion criteria are inability to understand study procedure and age under 18 years old.
+Patients with any grade of aortic regurgitation, congenital heart disease with intracardiac shunt (left-right shunt or right-left shunt) or arrhythmia (atrial fibrillation) or withdrawing consent during study procedure will be excluded. In addition, patients with intraabdominal (IAH), intracranial (ICH) hypertension or any disease of the hip joint, will not be included into the trial.
+SV and CO will be measured using TTE and EC. Patient's legs will then be raised by 45degree, and SV and CO measurements will be repeated after 1 minute. Changes in SV and CO observed with both methods will be compared.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>passive leg raising test</intervention_name>
+    <description>Patients undergoing routine echocardiography are exposed to a passive leg raising test. Change in SV will be measured by TTE and compared to changes in SV measured by EC.</description>
+    <arm_group_label>Passive leg raising test</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>right heart catheterisation</intervention_name>
+    <description>CO in patients undergoing routine right heart catheterisation will be measured and compared between 3 methodologies: right heart catheterisation, TTE and EC</description>
+    <arm_group_label>Right heart catheterisation</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>TTE vs. EC + calibration group</intervention_name>
+    <description>Patients will undergo routine echocardiography. CO and SV will be measured by TTE and compared to measurements obtained from simultaneous EC-measurements.</description>
+    <arm_group_label>TTE vs. EC + calibration group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  age above 18 years
+
+          -  able to understand study procedure
+
+        Exclusion Criteria:
+
+          -  aortic regurgitation
+
+          -  congenital heart disease with intracardiac shunt
+
+          -  arrhythmia
+
+          -  withdrawing consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Clemens M Ortner, MD</last_name>
+    <phone>+434040041009</phone>
+    <email>clemens.ortner@meduniwien.ac.at</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Medical University Vienna</name>
+      <address>
+        <city>Vienna</city>
+        <zip>1080</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ortner, MD, MSC</last_name>
+      <phone>0431404004100</phone>
+      <email>clemens.ortner@meduniwien.ac.at</email>
+    </contact>
+    <investigator>
+      <last_name>Clemens Ortner, MD, MSC</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+  </location_countries>
+  <verification_date>March 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 26, 2016</study_first_submitted>
+  <study_first_submitted_qc>March 2, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 8, 2016</study_first_posted>
+  <last_update_submitted>March 2, 2016</last_update_submitted>
+  <last_update_submitted_qc>March 2, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">March 8, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Medical University of Vienna</investigator_affiliation>
+    <investigator_full_name>Clemens Ortner</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

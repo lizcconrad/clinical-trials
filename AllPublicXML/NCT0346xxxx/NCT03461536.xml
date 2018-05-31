@@ -1,0 +1,215 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03461536</url>
+  </required_header>
+  <id_info>
+    <org_study_id>18-24325</org_study_id>
+    <nct_id>NCT03461536</nct_id>
+  </id_info>
+  <brief_title>Ultrasound First Clinical Decision Support for Suspected Nephrolithiasis</brief_title>
+  <official_title>Ultrasound First Clinical Decision Support for Suspected Nephrolithiasis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of California, San Francisco</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a randomized trial to determine the effect of a clinical decision support tool on
+      image ordering for patients with suspected nephrolithiasis. Patients who present with acute
+      unilateral flank or abdominal pain in whom emergency department providers suspect
+      nephrolithiasis will receive either a clinical decision support module or no module.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      CT scan is overused for patients who present to the ED with suspected nephrolithiasis (acute
+      flank or abdominal pain). We have developed a clinical decision support (CDS) tool to
+      identify those patients in whom ultrasound is appropriate. The CDS tool is based on the Study
+      of Ultrasonography vs. Computed Tomography for Suspected Nephrolithiasis in the Emergency
+      Department.
+
+      Our goal is to assess the effectiveness of a clinical decision support (CDS) tool to improve
+      advanced imaging for suspected nephrolithiasis in the ED. We hypothesize those randomized to
+      receiving CDS will order CT less often compared to those receiving control. Also, we
+      hypothesize those randomized to receiving CDS will have a similar ED length of stay and rate
+      of unexpected ED return as those receiving control.
+
+      Study design: Randomized trial of a CDS tool embedded in the electronic health record for
+      patients with suspected nephrolithiasis. The study will be conducted at UCSF Department of
+      Emergency Medicine.
+
+      Study subjects: We will enroll adult patients who present to the ED who present with
+      &quot;suspected nephrolithiasis&quot;, which we define as those with 1) symptoms of nephrolithiasis,
+      and 2) require cross-sectional imaging. Symptoms of nephrolithiasis include acute unilateral
+      flank and/or abdominal pain, typically described as severe and colicky. The pain is
+      accompanied by nausea, vomiting, and urinary symptoms, such as hematuria. The imaging studies
+      emergency physicians typically order for suspected nephrolithiasis include: CT scan (CT scan
+      without contrast, CT scan with contrast, CT scan with and without contrast), radiology
+      ultrasound, or point of care (POCUS) ultrasound. We will enroll patients whose providers
+      order an imaging test for kidney stone - CT scan, ultrasound, or POCUS.
+
+      Sampling, recruiting and retaining subjects: We will enroll consecutive patients who present
+      to the ED with the selection criteria. Those with suspected nephrolithiasis but have an
+      exclusion criteria will be recorded and compared to those who were enrolled. Eligible
+      patients will be randomized to either receiving CDS recommendations or no CDS
+      recommendations. Subjects will not receive informed consent, and will not be contacted by
+      staff.
+
+      Intervention: The intervention is the CDS tool, which consists of 2 components: 1) assess the
+      presence of appropriateness criteria for ultrasound; 2) provide recommendations to encourage
+      clinicians to order ultrasound, and a place to change the order. The CDS tool will be placed
+      or integrated into EPIC, at the point of order entry. The tool will be triggered by an order
+      for cross-sectional imaging to identify or rule out kidney stone. At UCSF, this will include
+      CT for suspected nephrolithiasis.
+
+      The main outcome variable will be proportion of study arm who receive CT, and median
+      radiation dose. Proportion of study arm who receive CT is defined as #CT scans
+      ordered/#patients in study arm. The secondary outcomes will include proportion of patients
+      with an unscheduled return due to missed diagnosis, cost, ED length of stay.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 2018</start_date>
+  <completion_date type="Anticipated">August 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Triple (Participant, Investigator, Outcomes Assessor)</masking>
+    <masking_description>Patients, investigators, and outcome assessors will be blinded to study arm.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>CT use</measure>
+    <time_frame>During the index emergency department visit</time_frame>
+    <description>Whether the patient received CT scan</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Radiation Dose</measure>
+    <time_frame>During the index emergency department visit</time_frame>
+    <description>Radiation dose in millisieverts</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Missed diagnoses</measure>
+    <time_frame>Within 1 week of the ED index visit</time_frame>
+    <description>Missed diagnoses</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ED Length of Stay</measure>
+    <time_frame>During the index emergency department visit</time_frame>
+    <description>ED Length of Stay</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cost</measure>
+    <time_frame>During the index emergency department visit</time_frame>
+    <description>Total cost</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">670</enrollment>
+  <condition>Nephrolithiasis</condition>
+  <arm_group>
+    <arm_group_label>Clinical Decision Support</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Participants in this arm will receive the study intervention, the clinical decision support.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Participants in this arm will not receive the the clinical decision support tool.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Ultrasound-first Clinical Decision Support tool</intervention_name>
+    <description>Intervention: The intervention is the CDS tool, which consists of 2 components: 1) assess the presence of appropriateness criteria for ultrasound; 2) provide recommendations to encourage clinicians to order ultrasound, and a place to change the order.
+The CDS tool will be placed or integrated into EPIC, at the point of order entry. The tool will be triggered by an order for CT scan for kidney stone.
+Appropriateness criteria for ultrasound
+Adults aged &gt;18 and &lt; 76
+Non-obese (men &lt; 285lbs, women &lt; 250lbs)
+Absence of kidney disease (ESRD, hemodialysis, post kidney transplant, solitary kidney)
+High risk of clinically significant alternative diagnosis (appendicitis, cholecystitis, AAA, ovarian torsion) If all responses are affirmative, then the subject should receive US, and US order is provided.</description>
+    <arm_group_label>Clinical Decision Support</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult patients who present to the ED who present with &quot;suspected nephrolithiasis&quot;,
+             which we define as those with 1) symptoms of acute flank or abdominal pain, and 2) are
+             deemed to require CT imaging.
+
+        Exclusion Criteria:
+
+          1. Adults aged &lt;18 and &gt; 76
+
+          2. Obese (men &lt; 285lbs, women &lt; 250lbs)
+
+          3. History of kidney disease (ESRD, hemodialysis, post kidney transplant, solitary
+             kidney)
+
+          4. High risk of clinically significant alternative diagnosis (appendicitis,
+             cholecystitis, AAA, ovarian torsion)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ralph C Wang, MD, MAS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, San Francisco</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Angela Wong</last_name>
+    <phone>415-353-8730</phone>
+    <email>angela.wong@ucsf.edu</email>
+  </overall_contact>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 5, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 5, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 12, 2018</study_first_posted>
+  <last_update_submitted>March 5, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 5, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 12, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, San Francisco</investigator_affiliation>
+    <investigator_full_name>Ralph Wang</investigator_full_name>
+    <investigator_title>Associate Professor of Emergency Medicine</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Nephrolithiasis</mesh_term>
+    <mesh_term>Kidney Calculi</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

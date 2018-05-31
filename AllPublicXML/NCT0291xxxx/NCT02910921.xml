@@ -1,0 +1,289 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02910921</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16-005803</org_study_id>
+    <nct_id>NCT02910921</nct_id>
+  </id_info>
+  <brief_title>Individualized Prediction of Migraine Attacks Using a Mobile Phone App and Fitbit</brief_title>
+  <acronym>Migraine Alert</acronym>
+  <official_title>Individualized Prediction of Migraine Attacks Using a Mobile Phone App</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Second Opinion Health</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Mayo Clinic</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Southern California</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Allergan</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Second Opinion Health</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This trial is collaboration between Mayo Clinic, Second Opinion Health (Simon Bloch,
+      simon@somobilehealth.com 408-981-3814) and Allergan. Mayo Clinic investigators are conducting
+      the clinical trial, Second Opinion Health is providing the software for use in the trial
+      (Migraine Alert app for data collection, analysis and machine learning algorithms), and
+      Allergan is providing funding.
+
+      The investigators hypothesize that the use of a mobile phone app and Fitbit wearable to
+      collect daily headache diary data, exposure/trigger data and physiologic data will predict
+      the occurrence of migraine attacks with high accuracy. The objective of the trial is to
+      assess the ability to use daily exposure/trigger and symptom data, as well as physiologic
+      data (collected by Fitbit) to create individual predictive migraine models to accurately
+      predict migraine attacks in individual patients via a mobile phone app.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Eliminating migraine attacks before they start is of an enormous importance to migraine
+      sufferers. But figuring out the onset of an attack before it actually starts remains a major
+      challenge for the medical community.
+
+      The widespread use of mobile smartphones, the availability of wearable devices that measure
+      health information, and advances in multivariate pattern analysis via machine learning
+      algorithms allow for development of individual predictive models that can determine the
+      likelihood of an individual patient developing a migraine on a given day. Such models are
+      based upon objectively measured biometric parameters (e.g. activity, sleep), objectively
+      measured environmental conditions (e.g. weather parameters), exposures to possible migraine
+      triggers, and patient reported symptoms. Using machine-learning algorithms to explore this
+      large dataset that is collected for each patient, the optimal combination of factors that
+      most accurately predict the likelihood of a migraine attack is determined.
+
+      Prediction of individual migraine attacks would have substantial positive impacts for
+      patients with migraine. Accurate prediction of a migraine attack would give the migraineur a
+      greater sense of control over their condition, a sense of control that is often lacking in
+      patients with migraine. Most importantly, if individual migraine attacks could be predicted
+      with high accuracy, treatment of that inevitable migraine attack before development of
+      symptoms could prevent the attack altogether.
+
+      Eligible subjects will enter a baseline phase during which subjects will wear a Fitbit device
+      and record data into the daily headache diary using the mobile phone app. This phase will be
+      of variable duration for each subject to a maximum of 75 days. It is during the baseline
+      phase that the individualized predictive model for a migraine attack is developed and
+      optimized.
+
+      During the second phase (75 days), the accuracy of the predictive model will be tested. The
+      probability of developing a migraine will be calculated and the accuracy of the prediction
+      will be tested against the patient reported incidence of migraine attacks within the mobile
+      phone app. Subjects will be blinded to the app's migraine attack predictions to avoid
+      expectancy bias.
+
+      Migraine prediction suffers from 'the curse of dimensionality' (machine learning parlance).
+      Too many factors affect outcomes, but the outcomes (positive migraine attacks) are few and
+      far in between. To develop an accurate machine learning model using traditional approaches
+      requires a long and impractical time duration. Migraine Alert has effectively addressed these
+      using proprietary algorithms and techniques that generate individual models using fewer
+      migraines. Covariate analysis is performed for each individual using features derived from
+      the raw data. Individual models may differ from one other in the specific feature they use
+      and/or the importance attached to them in the model. Proprietary techniques are used to
+      create these individual models and to monitor their pre-validation and post-validation
+      accuracy and recall. Concept drift as evidenced by any degradation in accuracy or recall is
+      monitored in the prediction phase and model is retrained as necessary.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>November 2016</start_date>
+  <completion_date type="Anticipated">September 2018</completion_date>
+  <primary_completion_date type="Anticipated">June 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>AUC of individual prediction models using cross validation data on environmental and physiological variables.</measure>
+    <time_frame>10 weeks</time_frame>
+    <description>The study will develop a separate predictive model for each participant that will forecast probability of experiencing a migraine attack during a particular interval. The outcome measures performance of this model using the Area Under the Curve (AUC) metric. AUC measures how often the algorithm predicts a higher probability for a migraine over non-migraine. This measure is attractive because it is independent of the quantization threshold, which is required for other metrices such as precision/recall. In the baseline phase, 30% of the data will be randomly selected for cross validation and will not used for training the model. Once the model is trained, the AUC of the model is measured on the cross validation data as the outcome of this phase. The data will include various measurements of weather such as temperature, pressure, humidity, wind and physiological measurements such as sleep duration and quality and activity level measured through a wearable Fitbit device.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>AUC of individual prediction models using post prediction data on environmental and physiological variables.</measure>
+    <time_frame>10 weeks</time_frame>
+    <description>The metric and the type of the data is the same as in Outcome 1. The only difference is that the data is obtained from the user after the model is trained. The user is not shown the prediction to avoid expectancy bias.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Migraine Disorders</condition>
+  <condition>Headache Disorders, Primary</condition>
+  <condition>Headache Disorders</condition>
+  <condition>Brain Diseases</condition>
+  <condition>Central Nervous System Diseases</condition>
+  <condition>Nervous System Diseases</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        People with episodic migraines
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Subjects fulfilling ICHD-3beta criteria for migraine with average of 5 - 10 migraine
+             attacks per month and up to 12 headache days per month
+
+          -  Males of females 18 years of age or older
+
+          -  Subject report of weather being one of the triggers
+
+          -  Subject has an iPhone
+
+          -  Subject is willing to wear a Fitbit device for the duration of the study
+
+          -  Subject has an active Facebook account or is willing to create one
+
+        Exclusion Criteria:
+
+          -  Children younger than 18 years of age
+
+          -  Subjects with headaches other than migraine or probable migraine
+
+          -  Inability to provide informed consent
+
+          -  Not willing to maintain a daily diary
+
+          -  Current participation in another clinical trial
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rashmi Halker Singh, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Mayo Clinic</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Soma Sahai-Srivastava, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Southern California</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Joy Few</last_name>
+    <phone>480-342-2131</phone>
+    <email>few.joy@mayo.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Mayo Clinic Arizona</name>
+      <address>
+        <city>Scottsdale</city>
+        <state>Arizona</state>
+        <zip>852589</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Joy Few</last_name>
+      <phone>480-342-2131</phone>
+      <email>Few.Joy@mayo.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Saran Vaughn, MD</last_name>
+      <phone>480-342-6487</phone>
+      <email>Vaughn.saran@mayo.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Rashmi Halker Singh, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Southern California</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ram Koppula, MD</last_name>
+      <phone>323-442-5710</phone>
+      <email>rk_198@usc.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Soma Sahai-Srivastava, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://medlineplus.gov/migraine.html</url>
+    <description>Migraine</description>
+  </link>
+  <link>
+    <url>http://www.uptodate.com/contents/migraine-headaches-in-adults-beyond-the-basics?view=print</url>
+    <description>Migraine Headaches</description>
+  </link>
+  <verification_date>October 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 13, 2016</study_first_submitted>
+  <study_first_submitted_qc>September 20, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 22, 2016</study_first_posted>
+  <last_update_submitted>April 16, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 16, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 18, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Migraine</keyword>
+  <keyword>Prediction</keyword>
+  <keyword>Forecast</keyword>
+  <keyword>App</keyword>
+  <keyword>Fitbit</keyword>
+  <keyword>Individual</keyword>
+  <keyword>Algorithm</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Mayo Clinic</keyword>
+  <keyword>Allergan</keyword>
+  <keyword>Second Opinion</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Disease</mesh_term>
+    <mesh_term>Migraine Disorders</mesh_term>
+    <mesh_term>Headache</mesh_term>
+    <mesh_term>Nervous System Diseases</mesh_term>
+    <mesh_term>Brain Diseases</mesh_term>
+    <mesh_term>Central Nervous System Diseases</mesh_term>
+    <mesh_term>Headache Disorders</mesh_term>
+    <mesh_term>Headache Disorders, Primary</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

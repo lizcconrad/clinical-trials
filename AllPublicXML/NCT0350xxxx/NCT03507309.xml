@@ -1,0 +1,195 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03507309</url>
+  </required_header>
+  <id_info>
+    <org_study_id>174052</org_study_id>
+    <secondary_id>16/HRA/3327</secondary_id>
+    <nct_id>NCT03507309</nct_id>
+  </id_info>
+  <brief_title>National Institute for Health Research (NIHR) Health Informatics Collaborative Troponin Study</brief_title>
+  <acronym>NHIC-Troponin</acronym>
+  <official_title>National Institute for Health Research (NIHR) Health Informatics Collaborative Cardiovascular Project</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Guy's and St Thomas' NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>King's College Hospital NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Oxford University Hospitals NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University College London Hospitals</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Cambridge University Hospitals NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Imperial College London</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The NHIC Cardiovascular Project is an observational, multi-centre and longitudinal study of
+      clinical data from collaborating hospitals. A dataset of the longitudinal record for patients
+      who presented with a suspected acute coronary syndrome, characterised by the request of a
+      troponin test, has been developed (NHIC-Troponin Study).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The NHIC Cardiovascular Project in the United Kingdom has been established to enable the
+      sharing and repurposing of routinely captured clinical data for re-use in research. Data
+      sharing for this study has been enabled by establishing a data sharing agreement between each
+      of the collaborating hospitals. The data sharing agreement allows data to be shared between
+      National Health Service (NHS) hospitals in accordance with an anonymisation and
+      de-identification profile approved by each information governance department, ensuring that
+      patient identities are protected. Ethics approval for each dataset has been obtained which
+      detailed the further de-identification steps to ensure that research datasets are fully
+      anonymised.
+
+      The cardiovascular theme clinical leads developed a standard target data model specification
+      to capture the longitudinal record for patients who presented with a suspected acute coronary
+      syndrome, characterised by the request of a troponin test (NHIC-Troponin Study). The data
+      model was patient centric allowing for minor discrepancies between dataset areas such as
+      missing discharges or test results returning outside of episodes of care. The model included
+      156 data points, grouped into demographics, cardiovascular risk factors, emergency department
+      attendance and inpatient episodes, biochemistry, revascularisation and mortality. All
+      patients were followed up on the NHS Spine Application, Summary Care Record until death or
+      censoring on 1st April 2017.
+
+      This dataset comprised all patients who had a troponin measured at each of the five major
+      academic centres between 2010 (2008 for University College Hospital) and 2017. The
+      investigators identified a total of 257948 patient records who underwent troponin testing
+      during the study period.
+
+      A Committee of Experts validates the protocol methodology and supervises the data management.
+      A Steering Committee oversees study proposals including hypotheses, study design and
+      statistical analyses including planned outcome measures.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">January 2016</start_date>
+  <completion_date type="Anticipated">December 2019</completion_date>
+  <primary_completion_date type="Anticipated">April 2018</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>3 Years</target_duration>
+  <primary_outcome>
+    <measure>Mortality, all-cause</measure>
+    <time_frame>Hospital admission to 3 years follow-up</time_frame>
+    <description>Incidence of death including in-hospital, short-term and long-term mortality</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Coronary angiography</measure>
+    <time_frame>Hospital admission to 3 years follow-up</time_frame>
+    <description>In-patient or outpatient coronary angiography</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percutaneous coronary intervention</measure>
+    <time_frame>Hospital admission to 3 years follow-up</time_frame>
+    <description>In-patient or outpatient percutaneous coronary intervention</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Coronary artery bypass graft</measure>
+    <time_frame>Hospital admission to 3 years follow-up</time_frame>
+    <description>In-patient or outpatient coronary artery bypass grafting</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Readmission rate</measure>
+    <time_frame>Hospital discharge to 3 years follow-up</time_frame>
+    <description>Readmission rate after index hospital admission</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">257948</enrollment>
+  <condition>Troponin</condition>
+  <condition>Age</condition>
+  <condition>Mortality</condition>
+  <condition>Acute Coronary Syndrome</condition>
+  <arm_group>
+    <arm_group_label>To be specified by Steering Committee.</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients with electronic records at collaborating hospitals.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All patients presenting to one of the collaborating hospitals.
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jamil Mayet</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Imperial College London</affiliation>
+  </overall_official>
+  <link>
+    <url>http://www.imperial.ac.uk/news/176510/creating-aposbig-data-from-health-records/</url>
+    <description>Creating 'big data' from health records to improve care</description>
+  </link>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 23, 2018</study_first_submitted>
+  <study_first_submitted_qc>April 24, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 25, 2018</study_first_posted>
+  <last_update_submitted>April 24, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 24, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 25, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Imperial College London</investigator_affiliation>
+    <investigator_full_name>Jamil Mayet</investigator_full_name>
+    <investigator_title>Professor of Cardiology</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Acute Coronary Syndrome</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>De-identified individual electronic patient record data for all primary and secondary outcome measures will be made available.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

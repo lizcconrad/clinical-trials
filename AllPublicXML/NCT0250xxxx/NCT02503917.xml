@@ -1,0 +1,204 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02503917</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CCR4342</org_study_id>
+    <nct_id>NCT02503917</nct_id>
+  </id_info>
+  <brief_title>Gynaecologic Organ Segmentation and Motion Tracking Using Ultrasound</brief_title>
+  <acronym>GENIUS</acronym>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Royal Marsden NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Institute of Cancer Research, United Kingdom</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Royal Marsden NHS Foundation Trust</source>
+  <brief_summary>
+    <textblock>
+      This study will establish the feasibility and accuracy of localising and outlining the uterus
+      on ultrasound images using both healthy volunteer and cervical patient cohorts. This will
+      enable us to determine whether or not ultrasound will be a good option to ensure the correct
+      patient position prior to radiotherapy for cervical cancer patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Radiotherapy is an established and effective method for treating cancer, but it can have
+      negative side effects if healthy tissues are also exposed to radiation. In the case of
+      cervical cancer, the bladder, small bowel, and bone marrow are often irradiated, which can
+      result in both short-term and long-term side effects. There are sophisticated radiation
+      delivery techniques (known as IMRT and VMAT) which are capable of administering the radiation
+      dose in a precise and controlled manner so that the intended target is irradiated and the
+      healthy tissue is spared. However, the only way for these sophisticated radiation delivery
+      methods to work in cervical cancer is to localise the uterus prior to radiotherapy treatment
+      so that the lineup between the radiation beam and the target is ensured. The uterus is a
+      relatively mobile organ, and can have very different positions within the body depending on
+      the patient position, bladder volume, tumour site, etc. Currently, we are unable to take
+      advantage of the sophisticated radiation delivery techniques as we have no reliable way of
+      seeing where the uterus is. Ultrasound is a promising way to overcome this problem.
+
+      Ultrasound is non-ionising, has good soft-tissue contrast, and can easily be incorporated
+      into the radiation treatment room. We wish to establish the feasibility and accuracy of
+      localising and outlining the uterus on ultrasound images. This will enable us to determine
+      whether or not ultrasound will be a good option to ensure the correct patient position prior
+      to radiotherapy for cervical cancer patients.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>September 2015</start_date>
+  <completion_date type="Anticipated">October 2016</completion_date>
+  <primary_completion_date type="Anticipated">September 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of ultrasound scans with dice similarity coefficient (DSC) of &gt;0.90 between algorithm-derived contour and ground-truth contour</measure>
+    <time_frame>DSC calculated at 24 time points for each healthy volunteer (3 days)</time_frame>
+    <description>The DSC between the ground truth contour and the algorithm derived contour will indicate the accuracy of the segmentation algorithm.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Coefficient of variation between of expert-drawn contours on ultrasound and expert-drawn contours on CBCT</measure>
+    <time_frame>COV calculated at a minimum of 3 time points during 6 weeks that the patient is receiving radiation therapy</time_frame>
+    <description>A small COV will indicate greater clinician/expert confidence in segmenting the uterus</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Bland-Altman plot (healthy volunteer cohort)</measure>
+    <time_frame>1 day</time_frame>
+    <description>Used to describe the level of agreement between MR and ultrasound images of the uterus.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Uterine center of mass displacement on ultrasound (healthy volunteer cohort)</measure>
+    <time_frame>3 days</time_frame>
+    <description>Assess both inter- and intra- fractional motion of the uterus.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Expert confidence scores for each imaging modality (ultrasound and MR) (healthy volunteer cohort)</measure>
+    <time_frame>from data collected over 3 days</time_frame>
+    <description>Determine if uterine segmentation on ultrasound receives acceptable confidence score compared with MR</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Bland-Altman plot (patient volunteer cohort)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>describe level of agreement among the COV, circularity index, volume, and centre of mass position betweeen ultrasound, CT, and CBCT.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Expert confidence scores for each imaging modality (ultrasound, CT, and CBCT) (patient volunteer cohort)</measure>
+    <time_frame>from data collected over 6 weeks</time_frame>
+    <description>Determine if uterine segmentation on ultrasound receives greater confidence score compared with CT and CBCT.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">25</enrollment>
+  <condition>Cervical Cancer</condition>
+  <arm_group>
+    <arm_group_label>Healthy volunteers</arm_group_label>
+    <description>Healthy female adult volunteers</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cervical cancer patients</arm_group_label>
+    <description>Patients receiving radiotherapy for cervical cancer at the Royal Marsden who will receive a planning CT scan and daily CBCT scanning as part of their treatment.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        healthy volunteer cohort: Healthy female adult volunteers patient volunteer cohort:
+        Patients receiving radiotherapy for cervical cancer who will receive a planning CT scan and
+        daily CBCT scanning as part of their treatment.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  healthy volunteer cohort: Healthy female adult volunteers
+
+          -  patient volunteer cohort: Patients receiving radiotherapy for cervical cancer who will
+             receive a planning CT scan and daily CBCT scanning as part of their treatment.
+
+        Exclusion Criteria:
+
+          -  both cohorts: Women who have received hysterectomies and women who are pregnant at the
+             time of the study
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Susan Lalondrelle</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Royal Marsden Hospital NHS Foundation Trust</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Julie Curtis</last_name>
+    <phone>02086713873</phone>
+    <email>julie.curtis@rmh.nhs.uk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Royal Marsden Hospital NHS Foundation Trust</name>
+      <address>
+        <city>Sutton</city>
+        <state>Surrey</state>
+        <zip>SM2 5PT</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Julie Curtis</last_name>
+      <phone>02086713873</phone>
+      <email>julie.curtis@rmh.nhs.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Sarah Mason</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>May 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 17, 2015</study_first_submitted>
+  <study_first_submitted_qc>July 17, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 21, 2015</study_first_posted>
+  <last_update_submitted>May 20, 2016</last_update_submitted>
+  <last_update_submitted_qc>May 20, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 23, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Imaging, Ultrasound</keyword>
+  <keyword>Image-guided radiotherapy</keyword>
+  <keyword>Cancer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Uterine Cervical Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

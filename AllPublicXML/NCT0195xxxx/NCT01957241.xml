@@ -1,0 +1,184 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01957241</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20110606IRC</org_study_id>
+    <nct_id>NCT01957241</nct_id>
+  </id_info>
+  <brief_title>PLA for HCC and Esophageal ca Serum</brief_title>
+  <official_title>Serum Biomarker Study for the Prognosis of Patients With Hepatocellular Carcinoma and Esophageal Cancer Undergoing Radiotherapy Using Multiplex Proximity Ligation Assay</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Taiwan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Taiwan University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary goal of this study is to quantify the biomarkers of pre-radiation therapy(RT),
+      during-RT, and post-RT serum samples from hepatocellular carcinoma (HCC) and esophageal
+      cancer patients undergoing definitive or neoadjuvant RT, and to correlate them with tumor
+      response, patterns of failure, survival outcome, and RT-related lung or liver toxicity. The
+      secondary goal of this study is to set up the PLA platform in our institute for future
+      biomarker test.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      There have been many biomarkers, such as angiogenesis factors and cytokines, related to
+      cancer progression or microenvironment interaction. However, the commonly used enzyme-linked
+      immunosorbent assay (ELISA) requires the certain volume of each sample for specific antigen
+      or antibody. It may not be practically efficient to test a broad spectrum of biomarkers with
+      limited volumes of serum from cancer patients. Proximity ligation assay (PLA), an established
+      concept and platform requiring very little sample volume to quantitatively detect a variety
+      of biomarkers, is being developed with multiplex versions of improved sensitivity and dynamic
+      range by the Stanford group. From the three completed trials (&quot;In vivo/vitro
+      radiation-induced liver disease in HBV carrier（9261700196）&quot;, &quot;Bystander effect study of
+      radiation-induced viral hepatitis B reactivation（9261700196）&quot;, and &quot;Pre- and
+      post-chemoradiation blood RNA-microarray analysis to predict response and outcome of locally
+      advanced esophageal squamous cell carcinoma（200805061R）&quot;) and one ongoing trial (&quot;A phase I
+      dose escalation trial of conformal hypofractionated radiation therapy for patients with
+      hepatitis B virus-related Child A cirrhosis and hepatocellular carcinoma（200906051R）&quot;), we
+      have collected the pre-treatment and post-treatment serum samples of patients with
+      hepatocellular carcinoma undergoing definitive radiotherapy and patients with esophageal
+      cancer undergoing neoadjuvant chemoradiotherapy. Altered patterns of failure for
+      post-radiotherapy hepatocellular carcinoma, especially intrahepatic and extrahepatic
+      metastasis, and treatment response for post-chemoradiotherapy esophageal cancer upon
+      esophagectomy, demands the effective biomarkers for the early prediction and appropriate
+      management. The limited sample volumes form the obstacle of testing adequate number of
+      biomarkers by ELISA. In this study we plan to collaborate with the Stanford group, to send
+      and process these samples (100 μL each) to measure the dynamic changes of up to 56 or more
+      biomarkers. We try to find the potential biomarkers correlating with treatment responses and
+      patterns of failure for the future clinical practice, and wish to set up this viable PLA
+      platform in our institute through this collaboration.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>August 2011</start_date>
+  <completion_date type="Anticipated">December 2014</completion_date>
+  <primary_completion_date type="Anticipated">December 2014</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>BIOMARKER PANEL SELECTION AND MODELING</measure>
+    <time_frame>3 years</time_frame>
+    <description>All statistical analyses completed in this study are executed using the R statistical computing environment. To select the discrete set of biomarkers used to fit models of HCC or esophageal cancer diagnosis, we use the R distribution of the Prediction Analysis of Microarrays statistical technique, PAMR. Logistic regression models are fit using the generalized linear model function in R.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>SURVIVAL AND RT-RELATED TOXICITY ANALYSIS AND MODELING</measure>
+    <time_frame>3 years</time_frame>
+    <description>Survival data are fit to a right-censored model using the Survival function in the R statistical computing environment. Univariate and multivariate Cox proportional hazards models are fit onto survival data using the coxph function. Hazard ratios are calculated as the ratios of risk by the increase or decrease of 1 log2 PLA unit (2-fold increase or decrease in serum concentration of a biomarker). Lung or liver toxicity is graded by Common Toxicity Criteria version 3.0. Grade of toxicity is defined as the categorical variable and is correlated with the ratios of risk by the increase or decrease of 1 log2 PLA unit.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">164</enrollment>
+  <condition>Hepatocellular Carcinoma</condition>
+  <condition>Esophageal Cancer</condition>
+  <arm_group>
+    <arm_group_label>Hepatocellular Carcinoma and Esophageal Cancer</arm_group_label>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      We have collected the serum samples of patients before, during, and after RT with consent of
+      two completed clinical trials and one active trial.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        We collected the pre-treatment and post-treatment serum samples of patients with
+        hepatocellular carcinoma undergoing definitive radiotherapy and patients with esophageal
+        cancer undergoing neoadjuvant chemoradiotherapy.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinical diagnosis of locally advanced esophageal cancer or Hepatocellular Carcinoma,
+             RT is indicated
+
+          -  Informed consent signed
+
+        Exclusion Criteria:
+
+          -  not completed RT
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jason Chia-Hsien Cheng, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Oncology, National Taiwan University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jason Chia-Hsien Cheng, MD, PhD</last_name>
+    <phone>886-23123456</phone>
+    <phone_ext>62842</phone_ext>
+    <email>jasoncheng@ntu.edu.tw</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>National Taiwan University Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jason Chia-Hsien Cheng, MD, PhD</last_name>
+      <phone>886-23123456</phone>
+      <phone_ext>62842</phone_ext>
+      <email>jasoncheng@ntu.edu.tw</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>April 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 24, 2013</study_first_submitted>
+  <study_first_submitted_qc>September 30, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 8, 2013</study_first_posted>
+  <last_update_submitted>April 15, 2014</last_update_submitted>
+  <last_update_submitted_qc>April 15, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 16, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma</mesh_term>
+    <mesh_term>Carcinoma, Hepatocellular</mesh_term>
+    <mesh_term>Esophageal Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

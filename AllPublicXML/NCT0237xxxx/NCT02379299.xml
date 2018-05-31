@@ -1,0 +1,188 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02379299</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DHCL2014</org_study_id>
+    <nct_id>NCT02379299</nct_id>
+  </id_info>
+  <brief_title>DiaCon Dual-Hormone Closed-Loop Glucose Control</brief_title>
+  <official_title>Dual-Hormone Closed-Loop Glucose Control in Type 1 Diabetes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hvidovre University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Technical University of Denmark</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hvidovre University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The ultimate T1D treatment tool is a closed-loop glucose control system, i.e. a fully
+      automated system for intensive insulin treatment. Such system will ease the burden of
+      constant treatment decision-making and at the same time it has the potential to safely
+      intensify insulin therapy such that more patients can reach treatment goals. Currently, no
+      off-the-shelf closed-loop system exists but research efforts in this field have been
+      intensified and resulted in great progress in recent years. Most closed-loop systems consist
+      of an insulin pump, a CGM, and a control algorithm residing on a mobile computer that
+      continuously (every 5-15 min) computes the optimal insulin dosage from the CGM values. For
+      daytime blood glucose control, however, we believe that the system needs to be further
+      advanced. Consequently, we have extended our single-hormone closed-loop system such that it
+      now includes a second pump for glucagon delivery and correspondingly we have further
+      developed our control algorithm to compute both insulin and glucagon dosages.
+
+      We hypothesize that we have developed a safe and effective dual-hormone closed-loop system
+      for patients with type 1 diabetes and that this system is superior to single-hormone
+      closed-loop therapy. The aims of this two-phase project are to 1) demonstrate
+      proof-of-concept and 2) to compare dual-hormone with single-hormone closed-loop glucose
+      control.
+    </textblock>
+  </brief_summary>
+  <overall_status>Withdrawn</overall_status>
+  <primary_completion_date type="Actual">July 22, 2017</primary_completion_date>
+  <phase>Phase 2/Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of time with glucose values &lt; 3.9 mmol/l as measured by Continuous Glucose Monitoring and Yellow Spring Instruments</measure>
+    <time_frame>Every 5 minutes for 33 hours (total duration of each study arm)</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of CHO interventions to treat hypoglycemia</measure>
+    <time_frame>33 hours (total duration of each study arm)</time_frame>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">0</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>Single-hormone closed-loop control</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Closed-loop glucose control by use of insulin only by use of DiaCon single-hormone closed-loop glucose control algorithm</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Dual-hormone closed-loop control</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Closed-loop glucose control by use of insulin and glucagon by use of DiaCon dual-hormone closed-loop glucose control algorithm</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>DiaCon dual-hormone closed-loop glucose control algorithm</intervention_name>
+    <description>Dual-hormone closed-loop glucose control</description>
+    <arm_group_label>Dual-hormone closed-loop control</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>DiaCon single-hormone closed-loop glucose control algorithm</intervention_name>
+    <description>Single-hormone closed-loop glucose control</description>
+    <arm_group_label>Single-hormone closed-loop control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  T1D ≥ 2 years
+
+          -  Insulin pump therapy with rapid-acting analog insulin ≥ 1 year
+
+          -  HbA1c ≤ 8.5% (69 mmol/mol)
+
+          -  Ability and willingness to comply with all protocol procedures
+
+        Exclusion Criteria:
+
+          -  Pregnancy or nursing
+
+          -  Plan to become pregnant or sexually active and not using adequate contraceptive
+             methods (sterilization, intrauterine device, contraceptive pill, patch or injection)
+
+          -  Hypoglycemia unawareness (self-reported lack of hypoglycemia symptoms when blood
+             glucose is &lt; 3.0 mmol/l)
+
+          -  Use of anti-diabetic medicine (other than insulin), corticosteroids or other drugs
+             affecting glucose metabolism during or within 30 days prior to study participation
+
+          -  History of coronary artery disease or congestive heart failure
+
+          -  Abnormal ECG suggestive of coronary artery disease and increased risk of malignant
+             arrhythmia
+
+          -  Allergy to glucagon or lactose
+
+          -  Pheochromocytoma
+
+          -  Other concomitant medical or psychological condition that according to the
+             investigator's assessment makes the patient unsuitable for study participation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Signe Schmidt, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hvidovre University Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Hvidovre University Hospital</name>
+      <address>
+        <city>Hvidovre</city>
+        <zip>2650</zip>
+        <country>Denmark</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Denmark</country>
+  </location_countries>
+  <verification_date>August 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 27, 2015</study_first_submitted>
+  <study_first_submitted_qc>February 27, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 4, 2015</study_first_posted>
+  <last_update_submitted>August 8, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 8, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 9, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Hvidovre University Hospital</investigator_affiliation>
+    <investigator_full_name>Signe Schmidt</investigator_full_name>
+    <investigator_title>MD</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hormones</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

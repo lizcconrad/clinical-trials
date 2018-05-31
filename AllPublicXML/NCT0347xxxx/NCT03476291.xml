@@ -1,0 +1,162 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03476291</url>
+  </required_header>
+  <id_info>
+    <org_study_id>JSPH-AIOCT-001</org_study_id>
+    <nct_id>NCT03476291</nct_id>
+  </id_info>
+  <brief_title>Research of Automated Maculopathy Screening Based on AI Techniques Using OCT Images</brief_title>
+  <official_title>Research of Automated Maculopathy Screening by Optical Coherent Tomography Image-based Deep Learning Techniques</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The First Affiliated Hospital with Nanjing Medical University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The First Affiliated Hospital with Nanjing Medical University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators expect to develop an algorithm that can interpret OCT images and automated
+      determine whether the macula is normal or not by using OCT image-based deep learning
+      techniques. And investigators wish to develop software applications that will help better
+      screen and diagnose macular diseases in resource-limited areas.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators will apply deep learning convolutional neural network by using ImageNet for
+      an automated detection of multiple retinal diseases with OCT horizontal B-scans with a
+      high-quality labeled database. Datasets, including training dataset, testing dataset and
+      validation datasets, will be built by ophthalmologists of the First affiliated hospital of
+      Nanjing Medical University according to the standardized annotation guidelines.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">June 30, 2017</start_date>
+  <completion_date type="Anticipated">December 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 1, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>receiver operating characteristic(ROC) curve of the algorithm</measure>
+    <time_frame>approximately 1 year</time_frame>
+    <description>It is also called sensitivity curve. The ROC curve shows how sensitive the algorithm model is to automatically detect the desired output.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Area under the ROC curve(AUC)</measure>
+    <time_frame>approximately 1 year</time_frame>
+    <description>It shows the operating value of the algorithm model, which can represent the effect of the model.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">20000</enrollment>
+  <condition>Maculopathy</condition>
+  <arm_group>
+    <arm_group_label>Normal</arm_group_label>
+    <description>normal macular structure of horizontal OCT B-scans</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Abnormal</arm_group_label>
+    <description>abnormal macular structure of horizontal OCT B-scans, including many sub-categories of pathological features, like epiretinal membrane, pigment epithelium detachment, ect.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        no age limited, no gender-based
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All patients attending the Ophthalmology Department of the First Affiliated Hospital
+             of Nanjing Medical University within 5 years and who received known, clear diagnoses
+             with digital retinal imaging (including OCT, fundus digital photographs and fundus
+             fluorescein angiography, at least with OCT images) as part of their routine clinical
+             care, will be eligible for inclusion in this study.
+
+        Exclusion Criteria:
+
+          -  Hardcopy examinations (i.e., photos of paper reports of OCT imaging performed at other
+             hospitals) will be ineligible.
+
+          -  Data from patients who have previously manually requested that their data should not
+             be shared, even for research purposes in anonymised form, and have informed the
+             Ophthalmology Department of the First Affiliated Hospital of Nanjing Medical
+             University of this desire (even in previously conducted studies or other on-going
+             studies in this hospital), will be excluded, and their data will not be upload to the
+             cloud platform before research begins.
+
+          -  Data from eyes tamponed with silicone oil or gas (i.e., C3F8) will be ineligible.
+
+          -  Data with poor image quality, such as incomplete images, inverted images, blurred or
+             cracked images and images with a very weak signal (i.e., vitreous haemorrhage), will
+             be ineligible.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Songtao Yuan, doctor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The First Affiliated Hospital with Nanjing Medical University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>The First Affiliated Hospital with Nanjing Medical University</name>
+      <address>
+        <city>Nanjing</city>
+        <state>Jiangsu</state>
+        <zip>210029</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 26, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 22, 2018</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 26, 2018</study_first_posted>
+  <last_update_submitted>March 22, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 22, 2018</last_update_submitted_qc>
+  <last_update_posted type="Estimate">March 26, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>macular diseases</keyword>
+  <keyword>screening</keyword>
+  <keyword>OCT</keyword>
+  <keyword>Deep learning</keyword>
+  <keyword>AI</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

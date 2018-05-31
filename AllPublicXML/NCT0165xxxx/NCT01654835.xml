@@ -1,0 +1,154 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01654835</url>
+  </required_header>
+  <id_info>
+    <org_study_id>12-587</org_study_id>
+    <nct_id>NCT01654835</nct_id>
+  </id_info>
+  <brief_title>A Effectiveness Trial of Early Hemodynamic Support in Patients Demonstrating a Low Systolic Blood Pressure</brief_title>
+  <official_title>A Effectiveness Trial of Early Hemodynamic Support in Patients Demonstrating a Low Systolic Blood Pressure</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The Cleveland Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The Cleveland Clinic</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators thus propose to use an innovative randomized effectiveness trial design to
+      test the theory that early automatic identification of a ¡ Low Systolic Blood Pressure¡±
+      clinical condition and decision-support alerts will prompt earlier hemodynamic support and a
+      consequently reduce the duration of such conditions. Specifically, the investigators will
+      test the hypothesis that providing DSS alerts in regards to hypotension reduces the duration
+      of hypotensive episodes. The core of the investigators study will be an existing electronic
+      anesthesia record and smart-alarm decision-support system. All patients undergoing surgery at
+      Hillcrest will be randomly assigned to routine care or to DSS support. In patients assigned
+      to DSS support, a systolic blood pressure less than 80 mmHg will generate a warning within
+      three minutes after detection. Clinicians will be free to act on the alert, ignore the alert,
+      or to consider the provided information without acting on it. The randomization, complete
+      anesthesia record, detailed record of hypotensive events, alerts provided, clinician
+      responses, and SAP response, will be captured by the investigators electronic record-keeping
+      system. The investigators primary outcome will be the duration of time the patient has a
+      systolic blood pressure less than 80 mmHg. Secondary outcome will be duration of
+      hospitalization. The investigators will assess the effect of the alert on the primary outcome
+      of time to SBP returning to above 80 mmHg using survival analysis, with time to event
+      censored (and considered a non-event) at either the end of surgery or end of monitoring if
+      patient did not return to above 80 mmHg.
+    </textblock>
+  </brief_summary>
+  <overall_status>Withdrawn</overall_status>
+  <start_date>July 2012</start_date>
+  <completion_date type="Actual">December 2013</completion_date>
+  <primary_completion_date type="Actual">December 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>duration of time having low blood pressure</measure>
+    <time_frame>day 1</time_frame>
+    <description>We plan to test the hypothesis that providing hypotension alerts reduces the duration of time patients spend in a low blood pressure condition.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>hypotension</measure>
+    <time_frame>day 1</time_frame>
+    <description>Secondary outcome will be the incidence of hypotension as well as duration of hospitalization</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>duration of hospitalization</measure>
+    <time_frame>up to day 3</time_frame>
+    <description>Secondary outcome will be the incidence of hypotension as well as duration of hospitalization</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">0</enrollment>
+  <condition>Intraoperative Low Blood Pressure</condition>
+  <arm_group>
+    <arm_group_label>low blood pressure alert</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>A Low Blood Pressure condition as specified (SAP &lt;80 mmHg)will trigger an page to be sent to all anesthesia providers in &lt;1 min that will read: &quot;A Low Blood Pressure condition has been detected. Consider hemodynamic support.&quot;</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>no low blood pressure alert</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>The Low Blood Pressure condition will be monitored by treatment team, but additional alert will not be sent to treatment team.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>low blood pressure alert</intervention_name>
+    <description>A Low Blood Pressure condition as specified (SAP &lt;80 mmHg)will trigger an page to be sent to all anesthesia providers in &lt;1 min that will read: &quot;A Low Blood Pressure condition has been detected. Consider hemodynamic support.&quot;</description>
+    <arm_group_label>low blood pressure alert</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>standard of care</intervention_name>
+    <description>A Low Blood Pressure condition as specified (SAP &lt;80 mmHg)will be monitored by treatment team upon detection, but additional paged alert will not be generated.</description>
+    <arm_group_label>no low blood pressure alert</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients will be enrolled in the study if systolic blood pressure (SBP) is measured to
+             be below 80 mmHg for at least 3 minutes, either with the arterial line or cuff
+             (non-invasive blood pressure, NIBP).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Hillcrest Hospital Cleveland Clinic</name>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44195</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 17, 2012</study_first_submitted>
+  <study_first_submitted_qc>July 31, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 1, 2012</study_first_posted>
+  <last_update_submitted>January 23, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 23, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 25, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypotension</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

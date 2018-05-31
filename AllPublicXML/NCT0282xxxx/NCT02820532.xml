@@ -1,0 +1,210 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02820532</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2016-00163</org_study_id>
+    <nct_id>NCT02820532</nct_id>
+  </id_info>
+  <brief_title>Influence of Couch Tracking Motion</brief_title>
+  <official_title>Influence of Couch Tracking Motion on Physiological Parameters</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Zurich</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Technical University Zurich</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Zurich</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Tumor motion increases the uncertainty in Radiation Oncology. Couch tracking can compensate
+      for this uncertainty. However it is not known if the couch motion influences the respiratory
+      pattern of the patients. This will be evaluated in this study on healthy volunteers.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Radiation therapy is one of the main options in cancer treatments, alongside surgery and
+      chemotherapy. Its efficacy largely depends on the absorbed radiation dose of the tumor cells.
+      However, the irradiation of healthy cells results in negative side effects for the patient.
+      Therefore, a big challenge in radiation therapy is to irradiate the tumor with sufficient
+      dose, while keeping the irradiation of the healthy tissue reasonably low. Currently, the
+      radiation treatment is planned by defining a volume enclosing the tumor, but with added
+      margins to account for any uncertainties. These margins ensure that the tumor receives the
+      prescribed dose.
+
+      Tumor motion contributes to the uncertainties. The tumor motions of tumors in different sites
+      have different causes, but for this project the focus is on thoracic, liver, and adrenal
+      gland tumors. The motion of these tumor types is mainly caused by the patient's respiration.
+      So, the tumor motion pattern depends on the respiration pattern of the patient. The motion of
+      lung tumors has been reported to have a peak-to-peak amplitude of up to 24 mm. Currently, the
+      tumor motion is handled by enlarging the margins, such that the tumor is always inside the
+      defined volume. But enlarging the margins also results in an increase of irradiated volume
+      consisting of healthy tissue.
+
+      Tumor motion mitigation is concerned with reducing the margin increase caused by the motion
+      of the tumor. There are several approaches to tumor motion mitigation and the one under
+      consideration in this project is the tumor tracking approach, the technically most difficult
+      approach. In tumor tracking the tumor motion is continuously compensated by moving the
+      radiation source modifying the radiation beam, or moving the patient, which is denoted as
+      couch tracking.
+
+      In couch tracking, the patient is moved by the robotic treatment couch. Such robotic
+      treatment couches are in use with conventional, widely available C-arm linear accelerators,
+      and, therefore, are readily available for implementing couch tracking. The patient is placed
+      on a couch which moves in the opposite direction of the tumor motion. The goal is to minimize
+      the patient's tumor motion relative to the radiation, which in turn allows the margins to be
+      decreased. The margin decrease might ultimately lead to a reduction of side effects, e.g.
+      pneumonitis.
+
+      The motion of the couch depends on the motion of the tumor, which in turn depends on the
+      respiration of the patient. However, the couch motion may influence the patient's well being
+      or the patient's respiration. So the question arises: Does the motion of the couch have an
+      influence on the respiration behavior? And also: Does the motion of the couch have an
+      influence on the well being (motion sickness)? And are the well-being and the respiration
+      behavior connected? If the respiration behavior does depend on the couch motion, it may be
+      necessary to control the respiration behavior. Additionally, in the study, the investigators
+      will check an assumption in couch tracking, namely that the patient's body is rigidly fixed
+      to the couch. If this assumption does not hold, the motion of the patient's body relative to
+      the couch will have to be taken into account in couch tracking.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2016</start_date>
+  <completion_date type="Actual">April 2018</completion_date>
+  <primary_completion_date type="Actual">April 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Respiratory amplitude</measure>
+    <time_frame>baseline and 20 min</time_frame>
+    <description>Change of respiratory motion due to couch motion. Respiration will be measured on the chest wall using a contact-free measurement.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Heart beat</measure>
+    <time_frame>baseline and 20 min</time_frame>
+    <description>The heart beat will be measured on the palm of the hand during the static and the couch motion phase.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Skin humidity</measure>
+    <time_frame>baseline and 20 min</time_frame>
+    <description>The skin humidity will be measured on the hand palm during the static and the phase in motion.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pupil motion</measure>
+    <time_frame>baseline and 20 min</time_frame>
+    <description>The change in pupil motion during tracking compared to static condition will be assessed using eye tracking glasses.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Body motion</measure>
+    <time_frame>baseline and 20 min</time_frame>
+    <description>The influence of the couch motion on the body motion will be assessed using a surface detection system.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Motion sickness</measure>
+    <time_frame>baseline and 20 min</time_frame>
+    <description>With a questionaire the motion sickness is assessed, which the participants might experience during couch motion</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Respiratory Amplitude</condition>
+  <arm_group>
+    <arm_group_label>Tracking</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>The volunteers will be placed on the treatment couch. Their respiratory motion will be measured and the treatment couch will be moved accordingly. During the couch motion experiment the heartbeat, the skin humidity, the respiratory characteristics and the pupil motion will be additionally measured.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Protura Treatment table</intervention_name>
+    <description>The treatment couch will be moved according to the respiratory motion of the patient. As a reference first the respiration will be measured without couch motion, than the couch will be switched on and we will evaluate if the respiration changes due to the motion of the couch. This procedure will be repeated once.</description>
+    <arm_group_label>Tracking</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Healthy volunteers
+
+          -  Male and Female subjects
+
+          -  ≥18 and ≤100 years
+
+          -  Written informed consent by the participant after information about the project
+
+          -  German speaking
+
+        Exclusion Criteria:
+
+          -  Known or suspected non-compliance, drug or alcohol abuse,
+
+          -  Inability to follow the procedures of the study, e.g. due to language problems,
+             psychological disorders, dementia, etc. of the participant,
+
+          -  Body weight exceeding 200kg
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Matthias Guckenberger, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Hospital Zurich, Department of Radiation Oncology</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University Hospital Zurich</name>
+      <address>
+        <city>Zurich</city>
+        <zip>8091</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 20, 2016</study_first_submitted>
+  <study_first_submitted_qc>June 28, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 1, 2016</study_first_posted>
+  <last_update_submitted>May 2, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 2, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 8, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

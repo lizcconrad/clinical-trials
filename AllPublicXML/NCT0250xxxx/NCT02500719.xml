@@ -1,0 +1,196 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02500719</url>
+  </required_header>
+  <id_info>
+    <org_study_id>203600</org_study_id>
+    <nct_id>NCT02500719</nct_id>
+  </id_info>
+  <brief_title>Real-time Functional MRI and Neurofeedback of Brain Networks Mediating Trauma Memory Recall in PTSD</brief_title>
+  <official_title>Real-time Functional MRI and Neurofeedback of Brain Networks Mediating Trauma</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Arkansas</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Arkansas</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the current study is to develop a better understanding of the brain mechanisms
+      involved in psychological treatments for posttraumatic stress disorder (PTSD). This project
+      will build on past research using script-driven imagery in our lab by investigating brain
+      activity in areas activated during exposure to trauma-related cues. This project will also
+      develop new knowledge concerning volitional control of those areas. The ultimate goal of this
+      study is a better understanding of whether volitional control of these brain areas will
+      improve therapeutic outcomes. This process will first be piloted in a sample of healthy
+      controls. This will allow investigators to refine the methodology prior to recruiting a
+      sample with PTSD.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Post-traumatic stress disorder (PTSD) is characterized by intense emotional distress upon
+      exposure to trauma reminders and avoidance of people and places that can trigger the trauma
+      memory. Neurocircuitry models of PTSD that seek to explain symptoms of heightened emotional
+      reactivity, hypervigilance for threat, and avoidance suggest abnormal activity of neural
+      regions involved in emotional reactivity (e.g., amygdala) and cognitive control of emotional
+      responding (e.g., ventral medial prefrontal cortex, anterior cingulate cortex). While
+      knowledge exists about neurobiological abnormalities associated with PTSD, these data are
+      cross-sectional in nature and ignore individual differences in both neural encoding and
+      subjective aspects of the trauma itself (e.g., whether it elicits fear vs guilt vs disgust).
+      Additionally, the manner by which existing psychological treatments alter these neural
+      mechanisms mediating core PTSD symptoms is unknown. This is problematic, given that
+      state-of-the-art treatment for PTSD is only effective ~60% of the time.
+
+      Here, the investigator proposes to utilize a novel computational modeling approach combined
+      with state-of-the-art functional magnetic resonance imaging (fMRI)-based neurofeedback to
+      directly identify and modulate the idiosyncratic neural network encoding the trauma memory.
+      Successful pursuit of these aims would 1) provide scientific support for the hypothesis that
+      a distributed network including the amygdala, hippocampus, medial prefrontal cortex (PFC),
+      lateral PFC, and anterior insula mediates emotional responding upon trauma memory recall, and
+      2) provide proof-of-concept evidence that neurofeedback modulation of this network can boost
+      existing therapy efficacy.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">August 15, 2015</start_date>
+  <completion_date type="Anticipated">August 2018</completion_date>
+  <primary_completion_date type="Anticipated">August 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Patient response to the brain mechanisms mediating emotional response arousal as measured using the Q-fitted algorithim.</measure>
+    <time_frame>Up to 30 days at time of MRI</time_frame>
+    <description>The Q fitted algorithim is calculated using support vector regression models with radial basis function kernels derived from functional MRI data.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">27</enrollment>
+  <condition>Stress Disorders, Post-Traumatic</condition>
+  <arm_group>
+    <arm_group_label>Healthy Participants</arm_group_label>
+    <description>A group of healthy participants will be enrolled first in the pilot phase of the study. This phase allows for the refinement of the application of our Fitted Q Learning algorithm prior to implementing with our PTSD participant group.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PTSD Participants</arm_group_label>
+    <description>A group of participants with symptoms of PTSD will be enrolled in the implementation phase of the study. This phase allows for the evaluation brain networks thought to mediate emotional arousal, specifically whether participants can learn volitional control of these networks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Fitted Q Learning Algorithm</intervention_name>
+    <description>A reinforcement learning algorithm, fitted Q learning, will be applied to fMRI and skin conductance response (SCR) data to identify distributed patterns of co-activated brain regions that specifically encode high emotional arousal (i.e,. high SCR) to the stress/trauma memory. The resulting idiosyncratic brain map would inform the neurofeedback phase in the next stage of fMRI data collection. This approach will first be piloted in the healthy participant group, then implemented in the PTSD participant group.</description>
+    <arm_group_label>Healthy Participants</arm_group_label>
+    <arm_group_label>PTSD Participants</arm_group_label>
+    <other_name>Reinforcement Learning Algorithm</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Both groups will represent a convenience sample of participants who self-identify into a
+        group
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Female
+
+          -  Aged 21-50
+
+          -  Medically healthy
+
+        Exclusion Criteria:
+
+          -  Claustrophobia, or the inability to lie still in a confined space
+
+          -  Major medical disorders (e.g., HIV, cancer)
+
+          -  Magnetic metallic implants (such as screws, pins, shrapnel remnants, aneurysm clips,
+             artificial heart valves, inner ear (cochlear) implants, artificial joints, and
+             vascular stents)
+
+          -  Electronic or magnetic implants, such as pacemakers
+
+          -  Permanent makeup or tattoos with metallic dyes
+
+          -  Currently pregnant
+
+          -  A self-reported history of loss of consciousness (greater than 10 minutes)
+
+          -  Physical disabilities that prohibit task performance (such as blindness or deafness)
+
+          -  Psychotic disorders (e.g., schizophrenia)
+
+          -  Any other condition that the investigator believes might put the participant at risk
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>50 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Keith Bush, PhD.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Arkansas</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Arkansas for Medical Sciences</name>
+      <address>
+        <city>Little Rock</city>
+        <state>Arkansas</state>
+        <zip>72205</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 7, 2015</study_first_submitted>
+  <study_first_submitted_qc>July 14, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 16, 2015</study_first_posted>
+  <last_update_submitted>March 28, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 28, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 29, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Posttraumatic Stress Disorder</keyword>
+  <keyword>Neurofeedback</keyword>
+  <keyword>fMRI</keyword>
+  <keyword>Skin Conductance Response</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stress Disorders, Traumatic</mesh_term>
+    <mesh_term>Stress Disorders, Post-Traumatic</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

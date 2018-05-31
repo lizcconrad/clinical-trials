@@ -1,0 +1,290 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03453593</url>
+  </required_header>
+  <id_info>
+    <org_study_id>erika-bengtsson-201802231437</org_study_id>
+    <nct_id>NCT03453593</nct_id>
+  </id_info>
+  <brief_title>Time to Computed Tomography and Association With Survival in Indian Trauma Patients</brief_title>
+  <official_title>How is Time to Computed Tomography Associated With Survival in Adult Trauma Patients in an Urban Lower-middle Income Setting?</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Karolinska Institutet</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Karolinska Institutet</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study aims to assess whether time to CT is associated with survival in adult trauma
+      patients in an urban lower-middle income setting.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background
+
+      Trauma is major threat to population health worldwide, each year killing more people than
+      malaria, tuberculosis, HIV/AIDS and maternal conditions combined. Almost five millions deaths
+      occur annually as a result of injuries and of these approximately 90 percent occur in low-
+      and middle-income countries (LMIC). An increase in road traffic deaths has been seen in many
+      LMIC where motorization and urbanization has not been accompanied sufficiently by improved
+      road safety strategies. In fact, in the age group 15-29 years, road traffic injuries are the
+      leading cause of death worldwide. With these changing patterns in global health, trauma is
+      now a condition needing greater priority to reduce avoidable mortality in young and
+      middle-aged adults.
+
+      Early detection of potentially lethal or disabling injuries is crucial to reduce trauma
+      mortality and morbidity. Imaging is at the core of such detection, and computed tomography
+      (CT) is standard in trauma systems all over the world. Studies comparing whole body CT (WBCT)
+      to selective CT imaging suggest that WBCT is associated with better outcomes and lower
+      mortality rates. In a well structured environment, WBCT during trauma resuscitation was
+      associated with significantly decreased mortality in haemodynamically stable as well as in
+      haemodynamically unstable major trauma patients.
+
+      There is a strong push to perform CT as early as possible as part of the diagnostic workup.
+      Immediate CT and rapid bleeding control without patient transfer, close distance of the CT
+      scanner to the trauma room, as well as immediate WBCT after initial examination compared to
+      selective CT imaging according to the Advanced Trauma Life Support (ATLS) guidelines was
+      associated with improved probability of survival of severely injured patients in high income
+      countries. However, no similar studies have been conducted in LMIC. There are concerns about
+      such investigations delaying time-critical interventions. In low-resource settings the CT may
+      be located far from the resuscitation and surgical resources, and the expertise needed to
+      keep patients stable during the transfer to and from the CT may be limited. Therefore,
+      whether time to CT is associated with survival remains unknown in low-middle income settings
+      disproportionally affected by trauma.
+
+      Aim
+
+      To assess whether time to CT is associated with survival in adult trauma patients in an urban
+      lower-middle income setting.
+
+      Study Design
+
+      This is a retrospective analysis of the cohort study Towards Improved Trauma Care Outcomes in
+      India (TITCO).
+
+      Setting
+
+      The de-identified TITCO cohort includes a total of 16,000 patients enrolled from four public
+      university hospitals in urban India between July 2013 and December 2015. The hospitals are
+      located in the megacities Mumbai (two centres), Delhi and Kolkata. One project officer at
+      each site performed the data collection. Data was gathered prospectively on-admission on a
+      standardized intake form for eight hours per day by directly observing the staff delivering
+      trauma care. They rotated daily through each eight-hour shift (morning, evening, night),
+      including public holidays. For patients admitted outside the eight-hour &quot;observed shift&quot;, the
+      data was retrospectively retrieved from patient records within days. Time to first CT was
+      recorded within the first 24 hours of arrival to a participating centre.
+
+      Source and method of participant selection
+
+      The one-site project officer included patients from participating hospitals, either by
+      prospective observation or by retrospective data retrieval from patient records.
+
+      Exposure
+
+      Time from injury to CT imaging in hours, extracted from patient records.
+
+      Covariates
+
+      Age in years, sex, whether the participant was transferred from another health facility,
+      mechanism of injury recorded as road traffic injury, railway injury, fall, assault or other,
+      all extracted from patient records or reported by participants. Vital signs on arrival to
+      participating centre including systolic blood pressure (SBP), heart rate (HR), and Glasgow
+      coma scale (GCS). Vital sign data was extracted from patient records. Anatomical injury
+      severity quantified using the injury severity score (ISS), calculated by a single accredited
+      coder based on text injury descriptions.
+
+      Bias
+
+      All project officers observing and collecting the data had a health science master degree.
+      They were not employed by participating centres but by the project administration centrally.
+      In addition, they were continuously trained and supervised through out the study period.
+
+      Quantitative variables
+
+      Quantitative variables will be handled as continuous. Variables for which a non-linear
+      association with survival can be assumed, such as age, systolic blood pressure, heart rate
+      and time between arrival and CT will be modelled using restricted cubic splines with three
+      knots placed at equally spaced percentiles.
+
+      Statistical methods
+
+      R, a language and environment for statistical computing, will be used for all statistical
+      analyses. A predictive approach will be employed to test the internal validity of the
+      findings by temporally splitting the sample in two parts, henceforth referred to as the test
+      and validation samples. The earlier half of observations from each participating centre will
+      form the test sample whereas the later half from each centre will form the validation sample,
+      ensuring that the relative contribution of each centre is approximately the same in both
+      samples.
+
+      The following procedures will then be conducted in both samples. First, sample
+      characteristics will be presented using medians and inter-quartile ranges (IQR) for
+      quantitative variables and counts and percentages for qualitative variables. Second, to
+      assess how time to CT is associated with survival a logistic regression model will be used. A
+      minimal model including only time to CT modelled using restricted cubic splines will be built
+      to generate a crude estimate of the association. A full model including all covariates listed
+      above in addition to time to CT will then be built to generate an adjusted estimate.
+
+      Finally, the differences and associated 95% confidence intervals (CI) between the time to CT
+      parameter coefficients in the test and validation samples will be assessed using
+      bootstrapping, to produce an estimate of the findings robustness. When relevant, a 5%
+      significance level will be used.
+
+      Strategy to handle missing data
+
+      If the required sample size is reached if only patients with complete data on the outcome,
+      explanatory variable, and covariates are included then a complete case analysis will be
+      conducted. If not then missing data will be handled with multiple imputation using chained
+      equations. The number of imputed datasets will be equal to the percentage of incomplete
+      observations. The analysis will be conducted separately in each imputed dataset and the main
+      results presented as medians with IQR across imputations. For confidence intervals the most
+      extreme values of pooled upper and lower bounds will be reported.
+
+      Study size
+
+      Simulation studies of proportional hazard models' sample size requirements indicate a need
+      for at least ten events per parameter (see below) in the hypothetically most complex model
+      for the model to produce reliable coefficient estimates. An event here is an observation with
+      the outcome. Each of time to CT, age, SBP and HR will contribute with two parameters when
+      modelled using restricted cubic splines. Sex, transfer status, GCS, and ISS each accounts for
+      one parameter. Mechanism of injury contributes with four parameters. Taken together the full
+      model will include 16 parameters and hence require 160 events. Assuming an outcome prevalence
+      of 20% based on previous research each of the test and validation samples need to include at
+      least 800 observations. The minimum total sample size required is therefore 1600
+      observations.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">January 15, 2018</start_date>
+  <completion_date type="Anticipated">December 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>30 day in hospital survival</measure>
+    <time_frame>30 days</time_frame>
+    <description>Survival within 30 days of arrival to participating centre, or until discharge, whichever occurred first. Patients discharged alive before 30 days were considered alive at 30 days.</description>
+  </primary_outcome>
+  <enrollment type="Actual">16000</enrollment>
+  <condition>Trauma</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No intervention</intervention_name>
+    <description>No intervention</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult trauma patients undergoing CT at four public university hospitals in urban India
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Direct admission to the participating centre (not referrals)
+
+          -  Patient is 15 years or older
+
+          -  CT imaging was conducted as part of the trauma workup
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>15 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>AIIMS Jai Prakash Narayan Apex Trauma Center</name>
+      <address>
+        <city>New Delhi</city>
+        <state>Delhi</state>
+        <zip>110029</zip>
+        <country>India</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>King Edward Memorial Hospital and Seth Gordhandas Sunderdas Medical College</name>
+      <address>
+        <city>Mumbai</city>
+        <state>Maharashtra</state>
+        <zip>400012</zip>
+        <country>India</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Lokmanya Tilak Municipal General Hospital</name>
+      <address>
+        <city>Mumbai</city>
+        <state>Maharashtra</state>
+        <zip>400022</zip>
+        <country>India</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Institute of Post-Graduate Medical Education and Research and Seth Sukhlal Karnani Memorial Hospital</name>
+      <address>
+        <city>Kolkata</city>
+        <state>West Bengal</state>
+        <zip>700020</zip>
+        <country>India</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>India</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 23, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 2, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 5, 2018</study_first_posted>
+  <last_update_submitted>March 19, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 19, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 20, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Karolinska Institutet</investigator_affiliation>
+    <investigator_full_name>Martin Gerdin</investigator_full_name>
+    <investigator_title>Researcher</investigator_title>
+  </responsible_party>
+  <keyword>Trauma</keyword>
+  <keyword>India</keyword>
+  <keyword>Computed tomography</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Wounds and Injuries</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,202 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01438138</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AAML11B12</org_study_id>
+    <secondary_id>CDR0000711851</secondary_id>
+    <secondary_id>COG-AAML11B2</secondary_id>
+    <secondary_id>NCI-2011-03465</secondary_id>
+    <nct_id>NCT01438138</nct_id>
+  </id_info>
+  <brief_title>Study to Predict Risk of Relapse in Bone Marrow Cell Samples From Younger Patients With Acute Myeloid Leukemia</brief_title>
+  <official_title>Validation of a Classifier for the Prediction of Risk of Relapse Using Single Cell Network Profiling (SCNP) Assays for Childhood AML</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Children's Oncology Group</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Children's Oncology Group</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      RATIONALE: A screening test, such as My Profile Pediatric Assay, may help doctors predict a
+      patient's risk of relapse and plan better treatment for acute myeloid leukemia.
+
+      PURPOSE: This clinical trial is studying using the My Profile Pediatric Assay to see how well
+      it works in predicting risk of relapse in bone marrow cell samples from younger patients with
+      acute myeloid leukemia.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      OBJECTIVES:
+
+      Primary
+
+        -  To validate the accuracy of the My Profile Pediatric Assay to predict risk of relapse in
+           pediatric patients with non-M3 acute myeloid leukemia (AML) who responded to
+           cytarabine-based induction chemotherapy.
+
+      Secondary
+
+        -  To validate the continuous score from the pre-specified classifier as a predictor of
+           relapse after response to induction chemotherapy, while controlling for the simultaneous
+           effects of the following clinical and laboratory variables: age, WBC, ethnicity,
+           cytogenetics, Flt3-ITD, NPM1, MRD, and bone marrow (BM) donor availability.
+
+        -  To validate the accuracy of the prespecified low versus high relapse indicator variable
+           (I_L/H) as a predictor of relapse after induction therapy.
+
+        -  To validate the accuracy of the prespecified I_L/H as a predictor of relapse after
+           induction therapy, while controlling for the simultaneous effects of the following
+           clinical and laboratory variables: MRD, age, WBC, ethnicity, cytogenetics, Flt3-ITD,
+           NPM1, and BM donor availability.
+
+      OUTLINE: Archived bone marrow mononuclear cells are analyzed by single cell network profile
+      assay, the My Profile™ AML Risk of Relapse Assay. Molecular markers analyzed include
+      Flt3-ITD, NPM1, and MRA. Results are then correlated with each patient's clinical data
+      including patient's age, race/ethnic background, gender, treatment received, and outcomes.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2011</start_date>
+  <completion_date type="Actual">May 2016</completion_date>
+  <primary_completion_date type="Actual">May 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Area under the receiver operating characteristic (ROC) curve of continuous score from the pre-specified classifier in predicting relapse after complete response to cytarabine- based induction chemotherapy</measure>
+    <time_frame>Up to 3 years</time_frame>
+    <description>A logistic regression model and area under the ROC curve for the model will be tested for significance against a null value of 0.5.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Continuous score from the pre-specified classifier as a predictor of relapse after response to induction chemotherapy</measure>
+    <time_frame>Up to 3 years</time_frame>
+    <description>A gate-keeper strategy will be applied to control the experiment-wise type I error rate at 0.05. The null hypothesis will be tested using a likelihood ratio test that will compare the likelihood for a full (LF) and a reduced (LR) logistic regression model of relapse (early relapse vs continuous complete response), where the full model will include the covariates and the continuous score from the pre-specified classifier and the reduced model will include only the covariates.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">98</enrollment>
+  <condition>Leukemia</condition>
+  <arm_group>
+    <arm_group_label>Correlative studies</arm_group_label>
+    <description>Archived bone marrow mononuclear cells are analyzed by single cell network proteomic profiling assay, the My Profile™ AML Risk of Relapse Assay. Molecular markers analyzed include Flt3-ITD, NPM1, and MRA. Results are then correlated with each patient's clinical data including patient's age, race/ethnic background, gender, treatment received, and outcomes.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>diagnostic laboratory biomarker analysis</intervention_name>
+    <description>Correlative studies</description>
+    <arm_group_label>Correlative studies</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      bone marrow
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with confirmed non-M3 acute myeloid leukemia treated on COG-AAML03P1 or
+        COG-AAML0531 protocols
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        DISEASE CHARACTERISTICS:
+
+          -  Patients with confirmed non-M3 acute myeloid leukemia
+
+               -  Treated on COG-AAML03P1 or COG- AAML0531 protocols
+
+                    -  Samples from COG-AAML0531 can come from either treatment arm, but these
+                       samples need to be independent from any patients who donated samples assayed
+                       in study COG-AAML11B2
+
+               -  Patients with Down syndrome are excluded
+
+          -  Cryopreserved bone marrow mononuclear cell (BMMC) samples collected at diagnosis,
+             prior to start induction therapy
+
+               -  Samples must have been cryopreserved at central lab within 3 days of draw at
+                  clinical site
+
+               -  Target of 10 X 10^6 cells frozen
+
+          -  Patients' clinical annotations required after unblinding
+
+        PATIENT CHARACTERISTICS:
+
+          -  Not specified
+
+        PRIOR CONCURRENT THERAPY:
+
+          -  See Disease Characteristics
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>21 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Norman J. Lacayo, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <verification_date>May 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 17, 2011</study_first_submitted>
+  <study_first_submitted_qc>September 17, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 21, 2011</study_first_posted>
+  <last_update_submitted>May 16, 2016</last_update_submitted>
+  <last_update_submitted_qc>May 16, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 18, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>childhood acute myeloid leukemia in remission</keyword>
+  <keyword>recurrent childhood acute myeloid leukemia</keyword>
+  <keyword>untreated childhood acute myeloid leukemia and other myeloid malignancies</keyword>
+  <keyword>childhood acute basophilic leukemia</keyword>
+  <keyword>childhood acute eosinophilic leukemia</keyword>
+  <keyword>childhood acute erythroleukemia (M6)</keyword>
+  <keyword>childhood acute megakaryocytic leukemia (M7)</keyword>
+  <keyword>childhood acute monoblastic leukemia (M5a)</keyword>
+  <keyword>childhood acute monocytic leukemia (M5b)</keyword>
+  <keyword>childhood acute myeloblastic leukemia with maturation (M2)</keyword>
+  <keyword>childhood acute myeloblastic leukemia without maturation (M1)</keyword>
+  <keyword>childhood acute myelomonocytic leukemia (M4)</keyword>
+  <keyword>childhood acute minimally differentiated myeloid leukemia (M0)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Leukemia</mesh_term>
+    <mesh_term>Leukemia, Myeloid</mesh_term>
+    <mesh_term>Leukemia, Myeloid, Acute</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

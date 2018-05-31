@@ -1,0 +1,196 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02302521</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Pro00057343</org_study_id>
+    <nct_id>NCT02302521</nct_id>
+  </id_info>
+  <brief_title>Motion Immune Magnetic Resonance Imaging (MRI)</brief_title>
+  <official_title>Examining the Clinical Utility of Motion Immune MRI Across Multiple Patient Populations</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Duke University</source>
+  <oversight_info>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_ppsd>No</is_ppsd>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate our recently developed MRI reconstruction strategy
+      for producing artifact-free neuro and abdominal MRI data. The new reconstruction strategies,
+      including 1) REKAM and 2) MUSE, are capable of effectively removing motion-related artifacts
+      resulting from global and local motion during neuro and free-breathing abdominal MRI scans,
+      without modifying the MRI pulse sequences and protocols that are currently used in clinical
+      scans. The study team aims to recruit 60 subjects across multiple challenge patient
+      populations: 10 healthy young adults (age 20-30) and 10 healthy older adults (aged 50-70) for
+      abdominal MRI, as well as 20 tremor dominant PD patients and 20 children (age 4-8) for brain
+      MRI scans. There are no known risks in taking MRIs and a unique code will be assigned to each
+      participant to protect their PHI.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 28, 2015</start_date>
+  <completion_date type="Actual">November 26, 2016</completion_date>
+  <primary_completion_date type="Actual">November 26, 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Rating of image quality (based on 8 criteria) by multiple radiologists (blind to reconstruction method)</measure>
+    <time_frame>1 day (At time of image analysis)</time_frame>
+    <description>The ratings will be compared to compare the quality of images processed with MUSE versus conventional reconstruction methods</description>
+  </primary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Actual">16</enrollment>
+  <condition>Parkinson's Disease</condition>
+  <arm_group>
+    <arm_group_label>Healthy Younger Adults</arm_group_label>
+    <description>Age: 20-30. Gender: male or female. No neurological conditions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy Older Adults</arm_group_label>
+    <description>Age: 50-70. Gender: male or female. No neurological conditions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Parkinson's disease</arm_group_label>
+    <description>Gender: male or female. Tremor dominant Parkinson's disease.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy Children</arm_group_label>
+    <description>Age: 4-8. Gender:male or female. No neurological conditions.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Multiplex Sensitivity Encoding (MUSE)</intervention_name>
+    <description>It is an algorithm for MRI post-processing/image reconstruction (see reference: Chen).</description>
+    <arm_group_label>Healthy Younger Adults</arm_group_label>
+    <arm_group_label>Healthy Older Adults</arm_group_label>
+    <arm_group_label>Parkinson's disease</arm_group_label>
+    <arm_group_label>Healthy Children</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        There are 4 separate cohorts of patients. Please see earlier section. 60 subjects will
+        participate in our study.
+
+          -  10 healthy younger adult volunteers (ages 20 to 30)
+
+          -  10 healthy older adult volunteers (ages 50 to 70) will be recruited for
+
+          -  20 tremor-dominant patients with clinically diagnosed Parkinson's disease
+
+          -  20 healthy children (4 to 8 y.o.)
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. subject's age is within one of the following age ranges (4-8, 20-30, or 50-70 years
+             old);
+
+          2. male or female;
+
+          3. healthy volunteer or diagnosed with PD ; and
+
+          4. devoid of the following exclusion criteria.
+
+        Exclusion Criteria:
+
+          1. claustrophobia or other MRI contraindications (including pregnancy);
+
+          2. diagnosis for dementia (Alzheimer's, Lewy Body, or Vascular);
+
+          3. symptomatic psychotic disorders;
+
+          4. depression with psychotic symptoms;
+
+          5. other psychotic or schizophrenic disorders;
+
+          6. recent neuroleptic treatment;
+
+          7. history of cardiovascular disease;
+
+          8. history of stroke or Transient Ischemic Attack;
+
+          9. cancer (other than skin cancer) within the last three years;
+
+         10. hospitalization for neurological/psychiatric condition;
+
+         11. significant handicaps (e.g., visual or hearing loss, mental retardation) that would
+             interfere with neuropsychological testing or the ability to follow study procedures;
+             or
+
+         12. any other factor that in the investigators' judgment may affect patient safety or
+             compliance.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Nan-kuei Chen, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Duke University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Duke University Medical Center</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27710</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Chen NK, Guidon A, Chang HC, Song AW. A robust multi-shot scan strategy for high-resolution diffusion weighted MRI enabled by multiplexed sensitivity-encoding (MUSE). Neuroimage. 2013 May 15;72:41-7. doi: 10.1016/j.neuroimage.2013.01.038. Epub 2013 Jan 28.</citation>
+    <PMID>23370063</PMID>
+  </reference>
+  <verification_date>July 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 25, 2014</study_first_submitted>
+  <study_first_submitted_qc>November 26, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 27, 2014</study_first_posted>
+  <last_update_submitted>August 10, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 10, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 11, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>MRI</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

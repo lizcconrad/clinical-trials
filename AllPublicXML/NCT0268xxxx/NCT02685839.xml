@@ -1,0 +1,283 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02685839</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2015-06-003B</org_study_id>
+    <nct_id>NCT02685839</nct_id>
+  </id_info>
+  <brief_title>Development of an Intelligent POWER Rehabilitation Cluster Machine and Its Clinical Testing and Assessment</brief_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Taipei Veterans General Hospital, Taiwan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Taipei Veterans General Hospital, Taiwan</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Elderly care has become one of the most important subjects in Taiwan and &quot;frailty syndrome&quot;
+      are the most common problems among the elderly. In view of this trend, Taipei Veteran
+      Memorial Hospital imported POWER rehabilitation from Japan in 2008. While showing significant
+      clinical benefits, investigators have found that the system still has certain limitations
+      (e.g. high cost, requires large space, patients must commute to the center, lacks real-time
+      objective feedback , boring routines makes staying power to motivate patients for long term
+      rehabilitation programs.)
+
+      To overcome the above limitations, this project proposes an evidence-based rehabilitation
+      model that accounts for actual clinical need and collaborates with our engineering team to
+      develop a &quot;cluster&quot; , &quot;wearable&quot; and &quot;Brain-Computer Interface System&quot; version of POWER
+      rehabilitation system. Combining cloud technology, investigators now introduce
+      internet-of-things into the POWER rehabilitation procedure. The result will lower the burden
+      of clinical support personnel, and provide an opportunity to quantify &quot;frailty syndromes&quot; so
+      as to allow objective and quantitative scientific evaluation, leading to a more objective
+      clinical diagnosis.
+
+      In addition, this project further proposes a virtual-reality (VR) system for POWER
+      rehabilitation, as well as designs for the VR sceneries. Through the use of different
+      animated 3D VR sceneries and interactive game design, investigators can make rehabilitation
+      interesting and fun for the patients, motivating long-term compliance of the patients,
+      thereby, improving the clinical outcome of POWER rehabilitation.
+
+      This project has the potential to create an innovative solution to address the current
+      bottlenecks of our rehabilitation treatment model. Successful development of the system will
+      offer rehabilitation clinicians more treatment options, lower the cost of supporting staff,
+      reduce commuting cost for the patients, and elevate patient desire to comply with the
+      treatment program. Finally, the system will not only enhance Taiwan's academic reputation in
+      the international arena, it will also generate new commercial opportunities for Taiwan and
+      contribute to Taiwan economic development.
+    </textblock>
+  </brief_summary>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date>May 2015</start_date>
+  <completion_date type="Anticipated">July 2018</completion_date>
+  <primary_completion_date type="Anticipated">June 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Tilburg Frailty Indicator (TFI)</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>The TFI contains two parts, sociodemographic questions including questions on multimorbidity, lifestyle, life events and living environment (part A) and the assessment of components of frailty (part B). Frailty is assessed with 15 items divided into physical, social and psychological domains. All item scores are summed into a frailty score ranging from 0-15. Persons with a total TFI score ≧5 are considered to be frail.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>balance test (sec)</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>single leg stance with eyes open</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>flexibility test_1st (cm)</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>truck flexion test in standing position</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>flexibility test_2nd (cm)</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>truck flexion test in sitting position</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>general mobility test (sec)</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>timed up and go test</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>hand-eye coordination test (sec)</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>grasp an falling rod</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>muscle endurance test (times/2 min)</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>step in place with hip raising to level</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>muscle strength test (kgw)</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>grip strength</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>visual test</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>traditional visual test in the letter C</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>hearing test (sec)</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>traditional hearing test with high frequency(4096Hz) and low frequency(512Hz) tuning fork</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Activity of daily living (ADL)</measure>
+    <time_frame>Changes from baseline in ADL at 12, 16 weeks</time_frame>
+    <description>This index measures the extent to which somebody can function independently and has bowel control, bladder control, toileting, chair transfer, ambulation and stair climbing. The index also indicates the need for assistance in care. Scores range from 0 to 100 with higher scores indicating greater independence.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Instrumental Activities of Daily Living (IADL)</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>IADL's are activities related to independent living and include preparing meals, managing money, shopping for groceries or personal items, performing light or heavy housework, doing laundry, and using a telephone. The total score may range from 0 - 8. A lower score indicates a higher level of dependence.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Functional Independence Measure (FIM)</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>The Functional Independence Measure (FIM) scale assesses physical and cognitive disability. This scale focuses on the level of disability indicating the burden of caring for them. The scale includes 18 items. Each item is scored from 1 to 7 based on level of independence, where 1 represents total dependence and 7 indicates complete independence. Possible scores range from 18 to 126, with higher scores indicating more independence.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>36-Item Short Form Health Survey (SF-36)</measure>
+    <time_frame>Changes from baseline in physical examination at 12, 16 weeks</time_frame>
+    <description>The SF-36 consists of eight sections: vitality, physical functioning, bodily pain, general health perceptions, physical role functioning, emotional role functioning, social role functioning and mental health. It consists of eight scaled scores, which are the weighted sums of the questions in their section. Each scale is directly transformed into a 0-100 scale on the assumption that each question carries equal weight. The lower the score the more disability. The higher the score the less disability i.e., a score of zero is equivalent to maximum disability and a score of 100 is equivalent to no disability.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Frailty Syndrome</condition>
+  <condition>Intelligent POWER Rehabilitation Cluster Machine</condition>
+  <arm_group>
+    <arm_group_label>Traditional rehabilitation</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Each subject will do traditional rehabilitation work two times per week and one hour at a time
+, lasting 24 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Power rehabilitation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Each subject will do Power rehabilitation work with motion tracking and biofeedback recording two times per week and one hour at a time, lasting 24 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Intelligent POWER Rehabilitation Cluster Machine</intervention_name>
+    <arm_group_label>Power rehabilitation</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>general physical therapy</intervention_name>
+    <arm_group_label>Traditional rehabilitation</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  aged 60 to 85
+
+          -  Cardiovascular Health Study (CHS) frailty criteria
+
+          -  willing to sign agreement
+
+        Exclusion Criteria:
+
+          -  fracture w/o healing
+
+          -  severe joint injury
+
+          -  acute stroke or myocardial infarction (&lt; 3 months)
+
+          -  cardiac arrhythmia / unstable blood pressure
+
+          -  disorientation or intellectual deterioration
+
+          -  muscle contracture deformity
+
+          -  pregnancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>60 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Si Huei Lee</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Taipei Veterans General Hospital, Taiwan</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Power Rehabilitation Room, Taipei Veterans General Hospital Integrative Rehabilitation Center</name>
+      <address>
+        <city>Taipei</city>
+        <zip>11217</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <reference>
+    <citation>Pialoux T, Goyard J, Lesourd B. Screening tools for frailty in primary health care: a systematic review. Geriatr Gerontol Int. 2012 Apr;12(2):189-97. doi: 10.1111/j.1447-0594.2011.00797.x. Epub 2012 Jan 10. Review.</citation>
+    <PMID>22233158</PMID>
+  </reference>
+  <reference>
+    <citation>Fung J, Richards CL, Malouin F, McFadyen BJ, Lamontagne A. A treadmill and motion coupled virtual reality system for gait training post-stroke. Cyberpsychol Behav. 2006 Apr;9(2):157-62.</citation>
+    <PMID>16640470</PMID>
+  </reference>
+  <reference>
+    <citation>Eriksson L, Lindström B, Ekenberg L. Patients' experiences of telerehabilitation at home after shoulder joint replacement. J Telemed Telecare. 2011;17(1):25-30. doi: 10.1258/jtt.2010.100317. Epub 2010 Nov 12.</citation>
+    <PMID>21075802</PMID>
+  </reference>
+  <reference>
+    <citation>Cherney LR, van Vuuren S. Telerehabilitation, virtual therapists, and acquired neurologic speech and language disorders. Semin Speech Lang. 2012 Aug;33(3):243-57. doi: 10.1055/s-0032-1320044. Epub 2012 Jul 31. Review.</citation>
+    <PMID>22851346</PMID>
+  </reference>
+  <reference>
+    <citation>Sharma S, Ward EC, Burns C, Theodoros D, Russell T. Training the allied health assistant for the telerehabilitation assessment of dysphagia. J Telemed Telecare. 2012 Jul;18(5):287-91. doi: 10.1258/jtt.2012.111202. Epub 2012 Jul 11.</citation>
+    <PMID>22790011</PMID>
+  </reference>
+  <verification_date>May 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 5, 2016</study_first_submitted>
+  <study_first_submitted_qc>February 15, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 19, 2016</study_first_posted>
+  <last_update_submitted>May 22, 2016</last_update_submitted>
+  <last_update_submitted_qc>May 22, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 24, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>frailty syndrome, Intelligent POWER Rehabilitation Cluster Machine, Internet of Things, wearable</keyword>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <study_docs>
+    <study_doc>
+      <doc_type>Clinical Study Report</doc_type>
+      <doc_url>https://drive.google.com/file/d/0B2qKUXYO2VcCQkJYbVpvZERWZ2tOdkc2LW4tTHYtNkYxd0NF/view?usp=sharing</doc_url>
+    </study_doc>
+    <study_doc>
+      <doc_type>Clinical Study Report</doc_type>
+      <doc_url>https://drive.google.com/file/d/0B2qKUXYO2VcCTTMxQlZMeWZId3Vvd3F5RnFJa28wZm1ka3Z3/view?usp=sharing</doc_url>
+    </study_doc>
+    <study_doc>
+      <doc_type>Clinical Study Report</doc_type>
+      <doc_url>https://drive.google.com/file/d/0B2qKUXYO2VcCODdSaE1TM05TOE9Pc1RnR0Z2NGw1d3FjdzBJ/view?usp=sharing</doc_url>
+    </study_doc>
+    <study_doc>
+      <doc_type>Clinical Study Report</doc_type>
+      <doc_url>https://drive.google.com/file/d/0B2qKUXYO2VcCOGg2bnNDbkNEOUd3Mlg5MEhEdnVydHVaNk1V/view?usp=sharing</doc_url>
+    </study_doc>
+    <study_doc>
+      <doc_type>Clinical Study Report</doc_type>
+      <doc_url>https://drive.google.com/file/d/0B2qKUXYO2VcCdnlCVzRJUFlqcURZYzJ3VkJYNjlnaXcwU3F3/view?usp=sharing</doc_url>
+    </study_doc>
+  </study_docs>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

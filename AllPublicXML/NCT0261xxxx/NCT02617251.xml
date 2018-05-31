@@ -1,0 +1,207 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02617251</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PREPS -14-0530</org_study_id>
+    <nct_id>NCT02617251</nct_id>
+  </id_info>
+  <brief_title>Impact of Deprivation on Hospital Care Efficiency in Paediatrics</brief_title>
+  <acronym>PRECAPED</acronym>
+  <official_title>Impact of Deprivation on Hospital Care Efficiency in Paediatrics</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assistance Publique - Hôpitaux de Paris</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Assistance Publique - Hôpitaux de Paris</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Many studies have shown that deprived patients consumed more healthcare resources than
+      non-deprived patients, in particular in terms of increased length of stay (LOS) and
+      readmission rates, which has an impact on hospital efficiency and the healthcare system as a
+      whole. There are many types of indicators available to assess deprivation in a hospital
+      setting and French decision makers are currently using reliance on public aids to allocate
+      additional funding to hospitals, based on the percentage of deprived patients they admit.
+      However there are limits to this method: it only assesses one dimension of deprivation, the
+      target population often does not know about the existence of those aids, and they have a
+      clear threshold effect. An alternative solution is to use ecological deprivation indices
+      which are obtained by aggregating different variables measured at a specific time and place,
+      i.e. the patient's place of residence at the time of care. One such index, the FDep , was
+      developed specifically in France, although others such as the Carstairs index and the
+      European deprivation index also exist.
+
+      The primary objective of this study is to study the association between deprivation, measured
+      by the FDep, and hospital care efficiency in paediatric and neonatology patients, measured by
+      the difference between patient LOS and the national average LOS of their diagnosis-related
+      group, DRG). The secondary objectives are to carry out a budget impact analysis on the impact
+      of deprivation for hospitals with a paediatric or neonatology ward, to study the association
+      between deprivation and readmission at 15 days, to study the relation between FDep and the
+      currently used deprivation indicators, and to assess the added value of the FDep compared to
+      those indicators and whether or not it should be used in routine practice.
+
+      In order to do so, an exhaustive retrospective study using the French hospital claims
+      database will be carried out for the years 2012-2014. Deprivation indices will be calculated
+      based on patients' postcode. The primary endpoint will be calculated using the national LOS
+      present in the French national cost study. Similarly, the budget impact will look at the
+      difference between production costs derived from the national cost study after adjusting for
+      LOS and the statutory health insurance's tariffs, which will allow us to assess whether a
+      hospital stay is associated with a gain, a loss or is budget-neutral for the hospital.
+      Readmissions at 15 days will be identified through record linkage.
+
+      Descriptive analyses will summarise both hospital and patient characteristics. Uni- and
+      bivariate analyses will be carried out by focusing of the variables of interest (e.g. average
+      deprivation index by legal status of the hospital, mean LOS depending on the number of
+      paediatric beds etc.). The deprivation index will be divided into quantiles as is the norm
+      and the endpoints will be assessed for each of those quantiles. An ANOVA (or a Kruskal-Wallis
+      test if the ANOVA hypotheses are not met) will test whether the results differ between each
+      quantile. For readmission rates, a Chi² test will be performed.
+
+      In order to study the association between deprivation and the endpoints, the investigators
+      will model each endpoint using as the main explanatory variable the deprivation index. Three
+      main types of explanatory variables will be added to the model: patient characteristics (age,
+      sex, severity level etc.), hospital characteristics (legal status, size, number of full-time
+      equivalent etc.) and environment/context characteristics (number of paediatricians for 1,000
+      inhabitants, rural vs. urban area etc.).
+
+      In order to assess the added benefit of using the deprivation index vs. the current
+      indicators, a sub-cohort will be constructed in Paris teaching hospitals (AP-HP) as
+      unfortunately, whether the patient receives public aids is not present in the hospital claim
+      database but is available only at the local level. The investigators will look at the
+      distribution of patients with public aids in each quantile of the deprivation index and run
+      the previous models using the two types of indicators one after the other and comparing the
+      statistical performance of each pair of models.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date>April 2015</start_date>
+  <completion_date type="Anticipated">December 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Ecologic or Community</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Hospital stay duration for participants</measure>
+    <time_frame>30 months</time_frame>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">3500000</enrollment>
+  <condition>Deprivation</condition>
+  <arm_group>
+    <arm_group_label>neonatology patients</arm_group_label>
+    <description>neonatology patients</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>paediatric patients</arm_group_label>
+    <description>paediatric patients</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No intervention</intervention_name>
+    <arm_group_label>neonatology patients</arm_group_label>
+    <arm_group_label>paediatric patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        hospitalization in neonatology and pediatrics
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Neonatology population
+
+          -  Hospital stay present in the national hospital claims database in 2012-2014
+
+          -  With a DRG and/or principal diagnosis related to neonatology
+
+          -  In a hospital with a neonatology ward (including ICU)
+
+          -  Age &lt;28 days
+
+        Paediatric population
+
+          -  Hospital stay present in the national hospital claim database in 2012-2014
+
+          -  In a hospital with at least one paediatric department
+
+          -  Age &lt; 15 years old
+
+          -  After exclusion of the neonatology stays previously identified
+
+        Exclusion Criteria:
+
+          -  Day admissions
+
+          -  Stays with error codes
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Jean-Claude Carel, MD-PhD</last_name>
+    <phone>+33140 034105</phone>
+    <email>jean-claude.carel@aphp.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Karine Chevreul, MD-PhD</last_name>
+    <phone>+33140274148</phone>
+    <email>karine.chevreul@urc-eco.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Robert Debre Hospital</name>
+      <address>
+        <city>Paris</city>
+        <zip>75019</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jean-Claude Carel, MD-PhD</last_name>
+      <phone>0033140034105</phone>
+      <email>jean-claude.carel@rdb.aphp.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 19, 2015</study_first_submitted>
+  <study_first_submitted_qc>November 25, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 30, 2015</study_first_posted>
+  <last_update_submitted>March 1, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 1, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 2, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

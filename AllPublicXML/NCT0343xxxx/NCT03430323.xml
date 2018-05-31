@@ -1,0 +1,203 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03430323</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P0515173</org_study_id>
+    <nct_id>NCT03430323</nct_id>
+  </id_info>
+  <brief_title>Ultra Dual-Energy X-ray Absorptiometry (DXA): Accurate and Precise Quantitative Multi-compartment Body Composition</brief_title>
+  <acronym>UltraDXA</acronym>
+  <official_title>Ultra DXA: Accurate and Precise Quantitative Multi-compartment Body Composition</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Hologic, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of California, San Francisco</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The central hypothesis is that the combination of measurements from 3D optical scans with
+      standard DXA scans can be used to calculate 4 unique body composition compartments: water,
+      fat, protein, mineral. This is significant because it will allow for accurate assessment of
+      adiposity and functional protein status independent of hydration. The hypothesis is based on
+      preliminary data collected demonstrating the use of thickness and dual energy X-ray
+      measurements to calculate three-compartment breast composition.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a cross-sectional comparative technology study using a sample of convenience
+      stratified by age, sex, and BMI. Following consent, each participant will undergo:
+
+        -  6 DXA whole body scans. The primary measure is bone mineral mass and body volume. DXA
+           body volume is measured using equations from previous work that relate the fat, lean,
+           and bone masses to individual volumes in an image pixel using the physical densities of
+           the components and the know area of the pixel.
+
+        -  Total body water measurement using standard deuterium dilution methods. The primary
+           measure is total body water in liters.
+
+        -  Body volume measurement using air displacement plethsymography. The primary measure is
+           volume in liters.
+
+        -  Whole body 3D optical surface scans. The primary measures mesh points that make up a
+           point cloud of the surface of the body. Approximately 500,000 mesh points are used and
+           placed on the surface of the participants body image. The variation of the location of
+           these mesh points can be described using Principal Component Analysis (PCA). In
+           addition, the 3D optical scans can be used to measure the thickness of the body along
+           the path of each X-ray that goes through the body resulting in a tissue thickness for
+           each DXA image pixel.
+
+        -  Bioelectrical impedance analysis (BIA). The primary measure is percent body fat, and
+           total body water.
+
+        -  Physical anthropometry. The primary measure is waist circumference.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 29, 2016</start_date>
+  <completion_date type="Anticipated">January 2019</completion_date>
+  <primary_completion_date type="Anticipated">January 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Relationship between BIA and deuterium methods to measure total body water.</measure>
+    <time_frame>1 Day</time_frame>
+    <description>Correlation between total body water from deuterated water, versus total body water estimated from BIA. body water is directly reported by the BIA device.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Relationship between whole body 4-C DXA and standard 4-C body fat</measure>
+    <time_frame>1 Day</time_frame>
+    <description>The standard 4-component model combines 4 measures (weight, DXA bone mineral mass, body volume by ADP, and body water using deuterium) into one equation to estimate body fat. The proposed 4C-DXA method estimates pixel by pixel body fat in the DXA image by combining pixel level measures. These measures are the low- and high-energy X-ray absorption of the tissue visualized in the pixel, and the pixel thickness measured using 3D optical tissue thickness. When no bone is present, these three measures provide three estimates of tissue protein, fat, and water. When bone is present, the same measures used to estimate bone, fat, and lean mass where lean is the sum of water and protein masses. The protein/water ratio is estimated from nearest neighbor pixels that contain no bone. This results in a description of the fat, water, protein, and mineral masses of all pixels. Summing the pixels provides total fat. The correlation of the standard to the proposed estimates of body fat is the outcome.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Associations of 3D optical shape and DXA percent body fat.</measure>
+    <time_frame>1 Day</time_frame>
+    <description>Using the mesh points that make up the image data of 3D images, one can estimate body percent fat by treating all mesh points as variables and describing their shape variance using principal component analysis (PCA). The result of the PCA method is that it creates variables that describe the variance of all the mesh points. The PCA variables can then be used to estimate percent body fat. In this secondary outcome, we will compare the estimate of percent body fat using PCA variables to the percent body fat of the standard 4-compartment model.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Standard 4C fat mass compared to simplified 4C model</measure>
+    <time_frame>1-Day</time_frame>
+    <description>In this secondary analysis we compare using correlation statistics the total body fat mass from the standard 4C model to that derived using a simplified whole body 4C model. In the simplified model, BIA-estimated body water is substituted for deuterium-dilution, and a derivation of body volume using DXA for ADP body volume. DXA can estimate body volume by first determining the total fat, lean, and bone reported for a participant, and then using the previously derived physical densities of fat, lean, and bone masses, estimate the total body volume. The singular comparison for this aim is the correlation of standard 4C model body fat to the simplified 4C model body fat.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Body Composition</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Community sample
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  ambulatory
+
+          -  tolerate lying on their back on a table for 20 minutes
+
+          -  less than 250 lbs
+
+          -  tolerate standing and holding still for 1 minute
+
+        Exclusion Criteria:
+
+          -  cannot stand for several minutes
+
+          -  cannot lie down on a table for 10 minutes
+
+          -  over 250 lbs
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John A Shepherd, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, San Francisco</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>John A Shepherd, PhD</last_name>
+    <phone>415-891-7437</phone>
+    <email>john.shepherd@ucsf.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Bennett Ng</last_name>
+    <phone>415-476-4877</phone>
+    <email>bennett.ng@berkeley.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of California San Francisco</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Nisa N Kelly</last_name>
+      <phone>415-502-5511</phone>
+      <email>nisa.kelly@ucsf.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Leila Kazemi</last_name>
+      <phone>415-476-8812</phone>
+      <email>leila.kazemi@ucsf.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 8, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 5, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 12, 2018</study_first_posted>
+  <last_update_submitted>February 5, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 5, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 12, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, San Francisco</investigator_affiliation>
+    <investigator_full_name>John Shepherd</investigator_full_name>
+    <investigator_title>Research Professor</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

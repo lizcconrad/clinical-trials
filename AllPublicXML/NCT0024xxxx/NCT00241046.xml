@@ -1,0 +1,239 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00241046</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CFEM345ADE02</org_study_id>
+    <nct_id>NCT00241046</nct_id>
+  </id_info>
+  <brief_title>Letrozole in the Treatment of 1st and 2nd Line Hormone Receptor Positive Breast Cancer: Pre-therapeutic Risk Assessment</brief_title>
+  <official_title>Letrozole in the Treatment of 1st and 2nd Line Hormone Receptor Positive Breast Cancer: Pre-therapeutic Risk Assessment</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Novartis Pharmaceuticals</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Novartis</source>
+  <brief_summary>
+    <textblock>
+      The course of the disease in female patients with metastatic mammary carcinoma can vary
+      greatly. In this connection, the individual prognosis depends on a complex interaction of
+      tumor- and patient-related factors. To take account of such differences, it is necessary to
+      employ individual methods of treatment which are suited to the course of each patient's
+      disease. Prof. Possinger and Dr. Schmid (Charite Berlin) and Prof. Wischnewsky (University of
+      Bremen) have developed an approach that can help to achieve this goal with the aid of
+      computerized machine learning techniques (MLT).
+
+      The use of machine learning methods can be beneficial in oncology in two respects. On the one
+      hand, an attempt can be made to individually estimate clinically relevant parameters like,
+      for example, the recurrence probability or expected survival time as precisely as possible
+      based on the established prognostic factors. And on the other hand, it may be possible with
+      the aid of MLT to understand structural relationships between the clinical result and
+      measured or established tumor-/patient-related variables.
+
+      To analyze the possible benefits of machine learning techniques for patients with metastatic
+      breast cancer, the aim of study FEM-D-2 is to investigate whether it is possible to
+      characterize those patients who either do or do not respond to a specific treatment with a
+      precision of 90%, prospectively estimate the time until worsening of the disease under a
+      given treatment, and classify patients in groups with favorable and poor chances of
+      medium-term survival.
+
+      The use of inductive learning algorithms with machine learning also makes it possible to very
+      accurately estimate the time until progression of the tumor growth. In patients who respond
+      to letrozole therapy, the time until tumor progression depends on factors like pain, age,
+      body mass index, disease-free interval, main localization of metastatic spread, and response
+      to previous estrogen therapy. Only very minimal differences are found when comparing the
+      actual time until progression of the disease and that calculated by the system (at least for
+      survival times &lt; 1 year). Furthermore, using machine learning techniques it has become
+      possible to use initial data assessed before a letrozole treatment to estimate the survival
+      time and distinguish patients with a high risk of dying soon from other patients with a more
+      favorable prognosis.
+    </textblock>
+  </brief_summary>
+  <overall_status>Terminated</overall_status>
+  <start_date>April 2002</start_date>
+  <primary_completion_date type="Actual">March 2005</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Comparison of the the individual pretherapeutic predictions from the computer or doctor with the patient data obtained in a first- or second-line treatment of metastatic breast cancer after progression of the disease</measure>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Determination of the individual response at 3 monthly assessments</measure>
+  </secondary_outcome>
+  <enrollment type="Actual">13</enrollment>
+  <condition>Metastatic Breast Cancer</condition>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Letrozole</intervention_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion criteria for the second-line therapy:
+
+        Patients can only take part in the study if they meet all of the following criteria:
+
+          -  Histologically established mammary carcinoma
+
+          -  Estrogen receptor (ER+) positive and/or progesterone receptor (PgR+) positive or
+             ER/PgR unknown
+
+          -  Postmenopausal women; defined by (at least one criterion applicable):
+
+          -  Amenorrhea ≥ 5 years
+
+          -  Age ≥ 60
+
+          -  Age ≥ 45 with amenorrhea ≥ 12 months
+
+          -  Postmenopausal LH / FSH values (according to the respective institution)
+
+          -  Bilateral oophorectomy
+
+          -  Patients with a primary or recurrent local advanced mammary carcinoma which cannot be
+             curatively treated with surgical procedures or radiation therapy, or patients with a
+             metastatic mammary carcinoma after antiestrogen pretreatment.
+
+          -  Patients with a recurrence under adjuvant antiestrogen therapy (e.g. tamoxifen; with
+             or without adjuvant chemotherapy) which was administered for at least 6 months or a
+             recurrence within the last 12 months after adjuvant antiestrogen therapy (e.g.
+             tamoxifen, with or without adjuvant chemotherapy) which was administered for at least
+             6 months or progression under palliative first-line antiestrogen therapy can be
+             included.
+
+          -  At most, a previous palliative cytostatic treatment is possible
+
+          -  Measurable or assessable metastases in at least one organ system with objective proof
+             of progression; that is, evidence of newly occurring lesions or an increase in size of
+             preexisting lesions by more than 25% with measurable metastases or worsening with
+             assessable changes within the last 3 months before inclusion in the study
+
+          -  In the case of bone metastases, imaging methods should verify that at least one
+             preexisting osteolysis or the lytic part of an assessable mixed lesion has increased
+             in size, or that new measurable or assessable bone metastases have developed. In
+             assessable mixed lesions, the measurable part must constitute at least 50% of the size
+             of the metastasis.
+
+        If no previous images are available, the increase in bone pain in connection with the
+        detectable, measurable osteolyses or assessable mixed metastases in the pretreatment image
+        are regarded as progression.
+
+          -  Previous radiotherapy is permitted as long as the irradiated area is not the only
+             measurable lesion
+
+          -  Estimated life expectancy of at least 12 weeks
+
+          -  Performance status of 50 or higher on the Karnofsky scale or WHO grade 0-2.
+
+          -  Age ≥18 years
+
+          -  Written informed consent of the patient
+
+        Exclusion criteria for the second-line therapy:
+
+        Patients are not allowed to take part in the study if they meet at least one of the
+        following criteria:
+
+          -  Cerebral metastasis
+
+          -  Lymphangitis carcinomatosa of the lung (&gt; 50% of the lung affected)
+
+          -  Very extensive liver metastasis (in ultrasound or CT &gt; 33% of the liver replaced by
+             metastases)
+
+          -  Inflammatory mammary carcinoma
+
+          -  Other primary malignant diseases (except in situ carcinoma of the cervix or adequately
+             treated basal cell carcinoma of the skin)
+
+          -  Patients with concomitant serious, unstable cardiac diseases (angina pectoris,
+             arrhythmia, myocardial infarction within the last six months) or uncontrolled diabetes
+             mellitus
+
+          -  Known hypersensitivity to components of the study medication
+
+          -  Exclusively osteoblastic or mixed bone metastases, with a lytic percentage &lt; 50%, in
+             so far as no other measurable or assessable lesions are present
+
+          -  Antihormonal pretreatment with aromatase inhibitors, megestrol acetate,
+             medroxyprogesterone, or GnRH analogues
+
+          -  Treatment with a hormone replacement therapy
+
+          -  Taking of non-approved substances within the past 30 days and concomitant treatment
+             with non-approved drugs
+
+        Patients with the following pretreatments should not be included in the study (selection):
+
+          -  Previous endocrine treatment of a metastatic mammary carcinoma
+
+          -  Patients with adjuvant or neoadjuvant endocrine treatment with or without chemotherapy
+             within the past 12 months
+
+          -  Patients with adjuvant or neo-adjuvant endocrine antiestrogen treatment for whom a
+             recurrence occurred during or within 12 months after the end of treatment
+
+          -  Patients who received more than one regimen of a systemic chemotherapy against their
+             advanced breast cancer
+
+        Other protocol-related inclusion / exclusion criteria may apply
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Novartis</last_name>
+    <role>Study Chair</role>
+    <affiliation>Novartis</affiliation>
+  </overall_official>
+  <verification_date>April 2012</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 14, 2005</study_first_submitted>
+  <study_first_submitted_qc>October 17, 2005</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 18, 2005</study_first_posted>
+  <last_update_submitted>April 18, 2012</last_update_submitted>
+  <last_update_submitted_qc>April 18, 2012</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 19, 2012</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Breast cancer</keyword>
+  <keyword>Machine learning techniques</keyword>
+  <keyword>Aromatase inhibitors</keyword>
+  <keyword>1st line treatment</keyword>
+  <keyword>2nd line treatment</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hormones</mesh_term>
+    <mesh_term>Letrozole</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

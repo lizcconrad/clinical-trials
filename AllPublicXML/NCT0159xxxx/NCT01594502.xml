@@ -1,0 +1,188 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01594502</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2010-0670</org_study_id>
+    <secondary_id>R01CA155301</secondary_id>
+    <nct_id>NCT01594502</nct_id>
+  </id_info>
+  <brief_title>Validation of Digital Morphometry for Cancer Risk in Benign Prostate Biopsies</brief_title>
+  <official_title>R01 CA155301: Validation of Digital Morphometry for Cancer Risk in Benign Prostate Biopsies</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Illinois at Chicago</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Illinois at Chicago</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of this study is to apply cutting-edge imaging approaches, incorporating
+      machine-learning for pattern recognition and multispectral analysis, to the development and
+      validation of intermediate endpoint biomarkers in benign tissue that characterize the
+      response to 5α-reductase inhibitor chemoprevention as well as the risk of prostate cancer
+      among men with negative biopsies.
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>September 2011</start_date>
+  <completion_date type="Anticipated">July 2021</completion_date>
+  <primary_completion_date type="Anticipated">November 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Effects of dutasteride (vs. placebo) using multi-feature scores derived from digital image analysis on both nuclear and architectural features in benign prostate tissue.</measure>
+    <time_frame>Year 4</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Multivariable treatment-response score between subjects who develop PCa while on dutasteride and those who do not.</measure>
+    <time_frame>Year 4</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Magnitude of association between nuclear phenotype in benign biopsies, and subsequent risk of PCa in untreated men at elevated risk.</measure>
+    <time_frame>Year 4</time_frame>
+  </secondary_outcome>
+  <number_of_groups>6</number_of_groups>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Prostate Cancer</condition>
+  <arm_group>
+    <arm_group_label>Dutasteride Year 2 PCa</arm_group_label>
+    <description>Subject assigned to dutasteride, prostate cancer found on Year 2 biopsy.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Placebo Year 2 no PCa, Year 4 PCa</arm_group_label>
+    <description>Subject assigned to placebo, no prostate cancer found on Year 2 biopsy, but prostate cancer found on Year 4 biopsy.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Dutasteride Year 2 no PCa, Year 4 PCa</arm_group_label>
+    <description>Subject assigned to dutasteride, no prostate cancer found on Year 2 biopsy, but prostate cancer found on Year 4 biopsy.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Placebo, Year 2 and 4 no PCa</arm_group_label>
+    <description>Subject assigned to placebo, no prostate cancer found on Year 2 or Year 4 biopsy.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Dutasteride, Year 2 and 4 no PCa</arm_group_label>
+    <description>Subject assigned to dutasteride, no prostate cancer found on Year 2 or Year 4 biopsy.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Placebo, Year 2 PCa</arm_group_label>
+    <description>Subject assigned to placebo, prostate cancer found on Year 2 biopsy.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dutasteride</intervention_name>
+    <description>0.5 mg daily</description>
+    <arm_group_label>Dutasteride Year 2 PCa</arm_group_label>
+    <arm_group_label>Dutasteride Year 2 no PCa, Year 4 PCa</arm_group_label>
+    <arm_group_label>Dutasteride, Year 2 and 4 no PCa</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <description>Placebo Comparator</description>
+    <arm_group_label>Placebo Year 2 no PCa, Year 4 PCa</arm_group_label>
+    <arm_group_label>Placebo, Year 2 and 4 no PCa</arm_group_label>
+    <arm_group_label>Placebo, Year 2 PCa</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Biopsy tissue (Year 2 and Year 4) already collected in REDUCE trial
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Probability Sample
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  completed REDUCE trial (Year 4 exit biopsy with blocks and HE slides available; i.e.,
+             U.S. participants only)
+
+          -  compliant with assigned treatment based on either: (dutasteride group) at least 3
+             post-baseline serum DHT levels ≥ 50% lower than baseline, or (placebo group) at least
+             3 post-baseline serum DHT levels with none showing ≥ 50% decrease from baseline
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>50 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Peter H Gann, MD, ScD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Illinois at Chicago</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Illinois at Chicago</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60612</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 17, 2012</study_first_submitted>
+  <study_first_submitted_qc>May 7, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 9, 2012</study_first_posted>
+  <last_update_submitted>November 1, 2017</last_update_submitted>
+  <last_update_submitted_qc>November 1, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 6, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Illinois at Chicago</investigator_affiliation>
+    <investigator_full_name>Peter Gann</investigator_full_name>
+    <investigator_title>Professor and Director, Division of Pathology Research</investigator_title>
+  </responsible_party>
+  <keyword>prostate cancer</keyword>
+  <keyword>dutasteride</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prostatic Neoplasms</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Dutasteride</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

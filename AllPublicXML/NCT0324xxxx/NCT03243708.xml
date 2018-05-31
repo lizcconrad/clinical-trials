@@ -1,0 +1,282 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03243708</url>
+  </required_header>
+  <id_info>
+    <org_study_id>17-396</org_study_id>
+    <nct_id>NCT03243708</nct_id>
+  </id_info>
+  <brief_title>Title: Randomized Trial of an EHR Embedded Risk Calculator vs. Standard VTE Prophylaxis for Medical Patients</brief_title>
+  <official_title>Title: EHR Embedded Risk Calculator vs. Standard VTE Prophylaxis for Medical Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The Cleveland Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The Cleveland Clinic</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Venous thromboembolism (VTE) is a serious source of hospital morbidity and mortality.
+      Chemoprophylaxis with heparin has been shown to reduce the occurrence of VTE, but it
+      increases the risk of bleeding and it is uncomfortable to receive. For that reason, VTE
+      prophylaxis should be reserved for patients at moderate to high risk of VTE and low risk of
+      bleeding. However, identifying patients at low risk for VTE can be difficult, because most
+      patients have at least one risk factor for VTE and there are no validated risk prediction
+      tools for use in US hospitals. Instead, many hospitals have opted for a one-size-fits-all
+      approach with near-universal prophylaxis, putting many patients at unnecessary risk of
+      bleeding. However, to provide care that is truly patient-centered, US physicians face several
+      challenges. First, there is no accepted risk calculator that they can use to estimate an
+      individual patient's risk. Second, risk calculators are not readily available at the point of
+      care. As a result, prophylaxis rates have remained stubbornly low in some institutions, while
+      in others the rate of prophylaxis is high, but the rate of inappropriate prophylaxis is also
+      high. This study uses a risk prediction tool developed at the Cleveland Clinic to assess an
+      individual patient's risk of VTE. The tool is incorporated into the electronic health record
+      in the form of a smart order set. In this randomized trial, we will assess the effects of the
+      order set on physician behavior and patient outcomes . Examining the effectiveness of an
+      electronic decision aid embedded in an EHR in routine clinical practice will test whether a
+      smart order set can improve patient care by incorporating patient-specific factors into a
+      complex decision process.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Specific Aim:
+
+      Assess the effects of a VTE risk calculator embedded in the admission order set vs. usual
+      care on physician behavior and patient outcomes in a randomized trial
+
+      Research Strategy:
+
+      Utilizing a Step-Wedge design, this randomized controlled trial (RCT) will be conducted at 10
+      Cleveland Clinic hospitals in efforts to assess the effects of a VTE (venous thromboembolism)
+      risk calculator embedded in the admission order set vs. usual care on physician behavior and
+      patient outcomes. Hospitals will be randomized to display the risk calculator to physicians
+      admitting patients or to the usual order set that contains only a description of VTE risk
+      factors. The risk calculator will produce a predicted risk of VTE together with a
+      recommendation regarding the use of prophylaxis for an individual patient. Physicians will be
+      free to ignore the calculator or override its results if they so choose.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 4, 2017</start_date>
+  <completion_date type="Anticipated">December 3, 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 3, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <intervention_model_description>Step-Wedge Randomized controlled trial (RCT)</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Appropriate VTE prophylaxis</measure>
+    <time_frame>within 48 hours of index hospitalization admission</time_frame>
+    <description>Proportion of patients at high risk of VTE who receive prophylaxis and the proportion of patients at low risk who do not receive prophylaxis</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Total patients receiving prophylaxis</measure>
+    <time_frame>14 days</time_frame>
+    <description>All patients who received any chemoprophylaxis during hospitalization, regardless of risk status.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of VTE among high risk patients</measure>
+    <time_frame>14 days</time_frame>
+    <description>Symptomatic VTE events not present on admission occurring among patients at high risk for VTE according to the risk calculator.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of VTE among high risk patients</measure>
+    <time_frame>45 days</time_frame>
+    <description>Symptomatic VTE events not present on admission occurring among patients at high risk for VTE according to the risk calculator.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of major bleeding among high risk patients</measure>
+    <time_frame>14 days</time_frame>
+    <description>Major bleeding events among patients with risk factors for bleeding.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average cost of prophylaxis</measure>
+    <time_frame>14 days</time_frame>
+    <description>Total cost of prophylaxis received during hospitalization</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average cost of hospitalization</measure>
+    <time_frame>Up to 30 days</time_frame>
+    <description>Cost of hospitalization as determined by the hospital cost accounting system</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average length of stay</measure>
+    <time_frame>Up to 30 days</time_frame>
+    <description>Total days in hospital</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">50000</enrollment>
+  <condition>Venous Thromboembolism</condition>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Control: Standard order set without risk calculator (usual care)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Risk calculator</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Intervention: VTE risk calculator embedded in the smart order set incorporated into the EHR and activated for all medical patients</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Risk calculator</intervention_name>
+    <description>Venous thromboembolism (VTE) risk calculator embedded in the admission order set with personalized recommendation for prophylaxis</description>
+    <arm_group_label>Risk calculator</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All adult patients (age ≥18 years) admitted to a medical service, including intensive
+             care units, between September 1, 2017 and August 31, 2018 will be eligible.
+
+        Exclusion Criteria:
+
+          -  patients not eligible to receive VTE prophylaxis because they are already receiving
+             anticoagulation for another purpose (e.g. warfarin for atrial fibrillation or LMWH for
+             DVT or PE present on admission),
+
+          -  patients admitted with a terminal condition who are receiving comfort care only
+
+          -  Surgical patients who are admitted to the medical service temporarily (e.g. hip
+             fracture)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael Rothberg</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Cleveland Clinic</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Michael Rothberg, MD</last_name>
+    <phone>216-445-0719</phone>
+    <email>rothbem@ccf.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Cleveland Clinic Health System</name>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44195</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michael Rothberg, MD</last_name>
+      <phone>216-445-0719</phone>
+      <email>ROTHBEM@ccf.org</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Lederle FA, Zylla D, MacDonald R, Wilt TJ. Venous thromboembolism prophylaxis in hospitalized medical patients and those with stroke: a background review for an American College of Physicians Clinical Practice Guideline. Ann Intern Med. 2011 Nov 1;155(9):602-15. doi: 10.7326/0003-4819-155-9-201111010-00008. Review.</citation>
+    <PMID>22041949</PMID>
+  </reference>
+  <reference>
+    <citation>Kakkar AK, Cimminiello C, Goldhaber SZ, Parakh R, Wang C, Bergmann JF; LIFENOX Investigators. Low-molecular-weight heparin and mortality in acutely ill medical patients. N Engl J Med. 2011 Dec 29;365(26):2463-72. doi: 10.1056/NEJMoa1111288.</citation>
+    <PMID>22204723</PMID>
+  </reference>
+  <reference>
+    <citation>Rothberg MB, Lahti M, Pekow PS, Lindenauer PK. Venous thromboembolism prophylaxis among medical patients at US hospitals. J Gen Intern Med. 2010 Jun;25(6):489-94. doi: 10.1007/s11606-010-1296-y. Epub 2010 Mar 30.</citation>
+    <PMID>20352366</PMID>
+  </reference>
+  <reference>
+    <citation>Cohen AT, Tapson VF, Bergmann JF, Goldhaber SZ, Kakkar AK, Deslandes B, Huang W, Zayaruzny M, Emery L, Anderson FA Jr; ENDORSE Investigators. Venous thromboembolism risk and prophylaxis in the acute hospital care setting (ENDORSE study): a multinational cross-sectional study. Lancet. 2008 Feb 2;371(9610):387-94. doi: 10.1016/S0140-6736(08)60202-0. Erratum in: Lancet. 2008 Jun 7;371(9628):1914.</citation>
+    <PMID>18242412</PMID>
+  </reference>
+  <reference>
+    <citation>Khanna R, Vittinghoff E, Maselli J, Auerbach A. Unintended consequences of a standard admission order set on venous thromboembolism prophylaxis and patient outcomes. J Gen Intern Med. 2012 Mar;27(3):318-24. doi: 10.1007/s11606-011-1871-x. Epub 2011 Sep 24.</citation>
+    <PMID>21948203</PMID>
+  </reference>
+  <reference>
+    <citation>Qaseem A, Chou R, Humphrey LL, Starkey M, Shekelle P; Clinical Guidelines Committee of the American College of Physicians. Venous thromboembolism prophylaxis in hospitalized patients: a clinical practice guideline from the American College of Physicians. Ann Intern Med. 2011 Nov 1;155(9):625-32. doi: 10.7326/0003-4819-155-9-201111010-00011.</citation>
+    <PMID>22041951</PMID>
+  </reference>
+  <reference>
+    <citation>Barbar S, Noventa F, Rossetto V, Ferrari A, Brandolin B, Perlati M, De Bon E, Tormene D, Pagnan A, Prandoni P. A risk assessment model for the identification of hospitalized medical patients at risk for venous thromboembolism: the Padua Prediction Score. J Thromb Haemost. 2010 Nov;8(11):2450-7. doi: 10.1111/j.1538-7836.2010.04044.x.</citation>
+    <PMID>20738765</PMID>
+  </reference>
+  <reference>
+    <citation>Kucher N, Koo S, Quiroz R, Cooper JM, Paterno MD, Soukonnikov B, Goldhaber SZ. Electronic alerts to prevent venous thromboembolism among hospitalized patients. N Engl J Med. 2005 Mar 10;352(10):969-77.</citation>
+    <PMID>15758007</PMID>
+  </reference>
+  <reference>
+    <citation>Dunn AS, Brenner A, Halm EA. The magnitude of an iatrogenic disorder: a systematic review of the incidence of venous thromboembolism for general medical inpatients. Thromb Haemost. 2006 May;95(5):758-62. Review.</citation>
+    <PMID>16676063</PMID>
+  </reference>
+  <reference>
+    <citation>Bhalla R, Berger MA, Reissman SH, Yongue BG, Adelman JS, Jacobs LG, Billett H, Sinnett MJ, Kalkut G. Improving hospital venous thromboembolism prophylaxis with electronic decision support. J Hosp Med. 2013 Mar;8(3):115-20. doi: 10.1002/jhm.1993. Epub 2012 Nov 26.</citation>
+    <PMID>23184857</PMID>
+  </reference>
+  <reference>
+    <citation>Zeidan AM, Streiff MB, Lau BD, Ahmed SR, Kraus PS, Hobson DB, Carolan H, Lambrianidi C, Horn PB, Shermock KM, Tinoco G, Siddiqui S, Haut ER. Impact of a venous thromboembolism prophylaxis &quot;smart order set&quot;: Improved compliance, fewer events. Am J Hematol. 2013 Jul;88(7):545-9. doi: 10.1002/ajh.23450. Epub 2013 Jun 12.</citation>
+    <PMID>23553743</PMID>
+  </reference>
+  <reference>
+    <citation>Baio G, Copas A, Ambler G, Hargreaves J, Beard E, Omar RZ. Sample size calculation for a stepped wedge trial. Trials. 2015 Aug 17;16:354. doi: 10.1186/s13063-015-0840-9. Review.</citation>
+    <PMID>26282553</PMID>
+  </reference>
+  <reference>
+    <citation>Shekelle PG, Wachter RM, Pronovost PJ, Schoelles K, McDonald KM, Dy SM, Shojania K, Reston J, Berger Z, Johnsen B, Larkin JW, Lucas S, Martinez K, Motala A, Newberry SJ, Noble M, Pfoh E, Ranji SR, Rennke S, Schmidt E, Shanman R, Sullivan N, Sun F, Tipton K, Treadwell JR, Tsou A, Vaiana ME, Weaver SJ, Wilson R, Winters BD. Making health care safer II: an updated critical analysis of the evidence for patient safety practices. Evid Rep Technol Assess (Full Rep). 2013 Mar;(211):1-945. Review.</citation>
+    <PMID>24423049</PMID>
+  </reference>
+  <verification_date>December 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 10, 2017</study_first_submitted>
+  <study_first_submitted_qc>August 4, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 9, 2017</study_first_posted>
+  <last_update_submitted>December 5, 2017</last_update_submitted>
+  <last_update_submitted_qc>December 5, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 7, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>The Cleveland Clinic</investigator_affiliation>
+    <investigator_full_name>Michael Rothberg</investigator_full_name>
+    <investigator_title>Staff Physician</investigator_title>
+  </responsible_party>
+  <keyword>Venous Thromboembolism Risk Calculator</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Thromboembolism</mesh_term>
+    <mesh_term>Venous Thromboembolism</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

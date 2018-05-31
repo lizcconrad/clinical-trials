@@ -1,0 +1,450 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03458806</url>
+  </required_header>
+  <id_info>
+    <org_study_id>17-21881</org_study_id>
+    <nct_id>NCT03458806</nct_id>
+  </id_info>
+  <brief_title>Phono- and Electrocardiogram Assisted Detection of Valvular Disease</brief_title>
+  <acronym>PEA-Valve</acronym>
+  <official_title>Phono- and Electrocardiogram Assisted Detection of Valvular Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Eko Devices, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of California, San Francisco</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>No</is_unapproved_device>
+    <is_ppsd>No</is_ppsd>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The diagnosis of valvular heart disease (VHD), or its absence, invariably requires cardiac
+      imaging. A familiar and inexpensive tool to assist in the diagnosis or exclusion of
+      significant VHD could both expedite access to life-saving therapies and reduce the need for
+      costly testing. The FDA-approved Eko Duo device consists of a digital stethoscope and a
+      single-lead electrocardiogram (ECG), which wirelessly pairs with the Eko Mobile application
+      to allow for simultaneous recording and visualization of phono- and electrocardiograms. These
+      features uniquely situate this device to accumulate large sets of auscultatory data on
+      patients both with and without VHD.
+
+      In this study, the investigators seek to develop an automated system to identify VHD by
+      phono- and electrocardiogram. Specifically, the investigators will attempt to develop machine
+      learning algorithms to learn the phonocardiograms of patients with clinically important
+      aortic stenosis (AS) or mitral regurgitation (MR), and then task the algorithms to identify
+      subjects with clinically important VHD, as identified by a gold standard, from naïve
+      phonocardiograms. The investigators anticipate that the study has the potential to
+      revolutionize the diagnosis of VHD by providing a more accurate substitute to traditional
+      auscultation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Phono- and Electrocardiogram Assisted Detection of Valvular Disease (PEA-Valve Study)
+
+      Specific aim(s) Aim 1: Can a machine learning algorithm derived from simultaneous phono- and
+      electrocardiogram recordings reliably diagnose clinically important aortic stenosis?
+
+      Aim 2: Can a machine learning algorithm derived from simultaneous phono- and
+      electrocardiogram recordings reliably diagnose clinically important mitral regurgitation?
+
+      Significance Valvular heart disease (VHD) is a common global health problem, with
+      population-based studies showing a prevalence of 10% for aortic stenosis (AS) and 20% for
+      mitral regurgitation (MR). New surgical and interventional advances allow for the treatment
+      of patients at an older age or whose risk of intervention would previously have been
+      untenable. Given that the incidence of both MR and AS increases with increasing age, there is
+      a growing need to identify these conditions so as to offer disease-altering therapies.
+
+      In current clinical practice, the diagnosis of VHD relies heavily on echocardiography. This,
+      in turn, requires both a referral from a provider with a clinical suspicion for VHD,
+      typically from an abnormality on auscultation, as well as access to the echocardiogram
+      itself. MR and AS both result in reliably reproducible auscultatory findings: holosystolic
+      and systolic crescendo-decrescendo murmurs, respectively. Yet despite this, auscultation as a
+      diagnostic tool is notoriously poor: its accuracy to detect MR and AS ranges only from 5-40%.
+      These factors all lead to concerns for underdiagnosis of these increasingly treatable
+      conditions.
+
+      Here, the investigators will address the needs for both greater access to and improved
+      diagnostic accuracy of testing for VHD. The investigators will utilize a combination of
+      phonocardiogram (PCG) and single-lead electrocardiogram (ECG) recordings, synced in real-time
+      to a secure cloud-based server, using the Eko Duo electronic stethoscope. With these data,
+      the investigators will develop and validate a machine learning algorithm to diagnose
+      clinically important AS or MR. As the Eko Duo is essentially similar to a traditional
+      stethoscope, an iconic tool widely accepted by patients and providers alike, its use to drive
+      an automated detection algorithm is both feasible and attractive as a substitute for
+      traditional auscultation. Furthermore, by shifting the burden of test interpretation away
+      from the clinician and onto the algorithm, the investigators hypothesize that this will
+      improve overall diagnostic accuracy.
+
+      Methods Overview of design: Cross-sectional study of all subjects undergoing clinical
+      echocardiograms at the UCSF adult echocardiography laboratory
+
+      Study subjects Overview: The investigators will enroll adult subjects undergoing clinical
+      echocardiograms at the UCSF Parnassus campus. These subjects will be grouped into derivation
+      and validation cohorts sequentially, stratified by case status, so as to reach the expected
+      sample size. Such grouping will occur after subject enrollment and data collection.
+
+      Target Population: Adults with either moderate-to-severe to severe AS or moderate-to-severe
+      to severe MR (cases) and adults with structurally normal hearts with minimal VHD (controls).
+      In a more-stringent, parallel analysis, a target population of controls will be defined as
+      having any degree of AS or MR less than moderate-to-severe.
+
+      Accessible Population: Adults meeting the entry criteria undergoing clinical echocardiograms
+      at the UCSF echocardiography laboratory amenable to participation.
+
+      Sampling Scheme: The investigators will approach subjects presenting to the adult
+      echocardiography laboratory at UCSF Parnassus consecutively. Additionally, the investigators
+      will pre-screen subjects for a high likelihood of having AS or MR (based on indication for
+      study and prior diagnoses in the APEX medical record) and selectively target their enrollment
+      during situations where the enrollment capacity of the study coordinator is saturated.
+
+      Recruitment Strategy: Introduction of study at time of registering for echocardiogram with a
+      brochure or flyer, followed by in-person approaching of potential subjects while awaiting the
+      clinical echocardiogram.
+
+      Retention Strategy: None. The investigators will retain a master file of the medical record
+      numbers to identify contact information in the future if deemed necessary.
+
+      Measurements Overview: The study will focus on two measurements: 1) the gold standard
+      assessment of VHD by echocardiogram, as reported by the UCSF echocardiography laboratory. 2)
+      30 second simultaneous PCG and single-lead ECG recordings by the Eko Duo device at each of
+      the four standard cardiac auscultatory positions, with optional additional recordings with
+      the Eko Core device. The study takes advantage of the fact that all clinical echocardiogram
+      reports include these valvular assessments.
+
+      Gold Standard: The echocardiogram is accepted as the gold standard for diagnosis of VHD
+      severity by the cardiology community. To minimize the burden on the investigators, as well as
+      reduce costs, the investigators will take advantage of that all clinical echocardiogram
+      reports include assessments of VHD, which will serve as the gold standard. These reports
+      follow American Society for Echocardiography (ASE) guidelines, which allow grading of VHD as
+      follows: none, mild, moderate, or severe. The UCSF echocardiography laboratory includes
+      additional categories of trace, mild-to-moderate, moderate-to-severe, and critical, allowing
+      for interpretations where individual parameters within the study conflict. The primary
+      measurement will be the final conclusion of severity of VHD for MR or AS, as reported by a
+      board-certified cardiologist. The investigators will define &quot;clinically important&quot; VHD as
+      that graded moderate-to-severe or worse, as this would encompass all levels of disease which
+      could require direct intervention. In addition, the investigators will extract the entire
+      echocardiography report, as well as the images of the echocardiogram files, so as to save the
+      data for future use as new research questions arise.
+
+      Device Measurements: Recordings of the simultaneous PCG and single-lead ECG will be performed
+      for each subject in a standardized manner. Each subject will undergo 30 second recordings
+      using the Eko Duo device at the four standard auscultation positions. Observers will be
+      trained on the systematic method of obtaining measurements. Time and patient permitting, the
+      investigators will also obtain the same recordings using the Eko Core device, which uses the
+      same software but does not include ECG recording. As the device will allow visualization of
+      the PCG during recording, the observer will get real-time feedback on positioning of the
+      device to maximize the quality of the recording at each position. The investigators will plan
+      for periodic review of recordings to ensure adequate data quality. The investigators
+      anticipate that this flexibility and real-time feedback will improve the generalizability of
+      the use of the device to a real-world (i.e. non-study) clinical situation.
+
+      Confounders and Bias: The derivation and validation of the algorithms will occur remotely,
+      after the clinical echocardiogram has been performed, and therefore with no effect on the
+      outcome of the gold standard. The test may be influenced by the presence of other conditions
+      causing systolic murmurs (including VHD other than AS or MR, or congenital heart disease).
+      The investigators will include these measures from the echocardiogram report to compare test
+      performance in those with and without these other conditions.
+
+      Statistical issues Null Hypothesis: A machine learning algorithm cannot predict the presence
+      of clinically important AS or MR.
+
+      Sample Size Justification:
+
+        -  Sensitivity of Algorithm: 90%
+
+        -  Specificity of Algorithm: 90%
+
+        -  Target Likelihood Ratio (+) of Algorithm [LR(R)]: 9 (derived from Sn / [1 - Sp])
+
+        -  Minimum Likelihood Ratio (+) of Algorithm [LR(R)]: 5
+
+        -  Confidence Level = 0.95 (alpha = 0.05)
+
+        -  Confidence Interval [LR(R)]: 5.120-15.820
+
+        -  Sample Size = 110 per group; 330 per cohort (control, AS case, MR case); 660 overall
+           (training and validation cohorts)
+
+        -  Summary: Assuming the sensitivity and specificity of the machine learning algorithm for
+           detection of clinically important AS or MR are both 0.9, a total sample size of 660 is
+           not expected to go below the threshold likelihood ratio of 5.0 in the 95% confidence
+           interval in either the derivation or validation cohorts.
+
+        -  Justification of Critical Assumptions: The investigators assume that the algorithm can
+           produce a sensitivity and specificity of 90% in detecting aortic stenosis or mitral
+           regurgitation compared to hearts with no valvular disease, based upon prior published
+           reports using neural networks, using sample sizes of under 100 cases. Furthermore, the
+           investigators estimate a minimum likelihood ratio of 5 would be necessary for the test
+           to be clinically useful. While this estimate works well for the validation set, the
+           number needed for the derivation set is less clear; the estimates above are a
+           conservative number. The investigators anticipate training the algorithm after
+           enrollment of every 20 cases using a bootstrapping approach; this will provide interim
+           test characteristics and help determine the true number needed for the derivation set.
+           As this is, in part, a pilot study, identification of the true sensitivity and
+           specificity of the test is in itself a valuable result.
+
+      Analysis approach: The investigators will generate ROC curves (plotting Sn vs. 1-Sp) for
+      algorithm scores for the validation set. Ultimately the investigators will generate 4 curves:
+      two each for MR and AS, using algorithms generated by the primary (defining controls as
+      having no greater than mild VHD) and secondary (defining controls as not having
+      moderate-to-severe or greater VHD) approaches. Additionally, the investigators anticipate
+      performing exploratory, descriptive analyses of the algorithm itself, by identifying clinical
+      correlates to the characteristics most heavily weighted in detecting AS or MR.
+
+      Miscellaneous Ethical considerations: No major concerns. Data will be securely stored on
+      HIPAA compliant platforms. The study qualifies as minimal risk by UCSF CHR criteria.
+
+      Pretest plans: Prior to study recruitment, study staff will collect data on themselves and
+      providers to test the data collection system. During initial subject recruitment, study staff
+      will review the process after each day to discuss roadblocks or concerns.
+
+      Data Management Plan: Data from the study will come from two sources. Reports of
+      echocardiograms, extracted from the electronic medical record (APEX), will be reviewed by
+      study staff to generate the main database of disease characteristics. A master file linking
+      subject identifiers with identifiable information, as well as extracted and de-identified
+      echocardiogram reports and de-identified raw echocardiogram images will be stored on a secure
+      research server used by the Division of Cardiology. Recorded PCG and ECG data (the actual
+      study measurements) will be synced in real-time to a secure, HIPAA-compliant, cloud-based
+      server managed by Eko Devices. At pre-specified times of algorithm training, the machine
+      learning team (coordinated by Eko Devices) will be provided keys to the assignment of subject
+      identifier to VHD category.
+
+      Quality control measures: Periodic review of the recorded data will be performed by the study
+      PI to ensure appropriate data quality.
+
+      Timetable:
+
+      Contract/Logistics Subject Enrollment Algorithm Development Analysis Publication Overall
+      Timetable: 9 Months
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 22, 2018</start_date>
+  <completion_date type="Anticipated">November 1, 2018</completion_date>
+  <primary_completion_date type="Anticipated">November 1, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Differentiation of clinically significant aortic stenosis from structurally normal hearts</measure>
+    <time_frame>Close of study (after final enrollment of the aortic stenosis validation set), within 1 year.</time_frame>
+    <description>Identification by the trained machine learning algorithm of clinically important aortic stenosis (defined as moderate-to-severe or greater) from control subjects with structurally normal hearts and no greater than mild valvular heart disease, with comparison to the gold standard echocardiogram interpretation. As our algorithm will provide a continuous &quot;score&quot; to determine the likelihood of disease, the data will primarily come in the form of a receiver operating characteristic curve, for which we will calculate accuracy, specificity, and likelihood ratios at sensitivity cutoffs of 0.9, 0.95, and 0.99.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Differentiation of clinically significant mitral stenosis from structurally normal hearts</measure>
+    <time_frame>Close of study (after final enrollment of the mitral regurgitation validation set), within 1 year.</time_frame>
+    <description>Identification by the trained machine learning algorithm of clinically important mitral regurgitation (defined as moderate-to-severe or greater) from control subjects with structurally normal hearts and no greater than mild valvular heart disease, with comparison to the gold standard echocardiogram interpretation. As our algorithm will provide a continuous &quot;score&quot; to determine the likelihood of disease, the data will primarily come in the form of a receiver operating characteristic curve, for which we will calculate accuracy, specificity, and likelihood ratios at sensitivity cutoffs of 0.9, 0.95, and 0.99..</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Differentiation of clinically significant aortic stenosis from the absence of clinically significant aortic stenosis</measure>
+    <time_frame>Close of study (after final enrollment of the aortic stenosis validation set), within 1 year.</time_frame>
+    <description>Identification by the trained machine learning algorithm of clinically important aortic stenosis (defined as moderate-to-severe or greater) from controls with less than moderate-to-severe aortic stenosis, with comparison to the gold standard echocardiogram interpretation. As our algorithm will provide a continuous &quot;score&quot; to determine the likelihood of disease, the data will primarily come in the form of a receiver operating characteristic curve, for which we will calculate accuracy, specificity, and likelihood ratios at sensitivity cutoffs of 0.9, 0.95, and 0.99.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Differentiation of clinically significant mitral regurgitation from the absence of clinically significant mitral regurgitation</measure>
+    <time_frame>Close of study (after final enrollment of the mitral regurgitation validation set), within 1 year.</time_frame>
+    <description>Identification by the trained machine learning algorithm of clinically important mitral regurgitation (defined as moderate-to-severe or greater) from controls with less than moderate-to-severe mitral regurgitation, with comparison to the gold standard echocardiogram interpretation. As our algorithm will provide a continuous &quot;score&quot; to determine the likelihood of disease, the data will primarily come in the form of a receiver operating characteristic curve, for which we will calculate accuracy, specificity, and likelihood ratios at sensitivity cutoffs of 0.9, 0.95, and 0.99.</description>
+  </secondary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Anticipated">900</enrollment>
+  <condition>Aortic Valve Stenosis</condition>
+  <condition>Mitral Regurgitation</condition>
+  <condition>Heart Murmurs</condition>
+  <condition>Valvular Heart Disease</condition>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <description>Subjects with echocardiographically confirmed valvular disease of less than moderate-to-severe grading with regards to aortic stenosis (AS) and mitral regurgitation (MR). Note that within this cohort will be a sub cohort consisting of subjects with structurally normal hearts, with no greater than mild valvular disease of any valve, no prior valvular intervention, and no evidence of congenital heart disease.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>AS Case</arm_group_label>
+    <description>Subjects with echocardiographically confirmed aortic stenosis (AS) of moderate-to-severe or greater grading.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>MR Case</arm_group_label>
+    <description>Subjects with echocardiographically confirmed mitral regurgitation (MR) of moderate-to-severe or greater grading.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control Subgroup</arm_group_label>
+    <description>Subjects with structurally normal hearts, with no greater than mild valvular disease of any valve, no prior valvular intervention, and no evidence of congenital heart disease.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>AS Algorithm 1</intervention_name>
+    <description>Machine learning algorithm, generated from ECG and PCG recordings, distinguishing moderate-to-severe or greater aortic stenosis from controls having structurally normal hearts with no greater than mild valvular heart disease at any location.</description>
+    <arm_group_label>AS Case</arm_group_label>
+    <arm_group_label>Control Subgroup</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>AS Algorithm 2</intervention_name>
+    <description>Machine learning algorithm, generated from ECG and PCG recordings, distinguishing moderate-to-severe or greater aortic stenosis from controls having any findings other than moderate-to-severe or greater aortic stenosis.</description>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_label>AS Case</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>MR Algorithm 1</intervention_name>
+    <description>Machine learning algorithm, generated from ECG and PCG recordings, distinguishing moderate-to-severe or greater mitral regurgitation from controls having structurally normal hearts with no greater than mild valvular heart disease at any location.</description>
+    <arm_group_label>MR Case</arm_group_label>
+    <arm_group_label>Control Subgroup</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>MR Algorithm 2</intervention_name>
+    <description>Machine learning algorithm, generated from ECG and PCG recordings, distinguishing moderate-to-severe or greater mitral regurgitation from controls having any findings other than moderate-to-severe or greater mitral regurgitation.</description>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_label>MR Case</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adults with either moderate-to-severe to severe AS or moderate-to-severe to severe MR
+        (cases) and adults with structurally normal hearts with minimal VHD (controls). In
+        practice, the accessible population will be adults meeting the entry criteria undergoing
+        clinical echocardiograms at the UCSF echocardiography laboratory amenable to participation.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Able to provide consent
+
+          -  Undergoing a complete echocardiogram
+
+        Exclusion Criteria:
+
+          -  Refusal to participate
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John Chorba, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, San Francisco</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>John Chorba, MD</last_name>
+    <phone>4156017361</phone>
+    <email>john.chorba@ucsf.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University of California San Francisco</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>John Chorba, MD</last_name>
+      <phone>415-601-7361</phone>
+      <email>john.chorba@ucsf.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Jones EC, Devereux RB, Roman MJ, Liu JE, Fishman D, Lee ET, Welty TK, Fabsitz RR, Howard BV. Prevalence and correlates of mitral regurgitation in a population-based sample (the Strong Heart Study). Am J Cardiol. 2001 Feb 1;87(3):298-304.</citation>
+    <PMID>11165964</PMID>
+  </reference>
+  <reference>
+    <citation>Eveborn GW, Schirmer H, Heggelund G, Lunde P, Rasmussen K. The evolving epidemiology of valvular aortic stenosis. the Tromsø study. Heart. 2013 Mar;99(6):396-400. doi: 10.1136/heartjnl-2012-302265. Epub 2012 Sep 2.</citation>
+    <PMID>22942293</PMID>
+  </reference>
+  <reference>
+    <citation>Faxon DP, Williams DO. Interventional Cardiology: Current Status and Future Directions in Coronary Disease and Valvular Heart Disease. Circulation. 2016 Jun 21;133(25):2697-711. doi: 10.1161/CIRCULATIONAHA.116.023551. Review.</citation>
+    <PMID>27324364</PMID>
+  </reference>
+  <reference>
+    <citation>Nishimura RA, Otto CM, Bonow RO, Carabello BA, Erwin JP 3rd, Guyton RA, O'Gara PT, Ruiz CE, Skubas NJ, Sorajja P, Sundt TM 3rd, Thomas JD; American College of Cardiology/American Heart Association Task Force on Practice Guidelines. 2014 AHA/ACC guideline for the management of patients with valvular heart disease: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines. J Am Coll Cardiol. 2014 Jun 10;63(22):e57-185. doi: 10.1016/j.jacc.2014.02.536. Epub 2014 Mar 3. Erratum in: J Am Coll Cardiol. 2014 Jun 10;63(22):2489. Dosage error in article text.</citation>
+    <PMID>24603191</PMID>
+  </reference>
+  <reference>
+    <citation>Mangione S, Nieman LZ. Cardiac auscultatory skills of internal medicine and family practice trainees. A comparison of diagnostic proficiency. JAMA. 1997 Sep 3;278(9):717-22. Erratum in: JAMA 1998 May 13;279(18):1444.</citation>
+    <PMID>9286830</PMID>
+  </reference>
+  <reference>
+    <citation>Mangione S. Cardiac auscultatory skills of physicians-in-training: a comparison of three English-speaking countries. Am J Med. 2001 Feb 15;110(3):210-6.</citation>
+    <PMID>11182108</PMID>
+  </reference>
+  <reference>
+    <citation>Zoghbi WA, Adams D, Bonow RO, Enriquez-Sarano M, Foster E, Grayburn PA, Hahn RT, Han Y, Hung J, Lang RM, Little SH, Shah DJ, Shernan S, Thavendiranathan P, Thomas JD, Weissman NJ. Recommendations for Noninvasive Evaluation of Native Valvular Regurgitation: A Report from the American Society of Echocardiography Developed in Collaboration with the Society for Cardiovascular Magnetic Resonance. J Am Soc Echocardiogr. 2017 Apr;30(4):303-371. doi: 10.1016/j.echo.2017.01.007. Epub 2017 Mar 14.</citation>
+    <PMID>28314623</PMID>
+  </reference>
+  <reference>
+    <citation>Baumgartner H, Hung J, Bermejo J, Chambers JB, Edvardsen T, Goldstein S, Lancellotti P, LeFevre M, Miller F Jr, Otto CM. Recommendations on the Echocardiographic Assessment of Aortic Valve Stenosis: A Focused Update from the European Association of Cardiovascular Imaging and the American Society of Echocardiography. J Am Soc Echocardiogr. 2017 Apr;30(4):372-392. doi: 10.1016/j.echo.2017.02.009.</citation>
+    <PMID>28385280</PMID>
+  </reference>
+  <reference>
+    <citation>Pretorius E, Cronje ML, Strydom O. Development of a pediatric cardiac computer aided auscultation decision support system. Conf Proc IEEE Eng Med Biol Soc. 2010;2010:6078-82. doi: 10.1109/IEMBS.2010.5627633.</citation>
+    <PMID>21097128</PMID>
+  </reference>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 19, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 1, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 8, 2018</study_first_posted>
+  <last_update_submitted>March 1, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 1, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 8, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, San Francisco</investigator_affiliation>
+    <investigator_full_name>John Chorba</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>Auscultation</keyword>
+  <keyword>Phonocardiogram</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Heart Sounds</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Aortic Valve Stenosis</mesh_term>
+    <mesh_term>Mitral Valve Insufficiency</mesh_term>
+    <mesh_term>Heart Valve Diseases</mesh_term>
+    <mesh_term>Heart Murmurs</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>We will create several de-identified databases of information and will be open to requests to share data as requested on a case-by-case basis.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

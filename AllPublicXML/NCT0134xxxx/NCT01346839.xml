@@ -1,0 +1,836 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01346839</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H-24978</org_study_id>
+    <nct_id>NCT01346839</nct_id>
+  </id_info>
+  <brief_title>Effectiveness of Electronic Health Record-Based Interventions for Improving Follow-Up in Primary Care</brief_title>
+  <official_title>Effectiveness of Electronic Health Record-Based Interventions for Improving Follow-Up in Primary Care</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Baylor College of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Scott and White Hospital &amp; Clinic</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Baylor College of Medicine</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Diagnostic delays in ambulatory care are often due to breakdowns of related care processes.
+      Electronic systems can improve follow-up and reduce delays by detecting missed appointments
+      or incomplete procedures so that patients are called back to conduct timely investigations
+      when appropriate. To achieve high standards of patient safety in cancer diagnosis, the
+      investigators not only need to use information technology appropriately but also improve the
+      processes, policies, and procedures of monitoring, communication, and coordination of care.
+
+      Given the importance of cancer-related diagnostic delays in ambulatory care, the
+      investigators need effective methods to detect them, understand their causes, and intervene
+      to reduce them. Manual techniques to detect these delays, such as spontaneous reporting and
+      random chart reviews, have limited effectiveness. Our proposed study focuses on testing
+      methods to proactively identify delays using certain &quot;triggers&quot; as they occur and intervene
+      in a timely manner.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The goal of this proposal is to demonstrate and test methods by which large health care
+      systems can efficiently identify cancer patients who are more likely to experience diagnostic
+      delays and pre-emptively rectify these delays. This study will build upon tools developed in
+      our recent work (Aim1, prior IRB Protocol Number: H-23801) and test their effectiveness to
+      identify patients at risk of experiencing delays in cancer diagnosis followed by an
+      intervention that the investigators hypothesize will reduce these delays.
+
+      This is Aim 2 (for which the investigators are seeking approval) is the final Aim of this
+      proposal. Aim 1 was approved under Protocol Number: H-23801.
+
+      In Aim 2 the investigators will determine the effectiveness of an IT-based intervention
+      (consisting of data mining using triggers tested in Aim 1 followed by targeted electronic
+      communication and surveillance techniques) to facilitate cancer diagnosis as compared with
+      usual care (no use of trigger or electronic communication and surveillance). Hypothesis 1:
+      The time from first appearance of a diagnostic clue to follow-up action (e.g. colonoscopy
+      performance after a positive FOBT) will be significantly less in the intervention arm than in
+      usual care. Hypothesis 2: The percentage of patients receiving timely follow-up care will be
+      significantly more in the intervention arm than in usual care. To improve the
+      generalizability of our findings to multiple ambulatory care environments, the investigators
+      will conduct our research in two settings: an urban Veterans Affairs facility in Houston,
+      Texas and a large primary care network in central Texas. These settings include internal
+      medicine and family medicine, academic and nonacademic practices, and significant racial,
+      gender, ethnic, age, urban/rural, and socioeconomic diversity. Our study addresses
+      coordination and timeliness of care, both of which are priorities to achieve high quality
+      care.
+
+      Hypothesis 3: Overall, the trigger will achieve a positive predictive value (PPV) of at least
+      50% in identifying delays in care. PPV is defined as the number of charts correctly
+      identified with a delay in diagnostic evaluation, divided by the total number of charts
+      identified by the trigger, and was deemed to be the approximately level necessary to avoid
+      substantial contribution to provider alert fatigue.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>February 2011</start_date>
+  <completion_date type="Actual">August 2012</completion_date>
+  <primary_completion_date type="Actual">August 2012</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Single (Care Provider)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Differences in Time to Documented Follow-up of a Red Flag Suggestive of Cancer</measure>
+    <time_frame>15 months</time_frame>
+    <description>Differences between the intervention and control groups (based on a Cox Proportional Hazards Survival Analysis) in median time to documented follow-up of a red flag (e.g., colonoscopy performance after positive FOBT) or of a deliberate decision by the treating provider not to take follow-up action. When less than 50% of patients in either group received diagnostic evaluation (ie, medians were not reached), the point at which 40% received diagnostic evaluation was compared instead.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Patients Receiving Timely Follow-up of a Red Flag Suggestive of Cancer</measure>
+    <time_frame>15 months</time_frame>
+    <description>The percentage of patients receiving timely follow-up care, as defined by action taken by provider within appropriate pre-defined time intervals for each diagnostic clue, in both intervention and control groups.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Cases With no Documented Justification for no Follow-up</measure>
+    <time_frame>15 months</time_frame>
+    <description>This is a descriptive sub-analysis looking only at cases with no follow-up at the end of the follow-up period. Specifically, out of the cases that never got follow-up, this represents the percent of that subsample that had no justification in the medical record for the lack of follow-up. This is based on manual chart reviews.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Diagnosed With Cancer After Delay in Diagnostic Evaluation</measure>
+    <time_frame>15 months</time_frame>
+    <description>Subsequent diagnosis of nonmalignant neoplasia, cancer, or death, and treatments required as a result of new cancer diagnoses after a pre-specified interval.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Trigger Positive Predictive Value</measure>
+    <time_frame>15 months</time_frame>
+    <description>Positive Predictive Values of each of the triggers in identifying patients with a true delay in diagnostic evaluation. Calculated as: percentage of patients identified as trigger positive that actually had a delay.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">1256</enrollment>
+  <condition>Colon Cancer</condition>
+  <condition>Lung Cancer</condition>
+  <condition>Prostate Cancer</condition>
+  <arm_group>
+    <arm_group_label>Contact Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual Care Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The usual care at MEDVAMC consists of providers using an advanced EHR and its notification system (the View Alert system) that immediately alerts providers about clinically significant events. The system relies primarily on computerized notification (alerts) displayed prominently through a &quot;View Alert&quot; window that is displayed in the EHR every time a provider signs on or switches between patient records. The system does not require providers to read alerts, and providers do have an option of ignoring the View Alert window to bypass it. At SWHS there is a navigation program for patients who have received a cancer diagnosis by tissue biopsy. However, currently there is no routine tracking of patients if they do not show for their scheduled appointments and tests at SWHS.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Contact Intervention</intervention_name>
+    <description>The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.</description>
+    <arm_group_label>Contact Intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        All primary care providers at both study sites who agree to be in the study. Intervention
+        will be performed on those whose patients are electronically identified to have suspected
+        cancer defined as presence of any predefined clue for cancer that is not followed-up in a
+        timely manner. Three cancers are included; colorectal, lung and prostate and their clues
+        include • chest x-imaging suspicious for malignancy • suspected or confirmed iron
+        deficiency anemia • positive FOBT • hematochezia • abnormal PSA Patients will be selected
+        from the data warehouse .
+
+        Exclusion Criteria:
+
+        Primary care providers who do not wish to be in the study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Hardeep Singh, MD MPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Baylor College of Medicine</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Michael E. DeBakey VA Medical Center</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Scott and White Memorial Hospital</name>
+      <address>
+        <city>Temple</city>
+        <state>Texas</state>
+        <zip>76508</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 23, 2011</study_first_submitted>
+  <study_first_submitted_qc>May 2, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 3, 2011</study_first_posted>
+  <results_first_submitted>August 24, 2015</results_first_submitted>
+  <results_first_submitted_qc>January 12, 2016</results_first_submitted_qc>
+  <results_first_posted type="Estimate">February 9, 2016</results_first_posted>
+  <last_update_submitted>January 12, 2016</last_update_submitted>
+  <last_update_submitted_qc>January 12, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">February 9, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Baylor College of Medicine</investigator_affiliation>
+    <investigator_full_name>Hardeep</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Diagnostic delay</keyword>
+  <keyword>Prevention</keyword>
+  <keyword>Diagnostic errors</keyword>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Contact Intervention</title>
+          <description>The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.
+Contact Intervention: The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.</description>
+        </group>
+        <group group_id="P2">
+          <title>Usual Care Control</title>
+          <description>The usual care at MEDVAMC consists of providers using an advanced EHR and its notification system (the View Alert system) that immediately alerts providers about clinically significant events. The system relies primarily on computerized notification (alerts) displayed prominently through a “View Alert” window that is displayed in the EHR every time a provider signs on or switches between patient records. The system does not require providers to read alerts, and providers do have an option of ignoring the View Alert window to bypass it. At SWHS there is a navigation program for patients who have received a cancer diagnosis by tissue biopsy. However, currently there is no routine tracking of patients if they do not show for their scheduled appointments and tests at SWHS.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="683"/>
+                <participants group_id="P2" count="573"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="369"/>
+                <participants group_id="P2" count="364">All triggers were applied retrospectively on 7/19/2012.</participants>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="314"/>
+                <participants group_id="P2" count="209"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Contact Intervention</title>
+          <description>The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.
+Contact Intervention: The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.</description>
+        </group>
+        <group group_id="B2">
+          <title>Usual Care Control</title>
+          <description>The usual care at MEDVAMC consists of providers using an advanced EHR and its notification system (the View Alert system) that immediately alerts providers about clinically significant events. The system relies primarily on computerized notification (alerts) displayed prominently through a “View Alert” window that is displayed in the EHR every time a provider signs on or switches between patient records. The system does not require providers to read alerts, and providers do have an option of ignoring the View Alert window to bypass it. At SWHS there is a navigation program for patients who have received a cancer diagnosis by tissue biopsy. However, currently there is no routine tracking of patients if they do not show for their scheduled appointments and tests at SWHS.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="369"/>
+            <count group_id="B2" value="364"/>
+            <count group_id="B3" value="733"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="60.4" spread="7.4"/>
+                    <measurement group_id="B2" value="60.3" spread="8.5"/>
+                    <measurement group_id="B3" value="60.3" spread="7.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="38"/>
+                    <measurement group_id="B2" value="66"/>
+                    <measurement group_id="B3" value="104"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="331"/>
+                    <measurement group_id="B2" value="298"/>
+                    <measurement group_id="B3" value="629"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Hispanic or Latino</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="35"/>
+                    <measurement group_id="B2" value="33"/>
+                    <measurement group_id="B3" value="68"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Not Hispanic or Latino</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="334"/>
+                    <measurement group_id="B2" value="331"/>
+                    <measurement group_id="B3" value="665"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unknown or Not Reported</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>American Indian or Alaska Native</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Asian</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="13"/>
+                    <measurement group_id="B3" value="18"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Native Hawaiian or Other Pacific Islander</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Black or African American</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="141"/>
+                    <measurement group_id="B2" value="154"/>
+                    <measurement group_id="B3" value="295"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>White</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="213"/>
+                    <measurement group_id="B2" value="179"/>
+                    <measurement group_id="B3" value="392"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>More than one race</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unknown or Not Reported</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                    <measurement group_id="B2" value="17"/>
+                    <measurement group_id="B3" value="27"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="369"/>
+                    <measurement group_id="B2" value="364"/>
+                    <measurement group_id="B3" value="733"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Number of Comorbidities</title>
+          <units>Comorbidities</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2.2" spread="1.3"/>
+                    <measurement group_id="B2" value="2.1" spread="1.4"/>
+                    <measurement group_id="B3" value="2.2" spread="1.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Differences in Time to Documented Follow-up of a Red Flag Suggestive of Cancer</title>
+        <description>Differences between the intervention and control groups (based on a Cox Proportional Hazards Survival Analysis) in median time to documented follow-up of a red flag (e.g., colonoscopy performance after positive FOBT) or of a deliberate decision by the treating provider not to take follow-up action. When less than 50% of patients in either group received diagnostic evaluation (ie, medians were not reached), the point at which 40% received diagnostic evaluation was compared instead.</description>
+        <time_frame>15 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Contact Intervention</title>
+            <description>The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.
+Contact Intervention: The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care Control</title>
+            <description>The usual care at MEDVAMC consists of providers using an advanced EHR and its notification system (the View Alert system) that immediately alerts providers about clinically significant events. The system relies primarily on computerized notification (alerts) displayed prominently through a “View Alert” window that is displayed in the EHR every time a provider signs on or switches between patient records. The system does not require providers to read alerts, and providers do have an option of ignoring the View Alert window to bypass it. At SWHS there is a navigation program for patients who have received a cancer diagnosis by tissue biopsy. However, currently there is no routine tracking of patients if they do not show for their scheduled appointments and tests at SWHS.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Differences in Time to Documented Follow-up of a Red Flag Suggestive of Cancer</title>
+          <description>Differences between the intervention and control groups (based on a Cox Proportional Hazards Survival Analysis) in median time to documented follow-up of a red flag (e.g., colonoscopy performance after positive FOBT) or of a deliberate decision by the treating provider not to take follow-up action. When less than 50% of patients in either group received diagnostic evaluation (ie, medians were not reached), the point at which 40% received diagnostic evaluation was compared instead.</description>
+          <units>Days</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="369"/>
+                <count group_id="O2" value="364"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Time to Follow-up of Colorectal Trigger</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="104" lower_limit="91.2" upper_limit="116.8"/>
+                    <measurement group_id="O2" value="200" lower_limit="162.5" upper_limit="210.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Time to Follow-up of Prostate Trigger</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="144" lower_limit="131.2" upper_limit="153.1"/>
+                    <measurement group_id="O2" value="192" lower_limit="182.0" upper_limit="199.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Time to Follow-up of Lung Trigger</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="65" lower_limit="50.4" upper_limit="79.6"/>
+                    <measurement group_id="O2" value="93" lower_limit="70.3" upper_limit="115.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>&lt;0.05</p_value>
+            <method>Regression, Cox</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percentage of Patients Receiving Timely Follow-up of a Red Flag Suggestive of Cancer</title>
+        <description>The percentage of patients receiving timely follow-up care, as defined by action taken by provider within appropriate pre-defined time intervals for each diagnostic clue, in both intervention and control groups.</description>
+        <time_frame>15 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Contact Intervention</title>
+            <description>The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.
+Contact Intervention: The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care Control</title>
+            <description>The usual care at MEDVAMC consists of providers using an advanced EHR and its notification system (the View Alert system) that immediately alerts providers about clinically significant events. The system relies primarily on computerized notification (alerts) displayed prominently through a “View Alert” window that is displayed in the EHR every time a provider signs on or switches between patient records. The system does not require providers to read alerts, and providers do have an option of ignoring the View Alert window to bypass it. At SWHS there is a navigation program for patients who have received a cancer diagnosis by tissue biopsy. However, currently there is no routine tracking of patients if they do not show for their scheduled appointments and tests at SWHS.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Patients Receiving Timely Follow-up of a Red Flag Suggestive of Cancer</title>
+          <description>The percentage of patients receiving timely follow-up care, as defined by action taken by provider within appropriate pre-defined time intervals for each diagnostic clue, in both intervention and control groups.</description>
+          <units>percentage of follow-up</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="369"/>
+                <count group_id="O2" value="364"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="73.4"/>
+                    <measurement group_id="O2" value="52.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percentage of Cases With no Documented Justification for no Follow-up</title>
+        <description>This is a descriptive sub-analysis looking only at cases with no follow-up at the end of the follow-up period. Specifically, out of the cases that never got follow-up, this represents the percent of that subsample that had no justification in the medical record for the lack of follow-up. This is based on manual chart reviews.</description>
+        <time_frame>15 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Contact Intervention</title>
+            <description>The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.
+Contact Intervention: The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care Control</title>
+            <description>The usual care at MEDVAMC consists of providers using an advanced EHR and its notification system (the View Alert system) that immediately alerts providers about clinically significant events. The system relies primarily on computerized notification (alerts) displayed prominently through a “View Alert” window that is displayed in the EHR every time a provider signs on or switches between patient records. The system does not require providers to read alerts, and providers do have an option of ignoring the View Alert window to bypass it. At SWHS there is a navigation program for patients who have received a cancer diagnosis by tissue biopsy. However, currently there is no routine tracking of patients if they do not show for their scheduled appointments and tests at SWHS.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Cases With no Documented Justification for no Follow-up</title>
+          <description>This is a descriptive sub-analysis looking only at cases with no follow-up at the end of the follow-up period. Specifically, out of the cases that never got follow-up, this represents the percent of that subsample that had no justification in the medical record for the lack of follow-up. This is based on manual chart reviews.</description>
+          <units>percentage with no documentation</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="174"/>
+                <count group_id="O2" value="98"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="33.9"/>
+                    <measurement group_id="O2" value="48.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants Diagnosed With Cancer After Delay in Diagnostic Evaluation</title>
+        <description>Subsequent diagnosis of nonmalignant neoplasia, cancer, or death, and treatments required as a result of new cancer diagnoses after a pre-specified interval.</description>
+        <time_frame>15 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Contact Intervention</title>
+            <description>The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.
+Contact Intervention: The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care Control</title>
+            <description>The usual care at MEDVAMC consists of providers using an advanced EHR and its notification system (the View Alert system) that immediately alerts providers about clinically significant events. The system relies primarily on computerized notification (alerts) displayed prominently through a “View Alert” window that is displayed in the EHR every time a provider signs on or switches between patient records. The system does not require providers to read alerts, and providers do have an option of ignoring the View Alert window to bypass it. At SWHS there is a navigation program for patients who have received a cancer diagnosis by tissue biopsy. However, currently there is no routine tracking of patients if they do not show for their scheduled appointments and tests at SWHS.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants Diagnosed With Cancer After Delay in Diagnostic Evaluation</title>
+          <description>Subsequent diagnosis of nonmalignant neoplasia, cancer, or death, and treatments required as a result of new cancer diagnoses after a pre-specified interval.</description>
+          <units>Number of patients diagnosed with cancer</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="369"/>
+                <count group_id="O2" value="364"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="13"/>
+                    <measurement group_id="O2" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Trigger Positive Predictive Value</title>
+        <description>Positive Predictive Values of each of the triggers in identifying patients with a true delay in diagnostic evaluation. Calculated as: percentage of patients identified as trigger positive that actually had a delay.</description>
+        <time_frame>15 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Contact Intervention</title>
+            <description>The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.
+Contact Intervention: The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care Control</title>
+            <description>The usual care at MEDVAMC consists of providers using an advanced EHR and its notification system (the View Alert system) that immediately alerts providers about clinically significant events. The system relies primarily on computerized notification (alerts) displayed prominently through a “View Alert” window that is displayed in the EHR every time a provider signs on or switches between patient records. The system does not require providers to read alerts, and providers do have an option of ignoring the View Alert window to bypass it. At SWHS there is a navigation program for patients who have received a cancer diagnosis by tissue biopsy. However, currently there is no routine tracking of patients if they do not show for their scheduled appointments and tests at SWHS.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Trigger Positive Predictive Value</title>
+          <description>Positive Predictive Values of each of the triggers in identifying patients with a true delay in diagnostic evaluation. Calculated as: percentage of patients identified as trigger positive that actually had a delay.</description>
+          <units>Percentage of participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="369"/>
+                <count group_id="O2" value="364"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="63.5"/>
+                    <measurement group_id="O2" value="55.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Contact Intervention</title>
+          <description>The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.
+Contact Intervention: The intervention will include activities such as electronic communication and surveillance that facilitate the care of patients experiencing delays. A trained chart reviewer will conduct chart reviews on trigger-positive patients to confirm they are at risk for care delays and this will be followed by an electronic and/or verbal communication to the provider. The intervention will be compared to usual care at both sites.</description>
+        </group>
+        <group group_id="E2">
+          <title>Usual Care Control</title>
+          <description>The usual care at MEDVAMC consists of providers using an advanced EHR and its notification system (the View Alert system) that immediately alerts providers about clinically significant events. The system relies primarily on computerized notification (alerts) displayed prominently through a “View Alert” window that is displayed in the EHR every time a provider signs on or switches between patient records. The system does not require providers to read alerts, and providers do have an option of ignoring the View Alert window to bypass it. At SWHS there is a navigation program for patients who have received a cancer diagnosis by tissue biopsy. However, currently there is no routine tracking of patients if they do not show for their scheduled appointments and tests at SWHS.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="369"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="364"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="369"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="364"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Hardeep Singh</name_or_title>
+      <organization>Michael E. DeBakey VA Medical Center and Baylor College of Medicine</organization>
+      <phone>713-794-8515</phone>
+      <email>hardeeps@bcm.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

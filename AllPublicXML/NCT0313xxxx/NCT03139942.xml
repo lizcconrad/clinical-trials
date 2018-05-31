@@ -1,0 +1,254 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03139942</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRAS186652</org_study_id>
+    <nct_id>NCT03139942</nct_id>
+  </id_info>
+  <brief_title>Optical Polyp Testing for In Vivo Classification</brief_title>
+  <acronym>OPTIC</acronym>
+  <official_title>Optical Polyp Testing for In Vivo Classification</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Imperial College London</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Small growths detected in the colon (polyps) during a colonoscopy may or may not have the
+      potential to develop into cancer. However, since visual inspection alone cannot separate all
+      potentially harmful polyps from harmless ones, the standard approach is to remove them all
+      for histological lab examination, exposing patients to risk of injury and putting a
+      significant demand on hospital resources. An accurate method of determining polyp type during
+      endoscopy would enable the clinician to only remove potentially harmful polyps. A new
+      endoscopic optical imaging probe (OPTIC), which analyses how light interacts with tissue, is
+      proposed to do this. The probe is contained within a normal endoscope and uses white light
+      and blue/violet laser light to illuminate the tissue. The reflected and fluorescent light
+      emitted, along with normal colour pictures of the polyp surface, are measured and recorded to
+      quantify specific characteristics of each type. Optical measurements of polyps detected in
+      endoscopy clinics at Imperial College Healthcare NHS Trust will be analysed to determine if
+      the signal can be used to differentiate different polyp types.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Polyps detected during a colonoscopy may range from benign to precancerous and cancerous.
+      While experienced endoscopists can reliably recognise cancer, the difference between small
+      polyps that have the potential to develop into cancer (adenomas) and those that do not
+      (hyperplastic), is often ambiguous. The standard approach is to simply remove all polyps and
+      analyse them in the histology lab. This means that many patients with hyperplastic polyps
+      (40% of those detected) are unnecessarily exposed to risk of injury (bowel perforation and
+      bleeding) during removal. Furthermore the NHS faces the significant cost of diagnosing this
+      harmless colon tissue. If clinicians were able to accurately determine polyp type during
+      endoscopy, without removal, then hyperplastic tissue could be left alone while potentially
+      harmful tissue is removed.
+
+      A pilot study of a new endoscopic optical imaging probe (OPTIC), which analyses how different
+      colours of light interact with tissue, is proposed. Previous research has indicated that
+      these properties differ in hyperplastic and adenomatous polyps. The probe is contained within
+      a normal endoscope and uses white light and blue/violet laser light to illuminate the tissue.
+      The reflected and fluorescent light emitted, along with normal colour pictures of the polyp
+      surface, are measured and recorded to quantify specific characteristics of each type.
+
+      Patients attending endoscopy clinics at Imperial College Healthcare NHS Trust will be asked
+      to allow the use of the OPTIC probe during their colonoscopy. If the clinician detects a
+      polyp that he/she intends to remove then this will be analysed using OPTIC before removal.
+      The histology results from the tissue sample will be recorded and correlated to the OPTIC
+      probe measurements. The resulting library of optical data will be used to design software to
+      automatically categorise unknown polyps based on the OPTIC signal. The accuracy of the
+      technique will be compared to the clinicians' visual assessments. The patients' involvement
+      in the study ceases after the colonoscopy.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 14, 2017</start_date>
+  <completion_date type="Anticipated">July 2017</completion_date>
+  <primary_completion_date type="Anticipated">July 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic accuracy of hyperplastic vs adenoma classification</measure>
+    <time_frame>1-2 weeks (from day of endoscopy and optical measurement, to return of histology results for any detected polyp)</time_frame>
+    <description>Correlation of optical signals from colonic polyps and their histologically-confirmed diagnosis. Quantification of sensitivity, specificity, negative predictive value.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Extension of classification algorithm to other polyp types (higher grade adenomas and cancer)</measure>
+    <time_frame>1-2 weeks (from day of endoscopy and optical measurement, to return of histology results for any detected polyp)</time_frame>
+    <description>Sensitivity and specificity of measured optical signals in differentiating different grades of adenoma.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Bowel preparation quality</measure>
+    <time_frame>1 day (has bowel preparation been sufficient on day of endoscopy and optical measurement)</time_frame>
+    <description>Is bowel preparation quality sufficient for endoscopy to proceed? Bowel preparation for some patients may be imperfect and hamper collection of optical data. A measure of the quality and hence, reliability, of the measured data must be obtained for future reference in order to prevent erroneous readings.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean time added to endoscopy due to additional imaging</measure>
+    <time_frame>1 day</time_frame>
+    <description>An estimate of the time added to an endoscopic examination of the colon due to the need to insert and remove the OPTIC probe</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Colonic Polyp</condition>
+  <condition>Colonic Diseases</condition>
+  <condition>Colonic Neoplasms</condition>
+  <condition>Colonic Adenoma</condition>
+  <condition>Colonic Adenocarcinoma</condition>
+  <condition>Colonic Dysplasia</condition>
+  <condition>Colonic Carcinoma</condition>
+  <condition>Colonic Cancer</condition>
+  <condition>Colon Hyperplastic Polyp</condition>
+  <arm_group>
+    <arm_group_label>Imaging using OPTIC probe</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Single arm study to test the feasibility of a new device - the OPTIC imaging probe. All participants enrolled in the study may be imaged using optical spectral reflectance and autofluorescence imaging during their endoscopy procedure.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Optical spectral reflectance and autofluorescence imaging</intervention_name>
+    <description>When a suitable area of tissue is identified by the clinician during a patient's colonoscopy (e.g., a polyp), the imaging probe is inserted into the colonoscope so that it can view the tissue. Optical spectral reflectance and autofluorescence imaging is then performed to collect white light reflected by, and fluorescent light emitted from, the tissue. This is then analysed by hardware and software components in the external analysis unit.</description>
+    <arm_group_label>Imaging using OPTIC probe</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All patients attending for screening colonoscopy, urgent colonoscopy for altered bowel
+             habit (on a two week wait) or those patients attending for polyp surveillance or
+             therapy.
+
+        Exclusion Criteria:
+
+          -  Patients with colitis, familial adenomatous polyposis or those that have undergone
+             previous surgery as these different pathologies may confound interpretation of the
+             optical signals.
+
+          -  At the discretion of the endoscopist patients with poor bowel preparation will be
+             excluded if it is judged that the colonoscopy cannot be completed. Further quality
+             measures will be determined for reliable data acquisition (see outcome measures).
+
+          -  Patients with acute gastrointestinal bleeding
+
+          -  Patients with chronic liver disease
+
+          -  Patients with abnormal coagulation or any other contra-indication to use of standard
+             biopsy in routine diagnostic endoscopic procedures
+
+          -  Patients who are unable or unwilling to give informed consent
+
+          -  Patients under the age of 18 years
+
+          -  Patients unable to speak English
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Julian P Teare, MD FRCP</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Imperial College London</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Julian P Teare, MD FRCP</last_name>
+    <phone>+4420 3312 2124</phone>
+    <email>j.teare@imperial.ac.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Neil T Clancy, BSc PhD</last_name>
+    <phone>+4420 7594 1707</phone>
+    <email>n.clancy@imperial.ac.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Imperial College London</name>
+      <address>
+        <city>London</city>
+        <zip>SW7 2AZ</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Julian P Teare, MD FRCP</last_name>
+      <phone>+4420 3312 2124</phone>
+      <email>j.teare@imperial.ac.uk</email>
+    </contact>
+    <contact_backup>
+      <last_name>Neil T Clancy, BSc PhD</last_name>
+      <phone>+4420 7594 1707</phone>
+      <email>n.clancy@imperial.ac.uk</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Julian P Teare, MD PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Neil T Clancy, BSc PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>March 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 24, 2017</study_first_submitted>
+  <study_first_submitted_qc>May 2, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 4, 2017</study_first_posted>
+  <last_update_submitted>May 2, 2017</last_update_submitted>
+  <last_update_submitted_qc>May 2, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 4, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Endoscopy</keyword>
+  <keyword>Colonoscopy</keyword>
+  <keyword>Hyperspectral imaging</keyword>
+  <keyword>Tissue classification</keyword>
+  <keyword>Tissue autofluorescence</keyword>
+  <keyword>Advanced imaging techniques</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Adenocarcinoma</mesh_term>
+    <mesh_term>Polyps</mesh_term>
+    <mesh_term>Adenoma</mesh_term>
+    <mesh_term>Colonic Polyps</mesh_term>
+    <mesh_term>Colonic Neoplasms</mesh_term>
+    <mesh_term>Colonic Diseases</mesh_term>
+    <mesh_term>Hyperplasia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Only anonymised data will be shared. The research team may share findings from the study with non-Imperial College academic collaborators, who will further develop aspects of its imaging capabilities.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

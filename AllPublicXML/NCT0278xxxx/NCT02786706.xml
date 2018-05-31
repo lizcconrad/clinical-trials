@@ -1,0 +1,289 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02786706</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HUM00098976</org_study_id>
+    <nct_id>NCT02786706</nct_id>
+  </id_info>
+  <brief_title>Automated Measurement of Optic Nerve Sheath Diameter</brief_title>
+  <official_title>Accuracy of Optic Nerve Sheath Diameter Measurement From Ultrasound Videos Using an Image Analysis Algorithm Compared to Expert Measurement in Patients With Acute Brain Injury</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Michigan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Don Massey Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Michigan</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Optic Nerve Ultrasound (ONUS) is a promising non-invasive tool for the detection of raised
+      Intracranial Pressure (ICP). Variability in the optimal Optic Nerve Sheath Diameter (ONSD)
+      threshold corresponding to elevated ICP in multiple studies limits the value of ONUS in
+      clinical practice. The investigators goal is to develop and validate an automated image
+      analysis algorithm for standardization of ONSD measurement from ultrasound videos. Patients
+      with acute brain injury requiring invasive ICP monitoring will undergo bedside ONUS, with
+      blinded ONSD measurement by an expert investigator. The image analysis algorithm will then be
+      used to measure ONSD and accuracy determined compared to the &quot;reference standard&quot; expert
+      measurement.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      BACKGROUND:
+
+      A promising tool under investigation for the non-invasive estimation of ICP is Optic Nerve
+      Ultrasound (ONUS). Raised ICP results in distension of the optic nerve sheath (ONS), a
+      continuation of the dura mater. Ocular imaging, performed by clinicians using point-of-care
+      ultrasound machines, can detect ONS distension behind the eye. A study conducted at the
+      University of Michigan identified an ONS Diameter (ONSD) cutoff of &gt;0.51cm as having 98%
+      sensitivity and 91% specificity for the detection of intracranial hypertension, defined as
+      ICP&gt;25mmHg. The significant variation seen in the optimal ONSD threshold for identification
+      of high ICP across several studies, however, greatly limits the practical application of this
+      technique at the bedside. Much of this variation in the optimal ONSD threshold is likely
+      related to technique, with variation in the margins used to define the ONS on acquired
+      ultrasound images by different operators. The ONS, visible as a linear hypodense structure
+      behind the eye can vary in its visualized dimension based on the angle and plane of
+      insonation. Automated image analysis may permit standardization of ONSD measurement and
+      thereby minimize interobserver variability.
+
+      SPECIFIC AIM:
+
+      The investigators goal is to develop a computer image-analysis algorithm to standardize
+      measurement of the ONSD from ultrasound videos, and to validate against the reference
+      standard of expert manual measurement of ONSD.
+
+      METHODS:
+
+      Development of image-analysis algorithm: Videos in DICOM format of prior ONUS studies
+      performed for clinical purposes in the neurointensive care unit will be deidentified and used
+      for initial development and modification of the automated image analysis algorithm, prior to
+      prospective enrollment of subjects for determination of accuracy.
+
+      Under IRB approval, the investigators will perform Optic Nerve Ultrasound (ONUS) on eligible
+      subjects admitted to the ICU following informed consent of the patient or appropriate
+      surrogate.
+
+      Optic Nerve Ultrasound and ONSD measurement: These patients will undergo ONUS in the ICU.
+      ONUS is performed with the patient's eye closed, and with a linear array transducer placed on
+      the upper margin of the orbit to obtain a sonographic video clip of the eye, followed by
+      bedside measurement of ONSD 3mm behind the level of the posterior scleral border. Imaging
+      will be performed for both eyes for each patient. The expert investigator performing the ONUS
+      study and manual ONSD measurement will be blinded to the patient's ICP by turning the monitor
+      away from the sonographer from the time of entry into the patient's room until exit. The
+      corresponding ICP from the invasive monitor will be separately documented by the bedside
+      nurse. The ONUS video corresponding to the highest measured ONSD will be submitted in DICOM
+      format for automated image analysis.
+
+      Equipment: Sonosite M-Turbo point-of-care ultrasound machine and an L25 linear array
+      transducer with an ophthalmic preset.
+
+      Statistical Analysis:
+
+        -  Simple descriptive statistics including means and standard deviations
+
+        -  Simple Pearson correlation to allow for visual inspection across a range of values
+
+        -  Tukey mean-difference plot (Bland - Altman plot) will be used to assess agreement
+           between the two methods, the ultrasound video analysis of optic nerve sheath diameter
+           and ONSD ultrasound interpretation by a clinician. Limits of agreement will be
+           calculated with standard errors and 95% confidence intervals.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>July 2015</start_date>
+  <completion_date type="Anticipated">December 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Expert measurement of Optic Nerve Sheath Diameter</measure>
+    <time_frame>Day of enrollment</time_frame>
+    <description>The primary endpoint for determination of accuracy of automated image analysis measurement of Optic Nerve Sheath Diameter (ONSD) will be ONSD measurement performed by an expert investigator with &gt;5 years experience with ONUS and ONSD measurement.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Traumatic Brain Injury</condition>
+  <condition>Acute Brain Injuries</condition>
+  <condition>Intracranial Hypertension</condition>
+  <arm_group>
+    <arm_group_label>Optic nerve ultrasound</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>All patients will undergo Optic Nerve Ultrasound (ONUS), with measurement of Optic Nerve Sheath Diameter (ONSD) by both an expert investigator as well as by the automated image analysis algorithm.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Optic nerve ultrasound</intervention_name>
+    <description>All patients will undergo Optic Nerve Ultrasound (ONUS), with measurement of Optic Nerve Sheath Diameter (ONSD) by both an expert investigator as well as by the automated image analysis algorithm.</description>
+    <arm_group_label>Optic nerve ultrasound</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Admitted to an ICU in the University of Michigan with Acute Brain Injury
+
+          -  Age&gt; 18 years
+
+          -  Invasive ICP monitor (external ventricular drain or intraparenchymal catheter) already
+             in place for a clinical indication.
+
+        Exclusion Criteria:
+
+          -  Pre-existing ocular pathology other than refractive error
+
+          -  Traumatic globe injury
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Venkatakrishna (Krishna) Rajajee, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Michigan</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Venkatakrishna (Krishna) Rajajee, MD</last_name>
+    <phone>(734) 936-9579</phone>
+    <email>venkatak@med.umich.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Ron Ball, BS</last_name>
+    <phone>(734) 647-5436</phone>
+    <email>rmball@med.umich.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Michigan Health System</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Venkatakrishna (Krishna) Rajajee, MD</last_name>
+      <phone>734-936-9579</phone>
+      <email>venkatak@med.umich.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Ron Ball, BS</last_name>
+      <phone>(734) 647-5436</phone>
+      <email>rmball@med.umich.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Venkatakrishna (Krishna) Rajajee, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Barry Belmont, MS</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mohamad Tiba, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kevin Ward, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.cdc.gov/traumaticbraininjury/pdf/blue_book.pdf</url>
+    <description>Traumatic brain injury in the United States: emergency department visits, hospitalizations, and deaths. Centers for Disease Control and Prevention, National Center for Injury Prevention and Control; 2010.</description>
+  </link>
+  <reference>
+    <citation>Juul N, Morris GF, Marshall SB, Marshall LF. Intracranial hypertension and cerebral perfusion pressure: influence on neurological deterioration and outcome in severe head injury. The Executive Committee of the International Selfotel Trial. J Neurosurg. 2000 Jan;92(1):1-6.</citation>
+    <PMID>10616075</PMID>
+  </reference>
+  <reference>
+    <citation>Farahvar A, Gerber LM, Chiu YL, Carney N, Härtl R, Ghajar J. Increased mortality in patients with severe traumatic brain injury treated without intracranial pressure monitoring. J Neurosurg. 2012 Oct;117(4):729-34. doi: 10.3171/2012.7.JNS111816. Epub 2012 Aug 17.</citation>
+    <PMID>22900846</PMID>
+  </reference>
+  <reference>
+    <citation>Hansen HC, Helmke K. Validation of the optic nerve sheath response to changing cerebrospinal fluid pressure: ultrasound findings during intrathecal infusion tests. J Neurosurg. 1997 Jul;87(1):34-40.</citation>
+    <PMID>9202262</PMID>
+  </reference>
+  <reference>
+    <citation>Rajajee V, Vanaman M, Fletcher JJ, Jacobs TL. Optic nerve ultrasound for the detection of raised intracranial pressure. Neurocrit Care. 2011 Dec;15(3):506-15. doi: 10.1007/s12028-011-9606-8.</citation>
+    <PMID>21769456</PMID>
+  </reference>
+  <reference>
+    <citation>Geeraerts T, Launey Y, Martin L, Pottecher J, Vigué B, Duranteau J, Benhamou D. Ultrasonography of the optic nerve sheath may be useful for detecting raised intracranial pressure after severe brain injury. Intensive Care Med. 2007 Oct;33(10):1704-11. Epub 2007 Aug 1.</citation>
+    <PMID>17668184</PMID>
+  </reference>
+  <reference>
+    <citation>Moretti R, Pizzi B. Optic nerve ultrasound for detection of intracranial hypertension in intracranial hemorrhage patients: confirmation of previous findings in a different patient population. J Neurosurg Anesthesiol. 2009 Jan;21(1):16-20. doi: 10.1097/ANA.0b013e318185996a.</citation>
+    <PMID>19098619</PMID>
+  </reference>
+  <reference>
+    <citation>Copetti R, Cattarossi L. Optic nerve ultrasound: artifacts and real images. Intensive Care Med. 2009 Aug;35(8):1488-9; author reply 1490-1. doi: 10.1007/s00134-009-1494-4. Epub 2009 Apr 15.</citation>
+    <PMID>19367390</PMID>
+  </reference>
+  <verification_date>June 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 26, 2016</study_first_submitted>
+  <study_first_submitted_qc>May 31, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 1, 2016</study_first_posted>
+  <last_update_submitted>June 2, 2017</last_update_submitted>
+  <last_update_submitted_qc>June 2, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 5, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Michigan</investigator_affiliation>
+    <investigator_full_name>Venkatakrishna Rajajee</investigator_full_name>
+    <investigator_title>Clinical Associate Professor, Neurosurgery and Neurology Medical Director, Neurointensive Care</investigator_title>
+  </responsible_party>
+  <keyword>Traumatic Brain Injury</keyword>
+  <keyword>Intracranial Pressure</keyword>
+  <keyword>Ultrasonography</keyword>
+  <keyword>Computer-Assisted Image Analysis</keyword>
+  <keyword>Intracranial Hypertension</keyword>
+  <keyword>Acute brain injuries</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypertension</mesh_term>
+    <mesh_term>Wounds and Injuries</mesh_term>
+    <mesh_term>Brain Injuries</mesh_term>
+    <mesh_term>Brain Injuries, Traumatic</mesh_term>
+    <mesh_term>Intracranial Hypertension</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

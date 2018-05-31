@@ -1,0 +1,240 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02130895</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H14-00797</org_study_id>
+    <nct_id>NCT02130895</nct_id>
+  </id_info>
+  <brief_title>Testing CDS in OSCAR EMR Using STOPP Criteria</brief_title>
+  <acronym>STOPP-RCT</acronym>
+  <official_title>A Mixed-method Study to Explore, Assess, and Explain the Translation of a Complex Set of Evidence-based Rules Into Practice Through Electronic Medical Record Based Decision Support: How Can STOPP Effectively be Deployed in Primary Care?</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of British Columbia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Canadian Institutes of Health Research (CIHR)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of British Columbia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This mixed methods study seeks to assess and understand the impact of using an advanced CDS
+      tool to present the STOPP criteria to support prescribers at the point of decision-making. We
+      ask the overarching question:
+
+      **How can clinical decision support tools effectively translate a complex set of
+      evidence-based rules into primary care clinical practice?**
+
+      The work is divided into 2 phases.
+
+      PHASE 1: Randomized control trial. We will measure change in potentially inappropriate
+      prescribing by primary care prescribers (e.g. family doctors) who are using the Clinical
+      Decision Support (CDS) tool in their Electronic Medical Record (EMR), as compared to those
+      who are not. Potentially Inappropriate Prescribing is defined by the STOPP criteria, the same
+      criteria that will be used in the clinical decision support tool in the EMR. We will use the
+      OSCAR EMR for this study. EMR based queries will be developed to assess the number of
+      potentially inappropriate prescriptions are current in each of 12 physician practices at
+      baseline and at 16 weeks.
+
+      PHASE 2: We will then complete a qualitative follow up with participants to aid in
+      understanding how primary care prescribers perceived the CDS. This will help explain Phase 1
+      findings and provide additional information to enhance future decision support tools.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The STOPP (Screening Tool of Older People's potentially inappropriate Prescriptions) criteria
+      are a previously clinically validated set of suggested medications to avoid in patients aged
+      65+ with certain characteristics (e.g. benzodiazepines should be avoided in those with a fall
+      history). These have previously been translated into point of care reminders that can be used
+      with the OSCAR Electronic Medical Record (EMR) so that physicians are notified of potentially
+      inappropriate prescriptions when a patient's chart is opened. This two phase explanatory
+      study will examine if those STOPP based point of care prescribing alerts as presented to
+      physicians in the OSCAR EMR can change potentially inappropriate prescribing patterns in
+      primary care physicians.
+
+      PHASE 1:
+
+      A cluster randomized control trial in private primary care physician offices. The
+      intervention is at the level of the physician and consists of activating the set of STOPP
+      based alerts for the physician so that they see them during their workflow. These alerts will
+      be triggered and displayed to physicians at the point of care. The alerts will suggest the
+      physician consider Potentially Inappropriate Prescriptions (PIPs), as defined by STOPP. The
+      control group will not have the alerts presented. (STOPP criteria are described in the full
+      proposal, attached).
+
+      The primary outcome measure is a composite indicator:
+
+        -  Δ in Number of PIPs in patients &gt;64yo with a visit during the intervention
+
+      Number of patients &gt;64yo with a visit during the intervention
+
+      Phase 1 Data Analysis: The outcomes will be measured using the University of British Columbia
+      (UBC) Department of Family Practice's research network infrastructure. The network has been
+      designed and successfully tested in a previous study (UBC ETHICS H13-02531). This network
+      connects to OSCAR EMRs and, with permission from the physician, is able to answer practice
+      level questions WITHOUT collecting patient level data. The practice level queries for
+      potentially inappropriate prescriptions will be distributed to the practices through the
+      network and only the aggregate answers (not patient level data) will be returned for
+      analysis. For example, one of the STOPP recommendations is to not use a non-cardioselective
+      beta blocker in patients with Chronic Obstructive Pulmonary Disease (COPD). The research
+      network would be able to query the physician practices before and after the intervention and
+      receive counts back on the number of patients with Chronic Obstructive Pulmonary Disease
+      (COPD) who are also on a non-cardioselective beta-blocker.
+
+      PHASE 2:
+
+      Will seek to qualitatively explain the findings from phase 1 with the physician participants.
+
+      This will consist of one to two, two-hour, semi-structured discussion group(s) with family
+      physicians from the intervention group. The discussion group will seek to understand specific
+      issues with the Phase 1 tool. The discussion group will move through the following steps: (a)
+      consent; (b) participants provide overall impressions of the tool; (c) review preliminary
+      results from Phase 1; (d) specific feedback on how to improve the tool. The focus group will
+      be audio recorded and qualitatively analyzed through the lens of pragmatic content analysis
+      to better understand perceptions of the Clinical Decision Support (CDS) tool and its
+      integration into workflow. There may be 2 discussion groups to allow for broader
+      participation if scheduling is an issue and it may be a remote discussion group, depending on
+      location of physician participants.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2014</start_date>
+  <completion_date type="Actual">October 2015</completion_date>
+  <primary_completion_date type="Actual">October 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in rate of potentially inappropriate prescribing</measure>
+    <time_frame>Baseline, 8 weeks, 16 weeks</time_frame>
+    <description>Reports will be run on EMR data to provide summary statistics to count rates for potentially inappropriate prescriptions. The reports will be generated using a series of queries that are consistent with the rules that trigger the CDS alerts. Change will be determined between baseline and 8 weeks and baseline and 16 weeks.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in rates of Potentially Inappropriate Prescribing for Individual STOPP Criteria</measure>
+    <time_frame>16 weeks</time_frame>
+    <description>The primary outcome is a composite indicator consisting of measuring each of the rates of potentially inappropriate prescriptions documented in the EMR for each of the STOPP criteria that are implemented in the intervention. This set of secondary outcomes will look at each STOPP criteria in the study individually to see if there are sub-sets of criteria that were more or less likely to change.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Qualitative User Assessment of Decision Support</measure>
+    <time_frame>Point in Time after intervention</time_frame>
+    <description>Findings based on qualitative discussion group from the physicians in the intervention arm. This will include recommendations on how to improve the user experience of the decision support system and the specific recommendations.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">28</enrollment>
+  <condition>Prescribing</condition>
+  <arm_group>
+    <arm_group_label>Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>STOPP Criteria Decision Support Content Intervention arm will receive CDS suggestions based on the STOPP criteria.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Control arm will provide care as usual during the intervention period.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>STOPP Criteria Decision Support Content</intervention_name>
+    <description>55 previously developed clinical decision support suggestions based on the STOPP criteria will be activated in the physician EMR. Each suggestion provides a patient specific rule that, if triggered will display its title in an existing &quot;Clinical Decision Alerts&quot; box on the bottom right hand column in the patient's EMR chart. For example, in a patient with diabetes and on a beta blocker then the suggestion &quot;Consider: avoiding b-blockers in elderly diabetics with &gt;=1 hypoglycaemic episodes / month&quot; will be presented to the physician in the side bar (not a popup). The physician then can decide to review, consider, or ignore the recommendation.</description>
+    <arm_group_label>Intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Have been using the OSCAR EMR v 12.x for &gt;12 months (to provide enough time for
+             medications to be consistently documented in the EMR).
+
+          -  Have OSCAR EMR installed locally in the practice.
+
+          -  Agree to be or are already a part of the University of British Columbia's Department
+             of Family Practice's (UBC DFP) research network.
+
+          -  Ensure their OSCAR Service Provider (OSP) agrees to support the research network
+             hardware/software installation.
+
+          -  Have not used the STOPP criteria in OSCAR prior to the study.
+
+        Exclusion Criteria:
+
+          -  Non-prescribers.
+
+          -  Those who do not provide longitudinal care (e.g. walk-in clinics).
+
+          -  Specialists or midwives.
+
+          -  Those who do not have regular patients over age 64 (e.g. maternity clinics).
+
+          -  Those who do not use OSCAR 12.1 or those that do not document prescriptions in their
+             EMR prescription module.
+
+          -  Those who have ALREADY used the STOPP rules in OSCAR prior to the study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Private Physician Offices</name>
+      <address>
+        <city>Multiple Expected</city>
+        <state>British Columbia</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 1, 2014</study_first_submitted>
+  <study_first_submitted_qc>May 5, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 6, 2014</study_first_posted>
+  <last_update_submitted>December 1, 2015</last_update_submitted>
+  <last_update_submitted_qc>December 1, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">December 3, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of British Columbia</investigator_affiliation>
+    <investigator_full_name>Morgan Price</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>prescribing</keyword>
+  <keyword>STOPP Criteria</keyword>
+  <keyword>potentially inappropriate prescribing</keyword>
+  <keyword>clinical decision support</keyword>
+  <keyword>Electronic Medical Records</keyword>
+  <keyword>primary care</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,3344 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01846741</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Epilepsy (E)-37</org_study_id>
+    <nct_id>NCT01846741</nct_id>
+  </id_info>
+  <brief_title>VNS Therapy Automatic Magnet Mode Outcomes Study in Epilepsy Patients Exhibiting Ictal Tachycardia (E-37)</brief_title>
+  <acronym>E-37</acronym>
+  <official_title>VNS Therapy Automatic Magnet Mode Outcomes Study in Epilepsy Patients Exhibiting Ictal Tachycardia</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cyberonics, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Cyberonics, Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Obtain baseline clinical outcome data (Stage 1) upon which to base a subsequent study (Stage
+      2) of the Model 106 VNS implantable pulse generator
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Prospective, observational, un-blinded, multi-site study designed to collect data on patients
+      implanted with a Model 106 VNS Therapy System from baseline through an EMU stay of up to 5
+      days, and 6-month follow-up. After the 6-month follow-up, patients will continue follow-up
+      for safety for approximately two years or until final regulatory approval of the product.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2013</start_date>
+  <completion_date type="Actual">August 2015</completion_date>
+  <primary_completion_date type="Actual">August 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Estimate the Effect Size Associated With Objective Measures and Patient Self-reports of Clinical Outcomes Including Seizure Frequency, Seizure Severity, Seizure Duration, Seizure Intensity, and Post-ictal Duration.</measure>
+    <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+    <description>The purpose for determining the effect size was to power a stage 2 study. At the conclusion of stage 1 of the E-37 study, it was determined that another study would not be necessary as it would not provide incremental clinical benefit information above what has already been collected. Therefore, computation of effect size was not necessary.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Summary of Seizures Reported by Investigators and Triple Review</measure>
+    <time_frame>Epilepsy Monitoring Unit (EMU) Stay</time_frame>
+    <description>Seizure events were recorded during the EMU stay (only Automatic Stimulation Mode aka AutoStim ON) using vEEG and ECG to evaluate tachycardia detection algorithm performance. The threshold for the AutoStim feature (20-70%) was programmed for each subject, based upon the historical ictal elevation in heart rate for that subject, requiring the corresponding heart rate elevation above that of a moving baseline window.
+Number of seizures observed and reported by investigators during the EMU stay (several subjects had more than one type of seizure) were collected and also reviewed by three (3) independent and blinded reviewers for confirmation. Additionally, the reviewers identified new seizures while reviewing the study EMU stay vEEG.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Performance of the Tachycardia Detection Algorithm (Sensitivity) During an EMU Stay Based on ITT Population-Observed</measure>
+    <time_frame>Epilepsy Monitoring Unit (EMU) Stay</time_frame>
+    <description>Sensitivity is defined as the total number of seizures detected divided by the total number of seizures during the EMU stay. Data used to support sensitivity analyses included digital ECG/EEG files, corresponding M106 device downloads, and CRF data. Seizure and non-seizure EEG segments were provided to independent reviewers to confirm seizure occurrence and define electrographic seizure onset times. Seizure onset times were then compared with observed M106 device detections at the least sensitive setting capable of detecting the seizure based on the corresponding change in heart rate. Threshold for AutoStim setting (1;70%, 2;60%, 3;50%, 4;40%, 5;30% and 6;20%). No subjects were assigned to settings 3 and 6 that had seizures with a corresponding heart rate increase of &gt;= 50% and &gt;= 20%, respectively. Number of participants is total number of subjects who experienced seizures during the EMU stay.
+Bootstrap confidence intervals using 3000 bootstrap samples.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Performance of the Tachycardia Detection Algorithm (Sensitivity) During an EMU Stay Based on ITT Population-Modeled</measure>
+    <time_frame>Epilepsy Monitoring Unit (EMU) Stay</time_frame>
+    <description>Sensitivity is defined as the total number of seizures detected divided by the total number of seizures during the EMU stay. Data used to support sensitivity analyses included digital ECG/EEG files, corresponding M106 device downloads, and CRF data. Seizure onset times were compared with modeled M106 device detections at the least sensitive setting capable of detecting the seizure based on the corresponding change in heart rate. The participants' surface ECG data collected during the trial and passed through DMSDAT, a validated bench‐top simulant of the Automatic Stimulation feature, was used to produce modeled results for each threshold for AutoStim setting (1;70%, 2;60%, 3;50%, 4;40%, 5;30% and 6;20%). Number of participants is total number of subjects who experienced seizures during the EMU stay.
+Bootstrap confidence intervals using 3000 bootstrap samples.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Non-seizure Related Stimulation Rate Per Hour During EMU Stay and Stair Stepper Exercise Periods</measure>
+    <time_frame>Epilepsy Monitoring Unit (EMU) Stay</time_frame>
+    <description>Each day in the EMU, subjects exercised for up to 3 minutes stepping up and down at a submaximal effort level on a step stool. Subject's resting heart rate was compared with the calculated 85% of the patient's age-predicted maximum heart rate. This calculated heart rate was then used as termination criteria for the step test.
+Non-Seizure Detection Rate (previously known as Potential False Positive Rate) is defined as the total number of non-seizure detections summed for the group divided by the total evaluable monitoring time during the EMU. The non-seizure detection rate per hour was calculated at the various tachycardia detection settings for all subjects during EMU and during exercise activities (stair stepper).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Characterization of Seizures (Duration and Cessation)</measure>
+    <time_frame>Epilepsy Monitoring Unit (EMU) Stay</time_frame>
+    <description>Clinical outcomes including seizure duration and cessation were assessed with vEEG during EMU stay. Number of seizures treated with Automatic Stimulation during EMU were evaluated. Of these seizures, those ending during the 60 second course of Automatic Stimulation were assessed and tabulated by seizure type.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assesses Changes in Seizure Severity Based on Physician Reported Questionnaire (NHS3)</measure>
+    <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+    <description>Investigators completed the National Hospital Seizure Severity Scale (NHS3) questionnaire at screening, at the end of the EMU stay (provided a seizure occurred during the EMU stay), and at follow‐up visits. Severity was evaluated by seizure type. The range of NHS3 scale is 1-27 with 1 being the least severe and 27 being the most severe.
+Negative median value means improvement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Changes in Seizures Severity, Intensity &amp; Post-Ictal Recovery Based on Patient Completed Questionnaire (SSQ)</measure>
+    <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+    <description>Clinical outcomes such as seizure severity, intensity and post-ictal duration were also assessed during the long-term follow-up visits (3, 6, 12, 18 months) with patient reported questionnaires (SSQ; Seizure Severity Questionnaire). The range for SSQ (all sub-scores) is 1-7 with 1 being the least severe and 7 being the most severe.
+Mean SSQ scores at 3, 6, 12 and 18 months were compared to baseline. A change from baseline is calculated as baseline minus follow-up visit score to correspond to the Minimally Important Change (MIC) criteria as defined in the Scoring Scheme for SSQ v2. Questionnaire.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Changes From Baseline in Quality of Life Based on Patient Completed Questionnaire (QOLIE-31-P)</measure>
+    <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+    <description>Adult subjects (18 years and older) completed the Quality of Life in Epilepsy-Patient-Weighted (QOLIE-31-P) survey questionnaire at screening and safety follow-up visits. The range for QOLIE-31-P (Sub-domains) scale is 0-100. The higher the score the better quality of life.
+Mean QOLIE-31-P scores at 3, 6, 12 and 18 months were compared to baseline. MIC Thresholds as defined in Simon Borghs, Christine de la Loge, Joyce A. Cramer, defining minimally important change in QOLIE-31-P scores.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Changes From Baseline in Seizure Frequency</measure>
+    <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+    <description>Seizure frequency was calculated at 3, 6,12 and 18 month follow-up visits based on seizure diary information and compared to baseline estimates. Response rate was computed and summarized for partial seizures (SPS, CPS and CPS with 2nd GTCs) and overall seizure types as the proportion of patients that achieved ≥50% seizure reduction per month from baseline by visit.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Percent Changes in Antiepileptic Drug (AED) Load From Baseline</measure>
+    <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+    <description>AED load were collected and measured from baseline.The AED load is calculated as the sum of all ratios of the total daily dose of each medication taken on the day of the visit over the defined daily dose of the medication for the main indication according to the WHO database.
+Positive median value indicates increased drug load.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess All Adverse Events to Outline the Tolerability Profile of the AspireSR® VNS Therapy® System</measure>
+    <time_frame>From initial titration visit (approximately 2 weeks after implantation) up to End of Study</time_frame>
+    <description>All adverse events (AEs) occurring during the study were collected and incidence rates tabulated by System Organ Class and Preferred Term utilizing MedDRA version 16.1 dictionary. The incidence profile was used to assess differences in near term tolerability rates relative to standard VNS Therapy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Evaluation of Human Factors and Usability of the AspireSR® VNS Therapy® System.</measure>
+    <time_frame>Up to 6 Month Visit</time_frame>
+    <description>Usability survey data were collected from all site personnel who used the handheld programmer to evaluate the usability of the AspireSR® VNS Therapy® System.The device usability survey contained 17 questions that measure usability on a five-point Likert scale ranging from &quot;Extremely Difficult&quot; (5) to &quot;Extremely Easy&quot; (1). Site personnel were asked to assess usability of the software features, instructions for use, training materials, and overall usability of the system at four different time points. The time points include implant/recovery, the first day of EMU, the end of EMU, and the 6 month follow-up visit.
+Overall Usability was calculated as percentage of the users who found the overall usability of system to be &quot;easy-2&quot; or extremely easy-1&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Changes in Healthcare Utilization: Inpatient Hospital Visits, Emergency Room Visits, Outpatient Hospitalizations and Physician Office Visits.</measure>
+    <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+    <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of unplanned inpatient hospitalizations, emergency room visits, outpatient hospitalizations, physician office visits.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Changes in Healthcare Utilization: Number of Nights Spent at the Hospital</measure>
+    <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+    <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of nights spent at the hospital.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Changes in Healthcare Utilization: Days Per Week Patients and Caregivers Could Not Work</measure>
+    <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+    <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of days per week of missed work because of health reasons.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Changes in Healthcare Utilization: Number of Hours Per Week Caregivers Spent Caring for Patients.</measure>
+    <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+    <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of hours per week caregivers spent caring for patients.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess Changes in Healthcare Utilization: Number of Phone Calls to Physician</measure>
+    <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+    <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of phone calls to physicians.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Epilepsy</condition>
+  <arm_group>
+    <arm_group_label>Model 106 VNS Therapy System</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>M106 VNS Therapy System</intervention_name>
+    <arm_group_label>Model 106 VNS Therapy System</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients with a clinical diagnosis of medically refractory epilepsy with partial onset
+             seizures suitable for implantation with the VNS Therapy System.
+
+          -  Patients willing to undergo an EMU evaluation for a period of at least three days with
+             activation of the AMM feature during that time.
+
+          -  Patients must be at least 12 years old.
+
+          -  Patients must be in good general health and ambulatory.
+
+          -  Patient or guardian must be willing and able to complete informed consent/assent.
+
+        Exclusion Criteria:
+
+          -  Patients have had a bilateral or left cervical vagotomy.
+
+          -  Patients currently using, or are expected to use, short-wave diathermy, microwave
+             diathermy, or therapeutic ultrasound diathermy.
+
+          -  A VNS Therapy System implant would (in the investigator's judgment) pose an
+             unacceptable surgical or medical risk for the patient.
+
+          -  Patients expected to require full body magnetic resonance imaging (MRI).
+
+          -  Patients have a history of implantation of the VNS Therapy.
+
+          -  Patients with an IQ known or estimated to be &lt; 70, history of depression requiring
+             hospitalization, or suicidality as defined by DSM IV-TR that in the investigator's
+             judgment would pose an unacceptable risk for the patient or prevent the patient's
+             successful completion of the study.
+
+          -  Patients with a history of status epilepticus within 1 year of study enrollment.
+
+          -  Patients with known clinically meaningful cardiovascular arrhythmias as well as
+             patients with clinically meaningful cardiovascular arrhythmias determined by a 24-hour
+             Holter recording obtained during the baseline period.
+
+          -  Patients dependent on alcohol or narcotic drugs as defined by DSM IV-TR within the
+             past 2 years.
+
+          -  Patients with a history of psychogenic non-epileptic seizures.
+
+          -  Women who are pregnant. Women of childbearing age must take a pregnancy test and agree
+             to use an approved method of contraception during the study.
+
+          -  Patients currently enrolled in another investigational study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>12 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jason Begnaud</last_name>
+    <role>Study Director</role>
+    <affiliation>Cyberonics, Inc.</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Robert Fisher, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Phoenix</city>
+        <state>Arizona</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Tampa</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>St. Paul</city>
+        <state>Minnesota</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kansas City</city>
+        <state>Missouri</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Albany</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Memphis</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Salt Lake City</city>
+        <state>Utah</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 15, 2013</study_first_submitted>
+  <study_first_submitted_qc>May 2, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 3, 2013</study_first_posted>
+  <results_first_submitted>July 10, 2015</results_first_submitted>
+  <results_first_submitted_qc>July 10, 2015</results_first_submitted_qc>
+  <results_first_posted type="Estimate">July 14, 2015</results_first_posted>
+  <last_update_submitted>October 26, 2015</last_update_submitted>
+  <last_update_submitted_qc>October 26, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">November 24, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Automatic Magnet Mode (AMM)</keyword>
+  <keyword>Vagus Nerve Stimulation (VNS)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Epilepsy</mesh_term>
+    <mesh_term>Tachycardia</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Eligible subjects were at least 12 years old, good general health suitable for VNS implant with refractory (drug-resistant) partial onset seizures and a history of ictal tachycardia, defined as heart rate above 100 beats per minute (bpm) during a seizure and at least a 55% increase or 35 bpm increase from baseline.</recruitment_details>
+      <pre_assignment_details>A total of (22) subjects were screened; (2) did not meet study criteria, (20) were treated/implanted with the AspireSR® VNS Therapy® System.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>VNS Therapy - ITT Population</title>
+          <description>Subjects who were implanted with the AspireSR® VNS Therapy® System.
+The intent-to-treat (ITT) population is defined as all subjects with the VNS Therapy system implanted and the device had been turned on.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Baseline Visit</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="22"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="2"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Subject did not meet entry criteria</title>
+              <participants_list>
+                <participants group_id="P1" count="2"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+        <period>
+          <title>Implantation to 18-Month/End of Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Subjects implanted with VNS Therapy system</population>
+      <group_list>
+        <group group_id="B1">
+          <title>VNS Therapy (ITT Population)</title>
+          <description>Subjects who were implanted with the AspireSR® VNS Therapy® System.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="20"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="35.6" spread="14.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age, Customized</title>
+          <units>years</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="31" lower_limit="21" upper_limit="69"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age, Customized</title>
+          <units>years</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>18-29 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>30-39 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>40-49 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>50-59 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>60 years or older</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race/Ethnicity, Customized</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>White</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Black or African American</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Hispanic or Latino</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Cognitive Status</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Normal</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Minimal Impairment</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Time from diagnosis to VNS therapy</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="21.2" spread="15.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Time from diagnosis to VNS therapy</title>
+          <units>years</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="17" lower_limit="1" upper_limit="52"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Previous brain or Epilepsy surgery</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>No</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Yes</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Etiology</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Idiopathic Partial</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Symptomatic Partial</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Cryptogenic</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Family history of seizures</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>No</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Yes</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Seizures with auras in past 2 months</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>No</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Yes</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Secondary</type>
+        <title>Summary of Seizures Reported by Investigators and Triple Review</title>
+        <description>Seizure events were recorded during the EMU stay (only Automatic Stimulation Mode aka AutoStim ON) using vEEG and ECG to evaluate tachycardia detection algorithm performance. The threshold for the AutoStim feature (20-70%) was programmed for each subject, based upon the historical ictal elevation in heart rate for that subject, requiring the corresponding heart rate elevation above that of a moving baseline window.
+Number of seizures observed and reported by investigators during the EMU stay (several subjects had more than one type of seizure) were collected and also reviewed by three (3) independent and blinded reviewers for confirmation. Additionally, the reviewers identified new seizures while reviewing the study EMU stay vEEG.</description>
+        <time_frame>Epilepsy Monitoring Unit (EMU) Stay</time_frame>
+        <population>ITT Population: Consists of all patients in the safety population who have any EMU performance recorded data and experienced any seizures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Reported By Investigators</title>
+            <description>All Seizures Identified (During EMU)</description>
+          </group>
+          <group group_id="O2">
+            <title>Reported by Triple Review</title>
+            <description>EMU Seizures Identified Post EMU</description>
+          </group>
+          <group group_id="O3">
+            <title>Total</title>
+            <description>Seizures Reported by Investigators and Triple Reviewers</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Summary of Seizures Reported by Investigators and Triple Review</title>
+          <description>Seizure events were recorded during the EMU stay (only Automatic Stimulation Mode aka AutoStim ON) using vEEG and ECG to evaluate tachycardia detection algorithm performance. The threshold for the AutoStim feature (20-70%) was programmed for each subject, based upon the historical ictal elevation in heart rate for that subject, requiring the corresponding heart rate elevation above that of a moving baseline window.
+Number of seizures observed and reported by investigators during the EMU stay (several subjects had more than one type of seizure) were collected and also reviewed by three (3) independent and blinded reviewers for confirmation. Additionally, the reviewers identified new seizures while reviewing the study EMU stay vEEG.</description>
+          <population>ITT Population: Consists of all patients in the safety population who have any EMU performance recorded data and experienced any seizures.</population>
+          <units>Number of Seizures</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="16"/>
+                <count group_id="O2" value="16"/>
+                <count group_id="O3" value="16"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>All Seizure Types</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="84"/>
+                    <measurement group_id="O2" value="5"/>
+                    <measurement group_id="O3" value="89"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Total Partial Seizures</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="76"/>
+                    <measurement group_id="O2" value="0"/>
+                    <measurement group_id="O3" value="76"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Simple Partial</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="37"/>
+                    <measurement group_id="O2" value="0"/>
+                    <measurement group_id="O3" value="37"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Complex Partial</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="38"/>
+                    <measurement group_id="O2" value="0"/>
+                    <measurement group_id="O3" value="38"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Secondarily Generalized</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="0"/>
+                    <measurement group_id="O3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Sub-Clinical</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8"/>
+                    <measurement group_id="O2" value="1"/>
+                    <measurement group_id="O3" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unclassified</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="4"/>
+                    <measurement group_id="O3" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Performance of the Tachycardia Detection Algorithm (Sensitivity) During an EMU Stay Based on ITT Population-Observed</title>
+        <description>Sensitivity is defined as the total number of seizures detected divided by the total number of seizures during the EMU stay. Data used to support sensitivity analyses included digital ECG/EEG files, corresponding M106 device downloads, and CRF data. Seizure and non-seizure EEG segments were provided to independent reviewers to confirm seizure occurrence and define electrographic seizure onset times. Seizure onset times were then compared with observed M106 device detections at the least sensitive setting capable of detecting the seizure based on the corresponding change in heart rate. Threshold for AutoStim setting (1;70%, 2;60%, 3;50%, 4;40%, 5;30% and 6;20%). No subjects were assigned to settings 3 and 6 that had seizures with a corresponding heart rate increase of &gt;= 50% and &gt;= 20%, respectively. Number of participants is total number of subjects who experienced seizures during the EMU stay.
+Bootstrap confidence intervals using 3000 bootstrap samples.</description>
+        <time_frame>Epilepsy Monitoring Unit (EMU) Stay</time_frame>
+        <population>ITT Population (Investigator Reported Seizures + Triple Review). N= represents total number of seizures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>% Sensitivity</title>
+            <description>Based on Heart rate Increase Associated with Seizures by Threshold for AutoStim</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Performance of the Tachycardia Detection Algorithm (Sensitivity) During an EMU Stay Based on ITT Population-Observed</title>
+          <description>Sensitivity is defined as the total number of seizures detected divided by the total number of seizures during the EMU stay. Data used to support sensitivity analyses included digital ECG/EEG files, corresponding M106 device downloads, and CRF data. Seizure and non-seizure EEG segments were provided to independent reviewers to confirm seizure occurrence and define electrographic seizure onset times. Seizure onset times were then compared with observed M106 device detections at the least sensitive setting capable of detecting the seizure based on the corresponding change in heart rate. Threshold for AutoStim setting (1;70%, 2;60%, 3;50%, 4;40%, 5;30% and 6;20%). No subjects were assigned to settings 3 and 6 that had seizures with a corresponding heart rate increase of &gt;= 50% and &gt;= 20%, respectively. Number of participants is total number of subjects who experienced seizures during the EMU stay.
+Bootstrap confidence intervals using 3000 bootstrap samples.</description>
+          <population>ITT Population (Investigator Reported Seizures + Triple Review). N= represents total number of seizures.</population>
+          <units>Percent of True Positive Seizures</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="16"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>&gt;= 70% heart rate increase at Setting 1 (n=1)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0">Confidence interval was not calculated where the mean sensitivity equals to 100%, or where number of patients within the setting is less than or equal to 2 (acceleration cannot be calculated)</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;= 60% heart rate increase at Setting 2 (n=9)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="100">Confidence interval was not calculated where the mean sensitivity equals to 100%, or where number of patients within the setting is less than or equal to 2 (acceleration cannot be calculated)</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;= 40% heart rate increase at Setting 4 (n=1)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="100">Confidence interval was not calculated where the mean sensitivity equals to 100%, or where number of patients within the setting is less than or equal to 2 (acceleration cannot be calculated)</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;= 30% heart rate increase at Setting 5 (n=2)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="50">Confidence interval was not calculated where the mean sensitivity equals to 100%, or where number of patients within the setting is less than or equal to 2 (acceleration cannot be calculated)</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Performance of the Tachycardia Detection Algorithm (Sensitivity) During an EMU Stay Based on ITT Population-Modeled</title>
+        <description>Sensitivity is defined as the total number of seizures detected divided by the total number of seizures during the EMU stay. Data used to support sensitivity analyses included digital ECG/EEG files, corresponding M106 device downloads, and CRF data. Seizure onset times were compared with modeled M106 device detections at the least sensitive setting capable of detecting the seizure based on the corresponding change in heart rate. The participants' surface ECG data collected during the trial and passed through DMSDAT, a validated bench‐top simulant of the Automatic Stimulation feature, was used to produce modeled results for each threshold for AutoStim setting (1;70%, 2;60%, 3;50%, 4;40%, 5;30% and 6;20%). Number of participants is total number of subjects who experienced seizures during the EMU stay.
+Bootstrap confidence intervals using 3000 bootstrap samples.</description>
+        <time_frame>Epilepsy Monitoring Unit (EMU) Stay</time_frame>
+        <population>ITT Population (Investigator Reported Seizures + Triple Review). N= represents total number of seizures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>% Sensitivity</title>
+            <description>Based on Heart rate Increase Associated with Seizures by Threshold for AutoStim</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Performance of the Tachycardia Detection Algorithm (Sensitivity) During an EMU Stay Based on ITT Population-Modeled</title>
+          <description>Sensitivity is defined as the total number of seizures detected divided by the total number of seizures during the EMU stay. Data used to support sensitivity analyses included digital ECG/EEG files, corresponding M106 device downloads, and CRF data. Seizure onset times were compared with modeled M106 device detections at the least sensitive setting capable of detecting the seizure based on the corresponding change in heart rate. The participants' surface ECG data collected during the trial and passed through DMSDAT, a validated bench‐top simulant of the Automatic Stimulation feature, was used to produce modeled results for each threshold for AutoStim setting (1;70%, 2;60%, 3;50%, 4;40%, 5;30% and 6;20%). Number of participants is total number of subjects who experienced seizures during the EMU stay.
+Bootstrap confidence intervals using 3000 bootstrap samples.</description>
+          <population>ITT Population (Investigator Reported Seizures + Triple Review). N= represents total number of seizures.</population>
+          <units>Percent of True Positive Seizures</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="16"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>&gt;= 70% heart rate increase at Setting 1 (n=8)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="87.5" lower_limit="77" upper_limit="100"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;= 60% heart rate increase at Setting 2 (n=12)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="100">Confidence interval was not calculated where the mean sensitivity equals to 100%</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;= 50% heart rate increase at Setting 3 (n=20)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="95" lower_limit="91" upper_limit="100"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;= 40% heart rate increase at Setting 4 (n=23)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="100">Confidence interval was not calculated where the mean sensitivity equals to 100%</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;= 30% heart rate increase at Setting 5 (n=31)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="100">Confidence interval was not calculated where the mean sensitivity equals to 100%</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;= 20% heart rate increase at Setting 6 (n=38)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="100">Confidence interval was not calculated where the mean sensitivity equals to 100%</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Non-seizure Related Stimulation Rate Per Hour During EMU Stay and Stair Stepper Exercise Periods</title>
+        <description>Each day in the EMU, subjects exercised for up to 3 minutes stepping up and down at a submaximal effort level on a step stool. Subject's resting heart rate was compared with the calculated 85% of the patient’s age-predicted maximum heart rate. This calculated heart rate was then used as termination criteria for the step test.
+Non-Seizure Detection Rate (previously known as Potential False Positive Rate) is defined as the total number of non-seizure detections summed for the group divided by the total evaluable monitoring time during the EMU. The non-seizure detection rate per hour was calculated at the various tachycardia detection settings for all subjects during EMU and during exercise activities (stair stepper).</description>
+        <time_frame>Epilepsy Monitoring Unit (EMU) Stay</time_frame>
+        <population>ITT Population. 5 participants analyzed for &gt;=70%, 4 for &gt;=60% setting, 8 for &gt;=50% setting, 2 for &gt;=40% setting, 1 for the &gt;=30% setting.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>During EMU Stay</title>
+            <description>Non-Seizure Related Stimulation Rate (AutoStim Per Hour)</description>
+          </group>
+          <group group_id="O2">
+            <title>During EMU Stay Stair-Stepper Exercise</title>
+            <description>Non-Seizure Related Stimulation Rate (AutoStim Per Hour)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Non-seizure Related Stimulation Rate Per Hour During EMU Stay and Stair Stepper Exercise Periods</title>
+          <description>Each day in the EMU, subjects exercised for up to 3 minutes stepping up and down at a submaximal effort level on a step stool. Subject's resting heart rate was compared with the calculated 85% of the patient’s age-predicted maximum heart rate. This calculated heart rate was then used as termination criteria for the step test.
+Non-Seizure Detection Rate (previously known as Potential False Positive Rate) is defined as the total number of non-seizure detections summed for the group divided by the total evaluable monitoring time during the EMU. The non-seizure detection rate per hour was calculated at the various tachycardia detection settings for all subjects during EMU and during exercise activities (stair stepper).</description>
+          <population>ITT Population. 5 participants analyzed for &gt;=70%, 4 for &gt;=60% setting, 8 for &gt;=50% setting, 2 for &gt;=40% setting, 1 for the &gt;=30% setting.</population>
+          <units>detections per hour</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>&gt;=70%, n=5</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.4" lower_limit="0.1" upper_limit="1.0"/>
+                    <measurement group_id="O2" value="1.6" lower_limit="0" upper_limit="6.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=60%, n=4</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.8" lower_limit="0.3" upper_limit="1.4"/>
+                    <measurement group_id="O2" value="4.0" lower_limit="0" upper_limit="9.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=50%, n=8</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.2" lower_limit="0.8" upper_limit="1.6"/>
+                    <measurement group_id="O2" value="6.2" lower_limit="2.0" upper_limit="12.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=40%, n=2</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.6">Confidence intervals were not calculated where number of subjects within the setting is less than or equal to 2 (acceleration can not be calculated)</measurement>
+                    <measurement group_id="O2" value="6.6">Confidence intervals were not calculated where number of subjects within the setting is less than or equal to 2 (acceleration can not be calculated)</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;= 30%, n=1</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4.6">Confidence intervals were not calculated where number of subjects within the setting is less than or equal to 2 (acceleration can not be calculated)</measurement>
+                    <measurement group_id="O2" value="5.0">Confidence intervals were not calculated where number of subjects within the setting is less than or equal to 2 (acceleration can not be calculated)</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Characterization of Seizures (Duration and Cessation)</title>
+        <description>Clinical outcomes including seizure duration and cessation were assessed with vEEG during EMU stay. Number of seizures treated with Automatic Stimulation during EMU were evaluated. Of these seizures, those ending during the 60 second course of Automatic Stimulation were assessed and tabulated by seizure type.</description>
+        <time_frame>Epilepsy Monitoring Unit (EMU) Stay</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Overall Seizures</title>
+            <description>During AutoStim Course in The EMU</description>
+          </group>
+          <group group_id="O2">
+            <title>Complex Partial Seizures</title>
+            <description>During AutoStim Course in The EMU</description>
+          </group>
+          <group group_id="O3">
+            <title>Secondary Generalized Seizures</title>
+            <description>During AutoStim Course in The EMU</description>
+          </group>
+          <group group_id="O4">
+            <title>Simple Partial Seizures</title>
+            <description>During AutoStim Course in The EMU</description>
+          </group>
+          <group group_id="O5">
+            <title>Sub-Clinical Seizures</title>
+            <description>During AutoStim Course in The EMU</description>
+          </group>
+          <group group_id="O6">
+            <title>Unknown Seizures</title>
+            <description>During AutoStim Course in The EMU</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Characterization of Seizures (Duration and Cessation)</title>
+          <description>Clinical outcomes including seizure duration and cessation were assessed with vEEG during EMU stay. Number of seizures treated with Automatic Stimulation during EMU were evaluated. Of these seizures, those ending during the 60 second course of Automatic Stimulation were assessed and tabulated by seizure type.</description>
+          <population>ITT Population</population>
+          <units>Percent of Seizures Ended During Stim</units>
+          <param>Number</param>
+          <units_analyzed>Participants</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="7"/>
+                <count group_id="O3" value="1"/>
+                <count group_id="O4" value="6"/>
+                <count group_id="O5" value="1"/>
+                <count group_id="O6" value="2"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>Seizures Treated</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="31"/>
+                <count group_id="O2" value="12"/>
+                <count group_id="O3" value="1"/>
+                <count group_id="O4" value="12"/>
+                <count group_id="O5" value="4"/>
+                <count group_id="O6" value="2"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="61.3"/>
+                    <measurement group_id="O2" value="41.7"/>
+                    <measurement group_id="O3" value="0"/>
+                    <measurement group_id="O4" value="83.3"/>
+                    <measurement group_id="O5" value="75.0"/>
+                    <measurement group_id="O6" value="50.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assesses Changes in Seizure Severity Based on Physician Reported Questionnaire (NHS3)</title>
+        <description>Investigators completed the National Hospital Seizure Severity Scale (NHS3) questionnaire at screening, at the end of the EMU stay (provided a seizure occurred during the EMU stay), and at follow‐up visits. Severity was evaluated by seizure type. The range of NHS3 scale is 1-27 with 1 being the least severe and 27 being the most severe.
+Negative median value means improvement.</description>
+        <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Complex Partial Seizure (CPS)</title>
+            <description>NHS3 Scores at Follow-Up Visits</description>
+          </group>
+          <group group_id="O2">
+            <title>CPS w/2nd GTC</title>
+            <description>NHS3 Scores at Follow-up Visits</description>
+          </group>
+          <group group_id="O3">
+            <title>Simple Partial Seizure (SPS)</title>
+            <description>NHS3 Scores at Follow-Up Visits</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assesses Changes in Seizure Severity Based on Physician Reported Questionnaire (NHS3)</title>
+          <description>Investigators completed the National Hospital Seizure Severity Scale (NHS3) questionnaire at screening, at the end of the EMU stay (provided a seizure occurred during the EMU stay), and at follow‐up visits. Severity was evaluated by seizure type. The range of NHS3 scale is 1-27 with 1 being the least severe and 27 being the most severe.
+Negative median value means improvement.</description>
+          <population>ITT Population</population>
+          <units>units on a scale</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="20"/>
+                <count group_id="O3" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline to 3 Months; n=17,2,9</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-2.0" lower_limit="-9.5" upper_limit="2.0"/>
+                    <measurement group_id="O2" value="-3.5" lower_limit="-4.0" upper_limit="-3.0"/>
+                    <measurement group_id="O3" value="0.0" lower_limit="-2.0" upper_limit="3.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Baseline to 6 Months; n=17,4,11</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.5" lower_limit="-12.0" upper_limit="3.0"/>
+                    <measurement group_id="O2" value="-1.0" lower_limit="-9.0" upper_limit="2.0"/>
+                    <measurement group_id="O3" value="0.0" lower_limit="-2.0" upper_limit="1.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Baseline to 12 Months; n=18,6,10</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-1.0" lower_limit="-12.0" upper_limit="3.0"/>
+                    <measurement group_id="O2" value="-3.0" lower_limit="-7.0" upper_limit="3.0"/>
+                    <measurement group_id="O3" value="0.0" lower_limit="-2.0" upper_limit="2.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Baseline to 18 Months; n=15, 6, 9</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-3.0" lower_limit="-5.0" upper_limit="4.0"/>
+                    <measurement group_id="O2" value="-2.5" lower_limit="-6.0" upper_limit="-1.0"/>
+                    <measurement group_id="O3" value="0.0" lower_limit="-6.0" upper_limit="10.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Baseline to 3 months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.008</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Baseline to 6 months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.040</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Baseline to 12 months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.033</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Baseline to 3 months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.500</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Baseline to 6 months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.750</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Baseline to 12 months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.156</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Baseline to 3 months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.938</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Baseline to 6 months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.250</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Baseline to 12 months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.999</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Baseline to 18 Months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.057</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Baseline to 18 Months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.031</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Baseline to 18 Months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.625</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Changes in Seizures Severity, Intensity &amp; Post-Ictal Recovery Based on Patient Completed Questionnaire (SSQ)</title>
+        <description>Clinical outcomes such as seizure severity, intensity and post-ictal duration were also assessed during the long-term follow-up visits (3, 6, 12, 18 months) with patient reported questionnaires (SSQ; Seizure Severity Questionnaire). The range for SSQ (all sub-scores) is 1-7 with 1 being the least severe and 7 being the most severe.
+Mean SSQ scores at 3, 6, 12 and 18 months were compared to baseline. A change from baseline is calculated as baseline minus follow-up visit score to correspond to the Minimally Important Change (MIC) criteria as defined in the Scoring Scheme for SSQ v2. Questionnaire.</description>
+        <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>SSQ Scores at 3 Months</title>
+            <description>Change From Baseline at Each Category</description>
+          </group>
+          <group group_id="O2">
+            <title>SSQ Scores at 6 Months</title>
+            <description>Change From Baseline at Each Category</description>
+          </group>
+          <group group_id="O3">
+            <title>SSQ Scores at 12 Months</title>
+            <description>Change From Baseline at Each Category</description>
+          </group>
+          <group group_id="O4">
+            <title>SSQ Scores at 18 Months</title>
+            <description>Change From Baseline at Each Category</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Changes in Seizures Severity, Intensity &amp; Post-Ictal Recovery Based on Patient Completed Questionnaire (SSQ)</title>
+          <description>Clinical outcomes such as seizure severity, intensity and post-ictal duration were also assessed during the long-term follow-up visits (3, 6, 12, 18 months) with patient reported questionnaires (SSQ; Seizure Severity Questionnaire). The range for SSQ (all sub-scores) is 1-7 with 1 being the least severe and 7 being the most severe.
+Mean SSQ scores at 3, 6, 12 and 18 months were compared to baseline. A change from baseline is calculated as baseline minus follow-up visit score to correspond to the Minimally Important Change (MIC) criteria as defined in the Scoring Scheme for SSQ v2. Questionnaire.</description>
+          <population>ITT Population</population>
+          <units>Units on a Scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="20"/>
+                <count group_id="O3" value="20"/>
+                <count group_id="O4" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>SSQ Total Score n=19,20,20,17 MIC=0.48</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.349" spread="1.488"/>
+                    <measurement group_id="O2" value="1.442" spread="1.736"/>
+                    <measurement group_id="O3" value="1.469" spread="1.908"/>
+                    <measurement group_id="O4" value="1.711" spread="1.389"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Activity During Seizure; n=15,17,16, 15 MIC=0.5</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.567" spread="2.890"/>
+                    <measurement group_id="O2" value="1.294" spread="2.840"/>
+                    <measurement group_id="O3" value="1.469" spread="2.895"/>
+                    <measurement group_id="O4" value="1.200" spread="2.242"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Overall Recovery; n=19,20,19,17 MIC=0.39</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.298" spread="2.215"/>
+                    <measurement group_id="O2" value="1.489" spread="2.570"/>
+                    <measurement group_id="O3" value="1.942" spread="2.817"/>
+                    <measurement group_id="O4" value="1.922" spread="1.862"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Overall Severity; n=19,20,20,17 MIC=0.48</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.246" spread="2.137"/>
+                    <measurement group_id="O2" value="1.383" spread="2.238"/>
+                    <measurement group_id="O3" value="1.767" spread="2.717"/>
+                    <measurement group_id="O4" value="1.765" spread="1.711"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Postictal Emotional Recovery n=19,20,19,17MIC=0.34</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.351" spread="2.430"/>
+                    <measurement group_id="O2" value="1.733" spread="2.494"/>
+                    <measurement group_id="O3" value="1.825" spread="2.838"/>
+                    <measurement group_id="O4" value="1.922" spread="2.631"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Postictal Physical Recovery; n=19,20,19,17MIC=0.48</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.123" spread="2.803"/>
+                    <measurement group_id="O2" value="1.450" spread="3.789"/>
+                    <measurement group_id="O3" value="2.088" spread="3.778"/>
+                    <measurement group_id="O4" value="2.098" spread="2.710"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Postictal Cognitive Recovery;n=19,20,19,17MIC=0.42</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.421" spread="3.166"/>
+                    <measurement group_id="O2" value="1.283" spread="3.436"/>
+                    <measurement group_id="O3" value="1.912" spread="3.878"/>
+                    <measurement group_id="O4" value="1.745" spread="2.917"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>SSQ Total Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0008</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Activity During Seizure Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0544</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Overall Recovery Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0207</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Overall Severity Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0163</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Postictal Emotional Recovery Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0156</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Postictal Physical Recovery Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0742</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Postictal Cognitive Recovery Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0884</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>SSQ Total Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0007</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Activity During Seizure</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.1173</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Overall Recovery</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0214</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Overall Severity</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0114</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Postictal Emotional Recovery</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0078</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Postictal Physical Recovery</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0875</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Postictal Cognitive Recovery</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.1526</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>SSQ Total Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0031</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Activity During Seizure</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0828</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Overall Recovery</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0092</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Overall Severity</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0096</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Postictal Emotional Recovery</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0234</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Postictal Physical Recovery</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0284</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Postictal Cognitive Recovery</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0679</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>SSQ Total Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0003</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Activity During Seizures Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0728</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Overall Recovery Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0005</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Overall Severity Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0005</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Postictal Emotional Recovery Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0078</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Postictal Physical Recovery Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0078</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Postictal Cognitive Recovery Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0273</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Changes From Baseline in Quality of Life Based on Patient Completed Questionnaire (QOLIE-31-P)</title>
+        <description>Adult subjects (18 years and older) completed the Quality of Life in Epilepsy-Patient-Weighted (QOLIE-31-P) survey questionnaire at screening and safety follow-up visits. The range for QOLIE-31-P (Sub-domains) scale is 0-100. The higher the score the better quality of life.
+Mean QOLIE-31-P scores at 3, 6, 12 and 18 months were compared to baseline. MIC Thresholds as defined in Simon Borghs, Christine de la Loge, Joyce A. Cramer, defining minimally important change in QOLIE-31-P scores.</description>
+        <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>QOLIE-31-P Scores at 3-Months</title>
+            <description>Change From Baseline at Each Category</description>
+          </group>
+          <group group_id="O2">
+            <title>QOLIE-31-P Scores at 6-Months</title>
+            <description>Change From Baseline at Each Category</description>
+          </group>
+          <group group_id="O3">
+            <title>QOLIE-31-P Scores at 12-Months</title>
+            <description>Change From Baseline at Each Category</description>
+          </group>
+          <group group_id="O4">
+            <title>QOLIE-31-P Scores at 18-Months</title>
+            <description>Change From Baseline at Each Category</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Changes From Baseline in Quality of Life Based on Patient Completed Questionnaire (QOLIE-31-P)</title>
+          <description>Adult subjects (18 years and older) completed the Quality of Life in Epilepsy-Patient-Weighted (QOLIE-31-P) survey questionnaire at screening and safety follow-up visits. The range for QOLIE-31-P (Sub-domains) scale is 0-100. The higher the score the better quality of life.
+Mean QOLIE-31-P scores at 3, 6, 12 and 18 months were compared to baseline. MIC Thresholds as defined in Simon Borghs, Christine de la Loge, Joyce A. Cramer, defining minimally important change in QOLIE-31-P scores.</description>
+          <population>ITT Population</population>
+          <units>Units on a Scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="20"/>
+                <count group_id="O3" value="20"/>
+                <count group_id="O4" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>QOLIE Overall Total Score; n=20,20,19,18 MIC=5.19</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.0" spread="18.8"/>
+                    <measurement group_id="O2" value="11.8" spread="19.1"/>
+                    <measurement group_id="O3" value="13.3" spread="23.6"/>
+                    <measurement group_id="O4" value="14.4" spread="24.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Energy/Fatigue; n=20,20,20,19 MIC=5.25</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.7" spread="25.6"/>
+                    <measurement group_id="O2" value="4.0" spread="22.7"/>
+                    <measurement group_id="O3" value="8.8" spread="26.1"/>
+                    <measurement group_id="O4" value="6.1" spread="32.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Emotional well being; n=20,20,20,18 MIC=4.76</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="7.7" spread="25.4"/>
+                    <measurement group_id="O2" value="8.7" spread="27.7"/>
+                    <measurement group_id="O3" value="10.1" spread="33.5"/>
+                    <measurement group_id="O4" value="3.0" spread="36.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Social Functioning; n=19,20,20,18 MIC=3.95</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.0" spread="25.9"/>
+                    <measurement group_id="O2" value="11.0" spread="18.2"/>
+                    <measurement group_id="O3" value="9.6" spread="25.6"/>
+                    <measurement group_id="O4" value="12.5" spread="30.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Cognitive Functioning; n=20,20,20,19 MIC=5.34</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="19.2" spread="24.6"/>
+                    <measurement group_id="O2" value="19.0" spread="24.4"/>
+                    <measurement group_id="O3" value="16.6" spread="30.4"/>
+                    <measurement group_id="O4" value="16.3" spread="32.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Medication Effects; n=19,20,19,19 MIC=5.0</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="10.3" spread="33.1"/>
+                    <measurement group_id="O2" value="8.1" spread="30.0"/>
+                    <measurement group_id="O3" value="10.4" spread="37.5"/>
+                    <measurement group_id="O4" value="16.7" spread="33.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Seizure Worry; n=20,20,20,19 MIC=7.42</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="16.4" spread="32.2"/>
+                    <measurement group_id="O2" value="16.9" spread="28.6"/>
+                    <measurement group_id="O3" value="20.9" spread="27.6"/>
+                    <measurement group_id="O4" value="23.3" spread="29.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Overall Quality of Life; n=20,20,19,17 MIC=6.42</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="10.6" spread="24.7"/>
+                    <measurement group_id="O2" value="14.6" spread="27.8"/>
+                    <measurement group_id="O3" value="13.1" spread="30.6"/>
+                    <measurement group_id="O4" value="19.1" spread="29.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>QOLIE Overall Total</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0192</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Energy/Fatigue</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.8069</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Emotional well being</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.2416</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Social Functioning</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.1111</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Cognitive Functioning</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0014</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Medication Effects</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.3247</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Seizure Worry</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0826</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Overall Quality of Life</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.1040</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>QOLIE Overall Total</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0094</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Energy/Fatigue</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.5874</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Emotional well being</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.1508</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Social Functioning</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0136</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Cognitive Functioning</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0015</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Medication Effects</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.3522</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Seizure Worry</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0240</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Overall Quality of Life</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0353</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>QOLIE Overall Total Score</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0361</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Energy/Fatigue</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.1921</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Emotional well being</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.1639</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Social Functioning</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.1738</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Cognitive Functioning</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0401</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Medication Effects</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.2753</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Seizure Worry</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0056</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <groups_desc>Overall Quality of Life</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.1173</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>QOLIE Overall Total</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0268</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Energy/Fatigue Final</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.4406</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Emotional Well Being Final</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.7926</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Social Functioning Final</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0987</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Cognitive Functioning Final</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0361</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Medication Effects Final</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0615</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Seizure Worry</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0024</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O4</group_id>
+            </group_id_list>
+            <groups_desc>Overall Quality of Life</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0155</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Changes From Baseline in Seizure Frequency</title>
+        <description>Seizure frequency was calculated at 3, 6,12 and 18 month follow-up visits based on seizure diary information and compared to baseline estimates. Response rate was computed and summarized for partial seizures (SPS, CPS and CPS with 2nd GTCs) and overall seizure types as the proportion of patients that achieved ≥50% seizure reduction per month from baseline by visit.</description>
+        <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Partial Onset Seizure Responder Rate</title>
+            <description>Partial Onset Seizures (SPS, CPS, CPS with Secondary GTC)</description>
+          </group>
+          <group group_id="O2">
+            <title>Overall Seizure Responder Rate</title>
+            <description>Overall Seizure (All Seizure Types)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Changes From Baseline in Seizure Frequency</title>
+          <description>Seizure frequency was calculated at 3, 6,12 and 18 month follow-up visits based on seizure diary information and compared to baseline estimates. Response rate was computed and summarized for partial seizures (SPS, CPS and CPS with 2nd GTCs) and overall seizure types as the proportion of patients that achieved ≥50% seizure reduction per month from baseline by visit.</description>
+          <population>ITT Population</population>
+          <units>Percentage of Participants</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>At 3-Month Visit; n=5,4</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="25" lower_limit="8.66" upper_limit="49.10"/>
+                    <measurement group_id="O2" value="20" lower_limit="5.73" upper_limit="43.66"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>At 6-Month Visit; n=7,7</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="35" lower_limit="15.39" upper_limit="59.22"/>
+                    <measurement group_id="O2" value="35" lower_limit="15.39" upper_limit="59.22"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>At 12-Month Visit; n=10,10</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="50" lower_limit="27.20" upper_limit="72.80"/>
+                    <measurement group_id="O2" value="50" lower_limit="27.20" upper_limit="72.80"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>At 18-Month Visit; n=11,11</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="55" lower_limit="31.53" upper_limit="76.94"/>
+                    <measurement group_id="O2" value="55" lower_limit="31.53" upper_limit="76.94"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Percent Changes in Antiepileptic Drug (AED) Load From Baseline</title>
+        <description>AED load were collected and measured from baseline.The AED load is calculated as the sum of all ratios of the total daily dose of each medication taken on the day of the visit over the defined daily dose of the medication for the main indication according to the WHO database.
+Positive median value indicates increased drug load.</description>
+        <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>AED Load</title>
+            <description>Percent Change From Baseline by Visit</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Percent Changes in Antiepileptic Drug (AED) Load From Baseline</title>
+          <description>AED load were collected and measured from baseline.The AED load is calculated as the sum of all ratios of the total daily dose of each medication taken on the day of the visit over the defined daily dose of the medication for the main indication according to the WHO database.
+Positive median value indicates increased drug load.</description>
+          <population>ITT Population</population>
+          <units>Percent Change</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>At 3 months</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="0.00" upper_limit="30.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>At 6 months</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="-24.96" upper_limit="30.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>At 12 months</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.35" lower_limit="-59.55" upper_limit="52.74"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>At 18 Months</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="-59.55" upper_limit="42.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>3 months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0625</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>6 months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.1094</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>12 months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.0342</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero.</method_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>18 Months</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.5417</p_value>
+            <method>Signed Rank Test</method>
+            <method_desc>Null hypothesis: change from the baseline is equal to zero. The alternative hypothesis: change from the baseline is not equal to zero</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Estimate the Effect Size Associated With Objective Measures and Patient Self-reports of Clinical Outcomes Including Seizure Frequency, Seizure Severity, Seizure Duration, Seizure Intensity, and Post-ictal Duration.</title>
+        <description>The purpose for determining the effect size was to power a stage 2 study. At the conclusion of stage 1 of the E-37 study, it was determined that another study would not be necessary as it would not provide incremental clinical benefit information above what has already been collected. Therefore, computation of effect size was not necessary.</description>
+        <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>VNS Therapy</title>
+            <description>ITT Population</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Estimate the Effect Size Associated With Objective Measures and Patient Self-reports of Clinical Outcomes Including Seizure Frequency, Seizure Severity, Seizure Duration, Seizure Intensity, and Post-ictal Duration.</title>
+          <description>The purpose for determining the effect size was to power a stage 2 study. At the conclusion of stage 1 of the E-37 study, it was determined that another study would not be necessary as it would not provide incremental clinical benefit information above what has already been collected. Therefore, computation of effect size was not necessary.</description>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="0"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess All Adverse Events to Outline the Tolerability Profile of the AspireSR® VNS Therapy® System</title>
+        <description>All adverse events (AEs) occurring during the study were collected and incidence rates tabulated by System Organ Class and Preferred Term utilizing MedDRA version 16.1 dictionary. The incidence profile was used to assess differences in near term tolerability rates relative to standard VNS Therapy.</description>
+        <time_frame>From initial titration visit (approximately 2 weeks after implantation) up to End of Study</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Number of Subjects</title>
+            <description>Experienced Adverse Events Greater Than 5% Incidence</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess All Adverse Events to Outline the Tolerability Profile of the AspireSR® VNS Therapy® System</title>
+          <description>All adverse events (AEs) occurring during the study were collected and incidence rates tabulated by System Organ Class and Preferred Term utilizing MedDRA version 16.1 dictionary. The incidence profile was used to assess differences in near term tolerability rates relative to standard VNS Therapy.</description>
+          <population>ITT Population</population>
+          <units>Number of Participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Convulsion</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Dysphonia</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Oropharyngeal Pain</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Stress</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Urinary Tract Infection</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Contusion</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Dysphagia</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Headache</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Tooth Fracture</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Umblical Hernia</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Evaluation of Human Factors and Usability of the AspireSR® VNS Therapy® System.</title>
+        <description>Usability survey data were collected from all site personnel who used the handheld programmer to evaluate the usability of the AspireSR® VNS Therapy® System.The device usability survey contained 17 questions that measure usability on a five-point Likert scale ranging from “Extremely Difficult” (5) to “Extremely Easy” (1). Site personnel were asked to assess usability of the software features, instructions for use, training materials, and overall usability of the system at four different time points. The time points include implant/recovery, the first day of EMU, the end of EMU, and the 6 month follow-up visit.
+Overall Usability was calculated as percentage of the users who found the overall usability of system to be &quot;easy-2&quot; or extremely easy-1&quot;.</description>
+        <time_frame>Up to 6 Month Visit</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Implant/Recovery</title>
+            <description>Users' Overall Assessment of Device Usability</description>
+          </group>
+          <group group_id="O2">
+            <title>EMU Day-1</title>
+            <description>Users' Overall Assessment of Device Usability</description>
+          </group>
+          <group group_id="O3">
+            <title>EMU Discharge</title>
+            <description>Users' Overall Assessment of Device Usability</description>
+          </group>
+          <group group_id="O4">
+            <title>6-Month Visit</title>
+            <description>Users' Overall Assessment of Device Usability</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Evaluation of Human Factors and Usability of the AspireSR® VNS Therapy® System.</title>
+          <description>Usability survey data were collected from all site personnel who used the handheld programmer to evaluate the usability of the AspireSR® VNS Therapy® System.The device usability survey contained 17 questions that measure usability on a five-point Likert scale ranging from “Extremely Difficult” (5) to “Extremely Easy” (1). Site personnel were asked to assess usability of the software features, instructions for use, training materials, and overall usability of the system at four different time points. The time points include implant/recovery, the first day of EMU, the end of EMU, and the 6 month follow-up visit.
+Overall Usability was calculated as percentage of the users who found the overall usability of system to be &quot;easy-2&quot; or extremely easy-1&quot;.</description>
+          <population>ITT Population</population>
+          <units>Percentage of Participants Rated 1 or 2</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="18"/>
+                <count group_id="O2" value="18"/>
+                <count group_id="O3" value="20"/>
+                <count group_id="O4" value="18"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="89"/>
+                    <measurement group_id="O2" value="83"/>
+                    <measurement group_id="O3" value="95"/>
+                    <measurement group_id="O4" value="100"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Changes in Healthcare Utilization: Inpatient Hospital Visits, Emergency Room Visits, Outpatient Hospitalizations and Physician Office Visits.</title>
+        <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of unplanned inpatient hospitalizations, emergency room visits, outpatient hospitalizations, physician office visits.</description>
+        <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>3-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O2">
+            <title>6-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O3">
+            <title>12-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O4">
+            <title>18-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Changes in Healthcare Utilization: Inpatient Hospital Visits, Emergency Room Visits, Outpatient Hospitalizations and Physician Office Visits.</title>
+          <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of unplanned inpatient hospitalizations, emergency room visits, outpatient hospitalizations, physician office visits.</description>
+          <population>ITT Population</population>
+          <units>Visits</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="20"/>
+                <count group_id="O3" value="20"/>
+                <count group_id="O4" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Inpatient Hospital visits, n=20, 20, 20, 20</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="0.00" upper_limit="0.00"/>
+                    <measurement group_id="O2" value="0" lower_limit="0.00" upper_limit="1.00"/>
+                    <measurement group_id="O3" value="0" lower_limit="0.00" upper_limit="1.00"/>
+                    <measurement group_id="O4" value="0" lower_limit="0.00" upper_limit="1.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Emergency Room Visits, n=20, 20, 20, 20</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="0.00" upper_limit="1.00"/>
+                    <measurement group_id="O2" value="0" lower_limit="0.00" upper_limit="2.00"/>
+                    <measurement group_id="O3" value="0" lower_limit="0.00" upper_limit="4.00"/>
+                    <measurement group_id="O4" value="0" lower_limit="0.00" upper_limit="2.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Outpatient Hospital Visits, n=20, 20, 20, 19</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="0.00" upper_limit="1.00"/>
+                    <measurement group_id="O2" value="0" lower_limit="0.00" upper_limit="1.00"/>
+                    <measurement group_id="O3" value="0" lower_limit="0.00" upper_limit="3.00"/>
+                    <measurement group_id="O4" value="0" lower_limit="0.00" upper_limit="1.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Physician Office Visits, n=20, 20, 20, 20</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="0.00" upper_limit="4.00"/>
+                    <measurement group_id="O2" value="0" lower_limit="0.00" upper_limit="4.00"/>
+                    <measurement group_id="O3" value="0" lower_limit="0.00" upper_limit="4.00"/>
+                    <measurement group_id="O4" value="0" lower_limit="0.00" upper_limit="8.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Changes in Healthcare Utilization: Number of Nights Spent at the Hospital</title>
+        <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of nights spent at the hospital.</description>
+        <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>3-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O2">
+            <title>6-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O3">
+            <title>12-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O4">
+            <title>18-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Changes in Healthcare Utilization: Number of Nights Spent at the Hospital</title>
+          <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of nights spent at the hospital.</description>
+          <population>ITT Population</population>
+          <units>Nights</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="20"/>
+                <count group_id="O3" value="20"/>
+                <count group_id="O4" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="0.00" upper_limit="0.00"/>
+                    <measurement group_id="O2" value="0" lower_limit="0.00" upper_limit="1.00"/>
+                    <measurement group_id="O3" value="0" lower_limit="0.00" upper_limit="1.00"/>
+                    <measurement group_id="O4" value="0" lower_limit="0.00" upper_limit="3.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Changes in Healthcare Utilization: Days Per Week Patients and Caregivers Could Not Work</title>
+        <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of days per week of missed work because of health reasons.</description>
+        <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>3-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O2">
+            <title>6-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O3">
+            <title>12-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O4">
+            <title>18-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Changes in Healthcare Utilization: Days Per Week Patients and Caregivers Could Not Work</title>
+          <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of days per week of missed work because of health reasons.</description>
+          <population>ITT Population</population>
+          <units>Days Per Week</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="20"/>
+                <count group_id="O3" value="20"/>
+                <count group_id="O4" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>#of DD/WK Could not work or Play(Pt),n=18,18,19,20</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="0.00" upper_limit="3.00"/>
+                    <measurement group_id="O2" value="0" lower_limit="0.00" upper_limit="7.00"/>
+                    <measurement group_id="O3" value="0" lower_limit="0.00" upper_limit="3.00"/>
+                    <measurement group_id="O4" value="0" lower_limit="0.00" upper_limit="7.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>#of DD/WK Could not Work(Caregiver),n=18, 20,17,15</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="0.00" upper_limit="7.00"/>
+                    <measurement group_id="O2" value="0" lower_limit="0.00" upper_limit="7.00"/>
+                    <measurement group_id="O3" value="0" lower_limit="0.00" upper_limit="7.00"/>
+                    <measurement group_id="O4" value="0" lower_limit="0.00" upper_limit="7.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Changes in Healthcare Utilization: Number of Hours Per Week Caregivers Spent Caring for Patients.</title>
+        <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of hours per week caregivers spent caring for patients.</description>
+        <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>3-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O2">
+            <title>6-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O3">
+            <title>12-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O4">
+            <title>18-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Changes in Healthcare Utilization: Number of Hours Per Week Caregivers Spent Caring for Patients.</title>
+          <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of hours per week caregivers spent caring for patients.</description>
+          <population>ITT Population</population>
+          <units>Hours Per Week</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="19"/>
+                <count group_id="O2" value="20"/>
+                <count group_id="O3" value="17"/>
+                <count group_id="O4" value="15"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.0" lower_limit="0.00" upper_limit="100.00"/>
+                    <measurement group_id="O2" value="1.0" lower_limit="0.00" upper_limit="56.00"/>
+                    <measurement group_id="O3" value="4.0" lower_limit="0.00" upper_limit="168.00"/>
+                    <measurement group_id="O4" value="2.0" lower_limit="0.00" upper_limit="168.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Assess Changes in Healthcare Utilization: Number of Phone Calls to Physician</title>
+        <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of phone calls to physicians.</description>
+        <time_frame>Up to 18 Month Visit-End of Study</time_frame>
+        <population>ITT Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>3-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O2">
+            <title>6-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O3">
+            <title>12-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+          <group group_id="O4">
+            <title>18-Month</title>
+            <description>Since Last Visit Assessment</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Assess Changes in Healthcare Utilization: Number of Phone Calls to Physician</title>
+          <description>At baseline and each follow-up visit, subjects completed a healthcare utilization questionnaire to report the number of phone calls to physicians.</description>
+          <population>ITT Population</population>
+          <units>Phone Calls</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="20"/>
+                <count group_id="O3" value="20"/>
+                <count group_id="O4" value="19"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="0.00" upper_limit="5.00"/>
+                    <measurement group_id="O2" value="0" lower_limit="0.00" upper_limit="3.00"/>
+                    <measurement group_id="O3" value="0" lower_limit="0.00" upper_limit="7.00"/>
+                    <measurement group_id="O4" value="0" lower_limit="0.00" upper_limit="10.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>After Implantation up to 18 months-End of Study</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>VNS Therapy - Safety Population</title>
+          <description>All adverse events were collected from baseline up to the end of study for all subjects treated/implanted with the AspireSR® VNS Therapy® system. Only the most common AEs (&gt; 5%) are reported in the AE data table.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_vocab>MedDRA 16.1</default_vocab>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Injury, poisoning and procedural complications</title>
+            <event_list>
+              <event>
+                <sub_title>Subdural Hematoma</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Nervous system disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Altered State of Consciousness</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Surgical and medical procedures</title>
+            <event_list>
+              <event>
+                <sub_title>Incision wound cellulitis</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Post-procedural hematoma</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <default_vocab>MedDRA 16.1</default_vocab>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="14" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Gastrointestinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Nausea</sub_title>
+                <description>1 Reported to VNS Therapy Stimulation</description>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Vomiting</sub_title>
+                <description>1 Related to VNS Therapy Stimulation</description>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Dysphagia</sub_title>
+                <description>Related to VNS Therapy Stimulation</description>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Umblical Hernia</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Infections and infestations</title>
+            <event_list>
+              <event>
+                <sub_title>Urinary Tract Infection</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Injury, poisoning and procedural complications</title>
+            <event_list>
+              <event>
+                <sub_title>Procedural Pain</sub_title>
+                <description>All Related to Implantation Procedure</description>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Tooth Fracture</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Contusion</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Nervous system disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Convulsion</sub_title>
+                <counts group_id="E1" subjects_affected="6" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Headache</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Psychiatric disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Stress</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Respiratory, thoracic and mediastinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Dysphonia</sub_title>
+                <description>1 Related to Implantation Procedure, 5 Related to VNS Therapy Stimulation, 1 Related to Both VNS Therapy Stimulation and Implantation Procedure</description>
+                <counts group_id="E1" subjects_affected="7" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Oropharyngeal pain</sub_title>
+                <description>2 Related to VNS Therapy Stimulation</description>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>Sponsor can review results communications prior to public release and can embargo communications regarding trial results for a period that is more than 60 days but less than or equal to 180 days from the time submitted for sponsor's review if such publication contains Confidential Information or will adversely affect any intellectual property or proprietary right of the sponsor. The sponsor can require changes to the communication, but cannot extend the embargo set forth in the study agreement.</restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>The small sample size and the absence of randomization did not allow conclusions about whether the AutoStim alone, or the combination of AutoStim and traditional VNS therapy modes, or some other factor was a cause of the observed beneficial effects.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Bita Najimipour, Clinical Study Manager</name_or_title>
+      <organization>Cyberonics, Inc.</organization>
+      <phone>(281) 228-7370</phone>
+      <email>bita.najimipour@cyberonics.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

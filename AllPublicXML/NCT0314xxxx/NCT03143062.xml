@@ -1,0 +1,181 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03143062</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RegionSkaneKrYHVOAnIVAMS2</org_study_id>
+    <nct_id>NCT03143062</nct_id>
+  </id_info>
+  <brief_title>The National Early Warning Score: Preceding Dynamics in the Score for Those Who Suffer an In-hospital Cardiac Arrest</brief_title>
+  <official_title>The National Early Warning Score: Preceding Dynamics in the Score for Those Who Suffer an In-hospital Cardiac Arrest</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Region Skane</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Region Skane</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To this date no clinical evaluation reports of the dynamics in the National Early Warning
+      Score (NEWS) for those patients who suffer an in-hospital cardiac arrest, IHCA, exists. This
+      process needs to be investigated in order to optimize the future care of these patients.
+
+      Research Questions H1: Patients that suffer an IHCA has had higher NEWS in the preceding 24
+      hours from the event compared to those who did not suffer an IHCA.
+
+      H2: There is a parameter in the NEWS that could predict IHCA better than the others in the
+      preceding 24 hours.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Power:
+
+      A sample size of 300 patients in the control group and 150 patients in the group that
+      suffered from an IHCA would generate a power estimate of 80 percent if the difference in the
+      median is one point on the NEWS with a standard deviate of three points.
+
+      Analysis of the Research Data:
+
+      Categorical and nonparametric data will be presented in median (25-75 percentiles).
+
+      Hypothesis testing will be performed where the documented NEWS will be divided into different
+      timespans. Each timespan during the 24 hours will not be treated as repeated measures and
+      will be executed with the Wilcoxon signed rank test. This test is chosen because the data is
+      assumed to be non-parametric and the patients will be divided into two groups, one control
+      group and one with the patients that suffered an IHCA. Another hypothesis testing will be
+      performed where each documented NEWS on the same patient will be treated as repeated
+      measures. Depending on the level of missing data and unequivalent time points between
+      subjects, which could cause a biased result, the rANOVA or a generalized mixed models
+      approach will be used. For the prediction of IHCA by using a specific parameter in the NEWS,
+      a logistic regression analysis will be applied. All the documented NEWS will be divided into
+      different time spans. Each time span will be considered as independent measures and entered
+      separately into the regression analysis. This is motivated by the fact that each and every
+      one of the documented NEWS was conducted in the preceding 24 hours of the IHCA. The variable
+      mortality yes/no will be set as the dichotomous independent variable in the regression
+      analysis. In order to select the parameters in the NEWS that is to be included in the
+      regression analysis a non-parametric test (Mann-Whitney U-test) including all the parameters
+      in the NEWS will be executed. The level of significance for this test will be set to p=0.2 2.
+      Collinearity within the NEWS parameters that is to be included in the regression analysis
+      will be tested. The level of collinearity that is accepted will be &lt;+0,6 and &gt;-0,6. A
+      binomial logistic regression analysis will be executed with the selected parameters in the
+      NEWS The outcome of the regression analysis will be presented as odds ratio (OR).
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 30, 2017</start_date>
+  <completion_date type="Anticipated">December 2018</completion_date>
+  <primary_completion_date type="Anticipated">April 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Dynamics in the National Early Warning Score (NEWS) in the 24 hours preceding an in-hospital cardiac arrest.</measure>
+    <time_frame>24 hours preceding an in-hospital cardiac arrest</time_frame>
+    <description>All documented National Early Warning Scores (NEWS) on eligible patients admitted to a hospital ward will be collected. The NEWS will be divided into different timespans in the 24 hours preceding the in-hospital cardiac arrest. A control group of patients will also have their NEWS collected. The NEWS of the control group and the cases will then be entered into the hypothesis testing. The aim is to find some dynamics in the NEWS that separates the patients that suffers an in-hospital cardiac arrest from those who do not in the 24 hours preceding the event.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">450</enrollment>
+  <condition>Rapid Response System</condition>
+  <condition>Vital Signs</condition>
+  <arm_group>
+    <arm_group_label>Cases</arm_group_label>
+    <description>150 patients that suffered an in-hospital cardiac arrest in a hospital ward.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Controls</arm_group_label>
+    <description>300 patients that did not suffer an in-hospital cardiac arrest but was treated in a hospital ward.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>NEWS</intervention_name>
+    <description>NEWS</description>
+    <arm_group_label>Cases</arm_group_label>
+    <arm_group_label>Controls</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients in hospital wards
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        All patients ≥18 years of age admitted to the hospitals during a period of 12 months will
+        be reviewed for eligibility
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Martin Spångfors, Doctorate</last_name>
+    <phone>+46708840484</phone>
+    <email>martin.spangfors@skane.se</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Region Skåne</name>
+      <address>
+        <city>Kristianstad</city>
+        <country>Sweden</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Martin Spångfors, Doctorate</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Sweden</country>
+  </location_countries>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 24, 2017</study_first_submitted>
+  <study_first_submitted_qc>May 3, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 8, 2017</study_first_posted>
+  <last_update_submitted>January 15, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 15, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 17, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>National Early Warning Score</keyword>
+  <keyword>Rapid response system</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Arrest</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

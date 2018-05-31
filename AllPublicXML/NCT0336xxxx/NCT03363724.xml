@@ -1,0 +1,180 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03363724</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AO-001</org_study_id>
+    <nct_id>NCT03363724</nct_id>
+  </id_info>
+  <brief_title>Validation of HaGuide Software Module Accuracy in Mapping STN Boundaries in Parkinson's Disease Patients Who Underwent DBS Procedure</brief_title>
+  <official_title>A Retrospective, Multi-Center, Clinical Validation of HaGuide Software Module Accuracy in Mapping Sub-thalamic Nucleus (STN) Boundaries in Parkinson's Disease Patients Who Underwent Deep Brain Stimulation (DBS) Procedure</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Alpha Omega Engineering Ltd.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Colorado, Aurora</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hadassah Medical Organization</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Swedish Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Alpha Omega Engineering Ltd.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      HaGuide version 1.0 (Neuro-Omega Ltd.) is a software module add-on to the FDA cleared
+      Neuro-Omega System (K123796). It was designed to facilitate the use of Neuro-Omega's system
+      by automatically mapping visually the depth of STN landmarks intra-operatively. HaGuide
+      algorithm computes and displays the STN entry and exit, as well as introduces a detection of
+      a distinct DLOR-VMNR boundary. HaGuide visual display is added to the UI and it is
+      supplementing and not replacing the previously cleared standard display (visual and audio) of
+      the system.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">December 2016</start_date>
+  <completion_date type="Actual">March 30, 2017</completion_date>
+  <primary_completion_date type="Actual">March 30, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>HaGuide vs. Neurosurgeon measurements</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Percent agreement between HaGuide software measurements and expert Neurosurgeon/Electrophysiologist measurements</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>DLOR vs. VMNR</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Length (mm) of Dorso-Lateral Oscillatory Region (DLOR) vs. Ventro-Medial Non-Oscillatory Region (VMNR);</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>DLOR Entry/exit</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Entry/exit from DLOR (depth in mm)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>STN Length</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Length of STN track (mm</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>DBS implant optimal track Identification</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Percent agreement in DBS implant optimal track Identification by percent agreement between HaGuide and Neurosurgeon choice of optimal track for DBS implant</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sites/Users comparison</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Sub-group analysis to determine the variation between sites by percent agreement between HaGuide software measurements and expert Neurosurgeon/Electrophysiologist measurements</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">103</enrollment>
+  <condition>Parkinson Disease</condition>
+  <condition>Deep Brain Stimulation</condition>
+  <arm_group>
+    <arm_group_label>HaGuide version 1.0 software module</arm_group_label>
+    <description>Patients diagnosed with Parkinson's Disease who underwent implantation of DBS electrode in the STN for the treatment of Parkinson's Disease, using the Neuro-Omega device for navigation and procedure's MER digital recorded data is available.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>HaGuide version 1.0 software module</intervention_name>
+    <arm_group_label>HaGuide version 1.0 software module</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients diagnosed with Parkinson's Disease who underwent implantation of DBS electrode in
+        the STN for the treatment of Parkinson's Disease, using the Neuro-Omega device for
+        navigation and procedure's MER digital recorded data is available.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Patient was diagnosed with Parkinson's disease;
+
+          2. Patient underwent implantation of DBS electrode in the STN for the treatment of
+             Parkinson's disease, using the Neuro-Omega device for navigation;
+
+          3. Procedure's MER digital recorded data is available;
+
+        Exclusion Criteria:
+
+          1. DBS performed for any other movement disorder other than Parkinson's Disease including
+             Parkinsonism;
+
+          2. The recording has a high intensity of noise that will not allow re-analysis using the
+             HaGuide software, in such cases the HaGuide software indicates that the signal is not
+             valid for analysis;
+
+          3. Missing data for primary end-point on the respective patient medical chart;
+
+          4. The collected data that is used for the validation is with high step size resolution;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John A Thompson, Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Colorado, Denver</affiliation>
+  </overall_official>
+  <verification_date>November 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 19, 2017</study_first_submitted>
+  <study_first_submitted_qc>November 30, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 6, 2017</study_first_posted>
+  <last_update_submitted>November 30, 2017</last_update_submitted>
+  <last_update_submitted_qc>November 30, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 6, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Parkinson Disease</keyword>
+  <keyword>Deep Brain Stimulation</keyword>
+  <keyword>Microelectrodes recording</keyword>
+  <keyword>HaGuide</keyword>
+  <keyword>Alpha Omega Engineering Ltd.</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

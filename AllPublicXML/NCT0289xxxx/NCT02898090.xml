@@ -1,0 +1,288 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02898090</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CHUBX 2015/23</org_study_id>
+    <nct_id>NCT02898090</nct_id>
+  </id_info>
+  <brief_title>Development and Validation of Automated Indicators on the Appropriateness of Oral Anticoagulant Prescriptions</brief_title>
+  <acronym>PACHA</acronym>
+  <official_title>Development and Validation of Indicators on the Appropriateness of Oral Anticoagulant Prescriptions in Adult Medicine Automated From the Hospital Information System (PACHA Study).</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Bordeaux</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Ministry for Health and Solidarity, France</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Bordeaux</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This research focuses on the development and validation of indicators on the appropriateness
+      of oral anticoagulant prescriptions. The investigators want to propose transferable tools to
+      other healthcare institutions to allow automated construction of indicators as part of a
+      structured approach to improve future practices. The main objective of the study is to
+      develop indicators on the appropriateness of oral anticoagulant prescriptions in adult
+      medicine automated from the hospital information system and to assess their criterion
+      validity.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The appropriateness of oral anticoagulant prescriptions (Vitamin K Antagonists and Direct
+      Oral Anticoagulants) is a major challenge for improving quality, safety and efficiency of
+      care. The large targeted population, prescription frequency and strong risk of severe adverse
+      events, especially in healthcare institutions, justify the importance of developing
+      indicators on the appropriateness of oral anticoagulant prescriptions and their automated
+      implementation from the hospital information system. There is currently a need to develop and
+      validate such indicators for integrating them into the hospital clinical practice, as part of
+      a structured approach to improve quality and safety of care. As each hospital information
+      system is different, the investigators want to propose transposable tools to other healthcare
+      institutions to allow an automated construction of these indicators.
+
+      The study will consist of three main steps: 1) identification of indicators on the
+      appropriateness of oral anticoagulant prescriptions and their conditions of appropriateness
+      (literature review), and analysis of their potential utility and operational characteristic
+      (Delphi consensus); 2) operational implementation of the selected indicators from the
+      hospital information system, using tools to generalize their implementation to other hospital
+      information systems; 3) evaluation of metrological performance and robustness of the selected
+      indicators. This is an observation of prescriptions after it has occurred without any
+      modification or change of treatment to patients. This study is never Interventional.
+
+      Statistical analysis : for each indicator, the criterion validity will be analyzed thanks to
+      prevalence of appropriateness (or not) of oral anticoagulant prescriptions estimated by the
+      hospital information system, sensitivity, specificity, positive and negative predictive
+      values, and area under the ROC curve.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">March 2018</start_date>
+  <completion_date type="Anticipated">March 2019</completion_date>
+  <primary_completion_date type="Anticipated">March 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Difference between the prevalence of appropriateness (or not) of oral anticoagulant prescriptions</measure>
+    <time_frame>between month 24 and 33</time_frame>
+    <description>Difference between the prevalence of appropriateness (or not) of oral anticoagulant prescriptions estimated by the hospital information system in comparison to the prevalence estimated by the reference test (information manually extracted from the patient record) for each indicator, and the estimation of its confidence interval for an equivalence margin between 5% and 10%.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The recall, precision and F-measure of tools tracking information for the construction of indicators (step 2)</measure>
+    <time_frame>between month 16 and 18</time_frame>
+    <description>Recall, precision and F-measure are criteria for measuring performance of tools tracking information. The recall is defined by the number of relevant concepts that are correctly found by the evaluated automatic tool compared to the number of relevant concepts that are present in the text (in statistics, the recall is the sensitivity). Precision is the number of relevant concepts found on the total number of concepts proposed by the search engine for a given query. The F-measure combines recall and precision as follows:
+F-measure = 2 x recall x precision / (recall + precision).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The ability to use the autonomous version of automatic language processing module (Web-Service)</measure>
+    <time_frame>between month 30 and 36</time_frame>
+    <description>to provide the same indicators with another data storage (step 2) : extraction of the concept in full text from the Rennes university hospital (yes or no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The estimation of the metrological performances of each indicator</measure>
+    <time_frame>between month 34 and 36</time_frame>
+    <description>sensitivity, specificity, positive and negative predictive values to identify the appropriateness (or not) of oral anticoagulant prescriptions compared to the reference test and opinion of experts with knowledge about the targeted clinical situations (step 3)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The estimation of the reliability of each indicator</measure>
+    <time_frame>between month 34 and 36</time_frame>
+    <description>Kappa coefficients for unordered qualitative indicators, weighted Kappa coefficients for ordained qualitative indicators and Intra-Class Coefficients for quantitative indicators for the analysis of changes in the appropriateness results of indicators considering variation of the conditions and quality of encoding information in the hospital information system (step 3);</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The estimation of the robustness of each indicator</measure>
+    <time_frame>between month 34 and 36</time_frame>
+    <description>Kappa coefficients for unordered qualitative indicators, weighted Kappa coefficients for ordained qualitative indicators and intra-class coefficients for quantitative indicators for the analysis of changes in the appropriateness results of indicators considering variation of hypotheses for the construction of these indicators (step 3)</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">1480</enrollment>
+  <condition>Healthcare Quality Indicators</condition>
+  <condition>Inappropriate Prescribing</condition>
+  <condition>Anticoagulant Drugs</condition>
+  <condition>Atrial Fibrillation</condition>
+  <condition>Venous Thromboembolism</condition>
+  <condition>Valvular Heart Disease</condition>
+  <condition>Brain Injury</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients hospitalized for a clinical situation that could justify a prescription of oral
+        anticoagulants or for an at risk situation in patients under oral anticoagulants, among
+        targeted frequent clinical situations.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients aged over 18;
+
+          -  Patients hospitalized at the Bordeaux University Hospital or the Georges-Pompidou
+             European hospital for a clinical situation that could justify a prescription of oral
+             anticoagulants or for an at risk situation in patients under oral anticoagulants,
+             among targeted frequent clinical situations;
+
+          -  Patients hospitalized in medicine-surgery-obstetrics care or rehabilitation care
+             (conventional hospitalization or outpatient) between the 1st of January 2015 and the
+             31th of December 2015;
+
+          -  Patients whose medical and administrative data are available in an electronic format
+             in the hospital information system
+
+        Exclusion Criteria:
+
+          -  Patients not hospitalized at the Bordeaux University Hospital or the Georges-Pompidou
+             European hospital for a clinical situation that could justify a prescription of oral
+             anticoagulants or for an at risk situation in patients under oral anticoagulants,
+             among targeted frequent clinical situations;
+
+          -  Patients whose medical and administrative data are not available in an electronic
+             format in the hospital information system;
+
+          -  Patients who do not give consent for research data use.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Aurélie PETIT-MONEGER, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>University Hospital Bordeaux, France</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Florence SAILLOUR-GLENISSON, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>University Hospital Bordeaux, France</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Frantz THIESSARD, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Hospital Bordeaux, France</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Frantz THIESSARD, MD</last_name>
+    <phone>(0)5 57 57 45 22</phone>
+    <phone_ext>+33</phone_ext>
+    <email>frantz.thiessard@chu-bordeaux.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Service d'Information Médicale, Unité d'Informatique et d'Archivistique Médicale (UIAM)</name>
+      <address>
+        <city>Bordeaux</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Frantz THIESSARD, MD</last_name>
+      <phone>(0)5 57 57 45 22</phone>
+      <phone_ext>+33</phone_ext>
+      <email>frantz.thiessard@chu-bordeaux.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Université de Lille 3</name>
+      <address>
+        <city>Lille</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Natalia GRABAR, PhD</last_name>
+      <email>natalia.grabar@univ-lille3.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hôpital européen Georges-Pompidou - Département d'informatique Hospitalière</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Anita BURGUN, Prof</last_name>
+      <email>anita.burgun@egp.aphp.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Rennes - Service d'information médicale</name>
+      <address>
+        <city>Rennes</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Marc CUGGIA, Prof</last_name>
+      <email>marc.cuggia@univ-rennes1.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 2, 2016</study_first_submitted>
+  <study_first_submitted_qc>September 7, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 13, 2016</study_first_posted>
+  <last_update_submitted>February 27, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 27, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 28, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Quality indicators</keyword>
+  <keyword>Appropriateness</keyword>
+  <keyword>Oral anticoagulant prescriptions</keyword>
+  <keyword>Development and validation</keyword>
+  <keyword>Hospital information system</keyword>
+  <keyword>Information Storage and Retrieval</keyword>
+  <keyword>Natural Language Processing</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Brain Injuries</mesh_term>
+    <mesh_term>Thromboembolism</mesh_term>
+    <mesh_term>Venous Thromboembolism</mesh_term>
+    <mesh_term>Heart Valve Diseases</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Anticoagulants</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

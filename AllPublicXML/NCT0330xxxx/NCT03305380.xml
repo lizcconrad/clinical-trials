@@ -1,0 +1,216 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03305380</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BMS Radiomics</org_study_id>
+    <nct_id>NCT03305380</nct_id>
+  </id_info>
+  <brief_title>Radiomics to Identify Patients at Risk for Developing Pneumonitis, Differentiate Immune Checkpoint Inhibitor-induced Pneumonitis From Other Lung Inflammation and Distinguish Tumour Pseudo-progression From Real Tumour Growth</brief_title>
+  <official_title>Radiomics to 1. Identify Patients at Risk for Developing Pneumonitis, 2. Differentiate Immune Checkpoint Inhibitor-induced Pneumonitis From Other Lung Inflammation and 3. Distinguish Tumour Pseudo-progression From Real Tumour Growth, in Patients With Non-small Cell Lung Cancer Treated With Anti-PD1 or Anti-PD-L1</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maastricht Radiation Oncology</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Maastricht University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Zuyderland Medical Centre</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Maastricht Radiation Oncology</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators will develop a radiomics signature for immune checkpoint-induced
+      pneumonitis in 40 patients with a pulmonary event under anti-PD1 or anti-PD-L1 (cases) and 40
+      patients without a pulmonary event under anti-PD1 or anti-PD-L1 (controls).
+
+      On the basis of the case-control study of patients treated with anti-PD1 or anti-PD-L1, they
+      will further optimise the model using reinforcement machine learning. The model will then be
+      validated in 300 prospective patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Preliminary analyses on a dataset showed a clear distinction in radiomics features for
+      patients with and without pneumonitis from anti-PD1 or anti-PD-L1. Prior experience of the
+      investigators of training and validating radiomics signatures combined with their preliminary
+      exploratory results presented here, will be used to develop a radiomics signature for immune
+      checkpoint-induced pneumonitis in 40 patients with a pulmonary event under anti-PD1 or
+      anti-PD-L1 (cases) and 40 patients without a pulmonary event under anti-PD1 or anti-PD-L1
+      (controls).
+
+      On the basis of the case-control study of patients treated with anti-PD1 or anti-PD-L1, the
+      investigators will be able to further optimise the model using reinforcement machine
+      learning. The model will then be validated in 300 prospective patients.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 1, 2017</start_date>
+  <completion_date type="Anticipated">March 1, 2019</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2018</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <target_duration>1 Day</target_duration>
+  <primary_outcome>
+    <measure>Cause of pneumonitis</measure>
+    <time_frame>6 months</time_frame>
+    <description>Determining cause of the pneumonitis by medical status of the patient</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Predictive accuracy of radiomics for determining the cause of pneumonitis</measure>
+    <time_frame>6 months</time_frame>
+    <description>Three subgroups of immune checkpoint induced pneumonitis:
+Immune checkpoint-induced pneumonitis from tumour progression
+Immune checkpoint-induced pneumonitis from other types of pneumonitis
+Patients with interstitial lung disease that are at risk to develop immune checkpoint-induced pneumonitis and those who are not.
+Radiomics will be used to predict the cause of pneumonitis</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">380</enrollment>
+  <condition>Stage IV Non-small Cell Lung Cancer</condition>
+  <arm_group>
+    <arm_group_label>Patients with a pulmonary event</arm_group_label>
+    <description>(under anti-PD1 or anti-PD-L1) This is the first group of the retrospective part of the study.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients without a pulmonary event</arm_group_label>
+    <description>(under anti-PD1 or anti-PD-L1) This is the second group of the retrospective part of the study.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No interventions</intervention_name>
+    <description>As this is a patient registry, there are no interventions.</description>
+    <arm_group_label>Patients with a pulmonary event</arm_group_label>
+    <arm_group_label>Patients without a pulmonary event</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who receive standard anti-PD1 or anti-PD-L1 treatment in routine clinical practice
+        for first or second line stage IV non-small cell lung cancer
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients who receive standard anti-PD1 or anti-PD-L1 treatment in routine clinical
+             practice for first or second line stage IV non-small cell lung cancer
+
+        Exclusion Criteria:
+
+          -  The opposite of the above
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Dirk De Ruysscher, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Maastro Clinic, The Netherlands</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Chantal Overhof</last_name>
+    <phone>+31884455686</phone>
+    <email>chantal.overhof@maastro.nl</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Dirk De Ruysscher, MD, PhD</last_name>
+    <phone>+31884455666</phone>
+    <email>dirk.deruysscher@maastro.nl</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Zuyderland Medical Center</name>
+      <address>
+        <city>Heerlen</city>
+        <zip>6419 PC</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Gerben Bootsma, PhD</last_name>
+      <phone>+31 884597810</phone>
+      <email>g.bootsma@zuyderland.nl</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>MUMC+</name>
+      <address>
+        <city>Maastricht</city>
+        <zip>6229 HX</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Anne-Marie Dingemans, MD, PhD</last_name>
+      <phone>+31 43 3876400</phone>
+      <email>a.dingemans@mumc.nl</email>
+    </contact>
+    <contact_backup>
+      <last_name>Lizza Hendriks, PhD</last_name>
+      <phone>+31 43 3875047</phone>
+      <email>lizza.hendriks@mumc.nl</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 21, 2017</study_first_submitted>
+  <study_first_submitted_qc>October 3, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 10, 2017</study_first_posted>
+  <last_update_submitted>May 7, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 7, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 8, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>anti-PD1</keyword>
+  <keyword>anti-PD-L1</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Carcinoma, Non-Small-Cell Lung</mesh_term>
+    <mesh_term>Inflammation</mesh_term>
+    <mesh_term>Pneumonia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

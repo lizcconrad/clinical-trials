@@ -1,0 +1,838 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02726620</url>
+  </required_header>
+  <id_info>
+    <org_study_id>160131</org_study_id>
+    <nct_id>NCT02726620</nct_id>
+  </id_info>
+  <brief_title>Decision Support for Intraoperative Low Blood Pressure</brief_title>
+  <official_title>Decision Support for Intraoperative Low Blood Pressure</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Vanderbilt University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>UMC Utrecht</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Vanderbilt University Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to determine whether a decision support system can improve the
+      adherence to thresholds for low blood pressure by anesthesia providers, which in turn
+      prevents their patients from having organ injury.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Blood pressure management is an important part of anesthesia. Many factors contribute to a
+      change in blood pressure during a surgical procedure, such as blood loss, manipulation by
+      surgeons, and there are several mechanisms through which anesthesia itself changes blood
+      pressure. Although a high blood pressure also occurs during anesthesia, most of these factors
+      lower a patient's blood pressure. When a patient's blood pressure becomes too low, the
+      internal organs become at risk of receiving not enough blood (low perfusion or
+      hypoperfusion). This low perfusion state can result in organ damage (ischemia) because of an
+      insufficient supply of oxygen and glucose. Hence the important task of anesthesia providers
+      to maintain the blood pressure of patients, using a wide range of drugs and other
+      interventions.
+
+      A big challenge in blood pressure management is to know when a low blood pressure indeed
+      results in low perfusion of organs. There is a large variation between patients in how
+      susceptible they are to low blood pressure, as well as a difference between the organs in how
+      easily they are damaged because of low perfusion. Elder patients, or patients with
+      preexisting hypertension, heart problems or other cardiovascular diseases are more prone to a
+      low blood pressure and are more likely to develop organ ischemia when there is a low blood
+      pressure. The kidneys, the heart and the brain are the organs that are most at risk of organ
+      damage. As one cannot measure the perfusion states of individual organs in individual
+      patients, it is very difficult to know 'how low to go' with a patient's blood pressure.
+
+      Recent studies have used large datasets of patients to demonstrate that there is statistical
+      association between low blood pressure during surgery and various types of organ injury. As
+      patients are already treated for low blood pressure by anesthesia providers, this suggests
+      that patients have low organ perfusion states despite the current treatment standards. A
+      patient's blood pressure is not simply a dial that can be adjusted to a specific level.
+      Finding the right level of interventions can be difficult in some patients. Consequently,
+      lower blood pressures are common in anesthesia, even with the current standards of blood
+      pressure management.
+
+      In this proposed study the investigators will implement two forms of decision support to
+      assist anesthesia providers in blood pressure management. The decision support aims to
+      educate anesthesia providers about the risks of low blood pressures in direct relation to the
+      patients that they treat. One form of decision support will provide automated notifications
+      through pagers and through the anesthesia information management system. These automated
+      notifications pop up when the patient's blood pressure drops below a level that is associated
+      with a risk of organ injury, and thus alerts the anesthesia provider of the blood pressure
+      and its associated risk. The second form of decision support will send a postoperative email
+      the day after the procedure when the patient has had a low blood pressure for particular
+      duration. This email then provides feedback to the anesthesia provider by informing them of
+      the increased risks of organ injury that are associated with that low blood pressure.
+
+      The study will look at both a change in patient outcome and a change in blood pressure
+      management and will be performed at two centers: the Vanderbilt University Medical Center
+      (VUMC) and the University Medical Center Utrecht, the Netherlands (UMCU). Each center will
+      independently execute the study using the same study protocol, however, each with a different
+      primary end point. The change in patient outcome will primarily be studied through the
+      occurrence of acute kidney injury in the first days following the procedure at the VUMC and
+      through the occurrence of myocardial injury following the procedure at the UMCU. The change
+      in blood pressure management (provider behavior) will be studied by observing the depth and
+      duration of low pressures during anesthesia, and the number of interventions that have been
+      used to treat the blood pressure. Patient outcome will be studied by comparison of a baseline
+      phase - before the decision support is implemented and uses historic data- and the
+      intervention phase - the period during which the intervention is active. Only routinely
+      collected clinical data will be used for these analyses: no additional data collection is
+      required. As each center independently executes the study, there is no need to share any
+      protected health information between centers. The results of the two centers can be combined
+      using only completely deidentified data.
+
+      As it is impossible to know which form of decision support will be the most effective, the
+      first three months of the intervention period will be a 'nested cluster-randomized trial'.
+      The anesthesia providers (not the patients) will be randomized to either the automated
+      notifications or the feedback emails. After three months all anesthesia providers will
+      receive both forms of decision support for the remainder of the intervention period. The
+      reason why anesthesia providers are randomized only during the first three months is that
+      cross-over or contamination between the two groups is expected. This contamination could make
+      it impossible to study the effect of the decision support on patient outcome, as there will
+      be no longer any difference between the study groups.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>January 2017</start_date>
+  <completion_date type="Anticipated">August 2018</completion_date>
+  <primary_completion_date type="Anticipated">July 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Factorial Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Postoperative Acute Kidney Injury</measure>
+    <time_frame>Within 7 days after surgery</time_frame>
+    <description>Postoperative Acute Kidney Injury, Stage I or higher according to the KDIGO criteria (Kidney Disease: Improving Global Outcomes). The staging will be based on serum creatinine values, as documentation of urine output is probably not sufficiently accurate.
+This will be the primary outcome for the Vanderbilt University Medical Center.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Postoperative Myocardial Injury</measure>
+    <time_frame>Within 3 days after surgery</time_frame>
+    <description>The primary endpoint for the University Medical Center Utrecht will be myocardial injury, defined as a troponin I level of more than 0.06 μg/L within the first three postoperative days</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>30-day Mortality</measure>
+    <time_frame>30 days after surgery</time_frame>
+    <description>University Medical Center Utrecht: use of Municipal Personal Records Database records Vanderbilt University Medical Center: combination of in-hospital mortality and 'alive-index' (which checks for visits to the hospital in the electronic healthcare record as indication of being alive at 30 days)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital Mortality</measure>
+    <time_frame>All postoperative days during a single hospital admission, expected median of 5 days</time_frame>
+    <description>Hospital mortality rate during a single hospital admission after the surgery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative in-hospital stroke</measure>
+    <time_frame>All postoperative days during a single hospital admission, expected median of 5 days</time_frame>
+    <description>Postoperative in-hospital stroke will be extracted from the electronic medical record through the use of postoperative CT/MRI of the brain and neurology consults.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative delirium</measure>
+    <time_frame>All postoperative days during a single hospital admission, expected median of 5 days</time_frame>
+    <description>Postoperative in-hospital delirium assessed using the Confusion Assessment Method (CAM)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Unplanned reoperations</measure>
+    <time_frame>All postoperative days during a single hospital admission, expected median of 5 days</time_frame>
+    <description>Unplanned reoperations by the same surgical service will be considered as a proxy for surgical site infections.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative Acute Kidney Injury (UMCU)</measure>
+    <time_frame>Within 7 days after surgery</time_frame>
+    <description>Postoperative Acute Kidney Injury, Stage I or higher according to the KDIGO criteria (Kidney Disease: Improving Global Outcomes). The staging will be based on serum creatinine values, as documentation of urine output is probably not sufficiently accurate. This is a secondary outcome measure for the University Medical Center Utrecht.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative Acute Kidney Injury Stage 2</measure>
+    <time_frame>Within 7 days after surgery</time_frame>
+    <description>Postoperative Acute Kidney Injury, Stage I according to the KDIGO criteria (Kidney Disease: Improving Global Outcomes). The staging will be based on serum creatinine values, as documentation of urine output is probably not sufficiently accurate. This is a secondary outcome measure for the University Medical Center Utrecht.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative rise in creatinine levels</measure>
+    <time_frame>Within 7 days after surgery</time_frame>
+    <description>Absolute values for serum creatinine before and after surgery will be compared.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative Myocardial Injury (VUMC)</measure>
+    <time_frame>Within 3 days after surgery</time_frame>
+    <description>The incidence of elevated cardiac biomarkers (e.g. CK-MB, troponin) at Vanderbilt University Medical Center.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative troponin levels (UMCU)</measure>
+    <time_frame>Within 3 days after surgery</time_frame>
+    <description>Absolute values for troponin I level. Only applicable to the University Medical Center Utrecht, as this is the only location where postoperative troponin I measurements are standard practice.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of a MAP &lt; 60 mmHg</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Incidence of a mean arterial pressure (MAP) &lt; 60 mmHg during anesthesia for 1 minute or more.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of a MAP &lt; 55 mmHg</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Incidence of a mean arterial pressure (MAP) &lt; 55 mmHg during anesthesia for 1 minute or more.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of a MAP &lt; 50 mmHg</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Incidence of a mean arterial pressure (MAP) &lt; 50 mmHg during anesthesia for 1 minute or more.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of a MAP &lt; 60 mmHg for &gt; 10 minutes</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Incidence of a mean arterial pressure (MAP) &lt; 60 mmHg for a cumulative duration of all hypotensive episodes of more than 10 minutes during the anesthetic phase of the procedure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of a MAP &lt; 55 mmHg for &gt; 10 minutes</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Incidence of a mean arterial pressure (MAP) &lt; 55 mmHg for a cumulative duration of all hypotensive episodes of more than 10 minutes during the anesthetic phase of the procedure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of a MAP &lt; 50 mmHg for &gt; 10 minutes</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Incidence of a mean arterial pressure (MAP) &lt; 50 mmHg for a cumulative duration of all hypotensive episodes of more than 10 minutes during the anesthetic phase of the procedure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of a MAP &lt; 60 mmHg for &gt; 20 minutes</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Incidence of a mean arterial pressure (MAP) &lt; 60 mmHg for a cumulative duration of all hypotensive episodes of more than 20 minutes during the anesthetic phase of the procedure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of a MAP &lt; 55 mmHg for &gt; 20 minutes</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Incidence of a mean arterial pressure (MAP) &lt; 55 mmHg for a cumulative duration of all hypotensive episodes of more than 20 minutes during the anesthetic phase of the procedure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of a MAP &lt; 50 mmHg for &gt; 20 minutes</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Incidence of a mean arterial pressure (MAP) &lt; 50 mmHg for a cumulative duration of all hypotensive episodes of more than 20 minutes during the anesthetic phase of the procedure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Depth and duration of intraoperative hypotension</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Depth and duration of intraoperative hypotension will be modeled by calculating areas under the threshold for mean arterial pressures. Thresholds will vary from 100 mmHg to 20 mmHg in 5 mmHg decrements. Together these variables represent the depth and duration of intraoperative hypotension. To optimize goodness of fit of these variables, the decremental steps may be increased to 10 mmHg and more restrictive lowest and highest thresholds may be chosen.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Estimated intraoperative blood loss</measure>
+    <time_frame>During the surgical procedure: an expected average of 2 hours</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to discharge readiness at the postanesthesia care unit (PACU)</measure>
+    <time_frame>A specific time frame on the day of surgery: from the start of admission to the PACU to discharge from the PACU, an expected average of 4 hours</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Anesthetic drug use during intraoperative hypotension: MAP &lt; 65 mmHg</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Average concentrations of inhalational anesthesia or propofol infusion rates during MAP &lt; 65 mmHg episodes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Anesthetic drug use during intraoperative hypotension: MAP &lt; 60 mmHg</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Average concentrations of inhalational anesthesia or propofol infusion rates during MAP &lt; 60 mmHg episodes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Anesthetic drug use during intraoperative hypotension: MAP &lt; 55 mmHg</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Average concentrations of inhalational anesthesia or propofol infusion rates during MAP &lt; 55 mmHg episodes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Anesthetic drug use during intraoperative hypotension: MAP &lt; 50 mmHg</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Average concentrations of inhalational anesthesia or propofol infusion rates during MAP &lt; 50 mmHg episodes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average use of cardiovascular drugs</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Cardiovascular drugs as defined under interventions. Average use for each drug will be calculated</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Timing of cardiovascular drugs for MAP &lt; 65 mmHg</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Cardiovascular drugs as defined under interventions. Time of first administration of cardiovascular drug after the mean arterial pressure (MAP) drops below 65 mmHg.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Timing of cardiovascular drugs for MAP &lt; 60 mmHg</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Cardiovascular drugs as defined under interventions. Time of first administration of cardiovascular drug after the mean arterial pressure (MAP) drops below 60 mmHg.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Timing of cardiovascular drugs for MAP &lt; 55 mmHg</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Cardiovascular drugs as defined under interventions. Time of first administration of cardiovascular drug after the mean arterial pressure (MAP) drops below 55 mmHg.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Timing of cardiovascular drugs for MAP &lt; 50 mmHg</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Cardiovascular drugs as defined under interventions. Time of first administration of cardiovascular drug after the mean arterial pressure (MAP) drops below 50 mmHg.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intraoperative administration of intravenous fluids</measure>
+    <time_frame>During the anesthetic phase of the surgical procedure: an expected average of 2.5 hours</time_frame>
+    <description>Intravenous fluids as defined under interventions.</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">16000</enrollment>
+  <condition>Hypotension</condition>
+  <arm_group>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Near real-time decision support elements will notify the attending anesthesiologists of a blood pressure drop below the threshold for intraoperative hypotension (mean arterial pressure below 60 mmHg). The notification is presented through the pager system. The page will also display the associated increased risk of organ injury due to organ ischemia.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Near real-time decision support elements will notify the in-room anesthesia provider of a blood pressure drop below the threshold for intraoperative hypotension (mean arterial pressure below 60 mmHg). The notification is presented through the anesthesia information management system. The decision support system will display the associated increased risk of organ injury due to organ ischemia.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Attending anesthesiologists will be notified through email within 24 hours after the end of an anesthetic case, when the patient had an episode of intraoperative hypotension (mean arterial pressure below 60 mmHg or lower for a particular duration) that is associated with an increased risk of organ injury due to organ ischemia. The feedback emails will be sent by the Perioperative Data Warehouse (PDW).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>In-room anesthesia providers will be notified through email within 24 hours after the end of an anesthetic case, when the patient had an episode of intraoperative hypotension (mean arterial pressure below 60 mmHg or lower for a particular duration) that is associated with an increased risk of organ injury due to organ ischemia. The feedback emails will be sent by the Perioperative Data Warehouse (PDW).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Attending real-time decision support</intervention_name>
+    <description>Near real-time decision support elements will notify the attending anesthesiologists of a blood pressure drop below the threshold for intraoperative hypotension (mean arterial pressure below 60 mmHg). The notification is presented through the pager system. The page will also display the associated increased risk of organ injury due to organ ischemia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>In-room real-time decision support</intervention_name>
+    <description>Near real-time decision support elements will notify the in-room anesthesia provider of a blood pressure drop below the threshold for intraoperative hypotension (mean arterial pressure below 60 mmHg). The notification is presented through the anesthesia information management system. The decision support system will display the associated increased risk of organ injury due to organ ischemia.</description>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Attending feedback emails</intervention_name>
+    <description>Attending anesthesiologists will be notified through email within 24 hours after the end of an anesthetic case, when the patient had an episode of intraoperative hypotension (mean arterial pressure below 60 mmHg or lower for a particular duration) that is associated with an increased risk of organ injury due to organ ischemia.</description>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>In-room provider feedback emails</intervention_name>
+    <description>In-room anesthesia providers will be notified through email within 24 hours after the end of an anesthetic case, when the patient had an episode of intraoperative hypotension (mean arterial pressure below 60 mmHg or lower for a particular duration) that is associated with an increased risk of organ injury due to organ ischemia.</description>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Anesthesia Information Management System (AIMS)</intervention_name>
+    <description>The anesthesia electronic record keeping system</description>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Perioperative Data Warehouse (PDW)</intervention_name>
+    <description>The data warehouse that is used to gather perioperative data and create user reports. In this instance the PDW will be used to send the postoperative feedback emails.</description>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>General anesthesia</intervention_name>
+    <description>Any anesthetic drugs that are used to induce general anesthesia above the level of sedation.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Pager system</intervention_name>
+    <description>The mobile pager system through which alerts can be sent</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Central neuraxial anesthesia</intervention_name>
+    <description>Regional anesthesia effectuated through the placement of local anesthetics around the nerves of the central nervous system, e.g. spinal anesthesia and epidural anesthesia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+    <other_name>Regional anesthesia</other_name>
+    <other_name>Spinal anesthesia</other_name>
+    <other_name>Intrathecal anesthesia</other_name>
+    <other_name>Subarachnoid anesthesia</other_name>
+    <other_name>Epidural anesthesia</other_name>
+    <other_name>Central neuraxial blockade</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Non-cardiac surgery</intervention_name>
+    <description>Any surgical intervention that is not aimed at surgical correction of the heart</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Propofol</intervention_name>
+    <description>Anesthetic drug used to maintain general anesthesia</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sevoflurane</intervention_name>
+    <description>Anesthetic drug used to maintain general anesthesia</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Desflurane</intervention_name>
+    <description>Anesthetic drug used to maintain general anesthesia</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Isoflurane</intervention_name>
+    <description>Anesthetic drug used to maintain general anesthesia</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ephedrine</intervention_name>
+    <description>Cardiovascular drug used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Phenylephrine</intervention_name>
+    <description>Cardiovascular drug used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Norepinephrine</intervention_name>
+    <description>Cardiovascular drug used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Epinephrine</intervention_name>
+    <description>Cardiovascular drug used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dobutamine</intervention_name>
+    <description>Cardiovascular drug used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dopamine</intervention_name>
+    <description>Cardiovascular drug used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Isoproterenol</intervention_name>
+    <description>Cardiovascular drug used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Milrinone</intervention_name>
+    <description>Cardiovascular drug used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Atropine</intervention_name>
+    <description>Cardiovascular drugs used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Glycopyrrolate</intervention_name>
+    <description>Cardiovascular drug used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Vasopressin</intervention_name>
+    <description>Cardiovascular drug used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Terlipressin</intervention_name>
+    <description>Cardiovascular drug used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sodium Chloride 0.9%</intervention_name>
+    <description>Intravenous fluid used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ringer's lactate</intervention_name>
+    <description>Intravenous fluid used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Hydroxyethyl starch solutions</intervention_name>
+    <description>Intravenous fluid used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Fresh Frozen Plasma</intervention_name>
+    <description>Intravenous fluid used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Packed Red Blood Cells</intervention_name>
+    <description>Intravenous fluid used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Albumin solutions</intervention_name>
+    <description>Intravenous fluid used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Plasma-Lyte</intervention_name>
+    <description>Intravenous fluid used to treat intraoperative hypotension</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Lidocaine</intervention_name>
+    <description>Local anesthetic used for central neuraxial anesthesia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+    <other_name>Lignocaine</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Bupivacaine</intervention_name>
+    <description>Local anesthetic used for central neuraxial anesthesia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Levobupivacaine</intervention_name>
+    <description>Local anesthetic used for central neuraxial anesthesia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ropivacaine</intervention_name>
+    <description>Local anesthetic used for central neuraxial anesthesia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Mepivacaine</intervention_name>
+    <description>Local anesthetic used for central neuraxial anesthesia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Tetracaine</intervention_name>
+    <description>Local anesthetic used for central neuraxial anesthesia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Prilocaine</intervention_name>
+    <description>Local anesthetic used for central neuraxial anesthesia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Procaine</intervention_name>
+    <description>Local anesthetic used for central neuraxial anesthesia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Chloroprocaine</intervention_name>
+    <description>Local anesthetic used for central neuraxial anesthesia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Benzocaine</intervention_name>
+    <description>Local anesthetic used for central neuraxial anesthesia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Articaine</intervention_name>
+    <description>Local anesthetic used for central neuraxial anesthesia.</description>
+    <arm_group_label>Attending real-time decision support</arm_group_label>
+    <arm_group_label>In-room real-time decision support</arm_group_label>
+    <arm_group_label>Attending feedback emails</arm_group_label>
+    <arm_group_label>In-room provider feedback emails</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  60 years and older
+
+          -  Inpatients
+
+          -  Scheduled for a non-cardiac surgical procedure under general or central neuraxial
+             anesthesia
+
+        Exclusion Criteria:
+
+          -  Pre-existing end-stage renal disease: operationalized as a preoperative need for
+             dialysis
+
+          -  The following surgical procedures: renal surgery, cardiac surgery, organ
+             transplantation, ophthalmic surgery, endoscopic gastrointestinal procedures, and
+             (interventional) radiologic procedures.
+
+          -  small non-invasive or minimally-invasive procedures will also be excluded,
+             operationalized as excluding procedures with a surgical time of less than twenty
+             minutes.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>60 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jonathan P Wanderer, MD, MPhil</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Vanderbilt University Medical Center, Department of Anesthesiology</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Teus H Kappen, MD, PhD</last_name>
+    <phone>615-936-0277</phone>
+    <email>teus.kappen@vanderbilt.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jonathan P Wanderer, MD, MPhil</last_name>
+    <email>jon.wanderer@vanderbilt.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Vanderbilt University Medical Center</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37212</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Teus Kappen, MD, PhD</last_name>
+      <phone>615-936-0277</phone>
+      <email>teus.kappen@vanderbilt.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jonathan Wanderer, MD, MPhil</last_name>
+      <email>jon.wanderer@vanderbilt.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 28, 2016</study_first_submitted>
+  <study_first_submitted_qc>March 28, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 4, 2016</study_first_posted>
+  <last_update_submitted>January 24, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 24, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 26, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Vanderbilt University Medical Center</investigator_affiliation>
+    <investigator_full_name>Jonathan Wanderer</investigator_full_name>
+    <investigator_title>Medical Director of Procedure Preparation Center</investigator_title>
+  </responsible_party>
+  <keyword>Decision support</keyword>
+  <keyword>Decision Support Systems, Clinical</keyword>
+  <keyword>Decision Support Techniques</keyword>
+  <keyword>Hypotension</keyword>
+  <keyword>Intraoperative Hypotension</keyword>
+  <keyword>Acute Kidney Injury</keyword>
+  <keyword>Postoperative Myocardial Injury</keyword>
+  <keyword>Postoperative Mortality</keyword>
+  <keyword>Blood Pressure</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypotension</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Plasma-lyte 148</mesh_term>
+    <mesh_term>Pharmaceutical Solutions</mesh_term>
+    <mesh_term>Anesthetics</mesh_term>
+    <mesh_term>Bupivacaine</mesh_term>
+    <mesh_term>Lidocaine</mesh_term>
+    <mesh_term>Propofol</mesh_term>
+    <mesh_term>Ropivacaine</mesh_term>
+    <mesh_term>Sevoflurane</mesh_term>
+    <mesh_term>Levobupivacaine</mesh_term>
+    <mesh_term>Desflurane</mesh_term>
+    <mesh_term>Isoflurane</mesh_term>
+    <mesh_term>Prilocaine</mesh_term>
+    <mesh_term>Tetracaine</mesh_term>
+    <mesh_term>Mepivacaine</mesh_term>
+    <mesh_term>Chloroprocaine</mesh_term>
+    <mesh_term>Benzocaine</mesh_term>
+    <mesh_term>Procaine</mesh_term>
+    <mesh_term>Epinephrine</mesh_term>
+    <mesh_term>Dopamine</mesh_term>
+    <mesh_term>Phenylephrine</mesh_term>
+    <mesh_term>Oxymetazoline</mesh_term>
+    <mesh_term>Norepinephrine</mesh_term>
+    <mesh_term>Atropine</mesh_term>
+    <mesh_term>Dobutamine</mesh_term>
+    <mesh_term>Ephedrine</mesh_term>
+    <mesh_term>Isoproterenol</mesh_term>
+    <mesh_term>Milrinone</mesh_term>
+    <mesh_term>Terlipressin</mesh_term>
+    <mesh_term>Vasopressins</mesh_term>
+    <mesh_term>Arginine Vasopressin</mesh_term>
+    <mesh_term>Glycopyrrolate</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

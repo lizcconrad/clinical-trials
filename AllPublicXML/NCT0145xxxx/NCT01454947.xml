@@ -1,0 +1,1308 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01454947</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1RC4AG039115-01</org_study_id>
+    <secondary_id>1RC4AG039115-01</secondary_id>
+    <nct_id>NCT01454947</nct_id>
+  </id_info>
+  <brief_title>Use of Behavioral Economics to Improve Treatment of Acute Respiratory Infections (Main Study)</brief_title>
+  <acronym>BEARI</acronym>
+  <official_title>Use of Behavioral Economics to Improve Treatment of Acute Respiratory Infections (Main Study)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Southern California</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Aging (NIA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Southern California</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Bacteria resistant to antibiotic therapy are a major public health problem. The evolution of
+      multi-drug resistant pathogens may be encouraged by provider prescribing behavior.
+      Inappropriate use of antibiotics for nonbacterial infections and overuse of broad spectrum
+      antibiotics can lead to the development of resistant strains. Though providers are adequately
+      trained to know when antibiotics are and are not comparatively effective, this has not been
+      sufficient to affect critical provider practices.
+
+      The intent of this study is to apply behavioral economic theory to reduce the rate of
+      antibiotic prescriptions for acute respiratory diagnoses for which guidelines do not call for
+      antibiotics. Specifically targeted are infections that are likely to be viral.
+
+      The objective of this study is to improve provider decisions around treatment of acute
+      respiratory infections.
+
+      The participants are practicing attending physicians or advanced practice nurses (i.e.
+      providers) at participating clinics who see acute respiratory infection patients. A maximum
+      of 550 participants will be recruited for this study.
+
+      Providers consenting to participate will fill out a baseline questionnaire online. Subsequent
+      to baseline data collection and enrollment, participating clinic sites will be randomized to
+      the study arms, as described below.
+
+      There will be a control arm, with clinic sites randomized in a multifactorial design to up to
+      three interventions that leverage the electronic medical record: Order Sets that are
+      triggered by electronic health record (EHR) workflow containing exclusively guideline
+      concordant choices (SA, for Suggested Alternatives); Accountable Justifications triggered by
+      discordant prescriptions that populate the note with provider's rationale for guideline
+      exceptions (AJ); and performance feedback that benchmarks providers' own performance to that
+      of their peers (PC, for Peer Comparisons).
+
+      The outcomes of interest are antibiotic prescribing patterns, including prescribing rates and
+      changes in prescribing rates over time.
+
+      The intervention period will be over one year, with a one-year follow up period to measure
+      persistence of the effect after EHR features are returned to the original state and providers
+      no longer receive email alerts.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Each consented provider will be randomized to 1 of 8 cells in a factorial design with equal
+      probability. If results of retrospective data analysis imply that design will be improved by
+      stratification, randomization will be stratified by factors that could influence outcomes.
+
+      Data will be collected from the clinics' Enterprise Data Warehouses which store copies of
+      data recorded in the electronic health record. Data elements from qualifying office visits
+      will be collected from coded portions of the electronic health record.
+
+      An encounter is eligible for intervention if the patient's diagnosis is in the selected group
+      of acute respiratory infections. The intervention EHR functions will be triggered when
+      clinicians initiate an antibiotic prescription or enter a diagnosis for an acute respiratory
+      infection that has a defined Order Set. If an antibiotic from a list of frequently
+      misprescribed antibiotics is ordered and a diagnosis has not yet been entered, providers will
+      be prompted to enter a diagnosis. If the diagnosis entered is acute nasopharyngitis; acute
+      laryngopharyngitis/acute upper respiratory infection; acute bronchitis; bronchitis not
+      specified as acute or chronic; or flu; the interventions will be triggered. The
+      diagnosis-appropriate order set will pop-up for providers in the SA arm, while clinicians
+      randomized to the AJ arm will receive an alert and be required to enter a brief statement
+      justifying their antibiotic prescription if antibiotics are not indicated for the diagnosis
+      entered. This note will then be added to the patient's medical record.
+
+      Clinicians randomized to the Peer Comparison condition will receive email updates about their
+      antibiotic prescribing practices relative to other clinicians in their practice.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2011</start_date>
+  <completion_date type="Actual">September 2014</completion_date>
+  <primary_completion_date type="Actual">April 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Factorial Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Inappropriate Antibiotic Prescribing Rate for Qualifying Acute Respiratory Infection Diagnoses</measure>
+    <time_frame>18 months</time_frame>
+    <description>Assess inappropriate antibiotic prescribing rates (relative to all practices that did not receive the intervention) for antibiotic-inappropriate acute respiratory tract infection visits and no concomitant reason for antibiotic prescribing. based on the following non-antibiotic-appropriate International Statistical Classification of Diseases, version 9 (ICD-9) diagnoses:
+460 Acute nasopharyngitis (common cold)
+465 Acute laryngeopharyngitis/acute upper respiratory infection
+466 Acute bronchitis
+490 Bronchitis not specified as acute or chronic
+487 Flu</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Antibiotic Prescribing Rates for Expanded List of Acute Respiratory Infection Diagnoses</measure>
+    <time_frame>18 months</time_frame>
+    <description>We will monitor overall prescribing for the specified diagnoses and other acute respiratory infection diagnoses, including cough/fever and pneumonia.</description>
+  </secondary_outcome>
+  <number_of_arms>8</number_of_arms>
+  <enrollment type="Actual">248</enrollment>
+  <condition>Acute Respiratory Infections (ARIs)</condition>
+  <arm_group>
+    <arm_group_label>SA, AJ, PC</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants are given all 3 interventions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SA, AJ</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the Suggested Alternatives and Accountable Justification interventions, but not the Peer Comparison intervention.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SA, PC</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the Suggested Alternative and Peer Comparison interventions, but not the Accountable Justification intervention.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>AJ, PC</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the Accountable Justification and Peer Comparison interventions, but not the Suggested Alternative intervention.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Peer Comparison (PC)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the Peer Comparison intervention, but do not receive the Suggested Alternatives or Accountable Justification interventions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Suggested Alternatives (SA)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the Suggested Alternatives intervention, but not the Accountable Justification or Peer Comparison interventions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Accountable Justification (AJ)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive the Accountable Justification intervention, but do not receive the Suggested Alternatives or Peer Comparison interventions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Education Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Participants do not receive any of the 3 interventions.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Clinical Decision Support (CDS): Accountable Justifications</intervention_name>
+    <description>Accountable Justifications triggered by discordant prescriptions that populate the electronic health record (EHR) note with provider's rationale for guideline exceptions (AJ).</description>
+    <arm_group_label>SA, AJ, PC</arm_group_label>
+    <arm_group_label>SA, AJ</arm_group_label>
+    <arm_group_label>AJ, PC</arm_group_label>
+    <arm_group_label>Accountable Justification (AJ)</arm_group_label>
+    <other_name>AJ</other_name>
+    <other_name>Accountable Justification</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Audit and Feedback: Peer Comparison</intervention_name>
+    <description>Performance feedback that benchmarks providers' own performance to that of their peers (PC, for Peer Comparison).</description>
+    <arm_group_label>SA, AJ, PC</arm_group_label>
+    <arm_group_label>SA, PC</arm_group_label>
+    <arm_group_label>AJ, PC</arm_group_label>
+    <arm_group_label>Peer Comparison (PC)</arm_group_label>
+    <other_name>PC</other_name>
+    <other_name>Peer Comparison</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>CDS Order Sets: Suggested Alternatives</intervention_name>
+    <description>Order Sets that are triggered by EHR workflow containing exclusively guideline concordant choices (SA, for Suggested Alternatives).</description>
+    <arm_group_label>SA, AJ, PC</arm_group_label>
+    <arm_group_label>SA, AJ</arm_group_label>
+    <arm_group_label>SA, PC</arm_group_label>
+    <arm_group_label>Suggested Alternatives (SA)</arm_group_label>
+    <other_name>SA</other_name>
+    <other_name>Suggested Alternatives</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  A practicing attending physician or advanced practice nurse (&quot;provider&quot;) at a
+             participating clinic in 2011-2013 who sees acute respiratory infection patients.
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jason N Doctor, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Southern California</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Altamed Anaheim Lincoln</name>
+      <address>
+        <city>Anaheim</city>
+        <state>California</state>
+        <zip>92801</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Anaheim West</name>
+      <address>
+        <city>Anaheim</city>
+        <state>California</state>
+        <zip>92801</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Bell Clinic</name>
+      <address>
+        <city>Bell</city>
+        <state>California</state>
+        <zip>90201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Mobile Unit Primary Care</name>
+      <address>
+        <city>City of Commerce</city>
+        <state>California</state>
+        <zip>90040</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed DVL El Monte</name>
+      <address>
+        <city>El Monte</city>
+        <state>California</state>
+        <zip>91731</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed El Monte Clinic</name>
+      <address>
+        <city>El Monte</city>
+        <state>California</state>
+        <zip>91731</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Garden Grove Harbor</name>
+      <address>
+        <city>Garden Grove</city>
+        <state>California</state>
+        <zip>92840</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Huntington Beach Clinic</name>
+      <address>
+        <city>Huntington Beach</city>
+        <state>California</state>
+        <zip>92647</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed PACE Rugby</name>
+      <address>
+        <city>Huntington Park</city>
+        <state>California</state>
+        <zip>90255</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The Children's Clinic Family Health Center at Cesar Chavez Elementary School</name>
+      <address>
+        <city>Long Beach</city>
+        <state>California</state>
+        <zip>90802</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The Children's Clinic Family Health Center at Hamilton Middle School</name>
+      <address>
+        <city>Long Beach</city>
+        <state>California</state>
+        <zip>90805</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The S. Mark Taper Foundation Children's Clinic Family Health Center</name>
+      <address>
+        <city>Long Beach</city>
+        <state>California</state>
+        <zip>90806</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The Children's Clinic at the Long Beach Multi-Service Center for the Homeless</name>
+      <address>
+        <city>Long Beach</city>
+        <state>California</state>
+        <zip>90813</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The Vasek Polak Children's Clinic Family Health Center</name>
+      <address>
+        <city>Long Beach</city>
+        <state>California</state>
+        <zip>90813</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed PACE Grand Plaza</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90012</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed William Mead Homes</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90012</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Commerce Clinic</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90022</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed DVL Commerce</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90022</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed PACE Pomona</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90022</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Boyle Heights Clinic</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90023</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Estrada Courts</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90023</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Ramona Gardens</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90023</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>AltaMed 1st St Boyle Heights Clinic</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Zonal Clinic</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Montebello Clinic</name>
+      <address>
+        <city>Montebello</city>
+        <state>California</state>
+        <zip>90640</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed El Modena Clinic</name>
+      <address>
+        <city>Orange</city>
+        <state>California</state>
+        <zip>92869</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Pico Clinic</name>
+      <address>
+        <city>Pico Rivera</city>
+        <state>California</state>
+        <zip>90060</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed DVL Pico</name>
+      <address>
+        <city>Pico Rivera</city>
+        <state>California</state>
+        <zip>90660</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Santa Ana Main</name>
+      <address>
+        <city>Santa Ana</city>
+        <state>California</state>
+        <zip>92701</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Clinic For Women</name>
+      <address>
+        <city>Santa Ana</city>
+        <state>California</state>
+        <zip>92706</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Santa Ana Broadway</name>
+      <address>
+        <city>Santa Ana</city>
+        <state>California</state>
+        <zip>92707</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Altamed Santa Ana Central</name>
+      <address>
+        <city>Santa Ana</city>
+        <state>California</state>
+        <zip>92707</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Brigham and Women's Primary Care Associates at Foxborough</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02035</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>MGH Downtown</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02108</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mass General Medial Group</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>MGH Beacon Hill</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>MGH Senior Health</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Women's Health Associates</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Brigham Circle Medical Associates</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Brigham Internal Medicine Associates</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Spanish Clinic</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>MGH Back Bay</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02228</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Brigham and Women's Primary Care Associates of Brookline</name>
+      <address>
+        <city>Brookline</city>
+        <state>Massachusetts</state>
+        <zip>02446</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>MGH Charlestown HealthCare Center</name>
+      <address>
+        <city>Charlestown</city>
+        <state>Massachusetts</state>
+        <zip>02129</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>MGH Chelsea HealthCare Center</name>
+      <address>
+        <city>Chelsea</city>
+        <state>Massachusetts</state>
+        <zip>02150</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Brigham and Women's Physician Group</name>
+      <address>
+        <city>Chestnut Hill</city>
+        <state>Massachusetts</state>
+        <zip>02467</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Gretchen and Edward Fish Center for Women's Health</name>
+      <address>
+        <city>Chestnut Hill</city>
+        <state>Massachusetts</state>
+        <zip>02467</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Everett Family Practice</name>
+      <address>
+        <city>Everett</city>
+        <state>Massachusetts</state>
+        <zip>02149</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Brigham Primary Physicians at Faulkner</name>
+      <address>
+        <city>Jamaica Plain</city>
+        <state>Massachusetts</state>
+        <zip>02130</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Brookside Community Health Center</name>
+      <address>
+        <city>Jamaica Plain</city>
+        <state>Massachusetts</state>
+        <zip>02130</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Faulkner Community Physicians</name>
+      <address>
+        <city>Jamaica Plain</city>
+        <state>Massachusetts</state>
+        <zip>02130</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Southern Jamaica Plain Health Center</name>
+      <address>
+        <city>Jamaica Plain</city>
+        <state>Massachusetts</state>
+        <zip>02130</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Brigham and Women's Primary Care Associates of Newton Corner</name>
+      <address>
+        <city>Newton</city>
+        <state>Massachusetts</state>
+        <zip>02458</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mass General Revere HealthCare Center</name>
+      <address>
+        <city>Revere</city>
+        <state>Massachusetts</state>
+        <zip>02151</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mass General West Medical Group</name>
+      <address>
+        <city>Waltham</city>
+        <state>Massachusetts</state>
+        <zip>02451</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Meeker D, Linder JA, Fox CR, Friedberg MW, Persell SD, Goldstein NJ, Knight TK, Hay JW, Doctor JN. Effect of Behavioral Interventions on Inappropriate Antibiotic Prescribing Among Primary Care Practices: A Randomized Clinical Trial. JAMA. 2016 Feb 9;315(6):562-70. doi: 10.1001/jama.2016.0275.</citation>
+    <PMID>26864410</PMID>
+  </reference>
+  <verification_date>March 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 4, 2011</study_first_submitted>
+  <study_first_submitted_qc>October 14, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 19, 2011</study_first_posted>
+  <results_first_submitted>July 20, 2015</results_first_submitted>
+  <results_first_submitted_qc>March 30, 2017</results_first_submitted_qc>
+  <results_first_posted type="Actual">June 20, 2017</results_first_posted>
+  <last_update_submitted>March 30, 2017</last_update_submitted>
+  <last_update_submitted_qc>March 30, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 20, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Southern California</investigator_affiliation>
+    <investigator_full_name>Jason Doctor</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Antibiotics</keyword>
+  <keyword>Inappropriate Prescribing</keyword>
+  <keyword>Respiratory Tract Infections</keyword>
+  <keyword>Behavioral Research</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infection</mesh_term>
+    <mesh_term>Communicable Diseases</mesh_term>
+    <mesh_term>Respiratory Tract Infections</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Education Control</title>
+          <description>Participants do not receive any of the 3 interventions.</description>
+        </group>
+        <group group_id="P2">
+          <title>Suggested Alternatives (SA)</title>
+          <description>Participants receive the Suggested Alternatives intervention, but not the Accountable Justification or Peer Comparison interventions.</description>
+        </group>
+        <group group_id="P3">
+          <title>Accountable Justification (AJ)</title>
+          <description>Participants receive the Accountable Justification intervention, but do not receive the Suggested Alternatives or Peer Comparison interventions.</description>
+        </group>
+        <group group_id="P4">
+          <title>Peer Comparison (PC)</title>
+          <description>Participants receive the Peer Comparison intervention, but do not receive the Suggested Alternatives or Accountable Justification interventions.</description>
+        </group>
+        <group group_id="P5">
+          <title>SA, AJ</title>
+          <description>Participants receive the Suggested Alternatives and Accountable Justification interventions, but not the Peer Comparison intervention.</description>
+        </group>
+        <group group_id="P6">
+          <title>SA, PC</title>
+          <description>Participants receive the Suggested Alternative and Peer Comparison interventions, but not the Accountable Justification intervention.</description>
+        </group>
+        <group group_id="P7">
+          <title>AJ, PC</title>
+          <description>Participants receive the Accountable Justification and Peer Comparison interventions, but not the Suggested Alternative intervention.</description>
+        </group>
+        <group group_id="P8">
+          <title>SA, AJ, PC</title>
+          <description>Participants are given all 3 interventions.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="27"/>
+                <participants group_id="P2" count="42"/>
+                <participants group_id="P3" count="35"/>
+                <participants group_id="P4" count="20"/>
+                <participants group_id="P5" count="34"/>
+                <participants group_id="P6" count="35"/>
+                <participants group_id="P7" count="27"/>
+                <participants group_id="P8" count="28"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="24"/>
+                <participants group_id="P2" count="38"/>
+                <participants group_id="P3" count="32"/>
+                <participants group_id="P4" count="19"/>
+                <participants group_id="P5" count="33"/>
+                <participants group_id="P6" count="32"/>
+                <participants group_id="P7" count="26"/>
+                <participants group_id="P8" count="23"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="4"/>
+                <participants group_id="P3" count="3"/>
+                <participants group_id="P4" count="1"/>
+                <participants group_id="P5" count="1"/>
+                <participants group_id="P6" count="3"/>
+                <participants group_id="P7" count="1"/>
+                <participants group_id="P8" count="5"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Enrolled Clinicians</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Education Control</title>
+          <description>Participants do not receive any of the 3 interventions.</description>
+        </group>
+        <group group_id="B2">
+          <title>Suggested Alternatives (SA)</title>
+          <description>Participants receive the Suggested Alternatives intervention, but not the Accountable Justification or Peer Comparison interventions.</description>
+        </group>
+        <group group_id="B3">
+          <title>Accountable Justification (AJ)</title>
+          <description>Participants receive the Accountable Justification intervention, but do not receive the Suggested Alternatives or Peer Comparison interventions.</description>
+        </group>
+        <group group_id="B4">
+          <title>Peer Comparison (PC)</title>
+          <description>Participants receive the Peer Comparison intervention, but do not receive the Suggested Alternatives or Accountable Justification interventions.</description>
+        </group>
+        <group group_id="B5">
+          <title>SA, AJ</title>
+          <description>Participants receive the Suggested Alternatives and Accountable Justification interventions, but not the Peer Comparison intervention.</description>
+        </group>
+        <group group_id="B6">
+          <title>SA, PC</title>
+          <description>Participants receive the Suggested Alternative and Peer Comparison interventions, but not the Accountable Justification intervention.</description>
+        </group>
+        <group group_id="B7">
+          <title>AJ, PC</title>
+          <description>Participants receive the Accountable Justification and Peer Comparison interventions, but not the Suggested Alternative intervention.</description>
+        </group>
+        <group group_id="B8">
+          <title>SA, AJ, PC</title>
+          <description>Participants are given all 3 interventions.</description>
+        </group>
+        <group group_id="B9">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="27"/>
+            <count group_id="B2" value="42"/>
+            <count group_id="B3" value="35"/>
+            <count group_id="B4" value="20"/>
+            <count group_id="B5" value="34"/>
+            <count group_id="B6" value="35"/>
+            <count group_id="B7" value="27"/>
+            <count group_id="B8" value="28"/>
+            <count group_id="B9" value="248"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="47" spread="12"/>
+                    <measurement group_id="B2" value="49" spread="10"/>
+                    <measurement group_id="B3" value="49" spread="9"/>
+                    <measurement group_id="B4" value="46" spread="9"/>
+                    <measurement group_id="B5" value="48" spread="9"/>
+                    <measurement group_id="B6" value="51" spread="11"/>
+                    <measurement group_id="B7" value="48" spread="10"/>
+                    <measurement group_id="B8" value="46" spread="9"/>
+                    <measurement group_id="B9" value="48" spread="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13"/>
+                    <measurement group_id="B2" value="30"/>
+                    <measurement group_id="B3" value="22"/>
+                    <measurement group_id="B4" value="12"/>
+                    <measurement group_id="B5" value="24"/>
+                    <measurement group_id="B6" value="25"/>
+                    <measurement group_id="B7" value="15"/>
+                    <measurement group_id="B8" value="16"/>
+                    <measurement group_id="B9" value="157"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                    <measurement group_id="B2" value="12"/>
+                    <measurement group_id="B3" value="13"/>
+                    <measurement group_id="B4" value="8"/>
+                    <measurement group_id="B5" value="10"/>
+                    <measurement group_id="B6" value="10"/>
+                    <measurement group_id="B7" value="12"/>
+                    <measurement group_id="B8" value="12"/>
+                    <measurement group_id="B9" value="91"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Inappropriate Antibiotic Prescribing Rate for Qualifying Acute Respiratory Infection Diagnoses</title>
+        <description>Assess inappropriate antibiotic prescribing rates (relative to all practices that did not receive the intervention) for antibiotic-inappropriate acute respiratory tract infection visits and no concomitant reason for antibiotic prescribing. based on the following non-antibiotic-appropriate International Statistical Classification of Diseases, version 9 (ICD-9) diagnoses:
+460 Acute nasopharyngitis (common cold)
+465 Acute laryngeopharyngitis/acute upper respiratory infection
+466 Acute bronchitis
+490 Bronchitis not specified as acute or chronic
+487 Flu</description>
+        <time_frame>18 months</time_frame>
+        <population>We identified a total of 16,959 non-antibiotic-appropriate acute respiratory infection (ARI) visits. Visits were categorized as inappropriate if there were diagnosis codes for non-specific upper respiratory infections, acute bronchitis, and/or influenza.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Control</title>
+            <description>Participants received no study interventions</description>
+          </group>
+          <group group_id="O2">
+            <title>Suggested Alternatives (SA)</title>
+            <description>Participants receive the Suggested Alternatives intervention, but not the Accountable Justification or Peer Comparison interventions.</description>
+          </group>
+          <group group_id="O3">
+            <title>Accountable Justification (AJ)</title>
+            <description>Participants receive the Accountable Justification intervention, but do not receive the Suggested Alternatives or Peer Comparison interventions.</description>
+          </group>
+          <group group_id="O4">
+            <title>Peer Comparison (PC)</title>
+            <description>Participants receive the Peer Comparison intervention, but do not receive the Suggested Alternatives or Accountable Justification interventions.</description>
+          </group>
+          <group group_id="O5">
+            <title>Suggested Alternatives + Accountable Justification</title>
+            <description>Participants receive the Suggested Alternatives and Accountable Justification interventions, but do not receive the Peer Comparison intervention</description>
+          </group>
+          <group group_id="O6">
+            <title>Suggested Alternatives + Peer Comparison</title>
+            <description>Participants receive the Suggested Alternatives and Peer Comparison interventions, but do not receive the Accountable Justification intervention</description>
+          </group>
+          <group group_id="O7">
+            <title>Accountable Justification + Peer Comparison</title>
+            <description>Participants receive the Accountable Justification and Peer Comparison interventions, but do not receive the Suggested Alternatives intervention</description>
+          </group>
+          <group group_id="O8">
+            <title>SA+AJ+PC</title>
+            <description>Participants receive all three interventions: Suggested Alternatives, Accountable Justification, and Peer Comparison interventions</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Inappropriate Antibiotic Prescribing Rate for Qualifying Acute Respiratory Infection Diagnoses</title>
+          <description>Assess inappropriate antibiotic prescribing rates (relative to all practices that did not receive the intervention) for antibiotic-inappropriate acute respiratory tract infection visits and no concomitant reason for antibiotic prescribing. based on the following non-antibiotic-appropriate International Statistical Classification of Diseases, version 9 (ICD-9) diagnoses:
+460 Acute nasopharyngitis (common cold)
+465 Acute laryngeopharyngitis/acute upper respiratory infection
+466 Acute bronchitis
+490 Bronchitis not specified as acute or chronic
+487 Flu</description>
+          <population>We identified a total of 16,959 non-antibiotic-appropriate acute respiratory infection (ARI) visits. Visits were categorized as inappropriate if there were diagnosis codes for non-specific upper respiratory infections, acute bronchitis, and/or influenza.</population>
+          <units>inappropriate prescribing rate</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <units_analyzed>Qualifying ARI visits</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="27"/>
+                <count group_id="O2" value="42"/>
+                <count group_id="O3" value="35"/>
+                <count group_id="O4" value="20"/>
+                <count group_id="O5" value="34"/>
+                <count group_id="O6" value="35"/>
+                <count group_id="O7" value="27"/>
+                <count group_id="O8" value="28"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>Qualifying ARI visits</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="2095"/>
+                <count group_id="O2" value="2388"/>
+                <count group_id="O3" value="1979"/>
+                <count group_id="O4" value="1620"/>
+                <count group_id="O5" value="2131"/>
+                <count group_id="O6" value="2014"/>
+                <count group_id="O7" value="2240"/>
+                <count group_id="O8" value="2492"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.20" lower_limit="0.10" upper_limit="0.31"/>
+                    <measurement group_id="O2" value="0.19" lower_limit="0.06" upper_limit="0.66"/>
+                    <measurement group_id="O3" value="0.08" lower_limit="0.03" upper_limit="0.23"/>
+                    <measurement group_id="O4" value="0.09" lower_limit="0.03" upper_limit="0.31"/>
+                    <measurement group_id="O5" value="0.07" lower_limit="0.02" upper_limit="0.24"/>
+                    <measurement group_id="O6" value="0.01" lower_limit="0.00" upper_limit="0.08"/>
+                    <measurement group_id="O7" value="0.03" lower_limit="0.00" upper_limit="0.18"/>
+                    <measurement group_id="O8" value="0.03" lower_limit="0.00" upper_limit="0.22"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Antibiotic Prescribing Rates for Expanded List of Acute Respiratory Infection Diagnoses</title>
+        <description>We will monitor overall prescribing for the specified diagnoses and other acute respiratory infection diagnoses, including cough/fever and pneumonia.</description>
+        <time_frame>18 months</time_frame>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>For antibiotic-inappropriate visits in which no antibiotic was prescribed, we assessed return visits within 30 days for the presence of complications potentially attributable to untreated bacterial infections</time_frame>
+      <desc>Intervention-qualifying acute respiratory infections (ARI) encounters include all ARI visits eligible for the suggested alternatives and accountable justification interventions (not limited to the antibiotic-inappropriate ARI diagnoses that define the primary outcome). A Diagnosis of Concern (DoC) was based on International Classification of Diseases version 9 (ICD9) codes of concern at revisit.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Education Control</title>
+          <description>Participants do not receive any of the 3 interventions.</description>
+        </group>
+        <group group_id="E2">
+          <title>Suggested Alternatives (SA)</title>
+          <description>Participants receive the Suggested Alternatives intervention, but not the Accountable Justification or Peer Comparison interventions.</description>
+        </group>
+        <group group_id="E3">
+          <title>Accountable Justification (AJ)</title>
+          <description>Participants receive the Accountable Justification intervention, but do not receive the Suggested Alternatives or Peer Comparison interventions.</description>
+        </group>
+        <group group_id="E4">
+          <title>Peer Comparison (PC)</title>
+          <description>Participants receive the Peer Comparison intervention, but do not receive the Suggested Alternatives or Accountable Justification interventions.</description>
+        </group>
+        <group group_id="E5">
+          <title>SA, AJ</title>
+          <description>Participants receive the Suggested Alternatives and Accountable Justification interventions, but not the Peer Comparison intervention.</description>
+        </group>
+        <group group_id="E6">
+          <title>SA, PC</title>
+          <description>Participants receive the Suggested Alternative and Peer Comparison interventions, but not the Accountable Justification intervention.</description>
+        </group>
+        <group group_id="E7">
+          <title>AJ, PC</title>
+          <description>Participants receive the Accountable Justification and Peer Comparison interventions, but not the Suggested Alternative intervention.</description>
+        </group>
+        <group group_id="E8">
+          <title>SA, AJ, PC</title>
+          <description>Participants are given all 3 interventions.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="3245"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="4579"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="4622"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="3781"/>
+                <counts group_id="E5" subjects_affected="0" subjects_at_risk="5717"/>
+                <counts group_id="E6" subjects_affected="0" subjects_at_risk="5993"/>
+                <counts group_id="E7" subjects_affected="0" subjects_at_risk="3398"/>
+                <counts group_id="E8" subjects_affected="0" subjects_at_risk="4164"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_vocab>ICD9</default_vocab>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="14" subjects_at_risk="3245"/>
+                <counts group_id="E2" subjects_affected="16" subjects_at_risk="4579"/>
+                <counts group_id="E3" subjects_affected="16" subjects_at_risk="4622"/>
+                <counts group_id="E4" subjects_affected="13" subjects_at_risk="3781"/>
+                <counts group_id="E5" subjects_affected="22" subjects_at_risk="5717"/>
+                <counts group_id="E6" subjects_affected="23" subjects_at_risk="5993"/>
+                <counts group_id="E7" subjects_affected="48" subjects_at_risk="3398"/>
+                <counts group_id="E8" subjects_affected="15" subjects_at_risk="4164"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Infections and infestations</title>
+            <event_list>
+              <event>
+                <sub_title>return visits for bacterial infections occurring within 30 days of study qualifying ARI visit where</sub_title>
+                <description>For antibiotic-inappropriate visits in which no antibiotic was prescribed, we assessed return visits within 30 days for the presence of complications potentially attributable to untreated bacterial infections</description>
+                <counts group_id="E1" subjects_affected="14" subjects_at_risk="3245"/>
+                <counts group_id="E2" subjects_affected="16" subjects_at_risk="4579"/>
+                <counts group_id="E3" subjects_affected="16" subjects_at_risk="4622"/>
+                <counts group_id="E4" subjects_affected="13" subjects_at_risk="3781"/>
+                <counts group_id="E5" subjects_affected="22" subjects_at_risk="5717"/>
+                <counts group_id="E6" subjects_affected="23" subjects_at_risk="5993"/>
+                <counts group_id="E7" subjects_affected="48" subjects_at_risk="3398"/>
+                <counts group_id="E8" subjects_affected="15" subjects_at_risk="4164"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Jason N. Doctor</name_or_title>
+      <organization>University of Southern California</organization>
+      <phone>213.821.8142</phone>
+      <email>jdoctor@usc.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

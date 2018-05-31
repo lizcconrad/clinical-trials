@@ -1,0 +1,911 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01639443</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IIR 12-055</org_study_id>
+    <secondary_id>1I01HX000878-01</secondary_id>
+    <nct_id>NCT01639443</nct_id>
+  </id_info>
+  <brief_title>Reducing VA No-Shows: Evaluation of Predictive Overbooking Applied to Colonoscopy</brief_title>
+  <acronym>No-show</acronym>
+  <official_title>Reducing VA No-Shows: Evaluation of Predictive Overbooking Applied to Colonoscopy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this research study, investigators use colonoscopy as a case example to evaluate a
+      predictive overbooking model derived using patient-level predictors of absenteeism. The
+      no-show overbooking intervention employs a logistic regression model that uses patient data
+      to predict the odds of no-showing with 80% accuracy. These projected no-show appointments
+      will be overbooked by clerks for patients who agree to join a &quot;fast track&quot; short-call line.
+      By rapidly processing endoscopy patients and moving them out of traditional slots,
+      investigators predict more scheduling slots would become available for patients awaiting
+      colonoscopy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patient &quot;no-shows&quot; are especially common in VA gastrointestinal (GI) endoscopy units, where
+      both open-access endoscopy scheduling and patient dislike of procedures contribute to high
+      absenteeism. In this proposal, investigators use endoscopy as a case example to evaluate a
+      predictive overbooking model derived using patient-level predictors of absenteeism. The
+      no-show overbooking intervention employs a logistic regression model that uses patient data
+      to predict the odds of no-showing with 80% accuracy. These projected no-show appointments
+      will be overbooked by clerks for patients who agree to join a &quot;fast track&quot; short-call line.
+      However, patients scheduled for upper endoscopies in the &quot;fast track&quot; assume a small risk of
+      service denial on the day of their overbooking in case of inaccurate predictions. If this
+      occurs, the patient is guaranteed service in the next available position and is assured of
+      having a shorter wait time. Patients scheduled for colonoscopies will never be turned down
+      but may experience delays in the waiting room the day of their &quot;fast track&quot; appointment. By
+      rapidly processing endoscopy patients and moving them out of traditional slots, investigators
+      predict more scheduling slots would become available for patients awaiting colonoscopy.
+      Investigators propose to conduct a prospective, 24-month, interrupted time series (ITS) trial
+      in the WLAVA (West Los Angeles Veterans Administration) GI clinic endoscopy unit. During
+      intervention periods, investigators will activate the no-show predictive overbooking strategy
+      described above. Investigators will compare outcomes between scheduling strategies, including
+      differences in percent utilization of capacity (primary outcome), number of Veterans served,
+      mean patient lag time between scheduling and procedure, number of unexpected service denials
+      (&quot;bumps&quot;) from no-show predictive overbooking, and direct costs of care. Investigators will
+      analyze differences using both traditional univariate and multivariate approaches, and using
+      autoregressive integrated moving average (ARIMA) analyses to adjust for auto-correlations in
+      ITS data.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 8, 2013</start_date>
+  <completion_date type="Actual">June 30, 2016</completion_date>
+  <primary_completion_date type="Actual">July 6, 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of GI Clinic Capacity Filled</measure>
+    <time_frame>After 12 months of running study in clinic</time_frame>
+    <description>Investigators' primary objective will be to evaluate the impact of no-show predictive overbooking on percentage of the GI endoscopy clinic that are filled on a given day. Days where at least one Fast-tracked patient attended an appointment were compared to days where only Control patients attended appointments. Percentage of GI Clinic Capacity is calculated as the number of appointments completed divided by number of appointment spots available on a given day. This percentage was compared between Fast-tracked days and Control days, using data from 1672 patients.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Scheduling-to-procedure Lag Time</measure>
+    <time_frame>After 12 months of running study in clinic</time_frame>
+    <description>The investigators will calculate the mean daily lag time for all colonoscopy and upper endoscopies performed per day</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Daily Service Denials (&quot;Bumps&quot;)</measure>
+    <time_frame>After 12 months of running study in clinic</time_frame>
+    <description>The investigators will compare the number of patients bumped per day between scheduling approaches</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Advanced Adenoma Detection/Cecal Intubation Rates</measure>
+    <time_frame>After 20 months of running study in clinic</time_frame>
+    <description>The investigators will compare daily advanced adenomatous polyp detection and daily cecal intubation rates between groups.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Length of Workday</measure>
+    <time_frame>After 12 months of running study in clinic</time_frame>
+    <description>Length of Workday in hours (comparing days with Fast-Tracked Appointments to Control days without)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cost Comparisons</measure>
+    <time_frame>After 12 months of running study in clinic</time_frame>
+    <description>For cost comparisons, the investigators will aggregate total provider overtime costs for colonoscopies performed. Cost is reported per day.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">180</enrollment>
+  <condition>Colon Cancer</condition>
+  <arm_group>
+    <arm_group_label>Fast-tracked</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>'Predictive no-show overbooking' intervention. Patients who volunteer to enroll in &quot;fast-track&quot; line, which gives them an opportunity to overbook their appointment for endoscopy earlier in a predictive no-show slots.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Patients who are scheduled routinely</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Predictive no-show overbooking</intervention_name>
+    <description>During intervention period, every Veteran scheduled for an endoscopy will be offered &quot;fast-track&quot; offer, which gives them a chance to get their endoscopy procedure done earlier than usual scheduling by overbooking their appointment in a predictive no-show slot.</description>
+    <arm_group_label>Fast-tracked</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients who are scheduled for upper endoscopy and agree to the terms of &quot;fast track&quot;
+             offer.
+
+        Exclusion Criteria:
+
+          -  If a patient expresses concern about service denial, confusion about the bargain, or
+             refuses to participate, the investigators will schedule these patients routinely.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Paul G. Shekelle, MD PhD MPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>VA Greater Los Angeles Healthcare System, West Los Angeles, CA</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>VA Greater Los Angeles Healthcare System, West Los Angeles, CA</name>
+      <address>
+        <city>West Los Angeles</city>
+        <state>California</state>
+        <zip>90073</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Reid MW, Cohen S, Wang H, Kaung A, Patel A, Tashjian V, Williams DL Jr, Martinez B, Spiegel BM. Preventing patient absenteeism: validation of a predictive overbooking model. Am J Manag Care. 2015 Dec;21(12):902-10.</citation>
+    <PMID>26671702</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Reid MW, May FP, Martinez B, Cohen S, Wang H, Williams DL Jr, Spiegel BM. Preventing Endoscopy Clinic No-Shows: Prospective Validation of a Predictive Overbooking Model. Am J Gastroenterol. 2016 Sep;111(9):1267-73. doi: 10.1038/ajg.2016.269. Epub 2016 Jul 5.</citation>
+    <PMID>27377518</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>May FP, Reid MW, Cohen S, Dailey F, Spiegel BM. Predictive overbooking and active recruitment increases uptake of endoscopy appointments among African American patients. Gastrointest Endosc. 2017 Apr;85(4):700-705. doi: 10.1016/j.gie.2016.09.001. Epub 2016 Sep 10.</citation>
+    <PMID>27623103</PMID>
+  </results_reference>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 9, 2012</study_first_submitted>
+  <study_first_submitted_qc>July 9, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 12, 2012</study_first_posted>
+  <results_first_submitted>June 30, 2016</results_first_submitted>
+  <results_first_submitted_qc>September 13, 2016</results_first_submitted_qc>
+  <results_first_posted type="Estimate">October 31, 2016</results_first_posted>
+  <last_update_submitted>March 13, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 13, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 12, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>quality improvement</keyword>
+  <keyword>Organization and Administration</keyword>
+  <keyword>Costs and cost analysis</keyword>
+  <keyword>Patient satisfaction</keyword>
+  <keyword>Health plan implementation</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Fast-tracked</title>
+          <description>Patients who volunteer to enroll in &quot;fast-track&quot; line, which gives them an opportunity to overbook their appointment for endoscopy earlier in a predictive no-show slots.
+Predictive no-show overbooking: During intervention period, every Veteran scheduled for an upper endoscopy will be offered &quot;fast-track&quot; offer, which gives them a chance to get their endoscopy procedure done earlier than usual scheduling by overbooking their appointment in a predictive no-show slot.</description>
+        </group>
+        <group group_id="P2">
+          <title>Control</title>
+          <description>Patients who are scheduled routinely</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="180">These individuals opted into Fast-tracked group and were consented.</participants>
+                <participants group_id="P2" count="4855">These individuals opted to not participate in Fast-tracked group, and were not consented.</participants>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="180">Intervention is limited to appointment booking, and all completed.</participants>
+                <participants group_id="P2" count="4855">These individuals all booked appointments using typical booking.</participants>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>All Participants in all study phases.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Fast-tracked</title>
+          <description>Patients who volunteer to enroll in &quot;fast-track&quot; line, which gives them an opportunity to overbook their appointment for endoscopy earlier in a predictive no-show slots.
+Predictive no-show overbooking: During intervention period, every Veteran scheduled for an upper endoscopy will be offered &quot;fast-track&quot; offer, which gives them a chance to get their endoscopy procedure done earlier than usual scheduling by overbooking their appointment in a predictive no-show slot.</description>
+        </group>
+        <group group_id="B2">
+          <title>Control</title>
+          <description>Patients who are scheduled routinely</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="180"/>
+            <count group_id="B2" value="4855"/>
+            <count group_id="B3" value="5035"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="112"/>
+                    <measurement group_id="B2" value="2812"/>
+                    <measurement group_id="B3" value="2924"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="68"/>
+                    <measurement group_id="B2" value="2043"/>
+                    <measurement group_id="B3" value="2111"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="59.3" spread="13.6"/>
+                    <measurement group_id="B2" value="62.2" spread="10.0"/>
+                    <measurement group_id="B3" value="62.1" spread="10.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                    <measurement group_id="B2" value="206"/>
+                    <measurement group_id="B3" value="218"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="168"/>
+                    <measurement group_id="B2" value="4649"/>
+                    <measurement group_id="B3" value="4817"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="17"/>
+                    <measurement group_id="B2" value="565"/>
+                    <measurement group_id="B3" value="582"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="163"/>
+                    <measurement group_id="B2" value="4290"/>
+                    <measurement group_id="B3" value="4453"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="35"/>
+                    <measurement group_id="B3" value="37"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="109"/>
+                    <measurement group_id="B3" value="114"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="28"/>
+                    <measurement group_id="B3" value="30"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="70"/>
+                    <measurement group_id="B2" value="1584"/>
+                    <measurement group_id="B3" value="1654"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="83"/>
+                    <measurement group_id="B2" value="2414"/>
+                    <measurement group_id="B3" value="2497"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="41"/>
+                    <measurement group_id="B3" value="43"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="16"/>
+                    <measurement group_id="B2" value="644"/>
+                    <measurement group_id="B3" value="660"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="180"/>
+                    <measurement group_id="B2" value="4855"/>
+                    <measurement group_id="B3" value="5035"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage of GI Clinic Capacity Filled</title>
+        <description>Investigators' primary objective will be to evaluate the impact of no-show predictive overbooking on percentage of the GI endoscopy clinic that are filled on a given day. Days where at least one Fast-tracked patient attended an appointment were compared to days where only Control patients attended appointments. Percentage of GI Clinic Capacity is calculated as the number of appointments completed divided by number of appointment spots available on a given day. This percentage was compared between Fast-tracked days and Control days, using data from 1672 patients.</description>
+        <time_frame>After 12 months of running study in clinic</time_frame>
+        <population>These 1672 patients are a subset of all patients who were enrolled in this study. We dropped data on a first wave of participants (69 Fast-tracked and 3294 Controls) because of problems incorporating recruitment strategy into clinic. However, data from these individuals was used to build predictive model.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Fast-tracked</title>
+            <description>Patients who volunteer to enroll in &quot;fast-track&quot; line, which gives them an opportunity to overbook their appointment for endoscopy earlier in a predictive no-show slots.
+Predictive no-show overbooking: During intervention period, every Veteran scheduled for an upper endoscopy will be offered &quot;fast-track&quot; offer, which gives them a chance to get their endoscopy procedure done earlier than usual scheduling by overbooking their appointment in a predictive no-show slot.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control</title>
+            <description>Patients who are scheduled routinely</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of GI Clinic Capacity Filled</title>
+          <description>Investigators' primary objective will be to evaluate the impact of no-show predictive overbooking on percentage of the GI endoscopy clinic that are filled on a given day. Days where at least one Fast-tracked patient attended an appointment were compared to days where only Control patients attended appointments. Percentage of GI Clinic Capacity is calculated as the number of appointments completed divided by number of appointment spots available on a given day. This percentage was compared between Fast-tracked days and Control days, using data from 1672 patients.</description>
+          <population>These 1672 patients are a subset of all patients who were enrolled in this study. We dropped data on a first wave of participants (69 Fast-tracked and 3294 Controls) because of problems incorporating recruitment strategy into clinic. However, data from these individuals was used to build predictive model.</population>
+          <units>percentage of clinic capacity filled</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="1561"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="99.6" spread="19.4"/>
+                    <measurement group_id="O2" value="86.4" spread="21.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>We counted days containing at least one Fast-tracked participant as a &quot;Fast-tracked&quot; day for the sake of analysis at the clinic level. Our null hypothesis is that these days will not differ in terms of percentage of clinic capacity filled. We are powered to detect a 0.5 Standard Deviation (SD) difference in clinic capacity (Type I error rate = 5%; Power = 81%), with a equal ratio of Experimental and Control days.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>&lt;0.0001</p_value>
+            <method>t-test, 2 sided</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Scheduling-to-procedure Lag Time</title>
+        <description>The investigators will calculate the mean daily lag time for all colonoscopy and upper endoscopies performed per day</description>
+        <time_frame>After 12 months of running study in clinic</time_frame>
+        <population>These 1672 patients are a subset of all patients who were enrolled in this study. We dropped data on a first wave of participants (69 Fast-tracked and 3294 Controls) because of problems incorporating recruitment strategy into clinic. However, data from these individuals was used to build predictive model.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Fast-tracked</title>
+            <description>Patients who volunteer to enroll in &quot;fast-track&quot; line, which gives them an opportunity to overbook their appointment for endoscopy earlier in a predictive no-show slots.
+Predictive no-show overbooking: During intervention period, every Veteran scheduled for an upper endoscopy will be offered &quot;fast-track&quot; offer, which gives them a chance to get their endoscopy procedure done earlier than usual scheduling by overbooking their appointment in a predictive no-show slot.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control</title>
+            <description>Patients who are scheduled routinely</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Scheduling-to-procedure Lag Time</title>
+          <description>The investigators will calculate the mean daily lag time for all colonoscopy and upper endoscopies performed per day</description>
+          <population>These 1672 patients are a subset of all patients who were enrolled in this study. We dropped data on a first wave of participants (69 Fast-tracked and 3294 Controls) because of problems incorporating recruitment strategy into clinic. However, data from these individuals was used to build predictive model.</population>
+          <units>days</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="1561"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8.3" spread="24.3"/>
+                    <measurement group_id="O2" value="10.8" spread="24.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>We calculated this measure on the patient level. Our null hypothesis is that the lag time between scheduling and appointment, measured in days, will not differ between groups. We are powered to detect a 0.3 SD difference in lag time (Type I error rate = 5%; Power = 84%), accounting for the large sampling ratio (approximately 14:1).</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.29</p_value>
+            <method>t-test, 2 sided</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Daily Service Denials (&quot;Bumps&quot;)</title>
+        <description>The investigators will compare the number of patients bumped per day between scheduling approaches</description>
+        <time_frame>After 12 months of running study in clinic</time_frame>
+        <population>These 1672 patients are a subset of all patients who were enrolled in this study. We dropped data on a first wave of participants (69 Fast-tracked and 3294 Controls) because of problems incorporating recruitment strategy into clinic. However, data from these individuals was used to build predictive model.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Fast-tracked</title>
+            <description>Patients who volunteer to enroll in &quot;fast-track&quot; line, which gives them an opportunity to overbook their appointment for endoscopy earlier in a predictive no-show slots.
+Predictive no-show overbooking: During intervention period, every Veteran scheduled for an upper endoscopy will be offered &quot;fast-track&quot; offer, which gives them a chance to get their endoscopy procedure done earlier than usual scheduling by overbooking their appointment in a predictive no-show slot.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control</title>
+            <description>Patients who are scheduled routinely</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Daily Service Denials (&quot;Bumps&quot;)</title>
+          <description>The investigators will compare the number of patients bumped per day between scheduling approaches</description>
+          <population>These 1672 patients are a subset of all patients who were enrolled in this study. We dropped data on a first wave of participants (69 Fast-tracked and 3294 Controls) because of problems incorporating recruitment strategy into clinic. However, data from these individuals was used to build predictive model.</population>
+          <units>participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="1561"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="29"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>We did not explicitly power this study to detect differences in the number of service bumps, but we can compare them using Fisher's Exact Test</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.49</p_value>
+            <p_value_desc>We would have only expected 2 patients to be bumped in the Experimental Group, and observed 0.</p_value_desc>
+            <method>Fisher Exact</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Advanced Adenoma Detection/Cecal Intubation Rates</title>
+        <description>The investigators will compare daily advanced adenomatous polyp detection and daily cecal intubation rates between groups.</description>
+        <time_frame>After 20 months of running study in clinic</time_frame>
+        <population>We only collected data on polyp detection for the first half of our Fast-tracked participants and all Controls seen over the same time period (4897 in total).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Fast-tracked</title>
+            <description>Patients who volunteer to enroll in &quot;fast-track&quot; line, which gives them an opportunity to overbook their appointment for endoscopy earlier in a predictive no-show slots.
+Predictive no-show overbooking: During intervention period, every Veteran scheduled for an upper endoscopy will be offered &quot;fast-track&quot; offer, which gives them a chance to get their endoscopy procedure done earlier than usual scheduling by overbooking their appointment in a predictive no-show slot.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control</title>
+            <description>Patients who are scheduled routinely</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Advanced Adenoma Detection/Cecal Intubation Rates</title>
+          <description>The investigators will compare daily advanced adenomatous polyp detection and daily cecal intubation rates between groups.</description>
+          <population>We only collected data on polyp detection for the first half of our Fast-tracked participants and all Controls seen over the same time period (4897 in total).</population>
+          <units>Number of Polyps Detected per patient</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="90"/>
+                <count group_id="O2" value="4807"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.35" spread="1.58"/>
+                    <measurement group_id="O2" value="2.88" spread="2.56"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>We calculated this measure on the patient level, but were hampered by a large sampling ratio (more than 50:1). Our null hypothesis is that the number of polyps detected will not differ between groups. We are powered to detect a 0.25 SD difference in polyp count per patient (Type I error rate = 5%; Power = 80%).</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.05</p_value>
+            <method>t-test, 2 sided</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Length of Workday</title>
+        <description>Length of Workday in hours (comparing days with Fast-Tracked Appointments to Control days without)</description>
+        <time_frame>After 12 months of running study in clinic</time_frame>
+        <population>These 1672 patients are a subset of all patients who were enrolled in this study. We dropped data on a first wave of participants (69 Fast-tracked and 3294 Controls) because of problems incorporating recruitment strategy into clinic. However, data from these individuals was used to build predictive model.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Fast-tracked</title>
+            <description>Patients who volunteer to enroll in &quot;fast-track&quot; line, which gives them an opportunity to overbook their appointment for endoscopy earlier in a predictive no-show slots.
+Predictive no-show overbooking: During intervention period, every Veteran scheduled for an upper endoscopy will be offered &quot;fast-track&quot; offer, which gives them a chance to get their endoscopy procedure done earlier than usual scheduling by overbooking their appointment in a predictive no-show slot.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control</title>
+            <description>Patients who are scheduled routinely</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Length of Workday</title>
+          <description>Length of Workday in hours (comparing days with Fast-Tracked Appointments to Control days without)</description>
+          <population>These 1672 patients are a subset of all patients who were enrolled in this study. We dropped data on a first wave of participants (69 Fast-tracked and 3294 Controls) because of problems incorporating recruitment strategy into clinic. However, data from these individuals was used to build predictive model.</population>
+          <units>hours</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="1561"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8.31" spread="1.32"/>
+                    <measurement group_id="O2" value="7.84" spread="1.32"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>We counted days containing at least one Fast-tracked participant as a &quot;Fast-tracked&quot; day for the sake of analysis at the clinic level. Our null hypothesis is that these days will not differ in terms of length of workday. We are powered to detect approximately 0.5 SD difference in workday length in hours (Type I error rate = 5%; Power = 81%), with a equal ratio of Experimental and Control days.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.024</p_value>
+            <method>t-test, 2 sided</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Cost Comparisons</title>
+        <description>For cost comparisons, the investigators will aggregate total provider overtime costs for colonoscopies performed. Cost is reported per day.</description>
+        <time_frame>After 12 months of running study in clinic</time_frame>
+        <population>These 1672 patients are a subset of all patients who were enrolled in this study. We dropped data on a first wave of participants (69 Fast-tracked and 3294 Controls) because of problems incorporating recruitment strategy into clinic. However, data from these individuals was used to build predictive model.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Fast-tracked</title>
+            <description>Patients who volunteer to enroll in &quot;fast-track&quot; line, which gives them an opportunity to overbook their appointment for endoscopy earlier in a predictive no-show slots.
+Predictive no-show overbooking: During intervention period, every Veteran scheduled for an upper endoscopy will be offered &quot;fast-track&quot; offer, which gives them a chance to get their endoscopy procedure done earlier than usual scheduling by overbooking their appointment in a predictive no-show slot.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control</title>
+            <description>Patients who are scheduled routinely</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Cost Comparisons</title>
+          <description>For cost comparisons, the investigators will aggregate total provider overtime costs for colonoscopies performed. Cost is reported per day.</description>
+          <population>These 1672 patients are a subset of all patients who were enrolled in this study. We dropped data on a first wave of participants (69 Fast-tracked and 3294 Controls) because of problems incorporating recruitment strategy into clinic. However, data from these individuals was used to build predictive model.</population>
+          <units>dollars</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="111"/>
+                <count group_id="O2" value="1561"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="63.01" spread="107.01"/>
+                    <measurement group_id="O2" value="36.88" spread="101.73"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>We counted days containing at least one Fast-tracked participant as a &quot;Fast-tracked&quot; day for the sake of analysis at the clinic level. Our null hypothesis is that these days will not differ in terms of cost per day. We are powered to detect a 0.5 SD difference in clinic capacity (Type I error rate = 5%; Power = 81%), with a equal ratio of Experimental and Control days.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.11</p_value>
+            <method>t-test, 2 sided</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>After 24 months of running study in clinic</time_frame>
+      <desc>This study involved scheduling patients for appointments, so the odds of an adverse event are extremely low.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Fast-tracked</title>
+          <description>Patients who volunteer to enroll in &quot;fast-track&quot; line, which gives them an opportunity to overbook their appointment for endoscopy earlier in a predictive no-show slots.
+Predictive no-show overbooking: During intervention period, every Veteran scheduled for an upper endoscopy will be offered &quot;fast-track&quot; offer, which gives them a chance to get their endoscopy procedure done earlier than usual scheduling by overbooking their appointment in a predictive no-show slot.</description>
+        </group>
+        <group group_id="E2">
+          <title>Control</title>
+          <description>Patients who are scheduled routinely</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="180"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="4855"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="180"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="4855"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>This study was impeded by our ability to schedule Veterans into Fast-Tracked appointments. Although the method is very promising, integration of predictive scheduling is vital for this program to benefit Veterans on a large scale.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Jennifer Talley Soares</name_or_title>
+      <organization>West Los Angeles VA / Cedars-Sinai Medical Center</organization>
+      <phone>(310) 478-3711 ext 83240</phone>
+      <email>jennifer.soares@va.gov</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

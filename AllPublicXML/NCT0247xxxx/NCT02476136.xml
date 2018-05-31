@@ -1,0 +1,238 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02476136</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CSDR-1173</org_study_id>
+    <nct_id>NCT02476136</nct_id>
+  </id_info>
+  <brief_title>Initial Severity and Antidepressant Efficacy for Anxiety Disorders: an Individual Patient Data Meta-analysis</brief_title>
+  <official_title>Initial Severity and Antidepressant Efficacy for Anxiety Disorders: an Individual Patient Data Meta-analysis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>prof. Peter de Jonge</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Medical Center Groningen</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Anxiety disorders are common disorders, which pose a major burden to society and the
+      individual. An anxiety disorder may be treated with medication, in particular with
+      antidepressants such as the selective serotonin reuptake inhibitors (SSRIs). However, much of
+      what is known about antidepressants is derived from research in depression rather than
+      anxiety. In recent years, researchers have found that antidepressants are more effective for
+      severely depressed patients than they are for patients with milder symptoms. It is possible
+      that a similar relationship between symptom severity and antidepressant efficacy exists for
+      anxiety disorders, but there is currently little evidence available to answer this question.
+      As antidepressants are frequently prescribed to patients with mild or moderate anxiety, a
+      clear understanding of their effectiveness across the severity range is vital to inform
+      treatment decisions. Therefore, the purpose of this meta-analysis is to examine whether
+      initial symptom severity affects antidepressant efficacy for anxiety disorders.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Study design:
+
+      The proposed project is an individual patient data meta-analysis. The investigators will
+      collate data from 29 randomized controlled trials of second-generation antidepressants
+      (specifically: paroxetine, paroxetine controlled release (CR), duloxetine, and fluoxetine)
+      for the short-term treatment of an anxiety disorder, including a total of approximately 8,800
+      participants. The anxiety disorders that are included in the proposed project are generalized
+      anxiety disorder (GAD), social anxiety disorder (SAD), obsessive-compulsive disorder (OCD),
+      post-traumatic stress disorder (PTSD), and panic disorder (PD). Generalized linear mixed
+      models will be used to investigate whether initial symptom severity is related to
+      antidepressant efficacy.
+
+      Statistical analysis plan:
+
+      A separate longitudinal analysis will be conducted for each disorder. For GAD, SAD, OCD, and
+      PTSD, linear mixed models will be used; for PD, a generalized linear mixed model (multilevel
+      negative binomial regression) will be used, as the dependent variable for this disorder
+      (number of panic attacks) is a discrete count variable. Maximum likelihood estimation will be
+      used as the estimation method for the linear mixed models, while Laplace approximation will
+      be used as the estimation method for the multilevel negative binomial regression for PD. In
+      all models, measurement occasion represents level 1, participants represent level 2, and
+      trial represents level 3. The effect measure of interest is the change in symptoms from
+      baseline, except for PD, for which the effect measure of interest is the total number of
+      panic attacks per two weeks.
+
+      The initial model will be built by including all the fixed effects of interest, regardless of
+      significance. These include initial severity, treatment group and covariates (see below).
+      Linear and quadratic terms for time (in days since baseline) will be included. For each
+      participant, the actual visit dates will be used (if available) rather than the intended
+      weekly visit date. The following two- and three-way interactions will also be included:
+      severity x group, severity x linear time, group x linear time, severity x group x linear
+      time, severity x quadratic time, group x quadratic time, severity x group x quadratic time.
+
+      Using this first model, the variance-covariance structure of the nested data will be modeled
+      by including random effects. Random effects for study, subject and (linear and quadratic)
+      time, as well as various covariance structures (unstructured, autocorrelated errors,
+      Toeplitz, etc.) will be considered. Restricted maximum likelihood (REML) will be used for
+      estimation, and the best-fitting model will be selected based upon the Akaike Information
+      Criterion (AICc).
+
+      In this best-fitting model, backward selection with maximum likelihood (ML) will be used to
+      select the significant fixed effects. Non-significant interaction terms will be removed from
+      the model (unless the three-way interaction of group x severity x (linear or quadratic) time
+      is significant, in which case all two-way interactions and main effects that use these
+      variables will be retained). The best-fitting model will again be selected based upon the
+      Akaike Information Criterion (AICc).
+
+      Covariates: Models with and without the following covariates will be tested: age, gender, and
+      duration of illness (if available). Only the main effect of these covariates will be
+      included; no interactions with other variables will be included.
+
+      Missing data: Baseline variables (such as initial severity) are likely to be essentially
+      complete, but some change scores are likely to be missing due to dropout or missed
+      measurement occasions. The assumption is made that these data are missing at random (MAR),
+      that is: missingness of the dependent variable may depend upon observed variables (such as
+      previous symptom scores or covariates), but it does not depend upon the value of the
+      unobserved (missing) variable. When MAR holds, the mixed model yields unbiased estimates of
+      coefficients and standard errors even when some data is missing, and no other methods for
+      handling missing data are required.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>May 2015</start_date>
+  <completion_date type="Anticipated">December 2016</completion_date>
+  <primary_completion_date type="Actual">March 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <primary_outcome>
+    <measure>Change from baseline on the Hamilton Anxiety Rating Scale (HAM-A)</measure>
+    <time_frame>Baseline to trial endpoint (8 to 10 weeks)</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change from baseline on the Liebowitz Social Anxiety Scale (LSAS)</measure>
+    <time_frame>Baseline to trial endpoint (12 weeks)</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change from baseline on the Yale-Brown Obsessive-Compulsive Scale (Y-BOCS)</measure>
+    <time_frame>Baseline to trial endpoint (12 to 13 weeks)</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change from baseline on the Clinician-Administered PTSD Scale (CAPS)</measure>
+    <time_frame>Baseline to trial endpoint (12 weeks)</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The total number of panic attacks</measure>
+    <time_frame>Baseline to trial endpoint (10 to 12 weeks)</time_frame>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">8800</enrollment>
+  <condition>Anxiety Disorders</condition>
+  <condition>Panic Disorder</condition>
+  <condition>Obsessive-compulsive Disorder</condition>
+  <condition>Post-traumatic Stress Disorder</condition>
+  <condition>Generalized Anxiety Disorder</condition>
+  <condition>Social Anxiety Disorder</condition>
+  <arm_group>
+    <arm_group_label>Placebo group</arm_group_label>
+    <description>Patients participating in one of the included randomized controlled trials, assigned to the placebo group</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Intervention group</arm_group_label>
+    <description>Patients participating in one of the included randomized controlled trials, assigned to the investigational antidepressant (paroxetine, duloxetine or fluoxetine) or active comparator (venlafaxine) group.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>paroxetine, duloxetine, fluoxetine or venlafaxine</intervention_name>
+    <arm_group_label>Intervention group</arm_group_label>
+    <other_name>Paxil</other_name>
+    <other_name>Cymbalta</other_name>
+    <other_name>Prozac</other_name>
+    <other_name>Effexor</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population consists of adults aged 18 and older (with the exception of OCD
+        trials, which may include adolescents aged 14 and older) who have been diagnosed with
+        generalized anxiety disorder (GAD), social anxiety disorder (SAD), obsessive-compulsive
+        disorder (OCD), post-traumatic stress disorder (PTSD), or panic disorder (PD) and who were
+        randomized to placebo or to treatment with a second-generation antidepressant.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Inclusion in the intent-to-treat population of a randomized controlled trial of a
+             second-generation antidepressant for the short-term treatment of an anxiety disorder
+
+          -  Diagnosed with an anxiety disorder (GAD, SAD, OCD, PTSD or PD)
+
+        Exclusion Criteria:
+
+          -  Assignment to an active comparator that is not a second-generation antidepressant
+             (e.g. a benzodiazepine)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>14 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>September 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 3, 2015</study_first_submitted>
+  <study_first_submitted_qc>June 16, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 19, 2015</study_first_posted>
+  <last_update_submitted>September 26, 2016</last_update_submitted>
+  <last_update_submitted_qc>September 26, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">September 27, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University Medical Center Groningen</investigator_affiliation>
+    <investigator_full_name>prof. Peter de Jonge</investigator_full_name>
+    <investigator_title>Professor of Psychiatric Epidemiology</investigator_title>
+  </responsible_party>
+  <keyword>individual patient data meta-analysis</keyword>
+  <keyword>anxiety disorder</keyword>
+  <keyword>antidepressants</keyword>
+  <keyword>selective serotonin reuptake inhibitors</keyword>
+  <keyword>serotonin-norepinephrine reuptake inhibitors</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Disease</mesh_term>
+    <mesh_term>Anxiety Disorders</mesh_term>
+    <mesh_term>Stress Disorders, Traumatic</mesh_term>
+    <mesh_term>Stress Disorders, Post-Traumatic</mesh_term>
+    <mesh_term>Compulsive Personality Disorder</mesh_term>
+    <mesh_term>Obsessive-Compulsive Disorder</mesh_term>
+    <mesh_term>Panic Disorder</mesh_term>
+    <mesh_term>Phobia, Social</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Antidepressive Agents</mesh_term>
+    <mesh_term>Duloxetine Hydrochloride</mesh_term>
+    <mesh_term>Fluoxetine</mesh_term>
+    <mesh_term>Paroxetine</mesh_term>
+    <mesh_term>Venlafaxine Hydrochloride</mesh_term>
+    <mesh_term>Serotonin</mesh_term>
+    <mesh_term>Serotonin Uptake Inhibitors</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

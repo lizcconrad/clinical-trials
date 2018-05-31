@@ -1,0 +1,574 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00535106</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H05290</org_study_id>
+    <nct_id>NCT00535106</nct_id>
+  </id_info>
+  <brief_title>SmartCPR Trial: An Analysis of a Waveform-Based Automated External Defibrillation (AED) Algorithm on Survival From Out-of-Hospital Ventricular Fibrillation</brief_title>
+  <acronym>SmartCPR</acronym>
+  <official_title>An International, Randomized, Controlled Prehospital Trial of a Waveform-Based Automated External Defibrillation Algorithm for the Management of Ventricular Fibrillation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>New York City Fire Department</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Philips Medical Systems</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>London Ambulance Service</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>New York City Fire Department</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is designed to examine the impact of an available technology within an automated
+      external defibrillator (AEDs) to improve survival following out-of-hospital cardiac arrest
+      for patients presenting in ventricular fibrillation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The delivery of an electrical shock, termed defibrillation, has long been recognized as one
+      of the critical &quot;links&quot; in the &quot;Chain of Survival&quot; following out-of-hospital cardiac arrest.
+      This is particularly the case for patients who present in ventricular fibrillation (VF), a
+      state of constant and yet uncoordinate firing of the lower portions of the heart (the
+      ventricles), and the ability to treat these patients with defibrillation prior to their
+      arrival in the hospital has remained one of the reasons why this group represents the
+      patients who are most likely to survive an out-of-hospital cardiac arrest.
+
+      Though this technology has been successfully utilized in the prehospital setting for more
+      than forty years, the long-held belief that &quot;immediate defibrillation&quot; was the optimal
+      treatment for all patients has now come into question.
+
+      Following research done in locations such as Seattle, WA and Oslo, Norway, there came a
+      recognition that some patients (particularly those who have been in cardiac arrest for 4-5
+      minutes prior to EMS arrival) may actually benefit from a period of CPR prior to
+      defibrillation (&quot;delayed defibrillation&quot;). This has to do with the changes that take place
+      within the heart and even at the level of the cells within the heart following the onset of
+      VF. After several minutes of VF, the cells within the heart have been deprived and depleted
+      of oxygen and other energy-containing molecules, and there has been a build-up of other
+      substances such as acids and potassium. By providing CPR prior to defibrillation, it is
+      thought that the patient's heart may be provided with enough oxygen and other
+      energy-containing molecules, making it more likely that the heart will respond favorably to
+      defibrillation.
+
+      Yet this is not necessarily true for all VF patients. Other data from patients whose collapse
+      and cardiac arrest were witnessed and for whom defibrillation was able to be provided quite
+      rapidly (i.e. those in airports, airplanes, and casinos) demonstrate a very high survival
+      rate when compared to those patients who have been in arrest for a longer period. This
+      suggests that there are patients who are best treated with immediate defibrillation and those
+      who are treated with &quot;delayed defibrillation.&quot;
+
+      The problems for modern emergency medical services (EMS) systems include determining just
+      when the VF began, the impact of bystander CPR, the patient's overall condition at the time
+      of the cardiac arrest, and the time interval from the 911 call until the arrival of the EMS
+      providers (EMTs and paramedics) at the side of the patient.
+
+      By choosing to provide immediate defibrillation to all patients, in hopes of benefiting those
+      who are most likely to respond to defibrillation and to survive, an EMS system would
+      simultaneously be choosing to provide less than ideal treatment to those patients who are
+      likely to benefit from &quot;delayed defibrillation.&quot; Conversely, choosing to provide &quot;delayed
+      defibrillation&quot; to all patients likely treats the larger percentage of VF patients in any EMS
+      system appropriately, yet it potentially delays life-saving treatment from those who are most
+      likely to survive (the patients who would benefit from immediate defibrillation).
+
+      Research involving the mathematic properties of the VF waveform (something that the human eye
+      cannot calculate) have led to the development of computer algorithms that may predict, based
+      on the calculated mathematical &quot;score&quot; of the VF, whether a patient is likely to respond more
+      favorably to immediate defibrillation or delayed defibrillation. Such a technology could,
+      therefore, seem to be able to recommend every patient to the treatment that is best for their
+      individual condition, and it would follow that such individual treatment may improve survival
+      from VF cardiac arrest overall.
+
+      This study is designed to examine the effect of just such a technology on VF patients
+      presenting to EMS providers in New York, NY and London, England.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2006</start_date>
+  <completion_date type="Actual">June 2009</completion_date>
+  <primary_completion_date type="Actual">June 2009</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Double (Participant, Care Provider)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Survival to Hospital Discharge</measure>
+    <time_frame>Variable (depends upon interval needed for hospital admission and discharge)</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Survival to hospital admission</measure>
+    <time_frame>within hours from the time of arrest</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Return of spontaneous circulation (ROSC) in prehospital setting</measure>
+    <time_frame>Variable (depends on EMS contact time)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Neurological status among survivors</measure>
+    <time_frame>Variable (measured at hospital discharge)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Survival (defined as ROSC, survival to hospital admission, and survival to hospital discharge) as compared to a &quot;delayed defibrillation&quot; cohort in NYC</measure>
+    <time_frame>Variable (depends upon interval needed for hospital admission and discharge)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Impact of CPR interval on VF waveform characteristics</measure>
+    <time_frame>Immediately after CPR interval</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Utility of AED algorithm and VF characteristics among EMS-witnessed arrests</measure>
+    <time_frame>Variable (some immediate data, some depends upon interval needed for hospital admission and discharge)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Utility of this AED technology and VF characteristics among pediatric patients</measure>
+    <time_frame>Variable (some immediate data, some depends upon interval needed for hospital admission and discharge)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Impact of bystander CPR on VF waveform characteristics</measure>
+    <time_frame>Immediate (taken from data during arrest)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of EMS response times to VF waveform characteristics</measure>
+    <time_frame>Immediate (data obtained during EMS response and arrest period)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency of unmanageable airways in out-of-hospital cardiac arrest patients</measure>
+    <time_frame>Immediate (measured at the time of arrest)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Impact of patient race upon the provision of bystander CPR, VF waveform characteristics, and survival</measure>
+    <time_frame>Variable (depends upon interval needed for hospital admission and discharge)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Relationship between presenting and interval waveform capnography readings and survival</measure>
+    <time_frame>Variable (depends upon interval needed for hospital admission and discharge)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency of organ donation among out-of-hospital cardiac arrest patients transported to the hospital who do not survive to hospital discharge</measure>
+    <time_frame>Variable (depends upon interval needed for hospital admission and discharge)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Waveform characteristics among patients presenting in secondary VF (initial presenting rhythm asystole or pulseless electrical activity)</measure>
+    <time_frame>Immediate (derived from data collected during the arrest)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Description of and outcomes of patients for whom intraosseous access is utilized during the cardiac arrest</measure>
+    <time_frame>Variable (depends upon interval needed for hospital admission and discharge)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Utstein comparison of two cities (London and New York)</measure>
+    <time_frame>Variable (depends upon interval needed for hospital admission and discharge)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Impact of bystander CPR on survival as a function of response time</measure>
+    <time_frame>Variable (depends upon interval needed for hospital admission and discharge)</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Association between ambient small particle (PM2.5) pollution and cardiac arrest indicence in New York City</measure>
+    <time_frame>To be determined by modelling</time_frame>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">900</enrollment>
+  <condition>Ventricular Fibrillation</condition>
+  <condition>Cardiac Arrest</condition>
+  <arm_group>
+    <arm_group_label>Standard resusc</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patients in this arm will be treated with standard resuscitation efforts, including the delivery of an immediate defibrillatory shock for all patients presenting in VF.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SmartCPR</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patient in this arm will be treated with standard resuscitation efforts except that the first AED analysis will utilize an waveform-based algorithm to recommend either immediate defibrillation or delayed defibrillation for each patient.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Delayed defib</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>In New York City only, all patients not initially treated by study personnel will receive other regional standard for resuscitation - delayed defibrillation. Data is being collected on this population as well, thereby providing a cohort population for comparative purposes.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Automated external defibrillator (Philips FR2+ AED)</intervention_name>
+    <description>Patients in this arm will be provided with immediate defibrillatory shock coupled with otherwise standard resuscitative efforts.</description>
+    <arm_group_label>Standard resusc</arm_group_label>
+    <other_name>Philips FR2+ AED</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>SmartCPR</intervention_name>
+    <description>Patient in this arm will be treated with standard resuscitation efforts except that the first AED analysis will utilize an waveform-based algorithm to recommend either immediate defibrillation or delayed defibrillation for each patient.</description>
+    <arm_group_label>SmartCPR</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Delayed defibrillation</intervention_name>
+    <description>In New York City only, all patients not initially treated by study personnel will receive other regional standard for resuscitation - delayed defibrillation.</description>
+    <arm_group_label>Delayed defib</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  initial treatment includes application of a study AED
+
+          -  complete initial waveform analysis
+
+          -  presenting rhythm is ventricular fibrillation
+
+          -  arrest of cardiac etiology
+
+        Exclusion Criteria:
+
+          -  arrest of noncardiac etiology
+
+          -  initial treatment with a non-study defibrillator
+
+          -  missing AED data
+
+          -  age &lt;18 (London only)
+
+          -  resuscitation terminated due to a DNR order / decision
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John P Freese, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>New York City Fire Department</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Bradley J Kaufman, MD, MPH</last_name>
+    <role>Study Director</role>
+    <affiliation>New York City Fire Department</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Rachael Donohoe, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>London Ambulance Service</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Dawn Jorgenson, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Philips Medical Systems</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>New York City Fire Department</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>11201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>London Ambulance Service</name>
+      <address>
+        <city>London</city>
+        <state>England</state>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Cobb LA, Fahrenbruch CE, Olsufka M, Copass MK. Changing incidence of out-of-hospital ventricular fibrillation, 1980-2000. JAMA. 2002 Dec 18;288(23):3008-13.</citation>
+    <PMID>12479765</PMID>
+  </reference>
+  <reference>
+    <citation>Niemann JT, Cairns CB, Sharma J, Lewis RJ. Treatment of prolonged ventricular fibrillation. Immediate countershock versus high-dose epinephrine and CPR preceding countershock. Circulation. 1992 Jan;85(1):281-7.</citation>
+    <PMID>1728458</PMID>
+  </reference>
+  <reference>
+    <citation>Angelos MG, Stoner JD. Cardiopulmonary resuscitation, ventilation, defibrillation: in what order? Ann Emerg Med. 2002 Dec;40(6):571-4.</citation>
+    <PMID>12447332</PMID>
+  </reference>
+  <reference>
+    <citation>Valenzuela TD. Priming the pump--can delaying defibrillation improve survival after sudden cardiac death? JAMA. 2003 Mar 19;289(11):1434-6.</citation>
+    <PMID>12636468</PMID>
+  </reference>
+  <reference>
+    <citation>Valenzuela TD, Roe DJ, Nichol G, Clark LL, Spaite DW, Hardman RG. Outcomes of rapid defibrillation by security officers after cardiac arrest in casinos. N Engl J Med. 2000 Oct 26;343(17):1206-9.</citation>
+    <PMID>11071670</PMID>
+  </reference>
+  <reference>
+    <citation>Eftestøl T, Losert H, Kramer-Johansen J, Wik L, Sterz F, Steen PA. Independent evaluation of a defibrillation outcome predictor for out-of-hospital cardiac arrested patients. Resuscitation. 2005 Oct;67(1):55-61.</citation>
+    <PMID>16154680</PMID>
+  </reference>
+  <reference>
+    <citation>Eftestøl T, Wik L, Sunde K, Steen PA. Effects of cardiopulmonary resuscitation on predictors of ventricular fibrillation defibrillation success during out-of-hospital cardiac arrest. Circulation. 2004 Jul 6;110(1):10-5. Epub 2004 Jun 21.</citation>
+    <PMID>15210599</PMID>
+  </reference>
+  <reference>
+    <citation>Wik L, Hansen TB, Fylling F, Steen T, Vaagenes P, Auestad BH, Steen PA. Delaying defibrillation to give basic cardiopulmonary resuscitation to patients with out-of-hospital ventricular fibrillation: a randomized trial. JAMA. 2003 Mar 19;289(11):1389-95.</citation>
+    <PMID>12636461</PMID>
+  </reference>
+  <reference>
+    <citation>Caffrey SL, Willoughby PJ, Pepe PE, Becker LB. Public use of automated external defibrillators. N Engl J Med. 2002 Oct 17;347(16):1242-7.</citation>
+    <PMID>12393821</PMID>
+  </reference>
+  <reference>
+    <citation>Cobb LA, Fahrenbruch CE, Walsh TR, Copass MK, Olsufka M, Breskin M, Hallstrom AP. Influence of cardiopulmonary resuscitation prior to defibrillation in patients with out-of-hospital ventricular fibrillation. JAMA. 1999 Apr 7;281(13):1182-8.</citation>
+    <PMID>10199427</PMID>
+  </reference>
+  <reference>
+    <citation>Heightman AJ. Eagle Creek report: results of the 2-day consensus retreat on leading controversies in EMS. JEMS. 2004 Sep;29(9):suppl 7-9.</citation>
+    <PMID>15461996</PMID>
+  </reference>
+  <reference>
+    <citation>Snyder DE, White RD, Jorgenson DB. Outcome prediction for guidance of initial resuscitation protocol: Shock first or CPR first. Resuscitation. 2007 Jan;72(1):45-51. Epub 2006 Nov 14.</citation>
+    <PMID>17107744</PMID>
+  </reference>
+  <reference>
+    <citation>American Heart Association. 2005 American Heart Association (AHA) guidelines for cardiopulmonary resuscitation (CPR) and emergency cardiovascular care (ECC) of pediatric and neonatal patients: pediatric basic life support. Pediatrics. 2006 May;117(5):e989-1004.</citation>
+    <PMID>16651298</PMID>
+  </reference>
+  <reference>
+    <citation>International Liaison Committee on Resuscitation. The International Liaison Committee on Resuscitation (ILCOR) consensus on science with treatment recommendations for pediatric and neonatal patients: pediatric basic and advanced life support. Pediatrics. 2006 May;117(5):e955-77. Epub 2006 Apr 17.</citation>
+    <PMID>16618790</PMID>
+  </reference>
+  <reference>
+    <citation>Hazinski MF, Nadkarni VM, Hickey RW, O'Connor R, Becker LB, Zaritsky A. Major changes in the 2005 AHA Guidelines for CPR and ECC: reaching the tipping point for change. Circulation. 2005 Dec 13;112(24 Suppl):IV206-11. Epub 2005 Nov 28.</citation>
+    <PMID>16314349</PMID>
+  </reference>
+  <reference>
+    <citation>Ristagno G, Gullo A. Is ventricular fibrillation waveform analysis suitable for optimizing timing of ventricular defibrillation? Yes it is. Crit Care Med. 2007 Jul;35(7):1804-5; author reply 1805.</citation>
+    <PMID>17581385</PMID>
+  </reference>
+  <reference>
+    <citation>Russell JK, White RD, Crone WE. Analysis of the ventricular fibrillation waveform in refibrillation. Crit Care Med. 2006 Dec;34(12 Suppl):S432-7.</citation>
+    <PMID>17114973</PMID>
+  </reference>
+  <reference>
+    <citation>Sherman LD. The frequency ratio: an improved method to estimate ventricular fibrillation duration based on Fourier analysis of the waveform. Resuscitation. 2006 Jun;69(3):479-86. Epub 2006 Mar 23.</citation>
+    <PMID>16563594</PMID>
+  </reference>
+  <reference>
+    <citation>Callaway CW, Menegazzi JJ. Waveform analysis of ventricular fibrillation to predict defibrillation. Curr Opin Crit Care. 2005 Jun;11(3):192-9. Review.</citation>
+    <PMID>15928465</PMID>
+  </reference>
+  <reference>
+    <citation>Pepe PE, Fowler RL, Roppolo LP, Wigginton JG. Clinical review: Reappraising the concept of immediate defibrillatory attempts for out-of-hospital ventricular fibrillation. Crit Care. 2004 Feb;8(1):41-5. Epub 2003 Sep 29. Review.</citation>
+    <PMID>14975044</PMID>
+  </reference>
+  <reference>
+    <citation>Menegazzi JJ, Callaway CW, Sherman LD, Hostler DP, Wang HE, Fertig KC, Logue ES. Ventricular fibrillation scaling exponent can guide timing of defibrillation and other therapies. Circulation. 2004 Feb 24;109(7):926-31. Epub 2004 Feb 2.</citation>
+    <PMID>14757695</PMID>
+  </reference>
+  <reference>
+    <citation>Lederer W, Rheinberger K, Lischke V, Amann A. [Analysis of ventricular fibrillation signals for the evaluation of defibrillation success in the treatment of ventricular fibrillation]. Anasthesiol Intensivmed Notfallmed Schmerzther. 2003 Dec;38(12):787-94. Review. German.</citation>
+    <PMID>14666442</PMID>
+  </reference>
+  <reference>
+    <citation>Lightfoot CB, Nremt-P, Callaway CW, Hsieh M, Fertig KC, Sherman LD, Menegazzi JJ. Dynamic nature of electrocardiographic waveform predicts rescue shock outcome in porcine ventricular fibrillation. Ann Emerg Med. 2003 Aug;42(2):230-41.</citation>
+    <PMID>12883511</PMID>
+  </reference>
+  <reference>
+    <citation>Reed MJ, Clegg GR, Robertson CE. Analysing the ventricular fibrillation waveform. Resuscitation. 2003 Apr;57(1):11-20. Review.</citation>
+    <PMID>12668294</PMID>
+  </reference>
+  <reference>
+    <citation>Berg RA, Hilwig RW, Kern KB, Ewy GA. Precountershock cardiopulmonary resuscitation improves ventricular fibrillation median frequency and myocardial readiness for successful defibrillation from prolonged ventricular fibrillation: a randomized, controlled swine study. Ann Emerg Med. 2002 Dec;40(6):563-70.</citation>
+    <PMID>12447331</PMID>
+  </reference>
+  <reference>
+    <citation>Gazmuri RJ, Ayoub IM, Shakeri SA. Ventricular fibrillation waveform analysis for guiding the time of electrical defibrillation. Crit Care Med. 2001 Dec;29(12):2395-7.</citation>
+    <PMID>11801853</PMID>
+  </reference>
+  <reference>
+    <citation>Wang HE, Menegazzi JJ, Lightfoot CB, Callaway CW, Fertig KC, Sherman LD, Hsieh M. Effects of biphasic vs monophasic defibrillation on the scaling exponent in a swine model of prolonged ventricular fibrillation. Acad Emerg Med. 2001 Aug;8(8):771-80.</citation>
+    <PMID>11483451</PMID>
+  </reference>
+  <reference>
+    <citation>Callaway CW, Sherman LD, Mosesso VN Jr, Dietrich TJ, Holt E, Clarkson MC. Scaling exponent predicts defibrillation success for out-of-hospital ventricular fibrillation cardiac arrest. Circulation. 2001 Mar 27;103(12):1656-61.</citation>
+    <PMID>11273993</PMID>
+  </reference>
+  <reference>
+    <citation>Povoas HP, Bisera J. Electrocardiographic waveform analysis for predicting the success of defibrillation. Crit Care Med. 2000 Nov;28(11 Suppl):N210-1.</citation>
+    <PMID>11098949</PMID>
+  </reference>
+  <reference>
+    <citation>Callaway CW, Sherman LD, Scheatzle MD, Menegazzi JJ. Scaling structure of electrocardiographic waveform during prolonged ventricular fibrillation in swine. Pacing Clin Electrophysiol. 2000 Feb;23(2):180-91.</citation>
+    <PMID>10709226</PMID>
+  </reference>
+  <reference>
+    <citation>Patwardhan A, Moghe S, Wang K, Cruise H, Leonelli F. Relation between ventricular fibrillation voltage and probability of defibrillation shocks. Analysis using Hilbert transforms. J Electrocardiol. 1998 Oct;31(4):317-25.</citation>
+    <PMID>9817215</PMID>
+  </reference>
+  <reference>
+    <citation>Neurauter A, Strohmenger HU. Prediction of countershock success employing single features from multiple ventricular fibrillation frequency bands and feature combinations using neural networks. Resuscitation. 2008 Jan;76(1):152. Epub 2007 Aug 13.</citation>
+    <PMID>17697741</PMID>
+  </reference>
+  <reference>
+    <citation>Sherman LD, Niemann JT, Rosborough JP, Menegazzi JJ. The effect of ischemia on ventricular fibrillation as measured by fractal dimension and frequency measures. Resuscitation. 2007 Dec;75(3):499-505. Epub 2007 Jul 13.</citation>
+    <PMID>17630089</PMID>
+  </reference>
+  <reference>
+    <citation>Huizar JF, Warren MD, Shvedko AG, Kalifa J, Moreno J, Mironov S, Jalife J, Zaitsev AV. Three distinct phases of VF during global ischemia in the isolated blood-perfused pig heart. Am J Physiol Heart Circ Physiol. 2007 Sep;293(3):H1617-28. Epub 2007 Jun 1.</citation>
+    <PMID>17545483</PMID>
+  </reference>
+  <reference>
+    <citation>Neurauter A, Kramer-Johansen J, Eilevstjønn J, Myklebust H, Wenzel V, Lindner KH, Eftestøl T, Steen PA, Strohmenger HU. Estimation of the duration of ventricular fibrillation using ECG single feature analysis. Resuscitation. 2007 May;73(2):246-52. Epub 2007 Mar 21.</citation>
+    <PMID>17368907</PMID>
+  </reference>
+  <reference>
+    <citation>Indik JH, Donnerstein RL, Berg RA, Hilwig RW, Berg MD, Kern KB. Ventricular fibrillation frequency characteristics are altered in acute myocardial infarction. Crit Care Med. 2007 Apr;35(4):1133-8.</citation>
+    <PMID>17334241</PMID>
+  </reference>
+  <reference>
+    <citation>Chorro FJ, Guerrero J, Trapero I, Such-Miquel L, Mainar L, Cánoves J, Blasco E, Ferrero A, Sanchís J, Bodí V, Such L. [Time-frequency analysis of ventricular fibrillation. An experimental study]. Rev Esp Cardiol. 2006 Sep;59(9):869-78. Spanish.</citation>
+    <PMID>17020699</PMID>
+  </reference>
+  <reference>
+    <citation>Indik JH, Donnerstein RL, Kern KB, Goldman S, Gaballa MA, Berg RA. Ventricular fibrillation waveform characteristics are different in ischemic heart failure compared with structurally normal hearts. Resuscitation. 2006 Jun;69(3):471-7. Epub 2006 Apr 4.</citation>
+    <PMID>16600470</PMID>
+  </reference>
+  <reference>
+    <citation>Callihan J, Roeder R, Geddes LA, Otlewski M, Kemeny A. Ventricular fibrillation frequency. Pacing Clin Electrophysiol. 2005 Jul;28(7):610-2.</citation>
+    <PMID>16008794</PMID>
+  </reference>
+  <reference>
+    <citation>Moreno J, Zaitsev AV, Warren M, Berenfeld O, Kalifa J, Lucca E, Mironov S, Guha P, Jalife J. Effect of remodelling, stretch and ischaemia on ventricular fibrillation frequency and dynamics in a heart failure model. Cardiovasc Res. 2005 Jan 1;65(1):158-66.</citation>
+    <PMID>15621043</PMID>
+  </reference>
+  <reference>
+    <citation>Watson JN, Uchaipichat N, Addison PS, Clegg GR, Robertson CE, Eftestol T, Steen PA. Improved prediction of defibrillation success for out-of-hospital VF cardiac arrest using wavelet transform methods. Resuscitation. 2004 Dec;63(3):269-75.</citation>
+    <PMID>15582761</PMID>
+  </reference>
+  <reference>
+    <citation>Young C, Bisera J, Gehman S, Snyder D, Tang W, Weil MH. Amplitude spectrum area: measuring the probability of successful defibrillation as applied to human data. Crit Care Med. 2004 Sep;32(9 Suppl):S356-8.</citation>
+    <PMID>15508659</PMID>
+  </reference>
+  <reference>
+    <citation>Indik JH, Donnerstein RL, Berg MD, Samson RA, Berg RA. Ventricular fibrillation frequency characteristics and time evolution in piglets: a developmental study. Resuscitation. 2004 Oct;63(1):85-92.</citation>
+    <PMID>15451590</PMID>
+  </reference>
+  <reference>
+    <citation>Goto Y, Suzuki I, Inaba H. Frequency of ventricular fibrillation as predictor of one-year survival from out-of-hospital cardiac arrests. Am J Cardiol. 2003 Aug 15;92(4):457-9.</citation>
+    <PMID>12914879</PMID>
+  </reference>
+  <reference>
+    <citation>Kolarova J, Ayoub IM, Yi Z, Gazmuri RJ. Optimal timing for electrical defibrillation after prolonged untreated ventricular fibrillation. Crit Care Med. 2003 Jul;31(7):2022-8.</citation>
+    <PMID>12847399</PMID>
+  </reference>
+  <reference>
+    <citation>Amann A, Rheinberger K, Achleitner U, Krismer AC, Lingnau W, Lindner KH, Wenzel V. The prediction of defibrillation outcome using a new combination of mean frequency and amplitude in porcine models of cardiac arrest. Anesth Analg. 2002 Sep;95(3):716-22, table of contents.</citation>
+    <PMID>12198059</PMID>
+  </reference>
+  <reference>
+    <citation>Waalewijn RA, Nijpels MA, Tijssen JG, Koster RW. Prevention of deterioration of ventricular fibrillation by basic life support during out-of-hospital cardiac arrest. Resuscitation. 2002 Jul;54(1):31-6.</citation>
+    <PMID>12104106</PMID>
+  </reference>
+  <reference>
+    <citation>Povoas HP, Weil MH, Tang W, Bisera J, Klouche K, Barbatsis A. Predicting the success of defibrillation by electrocardiographic analysis. Resuscitation. 2002 Apr;53(1):77-82.</citation>
+    <PMID>11947983</PMID>
+  </reference>
+  <reference>
+    <citation>Valderrábano M, Yang J, Omichi C, Kil J, Lamp ST, Qu Z, Lin SF, Karagueuzian HS, Garfinkel A, Chen PS, Weiss JN. Frequency analysis of ventricular fibrillation in Swine ventricles. Circ Res. 2002 Feb 8;90(2):213-22.</citation>
+    <PMID>11834715</PMID>
+  </reference>
+  <reference>
+    <citation>Marn-Pernat A, Weil MH, Tang W, Pernat A, Bisera J. Optimizing timing of ventricular defibrillation. Crit Care Med. 2001 Dec;29(12):2360-5.</citation>
+    <PMID>11801840</PMID>
+  </reference>
+  <reference>
+    <citation>Strohmenger HU, Eftestol T, Sunde K, Wenzel V, Mair M, Ulmer H, Lindner KH, Steen PA. The predictive value of ventricular fibrillation electrocardiogram signal frequency and amplitude variables in patients with out-of-hospital cardiac arrest. Anesth Analg. 2001 Dec;93(6):1428-33, table of contents.</citation>
+    <PMID>11726418</PMID>
+  </reference>
+  <reference>
+    <citation>Hamprecht FA, Jost D, Rüttimann M, Calamai F, Kowalski JJ. Preliminary results on the prediction of countershock success with fibrillation power. Resuscitation. 2001 Sep;50(3):297-9.</citation>
+    <PMID>11719159</PMID>
+  </reference>
+  <reference>
+    <citation>Hamprecht FA, Achleitner U, Krismer AC, Lindner KH, Wenzel V, Strohmenger HU, Thiel W, van Gunsteren WF, Amann A. Fibrillation power, an alternative method of ECG spectral analysis for prediction of countershock success in a porcine model of ventricular fibrillation. Resuscitation. 2001 Sep;50(3):287-96.</citation>
+    <PMID>11719158</PMID>
+  </reference>
+  <reference>
+    <citation>Amann A, Achleitner U, Antretter H, Bonatti JO, Krismer AC, Lindner KH, Rieder J, Wenzel V, Voelckel WG, Strohmenger HU. Analysing ventricular fibrillation ECG-signals and predicting defibrillation success during cardiopulmonary resuscitation employing N(alpha)-histograms. Resuscitation. 2001 Jul;50(1):77-85.</citation>
+    <PMID>11719133</PMID>
+  </reference>
+  <reference>
+    <citation>Achleitner U, Wenzel V, Strohmenger HU, Lindner KH, Baubin MA, Krismer AC, Mayr VD, Amann A. The beneficial effect of basic life support on ventricular fibrillation mean frequency and coronary perfusion pressure. Resuscitation. 2001 Nov;51(2):151-8.</citation>
+    <PMID>11718970</PMID>
+  </reference>
+  <reference>
+    <citation>Amann A, Rheinberger K, Achleitner U. Algorithms to analyze ventricular fibrillation signals. Curr Opin Crit Care. 2001 Jun;7(3):152-6. Review.</citation>
+    <PMID>11436521</PMID>
+  </reference>
+  <reference>
+    <citation>Lightfoot CB, Sorensen TJ, Garfinkel MD, Sherman LD, Callaway CW, Menegazzi JJ. Physician interpretation and quantitative measures of electrocardiographic ventricular fibrillation waveform. Prehosp Emerg Care. 2001 Apr-Jun;5(2):147-54.</citation>
+    <PMID>11339724</PMID>
+  </reference>
+  <reference>
+    <citation>Jones JL, Tovar OH. Electrophysiology of ventricular fibrillation and defibrillation. Crit Care Med. 2000 Nov;28(11 Suppl):N219-21. Review.</citation>
+    <PMID>11098951</PMID>
+  </reference>
+  <reference>
+    <citation>Eftestol T, Sunde K, Ole Aase S, Husoy JH, Steen PA. Predicting outcome of defibrillation by spectral characterization and nonparametric classification of ventricular fibrillation in patients with out-of-hospital cardiac arrest. Circulation. 2000 Sep 26;102(13):1523-9.</citation>
+    <PMID>11004143</PMID>
+  </reference>
+  <reference>
+    <citation>Patwardhan A, Moghe S, Wang K, Leonelli F. Frequency modulation within electrocardiograms during ventricular fibrillation. Am J Physiol Heart Circ Physiol. 2000 Aug;279(2):H825-35.</citation>
+    <PMID>10924083</PMID>
+  </reference>
+  <verification_date>October 2009</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 25, 2007</study_first_submitted>
+  <study_first_submitted_qc>September 25, 2007</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 26, 2007</study_first_posted>
+  <last_update_submitted>October 18, 2009</last_update_submitted>
+  <last_update_submitted_qc>October 18, 2009</last_update_submitted_qc>
+  <last_update_posted type="Estimate">October 19, 2009</last_update_posted>
+  <responsible_party>
+    <name_title>John Freese, M.D.</name_title>
+    <organization>New York City Fire Department</organization>
+  </responsible_party>
+  <keyword>Ventricular fibrillation</keyword>
+  <keyword>Cardiac arrest</keyword>
+  <keyword>Automated external defibrillator</keyword>
+  <keyword>AED</keyword>
+  <keyword>Waveform based algorithms</keyword>
+  <keyword>VF waveform analysis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Arrest</mesh_term>
+    <mesh_term>Ventricular Fibrillation</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

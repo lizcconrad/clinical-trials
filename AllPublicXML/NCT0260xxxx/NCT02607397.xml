@@ -1,0 +1,224 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02607397</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ROCOCO LGG</org_study_id>
+    <nct_id>NCT02607397</nct_id>
+  </id_info>
+  <brief_title>ROCOCO - Low Grade Glioma - Planning Study</brief_title>
+  <acronym>ROCOCO LGG</acronym>
+  <official_title>In Silico Clinical Trial on Irradiation Low Grade Glioma, Comparing Photon and Proton Therapy: A Multicentric Planning Study Based on a Reference Dataset of Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maastricht Radiation Oncology</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University Medical Center Nijmegen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Radiotherapy Group Deventer</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Heidelberg University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Giessen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Maastricht Radiation Oncology</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The cost of particle therapy (PT) are considerably higher than conventional radiotherapy (RT)
+      with photons. Considering potential dosimetric advantages of PT, it is necessary to determine
+      if PT are more cost-effective than photons per indication regarding quality of life,
+      survival, and progression free survival. Given the lack of evidence for the benefit of
+      particle therapy in relevant cases, investigators proposed an in silico trial to investigate
+      to what extend proton therapy decrease the amount of irradiated normal tissue and,
+      consequently, the risk of side effects in the surrounding normal tissue as well as the risk
+      of secondary tumors. Given validated dose-response curves and/or NTCP models, a 10% lower
+      mean dose of proton therapy on normal tissue compared to photon therapy should result in at
+      least a 20% lower risk of side effects.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients with low grade glioma have a far better prognosis than patients with high grade
+      glioma. Despite their low incidence and initial favorable biological behavior, low-grade
+      gliomas are behaving as malignant brain tumours leading to considerable morbidity and
+      mortality especially in young patients. Low-grade infiltrating gliomas in adults include
+      diffuse astrocytoma, oligoastrocytoma and oligodendroglioma. With the WHO 2007 classification
+      the variety within the low grade glioma patient group was large. With the introduction of
+      molecular marker like IDH, MGMT, 1p/19q the classification of glioma's in general is a matter
+      of debate, because shifts in treatments and prognosis. In this context, the importance of
+      molecular markers is recognized and used for designing new trials.
+
+      Because of this improved determining of long term survivors like low grade glioma patients,
+      reducing the long term side effect becomes even more relevant. One of the prominent side
+      effect of radiotherapy in low grade glioma patients is the decline in neurocognitive function
+      and loss of memory. This enables patients in their daily activities and causes loss of
+      quality of life. The hippocampus and associated limbic system have long been known to be
+      important in memory formation and pre-clinical models show loss of hippocampal stem cells
+      with radiation as well as changes in architecture and function of mature neurons. Cognitive
+      outcomes in clinical studies are beginning to provide evidence of cognitive effects
+      associated with hippocampal dose and the cognitive benefits of hippocampal sparing. With
+      currently developing IMRT techniques attempts are made to lower the dose to the hippocampus.
+      Besides the hippocampus the dose to the posterior part of the cerebellum seems to influence
+      cognition. Koziol wrote recently the current consensus paper which gathers diverse views on a
+      variety of important roles played by the cerebellum across a range of cognitive and emotional
+      functions. This paper considers the cerebellum in relation to neurocognitive development,
+      language function, working memory, executive function, and the development of cerebellar
+      internal control models and reflects upon some of the ways in which better understanding the
+      cerebellum's status as a &quot;supervised learning machine&quot; can enrich our ability to understand
+      human function and adaptation.
+
+      This in silico planning study compares different treatments (photon, proton and C-ion)
+      focusing on normal tissue radiation exposure for a fixed tumor dose, using the same
+      delineation of gross target volume (GTV), clinical target volume (CTV) and planning target
+      volume (PTV). The comparison will be based on dosimetric parameters on normal tissues such as
+      mean hippocampus dose, etc. In addition, the NTCP for a fixed tumor dose or the same expected
+      TCP will be determined. Cobalt Gy equivalent doses will be used when reporting the proton and
+      C-ion dose. In the case of protons, a constant RBE value of 1.1 will be used for both the
+      tumor and the normal tissues. The RBE of C-ions will be calculated based on the models used
+      by the participating centers. The GSI in-house treatment planning system uses RBE values
+      calculated on the basis of the local effect model (LEM). The LEM I (alpha/beta=2) is based on
+      the radial dose distribution of each charged particle crossing into a cell nucleus, as well
+      as on the radiosensitivity and repair capacity of the tissue. The TPSs used by UHM is also
+      based on the LEM model. The model used at NIRS utilizes fixed RBE values that are dependent
+      on the depth in the body, but independent of dose level or tumor type.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2015</start_date>
+  <completion_date type="Actual">March 2017</completion_date>
+  <primary_completion_date type="Actual">March 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Dmean</measure>
+    <time_frame>1 month</time_frame>
+    <description>The normal tissue dose volume parameters per tumor type are defined as Hippocampus: Dmean</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Dmax</measure>
+    <time_frame>1 month</time_frame>
+    <description>The normal tissue dose volume parameters per tumor type are defined as Hippocampus: Dmax</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Normal Tissue Complication Probability</measure>
+    <time_frame>1 month</time_frame>
+    <description>Based on the OAR's radiation exposure, normal tissue complication probability (NTCP) will be calculated using existing models or existing dose response curves.</description>
+  </secondary_outcome>
+  <enrollment type="Actual">25</enrollment>
+  <condition>Low Grade Glioma</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        25 patients. Each patient will function as his or her own control.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Low Grade Glioma patients
+
+          -  Treated with radical intent
+
+        Exclusion Criteria:
+
+          -  No Low Grade Glioma
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Philippe Lambin, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Maastro Clinic, The Netherlands</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Heidelberg</name>
+      <address>
+        <city>Heidelberg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Giessen and Marburg</name>
+      <address>
+        <city>Marburg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Radiotherapy Group</name>
+      <address>
+        <city>Deventer</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University Medical Center Nijmegen</name>
+      <address>
+        <city>Nijmegen</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>March 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 12, 2015</study_first_submitted>
+  <study_first_submitted_qc>November 17, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 18, 2015</study_first_posted>
+  <last_update_submitted>March 27, 2017</last_update_submitted>
+  <last_update_submitted_qc>March 27, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 28, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Glioma</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

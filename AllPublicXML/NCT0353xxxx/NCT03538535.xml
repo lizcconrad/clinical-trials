@@ -1,0 +1,185 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03538535</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STU00206862</org_study_id>
+    <nct_id>NCT03538535</nct_id>
+  </id_info>
+  <brief_title>Set Your Goal: Engaging Go/No-Go Active Learning</brief_title>
+  <official_title>Computational Modeling of Reinforcement Learning in Depression</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Northwestern University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Northwestern University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will test a computational model reinforcement learning in depression and anxiety
+      and test the extent to which the computational model predicts response to an adapted version
+      of behavioral activation psychotherapy. The model will be based on a data from a computer
+      task of reinforcement learning during 3T functional magnetic resonance imaging at baseline.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The dysfunction of reinforcement learning is emerging as a transdiagnostic dimension of mood
+      and anxiety. Computational models of reinforcement learning may expedite our ability to
+      identify predictors of response, thereby improving efficacy rates. We will will, first,
+      examine the neural substrates of reinforcement learning in depression and anxiety, and,
+      second, test a computational model of reinforcement learning as a predictor of response to an
+      adapted version of behavioral activation psychotherapy. Subjects (N=10) will be enrolled in a
+      two week evaluation, followed with a nine week weekly intervention program. Assessments will
+      be conducted at baseline, and during the intervention as the 3-, 6-, 9-week follow-ups.
+      Reinforcement learning will be measured using 3T magnetic resonance imaging during a computer
+      task. All other measures include structured clinical interviews, questionnaires, and computer
+      tasks.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 1, 2018</start_date>
+  <completion_date type="Anticipated">March 1, 2019</completion_date>
+  <primary_completion_date type="Anticipated">March 1, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Adapted version of Behavioral Activation psychotherapy.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Integrated Bayesian Information Criterion (BIC) score based on models using modified Q-learning models with two pairs of action values (go and no-go) for each state.</measure>
+    <time_frame>Baseline (Week 0)</time_frame>
+    <description>Models will include a learning rate, a slope of the softmax rule, noise factor, a bias factor to the action-value for 'go', and a Pavlovian factor.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">10</enrollment>
+  <condition>Depression</condition>
+  <condition>Anxiety</condition>
+  <arm_group>
+    <arm_group_label>Go/No-Go Active Learning (GOAL)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Adaptation of Behavioral Activation, focused on reinforcement learning strategies.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Go/No-Go Active Learning (GOAL)</intervention_name>
+    <description>Behavioral Activation psychotherapy adapted to engage go/no-go learning</description>
+    <arm_group_label>Go/No-Go Active Learning (GOAL)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Between the ages of 21 and 40
+
+          -  Physically healthy
+
+          -  Right handed
+
+          -  Normal or corrected to normal vision
+
+          -  Scores equal or higher of (a) 24 on Inventory of Depressive Symptomatology, Self
+             Report, or (b) 15 on the Generalized Anxiety Disorder Self Report.
+
+        Exclusion Criteria:
+
+          -  Not currently in therapy or taking medications for anxiety or depression
+
+          -  No contraindications for the magnetic resonance scan (claustrophobic)
+
+          -  No history of head trauma, seizures, loss of consciousness
+
+          -  Not taking hormone replacement, not pregnant
+
+          -  No imminent suicidality
+
+          -  No report of excessive alcohol or drug use in past three months
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>40 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jackie Gollan, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Associate Professor of Psychiatry and Behavioral Science</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jackie K Gollan, Ph.D.</last_name>
+    <phone>312695-6121</phone>
+    <email>j-gollan@northwestern.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Northwestern University</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jackie K. Gollan, PhD</last_name>
+      <phone>312-695-6121</phone>
+      <email>j-gollan@northwestern.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Katherine L. Wisner, MD</last_name>
+      <phone>312-695-8441</phone>
+      <email>katherine.wisner@northwestern.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 14, 2018</study_first_submitted>
+  <study_first_submitted_qc>May 24, 2018</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 28, 2018</study_first_posted>
+  <last_update_submitted>May 24, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 24, 2018</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 28, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>reinforcement learning</keyword>
+  <keyword>computational models</keyword>
+  <keyword>neuroimaging</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Depression</mesh_term>
+    <mesh_term>Depressive Disorder</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

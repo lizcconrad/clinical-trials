@@ -1,0 +1,180 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03483922</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HKG-Bng-HCC-100</org_study_id>
+    <nct_id>NCT03483922</nct_id>
+  </id_info>
+  <brief_title>HCC Screening Using DNA Methylation Changes in ctDNA</brief_title>
+  <official_title>Clinical Trials on Detection of Hepatocellular Carcinoma With Non-invasive Method Based on DNA Methylation of Circulated Tumor DNA, PBMC and T Cells</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>HKGepitherapeutics</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>International Centre for Diarrhoeal Disease Research, Bangladesh</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>HKGepitherapeutics</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Hepatocellular Carcinoma (HCC) is the fifth most common cancer world-wide. It is particularly
+      prevalent in Asia, and its occurrence is highest in areas where hepatitis B is prevalent,
+      indicating a possible causal relationship. Follow up of high-risk populations such as chronic
+      hepatitis patients and early diagnosis of transitions from chronic hepatitis to HCC would
+      improve cure rates. In most cases HCC is detected late resulting in increased mortality and
+      morbidity.
+
+      The purpose of this study is to develop and test non-invasive biomarkers based on methylation
+      changes in PBMC, T-cells and circulated tumor DNA in hepatocellular carcinomas patients.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 1, 2018</start_date>
+  <completion_date type="Anticipated">December 1, 2019</completion_date>
+  <primary_completion_date type="Anticipated">April 1, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>DNA methylation of circulated tumor and PBMC DNA and its Correlation to Development and prediction of HCC</measure>
+    <time_frame>6 months to 1 year</time_frame>
+    <description>We will develop the linear model and a threshold value differentiating breast cancer from control based on the 100 patient training set. The model will be provided to the researchers:
+Methylation score=CG1*b1+CG2*b2+ CG3*b3 + e
+CG1 is the methylation value of the first CG b1 is the regression coefficient for the first CG and e equals the intercept.
+We will develop the regression coefficient and intercept as well as the DNA methylation values for each patient for each CG. We will first compute the polygenic methylation score for each patient. Then based on the computer threshold based on the training cohort will call the samples as liver cancer or not.</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Hepatocellular Carcinoma</condition>
+  <arm_group>
+    <arm_group_label>chronic hepatitis B</arm_group_label>
+    <description>This group will include 50 with hepatitis B subjects and the diagnoses will be based on AASLD practice guideline.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>HCC Cases</arm_group_label>
+    <description>This group will include 350 in stage 0, stage A, stage B, Stage C+D of hepatocellular carcinoma.
+HCC staging will be diagnosed according to EASL-EORTC Clinical Practice Guidelines: Management of hepatocellular carcinoma</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy</arm_group_label>
+    <description>This group will include 50 healthy sex and age matched controls.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>ctDNA methylation in and it's Correlation wth Development and prediction of HCC</intervention_name>
+    <description>Blood sample from patients with HCC, healthy individuals and individuals with hepatitis B will be collected, and DNA will extracted from PBMC and circulated tumor DNA will be subjected to bisulfite conversion. DNA from PBMC DNA will be analyzed with primers developed for the AHNAK-STAP1 genes. Plasma samples will be subjected to EZ direct DNA extraction and bisulfite conversion kit and will be amplified with primers developed to amplify the target regions. DNA will be used for the subsequent PCR amplification with specific primer to generate PCR amplicon for sequencing using a double PCR procedure. The product of PCR reaction will be subjected to indexed MiSeq Next-Generation sequencing that will allow us quantify DNA methylation level.</description>
+    <arm_group_label>chronic hepatitis B</arm_group_label>
+    <arm_group_label>HCC Cases</arm_group_label>
+    <arm_group_label>Healthy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        HCC staging will be diagnosed according to EASL-EORTC Clinical Practice Guidelines:
+        Management of hepatocellular carcinoma. The patients will be divided into four groups,
+        including Stage 0 (1) (n=100), stage A (2) (n=100), stage B (3) (n=100) and stage C+D (4)
+        (n=100). As controls we will recruit chronic hepatitis B (n=100), which diagnose will be
+        confirmed using AASLD practice guideline for chronic Hepatitis B, and healthy sex and age
+        matched controls (n=100).
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Confirmed diagnosis of HCC by EASL-EORTC guidelines
+
+          -  Confirmed hepatitis B diagnosis for HepB patients using AASLD practice guidelines.
+
+        Exclusion Criteria for HCC:
+
+          -  Cirrhosis, any other known inflammatory disease (bacterial or viral infection with the
+             exception of hepatitis B or C, diabetes, asthma, autoimmune disease, active thyroid
+             disease) which could alter T cells and monocytes characteristics
+
+          -  Other cancers.
+
+        Exclusion Criteria for HepB:
+
+          -  Diagnosis of HCC or any other cancer.
+
+        Exclusion Criteria for Healthy Controls:
+
+          -  Any known inflammatory or infectious disease including HepB and HepC
+
+          -  Chronic diseases,
+
+          -  Cancer
+
+          -  Medications or drug use
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Infectious Diseases Division</name>
+      <address>
+        <city>Dhaka</city>
+        <country>Bangladesh</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Wasif Ali Khan, PhD</last_name>
+      <phone>880-2-9827057</phone>
+      <email>wakhan@icddrb.org</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Bangladesh</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 20, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 28, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 30, 2018</study_first_posted>
+  <last_update_submitted>April 3, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 3, 2018</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 4, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma</mesh_term>
+    <mesh_term>Carcinoma, Hepatocellular</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

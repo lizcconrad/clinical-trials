@@ -1,0 +1,236 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01879397</url>
+  </required_header>
+  <id_info>
+    <org_study_id>12-797</org_study_id>
+    <nct_id>NCT01879397</nct_id>
+  </id_info>
+  <brief_title>Pilot Study of Ultrasonic Determined Carotid Plaque Composition</brief_title>
+  <acronym>UMP</acronym>
+  <official_title>Ultrasonic Mapping of Carotid Plaque Composition</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>D. Geoffrey Vince</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Siemens Medical Solutions</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The Cleveland Clinic</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Pilot prospective two group observational study to create a model of the carotid plaque
+      composition based on ultrasonic backscattered signals and select clinical data.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Stroke is a major cause of morbidity and mortality among patients with cardiovascular disease
+      and the major cause of long-term disability in the United States. Current imaging modalities
+      can determine the severity of luminal stenosis resulting from plaque, as in the carotid
+      arteries. However, cerebrovascular accidents (CVAs) are often associated with the rupture of
+      unstable plaques located in regions with a non-significant degree of luminal stenosis. Thus
+      up to 50% of high-risk atherosclerotic plaques may go undetected and untreated. Plaque
+      composition is an additional and perhaps, more important risk factor for CVA rather than
+      stenosis severity alone. Accurate identification of these high-risk, rupture-prone plaques
+      may potentially prevent CVAs in a significant number of patients.
+
+      The data collected during this study (ultrasonic backscatter and histologically processed
+      carotid plaque) will provide the basis for a novel algorithm to add plaque composition
+      information to the plaque size and location information that is currently provided by
+      standard ultrasound imaging. The input parameters for the algorithm are derived from two
+      types of non-invasive ultrasound data: quantitative ultrasound (QUS) and acoustic radiation
+      force impulse (ARFI) imaging data. QUS analyzes the frequency content of the backscattered
+      diagnostic ultrasound signals. These are the same signals currently used for imaging,
+      however, imaging relies solely on the strength of the signal to form the image and ignores
+      the spectral information. Thus QUS is an approach to use the spectral information which is
+      sensitive to the number and nature of the scatterers. In contrast ARFI techniques are provide
+      information on the stiffness and shear modulus of the tissue. Two ARFI techniques will be
+      used to gather information on the carotid plaque and related tissue. ARFI is based on using a
+      ultrasonic push pulse to slightly move the tissue (displacement on the order of microns).
+      From this initial start two types of ARFI data are collected: image of the relative
+      displacements of the tissue (ARFI image) and the measurement of the speed of the shear wave
+      created by the tissue displacement (shear wave speed).
+
+      The ARFI derived data and the QUS derived data will be combined with clinically available
+      measures currently used for diagnosis of carotid stenosis to form the input parameters for
+      the algorithm. In order to train and test the algorithm the plaque removed during CEA
+      procedure will be collected and the histology slides prepared from these plaques will be
+      analyzed for the same regions where ARFI and QUS data were collected. This histology review
+      provides the 'gold' standard for training and testing the algorithm. The majority of these
+      matched sets (75%) will be used for training the algorithm. While the remainder (25%) will
+      provide a test of the accuracy of the algorithm for these types of matched data. The
+      sensitivity and specificity for each tissue type defined during the histology review will be
+      reported.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date>May 2013</start_date>
+  <completion_date type="Anticipated">June 2019</completion_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Classification Algorithm Error Rate</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Classification of carotid artery plaque is produced by an algorithm that uses the QUS and ARFI derived parameters corresponding to a given region in the plaque to produce a classification of the plaque region into one of the following: calcium, fibrous, necrotic, or hemorrhagic. Error rates from both the training and test data sets will be reported.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Atherosclerosis</condition>
+  <arm_group>
+    <arm_group_label>CEA Group</arm_group_label>
+    <description>Subjects with atherosclerotic stenosis of the carotid artery and are scheduled for a clinically indicated Carotid Endarterectomy (CEA) procedure to remove the atherosclerotic plaque. Prior to CEA procedure, a research ultrasound exam will be performed. The plaque tissue removed during the CEA will be collected and processed into histological slides.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Normal Group</arm_group_label>
+    <description>Subjects who are not scheduled for a Carotid Endarterectomy (CEA) procedure and have had no prior carotid artery interventions. Subjects will have a Research Ultrasound Exam performed.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Research Ultrasound Exam</intervention_name>
+    <description>Collection of backscattered ultrasound data during non-invasive ultrasound exam
+ARFI based images of the carotid artery and plaque
+Ultrasound signals received by the ultrasound imaging system are recorded. These signals are discarded during the image formation process for a standard duplex ultrasound exam.</description>
+    <arm_group_label>CEA Group</arm_group_label>
+    <arm_group_label>Normal Group</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Carotid plaque removed during Carotid Endarterectomy (CEA) for subjects in the CEA Cohort
+      will be collected and processed for production of histology slides.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        People 40 years old or older who are scheduled for a CEA for atherosclerotic plaque removal
+        within the carotid artery will be considered for enrollement in the CEA Cohort (anticipated
+        enrollment of 50). A small number of people 40 years old or older with no CEA scheduled and
+        no prior carotid intervention will be enrolled into the Normal Cohort (anticipated
+        enrollment of 5).
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        CEA Cohort:
+
+        Inclusion Criteria:
+
+          -  Age ≥40years
+
+          -  Scheduled to undergo CEA for clinically significant carotid stenosis
+
+          -  CEA is being performed for carotid stenosis of one or more of the following vessels:
+             Internal Carotid Artery (ICA), distal end of the Common Carotid Artery (CCA), and/or
+             CCA bulb.
+
+        Exclusion Criteria:
+
+          -  Pregnancy
+
+          -  Prior surgery or intervention involving the carotid artery
+
+          -  Prior stent in the carotid artery
+
+          -  Unable to provide informed consent
+
+          -  CEA for carotid stenosis for proximal CCA only (ICA and distal CCA are not involved)
+
+          -  CEA is scheduled for non-atherosclerotic vascular disease (e.g.,. fibromuscular
+             dysplasia or systemic vasculitis)
+
+          -  Unable to understand English language.
+
+        Normal Cohort:
+
+        Inclusion Criteria
+
+          -  Age ≥40years
+
+        Exclusion Criteria
+
+          -  Pregnancy
+
+          -  Prior surgery or intervention involving the carotid artery (including CEA)
+
+          -  Prior stent in the carotid artery
+
+          -  Unable to provide informed consent
+
+          -  Unable to understand English language.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>D. Geoffrey Vince, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Cleveland Clinic</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Cleveland Clinic</name>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44195</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 13, 2013</study_first_submitted>
+  <study_first_submitted_qc>June 13, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 17, 2013</study_first_posted>
+  <last_update_submitted>April 13, 2017</last_update_submitted>
+  <last_update_submitted_qc>April 13, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 14, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>The Cleveland Clinic</investigator_affiliation>
+    <investigator_full_name>D. Geoffrey Vince</investigator_full_name>
+    <investigator_title>Department Chair</investigator_title>
+  </responsible_party>
+  <keyword>atherosclerosis</keyword>
+  <keyword>arteriosclerosis</keyword>
+  <keyword>carotid stenosis</keyword>
+  <keyword>carotid endarterectomy</keyword>
+  <keyword>Stroke</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atherosclerosis</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

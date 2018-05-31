@@ -1,0 +1,275 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02470273</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DGA-0860</org_study_id>
+    <secondary_id>Q141095</secondary_id>
+    <nct_id>NCT02470273</nct_id>
+  </id_info>
+  <brief_title>Diagnostic Imaging Study for the Melanoma Advanced Imaging Dermatoscope (mAID)</brief_title>
+  <official_title>Multicenter Diagnostic Imaging Study for the Melanoma Advanced Imaging Dermatoscope (mAID)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Daniel Gareau</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Oregon Health and Science University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, Irvine</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Rockefeller University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to calculate the sensitivity and specificity of a novel imaging
+      device and associated software algorithm in detecting early stage melanoma versus nevi of the
+      skin. The instrument, which was invented by the PI, for the purposes of this study, will be
+      loaned to three external (to Rockefeller) institutions and used on patients who are scheduled
+      for biopsy of pigmented lesions. The purpose of correlating the output screening result of
+      the novel device and the output diagnosis of the gold standard histology analysis procedure
+      is so that these two diagnoses can be compared to generate the number of true positives, true
+      negatives, false positives and false negatives for the novel device. The purpose of
+      disseminating the device to the external institutions is to achieve the appropriate power
+      such that the specificity can be evaluated at 99% sensitivity. The rationale for the power
+      needed in the study is that in order to be clinically useful, the device needs to be
+      extremely sensitive (i.e. 99%) because false negative diagnosis is a dangerous situation,
+      leading to potential progression of melanoma, the most deadly form of skin cancer.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The purpose of this study is to calculate the sensitivity and specificity of a novel imaging
+      device and associated software algorithm in detecting early stage melanoma versus nevi of the
+      skin. The instrument, which was invented by the PI, for the purposes of this study, will be
+      loaned to three external (to Rockefeller) institutions and used on patients who are scheduled
+      for biopsy of pigmented lesions. The purpose of correlating the output screening result of
+      the novel device and the output diagnosis of the gold standard histology analysis procedure
+      is so that these two diagnoses can be compared to generate the number of true positives, true
+      negatives, false positives and false negatives for the novel device. The purpose of
+      disseminating the device to the external institutions is to achieve the appropriate power
+      such that the specificity can be evaluated at 99% sensitivity. The rationale for the power
+      needed in the study is that in order to be clinically useful, the device needs to be
+      extremely sensitive (i.e. 99%) because false negative diagnosis is a dangerous situation,
+      leading to potential progression of melanoma, the most deadly form of skin cancer.
+
+      The scientific hypothesis is that the diagnostic mechanism for superficial melanoma is the
+      light tissue interaction that occurs between the blue shifted wavelengths (i.e. blue light,
+      ultra violet light) and the superficial epidermis while the mechanism for diagnosis of deeper
+      melanoma (i.e. Breslow depth &gt;0.5mm) is the light/tissue interaction that occurs between the
+      red shifted light (i.e. red light, infrared light) and the portion of the pigmented lesion
+      that lies within the dermis. These hypotheses were fueled by initial observations that the
+      diagnostic sensitivity and specificity were wavelength dependent in a study that looked at
+      only the red, green and blue wavelengths as available in traditional digital dermoscopy
+      imaging. The initial finding was that of the multiple features analyzed, more features were
+      statistically significant diagnostics in the blue channel but there were (a relative
+      minority) other features that fared better in the red channel. It is hypothesized that the
+      diagnostic features that did better in the red channel were features of deep melanin while
+      the superficial regions, which should theoretically be atypical in ALL melanomas, were
+      evident in the quantitative endpoint metrics generated from the blue channel.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>August 2015</start_date>
+  <completion_date type="Anticipated">April 2018</completion_date>
+  <primary_completion_date type="Anticipated">April 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>A comparison between gold standard histopathology screening results and mAID screening results</measure>
+    <time_frame>Day 1</time_frame>
+    <description>A comparison between the gold standard invasive biopsy diagnostic result (melanoma or nevus) and the diagnostic result produced by automated computer image processing that operates on the mAID-produced hyperspectral image. This diagnostic result is defined as the melanoma Q-score, which is the percent likelihood that this lesion is melanoma based on a previous computer-learning algorithm that utilized 53 unique malignancy metrics.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>A comparison between gold standard histopathology screening results and analysis of the standard dermatoscope image.</measure>
+    <time_frame>Day 1</time_frame>
+    <description>A comparison between the gold standard invasive biopsy diagnostic result (melanoma or nevus) and the diagnostic result produced by automated computer image processing that operates on the standard dermatoscope image. This diagnostic result is defined as the melanoma Q-score, which is the percent likelihood that this lesion is melanoma based on a previous computer-learning algorithm that utilized 53 unique malignancy metrics.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Melanoma</condition>
+  <arm_group>
+    <arm_group_label>Dermatology patients</arm_group_label>
+    <description>Patients with a suspicious skin lesion indicated for biopsy</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Dermatology patients with a suspicious lesion that will be biopsied as standard of care
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participant has normal appearing skin and a suspicious pigmented lesion.
+
+        Exclusion Criteria:
+
+          -  Lesion near the eyes (due to safety)
+
+          -  Inaccessibility to lesion related to device: ears, toes, fingers, nailbeds, ankles,
+             elbows, genitals
+
+          -  Self-reported history of photosensitivity
+
+          -  Self-reported history of vitiligo and/or other sun sensitive disease
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Daniel Gareau, PhD, MCR</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Rockefeller University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Daniel Gareau, PhD, MCR</last_name>
+    <phone>2123277983</phone>
+    <email>dgareau@rockefeller.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Donna Brassil</last_name>
+    <phone>2123277886</phone>
+    <email>dbrassil@rockefeller.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Beckman Laser Institute at University of California Irvine</name>
+      <address>
+        <city>Irvine</city>
+        <state>California</state>
+        <zip>92617</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kenneth Linden, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Kenneth Linden, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kristen Kelly, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Chao Family Comprehensive Cancer Center</name>
+      <address>
+        <city>Orange</city>
+        <state>California</state>
+        <zip>92868</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kenneth Linden, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Kenneth Linden, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kristen Kelly, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>The University of California (Davis)</name>
+      <address>
+        <city>Sacramento</city>
+        <state>California</state>
+        <zip>95816</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Terminated</status>
+  </location>
+  <location>
+    <facility>
+      <name>Oregon Health Sciences University</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97239</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Eric Smith, MBA, MST</last_name>
+      <email>smiteric@ohsu.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Loa Nowina-Sapinski</last_name>
+      <email>nowinasa@ohsu.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Sancy Leachman, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Eric Simpson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>August 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 4, 2015</study_first_submitted>
+  <study_first_submitted_qc>June 9, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 12, 2015</study_first_posted>
+  <last_update_submitted>August 11, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 11, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 15, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Rockefeller University</investigator_affiliation>
+    <investigator_full_name>Daniel Gareau</investigator_full_name>
+    <investigator_title>Instructor in Clinical Investigation</investigator_title>
+  </responsible_party>
+  <keyword>Melanoma</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Melanoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,329 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02308306</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ABILITY</org_study_id>
+    <nct_id>NCT02308306</nct_id>
+  </id_info>
+  <brief_title>Predictive Markers of the Effects of Opioid Therapy</brief_title>
+  <acronym>ABILITY</acronym>
+  <official_title>Predictive Markers of the Effects of Opioid Therapy in Opioid naïve Patients With Chronic Pain: an International, Multi-centre, Observational Cohort Study (ABILITY)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Aarhus</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Aarhus</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The overall goal of the ABILITY study is to help improve pain diagnostics and treatment by
+      developing an implementable clinical computerised decision support system based on individual
+      patient characteristics.
+
+      The investigators hypothesize that successful pain control with opioids can be predicted
+      before treatment initiation with advanced data analyses of data originating from
+      pre-treatment EEG, QST and pain-related catastrophic thinking.
+
+      The primary objective of this study is the identification of markers that can be used to
+      individualize treatment recommendations, i.e. to reliably predict the response of pain to
+      opioids.
+
+      Markers are selected among the most promising data and machine-learning methods are used for
+      the prediction. This includes determining the associations between a battery of selected
+      pre-treatment clinical predictive markers and the analgesic effect of opioid treatment in
+      opioid naïve chronic pain patients, including indication and responder identification.
+
+      The key secondary objectives are as follows: to investigate pre-treatment clinical predictive
+      markers as predictors of opioid treatment efficacy and effectiveness in terms of the
+      following:
+
+        -  Pain intensity and unpleasantness
+
+        -  Use of rescue analgesics
+
+        -  Physical functioning
+
+        -  Global improvement and satisfaction with treatment
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2014</start_date>
+  <completion_date type="Actual">September 2015</completion_date>
+  <primary_completion_date type="Actual">September 2015</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Reduction of chronic pain assessed by 0-10 numerical rating scale (NRS) scores</measure>
+    <time_frame>After 14-days of opioid treatment</time_frame>
+    <description>The absolute and percentage change from baseline in ratings of average pain in the past week at Day 14. Of note, a percentage change of ≥30% is considered clinically significant.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Improvement of health-related quality of life assessed by QLQ-C30 scores</measure>
+    <time_frame>After 14 days of opioid treatment</time_frame>
+    <description>The absolute and percentage change from baseline in ratings of health-related quality of life in the past week at Day 14. A subjectively significant change in QLQ-C30 scores is one that is ≥10 from baseline.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>BPI worst pain in the past week</measure>
+    <time_frame>Day 14 post-treatment</time_frame>
+    <description>Change from baseline</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>BPI least pain in the past week</measure>
+    <time_frame>Day 14 post-treatment</time_frame>
+    <description>Change from baseline</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>BPI current pain in the past week</measure>
+    <time_frame>Day 14 post-treatment</time_frame>
+    <description>Change from baseline</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>BPI pain severity in the past week</measure>
+    <time_frame>Day 14 post-treatment</time_frame>
+    <description>Change from baseline</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>BPI pain interference score</measure>
+    <time_frame>Day 14 post-treatment</time_frame>
+    <description>Change from baseline</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Improvement score</measure>
+    <time_frame>Day 14 post-treatment</time_frame>
+    <description>Proportion with score &gt;4</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Concomitant and rescue medication</measure>
+    <time_frame>Until 14 days post-treatment</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Adverse events</measure>
+    <time_frame>Until 14 days post-treatment</time_frame>
+    <description>Number (%) of the following:
+Constipation
+Dry mouth
+Nausea/Vomiting
+Sedation
+Sweats
+Bad dreams
+Dysphoria/Delirium
+Myoclonus/Seizures
+Pruritus/Urticaria
+Urinary retention</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">62</enrollment>
+  <condition>Opioid Analgesic Treatment Response</condition>
+  <condition>Chronic Pain</condition>
+  <arm_group>
+    <arm_group_label>Opioid analgesics</arm_group_label>
+    <description>Opioid treatment is determined, prescribed, modified and discontinued at the sole discretion of the treating physician at each research site; regardless of generic name, manufacturer, constituent components, route of administration, and dosing schedule (including titration and run-in periods).</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects with an insufficiently treated chronic pain condition (with non-opioids ±
+        adjuvants), and expected to benefit from the administration of opioids (as necessary) to
+        obtain freedom from pain.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Pain duration ≥ 3 months.
+
+          -  Minimum baseline pain intensity ≥ 4 on a 0-10 numerical rating scale (over the past
+             week).
+
+          -  Maximum baseline pain intensity &lt; 9 on a 0-10 numerical rating scale (over the past
+             week).
+
+          -  Prescribed opioid treatment (ATC: N02)
+
+          -  Anticipated to stay on prescribed opioid treatment throughout the study, i.e. &gt;14
+             days.
+
+          -  Anticipated to stay on any concomitant non-opioid treatment throughout the study, i.e.
+             &gt;14 days.
+
+          -  Subject may be male or female, age &gt;18 years old.
+
+          -  Is willing and able to comply with study procedures as judged by the site
+             investigator.
+
+          -  Subject has voluntarily signed and dated the study-specific informed consent form,
+             approved by an Independent Ethics Committee, after the nature of the study has been
+             explained and the subject has had the opportunity to ask questions. The informed
+             consent form must be signed before any study-specific procedures are performed.
+
+        Exclusion Criteria:
+
+          -  Has a mental incapacity or language barriers precluding adequate understanding of
+             study procedures.
+
+          -  Is considered by the site investigator unsuitable to participate in the study for any
+             other reason, for instance due to a significant serious underlying condition.
+
+          -  Recently received opioids on a daily basis (within the last 10 weeks).
+
+          -  Current alcohol or substance abuse, according to the site investigator's medical
+             judgement.
+
+          -  Is anticipated to undergo a painful procedure(s) (e.g. surgery) during the study,
+             which can interfere with the experience of the chronic pain condition for which the
+             subject is to receive opioids.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Asbjørn M Drewes, MD, PhD, DMSci</last_name>
+    <role>Study Chair</role>
+    <affiliation>Aalborg University Hospital, Denmark</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Anne E Olesen, MSc (Pharm), PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Aalborg University Hospital, Denmark</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Kasper Grosen, MHSc, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Aarhus University / Aarhus University Hospital, Denmark</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Mogens Pfeiffer-Jensen, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Aarhus University Hospital, Denmark</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Michael Kamp-Jensen, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hospitalet Valdemar, Denmark</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Bart Morlion, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Leuven / University Hospitals Leuven, Belgium</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Gorazd Pozlep, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Ljubljana University Medical Centre, Slovenia</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Torsten Jonsson, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hospitalet Valdemar, Denmark</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>KU Leuven and the Leuven Centre for Algology &amp; Pain Management</name>
+      <address>
+        <city>Leuven</city>
+        <state>Pellenberg</state>
+        <zip>3212</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Rheumatology, Aarhus University Hospital</name>
+      <address>
+        <city>Aarhus C</city>
+        <zip>8000</zip>
+        <country>Denmark</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Friklinikken</name>
+      <address>
+        <city>Give</city>
+        <zip>7323</zip>
+        <country>Denmark</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospitalet Valdemar</name>
+      <address>
+        <city>Ringsted</city>
+        <zip>4100</zip>
+        <country>Denmark</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Ljubljana University Medical Centre, Department of Anaesthetics and Surgical Intensive Care</name>
+      <address>
+        <city>Ljubljana</city>
+        <zip>1000</zip>
+        <country>Slovenia</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+    <country>Denmark</country>
+    <country>Slovenia</country>
+  </location_countries>
+  <link>
+    <url>http://www.mech-sense.com</url>
+  </link>
+  <verification_date>May 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 2, 2014</study_first_submitted>
+  <study_first_submitted_qc>December 3, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 4, 2014</study_first_posted>
+  <last_update_submitted>May 11, 2016</last_update_submitted>
+  <last_update_submitted_qc>May 11, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 12, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Chronic pain</keyword>
+  <keyword>Opioid analgesics</keyword>
+  <keyword>Prediction study</keyword>
+  <keyword>Pharmaco-EEG</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Chronic Pain</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Analgesics, Opioid</mesh_term>
+    <mesh_term>Analgesics</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

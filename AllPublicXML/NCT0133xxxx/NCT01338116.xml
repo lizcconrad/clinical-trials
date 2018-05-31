@@ -1,0 +1,256 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01338116</url>
+  </required_header>
+  <id_info>
+    <org_study_id>6036</org_study_id>
+    <nct_id>NCT01338116</nct_id>
+  </id_info>
+  <brief_title>Optimal Antibiotic Treatment of Moderate to Severe Bacterial Infections</brief_title>
+  <acronym>CDSS</acronym>
+  <official_title>Optimal Antibiotic Treatment of Moderate to Severe Bacterial Infections: Integration of PCR Technology and Medical Informatics/Artificial Intelligence</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Rabin Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Rabin Medical Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Severe bacterial infections are associated with mortality of about 30%. Patients with
+      moderate to severe bacterial infections given early and appropriate empirical antibiotic
+      treatment are at a lesser risk for a fatal outcome, with odds ratios ranging from 1.6 to 6.9.
+      However only about 2/3 of patients worldwide are given early and appropriate empirical
+      antibiotic treatment. About 40% of patients treated with antibiotics are given superfluous
+      treatment.
+
+      TREAT is a computerized decision support system for antibiotic treatment in inpatients with
+      common bacterial infections. TREAT is based on a state of the art stochastic model of the
+      domain (a causal probabilistic network) and uses a cost benefit model for antibiotic
+      treatment, including costs assigned to future resistance. It was tested in a randomized
+      controlled trial in 3 countries and shown to improve the percentage of appropriate empirical
+      antibiotic treatment while at the same time reduce hospital stay and the use of
+      broad-spectrum antibiotics. The main limitation of TREAT is inherent in the limited
+      information available within hours of presentation.
+
+      A second attractive approach to improve antibiotic treatment is to use techniques that do not
+      depend on cultures, and thus shorten the time to identification of the pathogen to a few
+      hours only. The LightCycler® SeptiFast test from Roche performs in vitro nucleic acid
+      amplification test for pathogens causing bloodstream infections.
+
+      The purpose of the clinical trial is to show that the combined system TREAT/PCR assays will
+      improve the outcome of inpatients with moderate to severe bacterial infections, while at the
+      same time reducing the use of broad-spectrum antibiotics, with no or little additional costs.
+      A secondary objective will be to assess the sensitivity and specificity of whole blood PCR,
+      using TREAT as the reference standard.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date>April 2016</start_date>
+  <completion_date type="Anticipated">January 2019</completion_date>
+  <primary_completion_date type="Anticipated">January 2018</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Clinical success defined as 30-day survival and clinical stability on day 4</measure>
+    <time_frame>30 days</time_frame>
+    <description>patient alive at day 30; on day 4: no fever, no intra-tracheal tube, hemodynamic stable, no vasopressor support, empirical treatment appropriate (and thus not changed).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Appropriate empirical antibiotic treatment</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Appropriateness of the antibiotic treatment given during the first 48 hours, before identification of the causative pathogen and its antibiotic susceptibilities</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Survival</measure>
+    <time_frame>30 days</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hospital stay</measure>
+    <time_frame>30 days</time_frame>
+    <description>Length of hospital stay</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Antibiotic miuse of broad spectrum antibiotics and total costs of antibiotic treatment Superfluous antibiotic treatment</measure>
+    <time_frame>30 days</time_frame>
+    <description>Use of broad spectrum antibiotics and total costs of antibiotic treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Costs</measure>
+    <time_frame>30 days</time_frame>
+    <description>Costs incurred during hospital stay</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Adverse events</measure>
+    <time_frame>30 days</time_frame>
+    <description>Allergy, nephrotoxicity, diarrhea, clostridium-difficile associated diarrhea and others</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>Community-associated Infections</condition>
+  <condition>Health-care Acquired Infections</condition>
+  <condition>Nosocomial Infections</condition>
+  <arm_group>
+    <arm_group_label>Management by TREAT/PCR</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The data available at the time of patient recruitment will be entered into TREAT. TREAT will provide advice for the empirical antibiotic treatment and unless the caring physician can justify a deviation from this recommendation, TREAT's recommendation will be implemented (yes or no antibiotic treatment and type of antibiotic). TREAT will also recommend whether a blood sample for PCR should be obtained. Blood will be collected aseptically and the test will be performed once daily between 1000AM-1700PM (results available daily at 1700 PM). PCR results and a PCR-revised TREAT recommendation will be reported to the patient's physician in charge and treatment will be revised accordingly.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual management</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Patients will be managed by physicians as in regular clinical practice.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>antibiotic treatment of by TREAT/PCR</intervention_name>
+    <description>Management by TREAT/PCR. The data available at the time of patient recruitment will be entered into TREAT. TREAT will provide advice for the empirical antibiotic treatment and unless the caring physician can justify a deviation from this recommendation, TREAT's recommendation will be implemented (yes or no antibiotic treatment and type of antibiotic). TREAT will also recommend whether a blood sample for PCR should be obtained. Blood will be collected aseptically and the test will be performed once daily between 1000AM-1700PM (results available daily at 1700 PM). PCR results and a PCR-revised TREAT recommendation will be reported to the patient's physician in charge and treatment will be revised accordingly. On day 2, when results of blood cultures and other cultures become available TREAT will be re-consulted and will issue a new recommendation based on the full microbiological investigation (negative and positive results).</description>
+    <arm_group_label>Management by TREAT/PCR</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        The rationale of the study will be to address patients for whom antibiotic treatment is, or
+        should be, considered. Thus we will include consecutive patients detected in medical
+        departments according to the following criteria:
+
+          1. Patients from whom blood cultures were drawn or
+
+          2. All patients for whom antibiotic treatment (but not prophylaxis or intra-peritoneal,
+             inhalation or local antibiotics therapy ) is started within the last 96 days or
+
+          3. Patients fulfilling the CDC diagnostic criteria for any infection (see appendix C) or
+
+          4. Patients with temperature ≥38.3 measured orally (or 38 axillary or 38.5 rectal) on a
+             single measurement or ≥38 / &lt; 36 on at least 2 consecutive measurements separated at
+             least 1 hr apart and one of the next criteria:
+
+             (a) heart rate &gt;90 beats/minute; (b) respiratory rate &gt;20 breaths/minute or partial
+             pressure of CO2 &lt;32 mm Hg; and (c) white blood cell count &gt;12,000/ L, &lt;4000 L, or &gt;10%
+             immature (band) forms. or
+
+          5. Patients with shock compatible with septic shock. As defined as hypotension (arterial
+             blood pressure &lt;90 mmHg systolic, or 40 mmHg less than patient's normal blood
+             pressure) for at least 1 h despite adequate fluid resuscitation; Or Need for
+             vasopressors to maintain systolic blood pressure &gt;90 mmHg or mean arterial pressure
+             &gt;70 mmHg and a suspected source of infection.
+
+        Exclusion Criteria:
+
+          1. HIV positive patients with opportunistic infection (suspected or proven)and / or AIDS
+             defining illness in the last 6 months prior to data collection.
+
+          2. Children&lt;18 years.
+
+          3. Suspected travel infections.
+
+          4. Suspected tuberculosis.
+
+          5. Pregnancy.
+
+          6. We will exclude patients not able to sign informed consent or not having a legal
+             guardian willing to do so.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mical Paul, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Rabin Medical Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Leonard Leibovici, Prof</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Rabin Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Rabin Medical Center, Beilinson Hospital</name>
+      <address>
+        <city>Petah Tikvah</city>
+        <zip>49100</zip>
+        <country>Israel</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Laura Farbman</last_name>
+      <phone>972-3-9377380</phone>
+      <email>laurafa@clalit.org.il</email>
+    </contact>
+    <contact_backup>
+      <last_name>Mical Paul, Md</last_name>
+      <phone>972-3-9377380</phone>
+      <email>michalp2@clalit.org.il</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Mical Paul, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Leonard Leibovici, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>April 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 30, 2011</study_first_submitted>
+  <study_first_submitted_qc>April 17, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 19, 2011</study_first_posted>
+  <last_update_submitted>April 6, 2016</last_update_submitted>
+  <last_update_submitted_qc>April 6, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 7, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Rabin Medical Center</investigator_affiliation>
+    <investigator_full_name>leibovici leonard</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>computerized decision support system</keyword>
+  <keyword>PCR</keyword>
+  <keyword>antibiotic treatment</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infection</mesh_term>
+    <mesh_term>Communicable Diseases</mesh_term>
+    <mesh_term>Bacterial Infections</mesh_term>
+    <mesh_term>Cross Infection</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Anti-Bacterial Agents</mesh_term>
+    <mesh_term>Antibiotics, Antitubercular</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

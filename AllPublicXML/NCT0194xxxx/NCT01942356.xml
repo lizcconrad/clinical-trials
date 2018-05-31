@@ -1,0 +1,415 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01942356</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HSC20130047H</org_study_id>
+    <nct_id>NCT01942356</nct_id>
+  </id_info>
+  <brief_title>Evaluation of Closed-loop TIVA Propofol, Sufentanil and Ketamine Guided by BIS Monitor</brief_title>
+  <official_title>Evaluation of Closed-loop Titration of the Intravenous Anesthetic Propofol, Sufentanil and Ketamine Guided by BIS Monitor</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The University of Texas Health Science Center at San Antonio</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The University of Texas Health Science Center at San Antonio</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to compare a closed-loop intravenous anesthetic using Bispectral
+      Index as a feedback loop and a controller based on reinforcement learning to titrate dose and
+      intravenous anesthetic that is manually controlled or a standard volatile anesthetic agent
+      titrated by the anesthesiologist to determine improvement in the following parameters as
+      compared to controls: time to discharge from the Post Anesthesia Care Unit, post-operative
+      nausea and vomiting, pain scores and sedation scores.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Recent efforts have focused on the development of new software systems that are able to
+      directly titrate anesthesia based on activity of the brain (EEG) as a feedback mechanism .
+      Brain activity is used to measure the effect of anesthetic medications (anesthetic &quot;depth&quot;),
+      which can vary from person to person despite being given the same amount of medication. There
+      is a potential for new systems to considerably improve anesthetic control by using methods
+      that are able to adapt to the constant input of brain activity. The purpose of this study is
+      to compare a closed -loop intravenous anesthetic (TIVA) using BIS (Bispectral Index) as a
+      feedback loop and a controller based on reinforcement learning to titrate dose and TIVA that
+      is manually controlled or a standard volatile anesthetic agent titrated by the
+      anesthesiologist.
+
+      Propofol is the most frequently applied hypnotic-anesthetic IV drug during anesthesia. In
+      &quot;open-loop&quot; controlled propofol administration during anesthesia, initial dosing guidelines
+      are based on the typical subject, without taking into account the large inter-individual
+      variability. To manage this variability, most clinicians will start by giving a standard
+      dose, observes the therapeutic effect and will adapt the dose regimen. Although, &quot;open-loop&quot;
+      drug administration is clinically &quot;standard-of-care&quot;, the efficiency of this decision process
+      highly depends on the expertise of the clinician, is very time consuming and might result in
+      a suboptimal therapy.
+
+      The study will be using patient with acute cholecystitis scheduled for laparoscopic
+      cholecystectomy surgery and the inclusion/exclusion criteria is described in the appropriate
+      sections. Potential subjects will be identified prior to their surgery based on meeting the
+      inclusion/exclusion criteria. The subject will be approached in the inpatient unit or
+      pre-operative holding area, a private area where curtains can be drawn to maintain privacy.
+      This is a place where patients are routinely examined and consented prior to surgery.. The
+      subject will be informed that participation or a lack of participation in the study does not
+      influence their treatment in any way. The subject will be informed that if they give consent
+      for participation in the study that they may withdraw consent at any time before performance
+      of the study. This withdrawal of consent may be given to the investigator in oral or written
+      form.
+
+      The Investigator will explain the study to the potential subject verbally, providing all
+      pertinent information (purpose, procedures, risks, benefits, alternatives to participation,
+      etc.), and allow the potential subject ample opportunity to ask questions. Following this
+      verbal explanation, the potential subject will be provided with a written consent form and
+      given at least one hour to consider whether or not to participate in the research. After
+      allowing the potential subject time to read the consent form, an Investigator listed on the
+      consent form will meet with the potential subject and answer any additional questions she/he
+      may have.
+
+      The subject will have been pre randomized to a study arm (Permuted block randomisation via
+      computer generated numbers) and will not be informed which study arm. The three study arms
+      are RL-TIVA (experimental), Manual TIVA, and INH-Sevo.
+
+      Premedication and Induction: Premedication with up to 0.05mg/kg IV midazolam
+
+      Prior to arrival in the operating room, a peripheral intravenous line will be inserted in a
+      large forearm vein in all patients and 500 ml of saline will be infused. This is required to
+      administer drugs and fluids during anesthesia and is routinely done in all patients. On
+      arrival in the operating room, vital signs (heart rate, non-invasive blood pressure, blood
+      oxygen saturation and end-tidal CO2) will be measured in all patients (standard of care
+      during anesthesia). The RL-TIVA group will also have a non-traumatic, commercially available
+      unilateral BIS electrode applied at the patient's forehead. This EEG sensor will be connected
+      to the BIS (Covidien, Mansfield, MA, USA) monitor to calculate the BIS.
+
+      All patients will undergo a standard IV induction using:
+
+      1mg/kg 1% lidocaine up to maximum of 100mg 100mcg fentanyl 2mg/kg propofol up to maximum of
+      200mg 0.6mg/kg rocuronium
+
+      Patients will be randomly allocated to standard volatile based anesthesia or BIS-guided
+      intravenous anesthesia administration. The protocol for each of the study arms is as follows:
+
+      -RL-TIVA: Propofol, ketamine and sufentanil (PKS) administration will be done via a three way
+      stop cock connected directly to the IV catheter to minimize dead space volume. PKS solution
+      will contain total of 50ml. Propofol 10mg/ml, Ketamine 1mg/ml (will be omitted in subsequent
+      preparations after first 50ml), Sufentanil 0.25 mcg-ml. Drug will be administered using a
+      Harvard 33 syringe pump (The Harvard 33 Syringe pump has been used in human trials in prior
+      study at Stanford that is pending publication). This pump will be connected via a RS 232
+      interface to the study computer running RL (reinforcement learning) control software. This
+      software platform collects real time vital signs and BIS values and steer the target
+      controlled infusion pumps and the closed-loop controllers.
+
+      Baseline vital signs, including BIS will be recorded for 2 minutes. During induction until 5
+      minutes after intubation, NIBP will be measured every minute. Thereafter, NIBP will be
+      measured at least every 3 minutes until the end of the case. The start of the baseline
+      measures will be considered as the &quot;START CASE&quot; moment.
+
+      IV anesthetic administration will start using the closed-loop system by setting the BIS
+      target at 45.
+
+      When required, optimization of the patients' positioning, disinfection and draping will
+      ensue. When ready, surgery will start.
+
+      During surgery, anesthesia will be maintained by propofol-ketamine-sufentanil via closed-loop
+      at a BIS target of 45.
+
+        -  Manual TIVA: Manually titrated IV anesthetics are routinely done in the operating room
+           as an alternative to inhalational anesthetics. Propofol, ketamine and sufentanil (PKS)
+           administration will be done via a three way stop cock connected directly to the IV
+           catheter to minimize dead space volume. PKS solution will contain total of 50ml.
+           Propofol 10mg/ml, Ketamine 1mg/ml (will be omitted in subsequent preparations after
+           first 50ml), Sufentanil 0.25 mcg-ml. Drug will be administered using an Alaris infusion
+           pump titrated by the anesthesiologist based on blood pressure and heart-rate as is
+           traditionally done and is standard of care with intravenous anesthetics.
+
+        -  INH-Sevo: After the patient is intubated Sevoflurane will be started and titrated to
+           between 0.8 and 1.5 MAC by the anesthesiologist. At end of surgery, as defined by
+           placement of surgical dressing, volatile anesthetic will be discontinued.
+
+      Wake up protocol will be the same for all three arms. Normocapnia will be maintained during
+      recovery by mechanical ventilation till spontaneous breathing is resumed. No decrease in the
+      Minute Ventilation is allowed during recovery. Moment of return of spontaneous breathing will
+      be recorded. Once spontaneous breathing is returned, patients will be asked by their name to
+      open their mouth. A positive response will be recorded and the trachea will be extubated.
+      Thereafter, patients will be transferred to the PACU. The parameters listed in the
+      appropriate section will be evaluated.
+
+      Data Collection: Subject data will be kept in 3 specific locations. A hard copy print out
+      will be maintained in a folder that will contain the eligibility criteria, consent form, and
+      source document. This will be stored in a locked file cabinet with limited access to the PI
+      and Co-Investigators. The electronic data will be stored on an encrypted flash drive kept in
+      the locked file cabinet and will be backed up on a secure encrypted Network folder that only
+      the PI and Co-Investigators will have authorization to access.
+
+      Statistical Analysis: A power analysis of the previously reported Stanford human volunteer
+      study data was performed in order to estimate appropriate sample sizes. To estimate
+      &quot;worst-case&quot; conditions, the measured parameter demonstrating greatest variation, MDPE, was
+      selected. Assuming comparison with a two-sample, two-tailed t-test and a p-value of 0.05, a
+      single-group sample size of 25 produced statistical power values of ~1.0. Given this size, we
+      can detect a 10% difference in MDPE under standard deviations of up to 7 and still maintain
+      power values &gt; 0.85; thus, we selected n=25 for each of the three study groups, yielding a
+      total sample size of 75. We acknowledge that this sample size might prove to be over-powered;
+      however, intraoperative study is known to be challenging. For example, all of the measured
+      variables should not be expected to demonstrate normal distributions (a critical assumption
+      in the above power analysis), and we anticipate limited occurrence of confounding influences,
+      such as protocol deviations and interruptions in data collection. Given the vagaries of
+      intraoperative study, the chosen sample size of 75 patients seems reasonable.
+
+      Descriptive statistics Categorical data:, sex, age, weight, height, induction times, times to
+      accurate control (time to reach target, overshoot in BIS), % of time for accurate control and
+      hemodynamic stability, recovery times, nausea, vomiting, sedation score, pain score, and drug
+      concentrations. Closed-loop control performance data (see below).
+
+      Continuous variables: BIS, heart rate, blood pressure, saturation, EtCO2 Univariate analysis,
+      Student's t-test or Mann-Whitney U-test will be used will be used to compare numerical data
+      and performance parameters.
+
+      Chi-squared will be used to analyse qualitative data. RMANOVA will be used to analyze the
+      continuous data.
+
+      Safety: An anesthesiologist or resident will be present for the entire duration of the
+      anesthetic as is standard of care. If at any time there is hardware or software failure, the
+      infusion can be disconnected and conventional volatile anesthetic can be rapidly instituted.
+      LIMITS OF THE CLOSED-LOOP (safety) : In the closed-loop control software, safety limits have
+      been installed.
+
+      Procedure for Analysis and Interpretation of the Safety Data: The monitoring entity will be
+      Benjamin Wallisch, MD. He will oversee the research participant's safety, monitor for
+      unanticipated problems involving risks to participants or others, and assure that such events
+      are reported to the IRB. Integrity and appropriate handling (confidentiality) of the
+      following data will be monitored: Demographic and morphometrics data, vital signs, bispectral
+      (BIS) index values, infusion pump flow rate, and recording of occurrence and severity of drug
+      side effects. Monitoring will occur after every study patient is enrolled. Should unexpected
+      adverse events occur. All effort will be made to identify the source causing the event.
+      Source identification may mandate the temporary halting of the study as well as protocol
+      adjustments (e.g. reduction of drug doses). Serious adverse events will be reported by
+      Benjamin Wallisch, MD within 2 business days. Serious adverse events will be brought to the
+      attention of the IRB within 24 hours.
+
+      Deviations to the study protocol or adverse events will be addressed by the IRB protocol. A
+      log will be kept of Adverse events and Protocol Deviation kept on the encrypted flash drive
+      and backed up on the encrypted network drive. The reporting of events will be as above
+      stated.
+
+      An annual progress report will be submitted to the IRB for review.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2013</start_date>
+  <completion_date type="Actual">August 2014</completion_date>
+  <primary_completion_date type="Actual">April 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Time to discharge from PACU</measure>
+    <time_frame>&lt; 2 hours post operatively</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Post operative Nausea and/or vomiting</measure>
+    <time_frame>&lt; 2 hours post operatively</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Visual Analog Scale Pain score</measure>
+    <time_frame>&lt; 2 hours post operatively</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ALDRETE Sedation Score</measure>
+    <time_frame>&lt; 2 hours post operatively</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to extubation</measure>
+    <time_frame>1-6 hours after the start of surgery</time_frame>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">4</enrollment>
+  <condition>Acute Cholecystitis</condition>
+  <condition>Chronic Cholecystitis</condition>
+  <arm_group>
+    <arm_group_label>RL-TIVA Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Propofol, ketamine and sufentanil administration for a TIVA (total intravenous anesthetic) will be administered using a Harvard 33 syringe pump connected via a RS 232 interface to the study computer running the RL (Reinforcement Learning) control software. This software platform will collect real time vitals and BIS valises and steer the target controlled infusion pumps and the closed loop controllers. The anesthesiologist will provide interventions based on protocol for TIVA - Hypotension, TIVA - Hypertension, TIVA - Bradycardia and TIVA - Tachycardia .</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Manual TIVA Group</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Manually titrated TIVA (total intravenous anesethetic) with proposal, ketamine and sufentanil will be administered using an Alaris infusion pump titrated by the anesthesiologist based on blood pressure and heart-rate as is traditionally done and is standard of care with intravenous anesthetics. The anesthesiologist will provide interventions based on protocol for TIVA - Hypotension, TIVA - Hypertension, TIVA - Bradycardia and TIVA - Tachycardia .</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Inhaled Sevofluorane Group</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>An inhaled anesthetic with Sevofluorane will be titrated between 0.8-1.5 MAC (minimum alveolar concentration) by the anesthesiologist based on heart rate and blood pressure which is standard of care for inhaled anesthetics. The anesthesiologist will provide interventions based on protocol for INH - Hypotension, INH - Hypertension, INH - Bradycardia and INH - Tachycardia .</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>TIVA - Hypotension</intervention_name>
+    <description>Defined as: MAP &lt; 70% of baseline Change NIBP (noninvasive blood pressure) measuring interval from 3 minutes to 1 minute until resolution of the event.
+Give 200 mL Fluid Bolus
+If not successful, give ephedrine 5 mg bolus
+Repeat from 1.) if even is not resolved after 3.)</description>
+    <arm_group_label>RL-TIVA Group</arm_group_label>
+    <arm_group_label>Manual TIVA Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>TIVA - Hypertension</intervention_name>
+    <description>Defined as: SBP &gt; 130% of baseline sustained for 2 readings Change NIBP (noninvasive blood pressure) measuring interval from 3 minutes to 1 minute until resolution of the event.
+1.) Labetalol 5 mg IV will be administered</description>
+    <arm_group_label>RL-TIVA Group</arm_group_label>
+    <arm_group_label>Manual TIVA Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>TIVA - Bradycardia</intervention_name>
+    <description>Defined as: Heart rate &lt; 45 beats/min
+1.) Bolus of 0.2 mg glycopyrrolate</description>
+    <arm_group_label>RL-TIVA Group</arm_group_label>
+    <arm_group_label>Manual TIVA Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>TIVA - Tachycardia</intervention_name>
+    <description>Defined as: Heart Rate &gt; 90 beats/min
+If associated with normal NIBP (MAP &gt; 60 mmHg and SAP &lt; 140): give fluid bolus of 200 mL, repeat once if required. Look for bleeding and treat if required.
+If associated with hypertension (SAB &gt; 140 mmHg): proceed with the management of the hypotention during maintenance protocol.
+If associated with hypotension (MAP &lt; 60 mmHg): proceed with the management of the hypotnetion during maintenance protocol.</description>
+    <arm_group_label>RL-TIVA Group</arm_group_label>
+    <arm_group_label>Manual TIVA Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>INH - Hypotension</intervention_name>
+    <description>Defined as: MAP &lt; 70 % of baseline Change NIBP measuring interval from 3 minutes to 1 minute until resolution of the event.
+give a 200 ml fluid bolus (crystalloid).
+If not successful, give ephedrine 5 mg bolus.
+If not successful decrease volatile by 0.1 MAC.
+Repeat from 1) if event is not resolved after step 3) for maximum of 2 iterations</description>
+    <arm_group_label>Inhaled Sevofluorane Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>INH - Hypertension</intervention_name>
+    <description>Defined as: SBP &gt; 130% of baseline Change NIBP measuring interval from 3 minutes to 1 minute until resolution of the event.
+increase Sevoflurane by 0.1 MAC
+If not successful after 3 minutes (SBP &gt;130% of baseline), increase Sevoflurane again by 0.1 MAC. Maximum of 1.2 allowed.
+If still not successful (SBP &gt;130% of baseline), Labetolol 5mg IV will be administered.</description>
+    <arm_group_label>Inhaled Sevofluorane Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>INH - Bradycardia</intervention_name>
+    <description>Defined as: Heart Rate &lt; 45 beats/min
+1.) Bolus of 0.2 mg glycopyrrolate</description>
+    <arm_group_label>Inhaled Sevofluorane Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>INH - Tachycardia</intervention_name>
+    <description>Defined as: Heart rate &gt; 90 beats/min
+if associated with normal NIBP (MAP &gt; 70% of baseline and SBP &lt;130% of baseline) : give fluid bolus of 200 ml, repeat once if required. (look for bleeding and treat if required).
+If associated with hypertension (SBP &gt;130% of baseline) : proceed with the management of the hypertension during maintenance protocol.
+If associated with hypotension (MAP &lt; 70% of baseline) : proceed with the management of the hypotension during maintenance protocol.</description>
+    <arm_group_label>Inhaled Sevofluorane Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  18-65 years of age
+
+          -  Body mass index lower or equal to 40 m2/kg
+
+          -  Subjects must be able to comprehend spoken and written English or Spanish
+
+        Exclusion Criteria:
+
+          -  Any type of psychiatric, neurological, or neuromuscular disorder
+
+          -  Thyroid disease
+
+          -  Alcohol consumption which exceeds 2 drinks per day and/or drug abuse.
+
+          -  Allergy to study medication proposal, soy or egg proteins
+
+          -  history of drug abuse
+
+          -  chronic or acute use of opioids, or other medications affecting the central nervous
+             system
+
+          -  pregnancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Erik Boatman, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Texas</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University Hospital</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78229</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 10, 2013</study_first_submitted>
+  <study_first_submitted_qc>September 10, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 13, 2013</study_first_posted>
+  <last_update_submitted>January 26, 2015</last_update_submitted>
+  <last_update_submitted_qc>January 26, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 27, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cholecystitis</mesh_term>
+    <mesh_term>Acalculous Cholecystitis</mesh_term>
+    <mesh_term>Cholecystitis, Acute</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Propofol</mesh_term>
+    <mesh_term>Ketamine</mesh_term>
+    <mesh_term>Sufentanil</mesh_term>
+    <mesh_term>Anesthetics, Intravenous</mesh_term>
+    <mesh_term>Anesthetics</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

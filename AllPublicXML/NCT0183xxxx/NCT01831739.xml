@@ -1,0 +1,444 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01831739</url>
+  </required_header>
+  <id_info>
+    <org_study_id>13020130</org_study_id>
+    <secondary_id>U01HL112707</secondary_id>
+    <nct_id>NCT01831739</nct_id>
+  </id_info>
+  <brief_title>Genomic Research in Sarcoidosis</brief_title>
+  <acronym>GRADS Sarc</acronym>
+  <official_title>Genomic Research in Alpha-1 Antitrypsin Deficiency and Sarcoidosis (GRADS) - Sarcoidosis Protocol</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Pittsburgh</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Heart, Lung, and Blood Institute (NHLBI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Pittsburgh</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project is designed to address the following hypothesis:
+
+      Distinct patterns in lung microbiome are characteristic of sarcoidosis phenotypes and
+      reflected in changes in systemic inflammatory responses as measured by peripheral changes in
+      gene transcription.
+
+      The Specific Aims are:
+
+        1. To identify peripheral blood mononuclear cell (PBMC) gene expression patterns that
+           characterize distinct sarcoidosis phenotypes.
+
+        2. To determine whether patterns in the lung microbiome are associated with sarcoidosis
+           severity and disease phenotypes
+
+        3. To correlate mRNA and microRNA expression patterns in sarcoidosis affected organs with
+           changes in microbiome, clinical parameters and PBMC gene expression patterns
+
+        4. To integrate clinical, transcriptomic, and microbiome data to identify novel molecular
+           phenotypes in sarcoidosis.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Sarcoidosis is a systemic disease characterized by the formation of granulomatous lesions,
+      especially in the lungs, liver, skin, and lymph nodes, with a heterogeneous set of clinical
+      manifestations and a variable course 1. Despite significant progress in the understanding of
+      the genetic predisposition and role of immunity, it is still a challenge to explain the
+      clinical presentation of sarcoidosis. Standard clinical assessment, imaging, and pulmonary
+      function tests (PFTs) do not allow prediction of disease course and response to therapy.
+      Furthermore, there are no good long-term therapies. Considering that the interactions between
+      potential infections, changes in systemic inflammation, and patterns in lung microbiome and
+      the different and distinct disease phenotypes in sarcoidosis are not well understood, the
+      Sarcoidosis protocol for the Genomic Research in AAT Deficiency and Sarcoidosis (GRADS) grant
+      (hereafter called GRADS Sarcoidosis protocol) is designed to address the following:
+
+      Hypothesis
+
+      Distinct patterns in lung microbiome are characteristic of sarcoidosis phenotypes and
+      reflected in changes in systemic inflammatory responses as measured by peripheral changes in
+      gene transcription.
+
+      Specific Aims
+
+        1. To identify peripheral blood mononuclear cell (PBMC) gene expression patterns that
+           characterize distinct sarcoidosis phenotypes.
+
+        2. To determine whether patterns in the lung microbiome are associated with sarcoidosis
+           severity and disease phenotypes
+
+        3. To correlate mRNA and microRNA expression patterns in sarcoidosis affected organs with
+           changes in microbiome, clinical parameters and PBMC gene expression patterns
+
+        4. To integrate clinical, transcriptomic, and microbiome data to identify novel molecular
+           phenotypes in sarcoidosis.
+
+      Focusing on accessible PBMCs should enable GRADS researchers to identify markers for disease
+      phenotypes, severity, and outcome. Analysis of lesional transcriptomes (mRNA, microRNA and
+      lincRNA) will add mechanistic insights. High throughput unbiased analysis of the lung
+      microbiome will potentially identify patterns in the lung microbiome that determine disease
+      activity and persistence, as well as response to therapy.
+
+      Participants are assigned a provisional clinical phenotype upon obtaining consent at time of
+      enrollment by the respective recruiting center. Clinical phenotypes will be reviewed,
+      confirmed, and monitored to ensure achievement of study objectives. Participants who cannot
+      be assigned a clinical phenotype after the initial study visit will be excluded from
+      additional study participation.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2013</start_date>
+  <completion_date type="Actual">September 2015</completion_date>
+  <primary_completion_date type="Actual">June 2015</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>PBMC Gene Expression</measure>
+    <time_frame>Baseline, 6 months, 12 months</time_frame>
+    <description>To identify peripheral blood mononuclear cell (PBMC) gene expression patterns that characterize distinct sarcoidosis phenotypes, samples will be run in batches in block designs (equal numbers of phenotypes) and batches will be analyzed independently to determine reproducibility - a subset of samples will be rerun to assure continuity and established normalization algorithms will be applied 1-3. Normalized human transcript (mRNA and microRNA) levels obtained from PBMC will be related to established phenotypes as well as cross phenotype characteristics using linear models, i.e., ANOVA or linear regression using the LIMMA package (http://bioinf.wehi.edu.au) or BRB ArrayTools (http://linus.nci.nih.gov/BRB-ArrayTools.html).</description>
+  </primary_outcome>
+  <number_of_groups>9</number_of_groups>
+  <enrollment type="Actual">368</enrollment>
+  <condition>Sarcoidosis</condition>
+  <arm_group>
+    <arm_group_label>Multi-organ</arm_group_label>
+    <description>Non-acute presentation, any Scadding stage, evidence of 5 or more organ systems involved, chronic or uncertain clinical course.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-acute, Stage I, untreated</arm_group_label>
+    <description>Non-acute presentation, Scadding stage I, no multi-organ involvement, chronic or uncertain clinical course, no cardiac manifestations, untreated for at least 3 months.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Stage II-III, treated</arm_group_label>
+    <description>Non-acute presentation, Scadding stages II or III, no multi-organ involvement, chronic or uncertain clinical course, no cardiac manifestations, treated for at least 3 months.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Stage II-III, untreated</arm_group_label>
+    <description>Non-acute presentation, Scadding stage II or III, no multi-organ involvement, chronic or uncertain clinical course, no cardiac manifestations, untreated for at least 3 months.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Stage IV treated</arm_group_label>
+    <description>Non-acute presentation, Scadding stage IV, no multi-organ involvement, chronic or uncertain clinical course, no cardiac manifestations, treatment current and for at least 3 months.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Stage IV untreated</arm_group_label>
+    <description>Non-acute presentation, Scadding stage IV, no multi-organ involvement, chronic or uncertain clinical course, no cardiac manifestations, untreated for at least 3 months.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Acute Sarcoidosis, untreated</arm_group_label>
+    <description>Acute presentation, Scadding stages I, II, or III, chronic or uncertain clinical course, no cardiac manifestations, untreated for at least 3 months.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Remitting, untreated</arm_group_label>
+    <description>Remitting clinical course, no treatment for at least 3 months.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cardiac defining therapy</arm_group_label>
+    <description>Chronic or uncertain clinical course, no multi-organ involvement, cardiac manifestations defining need for systemic corticosteroid and/or immunomodulatory therapy.</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Serum, plasma, urine, stool, BAL fluid.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects will be prescreened for predefined clinical phenotypes of sarcoidosis. Those who
+        meet initial criteria and ERS/ATS criteria for a sarcoidosis diagnosis will be recruited
+        and phenotyped by questionnaire, physical exam, research chest CT exam, pulmonary function
+        tests, and blood and urine tests with a total recruitment goal of 400.
+
+        A subset of participants who have suspected pulmonary sarcoidosis, but who have not
+        undergone a biopsy, will be recruited so that material may be obtained during their
+        clinically indicated biopsy. If a diagnosis of sarcoidosis is confirmed, they will be
+        enrolled and followed. If an alternative diagnosis is made, they will not undergo any
+        further testing.
+
+        Participants who cannot be classified within the clinical phenotypes based on data from the
+        initial visit will not continue in the study. Recruitment of participants with defined
+        clinical phenotypes will be monitored and ongoing recruitment goals adjusted to achieve
+        overall study objectives.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Age between the ages of 18 and 85.
+
+          2. Have a diagnosis of sarcoidosis established by consensus criteria (ATS/ERS), confirmed
+             by either biopsy or by manifestations consistent with acute sarcoidosis (Löfgren's
+             syndrome) in absence of other known diagnosis.
+
+             OR Have a suspected diagnosis of sarcoidosis and is scheduled to undergo a biopsy
+             procedure to confirm a diagnosis of sarcoidosis using the same consensus criteria
+             (ATS/ERS).
+
+          3. Able to tolerate and willing to undergo study procedures.
+
+          4. Be capable of understanding study forms.
+
+          5. Provide signed informed consent.
+
+        Exclusion Criteria:
+
+          1. History of comorbid condition severe enough to significantly increase risks based on
+             investigator discretion.
+
+          2. Currently an active smoker.
+
+          3. Undergoing bronchoscopy (clinical or research) with any one of the following:
+
+               1. severe pulmonary impairment (&lt;50% predicted FVC, &lt;1 L FEV1; DLco &lt;40% predicted,
+                  resting hypoxemia &lt;92% with or without supplemental oxygen)
+
+               2. other co-morbid disease that would preclude bronchoscopy.
+
+               3. hypersensitivity to or intolerance of any of the drugs required for sedation
+                  during conscious sedation bronchoscopy.
+
+          4. Known systemic autoimmune disease such as rheumatoid arthritis, lupus, scleroderma,
+             Sjögrens, etc.
+
+          5. Found to have an alternative interstitial lung disease during evaluation and/or
+             screening.
+
+          6. Diagnosis of unstable cardiovascular disease including myocardial infarction in the
+             past 6 weeks, uncontrolled congestive heart failure, or uncontrolled arrhythmia
+
+          7. Use of anticoagulation (patients on warfarin or clopidogrel will be excluded, patients
+             on aspirin alone can be studied even with concurrent use)
+
+          8. Dementia or other cognitive dysfunction which in the opinion of the investigator would
+             prevent the participant from consenting to the study or completing study procedures
+
+          9. Non-Sarcoidosis pulmonary disease (e.g., rheumatoid arthritis, lupus, scleroderma)
+             that, in the opinion of the investigator, limits the interpretability of the analysis
+             of sarcoidosis pulmonary disease
+
+         10. Primary biliary cirrhosis or autoimmune hepatitis
+
+         11. Crohn's disease
+
+         12. Chronic beryllium disease
+
+         13. Have an active bacterial or viral infection at time of screening.
+
+         14. Have an active or ongoing serious infection, including HIV, HBV and HCV
+
+         15. Active tuberculosis or are taking any medication for tuberculosis
+
+         16. Have a history of demyelinating diseases, lymphoproliferative diseases, or other
+             malignancies other than presumed cured non-metastatic skin cancer
+
+         17. Have evidence of a likely malignancy on chest x-ray
+
+         18. Are currently pregnant at time of screening
+
+         19. Currently institutionalized (e.g., prisons, long-term care facilities)
+
+         20. Hypersensitivity to or intolerance of albuterol sulfate or propellants or excipients
+             of the inhalers
+
+         21. History of Lung volume reduction surgery, lung resection or bronchoscopic lung volume
+             reduction in any form.
+
+         22. History of lung or other organ transplant
+
+         23. Unable to comprehend consent document and/or questionnaires
+
+        Conditional Exclusions:
+
+          1. Participants who present with an upper respiratory infection or pulmonary
+             exacerbation, either solely participant-identified or that has been clinically
+             treated, in the last four weeks can be rescreened for the study once the four-week
+             window has closed.
+
+          2. Participants who present with current use of acute antibiotics or have acute
+             antibiotics within the past four weeks can be rescreened for the study ≥28 days after
+             discontinuing acute antibiotics.
+
+          3. Female participants who present &lt;3 months after giving birth will be asked to
+             reschedule their visit until three months have passed since the birth.
+
+          4. Former smoker who quit &lt; 3months prior to enrollment
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Naftali Kaminski, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Yale University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Stephen Wisniewski, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pittsburgh</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Michael Becich, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pittsburgh</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Arizona Health Sciences Center</name>
+      <address>
+        <city>Tucson</city>
+        <state>Arizona</state>
+        <zip>85724</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of California - San Francisco</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>National Jewish Health</name>
+      <address>
+        <city>Denver</city>
+        <state>Colorado</state>
+        <zip>80206</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Yale University</name>
+      <address>
+        <city>New Haven</city>
+        <state>Connecticut</state>
+        <zip>06510</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Johns Hopkins University</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21224</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Pennsylvania</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Pittsburgh</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15213</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Medical University of South Caolina</name>
+      <address>
+        <city>Charleston</city>
+        <state>South Carolina</state>
+        <zip>29425</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Vanderbilt University</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37240</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://www.gradslung.org/</url>
+    <description>Study Website</description>
+  </link>
+  <verification_date>January 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 9, 2013</study_first_submitted>
+  <study_first_submitted_qc>April 9, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 15, 2013</study_first_posted>
+  <last_update_submitted>January 11, 2016</last_update_submitted>
+  <last_update_submitted_qc>January 11, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 12, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Yale University</investigator_affiliation>
+    <investigator_full_name>Naftali Kaminski</investigator_full_name>
+    <investigator_title>-Ingelheim Professor of Internal Medicine and Chief of Pulmonary, Critical Care and Sleep Medicine</investigator_title>
+  </responsible_party>
+  <keyword>Genomics</keyword>
+  <keyword>Microbiome</keyword>
+  <keyword>Microflora</keyword>
+  <keyword>Virome</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sarcoidosis</mesh_term>
+    <mesh_term>Alpha 1-Antitrypsin Deficiency</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

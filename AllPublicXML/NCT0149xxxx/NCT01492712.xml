@@ -1,0 +1,209 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01492712</url>
+  </required_header>
+  <id_info>
+    <org_study_id>VaSCoM005</org_study_id>
+    <secondary_id>2009-017900-10</secondary_id>
+    <nct_id>NCT01492712</nct_id>
+  </id_info>
+  <brief_title>Validation Study of Covariates Model (VaSCoM) for Propofol</brief_title>
+  <acronym>VaSCoM</acronym>
+  <official_title>Validation Study of Covariates Model (VaSCoM) for Propofol</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Golden Jubilee National Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Golden Jubilee National Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Anaesthesia for surgical procedures can be provided using a continuous infusion of
+      intravenous drug. The most commonly used drug for this technique is propofol. Infusion
+      devices programmed with pharmacokinetic models can be used to infuse propofol to achieve a
+      target blood concentration. These pharmacokinetic models predict the rate of distribution of
+      propofol within the body and also the rate at which it is cleared. In practice, the
+      anaesthetist enters patient details such as age, sex and weight as well as a target blood
+      concentration of propofol. The infusion device then infuses propofol at the appropriate rate
+      to achieve this concentration.
+
+      White and colleagues recently published the Covariates Model for propofol. It is anticipated
+      that this model will have reduced bias and inaccuracy compared to the models in current
+      clinical use. The VaSCoM study has three objectives:
+
+        1. Prospective validation of the Covariates Model
+
+        2. Modelling of the effect site concentration of propofol
+
+        3. Comparison of propofol concentration in venous and arterial blood samples
+
+      To achieve the above objectives, patients over 18 years of age and undergoing elective
+      non-cardiac surgery will be recruited to the study. Anaesthesia will be delivered using a
+      target controlled infusion device programmed with the Covariates Model for propofol. The
+      target blood concentrations will be set according to a pre-determined schedule and all
+      measurements will be made prior to the start of surgery.
+
+      Prospective validation of the Covariates Model will be done by comparing blood concentration
+      of propofol predicted by the model to those actually measured. These results will then be
+      compared to the predictions made using the models in current clinical practice.
+
+      Modelling of the effect site means predicting the concentration of propofol in the brain for
+      a given blood concentration. This will involve using depth of anaesthesia monitors (such as
+      bispectral index) as surrogate markers of brain concentration and comparing this to the
+      predicted and measured blood concentrations of propofol.
+
+      Finally, important information on the distribution and clearance of propofol can be gained
+      through the comparison of venous and arterial blood samples. In this study, simultaneous
+      sampling of venous and arterial blood will facilitate this comparison.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 2011</start_date>
+  <completion_date type="Actual">February 2013</completion_date>
+  <primary_completion_date type="Actual">February 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Performance error of predicted blood propofol concentration (venous blood samples)</measure>
+    <time_frame>1.5, 5, 16.5, 20, 31.5, 35, 45-60 minutes post infusion start time</time_frame>
+    <description>Performance error is calculated as:
+((Measured blood concentration - Predicted blood concentration)/ Predicted blood concentration) x 100
+The median performance error and the absolute performance error can then be calculated as measures of bias and inaccuracy respectively.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Depth of anaesthesia</measure>
+    <time_frame>0 to 45-60 minutes post infusion start time</time_frame>
+    <description>Depth of anaesthesia (as measured by bispectral index and index of consciousness) will be used as a surrogate marker of propofol effect site concentration. By using complex statistical analysis to compare depth of anaesthesia to measured and predicted blood concentrations, we aim to determine the Keo. This is the rate constant for elimination of propofol from the effect site compartment and will be incorporated to the Covariates Model to predict brain concentration for a given blood concentration of propofol.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of performance errors calculated from venous blood samples to performance errors calculated from arterial blood samples</measure>
+    <time_frame>1.5, 5, 16.5, 20, 31.5, 35, 45-60 minutes post infusion start time</time_frame>
+    <description>Performance error is calculated as:
+((Measured blood concentration - Predicted blood concentration)/ Predicted blood concentration) x 100</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">40</enrollment>
+  <condition>Target Controlled Infusion of Propofol</condition>
+  <arm_group>
+    <arm_group_label>Low-high-low blood target concentration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients in the low-high-low group will receive an infusion of propofol with an initial blood target concentration of 2 mcg/ml. After 15 minutes the target will be increased to 5 mcg/ml and after a further 15 minutes the target will be reduced back to 2 mcg/ml for a further 15 to 30 minutes.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>High-low-high target blood concentration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients in the high-low-high group will receive an infusion of propofol with an initial blood target concentration of 5 mcg/ml. After 15 minutes the target will be reduced to 2 mcg/ml and after a further 15 minutes the target will be increased back to 5 mcg/ml for a further 15 to 30 minutes.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Propofol</intervention_name>
+    <description>Patients in the low-high-low group will receive an infusion of propofol with an initial blood target concentration of 2 mcg/ml. After 15 minutes the target will be increased to 5 mcg/ml and after a further 15 minutes the target will be reduced back to 2 mcg/ml for a further 15 to 30 minutes.</description>
+    <arm_group_label>Low-high-low blood target concentration</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Propofol</intervention_name>
+    <description>Patients in the high-low-high group will receive an infusion of propofol with an initial blood target concentration of 5 mcg/ml. After 15 minutes the target will be reduced to 2 mcg/ml and after a further 15 minutes the target will be increased back to 5 mcg/ml for a further 15 to 30 minutes.</description>
+    <arm_group_label>High-low-high target blood concentration</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Aged over 18 years
+
+          -  ASA I/II
+
+          -  Elective non-cardiac surgery expected to last longer than 30 minutes
+
+        Exclusion Criteria:
+
+          -  Patient refusal or unable to consent
+
+          -  Premedication, sedative or anaesthetic in the previous 12 hours
+
+          -  Pre-operative GCS less than 15
+
+          -  ASA III/IV
+
+          -  Allergy to constituents of propofol
+
+          -  Excess alcohol intake
+
+          -  Drug abuse
+
+          -  Mental retardation
+
+          -  Difficult airway
+
+          -  BMI over 35
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Stefan Schraag</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Golden Jubilee National Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Golden Jubilee National Hospital</name>
+      <address>
+        <city>Clydebank</city>
+        <zip>G81 4HX</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>August 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 8, 2011</study_first_submitted>
+  <study_first_submitted_qc>December 13, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 15, 2011</study_first_posted>
+  <last_update_submitted>August 11, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 11, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 14, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Propofol</keyword>
+  <keyword>Pharmacokinetics</keyword>
+  <keyword>Pharmacodynamics</keyword>
+  <keyword>Infusion Pumps</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Propofol</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

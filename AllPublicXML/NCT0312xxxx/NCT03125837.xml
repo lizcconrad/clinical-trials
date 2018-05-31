@@ -1,0 +1,141 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03125837</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2016-076</org_study_id>
+    <nct_id>NCT03125837</nct_id>
+  </id_info>
+  <brief_title>Establishment of Airway Database for Surgical Patients</brief_title>
+  <official_title>Study on the Method of Difficult Airway Prediction Based on Artificial Intelligence</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Second Affiliated Hospital, School of Medicine, Zhejiang University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Zhejiang University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Second Affiliated Hospital, School of Medicine, Zhejiang University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Difficult airway is a major reason of anesthesia related injuries with latent life
+      threatening complications. Foresee difficult airway in the preoperative period is vital for
+      the patient's safety. The aim of this study is to develop a computer algorithm that can
+      detect whether the patient is a difficult airway based on photographs form six aspects. This
+      method will be decreased potential complication related to difficult airway and increased
+      patient safety.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Introduction:
+
+      The primary purpose of the study is to develop a computer algorithm that can detect whether
+      the patient is a difficult airway based on photographs from six different aspects.
+
+      Methods:
+
+      This study is divided into two parts. In the first part, we collected the patients' airway
+      assessment score who underwent general anesthesia with endotracheal intubation assessed by an
+      experienced attending anesthesiologists before and after intubation. Evaluation of airway
+      score after tracheal intubation as the gold standard for airway assessment. Digital
+      photographs of the face of each patient in frontal neutral view and in profile neutrals were
+      obtained. Details of the photographs, each corresponding to a facial motion: (1) Frontal,
+      neutral. (2) Frontal, mouth open. (3)Frontal, extreme mouth open and tongue out. (4)Frontal,
+      extreme upper lip bite (5)Profile, neutral. (6) Profile, neutral, maximum head back. The
+      patient's photographs and the airway evaluation score after intubation were input to the
+      computer to train the computer. In the second part, the trained computer was used to evaluate
+      the airway score of the new patient compared with that of the patient after intubation, and
+      calculated the sensitivity.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 2017</start_date>
+  <completion_date type="Anticipated">May 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>the sensitivity of artificial Intelligence to predict difficulty of facemask ventilation and endotracheal intubation</measure>
+    <time_frame>5 years</time_frame>
+    <description>The outcome will be a computer algorithm that can detect whether the patient is a difficult airway based on photographs from six different aspects.Details of the photographs, each corresponding to a facial motion: (1) Frontal, neutral. (2) Frontal, mouth open. (3)Frontal, extreme mouth open and tongue out. (4)Frontal, extreme upper lip bite (5)Profile, neutral. (6) Profile, neutral, maximum head back.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">50000</enrollment>
+  <condition>Difficult Airway</condition>
+  <condition>Artificial Intelligence</condition>
+  <arm_group>
+    <arm_group_label>general anesthesia</arm_group_label>
+    <description>Digital photographs of the face of each patient undergoing general anesthesia with endotracheal intubation</description>
+  </arm_group>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Digital photographs of the face and neck
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        the patients who underwent general anesthesia with endotracheal intubation
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  General anesthesia-induced tracheal intubation in patients who undergoing elective
+             surgical patients
+
+        Exclusion Criteria:
+
+          -  Patients with multiple facial injuries Patients who had undergone head or neck surgery
+             Patients who need emergency operation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>April 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 13, 2017</study_first_submitted>
+  <study_first_submitted_qc>April 19, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 24, 2017</study_first_posted>
+  <last_update_submitted>April 19, 2017</last_update_submitted>
+  <last_update_submitted_qc>April 19, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 24, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

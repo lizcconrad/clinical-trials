@@ -1,0 +1,628 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01821105</url>
+  </required_header>
+  <id_info>
+    <org_study_id>OSU-0375</org_study_id>
+    <secondary_id>NCI-2012-01242</secondary_id>
+    <nct_id>NCT01821105</nct_id>
+  </id_info>
+  <brief_title>2 Phase Comparison of Pre-operative CT and PET Images for Metastatic Colorectal Cancer</brief_title>
+  <official_title>A 2 Phase Comparison of Pre-operative CT AND PET Images in the Intraoperative Detection of Disease to a Hand-held Probe, and to an Intraoperative CT Scan in Patients Undergoing Surgery for Metastatic Colorectal Cancer.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ohio State University Comprehensive Cancer Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Ohio State University Comprehensive Cancer Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This pilot phase II studies how well computed tomography (CT) and positron emission
+      tomography (PET) imaging works in detecting disease in patients undergoing surgery for
+      metastatic colorectal cancer. Diagnostic procedures, such as CT and PET scans, done before
+      and during surgery may help find colorectal cancer and help guide surgery
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      PRIMARY OBJECTIVES:
+
+      I. To determine the feasibility of rigidly (linearly) registering PET to CT images and
+      applying this fused dataset to guide surgery with an image-guided navigation system and a
+      handheld positron probe in order to facilitate disease detection and improve resection
+      accuracy in advanced stage colorectal cancer.
+
+      II. To complete development of software for the nonlinear registration of PET and CT
+      datasets.
+
+      OUTLINE:
+
+      Patients undergo preoperative whole-body PET scans and CT scans of the abdomen and pelvis.
+      Patients then receive 18 F fludeoxyglucose (FDG) intravenously (IV) 60-90 minutes prior to
+      surgery and undergo intraoperative CT scans using a handheld probe and computer navigation
+      system.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2004</start_date>
+  <completion_date type="Actual">November 2009</completion_date>
+  <primary_completion_date type="Actual">November 2009</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Detection of Position Accuracy With Handheld Probe on Anatomical Location.</measure>
+    <time_frame>up to 12 months</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>All Adverse Events and Complications</measure>
+    <time_frame>up to 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Tumor Detection</measure>
+    <time_frame>At surgery</time_frame>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">21</enrollment>
+  <condition>Recurrent Colon Cancer</condition>
+  <condition>Recurrent Rectal Cancer</condition>
+  <condition>Stage IV A Bladder Cancer</condition>
+  <condition>Stage IV A Rectal Cancer</condition>
+  <condition>Stage IV B Colon Cancer</condition>
+  <condition>Stage IV B Rectal Cancer</condition>
+  <arm_group>
+    <arm_group_label>Preoperative PET and CT Scans</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients undergo preoperative whole-body PET scans and CT scans of the abdomen and pelvis. Patients then receive fluoro-deoxyglucose (FDG)IV 60-90 minutes prior to surgery and undergo intraoperative CT scans using a handheld probe and computer navigation system.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>PET Scan</intervention_name>
+    <description>All patients will receive whole body PET scans (chest-abdomen-pelvis).</description>
+    <arm_group_label>Preoperative PET and CT Scans</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>CT Scan</intervention_name>
+    <description>All patients will receive CT scans of the abdomen and pelvis with contrast.</description>
+    <arm_group_label>Preoperative PET and CT Scans</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>fludeoxyglucose F 18</intervention_name>
+    <description>Given IV</description>
+    <arm_group_label>Preoperative PET and CT Scans</arm_group_label>
+    <other_name>18FDG</other_name>
+    <other_name>FDG</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>computer-aided detection/diagnosis</intervention_name>
+    <description>Undergo computer-aided detection/diagnosis during surgery</description>
+    <arm_group_label>Preoperative PET and CT Scans</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients with histologically-confirmed colorectal carcinoma and preoperative PET scan
+             with evidence of hypermetabolic lesions suspicious for cancer will be eligible for
+             this study. In cases of primary cancer, there must be a tissue-confirmed diagnosis. In
+             recurrent cases, patients must have clinical evidence by CT or MRI of disease suitable
+             for resection.
+
+          -  Patients must be candidates for clinically indicated surgery.
+
+          -  Patients with recurrent disease may have had prior surgery and/or chemotherapy with no
+             limit to the number of prior therapeutic procedures or chemotherapeutic regimens.
+
+          -  Patients must have a performance status of 0, 1 or 2 by ECOG(Eastern Cooperative
+             Oncology Group)standards.
+
+          -  Patients must give written informed consent including consent to have IV line placed
+             for FDG administration.
+
+          -  Patients must be at least 18 years of age. Children under the age of 18 are excluded
+             from the study due to the rarity of colorectal cancer in children.
+
+          -  Because radiolabeled agents are known to be teratogenic, women of child-bearing
+             potential and men must agree to use an acceptable form of contraception prior to study
+             entry and for the duration of the study participation. Should a woman become pregnant
+             or suspect she is pregnant while participating in this study, she should inform her
+             treating physician immediately.
+
+          -  Organ function requirements: Patients must have organ and marrow function adequate to
+             undergo laparotomy. Specifically:
+
+          -  Serum creatinine &lt; 2.0 mg/dl
+
+          -  Serum bilirubin &lt; 2.0 mg/dl
+
+          -  AST(aspartate aminotransferase,serum glutamate oxaloacetate transaminase, serum
+             glutamate oxaloacetate transaminase,serum glutamate pyruvate
+             transaminase)[SGOT]/ALT[SGPT]&lt;4 times institutional upper limit of normal
+
+          -  Total WBC(white blood cell)&gt;4,000/mm3 or ANC(absolute neutrophil count)&gt; 1,500/mm3
+
+          -  Platelets &gt; 100,000/mm3
+
+          -  Hgb &gt;10g/dl
+
+          -  Patient must have no clinically significant cardiac disease (New York Heart
+             Association Class III/IV); no serious infection requiring treatment with antibiotics;
+             no other serious ill-ness or illness requiring the use of steroids; no clinically
+             significant pulmonary disease or other illness that would contraindicate or increase
+             the risk of complications at surgery.
+
+          -  Fasting blood sugar less than 120 mg/dl
+
+        Exclusion Criteria:
+
+          -  Patients with active CNS (central nervous system)tumor involvement are ineligible.
+
+          -  Any patient who has retained childbearing potential will not be pregnant or lactating
+             and must use adequate contraception to assure avoidance of conception.
+
+          -  Body size prohibits use of the diagnostic equipment (portable CT scanner).
+
+          -  Tumor burden is so great (as determined by preoperative PET scanning or intraoperative
+             findings) that further surgery is not advised.
+
+          -  If lesions are detected with preoperative CT but not with PET scanning (in other
+             words, all patients will have a positive PET scan as part of the inclusion criteria).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Edward Martin, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Ohio State University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Ohio State University Medical Center</name>
+      <address>
+        <city>Columbus</city>
+        <state>Ohio</state>
+        <zip>43210</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://cancer.osu.edu</url>
+    <description>Jamesline</description>
+  </link>
+  <results_reference>
+    <citation>Sarikaya I, Povoski SP, Al-Saif OH, Kocak E, Bloomston M, Marsh S, Cao Z, Murrey DA, Zhang J, Hall NC, Knopp MV, Martin EW Jr. Combined use of preoperative 18F FDG-PET imaging and intraoperative gamma probe detection for accurate assessment of tumor recurrence in patients with colorectal cancer. World J Surg Oncol. 2007 Jul 16;5:80.</citation>
+    <PMID>17634125</PMID>
+  </results_reference>
+  <verification_date>February 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 9, 2012</study_first_submitted>
+  <study_first_submitted_qc>March 26, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 29, 2013</study_first_posted>
+  <results_first_submitted>November 23, 2015</results_first_submitted>
+  <results_first_submitted_qc>December 29, 2015</results_first_submitted_qc>
+  <results_first_posted type="Estimate">February 3, 2016</results_first_posted>
+  <last_update_submitted>February 3, 2016</last_update_submitted>
+  <last_update_submitted_qc>February 3, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">March 2, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Ohio State University Comprehensive Cancer Center</investigator_affiliation>
+    <investigator_full_name>Edward Martin</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>computed tomography</keyword>
+  <keyword>CT scan</keyword>
+  <keyword>positron emission tomography</keyword>
+  <keyword>PET</keyword>
+  <keyword>Metastatic Colorectal Cancer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Colorectal Neoplasms</mesh_term>
+    <mesh_term>Rectal Neoplasms</mesh_term>
+    <mesh_term>Colonic Neoplasms</mesh_term>
+    <mesh_term>Urinary Bladder Neoplasms</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fluorodeoxyglucose F18</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Preoperative PET and CT Scans</title>
+          <description>Patients undergo preoperative whole-body PET scans and CT scans of the abdomen and pelvis. Patients then receive fluoro-deoxyglucose (FDG)IV 60-90 minutes prior to surgery and undergo intraoperative CT scans using a handheld probe and computer navigation system.
+PET Scan: All patients will receive whole body PET scans (chest-abdomen-pelvis).
+CT Scan: All patients will receive CT scans of the abdomen and pelvis with contrast.
+fludeoxyglucose F 18: Given IV
+computer-aided detection/diagnosis: Undergo computer-aided detection/diagnosis during surgery</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="21"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="21"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Preoperative PET and CT Scans</title>
+          <description>Patients undergo preoperative whole-body PET scans and CT scans of the abdomen and pelvis. Patients then receive fluoro-deoxyglucose (FDG)IV 60-90 minutes prior to surgery and undergo intraoperative CT scans using a handheld probe and computer navigation system.
+PET Scan: All patients will receive whole body PET scans (chest-abdomen-pelvis).
+CT Scan: All patients will receive CT scans of the abdomen and pelvis with contrast.
+fludeoxyglucose F 18: Given IV
+computer-aided detection/diagnosis: Undergo computer-aided detection/diagnosis during surgery</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="21"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="54" lower_limit="31" upper_limit="78"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="21"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Mean time interval from initial treatment to PET scan</title>
+          <units>months</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="42" lower_limit="3" upper_limit="102"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Mean time interval from PET scan to surgery/GP study</title>
+          <units>days</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="16" lower_limit="1" upper_limit="41"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Detection of Position Accuracy With Handheld Probe on Anatomical Location.</title>
+        <time_frame>up to 12 months</time_frame>
+        <population>number of tumor lesions detected by the probe</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Preoperative PET and CT Scans</title>
+            <description>Patients undergo preoperative whole-body PET scans and CT scans of the abdomen and pelvis. Patients then receive fluoro-deoxyglucose (FDG)IV 60-90 minutes prior to surgery and undergo intraoperative CT scans using a handheld probe and computer navigation system.
+PET Scan: All patients will receive whole body PET scans (chest-abdomen-pelvis).
+CT Scan: All patients will receive CT scans of the abdomen and pelvis with contrast.
+fludeoxyglucose F 18: Given IV
+computer-aided detection/diagnosis: Undergo computer-aided detection/diagnosis during surgery</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Detection of Position Accuracy With Handheld Probe on Anatomical Location.</title>
+          <population>number of tumor lesions detected by the probe</population>
+          <units>lesions</units>
+          <param>Number</param>
+          <units_analyzed>Participants</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="21"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>Lesions</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="45"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>true postive</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="35"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>false positive</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>not evaluable</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>All Adverse Events and Complications</title>
+        <time_frame>up to 12 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Preoperative PET and CT Scans</title>
+            <description>Patients undergo preoperative whole-body PET scans and CT scans of the abdomen and pelvis. Patients then receive fluoro-deoxyglucose (FDG)IV 60-90 minutes prior to surgery and undergo intraoperative CT scans using a handheld probe and computer navigation system.
+PET Scan: All patients will receive whole body PET scans (chest-abdomen-pelvis).
+CT Scan: All patients will receive CT scans of the abdomen and pelvis with contrast.
+fludeoxyglucose F 18: Given IV
+computer-aided detection/diagnosis: Undergo computer-aided detection/diagnosis during surgery</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>All Adverse Events and Complications</title>
+          <units>patients</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="21"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Tumor Detection</title>
+        <time_frame>At surgery</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Preoperative PET and CT Scans</title>
+            <description>Patients undergo preoperative whole-body PET scans and CT scans of the abdomen and pelvis. Patients then receive fluoro-deoxyglucose (FDG)IV 60-90 minutes prior to surgery and undergo intraoperative CT scans using a handheld probe and computer navigation system.
+PET Scan: All patients will receive whole body PET scans (chest-abdomen-pelvis).
+CT Scan: All patients will receive CT scans of the abdomen and pelvis with contrast.
+fludeoxyglucose F 18: Given IV
+computer-aided detection/diagnosis: Undergo computer-aided detection/diagnosis during surgery</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Tumor Detection</title>
+          <units>lesions detected</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="21"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="48"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <desc>Adverse events were graded according to the National Cancer Institute Common Terminology Criteria for Adverse Events (CTCAE) version 3.0.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Preoperative PET and CT Scans</title>
+          <description>Patients undergo preoperative whole-body PET scans and CT scans of the abdomen and pelvis. Patients then receive fluoro-deoxyglucose (FDG)IV 60-90 minutes prior to surgery and undergo intraoperative CT scans using a handheld probe and computer navigation system.
+PET Scan: All patients will receive whole body PET scans (chest-abdomen-pelvis).
+CT Scan: All patients will receive CT scans of the abdomen and pelvis with contrast.
+fludeoxyglucose F 18: Given IV
+computer-aided detection/diagnosis: Undergo computer-aided detection/diagnosis during surgery</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="21"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="21"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Edward Martin, MD</name_or_title>
+      <organization>The Ohio State University</organization>
+      <phone>614-293-8843</phone>
+      <email>Edward.Martin@osumc.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

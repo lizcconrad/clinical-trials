@@ -1,0 +1,233 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02934971</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16-079</org_study_id>
+    <nct_id>NCT02934971</nct_id>
+  </id_info>
+  <brief_title>Optimized Multi-modality Machine Learning Approach During Cardio-toxic Chemotherapy to Predict Arising Heart Failure</brief_title>
+  <acronym>MERMAID</acronym>
+  <official_title>Optimized Multi-modality Machine Learning Approach During Cardio-toxic Chemotherapy to Predict Arising Heart Failure</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>RWTH Aachen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Technion, Israel Institute of Technology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>RWTH Aachen University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The present project will develop an automated machine learning approach using multi-modality
+      data (imaging, laboratory, electrocardiography and questionnaire) to increase the
+      understanding and prediction of arising heart failure in patients scheduled for cardio-toxic
+      chemotherapy. This algorithmus will be developed by the technical cooperation partner at
+      Technion, the institut for biomedical engineering in Haifa, Israel.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The present project will develop an automated machine learning approach using multi-modality
+      data (imaging, laboratory, electrocardiography and questionnaire) to increase the
+      understanding and prediction of arising heart failure in patients scheduled for cardio-toxic
+      chemotherapy. This algorithmus will be developed by the technical cooperation partner Prof.
+      Adam who leads the Technion, the institut for biomedical engineering.
+
+      Specific aims:
+
+        1. To collect all achievable data from patients scheduled for cardiotoxic chemotherapy at
+           baseline, up to 6 months after ending therapy - regarding imaging (MRI, echocardiography
+           with conventional and strain parameter), electrocardiography, biomedical markers (to
+           define the function of liver, kidney, heart and hematopoietic bone marrow), clinical
+           parameter and quality of life questionnaire:
+
+        2. To optimize and evaluate a robust machine learning approach that integrate and assess
+           all these data to detect early myocardial damage and to identify an optimal parameter
+           (single or in combination) for prediction of subclinical left ventricular (LV)
+           dysfunction (stage 1 of the current study).
+
+        3. To perform a clinical study (stage 2 of the current study) of chemotherapy patients, and
+           to identify subclinical LV dysfunction, which will be used to guide cardioprotective
+           therapy using the new machine learning approach in comparison to the actual standard
+           procedure using only echocardiographic left ventricular ejection fraction (LVEF).
+
+      The purpose of this study is to evaluate and optimize a machine learning approach to combine
+      and integrate data from different imaging modalities with laboratory, electrocardiography and
+      questionnaire information to define the value of all these parameter in patient management,
+      by identification of subclinical LV dysfunction, which will be used to guide cardioprotective
+      therapy in comparison to a standard approach using only conventional echocardiographic
+      parameters.
+
+      MRI, conventional echocardiographic parameters and echocardiographic myocardial deformation
+      imaging are employing different modalities and approaches to obtain insight into myocardial
+      tissue and deformation. We hypothesize that a new and optimized automated algorithm using
+      these modalities and integrating laboratory, electrocardiography and questionnaire
+      information will improve the detection of early LV dysfunctions, and will bring new insight
+      to the potential response of chemo patients to cardiotoxic therapy. We expect that this
+      algorithm leads to the use of adjunctive therapy that will limit the development of LV
+      dysfunction, interruptions of chemotherapy and development of heart failure in follow-up and
+      thus will reduce morbidity and costs.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date>January 2017</start_date>
+  <completion_date type="Anticipated">January 2019</completion_date>
+  <primary_completion_date type="Anticipated">January 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in LVEF from baseline to one year, as determined by MRI as gold standard according to random study group allocation</measure>
+    <time_frame>one year</time_frame>
+  </primary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Anticipated">470</enrollment>
+  <condition>Toxicity Due to Chemotherapy</condition>
+  <arm_group>
+    <arm_group_label>Supervised cohort of 200 chemo-treated patients</arm_group_label>
+    <description>cohort of 200 patients undergoing a chemo therapy accordingly to the inclusion criteria patients</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Age matched control group of 200 normal subjects</arm_group_label>
+    <description>200 age matched control group of subjects from the outpatient clinic who are not chemo-treated and who fit the inclusion and exclusion criteria</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>A:machine learning approach (N=35)</arm_group_label>
+    <description>70 female patients undergoing cardiotoxic chemotherapy accordingly to the inclusion criteria will be randomized into two arms (group A and B).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>B: conventional echocardiographic parameters (N=35)</arm_group_label>
+    <description>70 female patients undergoing cardiotoxic chemotherapy accordingly to the inclusion criteria will be randomized into two arms (group A and B).</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The machine learning based algorithm will be trained on a supervised cohort of 200
+        chemo-treated patients and an age matched control group of 200 normal subjects will achieve
+        the desired accuracy to detect subtle changes in LV function (stage 1 of the current
+        study).
+
+        The stage 2 part of the current study will be performed in patients undergoing cardiotoxic
+        chemotherapy (N=70), randomized for comparing a surveillance strategy using machine
+        learning approach (group A, N=35) from conventional surveillance based on conventional
+        echocardiographic parameter as LVEF (group B, N=35). Patients coming to the echo lab for
+        echo surveillance of LV function will be randomized to optimized automated algorithm or
+        receive standard LVEF alone.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Patients Patients scheduled for chemotherapy at increased risk of cardiotoxicity
+             (regarding 200 Chemo patients in stage 1 study and 70 Chemo patients in stage 2
+             study):
+
+               -  use of anthracycline with
+
+               -  trastuzumab (Herceptin) in breast-cancer with the HER2 mutation OR
+
+               -  tyrosine kinase inhibitors (eg sunitinib) OR
+
+               -  cumulative anthracycline dose &gt;450g/m2 of doxorubicin, or equivalent other
+                  anthracycline cumulative dose (eg for epirubicine &gt;900g/m2) OR
+
+               -  -increased risk of heart failure (HF) (age &gt;65y, type 2 diabetes mellitus,
+                  hypertension, previous cardiac injury eg. myocardial infarction)
+
+          2. Female aged &gt; 18 years
+
+          3. Written informed consent prior to study participation
+
+          4. The subject is willing and able to follow the procedures outlined in the protocol The
+             department of gynecology at the RWTH University hospital will inform the principal
+             investigator about these patients.
+
+        Exclusion Criteria:
+
+          1. Valvular stenosis or regurgitation of &gt;moderate severity
+
+          2. History of previous heart failure (baseline New York Heart Association - NYHA &gt;2)
+
+          3. Inability to acquire interpretable images (identified from baseline echo)
+
+          4. Contraindication to perform a MRI
+
+          5. Oncologic (or other) life expectancy &lt;12 months
+
+          6. Pregnant and lactating females
+
+          7. Patient has been committed to an institution by legal or regulatory order
+
+          8. Participation in a parallel interventional clinical trial
+
+          9. The subject received an investigational drug within 30 days prior to inclusion into
+             this study
+
+         10. Relevant renal insufficiency
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Michael Becker, Prof. Dr. med</last_name>
+    <phone>0049 (0)241 80</phone>
+    <phone_ext>36083</phone_ext>
+    <email>mbecker@ukaachen.de</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Department of Cardiology, RWTH Aachen University Hospital</name>
+      <address>
+        <city>Aachen</city>
+        <zip>52074</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <verification_date>October 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 16, 2016</study_first_submitted>
+  <study_first_submitted_qc>October 13, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 17, 2016</study_first_posted>
+  <last_update_submitted>October 13, 2016</last_update_submitted>
+  <last_update_submitted_qc>October 13, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">October 17, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

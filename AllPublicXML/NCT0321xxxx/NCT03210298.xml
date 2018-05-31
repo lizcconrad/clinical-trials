@@ -1,0 +1,530 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03210298</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RUB 15-5280</org_study_id>
+    <nct_id>NCT03210298</nct_id>
+  </id_info>
+  <brief_title>International Registry of Patients Treated With Pressurized IntraPeritoneal Aerosol Chemotherapy (PIPAC)</brief_title>
+  <acronym>PIPACRegis</acronym>
+  <official_title>Multicenter, International Online Documentation of Indications and Results of Pressurized IntraPeritoneal Aerosol Chemotherapy (PIPAC Und PITAC) for Treating Malignant Peritoneal and Pleural Diseases</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sabine Rhode</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Ruhr University of Bochum</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Magdeburg</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Multicentric, international, web-based prospective documentation of the indications and
+      results of Pressurized Aerosol Chemotherapy (so-called PIPAC or PITAC) for treating malignant
+      pleural and peritoneal diseases. Indication is decided by the treating physician. There are
+      no predefined inclusion or exclusion criteria.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      All data entered into the registry documenting the patient cohort characteristics (disease,
+      demography, therapy) are analyzed using descriptive statistics. Survival data are analyzed
+      with Kaplan-Meier statistics. Multivariate Cox Proportional Hazard Models are used to
+      identify potential prognostic and predictive factors. In particular, a risk- adjusted
+      comparison of the outcome criteria with a propensity score is planned.
+
+      The data are stored in a SQL-based online database. Patient data are pseudoanonymized. The
+      registry has received approval of the data protection officer of the State of
+      Northrhine-Westphalia.
+
+      The study steering committee is blinded towards the identity of the participating
+      institutions. Each participating institution receives an annual report with own data vs.
+      benchmark. Scientific analysis can be proposed by the steering committee, by a participating
+      institution or by other scientists, subjected to the approval of the independent scientific
+      advisory board.
+
+      An export function has been built in to allow data exchange with the HIPEC Registry of the
+      German Society for General and GI surgery (http://www.dgav.de/studoq/studoqhipec.html).
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 2016</start_date>
+  <completion_date type="Anticipated">May 2019</completion_date>
+  <primary_completion_date type="Anticipated">May 2018</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Year</target_duration>
+  <primary_outcome>
+    <measure>Overall survival</measure>
+    <time_frame>1 to 5 years</time_frame>
+    <description>Kaplan-Meier</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Clinical Benefit Rate</measure>
+    <time_frame>3 months</time_frame>
+    <description>according to RECIST criteria (CR + PR + SD)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Histological tumor regression according to the Peritoneal Regression Grading Score (PRGS)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>according to the Peritoneal Regression Grading Score (PRGS)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Safety according to CTCAE 4.0</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>according to CTCAE 4.0</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quality of life according to QLQ-30 of EORTC</measure>
+    <time_frame>6-18 weeks</time_frame>
+    <description>according to QLQ-30 of EORTC</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Peritoneum Cancer</condition>
+  <condition>Peritoneum Neoplasm</condition>
+  <condition>Pleural Cancer</condition>
+  <condition>Pleural Effusion</condition>
+  <condition>Pleural Mesothelioma</condition>
+  <condition>Ovarian Cancer</condition>
+  <condition>Gastric Cancer</condition>
+  <condition>Appendix Cancer</condition>
+  <condition>Pseudomyxoma Peritonei</condition>
+  <condition>Colorectal Cancer</condition>
+  <condition>Pancreas Cancer</condition>
+  <condition>Gallbladder Cancer</condition>
+  <condition>Ascites</condition>
+  <condition>CUP</condition>
+  <condition>Chemotherapeutic Toxicity</condition>
+  <intervention>
+    <intervention_type>Combination Product</intervention_type>
+    <intervention_name>PIPAC</intervention_name>
+    <description>A chemotherapeutic solution is aerosolized into the expanded abdominal cavity during laparoscopy, under pressure. This allows a relatively homogeneous repartition of the drug and an effective tissue penetration.</description>
+    <other_name>PITAC</other_name>
+    <other_name>Intraperitoneal chemotherapy</other_name>
+    <other_name>Intrathoracic chemotherapy</other_name>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Peritoneal samples
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        In the rule, pretreated patients with chemoresistant peritoneal metastasis of various
+        origins.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          -  verified peritoneal metastasis
+
+          -  colorectal cancer
+
+          -  ovarian cancer
+
+          -  gastric cancer
+
+          -  appendical cancer
+
+          -  pseudomyxoma peritonei
+
+          -  malignant mesothelioma
+
+          -  pancreatic cancer
+
+          -  gallbladder cancer
+
+          -  small bowel cancer
+
+        Exclusion criteria
+
+        - bowel obstruction
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>10 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Cedric Demtroeder, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Ruhr-University Bochum</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Sabine Rhode</last_name>
+    <phone>+49 391 67 17960</phone>
+    <email>sabine.rhode@med.ovgu.de</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Roffo Cancer Institute</name>
+      <address>
+        <city>Buenos Aires</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Laura Lay, MD</last_name>
+      <email>lauralay@ymail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Peter MacCallum Cancer Centre</name>
+      <address>
+        <city>Melbourne</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Craig Lynch, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Gent (UZ Gent)</name>
+      <address>
+        <city>Gent</city>
+        <zip>9000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Woulter Willaert, MD</last_name>
+      <email>wouter.willaert@ugent.be</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Odense</name>
+      <address>
+        <city>Odense</city>
+        <country>Denmark</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Martin Graversen, MD</last_name>
+      <email>martin.graversen@rsyd.dk</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospices civils de Lyon</name>
+      <address>
+        <city>Lyon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Olivier Glehen, MD</last_name>
+      <phone>+33 478862371</phone>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hôpital Lariboisière</name>
+      <address>
+        <city>Paris</city>
+        <zip>75010</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Clarisse Eveno, MD</last_name>
+      <phone>+33 1 49 95 25 80</phone>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Tübingen</name>
+      <address>
+        <city>Tübingen</city>
+        <zip>72076</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Verena Schlaich</last_name>
+      <phone>+4970712986722</phone>
+      <email>pipac@med.uni-tuebingen.de</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Fortis Hospital</name>
+      <address>
+        <city>Bengaluru</city>
+        <country>India</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Aditi Bhatt, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>IRCC Torino Candiolo</name>
+      <address>
+        <city>Turin</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marco Vaira, MD</last_name>
+      <email>marco.vaira@ircc.it</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>F. Łukaszczyk Oncology Centre</name>
+      <address>
+        <city>Bydgoszcz</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Maciej Nowacki, MD</last_name>
+      <email>maciej.s.nowacki@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Gersten Institute for Cancer Research</name>
+      <address>
+        <city>Moscow</city>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Vladimir Khomyakov, MD</last_name>
+      <email>vladimirkhom@mail.ru</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>National University Hospital</name>
+      <address>
+        <city>Singapore</city>
+        <country>Singapore</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Janelle Phua</last_name>
+      <email>niam_sin_phua@nuhs.edu.sg</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital de Pilar</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Juan Torrent, MD</last_name>
+      <email>juanjotorrent@yahoo.es</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Lausanne CHUV</name>
+      <address>
+        <city>Lausanne</city>
+        <zip>1011</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Martin Huebner, MD</last_name>
+      <email>chv.carcinose@chuv.ch</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Argentina</country>
+    <country>Australia</country>
+    <country>Belgium</country>
+    <country>Denmark</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>India</country>
+    <country>Italy</country>
+    <country>Poland</country>
+    <country>Russian Federation</country>
+    <country>Singapore</country>
+    <country>Spain</country>
+    <country>Switzerland</country>
+  </location_countries>
+  <reference>
+    <citation>Graversen M, Detlefsen S, Bjerregaard JK, Pfeiffer P, Mortensen MB. Peritoneal metastasis from pancreatic cancer treated with pressurized intraperitoneal aerosol chemotherapy (PIPAC). Clin Exp Metastasis. 2017 Jun;34(5):309-314. doi: 10.1007/s10585-017-9849-7. Epub 2017 May 17.</citation>
+    <PMID>28516306</PMID>
+  </reference>
+  <reference>
+    <citation>Grass F, Vuagniaux A, Teixeira-Farinha H, Lehmann K, Demartines N, Hübner M. Systematic review of pressurized intraperitoneal aerosol chemotherapy for the treatment of advanced peritoneal carcinomatosis. Br J Surg. 2017 May;104(6):669-678. doi: 10.1002/bjs.10521. Review.</citation>
+    <PMID>28407227</PMID>
+  </reference>
+  <reference>
+    <citation>Hübner M, Teixeira Farinha H, Grass F, Wolfer A, Mathevet P, Hahnloser D, Demartines N. Feasibility and Safety of Pressurized Intraperitoneal Aerosol Chemotherapy for Peritoneal Carcinomatosis: A Retrospective Cohort Study. Gastroenterol Res Pract. 2017;2017:6852749. doi: 10.1155/2017/6852749. Epub 2017 Feb 26.</citation>
+    <PMID>28331493</PMID>
+  </reference>
+  <reference>
+    <citation>Teixeira Farinha H, Grass F, Kefleyesus A, Achtari C, Romain B, Montemurro M, Demartines N, Hübner M. Impact of Pressurized Intraperitoneal Aerosol Chemotherapy on Quality of Life and Symptoms in Patients with Peritoneal Carcinomatosis: A Retrospective Cohort Study. Gastroenterol Res Pract. 2017;2017:4596176. doi: 10.1155/2017/4596176. Epub 2017 Feb 21.</citation>
+    <PMID>28316621</PMID>
+  </reference>
+  <reference>
+    <citation>Tempfer CB, Hartmann F, Hilal Z, Rezniczek GA. Intraperitoneal cisplatin and doxorubicin as maintenance chemotherapy for unresectable ovarian cancer: a case report. BMC Cancer. 2017 Jan 6;17(1):26. doi: 10.1186/s12885-016-3004-8.</citation>
+    <PMID>28061769</PMID>
+  </reference>
+  <reference>
+    <citation>Girshally R, Demtröder C, Albayrak N, Zieren J, Tempfer C, Reymond MA. Pressurized intraperitoneal aerosol chemotherapy (PIPAC) as a neoadjuvant therapy before cytoreductive surgery and hyperthermic intraperitoneal chemotherapy. World J Surg Oncol. 2016 Sep 27;14(1):253.</citation>
+    <PMID>27678344</PMID>
+  </reference>
+  <reference>
+    <citation>Graversen M, Pfeiffer P, Mortensen MB. [Treatment of peritoneal carcinomatosis with pressurized intraperitoneal aerosol chemotherapy]. Ugeskr Laeger. 2016 May 23;178(21). pii: V11150928. Danish.</citation>
+    <PMID>27237925</PMID>
+  </reference>
+  <reference>
+    <citation>Robella M, Vaira M, De Simone M. Safety and feasibility of pressurized intraperitoneal aerosol chemotherapy (PIPAC) associated with systemic chemotherapy: an innovative approach to treat peritoneal carcinomatosis. World J Surg Oncol. 2016 Apr 29;14:128. doi: 10.1186/s12957-016-0892-7.</citation>
+    <PMID>27125996</PMID>
+  </reference>
+  <reference>
+    <citation>Tempfer CB, Rezniczek GA, Ende P, Solass W, Reymond MA. Pressurized Intraperitoneal Aerosol Chemotherapy with Cisplatin and Doxorubicin in Women with Peritoneal Carcinomatosis: A Cohort Study. Anticancer Res. 2015 Dec;35(12):6723-9.</citation>
+    <PMID>26637888</PMID>
+  </reference>
+  <reference>
+    <citation>Nadiradze G, Giger-Pabst U, Zieren J, Strumberg D, Solass W, Reymond MA. Pressurized Intraperitoneal Aerosol Chemotherapy (PIPAC) with Low-Dose Cisplatin and Doxorubicin in Gastric Peritoneal Metastasis. J Gastrointest Surg. 2016 Feb;20(2):367-73. doi: 10.1007/s11605-015-2995-9. Epub 2015 Oct 28.</citation>
+    <PMID>26511950</PMID>
+  </reference>
+  <reference>
+    <citation>Demtröder C, Solass W, Zieren J, Strumberg D, Giger-Pabst U, Reymond MA. Pressurized intraperitoneal aerosol chemotherapy with oxaliplatin in colorectal peritoneal metastasis. Colorectal Dis. 2016 Apr;18(4):364-71. doi: 10.1111/codi.13130.</citation>
+    <PMID>26400556</PMID>
+  </reference>
+  <reference>
+    <citation>Hübner M, Teixeira H, Boussaha T, Cachemaille M, Lehmann K, Demartines N. [PIPAC--Pressurized intraperitoneal aerosol chemotherapy. A novel treatment for peritoneal carcinomatosis]. Rev Med Suisse. 2015 Jun 17;11(479):1325-30. French.</citation>
+    <PMID>26255492</PMID>
+  </reference>
+  <reference>
+    <citation>Odendahl K, Solass W, Demtröder C, Giger-Pabst U, Zieren J, Tempfer C, Reymond MA. Quality of life of patients with end-stage peritoneal metastasis treated with Pressurized IntraPeritoneal Aerosol Chemotherapy (PIPAC). Eur J Surg Oncol. 2015 Oct;41(10):1379-85. doi: 10.1016/j.ejso.2015.06.001. Epub 2015 Jun 21.</citation>
+    <PMID>26138283</PMID>
+  </reference>
+  <reference>
+    <citation>Tempfer CB, Solass W, Buerkle B, Reymond MA. Pressurized intraperitoneal aerosol chemotherapy (PIPAC) with cisplatin and doxorubicin in a woman with pseudomyxoma peritonei: A case report. Gynecol Oncol Rep. 2014 Oct 18;10:32-5. doi: 10.1016/j.gore.2014.10.001. eCollection 2014 Dec.</citation>
+    <PMID>26076000</PMID>
+  </reference>
+  <reference>
+    <citation>Giger-Pabst U, Solass W, Buerkle B, Reymond MA, Tempfer CB. Low-dose pressurized intraperitoneal aerosol chemotherapy (PIPAC) as an alternative therapy for ovarian cancer in an octogenarian patient. Anticancer Res. 2015 Apr;35(4):2309-14.</citation>
+    <PMID>25862894</PMID>
+  </reference>
+  <reference>
+    <citation>Tempfer CB, Winnekendonk G, Solass W, Horvat R, Giger-Pabst U, Zieren J, Rezniczek GA, Reymond MA. Pressurized intraperitoneal aerosol chemotherapy in women with recurrent ovarian cancer: A phase 2 study. Gynecol Oncol. 2015 May;137(2):223-8. doi: 10.1016/j.ygyno.2015.02.009. Epub 2015 Feb 18.</citation>
+    <PMID>25701703</PMID>
+  </reference>
+  <reference>
+    <citation>Sabaila A, Fauconnier A, Huchon C. [Pressurized intraperitoneal aerosol chemotherapy (PIPAC): a new way of administration in peritoneal carcinomatosis of ovarian cancer]. Gynecol Obstet Fertil. 2015 Jan;43(1):66-7. doi: 10.1016/j.gyobfe.2014.11.012. Epub 2014 Dec 15. French.</citation>
+    <PMID>25523545</PMID>
+  </reference>
+  <reference>
+    <citation>Tempfer CB, Solass W, Reymond MA. Pressurized intraperitoneal chemotherapy (PIPAC) in women with gynecologic malignancies: a review. Wien Med Wochenschr. 2014 Dec;164(23-24):519-28. doi: 10.1007/s10354-014-0312-y. Epub 2014 Sep 24. Review.</citation>
+    <PMID>25249025</PMID>
+  </reference>
+  <reference>
+    <citation>Tempfer CB, Celik I, Solass W, Buerkle B, Pabst UG, Zieren J, Strumberg D, Reymond MA. Activity of Pressurized Intraperitoneal Aerosol Chemotherapy (PIPAC) with cisplatin and doxorubicin in women with recurrent, platinum-resistant ovarian cancer: preliminary clinical experience. Gynecol Oncol. 2014 Feb;132(2):307-11. doi: 10.1016/j.ygyno.2013.11.022. Epub 2013 Nov 23.</citation>
+    <PMID>24275155</PMID>
+  </reference>
+  <reference>
+    <citation>Solass W, Kerb R, Mürdter T, Giger-Pabst U, Strumberg D, Tempfer C, Zieren J, Schwab M, Reymond MA. Intraperitoneal chemotherapy of peritoneal carcinomatosis using pressurized aerosol as an alternative to liquid solution: first evidence for efficacy. Ann Surg Oncol. 2014 Feb;21(2):553-9. doi: 10.1245/s10434-013-3213-1. Epub 2013 Sep 5.</citation>
+    <PMID>24006094</PMID>
+  </reference>
+  <verification_date>July 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 29, 2017</study_first_submitted>
+  <study_first_submitted_qc>July 4, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 6, 2017</study_first_posted>
+  <last_update_submitted>July 10, 2017</last_update_submitted>
+  <last_update_submitted_qc>July 10, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 13, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University of Magdeburg</investigator_affiliation>
+    <investigator_full_name>Sabine Rhode</investigator_full_name>
+    <investigator_title>Coordinator</investigator_title>
+  </responsible_party>
+  <keyword>Pressurized IntraPeritoneal Aerosol Chemotherapy</keyword>
+  <keyword>PIPAC</keyword>
+  <keyword>Pressurized IntraThoracic Aerosol Chemotherapy</keyword>
+  <keyword>PITAC</keyword>
+  <keyword>Cisplatin</keyword>
+  <keyword>Oxaliplatin</keyword>
+  <keyword>Gemcitabine</keyword>
+  <keyword>Paclitaxel</keyword>
+  <keyword>nab-Paclitaxel</keyword>
+  <keyword>Doxorubicine</keyword>
+  <keyword>Mitomycin</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Colorectal Neoplasms</mesh_term>
+    <mesh_term>Stomach Neoplasms</mesh_term>
+    <mesh_term>Mesothelioma</mesh_term>
+    <mesh_term>Pleural Effusion</mesh_term>
+    <mesh_term>Ascites</mesh_term>
+    <mesh_term>Gallbladder Neoplasms</mesh_term>
+    <mesh_term>Pancreatic Neoplasms</mesh_term>
+    <mesh_term>Pseudomyxoma Peritonei</mesh_term>
+    <mesh_term>Appendiceal Neoplasms</mesh_term>
+    <mesh_term>Peritoneal Neoplasms</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Paclitaxel</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Requests can be addressed to the Scientific Advisory Board, AnInstitut für Qualitässicherung in der operativen Medizin gGmbH, Leipziger Str. 44, 39120 MAGDEBURG, Germany</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

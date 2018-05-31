@@ -1,0 +1,386 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02832102</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H2020-PHC30-689715</org_study_id>
+    <nct_id>NCT02832102</nct_id>
+  </id_info>
+  <brief_title>Big Data and Models for Personalized Head and Neck Cancer Decision Support (BD2Decide)</brief_title>
+  <acronym>BD2Decide</acronym>
+  <official_title>Big Data and Models for Personalized Head and Neck Cancer Decision Support (BD2Decide)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Azienda Ospedaliero-Universitaria di Parma</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Fondazione IRCCS Istituto Nazionale dei Tumori, Milano</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>VU University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Heinrich-Heine University, Duesseldorf</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Maastricht Radiation Oncology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Istituto Superiore di Sanità</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Azienda Ospedaliero-Universitaria di Parma</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to determine new multiscale signatures for the prediction of
+      head and neck cancer (HNC) patients disease outcome, in particular for advanced stage (stage
+      III, IV) human papillomavirus (HPV) negative patients and to validate prognostic models for
+      overall survival.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The clinical study is devoted to the validation of a decision support system for HNC patients
+      management in the frame of a H2020 project.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>April 2016</start_date>
+  <completion_date type="Anticipated">April 2019</completion_date>
+  <primary_completion_date type="Anticipated">April 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Realizes and validates an Integrated Decision Support System (BD2Decide platform)</measure>
+    <time_frame>through study completion, an average of 3 year</time_frame>
+    <description>The primary endpoint of this study is the accuracy of the prediction of prognosis based on the BD2Decide platform compared to Tumor Node Metastasis staging (in a population consisting of patients with different subtypes of head and neck cancer).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Improved Quality of Life</measure>
+    <time_frame>baseline, month 6, month 18, month 24 after primary treatment</time_frame>
+    <description>To measure patients' QoL in relation to the new prognostic stratification</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess survival time</measure>
+    <time_frame>at 2, 3 and 5 years</time_frame>
+    <description>Overall survival and disease free survival will be assessed to verify the accuracy of the prediction of BD2Decide platform</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">1450</enrollment>
+  <condition>Cancer of Head and Neck</condition>
+  <arm_group>
+    <arm_group_label>Retrospective cohort</arm_group_label>
+    <description>A total of 1000 SCCHN patients will be enrolled in a retrospective observational study treated in the period 2008-2014.
+Standard treatment of SCCHN patients The patients will be managed as foreseen by best clinical practice and international guidelines for SCCHN.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Prospective cohort</arm_group_label>
+    <description>A total of 450 SCCHN patients will be enrolled in a study. Each participating Center will select consecutive patients according to the selection criteria (inclusion/exclusion criteria) for one year and will be followed up for two years or more.
+Standard treatment of SCCHN patients: patients will be administered current best clinical practice treatments.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Standard treatment of SCCHN patients</intervention_name>
+    <description>The interventions may include surgery, radiotherapy, chemotherapy or combined therapies, as recommended by best practice and international guidelines.</description>
+    <arm_group_label>Retrospective cohort</arm_group_label>
+    <arm_group_label>Prospective cohort</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      FFPE tumor specimens
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Prospective study cohort: A total of 450 SCCHN patients Stage III and IV, followed up for
+        18-24 months or more.
+
+        Retrospective study cohort: A total of 1000 SCCHN patients Stage III and IV, diagnosed
+        between year 2008 and 2014.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Signed informed consent
+
+          -  Histologically confirmed diagnosis of oral cavity, oropharynx, larynx, hypopharynx
+             squamous cell carcinoma
+
+          -  Clinical stage III and IV
+
+          -  Patient candidate for curative treatment: ± surgery ± radiotherapy ± chemotherapy
+
+          -  Adequate archival pre-treatment tumor specimen available (FFPE macrodissected
+             sections)
+
+          -  Availability of baseline diffusion-weighted imaging (DWI) - Magnetic Resonance Imaging
+             (MRI) acquisition (non-TRACE ) with more than 3 b-values (ranging from 0 (included) to
+             1000 s/mm2), and a field map acquisition.
+
+          -  MRI images, T1 and T2 weighted, (slice thickness lower than 3 mm), head and neck in a
+             single volume, and/or CT scan of the head and neck performed with contiguous cuts of
+             2-3 mm or less in slice thickness with i.v. contrast
+
+          -  Male or female ≥ 18 years old
+
+        Exclusion Criteria:
+
+          -  Any previous haed and neck cancer.
+
+          -  Patients with previous malignancies in the last 5 years before treatment for head and
+             neck cancer, with the exception of surgically cured carcinoma in situ of the cervix,
+             in situ breast cancer, incidental finding of stage T1a or T1b prostate cancer, and
+             basal/squamous cell carcinoma of the skin.
+
+          -  Any previous malignancy that was treated with surgery and or radiation of the head and
+             neck region.
+
+          -  Histological type other than head and neck squamous cell cancer (nasopharynx, salivary
+             glands and sinus nasal cancer are excluded).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Tito Poli, MD, PHD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Azienda Ospedaliero-Universitaria di Parma</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Tito Poli, MD, PhD</last_name>
+    <phone>+39052170</phone>
+    <phone_ext>3613</phone_ext>
+    <email>tito.poli@unipr.it</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Lisa Licitra, MD, PhD</last_name>
+    <phone>+39 022390</phone>
+    <phone_ext>2150</phone_ext>
+    <email>lisa.licitra@istitutotumori.mi.it</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Heinrich-Heine Universitaet Dusseldorf, Dept. of Othorinolaryngology, HHU</name>
+      <address>
+        <city>Dusseldorf</city>
+        <zip>40225</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kathrin Scheckenbach, MD, PhD</last_name>
+      <phone>+4981211811</phone>
+      <phone_ext>7570</phone_ext>
+      <email>Scheckenbach@med.uni-duesseldorf.de</email>
+    </contact>
+    <contact_backup>
+      <last_name>Lena Colter, MD, PhD</last_name>
+      <email>Lena.Colter@med.uni-duesseldorf.de</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Kathrin Scheckenbach, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jörg Schipper, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lena Colter, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Fondazione Irccs Istituto Dei Tumori Milano</name>
+      <address>
+        <city>Milan</city>
+        <state>MI</state>
+        <zip>20133</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>LISA LICITRA, MD, PhD</last_name>
+      <phone>+39 022390</phone>
+      <phone_ext>2150</phone_ext>
+      <email>lisa.licitra@istitutotumori.mi.it</email>
+    </contact>
+    <contact_backup>
+      <last_name>Federica Favales</last_name>
+      <phone>+39 022390</phone>
+      <phone_ext>3287</phone_ext>
+      <email>federica.favales@istitutotumori.mi.it</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Lisa Licitra, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Gemma Gatta, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Federica Favales, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Annalisa Trama, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Loris De Cecco, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Azienda Ospedaliero Universitaria di Parma</name>
+      <address>
+        <city>Parma</city>
+        <state>PR</state>
+        <zip>43100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>TITO POLI, MD, PhD</last_name>
+      <phone>+390521703109</phone>
+      <email>tito.poli@unipr.it</email>
+    </contact>
+    <contact_backup>
+      <last_name>Davide Lanfranco, MD, PhD</last_name>
+      <phone>+390521703109</phone>
+      <email>lanfranco82@yahoo.it</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Enrico M Silini, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Tito Poli, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Giuseppe Maglietta, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Caterina Caminiti, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Stichting VU/VUmc</name>
+      <address>
+        <city>Amsterdam</city>
+        <zip>1081 HV</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Maastricht Radiation Oncology MAASTRO Clinic</name>
+      <address>
+        <city>Maastricht</city>
+        <zip>6229 ET</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Philippe lambin, MD, PhD</last_name>
+      <phone>+31 88 445 5585</phone>
+      <email>philippe.lambin@maastro.nl</email>
+    </contact>
+    <contact_backup>
+      <last_name>Frank Hoebers, MD, PhD</last_name>
+      <phone>+31 88 4455666</phone>
+      <email>frank.hoebers@maastro.nl</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Philippe lambin, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Frank Hoebers, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Adriana Berlanga, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+    <country>Italy</country>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>July 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 1, 2016</study_first_submitted>
+  <study_first_submitted_qc>July 11, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 14, 2016</study_first_posted>
+  <last_update_submitted>July 11, 2016</last_update_submitted>
+  <last_update_submitted_qc>July 11, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 14, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Azienda Ospedaliero-Universitaria di Parma</investigator_affiliation>
+    <investigator_full_name>Tito Poli</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>prognostic modelling</keyword>
+  <keyword>radiomics</keyword>
+  <keyword>clinical decision support system</keyword>
+  <keyword>big data analysis</keyword>
+  <keyword>multiscale prognostic signatures</keyword>
+  <keyword>patient-clinician co-decision tools</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Head and Neck Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Patients' data are pseudonymised and stored in a shared Case Report Form (CRF) for data analysis</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

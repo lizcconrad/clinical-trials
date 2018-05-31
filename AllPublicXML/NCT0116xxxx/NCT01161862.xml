@@ -1,0 +1,1077 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01161862</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H-29293</org_study_id>
+    <secondary_id>1R01DK085633-01</secondary_id>
+    <nct_id>NCT01161862</nct_id>
+  </id_info>
+  <brief_title>Integration of Continuous Glucose Monitoring Into a BiHormonal Closed-Loop Artificial Pancreas</brief_title>
+  <acronym>CL2</acronym>
+  <official_title>Integration of Continuous Glucose Monitoring Into a Bi-Hormonal Closed-Loop Artificial Pancreas for Automated Management of Type 1 Diabetes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Boston University Charles River Campus</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Massachusetts General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Juvenile Diabetes Research Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Leona M. and Harry B. Helmsley Charitable Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Boston University Charles River Campus</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators hypothesize that our closed-loop glucose-control system can provide BG
+      control in subjects with type 1 diabetes using the estimated BG signal from a CGM as the
+      input signal to the controller.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      To test the safety and efficacy of our control system in the bi-hormonal configuration in
+      regulating BG in adults (18 years of age or older) and in children (12-17 years of age) with
+      type 1 diabetes based on interstitial-fluid (ISF) glucose data from a CGM. Experiments will
+      be 51 hours in length incorporating 6 meals and two (night) sleep periods. In order to
+      evaluate the effect of exercise on BG control, the last 48 hours of the experiment will be
+      divided into two 24 hour blocks, the second of which will contain a period of structured
+      exercise near the beginning of the block.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2010</start_date>
+  <completion_date type="Actual">June 2013</completion_date>
+  <primary_completion_date type="Actual">December 2012</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mean Plasma Blood Glucose Achieved by the Bionic Pancreas (mg/dl)</measure>
+    <time_frame>48 hours</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Time Spent With Blood Glucose &lt; 60 mg/dl</measure>
+    <time_frame>48 hours</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Time Spent With Blood Glucose &lt;70 mg/dl</measure>
+    <time_frame>48 hours</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Time Spent With Blood Glucose 70-180 mg/dl</measure>
+    <time_frame>48 hours</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Insulin Total Daily Dose</measure>
+    <time_frame>48 hours</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Carbohydrate Interventions for Hypoglycemia</measure>
+    <time_frame>48 hours</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Blood Glucose Events &lt; 70 mg/dl</measure>
+    <time_frame>48 hours</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Nadir Blood Glucose in Each Arm</measure>
+    <time_frame>48 hours</time_frame>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">24</enrollment>
+  <condition>Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Bi-hormonal with meal-priming bolus</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The first meal-priming bolus was solely based on weight (0.05 U/kg), after which meal-priming boluses were automatically adapted by the control system online targeting 75% of the anticipated insulin needed in the first four hours after the start of the meal</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Bi-hormonal without meal-priming bolus</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The insulin controller was entirely reactive to CGMG; there were no meal priming boluses and no meal announcements</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Bi-hormonal (insulin and glucagon) artificial pancreas</intervention_name>
+    <description>Subjects wore a bionic pancreas consisting of a continuous glucose monitor, an insulin pump and a glucagon pump</description>
+    <arm_group_label>Bi-hormonal with meal-priming bolus</arm_group_label>
+    <arm_group_label>Bi-hormonal without meal-priming bolus</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age 12 years or older with clinical type 1 diabetes for at least one year
+
+          -  Weight &gt; 41 kg
+
+          -  Otherwise healthy (mild chronic disease allowed if well controlled)
+
+          -  Diabetes managed using an insulin infusion pump and rapid- or very-rapid-acting
+             insulins
+
+          -  Body mass index (BMI) between 20 and 35 for subjects &gt;18 years of age or BMI between
+             the 5th and 95th percentile for age for subjects &lt; 18 years of age
+
+          -  Total daily dose (TDD) of insulin that is &lt; 1 U/kg
+
+          -  Stimulated C-peptide &lt; 0.1 nmol/L at 90 minutes after liquid mixed meal by DCCT
+             protocol
+
+          -  Hemoglobin A1c &lt;= 9%
+
+          -  Prescription medication regimen stable for 1 month
+
+        Exclusion Criteria:
+
+          -  Unable to provide informed consent for subjects &gt; 18 years of age or unable to provide
+             assent if &lt; 18 years of age
+
+          -  Unable to comply with study procedures
+
+          -  Current participation in another diabetes-related clinical trial other than one that
+             is primarily observational in nature. Potential subjects enrolled in trials of passive
+             monitoring equipment are not excluded.
+
+          -  Anemia (HCT less than normal for age and sex)
+
+          -  Alanine aminotransferase &gt; 3 fold above upper limit of normal
+
+          -  Untreated or inadequately treated hyperthyroidism or hypothyroidism
+
+          -  Pregnancy
+
+          -  Renal insufficiency (creatinine clearance ≤ 50 ml/min)
+
+          -  Any known history of coronary artery disease
+
+          -  Abnormal EKG including, but not limited to evidence of active ischemia, prior
+             myocardial infarction, proximal LAD critical stenosis (Wellen's sign), arrhythmia,
+             tachycardia, and prolonged QT interval (&gt; 440 ms)
+
+          -  Congestive heart failure
+
+          -  History of TIA or stroke
+
+          -  Acute illness or exacerbation of chronic illness
+
+          -  History of seizures
+
+          -  History of pheochromocytoma (fractionated metanephrines will be tested in patients
+             with history suggestive of pheochromocytoma)
+
+          -  History of adrenal disease or tumor
+
+          -  History of pancreatic tumor, including insulinoma
+
+          -  History of impaired gastric motility or gastroparesis requiring pharmacological or
+             surgical treatment
+
+          -  Current alcohol abuse (intake averaging &gt; 3 drinks daily in last 30 days) or substance
+             abuse (any use within the last 6 months of controlled substances without a
+             prescription)
+
+          -  Untreated or inadequately treated mental illness (indicators would include symptoms
+             such as psychosis, hallucinations, mania, and any psychiatric hospitalization in the
+             last year)
+
+          -  Impaired cognition or altered mental status.
+
+          -  Hypertension (blood pressure &gt; 140/90 or &gt; 95% for age, height and weight in subjects
+             &lt; 18 years of age) at the time of screening
+
+          -  Use of medications that reduce gastric motility (e.g. narcotics, anti-spasmodics,
+             anticholinergics).
+
+          -  Electrically powered implants (e.g. cochlear implants, neurostimulators) that might be
+             susceptible to RF interference
+
+          -  Use non-insulin, injectable anti-diabetic medications
+
+          -  History of adverse reaction to glucagon (including allergy) besides nausea and
+             vomiting.
+
+          -  Established history of latex, adhesive, or tape allergy
+
+          -  Inadequate venous access
+
+          -  History of allergy to aspirin or any history of aspirin intolerance, including Reye
+             syndrome, or gastric ulcer or bleeding associated with salicylates
+
+          -  Blood dyscrasia or bleeding diathesis, such as hemophilia, Von Willebrands disorder,
+             and idiopathic thrombocytopenic purpura (ITP)
+
+          -  Peptic ulcer
+
+          -  Unable to perform 30 minutes of moderate exercise on a treadmill or exercise bicycle
+
+          -  Unable or unwilling to discontinue dietary supplements for at least 2 weeks prior to
+             each CRC admission
+
+          -  History of celiac disease
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>12 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Steven J Russell, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Massachusetts General Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Massachusetts General Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.artificialpancreas.org</url>
+  </link>
+  <verification_date>October 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 12, 2010</study_first_submitted>
+  <study_first_submitted_qc>July 13, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 14, 2010</study_first_posted>
+  <results_first_submitted>October 31, 2016</results_first_submitted>
+  <results_first_submitted_qc>October 13, 2017</results_first_submitted_qc>
+  <results_first_posted type="Actual">November 14, 2017</results_first_posted>
+  <last_update_submitted>October 13, 2017</last_update_submitted>
+  <last_update_submitted_qc>October 13, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 14, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Boston University</investigator_affiliation>
+    <investigator_full_name>Edward R. Damiano</investigator_full_name>
+    <investigator_title>Associate Professor of Biomedical Engineering</investigator_title>
+  </responsible_party>
+  <keyword>Closed-loop</keyword>
+  <keyword>Artificial pancreas</keyword>
+  <keyword>Bi-hormonal</keyword>
+  <keyword>Insulin</keyword>
+  <keyword>Glucagon</keyword>
+  <keyword>Diabetes mellitus type 1</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+    <mesh_term>Pancrelipase</mesh_term>
+    <mesh_term>Pancreatin</mesh_term>
+    <mesh_term>Glucagon</mesh_term>
+    <mesh_term>Glucagon-Like Peptide 1</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Twelve adult and twelve pediatric subjects with type 1 diabetes and no endogenous insulin secretion participated in two 51-h experiments. The protocol was approved by the Massachusetts General Hospital (MGH) and Boston University Human Research Committees</recruitment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Bi-hormonal Bionic Pancreas With Meal-priming Bolus</title>
+          <description>The first meal-priming bolus was solely based on weight (0.05 U/kg), after which meal-priming boluses were automatically adapted by the control system online targeting 75% of the anticipated insulin needed in the first four hours after the start of the meal.</description>
+        </group>
+        <group group_id="P2">
+          <title>Bi-hormonal Bionic Pancreas With no Meal-priming Bolus</title>
+          <description>Bi-hormonal bionic pancreas with no meal-priming bolus. The controller was entirely reactive to CGMG; there were no meal priming boluses and no meal announcements</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="12"/>
+                <participants group_id="P2" count="12"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="12"/>
+                <participants group_id="P2" count="12"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Bi-hormonal Pancreas With Meal-priming Bolus</title>
+          <description>An automatically adapting meal priming bolus was given by the controller at the time each meal was presented</description>
+        </group>
+        <group group_id="B2">
+          <title>Bi-hormonal Pancreas Without Meal-priming Bolus</title>
+          <description>The insulin controller was entirely reactive to CGMG; there were no meal priming boluses and no meal announcements</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="12"/>
+            <count group_id="B2" value="12"/>
+            <count group_id="B3" value="24"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                    <measurement group_id="B2" value="6"/>
+                    <measurement group_id="B3" value="12"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                    <measurement group_id="B2" value="5"/>
+                    <measurement group_id="B3" value="11"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="30" spread="17.7"/>
+                    <measurement group_id="B2" value="30.5" spread="19.0"/>
+                    <measurement group_id="B3" value="30" spread="18"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                    <measurement group_id="B2" value="8"/>
+                    <measurement group_id="B3" value="15"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                    <measurement group_id="B2" value="12"/>
+                    <measurement group_id="B3" value="24"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Mean Plasma Blood Glucose Achieved by the Bionic Pancreas (mg/dl)</title>
+        <time_frame>48 hours</time_frame>
+        <population>Overall number of participants was 24, 12 in each arm</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Bionic Pancreas With Automated Meal-priming Bolus</title>
+            <description>Bi-hormonal bionic pancreas
+Bi-hormonal (insulin and glucagon) artificial pancreas</description>
+          </group>
+          <group group_id="O2">
+            <title>Bionic Pancreas Without Automated Meal-priming Bolus</title>
+          </group>
+        </group_list>
+        <measure>
+          <title>Mean Plasma Blood Glucose Achieved by the Bionic Pancreas (mg/dl)</title>
+          <population>Overall number of participants was 24, 12 in each arm</population>
+          <units>mg/dl</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="12"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Adults</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="6"/>
+                    <count group_id="O2" value="6"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="132" spread="3"/>
+                    <measurement group_id="O2" value="146" spread="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Adolescents</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="6"/>
+                    <count group_id="O2" value="6"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="162" spread="6"/>
+                    <measurement group_id="O2" value="175" spread="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percentage of Time Spent With Blood Glucose &lt; 60 mg/dl</title>
+        <time_frame>48 hours</time_frame>
+        <population>Overall number of participants=24 (12 in each arm)</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Bionic Pancreas With Automated Meal-priming Bolus</title>
+            <description>Bi-hormonal bionic pancreas
+Bi-hormonal (insulin and glucagon) artificial pancreas</description>
+          </group>
+          <group group_id="O2">
+            <title>Bionic Pancreas Without Automated Meal-priming Bolus</title>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Time Spent With Blood Glucose &lt; 60 mg/dl</title>
+          <population>Overall number of participants=24 (12 in each arm)</population>
+          <units>percentage of total time</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="12"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Adults</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="6"/>
+                    <count group_id="O2" value="6"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.3" spread="3.9"/>
+                    <measurement group_id="O2" value="1.4" spread="2.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Adolescents</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="6"/>
+                    <count group_id="O2" value="6"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.1" spread="0.2"/>
+                    <measurement group_id="O2" value="0.1" spread="0.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percentage of Time Spent With Blood Glucose &lt;70 mg/dl</title>
+        <time_frame>48 hours</time_frame>
+        <population>Overall number of participants=24 (12 in each arm)</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Bionic Pancreas With Automated Meal-priming Bolus</title>
+            <description>Bi-hormonal bionic pancreas
+Bi-hormonal (insulin and glucagon) artificial pancreas</description>
+          </group>
+          <group group_id="O2">
+            <title>Bionic Pancreas Without Automated Meal-priming Bolus</title>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Time Spent With Blood Glucose &lt;70 mg/dl</title>
+          <population>Overall number of participants=24 (12 in each arm)</population>
+          <units>percentage of total time</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="12"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Adults</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="6"/>
+                    <count group_id="O2" value="6"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.1" spread="6.7"/>
+                    <measurement group_id="O2" value="3.6" spread="4.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Adolescents</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="6"/>
+                    <count group_id="O2" value="6"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.3" spread="0.5"/>
+                    <measurement group_id="O2" value="0.4" spread="0.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percentage of Time Spent With Blood Glucose 70-180 mg/dl</title>
+        <time_frame>48 hours</time_frame>
+        <population>Overall number of participants=24 (12 in each arm)</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Bionic Pancreas With Automated Meal-priming Bolus</title>
+            <description>Bi-hormonal bionic pancreas
+Bi-hormonal (insulin and glucagon) artificial pancreas</description>
+          </group>
+          <group group_id="O2">
+            <title>Bionic Pancreas Without Automated Meal-priming Bolus</title>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Time Spent With Blood Glucose 70-180 mg/dl</title>
+          <population>Overall number of participants=24 (12 in each arm)</population>
+          <units>percentage of total time</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="12"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Adults</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="6"/>
+                    <count group_id="O2" value="6"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="80" spread="6"/>
+                    <measurement group_id="O2" value="70" spread="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Adolescents</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="6"/>
+                    <count group_id="O2" value="6"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="68" spread="8"/>
+                    <measurement group_id="O2" value="60" spread="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Insulin Total Daily Dose</title>
+        <time_frame>48 hours</time_frame>
+        <population>Overall number of participants=24 (12 in each arm)</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Bionic Pancreas With Automated Meal-priming Bolus</title>
+            <description>Bi-hormonal bionic pancreas
+Bi-hormonal (insulin and glucagon) artificial pancreas</description>
+          </group>
+          <group group_id="O2">
+            <title>Bionic Pancreas Without Automated Meal-priming Bolus</title>
+          </group>
+        </group_list>
+        <measure>
+          <title>Insulin Total Daily Dose</title>
+          <population>Overall number of participants=24 (12 in each arm)</population>
+          <units>u/kg/day</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="12"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Adults</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="6"/>
+                    <count group_id="O2" value="6"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.6" spread="0.2"/>
+                    <measurement group_id="O2" value="0.7" spread="0.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Adolescents</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="6"/>
+                    <count group_id="O2" value="6"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.1" spread="0.2"/>
+                    <measurement group_id="O2" value="1.2" spread="0.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Carbohydrate Interventions for Hypoglycemia</title>
+        <time_frame>48 hours</time_frame>
+        <population>Overall number of participants=24 (12 in each arm)</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Bi-hormonal With Meal Priming Bolus</title>
+            <description>Bi-hormonal bionic pancreas
+Bi-hormonal (insulin and glucagon) artificial pancreas</description>
+          </group>
+          <group group_id="O2">
+            <title>Bi-hormonal Without Meal Priming Bolus</title>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Carbohydrate Interventions for Hypoglycemia</title>
+          <population>Overall number of participants=24 (12 in each arm)</population>
+          <units>Carbohydrate Interventions</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="12"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="12"/>
+                    <measurement group_id="O2" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Blood Glucose Events &lt; 70 mg/dl</title>
+        <time_frame>48 hours</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Bi-hormonal With Meal Priming Bolus</title>
+            <description>Bi-hormonal bionic pancreas
+Bi-hormonal (insulin and glucagon) artificial pancreas</description>
+          </group>
+          <group group_id="O2">
+            <title>Bi-hormonal Without Meal Priming Bolus</title>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Blood Glucose Events &lt; 70 mg/dl</title>
+          <units>Number of events</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="12"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="59"/>
+                    <measurement group_id="O2" value="48"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Nadir Blood Glucose in Each Arm</title>
+        <time_frame>48 hours</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Bionic Pancreas With Automated Meal-priming Bolus</title>
+            <description>Bi-hormonal bionic pancreas
+Bi-hormonal (insulin and glucagon) artificial pancreas</description>
+          </group>
+          <group group_id="O2">
+            <title>Bionic Pancreas Without Automated Meal-priming Bolus</title>
+            <description>Bi-hormonal bionic pancreas
+Bi-hormonal (insulin and glucagon) artificial pancreas</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Nadir Blood Glucose in Each Arm</title>
+          <units>mg/dl</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="12"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="65.9" spread="17.4"/>
+                    <measurement group_id="O2" value="66.4" spread="17.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>51 hours per experiment</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Bi-hormonal With Meal Priming Bolus</title>
+          <description>Bi-hormonal with adaptive meal priming bolus</description>
+        </group>
+        <group group_id="E2">
+          <title>Bi-hormonal Without Meal Priming Bolus</title>
+          <description>Bi-hormonal with no meal announcements or meal priming boluses</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="12"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Nausea</sub_title>
+                <description>The subject with the slowest insulin absorption and who received the most glucagon reported nausea on several occasions. However, the timing of these symptoms did not correspond to periods of high plasma glucagon levels</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="12"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Edward R. Damiano</name_or_title>
+      <organization>Department of Biomedical Engineering, Boston University, Boston, Massachusetts.</organization>
+      <phone>(617) 353-9493</phone>
+      <email>edamiano@bu.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

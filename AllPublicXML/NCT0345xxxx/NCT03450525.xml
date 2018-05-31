@@ -1,0 +1,313 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03450525</url>
+  </required_header>
+  <id_info>
+    <org_study_id>g-corfitzen-201802231455</org_study_id>
+    <nct_id>NCT03450525</nct_id>
+  </id_info>
+  <brief_title>The Predictive Performance of Glasgow Coma Scale in Relation to Time</brief_title>
+  <official_title>Is the Predictive Value of Glasgow Coma Scale Affected by the Timing of Its Measurement in Adult Patients With Traumatic Brain Injury?</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Karolinska Institutet</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Karolinska Institutet</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study aims to assess whether time between injury and first Glasgow Coma Scale measurement
+      will affect its predictive value.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background
+
+      Trauma is a critical global public health concern and the number of fatalities as a result of
+      trauma continues to increase globally. In 2016 more than 4,6 million deaths were the result
+      of trauma making it the 8th leading cause of death. In the Global Burden and Disease study
+      (GBD), traumatic injuries account for nearly one-tenth of all deaths, more than malaria,
+      tuberculosis, HIV/AIDS and maternal conditions combined.
+
+      TBI is defined as brain injury caused by trauma, trauma being defined as damage inflicted on
+      the body as the direct or indirect result of an external force, with or without disruption of
+      structural continuity. Traumatic brain injury (TBI) is a leading cause of morbidity and
+      mortality globally. It is the largest contributor to trauma deaths in the world, having three
+      times higher mortality rate than trauma without accompanied TBI. It is estimated that TBI
+      affects more than 10 million people annually.
+
+      To guide physicians in diagnostics and resuscitation regimes, prognostic models predicting
+      TBI severity and outcome are of great importance. The Glasgow Coma Scale (GCS) is one of the
+      most widely used prognostic model. It is a neurological scale developed to assess the
+      response to stimuli in patients with craniocerebral injuries by using three parameters; eye
+      opening, verbal response and motor response. It has been used to assess level of
+      consciousness in both clinical practice and neurotrauma research. The GCS Score, the sum of
+      the three parameters used in GCS is used to assess severity, ranging from mild, moderate to
+      severe.
+
+      Several studies have researched the prognostic value of GCS and the prognostic value of GCS
+      individual components, but little is known about how the relationship of time between injury
+      and first GCS affects the predictive value of GCS. Studies have shown that GCS measured on
+      admission to trauma care is more predictive than GCS measured at the trauma site, and that
+      the median GCS on admission is higher than the median GCS at trauma site but if and how time
+      affects GCS scores has not been studied.
+
+      Aim
+
+      The aim of this study is to assess how the timing of measuring GCS affects its predictive
+      value after traumatic brain injury (TBI) in adult patients. The first objective is to assess
+      if the predictive performance of GCS is improved if adjusted for time from injury to when it
+      was recorded. The second objective is to assess if the predictive performance of GCS varies
+      depending on when it was recorded.
+
+      Study Design
+
+      This is a retrospective analysis of the cohort study Towards Improved Trauma Care Outcomes in
+      India (TITCO).
+
+      Setting
+
+      The de-identified TITCO cohort will be used. This cohort includes 16,000 patients enrolled
+      between July 2013 and December 2015 from four university hospitals in India. Project
+      officers, holding a health science master degree, collected data prospectively on admission
+      at each site by direct observation of the emergency room and filling out a standardized form.
+      The project officers worked in rotating eight-hour shifts (morning, evening, night). Data was
+      also retrieved retrospectively from patient records for patients admitted outside the
+      observed shifts.
+
+      Source and method of participant selection
+
+      The one-site project officer included patients from participating hospitals, either by
+      prospective observation or by retrospective data retrieval from patient records.
+
+      Explanatory variables The two explanatory variables of interest will be GCS and time between
+      injury and GCS recording in hours, henceforth referred to as time to GCS. GCS was extracted
+      from patient records as was the date and time of first GCS recorded. If date and time of
+      first GCS recording are missing date then time of arrival to the participating centre will be
+      used instead. Date and time of injury were extracted from patient records or directly
+      reported by participants. Data and time of first GCS recording or arrival to participating
+      centre were extracted from patient records.
+
+      Covariates The variables age, sex, mechanism of injury, whether the patient was transferred
+      from another health facility, and anatomical injury severity quantified using the injury
+      severity score (ISS) will be reported to characterise the study sample. Age, sex, mechanism
+      of injury and transfer status were either extracted from patient records or reported by
+      participants. ISS was calculated by a single accredited coder based on injury text
+      descriptions.
+
+      Bias
+
+      To account for human errors in recording GCS, Aal data collector observers were holders of
+      health science master degrees and were continually trained and supervised throughout the data
+      collection period.
+
+      Quantitative variables
+
+      GCS will be treated both as a linear term and as an ordinal variable with 12 levels. The
+      non-testable levels of the verbal and eye components will be treated as 1. Time between
+      injury and recorded GCS will be treated both as a continuous variable and a categorical
+      variable. When treated as continuous time between injury and GCS will be allowed to have a
+      non-linear association with mortality by modelling it using restricted cubic splines with
+      three knots placed at equally spaced percentiles. When treated as categorical it will be
+      divided into blocks of two hours.
+
+      Statistical methods
+
+      All analyses will be conducted in the statistical language and programming environment R. The
+      sample will first be temporally split into training and validation samples as outlined in the
+      study size section below. Each sample will then be characterised using medians and
+      inter-quartile ranges (IQR) to present quantitative variables and counts and percentages to
+      present qualitative variables.
+
+      In the training sample four simple prediction models will be fit using logistic regression
+      with mortality as the outcome. The first model will include only GCS as a linear term, the
+      second GCS as a linear term and time to GCS modelled using restricted cubic splines, the
+      third only GCS as an ordinal variable, and the fourth model GCS as an ordinal variable and
+      time to GCS modelled using restricted cubic splines. To avoid overfitting a shrinkage factor
+      will be estimated using a bootstrapping procedure which will then be applied to the model
+      coefficients.
+
+      The four models will then be applied in the validation sample and their predictive
+      performance estimated and compared. Predictive performance of each model will be evaluated
+      using the area under the receiver operating characteristics curve (AUROCC), positive and
+      negative predictive values. Differences in predictive performance between models and
+      associated 95% confidence intervals will be estimated using bootstrapping.
+
+      Each of the training and validation samples will then be divided into subsamples based on
+      time to GCS, so that the first subsample includes patients with time to GCS &lt; 2 hours and the
+      second subsample includes patients with time to GCS between two and four hours and so on in
+      blocks of two hours. In each of the training subsamples a simple logistic model will be fit
+      including GCS as a linear term as the only independent variable. The coefficient of GCS in
+      each model will be shrunk.
+
+      The model developed in the first training subsample will then be applied to the first
+      validation subsample and so on. Model performance in each validation subsamples will be
+      evaluated using AUROCC and root mean square error. The trend in these measures across
+      validation subsamples will then be quantified using a simple generalised linear model with
+      performance measure data as the outcome variable and a nonlinear transformation of block
+      index number using restricted cubic splines with three knots as the only independent
+      variable.
+
+      Strategy to handle missing data
+
+      If the required sample size is reached if only patients with complete data on the outcome,
+      explanatory variable, and covariates are included then a complete case analysis will be
+      conducted. If not then missing data will be handled with multiple imputation using chained
+      equations. The number of imputed datasets will be equal to the percentage of incomplete
+      observations. The analysis will be conducted separately in each imputed dataset and the main
+      results presented as medians with IQR across imputations. For confidence intervals the most
+      extreme values of pooled upper and lower bounds will be reported.
+
+      Study size
+
+      The most data intensive analysis is likely to be fitting the model with GCS as an ordinal
+      variable and time to GCS as restricted cubic splines and therefore the study size is
+      estimated to accommodate this analysis. Simulation studies indicate that logistic regression
+      models need at least ten events, or observations with the outcome, per included parameter to
+      generate reliable coefficient estimates. Modelling GCS as an ordinal variable will involve
+      estimating coefficients for eleven parameters and including time to GCS adds two additional
+      parameters. The total number of parameters is then 13, indicating a need for at least 130
+      events. Assuming an outcome prevalence of 20% based on previous research the training sample
+      needs to include at least 650 observations. If this number is less than half of the complete
+      sample then the training and validation samples will be generated by splitting the complete
+      sample in two parts of equal size. If the complete sample includes less than 1300
+      observations the first 650 observations will be included in the training sample and the
+      remaining observations will be included in the validation sample. Regardless, the samples
+      will be created in such a way that the relative contribution of each centre is approximately
+      the same in both samples.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">January 15, 2018</start_date>
+  <completion_date type="Anticipated">December 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Death within 30 days of injury</measure>
+    <time_frame>30 days</time_frame>
+    <description>Patients discharged alive before 30 days were considered alive at 30 days after injury.</description>
+  </primary_outcome>
+  <enrollment type="Actual">16000</enrollment>
+  <condition>Trauma</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No intervention</intervention_name>
+    <description>No intervention</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult trauma patients with TBI admitted to four public university hospitals in urban India
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  History of trauma (road traffic injury, railway injury, fall, assault or burns)
+
+          -  ≥ 15 years old
+
+          -  Patients presenting with TBI. TBI being defined as having any of the ICD codes
+             S02.0-1, S02.8-9, S04.0-9, S06.0-9, S07.0-1, S07.8-9, S09.8-9.0.
+
+        Exclusion criteria:
+
+          -  Dead on arrival
+
+          -  Isolated limb injury
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>15 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>AIIMS Jai Prakash Narayan Apex Trauma Center</name>
+      <address>
+        <city>New Delhi</city>
+        <state>Delhi</state>
+        <zip>110029</zip>
+        <country>India</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>King Edward Memorial Hospital and Seth Gordhandas Sunderdas Medical College</name>
+      <address>
+        <city>Mumbai</city>
+        <state>Maharashtra</state>
+        <zip>400012</zip>
+        <country>India</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Lokmanya Tilak Municipal General Hospital</name>
+      <address>
+        <city>Mumbai</city>
+        <state>Maharashtra</state>
+        <zip>400022</zip>
+        <country>India</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Institute of Post-Graduate Medical Education and Research and Seth Sukhlal Karnani Memorial Hospital</name>
+      <address>
+        <city>Kolkata</city>
+        <state>West Bengal</state>
+        <zip>700020</zip>
+        <country>India</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>India</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 23, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 23, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 1, 2018</study_first_posted>
+  <last_update_submitted>March 19, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 19, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 20, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Karolinska Institutet</investigator_affiliation>
+    <investigator_full_name>Martin Gerdin</investigator_full_name>
+    <investigator_title>Researcher</investigator_title>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

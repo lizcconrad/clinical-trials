@@ -1,0 +1,218 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00810420</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Hyposafe-hypo-01</org_study_id>
+    <nct_id>NCT00810420</nct_id>
+  </id_info>
+  <brief_title>EEG-Changes During Insulininduced Hypoglycemia in Type 1 Diabetes</brief_title>
+  <official_title>EEG-Changes During Insulininduced Hypoglycemia in Type 1 Diabetes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>UNEEG Medical A/S</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>UNEEG Medical A/S</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this study is based on recent pilot studies carried out at Odense University
+      Hospital showing that the acute changes in electroencephalographic (EEG) signals (i.e.
+      electrical activity inthe brain) elicited by insulin-induced hypoglycemia in patients with
+      type 1 diabetes can be reliable detected by real-time processing of these EEG signals using
+      mathematical algorithms and state of the art noise and artifact reduction. These preliminary
+      results also showed that the hypoglycemia-induced EEG changes are detectable 15-30 min before
+      deterioration in cognitive function impedes an adequate response to warning. We hypothesize
+      that these observations apply to the majority of patients with type 1 diabetes, and
+      therefore, that it is possible to develop an automated device to detect hypoglycemic episodes
+      by continuous real-time monitoring and processing of EEG signals. To test our hypothesis, the
+      specific aims of the present proposal are:
+
+        1. Detection of hypoglycemia-induced EEG changes using subcutaneous electrodes
+
+        2. Ambulatory EEG monitoring using subcutaneous electrodes
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The near-normalization of glycemic control has become an established treatment goal in
+      diabetes in order to reduce late complications such as nephropathy, neuropathy, retinopathy
+      and cardiovascular disease (1,2). However, the frequency of insulin-induced hypoglycemia
+      increases several-fold during intensified insulin therapy (2,3). Thus, hypoglycemia is the
+      most common acute complication in the treatment of diabetes with insulin. During hypoglycemia
+      the cognitive function is disturbed, and may progress to unconsciousness and seizures. This
+      can lead to high-risk situations, e.g. while driving or operating a machine. Estimates of
+      deaths in patients with type 1 diabetes attributed to hypoglycemia vary between 2% and 6%
+      (4,5). Moreover, the risk of hypoglycemia limits everyday activities of diabetic patients
+      decreasing their quality of life. It is therefore not surprising that hypoglycemia is the
+      most feared acute complication of insulin therapy in diabetic patients. This fear of
+      hypoglycemia discourages diabetic subjects from attempting to maintain tight glycemic
+      control, which in turn leads to a higher incidence of late complications and consequently
+      increased mortality rate (1,6,7) In the first years of type 1 diabetes, most patients are
+      able to sense the characteristic symptoms of hypoglycemia, which can then be relieved by
+      consuming appropriate food. The symptoms of hypoglycemia can roughly be classified as
+      autonomic (warning) symptoms caused by the release of catecholamines, and neuroglycopenic
+      symptoms caused by the lack of glucose in the brain. In many patients symptoms are often
+      compromised at night (nocturnal asymptomatic hypoglycemia) due to impaired glucose
+      counterregulatory response by adrenaline and glucagon. The chronic form of hypoglycemia
+      unawareness is very common. A quarter of all insulin-treated diabetic patients have some
+      degree of diminished symptomatic awareness, but this proportion increases to almost 50% in
+      patients who have had diabetes for more than 20 years (8). Strict control of diabetes by
+      intensive insulin therapy is associated with increased risk of the hypoglycemia unawareness
+      syndrome with loss of autonomic warning symptoms (2,6,9). This seems to involve diminished
+      hormonal glucose counterregulation due to recurrent hypoglycemic episodes (6,9).
+
+      For these reasons, a number of studies have been carried out with the aim of developing
+      automatic detection systems, which can warn the diabetic patients before blood glucose levels
+      are reduced to the level at which severe neuroglycopenia develops, typically about 2.0-2.5
+      mmol/l. Most studies have evaluated the potential of continuous glucose monitoring (CMG) to
+      decrease the frequency of hypoglycemia. Although, smaller studies have reported a lower risk
+      of hypoglycemia using CMG compared with conventional glucose measurements (10,11), larger
+      multi-center studies have failed to reproduce these findings (11-14). This could be explained
+      by a low accuracy in the low range of glucose values and delay in detection time during rapid
+      changes using CMG (11,13,14). In fact, CMG only recognizes less than 50% of hypoglycemic
+      events (15). Thus, even with a marginal improvement compared with conventional glucose
+      measurements, CMG is far from the goal of completely avoiding severe hypoglycemic episodes.
+
+      The EEG signal reflects the functional state and metabolism of the brain. The brain is almost
+      totally dependent on a continuous supply of glucose, and when this is lower than the
+      metabolic requirements of the brain, its function deteriorates. Indeed, neuroglycopenic
+      hypoglycemia in insulin-treated diabetic patients is associated with characteristic changes
+      in EEG with a decrease in alpha activity, an increase in delta activity, and in particular an
+      increase in theta activity (16-19). These changes are clearly seen at ~2.0 mmol/l (16,17),
+      but may be present already at higher glucose levels (~3.0 mmol/l), in particular in type 1
+      diabetic patients with hypoglycemic unawareness (19,20). It has been shown that the most
+      characteristic changes, the increase in theta activity, appears 19 min before severe
+      cognitive impairment (20). This suggests a &quot;window&quot; between hypoglycemia-induced EEG changes
+      and severe neuroglycepenia, which is an important prerequisite in developing an automatic
+      detection system capable of warning the patient.
+
+      A number of studies have characterized the changes in the EEG that results from hypoglycemia
+      (16-20), but none have proposed a method of processing and testing in real-time. With a
+      device, which can perform real-time monitoring and processing of EEG signals and
+      automatically detect and warn the patient of hypoglycemia-induced EEG changes, it would be
+      possible for the patient to avoid severe neuroglypenic symptoms e.g. by ingestion of
+      carbohydrates. The construction of an EEG-based hypoglycemia alarm system must fulfill the
+      following criteria. First, the device should be able to distinguish hypoglycemia-induced EEG
+      changes from normal changes in EEG, noise and artifacts with high sensitivity and specificity
+      using a mathematical algorithm that classifies the EEG in real-time. Second, these EEG
+      changes should be observed in the majority of insulin-treated diabetic patients during
+      hypoglycemia. Third, there should be a &quot;window&quot; between hypoglycemia-induced EEG changes and
+      severe cognitive impairment. Moreover, the device should be fully compatible with normal
+      everyday activities. Thus, the electrodes should be thin and implanted subcutaneously, and
+      the monitoring and processing unit should be small, have sufficient battery power, and
+      capable of communicating with a PDA or cell phone.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>February 2007</start_date>
+  <completion_date type="Actual">April 2008</completion_date>
+  <primary_completion_date type="Actual">October 2007</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <condition>Hypoglycemia</condition>
+  <condition>Type 1 Diabetes</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Twenty adult patients with type 1 diabetes will be participating in the study.
+      </textblock>
+    </study_pop>
+    <criteria>
+      <textblock>
+        Inclusion Criteria
+
+          -  18-60 year old subjects
+
+          -  Type 1 diabetics with complete or partial hypoglycemia unawareness.
+
+          -  Ability to comprehend and a willingness to sign an informed consent form
+
+        Exclusion Criteria:
+
+          -  Neurological or psychiatric disease.
+
+          -  Current use of neuroactive medication or recreational drugs.
+
+          -  Pregnancy.
+
+          -  Patients with known heart disease, former myocardial infarction or cardiac arrhythmia
+
+          -  Patients with known epilepsy or in treatment with anti-epileptic drugs for all
+             purposes
+
+          -  Patients treated with drugs that are known to influence the EEG, including
+             benzodiazepines and other anxiolytics, anti-depressants and beta-blocking agents
+
+          -  Patients that are judged incapable of understanding the patient information or who are
+             not capable of carrying through the investigation
+
+          -  Cancer of any kind
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Claus B Juhl, Phd</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>HypoSafe A/S</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Odense University Hospital</name>
+      <address>
+        <city>Odense</city>
+        <zip>5000</zip>
+        <country>Denmark</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Denmark</country>
+  </location_countries>
+  <verification_date>December 2008</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 17, 2008</study_first_submitted>
+  <study_first_submitted_qc>December 17, 2008</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 18, 2008</study_first_posted>
+  <last_update_submitted>December 17, 2008</last_update_submitted>
+  <last_update_submitted_qc>December 17, 2008</last_update_submitted_qc>
+  <last_update_posted type="Estimate">December 18, 2008</last_update_posted>
+  <responsible_party>
+    <name_title>Rasmus Jensen</name_title>
+    <organization>HypoSafe A/S</organization>
+  </responsible_party>
+  <keyword>Hypoglycemia</keyword>
+  <keyword>EEG</keyword>
+  <keyword>type 1 diabetes</keyword>
+  <keyword>neuroglycopenia</keyword>
+  <keyword>Hypoglycemia is a potential dangerous condition</keyword>
+  <keyword>EEG is changed during hypoglycemia</keyword>
+  <keyword>A hypoglycemia alarm based on EEG-measures may prevent development of severe hypoglycemia</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+    <mesh_term>Hypoglycemia</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

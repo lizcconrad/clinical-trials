@@ -1,0 +1,183 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03091023</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1603-IGX-016-CS</org_study_id>
+    <nct_id>NCT03091023</nct_id>
+  </id_info>
+  <brief_title>Quantitative Identification of Implantation Receptivity by Single Cell Transcriptome Analysis</brief_title>
+  <official_title>Non-invasive Transcriptomic Signature at the Single Cell Level in Endometrial Fluid as a Novel Diagnostic Test of Human Endometrial Receptivity</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Igenomix</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Igenomix</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project aims to study the endometrial transcriptome at the single cell level in both
+      endometrial native tissue (biopsies) and endometrial fluid. Basically, the goals are: 1) To
+      use the resolution provided by single-cell RNA-seq to deconvolute real time dynamics in
+      endometrium transcriptome throughout the menstrual cycle from artifacts produced by known
+      population heterogeneity, and 2) To use endometrium fluid to replace endometrium biopsies as
+      signal source to develop a new diagnostic platform to determine the endometrium receptive
+      state which is high resolution and minimally invasive. This study will provide an
+      unprecedented high-resolution characterization of the endometrium cellular hierarchy via
+      whole transcriptome analysis throughout the menstrual stages. These results will lead to a
+      robust definition of stage-defining gene expression signatures and resolve the long-standing
+      inconsistencies originating from bulk tissue studies. The dataset will be further explored
+      via informatics tools to provide biological insights into the dynamics of endometrium and
+      initiate new anchor points for functional studies.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Successful embryo implantations for in vitro fertilization require both healthy embryos and a
+      receptive endometrium. The window of implantation (WOI), during which endometrium reaches
+      receptive state, varies among individuals. Displacements of WOI have been reported to be a
+      major cause of repeated implantation failures. However, a reliable diagnostic metric to
+      evaluate endometrial receptive status is lacking. The propose of this study is to use
+      single-cell RNA seq and bioinformatics tools to develop a high-resolution platform to
+      characterize endometrium activities and to measure endometrial receptive state in a
+      non-invasive manner.
+
+      First objective is to develop an experimental pipeline to generate high quality single-cell
+      RNA-seq data from endometrial biopsies and endometrial fluid from healthy patients throughout
+      the menstrual cycle at each of these stages: early proliferative (EP; days 0-8), late
+      proliferative (LP; days 9-14), early secretory (ES; days 15-18), mid-secretory or receptive
+      (MS; days 19-23), and late secretory (LS; days 24-30). These tissues will be dissociated
+      mechanically and enzymatically and subjected to microfluidic sorting, single cell
+      transcriptome amplification and analysis. These data will provide the first
+      transcriptome-wide single cell data various cell types of the human endometrium.
+
+      Secondly, this study look at establish algorithmic models to distinguish epithelial and
+      stroma populations informatically, without the need to first purify populations of interest.
+      This will enable transcriptome analysis from mixed populations of cells.
+
+      Finally evaluate the use of endometrial fluid as an alternative source for receptivity
+      diagnosis analyzing the transcriptome profile of single cells from Endometrial fluid
+      collected from human patients at different menstrual stages. These signatures will also be
+      compared and correlated with signatures obtained from biopsies, which will help us better
+      understand the biological events that lead to the occurrence of these cells in the
+      endometrial fluid and evaluate the potential of extending their use for diagnosis of other
+      endometrium conditions.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>March 2016</start_date>
+  <completion_date type="Anticipated">December 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Transcriptomic profile analysis of the endometrial samples by RNA sequencing.</measure>
+    <time_frame>24 months</time_frame>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">70</enrollment>
+  <condition>Endometrial Receptivity Diagnosis</condition>
+  <arm_group>
+    <arm_group_label>Natural cycle</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Endometrial biopsies and endometrial fluid obtained from healthy females throughout the menstrual cycle at each of these stages:
+Early proliferative (EP; days 0-8), late proliferative (LP; days 9-14), early secretory (ES; days 15-18), mid-secretory or receptive (MS; days 19-23), and late secretory (LS; days 24-30)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ERA in HRT cycle</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Endometrial biopsy and endometrial fluid obtained from woman undergoing to Endometrial Receptivity Analysis (ERA) in a hormonal replacement therapy (HRT) cycle.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Endometrial Biopsy and endometrial fluid collection</intervention_name>
+    <arm_group_label>Natural cycle</arm_group_label>
+    <arm_group_label>ERA in HRT cycle</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Healthy women in natural cycle;
+
+          -  Normal karyotype;
+
+          -  Negative serologic tests for HIV, HBV, HCV, RPR;
+
+          -  BMI: 18 - 30 Kg/m2 (both included);
+
+          -  Women with regular menstrual cycle (3-4/28-30 days).
+
+        Exclusion Criteria:
+
+          -  Patients who had carried an intrauterine device in the previous 3 months;
+
+          -  Patients who have taken hormonal contraceptives in the previous 2 months;
+
+          -  Adnexal or uterine pathologies;
+
+          -  Polycystic ovary;
+
+          -  Any unstable disease or medical condition that could interfere with the study or put
+             in risk the health of the patient (evaluated by the principal researcher of the
+             research team);
+
+          -  Any illness or medical unstable condition.
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>35 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <verification_date>March 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 30, 2016</study_first_submitted>
+  <study_first_submitted_qc>March 21, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 27, 2017</study_first_posted>
+  <last_update_submitted>March 21, 2017</last_update_submitted>
+  <last_update_submitted_qc>March 21, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 27, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Igenomix</investigator_affiliation>
+    <investigator_full_name>Carlos Simon</investigator_full_name>
+    <investigator_title>Scientific Director IGENOMIX; Gynaecologist IVI Valencia</investigator_title>
+  </responsible_party>
+  <keyword>Endometrial receptivity</keyword>
+  <keyword>Transcriptomic</keyword>
+  <keyword>Single cell</keyword>
+  <keyword>Endometrial fluid</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

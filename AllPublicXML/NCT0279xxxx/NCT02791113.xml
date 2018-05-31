@@ -1,0 +1,202 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02791113</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2013/932/C</org_study_id>
+    <nct_id>NCT02791113</nct_id>
+  </id_info>
+  <brief_title>Analysis of Coronary CT Angiography to Identify Patients With Significant Coronary Artery Stenosis</brief_title>
+  <acronym>CTAAnalyzer</acronym>
+  <official_title>Automatic Analysis of Coronary CT Angiography to Identify Patients With Significant Coronary Artery Stenosis for Clinical Decision-making.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Heart Centre Singapore</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Heart Centre Singapore</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators propose to develop a computational framework involving a novel automatic
+      image segmentation algorithm based on CTA images, an artery model reconstruction algorithm
+      for stenosis detection, and quantification of severity of stenosis in terms of area stenosis.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Coronary heart disease (CHD) is a common [affecting about 6% in the general adult population]
+      cardiac disorder where a portion of the coronary artery is blocked. Among populations aged
+      more than 65 years, the prevalence increases to 19.8%. The incidence of CHD in Singapore and
+      other major countries is comparable. The prognosis of CHD is poor. CHD causes 1.2 million
+      heart attacks and nearly 19% of deaths in US.[2] In Singapore, cardiovascular disease (CVD)
+      accounted for 30.4% of all deaths in 2011, among these, 19% are due to CHD. In future, CVD
+      deaths will increase up to 24.2 million globally in 2030. Among these, CHD deaths will change
+      from 13.1% in 2010 to 14.9% in 2030 of all males; and from 13.6% to 13.1% of all females. The
+      direct costs of CHD are estimated at over $87 billion and indirect cost at $70 billion in US.
+      Unless current trends are halted or reversed, over a million people will die from CHD in US
+      annually. Globally, the majority of CHD deaths will be in developing countries and many of
+      the lives will be lost in middle age.
+
+      Invasive coronary angiography (ICA), is the gold standard method to delineate anatomical
+      coronary stenosis. Fractional flow reserve (FFR) measurement with pressure wire is the gold
+      standard for assessment of the physiological importance of an anatomical stenosis.
+      Non-invasive computed tomography angiography (CTA), is a diagnostic alternative to invasive
+      coronary angiography from single and multi-centre trials.
+
+      CTA enables visualization of coronary vessels in two-dimensional (2D) or three-dimensional
+      (3D) formats. Current available imaging techniques on CTA are limited in their abilities in
+      assessing physiological stenosis. First, the commonly used percent diameter stenosis to
+      describe the extent of coronary artery stenosis is only a modest descriptor of coronary
+      stenosis because it does not incorporate other lesion characteristics (e.g. length, shape and
+      eccentricity) or the effect of stenosis in series that may greatly affect the blood flow.
+      From our preliminary study, we found that diameter stenosis weakly correlated with golden
+      standard FFR from invasive catheterization (r = 0.30). Second, percent diameter stenosis
+      assessment is usually given per specific coronary artery lesion, the lesions being manually
+      identified by the expert reader. There is no method to comprehensively assess the entire
+      coronary tree in an automated fashion without the need for manual input. We propose the
+      development of an Automatic CTA analyzer to identify significant coronary stenosis in
+      coronary arteries that will provide rapid triage for patients suspected of CHD. This analyzer
+      can also facilitate disease surveillance and monitoring of therapeutic efficacy.
+
+      The proposed integrated solution is expected to achieve earlier and higher accuracy in
+      detecting severity of coronary stenosis. From 2004 to 2007 alone, the number of annual CTA
+      procedures in the US is around 4.7 million. In National Heart Centre Singapore, we performed
+      more than 1000 CTA per year.
+
+      Diameter stenosis from CTA cannot determine the hemodynamic significance of the coronary
+      artery disease. For example, even if significant stenosis (&gt;50%) is identified at CTA, fewer
+      than 50% of the lesions actually cause ischemia. Furthermore, as many as 20% of patients with
+      severe stenoses (i.e., &gt;70%) on CTA turn out not to have ischemia confirmed by ICA and FFR.
+      As a result, these patients risk of being referred for ICA when they do not need it.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>March 2014</start_date>
+  <completion_date type="Anticipated">January 2017</completion_date>
+  <primary_completion_date type="Anticipated">January 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>First occurrence of cardiovascular event</measure>
+    <time_frame>1 Year</time_frame>
+  </primary_outcome>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Coronary Heart Disease</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Fractional Flow Reserve (FFR) Measurement</intervention_name>
+    <description>FFR is defined as the distal pressure to coronary lesion divided by the proximal coronary pressure. FFR is measured through a standard diagnostic catheter during coronary angiogram. FFR is used to guide whether to perform angioplasty or stenting or not in patients with coronary stenosis.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        50 patients who is suspected of Coronary Heart Disease and has undergone Computed
+        tomography angiography (CTA) procedure will be recruited for the study.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Aged 21-80 Years old
+
+          -  Scheduled to undergo clinically-indicated non-emergent invasive catheterization
+             angiography (ICA)
+
+        Exclusion Criteria:
+
+          -  Individuals unable to provide informed consent
+
+          -  Non-cardiac illness with life expectancy &lt;2years
+
+          -  Pregnant State
+
+          -  Allergy to iodinated contrast
+
+          -  Significant arrhythmia ; heart rate ≥100 beats/min ; systolic blood pressure ≤90 mmHg
+
+          -  Renal dysfunction (Glomerular filtration rate (GFR) &lt;30 mL/min/1.73m2)
+
+          -  Contraindication to beta blockers or nitroglycerin
+
+          -  Canadian Cardiovascular Society Class IV angina
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ru San Tan, MBBS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>National Heart Centre Singapore</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ru San Tan, MBBS</last_name>
+    <email>tan.ru.san@singhealth.com.sg</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>National Heart Centre Singapore</name>
+      <address>
+        <city>Singapore</city>
+        <zip>169609</zip>
+        <country>Singapore</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ru San Tan, MBBS</last_name>
+      <email>tan.ru.san@nhcs.com.sg</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Singapore</country>
+  </location_countries>
+  <verification_date>May 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 31, 2016</study_first_submitted>
+  <study_first_submitted_qc>May 31, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 6, 2016</study_first_posted>
+  <last_update_submitted>June 14, 2016</last_update_submitted>
+  <last_update_submitted_qc>June 14, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">June 15, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Stenosis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

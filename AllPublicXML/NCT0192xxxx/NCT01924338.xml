@@ -1,0 +1,266 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01924338</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ROB-NIRMR-001</org_study_id>
+    <nct_id>NCT01924338</nct_id>
+  </id_info>
+  <brief_title>Validation of a Method to Measure Soft Tissue Thickness Using Near Infrared Laser Light</brief_title>
+  <official_title>Validierung Der Bestimmung Der Gewebedicke Mit Hilfe Von Licht im Infrarotbereich</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dr. Floris Ernst</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Varian Medical Systems</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Luebeck</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Luebeck</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study is intended to verify a newly developed method to measure the thickness of cranial
+      soft tissue. In the study, a high-resolution MRI scan is used as ground truth for a laser
+      scan of the forehead. The laser scan is acquired point by point with a prototype scanning
+      unit developed at the University of Luebeck's Institute for Robotics.
+
+      The measured tissue thickness using the near-infrared scanning approach is validated against
+      the ground truth obtained by the MRI scan. The average accuracy of the reconstruction method
+      is then computed over all subjects from the individual study arms.
+
+      The required laser intensity and exposure time as well as the achieved measurement accuracy
+      is evaluated with respect to the different skin types of the test subjects. Correlation
+      between these features and the skin type according to the Fitzpatrick scale will be computed.
+
+      For 1/3 of the subjects, the laser and MRI scans are repeated after 2 and 8 weeks. The
+      results of the scans are compared and time dependency is analysed.
+    </textblock>
+  </brief_summary>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>September 2013</start_date>
+  <completion_date type="Anticipated">February 2015</completion_date>
+  <primary_completion_date type="Anticipated">December 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Average accuracy of tissue thickness measurement method [mm]</measure>
+    <time_frame>up to 6 months</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>System dependency on skin color - required intensity</measure>
+    <time_frame>up to 6 months</time_frame>
+    <description>Correlation between skin types (according to the Fitzpatrick scale) and the outcome (required laser intensity [mW])</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Long-term stability of measured features - accuracy</measure>
+    <time_frame>up to 8 months</time_frame>
+    <description>Change in measurement accuracy [mm]</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Long-term stability of measured features - required intensity</measure>
+    <time_frame>up to 8 months</time_frame>
+    <description>Change in required laser intensity [mW]</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Long-term stability of measured features - required exposure time</measure>
+    <time_frame>up to 8 months</time_frame>
+    <description>Change in required exposure time [ms]</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>System dependency on skin color - accuracy</measure>
+    <time_frame>up to 6 months</time_frame>
+    <description>Correlation between skin types (according to the Fitzpatrick scale) and the outcome (accuracy of tissue thickness measurement [mm])</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>System dependency on skin color - exposure time</measure>
+    <time_frame>up to 6 months</time_frame>
+    <description>Correlation between skin types (according to the Fitzpatrick scale) and the outcome (required exposure time [ms])</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">25</enrollment>
+  <condition>Cranial Soft Tissue</condition>
+  <arm_group>
+    <arm_group_label>Skin types I and II</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Volunteers classified as skin types I and II according to the Fitzpatrick Scale
+Procedures: dental cast creation, MRI scan, laser scan</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Skin type III</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Volunteers classified as skin type III according to the Fitzpatrick Scale
+Procedures: dental cast creation, MRI scan, laser scan</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Skin type IV</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Volunteers classified as skin type IV according to the Fitzpatrick Scale
+Procedures: dental cast creation, MRI scan, laser scan</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Skin types V and VI</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Volunteers classified as skin types V and VI according to the Fitzpatrick Scale
+Procedures: dental cast creation, MRI scan, laser scan</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MRI scan</intervention_name>
+    <description>Acquisition of a high-resolution MRI scan (0.15 x 0.15 x 1.0 mm³) aligned with the AC-PC (anterior commissure-posterior commissure) line</description>
+    <arm_group_label>Skin types I and II</arm_group_label>
+    <arm_group_label>Skin type III</arm_group_label>
+    <arm_group_label>Skin type IV</arm_group_label>
+    <arm_group_label>Skin types V and VI</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Laser scan</intervention_name>
+    <description>A near-infrared laser scan of the subject's forehead is acquired</description>
+    <arm_group_label>Skin types I and II</arm_group_label>
+    <arm_group_label>Skin type III</arm_group_label>
+    <arm_group_label>Skin type IV</arm_group_label>
+    <arm_group_label>Skin types V and VI</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Dental cast creation</intervention_name>
+    <description>A dental cast made of PMMA (polymethyl methacrylate) of the subject's maxilla is created</description>
+    <arm_group_label>Skin types I and II</arm_group_label>
+    <arm_group_label>Skin type III</arm_group_label>
+    <arm_group_label>Skin type IV</arm_group_label>
+    <arm_group_label>Skin types V and VI</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  male and female adults
+
+          -  variations in skin type (at least 10 subjects with skin types I &amp; II, at least 2
+             subjects with skin type III, at least 3 subjects with skin type IV, at least 3
+             subjects with skin types V &amp; VI)
+
+          -  optional: availability of high-resolution CT or CBCT (cone-beam CT) scan of the
+             forehead
+
+        Exclusion Criteria:
+
+          -  allergies or intolerances against ABS (acrylonitrile butadiene styrene), PMMA
+             (polymethyl methacrylate) or alginate
+
+          -  elevated light sensitivity of the skin
+
+          -  exclusion criteria for MRI (claustrophobia, motoric disorders, tattoos, body
+             piercings, metallic implants in the skull, epilepsy, cardiac pacemakers)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Floris Ernst, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Luebeck</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Floris Ernst, PhD</last_name>
+    <phone>+494515005208</phone>
+    <email>ernst@rob.uni-luebeck.de</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Clinic for Maxillofacial Surgery of the University Hospital Schleswig-Holstein</name>
+      <address>
+        <city>Lübeck</city>
+        <state>Schleswig-Holstein</state>
+        <zip>23562</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>University of Luebeck, Institute for Robotics</name>
+      <address>
+        <city>Lübeck</city>
+        <state>Schleswig-Holstein</state>
+        <zip>23562</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Floris Ernst, PhD</last_name>
+      <phone>+494515005208</phone>
+      <email>ernst@rob.uni-luebeck.de</email>
+    </contact>
+    <investigator>
+      <last_name>Floris Ernst, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <link>
+    <url>http://www.rob.uni-luebeck.de/node/153</url>
+  </link>
+  <reference>
+    <citation>Wissel T, Bruder R, Schweikard A, Ernst F. Estimating soft tissue thickness from light-tissue interactions--a simulation study. Biomed Opt Express. 2013 Jun 14;4(7):1176-87. doi: 10.1364/BOE.4.001176. Print 2013 Jul 1.</citation>
+    <PMID>23847741</PMID>
+  </reference>
+  <verification_date>August 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 12, 2013</study_first_submitted>
+  <study_first_submitted_qc>August 15, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 16, 2013</study_first_posted>
+  <last_update_submitted>August 20, 2014</last_update_submitted>
+  <last_update_submitted_qc>August 20, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">August 21, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University of Luebeck</investigator_affiliation>
+    <investigator_full_name>Dr. Floris Ernst</investigator_full_name>
+    <investigator_title>Senior Research Associate</investigator_title>
+  </responsible_party>
+  <keyword>Patient</keyword>
+  <keyword>localisation</keyword>
+  <keyword>in cranial</keyword>
+  <keyword>radiation</keyword>
+  <keyword>therapy</keyword>
+  <keyword>thickness of</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,228 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03327896</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HSD-1603-34987</org_study_id>
+    <nct_id>NCT03327896</nct_id>
+  </id_info>
+  <brief_title>The Impact of Patient Complexity on Healthcare Utilization</brief_title>
+  <official_title>The Impact of Patient Complexity on Healthcare Utilization</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ochin, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Florida</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Ochin, Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Healthcare providers are routinely being assessed for metrics designed to assess the quality
+      of the care they deliver. There is growing consensus that these measurements, which typically
+      assess the percentage of patients meeting a specific standard of care, should be adjusted for
+      the clinical complexity of the providers. This study will assess whether adjusting for the
+      social complexity of the patient panel adds significantly to adjustment for clinical
+      complexity in explaining apparent differences in quality of care provided by Primary care
+      providers and clinics.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The analysis will be conducted in 2 stages. In the first stage, indicators of social
+      complexity (as assessed by characteristics of the patients' geocoded addresses) will be
+      tested for significant association with patient level outcomes (meeting or not meeting a
+      specific standard of care). These indicators will be assessed in 4 cohorts: 2 cohorts of
+      patients identified in electronic health records of Clinical Research Networks of community
+      health centers, and 2 cohorts of patients insured by Medicaid in 2015 (Oregon and Florida
+      Medicaid cohorts). Due to limitations in the available data, some quality indicators can only
+      be evaluated in a subset of the cohorts. The consistency of specific social complexity
+      indicators, referred to as Community Vital Signs (CVS), will be evaluated across the cohorts
+      and quality metrics.
+
+      In the second stage, CVS indicators that contributed consistently to models at the patient
+      level will be evaluated for their effect on provider ranking on quality metrics if the
+      metrics are adjusted for the social complexity of the providers' patient panel in addition to
+      the panels' clinical complexity.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">January 15, 2017</start_date>
+  <completion_date type="Anticipated">August 2018</completion_date>
+  <primary_completion_date type="Actual">August 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Provider Ranking as Assessed by Health Care Quality Metrics</measure>
+    <time_frame>1 year (2015)</time_frame>
+    <description>Comparison of adjusted provider quality rankings with metrics adjusted for Charlson Morbidity Scores and Patient Panel Neighborhood Deprivation Indicators</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Well Child Visits in first 15 Months of life (patient level)</measure>
+    <time_frame>15 months</time_frame>
+    <description>Number of well child visits in first 15 months of life in children turning 15 months in 2015</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Screening for alcohol and drug misuse (patient level)</measure>
+    <time_frame>1 year (2015)</time_frame>
+    <description>Documented screening for alcohol or drug misuse in patients aged 12 and over</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Emergency Department Visits (Patient level)</measure>
+    <time_frame>1 year (2015)</time_frame>
+    <description>Age stratified Emergency department visit rates in patients in Medicaid cohorts</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Avoidable Emergency Department Visits (Patient level)</measure>
+    <time_frame>1 year (2015)</time_frame>
+    <description>Age stratified Avoidable Emergency department visit rates in patients in Medicaid cohorts</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Uncontrolled Hemoglobin A1c in Diabetics (patient level)</measure>
+    <time_frame>1 year</time_frame>
+    <description>Last recorded HbA1c greater than 9 in patients with recorded diagnosis of Diabetes (EHR cohorts only)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Colorectal Cancer Screening (Patient level)</measure>
+    <time_frame>1 year</time_frame>
+    <description>Documented colorectal cancer screening in 2015 (Oregon Medicaid cohort only)</description>
+  </secondary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Anticipated">200000</enrollment>
+  <condition>Primary Care Quality Metrics</condition>
+  <condition>Well Child Visits in First 15 Months of Life NQF 1392</condition>
+  <condition>Diabetes Mellitus NQF 0059</condition>
+  <condition>Colorectal Cancer Screening NQF 0034</condition>
+  <condition>Emergency Department Utilization</condition>
+  <condition>Alcohol and Drug Screening</condition>
+  <arm_group>
+    <arm_group_label>OCHIN EHR</arm_group_label>
+    <description>Patients who were established patients at OCHIN Primary Care Clinics in 2015 and had a face to face visit at the clinic in 2015.
+Inclusion criteria for specific outcomes varies by criteria for demoninator specification for the metric.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>OneFlorida EHR</arm_group_label>
+    <description>Patients who were established patients at OneFlorida Primary Care clinics in 2015 and had a face to fact visit at the clinic in 2015.
+Inclusion criteria for specific outcomes varies by criteria for demoninator specification for the metric.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Oregon Medicaid</arm_group_label>
+    <description>Clients who were continuously insured through Oregon Medicaid in 2015 and had a claim with an Evaluation and Management Current Procedure Terminology (CPT) code indicating an office visit listing a Primary Care provider as the performing provider.
+Inclusion criteria for specific outcomes varies by criteria for demoninator specification for the metric.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Florida Medicaid</arm_group_label>
+    <description>Clients who were continuously insured through Florida Medicaid in 2015 and had a claim with an Evaluation and Management Current Procedure Terminology (CPT) code indicating an office visit listing a Primary Care provider as the performing provider. Florida Medicaid data is limited to clients who were 22 years or younger.
+Inclusion criteria for specific outcomes varies by criteria for demoninator specification for the metric.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Charlson score and Community Social Deprivation</intervention_name>
+    <description>This is an observational study of the association of clinical comorbidity and neighborhood social deprivation characteristics with healthcare performance assessment.</description>
+    <arm_group_label>OCHIN EHR</arm_group_label>
+    <arm_group_label>OneFlorida EHR</arm_group_label>
+    <arm_group_label>Oregon Medicaid</arm_group_label>
+    <arm_group_label>Florida Medicaid</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Stage 1 (Patient Level): Established patients of primary care providers with a visit in
+        2015 Stage 2 (Provider level): Primary Care providers with at least 20 patients from
+        established patients in 2015 Stage 3 (Clinic level): Primary care Clinics
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria for clinics: Clinics must be a clinic that offers Primary Care (Family
+        Medicine Clinics, Pediatrics Clinics, General Practice Clinics, Internal Medicine clinics
+        that are not limited to a subspecialty focus, and multi-specialty clinics that include
+        primary care providers as part of a comprehensive care team.) Clinics must have implemented
+        their EHR by 1/1/2014.
+
+        Inclusion criteria for patients: EHR Patients must be established patients within a health
+        care system: at least one ambulatory visit to an included clinic in 2015 and at least 1
+        visit to a primary care clinic within the same health system prior to that visit.
+
+        Inclusion criteria for patients for Medicaid based Outcomes: Patient must have been
+        continuously covered by Medicaid in 2015 and have had at least 1 visit billed as an office
+        visit in 2015 with a provider identified as a primary care provider and at least 1 prior
+        claim billed to the same provider. Patients must meet the age/condition criteria for the
+        assessment of at least 1 secondary outcome.
+
+        Exclusion Criteria:
+
+        Exclusion criteria for patients: Patients with no geocoded address on file will be excluded
+        from the analysis.
+
+        Exclusion criteria for patients for Medicaid based Outcomes: Patient with Medicaid coverage
+        gaps of &gt;45 days will be excluded from theses analyses. Exclusion criteria for providers:
+        Providers with &lt;20 patients in any Quality metric denominator.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Abigail Sears, MBA</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Ochin, Inc.</affiliation>
+  </overall_official>
+  <link>
+    <url>https://www.ncbi.nlm.nih.gov/pubmed/?term=27170802</url>
+    <description>Article abstract</description>
+  </link>
+  <reference>
+    <citation>Hughes LS, Phillips RL Jr, DeVoe JE, Bazemore AW. Community Vital Signs: Taking the Pulse of the Community While Caring for Patients. J Am Board Fam Med. 2016 May-Jun;29(3):419-22. doi: 10.3122/jabfm.2016.03.150172.</citation>
+    <PMID>27170802</PMID>
+  </reference>
+  <verification_date>October 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 27, 2017</study_first_submitted>
+  <study_first_submitted_qc>October 27, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 1, 2017</study_first_posted>
+  <last_update_submitted>October 27, 2017</last_update_submitted>
+  <last_update_submitted_qc>October 27, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 1, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Quality Measures, Social Determinants of Health</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Colorectal Neoplasms</mesh_term>
+    <mesh_term>Emergencies</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

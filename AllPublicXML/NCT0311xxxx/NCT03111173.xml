@@ -1,0 +1,191 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03111173</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STUDY00001556</org_study_id>
+    <nct_id>NCT03111173</nct_id>
+  </id_info>
+  <brief_title>Can Conventional ECG Technology Capture Fetal Cardiac Activity?</brief_title>
+  <official_title>Can Conventional ECG Technology Capture Fetal Cardiac Activity?</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Washington</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Toronto</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Washington</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>No</is_unapproved_device>
+    <is_ppsd>No</is_ppsd>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a feasibility study for a new application for capturing fetal cardiac activity. The
+      objective of this study is to determine if it is feasible to capture a fetal ECG signal using
+      a Holter ECG device. As comparison we will use a standard Doppler Fetal Heart Rate (FHR)
+      device.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The objective of this study is to determine if it is feasible to capture a fetal ECG signal
+      using a Holter ECG device. As comparison we will use a standard Doppler Fetal Heart Rate
+      (FHR) device. To obtain the raw FHR data from this standard device we will use the currently
+      approved &quot;fetal EEG&quot; monitor. The important distinction is that &quot;fetal EEG&quot; monitor will not
+      be connected to fetal scalp electrode, but, rather, get the data from the regular, more
+      routinely used and non-invasive Doppler FHR monitor. We expect that we will be able to
+      validate our algorithm with our maternal and fetal ECG channels to derive the FHR.
+
+      We will attach a Holter ECG device (4 electrodes) and a standard Doppler FHR device to a
+      pregnant woman who is between 32 weeks gestation and full term. ECG leads will be placed in
+      four corners of the abdomen. The targeted length of the recording will be 30 minutes. The
+      subject will remain supine and resting while the device is recording. Additionally, the
+      recently approved fetal EEG monitor will be connected to the Doppler FHR device to allow us
+      to obtain a &quot;digital copy&quot; of the standard FHR recording. We will do that in order to have
+      the comparison during the offline processing of the abdominal ECG with regard to the location
+      of the fetal R peaks. This procedure will be done after the subject's routine antepartum
+      testing. No women in active labor will be recruited.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 2, 2017</start_date>
+  <completion_date type="Anticipated">April 2018</completion_date>
+  <primary_completion_date type="Anticipated">April 2018</primary_completion_date>
+  <phase>Early Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Successful extraction of fetal ECG from the maternal abdominal ECG signal</measure>
+    <time_frame>12 months</time_frame>
+    <description>We will test the quality of correct identification of fetal R peaks of ECG from within maternal ECG signal by comparing the R-R-periods-derived instantaneous fetal heart rate (FHR) to the values determined by the standard-of-care ultrasound-derived FHR monitor.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Fetal Monitoring</condition>
+  <arm_group>
+    <arm_group_label>Holter device</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Holter device to be attached to a Singleton or twin pregnant women at 32 weeks gestation to full term</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Holter Device</intervention_name>
+    <description>MyECG E3.80 Holter Recorder</description>
+    <arm_group_label>Holter device</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Singleton or twin pregnant women at 32 weeks gestation to full term after routine
+             antepartum testing.
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>55 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Martin G Frasch, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Washington</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Martin G Frasch, MD, PhD</last_name>
+    <phone>206-543-5892</phone>
+    <email>mfrasch@uw.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Amy Gest, MPA</last_name>
+    <phone>206-359-1961</phone>
+    <email>agest@uw.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Washington</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Martin G Frasch, MD, PhD</last_name>
+      <phone>206-543-5892</phone>
+      <email>mfrasch@uw.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Amy Gest, MPA</last_name>
+      <phone>206-359-1961</phone>
+      <email>agest@uw.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Martin Frasch, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://journal.frontiersin.org/article/10.3389/fphys.2017.00277/abstract</url>
+    <description>Efficient fetal-maternal ECG signal separation from two channel maternal abdominal ECG via diffusion-based channel selection</description>
+  </link>
+  <reference>
+    <citation>Efficient fetal-maternal ECG signal separation from two channel maternal abdominal ECG via diffusion-based channel selection Ruilin Li, Martin G. Frasch, Hau-tieng Wu (Submitted on 7 Feb 2017) There is a need for affordable, widely deployable maternal-fetal ECG monitors to improve maternal and fetal health during pregnancy and delivery. Based on the diffusion-based channel selection, here we present the mathematical formalism and clinical validation of an algorithm capable of accurate separation of maternal and fetal ECG from a two channel signal acquired over maternal abdomen. Subjects: Medical Physics (physics.med-ph); Data Analysis, Statistics and Probability (physics.data-an); Applications (stat.AP); Machine Learning (stat.ML) Cite as: arXiv:1702.02025 [physics.med-ph]</citation>
+  </reference>
+  <verification_date>October 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 7, 2017</study_first_submitted>
+  <study_first_submitted_qc>April 11, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 12, 2017</study_first_posted>
+  <last_update_submitted>October 26, 2017</last_update_submitted>
+  <last_update_submitted_qc>October 26, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 27, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Washington</investigator_affiliation>
+    <investigator_full_name>Martin Frasch</investigator_full_name>
+    <investigator_title>Research Assistant Professor, Obstetrics and Gynecology</investigator_title>
+  </responsible_party>
+  <keyword>ECG</keyword>
+  <keyword>Fetus</keyword>
+  <keyword>R peak extraction</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

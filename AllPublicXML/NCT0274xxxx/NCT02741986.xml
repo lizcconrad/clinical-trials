@@ -1,0 +1,214 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02741986</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB201600262-N</org_study_id>
+    <secondary_id>R01GM110240</secondary_id>
+    <nct_id>NCT02741986</nct_id>
+  </id_info>
+  <brief_title>Integrating Data, Algorithms and Clinical Reasoning for Surgical Risk Assessment</brief_title>
+  <acronym>IDEALIST</acronym>
+  <official_title>Integrating Data, Algorithms and Clinical Reasoning for Surgical Risk Assessment (IDEALIST)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Florida</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of General Medical Sciences (NIGMS)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Florida</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Brief Summary: The goal of this study is to implement and test an intelligent perioperative
+      system (IPS) that in real-time predicts risk for postoperative complications using routine
+      clinical data collected in electronic health records. The accuracy of computer-generated risk
+      scores will be compared to physician's risk scores for the same patients. Physicians will be
+      also asked to provide the opinion regarding the computer-generated risk scores using
+      interactive interface with the program. The information regarding the risk scores performance
+      will be collected during the two 6-month periods. The accuracy of IPS and physicians will be
+      compared at the end at those two time periods.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Postoperative complications significantly increase morbidity, mortality and cost after
+      surgery. In the current clinical practice the prediction of the risk for developing
+      complications after surgery is manly based on physicians' clinical judgment. The predictive
+      accuracy of that judgment is limited and poorly studied. The investigators will design an
+      intelligent perioperative system (IPS) as the set of computer software and algorithms that in
+      real-time predict risk for postoperative complications using routine clinical data in
+      electronic health records. The system is designed as the self-learning system with the
+      ability to interact with physicians and solicit their feedback. This study will compare the
+      clinical judgment of physicians with computer generated risk scores for patients undergoing
+      major surgery. All surgeons and anesthesiologists at large single-center tertiary academic
+      center will be recruited to participate in this study. The IPS system will be implemented in
+      real time and will generate risk scores for postoperative complications for patients planned
+      to undergo surgery performed by the physicians enrolled in the study. Physicians will be
+      asked to provide their risk scores (using visual analog risk scale from 0-100) for the same
+      patients before and after interacting with the IPS. They will also have the opportunity to
+      review computer-generated risk scores and provide their feedback. The information will be
+      collected during two six-month periods. At the end of each 6-months period predicted risk
+      estimates will be compared to the true occurrence of the complications. Predictive
+      performance of physicians' risk scores will be compared to IPS generated risk scores using
+      the comparison between area under the receiver-operating curve (AUC), sensitivity,
+      specificity and positive and negative predicted values.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>October 2016</start_date>
+  <completion_date type="Anticipated">May 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Area under the receiver operating curve (AUC) of risk estimates</measure>
+    <time_frame>At the end of six months study period.</time_frame>
+    <description>At the end of each 6-months period predicted risk estimates will be compared to the true occurrence of the complications. Predictive performance of physicians' will be compared to IPS by comparing the area under the receiver-operating curves (AUC) for risk estimates.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity and specificity of risk estimates</measure>
+    <time_frame>At the end of six months study period.</time_frame>
+    <description>At the end of each 6-months period predicted risk estimates will be compared to the true occurrence of the complications. Predictive performance of physicians' will be compared to IPS by comparing the sensitivity and specificity for risk estimates.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Positive and negative predictive values</measure>
+    <time_frame>At the end of six months study period.</time_frame>
+    <description>At the end of each 6-months period predicted risk estimates will be compared to the true occurrence of the complications. Predictive performance of physicians' will be compared to IPS by comparing the Positive and negative predictive values for risk estimates.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Postoperative Complications</condition>
+  <arm_group>
+    <arm_group_label>Physicians</arm_group_label>
+    <description>All surgeons and anesthesiologists at large single-center tertiary academic center will be recruited to participate in this study.
+Intervention: Risk estimation prior to surgery and immediately after the surgery.
+Physicians will be asked to provide their risk scores (ranging from 0 to 100) for postoperative complications prior to surgery and immediately after the surgery for the same patients that IPS is producing the scores. Physicians will provide scores both before and after reviewing the risk scores produced by the IPS.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Intelligent Perioperative System (IPS)</arm_group_label>
+    <description>Intelligent perioperative system (IPS) is designed as the set of computer softwares and algorithms that in real-time predict risk for postoperative complications using routine clinical data in electronic health records. The system is designed as the self-learning system with the ability to interact with physicians and solicit their feedback.
+Intervention: Risk estimation prior to surgery and immediately after the surgery.
+The IPS system will generate risk scores (ranging from 0 to 100) for postoperative complications prior to surgery and immediately after the surgery for patients taken care by the physicians enrolled in the study.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Risk estimation</intervention_name>
+    <description>Physicians will be asked to provide their risk scores (ranging from 0 to 100) for postoperative complications prior to surgery and immediately after the surgery for the same patients that IPS is producing the scores. Physicians will provide scores both before and after reviewing the risk scores produced by the IPS.
+The IPS system will generate risk scores (ranging from 0 to 100) for postoperative complications prior to surgery and immediately after the surgery for patients taken care by the physicians enrolled in the study.</description>
+    <arm_group_label>Physicians</arm_group_label>
+    <arm_group_label>Intelligent Perioperative System (IPS)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All surgeons and anesthesiologists in the adult inpatient operative practices at the
+        single-center academic tertiary center will be enrolled. Physicians in obstetric and
+        pediatric practices will be excluded.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+        Surgeons and anesthesiologists working in adult inpatient operative practices.
+
+        Exclusion criteria:
+
+        Surgeons and anesthesiologists working in obstetric and pediatric practices.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Azra Bihorac, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Florida</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Sandhya A Chheda, JD</last_name>
+    <phone>352-273-8820</phone>
+    <email>sandhya.chheda@medicine.ufl.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Azra Bihorac, MD</last_name>
+    <phone>352-273-8821</phone>
+    <email>Azra.Bihorac@medicine.ufl.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>UF Health</name>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <zip>32610-3003</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Judith M Wishin, BSN</last_name>
+      <phone>352-273-6789</phone>
+      <email>jwishin@anest.ufl.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Azra Bihorac, MD</last_name>
+      <phone>352-273-9009</phone>
+      <email>abihorac@anest.ufl.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 13, 2016</study_first_submitted>
+  <study_first_submitted_qc>April 13, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 18, 2016</study_first_posted>
+  <last_update_submitted>April 4, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 4, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 6, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>risk assessment</keyword>
+  <keyword>sepsis</keyword>
+  <keyword>acute kidney injury (AKI)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Postoperative Complications</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>All deidentified data will be governed by University of Florida Integrated Data Repository. The investigators will comply with local, state, and federal laws, such as the Privacy Rule, a Federal regulation under the Health Insurance Portability and Accountability Act (HIPAA). The investigators will follow the general NIH data sharing guidance and provide a data sharing plan to be reviewed and approved by the relevant NIGMS Program Officer.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

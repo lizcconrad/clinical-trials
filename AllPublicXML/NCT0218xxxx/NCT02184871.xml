@@ -1,0 +1,194 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02184871</url>
+  </required_header>
+  <id_info>
+    <org_study_id>21/2014/U/Tess</org_study_id>
+    <nct_id>NCT02184871</nct_id>
+  </id_info>
+  <brief_title>Next Generation Sequencing in Intrahepatic Cholangiocarcinoma</brief_title>
+  <acronym>EtherBil</acronym>
+  <official_title>Next Generation Sequencing in Intrahepatic Cholangiocarcinoma (ICC) According to the Stratification of the Risk Factors</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Bologna</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Bologna</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of the present study is to perform a comprehensive molecular characterization of
+      intrahepatic cholangiocarcinoma (ICC) in patients exposed to well-known or putative risk
+      factors (such as asbestos) for this malignancy, in order to identify possible &quot;molecular
+      signatures&quot; associated to such different risk factors.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Exposure to distinct risk factors of the enrolled ICC patients will be assessed by modified
+      ReNaM questionnaire. Molecular characterization of ICC tissue samples will be carried out by
+      RNAseq. Briefly, after surgical resection tissue samples will be immediately suspended in
+      RNAlater. RNAseq analysis will be performed on the Illumina HiScanSQ platform. Any possible
+      mutations identified by RNAseq will be validated by Sanger sequencing. Putative identified
+      fusion transcripts will be confirmed by RT-PCR, using specific primers pairs located on the
+      sequences from the exons of the two putative fusion genes. Variations in gene expression will
+      be validated by the real-time PCR. The bioinformatic analysis will be made by using CentOS5
+      Server. For evaluation of asbestos fibers in tumor tissues, samples embedded in paraffin will
+      be incinerated and then analyzed in a scanning electron microscope and by EDS spectroscopy.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>May 2014</start_date>
+  <completion_date type="Anticipated">May 2017</completion_date>
+  <primary_completion_date type="Anticipated">May 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Identification of molecular biomarkers in ICC patients exposed to different risk factors.</measure>
+    <time_frame>3 years</time_frame>
+    <description>For each patient enrolled, molecular profile of ICC tissue samples will be correlated to the anamnestic data collected by modified ReNaM questionnaire. For bio-informatic analysis, the collected data will be analyzed in order to identify signals that significantly deviate from the expected SNVs distribution in the general population, then analyzing the presence of clustering for the selected genes group. A two-way unsupervised hierarchical clustering analysis will be run to assess gene expression in the study groups (exposed / unexposed to the different risk factors). Random permutation test will be also conducted to assess the presence of genes whose expression is different in the study groups. Statistical analyses will be conducted using the R software (R Foundation and for Statistical Computing).</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">45</enrollment>
+  <condition>Intrahepatic Cholangiocarcinoma</condition>
+  <arm_group>
+    <arm_group_label>intrahepatic cholangiocarcinoma</arm_group_label>
+    <description>Patients committed to surgery and stratified according to exposure to different risk factors for ICC, basing on modified ReNaM questionnaire.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>exposure to different risk factors and molecular assessment</intervention_name>
+    <arm_group_label>intrahepatic cholangiocarcinoma</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Tumor tissue samples will be immediately collected after surgery: one part will be suspended
+      in RNAlater to prevent RNA degradation and stored at -20°C, the other will be formalin-fixed
+      and paraffin-embedded for histopathology examination and evaluation of asbestos fibers. For
+      each patient enrolled, peripheral blood will be also collected and stored at -20°C. Total RNA
+      and genomic DNA will be extracted from tumor tissue and peripheral blood and stored at -80°C
+      until use.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        ICC patients candidate for curative-intent surgery, for a total of 45 subjects. For each
+        patient enrolled, histological examination of tumor tissue specimen will be performed in
+        order to confirm ICC diagnosis.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  patients having a confirmed diagnosis of ICC resected;
+
+          -  patients who have signed the informed consent;
+
+          -  patients (males or females) who are at least 18 years old.
+
+        Exclusion Criteria:
+
+          -  patients who have been treated with any medical treatment (chemotherapy or
+             experimental standard) or with radiotherapy during the last 5 years.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Giovanni Brandi</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Bologna</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Policlinico S.Orsola- Malpighi, S.S.D. Oncologia Medica- Biasco</name>
+      <address>
+        <city>Bologna</city>
+        <state>BO</state>
+        <zip>40138</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Giovanni Brandi</last_name>
+      <phone>+39 0516363838</phone>
+      <email>giovanni.brandi@unibo.it</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jody Corbelli</last_name>
+      <phone>+39 0516364536</phone>
+      <email>jcorb45@gmail.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Giovanni Brandi</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Simona Tavolari</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Maria Aurelia Barbera</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jody Corbelli</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>July 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 3, 2014</study_first_submitted>
+  <study_first_submitted_qc>July 8, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 9, 2014</study_first_posted>
+  <last_update_submitted>July 8, 2014</last_update_submitted>
+  <last_update_submitted_qc>July 8, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 9, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Bologna</investigator_affiliation>
+    <investigator_full_name>Giovanni Brandi</investigator_full_name>
+    <investigator_title>Prof, MD, PhD</investigator_title>
+  </responsible_party>
+  <keyword>intrahepatic cholangiocarcinoma</keyword>
+  <keyword>RNAseq</keyword>
+  <keyword>risk factors</keyword>
+  <keyword>asbestos</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cholangiocarcinoma</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

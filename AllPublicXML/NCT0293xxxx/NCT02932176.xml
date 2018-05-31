@@ -1,0 +1,204 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02932176</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Pro00070090</org_study_id>
+    <nct_id>NCT02932176</nct_id>
+  </id_info>
+  <brief_title>Machine Learning for Handheld Vascular Studies</brief_title>
+  <acronym>DopplerZAM</acronym>
+  <official_title>Development and Validation of a Novel Machine-learning Algorithm to Assist in Handheld Vascular Diagnostics</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Duke University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The use of handheld arterial 'stethoscopes' (continuous wave Doppler devices) are ubiquitous
+      in clinical practice. However, most users have received no formal training in their use or
+      the interpretation of the returned data. This leads to delays in diagnosis and errors in
+      diagnosis.
+
+      The investigators intend to create a novel machine-learning algorithm to assist clinicians in
+      the use of this data. This study will allow the investigators to collect sound files from the
+      use of the devices and compare the algorithms output to established, existing vascular
+      testing. There will be no invasive procedures, and use of these stethoscopes is part of
+      routine clinical care.
+
+      If successful, this data and algorithm will be later deployed via smartphone app for point of
+      case testing in a separate study
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      There are three main research tasks for this project: 1) the identification of discriminant
+      features of Doppler audio for patient classification, 2) the selection and training of
+      classification algorithms, and 3) CWD audio data enrichment using physics-based models. The
+      investigators will determine which discriminant features are optimal for patient
+      classification from ultrasound Doppler audio.
+
+      To this end, the investigators will employ signal features in the frequency domain such as
+      bandwidth, peak frequency, mean power, mean frequency, and time harmonic distortion, among
+      others.
+
+      Furthermore, the investigators will investigate whether time domain features are necessary
+      for accurate sound classification. Other studies have shown that specific features of audio
+      waveforms can classify the data. The investigators will employ some of the most effective
+      machine-learning algorithms for classification such as SVM, logistic regression, and Naïve
+      Bayes, among others. The investigators will start with a binary classification problem in
+      which individuals will be classified as healthy or unhealthy. Then, the investigators will
+      move in complexity to multi-class classification problems in which individuals will be
+      categorized into different groups according to defined abnormal arterial conditions. Data
+      enrichment using physics-based models employing physiologically accurate finite element
+      models of fluid flow in arteries to generate synthetic sound signals corresponding to various
+      arterial conditions. Physics-based simulations would allow the investigators to produce a
+      wealth of training data that can span many known arterial conditions. This capability can
+      augment the classification accuracy and generalization of our algorithms, as clinical data
+      may not be exhaustive enough to incorporate all the known arterial conditions. The
+      investigators will study the performance of the trained algorithms on patient data. To this
+      end, the investigators will partition the data into training and testing samples. The
+      training samples will be used for training of the algorithms, while the testing set will be
+      used to assess generalization capability. The investigators will compute misclassification
+      rates for each algorithm as a metric for performance.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 7, 2016</start_date>
+  <completion_date type="Anticipated">December 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Algorithm generated Doppler classification</measure>
+    <time_frame>1 year</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Presence or absence of pulse</measure>
+    <time_frame>1 year</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quality of pulse</measure>
+    <time_frame>1 year</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Presence or absence of Doppler signal</measure>
+    <time_frame>1 year</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quality of Doppler signal</measure>
+    <time_frame>1 year</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Atherosclerosis</condition>
+  <condition>Wounds and Injuries</condition>
+  <arm_group>
+    <arm_group_label>Non-invasive vascular testing</arm_group_label>
+    <description>All patients undergoing non-invasive vascular testing will be eligible for this study. The official results will be used to develop the algorithm and to evaluate the accuracy of the algorithm</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Non-invasive vascular testing</intervention_name>
+    <description>Results of clinically indicated non-invasive vascular testing will be used to develop a machine learning algorithm</description>
+    <arm_group_label>Non-invasive vascular testing</arm_group_label>
+    <other_name>Continuous wave Doppler</other_name>
+    <other_name>plethysmography</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>machine-learning algorithm</intervention_name>
+    <arm_group_label>Non-invasive vascular testing</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with a clinical indication and order for non-invasive vascular testing
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  A clinically driven request for non-invasive vascular testing must be present
+
+        Exclusion Criteria:
+
+          -  None (other than patient declines to participate)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Leila Mureebe, MD</last_name>
+    <email>leila.mureebe@duke.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Duke University Medical Center</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27710</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Leila Mureebe, MD</last_name>
+      <email>leila.mureebe@duke.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 19, 2016</study_first_submitted>
+  <study_first_submitted_qc>October 12, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 13, 2016</study_first_posted>
+  <last_update_submitted>November 30, 2017</last_update_submitted>
+  <last_update_submitted_qc>November 30, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 4, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Arteries</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atherosclerosis</mesh_term>
+    <mesh_term>Wounds and Injuries</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

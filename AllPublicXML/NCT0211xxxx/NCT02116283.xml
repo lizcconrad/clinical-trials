@@ -1,0 +1,170 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02116283</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Pro00044941</org_study_id>
+    <nct_id>NCT02116283</nct_id>
+  </id_info>
+  <brief_title>Mobile Sensing of Smoking Behavior</brief_title>
+  <acronym>Mobi-Smoke</acronym>
+  <official_title>Mobile Sensing of Smoking Behavior</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Duke University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Smokers will use a smartphone app on a smartphone provided for the study that will passively
+      sense and record information about their activities. Information collected from the
+      smartphone app will be used to develop future smartphone apps that will predict when an
+      individual is at risk of smoking.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Smokers will carry an Android-based smartphone, which they are to use as their own for one
+      month. After using the smartphone for two weeks, they will abstain from smoking for 48 hours.
+      The phone will passively sense and record information from onboard sensors and send that
+      information to a central server. When server based algorithms detect a pattern of signals
+      likely associated with smoking behavior, the smoker will be queried regarding their current
+      state (smoking?, not smoking but likely to in the next 10 minutes?, etc.). Likewise, when
+      smokers are about to smoke but were not queried, they can indicate they are about to smoke.
+      This information will be used to update algorithms using machine learning techniques. As
+      such, in this study investigators will gain knowledge that will increase understanding of
+      antecedents of smoking behavior and improve the accuracy with which smoking risk can be
+      detected.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2014</start_date>
+  <completion_date type="Actual">May 2014</completion_date>
+  <primary_completion_date type="Actual">May 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in smoking behaviors as measured by an algorithm of social variables</measure>
+    <time_frame>up to 4 weeks</time_frame>
+    <description>phone calls (time, duration, coded identity of contact, including smoking status); SMS texting (time sent, coded identity of contact)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in smoking behaviors as measured by an algorithm of motion variables</measure>
+    <time_frame>up to 4 weeks</time_frame>
+    <description>acceleration; direction and magnitude of gravity; device orientation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in smoking behaviors as measured by an algorithm of environmental variables</measure>
+    <time_frame>up to 4 weeks</time_frame>
+    <description>light; proximity; magnetic field; pressure; temperature</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in smoking behaviors as measured by an algorithm of device interaction variables</measure>
+    <time_frame>up to 4 weeks</time_frame>
+    <description>running applications; applications installed; screen status</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in smoking behaviors as measured by an algorithm of positioning variables</measure>
+    <time_frame>up to 4 weeks</time_frame>
+    <description>location; Bluetooth devices within range; available WiFi access points; ID for the current cell tower the device is connected to</description>
+  </secondary_outcome>
+  <enrollment type="Actual">2</enrollment>
+  <condition>Smoking</condition>
+  <condition>Health</condition>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>48 hour smoking abstinence</intervention_name>
+    <description>Participants will maintain smoking abstinence for 48 hours</description>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Smartphone</intervention_name>
+    <description>Participants will use an Android-based smartphone as their own for one month</description>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  generally healthy
+
+          -  between the ages of 18 and 65
+
+          -  smoking of at least 10 cig/day of a brand delivering ≥ 0.5 mg nicotine (FTC method)
+             for &gt; 1 year AND an afternoon expired CO concentration &gt;5 ppm (to confirm inhalation)
+             or morning urinary cotinine &gt; 100 ng/mL
+
+          -  willingness to carry and use a study smartphone as their own for one month
+
+        Exclusion Criteria:
+
+          -  inability to attend all required sessions
+
+          -  use of smokeless tobacco products
+
+          -  current use of nicotine replacement therapy or other smoking cessation treatment
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Joseph McClernon, Ph.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Duke University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Duke University Medical Center</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27705</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 16, 2014</study_first_submitted>
+  <study_first_submitted_qc>April 15, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 16, 2014</study_first_posted>
+  <last_update_submitted>November 4, 2014</last_update_submitted>
+  <last_update_submitted_qc>November 4, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">November 5, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>smoking</keyword>
+  <keyword>healthy</keyword>
+  <keyword>smartphone</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

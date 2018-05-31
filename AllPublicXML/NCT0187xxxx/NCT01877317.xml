@@ -1,0 +1,209 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01877317</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ZIT-653820</org_study_id>
+    <secondary_id>NL44209.018.13</secondary_id>
+    <nct_id>NCT01877317</nct_id>
+  </id_info>
+  <brief_title>Study of SelfFit Mobile Medical App for Hearing Loss Diagnostics and Hearing Device Fitting / Fine Tuning</brief_title>
+  <acronym>SelfFit</acronym>
+  <official_title>Study of SelfFit App for Hearing Loss Diagnostics Based on Threshold Measurements Through In-situ Audiometry and Adjustment of Hearing Device Amplification Parameters in Agreement With Prescriptive Formulas as NAL-NL1,DSL-i/o</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Two Pi Signalprocessing Applications GmbH</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Two Pi Signalprocessing Applications GmbH</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this clinical study is to validate the comparability of prescription formula
+      fitting of hearing aids based on full diagnostic audiometry and SelfFit interactive fitting
+      of hearing aids based on hearing loss screening (mild to moderate hearing losses) using
+      in-situ audiometry, provided and executed through the mobile medical app.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The technology utilized within the mobile medical App is partially described in the US patent
+      application US2011/0002490A1. The app is to be used in combination with a hearing aid to
+      deliver the output and targets accurate individual acoustical amplification for effective
+      compensation of a users hearing loss.
+
+      The electronic circuitry incorporating the digital signal processing algorithms - dynamic
+      range compression, noise reduction - is providing the acoustical amplification according to
+      parameters (acoustical gain, compression ratio, time constants) calculated through the App on
+      base of in-situ hearing loss diagnostics (pure tone audiometry, loudness scaling). Within the
+      study, amplification parameters will be transmitted to the prototyped device through a
+      prototyped audio streaming box.
+
+      Individual audiogram represents hearing thresholds (softest audible sounds) at different
+      frequencies. At least two test frequencies are used involving one in the lower region of
+      device's bandwidth (such as 750 Hz) and one in the higher region of the device's bandwidth
+      (such as 2 kHz). Hearing thresholds are assessed by presenting pure tones of different known
+      levels (SPL) to the user and the thresholds for each of the test frequencies are determined
+      according to the user response to a verbally formulated question (how many tones did you
+      hear?) and multiple choice answer buttons (0, 1, or 2).
+
+      Second hearing loss characteristic obtained by the app. is the personal loudness scaling. By
+      presenting a band-limited noise stimuli and collecting the user response about perceived
+      loudness level Medical Mobile App calculates dynamic range of users hearing at given
+      frequency.
+
+      The calculation of optimal amplification parameters is performed by App using a proprietary
+      &quot;fitting formula&quot; derived from scientific data.
+
+      Final adjustment of amplification parameters called fine tuning is performed while presenting
+      the user with realistic acoustical environment during operation of the hearing device. Fine
+      tuning relates to slight changes of the parameters initially obtained by the &quot;fitting
+      formula&quot;. The acoustical signals are presented using audio streaming through the hearing aid.
+      In particular the presented signals include &quot;speech in quiet&quot; and &quot;speech in background
+      noise&quot;. Presented speech signal is composed from two or more sources that are processed with
+      different signal processing parameters. During the presentation of the speech signal App
+      presents the speech source visually as two or more speakers. The user is asked to provide his
+      listening preference by choosing the preferred speaker. The signal processing parameters
+      relating to the preferred sound are used for final adjustment of hearing device.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2013</start_date>
+  <completion_date type="Actual">August 2013</completion_date>
+  <primary_completion_date type="Actual">July 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Hearing threshold</measure>
+    <time_frame>June - July 2013 (up to 2 months)</time_frame>
+    <description>Applicability of in-situ audiometry:
+Comparison of pure tone audiometry outcomes: conventional full diagnositic and SelfFit in-situ audiometry</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Speech intelligibility - First Fit</measure>
+    <time_frame>June - July 2013 (up to 2 months)</time_frame>
+    <description>Quality of First-Fit:
+Comparison speech audiometry with CVC words @ 55/65/75 db SPL in conventionally adjusted hearing aid and SelfFit adjusted hearing aid</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Speech intelligibility - Final Fit</measure>
+    <time_frame>June - July 2013 (up to 2 months)</time_frame>
+    <description>Quality of Final-Fit:
+Comparison speech audiometry with CVC words @ 55/65/75 db SPL in conventionally adjusted hearing aid and SelfFit adjusted hearing aid</description>
+  </other_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Mild to Moderate Sensorineural Hearing Loss</condition>
+  <arm_group>
+    <arm_group_label>SelfFit adjusted hearing device</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Hearing impaired people with mild to moderate sensorineural hearing loss (PTA124&lt;50 dB) in the test ear compare the performance of their hearing aids adjusted through SelfFit mobile medical App (I-Pad) with the performance of their hearing aids adjusted through conventional audiogram-based fitting.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>SelfFit adjusted hearing device</intervention_name>
+    <description>Comparison of threshold measurements through in-situ audiometry with full diagnostic audiometry; Comparison of First-Fit based on SelfFit-formula with conventional fitting formula NAL-NL1 (IG-measurements; Speech intelligibility with First fit of SelfFit; Speech intelligibility with Final fit of SelfFit; Comparison of fine tuning through SelfFit (Final fit) with First fit; Comparison of Final fit with Traditional fit (conventional fitted hearing aid of the test person)</description>
+    <arm_group_label>SelfFit adjusted hearing device</arm_group_label>
+    <other_name>User-fitted hearing device</other_name>
+    <other_name>hearing device fitting software</other_name>
+    <other_name>home-fitting tool for hearing devices</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Hearing loss at the better ear between 35dB and 50dB (PTA1/2/4)
+
+          -  Active lifestyle
+
+          -  No language problems
+
+          -  No medical contra-indications
+
+          -  Age: between 18 and 75 years
+
+          -  About 50% experienced users and 50% new users
+
+          -  Willing to participate in the trial with one three hour visit to the AMC.
+
+        Exclusion Criteria:
+
+          -  Conductive hearing loss in the middle ear
+
+          -  Severe hearing loss
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Wouter A Dreschler, Prof.dr.ir.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Clinical &amp; Experimental Audiology of the Academic Medical Centre in Amsterdam</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Department of Clinical &amp; Experimental Audiology of the Academic Medical Centre</name>
+      <address>
+        <city>Amsterdam</city>
+        <zip>1105 AZ</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>October 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 28, 2013</study_first_submitted>
+  <study_first_submitted_qc>June 12, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 13, 2013</study_first_posted>
+  <last_update_submitted>October 21, 2016</last_update_submitted>
+  <last_update_submitted_qc>October 21, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">October 24, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Audiology</keyword>
+  <keyword>hearing loss</keyword>
+  <keyword>hearing healthcare</keyword>
+  <keyword>mobile app</keyword>
+  <keyword>hearing aid fitting</keyword>
+  <keyword>audiometry</keyword>
+  <keyword>audiogram</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hearing Loss</mesh_term>
+    <mesh_term>Deafness</mesh_term>
+    <mesh_term>Hearing Loss, Sensorineural</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

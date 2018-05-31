@@ -1,0 +1,165 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02284022</url>
+  </required_header>
+  <id_info>
+    <org_study_id>14055</org_study_id>
+    <nct_id>NCT02284022</nct_id>
+  </id_info>
+  <brief_title>Clinical Validation Protocol for BCI for the Communication of Patients Suffering From Neuromuscular Disorders.</brief_title>
+  <acronym>PVCAFM</acronym>
+  <official_title>Protocole de Validation Clinique du Logiciel d'Interface Cerveau-Ordinateur RoBIK Pour la Communication Des Patients Atteints de Maladie Neuromusculaires (MNM)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centre d'Investigation Clinique et Technologique 805</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Association Française contre les Myopathies (AFM), Paris</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Centre d'Investigation Clinique et Technologique 805</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      the objective of this protocol is evaluate the safety and tolerance of a communication system
+      for severely disable patients with myopathies. The system analyses the brain electric
+      activity in real time and converts it into digital commands for a spelling device, which is
+      refered to as the P300 speller in the scientific literature. The secondary objective is to
+      compare the performance of such tool with a more traditional assistive technology for the
+      communication of severely disabled patients : scanner systems.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a pilot study for which 15 patients with myopathies will be included. The primary
+      objective of the study is to assess the safety and tolerance of a system for communication
+      named P300 speller. The P3Speller is a brain computer interface (BCI) that records the brain
+      electric activity with the use of electroencephalography (EEG) and analyzes it in real time
+      in order to identify slight changes generated in relation to a visual stimulation (evoked
+      potentials). The identification of such brain potentials is translated into a digital command
+      for a spelling device. The secondary objective of this study is to compare the efficacy of
+      this spelling device with a more traditional assisitve technology called scanner interface. A
+      scanner interface uses single clicks that can be obtaines with an adequate interface which
+      exploits the remaining muscular activity from a patients.
+
+      Every patient will use each interface (P300 sepller and Scanning) with a randomized order.
+      Results will bec o,pared in terms of information flow from the patient to the computer
+      expressed in bit rate per minute.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 2014</start_date>
+  <completion_date type="Actual">February 2017</completion_date>
+  <primary_completion_date type="Actual">February 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Ecologic or Community</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Bit rate (BR) the amount fo information that flows from the patient to the computer during the spelling session. This criterion is a combination of the number of symbols selected, the accuracy, and the time.</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>The comparison criteria for performance was the bitrate, br, that is defined by (Wolpow et al. 2000):
+〖br=log〗_2 (M)+p.log_2 p+(1-p) 〖log〗_2 (1-p)/(M-1) where M=36 is the number of symbols p the spelling accuracy (the percentage of correctly identified symbols).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>patient satisfaction (visual analogic scale)</measure>
+    <time_frame>2 minutes</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">15</enrollment>
+  <condition>Communication</condition>
+  <condition>Neuromuscular Disease</condition>
+  <arm_group>
+    <arm_group_label>Brain Computer Interface</arm_group_label>
+    <description>Patients will test the brain computer interface system</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Brain computer interface</intervention_name>
+    <description>Recording the P300 Testing the device Using the device with a speller</description>
+    <arm_group_label>Brain Computer Interface</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        neuromuscular disease patients
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult older than 18y.o., diagnosed with neuromuscular disease, stable vital signs and
+             informed consent
+
+        Exclusion Criteria:
+
+          -  History of seizure, brain damage, sight or auditory dysfunction, Atopic dermatitis,
+             skin hypersensitivity to gold, patient under guardianship, illiterates or not able to
+             cooperate , cognitive dysfunction
+
+          -  Steinert disease, Merosine negative disease, Alpha-dystroglycanopathies
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David Orlikowski, MDPhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Assistance Publique - Hôpitaux de Paris</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Hôpital R. Poincaré</name>
+      <address>
+        <city>Garches</city>
+        <zip>92380</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>April 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 3, 2014</study_first_submitted>
+  <study_first_submitted_qc>November 4, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 5, 2014</study_first_posted>
+  <last_update_submitted>April 19, 2017</last_update_submitted>
+  <last_update_submitted_qc>April 19, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 20, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neuromuscular Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

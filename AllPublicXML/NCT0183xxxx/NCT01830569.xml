@@ -1,0 +1,197 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01830569</url>
+  </required_header>
+  <id_info>
+    <org_study_id>S55183</org_study_id>
+    <nct_id>NCT01830569</nct_id>
+  </id_info>
+  <brief_title>Impact of an Evidence-based Electronic Decision Support System on Diabetes Care</brief_title>
+  <official_title>Feasibility and Impact of an Evidence-based Electronic Decision Support System on Diabetes Care in Family Medicine: a Cluster Randomized Controlled Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Katholieke Universiteit Leuven</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Katholieke Universiteit Leuven</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to assess the feasibility of the use of an evidence-based
+      decision support system (EBMeDS) in daily Belgian family medicine and to study the
+      effectiveness of EBMeDS use on improving diabetes care.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The purpose of this study is to assess the feasibility of the use of an evidence-based
+      decision support system (EBMeDS) in daily Belgian family medicine and to study the
+      effectiveness of EBMeDS use on improving diabetes care.
+
+      Specific research questions are:
+
+        -  Does family physicians use the EBMeDS system in daily practice?
+
+        -  Does the use of the EBMeDS system by family physicians leads to an improvement in
+           diabetes control compared to the control group?
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 29, 2017</start_date>
+  <completion_date type="Anticipated">July 2018</completion_date>
+  <primary_completion_date type="Anticipated">July 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Double (Participant, Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Pre- to post-implementation change in HbA1c.</measure>
+    <time_frame>Outcome will be collected at five points in time: before the start of the study, at 3 months, at 6 months, at 9 months and at 12 months</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Pre- to post-implementation change in cholesterol levels.</measure>
+    <time_frame>Outcome will be collected at five points in time: before the start of the study, at 3 months, at 6 months, at 9 months and at 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pre- to post-implementation change in blood pressure measurements.</measure>
+    <time_frame>Outcome will be collected at five points in time: before the start of the study, at 3 months, at 6 months, at 9 months and at 12 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pre- to post-implementation change in a composite patient score.</measure>
+    <time_frame>Outcome will be collected at five points in time: before the start of the study, at 3 months, at 6 months, at 9 months and at 12 months</time_frame>
+    <description>The composite patient score consists of reaching the evidence-based targets for glycated hemoglobin, blood pressure (systolic and diastolic) and cholesterol. Differences between pre- and post-implementation will be forming the outcomes scores.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pre- to post-implementation change in a composite process score.</measure>
+    <time_frame>Outcome will be collected at five points in time: before the start of the study, at 3 months, at 6 months, at 9 months and at 12 months</time_frame>
+    <description>The process composite score consists of meeting the evidence-based targets of the number of blood pressure measurements, the number of laboratory results of HbA1c, cholesterol and micro-albuminuria, a prescription of statin (yes/no), if high cardiovascular risk a prescription of aspirin/clopidogrel (yes/no), if hypertension or nephropathy ACE inhibition/sartan (yes/no). Differences between pre- and post-implementation will be forming the outcomes scores.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Actual use of the EBMeDS system</measure>
+    <time_frame>Outcomes will be collected at five points in time: before the start of the study, at 3 months, at 6 months, at 9 months and at 12 months</time_frame>
+    <description>Scripts are automatically triggered, users can see that a script is available from their main screen but have to click before seeing the script content. As such, click events can give an indication of physicians' interest to use the system. Following data of actual use are collected in the log file: the percentage of triggered scripts that are opened, the type of scripts that are opened (reminder, interaction, contraindication, drugs to avoid, indication or GuidelineLink), the number of requests to open the details of the script or the script information.</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">45</enrollment>
+  <condition>Diabetes Mellitus, Type 2</condition>
+  <arm_group>
+    <arm_group_label>EBMeDS group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The regular Evidence Linker and the EBMeDS system will be available in this group.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control group</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>The regular Evidence Linker will be available in this group.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>The EBMeDS system</intervention_name>
+    <description>The EBMeDS system receives structured patient data from the electronic medical records in HealthOne and returns reminders, therapeutic suggestions and diagnosis-specific links to guidelines. Electronic forms and calculators (e.g. a calculator for glomerular filtration) are integrated in the system.
+The original EBMeDS system was developed by Duodecim in Finland and covers a full spectrum of all clinical areas. Relevant reminders in all clinical areas are shown to the physicians in the intervention group.</description>
+    <arm_group_label>EBMeDS group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Evidence Linker</intervention_name>
+    <description>The Evidence Linker is already integrated in Belgian routine practice since 2012 and could be considered as part of the usual care process. When entering a diagnosis coded in ICPC, relevant clinical practice guidelines are retrieved by the Evidence Linker and could by consulted on the initiative of the family physician.</description>
+    <arm_group_label>EBMeDS group</arm_group_label>
+    <arm_group_label>Control group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients are 18 years or older.
+
+          -  Patients have their electronic medical records registered by one of the included
+             family physicians. Medical records are not centralized in Belgium. Patients are free
+             to choose any physician, and can even see several physicians at the same time. To
+             encourage a patient to have their medical records held by a single physician, 'Global
+             Medical Records' werr introduced a decade ago. In return for a registration fee,
+             patients can choose a main general practitioner who keeps their central medical
+             records. This registration is a requirement for patient inclusion in the trial.
+             Patients with 'Global Medical Records' are reimbursed a larger proportion of the
+             consultation fees by the health insurance fund.
+
+          -  Patients have an established diagnosis of diabetes at the baseline time point of the
+             study (identified as having (1) an ICPC (International Classification of Primary Care)
+             code of diabetes or (2) a prescription for a diabetes-specific or (3) the necessary
+             labo results to confirm diabetes)
+
+        Exclusion Criteria:
+
+          -  Pregnancy
+
+          -  Cognitive impairment
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Katholieke Universiteit Leuven</name>
+      <address>
+        <city>Leuven</city>
+        <state>Vlaams-Brabant</state>
+        <zip>3000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <verification_date>November 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 10, 2013</study_first_submitted>
+  <study_first_submitted_qc>April 11, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 12, 2013</study_first_posted>
+  <last_update_submitted>November 22, 2017</last_update_submitted>
+  <last_update_submitted_qc>November 22, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 27, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Katholieke Universiteit Leuven</investigator_affiliation>
+    <investigator_full_name>Bert Aertgeerts</investigator_full_name>
+    <investigator_title>Prof. Dr.</investigator_title>
+  </responsible_party>
+  <keyword>Decision Support Systems, Clinical</keyword>
+  <keyword>Evidence-Based practice</keyword>
+  <keyword>Family Practice</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 2</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

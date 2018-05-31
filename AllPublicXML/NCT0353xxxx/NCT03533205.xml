@@ -1,0 +1,237 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03533205</url>
+  </required_header>
+  <id_info>
+    <org_study_id>W15_080</org_study_id>
+    <nct_id>NCT03533205</nct_id>
+  </id_info>
+  <brief_title>Prediction of Hemodynamic Instability in Patients Undergoing Surgery</brief_title>
+  <official_title>Prediction of Hemodynamic Instability in Patients Undergoing Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Intraoperative hypotension occurs often and is associated with adverse patient outcomes such
+      as stroke, myocardial infarction and renal injury.
+
+      The aim of this study was to test the accuracy of a physiology-based machine-learning
+      algorithm using continuous non-invasive measurement of the blood pressure waveform with the
+      Nexfin® finger cuff during surgery.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 1, 2015</start_date>
+  <completion_date type="Actual">April 26, 2018</completion_date>
+  <primary_completion_date type="Actual">December 1, 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of the HPI algorithm</measure>
+    <time_frame>three minutes prior to the hypotensive event</time_frame>
+    <description>Sensitivity</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Specifity of the HPI algorithm</measure>
+    <time_frame>three minutes prior to the hypotensive event</time_frame>
+    <description>Specifity</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Predictive positive value of the HPI algorithm</measure>
+    <time_frame>one minute prior to the hypotensive event</time_frame>
+    <description>Predictive positive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictive positive value of the HPI algorithm</measure>
+    <time_frame>two minutes prior to the hypotensive event</time_frame>
+    <description>Predictive positive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictive positive value of the HPI algorithm</measure>
+    <time_frame>three minutes prior to the hypotensive event</time_frame>
+    <description>Predictive positive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictive positive value of the HPI algorithm</measure>
+    <time_frame>four minutes prior to the hypotensive event</time_frame>
+    <description>Predictive positive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictive positive value of the HPI algorithm</measure>
+    <time_frame>five minutes prior to the hypotensive event</time_frame>
+    <description>Predictive positive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictive positive value of the HPI algorithm</measure>
+    <time_frame>ten minutes prior to the hypotensive event</time_frame>
+    <description>Predictive positive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictive positive value of the HPI algorithm</measure>
+    <time_frame>15 minutes prior to the hypotensive event</time_frame>
+    <description>Predictive positive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Negative predictive value of the HPI algorithm</measure>
+    <time_frame>one minute prior to the hypotensive event</time_frame>
+    <description>Negative predictive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Negative predictive value of the HPI algorithm</measure>
+    <time_frame>two minutes prior to the hypotensive event</time_frame>
+    <description>Negative predictive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Negative predictive value of the HPI algorithm</measure>
+    <time_frame>four minutes prior to the hypotensive event</time_frame>
+    <description>Negative predictive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Negative predictive value of the HPI algorithm</measure>
+    <time_frame>five minutes prior to the hypotensive event</time_frame>
+    <description>Negative predictive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Negative predictive value of the HPI algorithm</measure>
+    <time_frame>ten minutes prior to the hypotensive event</time_frame>
+    <description>Negative predictive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Negative predictive value of the HPI algorithm</measure>
+    <time_frame>15 minutes prior to the hypotensive event</time_frame>
+    <description>Negative predictive value</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time from HPI alarm to hypotensive event during surgery</measure>
+    <time_frame>From the onset of the HPI alarm to the hypotensive event during surgery, this is in minutes. (this can range from 0,1 min to a high number such as 30 or even 40 minutes)</time_frame>
+    <description>Time from HPI alarm to hypotensive event, this can range from 0,1 min to a high number such as 30 or even 40 minutes.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of the HPI algorithm</measure>
+    <time_frame>one minute prior to the hypotensive event</time_frame>
+    <description>Sensitivity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of the HPI algorithm</measure>
+    <time_frame>two minutes prior to the hypotensive event</time_frame>
+    <description>Sensitivity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of the HPI algorithm</measure>
+    <time_frame>five minutes prior to the hypotensive event</time_frame>
+    <description>Sensitivity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of the HPI algorithm</measure>
+    <time_frame>ten minutes prior to the hypotensive event</time_frame>
+    <description>Sensitivity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of the HPI algorithm</measure>
+    <time_frame>15 minutes prior to the hypotensive event</time_frame>
+    <description>Sensitivity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specifity of the HPI algorithm</measure>
+    <time_frame>one minute prior to the hypotensive event</time_frame>
+    <description>Specifity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specifity of the HPI algorithm</measure>
+    <time_frame>two minutes prior to the hypotensive event</time_frame>
+    <description>Specifity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specifity of the HPI algorithm</measure>
+    <time_frame>five minutes prior to the hypotensive event</time_frame>
+    <description>Specifity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specifity of the HPI algorithm</measure>
+    <time_frame>ten minutes prior to the hypotensive event</time_frame>
+    <description>Specifity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specifity of the HPI algorithm</measure>
+    <time_frame>15 minutes prior to the hypotensive event</time_frame>
+    <description>Specifity</description>
+  </secondary_outcome>
+  <enrollment type="Actual">507</enrollment>
+  <condition>Blood Pressure</condition>
+  <condition>Prediction Models</condition>
+  <condition>Machine Learning</condition>
+  <condition>Hemodynamic Instability</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Hypotension Probability Indicator</intervention_name>
+    <description>The accurary of the Hypotension Probability Indicator (HPI) is tested in the created offline database. This means data was prospectively collected but the HPI algorithm was not tested prospectively but after collection in the offline database.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All adult patients undergoing surgery in the AMC were included in the study. Subjects were
+        only excluded when technical problems or strong local vasoconstriction (i.e., cold fingers)
+        prevented the Nexfin® non-invasive blood pressure finger cuff measurement. Subjects were
+        not excluded for any other reason besides technical failure.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  all adult patients undergoing surgery
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 26, 2018</study_first_submitted>
+  <study_first_submitted_qc>May 22, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 23, 2018</study_first_posted>
+  <last_update_submitted>May 22, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 22, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 23, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)</investigator_affiliation>
+    <investigator_full_name>D.P.Veelo</investigator_full_name>
+    <investigator_title>MD PhD</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,186 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03195751</url>
+  </required_header>
+  <id_info>
+    <org_study_id>17-800</org_study_id>
+    <nct_id>NCT03195751</nct_id>
+  </id_info>
+  <brief_title>Wearable Technology in Shoulder Range of Motion</brief_title>
+  <official_title>Wearable Technology in Shoulder Range of Motion: Validation of a Motion-Based Software Development Kit</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The Cleveland Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The Cleveland Clinic</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The scope of the research is to determine if a motion-based software development kit may
+      substitute for a manual goniometer. If so, this opens up the possibility of remote
+      telemonitoring of upper extremities patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The Capture mobile application or &quot;app&quot; (FocusMotion, Santa Monica, California) was custom
+      designed and securely installed on a single (CCF) smartphone used by the Lead
+      Co-Investigator, Dr. Ramkumar, and serves as a private user interface for the proprietary
+      software development kit (SDK). The Capture app uses a Bluetooth connection to pair with the
+      Pebble Time Round smartwatch to allow for remote timekeeping of the smartphone while in use
+      by the participant. The smartwatch was loaned by FocusMotion to the investigators for the
+      purpose of the study.
+
+      This proprietary SDK (FocusMotion) processes user motions recorded by the hardware
+      (accelerometer, gyroscope, magnometer). As data is collected, the software development kit
+      (SDK) classifies the motion as repetitive or non-repetitive, and repetitive motions are
+      further analyzed. As the user completes a workout or movement, the SDK tracks the number of
+      repetitions performed, technique, and rest time. The SDK can provide real-time feedback to
+      the user regarding their form by comparing the movement to a template of an ideal motion for
+      that particular action. The SDK is compatible with any operating system, phone, or wearable
+      device, providing seamless integration with pre-existing technologies.
+
+      Measurements from the SDK will be compared to those taken with a manual goniometer for four
+      shoulder maneuvers (abduction, forward flexion, internal rotation, external rotation). Each
+      of the 10 subjects will perform 5 trials of each maneuver for consistency and
+      reproducibility.
+
+      Participants without shoulder pain, with full shoulder range of motion and without prior
+      shoulder surgery will be recruited. No other exclusion criteria will be instituted.
+      Individuals will be recruited from CCF undergraduate and graduate medical education programs.
+
+      Statistical analysis will be employed to assess the shoulder motion arcs measured from both
+      the SDK and the manual goniometer. Univariate analyses (chi-square for categorical and t-test
+      for continuous variables) will be performed to compare the angle measurements from each
+      patient and angle measurement. Power analysis indicated a 94% chance of detecting a large
+      effect size and a 60% chance of detecting a medium effect size between the two groups at the
+      5% confidence level. For 1 sample t-tests, power analysis indicated that there was a 92%
+      chance of detecting a medium effect size significant at the 5% confidence level. All data
+      analysis will be performed using Microsoft. Excel analytics software version 14.5.4 A p-value
+      cutoff of &lt;0.05 was used to determine statistical significance.
+
+      All adverse events will be reported to the Institutional Review Board.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 13, 2017</start_date>
+  <completion_date type="Actual">September 23, 2017</completion_date>
+  <primary_completion_date type="Actual">September 23, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Difference in range of motion measurements between goniometer and software development kit measurement</measure>
+    <time_frame>24 hours</time_frame>
+    <description>The outcome measure difference will be in degrees.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">10</enrollment>
+  <condition>Normal Upper Extremity</condition>
+  <arm_group>
+    <arm_group_label>Manual Goniometer measurements</arm_group_label>
+    <description>Measurements of shoulder range of motion using manual goniometer</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Software development kit measurements</arm_group_label>
+    <description>Measurements of shoulder range of motion using a proprietary SDK</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Software development kit measurements</intervention_name>
+    <description>This proprietary SDK (FocusMotion) processes user motions recorded by the hardware (accelerometer, gyroscope, magnometer). As data is collected, the software development kit (SDK) classifies the motion as repetitive or non-repetitive, and repetitive motions are further analyzed. As the user completes a movement, the SDK tracks the number of repetitions performed, technique, and rest time. The SDK can provide real-time feedback to the user regarding their form by comparing the movement to a template of an ideal motion for that particular action. The SDK is compatible with any operating system, phone, or wearable device, providing seamless integration with pre-existing technologies.</description>
+    <arm_group_label>Software development kit measurements</arm_group_label>
+    <other_name>SDK</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Manual Goniometer Measurements</intervention_name>
+    <description>A manual goniometer was used to measure the range of motion of the shoulder.</description>
+    <arm_group_label>Manual Goniometer measurements</arm_group_label>
+    <other_name>Goniometer</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Healthy individuals between 18 and 40 years of age with no prior shoulder pain, no prior
+        shoulder surgeries, and no limitations in shoulder range of motion will be included.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  No prior shoulder pain
+
+          -  No prior shoulder surgeries
+
+          -  No limitations in shoulder range of motion
+
+        Exclusion Criteria:
+
+          -  Prior shoulder surgeries
+
+          -  Past or present shoulder pain
+
+          -  Any limitations in shoulder range of motion
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>40 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Joseph P Iannotti, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Cleveland Clinic</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Cleveland Clinic</name>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44195</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 20, 2017</study_first_submitted>
+  <study_first_submitted_qc>June 20, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 22, 2017</study_first_posted>
+  <last_update_submitted>October 5, 2017</last_update_submitted>
+  <last_update_submitted_qc>October 5, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 6, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>telemonitoring</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

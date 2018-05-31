@@ -1,0 +1,712 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01085513</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MA-68</org_study_id>
+    <nct_id>NCT01085513</nct_id>
+  </id_info>
+  <brief_title>Diagnosis of Intestinal Motility by Image Analysis Using Capsule Endoscopy</brief_title>
+  <official_title>Intestinal Motility Evaluation by Endoluminal Image Analysis Using Capsule Endoscopy (CE-EIA): a Multi-center Clinical Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Given Imaging Ltd.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Given Imaging Ltd.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Conventional intestinal manometry is the current gold standard for the evaluation of
+      intestinal motility, and identifies patterns of intestinal dysmotility. However intestinal
+      manometry involves intestinal intubation with consequent discomfort for the patients, and
+      requires considerable technical expertise and knowledge for interpretation of the data.
+      Hence, to date this method has limited indications and is restricted to very few referral
+      centers around the world.
+
+      A novel method for evaluation of intestinal motility has been developed based on endoluminal
+      image analysis using the endoscopic PillCam capsule, In contrast to manometry, this technique
+      is minimally invasive, the technical aspects are simple, and the analysis is fully automated
+      by a computer program.
+
+      The technique has been validated in a group of patients with intestinal dysmotility and
+      healthy subjects, and has demonstrated over 90% sensitivity and specificity.
+
+      This technique needs now to be validated in a large multinational population, to further
+      develop a robust discrimination algorithm for widespread diagnostic application. Furthermore,
+      whereas manometry only recognizes neuropathic, myopathic and obstructive motor patterns,
+      endoluminal image analysis may identify different categories of patients depending on the
+      clinical presentation and the etiologic factors involved.
+
+      This study is designed to provide evidence that the algorithm, using images created by
+      PillCam SB2 capsules, is at least as good as small bowel manometry in diagnosing severe
+      dysmotility.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Conventional intestinal manometry is the current gold standard for the evaluation of
+      intestinal motility1,2,3,11, and identifies patterns of intestinal dysmotility4,8,9. However
+      intestinal manometry involves intestinal intubation with consequent discomfort for the
+      patients. Furthermore, it requires considerable technical expertise and knowledge for
+      interpretation of the data. Hence, to date this method has limited indications and is
+      restricted to very few referral centers around the world6,7,10,13.
+
+      Vall d'Hebron Hospital, in collaboration with CVC (Barcelona, Spain) have recently developed
+      a minimally invasive method for evaluation of intestinal motility based on endoluminal image
+      analysis using the endoscopic PillCam capsule. In contrast to manometry, this technique is
+      minimally invasive, the technical aspects are simple, and the analysis is performed fully
+      automated by a computer program. Both the technical procedure of the test and the endoluminal
+      image analysis program has been developed by a multidisciplinary medical-engineering team in
+      the Autonomous University of Barcelona over the past 5 years. The technique has been
+      validated in a group of patients with intestinal dysmotility and healthy subjects, and has
+      demonstrated over 90% sensitivity and specificity.
+
+      In brief, the technique works as follows. In each study a series of features are analyzed:
+      contractile patterns (contractions evaluated as a diaphragmatic occlusion of the lumen and by
+      the presence of a radial wrinkle pattern), non contractile patterns (wall and tunnel
+      patterns), luminal content (turbid pattern), endoluminal motion, and capsule displacement.
+
+      The program is based on an automated learning method (machine learning technique). Data from
+      patients and healthy subjects are used as a training set. Based on these data, the program
+      develops the function that best discriminates both groups. The performance of the system has
+      been validated using the leave-one-out method that uses all but one as training set and
+      evaluates the left-out example.
+
+      This technique needs now to be validated in a large multinational population. Using this
+      expanded pool of studies as a learning set, a robust discrimination algorithm will be
+      developed, that can be made available for widespread diagnostic application. Furthermore,
+      whereas manometry only recognizes neuropathic, myopathic5,12 and obstructive motor patterns,
+      endoluminal image analysis may identify different categories of patients depending on the
+      clinical presentation and the etiologic factors involved.
+
+      This study is designed to provide evidence that the algorithm, using images created by
+      PillCam SB2 capsules, is at least as good as small bowel manometry in diagnosing severe
+      dysmotility.
+    </textblock>
+  </detailed_description>
+  <overall_status>Terminated</overall_status>
+  <start_date>February 2009</start_date>
+  <completion_date type="Actual">June 2013</completion_date>
+  <primary_completion_date type="Actual">December 2012</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Test Characteristics (i.e., Sensitivity, Specificity, NPV, PPV) of CE-EIA, as Compared to SB Manometry Which Will be Considered as an Imperfect Gold standard14.</measure>
+    <time_frame>within 7 days</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Features Detected by CE-EIA: Contractile Patterns; Non Contractile Patterns - Wall and Tunnel Patterns; Luminal Content - Turbid Pattern; Endoluminal Motion; Capsule Displacement.</measure>
+    <time_frame>within 7 days</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical Symptoms</measure>
+    <time_frame>within 7 days</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CE-EIA Scores for Dysmotility</measure>
+    <time_frame>within 7 days</time_frame>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">143</enrollment>
+  <condition>Intestinal Abnormalities</condition>
+  <arm_group>
+    <arm_group_label>Patients</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patients previously indicated for manometry</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy volunteers</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Healthy volunteers</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>PillCam SB2</intervention_name>
+    <description>The disposable, ingestible PillCam SB 2 Capsule, part no. FGS-0180, is designed to acquire video images during natural propulsion through the small bowel. The capsule transmits acquired images via RF communication channel to the DataRecorder located outside the body.</description>
+    <arm_group_label>Patients</arm_group_label>
+    <arm_group_label>Healthy volunteers</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion criteria - Patients
+
+          -  Patient's age is 16-80 years, inclusive.
+
+          -  One of the following SB manometry procedures:
+
+               -  Underwent SB manometry within five years if results were abnormal
+
+               -  Underwent SB manometry within 1 year if results were normal
+
+               -  Scheduled for SB manometry within six months of enrollment date
+
+          -  Patient was indicated for small bowel manometry based on one or both of the following
+             symptoms:
+
+               -  Pseudo obstruction of the small bowel: symptoms resembling mechanical small bowel
+                  obstruction without evidence of luminal compromise of the gut. Mechanical
+                  occlusion is ruled-out by endoscopic and / or radiological studies following the
+                  criteria of the attending physician.
+
+        Patients may have any of the following:
+
+          -  recurrent acute episodes (at least two) with air fluid levels (as evidenced at least
+             once by abdominal X-ray), or
+
+          -  chronic symptoms with small bowel dilation resembling a partial mechanical
+             obstruction.
+
+        Patients will be tested during period of (non-acute) remission. - Chronic severe GI
+        symptoms with inability to maintain normal body weight: abdominal symptoms (such as nausea,
+        abdominal distension, discomfort or pain) produce inability to maintain a normal body
+        weight as defined by unintentional weight loss of at least 10% of original body weight
+        before onset of symptoms or a BMI &lt; 18.5, while on a normal diet (without oral dietary
+        supplements, enteral or parenteral feeding).
+
+        These should be chronic symptoms lasting at least 6 months.
+
+        - Patient or legal guardian agrees to sign consent form
+
+        Exclusion criteria - Patients
+
+          -  Acute exacerbation of chronic obstructive symptoms.
+
+          -  Mechanical obstruction of any kind such as definite long stricture seen on
+             radiological exam.
+
+          -  Suspected GI stricture, followed by Agile® study that could not prove patency of the
+             GI tract.
+
+          -  Known history of small bowel organic disease such as Crohn's Disease or Celiac.
+
+          -  Patient suffers from any condition, such as swallowing problems or having an implanted
+             cardiac pacemaker or defibrillator which precludes compliance with study and/or device
+             instructions.
+
+          -  Non-steroidal anti-inflammatory drugs including aspirin, (twice weekly or more) during
+             the 4 weeks preceding the CE exam.
+
+          -  Patient has undergone gastrectomy (segmental small bowel resection over 30%).
+
+          -  During the period between small bowel manometry and Capsule endoscopy, the patient has
+             undergone any abdominal surgical procedures other than appendectomy, cholecystectomy,
+             abdominal wall hernia repair or catheter placing for enteral feeding.
+
+          -  Manometry was performed before any other allowed GI procedure.
+
+          -  Patient is pregnant.
+
+          -  Known abuse of alcohol or illicit substances.
+
+          -  Patient presently presenting with an acute life threatening condition.
+
+          -  Participating in another clinical study within 30 days.
+
+        Inclusion criteria - Healthy Volunteers
+
+          -  Volunteer's age is 16-80 years, inclusive.
+
+          -  Volunteer or legal guardian agrees to sign consent form. 6.5.2 Exclusion criteria -
+             Healthy Volunteers
+
+          -  Known diabetes mellitus
+
+          -  Recurrent Gastrointestinal symptoms
+
+          -  Volunteer suffers from any condition, such as swallowing problems, which precludes
+             compliance with study and/or device instructions
+
+          -  Non-steroidal anti-inflammatory drugs including aspirin, (twice weekly or more) during
+             the 4 weeks preceding enrollment
+
+          -  More than one answer above 'mild' on the healthy volunteer symptoms questionnaire
+             (Appendix C).
+
+          -  Female volunteer is pregnant
+
+          -  Known abuse of alcohol or illicit substances.
+
+          -  Participating in another clinical study within 30 days
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Fernando Azpiroz, Prof.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Autonomous University of Barcelona</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Division of Gastroenterology and Hepatology Mayo Clinic</name>
+      <address>
+        <city>Scottsdale</city>
+        <state>Arizona</state>
+        <zip>85259</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mayo Clinic,</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Center for GI Research, KU Leuven,</name>
+      <address>
+        <city>Leuven</city>
+        <zip>3000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Internal Medicine &amp; Gastroenterology, University of Bologna,</name>
+      <address>
+        <city>Bologna</city>
+        <zip>I-40138</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Autonomous University of Barcelona</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>08035</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Departement of Internal Medicine, Sahlgrenska Universitetss</name>
+      <address>
+        <city>Göteborg</city>
+        <zip>41345</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+    <country>Italy</country>
+    <country>Spain</country>
+    <country>Sweden</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 11, 2010</study_first_submitted>
+  <study_first_submitted_qc>March 11, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 12, 2010</study_first_posted>
+  <results_first_submitted>February 25, 2014</results_first_submitted>
+  <results_first_submitted_qc>May 21, 2014</results_first_submitted_qc>
+  <results_first_posted type="Estimate">June 23, 2014</results_first_posted>
+  <last_update_submitted>May 21, 2014</last_update_submitted>
+  <last_update_submitted_qc>May 21, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">June 23, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>intestinal abnormalities</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Congenital Abnormalities</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Patients</title>
+          <description>Patients previously indicated for manometry</description>
+        </group>
+        <group group_id="P2">
+          <title>Healthy Volunteers</title>
+          <description>Healthy volunteers</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="75"/>
+                <participants group_id="P2" count="68"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="75">recruitment was premature terminated</participants>
+                <participants group_id="P2" count="68"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>no analysis has been performd since study was premature terminated</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Patients</title>
+          <description>Patients previously indicated for manometry
+PillCam SB2: The disposable, ingestible PillCam SB 2 Capsule, part no. FGS-0180, is designed to acquire video images during natural propulsion through the small bowel. The capsule transmits acquired images via RF communication channel to the DataRecorder located outside the body.</description>
+        </group>
+        <group group_id="B2">
+          <title>Healthy Volunteers</title>
+          <description>Healthy volunteers
+PillCam SB2: The disposable, ingestible PillCam SB 2 Capsule, part no. FGS-0180, is designed to acquire video images during natural propulsion through the small bowel. The capsule transmits acquired images via RF communication channel to the DataRecorder located outside the body.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="75"/>
+            <count group_id="B2" value="68"/>
+            <count group_id="B3" value="143"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="40.2" spread="15.34"/>
+                    <measurement group_id="B2" value="40.5" spread="13.6"/>
+                    <measurement group_id="B3" value="40.34" spread="14.49"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="68"/>
+                    <measurement group_id="B2" value="64"/>
+                    <measurement group_id="B3" value="132"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="3"/>
+                    <measurement group_id="B3" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="53"/>
+                    <measurement group_id="B2" value="43"/>
+                    <measurement group_id="B3" value="96"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="22"/>
+                    <measurement group_id="B2" value="25"/>
+                    <measurement group_id="B3" value="47"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Belgium</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                    <measurement group_id="B2" value="16"/>
+                    <measurement group_id="B3" value="30"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Spain</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="37"/>
+                    <measurement group_id="B2" value="47"/>
+                    <measurement group_id="B3" value="84"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Italy</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="16"/>
+                    <measurement group_id="B2" value="3"/>
+                    <measurement group_id="B3" value="19"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Sweden</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Test Characteristics (i.e., Sensitivity, Specificity, NPV, PPV) of CE-EIA, as Compared to SB Manometry Which Will be Considered as an Imperfect Gold standard14.</title>
+        <time_frame>within 7 days</time_frame>
+        <population>The study was terminated without achieving the needed sample size due to very low recruitment rate. therefore, no statistical analysis has been performed. T</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Healthy Volunteers</title>
+            <description>Healthy volunteers
+PillCam SB2: The disposable, ingestible PillCam SB 2 Capsule, part no. FGS-0180, is designed to acquire video images during natural propulsion through the small bowel. The capsule transmits acquired images via RF communication channel to the DataRecorder located outside the body.</description>
+          </group>
+          <group group_id="O2">
+            <title>Patients</title>
+            <description>Patients previously indicated for manometry
+PillCam SB2: The disposable, ingestible PillCam SB 2 Capsule, part no. FGS-0180, is designed to acquire video images during natural propulsion through the small bowel. The capsule transmits acquired images via RF communication channel to the DataRecorder located outside the body.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Test Characteristics (i.e., Sensitivity, Specificity, NPV, PPV) of CE-EIA, as Compared to SB Manometry Which Will be Considered as an Imperfect Gold standard14.</title>
+          <population>The study was terminated without achieving the needed sample size due to very low recruitment rate. therefore, no statistical analysis has been performed. T</population>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="0"/>
+                <count group_id="O2" value="0"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Features Detected by CE-EIA: Contractile Patterns; Non Contractile Patterns - Wall and Tunnel Patterns; Luminal Content - Turbid Pattern; Endoluminal Motion; Capsule Displacement.</title>
+        <time_frame>within 7 days</time_frame>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Clinical Symptoms</title>
+        <time_frame>within 7 days</time_frame>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>CE-EIA Scores for Dysmotility</title>
+        <time_frame>within 7 days</time_frame>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Patients</title>
+          <description>Patients previously indicated for manometry
+Two Moderate adverse events not related to studies procedure were reported within this study: abdominal pain and nausea.
+In one case (i.e., abdominal pain) emergency visit occurred and the adverse events was resolved within four days.</description>
+        </group>
+        <group group_id="E2">
+          <title>Healthy Volunteers</title>
+          <description>Healthy volunteers
+PillCam SB2: The disposable, ingestible PillCam SB 2 Capsule, part no. FGS-0180, is designed to acquire video images during natural propulsion through the small bowel. The capsule transmits acquired images via RF communication channel to the DataRecorder located outside the body.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="75"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="68"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="75"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="68"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Gastrointestinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Abdominal Pain</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="75"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="68"/>
+              </event>
+              <event>
+                <sub_title>Nausea</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="75"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="68"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>director of clinical affairs</name_or_title>
+      <organization>Given Imaging</organization>
+      <phone>+972-4-9097774</phone>
+      <email>Hila.debby@givenimaging.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,166 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02694159</url>
+  </required_header>
+  <id_info>
+    <org_study_id>823464</org_study_id>
+    <nct_id>NCT02694159</nct_id>
+  </id_info>
+  <brief_title>Physician Judgment and Machine Predictions</brief_title>
+  <official_title>Physician Judgment and Machine Predictions: Improving Medical Decisions Using Machine Learning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Pennsylvania</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Harvard University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Pennsylvania</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study goal is to improve the value of care and reduce health disparities by developing a
+      targeted set of sophisticated and powerful algorithms to improve upon human clinical
+      judgments. The plan is to use the test case of detecting sepsis in patients in the emergency
+      department (ED) as the first step in improving the value of care and reducing health
+      disparities by developing a targeted set of sophisticated and powerful algorithms to improve
+      upon human clinical judgments. This work will be performed using data from the University of
+      Pennsylvania Health System where a preliminary Early Warning and Response System for Sepsis
+      monitors clinical parameters. The premise underlying all this work is that by improving
+      decision-making, it will both reduce low-value care and health disparities.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study will first ingest large volumes of clinical data on tens of thousands of patients
+      presenting to EDs and transferred to ICUs or general hospital units, and feed these data into
+      a statistical model for prediction of sepsis. This will allow the team to identify a pool of
+      patients who, based on data available to doctors at the time of the ED visit, were highly
+      likely to develop sepsis. Researchers will then analyze physician decision making compared to
+      algorithmic decision making, to understand both the extent of under- and over- diagnosis of
+      sepsis, and which attributes of patients and doctors lead to disparities in care. Then
+      researchers will develop an understanding of how electronic records data could be used in
+      real time to improve physician decision making. An early warning system could help better
+      target interventions for sepsis, drive uptake in under-treated groups, and reduce treatment
+      where it unnecessarily increases costs and risks to patients. In the future, the hope is that
+      this work could lay the foundation for an intelligent decision aid leveraging ML, rather than
+      the current checklist approach to decision support. To describe the process of algorithm
+      development in more detail, the deliverable will be a machine prediction algorithm based on
+      claims and clinical data to support ED physicians making decisions about sepsis. The design
+      of the algorithm and decision aid will address where the greatest area of need is and solve a
+      prediction problem. Researchers will identify where ED physicians are making systematic
+      errors in their judgment thanks to biases and heuristics and tailor our decision support to
+      adapt to the ED workflow. This algorithm and framework will explicitly serve as the project's
+      prototype. The approach will be to first derive a baseline risk model for the development of
+      sepsis in patients meeting specific criteria. The scope of data will include data from the
+      claims history, outpatient electronic health record (EHR) data, and risk factor and survey
+      data. We will then develop a ML model that incorporates additional data streams and
+      modalities including vital signs, lab values, as well as image-based data streams such as
+      telemetry. The fundamental analytical approach taken is to use advanced machine learning
+      techniques. The core of these techniques is to use highly flexible functional forms applied
+      on randomly partitioned data, so that the models are trained on one set of data and then
+      validated - tested - on another set of data. Researchers will use a large set of variables
+      for prediction: patient demographics, comorbidities, a set of relevant clinical variables
+      including lab results, medications, orders, vitals, socioeconomic descriptors, and prior use
+      of medical services derived from longitudinal sources such as through a &quot;180-day lookback&quot;
+      (e.g. data from encounters in the 180 days prior to the indexed encounter). Researchers will
+      also use an extremely large set of individual diagnosis and procedure codes and other raw
+      parameters, rather than aggregating to comorbidities. Researchers will utilize these methods
+      to (1) maximize the ability to predict sepsis, improve care and outcomes and (2) identify a
+      clustering of patients by outcome likelihoods that improves upon existing risk stratification
+      models. The modeling output will include ranking and weights of various factors that together
+      with the grouping will identify sub-groups of patients with specific clinical characteristics
+      in each risk stratum.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>February 2016</start_date>
+  <completion_date type="Anticipated">August 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Patients developing sepsis</measure>
+    <time_frame>Two years</time_frame>
+    <description>The primary outcome variable is whether patients developed sepsis.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Under- and over-diagnosis of sepsis</measure>
+    <time_frame>Two years</time_frame>
+    <description>The secondary outcome will be a comparison between physician decision making and algorithm decision making on the diagnosis of sepsis. It will be measured by the diagnosis of sepsis as pulled from the medical record.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Treatment decisions among patients in the emergency department</measure>
+    <time_frame>Two years</time_frame>
+    <description>Patients who are not diagnosed with sepsis will be compared to those who were diagnosed as well as patients who were not diagnosed with those who should have been diagnosed. Treatment and outcome will be measured and compared between the two samples. This information will be pulled from their medical records.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">50000</enrollment>
+  <condition>Sepsis</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Clinical data on tens of thousands of patients presented to ED and transferred to ICUs or
+        general hospital units within the University of Pennsylvania Health System from 2008 to
+        2014.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients presented to EDs and transferred to ICUs or general hospital units within the
+             University of Pennsylvania Health System
+
+        Exclusion Criteria:
+
+          -  Children and adolescents
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Amol Navathe, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pennsylvania</affiliation>
+  </overall_official>
+  <verification_date>April 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 18, 2016</study_first_submitted>
+  <study_first_submitted_qc>February 23, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 29, 2016</study_first_posted>
+  <last_update_submitted>April 27, 2017</last_update_submitted>
+  <last_update_submitted_qc>April 27, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 28, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

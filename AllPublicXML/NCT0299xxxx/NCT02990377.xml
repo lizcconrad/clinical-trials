@@ -1,0 +1,269 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02990377</url>
+  </required_header>
+  <id_info>
+    <org_study_id>R01DA039159</org_study_id>
+    <nct_id>NCT02990377</nct_id>
+  </id_info>
+  <brief_title>Reducing Non-Medical Opioid Use: An Automatically Adaptive mHealth Intervention</brief_title>
+  <official_title>Reducing Non-Medical Opioid Use: An Automatically Adaptive mHealth Intervention</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Michigan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Drug Abuse (NIDA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Michigan</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In recent years in the U.S., problems associated with opioid prescriptions, including
+      non-medical use and overdose, increased to historically unprecedented levels and represent a
+      public health crisis. Emergency departments (EDs) play an important role in opioid
+      prescribing, particularly to individuals at high risk for adverse opioid-related outcomes.
+      The purpose of this study is to determine whether a new mobile health (mhealth) intervention
+      can assist people in the safe use of opioid analgesic (OA) medications after leaving the
+      emergency department (ED).
+
+      The specific aims of this project are to: (1) adapt and enhance an existing motivational
+      intervention to decrease non-medical opioid use after an ED visit by optimizing intervention
+      intensity and duration through reinforcement learning (RL); (2) examine the impact of an
+      RL-supported intervention on non-medical opioid use level during the six months post-ED
+      visit; and (3) examine the impact of the RL intervention on the opioid-related behaviors and
+      adverse outcomes of driving after opioid use, overdose risk behaviors, and subsequent
+      opioid-related ED visits. The secondary aims of this project are to: (SA1) examine whether
+      baseline level of non-medical opioid use moderates the effects of the intervention; and (SA2)
+      understand barriers and facilitators of implementation of the intervention based on
+      qualitative interviews with ED patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The proposed study will test the efficacy of an interactive voice response (IVR) and
+      reinforcement learning (RL) supported motivational intervention delivered after an emergency
+      department (ED) visit to participants with recent non-medical OA use who receive an OA in the
+      ED or who are prescribed an OA at ED discharge, compared to enhanced usual care (EUC). In the
+      intervention condition, IVR calls will ask participants to report information about their
+      health and medications using their touch-tone phone, and based on their responses they may
+      receive brief or extended motivational messages during the IVR call, or they may be assigned
+      to receive a 20 minute motivational enhancement session with a study therapist over the
+      phone. Because the most helpful intensity of intervention is unknown and likely to vary
+      between patients, the project will use an artificial intelligence strategy called
+      reinforcement learning (RL). The RL system will continuously &quot;learn&quot; from the success of
+      prior actions in similar situations with similar patients in order to select the action most
+      likely to reduce non-medical opioid use for each participant during each call.
+
+      The proposed study will screen ~ 5,600 ED patients to enroll 600 ED participants in the
+      randomized controlled trial (RCT). Participants will be randomized to the intervention
+      condition (n=300) or to EUC (n=300). All participants will be re-assessed at 1, 3 and 6
+      months post-ED visit for level of non-medical OA use and related outcomes. The RCT will be
+      complemented by qualitative interviews to inform later implementation.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 2018</start_date>
+  <completion_date type="Anticipated">June 2021</completion_date>
+  <primary_completion_date type="Anticipated">July 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Level of Non-Medical Opioid Use</measure>
+    <time_frame>Change over time (1-, 3-, and 6-months post-ED visit)</time_frame>
+    <description>The Current Opioid Misuse Measure (COMM) assesses opioid use that is more than prescribed, for non-pain-related reasons, borrowing medications, obtaining medications from sources other than doctors, etc., on a 5-point Likert scale of &quot;Never&quot; to &quot;Very Often.&quot; The primary outcome will be a measure of severity created by summing the items.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Emergency Department (ED) Utilization</measure>
+    <time_frame>Change over time (1-, 3-, and 6-months post-ED visit)</time_frame>
+    <description>ED use will be assessed with adapted items from the Treatment Service Review. A count of visits will be measured for the six months of follow-up.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Driving after consuming opioids</measure>
+    <time_frame>Change over time (1-, 3-, and 6-months post-ED visit)</time_frame>
+    <description>The investigators have adapted an item from the National Survey of Drinking and Driving Attitudes and Behaviors to apply to opioids. Frequency is assessed with a 5-point Likert scale and will be examined as a categorical variable for each follow-up assessment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overdose Risk Behaviors</measure>
+    <time_frame>Change over time (1-, 3-, and 6-months post-ED visit)</time_frame>
+    <description>The investigators have developed a measure based on items from the published literature on heroin overdose by adding risk factors specific to opioid analgesics. This measure will be a summary score of all items for each follow-up assessment.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>Non-Medical Opioid Use</condition>
+  <arm_group>
+    <arm_group_label>RL-supported IVR intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants in the intervention group receive brief, non-tailored information related to decreasing opioid analgesic risk via pamphlets given at the ED plus the RL-supported IVR intervention.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Enhanced Usual Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Participants in the enhanced usual care group receive brief, non-tailored information related to decreasing opioid analgesic risk via pamphlets given at the ED.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>RL-supported IVR intervention</intervention_name>
+    <description>Participants in the intervention group receive interactive voice response calls where they are asked to report information about their health and medications using their touch-tone phone. Based on their responses, participants may receive brief or extended motivational messages during the call, or they may be assigned to receive a 20 minute motivational enhancement session with a study therapist over the phone.</description>
+    <arm_group_label>RL-supported IVR intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Presenting at the study site emergency department (ED) for a pain related complaint
+
+          -  Past 3-month non-medical opioid analgesic (OA) use
+
+          -  Receiving an OA in the ED, or being given an OA prescription to fill after leaving the
+             ED
+
+        Exclusion Criteria:
+
+          -  Unable to perform informed consent
+
+          -  Presenting for pain related to acute cancer therapy
+
+          -  DSM-V moderate or severe opiate (heroin or OA) use disorders (4+ symptoms), or
+             experiencing tolerance and withdrawal symptoms
+
+          -  Unable to read/understand English
+
+          -  Lives 50+ miles from the study site
+
+          -  Acute risk for self-harm at the time of recruitment
+
+          -  Currently pregnant
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Amy S Bohnert, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Michigan</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Amy S Bohnert, Ph.D.</last_name>
+    <phone>734-845-3638</phone>
+    <email>amybohne@med.umich.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jenny Chen, M.P.H.</last_name>
+    <phone>734-222-7671</phone>
+    <email>chenjs@med.umich.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Michigan Medical Center</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Amy S Bohnert, Ph.D.</last_name>
+      <phone>734-845-3638</phone>
+      <email>amybohne@med.umich.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jenny Chen, M.P.H.</last_name>
+      <phone>734-222-7671</phone>
+      <email>chenjs@med.umich.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Satinder Singh Baveja, Ph.D.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Frederic Blow, Ph.D.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Rebecca Cunningham, M.D.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Karen Farris, Ph.D.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mark Ilgen, Ph.D.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>John Piette, Ph.D.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mary Janevic, Ph.D.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 2, 2016</study_first_submitted>
+  <study_first_submitted_qc>December 8, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 13, 2016</study_first_posted>
+  <last_update_submitted>March 9, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 9, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 12, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Michigan</investigator_affiliation>
+    <investigator_full_name>Amy S.B. Bohnert</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Opioid Analgesics</keyword>
+  <keyword>Opioid Safety</keyword>
+  <keyword>Emergency Department</keyword>
+  <keyword>Motivational Enhancement</keyword>
+  <keyword>Interactive Voice Response</keyword>
+  <keyword>Reinforcement Learning</keyword>
+  <keyword>mHealth</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Analgesics, Opioid</mesh_term>
+    <mesh_term>Analgesics</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

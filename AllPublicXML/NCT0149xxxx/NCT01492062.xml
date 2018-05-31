@@ -1,0 +1,245 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01492062</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SU-09222010-6910</org_study_id>
+    <secondary_id>SPO: 47012</secondary_id>
+    <secondary_id>eProtocol: 8566</secondary_id>
+    <nct_id>NCT01492062</nct_id>
+  </id_info>
+  <brief_title>A Study to Evaluate a Multiple Model Probabilistic Predictive Controller (MMPPC) for Closed Loop Insulin Delivery</brief_title>
+  <official_title>A Study to Evaluate a Multiple Model Probabilistic Predictive Controller (MMPPC) for Closed Loop Insulin Delivery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Stanford University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      You are invited to participate in a research study for the development of an artificial
+      pancreas. An artificial pancreas uses a program which takes information from a continuous
+      blood glucose monitor and uses that information to tell an insulin infusion pump how much
+      insulin to deliver. The primary purpose of this study is to gain experience with insulin
+      delivery algorithms or programs program (algorithm) provides the best regulation of glucose
+      levels so that there are no severe low blood glucose reactions and blood glucose levels are
+      generally between 70 to 180 mg/dl.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      You are invited to participate in a research study for the development of an artificial
+      pancreas. An artificial pancreas uses a program which takes information from a continuous
+      blood glucose monitor and uses that information to tell an insulin infusion pump how much
+      insulin to deliver. The primary purpose of this study is to gain experience with insulin
+      delivery algorithms or programs program (algorithm) provides the best regulation of glucose
+      levels so that there are no severe low blood glucose reactions and blood glucose levels are
+      generally between 70 to 180 mg/dl. If the system is working properly, you would not need to
+      enter the amount of food you were eating, give an insulin bolus, or change your basal rates
+      while wearing the device. You would need to periodically check to be sure the continuous
+      glucose sensor was functioning properly and you would need to respond to alarms that might
+      occur if your blood glucose was too high, too low, or the glucose sensor or pump were not
+      working well. In addition to this the investigators will also gain experience with insulin
+      delivery algorithms to minimize the number of glucose readings which are above or below
+      target. It is our intention to modify the algorithms during these studies.
+
+      In this study the investigators plan to use a commercially available insulin infusion pump
+      (OmniPod) to deliver lispro (Humalog) insulin. The investigators will use Navigator
+      continuous glucose sensors both to monitor glucose levels (sensor 1) and provide the glucose
+      concentration for the closed loop algorithm (sensor 2). The signal from the second Navigator
+      will be sent by serial cable to a computer which will be at the patient's bedside. A control
+      algorithm will reside on the computer, and the amount of insulin to be delivered will be
+      transmitted to the OmniPod Personal Device Manager which will then send a radiofrequency (rf)
+      signal to the Omnipod pump residing on the subject. A health care provider will be in
+      attendance and monitoring discrete blood glucose levels (YSI, GlucoScout, or HemoCue
+      measurements) at least every 30 minutes. While the Navigator and Omnipod are commercially
+      available they will be used in this study as part of an investigational system while you are
+      in the hospital, an investigational system is one that is not approved for use by the FDA.
+    </textblock>
+  </detailed_description>
+  <overall_status>Withdrawn</overall_status>
+  <why_stopped>
+    Study halted prior to enrollment of first participant.
+  </why_stopped>
+  <start_date>February 2011</start_date>
+  <completion_date type="Actual">November 2013</completion_date>
+  <primary_completion_date type="Actual">November 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Test the feasibility of using MMPPC controller for closed loop insulin delivery in a monitored inpatient clinical research environment.</measure>
+    <time_frame>36 Hour Admission</time_frame>
+    <description>Safety: 1) No reference glucose values &lt;50 mg/dl, and no more than 30 minutes with reference glucose values between 50-60 mg/dl per day based on linear interpolation between values 3) No reference glucose value &gt;250 mg/dl outside of the 3 hours following a meal.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Efficacy</measure>
+    <time_frame>30 hour admission</time_frame>
+    <description>The percent of time spent between 70 mg/dl and 180 mg/dl, mean and standard deviation of measurements.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">0</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>closed-loop control</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Multiple Model Predictive Controller</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Multiple Model Predictive Controller</intervention_name>
+    <description>Use of closed loop algorithm in an inpatient environment while closely monitoring blood glucose levels.</description>
+    <arm_group_label>closed-loop control</arm_group_label>
+    <other_name>artificial pancreas</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Eligibility
+
+        To be eligible for the study, all subjects must meet the following criteria:
+
+          1. Clinical diagnosis of type 1 diabetes and using daily insulin therapy for at least one
+             year. The diagnosis of type 1 diabetes is based on the investigator's judgment;
+             Cpeptide level and antibody determinations are not needed.
+
+          2. Age 21 years to less than 45.0 years
+
+          3. Subject has used a downloadable insulin pump for at least 3 months
+
+          4. Subject understands the study protocol and agrees to comply with it
+
+          5. Informed Consent Form signed
+
+          6. A Personal Home computer with internet access (must have access to a PC for uploading,
+             not a Mac).
+
+        Exclusion Criteria:
+
+        Exclusion
+
+        Subjects who meet any of the following criteria are not eligible for the study:
+
+          1. The presence of a significant medical disorder that in the judgment of the
+             investigator will affect the wearing of the sensors or the completion of any aspect of
+             the protocol.
+
+          2. The presence of any of the following diseases:
+
+               -  Asthma if treated with systemic or inhaled corticosteroids in the last 6 months
+
+               -  Cystic fibrosis
+
+               -  Other major illness that in the judgment of the investigator might interfere with
+                  the completion of the protocol Adequately treated thyroid disease and celiac
+                  disease do not exclude subjects from enrollment
+
+          3. Inpatient psychiatric treatment in the past 6 months
+
+          4. Current use of oral/inhaled glucocorticoids or other medications, which in the
+             judgment of the investigator would be a contraindication to participation in the
+             study.
+
+          5. Pregnancy, breast feeding, or intention of becoming pregnant in the next 2 months.
+
+          6. Weight less than 26 kg
+
+          7. Renal failure or peritoneal dialysis
+
+          8. History of heart disease
+
+          9. The use of beta-blockers
+
+         10. History of cerebrovascular disease, or non-hypoglycemic seizures, or intolerance of
+             glucagon treatment.
+
+         11. History of a hypoglycemic seizure within 6 months of enrollment.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>45 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bruce A. Buckingham</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>CTRU located in Blake Wilbur</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Stanford University School of Medicine</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 14, 2011</study_first_submitted>
+  <study_first_submitted_qc>December 12, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 14, 2011</study_first_posted>
+  <last_update_submitted>March 31, 2015</last_update_submitted>
+  <last_update_submitted_qc>March 31, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 2, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stanford University</investigator_affiliation>
+    <investigator_full_name>Bruce A. Buckingham</investigator_full_name>
+    <investigator_title>Professor of Pediatric Endocrinology</investigator_title>
+  </responsible_party>
+  <keyword>Type 1 diabetes mellitus</keyword>
+  <keyword>artificial pancreas</keyword>
+  <keyword>closed-loop</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pancrelipase</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,527 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03295149</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RTC-2015-3446-1</org_study_id>
+    <nct_id>NCT03295149</nct_id>
+  </id_info>
+  <brief_title>ScreenOX - An Automated At-home Screening Test for Adult Sleep Apnea Using Nocturnal Oximetry</brief_title>
+  <acronym>ScreenOX</acronym>
+  <official_title>New Out-of-center Paradigms to Simplify Sleep Apnea Diagnosis. Design and Development of an Automated Screening Test Based on Oximetry (ScreenOX)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hospital del Río Hortega</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>OXIGEN salud</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Valladolid</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Five Flames Mobile</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hospital del Río Hortega</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The sleep apnea-hypopnea syndrome (SAHS) is a respiratory disorder characterized by frequent
+      breathing cessations (apneas) or partial collapses (hypopneas) during sleep. SAHS is linked
+      with the most important causes of death in adults from industrialized countries. Metabolic
+      deregulation and cardiovascular and cerebrovascular diseases, such as atrial fibrillation,
+      stroke, myocardial infarction and sudden cardiac death, could affect people having untreated
+      SAHS. The gold standard method for SAHS diagnosis is in-hospital, technician-attended
+      nocturnal polysomnography (PSG). Nevertheless, this methodology is labor-intensive,
+      time-consuming, and relatively unavailable, especially in low-resource settings. These
+      drawbacks have led to large waiting lists, which delay diagnosis and treatment and limits its
+      effectiveness as single diagnostic method for SAHS. Blood oxygen saturation (SpO2) and pulse
+      rate (PR) from nocturnal pulse oximetry (NPO) provide relevant and essential information to
+      detect apneas. In addition, it is significantly less intrusive for patients and it can be
+      easily recorded at patients' home. In the same way, automated signal processing and pattern
+      recognition techniques have demonstrated to provide accurate tools able to detect and
+      effectively use this information. Therefore, the investigators hypothesize that automated
+      pattern recognition of at-home NPO recordings could provide reliable and efficient tools able
+      to simplify the management of SAHS. The aim of this study is two-fold: 1) to prospectively
+      assess the reliability and effectiveness of at-home NPO in the context of adult SAHS; 2) to
+      design, optimize and extensively assess the diagnostic performance of automated NPO-based
+      screening tools for SAHS. In order to achieve these goals, both PSG and NPO recordings are
+      carried out ambulatory and simultaneously at patient's home. A portable polysomnograph
+      (Embletta MPR, Natus) is used for standard PSG at home, whereas a portable wrist-worn pulse
+      oximeter (WristOX2 3150, Nonin) is used for ambulatory NPO. In addition, conventional in-lab
+      PSG and attended pulse oximetry are also performed simultaneously in the hospital facilities.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Participants are recruited from the specialized sleep outpatient facilities of the Río
+      Hortega University Hospital from Valladolid (Spain). All patients are referred from primary
+      care due to moderate-to-high clinical suspicion of suffering from sleep apnea-hypopnea
+      syndrome (SAHS). The final population is randomly split into two independent datasets: 1)
+      training set (50%), which is used to design and build/train the screening algorithms; and 2)
+      the test set (remaining 50%), which is used to further assess performance using unseen data.
+
+      The American Academy of Sleep Medicine rules are used to score respiratory events and to
+      obtain the apnea-hypopnea index (AHI) from ambulatory PSG at home, which is used to
+      definitively diagnose SAHS.
+
+      A portable wrist-worn pulse oximeter (WristOX2 3150, Nonin) is used for at-home NPO. Portable
+      NPO is carried out simultaneously to ambulatory PSG (Embletta MPR, Natus) at patient's home.
+      In addition, attended portable in-lab NPO (WristOX2 3150, Nonin) and in-lab PSG (E-Series,
+      Compumedics) are performed simultaneously in the hospital in a different consecutive/previous
+      night for comparison purposes. Participants are randomly assigned to carry out unattended
+      sleep studies at home before or after in-hospital recordings.
+
+      SpO2 and PR from NPO are recorded simultaneously at a sampling rate of 1 Hz (1 sample every
+      second). All recordings are saved to separate files and processed offline. An automatic
+      signal pre-processing stage is carried out to remove artifacts due to patient movements
+      (signal loss).
+
+      The signal processing methodology is divided into three automated stages: (i) feature
+      extraction, (ii) feature selection, and (iii) pattern recognition.
+
+      Firstly, NPO recordings are parameterized by means of a wide set of variables, which
+      previously demonstrated a high discriminative power in the context of SAHS detection. All
+      features are computed for each whole portable overnight recording. The following feature
+      subsets are composed:
+
+        -  Time domain statistics from SpO2 recordings. First to fourth-order statistical moments
+           in the time domain, i.e., arithmetic mean, variance, skewness and kurtosis, which
+           quantify central tendency, amount of dispersion, asymmetry, and peakedness,
+           respectively.
+
+        -  Time domain features from PR recordings: average, standard deviation, and root mean
+           square of standard deviation of the pulse-to-pulse interval time series.
+
+        -  Frequency domain statistics from SpO2 recordings. First to fourth-order statistical
+           moments, median frequency, and Shannon spectral entropy from the power spectral density
+           function.
+
+        -  Frequency domain statistics from PR recordings. First to fourth-order statistical
+           moments, median frequency, and Shannon spectral entropy from the power spectral density
+           function.
+
+        -  Conventional spectral measures from SpO2 recordings. Total signal power as well as peak
+           amplitude and relative power in the frequency range 0.014 - 0.033 Hz.
+
+        -  Conventional spectral measures from PR recordings. Normalized power in the low (0.04 -
+           0.15 Hz) and in the high (0.15 - 0.40 Hz) frequency bands, as well as the low frequency
+           to high frequency ratio (sympathovagal balance).
+
+        -  Nonlinear features from SpO2 recordings. Sample entropy, central tendency measure, and
+           Lempel - Ziv complexity, which measure irregularity, variability, and complexity of SpO2
+           recordings.
+
+        -  Nonlinear features from PR recordings. Sample entropy, central tendency measure, and
+           Lempel - Ziv complexity, which measure irregularity, variability, and complexity of PR
+           recordings.
+
+      Then, the optimum feature subset composed of the most relevant as well as complementary
+      variables are composed. In order to achieve this goal, the following feature selection
+      methods are applied:
+
+        -  Forward stepwise feature selection
+
+        -  Genetic algorithms
+
+        -  Fast correlation-based filter
+
+        -  Minimal-redundancy maximal-relevance criterion
+
+      Finally, the third stage corresponds to patter recognition. The aim of this stage is
+      two-fold: (i) to design and optimize binary classification-oriented models trained to discern
+      between SAHS negative and SAHS positive subjects using optimum features from NPO; (ii) to
+      design and optimize regression-oriented models trained to estimate the AHI using optimum
+      features from NPO. In order to achieve this goal, the following pattern recognition
+      algorithms are assessed:
+
+        -  Binary classification: logistic regression, artificial neural networks, Bayesian
+           networks, decision trees, ensemble learning (AdaBoost).
+
+        -  Regression models: multiple linear regression, artificial neural networks, Bayesian
+           networks, ensemble learning (least squares boosting).
+
+      These models are subsequently combined to optimize the following 2-stage screening protocol:
+      stage-1) true negative screening stage, which is aimed at detecting the maximum number of
+      non-SAHS subjects while minimizing the number of false negative patients (ideally 0% false
+      positive rate); stage-2) true positive screening stage, which is aimed at detecting (among
+      patients not identified as true negative in the first stage) the maximum number of true
+      positive patients while minimizing the number of false positive cases (ideally 0% false
+      positive rate). Both stages are complementary and they are implemented consecutively, such
+      that:
+
+        -  Patients identified as true negative in the first stage are referred to the sleep
+           specialist to finally discard SAHS taken into account symptoms, comorbidities and past
+           clinical history. These patients are no longer derived to the sleep unit unless
+           requested by the sleep specialist due to persistent and/or additional symptoms.
+
+        -  Patients identified as true positive in the second stage are referred to the sleep
+           specialist to finally confirm SAHS and decide the most suitable treatment option. These
+           patients are no longer derived to the sleep unit unless requested by the sleep
+           specialist.
+
+        -  Non-conclusive cases are finally derived to the sleep unit for a standard PSG in order
+           to confirm/discard SAHS.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2016</start_date>
+  <completion_date type="Anticipated">December 2018</completion_date>
+  <primary_completion_date type="Anticipated">April 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of patients correctly classified</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Percentage of patients (%) correctly classified/screened by the automated NPO-based screening test. At-home ambulatory PSG is used as the gold standard method for positive SAHS. Subjects with apnea-hypopnea index (AHI) &lt;5 are considered no-SAHS subjects, with 5&lt;=AHI&lt;15 as mild SAHS patients, with 15&lt;=AHI&lt;30 moderate SAHS patients, and AHI&gt;=30 as severe SAHS patients.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Body mass index</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Average (median and interquartile range) body mass index (kg/m2) of the cohort.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patients with chronic obstructive pulmonary disease</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Number of patients (n) with comorbid chronic obstructive pulmonary disease (COPD), according to standard definitions.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patients with hypertension</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Number of patients (n) with comorbid arterial hypertension (HT), according to standard definitions.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home PSG-derived AHI</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Apnea-hypopnea index (events per hour) derived from unattended PSG at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home PSG-derived time in REM sleep</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Percentage of time (%) in rapid eye movement (REM) sleep to the total sleep time derived from unattended PSG at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home PSG-derived sleep efficiency</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Sleep efficiency (%) measured as the percentage of total sleep time to the total recording time derived from unattended PSG at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home PSG-derived arousal index</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Number of arousals per hour of sleep (events per hour) derived from unattended PSG at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home PSG-derived time in supine position</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Percentage of time (%) in supine position to the total sleep time derived from unattended PSG at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home PSG-derived average SpO2</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Average overnight SpO2 (%) from unattended PSG at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home PSG-derived minimum SpO2</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Minimum overnight SpO2 (%) from unattended PSG at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home PSG-derived oxygen desaturation index of 3% (ODI3)</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Number of desaturations greater than or equal to 3% from baseline per hour of sleep (events per hor) from unattended PSG at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home NPO-derived ODI3</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Number of desaturations greater than or equal to 3% from baseline per hour of recording (events per hor) from unattended pulse oximetry at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home NPO-derived cumulative time below 90% (CT90)</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Percentage (%) of cumulative time with a saturation below 90% from unattended pulse oximetry at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home NPO-derived average SpO2</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Average saturation (%) from unattended pulse oximetry at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home NPO-derived minimum SpO2</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Minimum saturation (%) from unattended pulse oximetry at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home NPO-derived average pulse rate</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Average pulse rate (beats per minute) from unattended pulse oximetry at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>At-home NPO-derived minimum pulse rate</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Minimum pulse rate (beats per minute) from unattended pulse oximetry at patients' home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prevalence of SAHS</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Prevalence of SAHS (%) in the population under study according to at-home PSG.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Severity of SAHS</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Number of patients (n) with moderate-to-severe SAHS according to the at-home PSG-derived patient's AHI.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>NPO-derived ODI3 agreement</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Mean difference (mean +/- 1.96 standard deviation interval) from the Bland and Altman agreement plot between unattended ODI3 from at-home NPO and supervised ODI3 from in-hospital NPO.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>PSG-derived AHI agreement</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Mean difference (mean +/- 1.96 standard deviation interval) from the Bland and Altman agreement plot between unattended AHI from at-home PSG and supervised AHI from in-hospital PSG.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Optimum diagnostic performance - Area under the ROC curve</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Area under the receiver operating characteristics (ROC) curve of the optimum NPO-based binary classifier compared to standard at-home PSG.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Optimum diagnostic performance - Accuracy</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Accuracy (percentage, %) of the optimum NPO-based binary classifier compared to standard at-home PSG.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Optimum agreement - Intra-class correlation coefficient</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Intra-class correlation coefficient (ICC) between the optimum NPO-based estimated AHI and the actual AHI derived from at-home PSG.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient's Sleep quality</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Patients' sleep quality assessment using the Pittsburg questionnaire.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient's somnolence</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Patients' somnolence assessment using the Epworth questionnaire.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patients' quality of life</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Patients' quality of life assessment using the Quebec sleep questionnaire (QSQ).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of unsatisfactory recordings</measure>
+    <time_frame>6 months after the inclusion of the last patient</time_frame>
+    <description>Number of recordings (n) removed from the study due to reasons (either technical or human) related to unattended portable oximetry.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Sleep Apnea Syndromes</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Consecutive subjects derived to the sleep specialized outpatient facilities showing
+        moderate-to-high clinical suspicion of suffering from SAHS due to at least one of the
+        following symptoms: daytime hypersomnolence, loud snoring, nocturnal choking and
+        awakenings, and/or apneic events reported by the subject or the bedmate.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Men and women over 18 years old
+
+          -  Subjects derived from primary care to the sleep specialized outpatient facilities
+             showing moderate-to-high clinical suspicion of suffering from sleep apnea (daytime
+             hypersomnolence, loud snoring, nocturnal choking and awakenings, and/or apneic events)
+
+          -  Written informed consent signed
+
+        Exclusion Criteria:
+
+          -  Subjects under 18 years old
+
+          -  Subjects not signing the informed consent
+
+          -  Presence of any previously diagnosed sleep disorder: narcolepsy, insomnia, chronic
+             sleep deprivation, regular use of hypnotic or sedative medications and/or restless leg
+             syndrome.
+
+          -  Patients with the following chronic diseases: congestive heart failure, renal failure,
+             neuromuscular diseases, chronic respiratory failure.
+
+          -  Patients with &gt;50% of central apneas or the presence of Cheyne-Stokes respiration.
+
+          -  Previous continuous positive airway pressure (CPAP) treatment for SAHS diagnosis
+
+          -  A medical history that may interfere with the study objectives or, in the opinion of
+             the investigator, compromise the conclusions
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Félix Del Campo, PhD,MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Río Hortega University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Félix Del Campo, PhD, MD</last_name>
+    <phone>+34 983420400</phone>
+    <phone_ext>85776</phone_ext>
+    <email>fsas@telefonica.net</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Rosa Conde</last_name>
+    <phone>+34 983420400</phone>
+    <phone_ext>84400</phone_ext>
+    <email>rconvi@saludcastillayleon.es</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Río Hortega University Hospital</name>
+      <address>
+        <city>Valladolid</city>
+        <zip>47012</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Félix Del Campo, PhD, MD</last_name>
+      <phone>+34 983420400</phone>
+      <phone_ext>85776</phone_ext>
+      <email>fsas@telefonica.net</email>
+    </contact>
+    <contact_backup>
+      <last_name>Rosa Conde</last_name>
+      <phone>+34 983420400</phone>
+      <phone_ext>84400</phone_ext>
+      <email>rconvi@saludcastillayleon.es</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Julio F De Frutos, PhD, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Carmen A Arroyo, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Andrea Crespo, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Daniel Álvarez, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jordi Blanco</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ana Mayoral, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Roberto Hornero, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Gonzalo C Gutiérrez-Tobal, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jesús Poza, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Carlos Gómez, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>María García, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Víctor Ortega</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sergio Morales</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <link>
+    <url>http://www.screenox.es/</url>
+    <description>Web of the ScreenOX clinical trial</description>
+  </link>
+  <link>
+    <url>http://www.saludcastillayleon.es/HRHortega/es</url>
+    <description>Web of the Rio Hortega University Hospital, Spain</description>
+  </link>
+  <link>
+    <url>https://www.oxigensalud.com/healthcare/index.aspx</url>
+    <description>Web of OXIGEN salud. Respiratory therapy provider, Spain</description>
+  </link>
+  <link>
+    <url>http://gib.tel.uva.es/</url>
+    <description>Web of the Biomedical Engineering Group (GIB), University of Valladolid, Spain</description>
+  </link>
+  <verification_date>September 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 18, 2017</study_first_submitted>
+  <study_first_submitted_qc>September 22, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 27, 2017</study_first_posted>
+  <last_update_submitted>September 28, 2017</last_update_submitted>
+  <last_update_submitted_qc>September 28, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 2, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Hospital del Río Hortega</investigator_affiliation>
+    <investigator_full_name>Félix del Campo Matías</investigator_full_name>
+    <investigator_title>PhD, MD</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Apnea</mesh_term>
+    <mesh_term>Sleep Apnea Syndromes</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,178 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00481221</url>
+  </required_header>
+  <id_info>
+    <org_study_id>5210906.EMC</org_study_id>
+    <nct_id>NCT00481221</nct_id>
+  </id_info>
+  <brief_title>Detection of β Thalassemia Carriers by Red Cell Parameters Obtained From the H2 Automatic Counter</brief_title>
+  <official_title>Detection of β Thalassemia Carriers by Red Cell Parameters Obtained From the H2 Automatic Counter. A Clinical Retrospective Study.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>HaEmek Medical Center, Israel</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>HaEmek Medical Center, Israel</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      β thalassemia is an autosomal recessive hemoglobinopathy and considered as the most
+      widespread genetic mutation. According to the World Health Organization (WHO) between 1.5-7%
+      of the world population are carriers for this disease, and every year 60,000-400,000 birth of
+      new patients are reported. In Israel, the incidence of carriers for β thalassemia is around
+      20% among the Jewish from Kurdish origin and around 5-10% among the Arab population.
+
+      β thalassemia is a severe disease which requires many resources, both medical and financial.
+      The disease is expressed by chronic hemolytic anemia which requires regular blood
+      transfusions every 3 weeks. As a result of the blood transfusions and the iron absorption by
+      the digestive tract, those patients suffer from severe hemosiderosis which is the main
+      mortality cause in the disease, mainly in the second decade for life. Daily treatment with
+      iron chelator is required. Moreover, despite the actual treatment, the quality of life of
+      those patients is still low.
+
+      Therefore the implementation of a prevention program which includes finding an effective and
+      inexpensive way for identifying the β thalassemia carriers is a humanitary and publicly
+      important goal.
+
+      In β thalassemia carriers, laboratory tests will show hypochromic microcytic anemia. Those
+      findings are similar in iron deficiency anemia, but the RBC number and the RDW are normal in
+      thalassemia carriers.
+
+      Few researchers tried in the past to determine cutoff point for diagnosis of β thalassemia
+      carriers by different formulas.
+
+      We used the algorithm SVM (support vector machine) to find a reliable formula that can
+      separate patients with Iron deficiency anemia/ healthy from patients with β thalassemia minor
+      (carriers). This formula can be inserted to any automatic blood counter and search for
+      suspected carriers without deliberately intention and without any further blood test.
+    </textblock>
+  </brief_summary>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date>March 2007</start_date>
+  <completion_date type="Anticipated">December 31, 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Detection of β Thalassemia Carriers by Red Cell Parameters</measure>
+    <time_frame>One year</time_frame>
+    <description>Detection of β Thalassemia Carriers by Red Cell Parameters Obtained From the Automatic blood count counter using mathematics formula</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Thalassemia</condition>
+  <condition>Iron Deficiency</condition>
+  <arm_group>
+    <arm_group_label>1</arm_group_label>
+    <description>Screened pregnant women</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Observation of results from laboratory tests</intervention_name>
+    <description>Laboratory data summary only</description>
+    <arm_group_label>1</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All pregant women attending to the Mother's and Child stations in northern Israel
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Blood count and Hgb electrophoresis analysis received from pregnant women send for
+             screening for thalassemia.
+
+        Exclusion Criteria:
+
+          -  Age below 17 yrs and older than 50 yrs.
+
+          -  Sever anemia with hgb level below 8 gr/dl.
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>17 Years</minimum_age>
+    <maximum_age>50 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ariel Koren, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Pediatric Hematology Unit, Ha'Emek Medical Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Idit Koren, Medical Student</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Pediatric Hematology Unit - Ha'Emek Medical Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Carina Levin, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Pediatric Dpt B - Ha'Emek Medical Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Luci Zalman, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Hematology Laboratory - HaEmek Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Pediatric Hematology Unit - HaEmek Medical Center</name>
+      <address>
+        <city>Afula</city>
+        <zip>18101</zip>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>August 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 31, 2007</study_first_submitted>
+  <study_first_submitted_qc>May 31, 2007</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 1, 2007</study_first_posted>
+  <last_update_submitted>August 8, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 8, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 9, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>HaEmek Medical Center, Israel</investigator_affiliation>
+    <investigator_full_name>Dr Koren Ariel</investigator_full_name>
+    <investigator_title>Head of Pediatric Hematology Unit and Pediatric Dpt B</investigator_title>
+  </responsible_party>
+  <keyword>Thalassemia</keyword>
+  <keyword>Iron Deficiency</keyword>
+  <keyword>Carrier screening</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Anemia, Iron-Deficiency</mesh_term>
+    <mesh_term>Thalassemia</mesh_term>
+    <mesh_term>beta-Thalassemia</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

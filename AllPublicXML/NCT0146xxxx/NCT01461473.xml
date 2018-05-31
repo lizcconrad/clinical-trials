@@ -1,0 +1,1265 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01461473</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SU-10182011-8536</org_study_id>
+    <secondary_id>1R01HS019738-01</secondary_id>
+    <nct_id>NCT01461473</nct_id>
+  </id_info>
+  <brief_title>Comparative Outcomes Management With Electronic Data Technology (COMET) Study</brief_title>
+  <acronym>COMET</acronym>
+  <official_title>R01: Comparative Outcomes Management With Electronic Data Technology (COMET) Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Stanford University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      STAGE I of the COMET study was to develop an Electronic Network Informatics Infrastructure
+      that prospectively enabled access to and the sharing of clinical and research data.
+
+      STAGE II: This was a Comparative Effectiveness Trial (CET) evaluating positive airway
+      pressure (PAP) vs. oral appliance (OA) therapy in improving hypertension and abnormalities in
+      cardiovascular function in overweight/obese patients with obstructive sleep apnea (OSA). Data
+      collected during the STAGE II study was incorporated in Part 3 of the STAGE I study.
+
+      STAGE III of the COMET study was completion of data analysis and preparation of the
+      electronic network informatics infrastructure for use beyond the four Clinical Centers to
+      interested CTSA institutions. We also explored expanding ontologies, and the use of federated
+      database methodology.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      STAGE I, Part 1: We extracted limited access data sets from an existing research database
+      (prior research patients' data from APPLES research project, where patients consented to
+      provide a limited access data sets to the public domain as required by grants funded by the
+      National Heart, Lung, and Blood Institute [NHLBI], PI: Dr. Clete Kushida) and a dummy
+      database with prepared test data (no real patient data) to evaluate and refine the initial
+      iterations of the informatics infrastructure created via an agile evolutionary development
+      process.
+
+      STAGE I, Part 2: We expanded the functionality of the informatics infrastructure by testing
+      its ability to incorporate research data collected from an electronic questionnaire, the
+      Alliance Sleep Questionnaire (ASQ). We enabled data collection using the ASQ in order to use
+      these data to evaluate and refine the iterations for the informatics infrastructure.
+
+      STAGE I, Part 3: We expanded the functionality of the informatics infrastructure by testing
+      its ability to incorporate live (ongoing) longitudinal data collected from multiple forms and
+      data sources obtained during the STAGE II study. The addition of these data allowed the COMET
+      Steering Committee to create use cases with a greater diversity of data content. The STAGE II
+      data were used to evaluate and refine the iterations for the expanded informatics
+      infrastructure.
+
+      STAGE I, Part 4: Part 4 was designed to expand the collection of data beyond individual
+      research studies, tapping into University-wide systems (e.g., Stride) to link longitudinal
+      data collected during research studies to longitudinal data collected during clinical visits.
+      Only de-identified data were shared with the network, and only the local site held the
+      codebook that translated the Global Identifier (ID) to the Participant ID. All Health
+      Insurance Portability and Accountability Act (HIPAA) regulations were considered.
+
+      STAGE II: This stage was comprised of the multicenter, randomized, parallel group,
+      comparative effectiveness trial to compare positive airway pressure (PAP) vs. oral appliance
+      (OA) therapy in improving hypertension and abnormalities in cardiovascular function in
+      overweight/obese patients with obstructive sleep apnea (OSA). Data collected during the STAGE
+      II study were incorporated in Part 3 of the STAGE I study. This comparative effectiveness
+      trial was conducted at 4 clinical centers, and the data collected during this trial were used
+      to test the electronic network informatics infrastructure. The primary aim of the Stage II
+      CET was to evaluate and compare the effect of positive airway pressure and oral appliance
+      therapy on 24-hour blood pressure and vascular structure and function associated with
+      obstructive sleep apnea in a primarily female, overweight/obese hypertensive population.
+
+      STAGE III: This stage was comprised of completion of data analysis and preparation of the
+      electronic network informatics infrastructure for deployment beyond the four Clinical Centers
+      to interested Clinical and Translational Science Awards (CTSA) institutions. We also explored
+      expanding the ontologies beyond a sleep-related ontology to other medical ontologies, and the
+      use of federated database methodology.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>December 2011</start_date>
+  <completion_date type="Actual">June 2014</completion_date>
+  <primary_completion_date type="Actual">May 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Nocturnal Mean Arterial Blood Pressure (NMAP) at 2 Months</measure>
+    <time_frame>2 months</time_frame>
+    <description>Mean arterial blood pressure during the sleep period as recorded by 24-hour ambulatory blood pressure monitoring after approximately 2 months of treatment</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Nocturnal Mean Arterial Blood Pressure (NMAP) at 6 Months</measure>
+    <time_frame>6 months</time_frame>
+    <description>Nocturnal mean arterial blood pressure as recorded by 24-hour ambulatory blood pressure monitoring after approximately 6 months of treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Ratio of Nocturnal Mean Arterial Pressure (NMAP) to Daytime Mean Arterial Pressure at 2 Months</measure>
+    <time_frame>2 months</time_frame>
+    <description>Ratio of NMAP to mean daytime arterial pressure, expressed as a percentage at the 2 month visit for PAP and OA arms. The ratio is calculated by dividing the NMAP by the daytime mean arterial pressure; the result is then multiplied by 100 to obtain a percentage.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Ratio of NMAP to Daytime Mean Arterial Pressure at 6 Months</measure>
+    <time_frame>6 months</time_frame>
+    <description>Ratio of NMAP to daytime mean arterial pressure, expressed as a percentage at the 6 month visit for PAP and OA arms. The ratio is calculated by dividing the NMAP by the daytime mean arterial pressure; the result is then multiplied by 100 to obtain a percentage.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean Absolute Flow-Mediated Vasodilatation of the Brachial Artery by Vascular Ultrasound</measure>
+    <time_frame>6 months</time_frame>
+    <description>Mean absolute flow-mediated vasodilatation (FMD) of the brachial artery (i.e., the mean change in brachial artery diameter [in millimeters] from baseline to the value that is obtained after the cuff deflation) as measured by vascular ultrasound (VU) at the 6-month visit</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean Relative Flow-Mediated Vasodilatation of the Brachial Artery by Vascular Ultrasound</measure>
+    <time_frame>6 months</time_frame>
+    <description>Mean relative flow-mediated vasodilatation (FMD) of the brachial artery (i.e., the mean change in brachial artery diameter from baseline to the value that is obtained after the cuff deflation, divided by the baseline value and multiplied by 100) as measured by vascular ultrasound (VU) at the 6-month visit</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">131</enrollment>
+  <condition>Sleep Apnea, Obstructive</condition>
+  <arm_group>
+    <arm_group_label>Positive Airway Pressure</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Participants randomized to standard clinical Positive Airway Pressure (PAP) treatment for Obstructive Sleep Apnea (OSA).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Oral Appliance</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Subjects randomized to standard Oral Appliance (OA) treatment for Obstructive Sleep Apnea (OSA).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Positive Airway Pressure (PAP)</intervention_name>
+    <description>Participants randomized to the Positive Airway Pressure treatment group received adequate Positive Airway Pressure (PAP) pressure therapy by a PAP titration study and used the device for 6 months.</description>
+    <arm_group_label>Positive Airway Pressure</arm_group_label>
+    <other_name>Auto-titrating PAP (APAP), Continuous PAP (CPAP)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Oral Appliance (OA)</intervention_name>
+    <description>Participants randomized to the Oral Appliance treatment group received a dental evaluation to determine the optimal setting for the Oral Appliance (OA), and used the appliance for 6 months.</description>
+    <arm_group_label>Oral Appliance</arm_group_label>
+    <other_name>Mandibular Advancement Device</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age &gt; 18 years.
+
+          -  BMI &gt; = 25.0 kg/m^2.
+
+          -  A diagnosis of obstructive sleep apnea based upon medical history and apnea- hypopnea
+             index &gt; = 10.0 or oxygen desaturation index (ODI; ≥4%) ≥ 10.0 on Diagnostic
+             Polysomnogram.
+
+          -  Report a history of hypertension (or need for treatment for hypertension) which is
+             currently untreated OR taking medication for the treatment of hypertension.
+
+          -  Stable medication regimen for 2 months prior to the Baseline Testing Visit. As-needed
+             medications such as those used for allergy, cold, or minor pain symptoms may be used
+             at the discretion of the Clinical Center physician.
+
+        Exclusion Criteria:
+
+          -  Cardiovascular disease which, in the judgment of the investigator, if observed during
+             standard clinical practice would lead the treating physician to make every effort to
+             treat the patient's sleep apnea with positive airway pressure, rather than alternative
+             treatments.
+
+          -  Clinically significant acute or chronic disease that is not well controlled or could
+             affect ability to complete or comply with study procedures, in the opinion of the
+             Clinical Center physician.
+
+          -  Respiratory disease requiring supplemental oxygen or medication. Individuals with
+             asthma may be included at the discretion of the Clinical Center physician if disease
+             is well controlled and medications are stable for 2 months.
+
+          -  History of (within 12 months prior to enrollment), or current diagnosis of, Axis I or
+             Axis II psychiatric disorder (other than obstructive sleep apnea) that in the opinion
+             of the Clinical Center physician would affect ability to complete or comply with study
+             procedures (e.g., schizophrenia and other psychotic disorders).
+
+          -  History of (within 3 months prior to enrollment), or current diagnosis of narcolepsy,
+             idiopathic hypersomnia, restless legs syndrome, rapid eye movement (REM) behavior
+             disorder, persistent situational insomnia, or sleep-related breathing disorders other
+             than obstructive sleep apnea.
+
+          -  Periodic limb movement arousal index &gt; 10.0 on the Diagnostic Polysomnogram.
+
+          -  Significant daytime sleepiness at study entry as indicated by:
+
+               -  an Epworth Sleepiness Scale total score &gt; 16, or a score of 3 (high chance) on
+                  the question about risk of dozing &quot;In a car, while stopped for a few minutes in
+                  traffic&quot; or
+
+               -  a report of falling asleep at the wheel, a motor vehicle accident, or near-miss
+                  accident due to sleepiness in the past 24 months, which in the judgment of the
+                  study physician was not attributable to acute sleep loss.
+
+          -  Oxygen saturation &lt; 80% for &gt; 10% of sleep time during the Diagnostic Polysomnogram,
+             or intervention with positive airway pressure or oxygen for safety purposes during the
+             Diagnostic Polysomnogram.
+
+          -  Any prior treatment for obstructive sleep apnea with positive airway pressure or oral
+             appliance, or surgical treatment for obstructive sleep apnea in the past year.
+
+          -  Contraindication for treatment with either positive airway pressure or oral appliance,
+             in the opinion of the Clinical Center physician or dentist, including significant
+             nasal obstruction, insufficient or loose teeth, dentures, advanced periodontal
+             disease, or significant temporomandibular joint pain.
+
+          -  Pregnancy.
+
+          -  Difficulty understanding or speaking English, or inability to read and understand
+             informed consent and study procedures.
+
+          -  Significant vision, hearing, or motor problems that, in the opinion of the Clinical
+             Center physician, would affect ability to complete study procedures.
+
+          -  A work schedule that does not allow for nighttime sleep on the 3 nights before each
+             study visit.
+
+          -  Current or planned participation in another research study.
+
+          -  Metal objects, devices, or implants that are in or on the body (Stanford Clinical
+             Center only).
+
+          -  Creatinine clearance &lt;30 and creatinine &gt;1.6 (Stanford Clinical Center only).
+
+          -  Upper arm circumference &gt; 20 inches
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Clete A Kushida, MD, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Allan Pack, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Center for Sleep, University of Pennsylvania School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Susan Redline, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Harvard Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Ruth Benca, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Wisconsin-Madison School of Medicine</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Stanford Sleep Medicine Center</name>
+      <address>
+        <city>Redwood City</city>
+        <state>California</state>
+        <zip>94063</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Harvard Brigham and Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Center for Sleep and Circadian Neurobiology, University of Pennsylvania School of Medicine</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Wisconsin-Madison School of Medicine, Department of Psychiatry</name>
+      <address>
+        <city>Madison</city>
+        <state>Wisconsin</state>
+        <zip>53719</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Young T, Palta M, Dempsey J, Skatrud J, Weber S, Badr S. The occurrence of sleep-disordered breathing among middle-aged adults. N Engl J Med. 1993 Apr 29;328(17):1230-5.</citation>
+    <PMID>8464434</PMID>
+  </reference>
+  <reference>
+    <citation>Nichols DA, DeSalvo S, Miller RA, Jónsson D, Griffin KS, Hyde PR, Walsh JK, Kushida CA. The COMET Sleep Research Platform. EGEMS (Wash DC). 2014 Nov 24;2(1):1059. doi: 10.13063/2327-9214.1059. eCollection 2014.</citation>
+    <PMID>25848590</PMID>
+  </reference>
+  <verification_date>April 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 20, 2011</study_first_submitted>
+  <study_first_submitted_qc>October 26, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 28, 2011</study_first_posted>
+  <results_first_submitted>December 8, 2016</results_first_submitted>
+  <results_first_submitted_qc>April 14, 2017</results_first_submitted_qc>
+  <results_first_posted type="Actual">May 17, 2017</results_first_posted>
+  <last_update_submitted>April 14, 2017</last_update_submitted>
+  <last_update_submitted_qc>April 14, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 17, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stanford University</investigator_affiliation>
+    <investigator_full_name>Clete A. Kushida</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Obstructive Sleep Apnea</keyword>
+  <keyword>Obstructive Sleep Apnea Syndrome</keyword>
+  <keyword>Sleep Apnea Syndrome, Obstructive</keyword>
+  <keyword>Syndrome, Obstructive Sleep Apnea</keyword>
+  <keyword>Syndrome, Sleep Apnea, Obstructive</keyword>
+  <keyword>Syndrome, Upper Airway Resistance, Sleep Apnea</keyword>
+  <keyword>Upper Airway Resistance Sleep Apnea Syndrome</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sleep Apnea Syndromes</mesh_term>
+    <mesh_term>Sleep Apnea, Obstructive</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Positive Airway Pressure</title>
+          <description>Participants randomized to standard clinical Positive Airway Pressure (PAP) treatment for Obstructive Sleep Apnea (OSA).
+Positive Airway Pressure: Participants who are randomized to the Positive Airway Pressure treatment group will receive adequate Positive Airway Pressure (PAP) pressure setting through standard clinical polysomnography (PSG) study.</description>
+        </group>
+        <group group_id="P2">
+          <title>Oral Appliance</title>
+          <description>Subjects randomized to standard Oral Appliance (OA) treatment for Obstructive Sleep Apnea (OSA).
+Oral Appliance: Participants who are randomized to the Oral Appliance Treatment Group will receive a dental evaluation to determine the optimal setting for the Oral Appliance (OA) device.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="72"/>
+                <participants group_id="P2" count="59"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="67"/>
+                <participants group_id="P2" count="55"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="5"/>
+                <participants group_id="P2" count="4"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Positive Airway Pressure</title>
+          <description>Participants randomized to standard clinical Positive Airway Pressure (PAP) treatment for Obstructive Sleep Apnea (OSA).
+Positive Airway Pressure: Participants who are randomized to the Positive Airway Pressure treatment group will receive adequate Positive Airway Pressure (PAP) pressure setting through standard clinical polysomnography (PSG) study.</description>
+        </group>
+        <group group_id="B2">
+          <title>Oral Appliance</title>
+          <description>Subjects randomized to standard Oral Appliance (OA) treatment for Obstructive Sleep Apnea (OSA).
+Oral Appliance: Participants who are randomized to the Oral Appliance Treatment Group will receive a dental evaluation to determine the optimal setting for the Oral Appliance (OA) device.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="72"/>
+            <count group_id="B2" value="59"/>
+            <count group_id="B3" value="131"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="54.85" spread="12.17"/>
+                    <measurement group_id="B2" value="52.61" spread="9.84"/>
+                    <measurement group_id="B3" value="53.84" spread="11.20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                    <measurement group_id="B2" value="17"/>
+                    <measurement group_id="B3" value="37"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="52"/>
+                    <measurement group_id="B2" value="42"/>
+                    <measurement group_id="B3" value="94"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="6"/>
+                    <measurement group_id="B3" value="9"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="69"/>
+                    <measurement group_id="B2" value="53"/>
+                    <measurement group_id="B3" value="122"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="5"/>
+                    <measurement group_id="B3" value="9"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="8"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="62"/>
+                    <measurement group_id="B2" value="49"/>
+                    <measurement group_id="B3" value="111"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="72"/>
+                    <measurement group_id="B2" value="59"/>
+                    <measurement group_id="B3" value="131"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Nocturnal Mean Arterial Blood Pressure (NMAP) at 2 Months</title>
+        <description>Mean arterial blood pressure during the sleep period as recorded by 24-hour ambulatory blood pressure monitoring after approximately 2 months of treatment</description>
+        <time_frame>2 months</time_frame>
+        <population>31 participants in the Positive Airway Pressure arm and 29 participants in the Oral Appliance arm failed to return for 24-hour ambulatory blood pressure monitoring at the two-months time point, but did return at the six-month time point for blood pressure monitoring at the six-month time point and to complete the study.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Positive Airway Pressure</title>
+            <description>Participants randomized to standard clinical Positive Airway Pressure (PAP) treatment for Obstructive Sleep Apnea (OSA).
+Positive Airway Pressure: Participants who are randomized to the Positive Airway Pressure treatment group will receive adequate Positive Airway Pressure (PAP) pressure setting through standard clinical polysomnography (PSG) study.</description>
+          </group>
+          <group group_id="O2">
+            <title>Oral Appliance</title>
+            <description>Subjects randomized to standard Oral Appliance (OA) treatment for Obstructive Sleep Apnea (OSA).
+Oral Appliance: Participants who are randomized to the Oral Appliance Treatment Group will receive a dental evaluation to determine the optimal setting for the Oral Appliance (OA) device.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Nocturnal Mean Arterial Blood Pressure (NMAP) at 2 Months</title>
+          <description>Mean arterial blood pressure during the sleep period as recorded by 24-hour ambulatory blood pressure monitoring after approximately 2 months of treatment</description>
+          <population>31 participants in the Positive Airway Pressure arm and 29 participants in the Oral Appliance arm failed to return for 24-hour ambulatory blood pressure monitoring at the two-months time point, but did return at the six-month time point for blood pressure monitoring at the six-month time point and to complete the study.</population>
+          <units>mmHg</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="36"/>
+                <count group_id="O2" value="26"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="82.1" spread="7.79"/>
+                    <measurement group_id="O2" value="84.3" spread="9.60"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>These data were analyzed using an analysis of covariance via general linear model (GLM). The GLM has an indicator variable for PAP vs. OA plus covariates for baseline apnea-hypopnea index, gender, site and baseline NMAP. The primary hypothesis tested is that the 2-month means differ between study arms, after adjustment for the above covariates. A Wald statistic was constructed for hypothesis testing.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.2067</p_value>
+            <method>Analysis of covariance (GLM)</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Nocturnal Mean Arterial Blood Pressure (NMAP) at 6 Months</title>
+        <description>Nocturnal mean arterial blood pressure as recorded by 24-hour ambulatory blood pressure monitoring after approximately 6 months of treatment</description>
+        <time_frame>6 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Positive Airway Pressure</title>
+            <description>Participants randomized to standard clinical Positive Airway Pressure (PAP) treatment for Obstructive Sleep Apnea (OSA).
+Positive Airway Pressure: Participants who are randomized to the Positive Airway Pressure treatment group will receive adequate Positive Airway Pressure (PAP) pressure setting through standard clinical polysomnography (PSG) study.</description>
+          </group>
+          <group group_id="O2">
+            <title>Oral Appliance</title>
+            <description>Subjects randomized to standard Oral Appliance (OA) treatment for Obstructive Sleep Apnea (OSA).
+Oral Appliance: Participants who are randomized to the Oral Appliance Treatment Group will receive a dental evaluation to determine the optimal setting for the Oral Appliance (OA) device.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Nocturnal Mean Arterial Blood Pressure (NMAP) at 6 Months</title>
+          <description>Nocturnal mean arterial blood pressure as recorded by 24-hour ambulatory blood pressure monitoring after approximately 6 months of treatment</description>
+          <units>mmHg</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="67"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="83.1" spread="9.63"/>
+                    <measurement group_id="O2" value="84.7" spread="9.59"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Generalized linear mixed model (GLMM) was fit in which the outcome was regressed on an indicator variable for PAP vs. OA, baseline apnea-hypopnea index, gender, site and baseline value of the outcome. A Wald statistic was constructed for hypothesis testing.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.3902</p_value>
+            <method>GLMM</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Ratio of Nocturnal Mean Arterial Pressure (NMAP) to Daytime Mean Arterial Pressure at 2 Months</title>
+        <description>Ratio of NMAP to mean daytime arterial pressure, expressed as a percentage at the 2 month visit for PAP and OA arms. The ratio is calculated by dividing the NMAP by the daytime mean arterial pressure; the result is then multiplied by 100 to obtain a percentage.</description>
+        <time_frame>2 months</time_frame>
+        <population>31 participants in the Positive Airway Pressure arm and 29 participants in the Oral Appliance arm failed to return for 24-hour ambulatory blood pressure monitoring at the two-months time point, but did return at the six-month time point for blood pressure monitoring at the six-month time point and to complete the study.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Positive Airway Pressure</title>
+            <description>Participants randomized to standard clinical Positive Airway Pressure (PAP) treatment for Obstructive Sleep Apnea (OSA).
+Positive Airway Pressure: Participants who are randomized to the Positive Airway Pressure treatment group will receive adequate Positive Airway Pressure (PAP) pressure setting through standard clinical polysomnography (PSG) study.</description>
+          </group>
+          <group group_id="O2">
+            <title>Oral Appliance</title>
+            <description>Subjects randomized to standard Oral Appliance (OA) treatment for Obstructive Sleep Apnea (OSA).
+Oral Appliance: Participants who are randomized to the Oral Appliance Treatment Group will receive a dental evaluation to determine the optimal setting for the Oral Appliance (OA) device.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Ratio of Nocturnal Mean Arterial Pressure (NMAP) to Daytime Mean Arterial Pressure at 2 Months</title>
+          <description>Ratio of NMAP to mean daytime arterial pressure, expressed as a percentage at the 2 month visit for PAP and OA arms. The ratio is calculated by dividing the NMAP by the daytime mean arterial pressure; the result is then multiplied by 100 to obtain a percentage.</description>
+          <population>31 participants in the Positive Airway Pressure arm and 29 participants in the Oral Appliance arm failed to return for 24-hour ambulatory blood pressure monitoring at the two-months time point, but did return at the six-month time point for blood pressure monitoring at the six-month time point and to complete the study.</population>
+          <units>percentage of NMAP to daytime MAP</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="36"/>
+                <count group_id="O2" value="26"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="86.8" spread="7.07"/>
+                    <measurement group_id="O2" value="87.0" spread="7.67"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>A GLMM was fit in which the outcome was regressed on an indicator variable for PAP vs. OA, baseline apnea-hypopnea index, gender, site and baseline value of the outcome. A Wald statistic was constructed for hypothesis testing.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.9319</p_value>
+            <method>GLMM</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Ratio of NMAP to Daytime Mean Arterial Pressure at 6 Months</title>
+        <description>Ratio of NMAP to daytime mean arterial pressure, expressed as a percentage at the 6 month visit for PAP and OA arms. The ratio is calculated by dividing the NMAP by the daytime mean arterial pressure; the result is then multiplied by 100 to obtain a percentage.</description>
+        <time_frame>6 months</time_frame>
+        <population>Two participants in the PAP arm and 1 participant in the OA arm did not have sufficient daytime MAP data to calculate the ratio of NMAP to daytime MAP at 6 months</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Positive Airway Pressure</title>
+            <description>Participants randomized to standard clinical Positive Airway Pressure (PAP) treatment for Obstructive Sleep Apnea (OSA).
+Positive Airway Pressure: Participants who are randomized to the Positive Airway Pressure treatment group will receive adequate Positive Airway Pressure (PAP) pressure setting through standard clinical polysomnography (PSG) study.</description>
+          </group>
+          <group group_id="O2">
+            <title>Oral Appliance</title>
+            <description>Subjects randomized to standard Oral Appliance (OA) treatment for Obstructive Sleep Apnea (OSA).
+Oral Appliance: Participants who are randomized to the Oral Appliance Treatment Group will receive a dental evaluation to determine the optimal setting for the Oral Appliance (OA) device.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Ratio of NMAP to Daytime Mean Arterial Pressure at 6 Months</title>
+          <description>Ratio of NMAP to daytime mean arterial pressure, expressed as a percentage at the 6 month visit for PAP and OA arms. The ratio is calculated by dividing the NMAP by the daytime mean arterial pressure; the result is then multiplied by 100 to obtain a percentage.</description>
+          <population>Two participants in the PAP arm and 1 participant in the OA arm did not have sufficient daytime MAP data to calculate the ratio of NMAP to daytime MAP at 6 months</population>
+          <units>percentage of NMAP to daytime MAP</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="65"/>
+                <count group_id="O2" value="54"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="86.6" spread="8.18"/>
+                    <measurement group_id="O2" value="87.9" spread="6.72"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>A GLMM was fit in which the outcome was regressed on an indicator variable for PAP vs. OA, baseline apnea-hypopnea index, gender, site and baseline value of the outcome. A Wald statistic was constructed for hypothesis testing.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.3895</p_value>
+            <method>GLMM</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Mean Absolute Flow-Mediated Vasodilatation of the Brachial Artery by Vascular Ultrasound</title>
+        <description>Mean absolute flow-mediated vasodilatation (FMD) of the brachial artery (i.e., the mean change in brachial artery diameter [in millimeters] from baseline to the value that is obtained after the cuff deflation) as measured by vascular ultrasound (VU) at the 6-month visit</description>
+        <time_frame>6 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Positive Airway Pressure</title>
+            <description>Participants randomized to standard clinical Positive Airway Pressure (PAP) treatment for Obstructive Sleep Apnea (OSA).
+Positive Airway Pressure: Participants who are randomized to the Positive Airway Pressure treatment group will receive adequate Positive Airway Pressure (PAP) pressure setting through standard clinical polysomnography (PSG) study.</description>
+          </group>
+          <group group_id="O2">
+            <title>Oral Appliance</title>
+            <description>Subjects randomized to standard Oral Appliance (OA) treatment for Obstructive Sleep Apnea (OSA).
+Oral Appliance: Participants who are randomized to the Oral Appliance Treatment Group will receive a dental evaluation to determine the optimal setting for the Oral Appliance (OA) device.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Mean Absolute Flow-Mediated Vasodilatation of the Brachial Artery by Vascular Ultrasound</title>
+          <description>Mean absolute flow-mediated vasodilatation (FMD) of the brachial artery (i.e., the mean change in brachial artery diameter [in millimeters] from baseline to the value that is obtained after the cuff deflation) as measured by vascular ultrasound (VU) at the 6-month visit</description>
+          <units>mm</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="67"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.009" spread="0.0165"/>
+                    <measurement group_id="O2" value="0.012" spread="0.0196"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Using analysis of covariance (robust MM regression), the outcome was regressed on an indicator variable for PAP vs. OA, baseline outcome, baseline apnea-hypopnea index, gender, site, baseline brachial-artery diameter, body mass index, age, and the interaction of gender and study arm. The latter allows for the possibility that treatment effect may differ between males and females. A Wald statistic was constructed for hypothesis testing.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.3449</p_value>
+            <method>see Comments</method>
+            <method_desc>Analysis of covariance with robust MM regression due to extreme residuals from initial fit showing strong departure from normal distribution.</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Mean Relative Flow-Mediated Vasodilatation of the Brachial Artery by Vascular Ultrasound</title>
+        <description>Mean relative flow-mediated vasodilatation (FMD) of the brachial artery (i.e., the mean change in brachial artery diameter from baseline to the value that is obtained after the cuff deflation, divided by the baseline value and multiplied by 100) as measured by vascular ultrasound (VU) at the 6-month visit</description>
+        <time_frame>6 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Positive Airway Pressure</title>
+            <description>Participants randomized to standard clinical Positive Airway Pressure (PAP) treatment for Obstructive Sleep Apnea (OSA).
+Positive Airway Pressure: Participants who are randomized to the Positive Airway Pressure treatment group will receive adequate Positive Airway Pressure (PAP) pressure setting through standard clinical polysomnography (PSG) study.</description>
+          </group>
+          <group group_id="O2">
+            <title>Oral Appliance</title>
+            <description>Subjects randomized to standard Oral Appliance (OA) treatment for Obstructive Sleep Apnea (OSA).
+Oral Appliance: Participants who are randomized to the Oral Appliance Treatment Group will receive a dental evaluation to determine the optimal setting for the Oral Appliance (OA) device.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Mean Relative Flow-Mediated Vasodilatation of the Brachial Artery by Vascular Ultrasound</title>
+          <description>Mean relative flow-mediated vasodilatation (FMD) of the brachial artery (i.e., the mean change in brachial artery diameter from baseline to the value that is obtained after the cuff deflation, divided by the baseline value and multiplied by 100) as measured by vascular ultrasound (VU) at the 6-month visit</description>
+          <units>percent change</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="67"/>
+                <count group_id="O2" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.63" spread="4.550"/>
+                    <measurement group_id="O2" value="3.51" spread="5.637"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Using analysis of covariance (robust MM regression), the outcome was regressed on an indicator variable for PAP vs. OA, baseline outcome, baseline apnea-hypopnea index, gender, site, baseline brachial-artery diameter, body mass index, age, and the interaction of gender and study arm. The latter allows for the possibility that treatment effect may differ between males and females. A Wald statistic was constructed for hypothesis testing.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.1531</p_value>
+            <method>see Comments</method>
+            <method_desc>Analysis of covariance with robust MM regression due to extreme residuals from initial fit showing strong departure from normal distribution.</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>6 months per patient</time_frame>
+      <desc>Standardized questionnaire at each visit</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Positive Airway Pressure</title>
+          <description>Participants randomized to standard clinical Positive Airway Pressure (PAP) treatment for Obstructive Sleep Apnea (OSA).
+Positive Airway Pressure: Participants who are randomized to the Positive Airway Pressure treatment group will receive adequate Positive Airway Pressure (PAP) pressure setting through standard clinical polysomnography (PSG) study.</description>
+        </group>
+        <group group_id="E2">
+          <title>Oral Appliance</title>
+          <description>Subjects randomized to standard Oral Appliance (OA) treatment for Obstructive Sleep Apnea (OSA).
+Oral Appliance: Participants who are randomized to the Oral Appliance Treatment Group will receive a dental evaluation to determine the optimal setting for the Oral Appliance (OA) device.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="6" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Non-ST elevated myocardial infarction (NSTEMI)</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Dizziness</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Neoplasms benign, malignant and unspecified (incl cysts and polyps)</title>
+            <event_list>
+              <event>
+                <sub_title>Surgeries for Breast Cancer</sub_title>
+                <description>Breast cancer surgery and separate surgery and hospital admission for catheter port placement for chemotherapy</description>
+                <counts group_id="E1" events="2" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Nervous system disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Death-Acute Ischemic Stroke-Right Hemispheric Infarct</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+              <event>
+                <sub_title>Acute Hemorrhagic Stroke (Intraventricular Hemorrhage)</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Reproductive system and breast disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hyserectomy</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="26" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="35" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Blood and lymphatic system disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hemodialysis catheter dislodgement</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Cardiac Arrhythmia</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="2" subjects_at_risk="59"/>
+              </event>
+              <event>
+                <sub_title>Increased High Blood Pressure</sub_title>
+                <counts group_id="E1" subjects_affected="4" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Ear and labyrinth disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Ear Infection</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Eye disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Cataract Surgery</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Gastrointestinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Abdominal Pain/Gastroenteritis</sub_title>
+                <counts group_id="E1" subjects_affected="4" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+              <event>
+                <sub_title>Esophageal Reflux</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+              <event>
+                <sub_title>Constipation</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Motor Vehicle Accident</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Infections and infestations</title>
+            <event_list>
+              <event>
+                <sub_title>Sinusitis</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="2" subjects_at_risk="59"/>
+              </event>
+              <event>
+                <sub_title>Upper Respiratory Infection/Discomfort</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="10" subjects_at_risk="59"/>
+              </event>
+              <event>
+                <sub_title>Tooth Extraction</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="59"/>
+              </event>
+              <event>
+                <sub_title>Urinary Tract Infection</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Injury, poisoning and procedural complications</title>
+            <event_list>
+              <event>
+                <sub_title>Fall</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Musculoskeletal and connective tissue disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Injury/Pain in Extremities</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="8" subjects_at_risk="59"/>
+              </event>
+              <event>
+                <sub_title>Tooth/Jaw Pain</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="4" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Nervous system disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Headache/Migraine</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="59"/>
+              </event>
+              <event>
+                <sub_title>Spondylosis/Back Pain</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="3" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Psychiatric disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Worsened Depression</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Skin and subcutaneous tissue disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Benign Skin Cyst Removal</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="59"/>
+              </event>
+              <event>
+                <sub_title>Basal Cell Carcinoma Surgery</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+              <event>
+                <sub_title>Nasal Skin Irritation</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="72"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="59"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Clete A. Kushida, M.D., Ph.D.</name_or_title>
+      <organization>Stanford University</organization>
+      <phone>650-721-7560</phone>
+      <email>clete@stanford.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

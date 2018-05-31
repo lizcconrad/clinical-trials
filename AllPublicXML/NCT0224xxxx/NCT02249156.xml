@@ -1,0 +1,202 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02249156</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AG043850-01</org_study_id>
+    <nct_id>NCT02249156</nct_id>
+  </id_info>
+  <brief_title>The Effect of Financial Incentives on Utilization of Low-cost Providers</brief_title>
+  <official_title>The Effect of Financial Incentives on Utilization of Low-cost Providers</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Harvard Medical School</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Southern California</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, Berkeley</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Harvard Medical School</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Several employers in the US have introduced a program where their employees receive a
+      financial incentive to receive lower cost care. Under this &quot;Rewards&quot; program, patients are
+      free to choose providers but if they visit a pre-determined low-cost laboratory or radiology
+      facility (called a &quot;rewards provider&quot;), they receive a financial incentive. The financial
+      incentive is typically in the form of a Health Savings Account (HSA) contribution. The dollar
+      amount varies by employer. This study will use medical claims data to examine if this program
+      leads to an increase in the volume of services performed by low-cost providers and decreased
+      health care spending.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This will be an observational study using Differences in Differences and Regression
+      Discontinuity designs.
+
+      In designing our analytic methods for this observation study, we had to consider two key
+      potential sources of bias. First, rewards providers might differ from non-rewards providers
+      in observed and unobserved ways such as such as quality or convenience. This might confound
+      the true effect of the rewards program on service volume. That is, an analysis of the rewards
+      program that simply compares service volume of rewards and non-rewards providers after launch
+      of the rewards program will capture both the effects of the rewards program as well as the
+      effects of other differences between rewards and non-rewards providers. Second, service
+      volume of rewards program might change due to other factors coincident with the launch of the
+      rewards program. Our proposed statistical methods attempt to address both these sources of
+      confounding. We will examine the data in a series of way to test the robustness of our
+      findings.
+
+      Difference-in-differences (DD) linear regression We will use a difference-in-differences
+      regression to examine within-employer changes in provider utilization following the
+      implementation of the rewards program.
+
+      In the first set of regressions we will use data from employers who have implemented the
+      rewards program. These regressions will compare changes in provider volume following the
+      launch of the rewards program for rewards providers (first difference) to change in service
+      volume for non-rewards providers during the same time period. We hypothesize that rewards
+      providers will experience a greater increase in volume than non-rewards providers. This
+      analysis uses non-rewards providers from the same employer as a control group and assumes
+      that reward providers would have experienced the same change in volume as non-reward
+      providers in the absence of the rewards program.
+
+      In another set of regressions we will use data from both employers who have launched the
+      rewards program and employers who have not launched the rewards program. This analysis will
+      be only feasible for providers who have a unique id across employers and who see patients
+      from both rewards and non-rewards employers. These regressions will compare changes in
+      provider volume for rewards providers coming from rewards employers (first difference) to
+      changes in service volume for the same reward providers coming from non-reward employers
+      during the same time period. We hypothesize that rewards providers will experience a greater
+      increase in volume coming from rewards employers than non-rewards employers. This analysis
+      uses non-reward employers as the control group and assumes that reward providers would have
+      experienced similar increase in service volume from rewards and non-rewards employers in the
+      absence of the rewards program. This analysis helps to address the potential bias that
+      rewards providers had an increase in volume because of other factors such as quality or
+      convenience.
+
+      Regression discontinuity regressions Our second study design is a regression discontinuity
+      design. Providers are designated as rewards providers based on their relative cost within a
+      geographic market. Providers are ranked based on an index of prices and providers below a
+      pre-specified ranking or threshold on this index are designated as rewards providers. The
+      regression discontinuity model will compare changes in volumes between providers that are
+      just above this threshold with providers that are just below this threshold.
+
+      Instrumental Variables Analysis Our third study design uses an instrumental variable
+      analysis. The dollar amount of the financial incentive varies between the employers who have
+      introduced the program. In this analysis we will exploit that difference. We will assess
+      whether the effects of rewards on service volume vary by the size and nature of the rewards.
+
+      Independent variables As independent variables, we will use employer, month, year, geography,
+      year X geography, and provider fixed effects. If there are changes in the employee population
+      before and after the introduction of the Rewards program, we will control for those
+      differences.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>August 2014</start_date>
+  <completion_date type="Anticipated">March 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Service volume</measure>
+    <time_frame>In 12 months after intervention initiated</time_frame>
+    <description>Service volume for each provider-employer before and after the introduction of the rewards programs. We will estimate models with several potential measures of volume including the number of services performed, the number of unique patients seen by the provider, and the fraction of all services received by the employees.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Total spending</measure>
+    <time_frame>In 12 months after intervention initiated</time_frame>
+    <description>Total spending on laboratory and imaging services</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Utilization of laboratory and imaging services</measure>
+    <time_frame>In 12 months after intervention initiated</time_frame>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">884000</enrollment>
+  <condition>Receipt of Radiology Studies</condition>
+  <condition>Receipt of Laboratory Tests</condition>
+  <arm_group>
+    <arm_group_label>Financial incentive group</arm_group_label>
+    <description>Employees of employers who have introduced the Rewards program. Currently there are two employers who have introduced the Rewards program, but there might be others that introduce it in the coming months. All intervention (and control) employers are customers of Castlight and use their price transparency product.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control population</arm_group_label>
+    <description>Large employers who have not introduced the Rewards program, but work with Castlight and use their transparency product. It will be ideal if the control population looks similar to the intervention population in key characteristics - age, level of illness, industry of the employer (for example, manufacturing), pre-intervention spending, and geographic distribution. If possible, across a pool of potential control employers, we will identify control employers that look the most similar across these characteristics in the pre-intervention period. Another possible strategy we might use is to weight the individuals in the control population in our analyses by how similar they appear to those in the intervention population.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Financial incentive for choosing a lower-cost provider</intervention_name>
+    <description>Employees of the intervention group receive money (either as a payment to their health savings account or directly as a check) if they obtain a radiology test or laboratory test from what a low-cost or rewards provider. The amount of money per test varies by the employer and type of test. A provider is identified as low-cost or rewards if their costs are in the lowest 10-20% among all providers in the community. Again there is a range because the relative cutoff has varied across the employers that have implemented this program.</description>
+    <arm_group_label>Financial incentive group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population is composed of employees of both the intervention and control
+        employers. We will use medical health plan claims from 2012 to 2014 for laboratory and
+        imaging services across the study population. Health plan claims data will be provided by
+        Castlight Health. The approximate number of providers of laboratory and radiology services
+        who will provide care to this population will be 475,000.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        - Employee or dependent of an intervention or control employer
+
+        Exclusion criteria:
+
+        - Not continuously enrolled in health plan and therefore some claims may be missing
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>1 Year</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>March 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 5, 2014</study_first_submitted>
+  <study_first_submitted_qc>September 23, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 25, 2014</study_first_posted>
+  <last_update_submitted>March 5, 2017</last_update_submitted>
+  <last_update_submitted_qc>March 5, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 7, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Harvard Medical School</investigator_affiliation>
+    <investigator_full_name>Ateev Mehrotra</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Health economics</keyword>
+  <keyword>Financial incentives</keyword>
+  <keyword>Health care spending</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

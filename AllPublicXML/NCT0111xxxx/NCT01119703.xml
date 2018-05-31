@@ -1,0 +1,1128 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01119703</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0000-131</org_study_id>
+    <secondary_id>MK-0000-131</secondary_id>
+    <nct_id>NCT01119703</nct_id>
+  </id_info>
+  <brief_title>Vaccine Hyporesponse in Healthy Elderly Participants (MK-0000-131 AM2)</brief_title>
+  <official_title>A Phase I, Open-Label Observational Study to Develop a Prospective Predictor of Vaccine Hyporesponse in Healthy Elderly Subjects</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study evaluated whether it is possible in healthy elderly participants to generate
+      baseline biomarker-based prediction rules (PdR) for vaccine response (post baseline absolute
+      serum antibody titer) using each of the protocol selected vaccines separately; and examined
+      the rank correlation coefficients of pairs of post vaccination antibody titers within the
+      same elderly individuals.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2010</start_date>
+  <completion_date type="Actual">November 2011</completion_date>
+  <primary_completion_date type="Actual">November 2011</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Antibody Titer Responses to Hepatitis B Virus Surface Antigen (HBV sAg) Vaccine, Measured and Predicted Based on Pre-vaccination Biomarkers in Healthy, Elderly Participants.</measure>
+    <time_frame>Baseline and 1 month after final vaccination</time_frame>
+    <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to HBV sAg were then measured 1 month after final vaccination, based on enzyme linked immunosorbent assay (ELISA), and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected prior to vaccination at baseline, to measure a wide variety of biomarkers by messenger RNA (mRNA) profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Antibody Titer Responses to Tetanus Booster Vaccine, Measured and Predicted Based on Pre-vaccination Biomarkers in Healthy, Elderly Participants.</measure>
+    <time_frame>Baseline and 1 month after final vaccination</time_frame>
+    <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to tetanus were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected prior to vaccination at baseline, to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Antibody Titer Responses to Reduced Diphtheria Toxin Vaccine, Measured and Predicted Based on Pre-vaccination Biomarkers in Healthy, Elderly Participants.</measure>
+    <time_frame>Baseline and 1 month after final vaccination</time_frame>
+    <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to diphtheria were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected prior to vaccination at baseline, to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Antibody Titer Responses to Oral Cholera Vaccine (WC/rBS), Measured and Predicted Based on Pre-vaccination Biomarkers in Healthy, Elderly Participants.</measure>
+    <time_frame>Baseline and 3 weeks after final vaccination</time_frame>
+    <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to cholera were then measured 3 weeks after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected prior to vaccination at baseline, to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Post-vaccination Antibody Titer Responses to Different Vaccines in Healthy, Elderly, Participants.</measure>
+    <time_frame>3 weeks or 1 month after each final vaccination</time_frame>
+    <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to each of these four antigens were then measured 1 month after each final vaccination (3 weeks for cholera toxin), based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Antibody Titer Responses to Hepatitis B Virus Surface Antigen (HBV sAg) Vaccine, Measured and Predicted Based on Early Post-vaccination Biomarkers in Healthy, Elderly Participants.</measure>
+    <time_frame>Day 7 and 1 month after final vaccination</time_frame>
+    <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to HBV sAg were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected at 7 days post-baseline vaccination to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Antibody Titer Responses to Tetanus Booster Vaccine, Measured and Predicted Based on Early Post-vaccination Biomarkers in Healthy, Elderly Participants.</measure>
+    <time_frame>Day 7 and 1 month after each final vaccination</time_frame>
+    <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to tetanus were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected 7 days post-baseline vaccination to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log(ln).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Antibody Titer Responses to Reduced Diphtheria Toxin Vaccine, Measured and Predicted Based on Early Post-vaccination Biomarkers in Healthy, Elderly Participants.</measure>
+    <time_frame>Day 7 and 1 month after final vaccination</time_frame>
+    <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to diphtheria were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected 7 days post-baseline vaccination to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log(ln).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Antibody Titer Responses to Oral Cholera Vaccine (WC/rBS), Measured and Predicted Based on Early Post-vaccination Biomarkers in Healthy, Elderly Participants.</measure>
+    <time_frame>Day 7 and 3 weeks after final vaccination</time_frame>
+    <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to cholera were then measured 3 weeks after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected 7 days post-baseline vaccination to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log(ln).</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">174</enrollment>
+  <condition>Vaccine Response Impaired</condition>
+  <arm_group>
+    <arm_group_label>Arm 1: Healthy, elderly participants</arm_group_label>
+    <description>Healthy participants 65 years old and older.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 2: Healthy, young, participants</arm_group_label>
+    <description>Healthy participants 25 to 40 years old.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Tetanus &amp; Diphtheria booster vaccine (Td)</intervention_name>
+    <description>Tetanus &amp; Diphtheria booster vaccine (Td), single intramuscular dose</description>
+    <arm_group_label>Arm 1: Healthy, elderly participants</arm_group_label>
+    <arm_group_label>Arm 2: Healthy, young, participants</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>TwinrixTM [Hepatitis A Inactivated &amp; Hepatitis B (Recombinant) Vaccine]</intervention_name>
+    <description>TwinrixTM [Hepatitis A Inactivated &amp; Hepatitis B (Recombinant) Vaccine], intramuscular, two doses of standard three dose regimen (opposite arms)</description>
+    <arm_group_label>Arm 1: Healthy, elderly participants</arm_group_label>
+    <arm_group_label>Arm 2: Healthy, young, participants</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Dukoral® Traveler's Diarrhea Vaccine (WC/rBS)</intervention_name>
+    <description>Dukoral® Traveler's Diarrhea Vaccine, recombinant Cholera toxin B subunit (WC/rBS), standard two oral doses per treatment regimen</description>
+    <arm_group_label>Arm 1: Healthy, elderly participants</arm_group_label>
+    <arm_group_label>Arm 2: Healthy, young, participants</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Cryopreserved peripheral blood mononuclear cells (PBMCs) obtained from whole blood samples.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adults 25 to 40 years old or 65 years and older
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Male or female aged 25 to 40 years old or 65 years of age or older at the prestudy
+             (screening) visit
+
+          -  Has no fever on day of screening
+
+          -  Lacks Hepatitis B surface antigen seroreactivity
+
+          -  If female 25 to 40 years of age, is not pregnant nor breastfeeding, and agrees to use
+             effective contraception
+
+        Exclusion Criteria:
+
+          -  Has a prior history of Hepatitis B Virus infection
+
+          -  Has BMI (Body Mass Index) &gt;35
+
+          -  If female 25 to 40 years of age, is pregnant, or expecting to conceive, donate eggs or
+             breastfeed
+
+          -  Has received immune globulin and/or blood products within 3 months prior to first dose
+             received
+
+          -  Has a history of immunosuppression resulting from disease (e.g., malignancy; human
+             immunodeficiency virus [HIV] infection), or is currently taking corticosteroids or
+             other immunosuppressive/cytotoxic therapy (cancer chemotherapy or organ
+             transplantation)
+
+          -  Has an active neoplastic disease
+
+          -  Has had any infection including upper respiratory viral syndrome in the 6 weeks prior
+             to planned collection of baseline laboratory samples
+
+          -  Has received a live virus vaccine or an inactivated vaccine or is scheduled to receive
+             a live virus vaccine or an inactivated vaccine in the period from 6 weeks prior to
+             receipt of the first vaccine through the completion of all study visits
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>25 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Francois St-Maurice, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Anapharm</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Denis Audet, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Anapharm</affiliation>
+  </overall_official>
+  <removed_countries>
+    <country>Canada</country>
+    <country>United States</country>
+  </removed_countries>
+  <verification_date>November 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 5, 2010</study_first_submitted>
+  <study_first_submitted_qc>May 6, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 7, 2010</study_first_posted>
+  <results_first_submitted>October 16, 2012</results_first_submitted>
+  <results_first_submitted_qc>October 16, 2012</results_first_submitted_qc>
+  <results_first_posted type="Estimate">November 22, 2012</results_first_posted>
+  <last_update_submitted>November 30, 2015</last_update_submitted>
+  <last_update_submitted_qc>November 30, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">December 29, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Vaccine Hyporesponse</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Vaccines</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Younger Participants</title>
+          <description>Participants 25 to 40 years of age.</description>
+        </group>
+        <group group_id="P2">
+          <title>Elderly Participants</title>
+          <description>Participants 65 years old and older.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="30"/>
+                <participants group_id="P2" count="144"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="30"/>
+                <participants group_id="P2" count="143"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Adverse Event</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Younger Participants</title>
+          <description>Aged 25 to 40 years old</description>
+        </group>
+        <group group_id="B2">
+          <title>Elderly Participants</title>
+          <description>Aged 65 years and older</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="30"/>
+            <count group_id="B2" value="144"/>
+            <count group_id="B3" value="174"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="33.9" spread="3.6"/>
+                    <measurement group_id="B2" value="70.2" spread="4.1"/>
+                    <measurement group_id="B3" value="63.9" spread="14.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="18"/>
+                    <measurement group_id="B2" value="77"/>
+                    <measurement group_id="B3" value="95"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                    <measurement group_id="B2" value="67"/>
+                    <measurement group_id="B3" value="79"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Antibody Titer Responses to Hepatitis B Virus Surface Antigen (HBV sAg) Vaccine, Measured and Predicted Based on Pre-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+        <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to HBV sAg were then measured 1 month after final vaccination, based on enzyme linked immunosorbent assay (ELISA), and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected prior to vaccination at baseline, to measure a wide variety of biomarkers by messenger RNA (mRNA) profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+        <time_frame>Baseline and 1 month after final vaccination</time_frame>
+        <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Elderly Participants</title>
+            <description>Healthy participants 65 years of age and older.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Antibody Titer Responses to Hepatitis B Virus Surface Antigen (HBV sAg) Vaccine, Measured and Predicted Based on Pre-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+          <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to HBV sAg were then measured 1 month after final vaccination, based on enzyme linked immunosorbent assay (ELISA), and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected prior to vaccination at baseline, to measure a wide variety of biomarkers by messenger RNA (mRNA) profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+          <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+          <units>ln International Units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="143"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Predicted Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.27" spread="1.24"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Measured Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.12" spread="1.91"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Null hypothesis for Predicted versus Measured Titers states that Coefficient of Determination % (CD%) &lt;= 20%; whereas the alternative hypothesis is &gt; 20%. CD% was obtained by fitting a random forest model to the measured titers, which included all baseline biomarkers as predictors.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>Coefficient of Determination %</param_type>
+            <param_value>-9.1</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>-13.8</ci_lower_limit>
+            <ci_upper_limit>-0.7</ci_upper_limit>
+            <estimate_desc>Crossvalidated; negative values mean that the fitted model performs worse than chance on the test set.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Antibody Titer Responses to Tetanus Booster Vaccine, Measured and Predicted Based on Pre-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+        <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to tetanus were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected prior to vaccination at baseline, to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+        <time_frame>Baseline and 1 month after final vaccination</time_frame>
+        <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Elderly Participants</title>
+            <description>Healthy participants 65 years of age and older</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Antibody Titer Responses to Tetanus Booster Vaccine, Measured and Predicted Based on Pre-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+          <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to tetanus were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected prior to vaccination at baseline, to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+          <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+          <units>ln International Units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="143"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Predicted Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.40" spread="1.24"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Measured Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.32" spread="1.84"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Null hypothesis for Predicted versus Measured Titers states that Coefficient of Determination % (CD%) &lt;= 20%; whereas the alternative hypothesis is &gt; 20%. CD% was obtained by fitting a random forest model to the measured titers, which included all baseline biomarkers as predictors.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>Coefficient of Determination %</param_type>
+            <param_value>17.6</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>10.6</ci_lower_limit>
+            <ci_upper_limit>20.9</ci_upper_limit>
+            <estimate_desc>Crossvalidated; negative values mean that the fitted model performs worse than chance on the test set.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Antibody Titer Responses to Reduced Diphtheria Toxin Vaccine, Measured and Predicted Based on Pre-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+        <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to diphtheria were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected prior to vaccination at baseline, to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+        <time_frame>Baseline and 1 month after final vaccination</time_frame>
+        <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Elderly Participants</title>
+            <description>Healthy participants 65 years of age and older</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Antibody Titer Responses to Reduced Diphtheria Toxin Vaccine, Measured and Predicted Based on Pre-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+          <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to diphtheria were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected prior to vaccination at baseline, to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+          <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+          <units>ln International Units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="143"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Predicted Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.43" spread="1.25"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Measured Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.46" spread="1.77"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Null hypothesis for Predicted versus Measured Titers states that Coefficient of Determination % (CD%) &lt;= 20%; whereas the alternative hypothesis is &gt; 20%. CD% was obtained by fitting a random forest model to the measured titers, which included all baseline biomarkers as predictors.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>Coefficient of Determination %</param_type>
+            <param_value>27.8</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>19.6</ci_lower_limit>
+            <ci_upper_limit>32.4</ci_upper_limit>
+            <estimate_desc>Crossvalidated; negative values mean that the fitted model performs worse than chance on the test set.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Antibody Titer Responses to Oral Cholera Vaccine (WC/rBS), Measured and Predicted Based on Pre-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+        <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to cholera were then measured 3 weeks after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected prior to vaccination at baseline, to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+        <time_frame>Baseline and 3 weeks after final vaccination</time_frame>
+        <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Elderly Participants</title>
+            <description>Healthy participants 65 years of age and older</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Antibody Titer Responses to Oral Cholera Vaccine (WC/rBS), Measured and Predicted Based on Pre-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+          <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to cholera were then measured 3 weeks after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected prior to vaccination at baseline, to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+          <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+          <units>ln International Units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="143"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Predicted Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.24" spread="0.99"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Measured Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.20" spread="1.55"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Null hypothesis for Predicted versus Measured Titers states that Coefficient of Determination % (CD%) &lt;= 20%; whereas the alternative hypothesis is &gt; 20%. CD% was obtained by fitting a random forest model to the measured titers, which included all baseline biomarkers as predictors.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>Coefficient of Determination %</param_type>
+            <param_value>3.3</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_lower_limit>-2.8</ci_lower_limit>
+            <ci_upper_limit>8.5</ci_upper_limit>
+            <estimate_desc>Crossvalidated; negative values mean that the fitted model performs worse than chance on the test set.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Post-vaccination Antibody Titer Responses to Different Vaccines in Healthy, Elderly, Participants.</title>
+        <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to each of these four antigens were then measured 1 month after each final vaccination (3 weeks for cholera toxin), based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln).</description>
+        <time_frame>3 weeks or 1 month after each final vaccination</time_frame>
+        <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Elderly Participants</title>
+            <description>Healthy participants 65 years of age and older</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Post-vaccination Antibody Titer Responses to Different Vaccines in Healthy, Elderly, Participants.</title>
+          <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to each of these four antigens were then measured 1 month after each final vaccination (3 weeks for cholera toxin), based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln).</description>
+          <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+          <units>ln International Units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="143"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Hepatitis B</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.12" spread="1.91"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Tetanus</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.32" spread="1.84"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Diphtheria</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.46" spread="1.77"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Cholera</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.20" spread="1.55"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Diphtheria versus Hepatitis B</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.66</p_value>
+            <method>Fisher's Z-transformation</method>
+            <param_type>Spearman's Correlation Coefficient</param_type>
+            <param_value>-0.04</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>-0.2</ci_lower_limit>
+            <ci_upper_limit>0.13</ci_upper_limit>
+            <estimate_desc>Within-participant rank correlation</estimate_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Diphtheria versus Cholera</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.26</p_value>
+            <method>Fisher's Z-transformation</method>
+            <param_type>Spearman's Correlation Coefficient</param_type>
+            <param_value>0.10</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>-0.07</ci_lower_limit>
+            <ci_upper_limit>0.25</ci_upper_limit>
+            <estimate_desc>Within-participant rank correlation</estimate_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Diphtheria versus Tetanus</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>&lt;0.001</p_value>
+            <method>Fisher's Z-transformation</method>
+            <param_type>Spearman's Correlation Coefficient</param_type>
+            <param_value>0.40</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.26</ci_lower_limit>
+            <ci_upper_limit>0.53</ci_upper_limit>
+            <estimate_desc>Within-participant rank correlation</estimate_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Hepatitis B versus Cholera</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.04</p_value>
+            <method>Fisher's Z-transformation</method>
+            <param_type>Spearman's Correlation Coefficient</param_type>
+            <param_value>-0.17</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>-0.32</ci_lower_limit>
+            <ci_upper_limit>-0.01</ci_upper_limit>
+            <estimate_desc>Within-participant rank correlation</estimate_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Hepatitis B versus Tetanus</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.30</p_value>
+            <method>Fisher's Z-transformation</method>
+            <param_type>Spearman's Correlation Coefficient</param_type>
+            <param_value>-0.09</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>-0.25</ci_lower_limit>
+            <ci_upper_limit>0.08</ci_upper_limit>
+            <estimate_desc>Within-participant rank correlation</estimate_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Cholera versus Tetanus</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <p_value>0.36</p_value>
+            <method>Fisher's Z-transformation</method>
+            <param_type>Spearman's Correlation Coefficient</param_type>
+            <param_value>0.08</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>-0.09</ci_lower_limit>
+            <ci_upper_limit>0.24</ci_upper_limit>
+            <estimate_desc>Within-participant rank correlation</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Antibody Titer Responses to Hepatitis B Virus Surface Antigen (HBV sAg) Vaccine, Measured and Predicted Based on Early Post-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+        <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to HBV sAg were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected at 7 days post-baseline vaccination to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+        <time_frame>Day 7 and 1 month after final vaccination</time_frame>
+        <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Elderly Participants</title>
+            <description>Healthy participants 65 years of age and older</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Antibody Titer Responses to Hepatitis B Virus Surface Antigen (HBV sAg) Vaccine, Measured and Predicted Based on Early Post-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+          <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to HBV sAg were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected at 7 days post-baseline vaccination to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log (ln).</description>
+          <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+          <units>ln International Units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="143"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Predicted Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.25" spread="1.24"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Measured Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.12" spread="1.91"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Null hypothesis for Predicted versus Measured Titers states that Coefficient of Determination % (CD%) &lt;= 20%; whereas the alternative hypothesis is &gt; 20%. CD% was obtained by fitting a random forest model to the measured titers, which included all Day 7 biomarkers as predictors.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>Coefficient of Determination %</param_type>
+            <param_value>-9.5</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>-16.6</ci_lower_limit>
+            <ci_upper_limit>-2.7</ci_upper_limit>
+            <estimate_desc>Crossvalidated; negative values mean that the fitted model performs worse than chance on the test set.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Antibody Titer Responses to Tetanus Booster Vaccine, Measured and Predicted Based on Early Post-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+        <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to tetanus were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected 7 days post-baseline vaccination to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log(ln).</description>
+        <time_frame>Day 7 and 1 month after each final vaccination</time_frame>
+        <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Elderly Participants</title>
+            <description>Healthy participants 65 years of age and older</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Antibody Titer Responses to Tetanus Booster Vaccine, Measured and Predicted Based on Early Post-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+          <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to tetanus were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected 7 days post-baseline vaccination to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log(ln).</description>
+          <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+          <units>ln International Units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="143"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Predicted Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.43" spread="1.27"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Measured Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.32" spread="1.84"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Null hypothesis for Predicted versus Measured Titers states that Coefficient of Determination % (CD%) &lt;= 20%; whereas the alternative hypothesis is &gt; 20%. CD% was obtained by fitting a random forest model to the measured titers, which included all Day 7 biomarkers as predictors.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>Coefficient of Determination %</param_type>
+            <param_value>23.7</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>14.0</ci_lower_limit>
+            <ci_upper_limit>29.7</ci_upper_limit>
+            <estimate_desc>Crossvalidated; negative values mean that the fitted model performs worse than chance on the test set.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Antibody Titer Responses to Reduced Diphtheria Toxin Vaccine, Measured and Predicted Based on Early Post-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+        <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to diphtheria were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected 7 days post-baseline vaccination to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log(ln).</description>
+        <time_frame>Day 7 and 1 month after final vaccination</time_frame>
+        <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Elderly Participants</title>
+            <description>Healthy participants 65 years of age and older</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Antibody Titer Responses to Reduced Diphtheria Toxin Vaccine, Measured and Predicted Based on Early Post-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+          <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to diphtheria were then measured 1 month after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected 7 days post-baseline vaccination to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log(ln).</description>
+          <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+          <units>ln International Units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="143"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Predicted Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.37" spread="1.36"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Measured Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.46" spread="1.77"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Null hypothesis for Predicted versus Measured Titers states that Coefficient of Determination % (CD%) &lt;= 20%; whereas the alternative hypothesis is &gt; 20%. CD% was obtained by fitting a random forest model to the measured titers, which included all Day 7 biomarkers as predictors.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>Coefficient of Determination %</param_type>
+            <param_value>36.7</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>28.7</ci_lower_limit>
+            <ci_upper_limit>41.5</ci_upper_limit>
+            <estimate_desc>Crossvalidated;negative values mean that the fitted model performs worse than chance on the test set.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Antibody Titer Responses to Oral Cholera Vaccine (WC/rBS), Measured and Predicted Based on Early Post-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+        <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to cholera were then measured 3 weeks after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected 7 days post-baseline vaccination to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log(ln).</description>
+        <time_frame>Day 7 and 3 weeks after final vaccination</time_frame>
+        <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Elderly Participants</title>
+            <description>Healthy participants 65 years of age and older</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Antibody Titer Responses to Oral Cholera Vaccine (WC/rBS), Measured and Predicted Based on Early Post-vaccination Biomarkers in Healthy, Elderly Participants.</title>
+          <description>Healthy elderly participants were simultaneously vaccinated at baseline with hepatitis vaccine, tetanus-diphtheria booster vaccine, and cholera vaccine. Antibody titers to cholera were then measured 3 weeks after final vaccination, based on ELISA, and are defined as standardized &quot;international units&quot; of reactivity converted from optical densities, transformed to natural log (ln). In order to predict antibody responses blood samples were collected 7 days post-baseline vaccination to measure a wide variety of biomarkers by mRNA profiling, biochemical and flow cytometric assays. These biomarkers were then used in a machine-learning (random-forest based) model to predict antibody titers, transformed to natural log(ln).</description>
+          <population>Healthy participants 65 years of age and older who were treated with all three vaccines, and had their post-vaccination titers measured. Results from comparing titers and biomarker responses between younger and older cohorts are exploratory, and therefore not reported.</population>
+          <units>ln International Units</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="143"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Predicted Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.24" spread="0.96"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Measured Titer</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.20" spread="1.55"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Null hypothesis for Predicted versus Measured Titers states that Coefficient of Determination % (CD%) &lt;= 20%; whereas the alternative hypothesis is &gt; 20%. CD% was obtained by fitting a random forest model to the measured titers, which included all Day 7 biomarkers as predictors.</groups_desc>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>Coefficient of Determination %</param_type>
+            <param_value>-2.2</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>-7.8</ci_lower_limit>
+            <ci_upper_limit>4.4</ci_upper_limit>
+            <estimate_desc>Crossvalidated; negative values mean that the fitted model performs worse than chance on the test set.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>All Participants</title>
+          <description>Participants who received at least one dose of each vaccine</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="174"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <default_vocab>MedDRA 15.0</default_vocab>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="14" subjects_at_risk="174"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Injection Site Pain</sub_title>
+                <counts group_id="E1" subjects_affected="14" subjects_at_risk="174"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>The SPONSOR must have the opportunity to review all proposed abstracts, manuscripts or presentations regarding this study 60 days prior to submission for publication/presentation. Any information identified by the SPONSOR as confidential must be deleted prior to submission.</restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Vice President, Late Stage Development Group Leader</name_or_title>
+      <organization>Merck Sharp &amp; Dohme Corp</organization>
+      <phone>1-800-672-6372</phone>
+      <email>ClinicalTrialsDisclosure@merck.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

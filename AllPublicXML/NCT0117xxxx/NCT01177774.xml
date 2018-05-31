@@ -1,0 +1,289 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01177774</url>
+  </required_header>
+  <id_info>
+    <org_study_id>09-1700</org_study_id>
+    <secondary_id>K24MH087913</secondary_id>
+    <nct_id>NCT01177774</nct_id>
+  </id_info>
+  <brief_title>Assessment of Children With Tic Onset in the Past 6 Months</brief_title>
+  <acronym>NewTics</acronym>
+  <official_title>Predictive Biomarkers of Conversion to Tourette Syndrome in Children With New-Onset Tics</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Washington University School of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Mental Health (NIMH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Washington University School of Medicine</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this research is to study why most children who have tics never develop
+      Tourette syndrome but some do. In other words, we aim to find features that may predict whose
+      tics will go away and whose tics will continue or worsen, in children ages 5 through 10 years
+      whose first tic occurred within the past 6 months.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Up to 30% of all children will have a tic at some point. However, tics that last a whole year
+      (or more) occur in only 3% of the population. Thus tic persistence may be more unusual than
+      tic onset, yet almost no data exist on which people with recent-onset tics go on to be
+      diagnosable with Tourette syndrome or chronic tic disorder, versus those whose tics are only
+      transient.
+
+      The overall goal of this research is to identify, prospectively, what imaging, clinical or
+      neuropsychological features of children who just recently started ticcing will go on to
+      develop a chronic tic disorder (including Tourette syndrome). Hypotheses are derived
+      primarily from studies of patients with established tic disorders.
+
+      Aim 1. Study pathophysiology of recent-onset tics. Aim 1a. Identify clinical,
+      neuropsychological, and brain imaging features that differentiate children with recent tic
+      onset (&quot;New Tics&quot; group) from tic-free controls. We will test a priori hypotheses including
+      tic suppression, inattentiveness, caudate nucleus volume, tic severity, and premonitory urges
+      (see &quot;Summary of hypotheses&quot; on the 3rd page of Research Strategy). Secondary analyses will
+      apply support vector machine (SVM) learning to a rich set of data to discover novel,
+      multivariate differences in the New Tics group [3,45]. These data will also include tic
+      phenomenology, psychiatric diagnosis, habit learning, motor dexterity, structural MRI,
+      perfusion MRI, and resting state functional connectivity fMRI (rs-fcMRI).
+
+      Aim 1b. Compare New Tics subjects to a group of children who are matched for age but have
+      already had tics for ≥1 year (&quot;Existing TS/CTD&quot;). Since both groups have tics, this
+      comparison will highlight abnormalities that cannot be explained by the mere current presence
+      of tics, including markers of chronicity or adaptation.
+
+      Aim 2. Prospective study of tic remission. We will re-evaluate New Tics subjects at the
+      1-year anniversary of tic onset (the accepted duration criterion for diagnosis of TS/CTD).
+      Our pilot data show good variability in the change in tic symptom severity (i.e., change in
+      YGTSS total tic score from baseline to followup: ΔTTS), so ΔTTS will be the primary dependent
+      variable. We focus on outcome as a continuous variable because no reliable estimate exists
+      for how many New Tics subjects will remit versus go on to diagnosis with TS/CTD. Remission
+      rate also depends on definition and on the thoroughness of the follow-up evaluation [4].
+
+      Aim 2a. Study the physiology of tic remission by identifying changes in clinical,
+      neuropsychological, and brain imaging variables that correlate with changes in clinical tic
+      severity (ΔTTS). This Aim benefits from prospective observation and within-subject
+      comparisons. The primary analysis will focus on any markers identified in Aim 1. A secondary
+      analysis will apply machine learning methods for a data-driven approach (support vector
+      regression: SVR).
+
+      Aim 2b. Identify predictors of improvement or worsening, i.e. clinical, neuropsychological,
+      and brain imaging features at study entry that correlate significantly with ΔTTS. The 2
+      primary analyses will relate clinical outcome (ΔTTS) to tic suppression ability and caudate
+      volume at study entry. Secondary analyses will examine other predictors using an SVR machine
+      learning approach.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>August 2010</start_date>
+  <completion_date type="Anticipated">May 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>DSM-5 diagnosis of a chronic tic disorder at 12 months</measure>
+    <time_frame>1 year after the onset of tics (6-12 months after the first study visit)</time_frame>
+    <description>Research diagnosis of a chronic tic disorder at 12 months (cases), versus those whose tics are absent at 12 months (controls), will define two groups who will be compared on their baseline status (almost a year earlier) on a quantitative measure of functional connectivity maturity, pre-tic BOLD signal, caudate nucleus volume, and several clinical and neuropsychological measures.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Tourette Syndrome</condition>
+  <condition>Tourette's Disorder</condition>
+  <condition>Chronic Motor or Vocal Tic Disorder</condition>
+  <condition>Transient Tic Disorder</condition>
+  <condition>Tic Disorders</condition>
+  <condition>Provisional Tic Disorder</condition>
+  <arm_group>
+    <arm_group_label>Recent-onset tics that will persist</arm_group_label>
+    <description>Children between 5 to 10 years of age with recent-onset tics (first tic occurred within the past 6 months) who, when reassessed at 1 year after the first tic began (i.e. 6-12 months after study enrollment) will turn out to meet criteria for a chronic tic disorder (including Tourette syndrome).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Recent-onset tics that will remit</arm_group_label>
+    <description>Children between 5 to 10 years of age with recent-onset tics (first tic occurred within the past 6 months) who will no longer have tics when reassessed 1 year after the first tic began (6 to 12 months after study enrollment).</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      saliva
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        1. A convenience sample of children age 5-10 who have tics now but whose first-ever tic
+             occurred within the past 6 months. Subjects will be a convenience sample from
+             community and clinical sources.
+
+          2. A control group who already meets criteria for a diagnosis of a chronic tic disorder,
+             matched for age, sex, handedness, and ADHD
+
+          3. A control group who has no tics, matched for age, sex, handedness, and ADHD
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        ** All subjects **
+
+        Inclusion Criteria:
+
+          -  Age 5-10
+
+          -  Informed consent from a parent and assent from the child.
+
+               -  New Tics Group **
+
+        Inclusion Criteria:
+
+          -  tics now, but developed them only in the past 6 months.
+
+        Exclusion criteria: secondary tics, another neurological disorder (not counting migraine),
+        structural brain disease, severe systemic illness, nonproficiency in the English language,
+        and psychiatric illness including mental retardation, autism, substance dependence, current
+        substance abuse, primary psychotic illness, bipolar disorder and current major depression.
+        Psychoactive medications are allowed if their dose has not changed in the past month.
+
+        ** Existing TS/CTD control group **
+
+        Inclusion criteria:
+
+          -  children who meet DSM-5 criteria for Tourette's Disorder or Chronic Tic Disorder
+             (DSM-5 Persistent Tic Disorder) at enrollment
+
+          -  matched to children from the New Tics group on age (within 1 year), sex, handedness,
+             and ADHD status.
+
+        Exclusion criteria: same as for the New Tics group.
+
+        ** Tic-free controls **
+
+        Inclusion criteria: tic-free children matched to children from the New Tics group on age
+        (within 1 year), sex, handedness, and ADHD status.
+
+        Exclusion criteria: current or past tic disorder in the subject or a first-degree relative,
+        plus the exclusions listed for the New Tics group.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>5 Years</minimum_age>
+    <maximum_age>10 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kevin J. Black, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Bradley L Schlaggar, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Emily C Bihun, M.Ed.</last_name>
+    <phone>317-362-2083</phone>
+    <email>BihunE@npg.wustl.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Samantha Ranck, MSW</last_name>
+    <phone>314-362-6514</phone>
+    <email>RanckS@npg.wustl.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Washington University School of Medicine, Movement Disorder Clinic</name>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <zip>63110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Emily C. Bihun, M.Ed.</last_name>
+      <phone>314-362-2083</phone>
+      <email>BihunE@npg.wustl.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Samantha Ranck, MSW</last_name>
+      <phone>314-362-6514</phone>
+      <email>RanckS@npg.wustl.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Kevin J. Black, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.newtics.info</url>
+    <description>Click here for more information about this study: Predictive Biomarkers of Conversion to Tourette Syndrome in Children with New-Onset Tics</description>
+  </link>
+  <link>
+    <url>http://www.newtics.org</url>
+    <description>Click here for more information about this study: Predictive Biomarkers of Conversion to Tourette Syndrome in Children with New-Onset Tics</description>
+  </link>
+  <link>
+    <url>http://www.nil.wustl.edu/labs/kevin/move/ts.htm</url>
+    <description>Tourette Syndrome resources</description>
+  </link>
+  <verification_date>June 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 5, 2010</study_first_submitted>
+  <study_first_submitted_qc>August 6, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 9, 2010</study_first_posted>
+  <last_update_submitted>June 8, 2017</last_update_submitted>
+  <last_update_submitted_qc>June 8, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 9, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Washington University School of Medicine</investigator_affiliation>
+    <investigator_full_name>Kevin J. Black, MD</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>functional connectivity MRI</keyword>
+  <keyword>brain volumetry</keyword>
+  <keyword>negative reinforcement</keyword>
+  <keyword>OCD</keyword>
+  <keyword>ADHD</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Disease</mesh_term>
+    <mesh_term>Syndrome</mesh_term>
+    <mesh_term>Tourette Syndrome</mesh_term>
+    <mesh_term>Tics</mesh_term>
+    <mesh_term>Tic Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Beginning in June, 2017, all data other than PHI will follow the NIMH RDoC data sharing policy.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

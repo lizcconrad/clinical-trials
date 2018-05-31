@@ -1,0 +1,282 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01929798</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DP301</org_study_id>
+    <nct_id>NCT01929798</nct_id>
+  </id_info>
+  <brief_title>Crossover Feasibility Study of Portable AP Device With Zone-MPC and HMS and Adapted I:C and Basal Insulin</brief_title>
+  <acronym>DP3</acronym>
+  <official_title>Randomized Crossover Feasibility Study of Artificial Pancreas Device (AP) Using Zone-MPC Controller (Zone-Model Predictive Control) and Health Monitoring System (HMS) With and Without Basal and Insulin-to-Carbohydrate Bolus Initialization</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sansum Diabetes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Mayo Clinic</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, Santa Barbara</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Padova</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sansum Diabetes Research Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this trial is to assess the performance of an Artificial Pancreas (AP) device
+      using the Portable Artificial Pancreas System (pAPS) platform for subjects with type 1
+      diabetes using an insulin pump and rapid acting insulin. This proposed study is designed to
+      compare closed-loop control with or without optimization of initialization parameters related
+      to basal insulin infusion rates and insulin to carbohydrate (I:C) ratios for meals and
+      snacks.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study consists of an evaluation of the Artificial Pancreas device system during two
+      24-27.5-hour closed-loop phases in an outpatient/hotel environment. Prior to the closed-loop
+      phases, each subject will undergo a 7-day data collection period consisting of his or her
+      usual free-living conditions along with 3 meals of known carbohydrate content. Data from the
+      insulin pump, a continuous glucose monitoring sensor (CGM), diet and exercise records will be
+      collected during this period. These data from this 7-day period will be analyzed in order to
+      come up with adapted basal insulin infusion rates and bolus insulin to carbohydrate (I:C)
+      ratios.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2013</start_date>
+  <completion_date type="Actual">November 2014</completion_date>
+  <primary_completion_date type="Actual">November 2014</primary_completion_date>
+  <phase>Early Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>time spent in safe blood glucose range</measure>
+    <time_frame>24-hour closed-loop</time_frame>
+    <description>The percentage time spent in safe blood glucose range of [80-140] mg/dl will be the primary endpoint. More time spent inside the desired range will be considered successful. Expected levels are [70-180] mg/dl the 5 hours after meals and [70-150] mg/dl 3 hours after exercise.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>glucose level extremes and need for outside intervention</measure>
+    <time_frame>24-hour closed loop</time_frame>
+    <description>The secondary endpoint measures glucose extremes and the need for outside intervention to prevent hypoglycemia or hyperglycemia. Interventions would be insulin injections or oral carbohydrates given to the subject by the physician. No need for physician intervention will be considered a successful outcome.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">36</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Optimized basal/bolus with artificial pancreas</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Portable artificial pancreas with optimization</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Nominal basal/bolus treatment</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Portable artificial pancreas without optimization.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>portable Artificial Pancreas</intervention_name>
+    <description>The artificial pancreas system will be allowed to employ its Model Predictive Control algorithm to make decisions about insulin delivery based on measured glucose levels.</description>
+    <arm_group_label>Optimized basal/bolus with artificial pancreas</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinical diagnosis of type 1 diabetes for at least one year and using an insulin pump
+             for at least 6 months with commercially available rapid acting insulin
+
+          -  The diagnosis of type 1 diabetes is based on the investigator's judgment; C peptide
+             level and antibody determinations are not needed.
+
+          -  Age 21 to 65 years
+
+          -  For females, not currently known to be pregnant or nursing
+
+          -  HbA1c ≤ to 10%, as measured with DCA2000 or equivalent device
+
+          -  Willing to perform the calibration of the study CGMs using a finger stick only and
+             willing to follow instructions for insulin pump and CGM wear.
+
+          -  Willing to use the study CGM and study insulin pump during closed-loop.
+
+          -  Able to and agrees to avoid the following medication starting 24 hours before sensor
+             wear through completion of the close loop study visit: acetaminophen, prednisone, and
+             pseudoephedrine.
+
+          -  An understanding of and willingness to follow the protocol and sign the informed
+             consent.
+
+        Exclusion Criteria:
+
+          -  Pregnancy (as determined by a positive blood pregnancy test performed in females of
+             childbearing capacity during screening visit and urine test at time of admission for
+             in-patient visit) or nursing mother.
+
+          -  Females who are sexually active and able to conceive that do not use contraception.
+
+          -  Any documented arrhythmias.
+
+          -  Diabetic ketoacidosis in the past 6 months prior to enrollment requiring emergency
+             room visit or hospitalization
+
+          -  Severe hypoglycemia resulting in seizure or loss of consciousness in the 12 months
+             prior to enrollment
+
+          -  Current treatment for a seizure disorder; Subjects with a history of seizures may be
+             included in the study if they receive written clearance from their neurologist
+
+          -  Active infection
+
+          -  A known medical condition that in the judgment of the investigator might interfere
+             with the completion of the protocol such as cognitive deficit.
+
+          -  Mental incapacity, unwillingness or language barriers precluding adequate
+             understanding or co-operation, including subjects not able to read or write.
+
+          -  Coronary artery disease or heart failure. Subjects with a history of coronary artery
+             disease may be included in the study if they receive written clearance from their
+             cardiologist
+
+          -  Presence of a known adrenal disorder
+
+          -  Active gastroparesis
+
+          -  If on antihypertensive, thyroid, anti-depressant or lipid lowering medication, lack of
+             stability on the medication for the past 2 months prior to enrollment in the study
+
+          -  Uncontrolled thyroid disease. Adequately treated thyroid disease and celiac disease do
+             not exclude subjects from enrollment
+
+          -  Abuse of alcohol
+
+          -  A recent injury to body or limb, muscular disorder, use of any medication, any
+             carcinogenic disease, or other significant medical disorder if that injury, medication
+             or disease in the judgment of the investigator will affect the completion of the
+             exercise protocol
+
+          -  Current use of a beta blocker medication
+
+          -  Hematocrit &lt; 30% or &gt;55%
+
+          -  A1C &gt; 10%
+
+          -  Abnormal liver or renal function (Transaminase &gt;2 times the upper limit of normal,
+             Creatinine&gt; 1.5 mg/dL)
+
+          -  Labs drawn at screening visit or within one month prior to screening (for other
+             purposes) will suffice for enrollment purposes related to hematocrit
+
+          -  Subject has skin conditions that, in the determination of the investigator, would
+             preclude wearing the study devices (infusion set and sensor), in the abdomen. Examples
+             include but are not limited to: psoriasis, burns, scaring, eczema, tattoos, and
+             significant hypertrophy at sites of device wear; any known allergy to medical
+             adhesives.
+
+          -  Currently on long-term treatment using prednisone.
+
+          -  If subject had been on short term treatment of prednisone, defer enrollment until
+             underlying condition and prednisone treatment have resolved.
+
+          -  Allergy to study drug, food or other study material.
+
+          -  Clinically significant screening ECG, physical examination, laboratory test, or vital
+             sign abnormality.
+
+          -  Exposure to any investigational drug within 30 days.
+
+          -  History of malignancy within the 5 years before screening (other than basal cell
+             carcinoma).
+
+          -  Currently smoking or discontinued smoking (including cigarettes, cigars, pipes) over
+             the past 6 months.
+
+          -  Highly sensitive to insulin: insulin-to-carbohydrate ratio I:C &gt; 1:12
+
+          -  Current participation in another investigational trial.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Sansum Diabetes Research Institutute</name>
+      <address>
+        <city>Santa Barbara</city>
+        <state>California</state>
+        <zip>93105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://dx.doi.org/10.1210/jc.2015-2081</url>
+    <description>Results Publication</description>
+  </link>
+  <results_reference>
+    <citation>Dassau E, Brown SA, Basu A, Pinsker JE, Kudva YC, Gondhalekar R, Patek S, Lv D, Schiavon M, Lee JB, Dalla Man C, Hinshaw L, Castorino K, Mallad A, Dadlani V, McCrady-Spitzer SK, McElwee-Malloy M, Wakeman CA, Bevier WC, Bradley PK, Kovatchev B, Cobelli C, Zisser HC, Doyle FJ 3rd. Adjustment of Open-Loop Settings to Improve Closed-Loop Results in Type 1 Diabetes: A Multicenter Randomized Trial. J Clin Endocrinol Metab. 2015 Oct;100(10):3878-86. doi: 10.1210/jc.2015-2081. Epub 2015 Jul 23.</citation>
+    <PMID>26204135</PMID>
+  </results_reference>
+  <verification_date>October 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 15, 2013</study_first_submitted>
+  <study_first_submitted_qc>August 21, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 28, 2013</study_first_posted>
+  <last_update_submitted>October 20, 2015</last_update_submitted>
+  <last_update_submitted_qc>October 20, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">October 21, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>artificial pancreas</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin</mesh_term>
+    <mesh_term>Pancrelipase</mesh_term>
+    <mesh_term>Pancreatin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,483 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02625181</url>
+  </required_header>
+  <id_info>
+    <org_study_id>151750</org_study_id>
+    <secondary_id>#50444</secondary_id>
+    <nct_id>NCT02625181</nct_id>
+  </id_info>
+  <brief_title>Real-time Decision Support for Postoperative Nausea and Vomiting (PONV) Prophylaxis</brief_title>
+  <official_title>Real-time Decision Support for Postoperative Nausea and Vomiting (PONV) Prophylaxis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Vanderbilt University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Washington</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Vanderbilt University Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to determine how automated recommendations are best presented to
+      optimize the adherence to guidelines on prophylaxis for nausea and vomiting after surgery.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Nausea and vomiting after surgery (PONV) is a common side effect of the surgical procedure,
+      general anesthesia and opioid use occurring in about one third of patients. In addition to
+      being very unpleasant for patients, it is associated with longer recovery room stays and
+      increased costs. Much research has been done on prophylactic interventions that may be
+      applied during the surgical procedure to prevent PONV. Current national guidelines recommend
+      that a risk score is used to decide on the number of prophylactic interventions to administer
+      to a patient. Based on specific characteristics of individual patients and the procedures
+      that they are about to undergo, such a risk score predicts the risk of PONV for each
+      individual. According to the national guidelines, patients with higher risks of PONV should
+      receive more prophylactic interventions. However, in a busy operating room where the
+      anesthesia provider performs multiple patient care tasks, closely following the
+      recommendations to minimize the risk of PONV is often difficult.
+
+      Computers may help anesthesia providers to adhere to best practices for PONV prevention by
+      providing so-called decision support. A decision support system for PONV automatically
+      calculates the risk of PONV for an individual patient and presents this predicted risk to the
+      anesthesia provider on the computer screen that is being used by the anesthesia team for
+      record keeping. In recent studies, such decision support systems have been demonstrated to
+      improve adherence to PONV guidelines, especially when a recommendation on the number of
+      interventions is added to the predicted risk. However, in these studies there was still quite
+      some room for improvement of the adherence to PONV guidelines. In general, implementation
+      science is only beginning to understand how such decision support systems are best used to
+      improve medical decision making and minimize practice variations among providers. Further
+      study of how the design of decision support systems impacts the decision making of healthcare
+      providers is therefore warranted.
+
+      In this proposed study, the investigators will implement several decision support elements
+      for PONV that aim to help anesthesia providers to adhere to the departmental PONV guidelines
+      during the anesthetic case. It is a multicenter, interrupted time series study. The
+      participating centers are the Vanderbilt University Medical Center (VUMC) and the University
+      of Washington Medical Center (UWMC). The time series consists of three phases. The first
+      phase is the preintervention phase - i.e. before the decision support has been implemented.
+      The second phase is the intervention phase in which the impact of the different CDSS features
+      are studied. The third phase is a postintervention phase that studies what happens to
+      guideline adherence when the CDSS is switched off.
+
+      Each hospital will implement three out of four different decision support elements within the
+      intervention phase. The decision support elements will provide information about the
+      patient's predicted risk of PONV and the number of prophylactic interventions that the
+      departmental guidelines recommend based on that risk. The VUMC will start with preoperative
+      email notifications, followed by two elements within the anesthesia information management
+      system (AIMS) that are displayed around the start and end of the procedure. For the UWMC, all
+      three elements will provide automated, near real-time notifications to anesthesia providers
+      that include recommendations on how to manage PONV prevention according to current
+      guidelines. During the last stage the notification will remind anesthesia providers near the
+      end of the case, that additional prophylactic interventions may be given, depending on the
+      predicted risk and what has already been done to prevent PONV. All forms of decision support
+      only provide recommendations. The anesthesia provider is free to act on the message or ignore
+      the notifications.
+
+      The investigators will compare the adherence to PONV guidelines and the actual occurrence of
+      PONV (both nausea and emetic events: vomiting and retching) in the post-anesthesia care unit
+      (PACU) between all study phases and between the different interventions. The goal of the
+      comparison is to evaluate which decision support elements have an added value to optimize
+      guideline adherence for PONV prophylaxis.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 2016</start_date>
+  <completion_date type="Actual">November 2017</completion_date>
+  <primary_completion_date type="Actual">November 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>PONV guideline adherence: percentage of patients who received the exact number of prophylactic interventions for PONV that were recommended by the decision support.</measure>
+    <time_frame>A specific time frame on the day of surgery: the start of admission at the holding room to the end of the anesthetic case, an expected average of 4.5 hours</time_frame>
+    <description>The adherence to PONV guidelines will be used as the primary outcome.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>PONV incidence: number of participants with postoperative nausea and vomiting</measure>
+    <time_frame>24 hours after surgery</time_frame>
+    <description>The occurrence of PONV within 24 hours after surgery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The number of prophylactic interventions for PONV</measure>
+    <time_frame>A specific time frame on the day of surgery: from the start of admission at the holding room to the end of the anesthetic case, an expected average of 4.5 hours</time_frame>
+    <description>the absolute number of prophylactic interventions applied</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to discharge readiness at the postanesthesia care unit (PACU)</measure>
+    <time_frame>A specific time frame on the day of surgery: from the start of admission to the PACU to discharge from the PACU, , an expected average of 4 hours</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of times that the hyperlink for additional information is accessed</measure>
+    <time_frame>A specific time frame on one day before surgery and the day of surgery: from the moment that the preoperative emails are sent to the end of the anesthetic case, up to 36 hours</time_frame>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">48246</enrollment>
+  <condition>Postoperative Nausea and Vomiting</condition>
+  <arm_group>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Automated recommendations on PONV prophylaxis provided to anesthesia providers through the anesthesia information management system and email.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Automated recommendation at the start of the case</intervention_name>
+    <description>The first notification is the main notification that informs the anesthesia providers at the start of anesthesia of the risk score for that individual patient and the recommended number of prophylactic interventions. The notification occurs within the anesthesia information management system (AIMS)</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Automated notification at the start of surgery</intervention_name>
+    <description>The second notification within the AIMS will notify the anesthesia providers at the start of surgery when no prophylaxis has been given while three or more interventions were recommended.</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Preoperative recommendations: by email</intervention_name>
+    <description>A recommendation on PONV prophylaxis to anesthesia providers through email at the Vanderbilt University Medical Center.</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Automated notification at the end of surgery</intervention_name>
+    <description>A notification will remind anesthesia providers at the closing of surgery how many prophylactic interventions are required to adhere to the recommended number of interventions.</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Anesthesia Information Management System (AIMS)</intervention_name>
+    <description>The anesthesia electronic record keeping system</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Perioperative Data Warehouse (PDW)</intervention_name>
+    <description>The data warehouse that is used to gather perioperative data and create user reports. In this instance the PDW will be used to send the preoperative emails.</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>General anesthesia</intervention_name>
+    <description>Any anesthetic drugs that are used to induce general anesthesia above the level of sedation.</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Elective surgery</intervention_name>
+    <description>Surgical procedures that are scheduled and not an emergency.</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Propofol</intervention_name>
+    <description>Anesthetic drug used to maintain general anesthesia</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sevoflurane</intervention_name>
+    <description>Anesthetic drug used to maintain general anesthesia</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Isoflurane</intervention_name>
+    <description>Anesthetic drug used to maintain general anesthesia</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Desflurane</intervention_name>
+    <description>Anesthetic drug used to maintain general anesthesia</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Scopolamine</intervention_name>
+    <description>Prophylactic antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Droperidol</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Haloperidol</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dexamethasone</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Promethazine</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Meclizine</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Aprepitant</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Metoclopramide</intervention_name>
+    <description>Rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Fentanyl</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sufentanil</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Alfentanil</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Remifentanil</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Morphine</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Meperidine</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Hydromorphone</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Methadone</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Oxycodone</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Oxymorphone</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Hydrocodone</intervention_name>
+    <description>Analgesic drug / Opioid</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ketamine</intervention_name>
+    <description>Analgetic / Analgesic drug</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ondansetron</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Granisetron</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dolasetron mesylate</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Palonosetron</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Tropisetron</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ramosetron</intervention_name>
+    <description>Prophylactic antiemetic &amp; rescue antiemetic</description>
+    <arm_group_label>PONV clinical decision support system</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All adult patients (18 years and older) that are scheduled for an elective surgical
+             procedure under general anesthesia
+
+        Exclusion Criteria:
+
+          -  Patients undergoing emergency surgery or organ transplantation
+
+          -  Patients that are transferred directly to the Intensive Care Unit after the end of the
+             procedure
+
+          -  Patients that die intraoperatively
+
+          -  Procedures that only require a sedative level of anesthesia
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jonathan P Wanderer, MD, MPhil</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Vanderbilt University Medical Center, Division of Anesthesiology</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Vanderbilt University Medical Center</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37212</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 12, 2015</study_first_submitted>
+  <study_first_submitted_qc>December 8, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 9, 2015</study_first_posted>
+  <last_update_submitted>January 24, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 24, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 26, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Vanderbilt University</investigator_affiliation>
+    <investigator_full_name>Jonathan Wanderer</investigator_full_name>
+    <investigator_title>Medical Director of Procedure Preparation Center</investigator_title>
+  </responsible_party>
+  <keyword>Decision support</keyword>
+  <keyword>Prediction models</keyword>
+  <keyword>PONV</keyword>
+  <keyword>prophylaxis</keyword>
+  <keyword>Decision Support Systems, Clinical</keyword>
+  <keyword>Decision Support Techniques</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Nausea</mesh_term>
+    <mesh_term>Vomiting</mesh_term>
+    <mesh_term>Postoperative Nausea and Vomiting</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Anesthetics</mesh_term>
+    <mesh_term>Propofol</mesh_term>
+    <mesh_term>Ketamine</mesh_term>
+    <mesh_term>Fentanyl</mesh_term>
+    <mesh_term>Remifentanil</mesh_term>
+    <mesh_term>Sevoflurane</mesh_term>
+    <mesh_term>Sufentanil</mesh_term>
+    <mesh_term>Desflurane</mesh_term>
+    <mesh_term>Isoflurane</mesh_term>
+    <mesh_term>Alfentanil</mesh_term>
+    <mesh_term>Dexamethasone</mesh_term>
+    <mesh_term>Ondansetron</mesh_term>
+    <mesh_term>Aprepitant</mesh_term>
+    <mesh_term>Haloperidol</mesh_term>
+    <mesh_term>Metoclopramide</mesh_term>
+    <mesh_term>Granisetron</mesh_term>
+    <mesh_term>Ramosetron</mesh_term>
+    <mesh_term>Droperidol</mesh_term>
+    <mesh_term>Tropisetron</mesh_term>
+    <mesh_term>Meclizine</mesh_term>
+    <mesh_term>Dolasetron</mesh_term>
+    <mesh_term>Scopolamine Hydrobromide</mesh_term>
+    <mesh_term>Butylscopolammonium Bromide</mesh_term>
+    <mesh_term>Morphine</mesh_term>
+    <mesh_term>Oxycodone</mesh_term>
+    <mesh_term>Methadone</mesh_term>
+    <mesh_term>Hydromorphone</mesh_term>
+    <mesh_term>Hydrocodone</mesh_term>
+    <mesh_term>Meperidine</mesh_term>
+    <mesh_term>Oxymorphone</mesh_term>
+    <mesh_term>Palonosetron</mesh_term>
+    <mesh_term>Promethazine</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

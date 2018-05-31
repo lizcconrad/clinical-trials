@@ -1,0 +1,186 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01699243</url>
+  </required_header>
+  <id_info>
+    <org_study_id>12-0990</org_study_id>
+    <nct_id>NCT01699243</nct_id>
+  </id_info>
+  <brief_title>Continuous Noninvasive Method for Estimating and Predicting Maternal and Fetal Hemodynamic Changes During Regional Anesthesia</brief_title>
+  <official_title>A Continuous, Noninvasive Method for Estimating and Predicting Maternal and Fetal Hemodynamic Changes During Regional Anesthesia</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Colorado, Denver</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Colorado, Denver</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Machine learning techniques and algorithms originally developed for use in the field of
+      robotics can be applied to continuous, noninvasive physiological waveform data to discover
+      hidden, hemodynamic relationships. Newly developed algorithms can, in real-time: 1) predict
+      cardiovascular collapse well ahead of any clinically significant changes in standard vital
+      signs, 2) monitor and estimate fluid resuscitation needs, 3) estimate acute blood loss
+      volume, and 4) estimate intracranial pressure. The investigators hypothesize that these same
+      methods can be used to predict functional hypovolemia during regional anesthesia for labor or
+      fetal intervention.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Specific aims:
+
+        1. Collect noninvasive physiological waveform data from patients undergoing regional
+           anesthesia for labor or fetal intervention at the University of Colorado Hospital and
+           Children's Hospital Colorado.
+
+        2. Combine the physiological data from patient monitors with clinical and demographic data,
+           including maternal problem list, medications, volume infused, use of vasopressors,
+           arterial and venous pressures, fetal heart rate, fetal umbilical artery Doppler
+           velocimetry, maternal uterine artery Doppler waveform, fetal and neonatal outcomes etc.
+           for use in developing mathematical model for early detection of maternal functional
+           hypovolemia.
+
+        3. Develop robust, real-time, computational models for:
+
+             -  estimating maternal volume status prior to administration of epidural anesthesia
+
+             -  estimating effective intravascular volume loss during maternal regional anesthesia
+
+             -  predicting an optimal, individual specific requirement for IV resuscitation and/or
+                need for vasopressor agents while providing adequate analgesia using regional
+                techniques and optimizing the fetal outcomes
+
+             -  identifying mothers susceptible to epidural induced hypotension
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2012</start_date>
+  <completion_date type="Actual">June 2016</completion_date>
+  <primary_completion_date type="Actual">June 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>effective intravascular volume loss during maternal regional anesthesia</measure>
+    <time_frame>during epidural, 1-4 hours</time_frame>
+    <description>Develop algorithm for estimating effective intravascular volume loss during maternal regional anesthesia</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">19</enrollment>
+  <condition>Pregnancy</condition>
+  <condition>Anesthesia</condition>
+  <arm_group>
+    <arm_group_label>Epidural</arm_group_label>
+    <description>subjects under epidural anesthesia</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All pregnant females undergoing regional anesthesia for labor or fetal intervention at the
+        University of Colorado Hospital and Children's Hospital Colorado.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  1. Age: 14 - 44 years
+
+          -  2. Pregnant
+
+          -  3. Undergoing regional anesthesia for labor or fetal intervention at the University of
+             Colorado Hospital and Children's Hospital Colorado
+
+        Exclusion Criteria:
+
+          -  1. Severe pre-eclampsia/eclampsia
+
+          -  2. Pre-procedural maternal hypertension requiring treatment
+
+          -  3. Significant fetal heart rate abnormalities prior to regional anesthesia
+
+          -  4. Incarcerated
+
+          -  5. Decisionally challenged
+
+          -  6. Limited access to or compromised monitoring sites for non-invasive finger and ear
+             or forehead sensors
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>14 Years</minimum_age>
+    <maximum_age>44 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Steve Moulton, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Colorado, Denver</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Children's Hospital Colorado</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Colorado Hospital</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 1, 2012</study_first_submitted>
+  <study_first_submitted_qc>October 1, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 3, 2012</study_first_posted>
+  <last_update_submitted>December 1, 2016</last_update_submitted>
+  <last_update_submitted_qc>December 1, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">December 5, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>pregnancy</keyword>
+  <keyword>labor</keyword>
+  <keyword>epidural</keyword>
+  <keyword>fetal intervention</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Anesthetics</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

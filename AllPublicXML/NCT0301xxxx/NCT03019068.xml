@@ -1,0 +1,211 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03019068</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NI14011</org_study_id>
+    <secondary_id>PREPS-14-0607</secondary_id>
+    <nct_id>NCT03019068</nct_id>
+  </id_info>
+  <brief_title>Prediction of Recruitment Potential of Participating Centers in Clinical Trials by Standardized Translation of Selection Criteria and Queries From DRG Database</brief_title>
+  <acronym>Pred-Inclus</acronym>
+  <official_title>Prediction of Recruitment Potential of Participating Centers in Clinical Trials by Standardized Translation of Selection Criteria and Queries From the French DRG Database (PMSI)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assistance Publique - Hôpitaux de Paris</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Assistance Publique - Hôpitaux de Paris</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This retrospective study aims to assess, on a large number of clinical trials (CT), the
+      usefulness of converting CT eligibility criteria into standardized queries performed on
+      commonly available data, i.e. Diagnosis Related Groups (DRG) databases in order to estimate
+      the potential recruitment of clinical trials centers.
+
+      Efficacy of this Clinical Trial Recruitment Support Systems (CTRSS) will be checked against
+      thorough examination of patient files.
+
+      Primary objective is to estimate the precision of the prediction system, i.e. ratio of
+      numbers of eligible patient files / numbers of candidate patient files.
+
+      As secondary objectives, the study aims:
+
+        -  to measure the recall rate or sensitivity of the system: ratio of number of candidates
+           patient files / number of recruited patients;
+
+        -  to measure the ability of coding: proportion of codable criteria (inclusion criteria or
+           non inclusion criteria) into normalized language;
+
+        -  to measure the time required for coding criteria and the time required to execute the
+           queries on the national DRG database;
+
+        -  to evaluate the reliability of coding process by an independent coding of a random
+           sample of 30 protocols;
+
+        -  to analyse influence of characteristics of the clinical study (design, disease, ...) and
+           of the investigation site (volume, teaching status, ...) on the precision and
+           sensitivity of the prediction system.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study will be performed on a large sample (near 100) of multicenter terminated clinical
+      studies with public funding covering therapeutic, diagnostic or prognostic studies. Selection
+      (inclusion, non inclusion) criteria of each CT will be translated into a normalized
+      description using ICD10 and french nomenclature of medical or surgical procedures (CCAM,
+      Classification Commune des Actes Médicaux), these very nomenclatures being used in the french
+      DRG system. Then a dedicated program will query the French DRG national database called PMSI
+      (Programme de Médicalisation des Systèmes d'Information).
+
+      For each CT and for each center, the query will select &quot;candidate&quot; patients whose eligibility
+      will be checked by thorough examination of the whole patient file by dedicated data
+      extractors. In addition, already recruited patients will be compared to the prediction of the
+      system.
+
+      Collected data span the period between 2010 and 2014, as well as with the medical files.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 2018</start_date>
+  <completion_date type="Anticipated">January 2021</completion_date>
+  <primary_completion_date type="Anticipated">January 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Precision</measure>
+    <time_frame>throughout the study: 3 years</time_frame>
+    <description>Precision = Ratio of number of eligible patient files / number of candidate patient files.
+The precision will be calculated globally and according to medical domain and aim (therapeutic, diagnostic and prognostic) of modelized clinical studies.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of system</measure>
+    <time_frame>throughout the study: 3 years</time_frame>
+    <description>Ratio of number of candidate patient files / number of already recruited patients.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Ability of coding</measure>
+    <time_frame>throughout the study: 3 years</time_frame>
+    <description>Proportion of selection criteria which codable into normalized language (ICD10, CCAM);
+Gain of precision and sensitivity, according to each criterion.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Resources required</measure>
+    <time_frame>throughout the study: 3 years</time_frame>
+    <description>Average amount of time required to coding, overall time required and time required according to each medical domain;
+Time required to query the DRF database.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Reliability of coding of protocols</measure>
+    <time_frame>throughout the study: 3 years</time_frame>
+    <description>Independent translation of a random sample of 30 protocols by 2 physicians, giving 2 queries on the DRG database; then
+Calculation of agreement (kappa coefficient) between candidates patients files selected by each query;
+Assessment of reliability of the data extraction from the whole patient files between the two data extractors.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Influence of characteristics of trial and characteristics of site</measure>
+    <time_frame>throughout the study: 3 years</time_frame>
+    <description>Development of an regression model analyzing the precision and sensitivity of system, according to the complexity of protocol (design), disease, characteristics of the center (volume, clinical specialization, attractiveness, clinical research activity estimated by a publication score (SIGAPS));</description>
+  </other_outcome>
+  <enrollment type="Anticipated">3000</enrollment>
+  <condition>Multicenter Clinical Study</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Public institution-sponsored clinical studies.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Multicenter trials.
+
+          -  Trials that have been completed between 2012 and 2014.
+
+          -  Sponsors and principal investigators of trials belonging to the public hospital system
+             of the region of Paris (Ile de France).
+
+        Exclusion Criteria:
+
+          -  Trials in the domain of rare diseases.
+
+          -  Trials involving children.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Philippe AEGERTER, MD, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Department of Public Health - Hôpital Ambroise Paré (APHP)</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Philippe AEGERTER, MD, PhD</last_name>
+    <phone>+ 33 1 49 09 58 86</phone>
+    <email>philippe.aegerter@apr.aphp.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Department of Public Health - Hôpital Ambroise Paré</name>
+      <address>
+        <city>Boulogne-Billancourt</city>
+        <state>Hauts-de-Seine</state>
+        <zip>92100</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Philippe Aegerter, MD, PhD</last_name>
+      <phone>+ 33 1 49 09 58 86</phone>
+      <email>philippe.aegerter@aphp.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 10, 2017</study_first_submitted>
+  <study_first_submitted_qc>January 10, 2017</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 12, 2017</study_first_posted>
+  <last_update_submitted>April 6, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 6, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 9, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>recruitment potential</keyword>
+  <keyword>prediction</keyword>
+  <keyword>databases</keyword>
+  <keyword>Clinical Trial Recruitment Support Systems (CTRSS)</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

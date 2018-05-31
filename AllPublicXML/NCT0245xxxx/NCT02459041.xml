@@ -1,0 +1,654 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02459041</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ADVEUS</org_study_id>
+    <nct_id>NCT02459041</nct_id>
+  </id_info>
+  <brief_title>Clinical Impact of EUS Elastography Mean Strain Histograms (SH) and Contrast Peak-enhancement in Focal Pancreatic Masses and Lymph Nodes</brief_title>
+  <acronym>ADVEUS</acronym>
+  <official_title>Real-time Semi-quantification of Endoscopic Ultrasound Elastography and Contrast-enhancement Using Strain Histograms (SH) and Contrast-enhancement (CE) for the Differentiation of Focal Pancreatic Masses and the Assessment of Lymph Node Involvement</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Medicine and Pharmacy Craiova</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Institut Paoli-Calmettes</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Caritas-Krankenhaus Bad Mergentheim</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>San Raffaele University Hospital, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tel-Aviv Sourasky Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Santiago de Compostela</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Shengjing Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Medicine and Pharmacy Craiova</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study protocol is based on a multi-center semi-quantitative approach of EUS elastography
+      data in combination with contrast-enhanced EUS, consisting of measuring SR and SH for focal
+      pancreatic masses and lymph nodes, as well as several parameters of CE-EUS based on
+      time-intensity-curve (TIC) analysis. A number of parameters must be taken into consideration,
+      as the ROIs are still manually selected by the user. The aim of the study is to establish an
+      EUS based diagnostic algorithm in patients with pancreatic masses and lymph nodes, with
+      negative or inconclusive cytopathology after EUS-FNA, based on previously published results
+      and cut-offs of elastography and contrast-enhancement. The proposed algorithm of sequential
+      use of real-time elastography, followed by contrast-enhanced EUS could be a good clinical
+      tool to help select the patients with possible pancreatic adenocarcinoma or malignant lymph
+      nodes, in the setting of patients with negative EUS-FNA results.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      1. Background Endoscopic ultrasound (EUS) is a technique with a major clinical impact in
+      digestive diseases, determining a change in the diagnosis and management of more than half of
+      examined patients [1]. Recent advances in EUS-FNA techniques, but also the development of
+      real-time EUS elastography and contrast-enhancement, allowed a better characterization of
+      focal pancreatic masses, with possible implications in the management of patients with
+      negative EUS-FNA and a strong suspicion of malignancy.
+
+      1.a Elastography Elastography is a recent ultrasound method used for the reconstruction of
+      tissue elasticity distribution in real-time [2]. The method allows the calculation of the
+      elasticity modulus, consequently showing differences in tissue hardness patterns that are
+      determined by diseases. The main intended use is to differentiate between benign and
+      malignant focal lesions based on the significantly smaller strain of the latter [3]. Second
+      generation elastography introduces strain ratio (SR) and strain histogram (SH) as
+      reproducible parametric measurements that retrieve numerical values in real time, adding
+      quantification possibilities to the technique [4]. Elastography typically estimates the axial
+      strain (along the direction of insonification / compression) by analyzing ultrasonic signals
+      obtained with standard ultrasonographic systems - the RF signals returned from tissue
+      structures before and after slight compression (about 1%) are compared [5]. Tissue
+      elastography can be easily performed with conventional probes, including the linear EUS
+      probes used for the examination of the pancreas and/or lymph nodes. The calculation of tissue
+      elasticity distribution is performed in real-time under freehand compression and the
+      examination results are represented as transparent overlay colour images overimposed on the
+      conventional gray-scale B-mode images [6]. Thus, this method allows the characterization of
+      many tumors, because they are stiffer than normal tissues. Ultrasound elastography was
+      previously used for the diagnosis of non-digestive as well as digestive tumors: breast
+      lesions [7], prostate cancer [8], thyroid nodules [9], rectal tumors [10]. Regarding the
+      diagnosis of pancreatic focal masses, some authors could not differentiate between malignancy
+      and benign tumors or chronic pancreatitis [11], while others have obtained good results,
+      especially when using computer assisted means of evaluation like hue histogram analysis [12]
+      and artificial neural networks [13]. More recently, lymph node involvement of several tumors
+      has been succesfully determined using this method: esophagus [14], oral squamous cell
+      carcinoma [15], breast cancer [16].
+
+      Since elastography images and movies represent a qualitative type output that entails a
+      subjective interpretation by the examiner, human bias is always susceptible to interfere with
+      the results and diagnoses, due to color perception errors, moving artifacts, or possible
+      selection bias induced by the analysis of still images. More objective, computer-assisted
+      semi-quantitative means of interpreting the results were developed, but these have the
+      disadvantage of being labor-intensive and using third-party software that cannot be used in
+      real time [17]. Second generation elastography introduces strain ratio (SR) and strain
+      histogram (SH) as two reproducible measurements that retrieve numerical values in real time,
+      thus greatly reducing the human bias without the need for third-party software [4]. SR
+      calculates the relative strain between two regions of interest (ROI) (normal and
+      pathological). SH measures the strain values of elemental areas inside a ROI and divides the
+      measurement range into intervals; if the strain value of an element falls into an interval,
+      its initial area normalized by the initial total surface area is added to the running total
+      of that interval; the total values of each interval are used to produce a graph and an
+      average value. Both SR and SH have already been used in vivo for pancreatic masses or lymph
+      nodes, with promising results [18].
+
+        1. b Contrast-enhancement Ultrasound contrast agents in conjunction with contrast specific
+           imaging techniques are increasingly accepted in clinical use for diagnostic imaging
+           [19]. The study of the pancreas is a new and promising application of contrast-enhanced
+           ultrasound (CE-US), including contrast-enhanced endoscopic ultrasound (CE-EUS). The
+           technique is not indicated to improve the detection of pancreatic lesions, but to
+           improve the delineation and differential diagnosis of pancreatic lesions [20-23]. One of
+           the fluoro-gas-containing contrast agents used in CE-US and CE-EUS is Sonovue®, which
+           consists of phospholipids-stabilized bubbles of sulfurhexafluoride (SF6) [24]. Sonovue®
+           is isotonic, stable and resistant to pressure, with a viscosity similar to blood. It
+           does not diffuse into the extravascular compartment remaining within the blood vessels
+           until the gas dissolves and is eliminated in the expired air (blood pool contrast agent)
+           [25]. The safety profile of SonoVue showed a very low incidence of side effects; it is
+           not nephrotoxic and the incidence of severe hypersensitivity is similar to other
+           magnetic resonance imaging contrast agents. Moreover, Sono-Vue is approved for clinical
+           use in EU countries. The blood supply of the pancreas is entirely arterial, making
+           contrast-enhanced examinations feasible and readily available. Based on the European
+           Federation Societies of Ultrasound in Medicine and Biology guidelines and
+           recommendations, updated in 2008, two phases were defined for CE-US and CE-EUS of the
+           pancreas: an early/arterial phase (starting from 10 to 30 seconds) and a venous/late
+           phase (from 30 to 120 seconds) [19].
+
+           Distinguishing pancreatic adenocarcinoma from other pancreatic masses remains
+           challenging with current imaging techniques [22-27]. The specificity of the
+           discrimination between benign and malignant focal pancreatic lesions was found to be
+           93.3% using power Doppler contrast-enhanced EUS (PD-CE-EUS) compared with 83.3% for
+           conventional EUS [26]. The hypovascular aspect of lesions under PD-CE-EUS seemed highly
+           sensitive and specific (higher than 90%) for adenocarcinoma in several published studies
+           [22-27]. During PD-CE-EUS examinations the ultrasound frequency returned to the
+           transducer is the same with that transmitted, but the method is associated with
+           artifacts resulting from turbulent flow (flash and overpainting) [28]. At CE-EUS, ductal
+           adenocarcinoma is typically hypoenhanced compared to the adjacent pancreatic tissue in
+           all phases [19]. Furthermore, the lesion size and margins are better visualized, as well
+           as the relationship with peripancreatic arteries and veins. Focal lesions in chronic
+           pancreatitis are reported to have similar or hyper enhancement features as compared to
+           the normal pancreatic parenchyma [19].
+
+           Dedicated contrast-enhanced harmonic EUS techniques (based on a low mechanical index)
+           are recently available in new EUS systems. The harmonic frequencies returned during
+           CEH-EUS are different from those transmitted by the transducer and are the result of
+           non-linear oscillations of the microbubbles [24]. The image obtained is an addition of
+           the signal created by the distortion of the microbubbles and the tissue-derived signal.
+           This can be optimized by using low MI, which allows minimum bubble destruction and
+           complete &quot;subtraction&quot; of the tissue derived signal, obtaining a high resolution
+           continuous real-time assessment of the microvascularization during the contrast uptake
+           period (real-time perfusion imaging) [29-31]. CEH-EUS allows a more precise location of
+           vascular structures within the parenchyma and focal abnormalities, with better
+           delineation of pancreatic lesions than EUS, especially in the cases where air or fat
+           causes artifacts and insufficient visualization of the pancreatic parenchyma. An initial
+           pilot study described an experimental technique of CEH-EUS based on a linear prototype
+           EUS scope, a low mechanical index (0.08 - 0.25) and a 2nd generation contrast agent
+           (Sono-Vue), which allowed the visualization of early arterial phase and late parenchymal
+           phase enhancement of the pancreas [32]. Another pilot study demonstrated both real-time
+           continuous images of finely branching vessels of the pancreas and intermittent
+           homogenous parenchymal perfusion images, by using a radial prototype EUS scope, a low
+           mechanical index (0.4) and a 2nd generation contrast agent (Sono-Vue) [33]. Several
+           other research groups already reported the feasibility of CEH-EUS with low mechanical
+           index [34-36]. The sensitivity, specificity and accuracy for diagnosing pancreatic
+           adenocarcinoma were 88%, 89%, and 88.5% in one study [34] and 80%, 91.7%, and 86% in the
+           other study [33]. However, the data is still limited and a prospective, multicentric
+           blinded study would certainly be necessary.
+
+           The study protocol is based on a multi-center semi-quantitative approach of EUS
+           elastography data in combination with contrast-enhanced EUS, consisting of measuring SR
+           and SH for focal pancreatic masses and lymph nodes, as well as several parameters of
+           CE-EUS based on time-intensity-curve (TIC) analysis. A number of parameters must be
+           taken into consideration, as the ROIs are still manually selected by the user. The aim
+           of the study is to establish an EUS based diagnostic algorithm in patients with
+           pancreatic masses and lymph nodes, with negative or inconclusive cytopathology after
+           EUS-FNA, based on previously published results and cut-offs of elastography and
+           contrast-enhancement. The proposed algorithm of sequential use of real-time
+           elastography, followed by contrast-enhanced EUS could be a good clinical tool to help
+           select the patients with possible pancreatic adenocarcinoma or malignant lymph nodes, in
+           the setting of patients with negative EUS-FNA results.
+
+        2. Aims of the study The aim of the study is to assess quantitative elastography and
+           contrast-enhancement parameters during EUS examinations of focal pancreatic masses and
+           lymph nodes, to standardize an algorithm for their use and to consequently differentiate
+           benign vs malignant pancreatic masses and evaluate lymph node involvement in a
+           prospective multicenter design.
+
+        3. Patients and methods The study design is prospective, blinded and multi-center,
+           comparing endoscopic ultrasound elastography (EG-EUS) and contrast-enhnecement (CE-EUS)
+           results for the characterization of focal pancreatic masses and lymph nodes by using
+           parametric measurements, in comparison with the gold standard represented by pathology.
+
+           The study will be performed with the approval of the institutional board (ethical
+           committee) review of each center. The complete study protocol and particpating centers
+           will be uploaded on ClinicalTrials.gov, the registry of federally and privately
+           supported clinical trials conducted in the United States and around the world.
+
+           Inclusion criteria
+
+             -  Patients diagnosed with solid pancreatic tumor masses, with cytological /
+                histo-logical confirmation
+
+             -  Patients with or without suspected lymph node involvement are eligible
+
+             -  Age 18 to 90 years old, men or women
+
+             -  Signed informed consent for EG-EUS, CE-EUS and FNA biopsy Exclusion criteria
+
+             -  Prior surgical treatment with curative intent or chemo-radiotherapy
+
+             -  Patients diagnosed with mucin producing tumors, pancreatic cystic tumors, etc.
+
+        4. Data collection
+
+           • Personal data (name, surname, age, admission date, SSN, diagnosis at admission)
+
+        5. Imaging tests
+
+             -  All patients with a suspicion of pancreatic masses or lymph nodes should undergo
+                EUS, with sequential EG-EUS and CE-EUS
+
+             -  EUS with EUS-guided FNA and elastography
+
+                  -  Protocol of EUS with EUS-FNA should include linear EUS instruments with
+                     complete examinations of the pancreas.
+
+                  -  Tumor characteristics (echogenicity, echostructure, size) will be described as
+                     well as presence / absence of power Doppler signals.
+
+                  -  EUS-FNA will be performed in all pancreatic masses with at least three passes
+
+                  -  All examiners should be blinded for the results of pathology
+
+             -  EG-EUS procedure:
+
+                  -  EUS-EG will be performed during usual EUS examinations, with two movies of 10
+                     seconds recorded on the embedded HDD in order to minimize variability and to
+                     increase repeatability of acquisition.
+
+                  -  A two panel image with the usual conventional gray-scale B-mode EUS image on
+                     the right side and with the elastography image on the left side will be used.
+                     The same parameters will be set-up in all systems used: e-dynamic range 2,
+                     persistence 3, etc.
+
+                  -  The region of interest for EUS-EG will be preferably larger than the focal
+                     mass (approximately 50%-50%), in order to include the surrounding structures.
+                     If the focal mass is larger than 3 cm, part of the mass will be included in
+                     the ROI, as well as the surrounding structures (preferably avoiding large
+                     vessels). Very large ROI for the elastography calculations will be avoided due
+                     to the appearance of side artifacts.
+
+                  -  The following pre-settings will be used in all centers: elastography colour
+                     map 1, frame rejection 2, noise rejection 2, persistence 3, dynamic rage 4,
+                     smoothing 2, blend 50%.
+
+                  -  SR and SH will be measured; with three measurements made and recorded on the
+                     embedded HDD. For SR, the reference area should be placed at the same level
+                     with the lesion, if possible.
+
+             -  CE-EUS procedure:
+
+                  -  A two panel image with the usual conventional gray-scale B-mode EUS image on
+                     the right side and with the contrast harmonic image on the left side will be
+                     used, according to pre-established presets.
+
+                  -  The starting point of the timer will be considered the moment of intravenous
+                     contrast injection (Sonovue 4.8 mL).
+
+                  -  CE-EUS will be performed during usual EUS examinations, with the whole movie
+                     (T0-T120s) recorded on the embedded HDD of the ultrasound system, for later
+                     analysis.
+
+                  -  A low mechanical index procedure (dynamic wide-band contrast harmo¬nic imaging
+                     mode) will be used, with a mechanical index of 0.2 and corresponding powers.
+
+                  -  The following pre-settings will be used in all centers: contrast mode dCHI-W,
+                     WPI-R/P (resolution / penetration for superficial vs deep structures),
+                     mechanical index (variable starting with 0.1, preferred 0.2), MI gray-scale
+                     (0.03), grey map 4, AGC 0, R-filter C, persistence 2, dynamic range 50,
+                     B-colour 21, smoothing 3, gamma curve linear.
+
+                  -  In order to minimize human bias, all post-processing and computer analysis of
+                     digital movies will be performed within the coordinating IT Center, with all
+                     programmers and statisticians being blinded to the clinical, imaging and
+                     pathological data.
+
+                  -  Off-line analysis of time-intensity curves will be performed using Vue-Box,
+                     which yields the following quantitative parameters: Peak Enhancement (PE),
+                     Wash-in Area Under the Curve (Wi-AUC), Rise Time (RT), mean Transit Time
+                     (mTT), Time To Peak (TTP), Wash-in Rate (WiR) and Wash-in Perfusion Index
+                     (WiPI). The software also provides referenced values (expressed in
+                     percentages), aligning the set of values for the tumor ROI to the parenchymal
+                     ones.
+
+        6. Final diagnosis
+
+             -  A positive cytological diagnosis will be taken as a final proof of malignancy of
+                the pancreas mass or lymph node. The diagnoses obtained by EUS-FNA will be further
+                verified either by surgery or during a clinical follow-up of at least 6 months.
+
+             -  The diagnosis of chronic pancreatitis will be based on the clinical information
+                (history of alcohol abuse, previous diagnosis of chronic pancreatitis or diabetes
+                mellitus), as well as a combination of imaging methods (ultrasound, CT and EUS). At
+                least four criteria of chronic pancreatitis during EUS will be considered for the
+                positive diagnosis. The diagnosis of chronic pseudotumoral pancreatitis or benign
+                lymph nodes will always be confirmed by surgery or by a follow-up of at least six
+                months used to exclude malignancy in the patients that will not be operated on.
+
+             -  Pathology samples obtained from duodeno-pancreatectomies or caudal
+                pancreatecto-mies done with curative intent, as well as microhistological fragments
+                obtained through EUS-FNA biopsy will be processed by paraffin embedding with usual
+                stainings (haematoxylin-eosin), with subsequent immune-histochemistry at the
+                discretion of the participating centers pathologists in order to exclude
+                neuroendocrine tumors / pancreatic metastases.
+
+             -  The patients will be followed-up for at least six months through clinical
+                examination, biological exams and transabdominal ultrasound, eventually with a
+                repeat spiral CT / EUS after six months.
+
+        7. Statistical analysis
+
+             -  Descriptive statistics
+
+                  -  All results will be expressed as mean ± standard deviation (SD). Differences
+                     between the patients with pancreatic cancer and chronic pancreatitis will
+                     performed by the two-sample t-test (two independent samples). Since this
+                     parametric method makes assumptions about normality and similar variances, we
+                     will initially perform both the Kolmogorov-Smirnov and Shapiro-Wilk W
+                     normality tests and verify the equality of variances assumption with the F
+                     test. In the case of the two-sample t-test, we will also perform the
+                     non-parametric alternative given by the Mann-Whitney U test, since in some
+                     instances it may even offer greater power to reject the null hypothesis than
+                     the t-test.
+
+                  -  Since with more than two groups of observations it is far better to use a
+                     single analysis that enables us to look at all the data in the same time, we
+                     will also perform the one-way analysis of variance (ANOVA) method with the
+                     same baseline assumptions. A p-value less than 0.05 will be considered as
+                     statistically significant.
+
+             -  Sensitivity, specificity, positive predictive value, negative predictive value and
+                accuracy of EG-EUS and CE-EUS will be determined in comparison with the final
+                diagnosis. Also, the sensitivity, specificity, positive predictive value, negative
+                predictive value and accuracy for the subgroup of patients with negative EUS-FNA
+                and a positive diagnosisi of malignancy during ensuing follow-up will be calculated
+                separately.
+
+        8. Power analysis
+
+             -  The estimated number of patients included is at least 210, based on at least 10
+                centers with at least 20 patients each, which will be enrolled in a 12 months
+                period. The power analysis was based on the following assumption: in order to use
+                the powerful t-test for independent samples, a sample size equaling 105 patients in
+                each group is sufficient to provide 95% statistical power to detect a difference of
+                5% in mean, for a type I error alpha = 0.05, and the population standard deviation
+                = 10%.
+
+             -  The difference in mean was based on previously published data which report an
+                accuracy of approximately 80-85% for EUS-FNA, and 90% for EG-EUS and/or CE-EUS.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2015</start_date>
+  <completion_date type="Actual">January 2017</completion_date>
+  <primary_completion_date type="Actual">January 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Strain histogram and contrast enhancement during EUS in pancreatic masses and lymph nodes</measure>
+    <time_frame>12 months</time_frame>
+  </primary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Actual">100</enrollment>
+  <condition>Pancreatic Cancer</condition>
+  <condition>Secondary Malignant Neoplasm of Lymph Node</condition>
+  <condition>Benign Neoplasm of Lymph Nodes</condition>
+  <condition>Benign Pancreatic Tumors</condition>
+  <arm_group>
+    <arm_group_label>Pancreatic cancer</arm_group_label>
+    <description>Consecutively admitted patients with pancreatic cancer confirmed by EUS-guided FNA.
+EG-EUS and CE-EUS will be applied in all patients.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Benign pancreatic masses</arm_group_label>
+    <description>Consecutively admitted patients with benign pancreatic masses with negative EUS-guided FNA.
+EG-EUS and CE-EUS will be applied in all patients.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Malignant lymph nodes</arm_group_label>
+    <description>Consecutively admitted patients with malignant lymphnodes confirmed by EUS-guided FNA.
+EG-EUS will be applied in all patients.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Benign lymph nodes</arm_group_label>
+    <description>Consecutively admitted patients with benign lymphnodes with negative EUS-guided FNA.
+EG-EUS will be applied in all patients.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Elastography, contrast enhancement</intervention_name>
+    <description>Elastography is an ultrasound method used for the reconstruction of tissue elasticity distribution in real-time. The main intended use is to differentiate between benign and malignant focal lesions based on the significantly smaller strain of the latter real time. Tissue elastography can be easily performed with conventional probes, including the linear EUS probes used for the examination of the pancreas and/or lymph nodes.
+Contrast-enhancement Ultrasound contrast agents in conjunction with contrast specific imaging techniques are increasingly accepted in clinical use for diagnostic imaging. Pancreatic adenocarcinomas are usually hypovascular tumors.</description>
+    <arm_group_label>Pancreatic cancer</arm_group_label>
+    <arm_group_label>Benign pancreatic masses</arm_group_label>
+    <arm_group_label>Malignant lymph nodes</arm_group_label>
+    <arm_group_label>Benign lymph nodes</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Pancreas and lymphnode samples (EUS-guided fine needle aspiration)
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients with a suspicion of pancreatic masses or lymph nodes should undergo EUS, with
+        sequential EG-EUS and CE-EUS. Personal data (name, surname, age, admission date, SSN,
+        diagnosis at admission) will be registered in the study.
+
+        EUS and EUS-guided fine needle aspiration are methods used for pancreatic masses and
+        lymphnodes assessment in daily clinical practice. Contrast enhanced-EUS (CE-EUS) is aproved
+        in european countries, and this mehode has been accepted for EUS procedures in daily
+        practice, as well as elastography (EG-EUS). Anyway, signed informed consent for EG-EUS,
+        CE-EUS and FNA biopsy is required for participation in the study.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients diagnosed with solid pancreatic tumor masses, with cytological /
+             histo-logical confirmation
+
+          -  Patients with or without suspected lymph node involvement are eligible
+
+          -  Age 18 to 90 years old, men or women
+
+          -  Signed informed consent for EG-EUS, CE-EUS and FNA biopsy
+
+        Exclusion Criteria:
+
+          -  Prior surgical treatment with curative intent or chemo-radiotherapy
+
+          -  Patients diagnosed with mucin producing tumors, pancreatic cystic tumors, etc.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Adrian Saftoiu, Professor</last_name>
+    <role>Study Chair</role>
+    <affiliation>University of Medicine and Pharmacy Craiova</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Research Center in Gastroenterology and Hepatology, University of Medicine and Pharmacy</name>
+      <address>
+        <city>Craiova</city>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Romania</country>
+  </location_countries>
+  <reference>
+    <citation>Gheonea DI, Săftoiu A. Beyond conventional endoscopic ultrasound: elastography, contrast enhancement and hybrid techniques. Curr Opin Gastroenterol. 2011 Sep;27(5):423-9. doi: 10.1097/MOG.0b013e328349cfab. Review.</citation>
+    <PMID>21844751</PMID>
+  </reference>
+  <reference>
+    <citation>Frey H. [Realtime elastography. A new ultrasound procedure for the reconstruction of tissue elasticity]. Radiologe. 2003 Oct;43(10):850-5. German.</citation>
+    <PMID>14605701</PMID>
+  </reference>
+  <reference>
+    <citation>Garra BS, Cespedes EI, Ophir J, Spratt SR, Zuurbier RA, Magnant CM, Pennanen MF. Elastography of breast lesions: initial clinical results. Radiology. 1997 Jan;202(1):79-86.</citation>
+    <PMID>8988195</PMID>
+  </reference>
+  <reference>
+    <citation>Havre RF, Waage JER, Gilja OH, Ødegaard S, Nesje LB. Semi-quantification of elastic contrasts by strain ratio in elastography - possibilities and pitfalls. Euroson 2010, Copenhagen August 22 - 25th</citation>
+  </reference>
+  <reference>
+    <citation>Ophir J, Alam SK, Garra B, Kallel F, Konofagou E, Krouskop T, Varghese T. Elastography: ultrasonic estimation and imaging of the elastic properties of tissues. Proc Inst Mech Eng H. 1999;213(3):203-33. Review.</citation>
+    <PMID>10420776</PMID>
+  </reference>
+  <reference>
+    <citation>Shiina T, Nitta N, Ueno E, Bamber JC. Real time tissue elasticity imaging using the combined autocorrelation method. J Med Ultrason (2001). 2002 Sep;29(3):119-28. doi: 10.1007/BF02481234.</citation>
+    <PMID>27277886</PMID>
+  </reference>
+  <reference>
+    <citation>Itoh A, Ueno E, Tohno E, Kamma H, Takahashi H, Shiina T, Yamakawa M, Matsumura T. Breast disease: clinical application of US elastography for diagnosis. Radiology. 2006 May;239(2):341-50. Epub 2006 Feb 16.</citation>
+    <PMID>16484352</PMID>
+  </reference>
+  <reference>
+    <citation>Miyanaga N, Akaza H, Yamakawa M, Oikawa T, Sekido N, Hinotsu S, Kawai K, Shimazui T, Shiina T. Tissue elasticity imaging for diagnosis of prostate cancer: a preliminary report. Int J Urol. 2006 Dec;13(12):1514-8.</citation>
+    <PMID>17118027</PMID>
+  </reference>
+  <reference>
+    <citation>Rago T, Santini F, Scutari M, Pinchera A, Vitti P. Elastography: new developments in ultrasound for predicting malignancy in thyroid nodules. J Clin Endocrinol Metab. 2007 Aug;92(8):2917-22. Epub 2007 May 29.</citation>
+    <PMID>17535993</PMID>
+  </reference>
+  <reference>
+    <citation>Waage JE, Havre RF, Odegaard S, Leh S, Eide GE, Baatrup G. Endorectal elastography in the evaluation of rectal tumours. Colorectal Dis. 2011 Oct;13(10):1130-7. doi: 10.1111/j.1463-1318.2010.02440.x.</citation>
+    <PMID>21040360</PMID>
+  </reference>
+  <reference>
+    <citation>Janssen J, Schlörer E, Greiner L. EUS elastography of the pancreas: feasibility and pattern description of the normal pancreas, chronic pancreatitis, and focal pancreatic lesions. Gastrointest Endosc. 2007 Jun;65(7):971-8.</citation>
+    <PMID>17531630</PMID>
+  </reference>
+  <reference>
+    <citation>Săftoiu A, Vilmann P, Gorunescu F, Janssen J, Hocke M, Larsen M, Iglesias-Garcia J, Arcidiacono P, Will U, Giovannini M, Dietrich C, Havre R, Gheorghe C, McKay C, Gheonea DI, Ciurea T; European EUS Elastography Multicentric Study Group. Accuracy of endoscopic ultrasound elastography used for differential diagnosis of focal pancreatic masses: a multicenter study. Endoscopy. 2011 Jul;43(7):596-603. doi: 10.1055/s-0030-1256314. Epub 2011 Mar 24.</citation>
+    <PMID>21437851</PMID>
+  </reference>
+  <reference>
+    <citation>Săftoiu A, Vilmann P, Gorunescu F, Janssen J, Hocke M, Larsen M, Iglesias-Garcia J, Arcidiacono P, Will U, Giovannini M, Dietrich CF, Havre R, Gheorghe C, McKay C, Gheonea DI, Ciurea T; European EUS Elastography Multicentric Study Group. Efficacy of an artificial neural network-based approach to endoscopic ultrasound elastography in diagnosis of focal pancreatic masses. Clin Gastroenterol Hepatol. 2012 Jan;10(1):84-90.e1. doi: 10.1016/j.cgh.2011.09.014. Epub 2011 Oct 1.</citation>
+    <PMID>21963957</PMID>
+  </reference>
+  <reference>
+    <citation>Paterson S, Duthie F, Stanley AJ. Endoscopic ultrasound-guided elastography in the nodal staging of oesophageal cancer. World J Gastroenterol. 2012 Mar 7;18(9):889-95. doi: 10.3748/wjg.v18.i9.889.</citation>
+    <PMID>22408347</PMID>
+  </reference>
+  <reference>
+    <citation>Ishibashi N, Yamagata K, Sasaki H, Seto K, Shinya Y, Ito H, Shinozuka K, Yanagawa T, Onizawa K, Bukawa H. Real-time tissue elastography for the diagnosis of lymph node metastasis in oral squamous cell carcinoma. Ultrasound Med Biol. 2012 Mar;38(3):389-95. doi: 10.1016/j.ultrasmedbio.2011.12.004. Epub 2012 Jan 21.</citation>
+    <PMID>22266228</PMID>
+  </reference>
+  <reference>
+    <citation>Tourasse C, Dénier JF, Awada A, Gratadour AC, Nessah-Bousquet K, Gay J. Elastography in the assessment of sentinel lymph nodes prior to dissection. Eur J Radiol. 2012 Nov;81(11):3154-9. doi: 10.1016/j.ejrad.2012.04.031. Epub 2012 May 30.</citation>
+    <PMID>22656671</PMID>
+  </reference>
+  <reference>
+    <citation>Săftoiu A, Vilmann P, Ciurea T, Popescu GL, Iordache A, Hassan H, Gorunescu F, Iordache S. Dynamic analysis of EUS used for the differentiation of benign and malignant lymph nodes. Gastrointest Endosc. 2007 Aug;66(2):291-300.</citation>
+    <PMID>17643702</PMID>
+  </reference>
+  <reference>
+    <citation>Itokawa F, Itoi T, Sofuni A, Kurihara T, Tsuchiya T, Ishii K, Tsuji S, Ikeuchi N, Umeda J, Tanaka R, Yokoyama N, Moriyasu F, Kasuya K, Nagao T, Kamisawa T, Tsuchida A. EUS elastography combined with the strain ratio of tissue elasticity for diagnosis of solid pancreatic masses. J Gastroenterol. 2011 Jun;46(6):843-53. doi: 10.1007/s00535-011-0399-5. Epub 2011 Apr 20.</citation>
+    <PMID>21505859</PMID>
+  </reference>
+  <reference>
+    <citation>Claudon M, Cosgrove D, Albrecht T, Bolondi L, Bosio M, Calliada F, Correas JM, Darge K, Dietrich C, D'Onofrio M, Evans DH, Filice C, Greiner L, Jäger K, Jong Nd, Leen E, Lencioni R, Lindsell D, Martegani A, Meairs S, Nolsøe C, Piscaglia F, Ricci P, Seidel G, Skjoldbye B, Solbiati L, Thorelius L, Tranquart F, Weskott HP, Whittingham T. Guidelines and good clinical practice recommendations for contrast enhanced ultrasound (CEUS) - update 2008. Ultraschall Med. 2008 Feb;29(1):28-44. doi: 10.1055/s-2007-963785.</citation>
+    <PMID>18270887</PMID>
+  </reference>
+  <reference>
+    <citation>D'Onofrio M, Mansueto G, Falconi M, Procacci C. Neuroendocrine pancreatic tumor: value of contrast enhanced ultrasonography. Abdom Imaging. 2004 Mar-Apr;29(2):246-58.</citation>
+    <PMID>15290954</PMID>
+  </reference>
+  <reference>
+    <citation>D'Onofrio M, Zamboni G, Faccioli N, Capelli P, Pozzi Mucelli R. Ultrasonography of the pancreas. 4. Contrast-enhanced imaging. Abdom Imaging. 2007 Mar-Apr;32(2):171-81. Review.</citation>
+    <PMID>16838218</PMID>
+  </reference>
+  <reference>
+    <citation>Dietrich CF, Ignee A, Braden B, Barreiros AP, Ott M, Hocke M. Improved differentiation of pancreatic tumors using contrast-enhanced endoscopic ultrasound. Clin Gastroenterol Hepatol. 2008 May;6(5):590-597.e1. doi: 10.1016/j.cgh.2008.02.030.</citation>
+    <PMID>18455699</PMID>
+  </reference>
+  <reference>
+    <citation>Dietrich CF, Braden B, Hocke M, Ott M, Ignee A. Improved characterisation of solitary solid pancreatic tumours using contrast enhanced transabdominal ultrasound. J Cancer Res Clin Oncol. 2008 Jun;134(6):635-43. Epub 2007 Oct 19. Erratum in: J Cancer Res Clin Oncol. 2008 Jun;134(6):723.</citation>
+    <PMID>17952469</PMID>
+  </reference>
+  <reference>
+    <citation>Seicean A, Badea R, Stan-Iuga R, Gulei I, Pop T, Pascu O. The added value of real-time harmonics contrast-enhanced endoscopic ultrasonography for the characterisation of pancreatic diseases in routine practice. J Gastrointestin Liver Dis. 2010 Mar;19(1):99-104.</citation>
+    <PMID>20361085</PMID>
+  </reference>
+  <reference>
+    <citation>Sanchez MV, Varadarajulu S, Napoleon B. EUS contrast agents: what is available, how do they work, and are they effective? Gastrointest Endosc. 2009 Feb;69(2 Suppl):S71-7. doi: 10.1016/j.gie.2008.12.004.</citation>
+    <PMID>19179175</PMID>
+  </reference>
+  <reference>
+    <citation>Hocke M, Schulze E, Gottschalk P, Topalidis T, Dietrich CF. Contrast-enhanced endoscopic ultrasound in discrimination between focal pancreatitis and pancreatic cancer. World J Gastroenterol. 2006 Jan 14;12(2):246-50.</citation>
+    <PMID>16482625</PMID>
+  </reference>
+  <reference>
+    <citation>Săftoiu A, Iordache SA, Gheonea DI, Popescu C, Maloş A, Gorunescu F, Ciurea T, Iordache A, Popescu GL, Manea CT. Combined contrast-enhanced power Doppler and real-time sonoelastography performed during EUS, used in the differential diagnosis of focal pancreatic masses (with videos). Gastrointest Endosc. 2010 Oct;72(4):739-47. doi: 10.1016/j.gie.2010.02.056. Epub 2010 Aug 2.</citation>
+    <PMID>20674916</PMID>
+  </reference>
+  <reference>
+    <citation>Seicean A. Endoscopic ultrasound in chronic pancreatitis: where are we now? World J Gastroenterol. 2010 Sep 14;16(34):4253-63. Review.</citation>
+    <PMID>20818808</PMID>
+  </reference>
+  <reference>
+    <citation>Rickes S, Unkrodt K, Neye H, Ocran KW, Wermke W. Differentiation of pancreatic tumours by conventional ultrasound, unenhanced and echo-enhanced power Doppler sonography. Scand J Gastroenterol. 2002 Nov;37(11):1313-20.</citation>
+    <PMID>12465731</PMID>
+  </reference>
+  <reference>
+    <citation>Rickes S, Wermke W. Differentiation of cystic pancreatic neoplasms and pseudocysts by conventional and echo-enhanced ultrasound. J Gastroenterol Hepatol. 2004 Jul;19(7):761-6.</citation>
+    <PMID>15209622</PMID>
+  </reference>
+  <reference>
+    <citation>Rickes S, Mönkemüller K, Malfertheiner P. Contrast-enhanced ultrasound in the diagnosis of pancreatic tumors. JOP. 2006 Nov 10;7(6):584-92. Review.</citation>
+    <PMID>17095837</PMID>
+  </reference>
+  <reference>
+    <citation>Dietrich CF, Ignee A, Frey H. Contrast-enhanced endoscopic ultrasound with low mechanical index: a new technique. Z Gastroenterol. 2005 Nov;43(11):1219-23.</citation>
+    <PMID>16267707</PMID>
+  </reference>
+  <reference>
+    <citation>Kitano M, Sakamoto H, Matsui U, Ito Y, Maekawa K, von Schrenck T, Kudo M. A novel perfusion imaging technique of the pancreas: contrast-enhanced harmonic EUS (with video). Gastrointest Endosc. 2008 Jan;67(1):141-50.</citation>
+    <PMID>18155437</PMID>
+  </reference>
+  <reference>
+    <citation>Napoleon B, Alvarez-Sanchez MV, Gincoul R, Pujol B, Lefort C, Lepilliez V, Labadie M, Souquet JC, Queneau PE, Scoazec JY, Chayvialle JA, Ponchon T. Contrast-enhanced harmonic endoscopic ultrasound in solid lesions of the pancreas: results of a pilot study. Endoscopy. 2010 Jul;42(7):564-70. doi: 10.1055/s-0030-1255537. Epub 2010 Jun 30.</citation>
+    <PMID>20593334</PMID>
+  </reference>
+  <reference>
+    <citation>Fusaroli P, Spada A, Mancino MG, Caletti G. Contrast harmonic echo-endoscopic ultrasound improves accuracy in diagnosis of solid pancreatic masses. Clin Gastroenterol Hepatol. 2010 Jul;8(7):629-34.e1-2. doi: 10.1016/j.cgh.2010.04.012. Epub 2010 Apr 24.</citation>
+    <PMID>20417721</PMID>
+  </reference>
+  <reference>
+    <citation>Seicean A, Badea R, Stan-Iuga R, Mocan T, Gulei I, Pascu O. Quantitative contrast-enhanced harmonic endoscopic ultrasonography for the discrimination of solid pancreatic masses. Ultraschall Med. 2010 Dec;31(6):571-6. doi: 10.1055/s-0029-1245833. Epub 2010 Nov 15.</citation>
+    <PMID>21080306</PMID>
+  </reference>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 28, 2015</study_first_submitted>
+  <study_first_submitted_qc>May 28, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 1, 2015</study_first_posted>
+  <last_update_submitted>January 15, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 15, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 17, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neoplasms</mesh_term>
+    <mesh_term>Pancreatic Neoplasms</mesh_term>
+    <mesh_term>Neoplasms, Second Primary</mesh_term>
+    <mesh_term>Lymphoma</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

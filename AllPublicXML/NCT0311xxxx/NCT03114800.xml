@@ -1,0 +1,156 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03114800</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PRO16120412</org_study_id>
+    <nct_id>NCT03114800</nct_id>
+  </id_info>
+  <brief_title>Monitoring Movement for Pressure Ulcer Prevention</brief_title>
+  <official_title>Monitoring Movement for Pressure Ulcer Prevention</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Jonathan Pearlman</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Pittsburgh</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of this work is to develop and test an automated movement detection monitoring tool
+      that could lead to reduced burden on clinicians and in-turn reduce pressure ulcer incidence
+      rates. Ten healthy participants will perform video-recorded bed movements while weight
+      distribution and interface pressures at bony prominences on the pelvis are recorded.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The incidence rate and subsequent costs of preventable pressure ulcers is astounding.
+      Although pressure ulcer risk assessment tools and prevention approaches have been a topic of
+      research and for many years, the incidence rate has remained relatively consistent. One
+      reason that progress has not been made to lower the incidence rate is that there is no
+      objective monitoring tool to determine how much a person is moving or is being moved in their
+      bed. Current practices are time-intensive and have not yet leveraged intelligent monitoring
+      technology that could reduce clinical burden and increase accuracy of the risk assessment and
+      efficacy of prevention protocols. The goal of this work is to develop and test an automated
+      movement detection monitoring tool that could lead to reduced burden on clinicians and
+      in-turn reduce pressure ulcer incidence rates. This monitoring tool will be an extension of
+      our intelligent bed sensor we developed named the Embedded Scale, or E-Scale. The E-Scale
+      currently has software modules that detect bed exit, individual weight, and multi-person
+      weight. The project described here would develop a movement module for the E- Scale to
+      monitor people's movements in bed in an attempt to eventually reduce incidence of pressure
+      ulcers in clinical care.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">August 9, 2017</start_date>
+  <completion_date type="Actual">August 30, 2017</completion_date>
+  <primary_completion_date type="Actual">August 30, 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Weight change</measure>
+    <time_frame>1 hour</time_frame>
+    <description>Weight change at each load cell</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">10</enrollment>
+  <condition>Pressure Ulcer</condition>
+  <arm_group>
+    <arm_group_label>E-Scale</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Weight monitoring</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>E-Scale</intervention_name>
+    <description>The E-Scale is comprised of a series of weight monitoring 'pods' and a set of software modules that facilitate data transfer and analysis.</description>
+    <arm_group_label>E-Scale</arm_group_label>
+    <other_name>Embedded Scale</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age 18 and older
+
+        Exclusion Criteria:
+
+          -  Not able to independently get onto a bed and reposition themselves
+
+          -  Skin lesions in the area where sensors will be placed
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jonathan Pearlman, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pittsburgh</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Bakery Square</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15206</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 10, 2017</study_first_submitted>
+  <study_first_submitted_qc>April 10, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 14, 2017</study_first_posted>
+  <last_update_submitted>October 5, 2017</last_update_submitted>
+  <last_update_submitted_qc>October 5, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 9, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University of Pittsburgh</investigator_affiliation>
+    <investigator_full_name>Jonathan Pearlman</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Ulcer</mesh_term>
+    <mesh_term>Pressure Ulcer</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>IPD data will be used to develop a proprietary algorithm</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

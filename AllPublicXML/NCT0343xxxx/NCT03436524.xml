@@ -1,0 +1,171 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03436524</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IOSI-EMA-005</org_study_id>
+    <nct_id>NCT03436524</nct_id>
+  </id_info>
+  <brief_title>A Prognostic Tool for Early Stage CLL</brief_title>
+  <official_title>Development of a Prognostic Tool for Predicting Prognosis in Early Stage Chronic Lymphocytic Leukemia Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Oncology Institute of Southern Switzerland</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Azienda Ospedaliero Universitaria Maggiore della Carita</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Oncology Institute of Southern Switzerland</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study aims at developing a model for the prediction of time to first treatment in chronic
+      lymphocytic leukemia patients presenting with asymptomatic early stage disease
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Already existing and coded health-related personal data will be retrospectively collected
+      from the CLL databases of the Institute of Oncology Research and of the Division of
+      Hematology of the University of Eastern Piedmont.
+
+      The adjusted association between exposure variables and time to first treatment will be
+      estimated by Cox regression. This approach will provide the covariates independently
+      associated with progression free survival that will be utilized in the development of a model
+      to predict time to first treatment.
+
+      Model performance (c-index and net reclassification improvement) in discriminating patients
+      who will eventually be treated vs patients who will not be eventually treated will be
+      compared with that of already existing prognostic model that have been validated to predict
+      overall survival but not time to first treatment in CLL (i.e. CLL-IPI, MDACC score,
+      Barcelona-Brno score).
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">March 2018</start_date>
+  <completion_date type="Anticipated">February 2020</completion_date>
+  <primary_completion_date type="Anticipated">February 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Discrimination capacity of the study model (per c-index)</measure>
+    <time_frame>Time to first treatment: interval between diagnosis and first line therapy (event), death without treatment (censoring), or last follow up without treatment (censoring), up to 20 years</time_frame>
+    <description>Primary endpoint of the study model ability in discriminating patients who will be eventually treated vs patients who will not be eventually treated.
+The discrimination capacity of the model will be assessed by calculating the c-index. This approach will allow to estimate the model accuracy and its capacity of discriminating outcome at the individual patient level. Model performance (net reclassification improvement) in discriminating patients who will be eventually treated vs patients who will not be eventually treated will be compared with that of already existing prognostic models that have been validated to predict overall survival but not time to first treatment in CLL (i.e. CLL-IPI, MDACC score, Barcelona-Brno score).</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Chronic Lymphocytic Leukemia</condition>
+  <arm_group>
+    <arm_group_label>Training cohort</arm_group_label>
+    <description>Cohort of chronic lymphocytic leukemia patients at Binet A stage for the development of the risk stratification model</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Validation cohort</arm_group_label>
+    <description>Cohort of chronic lymphocytic leukemia patients at Binet A stage for the validation of the risk stratification model</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients diagnosed with asymptomatic chronic lymphocytic leukemia at stage Binet A.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Male or female adults 18 years or older
+
+          -  Diagnosis of chronic lymphocytic leukemia
+
+          -  Binet A stage at presentation
+
+          -  No treatment need at presentation
+
+          -  Availability of the baseline and follow-up annotations
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Davide Rossi, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Oncology Institute of Southern Switzerland</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Davide Rossi, MD, PhD</last_name>
+    <phone>+41 091 811 8540</phone>
+    <email>davide.rossi@eoc.ch</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Azienda Ospedaliera Universitaria Maggiore della Carità</name>
+      <address>
+        <city>Novara</city>
+        <zip>28100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Gianluca Gaidano, Prof.</last_name>
+      <email>gianluca.gaidano@med.uniupo.it</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 12, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 12, 2018</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 16, 2018</study_first_posted>
+  <last_update_submitted>February 20, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 20, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 22, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Oncology Institute of Southern Switzerland</investigator_affiliation>
+    <investigator_full_name>Davide Rossi</investigator_full_name>
+    <investigator_title>MD, PhD, Principal investigator</investigator_title>
+  </responsible_party>
+  <keyword>Early stage CLL</keyword>
+  <keyword>Binet A</keyword>
+  <keyword>Prognosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Leukemia</mesh_term>
+    <mesh_term>Leukemia, Lymphoid</mesh_term>
+    <mesh_term>Leukemia, Lymphocytic, Chronic, B-Cell</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

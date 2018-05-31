@@ -1,0 +1,219 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03198975</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HCC10</org_study_id>
+    <nct_id>NCT03198975</nct_id>
+  </id_info>
+  <brief_title>Preoperative Prediction of Microvascular Invasion in Hepatocellular Carcinoma</brief_title>
+  <official_title>Development of a Machine Learning-based Model for Preoperative Prediction of Microvascular Invasion in Hepatocellular Carcinoma</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ming Kuang</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Sun Yat-sen University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Microvascular invasion (MVI) has been well demonstrated as an unfavorable prognostic factor
+      for hepatocellular carcinoma (HCC), and patients with MVI have a high risk of tumor
+      recurrence after curative hepatectomy. Currently, the diagnosis of MVI is determined on the
+      postoperative histologic examination, which greatly limits its influence on preoperative
+      decision making. Therefore, we constructed this prospective study to develop a machine
+      learning-based model for preoperative prediction of MVI by extracting high-dimensional
+      magnetic resonance (MR) image features.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Histologically-diagnosed primary HCC after curative hepatectomy. The magnetic resonance image
+      will be imported into the imaging management software (GE healthcare Analysis-Kit
+      software),and the tumor lesions will manually delineated by two independent radiologists and
+      then reconstruct into three-dimensional images for feature extraction. The radiomic textural
+      features including grayscale histogram, transform matrix, wavelet transform and filter
+      transformation are automatically extracted by the Analysis-Kit software.The high-throughput
+      extracted features will be then selected by the univariate analysis, and a prediction model
+      will be developed based on machine learning algorithm in a training set in which patients
+      were collected from a retrospective study. And in the present study, an independent
+      validation set will be collected and used to validate the prediction accuracy of the model.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 23, 2017</start_date>
+  <completion_date type="Anticipated">July 31, 2017</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Presence of microvascular invasion</measure>
+    <time_frame>Through patient enrollment completion ,an average of 2 years</time_frame>
+    <description>Postoperative histologically confirmed microvascular invasion</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Hepatocellular Carcinoma</condition>
+  <arm_group>
+    <arm_group_label>Preoperative imaging features</arm_group_label>
+    <description>In this project, there is only one study group which comprises of patients with Hepatocellular Carcinoma (HCC) who will undergo preoperative Gd-EOB-DTPA enhanced magnetic resonance image.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Magnetic resonance image</intervention_name>
+    <description>Histologically-diagnosed primary HCC after curative hepatectomy. The magnetic resonance image will be imported into the software ,and the radiomic textural features will be automatically extracted by the Analysis-Kit software.The high-throughput extracted features will be then selected and a prediction model will be developed in the training set in which patients were collected from a retrospective study. In this project, an independent validation set will be collected and used to validate the prediction accuracy of the model.</description>
+    <arm_group_label>Preoperative imaging features</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      serum,tumor tissue
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Between June 2017 and July 2017，all patients who will undergo curative resection (R0
+        resection) at the First Affiliated Hospital of Sun YatSen University in Guangzhou, China,
+        for HCC based on the modified WHO classification of tumors of the digestive system, are
+        considered for inclusion. By the eligibility criteria stated below, MVI presentative rate
+        is 30-42% in chinese HCC population as reported, we retrospectively collected about 80
+        patients for training and an estimated 40 patients will be needed for validation set of
+        this study.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Asian patients aged 18～80 years old;
+
+          -  HCC without macroscopic vascular invasion according to imaging findings;
+
+          -  Child Pugh A-B stage;
+
+          -  Receipt of preoperative Gd-EOB-DTPA enhanced MR imaging of the abdomen within one
+             month before surgery;
+
+          -  Histologically-diagnosed primary HCC after curative hepatectomy;
+
+        Exclusion Criteria:
+
+          -  Combined hepatocellular-cholangiocarcinoma;
+
+          -  With extra-hepatic metastasis or macrovascular invasion;
+
+          -  With incomplete clinical and imaging data;
+
+          -  Non-radical resection;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ming Kuang, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Department of Liver Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong, China</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Zebin Chen, MD</last_name>
+    <phone>+86 13316284086</phone>
+    <email>chenzebin_2008@126.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jie Mei, MD</last_name>
+    <phone>+86 15817089979</phone>
+    <email>mmjj0926@163.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>The First Affiliated Hospital of Sun Yat-sen University</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510080</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Chen Zebin</last_name>
+      <phone>+8615017581009</phone>
+      <email>chenzebin_2008@126.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <results_reference>
+    <citation>Aerts HJ, Velazquez ER, Leijenaar RT, Parmar C, Grossmann P, Carvalho S, Bussink J, Monshouwer R, Haibe-Kains B, Rietveld D, Hoebers F, Rietbergen MM, Leemans CR, Dekker A, Quackenbush J, Gillies RJ, Lambin P. Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach. Nat Commun. 2014 Jun 3;5:4006. doi: 10.1038/ncomms5006. Erratum in: Nat Commun. 2014;5:4644. Cavalho, Sara [corrected to Carvalho, Sara].</citation>
+    <PMID>24892406</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Zhang YD, Wang Q, Wu CJ, Wang XN, Zhang J, Liu H, Liu XS, Shi HB. The histogram analysis of diffusion-weighted intravoxel incoherent motion (IVIM) imaging for differentiating the gleason grade of prostate cancer. Eur Radiol. 2015 Apr;25(4):994-1004. doi: 10.1007/s00330-014-3511-4. Epub 2014 Nov 28.</citation>
+    <PMID>25430007</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Woo S, Lee JM, Yoon JH, Joo I, Han JK, Choi BI. Intravoxel incoherent motion diffusion-weighted MR imaging of hepatocellular carcinoma: correlation with enhancement degree and histologic grade. Radiology. 2014 Mar;270(3):758-67. doi: 10.1148/radiol.13130444. Epub 2013 Oct 30.</citation>
+    <PMID>24475811</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Huang YQ, Liang CH, He L, Tian J, Liang CS, Chen X, Ma ZL, Liu ZY. Development and Validation of a Radiomics Nomogram for Preoperative Prediction of Lymph Node Metastasis in Colorectal Cancer. J Clin Oncol. 2016 Jun 20;34(18):2157-64. doi: 10.1200/JCO.2015.65.9128. Epub 2016 May 2. Erratum in: J Clin Oncol. 2016 Jul 10;34(20):2436.</citation>
+    <PMID>27138577</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Gillies RJ, Kinahan PE, Hricak H. Radiomics: Images Are More than Pictures, They Are Data. Radiology. 2016 Feb;278(2):563-77. doi: 10.1148/radiol.2015151169. Epub 2015 Nov 18.</citation>
+    <PMID>26579733</PMID>
+  </results_reference>
+  <verification_date>June 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 22, 2017</study_first_submitted>
+  <study_first_submitted_qc>June 22, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 26, 2017</study_first_posted>
+  <last_update_submitted>June 22, 2017</last_update_submitted>
+  <last_update_submitted_qc>June 22, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 26, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Sun Yat-sen University</investigator_affiliation>
+    <investigator_full_name>Ming Kuang</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>magnetic resonance image features</keyword>
+  <keyword>pathological differentiation</keyword>
+  <keyword>machine learning-based model</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma</mesh_term>
+    <mesh_term>Carcinoma, Hepatocellular</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

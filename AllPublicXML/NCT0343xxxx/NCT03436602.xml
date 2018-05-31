@@ -1,0 +1,252 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03436602</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IOSI-EMA-004</org_study_id>
+    <nct_id>NCT03436602</nct_id>
+  </id_info>
+  <brief_title>Personalized Risk Stratification Model of Follicular Lymphoma Patients</brief_title>
+  <official_title>Multilayer Model for Personalized Risk Stratification of Follicular Lymphoma Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Oncology Institute of Southern Switzerland</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Azienda Ospedaliero Universitaria Maggiore della Carita</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Arcispedale Santa Maria Nuova-IRCCS</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Institute of Pathology, Locarno, Ticino, Switzerland</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Oncology Institute of Southern Switzerland</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study aims at developping and validating an integrated clinico-molecular model for an
+      accurate identification of FL patients who are progression free and progressed, respectively,
+      at 24 months after treatment.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Already existing and coded tumor biological material and health-related personal data will be
+      retrospectively collected. FL diagnosis will be confirmed by central pathology review. Tumor
+      somatic mutations, immunoglobulin gene rearrangement and mutation status will be analyzed by
+      targeted deep next generation sequencing of tumor genomic DNA. Gene expression profiling will
+      be performed by targeted RNA-Seq of biopsy-derived RNA.
+
+      An immunohistochemistry panel assessing both tumor phenotype and microenvironment cellular
+      composition will be assessed by Tissue macroarray. FISH will be performed to characterize the
+      most recurrent follicular lymphoma chromosomal translocations.
+
+      The adjusted association between exposure variables and progression free survival will be
+      estimated by Cox regression. This approach will provide the covariates independently
+      associated with progression free survival that will be utilized in the development of a
+      hierarchical molecular model to predict progression free survival at 24 months. The
+      hierarchical order of relevance in predicting 24 months progression free survival among
+      covariates will be established by recursive partitioning analysis. Overall, this approach
+      will allow the development of a multilayer dynamic model for anticipating progression within
+      24 months from treatment.
+
+      The model developed in the training set will be tested in the validation sets and the model
+      performance (c-index and net reclassification improvement) in the validation set will be
+      compared with that in the training set. The accuracy of the multilayer model in predicting
+      progression free survival at 24 months will be compared against the FLIPI using c-index and
+      net reclassification improvement.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">March 2018</start_date>
+  <completion_date type="Anticipated">March 2021</completion_date>
+  <primary_completion_date type="Anticipated">March 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of multilayer personalized stratification model</measure>
+    <time_frame>24 months after first line treatment</time_frame>
+    <description>Assessment of multilayer personalized stratification model accuracy in the identification of patients who are progression free at 24 months after first line therapy plus the proportion of patients correctly identified as progressed within 24 months after first line therapy</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Progression free survival</measure>
+    <time_frame>From treatment start to progression / death / last follow-up, up to 13 years of follow-up</time_frame>
+    <description>Time elapsed from treatment start to progression (event), death (event) or last follow-up (censoring)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival</measure>
+    <time_frame>From treatment start to death / last follow-up, up to 13 years of follow-up</time_frame>
+    <description>Time elapsed from treatment start to death (event) or last follow-up (censoring)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to transformation</measure>
+    <time_frame>From treatment start to transformation or progression without transformation or death or last follow-up, up to 13 years of follow-up</time_frame>
+    <description>Time elapsed between treatment start and transformation (event), progression without transformation (censoring), death (censoring) or last follow-up (censoring)</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">650</enrollment>
+  <condition>Follicular Lymphoma</condition>
+  <arm_group>
+    <arm_group_label>Training cohort</arm_group_label>
+    <description>Cohort of follicular lymphoma patients for the development of the multilayer risk stratification model</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Validation cohort</arm_group_label>
+    <description>Cohort of follicular lymphoma patients for the validation of the developed multilayer risk stratification model</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      FFPE tissue specimen
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Follicular lymphoma patients
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosis of FL after January 1st, 2004 (chemoimmunotherapy era)
+
+          -  Availability of tumor material collected before initiation of medical therapy
+
+          -  Availability of the baseline and follow-up annotations
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Davide Rossi, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Oncology Institute of Southern Switzerland</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Davide Rossi, MD, PhD</last_name>
+    <phone>+41 091 811 8540</phone>
+    <email>davide.rossi@eoc.ch</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Arcispedale Santa Maria Nuova, AUSL IRCSS, Hematology Department</name>
+      <address>
+        <city>Reggio Emilia</city>
+        <state>RE</state>
+        <zip>42123</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Stefano Luminari, Prof.</last_name>
+      <email>stefano.luminari@unimore.it</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Azienda Ospedaliera Universitaria Maggiore della Carità</name>
+      <address>
+        <city>Novara</city>
+        <zip>28100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Gianluca Gaidano, Prof.</last_name>
+      <email>gianluca.gaidano@med.uniupo.it</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institute of Oncology Research</name>
+      <address>
+        <city>Bellinzona</city>
+        <state>Tessin</state>
+        <zip>6500</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Davide Rossi, MD, PhD</last_name>
+      <email>davide.rossi@eoc.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institute of Pathology</name>
+      <address>
+        <city>Locarno</city>
+        <state>Tessin</state>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Luca Mazzucchelli, Prof.</last_name>
+      <email>luca.mazzucchelli@ti.ch</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 6, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 12, 2018</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 16, 2018</study_first_posted>
+  <last_update_submitted>February 20, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 20, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 22, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Oncology Institute of Southern Switzerland</investigator_affiliation>
+    <investigator_full_name>Davide Rossi</investigator_full_name>
+    <investigator_title>MD, PhD, Senior Consultant, Hematology Department</investigator_title>
+  </responsible_party>
+  <keyword>Personalized risk assessment</keyword>
+  <keyword>Risk stratification model</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lymphoma</mesh_term>
+    <mesh_term>Lymphoma, Follicular</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

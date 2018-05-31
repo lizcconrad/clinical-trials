@@ -1,0 +1,229 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03242395</url>
+  </required_header>
+  <id_info>
+    <org_study_id>14/LO/0049</org_study_id>
+    <nct_id>NCT03242395</nct_id>
+  </id_info>
+  <brief_title>PRIME: Cognitive Outcome Following Major Burns</brief_title>
+  <acronym>PRIME</acronym>
+  <official_title>Perioperative Research Into Memory (PRiMe): The Use of fMRI to Investigate Neuroinflammation, Cognitive Dysfunction and Quality of Life Following a Major Burn Injury and Critical Care Admission</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chelsea and Westminster NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Westminster</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Imperial College Healthcare NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Chelsea and Westminster NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      PRIME aims to demonstrate through neurocognitive assessment that BICU patients will have a
+      degree of neurocognitive dysfunction following a major burn, that this neurocognitive
+      dysfunction is due to an underlying neuroinflammatory process by fMRI neuroimaging
+      techniques, and that the neurocognitive deficit is associated with a reduced quality of life.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients were matched with for age, sex and IQ (as determined by National Adult Reading Test
+      scores) controlled volunteers.
+
+      Participants were assessed for the following domains: verbal ability, verbal and visual
+      learning, short-term memory, working memory, executive function, attention and processing
+      speed. The domains were assessed with the following validated cognitive tests: The Hopkins
+      Verbal Learning Test, Trail making parts A and B, phonemic, semantic and switching verbal
+      fluency as well as the Cogstate computerised battery: Identification speed, Detection speed,
+      One Card Learning accuracy, One Back test accuracy, Two Back test accuracy, International
+      Shopping List total correct answers and Groton Maze Learning total errors. Evidence of
+      neuroinflammation was assessed using an fMRI protocol (Resting state MRI, T1w-MPR, T2 Space,
+      Diffusion Tensor Imaging with 30 directions, right frontal white matter and posterior
+      cingulate gyrus Single Voxel Spectroscopy, and patient group Susceptibility Weighted Imaging.
+
+      Quality of life was measured using the EuroQoL 5 Dimensions and visual analogue scale.
+      Independent Activities of Daily Living was also assessed. Mental Health (as a confounder) was
+      measured using the Patient Health Questionnaire 9, the Beck Depression Index II, the Beck
+      Anxiety Inventory and the Trauma Screening Questionnaire.
+
+      Statistical methods include significant differences between the patient and control group
+      using the Student t test (parametric data), the Mann Witney U test (non parametric data) or
+      the Fisher's Exact test (qualitative scoring systems). MELODIC in FSL software was used to
+      decompose the rs-fMRI data into brain networks using independent component analysis (ICA) and
+      connectivity in these networks patients and controls was compared using dual regression.
+      FreeSurfer was used to extract brain regions from T1 images and compare the normalised volume
+      of the hippocampus, amygdala and precuneus for patients and controls. DTI data were analysed
+      using tract based spatial statistics (TBSS) in FSL and using FreeSurfer regions for the
+      hippocampus, amygdala and precuneus. Cho/Cr, Cho/NAA and Ins/Cr ratios were extracted from
+      MRS data using Tarquin. SWI images were reviewed for the presence of microbleeds by two
+      Radiologists.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2014</start_date>
+  <completion_date type="Actual">April 2017</completion_date>
+  <primary_completion_date type="Actual">February 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Neurocognitive deficit</measure>
+    <time_frame>Within 10 years of injury</time_frame>
+    <description>Median T score of cognitive results (verbal ability, verbal and visual learning, short-term memory, working memory, executive function, attention and processing speed)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Quality of Life</measure>
+    <time_frame>Within 10 years of injury</time_frame>
+    <description>EuroQoL 5D score</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Neuroinflammation</measure>
+    <time_frame>Within 10 years of injury</time_frame>
+    <description>As per the functional Magnetic Resonance Imaging protocol</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">30</enrollment>
+  <condition>Cognitive Dysfunction</condition>
+  <condition>Burns</condition>
+  <condition>Inflammation, Brain</condition>
+  <condition>Quality of Life</condition>
+  <condition>Anxiety</condition>
+  <condition>Depression</condition>
+  <condition>PostTraumatic Stress Disorder</condition>
+  <arm_group>
+    <arm_group_label>Burn patients</arm_group_label>
+    <description>Adult survivors of severe burns who have been admitted to Burns ITU for invasive ventilation within 10 years of neurocognitive assessment</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Controls</arm_group_label>
+    <description>Healthy volunteers, controlled for age/sex/IQ</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Severe burns survivors
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Invasive ventilation on a Burns Intensive Care Unit (BICU) within the previous ten
+             years
+
+          -  Burn injuries greater than 15% total body surface area (TBSA)
+
+          -  Adult
+
+        Exclusion Criteria:
+
+          -  Admission to BICU for other illnesses that were not burn related (such as Toxic
+             Epidermal Necrolysis Syndrome)
+
+          -  Evidence of head trauma
+
+          -  Known substance misuse or alcohol excess
+
+          -  Inability to understand plain verbal or written English
+
+          -  Severe mental health issues
+
+          -  Receiving formal psychiatric treatment
+
+          -  Currently held under the Mental Health Act
+
+          -  If the subject's psychological health was deemed to be at risk from inclusion
+
+          -  Imprisoned
+
+          -  Contraindications to MRI
+
+          -  non-compatible pacemakers
+
+          -  surgical metalwork or foreign bodies
+
+          -  severe claustrophobia
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marcela P Vizcaychipi, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Anaesthetic and Intensive Care Consultant</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Chelsea and Westminster Hospital NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <zip>SW10 9NH</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>December 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 21, 2017</study_first_submitted>
+  <study_first_submitted_qc>August 7, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 8, 2017</study_first_posted>
+  <last_update_submitted>August 7, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 7, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 8, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Neuroinflammation</keyword>
+  <keyword>fMRI</keyword>
+  <keyword>Post-operative cognitive dysfunction</keyword>
+  <keyword>Systemic inflammation</keyword>
+  <keyword>Severe burns</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Inflammation</mesh_term>
+    <mesh_term>Burns</mesh_term>
+    <mesh_term>Stress Disorders, Post-Traumatic</mesh_term>
+    <mesh_term>Cognitive Dysfunction</mesh_term>
+    <mesh_term>Encephalitis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

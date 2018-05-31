@@ -1,0 +1,293 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03452774</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SYNERGY-AI</org_study_id>
+    <nct_id>NCT03452774</nct_id>
+  </id_info>
+  <brief_title>SYNERGY-AI: Artificial Intelligence Based Precision Oncology Clinical Trial Matching and Registry</brief_title>
+  <official_title>SYNERGY-AI: Artificial Intelligence Based Precision Oncology Clinical Trial Matching and Registry</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Massive Bio, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Massive Bio, Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      International registry for cancer patients evaluating the feasibility and clinical utility of
+      an Artificial Intelligence-based precision oncology clinical trial matching tool, powered by
+      a virtual tumor boards (VTB) program, and its clinical impact on pts with advanced cancer to
+      facilitate clinical trial enrollment (CTE), as well as the financial impact, and potential
+      outcomes of the intervention.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The SYNERGY Registry is an international prospective, observational cohort study of eligible
+      adult and pediatric pts with advanced solid and hematological malignancies, for whom the
+      decision to consider CTE has already been made by their primary providers (PP). Using a
+      proprietary application programming interface (API) linked to existing electronic health
+      records (EHR) platforms, individual clinical data is extracted, analyzed and matched to a
+      parametric database of existing institutional and non-institutional CT. Machine learning
+      algorithms allow for dynamic matching based on CT allocation and availability for optimized
+      matching. Patients voluntarily enroll into the registry, which is non-interventional with no
+      protocol-mandated tests/procedures — all treatment decisions are made at the discretion of PP
+      in consultation with their pts, based on the AI CT matching report, and VTB support. CTE will
+      be assessed on variables including biomarkers, barriers to enrollment. Study duration
+      anticipated as ~36 mo (~24-mo enrollment followed by 12 mo of data collection, to occur every
+      3 mo). The primary analysis will be performed 12 mo after last pt enrolled. The impact time
+      to initiation of CTE on PFS and OS will be estimated by Kaplan-Meier and Cox multivariable
+      survival analysis. Enrollment is ongoing, with a target of ≥1500 patients.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2018</start_date>
+  <completion_date type="Anticipated">December 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 2021</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>36 Months</target_duration>
+  <primary_outcome>
+    <measure>Proportion of patients Eligible for CTE versus Actual CTE</measure>
+    <time_frame>Through study completion, an average of 1 year</time_frame>
+    <description>CTE Accrual</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Impact of CTE on Overall Survival (OS), estimated by Kaplan-Meier and Cox multivariable survival analysis</measure>
+    <time_frame>4 years</time_frame>
+    <description>OS</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Impact of CTE on Progression-Free Survival (PFS), estimated by Kaplan-Meier and Cox multivariable survival analysis</measure>
+    <time_frame>4 years</time_frame>
+    <description>PFS</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Identification of Barriers to CTE</measure>
+    <time_frame>Through study completion, an average of 1 year</time_frame>
+    <description>To identify barriers to accruals to clinical trials, as measured and reported by a questionnaire</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Real World Data Analytics</measure>
+    <time_frame>Through study completion, an average of 1 year</time_frame>
+    <description>To Analyze Individual Standard of Care Chemotherapy Utilization (nominal), across treatment lines (numeric); data will be combined and aggregated to report chemotherapy utilization rate (%).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Virtual Tumor Board Utilization</measure>
+    <time_frame>Through study completion, an average of 1 year</time_frame>
+    <description>VTB Use Rate</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time from Intervention to Actual CTE (months)</measure>
+    <time_frame>Through study completion, an average of 1 year</time_frame>
+    <description>Time to CTE</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1500</enrollment>
+  <condition>Cancer, Metastatic</condition>
+  <condition>Cancer</condition>
+  <condition>Cancer of Pancreas</condition>
+  <condition>Cancer of Liver</condition>
+  <condition>Cancer of Stomach</condition>
+  <condition>Cancer Liver</condition>
+  <condition>Cancer of Rectum</condition>
+  <condition>Cancer of Kidney</condition>
+  <condition>Cancer of Esophagus</condition>
+  <condition>Cancer of Cervix</condition>
+  <condition>Cancer of Colon</condition>
+  <condition>Cancer of Larynx</condition>
+  <condition>Cancer, Lung</condition>
+  <condition>Cancer, Breast</condition>
+  <condition>Cancer, Advanced</condition>
+  <condition>Cancer Prostate</condition>
+  <condition>Cancer of Neck</condition>
+  <condition>Cancer of Skin</condition>
+  <condition>Neuroendocrine Tumors</condition>
+  <condition>Carcinoma</condition>
+  <condition>Mismatch Repair Deficiency</condition>
+  <condition>BRCA Gene Rearrangement</condition>
+  <condition>Non Hodgkin Lymphoma</condition>
+  <condition>Leukemia</condition>
+  <condition>Non Small Cell Lung Cancer</condition>
+  <condition>Cholangiocarcinoma</condition>
+  <condition>Glioblastoma</condition>
+  <condition>Central Nervous System Tumor</condition>
+  <condition>Melanoma</condition>
+  <condition>Urothelial Carcinoma</condition>
+  <condition>Bladder Cancer</condition>
+  <condition>Ovarian Cancer</condition>
+  <condition>Endometrial Cancer</condition>
+  <condition>Testicular Cancer</condition>
+  <condition>Breast Cancer</condition>
+  <arm_group>
+    <arm_group_label>Study Group</arm_group_label>
+    <description>Eligible adult and pediatric pts with advanced solid and hematological malignancies, for whom the decision to consider CTE has already been made by their primary providers (PP).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Clinical Trial Matching</intervention_name>
+    <description>Using a proprietary application programming interface (API) linked to existing electronic health records (EHR) platforms, individual clinical data is extracted, analyzed and matched to a parametric database of existing institutional and non-institutional CT. Machine learning algorithms allow for dynamic matching based on CT allocation and availability for optimized matching.</description>
+    <arm_group_label>Study Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Observational cohort study of eligible adult and pediatric pts with advanced solid and
+        hematological malignancies, for whom the decision to consider clinical trial enrollment
+        (CTE) has already been made by their primary providers (PP).
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Pts with solid and hematological malignancies;
+
+          -  Pts cancer-related biomarkers (e.g. EGFR, ALK, TRK, ERBB2, ROS-1) determined by local
+             laboratory, external vendor, or next generation sequencing platform
+
+          -  Decision to consider clinical trial pre-screening enrollment (CTE) by primary provider
+             and/or patient
+
+        Exclusion Criteria:
+
+          -  ECOG PS &gt; 2;
+
+          -  Abnormal organ function;
+
+          -  Hospice enrollment
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Selin Kurnaz, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Massive Bio, Inc.</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Selin Kurnaz, PhD</last_name>
+    <phone>+1(917) 336-3319</phone>
+    <email>skurnaz@massbio.io</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Kristin Johnston, RN</last_name>
+    <phone>+1(917) 336-3319</phone>
+    <email>kjohnston@massbio.io</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Massive Bio, Inc</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10006</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kristin Johnston, RN</last_name>
+      <phone>844-627-7246</phone>
+      <email>support@massbio.io</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://academic.oup.com/annonc/article/28/suppl_7/mdx508.013/4469325</url>
+    <description>Feasibility of precision oncology virtual tumour boards to optimise direct point-of-care management and clinical trial enrolment of advanced cancer patients: New models for personalised oncology</description>
+  </link>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 13, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 24, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 2, 2018</study_first_posted>
+  <last_update_submitted>February 24, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 24, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 2, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>artificial intelligence</keyword>
+  <keyword>virtual tumor board</keyword>
+  <keyword>clinical trial</keyword>
+  <keyword>clinical trial matching</keyword>
+  <keyword>electronic medical record</keyword>
+  <keyword>machine learning</keyword>
+  <keyword>cost of care</keyword>
+  <keyword>targeted therapy</keyword>
+  <keyword>immunotherapy</keyword>
+  <keyword>precision medicine</keyword>
+  <keyword>precision oncology</keyword>
+  <keyword>cancer</keyword>
+  <keyword>value based care</keyword>
+  <keyword>real world data</keyword>
+  <keyword>data analytics</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma</mesh_term>
+    <mesh_term>Neoplasms</mesh_term>
+    <mesh_term>Carcinoma, Non-Small-Cell Lung</mesh_term>
+    <mesh_term>Lymphoma, Non-Hodgkin</mesh_term>
+    <mesh_term>Glioblastoma</mesh_term>
+    <mesh_term>Urinary Bladder Neoplasms</mesh_term>
+    <mesh_term>Endometrial Neoplasms</mesh_term>
+    <mesh_term>Neuroendocrine Tumors</mesh_term>
+    <mesh_term>Cholangiocarcinoma</mesh_term>
+    <mesh_term>Nervous System Neoplasms</mesh_term>
+    <mesh_term>Central Nervous System Neoplasms</mesh_term>
+    <mesh_term>Carcinoma, Transitional Cell</mesh_term>
+    <mesh_term>Testicular Neoplasms</mesh_term>
+    <mesh_term>Breast Neoplasms</mesh_term>
+    <mesh_term>Pancreatic Neoplasms</mesh_term>
+    <mesh_term>Stomach Neoplasms</mesh_term>
+    <mesh_term>Liver Neoplasms</mesh_term>
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Esophageal Neoplasms</mesh_term>
+    <mesh_term>Uterine Cervical Neoplasms</mesh_term>
+    <mesh_term>Kidney Neoplasms</mesh_term>
+    <mesh_term>Carcinoma, Renal Cell</mesh_term>
+    <mesh_term>Colonic Neoplasms</mesh_term>
+    <mesh_term>Rectal Neoplasms</mesh_term>
+    <mesh_term>Brain Neoplasms</mesh_term>
+    <mesh_term>Neoplastic Syndromes, Hereditary</mesh_term>
+    <mesh_term>Colorectal Neoplasms</mesh_term>
+    <mesh_term>Head and Neck Neoplasms</mesh_term>
+    <mesh_term>Skin Neoplasms</mesh_term>
+    <mesh_term>Laryngeal Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

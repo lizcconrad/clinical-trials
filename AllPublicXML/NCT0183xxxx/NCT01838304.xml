@@ -1,0 +1,673 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01838304</url>
+  </required_header>
+  <id_info>
+    <org_study_id>817166</org_study_id>
+    <nct_id>NCT01838304</nct_id>
+  </id_info>
+  <brief_title>Probability Ramp Control of Propofol for EGD</brief_title>
+  <official_title>A Prospective, Randomized Comparison of Depth of Sedation With Propofol Titrated by Probability Ramp Control to Control by Anesthesia Providers During Esophagogastroduodenoscopy (EGD)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Pennsylvania</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Pennsylvania</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Endoscopic sedation requires titration of propofol to deep sedation without minimum overshoot
+      into general anesthesia. This skill is demanding and acquired slowly. Probability Ramp
+      Control (PRC) simplifies this by providing the clinician with a simple infusion sequence that
+      permits gradual titration of propofol. The purpose of this study is to compare the
+      performance of this technology to that of experienced anesthesia providers in endoscopic
+      sedation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Administration of propofol to achieve a target of moderate sedation is a challenging task for
+      which anesthesia providers receive minimal training. Undersedation results in a noncompliant
+      patient, while oversedation results in airway obstruction, respiratory depression, and
+      hypotension. Considerable variability in patient pharmacokinetics (the distribution of drug
+      within the body) and pharmacodynamics (the translation of drug concentration to clinical
+      effect) has been demonstrated. The skill of titrating propofol to the desired target and
+      maintaining this state is slowly acquired in the clinical environment of the endoscopy center
+      with frequent reliance on rescue skills. An automated system that facilitates this process
+      would be useful.
+
+      Pharmacokinetic models allow us to make predictions of the results of drug administration. If
+      we know the age and size of the patient, we can determine a quantity of propofol that will
+      attain a desired concentration at some point in the future (within the predictive accuracy of
+      the model). If they are old, this is less than if they are young. If they are obese, this is
+      more than if they are thin. By adjusting the dosing, we can achieve similar concentrations at
+      a specified time in a wide range of patients.
+
+      Pharmacodynamic models allow us to relate drug concentration to a probability of response.
+      Sensitivity is a randomly distributed variable, and the cumulative probability of response to
+      propofol is well represented by a sigmoid curve. While we do not know the concentration that
+      will suffice for a given individual, we can determine the probability that this individual
+      will lose responsiveness within an interval of concentrations. For example, the probability
+      of loss of responsiveness between 1 µg/ml and 6 µg/ml is around 99%. For any given age and
+      size, an infusion sequence can be determined so that we traverse this interval smoothly. The
+      infusion sequence is determined by minimization of the difference between the simulated
+      probability and the target (1). We predict that 90% of 50 year old 70 kg patients will lose
+      responsiveness between one minute and three minutes after initiating the infusion, and 99% by
+      five minutes. The infusion sequence for this patient is comprised of a bolus of 287 µg/kg
+      followed by an initial infusion of 216 µg/kg/min, with an increase to 550 µg/kg/min after 147
+      seconds. By selecting the infusion sequence based on the age and size of the patient, all
+      patients will track the same target line. These infusion rates are determined prior to
+      initiation of sedation, and the clinician can verify that they are appropriate for the
+      patient before beginning sedation.
+
+      Once the endpoint of adequate sedation is observed, the effect site concentration associated
+      with this endpoint is inferred, and the infusion that will maintain this concentration can be
+      determined. This allows the clinical observation to be translated into an infusion rate, much
+      as a driver accelerates to a desired speed and then engages the cruise control to maintain
+      that speed.
+
+      The intent of this study is to demonstrate equivalent safety and efficacy of PRC to control
+      by a skilled clinician.
+
+      References
+
+      1. Mandel JE, Sarraf E. The Variability of Response to Propofol Is Reduced When a Clinical
+      Observation Is Incorporated in the Control: A Simulation Study. Anesthesia &amp; Analgesia.
+      2012;114:1221-9.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2013</start_date>
+  <completion_date type="Actual">May 2013</completion_date>
+  <primary_completion_date type="Actual">May 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Participants Requiring Adjustment in Propofol Dosing</measure>
+    <time_frame>Intraprocedure (average of 9 minutes)</time_frame>
+    <description>Following initial sedation, an infusion rate for propofol is determined by the CRNA (control) or software (experimental). If this rate is appropriate for the duration of the brief procedure, no adjustment to the rate will be required. A greater requirement for rate changes suggests that the anesthesia provider needs to be immediately available to perform these adjustments.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Decrease in Minute Ventilation From Baseline</measure>
+    <time_frame>Duration of sedation (average of 25 minutes)</time_frame>
+    <description>Minute ventilation as determined by respiratory inductance plethysmography from initiation of sedation until emergence.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time Spent Below a Saturation of 80%</measure>
+    <time_frame>Duration of sedation (mean 25 minutes)</time_frame>
+    <description>Number of seconds spent below saturation of 80%, reported as the total per group</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Procedure Time</measure>
+    <time_frame>Procedure time (average of 9 minutes)</time_frame>
+    <description>Time from endoscopic intubation until completion of the procedure. This is not really an outcome measure, but is used to assess balance between groups.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">40</enrollment>
+  <condition>Gastrointestinal Disease</condition>
+  <arm_group>
+    <arm_group_label>Monitoring</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Standard of care sedation by CRNA using proposal with manual recording of drug dosing</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Probability ramp control</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Propofol titrated to deep sedation using PRC software.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Probability ramp control</intervention_name>
+    <description>Decision support software that calculates propofol doses appropriate for age and weight of the patient</description>
+    <arm_group_label>Probability ramp control</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Monitoring</intervention_name>
+    <description>Manual recording of drug doses determined by CRNA</description>
+    <arm_group_label>Monitoring</arm_group_label>
+    <other_name>Manual recording of drug doses determined by CRNA</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  scheduled for elective EGD
+
+        Exclusion Criteria:
+
+          -  Unable to provide informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jeff E Mandel, MD MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pennsylvania</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Endoscopy Center, Perelman Center for Advanced Medicine</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Mandel JE, Sarraf E. The variability of response to propofol is reduced when a clinical observation is incorporated in the control: a simulation study. Anesth Analg. 2012 Jun;114(6):1221-9. doi: 10.1213/ANE.0b013e31824cb853. Epub 2012 Mar 30.</citation>
+    <PMID>22467886</PMID>
+  </reference>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 12, 2013</study_first_submitted>
+  <study_first_submitted_qc>April 18, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 24, 2013</study_first_posted>
+  <results_first_submitted>May 3, 2017</results_first_submitted>
+  <results_first_submitted_qc>January 19, 2018</results_first_submitted_qc>
+  <results_first_posted type="Actual">January 23, 2018</results_first_posted>
+  <last_update_submitted>January 19, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 19, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 23, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>propofol sedation endoscopy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Gastrointestinal Diseases</mesh_term>
+    <mesh_term>Digestive System Diseases</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Propofol</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Monitoring</title>
+          <description>Standard of care sedation by CRNA using proposal with manual recording of drug dosing
+Monitoring: Manual recording of drug doses determined by CRNA</description>
+        </group>
+        <group group_id="P2">
+          <title>Probability Ramp Control</title>
+          <description>Propofol titrated to deep sedation using PRC software.
+Probability ramp control: Decision support software that calculates propofol doses appropriate for age and weight of the patient</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="20"/>
+                <participants group_id="P2" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="19"/>
+                <participants group_id="P2" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Monitoring</title>
+          <description>Standard of care sedation by CRNA using proposal with manual recording of drug dosing
+Monitoring: Manual recording of drug doses determined by CRNA</description>
+        </group>
+        <group group_id="B2">
+          <title>Probability Ramp Control</title>
+          <description>Propofol titrated to deep sedation using PRC software.
+Probability ramp control: Decision support software that calculates propofol doses appropriate for age and weight of the patient</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="20"/>
+            <count group_id="B2" value="20"/>
+            <count group_id="B3" value="40"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="48.5" spread="14.2"/>
+                    <measurement group_id="B2" value="52.8" spread="16.5"/>
+                    <measurement group_id="B3" value="50.625" spread="15.345"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                    <measurement group_id="B2" value="13"/>
+                    <measurement group_id="B3" value="21"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                    <measurement group_id="B2" value="7"/>
+                    <measurement group_id="B3" value="19"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>ASA 3</title>
+          <description>American Society of Anesthesia physical status rating. ASA 1 = Healthy ASA 2 = Minor illness (i.e. hypertension) ASA 3 = Major illness (i.e. S/P myocardial infarction)</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                    <measurement group_id="B2" value="8"/>
+                    <measurement group_id="B3" value="15"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Weight</title>
+          <units>kg</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="82.3" spread="27.4"/>
+                    <measurement group_id="B2" value="82.1" spread="23.9"/>
+                    <measurement group_id="B3" value="82.22" spread="25.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Participants Requiring Adjustment in Propofol Dosing</title>
+        <description>Following initial sedation, an infusion rate for propofol is determined by the CRNA (control) or software (experimental). If this rate is appropriate for the duration of the brief procedure, no adjustment to the rate will be required. A greater requirement for rate changes suggests that the anesthesia provider needs to be immediately available to perform these adjustments.</description>
+        <time_frame>Intraprocedure (average of 9 minutes)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Monitoring</title>
+            <description>Standard of care sedation by CRNA using proposal with manual recording of drug dosing
+Monitoring: Manual recording of drug doses determined by CRNA</description>
+          </group>
+          <group group_id="O2">
+            <title>Probability Ramp Control</title>
+            <description>Propofol titrated to deep sedation using PRC software.
+Probability ramp control: Decision support software that calculates propofol doses appropriate for age and weight of the patient</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants Requiring Adjustment in Propofol Dosing</title>
+          <description>Following initial sedation, an infusion rate for propofol is determined by the CRNA (control) or software (experimental). If this rate is appropriate for the duration of the brief procedure, no adjustment to the rate will be required. A greater requirement for rate changes suggests that the anesthesia provider needs to be immediately available to perform these adjustments.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="19"/>
+                <count group_id="O2" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="16"/>
+                    <measurement group_id="O2" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Decrease in Minute Ventilation From Baseline</title>
+        <description>Minute ventilation as determined by respiratory inductance plethysmography from initiation of sedation until emergence.</description>
+        <time_frame>Duration of sedation (average of 25 minutes)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Monitoring</title>
+            <description>Standard of care sedation by CRNA using proposal with manual recording of drug dosing
+Monitoring: Manual recording of drug doses determined by CRNA</description>
+          </group>
+          <group group_id="O2">
+            <title>Probability Ramp Control</title>
+            <description>Propofol titrated to deep sedation using PRC software.
+Probability ramp control: Decision support software that calculates propofol doses appropriate for age and weight of the patient</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Decrease in Minute Ventilation From Baseline</title>
+          <description>Minute ventilation as determined by respiratory inductance plethysmography from initiation of sedation until emergence.</description>
+          <units>percentage of baseline</units>
+          <param>Median</param>
+          <dispersion>97.5% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="19"/>
+                <count group_id="O2" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="25" lower_limit="20" upper_limit="30"/>
+                    <measurement group_id="O2" value="50" lower_limit="35" upper_limit="65"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Time Spent Below a Saturation of 80%</title>
+        <description>Number of seconds spent below saturation of 80%, reported as the total per group</description>
+        <time_frame>Duration of sedation (mean 25 minutes)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Monitoring</title>
+            <description>Standard of care sedation by CRNA using proposal with manual recording of drug dosing
+Monitoring: Manual recording of drug doses determined by CRNA</description>
+          </group>
+          <group group_id="O2">
+            <title>Probability Ramp Control</title>
+            <description>Propofol titrated to deep sedation using PRC software.
+Probability ramp control: Decision support software that calculates propofol doses appropriate for age and weight of the patient</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Time Spent Below a Saturation of 80%</title>
+          <description>Number of seconds spent below saturation of 80%, reported as the total per group</description>
+          <units>seconds</units>
+          <param>Count of Units</param>
+          <units_analyzed>seconds</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="20"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>seconds</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="29686"/>
+                <count group_id="O2" value="30552"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="168"/>
+                    <measurement group_id="O2" value="22"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Fisher's exact test for odd's ratio of time below a saturation of 80% to total time</groups_desc>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <p_value>&lt;0.0001</p_value>
+            <method>Fisher Exact</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>7.9</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>4.21</ci_lower_limit>
+            <ci_upper_limit>14.81</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Procedure Time</title>
+        <description>Time from endoscopic intubation until completion of the procedure. This is not really an outcome measure, but is used to assess balance between groups.</description>
+        <time_frame>Procedure time (average of 9 minutes)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Monitoring</title>
+            <description>Standard of care sedation by CRNA using proposal with manual recording of drug dosing
+Monitoring: Manual recording of drug doses determined by CRNA</description>
+          </group>
+          <group group_id="O2">
+            <title>Probability Ramp Control</title>
+            <description>Propofol titrated to deep sedation using PRC software.
+Probability ramp control: Decision support software that calculates propofol doses appropriate for age and weight of the patient</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Procedure Time</title>
+          <description>Time from endoscopic intubation until completion of the procedure. This is not really an outcome measure, but is used to assess balance between groups.</description>
+          <units>minutes</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+                <count group_id="O2" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9.03" spread="3.75"/>
+                    <measurement group_id="O2" value="8.9" spread="4.75"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Duration of sedation (mean 25 minutes)</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Monitoring</title>
+          <description>Standard of care sedation by CRNA using proposal with manual recording of drug dosing
+Monitoring: Manual recording of drug doses determined by CRNA</description>
+        </group>
+        <group group_id="E2">
+          <title>Probability Ramp Control</title>
+          <description>Propofol titrated to deep sedation using PRC software.
+Probability ramp control: Decision support software that calculates propofol doses appropriate for age and weight of the patient</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="20"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Respiratory, thoracic and mediastinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Desaturation</sub_title>
+                <description>Patient required bag-mask ventilation due to desaturation following propofol administration.</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="20"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="20"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>Choice of processed EEG scores in power analyasis; variability of PSI scores; lack of concealed allocation, as it was deemed unethical to ask the CRNAs to deliver “sham propofol” in the experimental arm.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Vice-Chair of Research</name_or_title>
+      <organization>University of Pennsylvania</organization>
+      <phone>(215) 662-3766</phone>
+      <email>roderic.eckenhoff@uphs.upenn.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

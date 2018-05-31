@@ -1,0 +1,170 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00957450</url>
+  </required_header>
+  <id_info>
+    <org_study_id>UHN REB 08-0043-CE</org_study_id>
+    <nct_id>NCT00957450</nct_id>
+  </id_info>
+  <brief_title>Intra-Pelvic Organ Motion for Cervix Cancer Patient Using Imaging</brief_title>
+  <official_title>Validation Study of Modeled Intra-pelvic Organ Motion During External Beam Radiotherapy for Cervix Cancer Using Frequent Magnetic Resonance Imaging</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Health Network, Toronto</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Health Network, Toronto</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Patients with cervix cancer having radiotherapy experience side-effects because the
+      radiotherapy fields have to be quite large to account for tumour movement in the pelvis
+      during treatment, this irradiates a lot of normal tissues. This study aims to characterize
+      and model the tumour motion, as well as the motion of surrounding normal tissues, during
+      treatment. By doing this, the investigators can look at ways to minimise tumour motion and
+      spare more normal tissues. By tailoring the radiotherapy dose more accurately, the
+      investigators will reduce the side-effects of treatment and improve local control of the
+      tumour. By doing multiple magnetic resonance imaging (MRI) scans of the patients during
+      treatment, the investigators can identify where the tumour and surrounding normal tissues are
+      at that point in time. Collecting all the information from these scans, will allow the
+      investigators to model the motion of the tumour and these pelvic organs, and investigate the
+      best way to target the tumour while still sparing normal tissues.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      At simulation: patients will have two MRI scans in addition to the standard planning CT scan.
+      One MRI scan will be with bladder full, the other will be with bladder empty. During
+      treatment: patients will have two or three MRI scans per week at their convenience. MRI scans
+      will be scheduled close to radiotherapy treatment times to minimise inconvenience for the
+      patient. On the same day they have an MRI scan, they will also have a CBCT at the time of
+      treatment. None of the images will be used to alter or influence the treatment the patient is
+      receiving. If the patient feels that the imaging schedule is too inconvenient, they will be
+      given the option to reduce the frequency of the scanning or to withdraw from the study.All
+      the images will be loaded onto a password secure server. The MRI scans will be fused to the
+      planning CT scan using bone-to-bone matching. Tumour and intra-pelvic organs will be
+      contoured on the MRI scans. The contours will be used to create surface meshes of each organ
+      and with research software, we will be able to model the motion and deformation of these
+      organs over the course of radiotherapy. Using this data, we will be able to simulate the dose
+      impact of the organ motion on different intensity-modulated radiotherapy plans. We will also
+      explore the impact of bladder &amp; rectal filling on tumour motion.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>February 2008</start_date>
+  <completion_date type="Anticipated">February 2019</completion_date>
+  <primary_completion_date type="Actual">February 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Measure inter-fraction organ movements associated with cervix cancer during the course of definitive radiotherapy. Characterise the impact of bladder and rectal filling on target motion during a course of definitive radiotherapy</measure>
+    <time_frame>24 months</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Model intra-pelvic organ motion during RT. Model tumour &amp; normal tissue dose accumulation. Perform planning studies on the image data sets. Investigate the utility of tumour localisation surrogates using CBCT &amp; MR imaging.</measure>
+    <time_frame>24 months</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Cervix Cancer</condition>
+  <arm_group>
+    <arm_group_label>1</arm_group_label>
+    <description>Impact of organ motion
+Characterize the impact of normal organ motion in the pelvic on tumour movement, during treatment. This will be assessed in patients with pelvic cancer.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        In this study, the organ motion of Patients with cervical cancer will be assessed. The
+        study population will be selected from clinic.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age ≥ 18years
+
+          -  Biopsy confirmed cervix cancer
+
+          -  Not suitable for surgery
+
+          -  Suitable for radical radiotherapy
+
+          -  ECOG 0-2
+
+          -  Informed consent
+
+        Exclusion Criteria:
+
+          -  Patients unwilling or unable to give informed consent
+
+          -  Prior pelvic radiotherapy
+
+          -  Contraindications to MRI scan
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael Milosevic, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Univesity Health Network, Princess Margaret Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University Health Network</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M5G 2M9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 11, 2009</study_first_submitted>
+  <study_first_submitted_qc>August 11, 2009</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 12, 2009</study_first_posted>
+  <last_update_submitted>February 20, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 20, 2018</last_update_submitted_qc>
+  <last_update_posted type="Estimate">February 21, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>cervix cancer</keyword>
+  <keyword>intra-pelvic organ motion</keyword>
+  <keyword>cervical cancer and CBCT</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Uterine Cervical Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

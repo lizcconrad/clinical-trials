@@ -1,0 +1,204 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00460252</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CM4</org_study_id>
+    <nct_id>NCT00460252</nct_id>
+  </id_info>
+  <brief_title>Tight Glycemic Control by eMPC Algorithm in Medical ICU Patients.</brief_title>
+  <official_title>An Open, Mono-Centre Randomised Controlled Trial to Investigate the Feasibility of Blood Glucose Control With the Software-Algorithm eMPC (Enhanced Model Predictive Control) Via the Arterial-Intravenous Route in Patients at the Medical Intensive Care Unit.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Medical University of Graz</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Medical University of Graz</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is an open mono-centre randomised controlled trial performed at the Medical University
+      Graz including a treatment visit (V1). In the treatment visit (V1) after admittance to the
+      ICU arterial blood glucose values will be monitored and either the software-algorithm eMPC
+      will be used to adjust the infusion rate of intravenously administered human soluble insulin
+      to normalise arterial blood glucose or routine treatment will be used to establish tight
+      glycaemic control. The treatment visit will last for 72 hours.
+
+      The primary hypothesis of the study is that blood glucose control by the eMPC algorithm is
+      not inferior compared to the implemented routine protocol.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Hyperglycaemia is commonly found in critically ill patients. The stress of critical illness
+      induces glucose counterregulatory hormones and a number of alterations in carbohydrate
+      metabolism, including increased peripheral glucose demands, enhanced hepatic glucose
+      production, insulin resistance and relative insulin deficiency. Moreover, clinical
+      interventions, such as corticoids, vasopressors, and enteral or parenteral nutrition, further
+      predispose these patients to elevated blood glucose levels. In patients in intensive care as
+      well as in general hospital settings patients with hyperglycemia have higher mortality rates.
+      Recent studies demonstrated that tight blood glucose control in ICU patients results in a
+      significant better outcome for the patients.
+
+      Based on this emerging clinical evidence, there are increasing efforts world-wide to maintain
+      strict glycaemic control in critically ill patients. However, achieving this goal requires
+      extensive nursing efforts, including frequent bedside glucose monitoring and the
+      implementation of complex intensive insulin infusion protocols and such increased work
+      demands may not be readily accepted by a busy ICU nursing staff.
+
+      The development of a closed loop control system that automatically infuses insulin on the
+      basis of glucose measurements could permit strict glycaemic control and improve clinical
+      outcome without increasing workload of the ICU nursing staff. The EU founded project CLINICIP
+      (Closed Loop Infusion in Critically ill patients) aims to develop a low–risk monitoring and
+      control system which allows maintaining metabolic control in intensive care units. As a first
+      step a local bedside semi-closed system will be developed. Based on arterial spot
+      measurement, an adaptive control algorithm will generate advice and thus represent a decision
+      supporting system for the ICU nursing staff. This control algorithm was adapted for patients
+      in the ICU. The first study using this algorithm was performed at the Medical University
+      Hospital in Graz. In all six patients, who were included in this feasibility trial, blood
+      glucose levels could be normalised and maintained in the narrow target range for up to 24
+      hours without a single hypoglycaemic episode. Subsequently, the algorithm was tested in a
+      multicentric randomized controlled trial setting and showed superiority by means of a reduced
+      number of hypoglycaemic events and a higher percentage of glucose values within the target
+      range as compared to routine care glucose management protocols. In this study it was a fact
+      that the hourly sampling frequency in the algorithm group has positively influenced the
+      outcome in the algorithm group. Therefore in an enhanced version of the algorithm (eMPC) the
+      sampling interval is expanded up to 240 min.
+
+      The purpose of this study is to evaluate the feasibility of this enhanced model predictive
+      control algorithm for glycaemic control in critically ill patients compared to routine
+      treatment.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2006</start_date>
+  <completion_date type="Actual">November 2006</completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Hyperglycemic Index</measure>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of hypoglycaemic episodes (BG &lt; 40 mg/dl (&lt; 2.2mM) [10] )</measure>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean glucose</measure>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sampling interval</measure>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Insulin need</measure>
+  </secondary_outcome>
+  <enrollment>50</enrollment>
+  <condition>Critically Ill Patients</condition>
+  <condition>Mechanical Ventilation</condition>
+  <condition>Hyperglycemia</condition>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>insulin titration applying a computer algorithm</intervention_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Mechanical ventilation
+
+          -  Increased blood glucose levels during ICU care (&gt; 110 mg/dL; &gt; 6.1 mM) or patient on
+             current insulin treatment.
+
+          -  Age of patients in the range from 18 to 90 years.
+
+        Exclusion Criteria:
+
+          -  Known or suspected allergy against insulin.
+
+          -  Any disease or condition which the Investigator or the treating physician feels would
+             interfere with the trial or the safety of the patient.
+
+          -  Patients participating in another study.
+
+          -  Moribund patients likely to die in the next 24 hours.
+
+          -  Disabled patients
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Thomas R Pieber, MD.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Medical University of Graz</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Medical University Graz</name>
+      <address>
+        <city>Graz</city>
+        <zip>8036</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+  </location_countries>
+  <link>
+    <url>http://www.clinicip.org</url>
+    <description>official homepage of the CLINICIP Project</description>
+  </link>
+  <reference>
+    <citation>Plank J, Blaha J, Cordingley J, Wilinska ME, Chassin LJ, Morgan C, Squire S, Haluzik M, Kremen J, Svacina S, Toller W, Plasnik A, Ellmerer M, Hovorka R, Pieber TR. Multicentric, randomized, controlled trial to evaluate blood glucose control by the model predictive control algorithm versus routine glucose management protocols in intensive care unit patients. Diabetes Care. 2006 Feb;29(2):271-6.</citation>
+    <PMID>16443872</PMID>
+  </reference>
+  <verification_date>April 2007</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 12, 2007</study_first_submitted>
+  <study_first_submitted_qc>April 12, 2007</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 13, 2007</study_first_posted>
+  <last_update_submitted>April 12, 2007</last_update_submitted>
+  <last_update_submitted_qc>April 12, 2007</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 13, 2007</last_update_posted>
+  <keyword>algorithm</keyword>
+  <keyword>insulin</keyword>
+  <keyword>hyperglycemia</keyword>
+  <keyword>tight glycemic control</keyword>
+  <keyword>intensive care</keyword>
+  <keyword>adults</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Critical Illness</mesh_term>
+    <mesh_term>Hyperglycemia</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

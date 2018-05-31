@@ -1,0 +1,174 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02795806</url>
+  </required_header>
+  <id_info>
+    <org_study_id>999916122</org_study_id>
+    <secondary_id>16-LM-N122</secondary_id>
+    <nct_id>NCT02795806</nct_id>
+  </id_info>
+  <brief_title>NLM Scrubber: NLM s Software Application to De-identify Clinical Text Documents</brief_title>
+  <official_title>NLM Scrubber: NLM's Software Application to De-identify Clinical Text Documents</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Library of Medicine (NLM)</agency>
+      <agency_class>NIH</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institutes of Health Clinical Center (CC)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>National Institutes of Health Clinical Center (CC)</source>
+  <brief_summary>
+    <textblock>
+      Background: Electronic health records contain a vast amount of data about diseases and
+      treatments. Researchers could use this data to test their ideas, but they would need to use
+      records from more than just their own group of patients. But access to those records is
+      restricted to ensure patient privacy.
+
+      U.S. National Library of Medicine (NLM) has created a computer tool called NLM Scrubber. This
+      program recognizes and deletes personal information from health records. The researchers who
+      developed this program now need access to the original records. This will allow them to see
+      how well the program removes personal information from patient records and how they can make
+      it more accurate.
+
+      Objectives:
+
+      To find ways to improve clinical text de-identification.
+
+      Eligibility:
+
+      No new participants. Researchers will review data that have already been collected.
+
+      Design:
+
+      Researchers will collect a random sample of reports. These will be from different doctors in
+      different fields.
+
+      Researchers will manually remove personal information from the records.
+
+      Researchers will also automatically remove personal information from original records using
+      NLM-Scrubber.
+
+      Researchers will compare the results of the computer program versus the manual changes. They
+      will note when the program has not been removing personal information correctly. They will
+      also note when the program has been deleting nonpersonal health information incorrectly.
+
+      Researchers will use the results to revise the program. They will keep testing it until the
+      de-identification process is complete.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study is about the quality assessment, improvement, and monitoring of an automatic
+      clinical text de-identification software application called NLM Scrubber, which has been
+      developed at the National Library of Medicine (NLM). The application has been developed so
+      that clinical reports can be used in secondary scientific studies (i.e., for secondary use)
+      without breaching patient privacy. Research on methods for protecting patient privacy and on
+      the development of NLM Scrubber have been conducted by following the guidelines of and in
+      compliance with HIPAA and the Privacy Act.
+
+      In order to further develop and improve NLM Scrubber and assess its de-identification
+      performance effectively, the investigators require the original / unredacted samples from all
+      potential clinical report types and sources. To this end, NLM investigators have been
+
+      collaborating with entities within NIH, namely, NIH Clinical Center, BTRIS, and NCI as well
+      as outside entities, Kentucky State Registry administered by University of Kentucky and
+      researchers from the University of Pittsburgh, who stated their interest in integrating NLM
+
+      Scrubber to their application called Text Information Extraction System. These entities
+      collect samples of various types of clinical reports for assessing and improving NLM Scrubber
+      performance. However we also need access to the original data in order to assess
+
+      potential problems and improve the accuracy of NLM Scrubber.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date>June 9, 2016</start_date>
+  <completion_date type="Anticipated">January 1, 2027</completion_date>
+  <primary_completion_date type="Anticipated">January 1, 2027</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The rate of de-identification of PII</measure>
+    <time_frame>01/01/2017-01/01/2020</time_frame>
+    <description>HIPAA Privacy Rule defines 18 types of personally identifying information, that need to be de-identified, which include personal names, addresses, significant dates, numeric identifiers (such as socialsecurity number). Our annotators label those words and numbers creating a gold standard and NLM-Scrubber tries to recognize andeliminate all of them. The rate of de-identification of PII refers to success of this outcome measure.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The rate of erroneously redacted clinical information</measure>
+    <time_frame>01/01/2017-01/01/2020</time_frame>
+    <description>While NLM-Scrubber tries to eliminate only PII elements while preserving nonidentifying study data, it inadvertently deletes some ofthe non-identifying study data elements (non-protected health information) as well. The rate of erroneously redacted clinical information refers to the failure of NLMScrubber in preserving nonidentifying health information.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">1</enrollment>
+  <condition>Personally Identifiable Information</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Everybody for whom a clinical narrative report is created.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        -  No new participant enrollment. Researchers will review data that have already been
+             collected.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>130 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mehmet M Kayaalp, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>National Library of Medicine (NLM)</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>National Library of Medicine</name>
+      <address>
+        <city>Bethesda</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 28, 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 9, 2016</study_first_submitted>
+  <study_first_submitted_qc>June 9, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 10, 2016</study_first_posted>
+  <last_update_submitted>May 8, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 8, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 9, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Address</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

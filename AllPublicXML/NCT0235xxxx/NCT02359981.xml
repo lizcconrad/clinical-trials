@@ -1,0 +1,181 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02359981</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1302003617</org_study_id>
+    <nct_id>NCT02359981</nct_id>
+  </id_info>
+  <brief_title>MyBehavior: Persuasion by Adapting to User Behavior and User Preference</brief_title>
+  <official_title>MyBehavior: Persuasion by Adapting to User Behavior and User Preference</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cornell University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Cornell University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      MyBehavior is a mobile application with a suggestion engine that learns a user's physical
+      activity and dietary behavior, and provides finely-tuned personalized suggestions. To our
+      knowledge, MyBehavior is the first smartphone app to provide personalized health suggestions
+      automatically, going beyond commonly used one-size-fits-all prescriptive approaches, or
+      tailored interventions from health-care professionals. MyBehavior uses an online multi-armed
+      bandit model to automatically generate context-sensitive and personalized activity/food
+      suggestions by learning the user's actual behavior. The app continually adapts its
+      suggestions by exploiting the most frequent healthy behaviors, while sometimes exploring
+      non-frequent behaviors, in order to maximize the user's chance of reaching a health goal
+      (e.g. weight loss).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      A dramatic rise in self-tracking applications for smartphones has occurred recently. Rich
+      user interfaces make manual logging of users' behavior easier and more pleasant; sensors make
+      tracking effortless. To date, however, feedback technologies have been limited to providing
+      counts or attractive visualization of tracked data. Human experts (health coaches) have
+      needed to interpret the data and tailor make customized recommendations. No automated
+      recommendation systems like Pandora, Netflix or personalized search for the web have been
+      available to translate self-tracked data into actionable suggestions that promote healthier
+      lifestyle without needing to involve a human interventionist.
+
+      MyBehavior aims to fill this gap. It takes a deeper look into physical activity and dietary
+      intake data and reveal patterns of both healthy and unhealthy behavior that could be
+      leveraged for personalized feedback. Based on common patterns from a user's life, suggestions
+      are created that ask users to continue, change or avoid existing behaviors to achieve certain
+      fitness goals. Such an approach is different from existing literature in two important
+      aspects: (1) suggestions are contextualized to a user's life and are built on existing user
+      behaviors. As a result, users can act on these suggestions easily, with minimal effort and
+      interruption to daily routines; (2) unique suggestions are created for each individual. This
+      personalized approach differs from traditional one-size-fits-all or targeted intervention
+      models where identical suggestions are applied for groups of similar people or the entire
+      population.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2013</start_date>
+  <completion_date type="Actual">June 2013</completion_date>
+  <primary_completion_date type="Actual">June 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>User intentions to follow automated suggestions and behavior change</measure>
+    <time_frame>3 weeks</time_frame>
+    <description>The primary outcome is to measure efficacy of MyBehavior suggestions. Efficacy will be measured in two dimensions (1) whether users intend to follow the automated suggestions from MyBehavior (2) effectiveness of automated suggestions in actual behavior change.
+User intentions towards following MyBehavior suggestions are measured using a 5 point likert scale. The investigators will ask users to rate whether they can follow the suggestions on an average day within a scale of 1-5 (1- I can't follow the suggestion, 5 - I can easily follow the suggestion).
+On the other hand, behavior change is measured from food (calories in per meal consumed) and activity (walking, running or exercise durations per day etc.) log collected using their smartphone. Regarding physical activity, how much physical activity users are performing will be compared across experiment conditions. Similarly, calorie consumption change in food will be used to compare dietary behavior change.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Usability improvements of automated suggestions</measure>
+    <time_frame>3 weeks</time_frame>
+    <description>MyBehavior is the first system to provide health suggestions for food and activity automatically. Thus there are scopes of usability improvement on how to effectively present the automatically generated information to the user. Qualitative interviews at the end of study will be conducted to gather user experience of using MyBehavior. This interviews will help to build a better and more usable version of MyBehavior for future larger scale deployments.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">17</enrollment>
+  <condition>Weight Loss</condition>
+  <arm_group>
+    <arm_group_label>Generic suggestions</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Control group participants received suggestions generated by the a nutritionist and exercise trainer. These suggestions didn't relate to user's life or their past behavior.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>MyBehavior</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Experiment group participants received personalized suggestions from MyBehavior that relates their life and past behavior.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>MyBehavior</intervention_name>
+    <description>The intervention automatically provides personalized suggestions based on users behavior and user context. Suggestions relates to users life and how often they have done them in the past. Since the suggestions relate to users' lives, they are easy to follow.</description>
+    <arm_group_label>MyBehavior</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Generic suggestions</intervention_name>
+    <description>A nutritionist and an exercise trainer jointly created 45 food and exercise suggestions based on guidelines posted by the NIH. These suggestions ask users to walk for 30 minutes or eat healthier foods. These suggestions however doesn't personalize to users daily behavior into account.</description>
+    <arm_group_label>Generic suggestions</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Smartphone</intervention_name>
+    <description>An Android Smartphone with operating system version higher than 2.2</description>
+    <arm_group_label>Generic suggestions</arm_group_label>
+    <arm_group_label>MyBehavior</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  In relatively healthy condition. Also, users must be interested in health and fitness.
+
+        Exclusion Criteria:
+
+          -  Individuals with physical disability and dietary problems are excluded.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mashfiqui Rabbi, BS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Cornell University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Cornell University</name>
+      <address>
+        <city>Ithaca</city>
+        <state>New York</state>
+        <zip>14850</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 2, 2015</study_first_submitted>
+  <study_first_submitted_qc>February 5, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 10, 2015</study_first_posted>
+  <last_update_submitted>February 10, 2015</last_update_submitted>
+  <last_update_submitted_qc>February 10, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">February 11, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Weight loss, Fitness</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Weight Loss</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

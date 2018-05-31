@@ -1,0 +1,200 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02374983</url>
+  </required_header>
+  <id_info>
+    <org_study_id>13/0188</org_study_id>
+    <secondary_id>13/LO/085</secondary_id>
+    <secondary_id>128269</secondary_id>
+    <nct_id>NCT02374983</nct_id>
+  </id_info>
+  <brief_title>Gamma Knife Dosimetric Differences, TMR 10 Versus Convolution Algorithm</brief_title>
+  <official_title>Evaluation of Dosimetric Differences Between the TMR 10 and Convolution Algorithm for Gamma Knife Radiosurgery Planning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University College, London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University College London Hospitals</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University College, London</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Gamma Knife Radiosurgery (GKR) is a well established treatment modality for brain tumors and
+      functional disorders of the brain. It relies on mathematical algorithms to predict dose
+      distribution and to calculate the dose at arbitrary points in the head. For the last 25
+      years, doses applied using Gamma Knife Radiosurgery have been calculated using a simple
+      algorithm, called the Tissue Maximum Ratio algorithm (TMR). Dose planning using this
+      algorithm, relies on a number of approximations to enable fast isodose computation during
+      treatment planning. One of the most significant of these is the approximation of the head to
+      water-equivalent density. The increased electron density of brain and bone (relative to
+      water) and the near-zero density of air cavities in the skull may make significant
+      perturbations to isodose and beam-on time calculations.
+
+      With the advent of faster workstations, the effect of tissue in-homogeneities can finally be
+      calculated in reasonable time during the treatment planning process; a newer, more modern
+      algorithm known as convolution algorithm is now commercially available. It uses the values of
+      density indicated in the CT scan to predict the dose distribution and is expected to more
+      accurately calculate radiation dose, although it needs further investigation before clinical
+      implementation. Inter- and intra-indication differences between the old and new algorithms
+      need to be understood before this method can be confidently employed in a clinical setting.
+      It is the aim of this study to understand the dosimetric differences between these dose
+      calculation algorithms and to evaluate the implications of using the convolution algorithm
+      for GKR. A large number of treatments will be re-planned using the convolution algorithm and
+      compared to the TMR plans used to treat the patients. Beam-on-time, which is proportional to
+      dose and a number of commonly used metrics for the targets such as coverage, selectivity,
+      gradient index, and mean and maximum dose, will be estimated with both algorithms. Subgroup
+      analysis will be done to assess whether any factor such as diagnosis, size of the head or
+      location of the target could impact on the relative difference between the methods. The
+      treatment plans will be compared and the potential implications on treatment planning will be
+      elucidated.
+    </textblock>
+  </brief_summary>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>October 2013</start_date>
+  <completion_date type="Anticipated">October 2016</completion_date>
+  <primary_completion_date type="Anticipated">October 2015</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Beam-on time (difference in the Beam-on-time of the treatment plans obtained using TMR 10 and convolution algorithm for each lesion treated)</measure>
+    <time_frame>Beam-on time obtained with the TMR 10 algorithm at the time of treatment (baseline) vs Beam-on time observed when the treatment is re-planned with the convolution algorithm, that being a few hours after the actual treatment is delivered (maximum 1 day)</time_frame>
+    <description>The difference in the Beam-on-time of the treatment plans obtained using TMR 10 and convolution algorithm for each lesion treated will be the primary outcome of the study</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Gamma Knife Radiosurgery</condition>
+  <arm_group>
+    <arm_group_label>Research group</arm_group_label>
+    <description>The group will consist of 100 patients (200 observations) receiving Gamma Knife treatment. Radiosurgery treatments will be re-planned using the convolution algorithm and compared to the TMR plans used to treat the patients.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Gamma knife radiosurgery re-planning with convolution algorithm</intervention_name>
+    <description>The convolution algorithm, which uses the correlation between CT imaging density in Hounsfield units (HU) and electron density (ρe) of the tissues as input to predict dose distribution, can provide a better simulation of real delivered dose for GKR. By more accurately predicting the dose delivered, a better prediction of clinical effects can be made, increasing the potential clinical efficacy of treatment.
+Convolution algorithm is now available in Leksell GammaPlan® 10 but there is not enough clinical data to support its use over TMR 10, which is the current clinical standard. Using convolution algorithm to recalculate the dose for the otherwise unaltered TMR 10 plan will provide valuable insight and understanding of the dosimetric differences between these planning algorithms.</description>
+    <arm_group_label>Research group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The population of the study is all adult patients receiving treatment at the Gamma Knife
+        Centre at Queen Square Radiosurgery Centre (QSRC). The sample will consist of the first 100
+        patients (200 observations) receiving Gamma Knife treatment in QSRC who accomplish all the
+        inclusion and exclusion criteria and consent to participate in the study. This study does
+        not involve group allocation or randomization of patients.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult patients receiving Gamma Knife treatment for any diagnosis in the Gamma Knife
+             centre at QSRC.
+
+          -  The subject consents to participate in the study and consent to have a stereotactic
+             non contrast CT scan of the brain after GKR has finished.
+
+        Exclusion Criteria:
+
+          -  Inability to consent
+
+          -  Younger than 18 years of age: Children are not eligible to give consent by themselves
+             and at the moment only adults are being treated at the QSRC.
+
+          -  Patient is not suitable for CT scan: There are no absolute clinical contraindications
+             for CT scan. However, for the purpose of the study, pregnancy is considered an
+             absolute contraindication. Claustrophobia or anxiety disorders are considered a
+             relative contraindication; however, this is more likely to affect the subject ability
+             to tolerate Gamma Knife treatment and MRI scanning, which would make the patient not
+             eligible or the study.
+
+          -  Co-morbidity or previous treatment in the patient is not to be considered as exclusion
+             criteria.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Neil Kitchen</last_name>
+    <role>Study Chair</role>
+    <affiliation>The National Hospital for Neurology and Neurosurgery</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Alvaro Villabona</last_name>
+    <phone>+4402034484076</phone>
+    <email>a.villabona.11@ucl.ac.uk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>The Gamma Knife Centre at Queen Square</name>
+      <address>
+        <city>London</city>
+        <state>London,City of</state>
+        <zip>WC1N 3BG</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alvaro Villabona</last_name>
+      <phone>+44 02034484076</phone>
+      <email>a.villabona.11@ucl.ac.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Neil Kitchen, MD,FRCS(SN)</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ian Paddick, MIPM,MSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Alvaro Villabona, MBBS,MSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>February 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 16, 2015</study_first_submitted>
+  <study_first_submitted_qc>February 27, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 2, 2015</study_first_posted>
+  <last_update_submitted>February 27, 2015</last_update_submitted>
+  <last_update_submitted_qc>February 27, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">March 2, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Gamma Knife Radiosurgery</keyword>
+  <keyword>Radiation Dosimetry</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

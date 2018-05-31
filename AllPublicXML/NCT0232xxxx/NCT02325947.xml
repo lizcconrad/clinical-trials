@@ -1,0 +1,201 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02325947</url>
+  </required_header>
+  <id_info>
+    <org_study_id>iMove</org_study_id>
+    <nct_id>NCT02325947</nct_id>
+  </id_info>
+  <brief_title>Efficacy of Hand Exoskeleton Controlled by BCI in Post Stroke Patients</brief_title>
+  <acronym>iMove</acronym>
+  <official_title>A Multicentre Randomized Single Blind Placebo Controlled Study to Assess Efficacy of Hand Exoskeleton Controlled by Motor Imagery Based BCI for Post Stroke Patients Movement Rehabilitation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Russian Academy of Medical Sciences</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Pirogov Russian National Research Medical University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Russian Academy of Medical Sciences</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to assess the efficacy of non-invasive BCI-exoskeleton
+      technology based on EEG patterns recognition matching to motor imagery in post-stroke
+      patients with hand paresis.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The BCI training is based on EEG activity patterns recording during hand motor imagery. A
+      subject sit comfortably 1m from a computer screen which presents visual instructions during
+      the session. The robotic exoskeleton is fixed to the paretic hand. Subject visually fixate on
+      a circle presented in the center of the screen and receive instructions from three
+      surrounding rhomboidal arrows. Subject is given three commands instructing them to relax or
+      imagine slow hand opening movement with the right or left hand. The &quot;Relax&quot; command means
+      that the subject have to sit still and look at the center of the screen. Commands are
+      presented randomly, each of 10 sec duration.
+
+      A visual cue provides the subject with feedback regarding the mental task recognition: the
+      central circle turned green if the classifier recognizes the task in agreement with the given
+      command, or remains white if the signal is not recognized. In addition to visual feedback the
+      subject is provided with kinesthetic feedback: the exoskeleton is opening the hand when the
+      classifier recognizes the imagery of paretic hand movement.
+
+      The EEG is registered with 30 electrodes distributed over the head in accordance with the
+      standard international 10-20 system. EEG signals are filtered from 5-30Hz. A Bayesian
+      approach for EEG pattern classifying is used in the system. The activity sources most
+      relevant for BCI functioning will be identified using an independent component analysis
+      (ICA). Classification accuracy will by measured with Cohen's kappa (Kohavi and Provost,
+      1998). The procedure may consist from up to three sessions, the duration of 1 session is 10
+      min, there are 5 min time brake between session and total duration of procedure is up to 45
+      min. The number of procedures - at least 10. The maximal interval between procedures is 3
+      days.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2015</start_date>
+  <completion_date type="Actual">September 2017</completion_date>
+  <primary_completion_date type="Actual">September 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change from Baseline in hand paresis level and hand muscle spasticity</measure>
+    <time_frame>Week 2</time_frame>
+    <description>ARAT; Fugl-Meyer, Modified Ashworth scale</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Long-term changes from Baseline in hand paresis level and hand muscle spasticity</measure>
+    <time_frame>week 4, week 12, week 24</time_frame>
+    <description>ARAT; Fugl-Meyer, Modified Ashworth scale</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">75</enrollment>
+  <condition>Poststroke/CVA Paresis</condition>
+  <arm_group>
+    <arm_group_label>Study group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Hand exoskeleton, brain-computer interface (BCI) 10 sessions of 45-minutes</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Placebo group</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>Hand exoskeleton, sham BCI 10 sessions of 45-minutes (BCI imitation)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>hand exoskeleton, brain-computer interface (BCI),</intervention_name>
+    <description>Hand exoskeleton, brain-computer interface (BCI) 10 sessions of 45-minutes</description>
+    <arm_group_label>Study group</arm_group_label>
+    <other_name>mind-machine interface</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>hand exoskeleton, sham BCI</intervention_name>
+    <description>Hand exoskeleton, sham BCI 10 sessions of 45-minutes (BCI imitation)</description>
+    <arm_group_label>Placebo group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Signed informed consent
+
+          -  Medical history of primary acute cerebrovascular event (ischemic or hemorrhagic
+             stroke) at least 4 weeks before screening
+
+          -  focal stroke located in a hemisphere
+
+          -  post stroke hand paresis (mild to plegia according to Medical Research Council (MRC)
+             Scale for Muscle Strength)
+
+        Exclusion Criteria:
+
+          -  Montreal Cognitive Assessment (MoCA) scale &lt; 22
+
+          -  Left handedness
+
+          -  Sensory aphasia
+
+          -  Severe impairment of vision
+
+          -  Modified Ashworth Scale (MAS) ≥ 4
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Roman Lyukmanov, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Russian Academy of Medical Sciences</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Research Center of Neurology of RAMS</name>
+      <address>
+        <city>Moscow</city>
+        <zip>125367</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Russian Federation</country>
+  </location_countries>
+  <link>
+    <url>https://www.frontiersin.org/articles/10.3389/fnins.2017.00400/full</url>
+    <description>Post-stroke Rehabilitation Training with a Motor-Imagery-Based Brain-Computer Interface (BCI)-Controlled Hand Exoskeleton: A Randomized Controlled Multicenter Trial</description>
+  </link>
+  <verification_date>September 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 8, 2014</study_first_submitted>
+  <study_first_submitted_qc>December 19, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 25, 2014</study_first_posted>
+  <last_update_submitted>September 27, 2017</last_update_submitted>
+  <last_update_submitted_qc>September 27, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 29, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Russian Academy of Medical Sciences</investigator_affiliation>
+    <investigator_full_name>Roman Lyukmanov</investigator_full_name>
+    <investigator_title>Research scientist</investigator_title>
+  </responsible_party>
+  <keyword>Post stroke hand paresis brain injury</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Paresis</mesh_term>
+    <mesh_term>Muscle Weakness</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

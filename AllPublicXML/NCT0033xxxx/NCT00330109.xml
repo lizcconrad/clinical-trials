@@ -1,0 +1,172 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00330109</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CNS-9-0032 / 22151-22523</org_study_id>
+    <nct_id>NCT00330109</nct_id>
+  </id_info>
+  <brief_title>Identification of Clinically Occult Glioma Cells and Characterization of Glioma Behavior Through Machine Learning Analysis of Advanced Imaging Technology</brief_title>
+  <official_title>Identification of Clinically Occult Glioma Cells and Characterization of Glioma Behavior Through Machine Learning Analysis of Advanced Imaging Technology</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>AHS Cancer Control Alberta</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>AHS Cancer Control Alberta</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Gliomas are one of the most challenging tumors to treat, because areas of the apparently
+      normal brain contain microscopic deposits of glioma cells; indeed, these occult cells are
+      known to infiltrate several centimeters beyond the clinically apparent lesion visualized on
+      standard computer tomography or magnetic resonance imaging (MR). Since it is not feasible to
+      remove or radiate large volumes of the brain, it is important to target only the visible
+      tumor and the infiltrated regions of the brain. However, due to the limited ability to detect
+      occult glioma cells, clinicians currently add a uniform margin of 2 cm or more beyond the
+      visible abnormality, and irradiate that volume. Evidence, however, suggests that glioma
+      growth is not uniform - growth is favored in certain directions and impeded in others. This
+      means it is important to determine, for each patient, which areas are at high risk of
+      harboring occult cells. We propose to address this task by learning how gliomas grown, by
+      applying Machine Learning algorithms to a database of images (obtained using various advanced
+      imaging technologies: MRI, MRS, DTI, and MET-PET) from previous glioma patients. Advances
+      will directly translate to improvements for patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Gliomas are the most common primary brain tumors in adults; most are high-grade and have a
+      high level of mortality. The standard treatment is to kill or remove the cancer cells. Of
+      course, this can only work if the surgeon or radiologist can find these cells. Unfortunately,
+      there are inevitably so-called &quot;occult&quot; cancer cells, which are not found even by today's
+      sophisticated imaging techniques.
+
+      This proposal proposes a technology to predict the locations of these occult cells, by
+      learning the growth patterns exhibited by gliomas in previous patients. We will also develop
+      software tools that help both practitioners and researchers find gliomas similar to a current
+      one, and that can autonomously find the tumor region within a brain image, which can save
+      radiologists time, and perhaps help during surgery.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>June 2006</start_date>
+  <completion_date type="Anticipated">December 2017</completion_date>
+  <primary_completion_date type="Anticipated">December 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>image glioma patients with advanced imaging techniques to help us better characterize gliomas in the future</measure>
+    <time_frame>Pretreatment, 1 month post treatment and 7 months post treatment</time_frame>
+    <description>Eligible patients will be given the opportunity to undergo additional diagnostic imaging. These images will be anonymized and databased. the data will be analyzed using machine learning techniques.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>create an image-based database to allow machine learning analysis of all the clinically available data</measure>
+    <time_frame>Pretreatment, 1 month post treatment and 7 months post treatment</time_frame>
+    <description>Eligible patients will be given the opportunity to undergo additional diagnostic imaging. These images will be anonymized and databased. the data will be analyzed using machine learning techniques.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>through machine learning analysis, develop computer algorithms to allow us to automate tumour segmentation, predict tumour behaviour and predict location of clinically occult glioma cells</measure>
+    <time_frame>Pretreatment, 1 month post treatment and 7 months post treatment</time_frame>
+    <description>Eligible patients will be given the opportunity to undergo additional diagnostic imaging. These images will be anonymized and databased. the data will be analyzed using machine learning techniques.</description>
+  </secondary_outcome>
+  <enrollment type="Actual">113</enrollment>
+  <condition>Glioma</condition>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>MRS Imaging</intervention_name>
+    <description>Performed on a 3.0 Tesla Philips Intera MRI Unit (Best, Netherlands). Scout views and T2 transverse images are obtained to locate the tumor in conjunction with any previous diagnostic images.</description>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>PET Scanning</intervention_name>
+    <description>Using an Allegro scanner, the patient will be scanned for approximately 20-30 minutes. All emission scan data is processed by a multi-step procedure.</description>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Diffusion Tensor Imaging</intervention_name>
+    <description>Subjects will be scanned with a 3T Philips Intera MRI scanner for approximately 26 minutes for anatomical and DTI imaging. Total DTI acquisition time will be 6:06 minutes with 40 contiguous axial slices for full brain coverage.</description>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  must have histologically proven glioma
+
+          -  the patient or legally authorized representative must fully understand all elements of
+             informed consent, and sign the consent form
+
+        Exclusion Criteria:
+
+          -  psychiatric conditions precluding informed consent
+
+          -  medical or psychiatric condition precluding MRI or PET studies (e.g. pacemaker,
+             aneurysm clips, neurostimulator, cochlear implant, severe claustrophobia/anxiety,
+             pregnancy)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Albert Murtha, MD, FRCPC</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>AHS Cancer Control Alberta</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Cross Cancer Institute</name>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <zip>T6G 1Z2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>July 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 23, 2006</study_first_submitted>
+  <study_first_submitted_qc>May 23, 2006</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 25, 2006</study_first_posted>
+  <last_update_submitted>January 13, 2017</last_update_submitted>
+  <last_update_submitted_qc>January 13, 2017</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 16, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>glioma</keyword>
+  <keyword>machine learning</keyword>
+  <keyword>advanced diagnostic imaging</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Glioma</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,411 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03424044</url>
+  </required_header>
+  <id_info>
+    <org_study_id>17225</org_study_id>
+    <nct_id>NCT03424044</nct_id>
+  </id_info>
+  <brief_title>Three Way Crossover Closed Loop Study With Xeris Glucagon</brief_title>
+  <official_title>A Randomized, Three-way, Cross-over Study to Assess the Efficacy of a Dual-hormone Closed-loop System With XeriSol™ Glucagon vs Closed-loop System With Insulin Only vs a Predictive Low Glucose Suspend System</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Oregon Health and Science University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Xeris Pharmaceuticals</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Oregon Health and Science University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>No</is_unapproved_device>
+    <is_ppsd>No</is_ppsd>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Closed-loop systems are an emerging technology that automate hormone delivery. They are
+      quickly paving the way to revolutionize the treatment of type 1 diabetes. Several categories
+      have emerged: dual-hormone (insulin and glucagon) closed-loop systems and closed-loop systems
+      with insulin only, one variety of which is the low glucose suspend safety feature now
+      available from Medtronic (MiniMed640G with SmartGuard). The study described within this
+      protocol is designed to test the efficacy of a new closed-loop algorithm for managing blood
+      glucose in people with type 1 diabetes before and after exercise. The new algorithm will have
+      3 modes: a single hormone insulin only mode, a dual-hormone insulin and glucagon mode and an
+      insulin only mode with predictive low glucose suspend, all with an exercise detection
+      algorithm. The purpose of this study is to determine whether a dual hormone AP using a stable
+      investigational glucagon with an exercise detection algorithm outperforms both single hormone
+      AP and a low glucose suspend algorithm.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Subjects will undergo three approximately 76 hour studies. During each of these intervention
+      visits, subjects will wear an Omnipod to deliver insulin and a Dexcom G5 CGM to measure
+      glucose. In the dual-hormone closed-loop study, participants will wear a second Omnipod
+      filled with XeriSol™ glucagon. The first day of intervention visit will be a 12 hour
+      inpatient visit with the subsequent time spent as an outpatient. The subject will come back
+      to the research center on Day 4 in the morning to remove all devices. The blood glucose
+      control system is called the Artificial Pancreas Controller (APC). During one of the studies,
+      glucose will be controlled using the dual hormone mode. During another study, glucose will be
+      controlled using the single hormone mode. The single and dual hormone modes of the APC
+      controller determine insulin only and insulin with glucagon delivery rates based on
+      proportional and derivative error and contain an exercise detection component. During the
+      other study, glucose will be controlled using a predictive low glucose suspend (PLGS) mode.
+      In the PLGS mode, the APC will be programmed with the subject's basal profile(s) which will
+      be transmitted to the Omnipod Personal Diabetes Manager (PDM) and allow for boluses to be
+      inputted by the subjects for meals and corrections using their typical carb ratios and
+      correction factors. However, this system will have a safety feature to suspend insulin
+      delivery when sensor glucose is predicted to go below a threshold. Treatment order will be
+      randomized.
+
+      Subjects will arrive at the clinic at approximately 7 or 8am for the inpatient visits.
+      Subjects will eat breakfast and lunch at approximately 8:30am, noon and 6pm respectively. The
+      dinner meal will be consumed while the subject is at home. Subjects will exercise on a
+      treadmill for 45 minutes. Subjects will be discharged 9 hours after admission. The subject
+      will then go home for the remainder of the study visit. Studies will be remotely monitored.
+      Subjects will return to OHSU on Day 4 for removal of all devices.
+
+      During each study, the subject will wear one subcutaneous DexcomTM G5 continuous glucose
+      monitoring (CGM) system. The CGM system will provide sensed glucose data every 5 minutes. The
+      accuracy of the sensed data will be obtained by reference measurements of capillary blood
+      glucose. Sensed glucose data will be wirelessly transmitted via Bluetooth Low Energy (BTLE)
+      from the Dexcom G5 transmitter to the Nexus 5 master controller every five minutes. The
+      controller for all 3 modes is a Google Nexus 5 phone. The smart phone will wirelessly
+      communicate via BTLE to an Omnipod through a PDM (Insulet Corp. ) for automated insulin
+      delivery or in the case of dual-hormone AP, one used for automated insulin delivery and one
+      for automated glucagon delivery.
+
+      A physician or nurse practitioner will be present for study start-up, will be on campus for
+      exercise on Day 1 and will be immediately available on call at all other times.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 29, 2018</start_date>
+  <completion_date type="Anticipated">June 30, 2019</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2018</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percent of time with sensed glucose &lt; 70 mg/dl</measure>
+    <time_frame>4 hours post exercise on Day 1</time_frame>
+    <description>Assess the percent of time that the Dexcom G5 reported sensor glucose values less than 70 mg/dl using Dexcom sensor downloads across all three arms.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose between 70-180 mg/dl</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the percent of time that the Dexcom G5 reported sensor glucose values between 70-180 mg/dl using Dexcom sensor downloads across all three arms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of carbohydrate treatments</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the number of rescue carbohydrate treatments across all three arms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose &lt; 50 mg/dl</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the percent of time that the Dexcom G5 reported sensor glucose values less than 50 mg/dl using Dexcom sensor downloads across all three arms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose &gt; 180 mg/dl</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the percent of time that the Dexcom G5 reported sensor glucose values greater than 180 mg/dl using Dexcom sensor downloads across all three arms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total amount of insulin delivered</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the amount of insulin delivered in units/kg as documented through the artificial pancreas controller across all three arms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total amount of glucagon delivered</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the amount of XeriSol glucagon delivered in mcg/kg as documented through the artificial pancreas controller in dual hormone arm.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">19</enrollment>
+  <condition>Type1diabetes</condition>
+  <arm_group>
+    <arm_group_label>Dual Hormone Closed-loop Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will undergo a 76 hour study with 9 hours inpatient and 67 hours outpatient using the closed-loop artificial pancreas controller in dual hormone mode and XeriSol glucagon to manage blood sugar that includes an exercise detection component that includes a reduction in insulin delivery and an increase in glucagon delivery upon detection.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Single Hormone Closed-loop Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will undergo a 76 hour study with 9 hours inpatient and 67 hours outpatient using the closed-loop artificial pancreas controller in single hormone mode to manage blood sugar that includes an exercise detection component that includes a reduction in insulin delivery upon detection.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Predictive Low Glucose Suspend Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will undergo a 76 hour study with 9 hours inpatient and 67 hours outpatient using the closed-loop artificial pancreas controller in predictive low glucose suspend mode. The system will run through the closed-loop system but will utilize the patient's optimized basal rates, correction factors and carb ratios as they would normally run on their own insulin pump. But the mode will have the additional safety net of the pump suspending insulin when it predicts a hypoglycemic event.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Artificial Pancreas Controller in Dual Hormone Mode</intervention_name>
+    <description>The artificial pancreas controller contains an algorithm for managing blood glucose in people with type 1 diabetes which includes an exercise detection component. The algorithm has 3 modes: a single hormone closed-loop insulin only mode, a dual-hormone closed-loop insulin and glucagon mode and an insulin only mode with predictive low glucose suspend. The Closed-loop Artificial Pancreas Controller includes insulin and glucagon delivery algorithm implemented on a smart phone, utilizing sensor glucose values from a Dexcom G5 sensor and sending delivery commands to two Omnipod insulin pumps, one filled with insulin and one with glucagon.</description>
+    <arm_group_label>Dual Hormone Closed-loop Arm</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Artificial Pancreas Controller in Single Hormone Mode</intervention_name>
+    <description>The artificial pancreas controller contains an algorithm for managing blood glucose in people with type 1 diabetes which includes an exercise detection component. The new algorithm will have 3 modes: a single hormone closed-loop insulin only mode, a dual-hormone closed-loop insulin and glucagon mode and an insulin only mode with predictive low glucose suspend. The Closed-loop Artificial Pancreas Controller includes insulin delivery algorithm implemented on a smart phone, utilizing sensor glucose values from a Dexcom G5 sensor and sending delivery commands to one Omnipod pump filled with insulin.</description>
+    <arm_group_label>Single Hormone Closed-loop Arm</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Artificial Pancreas Controller in Predictive Low Glucose Suspend Mode</intervention_name>
+    <description>The artificial pancreas controller contains an algorithm for managing blood glucose in people with type 1 diabetes which includes an exercise detection component. The new algorithm will have 3 modes: a single hormone closed-loop insulin only mode, a dual-hormone closed-loop insulin and glucagon mode and an insulin only mode with predictive low glucose suspend. The Closed-loop Artificial Pancreas Controller includes insulin delivery algorithm implemented on a smart phone, utilizing sensor glucose values from a Dexcom G5 sensor and sending delivery commands to one Omnipod insulin pump filled with insulin.</description>
+    <arm_group_label>Predictive Low Glucose Suspend Arm</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>XeriSol glucagon</intervention_name>
+    <description>XeriSol glucagon is an investigational drug that is a stable, soluble liquid glucagon formulation that can be injected or administered through an insulin pump. XeriSol glucagon will be used to fill the Omnipod to deliver glucagon for the Artificial Pancreas Controller in Dual Hormone mode.</description>
+    <arm_group_label>Dual Hormone Closed-loop Arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosis of type 1 diabetes mellitus for at least 1 year.
+
+          -  Male or female subjects 21-50 years of age.
+
+          -  Physically willing and able to perform 45 min of exercise.
+
+          -  Current use of an insulin pump.
+
+          -  Lives with another person age 18 or older who will be present while subject exercises
+             at home and that can attend the training on using the system.
+
+          -  Lives within 40 miles of OHSU main campus.
+
+          -  HbA1c &lt;= 10% at screening.
+
+          -  Total daily insulin requirement is less than 139 units/day.
+
+          -  Current use of a phone or other device so can be contacted by study staff off-campus.
+
+          -  Willingness to follow all study procedures, including attending all clinic visits.
+
+          -  Willingness to sign informed consent and HIPAA documents.
+
+        Exclusion Criteria:
+
+          -  Female of childbearing potential who is pregnant or intending to become pregnant or
+             breast-feeding, or is not using adequate contraceptive methods. Acceptable
+             contraception includes birth control pill/patch/vaginal ring, Depo-Provera, Norplant,
+             an IUD, the double barrier method (the woman uses a diaphragm and spermicide and the
+             man uses a condom), or abstinence.
+
+          -  Any cardiovascular disease, defined as a clinically significant EKG abnormality at the
+             time of screening or any history of: stroke, heart failure, myocardial infarction,
+             angina pectoris, or coronary arterial bypass graft or angioplasty. Diagnosis of 2nd
+             and 3rd degree heart block or any non-physiological arrhythmia judged by the
+             investigator to be exclusionary.
+
+          -  Renal insufficiency (GFR &lt; 60 ml/min, using the MDRD equation as report by the OHSU
+             laboratory).
+
+          -  Liver failure, cirrhosis, or any other liver disease that compromises liver function
+             as determined by the investigator.
+
+          -  Hematocrit of less than 36% for men, less than 32% for women.
+
+          -  Hypertensive subjects with systolic blood pressure &gt;= 160 mm Hg or diastolic blood
+             pressure &gt;= 100 mm Hg despite treatment or who have treatment-refractory hypertension
+             (e.g. requiring four or more medications).
+
+          -  History of severe hypoglycemia during the past 12 months prior to screening visit or
+             hypoglycemia unawareness as judged by the investigator. Subjects will complete a
+             hypoglycemia awareness questionnaire. Subjects will be excluded for four or more R
+             responses.
+
+          -  Adrenal insufficiency.
+
+          -  Any active infection.
+
+          -  Known or suspected abuse of alcohol, narcotics, or illicit drugs.
+
+          -  Seizure disorder.
+
+          -  Active foot ulceration.
+
+          -  Severe peripheral arterial disease characterized by ischemic rest pain or severe
+             claudication.
+
+          -  Major surgical operation within 30 days prior to screening.
+
+          -  Use of an investigational drug within 30 days prior to screening.
+
+          -  Chronic usage of any immunosuppressive medication (such as cyclosporine, azathioprine,
+             sirolimus, or tacrolimus).
+
+          -  Bleeding disorder, treatment with warfarin, or platelet count below 50,000.
+
+          -  Allergy to aspart insulin.
+
+          -  Allergy to glucagon.
+
+          -  Need for uninterrupted treatment of acetaminophen.
+
+          -  Current administration of oral or parenteral corticosteroids.
+
+          -  Any life threatening disease, including malignant neoplasms and medical history or
+             malignant neoplasms within the past 5 years prior to screening (except basal and
+             squamous cell skin cancer).
+
+          -  Beta blockers or non-dihydropyridine calcium channel blockers.
+
+          -  Current use of any medication intended to lower glucose other than insulin (e.g. use
+             of liraglutide).
+
+          -  Diagnosis of pheochromocytoma, insulinoma, or glucagonoma, personal or family history
+             of multiple endocrine neoplasmia (MEN) 2A, MEN 2B, neurofibromatosis or von
+             Hippel-Lindau disease.
+
+          -  History of severe hypersensitivity to milk protein.
+
+          -  Current use of any medication with strong anticholinergic properties, such as
+             antihistamines, sleep aids, and antidiarrheal medications.
+
+          -  Current use of indomethacin.
+
+          -  Conditions that may results in low levels of releasable glucose in the liver and an
+             inadequate reversal of hypoglycemia by glucagon such as prolonged fasting, starvation
+             or chronic hypoglycemia as determined by the investigator.
+
+          -  A positive response to any of the questions from the Physical Activity Readiness
+             Questionnaire with one exception: subject will not be excluded if he/she takes a
+             single blood pressure medication that doesn't impact heart rate and blood pressure is
+             controlled on the medication (blood pressure is less than 140/90 mmHg).
+
+          -  Any chest discomfort with physical activity, including pain or pressure, or other
+             types of discomfort.
+
+          -  Any clinically significant disease or disorder which in the opinion of the
+             investigator may jeopardize the subject's safety or compliance with the protocol.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>50 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jessica Castle, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Oregon Health and Science University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Deborah Branigan, BA</last_name>
+    <phone>503-418-9070</phone>
+    <email>branigad@ohsu.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Oregon Health and Science University</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97239</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Deborah Branigan, BA CCRP</last_name>
+      <phone>503-418-9070</phone>
+      <email>branigad@ohsu.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jessica Castle, MD</last_name>
+      <phone>503-494-7072</phone>
+      <email>castleje@ohsu.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Peter Jacobs, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jessica Castle, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kathryn Hanavan, RN MSN ANP-BC BC-ADM</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Joseph El Youssef, MBBS</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Leah Wilson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Roula Zahr, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 31, 2018</study_first_submitted>
+  <study_first_submitted_qc>January 31, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 6, 2018</study_first_posted>
+  <last_update_submitted>April 18, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 18, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 20, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Oregon Health and Science University</investigator_affiliation>
+    <investigator_full_name>Jessica Castle</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>glucagon</keyword>
+  <keyword>closed-loop</keyword>
+  <keyword>Omnipod</keyword>
+  <keyword>exercise</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+    <mesh_term>Hormones</mesh_term>
+    <mesh_term>Glucagon</mesh_term>
+    <mesh_term>Glucagon-Like Peptide 1</mesh_term>
+    <mesh_term>Pancrelipase</mesh_term>
+    <mesh_term>Pancreatin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

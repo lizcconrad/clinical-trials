@@ -1,0 +1,206 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03159377</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SHEBA - 16- 3651- EM - CTIL</org_study_id>
+    <nct_id>NCT03159377</nct_id>
+  </id_info>
+  <brief_title>Ultra-Low Dose CT Denoising for Lung Nodule Detection</brief_title>
+  <official_title>Ultra-Low Dose CT Denoising for Lung Nodule Detection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sheba Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Sheba Medical Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      We will perform an ultra low-dose CT (ULDCT) in addition to a regular chest CT scan for adult
+      patients undergoing a clinically indicated chest CT. Using a recently developed
+      computationally efficient algorithm for the denoising of ULDCT scans after image
+      reconstruction, we will compare the sensitivity, specificity and accuracy of lesion detection
+      with the ULDCT as compared to the regular CT scan.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patient cohort: Two hundred patients will be recruited for this study. Patients will be
+      comprised of two groups: an inpatient group of patients from the Internal Medicine Department
+      E for which a chest CT is ordered during their hospitalization; and ambulatory patients
+      arriving for an ambulatory chest CT in the early afternoon. The treating clinician ordering
+      the chest CT for the patients from Internal Medicine E will consent the inpatients while a
+      chest radiologist from the Radiology Department will consent the outpatients arriving in the
+      early afternoon for a chest CT study. For inclusion in the study, patients will be adults,
+      older than 18 years old with the ability to follow orders and hold their breath for 8 seconds
+      as determined by the physician at time of study consent.
+
+      Imaging method: All patients consented for this study will be imaged on a dedicated scanner
+      for the study, Revolution (GE, Milwaukee, WI). Immediately following the patient's diagnostic
+      chest CT scan, an ultra low dose chest CT scan will be obtained. The routine CT scans of the
+      patients consented for this study will be performed using our routine protocol on the GE
+      Revolution which typically delivers at our institution an average effective dose of 2.9mSv
+      (range 0.95-3.01mSv) while our other Philips routine chest CT scan delivers an average
+      effective dose of 10.5mSv (range 10.29-12.95mSv). With the addition of the ultra low dose
+      technique, which delivers a radiation dose of a range of 0.5-1 mSv (calculated from a pilot
+      study we obtained on pigs), patients are expected to get an total radiation dose for both
+      scans together of about 4 mSv which is less than 10.5mSv (the normal dose for the Phillips CT
+      machine at our institution). Just as a comparison, a meticulous study looking at multiple
+      institutions showed that the average effective dose from a routine chest CT is 7mSv, range
+      4-18mSv and for a chest CT with pulmonary embolism protocol an average effective dose of
+      15mSv with a range of 13-40mSv .
+
+      Image evaluation: The diagnostic chest CT scan will be sent to the PACS as usual and
+      interpreted immediately, during the same day, as per normal inpatient clinical operations
+      protocol at our institution. The ultra low dose CT scan will be automatically sent to the
+      computational imaging lab processing station, which will denoise the image. After denoising
+      the images will be automatically forwarded to the PACS under the same accession number of the
+      routine chest CT scan. Comparison of the ultra low dose denoised images to the routine chest
+      CT images will be performed by an experienced chest radiologist at a later date, at least one
+      week after date of acquisition to prevent any memorability of the original image.
+      Radiologists' memory of findings has been shown to be poor, even when viewed immediately but
+      slightly worse when time passes [Evans]. The radiologist will document the presence of
+      nodules, consolidation, ground glass opacities, emphysema, fibrosis with abnormalities marked
+      on the images in the PACS. Following completion of the table, the routine chest CT scan will
+      be used as the gold standard for the presence of the imaging findings. The documented ultra
+      low dose CT findings will be compared to the images from the routine chest CT scans. Each
+      finding documented will be individually documented as a true finding if also seen on the
+      routine chest CT scan or false finding if not present on the routine chest CT scan.
+      Additional findings only seen on the routine chest CT scan will be documented as missed
+      findings.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 4, 2017</start_date>
+  <completion_date type="Anticipated">May 2019</completion_date>
+  <primary_completion_date type="Anticipated">May 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Identification of a pulmonary nodule</measure>
+    <time_frame>Patient collection in two years</time_frame>
+    <description>Comparison of sensitivity, specificity and accuracy in identifying a pulmonary nodule when comparing denoised ULDCT to a regular CT.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Pulmonary Nodule, Multiple</condition>
+  <arm_group>
+    <arm_group_label>Patients scheduled for a chest CT</arm_group_label>
+    <description>Inpatients or outpatients scheduled for a chest CT in our medical center</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Ultra low dose chest CT</intervention_name>
+    <description>Performing an ultra low dose chest CT (ULDCT) in addition to a clinically indicated chest CT and assessing nodule detection with a recently developed denoising algorithm</description>
+    <arm_group_label>Patients scheduled for a chest CT</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Any adult patient scheduled for a chest CT, in-patient or outpatient, in our institution
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Any adult patient scheduled for a chest CT, in-patient or outpatient
+
+        Exclusion Criteria:
+
+          -  Children
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>110 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Edith M Marom, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sheba Medical Center</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Edith M Marom, MD</last_name>
+    <phone>+972-545960860</phone>
+    <email>edith.marom@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Arnaldo Mayer, PhD</last_name>
+    <phone>+972-544811613</phone>
+    <email>arnmayer@gmail.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Sheba Medical Center</name>
+      <address>
+        <city>Ramat Gan</city>
+        <zip>5265601</zip>
+        <country>Israel</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Edith M Marom, MD</last_name>
+      <phone>+972-3-5302530</phone>
+      <email>edith.marom@gmail.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Arnaldo Mayer, PhD</last_name>
+      <phone>+972-3-5302530</phone>
+      <email>arnmayer@gmail.com</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 17, 2017</study_first_submitted>
+  <study_first_submitted_qc>May 17, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 18, 2017</study_first_posted>
+  <last_update_submitted>April 17, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 17, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 19, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sheba Medical Center</investigator_affiliation>
+    <investigator_full_name>Prof. Edith Marom</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>pulmonary nodule, CT, low dose</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Multiple Pulmonary Nodules</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>The only specific data of this study is low dose CT images while everything else is patient's usual care and not part of the study. Have not decided who may or may not use our low dose images.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

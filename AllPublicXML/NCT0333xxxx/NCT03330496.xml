@@ -1,0 +1,225 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03330496</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB-39076</org_study_id>
+    <nct_id>NCT03330496</nct_id>
+  </id_info>
+  <brief_title>Assessment of Pain in Newborns and Older Infants (Infant Pain Assessment Study =</brief_title>
+  <acronym>iPAS)</acronym>
+  <official_title>Using Machine-learning Algorithms to Assess Acute Pain in Nonverbal Infants</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Autonomous Healthcare, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tel Aviv University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Stanford University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Pain assessments in non-verbal, critically ill infants represent an important clinical
+      challenge. Older children or adults can easily express their pain, but infants lack that
+      capability. They frequently experience repetitive acute pain during routine ICU care, but
+      their analgesic management flounders on the horns of a dilemma: (a) failure to treat infant
+      pain leads to immediate clinical instability and potentially long-term physical, behavioral,
+      and cognitive sequelae, vs. (b) strong analgesics may increase risks for medical
+      complications and/or impaired brain growth. Bedside nurses currently assess pain using pain
+      scores, before taking action to ameliorate pain. Pain scores increase nursing workload and
+      provide subjective assessments, rather than objective data for evaluating infant pain.
+      Consequently, infants exposed to skin-breaking procedures, surgery, or other painful
+      conditions often receive variable and inconsistent pain management in the ICU. The
+      investigators aim to develop a multimodal pain assessment system, using sensor fusion and
+      novel machine learning algorithms to provide an objective measure of pain that is
+      context-dependent and rater-independent. This will enhance the quality of pain management in
+      ICUs and allow continuous pain monitoring in real-time.
+    </textblock>
+  </brief_summary>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">October 30, 2017</start_date>
+  <completion_date type="Anticipated">December 2026</completion_date>
+  <primary_completion_date type="Anticipated">November 2025</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Pain Measurement (all infants)</measure>
+    <time_frame>10 minutes</time_frame>
+    <description>Visual Analogue Scale (VAS) measures pain intensity based on observer assessment on a scale from 1 to 10, where higher values indicate more intense pain.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Pain Measurement</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>Facial Expressions specific for infant pain will be assessed, including nasolabial furrow and brow bulge. Presence or absence as well as the duration for each facial expression will be recorded during the painful procedure. These facial expressions were chosen from the Neonatal Facial Coding Scale (NFCS) and the Premature Infant Pain Profile (PIPP).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pain Measurement (newborns 0-30 days)</measure>
+    <time_frame>5 minutes</time_frame>
+    <description>Neonatal Pain, Agitation and Sedation Scale (N-PASS) measures level of sedation versus increasing pain or agitation in newborns. Scores range from -10 to +10, where negative scores denote increasing levels of sedation, zero indicates a neutral condition, and positive scores indicate increasing pain intensity and/or agitation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pain Measurement (newborns 0-30 days)</measure>
+    <time_frame>8 minutes</time_frame>
+    <description>Premature Infant Pain Profile - Revised (PIPP-R) measures pain intensity in newborns, with scores ranging from 0 to 21, higher scores indicating greater pain (adjusted for prematurity and behavioral state).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pain Measurement (infants 1-6 months)</measure>
+    <time_frame>3 minutes</time_frame>
+    <description>Face, Legs, Activity, Cry, Consolability scale (FLACC scale) measures pain in children between the ages of 2 months and 7 years. The scale is scored in a range of 0-10 with 0 representing no pain and 10 indicating severe pain.</description>
+  </secondary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Pain, Acute</condition>
+  <arm_group>
+    <arm_group_label>Preterm infants</arm_group_label>
+    <description>preterm neonates (34-37 weeks gestational age, n=30)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Term infants</arm_group_label>
+    <description>term newborns (37-42 weeks gestation, n=30)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Small infants</arm_group_label>
+    <description>1-3 month-old infants (n=30)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Older infants</arm_group_label>
+    <description>3-6 month-old infants (n=30)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Pain Measurement</intervention_name>
+    <description>Measurement of infant responses (behavioral and physiological) during a painful procedure.</description>
+    <arm_group_label>Preterm infants</arm_group_label>
+    <arm_group_label>Term infants</arm_group_label>
+    <arm_group_label>Small infants</arm_group_label>
+    <arm_group_label>Older infants</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        We will collect data from 30 study subjects in each of the following age groups:
+
+          -  Preterm infants (34-37 weeks, postnatal age 3-30 days)
+
+          -  Term newborns (37-42 weeks gestation, less than 1 month of age)
+
+          -  Infants from 1-3 months age, and
+
+          -  Older infants from 3-6 months age. A total of 120 subjects will be recruited before
+             study closure.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  1. All infants less than 6 months of corrected chronological age. 2. Infants admitted
+             to the participating ICUs at LPCH (NICU, PICU, CVICU). 3. Require an acute painful
+             procedure for routine clinical care.
+
+        Exclusion Criteria:
+
+          1. Newborns with birth trauma, intrapartum asphyxia (5-minute Apgar Score &lt;4 or cord pH &lt;
+             7.01), fetal growth restriction (birth weight &lt; 5th percentile for gestation),
+             congenital anomalies or metabolic disorders, or any kind of brain injury.
+
+          2. Newborns born to mothers with a history of heavy smoking or drug abuse (alcohol,
+             cocaine, ketamine, heroin/other opiates) or psychiatric drugs used during this
+             pregnancy.
+
+          3. Newborns and infants requiring positive pressure ventilation using a face mask (BiPAP)
+             or endotracheal tube (conventional or high-frequency ventilators).
+
+          4. Newborns and infants receiving continuous infusions of opioid drugs (morphine,
+             fentanyl, others) and nerve blocks or neuraxial analgesia affecting the site of the
+             invasive procedure during the 24 hours prior to study entry. (Note: Infants receiving
+             intermittent opioids or non-opioid analgesics (acetaminophen, ibuprofen, ketorolac,
+             others) WILL NOT be excluded).
+
+          5. Newborns and infants with facial anomalies, injuries or other pathologies affecting
+             the facial area.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>6 Months</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kanwaljeet S Anand, MBBS,DPhil</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Lucile Packard Children's Hospital Stanford</name>
+      <address>
+        <city>Palo Alto</city>
+        <state>California</state>
+        <zip>94304</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 24, 2017</study_first_submitted>
+  <study_first_submitted_qc>October 30, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 6, 2017</study_first_posted>
+  <last_update_submitted>October 30, 2017</last_update_submitted>
+  <last_update_submitted_qc>October 30, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 6, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stanford University</investigator_affiliation>
+    <investigator_full_name>Kanwaljeet Anand</investigator_full_name>
+    <investigator_title>Professor of Pediatrics, Anesthesiology, Perioperative &amp; Pain Medicine</investigator_title>
+  </responsible_party>
+  <keyword>infant-newborn</keyword>
+  <keyword>infant-premature</keyword>
+  <keyword>pain</keyword>
+  <keyword>acute pain</keyword>
+  <keyword>repetitive pain</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Acute Pain</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>No data will be shared</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

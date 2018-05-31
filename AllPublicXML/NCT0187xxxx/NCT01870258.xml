@@ -1,0 +1,145 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01870258</url>
+  </required_header>
+  <id_info>
+    <org_study_id>90-8037</org_study_id>
+    <nct_id>NCT01870258</nct_id>
+  </id_info>
+  <brief_title>Myocardial Infarction Prediction</brief_title>
+  <official_title>Prediction of Acute Myocardial Infarction With Artificial Neural Networks in Patients With Nondiagnostic Electrocardiogram</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shiraz University of Medical Sciences</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shiraz University of Medical Sciences</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      prediction of MI in patients with chest pain and nondiagnostic ECG was done in 2 weeks
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Myocardial infarction remains one the leading causes of mortality and morbidity and involves
+      a high cost of care. Early prediction can be helpful in preventing the development of
+      myocardial infarction with appropriate diagnosis and treatment. Artificial neural networks
+      have opened new horizons in learning about the natural history of diseases and predicting
+      cardiac disease.
+
+      Methods: A total of 935 cardiac patients with chest pain and nondiagnostic electrocardiogram
+      (ECG) were enrolled and followed for 2 weeks in two groups based on the appearance of
+      myocardial infarction. Two types of data were used for all patients: nominal (clinical data)
+      and quantitative (ECG findings). Two different artificial neural networks - radial basis
+      function (RBF) and multi-layer perceptron (MLP) - were used.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2011</start_date>
+  <completion_date type="Actual">June 2012</completion_date>
+  <primary_completion_date type="Actual">April 2012</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Quadruple (Participant, Care Provider, Investigator, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>myocardial infarction</measure>
+    <time_frame>2 weeks</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>hospital admission due to cardiac events</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>may be includes unstable angina, cardiac arrest or PCIor CABG</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">1100</enrollment>
+  <condition>Myocardial Infarction</condition>
+  <condition>Artificial Neural Network</condition>
+  <arm_group>
+    <arm_group_label>those without MI in 2 weeks</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>patient without MI in 2 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>patient with MI</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>group with MI in 2 weeks</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>ANN prediction of myocardial infarction</intervention_name>
+    <arm_group_label>those without MI in 2 weeks</arm_group_label>
+    <arm_group_label>patient with MI</arm_group_label>
+    <other_name>sofware detected risk of new myocardial infraction</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  patient with chest pain refered to ER with nondiagnostic ECG
+
+        Exclusion Criteria:
+
+          -  1) Absence of a history of myocardial infarction
+
+          -  2) Absence of bundle branch block, Wolf-Parkinson-White abnormality, ventricular
+             hypertrophy or previous ECG signs of myocardial infarction,
+
+          -  3) Absence of a history of percutaneous coronary surgery or coronary artery bypass
+             grafting,
+
+          -  4) Absence of ECG abnormalities attributable to drugs such as digoxin or tricyclic
+             antidepressants.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>72 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>June 2013</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 24, 2013</study_first_submitted>
+  <study_first_submitted_qc>June 4, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 6, 2013</study_first_posted>
+  <last_update_submitted>June 4, 2013</last_update_submitted>
+  <last_update_submitted_qc>June 4, 2013</last_update_submitted_qc>
+  <last_update_posted type="Estimate">June 6, 2013</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Shiraz University of Medical Sciences</investigator_affiliation>
+    <investigator_full_name>Javad Kojuri</investigator_full_name>
+    <investigator_title>professor</investigator_title>
+  </responsible_party>
+  <keyword>Myocardial infarction</keyword>
+  <keyword>artificial neural networks</keyword>
+  <keyword>Electrocardiography</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infarction</mesh_term>
+    <mesh_term>Myocardial Infarction</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

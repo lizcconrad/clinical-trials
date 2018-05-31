@@ -1,0 +1,206 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01775826</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1R01CA164993-01A1</org_study_id>
+    <nct_id>NCT01775826</nct_id>
+  </id_info>
+  <brief_title>Validating Machine -Learned Classifiers of Sedentary Behavior and Physical Activity</brief_title>
+  <acronym>iWatch</acronym>
+  <official_title>Validating Machine -Learned Classifiers of Sedentary Behavior and Physical Activity</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, San Diego</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of California, San Diego</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The majority of the US population spends most of the day sitting and the we have new
+      scientific evidence that this can contribute to poor health regardless of how much physical
+      activity a person does. However, we do not measure sitting time very accurately and when we
+      ask people to tell us how much they do, their answers are unreliable. Our study will use
+      small sensors to objectively measure when people sit or do physical activity, and we will use
+      sophisticated computational techniques to summarize these movement patterns.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2013</start_date>
+  <completion_date type="Actual">April 2016</completion_date>
+  <primary_completion_date type="Actual">April 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>physical activity behavior classification using study sensors (accelerometers, Sensecam and GPS)</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Using an annotated data set of SenseCam images in three free-living population subgroups, we will compare sensitivity, specificity and percent agreement between behavioral classifiers derived from: (a) single axis vs. multi axis accelerometers; (b) aggregated movement counts vs. raw acceleration data; (c) hip vs. wrist mounted accelerometers.
+Determine (a) the extent to which adding GPS data improves discrimination accuracy over accelerometer only behavior classification (i.e., best classifier resulting from Aim 1); and (b) the extent to which adding GIS data improves discrimination accuracy over accelerometer and GPS behavior classification alone (i.e., best classifier resulting from Aim 2a).</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Actual">225</enrollment>
+  <condition>Physical Activity</condition>
+  <condition>Sedentary Lifestyle</condition>
+  <arm_group>
+    <arm_group_label>Child and adolescent</arm_group_label>
+    <description>6-17 years of age</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Adult</arm_group_label>
+    <description>18-55 years of age</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Older adults</arm_group_label>
+    <description>65-85 years of age</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        We will recruit 210 volunteer participants over a 2-yr period. Fifty percent of the sample
+        will be women, and we will quota sample three specific age groups: 6-10 year olds (n = 70);
+        16-55 year olds (n=70); and 65-85 year olds (n= 70).
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Inclusion Criteria for participants 6-17 yr olds:
+
+          -  provide written parental consent to complete study protocols;
+
+          -  provide verbal assent to complete study protocols;
+
+          -  willingness to complete 2 visits to UCSD offices;
+
+          -  willingness to wear multiple sensor devices on 7 days for 12 hours per day;
+
+          -  willingness to wear wrist accelerometer on 7 days for 24 hours per day;
+
+          -  willingness to have their height and weight measured;
+
+          -  be able to walk unassisted
+
+          -  able to read and understand study materials in English.
+
+        Inclusion Criteria for participants 18-55 yr old:
+
+          -  provide written consent to complete study protocols;
+
+          -  willingness to complete 2 visits to UCSD offices;
+
+          -  willingness to wear multiple sensor devices on 7 days for 12 hours per day;
+
+          -  willingness to wear wrist accelerometer on 7 days for 24 hours per day;
+
+          -  complete a survey assessing their demographic characteristics;
+
+          -  willingness to have their height and weight measured;
+
+          -  be physically and cognitively able to walk unassisted,
+
+          -  able to read and understand study materials in English.
+
+        Inclusion Criteria for participants 65-85 yr olds:
+
+          -  provide written consent to complete study protocols;
+
+          -  correctly answer verbal questions about their comprehension of the informed consent;
+
+          -  willingness to complete 2 visits to UCSD offices;
+
+          -  willingness to wear multiple sensor devices on 7 days for 12 hours per day;
+
+          -  willingness to wear wrist accelerometer on 7 days for 24 hours per day;
+
+          -  complete a survey assessing their demographic;
+
+          -  willingness to have their height and weight measured;
+
+          -  be physically and cognitively able to walk without the assistance of another person
+             (walking aids are permitted)
+
+          -  able to read and understand study materials in English.
+
+        Exclusion Criteria:
+
+          -  unable to ambulate;
+
+          -  attends a workplace or school on monitoring days that prohibits static images being
+             taken by a SenseCam worn around the neck of the participant;
+
+          -  pregnancy in second or third trimester.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>6 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>UCSD</name>
+      <address>
+        <city>La Jolla</city>
+        <state>California</state>
+        <zip>92093</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Moghimi, Mohammad**; Kerr, Jacqueline; Johnson, Eileen; Godbole, Suneeta; Belongie, Serge Discriminative Regions: A Substrate for Analyzing Life-Logging Image Sequences MultiMedia Modeling 2015 357-368.</citation>
+  </reference>
+  <reference>
+    <citation>Jacqueline Kerr, Ruth E. Patterson, Katherine Ellis, Suneeta Godbole, Eileen Johnson, Gert Lanckriet, John Staudenmayer. Objective Assessment of Walking and Sitting: New behavior classifiers for Public Health. MSSE 2015, in press.</citation>
+  </reference>
+  <reference>
+    <citation>Ellis K, Kerr J, Godbole S, Staudenmayer J, Lanckriet G. Hip and Wrist Accelerometer Algorithms for Free-Living Behavior Classification. Med Sci Sports Exerc. 2016 May;48(5):933-40. doi: 10.1249/MSS.0000000000000840.</citation>
+    <PMID>26673126</PMID>
+  </reference>
+  <verification_date>May 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 17, 2013</study_first_submitted>
+  <study_first_submitted_qc>January 22, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 25, 2013</study_first_posted>
+  <last_update_submitted>May 11, 2016</last_update_submitted>
+  <last_update_submitted_qc>May 11, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 13, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, San Diego</investigator_affiliation>
+    <investigator_full_name>Jacqueline Kerr</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>physical activity</keyword>
+  <keyword>sedentary behavior</keyword>
+  <keyword>accelerometer</keyword>
+  <keyword>GPS</keyword>
+  <keyword>GIS</keyword>
+  <keyword>machine learning</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

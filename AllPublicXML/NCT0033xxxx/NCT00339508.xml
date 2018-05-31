@@ -1,0 +1,195 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00339508</url>
+  </required_header>
+  <id_info>
+    <org_study_id>999902152</org_study_id>
+    <secondary_id>02-HG-N152</secondary_id>
+    <nct_id>NCT00339508</nct_id>
+  </id_info>
+  <brief_title>Exploratory Data Analysis for Disease Pedigrees and Cancer Genetics</brief_title>
+  <official_title>Exploratory Data Analysis for Disease Pedigrees and Cancer Genetics</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Human Genome Research Institute (NHGRI)</agency>
+      <agency_class>NIH</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Institutes of Health Clinical Center (CC)</source>
+  <brief_summary>
+    <textblock>
+      The researchers have developed and distributed several software packages for pedigree
+      analysis (FAST, CASPAR, PedHunter, IIC) and cancer genetics (oncotree, METREX). Users who
+      need assistance with the software or who want to see new features added often send the
+      researchers data files that include human data. The information is normally coded, and the
+      researchers do not have access to the identification of the people whose information is in
+      the files. Sometimes the content of the files gives rise to collaborations between the
+      software developers and the providers of the files. Because concerns over the confidentiality
+      of medical information have increased significantly over the past few years, the researchers
+      must apply for exemptions from detailed ethics committee oversight for every data set they
+      receive. This process is cumbersome and makes it difficult to assist software users. The
+      amount of information required to apply for an exemption also poses a barrier to
+      collaborations.
+
+      A full protocol will subject all data sets to ethics committee oversight without the need for
+      individual exemption requests, enabling the researchers to assist users with software
+      problems and to collaborate with other researchers.
+
+      From January 1, 2000, through December 15, 2001, the researchers received 71 requests for
+      assistance, 19 of which included data files. None of the data files had any names or patient
+      identifiers. Of these 19, in 8 cases the researchers sent back modified output files. In two
+      of these eight cases, the researchers could see results of research interest; one of them
+      concerned human data. In 2 of the 19 cases, the researchers sent back modified input files;
+      in one such case, they established a collaboration with the originator of the files. In sum,
+      most requests come under the heading of customer service, with no research contents. A few,
+      however, do lead to research results or collaborations, for which ethics committee oversight
+      is required.
+
+      Over the three-year time frame of this protocol, the researchers anticipate receiving data on
+      a maximum of 10,000 individuals. They have modified their software documentation to
+      explicitly instruct users to make sure the data files they send have no names. Should they
+      receive files with names, they will delete the files and ask the originator to resubmit them
+      with names encoded. Users submit data through unencrypted e-mail. The data are stored in
+      password-protected computers at the National Institutes of Health.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      We have developed software packages for pedigree analysis (FAST, CASPAR, PedHunter, IIC) and
+      cancer genetics (oncotrees, METREX). The purpose of this protocol is to allow us to work on
+      software problems reports that may contain human subjects data in them. The data should be
+      coded, by which we mean that if there are any links between identifiers and names, we do not
+      possess the links to decode the names. Occasionally our assistance leads to a more formal
+      research collaboration. This protocol seeks to clarify the guidelines under which we can
+      provide assistance to users of our human genetics software and to establish a formal
+      procedure under which we can seek IRB approval for the serendipitous collaborations that
+      arise from providing that assistance. We cannot predict the sizes of samples or the diseases
+      studied in the data sets sent to us, so most of the medical aspects of this protocol are
+      necessarily general. We rely on the data being coded and the collectors of the data having
+      their own institutional approvals to protect against most risks. The scientific aspects of
+      investigating problem reports cannot be hypothesis driven because we cannot guess what
+      problems will arise. On the engineering side, the basic hypotheses are that: 1) our software
+      is likely to contain some bugs or other weaknesses, which cannot be easily found except by
+      having others use the software and 2) a good way to improve the functionality of the software
+      is to encourage users to submit problem reports and other suggestions.
+
+      This protocol has been in effect since early 2002. The only amendments during that time were
+      to set up three collaborations, as described in Sections 4.6 and 4.7 and 4.8. The protocol
+      has been quite useful and no changes are proposed in procedures.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>March 19, 2002</start_date>
+  <completion_date>May 9, 2017</completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <enrollment type="Actual">13385</enrollment>
+  <condition>Data Analysis</condition>
+  <condition>Cancer Genetics</condition>
+  <eligibility>
+    <criteria>
+      <textblock>
+        -  INCLUSION/EXCLUSION CRITERIA:
+
+        User Requests:
+
+        When receiving data sets for problem reports and/or new feature requests, all data sets
+        would be accepted. We would not consider how the data were collected. The reasons for this
+        are: the medical aspects of the data set are irrelevant to the reason we receiving the
+        data; we cannot respond promptly to problem reports, if we have to get details on how the
+        data were collected; the data are never used by us for any research into the traits being
+        studies by the researchers who collected data.
+
+        Collaborations:
+
+        For collaborative studies, we would request details of how the data were collected,
+        including evidence of approval by a local ethics board. We would submit to the NHGRI IRB an
+        amendment describing the new collaboration. That amendment would necessarily include a
+        formal indication that the collaborating research group has permission to collect and
+        analyze the human data that they present to us (in coded and summarized format). For
+        collaborators in the United States that permission would consist of an IRB-approved
+        protocol or exemption from the collaborator's institution. For collaborators outside the
+        United States the permission would be one of the types of agreements currently supported by
+        the NIH Office of Human Subjects Research.
+
+        If we do not see evidence of appropriate permission to collect the data or the IRB turns
+        down our proposed amendment, then we would exclude ourselves from participating in the
+        proposed collaboration.
+
+        There are two other circumstances under which we have also excluded collaborating on
+        analysis of data sets in the past and may do so in the future. One circumstance was where
+        we did not feel that the proposed data set could possibly give sufficient statistical power
+        to detect anything interesting. The other circumstance was where we had an existing
+        collaboration with one research group, and a competing group asked us to collaborate also.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alejandro A Schaffer, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>National Human Genome Research Institute (NHGRI)</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>National Human Genome Research Institute (NHGRI), 9000 Rockville Pike</name>
+      <address>
+        <city>Bethesda</city>
+        <state>Maryland</state>
+        <zip>20892</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <removed_countries>
+    <country>Mexico</country>
+  </removed_countries>
+  <reference>
+    <citation>Buhler J, Owerbach D, Schäffer AA, Kimmel M, Gabbay KH. Linkage analyses in type I diabetes mellitus using CASPAR, a software and statistical program for conditional analysis of polygenic diseases. Hum Hered. 1997 Jul-Aug;47(4):211-22.</citation>
+    <PMID>9239508</PMID>
+  </reference>
+  <reference>
+    <citation>Desper R, Jiang F, Kallioniemi OP, Moch H, Papadimitriou CH, Schäffer AA. Inferring tree models for oncogenesis from comparative genome hybridization data. J Comput Biol. 1999 Spring;6(1):37-51.</citation>
+    <PMID>10223663</PMID>
+  </reference>
+  <reference>
+    <citation>Atkinson TP, Schäffer AA, Grimbacher B, Schroeder HW Jr, Woellner C, Zerbe CS, Puck JM. An immune defect causing dominant chronic mucocutaneous candidiasis and thyroid disease maps to chromosome 2p in a single family. Am J Hum Genet. 2001 Oct;69(4):791-803. Epub 2001 Aug 21.</citation>
+    <PMID>11517424</PMID>
+  </reference>
+  <verification_date>May 9, 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 19, 2006</study_first_submitted>
+  <study_first_submitted_qc>June 19, 2006</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 21, 2006</study_first_posted>
+  <last_update_submitted>April 4, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 4, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 5, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Linkage Analysis</keyword>
+  <keyword>Cancer Genetics</keyword>
+  <keyword>Software</keyword>
+  <keyword>Bug Reports</keyword>
+  <keyword>Computer Programs</keyword>
+  <keyword>Data Analysis</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

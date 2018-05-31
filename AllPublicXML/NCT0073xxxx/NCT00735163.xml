@@ -1,0 +1,174 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00735163</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HC-G-H-0806</org_study_id>
+    <nct_id>NCT00735163</nct_id>
+  </id_info>
+  <brief_title>Blood Glucose Control With A Software-Algorithm In Intensive Care Unit (ICU) Patients</brief_title>
+  <acronym>Aldea _01</acronym>
+  <official_title>Mono-Centric, Open, Non-Controlled Study To Investigate The Feasibility Of Blood Glucose Control With The Software-Algorithm eMPC (Enhanced Model Predictive Control) In ICU Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>B. Braun Melsungen AG</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>B. Braun Melsungen AG</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Hyperglycemia is common in critically ill patients and associated with an adverse outcome.
+      Recently, large randomized controlled trials have demonstrated that tight glycaemic control
+      (TGC) reduces morbidity and mortality in this population. Based on this emerging evidence
+      intensive insulin therapy is currently finding its way into the critical care practice.
+
+      In the meantime numerous insulin infusion protocols, which are based on frequent bedside
+      glucose monitoring, have been implemented. Recent reviews comparing different types of
+      protocols describe widely ranging practice and difficulties in achieving TGC despite
+      extensive efforts of the intensive care unit (ICU) staff. A fully automated algorithm may
+      help to overcome some of these limitations by excluding intuitive interventions and
+      integrating relevant clinical data in the decision-making process. The primary objective of
+      the current study is to investigate the performance (efficacy) of a control algorithm for
+      glycaemic control in ICU patients for the whole length of ICU stay.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2008</start_date>
+  <completion_date type="Actual">February 2009</completion_date>
+  <primary_completion_date type="Actual">February 2009</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>percentage of time within the predefined glucose target range of 80-110 mg/dL</measure>
+    <time_frame>from start of treatment to the last glucose measurement under treatment</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>hypoglycemias (lab) and possible attendant clinical symptoms (e.g. convulsions)</measure>
+    <time_frame>from start of treatment to the last glucose measurement under treatment</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Usability parameters like convenience of alarming function; workload; blood sampling frequency</measure>
+    <time_frame>from start of treatment to the last glucose measurement under treatment</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Concomitant medication including insulin infusion rate, parenteral/enteral nutrition</measure>
+    <time_frame>from start of treatment to the last glucose measurement under treatment</time_frame>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Critical Illness</condition>
+  <arm_group>
+    <arm_group_label>A</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>improved model predictive control algorithm (eMPC) for glycaemic control in ICU patients</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>enhanced model predictive control algorithm (eMPC)</intervention_name>
+    <description>eMPC (software on a bedside computer) advised insulin titration to establish tight glycaemic control</description>
+    <arm_group_label>A</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age: &gt; 18 years of age
+
+          -  Stay in the ICU expected to be &gt; 120 h
+
+          -  Blood glucose &gt; 110 mg/dl or patient on insulin treatment
+
+        Exclusion Criteria:
+
+          -  Patients with hyperglycaemic crisis/ketoacidosis due to insulin deficiency.
+
+          -  Known or suspected allergy to insulin
+
+          -  Any disease or condition which the investigator or treating physician feels would
+             interfere with the trial or the safety of the patient (i.e., liver failure, other
+             fatal organ failures)
+
+          -  Moribund patients likely to die within 24 hours
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Thomas R Pieber, Prof. Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Medical University of Graz</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Medical University Graz</name>
+      <address>
+        <city>Graz</city>
+        <zip>8036</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+  </location_countries>
+  <link>
+    <url>http://www.clinicip.org</url>
+  </link>
+  <reference>
+    <citation>Plank J, Blaha J, Cordingley J, Wilinska ME, Chassin LJ, Morgan C, Squire S, Haluzik M, Kremen J, Svacina S, Toller W, Plasnik A, Ellmerer M, Hovorka R, Pieber TR. Multicentric, randomized, controlled trial to evaluate blood glucose control by the model predictive control algorithm versus routine glucose management protocols in intensive care unit patients. Diabetes Care. 2006 Feb;29(2):271-6.</citation>
+    <PMID>16443872</PMID>
+  </reference>
+  <reference>
+    <citation>Pachler C, Plank J, Weinhandl H, Chassin LJ, Wilinska ME, Kulnik R, Kaufmann P, Smolle KH, Pilger E, Pieber TR, Ellmerer M, Hovorka R. Tight glycaemic control by an automated algorithm with time-variant sampling in medical ICU patients. Intensive Care Med. 2008 Jul;34(7):1224-30. doi: 10.1007/s00134-008-1033-8. Epub 2008 Feb 23.</citation>
+    <PMID>18297268</PMID>
+  </reference>
+  <verification_date>April 2009</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 13, 2008</study_first_submitted>
+  <study_first_submitted_qc>August 13, 2008</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 14, 2008</study_first_posted>
+  <last_update_submitted>April 15, 2009</last_update_submitted>
+  <last_update_submitted_qc>April 15, 2009</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 16, 2009</last_update_posted>
+  <responsible_party>
+    <name_title>Dr. Norman Kachel</name_title>
+    <organization>B. Braun Melsungen AG</organization>
+  </responsible_party>
+  <keyword>algorithm</keyword>
+  <keyword>tight glycemic control</keyword>
+  <keyword>glucose control</keyword>
+  <keyword>intensive care</keyword>
+  <keyword>insulin</keyword>
+  <keyword>ICU</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Critical Illness</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,374 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03458611</url>
+  </required_header>
+  <id_info>
+    <org_study_id>VRAT001</org_study_id>
+    <nct_id>NCT03458611</nct_id>
+  </id_info>
+  <brief_title>Virtual Reality Attention Training in Stroke Patients</brief_title>
+  <acronym>VRAT</acronym>
+  <official_title>Virtual Reality Attention Training in Stroke Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Katholieke Universiteit Leuven</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Katholieke Universiteit Leuven</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Hemispatial neglect is a post-stroke condition in which patients fail to detect stimuli
+      presented on the side of space opposite to the damaged brain hemisphere (contralesional
+      space). To date, there is no established effective treatment for this condition. A virtual
+      reality (VR) behavioral training for the attention deficits characteristic of patients with
+      hemispatial neglect was developed. Patients are stimulated in the visual and auditory
+      modality to orient towards the contralesional side and are rewarded for detecting targets on
+      this side in this training. In the current study the researchers aim to answer two main
+      questions: 1) how feasible is a VR game-based intervention in stroke patients? and 2) what is
+      the efficacy of the virtual reality game-based intervention in reducing the attention
+      deficits characteristic of hemispatial neglect? To answer these questions a randomized
+      partially double-blind placebo-controlled crossover study will be conducted. Two
+      within-subject conditions will be compared: in the active condition patients will play a VR
+      game in which multisensory stimulation is progressively presented in the neglected region
+      (the location where previously presented targets were missed by the patient) and in the
+      placebo condition patients will play a VR game in which the stimulation is presented in the
+      center of of the VR environment. Neglect symptoms will be measured on a two-daily basis to
+      establish the trend of symptom recovery through time. The hypothesis states that symptoms
+      will recover more quickly when patients receive the active version of the VR intervention
+      compared to the placebo version of the VR intervention.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      SAMPLE SIZE ESTIMATION:
+
+      Power analysis was performed with the SIMR package in R which estimates power for generalized
+      linear mixed models using Monte Carlo simulations. The main analysis will compare the
+      evolution through time of the primary outcome variable between the two within-subject
+      conditions placebo and active intervention. Power was estimated as a function of the number
+      of patients who complete the entire study protocol and as a function of the number of
+      assessment moments per patient. In addition, the power analysis was run under the assumption
+      that the measurement error (residual variance) would be equal to 0.20 SDs. The latter implies
+      that the outcome variable must have a reliability of at least .80. The power analysis
+      revealed that 8 patients need to complete the entire study protocol (per-protocol sample
+      size) - when the study protocol involves a 1-day in-between assessment schedule - to detect a
+      moderate effect size (SD = 0.5) with a type I error rate of 1% and a power of 80%. Thus, for
+      each counterbalancing group a minimum of 4 patients is needed. Assuming that 50% of all
+      patients allocated to a counterbalancing group drop-out at some time point during the study,
+      a total of 16 patients will be recruited to obtain a large enough per-protocol sample size.
+
+      MISSING DATA HANDLING:
+
+      Missing data can occur when patients do not take part in one or more visits throughout the
+      study protocol (non-monotonous missing data) or when patients drop-out from the study and
+      there is no data available of a patient after drop-out (monotonous missing data). The
+      frequency of occurrence of these two types of missing data will be reported. If inconsistent
+      data occurs on an individual level this will not be considered to be missing data.
+      Out-of-range results for most behavioral outcomes are not likely to occur because
+      computerized assessment tasks guarantee accurate data acquisition. For the behavioral
+      observation scale the inter-rater reliability will be evaluated as a quality check. If the
+      inter-rater reliability across all assessments made in the context of the study is lower than
+      .70 this measure will be reported as insufficiently reliable to be used as a meaningful
+      outcome variable. Only eye tracking data that was sufficiently accurately measured will be
+      considered to be used as an outcome measure. Meaning that, if eye tracker calibration is not
+      good to excellent according to the software delivered with the eye tracker after 5 repeated
+      calibrations the eye tracking data for that assessment will be considered as missing data.
+
+      STATISTICAL ANALYSIS:
+
+        1. MAIN ANALYSIS: The data will be analyzed using Bayesian mixed models in R. Mixed models
+           are the recommended approach to combine data of single cases and are increasingly
+           acknowledged as a more powerful data analysis approach for clinical trials compared to
+           classic ANCOVAs since mixed models can accurately model time-unstructured data. A
+           Bayesian approach to analyze data is preferred above a classic null hypothesis
+           significance testing because the Bayesian approach allows to quantify the strength of
+           evidence in favor of the null hypothesis. The latter is a valuable attribute in the
+           context of clinical trials as these studies often require proof for no difference
+           between groups on covariates that can be assumed to affect response to treatment.
+
+           The main analysis of interest will compare the effect of the within-subject conditions
+           placebo and active intervention. The model to estimate this effect will include the main
+           effect of time since start of intervention condition, intervention and the
+           counterbalancing group. In addition, the pairwise and three-way interactions of these
+           predictors will be included. A random intercept and random slope for time will be
+           included in the model. This model will be used to predict the primary outcome variable
+           and the secondary outcome variables.
+
+           In addition, the association between the different outcome variables will be reported as
+           a means to estimate to what extent treatment effects may have affected 1 specific
+           outcome or to what extent symptom evolution across different outcome variables was
+           associated.
+
+        2. EXPLORATORY ANALYSES: In addition to these analyses, the experience of patients with the
+           VR game based intervention will also be reported. The vocal responses made by patients
+           during gameplay will be rated by two independent raters as expressions of negative or
+           positive emotions. The number of negative and the number of positive expressions
+           relative to the total number of expressions will be compared to each other. If the
+           proportion of positive expressions is higher than the proportion of negative expressions
+           this is taken as evidence suggesting that the patients had a positive experience with
+           the game and vice versa. In addition, since not all patients will spontaneously make
+           vocal responses during gameplay, the mean score of patients on the questionnaire that
+           gauges their experience with the VR-game based intervention will be reported. Given the
+           exploratory nature of this part of the study descriptive statistics will be reported,
+           but no statistical analysis on this outcome variable will be performed. The results of
+           the safety checklist will also be reported. These data are valuable since it can inform
+           other researchers on whether VR is safe to use within the stroke population. These data
+           will be reported in the form of descriptive statistics. All exploratory analyses will be
+           performed on the intention-to-treat sample.
+
+        3. SIGNFICANCE LEVEL: The Bayes Factors will be interpreted according to the following
+           interpretation rule: a Bayes Factor of larger than 3.2 suggests substantial evidence in
+           favor of the alternative model, a Bayes Factor larger than 10 suggests strong evidence
+           in favor of the alternative model and a Bayes Factor larger than 100 is decisive for the
+           alternative model. All effects will be evaluated against a threshold of a Bayes Factor
+           of 10. Bayes Factors that are in between 1/10 and 10 will be interpreted as inconclusive
+           evidence. Evaluating effects at a threshold of a Bayes Factor of 10 is comparable to the
+           approach of evaluating effects at a significance level of .01. The primary outcome
+           variable and 5 secondary outcome variables should lead to a maximum Type I error rate of
+           6% in a worst-case scenario where all 6 outcome variables are completely uncorrelated.
+           This type I error rate is obtained through the formula: 100 [1- (1- α)^k ] where α
+           stands for the significance level and k stands for the number of independent measures.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 2018</start_date>
+  <completion_date type="Anticipated">February 2020</completion_date>
+  <primary_completion_date type="Anticipated">February 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>The study design is a mix of a within-subject manipulation of the placebo and active intervention conditions and a between-subject manipulation of the order of these two within-subject conditions. To clarify, a placebo and active version of the VR game based attention training will be administered to each patient. The order of these two within-subject conditions is counterbalanced between-subjects to account for differences in order between the two treatment conditions.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Double (Participant, Outcomes Assessor)</masking>
+    <masking_description>Patients are not explicitly explained that a placebo and active version of the intervention will be compared, which makes it more likely for patients not to be aware of the treatment conditions. However they may notice a difference between the two interventions when they switch over from the first to the second intervention condition. In addition, the clinician who will administer the intervention to the patient on a daily basis cannot be blinded to the specific intervention that is administered to the patient, because the clinician will remain present during the intervention to guide the patient through the intervention. However, the clinicians that will perform the evaluation of symptoms using the tasks that are most sensitive to observer bias will be blinded to the treatment condition that is currently applied to the patient to avoid that the measurement of outcome is affected by observer bias.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in visual L-R score</measure>
+    <time_frame>This primary outcome variable is measured repeatedly on days: 2, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25 and one follow-up assessment for Group B on day 35.</time_frame>
+    <description>The measure of spatial asymmetry will be the difference in accuracy for target detection between the left and right visual field (visual L-R score).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in the VR L-R score</measure>
+    <time_frame>This secondary outcome variable will be measured on each day of the clinical trial (day 6 to day 26).</time_frame>
+    <description>While patients play the VR game their head orientation is logged at a fixed rate. The cumulative time a patients head is oriented towards the left or right side during moments in the VR intervention that there are no target stimuli presented will be calculated. The difference between the time with the head being oriented towards the left versus right will be used as an index of spatial asymmetry in the VR environment (VR L-R score).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in the fixation L-R score</measure>
+    <time_frame>This outcome variable is measured repeatedly on days: 2, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25 and one follow-up assessment for Group B on day 35.</time_frame>
+    <description>The difference between the percentage of cumulative fixation duration for the left and right visual field as measured with an eyetracker during a visual computer task.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in the first saccade L-R score</measure>
+    <time_frame>This outcome variable is measured repeatedly on days: 2, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25 and one follow-up assessment for Group B on day 35.</time_frame>
+    <description>The difference between the percentages of the direction of the first saccade in each trial of the task as measured with an eye tracker during a visual computer task.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in the auditory L-R score</measure>
+    <time_frame>This outcome variable is measured repeatedly on days: 2, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25 and one follow-up assessment for Group B on day 35.</time_frame>
+    <description>The accuracy for auditory signals presented to the left and right ear is measured with a computerized task. The accuracy difference for left and right signals will be calculated.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in the Catherina Bergego Scale (CBS) score</measure>
+    <time_frame>This outcome variable is measured at 4 time points with two weeks in between each measurement. Thus the CBS is scored on days: 5, 15, 25 and for Group B also on day 35 of the clinical trial.</time_frame>
+    <description>Hemispatial neglect symptoms in daily life are measured with the Catherina Bergego scale (Azouvi et al., 2003). This scale has 10 items of behavior that are observed and given a score from 0 (= no signs of neglect) to 3 (= patient always shows signs of neglect or does not correct for it). The sum of the individual scores is the outcome index.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">16</enrollment>
+  <condition>Hemispatial Neglect</condition>
+  <arm_group>
+    <arm_group_label>Group A</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>In period 1 group A will receive the active intervention and in period 2 they will receive the placebo intervention.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group B</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>In period 1 group B will receive the placebo intervention and in period 2 they will receive the active intervention.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Active Intervention</intervention_name>
+    <description>An audiovisual expanding (looming) stimulus is presented repeatedly to patients during the intervention (Dent &amp; Humphreys, 2011). During the game a disk is presented to the player. This disk expands and contracts in size. The presentation of the disk coincides with the presentation of a sound that matches in frequency. The disk predicts the location where the next target will be presented. The player must discriminate between two types of target stimuli that are presented at the center of the disk. To discriminate between the two targets, the player receives a limited time window. The location of the disk and target stimuli are adjusted in real-time as a function of the player's performance. The primary goal of this algorithm is to present the multisensory looming stimuli more frequently in the contralesional field than in the ipsilesional field.</description>
+    <arm_group_label>Group A</arm_group_label>
+    <arm_group_label>Group B</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Placebo Intervention</intervention_name>
+    <description>The active and placebo intervention are identical in all aspects except for the fact that stimulus presentation will be located in the center of the visual field.</description>
+    <arm_group_label>Group A</arm_group_label>
+    <arm_group_label>Group B</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  They are above 18 years.
+
+          -  They have had a stroke.
+
+          -  The expected discharge of patients is not in a period shorter than 7 weeks.
+
+        Exclusion Criteria:
+
+          -  They or their legal representative are unable to provide informed consent.
+
+          -  They have a severe comorbid psychiatric (E.g. psychotic symptoms) disorder.
+
+          -  They have a premorbid neurodegenerative disease (E.g. Alzheimer's dementia, vascular
+             dementia).
+
+          -  They have severe spoken language comprehension deficits.
+
+          -  They have a medical implant, such as a cochlear implant or a pacemaker.
+
+          -  They have a severe visual or auditory impairment that cannot be corrected for by
+             wearing glasses or a hearing aid.
+
+          -  They are unable to concentrate on a task for more than 15 minutes.
+
+          -  They have a history of epileptic seizures.
+
+          -  They do not show signs of hemispatial neglect on a battery of screening tasks.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Céline Gillebert, Prof. Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>KU Leuven</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Céline Gillebert, Prof. Dr.</last_name>
+    <phone>+3216372704</phone>
+    <email>celine.gillebert@kuleuven.be</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Hanne Huygelier, Dra.</last_name>
+    <phone>+3216374215</phone>
+    <email>hanne.huygelier@kuleuven.be</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>RevArte</name>
+      <address>
+        <city>Edegem</city>
+        <state>Antwerp</state>
+        <zip>2650</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Christophe Lafosse, Prof. Dr.</last_name>
+      <phone>+3232106060</phone>
+      <email>Christophe.Lafosse@RevArte.be</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Leuven Pellenberg</name>
+      <address>
+        <city>Leuven</city>
+        <state>Vlaams Brabant</state>
+        <zip>3000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Jos Tournoy, Prof. Dr.</last_name>
+      <phone>+3216342640</phone>
+      <email>jos.tournoy@uzleuven.be</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <reference>
+    <citation>Andersen SW, Millen BA. On the practical application of mixed effects models for repeated measures to clinical trial data. Pharm Stat. 2013 Jan-Feb;12(1):7-16. doi: 10.1002/pst.1548. Epub 2012 Dec 13.</citation>
+    <PMID>23239585</PMID>
+  </reference>
+  <reference>
+    <citation>Azouvi P, Olivier S, de Montety G, Samuel C, Louis-Dreyfus A, Tesio L. Behavioral assessment of unilateral neglect: study of the psychometric properties of the Catherine Bergego Scale. Arch Phys Med Rehabil. 2003 Jan;84(1):51-7.</citation>
+    <PMID>12589620</PMID>
+  </reference>
+  <reference>
+    <citation>Dent K, Humphreys GW. Neuropsychological evidence for a competitive bias against contracting stimuli. Neurocase. 2011;17(2):112-21. doi: 10.1080/13554794.2010.498381. Epub 2010 Sep 1.</citation>
+    <PMID>20812139</PMID>
+  </reference>
+  <reference>
+    <citation>Green, P., MacLeod, CJ. SIMR: an R package for power analysis of generalized linear mixed models by simulation. Methods in Ecology and Evolution, 7(4): 493-498, 2016.</citation>
+  </reference>
+  <reference>
+    <citation>Kass, RE., Raftery, AE. Bayes Factors. Journal of the Americal Statistical Association, 90(430): 773-795, 1995.</citation>
+  </reference>
+  <reference>
+    <citation>Nijboer TC, Kollen BJ, Kwakkel G. Time course of visuospatial neglect early after stroke: a longitudinal cohort study. Cortex. 2013 Sep;49(8):2021-7. doi: 10.1016/j.cortex.2012.11.006. Epub 2012 Dec 19.</citation>
+    <PMID>23332473</PMID>
+  </reference>
+  <reference>
+    <citation>O'Connell RG, Bellgrove MA, Dockree PM, Lau A, Fitzgerald M, Robertson IH. Self-Alert Training: volitional modulation of autonomic arousal improves sustained attention. Neuropsychologia. 2008 Apr;46(5):1379-90. doi: 10.1016/j.neuropsychologia.2007.12.018. Epub 2007 Dec 27.</citation>
+    <PMID>18249419</PMID>
+  </reference>
+  <reference>
+    <citation>Rouder JN, Speckman PL, Sun D, Morey RD, Iverson G. Bayesian t tests for accepting and rejecting the null hypothesis. Psychon Bull Rev. 2009 Apr;16(2):225-37. doi: 10.3758/PBR.16.2.225.</citation>
+    <PMID>19293088</PMID>
+  </reference>
+  <reference>
+    <citation>Schwamm LH, Koroshetz WJ, Sorensen AG, Wang B, Copen WA, Budzik R, Rordorf G, Buonanno FS, Schaefer PW, Gonzalez RG. Time course of lesion development in patients with acute stroke: serial diffusion- and hemodynamic-weighted magnetic resonance imaging. Stroke. 1998 Nov;29(11):2268-76.</citation>
+    <PMID>9804633</PMID>
+  </reference>
+  <reference>
+    <citation>Van den Noortgate, W., Onghena, P. Combining Single-Case Experimental Data Using Hierarchical Linear Models. School Psychology Quarterly Fall 2003, 18(3): 325-346, 2003.</citation>
+  </reference>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 1, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 7, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 8, 2018</study_first_posted>
+  <last_update_submitted>March 7, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 7, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 8, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Katholieke Universiteit Leuven</investigator_affiliation>
+    <investigator_full_name>Céline Gillebert</investigator_full_name>
+    <investigator_title>Prof. Dr.</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Perceptual Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Data of participants that does not contain any identifiable information and that supports the reported analysis in a publication will be made publicly available to other researchers upon request.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,283 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02578290</url>
+  </required_header>
+  <id_info>
+    <org_study_id>JPAL-3872</org_study_id>
+    <nct_id>NCT02578290</nct_id>
+  </id_info>
+  <brief_title>Clinical Decision Support (CDS) for Outpatient Radiology Imaging</brief_title>
+  <official_title>The Impact of Clinical Decision Support (CDS) for Outpatient Radiology Imaging: A Randomized Control Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Abdul Latif Jameel Poverty Action Lab</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Icahn School of Medicine at Mount Sinai</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Abdul Latif Jameel Poverty Action Lab</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of the study is to determine whether clinical decision support (CDS) affects the
+      number, type, or appropriateness of targeted high-cost radiology images (i.e. MR and CT)
+      ordered. The CDS will be delivered in Epic through ACRSelect software, which is a leading
+      decision support tool based on the American College of Radiology (ACR) Appropriateness
+      Criteria (see http://www.acr.org/Quality-Safety/Appropriateness-Criteria), and presents the
+      ACR appropriateness scores for each image on a scale of 1-9 with 1-3 labelled as 'usually not
+      appropriate', 4-6 'May be appropriate', and 7-9 'usually appropriate'.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      With healthcare spending accounting for almost one-fifth of the U.S. economy and an even
+      larger share of public sector budgets, there is substantial interest in innovations in
+      healthcare delivery that can reduce the &quot;over use&quot; of resources that have no or low value to
+      patients. As a result, there is a key need for rigorous evidence on scalable interventions
+      aimed at improving the efficiency of the U.S. healthcare sector in general, and in the public
+      sector in particular, which accounts for $1.25 trillion in annual healthcare spending
+      (Centers for Medicare &amp; Medicaid Services, 2013).
+
+      In particular, there is widespread concern in both the medical profession (Callaghan et al.,
+      2014; Sherman, 2012) and the public sector (U.S. Government Accountability Office, 2008) of
+      the cost and health risks of &quot;over-scanning&quot;. Estimates suggest that as many as 30% of
+      imaging in the U.S. are unnecessary (Consumer Reports, 2015; Dehn et al., 2000; Georgiou et
+      al., 2011). Medicare direct spending on &quot;high-cost&quot; scans (e.g. MRs and CTs) was about $10
+      billion in 2012, or about 2% of total Medicare costs (Medicare Payment Advisory Commission,
+      2014); the indirect costs are likely considerably greater, since imaging often triggers
+      additional follow up care (Sherman, 2012; Shreibati and Baker, 2011). It is also estimated
+      that about 2 percent of cancers in the U.S. are due to CT use (Brenner and Hall, 2007).
+
+      Reflecting this concern, starting in 2017 Medicare will no longer reimburse for high-cost
+      scans unless ordered using an &quot;acceptable&quot; Clinical Decision Support (CDS) system (Pitts,
+      2014). Despite this upcoming policy change, we know of no large-scale randomized trials on
+      the impact of CDS for imaging.
+
+      The intervention in this study provides Clinical Decision Support (CDS) for targeted
+      high-cost radiology orders, MR and CT scans, to healthcare providers treating patients in
+      outpatient settings affiliated with Mount Sinai Hospital and Mount Sinai Queens hospital in
+      New York City. CDS is a tool embedded in an order entry system that provides information and
+      guidance to providers on whether their intended order is &quot;appropriate&quot; and whether there are
+      more highly recommended alternatives. The randomization is at the provider level: one group
+      will receive the CDS, while the remaining providers will serve as the control group.
+
+      The CDS will be delivered through the order-entry software, Epic, through ACRSelect software,
+      which is a leading decision support tool based on the American College of Radiology (ACR)
+      Appropriateness Criteria.
+
+      Recommendations that appear in the CDS tool are a computerized version of guidelines created
+      by the American College of Radiology (ACR). The guidelines score the appropriateness of a
+      scan order for a given health indication, where indications include common symptoms and
+      diagnosis keywords, such as &quot;acute headache.&quot; In particular, indication-scan pairs are
+      assigned an &quot;appropriateness rating&quot; from 1-9. Scores 1-3 are 'usually not appropriate,' 4-6
+      are 'may be appropriate,' and 7-9 are 'usually appropriate.'
+    </textblock>
+  </detailed_description>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    Due to an error in the implementation of the project, CDS was provided to all providers, rather
+    than to the intended random sample of providers.
+  </why_stopped>
+  <start_date>October 2015</start_date>
+  <completion_date type="Actual">May 2016</completion_date>
+  <primary_completion_date type="Actual">May 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>number of &quot;non-advised&quot; scans ordered per visiting provider</measure>
+    <time_frame>first 365 days after CDS is turned on for the treatment group</time_frame>
+    <description>&quot;non-advised&quot; scans are (a) all magnetic resonance (MR) or computed tomography (CT) scans that ACR Select rates 1-3 (&quot;usually not appropriate&quot;), and (b) all MR or CT scans rated 4-6 (&quot;may be appropriate&quot;) for which an alternative scan (MR, CT, or other modality) rated 7-9 (&quot;usually appropriate&quot;) exists</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of scans ordered per visiting provider that ACR Select rates 1-3 (&quot;usually not appropriate&quot;)</measure>
+    <time_frame>first 365 days after CDS is turned on for the treatment group</time_frame>
+    <description>includes magnetic resonance (MR) and computed tomography (CT) scans scored by ACR Select</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of scans ordered per visiting provider that ACR Select rates 4-6 (&quot;may be appropriate&quot;) for which an alternative scan (MR, CT, or other modality) rated 7-9 (&quot;usually appropriate&quot;) exists</measure>
+    <time_frame>first 365 days after CDS is turned on for the treatment group</time_frame>
+    <description>includes magnetic resonance (MR) and computed tomography (CT) scans scored by ACR Select</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">2033</enrollment>
+  <condition>CT and MR Image Orders</condition>
+  <arm_group>
+    <arm_group_label>Treatment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Clinical Decision Support (CDS)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Will not receive Clinical Decision Support (CDS)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Clinical Decision Support (CDS)</intervention_name>
+    <description>A best practices alert (BPA) pop-up screen providing CDS will appear at physician sign-off for all scans scored 1-3, and scans scored 4-6 for which an alternative scan scored 7-9 exists.
+This screen will show the appropriateness score of the original scan order, and will display any alternative scans that are scored 7-9 for the same indications and patient characteristics. It will also display a link to relevant ACR documentation relevant to the selected scan and indication.
+Any time the pop-up alert appears, a checkbox removing the selected scan from unsigned orders will be checked by default.</description>
+    <arm_group_label>Treatment</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Outpatient medical provider with scan ordering permissions at Mount Sinai Hospital or
+             Mount Sinai Queens
+
+          -  Has an active ID in the Epic electronic medical record ordering system
+
+        Exclusion Criteria:
+
+          -  Opted out of the study prior to October 13, 2015
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Amy Finkelstein, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Massachusetts Institute of Technology</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Madhu Mazumdar, Mazumdar</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Mount Sinai Health System</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Bruce Darrow, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Mount Sinai Health System</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Joseph Kannry, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Mount Sinai Health System</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>David S Mendelson, MD FACR</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Mount Sinai Health System</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Joseph Doyle, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Massachusetts Institute of Technology</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jesse Shapiro, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Massachusetts Institute of Technology</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Laura Feeney, MA</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Massachusetts Institute of Technology</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Mount Sinai Queens</name>
+      <address>
+        <city>Long Island City</city>
+        <state>New York</state>
+        <zip>11102</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mount Sinai Hospital</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Centers for Medicare &amp; Medicaid Services, 2013. National Health Expenditures 2013 Highlights. Centers for Medicare &amp; Medicaid Services.</citation>
+  </reference>
+  <reference>
+    <citation>Callaghan BC, Kerber KA, Pace RJ, Skolarus LE, Burke JF. Headaches and neuroimaging: high utilization and costs despite guidelines. JAMA Intern Med. 2014 May;174(5):819-21. doi: 10.1001/jamainternmed.2014.173.</citation>
+    <PMID>24638246</PMID>
+  </reference>
+  <reference>
+    <citation>Sherman, D., 2012. Stemming the tide of overtreatment in U.S. healthcare. Reuters. Feb 16, 2012.</citation>
+  </reference>
+  <reference>
+    <citation>U.S. Government Accountability Office, 2008. Medicare Part B Imaging Services: Rapid Spending Growth and Shift to Physician Offices Indicate Need for CMS to Consider Additional Management Practices [WWW Document]. URL http://www.gao.gov/products/GAO-08-452 (accessed 2.23.15).</citation>
+  </reference>
+  <reference>
+    <citation>Consumer Reports, 2015. Surprising Dangers of CT Scans and X-rays - Consumer Reports [WWW Document]. URL http://www.consumerreports.org/cro/magazine/2015/01/the-surprising-dangers-of-ct-sans-and-x-rays/index.htm (accessed 2.25.15).</citation>
+  </reference>
+  <reference>
+    <citation>Dehn, T.G., O'Connell, B., Hall, R.N., Moulton, T., 2000. Appropriateness of imaging examinations: current state and future approaches. Imaging Econ 13, 18-26.</citation>
+  </reference>
+  <reference>
+    <citation>Georgiou A, Prgomet M, Markewycz A, Adams E, Westbrook JI. The impact of computerized provider order entry systems on medical-imaging services: a systematic review. J Am Med Inform Assoc. 2011 May 1;18(3):335-40. doi: 10.1136/amiajnl-2010-000043. Epub 2011 Mar 8. Review.</citation>
+    <PMID>21385821</PMID>
+  </reference>
+  <reference>
+    <citation>Medicare Payment Advisory Commission, 2014. Health Care Spending and the Medicare Program. MedPAC.</citation>
+  </reference>
+  <reference>
+    <citation>Shreibati JB, Baker LC. The relationship between low back magnetic resonance imaging, surgery, and spending: impact of physician self-referral status. Health Serv Res. 2011 Oct;46(5):1362-81. doi: 10.1111/j.1475-6773.2011.01265.x. Epub 2011 Apr 21.</citation>
+    <PMID>21517834</PMID>
+  </reference>
+  <reference>
+    <citation>Brenner DJ, Hall EJ. Computed tomography--an increasing source of radiation exposure. N Engl J Med. 2007 Nov 29;357(22):2277-84. Review.</citation>
+    <PMID>18046031</PMID>
+  </reference>
+  <reference>
+    <citation>Jadvar H. SNMMI Leadership Update: Developing Evidence-Based Appropriate Use Criteria under the Protecting Access to Medicare Act of 2014. J Nucl Med. 2015 Nov;56(11):20N.</citation>
+    <PMID>26526797</PMID>
+  </reference>
+  <verification_date>January 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 15, 2015</study_first_submitted>
+  <study_first_submitted_qc>October 15, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 16, 2015</study_first_posted>
+  <last_update_submitted>January 23, 2017</last_update_submitted>
+  <last_update_submitted_qc>January 23, 2017</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 24, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>decision support systems</keyword>
+  <keyword>clinical</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

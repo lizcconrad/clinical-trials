@@ -1,0 +1,198 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03225521</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HUM00103127</org_study_id>
+    <secondary_id>5R01HL125440</secondary_id>
+    <nct_id>NCT03225521</nct_id>
+  </id_info>
+  <brief_title>A Micro-randomized Trial of HeartSteps, an mHealth Intervention for Increasing Physical Activity</brief_title>
+  <acronym>HS</acronym>
+  <official_title>HeartSteps: a Just-in-Time Adaptive Intervention for Increasing Physical Activity Amongst Sedentary Adults.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Michigan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Heart, Lung, and Blood Institute (NHLBI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Michigan</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this research is to evaluate the efficacy of contextually tailored activity
+      suggestions and activity planning for increasing physical activity among sedentary adults.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Physical activity is a key behavioral strategy for prevention of non-communicable diseases
+      such as diabetes and heart disease. Mobile health (mHealth) interventions have shown promise
+      for supporting physical activity adoption and maintenance in ways that are highly acceptable
+      to users, scalable, and cost-efficient. This study examines two intervention
+      strategies—contextually tailored activity suggestions and daily planning of the activity for
+      the next day—that a mobile health intervention can use to encourage physical activity in
+      sedentary adults.
+
+      Study participants use HeartSteps, an mHealth physical intervention developed by the research
+      team, in their daily lives for six weeks. Over the course of the study both of the HeartSteps
+      intervention components—contextually-tailored activity suggestions and activity planning—are
+      micro-randomized for each participant on each of the day of the study, in order the effects
+      on physical activity of each component separately and how those effects change over time.
+
+      The primary hypothesis for suggestions is that providing a contextually tailored activity
+      suggestion increases participant step count over the subsequent 30 minutes following message
+      delivery.
+
+      The first secondary hypothesis for suggestions is that the proximal effect of the
+      contextually tailored activity suggestions on the subsequent 30-minute step count will
+      decrease with duration in the study.
+
+      The primary hypothesis for planning is that receiving evening planning will increase step
+      count on the following day.
+
+      The primary analyses will use the methods developed in Boruvka et al. (2017). The primary
+      longitudinal outcome for activity suggestions will be the log of the step count in the 30
+      minutes subsequent to decision points. The log of the step count in the 30 minutes prior to
+      randomization will be included as a control variable. The primary longitudinal outcome for
+      planning will be the square root of the step count on the day following the randomization of
+      planning treatment.
+
+      All missing but &quot;available&quot; minute-by-minute step counts from the wrist band will be imputed
+      as 0. See &quot;Allocation&quot; section for the definition of availability. Sensitivity analyses using
+      step counts from the mobile phone (secondary data source) will be conducted.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 18, 2015</start_date>
+  <completion_date type="Actual">February 1, 2016</completion_date>
+  <primary_completion_date type="Actual">February 1, 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Each participant-time point is randomized between intervention or no intervention (delivery of a contextually tailored activity suggestion or no suggestion; planning or no planning)</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>30 minute step count</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>30-minute window after each available decision point</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Daily step count</measure>
+    <time_frame>24 hour day</time_frame>
+    <description>Daily step count on the day following treatment</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Thumbs up/down</measure>
+    <time_frame>30-minute window while message is available</time_frame>
+    <description>User ratings of message usefulness (thumbs up/thumbs down rating)</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">44</enrollment>
+  <condition>Physical Activity</condition>
+  <arm_group>
+    <arm_group_label>HeartSteps intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>For activity suggestions, at each available decision time, each participant is randomly assigned to either receive an activity suggestion or not. The randomization probability is 0.6 for receiving a message and 0.4 for not receiving a message.
+For activity planning, at each decision point, the participant is randomized to either receive evening planning or not at that decision time. The randomization probability for receiving planning is 0.5, and 0.5 for not receiving planning.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>HeartSteps: A just-in-time adaptive intervention for increasing physical activity amongst sedentary adults.</intervention_name>
+    <description>HeartSteps is an Android-based mHealth intervention that contains two main intervention components: contextually-tailored suggestions for activity and planning of the next day's activity. Activity suggestions provide individuals with actionable suggestions for how they can be active in their current context. Delivered suggestions are tailored based on time of day, user's location, day of the week (weekend/weekday), and weather. HeartSteps can deliver a user activity suggestions up to five times a day. Evening planning asks users to create or choose a plan of how they will be active on the following day. Planning can be delivered once a day, in the evening.</description>
+    <arm_group_label>HeartSteps intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  English speakers,
+
+          -  between 18 and 60 years of age,
+
+          -  could walk for exercise without discomfort, and
+
+          -  either had a full-time daytime job or a regular schedule outside the home (e.g.,
+             students)
+
+          -  have a personal phone running Android 5.0 or higher or willing to use a study-provided
+             phone as their primary phone for the duration of the study.
+
+        Exclusion Criteria:
+
+          -  Need medical supervision to exercise
+
+          -  Currently using an activity tracker (e.g., FitBit)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <reference>
+    <citation>Boruvka, A., Almirall, D., Witkiewitz, K., &amp; Murphy, S. A. (2017). Assessing Time-Varying Causal Effect Moderation in Mobile Health. Journal of the American Statistical Association, (just-accepted).</citation>
+  </reference>
+  <reference>
+    <citation>Klasnja P, Hekler EB, Shiffman S, Boruvka A, Almirall D, Tewari A, Murphy SA. Microrandomized trials: An experimental design for developing just-in-time adaptive interventions. Health Psychol. 2015 Dec;34S:1220-8. doi: 10.1037/hea0000305.</citation>
+    <PMID>26651463</PMID>
+  </reference>
+  <reference>
+    <citation>Liao P, Klasnja P, Tewari A, Murphy SA. Sample size calculations for micro-randomized trials in mHealth. Stat Med. 2016 May 30;35(12):1944-71. doi: 10.1002/sim.6847. Epub 2015 Dec 28.</citation>
+    <PMID>26707831</PMID>
+  </reference>
+  <verification_date>July 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 19, 2017</study_first_submitted>
+  <study_first_submitted_qc>July 19, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 21, 2017</study_first_posted>
+  <last_update_submitted>July 20, 2017</last_update_submitted>
+  <last_update_submitted_qc>July 20, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 24, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Michigan</investigator_affiliation>
+    <investigator_full_name>Predrag Klasnja</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>Physical Activity</keyword>
+  <keyword>Mobile Health</keyword>
+  <keyword>Self Monitoring</keyword>
+  <keyword>Wearable Sensors</keyword>
+  <keyword>Tailored Health Communication</keyword>
+  <keyword>Implementation Intentions</keyword>
+  <keyword>Mobile Apps</keyword>
+  <keyword>Anti-Sedentary Behavior</keyword>
+  <keyword>Opportunistic Physical Activity</keyword>
+  <keyword>Health Belief Model</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>A de-identified dataset (i.e., containing no raw location/GPS information) will be generated and made available to the research community. The dataset will be stripped of all codes or any other information that could be linked back to the original data or to an individual participant. Prospective users of this dataset must agree to a confidentiality agreement, meaning that they must get permission from the HeartSteps Primary Investigator to share the data with anyone else. All external requests for data will be directed to Dr. Predrag Klasnja. Prospective investigators will submit a written proposal to the HeartSteps Investigator Team outlining the question they will investigate, the specific variables that they need to answer that question, their analytic plan for answering that question, and documentation of sufficient Institutional Review Board oversight (e.g., approval or exemption). Investigators will also need to sign a confidentiality agreement.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

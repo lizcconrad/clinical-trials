@@ -1,0 +1,188 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02803255</url>
+  </required_header>
+  <id_info>
+    <org_study_id>14-027F</org_study_id>
+    <nct_id>NCT02803255</nct_id>
+  </id_info>
+  <brief_title>AAN Robotic Therapy in SCI</brief_title>
+  <official_title>Effect of Assist-as-needed Robot Aided Rehabilitation Strategies in Subjects With Incomplete Spinal Cord Injury</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>William Marsh Rice University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>William Marsh Rice University</source>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to demonstrate that a robot-aided rehabilitation protocol that
+      follows the &quot;assist-as needed&quot; paradigm provide statistically significant improvements in arm
+      and hand motor functions when compared to robot-aided protocols that passively move patients'
+      arms along pre-defined trajectories, in patients with incomplete spinal cord injury (SCI).
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2014</start_date>
+  <completion_date type="Actual">September 2015</completion_date>
+  <primary_completion_date type="Actual">September 2015</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in ARAT score</measure>
+    <time_frame>Difference between values measured i) &lt;1 week before treatment start and ii) &lt;1 week after the end of the 2-4 week long treatment program</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in Modified Ashworth Scale</measure>
+    <time_frame>Difference between values measured i) &lt;1 week before treatment start and ii) &lt;1 week after the end of the 2-4 week long treatment program</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Grip Pinch Strength Assessment</measure>
+    <time_frame>Difference between values measured i) &lt;1 week before treatment start and ii) &lt;1 week after the end of the 2-4 week long treatment program</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Graded Redefined Assessment of Strength, Sensibility and Prehension</measure>
+    <time_frame>Difference between values measured i) &lt;1 week before treatment start and ii) &lt;1 week after the end of the 2-4 week long treatment program</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Smoothness metrics</measure>
+    <time_frame>Difference between values measured i) &lt;1 week before treatment start and ii) &lt;1 week after the end of the 2-4 week long treatment program</time_frame>
+    <description>Measured via analysis of point-to-point reaching movements performed with the robot. Extracted measures include the movement-arrest-period-ratio, the spectral arc length, and the normalized average speed</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in smoothness metrics</measure>
+    <time_frame>Difference between values measured i) treatment start day and ii) session 10 of the therapy program - 2-4 weeks after treatment start</time_frame>
+    <description>Measured via analysis of point-to-point reaching movements performed with the robot. Extracted measures include the movement-arrest-period-ratio, the spectral arc length, and the normalized average speed</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">14</enrollment>
+  <condition>Spinal Cord Injuries</condition>
+  <arm_group>
+    <arm_group_label>Assist-As-Needed Control</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects in this group will interact with a robotic exoskeleton, the MAHI Exo-II, programmed with an &quot;adaptive mode&quot;. In this mode, the robot will continuously assist motion along pre-defined trajectories, but will employ an &quot;assist-as-needed&quot; protocol.
+Here, the amount of assistance provided by the robot will not be always the 100% of that required to complete the task (as in the position control mode), but only a fraction of it. The robot will continuously estimate the residual movement capabilities of the subject, depending on the specific joint addressed in the movement, and will estimate the remaining contribution needed to complete the movement following a predefined trajectory, thus avoiding to over-support motion.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Subject-Triggered Control</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Subjects in group B will interact with a robotic exoskeleton, the MAHI Exo-II, controlled via the subject-triggered mode, as in a previous clinical trial with the MAHI Exo II robotic system. In the subject triggered mode, the MAHIExo II is commanded to regulate joints motion following a position-control control scheme, and using as desired trajectories standardized single-joints profiles that require motion of one of the axes of the exoskeleton (i.e. elbow flexion and extension, forearm pronation and supination, wrist radial and ulnar deviation, wrist flexion and extension). The switch to position control of the exoskeleton is triggered by the application of sufficient force by the subject, in a previous phase where the robot implements a virtual wall.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MAHI Exo-II</intervention_name>
+    <arm_group_label>Assist-As-Needed Control</arm_group_label>
+    <arm_group_label>Subject-Triggered Control</arm_group_label>
+    <other_name>Robot-aided movement therapy</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Twenty adults with chronic incomplete SCI (according to American Spinal Injury Association
+        (ASIA) Impairment Scale (AIS) C-D level) will be recruited from TIRR and from the Houston
+        area.
+
+        Inclusion Criteria:
+
+          1. Providing written informed consent prior to any study related procedures;
+
+          2. Age between 18-75 years;
+
+          3. Diagnosis of chronic complete or incomplete spinal cord injury as defined by the
+             American Spinal Injury Association Impairment scale classification and at least for 6
+             months;
+
+          4. Not being involved in any specific exercise program (e.g., NMES, FES) within the
+             previous 3 months;
+
+          5. No planned alteration in upper-extremity therapy or medication for muscle tone during
+             the course of the study;
+
+          6. Eligibility for standard rehabilitation at the time of enrollment (i.e., absence
+             medical comorbidities that would prevent standard rehabilitation);
+
+          7. No condition (e.g., severe arthritis, extreme shoulder pain) that would interfere with
+             valid administration of the measures or with interpreting motor testing;
+
+        Exclusion Criteria: Subjects will be excluded if they have:
+
+          1. Any joint contracture or severe spasticity in the affected upper extremity, as
+             measured by a Modified Ashworth Score &gt; than 3 out of 4;
+
+          2. Subject who cannot provide self-transportation to the study location.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marcia K. O'Malley, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>William Marsh Rice University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Rice University</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77005</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>TIRR Memorial Hermann</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 25, 2016</study_first_submitted>
+  <study_first_submitted_qc>June 13, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 16, 2016</study_first_posted>
+  <last_update_submitted>June 13, 2016</last_update_submitted>
+  <last_update_submitted_qc>June 13, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">June 16, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Injuries</keyword>
+  <keyword>Spinal Cord</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Spinal Cord Injuries</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

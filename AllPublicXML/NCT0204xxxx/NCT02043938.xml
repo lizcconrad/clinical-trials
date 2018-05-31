@@ -1,0 +1,1078 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02043938</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STRU0002</org_study_id>
+    <nct_id>NCT02043938</nct_id>
+  </id_info>
+  <brief_title>Improving Information Extraction From EEG on Cerebral Anesthetic Drug Effects</brief_title>
+  <official_title>'Study of the Cerebral Effects of Sevoflurane, Propofol and Remifentanil as Measured by the Spontaneous Electro-encephalogram'</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Masimo Corporation</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University Medical Center Groningen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Masimo Corporation</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>No</is_unapproved_device>
+    <is_ppsd>No</is_ppsd>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is an interventional, randomized controlled study in health volunteers that involves
+      collecting data on raw EEG waves measuring various combinations of anesthetic drugs during
+      standardized drug titration.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">December 16, 2013</start_date>
+  <completion_date type="Actual">June 4, 2015</completion_date>
+  <primary_completion_date type="Actual">June 4, 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Patient State Index (PSI) Comparison, Baseline and Emax</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Patient State Index (PSI-1) is a processed EEG parameter that quantifies the level of EEG inhibition. A new algorithm (PSI-2) has been created to improve performance in low power EEG. PSI is unitless. It ranges between 100 and 0 (100 representing 'awake state', 0 denoting 'no detectable electrical brain activity'). PSI-1 and PSI-2 were compared in their correlation with measured propofol and sevoflurane concentrations with or without remifentanil (0, 2 ,or 4 ng/mL) via several estimated PD model parameters. In the data table, BL (Baseline) denotes PSI-2 measurements when no drug is present; Emax denotes PSI in the presence of the maximum drug effect; C50 is the drug concentration which produces 50% of the maximal drug effect (ug/mL for Propofol C50, vol% for Sevoflurane C50).</description>
+  </primary_outcome>
+  <other_outcome>
+    <measure>Patient State Index (PSI) Comparison, C50 (Sevoflurane, Sevoflurane+Remifentanil)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Patient State Index (PSI-1) is a processed EEG parameter that quantifies the level of EEG inhibition. A new algorithm (PSI-2) has been created to improve performance in low power EEG. PSI is unitless. It ranges between 100 and 0 (100 representing 'awake state', 0 denoting 'no detectable electrical brain activity'). PSI-1 and PSI-2 were compared in their correlation with measured propofol and sevoflurane concentrations with or without remifentanil (0, 2 ,or 4 ng/mL) via several estimated PD model parameters. In the data table, BL (Baseline) denotes PSI-2 measurements when no drug is present; Emax denotes PSI in the presence of the maximum drug effect; C50 is the drug concentration which produces 50% of the maximal drug effect (ug/mL for Propofol C50, vol% for Sevoflurane C50).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Patient State Index (PSI) Comparison, C50 (Propofol, Propofol+Remifentanil)</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Patient State Index (PSI-1) is a processed EEG parameter that quantifies the level of EEG inhibition. A new algorithm (PSI-2) has been created to improve performance in low power EEG. PSI is unitless. It ranges between 100 and 0 (100 representing 'awake state', 0 denoting 'no detectable electrical brain activity'). PSI-1 and PSI-2 were compared in their correlation with measured propofol and sevoflurane concentrations with or without remifentanil (0, 2 ,or 4 ng/mL) via several estimated PD model parameters. In the data table, BL (Baseline) denotes PSI-2 measurements when no drug is present; Emax denotes PSI in the presence of the maximum drug effect; C50 is the drug concentration which produces 50% of the maximal drug effect (ug/mL for Propofol C50, vol% for Sevoflurane C50).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Propofol, Sevoflurane, and Remifentanil Interaction.</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>For all study groups (i.e. P, S, PR, and SR), the estimated PD model parameters that represent remifentanil interactions are Theta1 and Theta2, which are unit-less values. Theta1 and Theta2 are zero for all volunteers not receiving remifentanil. In case an interaction between remifentanil and propofol or sevoflurane exists, the estimate for Theta1 will be significantly different from zero. If the interaction in the 4 ng/mL group exceeds the estimated interaction for the 2 ng/mL group, Theta2 will be significantly higher than zero.</description>
+  </other_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">46</enrollment>
+  <condition>Anesthesia</condition>
+  <arm_group>
+    <arm_group_label>Healthy Volunteers</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All healthy volunteers will receive four sessions of anesthesia with different common drug combinations while having SedLine EEG sensors placed on their forehead during these sessions to study the effects of these drugs on the brain. The sessions were: propofol (P), sevoflurane (S), propofol with remifentanil (PR), and sevoflurane with remifentanil (SR).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>SedLine EEG sensor</intervention_name>
+    <description>Test subjects in each group will receive the same device intervention (SedLine EEG) to monitor their EEG waves.</description>
+    <arm_group_label>Healthy Volunteers</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Healthy volunteers aged 18 to 70 years
+
+          -  Concerning the cognitive function: Volunteers are considered to have sufficient
+             cognitive reserve if they are able to read and comprehend the patient information
+             form, if they can adequately answer the anamnestic questions during the screening
+             process and if they are allowed to provide legitimate written informed consent
+
+          -  No selection will be made regarding ethnic background.
+
+          -  For this study no control group has been selected as EEG is compared between episodes
+             rather than between individuals (each volunteer is his/her own control)
+
+        Exclusion Criteria:
+
+        Volunteer refusal
+
+          -  Volunteer &lt; 18 years and &gt;70 years
+
+          -  Pregnancy
+
+          -  Exclusion criteria are weight less than 70% or more than 130% of ideal body weight
+
+          -  Neurological disorder (epilepsy, the presence of a brain tumor, a history of brain
+             surgery, hydrocephalic disorders, depression needing treatment with anti-depressive
+             drugs, a history of brain trauma, a subarachnoidal bleeding, TIA or cerebral infarct,
+             psychosis or dementia , schizophrenia, alcohol or drug abuse).
+
+          -  Diseases involving the cardiovascular system (hypertension, coronary artery disease,
+             prior acute myocardial infarction, any valvular and/or myocardial disease involving
+             decrease in ejection fraction, arrhythmias, which are either symptomatic or require
+             continuous medication/pacemaker/automatic internal cardioverter defibrillator
+
+          -  Pulmonary Diseases
+
+          -  Gastric Diseases
+
+          -  Endocrinologic diseases
+
+          -  Recent use of psycho-active medication (benzodiazepines, anti-epileptic drugs,
+             parkinson medication, anti-depressant drugs, opioids) or more than 20g of alcohol
+             daily
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>University Medical Center Groningen</name>
+      <address>
+        <city>Groningen</city>
+        <zip>9713EZ</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 9, 2014</study_first_submitted>
+  <study_first_submitted_qc>January 21, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 23, 2014</study_first_posted>
+  <results_first_submitted>August 21, 2017</results_first_submitted>
+  <results_first_submitted_qc>March 30, 2018</results_first_submitted_qc>
+  <results_first_posted type="Actual">May 2, 2018</results_first_posted>
+  <last_update_submitted>March 30, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 30, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 2, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Electroencephalography</keyword>
+  <keyword>pharmacological</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Remifentanil</mesh_term>
+    <mesh_term>Sevoflurane</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Healthy Volunteers</title>
+          <description>Thirty-six healthy volunteers received four sessions of anesthesia with different common drug combinations while having SedLine EEG sensors placed on their forehead during these sessions to study the effects of these drugs on the brain. The sessions were: propofol (P), sevoflurane (S), propofol with remifentanil (PR), and sevoflurane with remifentanil (SR).</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="46"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="36"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="10"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="7"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Unable to place EEG sensors on patient</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>No show by subject</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Investigator decision</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Healthy Volunteers</title>
+          <description>Thirty-six healthy volunteers received four sessions of anesthesia with different common drug combinations while having SedLine EEG sensors placed on their forehead during these sessions to study the effects of these drugs on the brain. The sessions were: propofol (P), sevoflurane (S), propofol with remifentanil (PR), and sevoflurane with remifentanil (SR).</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="36"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="43.3" lower_limit="20" upper_limit="70"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Netherlands</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="36"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Patient State Index (PSI) Comparison, Baseline and Emax</title>
+        <description>Patient State Index (PSI-1) is a processed EEG parameter that quantifies the level of EEG inhibition. A new algorithm (PSI-2) has been created to improve performance in low power EEG. PSI is unitless. It ranges between 100 and 0 (100 representing 'awake state', 0 denoting 'no detectable electrical brain activity'). PSI-1 and PSI-2 were compared in their correlation with measured propofol and sevoflurane concentrations with or without remifentanil (0, 2 ,or 4 ng/mL) via several estimated PD model parameters. In the data table, BL (Baseline) denotes PSI-2 measurements when no drug is present; Emax denotes PSI in the presence of the maximum drug effect; C50 is the drug concentration which produces 50% of the maximal drug effect (ug/mL for Propofol C50, vol% for Sevoflurane C50).</description>
+        <time_frame>6 weeks</time_frame>
+        <population>All 36 participants experienced all four interventions: Propofol only (P), Sevoflurane only (S), Propofol with Remifentanil (PR), and Sevoflurane with Remifentanil (SR).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Healthy Volunteers</title>
+            <description>Thirty-six healthy volunteers received four sessions of anesthesia with different common drug combinations while having SedLine EEG sensors placed on their forehead during these sessions to study the effects of these drugs on the brain. The sessions were: propofol (P), sevoflurane (S), propofol with remifentanil (PR), and sevoflurane with remifentanil (SR).</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Patient State Index (PSI) Comparison, Baseline and Emax</title>
+          <description>Patient State Index (PSI-1) is a processed EEG parameter that quantifies the level of EEG inhibition. A new algorithm (PSI-2) has been created to improve performance in low power EEG. PSI is unitless. It ranges between 100 and 0 (100 representing 'awake state', 0 denoting 'no detectable electrical brain activity'). PSI-1 and PSI-2 were compared in their correlation with measured propofol and sevoflurane concentrations with or without remifentanil (0, 2 ,or 4 ng/mL) via several estimated PD model parameters. In the data table, BL (Baseline) denotes PSI-2 measurements when no drug is present; Emax denotes PSI in the presence of the maximum drug effect; C50 is the drug concentration which produces 50% of the maximal drug effect (ug/mL for Propofol C50, vol% for Sevoflurane C50).</description>
+          <population>All 36 participants experienced all four interventions: Propofol only (P), Sevoflurane only (S), Propofol with Remifentanil (PR), and Sevoflurane with Remifentanil (SR).</population>
+          <units>index</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="36"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>No Drugs, PSI-2 (BL)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="85.1" spread="0.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>P, PSI-2 (Emax)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="63.1" spread="1.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>PR, PSI-2 (Emax)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="63.1" spread="1.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>S, PSI-2 (Emax)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="67.2" spread="2.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>SR, PSI-2 (Emax)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="67.2" spread="2.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>No Drugs, PSI-1 (BL)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="85.1" spread="0.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>P, PSI-1 (Emax)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="63.1" spread="1.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>PR, PSI-1 (Emax)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="63.1" spread="1.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>S, PSI-1 (Emax)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.152" spread="17.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>SR, PSI-1 (Emax)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.152" spread="17.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Patient State Index (PSI) Comparison, C50 (Sevoflurane, Sevoflurane+Remifentanil)</title>
+        <description>Patient State Index (PSI-1) is a processed EEG parameter that quantifies the level of EEG inhibition. A new algorithm (PSI-2) has been created to improve performance in low power EEG. PSI is unitless. It ranges between 100 and 0 (100 representing 'awake state', 0 denoting 'no detectable electrical brain activity'). PSI-1 and PSI-2 were compared in their correlation with measured propofol and sevoflurane concentrations with or without remifentanil (0, 2 ,or 4 ng/mL) via several estimated PD model parameters. In the data table, BL (Baseline) denotes PSI-2 measurements when no drug is present; Emax denotes PSI in the presence of the maximum drug effect; C50 is the drug concentration which produces 50% of the maximal drug effect (ug/mL for Propofol C50, vol% for Sevoflurane C50).</description>
+        <time_frame>6 weeks</time_frame>
+        <population>All 36 participants experienced all four interventions: Propofol only (P), Sevoflurane only (S), Propofol with Remifentanil (PR), and Sevoflurane with Remifentanil (SR).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Healthy Volunteers</title>
+            <description>Thirty-six healthy volunteers received four sessions of anesthesia with different common drug combinations while having SedLine EEG sensors placed on their forehead during these sessions to study the effects of these drugs on the brain. The sessions were: propofol (P), sevoflurane (S), propofol with remifentanil (PR), and sevoflurane with remifentanil (SR).</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Patient State Index (PSI) Comparison, C50 (Sevoflurane, Sevoflurane+Remifentanil)</title>
+          <description>Patient State Index (PSI-1) is a processed EEG parameter that quantifies the level of EEG inhibition. A new algorithm (PSI-2) has been created to improve performance in low power EEG. PSI is unitless. It ranges between 100 and 0 (100 representing 'awake state', 0 denoting 'no detectable electrical brain activity'). PSI-1 and PSI-2 were compared in their correlation with measured propofol and sevoflurane concentrations with or without remifentanil (0, 2 ,or 4 ng/mL) via several estimated PD model parameters. In the data table, BL (Baseline) denotes PSI-2 measurements when no drug is present; Emax denotes PSI in the presence of the maximum drug effect; C50 is the drug concentration which produces 50% of the maximal drug effect (ug/mL for Propofol C50, vol% for Sevoflurane C50).</description>
+          <population>All 36 participants experienced all four interventions: Propofol only (P), Sevoflurane only (S), Propofol with Remifentanil (PR), and Sevoflurane with Remifentanil (SR).</population>
+          <units>%vol</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="36"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>S, PSI-2 (C50)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.22" spread="3.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>SR, PSI-2 (C50)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.22" spread="3.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>S, PSI-1 (C50)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.22" spread="3.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>SR, PSI-1 (C50)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.22" spread="3.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Patient State Index (PSI) Comparison, C50 (Propofol, Propofol+Remifentanil)</title>
+        <description>Patient State Index (PSI-1) is a processed EEG parameter that quantifies the level of EEG inhibition. A new algorithm (PSI-2) has been created to improve performance in low power EEG. PSI is unitless. It ranges between 100 and 0 (100 representing 'awake state', 0 denoting 'no detectable electrical brain activity'). PSI-1 and PSI-2 were compared in their correlation with measured propofol and sevoflurane concentrations with or without remifentanil (0, 2 ,or 4 ng/mL) via several estimated PD model parameters. In the data table, BL (Baseline) denotes PSI-2 measurements when no drug is present; Emax denotes PSI in the presence of the maximum drug effect; C50 is the drug concentration which produces 50% of the maximal drug effect (ug/mL for Propofol C50, vol% for Sevoflurane C50).</description>
+        <time_frame>6 weeks</time_frame>
+        <population>All 36 participants experienced all four interventions: Propofol only (P), Sevoflurane only (S), Propofol with Remifentanil (PR), and Sevoflurane with Remifentanil (SR).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Healthy Volunteers</title>
+            <description>Thirty-six healthy volunteers received four sessions of anesthesia with different common drug combinations while having SedLine EEG sensors placed on their forehead during these sessions to study the effects of these drugs on the brain. The sessions were: propofol (P), sevoflurane (S), propofol with remifentanil (PR), and sevoflurane with remifentanil (SR).</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Patient State Index (PSI) Comparison, C50 (Propofol, Propofol+Remifentanil)</title>
+          <description>Patient State Index (PSI-1) is a processed EEG parameter that quantifies the level of EEG inhibition. A new algorithm (PSI-2) has been created to improve performance in low power EEG. PSI is unitless. It ranges between 100 and 0 (100 representing 'awake state', 0 denoting 'no detectable electrical brain activity'). PSI-1 and PSI-2 were compared in their correlation with measured propofol and sevoflurane concentrations with or without remifentanil (0, 2 ,or 4 ng/mL) via several estimated PD model parameters. In the data table, BL (Baseline) denotes PSI-2 measurements when no drug is present; Emax denotes PSI in the presence of the maximum drug effect; C50 is the drug concentration which produces 50% of the maximal drug effect (ug/mL for Propofol C50, vol% for Sevoflurane C50).</description>
+          <population>All 36 participants experienced all four interventions: Propofol only (P), Sevoflurane only (S), Propofol with Remifentanil (PR), and Sevoflurane with Remifentanil (SR).</population>
+          <units>ug/mL</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="36"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>P, PSI-2 (C50)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.63" spread="3.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>PR, PSI-2 (C50)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.63" spread="3.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>P, PSI-1 (C50)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.63" spread="3.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>PR, PSI-1 (C50)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.63" spread="3.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Propofol, Sevoflurane, and Remifentanil Interaction.</title>
+        <description>For all study groups (i.e. P, S, PR, and SR), the estimated PD model parameters that represent remifentanil interactions are Theta1 and Theta2, which are unit-less values. Theta1 and Theta2 are zero for all volunteers not receiving remifentanil. In case an interaction between remifentanil and propofol or sevoflurane exists, the estimate for Theta1 will be significantly different from zero. If the interaction in the 4 ng/mL group exceeds the estimated interaction for the 2 ng/mL group, Theta2 will be significantly higher than zero.</description>
+        <time_frame>6 weeks</time_frame>
+        <population>18 participants experienced the remifentanil 2 ng/mL intervention, and 18 participants experienced the remifentanil 4 ng/mL intervention.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Healthy Volunteers</title>
+            <description>Thirty-six healthy volunteers received four sessions of anesthesia with different common drug combinations while having SedLine EEG sensors placed on their forehead during these sessions to study the effects of these drugs on the brain. The sessions were: propofol (P), sevoflurane (S), propofol with remifentanil (PR), and sevoflurane with remifentanil (SR).</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Propofol, Sevoflurane, and Remifentanil Interaction.</title>
+          <description>For all study groups (i.e. P, S, PR, and SR), the estimated PD model parameters that represent remifentanil interactions are Theta1 and Theta2, which are unit-less values. Theta1 and Theta2 are zero for all volunteers not receiving remifentanil. In case an interaction between remifentanil and propofol or sevoflurane exists, the estimate for Theta1 will be significantly different from zero. If the interaction in the 4 ng/mL group exceeds the estimated interaction for the 2 ng/mL group, Theta2 will be significantly higher than zero.</description>
+          <population>18 participants experienced the remifentanil 2 ng/mL intervention, and 18 participants experienced the remifentanil 4 ng/mL intervention.</population>
+          <units>Index</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="36"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Theta1, PSI-2 (P)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" spread="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta1, PSI-2 (S)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" spread="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta1, PSI-2 (PR 2ng/mL)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.135" spread="20.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta1, PSI-2 (SR 2ng/mL)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.135" spread="20.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta1, PSI-1 (P)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" spread="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta1, PSI-1 (S)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" spread="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta1, PSI-1 (PR 2ng/mL)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.135" spread="20.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta1, PSI-1 (SR 2ng/mL)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.135" spread="20.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta2, PSI-2 (P)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" spread="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta2, PSI-2 (S)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" spread="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta2, PSI-2 (PR 4ng/mL)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.816" spread="62.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta2, PSI-2 (SR 4ng/mL)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.816" spread="62.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta2, PSI-1 (P)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" spread="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta2, PSI-1 (S)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" spread="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta2, PSI-1 (PR 4ng/mL)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.816" spread="62.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Theta2, PSI-1 (SR 4ng/mL)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.816" spread="62.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Healthy Volunteers, Propofol (P)</title>
+          <description>Thirty-six healthy volunteers received four sessions of anesthesia with different common drug combinations while having SedLine EEG sensors placed on their forehead during these sessions to study the effects of these drugs on the brain. The sessions were: propofol (P), sevoflurane (S), propofol with remifentanil (PR), and sevoflurane with remifentanil (SR).</description>
+        </group>
+        <group group_id="E2">
+          <title>Healthy Volunteers, Sevoflurane (S)</title>
+          <description>Thirty-six healthy volunteers received four sessions of anesthesia with different common drug combinations while having SedLine EEG sensors placed on their forehead during these sessions to study the effects of these drugs on the brain. The sessions were: propofol (P), sevoflurane (S), propofol with remifentanil (PR), and sevoflurane with remifentanil (SR).</description>
+        </group>
+        <group group_id="E3">
+          <title>Healthy Volunteers, Propofol With Remifentanil (PR)</title>
+          <description>Thirty-six healthy volunteers received four sessions of anesthesia with different common drug combinations while having SedLine EEG sensors placed on their forehead during these sessions to study the effects of these drugs on the brain. The sessions were: propofol (P), sevoflurane (S), propofol with remifentanil (PR), and sevoflurane with remifentanil (SR).</description>
+        </group>
+        <group group_id="E4">
+          <title>Healthy Volunteers, Sevoflurane With Remifentanil (SR)</title>
+          <description>Thirty-six healthy volunteers received four sessions of anesthesia with different common drug combinations while having SedLine EEG sensors placed on their forehead during these sessions to study the effects of these drugs on the brain. The sessions were: propofol (P), sevoflurane (S), propofol with remifentanil (PR), and sevoflurane with remifentanil (SR).</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="36"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="36"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="36"/>
+                <counts group_id="E2" subjects_affected="2" subjects_at_risk="36"/>
+                <counts group_id="E3" subjects_affected="1" subjects_at_risk="36"/>
+                <counts group_id="E4" subjects_affected="7" subjects_at_risk="36"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Short phase of nodale ECG rhythm</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E4" events="1" subjects_affected="1" subjects_at_risk="36"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Vomiting</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E2" events="2" subjects_affected="2" subjects_at_risk="36"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E4" events="2" subjects_affected="2" subjects_at_risk="36"/>
+              </event>
+              <event>
+                <sub_title>Temporary numb sensation in hand</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="36"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E4" events="0" subjects_affected="0" subjects_at_risk="36"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Injury, poisoning and procedural complications</title>
+            <event_list>
+              <event>
+                <sub_title>Pain at arterial line site</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E4" events="1" subjects_affected="1" subjects_at_risk="36"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Renal and urinary disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Urine tract infection</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E3" events="1" subjects_affected="1" subjects_at_risk="36"/>
+                <counts group_id="E4" events="2" subjects_affected="2" subjects_at_risk="36"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Vascular disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hypotension</sub_title>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="36"/>
+                <counts group_id="E4" events="1" subjects_affected="1" subjects_at_risk="36"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>The only disclosure restriction on the PI is that the sponsor can review results communications prior to public release and can embargo communications regarding trial results for a period that is more than 60 days but less than or equal to 180 days. The sponsor cannot require changes to the communication and cannot extend the embargo.</restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Vikram Ramakanth</name_or_title>
+      <organization>Masimo</organization>
+      <email>clinicalresearchdept@masimo.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

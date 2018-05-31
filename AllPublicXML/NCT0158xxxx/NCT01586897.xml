@@ -1,0 +1,662 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01586897</url>
+  </required_header>
+  <id_info>
+    <org_study_id>R18HS018648</org_study_id>
+    <nct_id>NCT01586897</nct_id>
+  </id_info>
+  <brief_title>The Medication Metronome Project - Study to Facilitate Follow-up Testing Resulting From Prescribed Medications to Improve Patient Safety and Care</brief_title>
+  <official_title>The Medication Metronome Project</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Massachusetts General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Agency for Healthcare Research and Quality (AHRQ)</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Massachusetts General Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project tests a model of chronic disease medication management in which the decision to
+      initiate or adjust medical therapy is directly linked to a sequence of subsequent clinical
+      actions (e.g. monitoring for adverse drug events, assessing response to therapy, changing
+      medication dose) performed independently of the office visit. The investigators hypothesize
+      that establishing a visit-independent, health information technology (IT) supported cycle of
+      laboratory monitoring and iterative medication dose adjustment will result in more effective
+      chronic disease care.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      To implement a new model of chronic disease management, we will build on our existing
+      electronic health record and integrated data systems to develop an advanced health IT
+      application called the &quot;Medication Metronome&quot; to enable providers to schedule future
+      laboratory tests related to a specific set of medications (for glycemic, cholesterol, and
+      blood pressure management). As these lab test dates become due, the Medication Metronome
+      system will remind patients via letter and inform providers when the tests remain &quot;missing.&quot;
+      The goal of this intervention is to implement an efficient, visit-independent system to
+      ensure that patients are rapidly and safely brought to evidence-based treatment goals and to
+      prevent delays in planned laboratory monitoring. This study has the following aims:
+
+      Aim 1: To develop the Medication Metronome system. This work involves health IT development
+      and evaluation of design prototypes to create a system that supports timely medication
+      intensification, improves safety, and meets both patient and provider needs.
+
+      Aim 2: To conduct a randomized controlled trial of the Medication Metronome system. We will
+      use three target chronic conditions to test different elements of the system. We hypothesize
+      that use of the Medication Metronome system will lead to:
+
+      H2a. More effective HbA1c control among patients with type 2 diabetes prescribed hypoglycemic
+      medicines; H2b. Safer medication management among patients with hypertension prescribed
+      thiazide diuretics, angiotensin converting enzyme inhibitors, or angiotensin II receptor
+      blockers; H2c. Both more effective LDL-cholesterol control and safer monitoring for hepatitis
+      among patients with hyperlipidemia prescribed HMG-CoA reductase inhibitors.
+
+      Aim 3: To evaluate the impact of the Medication Metronome visit-independent care model on the
+      content of office-based visits. Time spent addressing different clinical care domains will be
+      assessed using audiotape-based content analysis in a subset of selected office visits.
+
+      Summary: We will implement, and rigorously evaluate a health IT-supported model of
+      visit-independent medication management designed to enable safer and more effective chronic
+      disease care. We will also carefully investigate the impact of this system on primary care
+      visits. The broader goal of this work is to support health delivery redesign that fosters
+      patient-centered primary care by combining visit-independent medication management with more
+      productive visit-based patient-provider interactions.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2012</start_date>
+  <completion_date type="Actual">May 2013</completion_date>
+  <primary_completion_date type="Actual">May 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Primary Effectiveness Outcome - LDL</measure>
+    <time_frame>1 year</time_frame>
+    <description>Percentage of follow-up time (from initial prescription to final laboratory result available during the 18-month study period) that a patient is at or below risk factor goal for LDL(LDL-cholesterol ≤ 130 mg/dL for patients without cardiovascular risk and ≤ 100 mg/dl for patients with cardiovascular risk).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Primary Effectiveness Outcome - A1c</measure>
+    <time_frame>1 year</time_frame>
+    <description>Percentage of follow-up time (from initial prescription to final laboratory result available during the 18-month study period) that a patient is at or below risk factor goal for HbA1c(HbA1c ≤ 7.0%).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Medication Safety Monitoring - Statins</measure>
+    <time_frame>Within 4 weeks following prescription</time_frame>
+    <description>Percentage of laboratory tests (liver function tests after a new statin prescription or a change in statin dose) that have been measured within 4 weeks following prescription. Treatment guidelines for prescription of statins recommend follow-up liver function testing. We chose 4-weeks following the prescription to represent successful safety monitoring.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Medication Safety Monitoring - Metformin</measure>
+    <time_frame>Within 4 weeks following prescription</time_frame>
+    <description>Percentage of renal function laboratory tests that have been measured within 4-weeks following prescription. Treatment guidelines for prescription of metformin recommend renal function testing. We chose 4- weeks following the prescription to represent successful safety monitoring.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Medication Safety Monitoring - ACE/ARB, Thiazide</measure>
+    <time_frame>Within 4 weeks following prescription</time_frame>
+    <description>Percentage of laboratory tests (potassium for thiazides, renal/potassium for ACE/ARBs that have been measured within 4-weeks following prescription. Treatment guidelines for prescription of ACE/ARBs recommend renal/potassium testing and potassium testing for prescription of thiazides. We chose 4-weeks following the prescription to represent successful safety monitoring.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">52</enrollment>
+  <condition>Diabetes Mellitus, Type 2</condition>
+  <condition>Hypertension</condition>
+  <condition>Hyperlipidemia</condition>
+  <arm_group>
+    <arm_group_label>Use of Medication Metronome</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Providers allocated to intervention will automatically see an additional feature when logging on to their electronic health record medication prescription interface that enables them to schedule future laboratory testing for the pre-defined subset of study-specific medications. New prescription or dose adjustment by the PCP of one of these pre-specified medications used to treat type 2 diabetes, hypertension, or hyperlipidemia will initiate the follow-up result monitoring, patient outreach, and PCP reminders that constitute the Medication Metronome system.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>PCPs allocated to the control arm will continue with usual care practices for laboratory monitoring.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Medication Metronome</intervention_name>
+    <description>Providers allocated to intervention will see an additional feature when logging on to their electronic health record medication prescription interface that enables them to schedule future laboratory testing for the pre-defined subset of study-specific medications. New prescription or dose adjustment by the PCP of one of these pre-specified medications used to treat type 2 diabetes, hypertension, or hyperlipidemia will initiate the follow-up result monitoring, patient outreach, and PCP reminders that constitute the Medication Metronome system.</description>
+    <arm_group_label>Use of Medication Metronome</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Usual Care</intervention_name>
+    <arm_group_label>Usual Care</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All primary care physicians from participating practices will be eligible to
+             participate in the study.
+
+               -  Patients Eligible for Analysis: The primary unit of analysis will be prescribed
+                  medicine, grouped with patient and within prescribing PCP. Three potentially
+                  overlapping medication-based cohorts will be defined: 1) Patients prescribed any
+                  hypoglycemic agents, 2) Patients prescribed thiazide diuretics, ACE-Is, or ARBs,
+                  and 3) Patients prescribed statins. Based on this design, individual patients may
+                  contribute to more than one medication analytic cohort.
+
+        Exclusion Criteria:
+
+          -  Patients Excluded from Analysis: Patients who are subsequently identified as having
+             died during the course of the study intervention using the Social Security Death
+             Index, to have left the MGH system, or to have changed PCPs.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Steven J Atlas, MD, MPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Massachusetts General Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Massachusetts General Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 25, 2012</study_first_submitted>
+  <study_first_submitted_qc>April 26, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 27, 2012</study_first_posted>
+  <results_first_submitted>July 8, 2015</results_first_submitted>
+  <results_first_submitted_qc>November 4, 2015</results_first_submitted_qc>
+  <results_first_posted type="Estimate">December 9, 2015</results_first_posted>
+  <last_update_submitted>December 8, 2015</last_update_submitted>
+  <last_update_submitted_qc>December 8, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 11, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Massachusetts General Hospital</investigator_affiliation>
+    <investigator_full_name>Steven Atlas</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>health information technology</keyword>
+  <keyword>primary care</keyword>
+  <keyword>visit-independent</keyword>
+  <keyword>medication monitoring</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 2</mesh_term>
+    <mesh_term>Hyperlipidemias</mesh_term>
+    <mesh_term>Hyperlipoproteinemias</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Primary Care Physicians were recruited and randomized to intervention or control arms, but data were collected and analyzed for the patients of the Primary Care Physicians.</recruitment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Use of Medication Metronome</title>
+          <description>Medication Metronome: Providers allocated to intervention will see an additional feature when logging on to their electronic health record medication prescription interface that enables them to schedule future laboratory testing for the pre-defined subset of study-specific medications. New prescription or dose adjustment by the PCP of one of these pre-specified medications used to treat type 2 diabetes, hypertension, or hyperlipid.
+26 Primary Care Physicians were randomized to &quot;Use of Medication Metronome&quot; with 2049 patients analyzed.</description>
+        </group>
+        <group group_id="P2">
+          <title>Usual Care</title>
+          <description>PCPs allocated to the control arm will continue with usual care practices for laboratory monitoring.
+Usual Care
+26 Primary Care Physicians randomized to Usual Care, with 1606 patients analyzed.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="26"/>
+                <participants group_id="P2" count="26"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="26"/>
+                <participants group_id="P2" count="26"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Use of Medication Metronome</title>
+          <description>Medication Metronome: PCPs allocated to intervention will see an additional feature when logging on to their electronic health record medication prescription interface that enables them to schedule future laboratory testing for the pre-defined subset of study-specific medications. New prescription or dose adjustment by the PCP of one of these pre-specified medications used to treat type 2 diabetes, hypertension, or hyperlipid.
+While PCPs were randomized, analyses were at the patient level. Characteristics presented represent eligible patients of randomized PCPs.</description>
+        </group>
+        <group group_id="B2">
+          <title>Usual Care</title>
+          <description>PCPs allocated to the control arm will continue with usual care practices for laboratory monitoring.
+Usual Care
+While PCPs were randomized, analyses were at the patient level. Characteristics presented represent eligible patients of randomized PCPs.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="2049"/>
+            <count group_id="B2" value="1606"/>
+            <count group_id="B3" value="3655"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="65.9" spread="13.1"/>
+                    <measurement group_id="B2" value="65.7" spread="12.8"/>
+                    <measurement group_id="B3" value="65.8" spread="13.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="979"/>
+                    <measurement group_id="B2" value="850"/>
+                    <measurement group_id="B3" value="1829"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1070"/>
+                    <measurement group_id="B2" value="756"/>
+                    <measurement group_id="B3" value="1826"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Primary Effectiveness Outcome - LDL</title>
+        <description>Percentage of follow-up time (from initial prescription to final laboratory result available during the 18-month study period) that a patient is at or below risk factor goal for LDL(LDL-cholesterol ≤ 130 mg/dL for patients without cardiovascular risk and ≤ 100 mg/dl for patients with cardiovascular risk).</description>
+        <time_frame>1 year</time_frame>
+        <population>Patients prescribed statins during the study period</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Use of Medication Metronome</title>
+            <description>Medication Metronome: Providers allocated to intervention will see an additional feature when logging on to their electronic health record medication prescription interface that enables them to schedule future laboratory testing for the pre-defined subset of study-specific medications. New prescription or dose adjustment by the PCP of one of these pre-specified medications used to treat type 2 diabetes, hypertension, or hyperlipid</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care</title>
+            <description>PCPs allocated to the control arm will continue with usual care practices for laboratory monitoring.
+Usual Care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Primary Effectiveness Outcome - LDL</title>
+          <description>Percentage of follow-up time (from initial prescription to final laboratory result available during the 18-month study period) that a patient is at or below risk factor goal for LDL(LDL-cholesterol ≤ 130 mg/dL for patients without cardiovascular risk and ≤ 100 mg/dl for patients with cardiovascular risk).</description>
+          <population>Patients prescribed statins during the study period</population>
+          <units>percentage of time spent at goal</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="953"/>
+                <count group_id="O2" value="703"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="57.9" spread="44.4"/>
+                    <measurement group_id="O2" value="54.8" spread="46.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Primary Effectiveness Outcome - A1c</title>
+        <description>Percentage of follow-up time (from initial prescription to final laboratory result available during the 18-month study period) that a patient is at or below risk factor goal for HbA1c(HbA1c ≤ 7.0%).</description>
+        <time_frame>1 year</time_frame>
+        <population>Patients prescribed oral medications for diabetes control during the study period</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Use of Medication Metronome</title>
+            <description>Medication Metronome: Providers allocated to intervention will see an additional feature when logging on to their electronic health record medication prescription interface that enables them to schedule future laboratory testing for the pre-defined subset of study-specific medications. New prescription or dose adjustment by the PCP of one of these pre-specified medications used to treat type 2 diabetes, hypertension, or hyperlipid</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care</title>
+            <description>PCPs allocated to the control arm will continue with usual care practices for laboratory monitoring.
+Usual Care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Primary Effectiveness Outcome - A1c</title>
+          <description>Percentage of follow-up time (from initial prescription to final laboratory result available during the 18-month study period) that a patient is at or below risk factor goal for HbA1c(HbA1c ≤ 7.0%).</description>
+          <population>Patients prescribed oral medications for diabetes control during the study period</population>
+          <units>percentage of time spent at goal</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="318"/>
+                <count group_id="O2" value="300"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="32.5" spread="43.2"/>
+                    <measurement group_id="O2" value="34.3" spread="42.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Medication Safety Monitoring - Statins</title>
+        <description>Percentage of laboratory tests (liver function tests after a new statin prescription or a change in statin dose) that have been measured within 4 weeks following prescription. Treatment guidelines for prescription of statins recommend follow-up liver function testing. We chose 4-weeks following the prescription to represent successful safety monitoring.</description>
+        <time_frame>Within 4 weeks following prescription</time_frame>
+        <population>Patients prescribed statins</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Use of Medication Metronome</title>
+            <description>Medication Metronome: Providers allocated to intervention will see an additional feature when logging on to their electronic health record medication prescription interface that enables them to schedule future laboratory testing for the pre-defined subset of study-specific medications. New prescription or dose adjustment by the PCP of one of these pre-specified medications used to treat type 2 diabetes, hypertension, or hyperlipid</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care</title>
+            <description>PCPs allocated to the control arm will continue with usual care practices for laboratory monitoring.
+Usual Care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Medication Safety Monitoring - Statins</title>
+          <description>Percentage of laboratory tests (liver function tests after a new statin prescription or a change in statin dose) that have been measured within 4 weeks following prescription. Treatment guidelines for prescription of statins recommend follow-up liver function testing. We chose 4-weeks following the prescription to represent successful safety monitoring.</description>
+          <population>Patients prescribed statins</population>
+          <units>percentage of tests within 4 weeks</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1134"/>
+                <count group_id="O2" value="699"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6.7"/>
+                    <measurement group_id="O2" value="8.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Medication Safety Monitoring - Metformin</title>
+        <description>Percentage of renal function laboratory tests that have been measured within 4-weeks following prescription. Treatment guidelines for prescription of metformin recommend renal function testing. We chose 4- weeks following the prescription to represent successful safety monitoring.</description>
+        <time_frame>Within 4 weeks following prescription</time_frame>
+        <population>Patients prescribed metformin</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Use of Medication Metronome</title>
+            <description>Medication Metronome: Providers allocated to intervention will see an additional feature when logging on to their electronic health record medication prescription interface that enables them to schedule future laboratory testing for the pre-defined subset of study-specific medications. New prescription or dose adjustment by the PCP of one of these pre-specified medications used to treat type 2 diabetes, hypertension, or hyperlipid</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care</title>
+            <description>PCPs allocated to the control arm will continue with usual care practices for laboratory monitoring.
+Usual Care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Medication Safety Monitoring - Metformin</title>
+          <description>Percentage of renal function laboratory tests that have been measured within 4-weeks following prescription. Treatment guidelines for prescription of metformin recommend renal function testing. We chose 4- weeks following the prescription to represent successful safety monitoring.</description>
+          <population>Patients prescribed metformin</population>
+          <units>percentage of tests within 4 weeks</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="445"/>
+                <count group_id="O2" value="425"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="13.7"/>
+                    <measurement group_id="O2" value="16.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Medication Safety Monitoring - ACE/ARB, Thiazide</title>
+        <description>Percentage of laboratory tests (potassium for thiazides, renal/potassium for ACE/ARBs that have been measured within 4-weeks following prescription. Treatment guidelines for prescription of ACE/ARBs recommend renal/potassium testing and potassium testing for prescription of thiazides. We chose 4-weeks following the prescription to represent successful safety monitoring.</description>
+        <time_frame>Within 4 weeks following prescription</time_frame>
+        <population>Patients prescribed ACE/ARB, thiazide</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Use of Medication Metronome</title>
+            <description>Medication Metronome: Providers allocated to intervention will see an additional feature when logging on to their electronic health record medication prescription interface that enables them to schedule future laboratory testing for the pre-defined subset of study-specific medications. New prescription or dose adjustment by the PCP of one of these pre-specified medications used to treat type 2 diabetes, hypertension, or hyperlipid</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care</title>
+            <description>PCPs allocated to the control arm will continue with usual care practices for laboratory monitoring.
+Usual Care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Medication Safety Monitoring - ACE/ARB, Thiazide</title>
+          <description>Percentage of laboratory tests (potassium for thiazides, renal/potassium for ACE/ARBs that have been measured within 4-weeks following prescription. Treatment guidelines for prescription of ACE/ARBs recommend renal/potassium testing and potassium testing for prescription of thiazides. We chose 4-weeks following the prescription to represent successful safety monitoring.</description>
+          <population>Patients prescribed ACE/ARB, thiazide</population>
+          <units>percentage of tests within 4 weeks</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1411"/>
+                <count group_id="O2" value="1296"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="26.9"/>
+                    <measurement group_id="O2" value="24.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Use of Medication Metronome - PCPs</title>
+          <description>Medication Metronome: Providers allocated to intervention will see an additional feature when logging on to their electronic health record medication prescription interface that enables them to schedule future laboratory testing for the pre-defined subset of study-specific medications. New prescription or dose adjustment by the PCP of one of these pre-specified medications used to treat type 2 diabetes, hypertension, or hyperlipidemia.</description>
+        </group>
+        <group group_id="E2">
+          <title>Usual Care - PCPs</title>
+          <description>PCPs allocated to the control arm will continue with usual care practices for laboratory monitoring.
+Usual Care</description>
+        </group>
+        <group group_id="E3">
+          <title>Use of Medication Metronome - Patients</title>
+          <description>Patients of PCPs allocated to the &quot;Use of Medication Metronome&quot; were eligible for our outcomes if prescribed a new study medication or if they experienced a dose change of a study medication.</description>
+        </group>
+        <group group_id="E4">
+          <title>Usual Care - Patients</title>
+          <description>Patients of PCPs allocated to &quot;Usual Care&quot; were eligible for our outcomes if prescribed a new study medication or if they experienced a dose change of a study medication.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="26"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="26"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="2049"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="1606"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="26"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="26"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="2049"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="1606"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>Study participants did not embrace this method of non-visit based care, with only 660 medication prescriptions using the Medication Metronome ordering option (21% of possible orders).</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Steven J. Atlas, Director of Massachusetts General Primary Care Practice Based Research Network</name_or_title>
+      <organization>Massachusetts General Hospital</organization>
+      <phone>617-724-4736</phone>
+      <email>satlas@partners.org</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

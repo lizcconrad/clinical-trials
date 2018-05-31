@@ -1,0 +1,234 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01094132</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BCCR-H09-03303</org_study_id>
+    <secondary_id>P01CA082710</secondary_id>
+    <secondary_id>H09-03303</secondary_id>
+    <nct_id>NCT01094132</nct_id>
+  </id_info>
+  <brief_title>Combined Digital Colposcopy Analysis to Improve Cervical Precancer and Cancer Detection</brief_title>
+  <acronym>MDC_Algo</acronym>
+  <official_title>Development and Application of a Multispectral Digital Colposcopy Algorithm for Detection of Cervical Intraepithelial Neoplasia and Neoplasia.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>British Columbia Cancer Agency</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Texas Tech University Health Sciences Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Brookdale University Hospital Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>William Marsh Rice University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The University of Texas Health Science Center, Houston</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>M.D. Anderson Cancer Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>British Columbia Cancer Agency</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Precancerous lesions of the cervix occur frequently and are treatable. This justifies a
+      population-based screening program. Following an abnormal Pap smear, patients are referred
+      for a colposcopic exam to confirm the presence/stage of disease and select appropriate
+      treatments. Unfortunately, these approaches do not detect all lesions or can sometimes give
+      'false positive' results (resulting in overtreatment). We are testing a device called a
+      'multispectral digital colposcope' to determine whether it is more effective at detecting
+      precancerous cervical lesions than existing tools. Success in our study will make diagnoses
+      more accurate and reduce the costs associated with unnecessary treatments.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The multispectral digital colposcope (MDC) is a specialized lightsource and imaging device
+      mounted on a custom-made colposcope that acquires a sequence of fluorescence images. The MDC
+      also consists of a point probe that is used to take detailed light measurements (call
+      spectroscopy) from smaller regions of the cervix. The goal of the study is to see whether the
+      MDC can perform better than standard methods in detecting cancerous or pre-cancerous
+      abnormalities of the cervix.
+
+      Study subjects will be HPV swabbed. After vinegar is applied on the cervix as per usual
+      colposcopy practice, the MDC will then be used to take a sequence of images of the cervix.
+      Next 2-4 readings will be taken from the cervix using the point probe.
+
+      Study subjects may also be randomly asked to have additional pictures taken with another
+      imaging device. a) The Fast Fluorescence Camera (FFC) is a modified digital camera that will
+      capture images similar to that of the MDC. It will take a pair of images under two different
+      lighting conditions - white light and violet light, both of which are used by the MDC. b) The
+      Confocal Probe (CP) is a hand-held microscope used to collect images from the same location
+      as the point probe. The cervix is topically stained with a fluorescent dye (Acriflavine)
+      which is taken up by cell nuclei. The CP is then able to capture, in real time, images of the
+      cells and their fluorescent nuclei.
+
+      This data will be used to train, test and valid an algorithm specific to the MDC. The ability
+      of the algorithm to detect cervical intraepithelial neoplasia will be compared to standard
+      clinical care (colposcopy).
+
+      The MDC images and pathology results will be compared to the spectroscopy data from the MDC
+      probe. We will determine if spectroscopy has equal sensitivity to colposcopy for detecting
+      high grade lesions.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>December 2012</start_date>
+  <completion_date type="Actual">November 9, 2016</completion_date>
+  <primary_completion_date type="Actual">September 1, 2016</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Detection of cancer or pre-cancerous abnormalities of the cervix by multispectral digital colposcope.</measure>
+    <time_frame>Standard colposcopy and trial device (MDC + wand) results will be obtained during the clinic visit. Histopathological results for comparison will be available within a few days of the clinic visit.</time_frame>
+    <description>All study subjects will be evaluated for cervical abnormalities by 1) standard colposcopy and 2) the trial device (multispectral digital colposcope + wand). Results from each device will be compared, both in terms of the presence/absence of abnormalities and the stage/grade of abnormalities detected by both tools. Histopathological review for cervical abnormalities will be taken as the gold standard against which standard colposcopy and trial device results are measured.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">551</enrollment>
+  <condition>Cervical Cancer</condition>
+  <condition>Precancerous Condition</condition>
+  <arm_group>
+    <arm_group_label>Review by colposcopy + multispectral digital colposcopy</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>All patients belong under this arm, as all will be reviewed by both conventional colposcopy and by Multispectral Digital Colposcopy (MDC). The nature of these techniques are explained below.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Multispectral Digital Colposcope (MDC)</intervention_name>
+    <description>The MDC has 2 components: an optical probe &amp; a multispectral colposcope. The optical wand makes use of fluorescence &amp; reflectance spectroscopy; a light is shone on the cervix and the wand reports what it sees to a computer. Since cancer &amp; healthy cells interact differently with light, a computer can detect abnormalities. The multispectral colposcope is based on a conventional colposcope, which is already widely used. However, it is also able to produce fluorescence &amp; polarized reflectance images of the entire cervix. Computer analysis of these images can detect abnormalities on the cervix, defining their location and shape.
+This trial involves combined analysis of MDC data. This may lead to more effective diagnosis of cervical abnormalities. The MDC will be used with standard care for patients presenting with cervical abnormalities (as detected by a Pap test). The MDC will not be used to guide patient management decisions.
+All study subjects will receive this same intervention.</description>
+    <arm_group_label>Review by colposcopy + multispectral digital colposcopy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          -  Included subjects will be ≥18 years old.
+
+          -  Included subjects will not be pregnant or breast feeding.
+
+          -  Included subjects will have a negative urine pregnancy test.
+
+          -  Included subjects will be scheduled for colposcopy and/or LEEP treatment at the VGH
+             Women's Clinic.
+
+          -  Included subjects will indicate understanding of the study.
+
+          -  Included subjects will provide informed consent to participate.
+
+        Exclusion criteria:
+
+          -  Individuals &lt;18 years old will be excluded.
+
+          -  Pregnant and breast feeding individuals will be excluded.
+
+          -  Individuals that have had an operation to remove their cervix will be excluded.
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michele Follen, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brookdale Hospital and Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brookdale Hospital and Medical Center</name>
+      <address>
+        <city>Brooklyn</city>
+        <state>New York</state>
+        <zip>11212</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Texas Tech Health Sciences Center</name>
+      <address>
+        <city>El Paso</city>
+        <state>Texas</state>
+        <zip>79905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Vancouver General Hospital - Women's Clinic (G&amp;L Diamond Centre)</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <zip>V5Z 1M9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 25, 2010</study_first_submitted>
+  <study_first_submitted_qc>March 25, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 26, 2010</study_first_posted>
+  <last_update_submitted>February 2, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 2, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 5, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>cervical cancer</keyword>
+  <keyword>cervical intraepithelial neoplasia grade 1</keyword>
+  <keyword>cervical intraepithelial neoplasia grade 2</keyword>
+  <keyword>cervical intraepithelial neoplasia grade 3</keyword>
+  <keyword>Nonmalignant Condition</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Uterine Cervical Neoplasms</mesh_term>
+    <mesh_term>Cervical Intraepithelial Neoplasia</mesh_term>
+    <mesh_term>Precancerous Conditions</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

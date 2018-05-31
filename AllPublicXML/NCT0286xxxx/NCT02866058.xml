@@ -1,0 +1,151 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02866058</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MRFCoxAwardAubrey2</org_study_id>
+    <nct_id>NCT02866058</nct_id>
+  </id_info>
+  <brief_title>Outcomes of Cesarean Section vs Vaginal Delivery: Instrumental Variable Adjusted Analysis</brief_title>
+  <official_title>Substantial Variability Between Traditional and Instrumental Variable Estimates of the Risk of Caesarean Section in Canada: a Population-based Cohort Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Memorial University of Newfoundland</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Medical Research Foundation - Memorial University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Memorial University of Newfoundland</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will examine the effect of cesarean section on perinatal mortality, using data
+      provided by the Canadian Institute for Health Information.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study will examine administrative data provided by the Canadian Institute for Health
+      Information (CIHI). Maternal obstetrical delivery and neonatal hospitalization records
+      provided by CIHI will be linked before analysis. The primary outcome is in-hospital perinatal
+      mortality. The data will be analyzed by traditional multi-variate logistic regression, and
+      the results from this analysis will be compared to the results from instrumental variable
+      adjusted regression using the Generalized Method of Moments. The instrumental variable is the
+      rate of cesarean delivery among women living within the same hospital catchment area. All
+      analyses will be adjusted for maternal, infant, delivery provider, and hospital factors, as
+      well as for clustering at the level of the delivery hospital.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2011</start_date>
+  <completion_date type="Actual">July 2015</completion_date>
+  <primary_completion_date type="Actual">July 2013</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Perinatal Mortality</measure>
+    <time_frame>up to 7 days</time_frame>
+    <description>Includes deaths at any age if infant continuously hospitalized (including transfers) in an acute care facility. Includes deaths up to 7 days of age if infant discharged from hospital then readmitted prior to 7 days of age.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">1703590</enrollment>
+  <condition>Pregnancy Complications</condition>
+  <condition>Cesarean Section</condition>
+  <arm_group>
+    <arm_group_label>Cesarean</arm_group_label>
+    <description>Mothers delivered by cesarean section</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Vaginal</arm_group_label>
+    <description>Mothers delivered by vaginal delivery</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Cesarean Section</intervention_name>
+    <arm_group_label>Cesarean</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All obstetrical deliveries in Canada (except the province of Quebec) between April 1, 2006
+        and March 31, 2009
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Mothers living in Canada and their infants delivering within the study period at
+             Canadian hospitals outside of the province of Quebec.
+
+        Exclusion Criteria:
+
+          -  Maternal record not linkable to neonatal record.
+
+          -  Multiple gestation.
+
+          -  Birthweight &lt; 500 gm.
+
+          -  Gestational age at delivery &lt; 20 weeks.
+
+          -  Deliveries at hospitals with less than 20 cesarean deliveries during study period.
+
+          -  Records with missing data for important covariates
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kris Aubrey-Bassler, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Memorial University</affiliation>
+  </overall_official>
+  <verification_date>August 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 4, 2016</study_first_submitted>
+  <study_first_submitted_qc>August 12, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 15, 2016</study_first_posted>
+  <last_update_submitted>August 12, 2016</last_update_submitted>
+  <last_update_submitted_qc>August 12, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">August 15, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Memorial University of Newfoundland</investigator_affiliation>
+    <investigator_full_name>Kris Aubrey-Bassler</investigator_full_name>
+    <investigator_title>Director, Primary Healthcare Research Unit</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pregnancy Complications</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>The data provider does not allow sharing of investigator data, but data can be requested directly from them.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,352 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02947126</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PRO15070376</org_study_id>
+    <secondary_id>1U01HL131046-01</secondary_id>
+    <nct_id>NCT02947126</nct_id>
+  </id_info>
+  <brief_title>Multilevel Models of Therapeutic Response in the Lungs</brief_title>
+  <official_title>Multilevel Models of Therapeutic Response in the Lungs</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Pittsburgh</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Heart, Lung, and Blood Institute (NHLBI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Pittsburgh</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      When developing new medications for lung diseases like Cystic Fibrosis (CF), scientists
+      perform lab experiments using cells from the airways, physiology studies of how the lungs
+      change when a drug is given, and clinical studies to determine how drugs affect overall
+      health. The investigators of this study are seeking to develop computer models that will
+      predict how patients will respond to drugs by just doing lab studies on cell samples from
+      their noses. Such models would allow for medications to be developed more rapidly for all
+      patients and allow treatments to be personalized as well. In order to develop these computer
+      models a series of tests will be performed on patients who have CF. Tests will include
+      sampling cells from the nose and measuring lung physiology using a combination of different
+      imaging, breathing, and other studies performed both before and after participants take a
+      therapy. Similar tests will be performed on people who do not have CF, and on the parents of
+      the CF participants who carry a single CF gene because this will provide information on how
+      specific genes might affect CF lung disease.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The goal of this research is to develop a series of interconnected models of therapeutic
+      response in the diseased lung, focused primarily on Cystic Fibrosis (CF), that will
+      ultimately provide a means for predicting in vivo response based on patient-specific in vitro
+      testing, allowing for the optimization and personalization of therapies. Investigators use
+      both human bronchial epithelial (HBE) and more recently human nasal epithelial (HNE) cell
+      cultures to study CF pathophysiology. The investigators performing this study have also
+      developed functional imaging biomarkers in the lung that provide organ level quantification
+      of CF lung physiology (mucociliary clearance and airway liquid absorption), and, more
+      recently, in silico systems models of lung physiology at both the cell and organ level. The
+      in silico models provide a framework of differential equations that describe how basic
+      physiological processes interact and contribute to experimental outcomes. Their use allows
+      these mechanisms to be more specifically differentiated. Here the investigators propose to
+      link in vitro and in vivo response by sampling and culturing HNE cell cultures from both
+      non-CF and CF subjects who will also perform a series of physiological assessments, including
+      functional imaging scans. The in silico models will facilitate linking therapeutic studies in
+      cells to therapeutic outcomes in patients.
+
+        1. CF PATIENTS will perform 2 study days.
+
+           Study day 1 will include:
+
+             1. nasal potential difference measurements
+
+             2. pulmonary function testing
+
+             3. inert gas washout testing
+
+             4. urine pregnancy testing
+
+             5. nasal cell sampling
+
+             6. nuclear MCC/ABS scan (to include inhalation of isotonic or hypertonic saline -
+                randomized order)
+
+             7. blood draw for CFTR genotyping if not already available.
+
+           Study day 2 will include
+
+             1. pulmonary function testing
+
+             2. urine pregnancy testing
+
+             3. nuclear MCC/ABS scan (to include inhalation of isotonic or hypertonic saline -
+                randomized order)
+
+        2. PARENTS OF ENROLLED CF patients who choose to participate will perform 1 study day which
+           will include:
+
+             1. nasal potential difference measurements
+
+             2. pulmonary function testing
+
+             3. inert gas washout testing
+
+             4. urine pregnancy testing
+
+             5. nasal cell sampling
+
+             6. nuclear MCC/ABS scan (to include inhalation of isotonic saline)
+
+             7. a single blood sample drawn for CFTR genotyping.
+
+        3. HEALTHY CONTROLS will perform 1 screening and 1 study day which will include:
+
+             1. pulmonary function testing
+
+             2. inert gas washout testing
+
+             3. urine pregnancy testing
+
+             4. nasal cell sampling
+
+             5. nuclear MCC/ABS scan (to include inhalation of isotonic saline)
+
+             6. a single blood sample drawn for CFTR genotyping (at screening).
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 2017</start_date>
+  <completion_date type="Anticipated">August 2020</completion_date>
+  <primary_completion_date type="Anticipated">August 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mucociliary Clearance</measure>
+    <time_frame>80 minutes</time_frame>
+    <description>Clearance rate of Technetium sulfur colloid from the lungs</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>DTPA absorption rate</measure>
+    <time_frame>80 minutes</time_frame>
+    <description>DTPA absorption rate from the lungs (difference between total In-DTPA clearance rate and mucociliary clearance rate)</description>
+  </primary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">62</enrollment>
+  <condition>Cystic Fibrosis</condition>
+  <arm_group>
+    <arm_group_label>Cystic Fibrosis (HS, IS)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>CF subjects: ages 12 or older with a diagnosis of cystic fibrosis as determined by sweat test or genotype and clinical symptoms who are clinically stable as determined by a physician co-investigator. Subjects receive HS dose on first imaging day and IS dose on the second imaging day,
+Indium-DTPA (1.5 mCi), Technetium sulfur colloid (8mCi), Inhaled isotonic saline (4ml), Inhaled Hypertonic Saline (4ml)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cystic Fibrosis (IS, HS)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>CF subjects: ages 12 or older with a diagnosis of cystic fibrosis as determined by sweat test or genotype and clinical symptoms who are clinically stable as determined by a physician co-investigator. Subjects receive IS dose on first imaging day and HS dose on the second imaging day.
+Indium-DTPA (1.5 mCi), Technetium sulfur colloid (8mCi), Inhaled isotonic saline (4ml), Inhaled Hypertonic Saline (4ml)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Parents of CF subjects</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Ages 18 and older, biological parent of a CF patient who is also enrolled in the study
+Indium-DTPA (1.5 mCi), Technetium sulfur colloid (8mCi), Inhaled isotonic saline (4ml)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>non CF controls</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Ages 18 and older with no history of lung disease
+Indium-DTPA (1.5 mCi), Technetium sulfur colloid (8mCi), Inhaled isotonic saline (4ml).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Hypertonic Saline</intervention_name>
+    <description>Inhaled 7% Hypertonic saline</description>
+    <arm_group_label>Cystic Fibrosis (HS, IS)</arm_group_label>
+    <arm_group_label>Cystic Fibrosis (IS, HS)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Isotonic Saline</intervention_name>
+    <description>Inhaled 0.9% Isotonic saline</description>
+    <arm_group_label>Cystic Fibrosis (HS, IS)</arm_group_label>
+    <arm_group_label>Cystic Fibrosis (IS, HS)</arm_group_label>
+    <arm_group_label>Parents of CF subjects</arm_group_label>
+    <arm_group_label>non CF controls</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Indium-DTPA</intervention_name>
+    <description>Inhaled Indium 111 DTPA</description>
+    <arm_group_label>Cystic Fibrosis (HS, IS)</arm_group_label>
+    <arm_group_label>Cystic Fibrosis (IS, HS)</arm_group_label>
+    <arm_group_label>Parents of CF subjects</arm_group_label>
+    <arm_group_label>non CF controls</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Technetium Sulfur Colloid</intervention_name>
+    <description>Inhaled Technetium99m sulfur colloid</description>
+    <arm_group_label>Cystic Fibrosis (HS, IS)</arm_group_label>
+    <arm_group_label>Cystic Fibrosis (IS, HS)</arm_group_label>
+    <arm_group_label>Parents of CF subjects</arm_group_label>
+    <arm_group_label>non CF controls</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Cystic Fibrosis Subjects: Inclusion Criteria
+
+          -  Ages 12 or older
+
+          -  Diagnosis of cystic fibrosis as determined by sweat test or genotype
+
+          -  Clinically stable as determined by a physician co-investigator
+
+        Cystic Fibrosis Subjects: Exclusion Criteria
+
+          -  Smokers or users of electronic cigarettes
+
+          -  FEV1%p &lt;30% of predicted
+
+          -  Nursing, pregnant or unwilling to test for pregnancy
+
+          -  Intolerant to hypertonic saline
+
+          -  Unable or unwilling to discontinue hypertonic saline, Pulmozyme, and long acting
+             bronchodilators for 24 hrs before testing and short acting bronchodilators on testing
+             days.
+
+        CF parents: Inclusion Criteria
+
+          -  Ages 18 and older
+
+          -  Biological parent of a CF patient who is also enrolled in the study
+
+        CF parents: Exclusion Criteria
+
+          -  Smokers or users of electronic cigarettes
+
+          -  FEV1%p &lt;30% of predicted
+
+          -  Nursing, pregnant or unwilling to test for pregnancy
+
+          -  Unwilling to discontinue long acting bronchodilators for 24 hrs before testing and
+             short acting bronchodilators on testing days.
+
+          -  Unwilling to perform CFTR genotyping.
+
+        Healthy controls: Inclusion Criteria
+
+          -  Ages 18 and older
+
+          -  No history of lung disease
+
+        Healthy Controls: Exclusion Criteria
+
+          -  Smokers or users of electronic cigarettes
+
+          -  FEV1%p &lt;70% of predicted
+
+          -  Nursing, pregnant or unwilling to test for pregnancy
+
+          -  Carriers of known disease causing CFTR mutations
+
+          -  Unwilling to perform CFTR genotyping.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>12 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Tim Corcoran, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pittsburgh</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Elizabeth Hartigan, RN MPH</last_name>
+    <phone>412-692-7060</phone>
+    <email>elizabeth.hartigan@chp.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University of Pittsburgh Medical Center</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15213</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Elizabeth Hartigan, RN, MPH</last_name>
+      <phone>412-692-7060</phone>
+      <email>Elizabeth.Hartigan@chp.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Tim Corcoran, Ph.D.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 25, 2016</study_first_submitted>
+  <study_first_submitted_qc>October 25, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 27, 2016</study_first_posted>
+  <last_update_submitted>January 2, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 2, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 4, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Pittsburgh</investigator_affiliation>
+    <investigator_full_name>Tim Corcoran</investigator_full_name>
+    <investigator_title>Associate Professor of Medicine</investigator_title>
+  </responsible_party>
+  <keyword>cystic fibrosis</keyword>
+  <keyword>mucociliary clearance</keyword>
+  <keyword>CFTR</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fibrosis</mesh_term>
+    <mesh_term>Cystic Fibrosis</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Technetium Tc 99m Sulfur Colloid</mesh_term>
+    <mesh_term>Pentetic Acid</mesh_term>
+    <mesh_term>Edetic Acid</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

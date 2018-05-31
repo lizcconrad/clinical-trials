@@ -1,0 +1,255 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03207321</url>
+  </required_header>
+  <id_info>
+    <org_study_id>APCAPS2017</org_study_id>
+    <nct_id>NCT03207321</nct_id>
+  </id_info>
+  <brief_title>Early Childhood Nutrition and Adult Outcomes in India</brief_title>
+  <official_title>Analysis of the Association Between Early Childhood Nutrition and Adult Outcomes Using Andhra Pradesh Children and Parents Study (APCAPS) Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Chicago</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Chicago</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will investigate the association between exposure to a daily nutritional
+      supplement in utero and during the first three years of life and adult educational, marriage,
+      and labor market outcomes in India. During 1987-1990, a controlled nutrition trial offered a
+      daily cooked meal to pregnant women and children below the age of six years in 15
+      intervention villages near the city of Hyderabad in South India. No supplementation was
+      offered during the study in another 14 control villages. The trial and its follow up surveys
+      are together known as the Andhra Pradesh Children and Parents Study (APCAPS).
+
+      This protocol registration is for an analysis of the publicly available APCAPS third follow
+      up wave (2010-2012) data. It is not a registration of the underlying 1987-1990 nutrition
+      trial.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators plan to use the 2010-2012 wave of the APCAPS data. They will access these
+      publicly available data by applying for collaboration with the APCAPS study group.
+
+      The 2010-2012 follow-up survey invited all surviving children born during the original trial
+      period of 1987-1990 (hereafter called index children) to participate. These index children
+      were 20-25 years old at the time of this survey. Of the invited index children, 1,360 (715 in
+      intervention villages and 645 in control villages) participated. The APCAPS surveys have
+      collected a wide variety of data on socio-demographics, lifestyle, medical history, mental
+      and reproductive health, anthropometry, cardiovascular physiology, spirometry, and
+      biomarkers.
+
+      Using these data, the investigators will examine the association between birth in an
+      intervention village and adult educational, marriage and labor market outcomes. For each
+      study participant, a survey question collected information on the highest level of education
+      attained by the participant (self-reported). From this variable, the investigators will
+      create two indicators of whether the adult: (1) completed at least secondary school, i.e.
+      class X/XII, intermediate, vocational course, or equivalent; (2) completed at least graduate
+      level, i.e. Bachelor's degree, diploma, or equivalent.
+
+      The third outcome variable of the analysis will be whether the adult was ever-married
+      (currently married, widowed, or divorced) at the time of the survey. Finally, the
+      investigators will also examine whether the adult was either employed in paid or unpaid (e.g.
+      household agriculture) work, or enrolled in higher education (degree or training course).
+
+      The investigators will use at least two different analytical methods. First, they will
+      conduct a multivariate regression analysis (logit or probit) of each of the four outcome
+      indicators. Along with the main independent variable of interest - birth in an intervention
+      village - the model will include the following covariates: age, sex (whether female), and
+      birth order of the index child, indicators of parental schooling attainment, religion, caste,
+      and household standard of living as measured by quintiles of a composite asset index. All
+      standard errors of regression will be heteoskedasticity-robust and clustered at the village
+      level. The analysis will be conducted (and results reported) for the full sample and
+      separately for the male and female subsamples.
+
+      In order to mitigate any bias arising from systematic differences in the characteristics of
+      the intervention and control village adults (e.g. due to non-random attrition or other
+      reasons), the investigators will also use quasi-experimental matching methods. One widely
+      used methodology is matching based on propensity scores. The investigators will first conduct
+      a selection analysis in which the likelihood of birth in an intervention village is regressed
+      (probit or logit model) on the set of participant, parental, and household covariates
+      mentioned above. Then, based on the predicted probability of intervention assignment (called
+      propensity score) obtained from this model, participants in the intervention group will be
+      matched with similar participant(s) in the control group. The investigators will use a
+      variety of matching algorithms in order to test the sensitivity of the results, e.g.
+      one-to-one nearest neighbor, Kernel, and multiple nearest neighbors matching. Common metrics
+      for the quality of matching exercise and covariate balancing tests will be reported.
+
+      After matching, the investigators will report the average difference in outcome indicators
+      between the intervention and matched control groups (technically named as the average
+      treatment effect on the treated) as the estimated association between birth in an
+      intervention village and adult outcomes. Findings from the full sample as well as male and
+      female subsamples will be reported.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 1987</start_date>
+  <completion_date type="Actual">December 31, 2012</completion_date>
+  <primary_completion_date type="Actual">December 31, 1990</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The likelihood of a study participant completing at least secondary school, i.e. class X/XII, intermediate, vocational course, or equivalent</measure>
+    <time_frame>Up to 25 years</time_frame>
+    <description>Binary indicator of secondary level education</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The likelihood of a study participant completing at least graduate level education, i.e. Bachelor's degree, diploma, or equivalent</measure>
+    <time_frame>Up to 25 years</time_frame>
+    <description>Binary indicator of graduate level education</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The likelihood of a study participant being ever-married (currently married, widowed, or divorced)</measure>
+    <time_frame>Up to 25 years</time_frame>
+    <description>Binary indicator of marriage</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The likelihood of a study participant being employed in paid or unpaid work, or enrolled in further education (degree or training courses)</measure>
+    <time_frame>Up to 25 years</time_frame>
+    <description>Binary indicator of employment or higher education enrollment</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">1360</enrollment>
+  <condition>Nonhealth Outcomes</condition>
+  <arm_group>
+    <arm_group_label>Intervention</arm_group_label>
+    <description>In 15 intervention villages, a balanced protein-calorie supplement - made from locally available corn-soya ingredients and called 'upma' - was offered daily to pregnant women and children under six years of age during 1987-1990. The meal provided on average 500 kcal energy and 20-25g of protein to women and half of those amounts to children.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <description>No supplement was provided in 14 control villages.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Dietary Supplement</intervention_type>
+    <intervention_name>Upma</intervention_name>
+    <description>A balanced protein-calorie supplement - made from locally available corn-soya ingredients and called 'upma'.</description>
+    <arm_group_label>Intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The 1987-1990 Hyderabad Nutrition Trial enrolled pregnant women and young children from 29
+        villages in administrative areas near the city of Hyderabad in the state of Andhra Pradesh
+        (now in Telangana). First, two adjacent sub-districts (group of villages, called a block)
+        were selected for the study - one for the intervention group and the other as control.
+        Then, 15 intervention and 14 control villages were selected. Intervention and control group
+        villages had similar levels of access to other public health programs such as immunization
+        and anemia control in pregnancy.
+
+        The children originally born in the study villages during 1987-1990 have been tracked and
+        surveyed several times during 2003-2012. This study will use the the 2010-2012 survey data
+        which include 1,360 (715 intervention and 645 control) adults of age 20-25 years who were
+        originally born during the trial.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All participants in the publicly available data from the APCAPS 2010-2012 survey
+             round.
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>25 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Arindam Nandi, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Chicago</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jere R Behrman, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pennsylvania</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Sanjay Kinra, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>London School of Hygiene and Tropical Medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Ramanan Laxminarayan, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Center for Disease Dynamics, Economics &amp; Policy</affiliation>
+  </overall_official>
+  <link>
+    <url>http://apcaps.lshtm.ac.uk/</url>
+    <description>APCAPS official website</description>
+  </link>
+  <link>
+    <url>http://apcaps.lshtm.ac.uk/apply-to-collaborate/</url>
+    <description>Guidance on how to obatin publicly available APCAPS data</description>
+  </link>
+  <reference>
+    <citation>Kinra S, Rameshwar Sarma KV, Ghafoorunissa, Mendu VV, Ravikumar R, Mohan V, Wilkinson IB, Cockcroft JR, Davey Smith G, Ben-Shlomo Y. Effect of integration of supplemental nutrition with public health programmes in pregnancy and early childhood on cardiovascular risk in rural Indian adolescents: long term follow-up of Hyderabad nutrition trial. BMJ. 2008 Jul 25;337:a605. doi: 10.1136/bmj.a605.</citation>
+    <PMID>18658189</PMID>
+  </reference>
+  <reference>
+    <citation>Kinra S, Sarma KV, Hards M, Smith GD, Ben-Shlomo Y. Is relative leg length a biomarker of childhood nutrition? Long-term follow-up of the Hyderabad Nutrition Trial. Int J Epidemiol. 2011 Aug;40(4):1022-9. doi: 10.1093/ije/dyr074. Epub 2011 May 10.</citation>
+    <PMID>21561932</PMID>
+  </reference>
+  <reference>
+    <citation>Rosenbaum PR, Rubin DB. Reducing bias in observational studies using subclassification on the propensity score. Journal of the American Statistical Association. 1984;79:516-24</citation>
+  </reference>
+  <reference>
+    <citation>Heckman JJ, Ichimura H, Todd PE. Matching as an Econometric Evaluation Estimator: Evidence from Evaluating a Job Training Programme. Review of Economic Studies. 1997;64:605-54</citation>
+  </reference>
+  <reference>
+    <citation>Dehejia RH, Wahba S. Propensity Score-Matching Methods For Nonexperimental Causal Studies. The Review of Economics and Statistics. 2002;84:151-61</citation>
+  </reference>
+  <reference>
+    <citation>Nandi A, Ashok A, Kinra S, Behrman JR, Laxminarayan R. Early Childhood Nutrition Is Positively Associated with Adolescent Educational Outcomes: Evidence from the Andhra Pradesh Child and Parents Study (APCAPS). J Nutr. 2016 Mar 9. pii: jn223198. [Epub ahead of print]</citation>
+    <PMID>26962175</PMID>
+  </reference>
+  <verification_date>July 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 29, 2017</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 2, 2017</study_first_posted>
+  <last_update_submitted>July 5, 2017</last_update_submitted>
+  <last_update_submitted_qc>July 5, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 11, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <study_docs>
+    <study_doc>
+      <doc_type>Individual Participant Data Set</doc_type>
+      <doc_url>http://apcaps.lshtm.ac.uk/</doc_url>
+    </study_doc>
+  </study_docs>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

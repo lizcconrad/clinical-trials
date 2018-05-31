@@ -1,0 +1,279 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02612402</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0090-14-RMB</org_study_id>
+    <nct_id>NCT02612402</nct_id>
+  </id_info>
+  <brief_title>Effect of Smartphone App on Activity</brief_title>
+  <official_title>The Effect of a Smartphone Application for Encouraging Physical Activity on the Amount of Activity Performed by Patients With Diabetes or Hematological Malignancies</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Rambam Health Care Campus</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Rambam Health Care Campus</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A smartphone app will be installed on smartphones of patients with type 2 diabetes or
+      hematologic malignancies that do not exercise. The app will send SMS messages to encourage
+      exercise. The exercise will be quantified by the smartphone accelerometer and clinical data,
+      including HbA1c will be collected.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The aim of the study is to increase patients' physical activities by using a dedicated
+      cellular application that will encourage patients to adhere to their doctor recommendation on
+      a personal basis.
+
+      Primary outcome In diabetic patients: measuring an increase in daily physical activity In
+      cancer patients: improvement of quality of life in correlation with the level of physical
+      activity
+
+      Secondary outcomes In diabetic patients: improved glycemic control as assessed by sequential
+      blood tests for HbA1c.
+
+      The patients will fill quality of life questionnaires (SF36) at recruitment and after 6
+      months. After 6 months the patients will also fill a questionnaire about their experience of
+      using the app.
+
+      Each recruited patient will have an Android based smart phone. Each patient will provide:
+
+        1. Approval to join the experiment
+
+        2. Age, gender, height
+
+        3. Telephone number (for SMS)
+
+      Length of intervention - at least 6 months per patient. Each patient will be randomly
+      assigned into one of two groups, which will specify feedback relative to himself or to others
+      or a weekly reminder to exercise.
+
+      Number of patients:
+
+        1. Diabetes: 150 patients, of which 50 are controls.
+
+        2. Cancer: 100 patients, of which 20 are controls. All patients will receive instruction
+           about the importance of physical activity and a personal recommendation for activity
+           level, n sessions of activity per week, and time span per session (i.e., at least 2
+           hours of walking per week divided to 3 walking sessions per week) Patients in the
+           treatment arms will receive at least n (number of commended sessions) messages per week
+           of positive feedback if activity performed or negative feedback if not performed. At the
+           chosen day each week the patient will receive a summary of the exercise for all the
+           week.
+
+      Feedback Possible feedback
+
+      (NOTE - these the the actual feedback messages that the participants will receive, and are
+      therefore in the second person):
+
+        1. Negative feedback: &quot;You need to exercise to reach your activity goals. Please remember
+           to exercise tomorrow&quot;.
+
+        2. Positive feedback:
+
+             1. Relative to self: &quot;You're exercise level is higher than last week. Keep up the good
+                work&quot;
+
+             2. Relative to others: &quot;You're exercising more than the average person. Keep up the
+                good work&quot;
+
+        3. Control arm: &quot;Did you remember to exercise?&quot;
+
+      Technical requirements
+
+        1. App - will collect physical activity and send it to a server. App will run in background
+           without need to restart on reboot.
+
+        2. Server - Collects physical activity
+
+      Feedback policies The experiment will have two phases of feedback. Phase 1
+
+      The investigators begin with no data, so the policy at this stage is as follows:
+
+        1. Positive feedback will be sent each day if user has surpassed 1/7th of weekly activity
+           that day.
+
+        2. Negative feedback will be sent every 3 days, if activity hasn't passed 1/7th of
+           activity.
+
+      Each day, with a probability of 0.2, a random decision on feedback will be made.
+
+      This phase will last approximately 4 weeks. Phase 2 Using a learning algorithm (see below)
+      the computer will adjust the feedback, and decide daily on the feedback (positive \ negative
+      \ none).
+
+      Policy learning The investigators will start with a simple policy learning strategy, and
+      later use more sophisticated methods that will have a state-space representation of the user.
+
+      The initial algorithm will represent each user at each day using the following attributes:
+
+        1. Demographics (age and gender)
+
+        2. Expected versus actual activity level this week (ratio of the two)
+
+        3. Last feedback given (positive \ negative)
+
+        4. Day of the week (we will use week-long cycles). The goal of the algorithm is to give
+           feedback today so as to encourage activity tomorrow.
+
+      When training the algorithm, the computer will have a feature vector comprising of the
+      attributes above, and a matrix of actions (for day t). The output to be predicted is whether
+      the activity level on the following day (t+1).
+
+      There can be two types of feedback depending on weekly and daily behaviors:
+
+      Weekly goal Not achieved Achieved Daily goal (on day (t+1)) Not achieved 1 1+alpha Achieved
+      1+alpha 1 (alpha&gt;0) The algorithm will pay a higher penalty if, for example, on a given day
+      the message encouraged activity, but the weekly goal was not achieved compared to if it was.
+
+      For simplicity, the initial learning algorithm will be linear, until enough data is
+      collected. That is, given a matrix:
+
+      X = (demographics, expected vs. actual activity, last feedback, day of the week, actions) And
+      a vector showing the amount of activity on the following day, weighted as in the table above,
+      denoted by Y, we will learn a vector of weights w such that: X * w = Y.
+
+      In phase 2 of the project the computer will use other learning algorithms. Exploration
+      (random action at a given day) will continue throughout both phases at the same level.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>July 2014</start_date>
+  <completion_date type="Anticipated">July 2017</completion_date>
+  <primary_completion_date type="Anticipated">July 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>Triple (Participant, Care Provider, Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>increase in daily physical activity</measure>
+    <time_frame>6 months</time_frame>
+    <description>The app records the amount of daily walking using the smartphone accelerometer. The amount of activity and pace of walking is compared to those performed on previous days.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>glycemic control</measure>
+    <time_frame>6 months</time_frame>
+    <description>HbA1c will be measured before recruitment and every 3 months during participation. The HbA1c during participation will be compared to the starting HbA1c to assess whether there was improvement in glycemic control as quantified by HbA1c.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">270</enrollment>
+  <condition>Diabetes Type 2</condition>
+  <condition>Hematologic Malignancy</condition>
+  <arm_group>
+    <arm_group_label>Learning algorithm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The app will be installed on the patients's phone. The app will measure the amount of activity performed. THE INTERVENTION IS THAT the Patients will receive daily messages, a learning algorithm will study the exercise response to each type of message and personalize the best message sequence for each patient.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>control</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>The app will be installed on the patients's phone. The app will measure the amount of activity performed. THE INTERVENTION IS THAT THE Patients will receive a weekly reminder to exercise.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>messages generated by learning algorithm</intervention_name>
+    <description>THIS INTERVENTION HAS BEEN INCLUDED IN THE LEARNING ALGORITHM ARM The app measures physical activity by the phone accelerometer and sends SMS messages to encourage activity. An automatic learning algorithm for encouraging physical activity learns the patterns of response for each patient and chooses the best messages for the patient to encourage activity.</description>
+    <arm_group_label>Learning algorithm</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>constant weekly message reminding patient to exercise</intervention_name>
+    <description>THIS INTERVENTION HAS BEEN INCLUDED IN THE CONTROL ARM The app measures physical activity by the phone accelerometer and sends a constant SMS messages to remind the patient to exercise.</description>
+    <arm_group_label>control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Age over 18.
+
+          2. Diagnosis of diabetes type 2 with HbA1c over 6.5% and no regular exercise for arm A.
+
+          3. Newly diagnosed lymphoma, CLL or MM which require chemotherapy for arm B.
+
+          4. Patients in both arms should hold an android based smartphone.
+
+          5. Patients must be able to read Hebrew.
+
+        Exclusion Criteria:
+
+          1. Unable to legally consent
+
+          2. unstable or stable angina pectoris
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Irit a Hochberg, MD/PhD</last_name>
+    <phone>+97247772150</phone>
+    <email>i_hochberg@rambam.health.gov.il</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Rambam Health Care Campus</name>
+      <address>
+        <city>Haifa</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Irit Hochberg, MD/PhD</last_name>
+      <phone>+972-4-7772150</phone>
+      <email>i_hochberg@rambam.health.gov.il</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>November 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 17, 2015</study_first_submitted>
+  <study_first_submitted_qc>November 20, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 23, 2015</study_first_posted>
+  <last_update_submitted>November 20, 2015</last_update_submitted>
+  <last_update_submitted_qc>November 20, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">November 23, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Rambam Health Care Campus</investigator_affiliation>
+    <investigator_full_name>Irit HOCHBERG MD</investigator_full_name>
+    <investigator_title>Attending physician, Institute of Endocrinology, Diabetes and Metabolism</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neoplasms</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 2</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

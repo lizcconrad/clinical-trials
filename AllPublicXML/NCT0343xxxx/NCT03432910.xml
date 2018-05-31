@@ -1,0 +1,276 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03432910</url>
+  </required_header>
+  <id_info>
+    <org_study_id>17-pLINE-FBT-C</org_study_id>
+    <nct_id>NCT03432910</nct_id>
+  </id_info>
+  <brief_title>Application of Forced Breath Technique While CPAP Therapy for Apnea Classification</brief_title>
+  <acronym>FBT-CPAP</acronym>
+  <official_title>Study of Application of Forced Breath Technique While CPAP Therapy for Apnea Classification</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Heinen und Löwenstein GmbH &amp; Co. KG</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Löwenstein Medical Technology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Heinen und Löwenstein GmbH &amp; Co. KG</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study analyzes the application of the Forced Breath Technique (FBT) to classify apneas
+      during CPAP therapy with a prismaLAB (device name) therapy device.
+
+      In this study the BiLevel ST (Spontaneous / Timed) therapy mode of the prismaLAB device is
+      reduced to a CPAP pressure profile with exhalation relief by minimization of the pressure gap
+      between exhalation and inhalation pressure.
+
+      The FBT based apnea classification of the devices firmware is matched with the by hand
+      scoring of the polysomnographic data that is usually used to evaluate the quality of patients
+      sleep.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Obstructive sleep-disordered breathing is usually treated by positive airway pressure (PAP)
+      therapy with respective devices.The devices detect, classify and store respiratory events as
+      apneas, hypopneas and snoring to adapt the therapy pressure according to patients needs and/
+      or to validate therapy efficacy.
+
+      Since several years the Forced Breath Technique (FBT) is standard practice in PAP devices
+      with a BiLevel pressure profile and a background rate to classify apneas as central or
+      obstructive. In case of an interruption of the respiratory flow within an apnea the devices
+      background rate applies so called &quot;mandatory breaths&quot; with neither a manually or by device
+      defined pressure gap between exhalation and inhalation pressure (PDIFF). If a mandatory
+      breath generates respiratory flow patients airways are open and the patient gets ventilated.
+      In this case the detected apnea is classified as central. If a mandatory breath generates no
+      or insufficient respiratory flow patients airways are impassable and the apnea is classified
+      as an obstructive event.
+
+      Usually the size of the applied therapeutic pressure gap PDIFF is &gt;= 4 hPa. If patients
+      airways are open the mandatory breaths with PDIFF&gt;= 4 hPa generate an obvious flow that
+      submits a valid classification of apneas. Therefore the pressure gap should be preferably
+      large. So, too, the pressure gap size should be defined as small as possible to prevent the
+      impairment of patients sleep quality.
+
+      This pilot study targets to analyze if the application of FBT with a minor gap between
+      inhalation and exhalation pressure (IPAP [inspiratory positive airway pressure] - EPAP
+      [expiratory positive airway pressure] = PDIFF = 1,0 to 2,0 hPa) qualifies for an equal
+      classification of apneas as with a PDIFF &gt;= 4 hPa. Subsequently it serves to define the
+      minimum size of this pressure gap.
+
+      To this effect the study is subdivided in to phases: an optimization phase and an evaluation
+      phase.
+
+      The optimization phase targets to define the PDIFF size that enables the valid classification
+      of apneas. The evaluation phase serves to compute the accuracy of the classification, the
+      optimized algorithm and the determined classification criteria. Therefore this phase only
+      takes place if the optimization phase yielded a result.
+
+      The optimization phase starts with a PDIFF of 1,5 hPa. If this PDIFF serves the purpose, the
+      phase continues with a PDIFF of 1,0 hPa to analyze if a smaller pressure gap yields similar
+      results. Otherwise the phase continues with a PDIFF of 2,0 hPa. Afterwards the optimization
+      phase ends.
+
+      The review of the matching of the apneas classified by the device vs the manual scoring takes
+      place after the synchronization of both sources.
+
+      Within every PDIFF round in the optimization phase patient recruitment takes place as long as
+      at least 60 obstructive and 60 central apneas have been collected. To guarantee an equal
+      dispersion of apneas on the patient population only 10 obstructive and 10 central apneas of
+      each patient go down in the pool of apneas of the respective PDIFF round. The apnea
+      extraction is made by randomization.
+
+      The evaluation phase runs with the determined PDIFF until at least 80 obstructive and 80
+      central apneas are collected.
+
+      The data evaluation occurs by use of descriptive statistics and based on fourfold tables.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 24, 2016</start_date>
+  <completion_date type="Anticipated">March 29, 2018</completion_date>
+  <primary_completion_date type="Anticipated">February 23, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Assignment</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of the mapping of apneas based on the Forced Breath Technique compared to the manual scoring of polysomnographic data</measure>
+    <time_frame>1 night (= first treatment night)</time_frame>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Sleep Apnea, Obstructive</condition>
+  <condition>Sleep Apnea, Central</condition>
+  <arm_group>
+    <arm_group_label>treatment group</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Participants of the study undergo the standard stages of the clinical routine within a PAP therapy setting: a diagnostic night followed by one or two treatment nights.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>CPAP Titration using a Bilevel S/T mode with minimal pressure support and background rate</intervention_name>
+    <description>The study performs within clinical routine with this exception that instead of the usually applied CPAP mode a modified BiLevel S/T mode is used. The modified BiLevel S/T mode meets the same requirements as the CPAP mode while providing the Forced Breath Technique to classify apneas as central or obstructive.</description>
+    <arm_group_label>treatment group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  diagnosis of sleep-disordered breathing (AHI &gt;= 15/h)
+
+          -  ensued or indicated CPAP titration within a routine PAP therapy setting
+
+          -  age &gt;= 18 years
+
+          -  presence of written informed consent
+
+          -  in case of therapy control or repeated participation: total number of apneas in the
+             ensued treatment night was &gt; 10
+
+        Exclusion Criteria:
+
+          -  written informed consent is missing
+
+          -  Participation in another clinical trial that influences the initiation of (auto) CPAP
+             treatment by specifications of device settings or titration procedure
+
+          -  NYHA (New York Heart Association) class III or IV
+
+          -  acute cardiac decompensation
+
+          -  severe arrhythmia
+
+          -  severe hypotension, particularly in combination with intravascular volume depletion
+
+          -  severe epistaxis
+
+          -  high risk of barotrauma
+
+          -  decompensated pulmonary conditions
+
+          -  pneumothorax or pneumomediastinum
+
+          -  pneumocephalus
+
+          -  cranial trauma
+
+          -  status following brain surgery or surgical intervention on the pituitary gland or the
+             middle/inner ear
+
+          -  acute sinus infection (sinusitis), middle ear infection (otitis media) or perforated
+             eardrum
+
+          -  dehydration
+
+        Exclusion Criteria Statistical Evaluation:
+
+        Data of patients who completed the study protocol will be excluded from statistical
+        analysis if one of the following criteria applies:
+
+          -  there is leakage of &gt; 50 l/min for
+
+          -  application of incorrect device settings
+
+          -  insufficient data quality of PSG (Polysomnography) -acquisition
+
+          -  the device was applied outside range of indication
+
+          -  data of diagnostic night are not acquired as a PSG
+
+          -  informed consent isn´t present
+
+          -  the total number of apneas during the treatment night with BiLevel ST is &lt; 10
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Georg Nilius, PD Dr. med.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>HELIOS Klinik Hagen Ambrock</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Regina Schaefer</last_name>
+    <phone>+49 721-82830-23</phone>
+    <email>regina.schaefer@loewensteinmedical.de</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Matthias Schwaibold</last_name>
+    <phone>+ 49 721-82830-49</phone>
+    <email>matthias.schwaibold@loewensteinmedical.de</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>HELIOS Klinik</name>
+      <address>
+        <city>Hagen</city>
+        <state>NRW</state>
+        <zip>58091</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ulrike Domanski</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 5, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 13, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 14, 2018</study_first_posted>
+  <last_update_submitted>February 13, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 13, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 14, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Forced Breath Technique</keyword>
+  <keyword>auto-CPAP</keyword>
+  <keyword>CPAP</keyword>
+  <keyword>Obstructive sleep apnea</keyword>
+  <keyword>central sleep apnea</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Apnea</mesh_term>
+    <mesh_term>Sleep Apnea Syndromes</mesh_term>
+    <mesh_term>Sleep Apnea, Obstructive</mesh_term>
+    <mesh_term>Sleep Apnea, Central</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,203 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02236923</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NICOR-14-ACS-24</org_study_id>
+    <nct_id>NCT02236923</nct_id>
+  </id_info>
+  <brief_title>Study of the Influence of the Moon and Seasons On Outcomes Following Surgery To Repair Ascending Aortic Dissection</brief_title>
+  <acronym>ACS-MOON-1</acronym>
+  <official_title>The Influence of Lunar Cycle On Hospital Outcomes Following Ascending Aortic Dissection Repair</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>22EON</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute for Cardiovascular Outcomes Research</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>22EON</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      That the full-moon stage of the lunar cycle is associated with reduced mortality and shorter
+      length of stay in patients undergoing repair of aortic dissection, after adjusting for
+      seasonal effects, demographics and cardiovascular risk factors.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The primary objective of this study is to determine whether the findings of Shuhaiber et al.
+      [2013] (see citations) may be confirmed using national audit data from the United Kingdom.
+
+      A cohort of all acute ascending aortic dissection repair surgeries will be extracted from the
+      National Adult Cardiac Surgery Audit (NACSA) database. The current dataset version 4.12,
+      available for download from the website of the National Institute for Cardiovascular Outcomes
+      Research (see links), contains 168 fields that detail pre-operative patient characteristics,
+      operative details and post-operative outcomes. The dataset is revised intermittently to meet
+      the requirements of users and to respond to changes in the management of adult cardiac
+      surgery; however, the fields to be analysed in this study have not been subject to any
+      documented revisions. The extracted data are to be cleaned using version 9.9 of the NACSA
+      cleaning algorithm.
+
+      Seasons are to be coded in the same way as in the published study: autumn (September 21
+      through December 20), winter (December 21 through March 21), spring (March 22 through June
+      21) and summer (June 22 through September 20).
+
+      Three definitions are to be used for the phases of the moon. The first definition mirrors
+      that employed in the motivating work: each lunar cycle from new moon to new moon is to be
+      split into four parts and labelled &quot;New&quot;, &quot;Waxing&quot;, &quot;Full&quot; and &quot;Waning&quot;. The second
+      definition centers each of those four labels around the named event: i.e., the &quot;New&quot; period
+      is to be centered around the new moon event itself, instead of starting on the day of a new
+      moon as in the first definition. The third definition will split the lunar cycle into 8
+      event-centred periods, called &quot;New&quot;, &quot;Waxing crescent&quot;, &quot;First quarter&quot;, &quot;Waxing gibbous&quot;,
+      &quot;Full&quot;, &quot;Waning gibbous&quot;, &quot;Last quarter&quot; and &quot;Waning crescent&quot;.
+
+      There is no need to explore the individual univariate relationships of predictors to outcomes
+      in this work, given its limited purpose to confirm the earlier multivariate findings. The
+      relationship between the environmental factors (seasons and the lunar cycle) and in-hospital
+      mortality will be examined using multivariate logistic regression, controlling for
+      demographic and mortality risk factors. The specific variables that can be included in common
+      with the earlier work are age, sex, hypertension, diabetes, renal failure, and an indicator
+      of weekend admission. The national audit does not include information on dyslipidaemia, but
+      it is felt that its exclusion from our model will not effect the comparability of our work to
+      the earlier study because none of the earlier published models showed any effect of
+      dyslipidaemia on surgical outcomes. The relationship of the environmental factors to Length
+      of stay (LOS) in survivors will be examined using a multivariate linear regression that
+      includes the same risk factors as in the mortality model. As in the published study, LOS will
+      be transformed to the natural logarithmic scale prior to analysis.
+
+      We will run all analyses with and without a European system for cardiac operative risk
+      evaluation score (EuroSCORE) II risk adjustment. The EuroSCORE II was developed specifically
+      to adjust for risk of in-hospital mortality. It will be employed here despite its absence
+      from the published models to ensure that risk adjustment prior to estimation of the
+      contributions of the environmental factors will be as thorough as reasonably possible.
+
+      All analyses will be performed using R version 3.1.0. Environmental factors will be
+      calculated using the lunar package available from the CRAN software repository.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 1998</start_date>
+  <completion_date type="Actual">March 2014</completion_date>
+  <primary_completion_date type="Actual">December 2013</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>All cause in-hospital mortality</measure>
+    <time_frame>During hospital stay, an expected average of 8 days</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Length of stay in hospital among survivors to discharge</measure>
+    <time_frame>During hospital stay, an expected average of 18 days</time_frame>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">2684</enrollment>
+  <condition>Aneurysm, Dissecting</condition>
+  <condition>Aortic Aneurysm</condition>
+  <arm_group>
+    <arm_group_label>Group A: Single procedure</arm_group_label>
+    <description>Group A consists of patients recorded as having only had an ascending aortic dissection repair procedure.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group B: Multiple procedures</arm_group_label>
+    <description>Group B consists of patients who had an ascending aortic dissection repair procedure together with any other surgical intervention.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All acute ascending aortic dissection repair procedures recorded in the United Kingdom's
+        National Adult Cardiac Surgery Audit.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  acute dissection specified in aortic pathology
+
+        Exclusion Criteria:
+
+          -  missing data in the demographic covariates (age, sex)
+
+          -  missing data in the medical history (hypertension, diabetes, renal failure)
+
+          -  missing surgical procedure date
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Emmanuel Lazaridis, PhD, LLB</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University College, London</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>National Institute for Cardiovascular Outcomes Research</name>
+      <address>
+        <city>London</city>
+        <zip>W1T 7HA</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <link>
+    <url>http://www.ucl.ac.uk/nicor/audits/adultcardiac</url>
+    <description>National Adult Cardiac Surgery Audit (NACSA)</description>
+  </link>
+  <reference>
+    <citation>Shuhaiber JH, Fava JL, Shin T, Dobrilovic N, Ehsan A, Bert A, Sellke F. The influence of seasons and lunar cycle on hospital outcomes following ascending aortic dissection repair. Interact Cardiovasc Thorac Surg. 2013 Nov;17(5):818-22. doi: 10.1093/icvts/ivt299. Epub 2013 Jul 9.</citation>
+    <PMID>23838340</PMID>
+  </reference>
+  <verification_date>September 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 8, 2014</study_first_submitted>
+  <study_first_submitted_qc>September 9, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 11, 2014</study_first_posted>
+  <last_update_submitted>September 9, 2014</last_update_submitted>
+  <last_update_submitted_qc>September 9, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">September 11, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>cardiovascular</keyword>
+  <keyword>surgery</keyword>
+  <keyword>ascending aorta</keyword>
+  <keyword>aortic dissection</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Aneurysm</mesh_term>
+    <mesh_term>Aortic Aneurysm</mesh_term>
+    <mesh_term>Aneurysm, Dissecting</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

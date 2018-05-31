@@ -1,0 +1,202 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01620021</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Pro00003205</org_study_id>
+    <nct_id>NCT01620021</nct_id>
+  </id_info>
+  <brief_title>Feasibility of Wearable Sensors to Determine Gait Parameters</brief_title>
+  <official_title>Feasibility of Wearable Sensors to Determine Gait Parameters</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of South Florida</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of South Florida</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Hypotheses:
+
+      • A wearable sensor system can be used to accurately monitor three common gait parameters:
+      gait speed, stride length, and torso motion.
+
+      Objectives:
+
+      This study will examine the feasibility of using wearable sensors to monitor common gait
+      parameters: gait speed, stride length and torso motion. A wearable sensor system of 8
+      commercially available inertial measurement units (IMU) will be composed. These sensors will
+      work in unison to monitor the gait parameters.
+
+      Technical Objectives
+
+        -  Gather information on commercially available IMUs
+
+        -  Use computer software to monitor and record data from IMUs
+
+        -  Develop an algorithm that can monitor volunteer gait speed, stride length and torso
+           motion
+
+        -  Develop a graphical algorithm that compares healthy patient data to potential mild
+           traumatic brain injury (mTBI ) candidates
+
+        -  Determine if there is a potential for mTBI determination using the wearable sensors
+
+        -  Accurately validate the wearable sensor system to the gait parameters measured using a
+           Vicon motion analysis system
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study will examine the feasibility of using wearable sensors to monitor common gait
+      parameters. A sensor system consisting of 8 wearable inertial measurement units (IMU) that
+      include accelerometers, gyroscopes and magnetometers will be examined. These sensors will be
+      programmed to work in unison to monitor gait parameters. The wearable sensor suite will have
+      the capability to collect and store gait parameter data. The size and weight of each sensor
+      should be similar to a standard metal wrist watch. The sensor suite will monitor three gait
+      parameters: gait speed, stride length, and torso motion. These gait parameters are important
+      for monitoring and detection of mild traumatic brain injury and as well as other neurological
+      and vestibular disorders.
+
+      The wearable sensor suite will have the following design parameters:
+
+        -  Devices must be able to both stream data real-time and record data onboard for later
+           transfer to a computer.
+
+        -  Data must be processed using a software analysis package such as MATLAB®
+
+        -  Device must be no heavier than the size of a metal wrist watch
+
+        -  Device must be easily put on and be easily operated by clinicians and users
+
+        -  Device must have a battery life of greater than 4 hours The wearable sensor suite will
+           then be validated using an eight camera Vicon infrared optical capture motion analysis
+           system for comparison. Ten healthy volunteers will be asked to complete four different
+           types of gait trials 5 times for each trial type while being monitored by the Vicon
+           motion analysis system and the wearable sensor system.
+
+      The types of gait trials will be the following:
+
+        -  Walk down a 20 ft path at self-selected normal stride length and cadence
+
+        -  Walk down a 20 ft path with increased stride length while decreasing gait speed
+
+        -  Walk down a 20 ft path with increased stride length while increasing gait speed
+
+        -  Walk down a 20 ft path with decreased stride length while decreasing gait speed
+
+        -  Walk down a 20 ft path with decreased stride length while increasing gait speed
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2011</start_date>
+  <completion_date type="Actual">June 2014</completion_date>
+  <primary_completion_date type="Actual">June 2014</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>gait speed</measure>
+    <time_frame>60 seconds</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>stride length</measure>
+    <time_frame>60 seconds</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Torso motion</measure>
+    <time_frame>60 seconds</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Head motion</measure>
+    <time_frame>60 seconds</time_frame>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">10</enrollment>
+  <condition>Gait Analysis</condition>
+  <arm_group>
+    <arm_group_label>Healthy</arm_group_label>
+    <description>Ten healthy volunteers with no history of gait and balance issues will be recruited to participate in the study.The participants must be between 18 and 65 years of age.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Ten healthy volunteers with no history of gait and balance issues will be recruited to
+        participate in the study. The participants must be between 18 and 65 years of age.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  no history of gait and balance issues
+
+          -  18-65
+
+        Exclusion Criteria:
+
+          -  younger than 18
+
+          -  older than 65
+
+          -  problems with gait and balance
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>University of South Florida Motion Analysis Laboratory</name>
+      <address>
+        <city>Tampa</city>
+        <state>Florida</state>
+        <zip>33620</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 12, 2012</study_first_submitted>
+  <study_first_submitted_qc>June 12, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 15, 2012</study_first_posted>
+  <last_update_submitted>May 6, 2015</last_update_submitted>
+  <last_update_submitted_qc>May 6, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 7, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of South Florida</investigator_affiliation>
+    <investigator_full_name>Stephanie L. Carey</investigator_full_name>
+    <investigator_title>Assistant Research Professor</investigator_title>
+  </responsible_party>
+  <keyword>wearable sensors</keyword>
+  <keyword>kinematics</keyword>
+  <keyword>gait</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

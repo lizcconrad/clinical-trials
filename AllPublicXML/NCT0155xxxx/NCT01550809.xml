@@ -1,0 +1,783 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01550809</url>
+  </required_header>
+  <id_info>
+    <org_study_id>FP7-PEOPLE-2009-IEF #252085</org_study_id>
+    <secondary_id>DPI2010-20764-C02-01</secondary_id>
+    <nct_id>NCT01550809</nct_id>
+  </id_info>
+  <brief_title>New Strategies for Postprandial Glycemic Control Using Insulin Pump Therapy</brief_title>
+  <official_title>New Strategies for Postprandial Glycemic Control Using Insulin Pump Therapy: Feasibility of Insulin Dosing Based on Information From Continuous Glucose Monitoring</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fundación para la Investigación del Hospital Clínico de Valencia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>European Union</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ministerio de Ciencia e Innovación, Spain</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Fundación para la Investigación del Hospital Clínico de Valencia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Achieving near-normoglycemia has been established as the main objective for most patients
+      with type 1 diabetes (T1DM). However, insulin dosing is an empirical process and its success
+      is highly dependent on the patients' and physicians' skills, either with multiple daily
+      injections (MDI) or with continuous subcutaneous insulin infusion (CSII, the gold standard of
+      insulin treatment).
+
+      Postprandial glucose control is one of the most challenging issues in the everyday diabetes
+      care. Indeed, postprandial glucose excursions are the major contributors to plasma glucose
+      (PG) variability of subjects with (T1DM) and the poor reproducibility of postprandial glucose
+      response is burdensome for both patients and healthcare professionals.
+
+      During the past 10-15 years, there has been an exponentially increasing intrusion of
+      technology into diabetes care with the expectation of making life easier for patients with
+      diabetes. Some tools have been developed to aid patients in the prandial bolus
+      decision-making process, i.e. &quot;bolus advisors&quot;, which have been implemented in insulin pumps
+      and more recently in the newest generations of glucometers. Currently, the availability of
+      continuous glucose monitoring (CGM) has opened new scenarios for improving glycemic control
+      and increasing understanding of post-prandial glycemic response in patients with diabetes.
+
+      Results from clinical studies suggest that sensor-augmented pumps (SAP)may be effective in
+      improving metabolic control, especially when included as part of structured educational
+      programs resulting in patients' empowerment. Similarly, preliminary results from pilot
+      studies indicate that automated glycemic control, especially during nighttime,based on
+      information from CGM is feasible. However, automatic management of meal bolus is currently
+      one of the main challenges found in clinical validations of the few existing prototypes of an
+      artificial pancreas. Indeed, fully closed-loop systems where information about meals size and
+      timing is not given to the system have shown poor performance, with postprandial glucose
+      higher and post meal nadir glucose lower than desired. This has promoted other less-ambitious
+      approaches, where prandial insulin is administered following meal announcement (semi
+      closed-loop). However, despite the use of meal announcement, currently used algorithms for
+      glucose control (the so-called PID and MPC), show results that are not yet satisfactory due
+      to the risk of producing hypoglycemia.
+
+      One of the limitations of the current open-loop (bolus advisors) and closed-loop control
+      strategies is that glycemic variability is not taken into account. As an example, settings of
+      CSII consider inter-individual variation of the parameters (insulin/carbohydrates ratio,
+      correction dose, etc.) but disregard the day-to-day intra-individual variability of
+      postprandial glucose response. Availability of massive amount of information from CGM,
+      together with mathematic tools, may allow for the characterization of the individual
+      variability and the development of strategies to cope with the uncertainty of the glycemic
+      response to a meal.
+
+      In this project, a rigorous clinical testing of a CGM-based, user-independent algorithm for
+      prandial insulin administration will be carried out in type 1 diabetic patients treated with
+      insulin CSII.
+
+      First of all, an individual patient's model characterizing a 5-hour postprandial period will
+      be obtained from a 6-day CGM period. The model will account for a 20% uncertainty in insulin
+      sensitivity and 10% variability in the estimation of the ingested carbohydrates. Based on
+      this model (derived from CGM), a mealtime insulin dose will be calculated (referred as
+      iBolus). Then, the same subjects will undergo standardized meal test studies comparing the
+      administration of a traditional bolus (tBolus, based on insulin to CHO ratio, correction
+      factor, etc.) with the CGM-based prandial insulin delivery (iBolus).
+
+      Significant advances in postprandial control are expected. Should its efficiency be
+      demonstrated clinically, the method could be incorporated in advanced sensor augmented pumps
+      as well as feedforward action in closed-loop control algorithms for the artificial pancreas,
+      in future work.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Over the last 30 years, even with the development of new glucose monitoring techniques and
+      the availability of new insulin preparations with more physiological profiles, SC continuous
+      administration systems were still not able to be universal, efficient and safe systems able
+      to achieve a near-normalization of glucose levels in diabetic patients. Indeed, in developed
+      countries, only one third of diabetic patients meet criteria for good metabolic control, i.e.
+      glycosylated haemoglobin &lt; 7%.
+
+      During the past 10-15 years, there has been an exponentially increasing intrusion of
+      technology into diabetes care with the expectation of improving metabolic control and making
+      life easier for patients with diabetes. In the last years, some tools have been developed to
+      aid patients in the prandial bolus decision-making process as the &quot;bolus advisors&quot;, which are
+      implemented in insulin pumps and more recently in newest generations of glucometers.
+      Currently, the availability of continuous glucose monitoring (CGM) has opened two scenarios:
+
+        1. &quot;Open-loop control strategies&quot;. In the short/mid term CGM may help in the implementation
+           of more effective strategies of insulin treatment, especially in CSII treated patients,
+           with the development of smarter pumps (&quot;sensor augmented pumps&quot; which use the
+           information from the CGM to tune insulin infusion).
+
+        2. &quot;Closed-loop control strategies&quot;. In the long term, CGM may allow for automated glucose
+           control (the so-called artificial pancreas).
+
+      The artificial pancreas would represent the ideal solution for the attainment of the
+      therapeutic goals needed to prevent chronic complications of diabetes. Indeed, in the last
+      two decades, technological progresses have fuelled research on closed-loop glucose control
+      systems aiming for effective treatment of diabetic subjects. Preliminary studies using
+      off-the-shelf insulin pumps and continuous glucose monitoring (CGM) sensors have suggested
+      that in research settings, closed-loop systems that automatically dispense insulin can
+      achieve better glucose control than open-loop systems in which people have to take dosing
+      decisions. Such promising results prompted the Juvenile Diabetes Research Foundation (JDRF)
+      to push the research forward by launching its Artificial Pancreas Project in 2006. Also, the
+      US Food and Drug Administration (FDA) designated the artificial pancreas as a priority within
+      its Critical Path Initiative. However, due to its complexity, only a few prototypes so far
+      have been developed and tested in controlled clinical settings.
+
+      Among problems related to glycemic closed-loop control, management of postprandial glycaemic
+      excursions is a key issue in the future artificial pancreas. Indeed, meal-induced
+      perturbations on glucose control is one of the major problems to counteract and the main
+      challenge found in current clinical validations of the few existing prototypes of closed-loop
+      glycemic control systems.
+
+      The first significant clinical result regarding fully automated closed loop in the fasting
+      condition comes from Medtronic Inc. who demonstrated the feasibility of a fully automated
+      closed loop system in 10 adults with type 1 diabetes mellitus, using an external pump (CSII),
+      a sensor for continuous subcutaneous glucose monitoring (CGM), and a control algorithm called
+      ePID. This algorithm consists of a classical Proportional-Integral-Derivative controller plus
+      insulin on-board feedback. Since then, several initial clinical trials of closed-loop control
+      have been made to prove the feasibility of other control algorithms like Model Predictive
+      Control (MPC). MPC has obtained positive results in type 1 diabetic patients and also in
+      Intensive Care Units.
+
+      Different approaches have been suggested to deal with meal disturbances in these controllers.
+      Fully closed-loop systems where information about meals size and timing is not given to the
+      system have shown poor performance, with postprandial glucose higher and post-meal nadir
+      glucose lower than desired. This has promoted other less-ambitious approaches, where meals
+      are announced to the system generating a feed-forward action like for instance a prandial
+      insulin bolus (semi closed-loop). Hybrid approaches have also been proposed, where only a
+      percentage of the prandial bolus is applied ('priming bolus') and the rest is left to the
+      closed-loop controller.
+
+      Clinical studies have demonstrated the efficacy of these solutions to reduce postprandial
+      excursions during closed-loop control versus fully closed-loop systems, showing that first
+      generations of an artificial pancreas will require announcement of meals and priming insulin
+      boluses.
+
+      However, despite the use of meal announcement, the main challenge of control algorithms is
+      still the avoidance of overcorrection. An aggressive-enough tuning for a low post-prandial
+      glucose peak may cause an accumulation of insulin producing a late hypoglycemia. This imposes
+      the consideration of constraints on residual insulin activity (insulin-on-board) both in PID
+      and MPC-based systems. However, despite the inclusion of constraints, clinical results during
+      a meal of PID and MPC are not yet satisfactory.
+
+      Interval techniques have shown to be particularly suitable to deal with constraints under
+      uncertainty, leading to more robust solutions and potentially reducing the risk of
+      hypoglycaemia while maintaining good performance. These techniques were first introduced by
+      Bondia et al in 2009, who proposed a set-inversion-based algorithm for calculation of
+      meal-related insulin. This algorithm computed the feasible set of insulin profiles to fulfill
+      the given constraints on postprandial glycemia, according to a patient's prediction model. In
+      particular, physiological constraints were applied using postmeal guidelines from the
+      International Diabetes Federation aiming at no hypoglycemia and two-hour glucose below 140
+      mg/dL, in a 5-hour time horizon. A refined algorithm was presented by Revert et al in 2009,
+      allowing for the determination of the optimal insulin administration mode (standard, square,
+      dual-wave or temporal basal decrement/iBolus). In this work, an in silico validation using
+      the FDA-accepted UVA simulator for the testing of control algorithms was performed. Results
+      of this study demonstrated the effectiveness of this strategy, including the challenge of
+      meals with high carbohydrate content.
+
+      To date, priming prandial boluses in the context of semi-automated glucose control are
+      computed based on the patient's insulin-to-carbohydrate ratio, as currently done in
+      'standard' CSII therapy. In this latter, bolus insulin is infused over the patient's basal
+      insulin rate, usually following one of three available choices: 1) simple bolus (all of the
+      insulin dose is administered as a bolus, i.e. like with a pen or syringe); 2) dual wave bolus
+      (a percentage of the insulin dose is administered as a bolus, being the remaining insulin
+      being infused as a square wave during a pre-specified time interval following the meal); 3)
+      square wave bolus (all the insulin dose is administered as a square wave). However, the above
+      mentioned study by Revert et al. has demonstrated 'in silico' (i.e. by means of an
+      FDA-accepted computer simulator), that a coordinate action of basal and bolus insulin is
+      required to maintain blood glucose in a physiological range, in the postprandial state. In
+      particular, a bolus greater than the standard one, paralleled by a temporary reduction of the
+      basal insulin infusion rate (referred as iBolus, which may be considered as a generalization
+      of the superbolus concept introduced by Walsh et al. is needed, especially for meals with
+      higher carbohydrate content.
+
+      This study was planned to validate this new methodology for prandial insulin administration,
+      and it is expected to confirm the hypothesis that set-inversion techniques may be applied to
+      SAP-CSII therapy. Of note, this strategy would represent the first attempt of developing a
+      non-heuristic tool for mealtime insulin dosing. It could be implemented not only in
+      closed-loop strategies of glycemic control but also in open-loop strategies as an advanced
+      bolus advisor in newest generations of insulin pumps.
+
+      Primary objective:
+
+      In type 1 DM subjects treated with CSII, assessment and clinical validation of a new
+      algorithm for optimization of postprandial glucose control, the iBolus (CGM-based prandial
+      insulin administration) in comparison with a standard bolus (tBolus).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>February 2010</start_date>
+  <completion_date type="Actual">June 2011</completion_date>
+  <primary_completion_date type="Actual">June 2011</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Double (Participant, Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The Area Under the Curve (AUC) of Plasma Glucose (PG) Concentrations During the 5-hour Postprandial Period (AUC-PG0-5 h).</measure>
+    <time_frame>The whole experiment, i.e. 5 hours</time_frame>
+    <description>AUC-PG0-5 h (5-hour postprandial glucose following the mixed meal test) is a measure of the overall glucose-lowering efficacy of the insulin bolus. The lower the AUC-PG0-5 h without hypoglycemia, the greater the effectiveness of the prandial insulin administration to control the meal related glucose excursion.
+Plasma glucose (PG) for calculation of AUC-PG was measured every 15 minutes following the insulin administration and during the whole 5-hour postprandial period (300 minutes).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The Area Under the Curve (AUC) of the Glucose Infusion Rate (GIR) During the 5-hour Postprandial Period (AUC-GIR0-5h).</measure>
+    <time_frame>The whole experiment, i.e. 5 hours.</time_frame>
+    <description>The amount of glucose infused during the 5-hour postprandial period (AUC-GIR0-5h) is a measure of the hypoglycemic exposure associated with the modality of prandial insulin administration. Indeed, glucose will be infused only when patients are under a predefined blood glucose values (80 mg/dl) with a descending trend.
+Glucose infusion rate (GIR) for calculation of AUC-GIR was measured every minute following the insulin administration and during the whole 5-hour postprandial period (300 minutes).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The Area Under the Curve (AUC) of Plasma Glucose (PG) Above the Threshold of 140 mg/dl (AUC-PG&gt;140).</measure>
+    <time_frame>The whole experiment, i.e. the 5-hour postprandial period</time_frame>
+    <description>The AUC-PG&gt;140 during the 5-hour period following the meal test represents the hyperglycemic risk related to the modality of prandial insulin administration.
+Plasma glucose (PG) for calculation of AUC-PG&gt;140 was measured every 15 minutes following the insulin administration and during the whole 5-hour postprandial period (300 minutes).</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">12</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>tBolus (traditional bolus)</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Traditional mealtime insulin bolus based on the individual insulin-to-CHO ratio</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>iBolus (CGM-based insulin administration)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This is a CGM-based algorithm for prandial insulin administration. An individual patient's model characterizing a 5-hour postprandial period (0-5h PP) is obtained from a 6-day CGM period. A model with interval parameters accounting for patient's variability is calculated considering 20% uncertainty in insulin sensitivity and 10% in carbohydrates (CHO) estimation. Based on this model, constraints on plasma glucose are posed and a set-inversion problem lead to a set of solutions (the iBolus) that contains a bolus insulin dose, a specific mealtime basal insulin dose and the time for restoration of basal to baseline values.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>iBolus</intervention_name>
+    <description>Insulin bolus calculated from data obtained through CGM</description>
+    <arm_group_label>iBolus (CGM-based insulin administration)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>tBolus (traditional bolus)</intervention_name>
+    <description>Insulin bolus dose calculated using the standard procedure based on the insulin-to-carbohydrate ratio</description>
+    <arm_group_label>tBolus (traditional bolus)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Aged between 18 and 60 years
+
+          -  Under CSII treatment for at least six months before Visit 1
+
+          -  Body mass index of between 18 and 35 kg/m2
+
+          -  HbA1c 6.0-8.5% at Visit 1
+
+          -  Normal laboratory values, ECG, and vital signs unless the investigator considered an
+             abnormality to be clinically irrelevant
+
+          -  Women postmenopausal or using contraception judged by the investigator to be adequate
+             (e.g., oral contraceptives, intra-uterine device or surgical treatment), with a
+             negative urine pregnancy tests
+
+        Exclusion Criteria:
+
+          -  Pregnancy and lactation
+
+          -  History of hypersensitivity to the study medications or to drugs with similar chemical
+             structures
+
+          -  Hypoglycemia unawareness
+
+          -  Progressive fatal diseases
+
+          -  History of drug or alcohol abuse
+
+          -  History of positive HIV or hepatitis B or C test
+
+          -  Impaired hepatic function, as shown by, but not limited to, SGPT or SGOT of more than
+             twice the upper limit of the normal range at visit 1
+
+          -  Impaired renal function, as shown by, but not limited to, serum creatinine &gt; 1.5 mg/dL
+             at visit 1
+
+          -  Clinically relevant microvascular, cardiovascular, hepatic, neurologic, endocrine or
+             other major systemic diseases other than T1DM which could hinder implementation of the
+             clinical study protocol or interpretation of the study results
+
+          -  Pre-planned surgery during the study
+
+          -  Blood donation of more than 500 ml during the past three months for men, or during the
+             past six months for women
+
+          -  Mental condition rendering the subject unable to understand the nature, scope and
+             possible consequences of the study
+
+          -  Subject unlikely to comply with clinical study protocol, e.g., uncooperative attitude,
+             inability to return for follow-up visits, or poor likelihood of completing the study
+
+          -  Receipt of an experimental drug or use of an experimental device during the past 30
+             days.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Francisco Javier Ampudia-Blasco, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Fundación INCLIVA, Hospital Clínico Universitario de Valencia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Hospital Clínico Universitario</name>
+      <address>
+        <city>Valencia</city>
+        <zip>46010</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>August 2012</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 28, 2012</study_first_submitted>
+  <study_first_submitted_qc>March 7, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 12, 2012</study_first_posted>
+  <results_first_submitted>June 5, 2012</results_first_submitted>
+  <results_first_submitted_qc>August 20, 2012</results_first_submitted_qc>
+  <results_first_posted type="Estimate">August 29, 2012</results_first_posted>
+  <last_update_submitted>August 20, 2012</last_update_submitted>
+  <last_update_submitted_qc>August 20, 2012</last_update_submitted_qc>
+  <last_update_posted type="Estimate">August 29, 2012</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>T1DM</keyword>
+  <keyword>CSII</keyword>
+  <keyword>CGM</keyword>
+  <keyword>postprandial control</keyword>
+  <keyword>glycemic variability</keyword>
+  <keyword>Prandial insulin dosing in Type 1 diabetes treated with continuous subcutaneous insulin infusion</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Twelve patients were recruited in this two-way, crossover study. One factor was the type of the insulin bolus administered (iBolus or tBolus). The other factor was the amount of carbohydrates (Low- or High-CHO meal) ingested. Recruitment started in February 2010 and was terminated by the end of June 2011</recruitment_details>
+      <pre_assignment_details>Subjects received the i- or the tBolus on the first meal study (either Low or High CHO), according to one of the following sequences:
+iBolus first+low CHO first
+iBolus first+high CHO first
+tBolus first+low CHO first
+tBolus first+high CHO first
+Each one of the four meal tests was performed 1-2 weeks apart from the others</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>tBolus (Traditional Bolus)</title>
+          <description>Traditional mealtime bolus based on the individual insulin-to-CHO ratio</description>
+        </group>
+        <group group_id="P2">
+          <title>iBolus (CGM-based Insulin Administration)</title>
+          <description>This is a continuous glucose monitoring (CGM)-based algorithm for prandial insulin administration. An individual patient's model characterizing a 5-hour postprandial period (0-5h PP) is obtained from a 6-day CGM period. A model with interval parameters accounting for patient's variability is calculated considering 20% uncertainty in insulin sensitivity and 10% in carbohydrates (CHO) estimation. Based on this model, constraints on plasma glucose are posed and a set-inversion problem lead to a set of solutions (the iBolus) that contains a bolus insulin dose, a specific mealtime basal insulin dose and the time for restoration of basal to baseline values.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="6">Six patients started with the tBolus, the others with the iBolus, according to a crossover design.</participants>
+                <participants group_id="P2" count="6">Six patients started with the iBolus, the others with the tBolus, according to a crossover design.</participants>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="6"/>
+                <participants group_id="P2" count="6"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>tBolus (Traditional Bolus)</title>
+          <description>Traditional mealtime bolus based on the individual insulin-to-CHO ratio</description>
+        </group>
+        <group group_id="B2">
+          <title>iBolus (CGM-based Insulin Administration)</title>
+          <description>This is a continuous glucose monitoring (CGM)-based algorithm for prandial insulin administration. An individual patient's model characterizing a 5-hour postprandial period (0-5h PP) is obtained from a 6-day CGM period. A model with interval parameters accounting for patient's variability is calculated considering 20% uncertainty in insulin sensitivity and 10% in carbohydrates (CHO) estimation. Based on this model, constraints on plasma glucose are posed and a set-inversion problem lead to a set of solutions (the iBolus) that contains a bolus insulin dose, a specific mealtime basal insulin dose and the time for restoration of basal to baseline values.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="6"/>
+            <count group_id="B2" value="6"/>
+            <count group_id="B3" value="12"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                    <measurement group_id="B2" value="6"/>
+                    <measurement group_id="B3" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="43.6" spread="6.8"/>
+                    <measurement group_id="B2" value="40.3" spread="7.9"/>
+                    <measurement group_id="B3" value="41.8" spread="7.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="5"/>
+                    <measurement group_id="B3" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Spain</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                    <measurement group_id="B2" value="6"/>
+                    <measurement group_id="B3" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>The Area Under the Curve (AUC) of Plasma Glucose (PG) Concentrations During the 5-hour Postprandial Period (AUC-PG0-5 h).</title>
+        <description>AUC-PG0-5 h (5-hour postprandial glucose following the mixed meal test) is a measure of the overall glucose-lowering efficacy of the insulin bolus. The lower the AUC-PG0-5 h without hypoglycemia, the greater the effectiveness of the prandial insulin administration to control the meal related glucose excursion.
+Plasma glucose (PG) for calculation of AUC-PG was measured every 15 minutes following the insulin administration and during the whole 5-hour postprandial period (300 minutes).</description>
+        <time_frame>The whole experiment, i.e. 5 hours</time_frame>
+        <population>This was a proof-of-concept study. However, as an estimation of N, a two-sided t-test achieved 84% power to infer that the mean difference was not 0 when the total sample size of a 2x2 crossover design was 12, the actual mean difference in the AUC-PG0-5 h was 100mg*dl-1*h, the square root of the within mean square error was 75.0 and alpha was 0.05.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>tBolus (Traditional Bolus)</title>
+            <description>Traditional mealtime bolus based on the individual insulin-to-CHO ratio</description>
+          </group>
+          <group group_id="O2">
+            <title>iBolus (CGM-based Insulin Administration)</title>
+            <description>This is a continuous glucose monitoring (CGM)-based algorithm for prandial insulin administration. An individual patient's model characterizing a 5-hour postprandial period (0-5h PP) is obtained from a 6-day CGM period. A model with interval parameters accounting for patient's variability is calculated considering 20% uncertainty in insulin sensitivity and 10% in carbohydrates (CHO) estimation. Based on this model, constraints on plasma glucose are posed and a set-inversion problem lead to a set of solutions (the iBolus) that contains a bolus insulin dose, a specific mealtime basal insulin dose and the time for restoration of basal to baseline values.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>The Area Under the Curve (AUC) of Plasma Glucose (PG) Concentrations During the 5-hour Postprandial Period (AUC-PG0-5 h).</title>
+          <description>AUC-PG0-5 h (5-hour postprandial glucose following the mixed meal test) is a measure of the overall glucose-lowering efficacy of the insulin bolus. The lower the AUC-PG0-5 h without hypoglycemia, the greater the effectiveness of the prandial insulin administration to control the meal related glucose excursion.
+Plasma glucose (PG) for calculation of AUC-PG was measured every 15 minutes following the insulin administration and during the whole 5-hour postprandial period (300 minutes).</description>
+          <population>This was a proof-of-concept study. However, as an estimation of N, a two-sided t-test achieved 84% power to infer that the mean difference was not 0 when the total sample size of a 2x2 crossover design was 12, the actual mean difference in the AUC-PG0-5 h was 100mg*dl-1*h, the square root of the within mean square error was 75.0 and alpha was 0.05.</population>
+          <units>mg*h/dl</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="12"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="724.6" spread="198.7"/>
+                    <measurement group_id="O2" value="668.8" spread="162.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>The Area Under the Curve (AUC) of the Glucose Infusion Rate (GIR) During the 5-hour Postprandial Period (AUC-GIR0-5h).</title>
+        <description>The amount of glucose infused during the 5-hour postprandial period (AUC-GIR0-5h) is a measure of the hypoglycemic exposure associated with the modality of prandial insulin administration. Indeed, glucose will be infused only when patients are under a predefined blood glucose values (80 mg/dl) with a descending trend.
+Glucose infusion rate (GIR) for calculation of AUC-GIR was measured every minute following the insulin administration and during the whole 5-hour postprandial period (300 minutes).</description>
+        <time_frame>The whole experiment, i.e. 5 hours.</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>tBolus (Traditional Bolus)</title>
+            <description>Traditional mealtime bolus based on the individual insulin-to-CHO ratio</description>
+          </group>
+          <group group_id="O2">
+            <title>iBolus (CGM-based Insulin Administration)</title>
+            <description>This is a continuous glucose monitoring (CGM)-based algorithm for prandial insulin administration. An individual patient's model characterizing a 5-hour postprandial period (0-5h PP) is obtained from a 6-day CGM period. A model with interval parameters accounting for patient's variability is calculated considering 20% uncertainty in insulin sensitivity and 10% in carbohydrates (CHO) estimation. Based on this model, constraints on plasma glucose are posed and a set-inversion problem lead to a set of solutions (the iBolus) that contains a bolus insulin dose, a specific mealtime basal insulin dose and the time for restoration of basal to baseline values.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>The Area Under the Curve (AUC) of the Glucose Infusion Rate (GIR) During the 5-hour Postprandial Period (AUC-GIR0-5h).</title>
+          <description>The amount of glucose infused during the 5-hour postprandial period (AUC-GIR0-5h) is a measure of the hypoglycemic exposure associated with the modality of prandial insulin administration. Indeed, glucose will be infused only when patients are under a predefined blood glucose values (80 mg/dl) with a descending trend.
+Glucose infusion rate (GIR) for calculation of AUC-GIR was measured every minute following the insulin administration and during the whole 5-hour postprandial period (300 minutes).</description>
+          <units>mg/kg</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="12"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="55.0" spread="103.3"/>
+                    <measurement group_id="O2" value="119.6" spread="167.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>The Area Under the Curve (AUC) of Plasma Glucose (PG) Above the Threshold of 140 mg/dl (AUC-PG&gt;140).</title>
+        <description>The AUC-PG&gt;140 during the 5-hour period following the meal test represents the hyperglycemic risk related to the modality of prandial insulin administration.
+Plasma glucose (PG) for calculation of AUC-PG&gt;140 was measured every 15 minutes following the insulin administration and during the whole 5-hour postprandial period (300 minutes).</description>
+        <time_frame>The whole experiment, i.e. the 5-hour postprandial period</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>tBolus (Traditional Bolus)</title>
+            <description>Traditional mealtime bolus based on the individual insulin-to-CHO ratio</description>
+          </group>
+          <group group_id="O2">
+            <title>iBolus (CGM-based Insulin Administration)</title>
+            <description>This is a continuous glucose monitoring (CGM)-based algorithm for prandial insulin administration. An individual patient's model characterizing a 5-hour postprandial period (0-5h PP) is obtained from a 6-day CGM period. A model with interval parameters accounting for patient's variability is calculated considering 20% uncertainty in insulin sensitivity and 10% in carbohydrates (CHO) estimation. Based on this model, constraints on plasma glucose are posed and a set-inversion problem lead to a set of solutions (the iBolus) that contains a bolus insulin dose, a specific mealtime basal insulin dose and the time for restoration of basal to baseline values.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>The Area Under the Curve (AUC) of Plasma Glucose (PG) Above the Threshold of 140 mg/dl (AUC-PG&gt;140).</title>
+          <description>The AUC-PG&gt;140 during the 5-hour period following the meal test represents the hyperglycemic risk related to the modality of prandial insulin administration.
+Plasma glucose (PG) for calculation of AUC-PG&gt;140 was measured every 15 minutes following the insulin administration and during the whole 5-hour postprandial period (300 minutes).</description>
+          <units>mg*h/dl</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="12"/>
+                <count group_id="O2" value="12"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="111.1" spread="176.6"/>
+                    <measurement group_id="O2" value="89.3" spread="144.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>tBolus (Traditional Bolus)</title>
+          <description>Traditional mealtime bolus based on the individual insulin-to-CHO ratio</description>
+        </group>
+        <group group_id="E2">
+          <title>iBolus (CGM-based Insulin Administration)</title>
+          <description>This is a continuous glucose monitoring (CGM)-based algorithm for prandial insulin administration. An individual patient's model characterizing a 5-hour postprandial period (0-5h PP) is obtained from a 6-day CGM period. A model with interval parameters accounting for patient's variability is calculated considering 20% uncertainty in insulin sensitivity and 10% in carbohydrates (CHO) estimation. Based on this model, constraints on plasma glucose are posed and a set-inversion problem lead to a set of solutions (the iBolus) that contains a bolus insulin dose, a specific mealtime basal insulin dose and the time for restoration of basal to baseline values.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>1</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Francisco Javier Ampudia Blasco</name_or_title>
+      <organization>Departamento de Endocrinología y Nutrición, Hospital Clínico Universitario de Valencia, Universitat de València, Valencia, Spain</organization>
+      <phone>+34 96 3862665</phone>
+      <email>Francisco.J.Ampudia@uv.es</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

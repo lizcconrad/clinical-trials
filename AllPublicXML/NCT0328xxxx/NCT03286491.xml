@@ -1,0 +1,174 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03286491</url>
+  </required_header>
+  <id_info>
+    <org_study_id>TurkishMOHITH</org_study_id>
+    <nct_id>NCT03286491</nct_id>
+  </id_info>
+  <brief_title>Clinical Decision Support System to Define 30 Day Adverse Clinical Events for Emergency Department Acute Coronary Syndromes</brief_title>
+  <official_title>Development of Clinical Decision Support System to Define 30 Day Adverse Clinical Events (Non Fatal Myocardial Infarction, Cardiac Related Death or Coronary Intervention) for Patients Presenting to Emergency Department With Acute Coronary Syndrome</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Turkish Ministry of Health Izmir Teaching Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Turkish Ministry of Health Izmir Teaching Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Acute coronary syndromes are among main complains for patients presenting to emergency
+      department. Risk classification systems are used to classify patients to appropriate risks
+      and help physicians manage diagnosis strategies and treatments. Purpose of this study is to
+      develop a clinical decision support system for patients presenting to emergency department
+      with the help of statistical machine learning.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Acute coronary syndromes are among main complains for patients presenting to emergency
+      department and create a burden to emergency departments and hospitals. Risk classification
+      systems were developed and used to classify patients to appropriate risk groups. According to
+      risk classification, different diagnosis and treatment modalities can be used and help
+      physicians manage diagnosis strategies and treatments. Purpose of this study is to develop a
+      clinical decision support system for patients presenting to emergency department with the
+      help of statistical machine learning.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 12, 2017</start_date>
+  <completion_date type="Anticipated">February 1, 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 12, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Non fatal myocardial infarction, cardiac related death or coronary intervention in 30 days</measure>
+    <time_frame>30 days</time_frame>
+    <description>Patients will be screened for 30 days for Non fatal myocardial infarction, cardiac related death or coronary intervention (coronary angiogram, coronary artery bypass surgery)</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Acute Coronary Syndrome</condition>
+  <condition>Clinical Decision Support System</condition>
+  <arm_group>
+    <arm_group_label>Patients presenting with acute coronary syndrome</arm_group_label>
+    <description>Patients presenting to emergency department with acute coronary syndrome</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Further cardiac imaging</intervention_name>
+    <description>Study patients will be reviewed whether they will have coronary interventions in 30 days</description>
+    <arm_group_label>Patients presenting with acute coronary syndrome</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients presenting to emergency deparmtent with acute chest pain consistent with acute
+        coronary syndrome will be included for analysis.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Presenting to emergency department with acute chest pain consistent with acute
+             coronary syndrome
+
+        Exclusion Criteria:
+
+          -  Patients with less than 18 years old
+
+          -  Patients presenting with ST-segment elevation myocardial infarction
+
+          -  Patients presenting with other causes of acute chest pain (pneumothorax, pulmonary
+             -embolism, aortic dissection
+
+          -  Decline to participate in study
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_contact>
+    <last_name>Nesli Belen, M.D.</last_name>
+    <phone>90-551-4363001</phone>
+    <email>neslibelen@yahoo.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Serhat Akay, M.D.</last_name>
+    <phone>90-505-7079350</phone>
+    <email>howls_Castle@mynet.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Izmir Bozyaka Training and Research Hospital</name>
+      <address>
+        <city>Izmir</city>
+        <zip>35000</zip>
+        <country>Turkey</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Nesli Belen, M.D.</last_name>
+      <phone>90-551-4363001</phone>
+      <email>neslibelen@yahoo.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Serhat Akay, M.D.</last_name>
+      <phone>90-505-7079350</phone>
+      <email>howls_Castle@mynet.com</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Turkey</country>
+  </location_countries>
+  <verification_date>September 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 15, 2017</study_first_submitted>
+  <study_first_submitted_qc>September 15, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 18, 2017</study_first_posted>
+  <last_update_submitted>September 15, 2017</last_update_submitted>
+  <last_update_submitted_qc>September 15, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 18, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Turkish Ministry of Health Izmir Teaching Hospital</investigator_affiliation>
+    <investigator_full_name>Serhat Akay</investigator_full_name>
+    <investigator_title>M.D.</investigator_title>
+  </responsible_party>
+  <keyword>acute coronary syndrome, risk classification, 30 day adverse event, clinical decision support system</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Syndrome</mesh_term>
+    <mesh_term>Emergencies</mesh_term>
+    <mesh_term>Acute Coronary Syndrome</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

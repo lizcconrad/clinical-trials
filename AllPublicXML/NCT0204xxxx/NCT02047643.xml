@@ -1,0 +1,339 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02047643</url>
+  </required_header>
+  <id_info>
+    <org_study_id>29205</org_study_id>
+    <nct_id>NCT02047643</nct_id>
+  </id_info>
+  <brief_title>Accelerometer Use in the Prevention of Exercise-Associated Hypoglycemia in Type 1 Diabetes: Outpatient Exercise Protocol</brief_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Stanford University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Manually suspending an insulin pump at the beginning of aerobic exercise reduces the risk of
+      exercise-associated hypoglycemia (low blood sugar) in patients with type 1 diabetes (T1D).
+      However, since patients with T1D often do not make exercise-related adjustments to their
+      insulin regimen, our group has developed an algorithm to initiate pump suspension in a
+      user-independent manner upon projecting exercise-associated hypoglycemia. The current study
+      seeks to test the efficacy of this algorithm by asking users to participate in a sports camp
+      while wearing an insulin pump, continuous glucose monitor, and accelerometer/heart rate
+      monitor (to detect exercise), which will communicate electronically to a pump shutoff
+      algorithm. On one of the days the algorithm will be used, while on the other day their normal
+      insulin rate will continue for comparative purposes.
+
+      The investigators hypothesize that the use of an accelerometer-augmented computer algorithm
+      for insulin pump suspension during exercise will result in significantly fewer episodes of
+      hypoglycemia (both during exercise and in post-exercise monitoring) than in exercise without
+      a pump suspension algorithm.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Regular aerobic exercise confers a plethora of health benefits to all individuals and is
+      considered an essential component of the management of type 1 diabetes (T1D) [1]. However, in
+      contrast to non-diabetic subjects - in whom the increased muscle energy requirement during
+      exercise leads to suppression of endogenous insulin secretion - patients with T1D are
+      dependent upon exogenous insulin and are thus at risk for exercise-associated hypoglycemia
+      [1]. Exercise-associated hypoglycemia is the most frequently reported adverse event related
+      to exercise in diabetes [2] and hypoglycemia can occur during exercise or several hours
+      afterwards [3,4]. Although previous research has shown that pre-meal dose reduction of
+      subcutaneous insulin can be effective at decreasing the incidence of exercise-associated
+      hypoglycemia [5], patients with T1D often do not perform such adjustments [6,7].
+
+      In contrast to subcutaneous insulin injections, which are reliant upon the patient or
+      caretaker to determine dosage, the insulin pump provides a unique opportunity to avoid
+      hypoglycemia via user-independent, computer-based algorithms for determining insulin
+      delivery. Previous research conducted here at Stanford has demonstrated that algorithms based
+      on continuous glucose monitor (CGM) data can prevent hypoglycemia in the sedentary setting by
+      inducing insulin pump suspension [8-10]. In addition, a study of children and adolescents
+      conducted at Stanford (as a center in the DirecNet group) demonstrated that suspending an
+      insulin pump at the beginning of a period of moderate aerobic exercise reduces the risk of
+      hypoglycemia during that exercise period and subsequently overnight [11]. Thus, by utilizing
+      exercise-detecting accelerometers and an algorithm to initiate pump suspension during
+      exercise, it is likely possible that people with diabetes could avoid exercise-associated
+      hypoglycemia even if they failed to manually alter their pump settings. However, to date, no
+      published studies have utilized accelerometer-derived data in an insulin pump suspension
+      algorithm during exercise.
+
+      Accelerometers are light-weight motion-sensing devices that can be worn to provide
+      information about the intensity and duration of physical activity [12]. They are small,
+      inexpensive, and could easily be incorporated into current sensors and &quot;patch&quot; pumps. They
+      can also be used independently or combined with a heart rate monitor (HRM) [13], although
+      most commercially available HRMs currently require a chest strap that can be uncomfortable to
+      wear. Previous studies evaluating the effect of physical activity on insulin sensitivity have
+      utilized accelerometers (worn on a belt at the small of the back, the right side of the trunk
+      in the mid-axillary line, or the left side of the chest) with and without HRMs for activity
+      recognition during subjects' everyday lives. These data were used to classify activity as
+      sedentary, light, moderate, or vigorous based on acceleration signal counts measured over
+      one-minute intervals [13-17]. One study investigated four different accelerometers in a
+      clinical research setting and found each to be very accurate in assessing the intensity of
+      physical activity, regardless of subjects' body habitus [18]. Thus, these devices can provide
+      a reliable means by which the onset, duration, and intensity of exercise can be recognized
+      and reported in real-time to the other components of an artificial pancreas. When combined
+      with CGM and insulin delivery data, this exercise information is a valuable tool in designing
+      an algorithm to decrease or stop insulin delivery in order to decrease the risk of
+      exercise-associated hypoglycemia.
+
+      In the first phase of this study (in press), 22 subjects with type 1 diabetes went about
+      their everyday lives while wearing an insulin pump, CGM, and accelerometer/heart rate
+      monitor. After the monitoring period, the devices were downloaded and the data were used to
+      augment an existing predictive low glucose suspend (PLGS) algorithm to incorporate activity.
+      In a computer simulator, the PLGS algorithm reduced hypoglycemia by 64%, compared to 73% and
+      76% reductions for the accelerometer-augmented and HRM-augmented algorithms, respectively.
+
+      In the next phase of this study, we seek to test the newly developed algorithm in a real-life
+      setting in the form of a structured sports (soccer) camp.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>January 2014</start_date>
+  <completion_date type="Anticipated">June 2014</completion_date>
+  <primary_completion_date type="Anticipated">June 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Hypoglycemia prevention during scheduled exercise</measure>
+    <time_frame>Measurements occuring during exercise and through until the morning after exercise (approximately 24 hrs per monitoring period).</time_frame>
+    <description>The primary outcome will be hypoglycemia (defined as a blood glucose level &lt; 60 mg/dl). This will be measured via blood glucose meter and also followed via continuous glucose monitoring both during the period of exercise and in the post-exercise period of observation (which lasts until breakfast the following morning). Measurements are performed on two separate occasions (one with subjects using algorithm and the other without).</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>Algorithm ON</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>During the period of exercise, accelerometer and continuous glucose monitor (CGM) data will be communicated electronically in real-time to the University of Virginia Diabetes Assistant (DiAs), available on a secure Android-based cell phone. During the day in which the pump shutoff algorithm is in effect, if the computer algorithm senses impending risk for hypoglycemia, an alarm will sound to recommend a manual suspension of the subject's insulin pump by the on-site physician. The on-site physician will then decide whether or not to proceed with manual shutoff of the insulin pump at that time. If the pump is suspended, it will be manually re-started when advised by the computer algorithm, as long as the physician agrees.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Algorithm OFF</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>When participating in this arm of the study, no intervention to subjects' usual insulin pump settings will be made during exercise (i.e. the insulin pump suspension algorithm will not be active).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Algorithm ON</intervention_name>
+    <description>See Arm description.</description>
+    <arm_group_label>Algorithm ON</arm_group_label>
+    <other_name>Augmented predictive low glucose suspend algorithm</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinical diagnosis of type 1 diabetes for 1-20 years. The diagnosis of type 1 diabetes
+             is based on the investigator's judgment; C peptide level and antibody determinations
+             are not needed.
+
+          -  Age 8 to 25 years old.
+
+          -  On daily use of an insulin pump and not anticipating a change prior to the subject's
+             completion of the study.
+
+          -  Willingness to allow for CGM insertion (if not already using a study-designated CGM)
+             for use during the study.
+
+          -  HbA1c &lt;10%.
+
+          -  Parent/guardian and subject understand the study protocol and agree to comply with it.
+
+          -  Informed Consent Form signed by the parent/guardian and Child Assent Form signed.
+
+        Exclusion Criteria:
+
+          -  A history of recent injury to body or limb, Addison's disease, muscular disorder,
+             organ/bone marrow transplant, heart disease, or use of any medication or other
+             significant medical disorder if that injury, medication or disease in the judgment of
+             the investigator will affect the completion of the exercise protocol.
+
+          -  Current use of glucocorticoid medication (by any route of administration).
+
+          -  Current use of a beta blocker medication.
+
+          -  Severe hypoglycemia resulting in seizure or loss of consciousness in the four weeks
+             prior to sports camp (if a severe episode occurs after the first but prior to the
+             scheduled second admission, the visit will be deferred).
+
+          -  Active infection (if at the time of the planned second visit an infection is present,
+             the visit will be deferred).
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>8 Years</minimum_age>
+    <maximum_age>25 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bruce A Buckingham, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Matthew B Stenerson, MD</last_name>
+    <phone>650-723-5791</phone>
+    <email>mstenerson@stanford.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jennifer M Block, RN, CDE</last_name>
+    <phone>650-723-5791</phone>
+    <email>jblock@stanford.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Stanford University</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Matthew Stenerson, MD</last_name>
+      <phone>650-723-5791</phone>
+      <email>mstenerson@stanford.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jen Block</last_name>
+      <phone>650-723-5791</phone>
+      <email>jblock@stanford.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Bruce A Buckingham, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Matthew B Stenerson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Darrell M Wilson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>American Diabetes Association. Physical activity/exercise and diabetes. Diabetes Care. 2004 Jan;27 Suppl 1:S58-62.</citation>
+    <PMID>14693927</PMID>
+  </reference>
+  <reference>
+    <citation>Sonnenberg GE, Kemmer FW, Berger M. Exercise in type 1 (insulin-dependent) diabetic patients treated with continuous subcutaneous insulin infusion. Prevention of exercise induced hypoglycaemia. Diabetologia. 1990 Nov;33(11):696-703.</citation>
+    <PMID>2076801</PMID>
+  </reference>
+  <reference>
+    <citation>MacDonald MJ. Postexercise late-onset hypoglycemia in insulin-dependent diabetic patients. Diabetes Care. 1987 Sep-Oct;10(5):584-8.</citation>
+    <PMID>3677976</PMID>
+  </reference>
+  <reference>
+    <citation>Tuominen JA, Karonen SL, Melamies L, Bolli G, Koivisto VA. Exercise-induced hypoglycaemia in IDDM patients treated with a short-acting insulin analogue. Diabetologia. 1995 Jan;38(1):106-11.</citation>
+    <PMID>7744214</PMID>
+  </reference>
+  <reference>
+    <citation>Rabasa-Lhoret R, Bourque J, Ducros F, Chiasson JL. Guidelines for premeal insulin dose reduction for postprandial exercise of different intensities and durations in type 1 diabetic subjects treated intensively with a basal-bolus insulin regimen (ultralente-lispro). Diabetes Care. 2001 Apr;24(4):625-30.</citation>
+    <PMID>11315820</PMID>
+  </reference>
+  <reference>
+    <citation>Bernardini AL, Vanelli M, Chiari G, Iovane B, Gelmetti C, Vitale R, Errico MK. Adherence to physical activity in young people with type 1 diabetes. Acta Biomed. 2004 Dec;75(3):153-7.</citation>
+    <PMID>15796088</PMID>
+  </reference>
+  <reference>
+    <citation>Devadoss M, Kennedy L, Herbold N. Endurance athletes and type 1 diabetes. Diabetes Educ. 2011 Mar-Apr;37(2):193-207. doi: 10.1177/0145721710395782. Epub 2011 Feb 15.</citation>
+    <PMID>21325065</PMID>
+  </reference>
+  <reference>
+    <citation>Buckingham B, Cobry E, Clinton P, Gage V, Caswell K, Kunselman E, Cameron F, Chase HP. Preventing hypoglycemia using predictive alarm algorithms and insulin pump suspension. Diabetes Technol Ther. 2009 Feb;11(2):93-7. doi: 10.1089/dia.2008.0032.</citation>
+    <PMID>19848575</PMID>
+  </reference>
+  <reference>
+    <citation>Cengiz E, Swan KL, Tamborlane WV, Steil GM, Steffen AT, Weinzimer SA. Is an automatic pump suspension feature safe for children with type 1 diabetes? An exploratory analysis with a closed-loop system. Diabetes Technol Ther. 2009 Apr;11(4):207-10. doi: 10.1089/dia.2008.0102.</citation>
+    <PMID>19344194</PMID>
+  </reference>
+  <reference>
+    <citation>Buckingham B, Chase HP, Dassau E, Cobry E, Clinton P, Gage V, Caswell K, Wilkinson J, Cameron F, Lee H, Bequette BW, Doyle FJ 3rd. Prevention of nocturnal hypoglycemia using predictive alarm algorithms and insulin pump suspension. Diabetes Care. 2010 May;33(5):1013-7. doi: 10.2337/dc09-2303. Epub 2010 Mar 3.</citation>
+    <PMID>20200307</PMID>
+  </reference>
+  <reference>
+    <citation>Diabetes Research in Children Network (DirecNet) Study Group, Tsalikian E, Kollman C, Tamborlane WB, Beck RW, Fiallo-Scharer R, Fox L, Janz KF, Ruedy KJ, Wilson D, Xing D, Weinzimer SA. Prevention of hypoglycemia during exercise in children with type 1 diabetes by suspending basal insulin. Diabetes Care. 2006 Oct;29(10):2200-4.</citation>
+    <PMID>17003293</PMID>
+  </reference>
+  <reference>
+    <citation>Plasqui G, Westerterp KR. Physical activity assessment with accelerometers: an evaluation against doubly labeled water. Obesity (Silver Spring). 2007 Oct;15(10):2371-9. Review.</citation>
+    <PMID>17925461</PMID>
+  </reference>
+  <reference>
+    <citation>Gradmark A, Pomeroy J, Renström F, Steiginga S, Persson M, Wright A, Bluck L, Domellöf M, Kahn SE, Mogren I, Franks PW. Physical activity, sedentary behaviors, and estimated insulin sensitivity and secretion in pregnant and non-pregnant women. BMC Pregnancy Childbirth. 2011 Jun 16;11:44. doi: 10.1186/1471-2393-11-44.</citation>
+    <PMID>21679399</PMID>
+  </reference>
+  <reference>
+    <citation>Balkau B, Mhamdi L, Oppert JM, Nolan J, Golay A, Porcellati F, Laakso M, Ferrannini E; EGIR-RISC Study Group. Physical activity and insulin sensitivity: the RISC study. Diabetes. 2008 Oct;57(10):2613-8. doi: 10.2337/db07-1605. Epub 2008 Jun 30.</citation>
+    <PMID>18591396</PMID>
+  </reference>
+  <reference>
+    <citation>Ekelund U, Griffin SJ, Wareham NJ. Physical activity and metabolic risk in individuals with a family history of type 2 diabetes. Diabetes Care. 2007 Feb;30(2):337-42.</citation>
+    <PMID>17259504</PMID>
+  </reference>
+  <reference>
+    <citation>Simmons RK, Griffin SJ, Steele R, Wareham NJ, Ekelund U; ProActive Research Team. Increasing overall physical activity and aerobic fitness is associated with improvements in metabolic risk: cohort analysis of the ProActive trial. Diabetologia. 2008 May;51(5):787-94. doi: 10.1007/s00125-008-0949-4. Epub 2008 Mar 4.</citation>
+    <PMID>18317727</PMID>
+  </reference>
+  <reference>
+    <citation>Healy GN, Wijndaele K, Dunstan DW, Shaw JE, Salmon J, Zimmet PZ, Owen N. Objectively measured sedentary time, physical activity, and metabolic risk: the Australian Diabetes, Obesity and Lifestyle Study (AusDiab). Diabetes Care. 2008 Feb;31(2):369-71. Epub 2007 Nov 13.</citation>
+    <PMID>18000181</PMID>
+  </reference>
+  <reference>
+    <citation>Arvidsson D, Fitch M, Hudes ML, Tudor-Locke C, Fleming SE. Accelerometer response to physical activity intensity in normal-weight versus overweight African American children. J Phys Act Health. 2011 Jul;8(5):682-92.</citation>
+    <PMID>21734314</PMID>
+  </reference>
+  <verification_date>January 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 17, 2014</study_first_submitted>
+  <study_first_submitted_qc>January 24, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 28, 2014</study_first_posted>
+  <last_update_submitted>January 24, 2014</last_update_submitted>
+  <last_update_submitted_qc>January 24, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 28, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Type 1 diabetes</keyword>
+  <keyword>Hypoglycemia</keyword>
+  <keyword>Accelerometer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+    <mesh_term>Hypoglycemia</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

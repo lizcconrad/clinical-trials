@@ -1,0 +1,173 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00127816</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SP-14-0044 / 21694</org_study_id>
+    <secondary_id>RIP Project 21694</secondary_id>
+    <nct_id>NCT00127816</nct_id>
+  </id_info>
+  <brief_title>Improving Assessment (and Ultimately Outcomes) of Permanent Prostate Implant Therapy</brief_title>
+  <official_title>Improving Assessment (and Ultimately Outcomes) of Permanent Prostate Implant Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>AHS Cancer Control Alberta</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Cross Cancer Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>AHS Cancer Control Alberta</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Permanent prostate implants are a type of radiation therapy in which a high dose of radiation
+      is delivered to cancerous tissue by many small radioactive &quot;seeds&quot;. Studies of early-stage
+      prostate cancer patients treated in this way and followed for 10 - 12 years indicate a cure
+      rate of about 80%. This result is similar to surgery and other forms of radiotherapy, but
+      comes with fewer side effects and greater convenience for the patient. Further studies show
+      that the radiation dose delivered is the most important factor in achieving a cure. At
+      present this dose is estimated by a computer, using a computed tomography (CT) scan of the
+      patient and a simple calculation method. The dose estimate is not as accurate as it could be,
+      however, because the precise extent of the prostate is hard to determine from the CT scan,
+      and the calculation method does not make use of information about patient body tissues. The
+      researchers propose to eliminate these inaccuracies by using magnetic resonance imaging (MRI)
+      to identify the prostate gland and by developing an improved dose calculation algorithm that
+      includes information about patient tissues. This new approach will allow physicians to assess
+      implant quality with greater certainty, improve their implant technique, and ultimately
+      increase the cure rate to as much as 95%.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study addresses three major sources of post-implant dosimetry inaccuracy for permanent
+      prostate implants: post-operative edema, prostate contour delineation, and dose calculation
+      method. It is hypothesized that a pragmatic edema model can minimize the first uncertainty,
+      co-registered CT + MR images the second, and an improved dose calculation algorithm the
+      third.
+
+      Detailed objectives are to:
+
+        -  measure and model the effects of edema on dosimetry;
+
+        -  evaluate CT + MR image registration methods;
+
+        -  compare dosimetry for CT alone vs. CT + MRI using the contemporary TG-43 dose
+           calculation method;
+
+        -  set up a Monte Carlo code that makes full use of the information in CT + MR images to
+           perform implant dose calculations;
+
+        -  compare prostate dosimetry for the Monte Carlo vs. the simpler TG-43 method;
+
+        -  develop an analytical post-implant dose calculation algorithm for routine clinical use
+           (Monte Carlo is too slow on a single-CPU brachytherapy planning computer); and finally
+
+        -  assess the performance of the new algorithm.
+
+      Of the estimated 250,000 new cases of prostate cancer in North America in 2004, most are
+      early stage disease as a consequence of PSA testing. Permanent prostate implant therapy is a
+      major option for this group, as long-term clinical studies indicate a cure rate equal to
+      surgery and external beam radiotherapy, but with fewer complications. By dealing with
+      dosimetric inaccuracies, a proven treatment can reach its full potential.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2005</start_date>
+  <completion_date type="Actual">April 2013</completion_date>
+  <primary_completion_date type="Actual">April 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>implant dose coverage at 4 weeks, comparing CT and MRI versus CT alone</measure>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>implant edema at time of implant and at 2 and 4 weeks</measure>
+  </secondary_outcome>
+  <enrollment type="Actual">40</enrollment>
+  <condition>Prostate Cancer</condition>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Permanent prostate implant</intervention_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Candidate for permanent prostate implant
+
+        Exclusion Criteria:
+
+          -  Not ambulatory
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ron Sloboda, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>AHS Cancer Control Alberta</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Cross Cancer Institute</name>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <zip>T6G 1Z2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <reference>
+    <citation>Nag S, Bice W, DeWyngaert K, Prestidge B, Stock R, Yu Y. The American Brachytherapy Society recommendations for permanent prostate brachytherapy postimplant dosimetric analysis. Int J Radiat Oncol Biol Phys. 2000 Jan 1;46(1):221-30. Review.</citation>
+    <PMID>10656396</PMID>
+  </reference>
+  <reference>
+    <citation>Yu Y, Anderson LL, Li Z, Mellenberg DE, Nath R, Schell MC, Waterman FM, Wu A, Blasko JC. Permanent prostate seed implant brachytherapy: report of the American Association of Physicists in Medicine Task Group No. 64. Med Phys. 1999 Oct;26(10):2054-76.</citation>
+    <PMID>10535622</PMID>
+  </reference>
+  <verification_date>March 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 5, 2005</study_first_submitted>
+  <study_first_submitted_qc>August 5, 2005</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 9, 2005</study_first_posted>
+  <last_update_submitted>March 14, 2016</last_update_submitted>
+  <last_update_submitted_qc>March 14, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">March 16, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>brachytherapy</keyword>
+  <keyword>implant radiotherapy</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

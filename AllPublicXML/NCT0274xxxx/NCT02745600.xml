@@ -1,0 +1,306 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02745600</url>
+  </required_header>
+  <id_info>
+    <org_study_id>610886</org_study_id>
+    <nct_id>NCT02745600</nct_id>
+  </id_info>
+  <brief_title>Clinical Intervention Modelling, Planning and Proof for Ablation Cancer Treatment</brief_title>
+  <acronym>ClinicIMPPACT</acronym>
+  <official_title>Clinical Intervention Modelling, Planning and Proof for Ablation Cancer Treatment (ClinicIMPPACT)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Leipzig</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Medical University of Graz</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Medical Center Nijmegen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Turku</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Leipzig</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The main objective of the project is to bring the existing radio frequency ablation (RFA)
+      model for liver cancer treatment (Project IMPPACT, Grant No. 223877, completed in February
+      2012) into clinical practice. Therefore the project will pursue the following objectives:
+
+      i) to prove and refine the RFA model in a small clinical study; ii) to develop the model into
+      a real-time patient specific RFA planning and support system for Interventional Radiologists
+      (IR) under special consideration of their clinical workflow needs; iii) to establish a
+      corresponding training procedure for IR's; iv) to evaluate the clinical practicality and
+      benefit of the model for use in the routine workflow in a user survey and expert forum.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This ClinicIMPPACT proposal builds upon the success of the IMPPACT project (Grant No. 223877,
+      completed in February 2012), which created a model for facilitating more accurate RFA
+      treatment. This preliminary RFA model was tested in swine, with extensive histological
+      workup, and in a clinical simulation study based on patient data, both of which reported
+      relatively high correlations between estimated and actual tumor volumes. The mapping software
+      for liver cancer RFA was developed through this project and provides a simulator for
+      radiologists to plan, review and optimize procedures. Within IMPPACT, extensive experiments
+      were performed on pigs and cells to develop a micro-scale cellular death model, which we used
+      for calibrating the software. After porcine liver calibration, eight patient lesions were
+      selected from a database of clinical procedures, and the planning software was used
+      retrospectively to simulate interventions and predict lesion shapes. Predicted volumes were
+      then compared against real thermal lesions, visualized and segmented in contrast-enhanced CT
+      one month after ablation. These comparisons showed simulated and real lesion volumes to be
+      acceptably matched after taking virtual tissue perfusion values into account. Some lesion
+      shapes were mismatched, possibly due to inaccuracies in segmenting radiological images.
+
+      Treatment with RFA could be improved using a validated software solution to estimate lesion
+      size and identify possible complications in advance—ideally, a solution which is adapted to
+      real-time clinical requirements. However, the current state of the art involves long,
+      hardware-intensive computing time (~5 hours), which is impractical for clinical use.
+
+      The main goal of this project is to develop a simulation tool, driven by a user-friendly,
+      ergonomically optimized graphical user interface, to support the complex requirements of
+      clinicians. Therefore, the working steps of this international project and its medical and
+      technical partners are to accelerate simulation speed, optimize needle registration, and
+      integrate patients' individual perfusion values into software calculations, as well as
+      accurate validation techniques, to produce more sophisticated and reliable predictions. The
+      software could also aid in offline planning and simulation and as an RFA teaching tool for
+      radiologists. Its use in retrospective analysis should improve clinical follow up and
+      scientific evaluation.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>February 2016</start_date>
+  <completion_date type="Anticipated">March 2017</completion_date>
+  <primary_completion_date type="Anticipated">February 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Comparison of the size and shape, using quantitative and semi-quantitative measures, of the real ablation zone one month after RFA treatment of liver tumors with the simulation results of the ClinicIMPPACT software.</measure>
+    <time_frame>All patients within 1 month follow up in the trial period</time_frame>
+    <description>For the primary endpoint, the investigators will compare lesions visualized by routine CT one month after ablation with their simulated counterparts to define the accuracy of the method itself. The coinciding volumes of the real RFA lesion and the simulated one will be determined by counting the number of matching voxels, i.e. voxels of simulation and recorded data, sharing the space coordinates, and dividing by the sum of the voxels of simulated and real lesions.
+To define the accuracy of the simulation as a parameter, we introduce the following categories:
+In comparison to the &quot;real ablation&quot; the simulation result would have been:
+I. much smaller II. comparable III. much larger b) The spatial coordinates of the &quot;real ablation&quot; differs from the simulated one I. Strongly II. Not strongly</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Comparison of the spatial coordiantes of the real ablation zone one month after RFA treatment of liver tumors with the simulation results of the ClinicIMPPACT software.</measure>
+    <time_frame>All patients within 1 month follow up in the trial period</time_frame>
+    <description>To define the accuracy of the simulation as a parameter, the investigators introduce the following categories:
+The spatial coordinates of the &quot;real ablation&quot; differs from the simulated one I. Strongly II. Not strongly</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Duration/Efficiency of workflow steps measured in minutes</measure>
+    <time_frame>up to 60 minutes per lesion</time_frame>
+    <description>Duration of the simulation (minutes)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Would the treatment protocol been influenced by the simulation results if it would have been known in advance by the treating doctor.</measure>
+    <time_frame>12 months</time_frame>
+    <description>Influence Yes/No
+• If yes, is there an expectable potential benefit for the patient due to an increase or decrease of the treatment protocol?</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Does the follow - up (3, 6 ,12months) imaging support the assumptions regarding local tumor control</measure>
+    <time_frame>up to 24 months due to 12m follow up</time_frame>
+    <description>Choice of one of the options below:
+The tumor is completely treated with sufficient safety margins, healthy tissue has been largely spared by the ablation and there is no locoregional recurrence visible in the follow - up imaging (= locoregional recurrence free - survival).
+The tumor (incl. safety margins) is completely treated, but lots of healthy tissue has been damaged with the risk of serious complications.
+The tumor is treated incompletely or there is a visable recurrent tumor in the follow up examination.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Hepatocellular Carcinoma</condition>
+  <condition>Liver Metastases</condition>
+  <arm_group>
+    <arm_group_label>Software assisted RFA treatment</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Non-controlled, prospective, multicenter study arm, to evaluate RFA therapy simulation software.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>RFA therapy simulator</intervention_name>
+    <description>Computer assisted RFA of liver tumors: Planning, simulation, and follow up,</description>
+    <arm_group_label>Software assisted RFA treatment</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  primary or secondary tumors of the liver
+
+          -  consent of local tumor board stating RFA is best treatment option
+
+          -  Maximum tumor diameter 3cm
+
+          -  Maximum of 3 lesions
+
+          -  Stable extrahepatic tumor manifestation without growth tendency including the
+             possibility of therapy (e.g. bone, lung metastasis are no contraindication)
+
+          -  If liver cirrhosis must be compensated Child-Pugh A or B
+
+          -  written informed consent
+
+        Exclusion Criteria:
+
+          -  Pregnancy and/or breastfeeding
+
+          -  Severe anaphylactic reaction against iodine and/ or contrast agent
+
+          -  Insufficient coagulation
+
+          -  Splenectomy
+
+          -  Insufficient kidney and thyroid gland function
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael Moche, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Diagnostic and Interventional Radiology, University Leipzig, Leipzig, Germany</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Michael Moche, M.D.</last_name>
+    <phone>00493419717558</phone>
+    <email>michael.moche@medizin.uni-leipzig.de</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Daniel Seider, M.D.</last_name>
+    <phone>00493419716990</phone>
+    <email>daniel.seider@medizin.uni-leipzig.de</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Medical University Graz</name>
+      <address>
+        <city>Graz</city>
+        <zip>8036</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rupert H. Portugaller, M.d.; PhD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Turku</name>
+      <address>
+        <city>Turku</city>
+        <zip>20521</zip>
+        <country>Finland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Roberto Blanco, M.D.; Ph.D.</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Diagnostic and Interventional Radiology, University Leipzig, Germany</name>
+      <address>
+        <city>Leipzig</city>
+        <state>Saxony</state>
+        <zip>04103</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Martin Reinhardt, M.D.</last_name>
+      <phone>004934197</phone>
+      <phone_ext>16987</phone_ext>
+      <email>martin.reinhardt@medizin.uni-leipzig.de</email>
+    </contact>
+    <contact_backup>
+      <last_name>Daniel Seider, M.D:</last_name>
+      <phone>004934197</phone>
+      <phone_ext>16990</phone_ext>
+      <email>daniel.seider@medizin.uni-leipzig.de</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Radbound Universität Nijmegen</name>
+      <address>
+        <city>Nijmegen</city>
+        <zip>6500HB</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jürger Fütterer, M.D.; Ph.D.</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+    <country>Finland</country>
+    <country>Germany</country>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>April 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 23, 2016</study_first_submitted>
+  <study_first_submitted_qc>April 16, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 20, 2016</study_first_posted>
+  <last_update_submitted>April 21, 2016</last_update_submitted>
+  <last_update_submitted_qc>April 21, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 22, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Leipzig</investigator_affiliation>
+    <investigator_full_name>Dr. med. Philipp Brandmaier</investigator_full_name>
+    <investigator_title>M.D.</investigator_title>
+  </responsible_party>
+  <keyword>RFA</keyword>
+  <keyword>Liver</keyword>
+  <keyword>Ablation Techniques</keyword>
+  <keyword>Treatment Simulation</keyword>
+  <keyword>Computer assisted therapy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma, Hepatocellular</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

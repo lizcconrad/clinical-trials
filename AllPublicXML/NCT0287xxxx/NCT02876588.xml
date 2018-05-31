@@ -1,0 +1,245 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02876588</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1R21HS023704-01</org_study_id>
+    <nct_id>NCT02876588</nct_id>
+  </id_info>
+  <brief_title>Risk of Wrong-Patient Errors With Multiple Records Open</brief_title>
+  <official_title>Assessing the Risk of Wrong-Patient Errors in an Electronic Health Record That Allows Multiple Records Open</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Montefiore Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Columbia University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Montefiore Medical Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Currently, at least 70,000 U.S. physicians use computerized provider order entry (CPOE) to
+      place orders. This number is expected to rise sharply as hospitals continue to take advantage
+      of federal incentives and adopt electronic health record (EHR) technology. Although CPOE is
+      associated with a reduction in medical errors, when orders are placed electronically certain
+      types of errors, including placing orders on the wrong patient, may occur more frequently.
+      The mechanism by which multiple patient records opened simultaneously can lead to
+      wrong-patient errors may be related to the ease with which users can toggle between patient
+      records and the similar looking computer screens. The magnitude of this risk needs to be
+      established to help Health Information Technology (IT) leadership decide how to safely
+      implement CPOE systems. There have been no studies demonstrating whether multiple records
+      increase the risk of wrong-patient errors, by how much, and if any increase is dependent on
+      the number of records open. This research project is an important first step in quantifying
+      this risk.This will be the first study to achieve the following aims:
+
+        1. Assess the relationship between the number of records open at the time of placing an
+           order and the risk of placing an order on the wrong patient.
+
+        2. Compare the incidence of wrong-patient orders in a &quot;restricted environment&quot; that limits
+           providers to only one record open at a time to an &quot;unrestricted environment&quot; where users
+           can open a maximum of four records at once.
+
+        3. Use results to inform a larger-scale health IT implementation research project
+           evaluating the balance between the wrong-patient error risks and potential efficiency
+           gains of having multiple records open at once, with rigorous research methodologies.
+
+        4. Disseminate results to help inform decisions on how to safely implement EHR systems.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In a randomized controlled trial conducted at Montefiore Medical Center, investigators
+      propose to randomize inpatient and outpatient providers to a maximum of one record open at
+      the time of ordering (restricted mode) or a maximum of four records open at the time of
+      ordering (unrestricted mode). Assignments will be made prior to the start of the study, and
+      will remain constant throughout the study. A computer programmer working in IT, who is not an
+      investigator of this study, will use Microsoft Excel to generate random numbers and assign
+      one number to each provider. Providers assigned odd numbers will be in the restricted cohort,
+      and those assigned even numbers will be in the unrestricted cohort. Providers who join
+      Montefiore after the start of the study will be assigned a random number from Excel when
+      assigned a new user log in for the electronic health record (EHR) from a computer programmer
+      not affiliated with the study, and will be added to the appropriate group based on their
+      assigned random number. At the start of the randomized controlled trial, investigators will
+      explain the purpose of the study to clinical staff via email and directly from within their
+      IT systems, using a message crafted by the study team. The message will assure clinicians
+      that data will be kept confidential and cooperation will carry no risk to them.
+
+      Montefiore uses the EPIC EHR system. EPIC will implement the Retract-and-Reorder (RAR) tool,
+      an automated method for identifying wrong-patient electronic orders, as well as capture the
+      number of records open at the time of placing an order. This study will examine the effect of
+      having the EHR system in restricted mode vs. unrestricted mode on RAR events. The goal is to
+      obtain an estimate of the effect size and the intra-class correlations to provide preliminary
+      data for a larger-scale health IT implementation research project. The unit of analysis will
+      be the order. First, the RAR event rate for orders placed in the restricted vs. unrestricted
+      mode will be calculated, testing the difference in rates using rank sum tests. Next, the
+      relationship between the RAR event rate in restricted vs. unrestricted mode in subsets of
+      providers and settings will be examined to determine whether specific types of providers or
+      settings carry increased risk. Finally, a mixed-effects logistic regression model will be
+      fitted with RAR event as the outcome and mode of the EHR system (restricted vs. unrestricted)
+      as the independent variable of interest. The model will include random effects at the
+      provider and order-session level because previous work has suggested substantial
+      within-provider and within-session correlation. Orders will be nested in sessions and
+      sessions will be nested in providers. To address the threat of confounding, the model will
+      include fixed-effects variables including provider, patient, order-session, and order level
+      covariates.
+
+      To safeguard against the possibility that the intervention actually worsens (increases) the
+      RAR event rate, and to prevent unnecessary continuation of a study that is already
+      conclusive, a data safety monitoring committee will conduct one interim review of the data in
+      the randomized controlled trial.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>April 2016</start_date>
+  <completion_date type="Anticipated">December 2016</completion_date>
+  <primary_completion_date type="Anticipated">December 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Factorial Assignment</intervention_model>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Rate of Retract-and-Reorder (RAR) events as identified by the RAR tool</measure>
+    <time_frame>The RAR tool will be run daily for the duration of the 9-month study period.</time_frame>
+    <description>The RAR tool identifies near-miss errors. The tool is run against every order to identify instances where an order is placed, then retracted within 10 minutes, and then reordered by the same provider on a different patient within 10 minutes of retraction.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">5000</enrollment>
+  <condition>Medical Errors</condition>
+  <condition>Medical Order Entry Systems</condition>
+  <arm_group>
+    <arm_group_label>Unrestricted</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Users have &quot;unrestricted&quot; access to open up to a maximum of 4 patient records at a time in the EHR</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Restricted</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Users have &quot;restricted&quot; access to open a maximum of 1 patient record at a time in the EHR</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Unrestricted</intervention_name>
+    <description>Users may open up to 4 patient records at a time.</description>
+    <arm_group_label>Unrestricted</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Restricted</intervention_name>
+    <description>Users are restricted to open 1 patient record at a time.</description>
+    <arm_group_label>Restricted</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All orders on all hospital, ED and ambulatory patients
+
+          -  All clinicians with the authority to place electronic orders
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jason Adelman, MD, MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Columbia University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jason Adelman, MD, MS</last_name>
+    <phone>646-317-4803</phone>
+    <email>adelman.jason@columbia.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jo Applebaum, MPH</last_name>
+    <phone>212-304-5540</phone>
+    <email>joa9145@nyp.org</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Montefiore Medical Center</name>
+      <address>
+        <city>Bronx</city>
+        <state>New York</state>
+        <zip>10467</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>William Southern, MD, MS</last_name>
+      <phone>718-920-4746</phone>
+      <email>wsouther@montefiore.org</email>
+    </contact>
+    <investigator>
+      <last_name>William Southern, MD, MS</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Katsulis Z, Ergai A, Leung WY, Schenkel L, Rai A, Adelman J, Benneyan J, Bates DW, Dykes PC. Iterative user centered design for development of a patient-centered fall prevention toolkit. Appl Ergon. 2016 Sep;56:117-26. doi: 10.1016/j.apergo.2016.03.011. Epub 2016 Apr 8.</citation>
+    <PMID>27184319</PMID>
+  </reference>
+  <results_reference>
+    <citation>Adelman J, Aschner J, Schechter C, Angert R, Weiss J, Rai A, Berger M, Reissman S, Parakkattu V, Chacko B, Racine A, Southern W. Use of Temporary Names for Newborns and Associated Risks. Pediatrics. 2015 Aug;136(2):327-33. doi: 10.1542/peds.2015-0007. Epub 2015 Jul 13.</citation>
+    <PMID>26169429</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Adelman JS, Kalkut GE, Schechter CB, Weiss JM, Berger MA, Reissman SH, Cohen HW, Lorenzen SJ, Burack DA, Southern WN. Understanding and preventing wrong-patient electronic orders: a randomized controlled trial. J Am Med Inform Assoc. 2013 Mar-Apr;20(2):305-10. doi: 10.1136/amiajnl-2012-001055. Epub 2012 Jun 29.</citation>
+    <PMID>22753810</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Bhalla R, Berger MA, Reissman SH, Yongue BG, Adelman JS, Jacobs LG, Billett H, Sinnett MJ, Kalkut G. Improving hospital venous thromboembolism prophylaxis with electronic decision support. J Hosp Med. 2013 Mar;8(3):115-20. doi: 10.1002/jhm.1993. Epub 2012 Nov 26.</citation>
+    <PMID>23184857</PMID>
+  </results_reference>
+  <verification_date>August 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 3, 2016</study_first_submitted>
+  <study_first_submitted_qc>August 17, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 24, 2016</study_first_posted>
+  <last_update_submitted>August 17, 2016</last_update_submitted>
+  <last_update_submitted_qc>August 17, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">August 24, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Columbia University</investigator_affiliation>
+    <investigator_full_name>Jason Adelman</investigator_full_name>
+    <investigator_title>Assistant Professor of Medicine, Columbia University; Chief Patient Safety Officer/Associate Chief Quality Officer, Columbia University Medical Center/NewYork-Presbyterian Hospital</investigator_title>
+  </responsible_party>
+  <keyword>Wrong-Patient Errors</keyword>
+  <keyword>Retract-and-Reorder Tool</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

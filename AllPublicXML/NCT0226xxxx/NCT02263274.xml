@@ -1,0 +1,227 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02263274</url>
+  </required_header>
+  <id_info>
+    <org_study_id>13-01171</org_study_id>
+    <nct_id>NCT02263274</nct_id>
+  </id_info>
+  <brief_title>Direct Cortical Measurement of the Intensity and Pattern of Current Flow Produced by TDCS</brief_title>
+  <official_title>Direct Cortical Measurement of the Intensity and Pattern of Current Flow Produced by TDCS</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>New York University School of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>New York University School of Medicine</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary study objective is to measure the electrical fields evoked by tDCS using subjects
+      who have implanted intracranial electrodes as part of their evaluation for epilepsy surgery.
+      The measurements obtained in these subjects and their brain MRI will be employed to validate
+      existing mathematical models.
+
+      In the future, these refined models can be used to target tDCS to predetermined brain regions
+      in healthy and subjects and patient populations. As described above in the safety section,
+      the intensities of stimulation applied in this project are not expected to produce changes in
+      brain function, are below intensities commonly applied in clinical trials, and fall well
+      below safety limits suggested by animal studies.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Noninvasive brain stimulation (NBS) represents a promising set of tools for neurotherapeutics
+      and rehabilitation. In a literature search, NBS has been tested for over seventy neurologic
+      and psychiatric conditions. NBS may complement existing medical treatments, especially for
+      neurologic indications without suitable pharmacotherapies (e.g. tinnitus, dyskinesias) or for
+      patients with pharmaco-resistant illness (e.g. intractable epilepsy, severe depression).
+
+      In particular, transcranial direct current stimulation (tDCS) modulates brain activity by
+      delivering low intensity unidirectional current through the scalp. Rather than induce action
+      potentials, tDCS modulates resting neuronal transmembrane potential to influence brain
+      plasticity. Moreover, from a pragmatic perspective, tDCS' benefits include its low cost,
+      portability, and ease of use. Furthermore, tDCS can easily be combined with other
+      interventions such as mental imagery, computerized cognitive interventions, or robot-assisted
+      motor activity.
+
+      Current physiological understanding of how TDCS affects brain plasticity at a synaptic,
+      cellular, and a network level is limited. Experimentally, spontaneous neuronal firing
+      activity under the anode generally increases, while firing activity under the cathode
+      decreases, although the precise effects probably depend on the orientation of the axons to
+      the electric field (Nitsche and Paulus, 2000, Bindman et al., 1964, Creutzfeldt et al., 1962,
+      Purpura and McMurtry, 1965). The neuromodulatory effects of tDCS have also been broadly
+      attributed to LTP- and LTD-like mechanisms of synaptic plasticity, involving modulation of
+      NMDA-receptor activity, and sodium and calcium channel activity (Hattori et al., 1990, Islam
+      et al., 1995, Liebetanz et al., 2002). Furthermore, functional neuroimaging studies have
+      revealed both local and distant network effects induced by tDCS, probably mediated by
+      interneuronal circuits (Lefaucheur, 2008).
+
+      Advancing the investigators mechanistic understanding of how tDCS affects cortical
+      excitability on a local and distributed level is necessary to (1) customize stimulation
+      parameters (e.g. electrode size, positioning, current intensity and duration) to precisely
+      target brain regions and maximize therapeutic outcomes, (2) confirm safety outcomes for
+      vulnerable patient populations (e.g. children, patients with skull defects and implanted
+      hardware). Previously, patients with a scalp or skull defect have been excluded from
+      stimulation (Bikson, 2012) protocols because of a theoretical risk of current shunting
+      through highly conductive CSF collections. However patients with penetrating brain injury,
+      stroke, or previous brain surgery are precisely those who may most benefit from these
+      technologies.
+
+      Computational models using finite element methods (FEM) aim to determine the pattern and
+      intensity of current flow through the brain by incorporating both (1) stimulation parameters
+      and (2) patient characteristics such as underlying anatomy and tissue properties (e.g. size
+      and position of skull defect relative to electrode configuration) (Bikson 2012). For example,
+      one computational model incorporating electrode configuration and skull defect size and
+      properties (Datta et al., 2010) predicts that the majority of electrode configurations
+      surrounding the skull defect (with the exception of stimulating directly on top of a small
+      skull defect) will not significantly increase the peak cortical electrical field intensity.
+      Rather, current is directed to the edges of the bony defect, which may be counterproductive
+      to therapeutic goals. Another computational case study on a stroke patient demonstrated that
+      a relatively conductive stroke lesion concentrated current in the perilesional areas, and
+      that placement of the reference electrode (e.g. right should, right mastoid, right
+      orbitofrontal, and contralateral hemisphere) significantly altered the path of greatest
+      current flow (Datta et al., 2011).
+
+      Yet, these modeling predictions are limited in their clinical application, as experimental
+      validation is necessary. Quantitative determination of the electrical field at the neural
+      tissue level is required to establish efficacy and safety for a given individual (Bikson
+      2012). To the investigators knowledge, there are no published studies that have empirically
+      confirmed the predicted patterns and current flow intensities predicted by these models. This
+      proposed experimental study represents the first-in-kind to quantify voltage intensities, as
+      measured at the brain surface, in response to various stimulation parameters, and will
+      represent a significant advance in the field of noninvasive neurostimulation
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">November 2013</start_date>
+  <completion_date type="Anticipated">September 2018</completion_date>
+  <primary_completion_date type="Actual">June 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Current Intensity</measure>
+    <time_frame>24 hour Post Op</time_frame>
+    <description>MRI</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Total charge (stimulation intensity x duration of stimulation in coulombs</measure>
+    <time_frame>24 Hour Post Op</time_frame>
+    <description>MRI</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Total electrode charge density (total charge/electrode area in coloumbs/meters2) as measured at various subdural and depth electrode recording sites</measure>
+    <time_frame>24 Hour Post Op</time_frame>
+    <description>MRI</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">10</enrollment>
+  <condition>Epilepsy</condition>
+  <arm_group>
+    <arm_group_label>Direct Cortical Measurement</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Consented subjects will also have transcranial electrodes applied at four extracranial sites, below the sterile dressing and distant from the surgical skull defect. The four electrodes will be placed in uniform positions based on the standard 10-10 electrode system, at the temples bilaterally (positions F9 and F10) and at the occiput bilaterally (positions PO9 and PO10). Subjects will be stimulated according to a predetermined set of parameters which fall well within empirically and computationally determined safety thresholds, as discussed above. The entire stimulation protocol is described in detail in section 5, and is anticipated to last no longer than 30 minutes.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Transcranial Direct Current Stimulation (TDCS)</intervention_name>
+    <description>Conventional tDCS and low-frequency tACS are commonly administered at a current intensity of 2 mA or less</description>
+    <arm_group_label>Direct Cortical Measurement</arm_group_label>
+    <other_name>TDCS</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Subjects for this study will be recruited from patients undergoing routine intracranial
+        electrode placement as part of the evaluation for surgical treatment of medically
+        refractory epilepsy. Inclusion criteria include:
+
+          1. Age ≥ 18 years
+
+          2. Placement of intracranial electrode arrays (grid, strip and or depth electrodes) for
+             seizure focus localization and/or mapping of eloquent cortex
+
+          3. Able to provide written informed consent
+
+          4. English-speaking patients only
+
+        Exclusion Criteria:
+
+          1. Cognitive impairment (Intelligence Quotient &lt;70)
+
+          2. Facial or forehead skin breakdown that would interfere with surface electrode
+             placement
+
+          3. Contraindication to MRI
+
+          4. Known adhesive allergy
+
+          5. Space occupying intracranial pathology including brain tumor, ateriovenous
+             malformation, cavernous malformation, prior surgical resection or significant
+             encephalomalcia that would create unknown tissue inhomogeneity that cannot be
+             accurately modeled.
+
+          6. Subjects who have had an electrographic or clinical seizure within one hour prior to
+             the stimulation procedure
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Anli Liu, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>New York University School of Medicine</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Neurology</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>11106</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 8, 2014</study_first_submitted>
+  <study_first_submitted_qc>October 10, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 13, 2014</study_first_posted>
+  <last_update_submitted>March 28, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 28, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 29, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

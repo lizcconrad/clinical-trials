@@ -1,0 +1,787 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01834261</url>
+  </required_header>
+  <id_info>
+    <org_study_id>293408</org_study_id>
+    <secondary_id>N000141210393</secondary_id>
+    <nct_id>NCT01834261</nct_id>
+  </id_info>
+  <brief_title>Brain Dynamics of Oxytocin</brief_title>
+  <official_title>Computational Modeling of Oxytocin in the Regulation of Trust</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stony Brook University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Martinos Center for Biomedical Imaging</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Stony Brook University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Oxytocin is a neuropeptide that is well known for its role in social and affiliative behavior
+      in humans. Oxytocin receptors are significantly lowered in autistic individuals and
+      administration of oxytocin has shown benefits in enhancing social recognition and behavior in
+      autistic children. However, more recent research has refined the behavioral effects of
+      oxytocin, moving away from the notion that the neuropeptide blindly induces love and trust,
+      towards the view that it actually increases social perception in assessing friend vs. foe:
+      supporting cohesion with 'insiders' and distrust and aggression for 'outsiders.' Oxytocin is
+      responsible for the selective aggression shown by lactating female mammals protecting their
+      young, an effect demonstrated also in humans, and has been shown to strengthen feelings of
+      ethnocentrism. However, no neuroimaging study to date has investigated this effect, with the
+      consequence that its neurobiological basis is still unknown.
+
+      The general aim of our study is to determine meso-circuit brain dynamics that underlie
+      oxytocin's amplification of both trust and aggression; and specifically, using neuroimaging
+      (fMRI, magnetoencephalography, and behavioral testing) whether oxytocin amplifies kinship
+      bias by attenuating social reward learning.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The purpose of the study is to understand how oxytocin affects brain and behavior. The study
+      will compare Syntocinon Nasal Spray to placebo. The specific aims are to:
+
+        1. Determine the default circuitry of oxytocin (OT).
+
+        2. Determine time-course and gender differences for default neural response to OT.
+
+        3. Using an iterative version of the classical neuroeconomic game (Trust Study),
+           behaviorally test whether OT down-regulates reward learning, thereby enhancing the
+           effects of kinship bias, to account for the polarizing effects (in which OT increases
+           trust for 'in-groups' and increases aggression for 'out-groups').
+
+        4. Identify the down-regulation of reward learning neurobiologically, via data-driven
+           control systems modeling of the reward circuit using MRI (fMRI: time-series analysis of
+           the orbitofrontal cortex, amygdala, anterior and posterior cingulate, and nucleus
+           accumbens, and magnetic resonance spectroscopy: focusing on gamma-Aminobutyric acid
+           neurotransmitters within the nucleus accumbens) and magnetoencephalography (focusing on
+           the dynamics within the prefrontal cortex). FMRI and MRS will be conducted during the
+           same MRI scan, while MEG will be conducted separately.
+
+      STUDY PROCEDURES:
+
+      Nasal Obstruction/Anosmia Screening: All potential subjects will be screened for total or
+      partial anosmia and nasal congestion using the University of Pennsylvania Smell
+      Identification Test (Psychological Assessment Resources, Lutz FL).
+
+      Pregnancy and Lactation Screening: Oxytocin is often used clinically to trigger labor in
+      late-stage pregnancy. Although none of our subjects will be in late-stage pregnancy and
+      subjects will be receiving dosages far smaller that those used to trigger labor, to be safe
+      all potential female subjects will be urine screened for pregnancy immediately during the
+      history and physical. Lactation screening will be performed via self-report, and is conducted
+      to avoid confounds due to endogenously produced OT during the milk-ejection reflex.
+
+      Oxytocin/Placebo Procedures: Oxytocin intranasal spray is manufactured as the Syntocinon
+      Nasal Spray. The typical dose oxytocin of for short-term intranasal use is 40IU, and has an
+      expected half-life of 20 minutes. Placebos, identical in preparation except for the oxytocin
+      component, will be administered in the same manner in a double blind procedure. To avoid
+      bleed-through between conditions while controlling for order effects, sessions will not be
+      mixed between drug and placebo conditions: each session, conducted on separate days, will be
+      either 'drug' or 'placebo.'
+
+      Scanning Procedures: Scanning procedure for MRI will include: structural scan (6 minutes),
+      fMRI or MRS resting state (10 minutes), and a neuroeconomic task scan (10 minutes). Scanning
+      procedure for MEG will include: resting state (10 minutes), and a neuroeconomic task scan (20
+      minutes).
+
+      Behavioral Task: During scans, subjects will participate in an interactive neuroeconomic
+      game, an iterative version of the classical &quot;Trust Study&quot;. During this game, the subject
+      ('investor') is first provided a sum of money. He then has the choice in terms of how much to
+      invest in a fictional computer-generated trustee or, in forced-choice versions, to choose
+      between different trustees. The trustee then sends some percentage back to the subject
+      ('investor'), and the game iterates over many trials. Previous research has shown that OT
+      disrupts participant's use of the optimal solution, eliciting greater &quot;trust&quot; in the trustee
+      than would be expected by Nash Equilibrium. To modulate reward learning, algorithms for
+      trustee behavior will be modulated towards greater and lesser generosity. To modulate kinship
+      bias, trustees will be represented on the screen using faces of greater and lesser similarity
+      to that of the subject, created using MorphMan video-editing software (STOIK Imaging, Moscow
+      Russia).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2013</start_date>
+  <completion_date type="Actual">May 2015</completion_date>
+  <primary_completion_date type="Actual">May 2015</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>Quadruple (Participant, Care Provider, Investigator, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Benevolent Rounds</measure>
+    <time_frame>Immediately after completion of the study, for each subject.</time_frame>
+    <description>This study recruited healthy adults. Subjects participated in an interactive neuroeconomic game, an iterative version of the classical &quot;Trust Study.&quot; During this game, the subject ('investor') is first provided a sum of money (20 units). He then has the choice in terms of how much to invest in a fictional computer-generated trustee. The trustee then sends some percentage back to the subject ('investor'), and the game iterates over 20 trials (rounds). We computed the investment ratio as the ratio of the actual investment and the maximum allowed amount of 20 units, and analogously for the repayment ratio. Benevolent rounds were defined as those with increased investment ratios even after a decreased repayment ratio.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Malevolent Rounds</measure>
+    <time_frame>Immediately after completion of the study, for each subject.</time_frame>
+    <description>This study recruited healthy adults. Subjects participated in an interactive neuroeconomic game, an iterative version of the classical &quot;Trust Study.&quot; During this game, the subject ('investor') is first provided a sum of money (20 units). He then has the choice in terms of how much to invest in a fictional computer-generated trustee. The trustee then sends some percentage back to the subject ('investor'), and the game iterates over 20 trials (rounds). We computed the investment ratio as the ratio of the actual investment and the maximum allowed amount of 20 units, and analogously for the repayment ratio. Malevolent rounds were defined as those with decreased investment ratios even after an increased repayment ratio.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Functional Connectivity Between OFC and AMY</measure>
+    <time_frame>Within two weeks of enrollment completion.</time_frame>
+    <description>During functional scans, subjects participated in an interactive neuroeconomic game, an iterative version of the classical &quot;Trust Study.&quot; Subjects participated in an interactive neuroeconomic game, an iterative version of the classical &quot;Trust Study.&quot; During this game, the subject ('investor') is first provided a sum of money (20 units). He then has the choice in terms of how much to invest in a fictional computer-generated trustee. The trustee then sends some percentage back to the subject ('investor'), and the game iterates over 20 trials (rounds).
+Using Dynamical Causal Modeling (DCM) we modeled the dynamic interaction between amygdala (AMY), nucleus accumbens (NAcc) and the orbitofrontal cortex (OFC). We observed altered connectivity strength between AMY and OFC under OT as compared to PL conditions.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">51</enrollment>
+  <condition>Brain Dynamics in Healthy Adults</condition>
+  <arm_group>
+    <arm_group_label>Oxytocin</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Healthy adult subjects will receive several puffs of Syntocinon Nasal Spray, 40IU, once, prior to MRI and/or MEG scanning.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Placebo</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Healthy adult subjects will receive several puffs of Syntocinon Placebo Formulation, 40IU, once, prior to MRI and/or MEG scanning.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Syntocinon Nasal Spray, 40IU</intervention_name>
+    <description>Subjects will be scanned twice. Prior to first brain scanning session, they will be randomly assigned to receive either Syntocinon or Placebo. Prior to second scanning session, they will receive what they have not received in the first session; i.e., same subjects will be receiving both Syntocinon and placebo on two different days.</description>
+    <arm_group_label>Oxytocin</arm_group_label>
+    <arm_group_label>Placebo</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Syntocinon Placebo Formulation, 40IU</intervention_name>
+    <description>Subjects will be scanned twice. Prior to first brain scanning session, they will be randomly assigned to receive either Syntocinon or Placebo. Prior to second scanning session, they will receive what they have not received in the first session; i.e., same subjects will be receiving both Syntocinon and placebo on two different days.</description>
+    <arm_group_label>Oxytocin</arm_group_label>
+    <arm_group_label>Placebo</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  18-45 years of age
+
+        Exclusion Criteria:
+
+          -  any significant known medical condition, including mental disorders (confounds
+             interpretation of brain activity)
+
+          -  metal in the body or claustrophobia (contraindicated for fMRI)
+
+          -  current use of any type of psychotropic medication (confounds interpretation of brain
+             activity)
+
+          -  body mass index of greater than 30 (to permit matched dosing across subjects)
+
+          -  pregnancy (contraindicated for OT)
+
+          -  breastfeeding (lactation endogenously triggers OT, which would not permit a placebo
+             condition)
+
+          -  smoking (affects use of nasal spray)
+
+          -  use of drugs of abuse (confounds interpretation of brain activity)
+
+          -  blood pressure above the normal range (140/90 mm Hg) or controlled with medication
+             (may theoretically increase risk for OT side-effects)
+
+          -  anosmia (affects use of nasal spray)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>45 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Lilianne Mujica-Parodi, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stony Brook University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Martinos Imaging Center at the McGovern Institute for Brain Research at MIT</name>
+      <address>
+        <city>Cambridge</city>
+        <state>Massachusetts</state>
+        <zip>02139</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Martinos Center for Biomedical Research, Building 149, 13th Street</name>
+      <address>
+        <city>Charlestown</city>
+        <state>Massachusetts</state>
+        <zip>02129</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Bioengineering Building , Stony Brook University</name>
+      <address>
+        <city>Stony Brook</city>
+        <state>New York</state>
+        <zip>11794</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.lcneuro.org/</url>
+    <description>Lab Website</description>
+  </link>
+  <reference>
+    <citation>Averbeck BB. Oxytocin and the salience of social cues. Proc Natl Acad Sci U S A. 2010 May 18;107(20):9033-4. doi: 10.1073/pnas.1004892107. Epub 2010 May 6. Review.</citation>
+    <PMID>20448196</PMID>
+  </reference>
+  <reference>
+    <citation>Insel TR. The challenge of translation in social neuroscience: a review of oxytocin, vasopressin, and affiliative behavior. Neuron. 2010 Mar 25;65(6):768-79. doi: 10.1016/j.neuron.2010.03.005. Review.</citation>
+    <PMID>20346754</PMID>
+  </reference>
+  <reference>
+    <citation>Baumgartner T, Heinrichs M, Vonlanthen A, Fischbacher U, Fehr E. Oxytocin shapes the neural circuitry of trust and trust adaptation in humans. Neuron. 2008 May 22;58(4):639-50. doi: 10.1016/j.neuron.2008.04.009.</citation>
+    <PMID>18498743</PMID>
+  </reference>
+  <reference>
+    <citation>Delgado MR. Fool me once, shame on you; fool me twice, shame on oxytocin. Neuron. 2008 May 22;58(4):470-1. doi: 10.1016/j.neuron.2008.05.005.</citation>
+    <PMID>18498730</PMID>
+  </reference>
+  <reference>
+    <citation>Kosfeld M, Heinrichs M, Zak PJ, Fischbacher U, Fehr E. Oxytocin increases trust in humans. Nature. 2005 Jun 2;435(7042):673-6.</citation>
+    <PMID>15931222</PMID>
+  </reference>
+  <reference>
+    <citation>Wermter AK, Kamp-Becker I, Hesse P, Schulte-Körne G, Strauch K, Remschmidt H. Evidence for the involvement of genetic variation in the oxytocin receptor gene (OXTR) in the etiology of autistic disorders on high-functioning level. Am J Med Genet B Neuropsychiatr Genet. 2010 Mar 5;153B(2):629-639. doi: 10.1002/ajmg.b.31032.</citation>
+    <PMID>19777562</PMID>
+  </reference>
+  <reference>
+    <citation>Park J, Willmott M, Vetuz G, Toye C, Kirley A, Hawi Z, Brookes KJ, Gill M, Kent L. Evidence that genetic variation in the oxytocin receptor (OXTR) gene influences social cognition in ADHD. Prog Neuropsychopharmacol Biol Psychiatry. 2010 May 30;34(4):697-702. doi: 10.1016/j.pnpbp.2010.03.029. Epub 2010 Mar 27.</citation>
+    <PMID>20347913</PMID>
+  </reference>
+  <reference>
+    <citation>Gregory SG, Connelly JJ, Towers AJ, Johnson J, Biscocho D, Markunas CA, Lintas C, Abramson RK, Wright HH, Ellis P, Langford CF, Worley G, Delong GR, Murphy SK, Cuccaro ML, Persico A, Pericak-Vance MA. Genomic and epigenetic evidence for oxytocin receptor deficiency in autism. BMC Med. 2009 Oct 22;7:62. doi: 10.1186/1741-7015-7-62.</citation>
+    <PMID>19845972</PMID>
+  </reference>
+  <reference>
+    <citation>Andari E, Duhamel JR, Zalla T, Herbrecht E, Leboyer M, Sirigu A. Promoting social behavior with oxytocin in high-functioning autism spectrum disorders. Proc Natl Acad Sci U S A. 2010 Mar 2;107(9):4389-94. doi: 10.1073/pnas.0910249107. Epub 2010 Feb 16.</citation>
+    <PMID>20160081</PMID>
+  </reference>
+  <reference>
+    <citation>Guastella AJ, Einfeld SL, Gray KM, Rinehart NJ, Tonge BJ, Lambert TJ, Hickie IB. Intranasal oxytocin improves emotion recognition for youth with autism spectrum disorders. Biol Psychiatry. 2010 Apr 1;67(7):692-4. doi: 10.1016/j.biopsych.2009.09.020. Epub 2009 Nov 7.</citation>
+    <PMID>19897177</PMID>
+  </reference>
+  <reference>
+    <citation>Rossignol DA. Novel and emerging treatments for autism spectrum disorders: a systematic review. Ann Clin Psychiatry. 2009 Oct-Dec;21(4):213-36. Review.</citation>
+    <PMID>19917212</PMID>
+  </reference>
+  <reference>
+    <citation>Opar A. Search for potential autism treatments turns to 'trust hormone'. Nat Med. 2008 Apr;14(4):353. doi: 10.1038/nm0408-353.</citation>
+    <PMID>18391923</PMID>
+  </reference>
+  <reference>
+    <citation>Bartz J, Simeon D, Hamilton H, Kim S, Crystal S, Braun A, Vicens V, Hollander E. Oxytocin can hinder trust and cooperation in borderline personality disorder. Soc Cogn Affect Neurosci. 2011 Oct;6(5):556-63. doi: 10.1093/scan/nsq085. Epub 2010 Nov 29.</citation>
+    <PMID>21115541</PMID>
+  </reference>
+  <reference>
+    <citation>Bartz JA, Zaki J, Ochsner KN, Bolger N, Kolevzon A, Ludwig N, Lydon JE. Effects of oxytocin on recollections of maternal care and closeness. Proc Natl Acad Sci U S A. 2010 Dec 14;107(50):21371-5. doi: 10.1073/pnas.1012669107. Epub 2010 Nov 29.</citation>
+    <PMID>21115834</PMID>
+  </reference>
+  <reference>
+    <citation>Hahn-Holbrook J, Holt-Lunstad J, Holbrook C, Coyne SM, Lawson ET. Maternal defense: breast feeding increases aggression by reducing stress. Psychol Sci. 2011 Oct;22(10):1288-95. doi: 10.1177/0956797611420729. Epub 2011 Aug 26.</citation>
+    <PMID>21873570</PMID>
+  </reference>
+  <reference>
+    <citation>De Dreu CK, Greer LL, Van Kleef GA, Shalvi S, Handgraaf MJ. Oxytocin promotes human ethnocentrism. Proc Natl Acad Sci U S A. 2011 Jan 25;108(4):1262-6. doi: 10.1073/pnas.1015316108. Epub 2011 Jan 10.</citation>
+    <PMID>21220339</PMID>
+  </reference>
+  <reference>
+    <citation>Domes G, Lischke A, Berger C, Grossmann A, Hauenstein K, Heinrichs M, Herpertz SC. Effects of intranasal oxytocin on emotional face processing in women. Psychoneuroendocrinology. 2010 Jan;35(1):83-93. doi: 10.1016/j.psyneuen.2009.06.016.</citation>
+    <PMID>19632787</PMID>
+  </reference>
+  <reference>
+    <citation>Domes G, Heinrichs M, Gläscher J, Büchel C, Braus DF, Herpertz SC. Oxytocin attenuates amygdala responses to emotional faces regardless of valence. Biol Psychiatry. 2007 Nov 15;62(10):1187-90. Epub 2007 Jul 9.</citation>
+    <PMID>17617382</PMID>
+  </reference>
+  <reference>
+    <citation>Domes G, Heinrichs M, Michel A, Berger C, Herpertz SC. Oxytocin improves &quot;mind-reading&quot; in humans. Biol Psychiatry. 2007 Mar 15;61(6):731-3. Epub 2006 Nov 29.</citation>
+    <PMID>17137561</PMID>
+  </reference>
+  <reference>
+    <citation>Dupont CP. Contact dermatitis in Dublin. Contact Dermatitis. 1979 Jan;5(1):61-2.</citation>
+    <PMID>421469</PMID>
+  </reference>
+  <reference>
+    <citation>Kirsch P, Esslinger C, Chen Q, Mier D, Lis S, Siddhanti S, Gruppe H, Mattay VS, Gallhofer B, Meyer-Lindenberg A. Oxytocin modulates neural circuitry for social cognition and fear in humans. J Neurosci. 2005 Dec 7;25(49):11489-93.</citation>
+    <PMID>16339042</PMID>
+  </reference>
+  <reference>
+    <citation>Petrovic P, Kalisch R, Singer T, Dolan RJ. Oxytocin attenuates affective evaluations of conditioned faces and amygdala activity. J Neurosci. 2008 Jun 25;28(26):6607-15. doi: 10.1523/JNEUROSCI.4572-07.2008.</citation>
+    <PMID>18579733</PMID>
+  </reference>
+  <reference>
+    <citation>Pincus D, Kose S, Arana A, Johnson K, Morgan PS, Borckardt J, Herbsman T, Hardaway F, George MS, Panksepp J, Nahas Z. Inverse effects of oxytocin on attributing mental activity to others in depressed and healthy subjects: a double-blind placebo controlled FMRI study. Front Psychiatry. 2010 Oct 12;1:134. doi: 10.3389/fpsyt.2010.00134. eCollection 2010.</citation>
+    <PMID>21423444</PMID>
+  </reference>
+  <reference>
+    <citation>Singer T, Snozzi R, Bird G, Petrovic P, Silani G, Heinrichs M, Dolan RJ. Effects of oxytocin and prosocial behavior on brain responses to direct and vicariously experienced pain. Emotion. 2008 Dec;8(6):781-91. doi: 10.1037/a0014195.</citation>
+    <PMID>19102589</PMID>
+  </reference>
+  <reference>
+    <citation>MacDonald E, Dadds MR, Brennan JL, Williams K, Levy F, Cauchi AJ. A review of safety, side-effects and subjective reactions to intranasal oxytocin in human research. Psychoneuroendocrinology. 2011 Sep;36(8):1114-26. doi: 10.1016/j.psyneuen.2011.02.015. Epub 2011 Mar 23. Review.</citation>
+    <PMID>21429671</PMID>
+  </reference>
+  <verification_date>January 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 12, 2013</study_first_submitted>
+  <study_first_submitted_qc>April 12, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 17, 2013</study_first_posted>
+  <results_first_submitted>April 28, 2016</results_first_submitted>
+  <results_first_submitted_qc>January 27, 2017</results_first_submitted_qc>
+  <results_first_posted type="Actual">March 17, 2017</results_first_posted>
+  <last_update_submitted>January 27, 2017</last_update_submitted>
+  <last_update_submitted_qc>January 27, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 17, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>oxytocin</keyword>
+  <keyword>trust</keyword>
+  <keyword>kinship</keyword>
+  <keyword>kin selection</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Oxytocin</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Subjects were recruited at MIT and at MGH (distinct populations of participants). They randomly received Syntocinon or Placebo (40 IU) first. 51 subjects consented. 10 dropped out prior to receiving either drug. 21 at MIT and 20 at MGH completed at least one visit where they received either placebo/oxytocin. A total of 39 completed both.</recruitment_details>
+      <pre_assignment_details>All subjects who consented and passed history and physical examination received both oxytocin and placebo on different days. Exclusion criteria included any significant known medical conditions, metal in the body or claustrophobia, current use of psychotropic medications, BMI &gt; 30, pregnancy, breastfeeding, smoking, high blood pressure and anosmia.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Oxytocin, Then Placebo</title>
+          <description>Healthy adult subjects who received oxytocin before their first scan, and placebo before their second scan.</description>
+        </group>
+        <group group_id="P2">
+          <title>Placebo, Then Oxytocin</title>
+          <description>Healthy adult subjects who received placebo before their first scan, and oxytocin before their second scan.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>MIT fMRI and MEG Resting State Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="11"/>
+                <participants group_id="P2" count="10"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="10">Enrollment completed in March 2014.</participants>
+                <participants group_id="P2" count="9"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>MGH Rest + Nueroeconomic Task fMRI</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="10">Subjects who dropped out/were excluded (10), did so before they received either Oxytocin or Placebo.</participants>
+                <participants group_id="P2" count="10"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="10">Enrollment completed in May 2015.</participants>
+                <participants group_id="P2" count="10"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Includes only subjects who completed the study; i.e., received both oxytocin and placebo (19 at MIT and 20 at MGH).</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Oxytocin, Then Placebo</title>
+          <description>Healthy adult subjects received several puffs of Syntocinon Nasal Spray, 40IU, once, prior to MRI and/or MEG scanning.
+This group contains subjects who received oxytocin prior to first scan and placebo prior to second scan.</description>
+        </group>
+        <group group_id="B2">
+          <title>Placebo, Then Oxytocin</title>
+          <description>Healthy adult subjects received several puffs of Syntocinon Placebo Formulation, 40IU, once, prior to MRI and/or MEG scanning.
+This group contains subjects who received placebo prior to first scan and oxytocin prior to second scan.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="20"/>
+            <count group_id="B2" value="19"/>
+            <count group_id="B3" value="39"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                    <measurement group_id="B2" value="19"/>
+                    <measurement group_id="B3" value="39"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="27.1" spread="6.3"/>
+                    <measurement group_id="B2" value="28.1" spread="6.9"/>
+                    <measurement group_id="B3" value="27.6" spread="6.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                    <measurement group_id="B2" value="19"/>
+                    <measurement group_id="B3" value="39"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                    <measurement group_id="B2" value="19"/>
+                    <measurement group_id="B3" value="39"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Benevolent Rounds</title>
+        <description>This study recruited healthy adults. Subjects participated in an interactive neuroeconomic game, an iterative version of the classical &quot;Trust Study.&quot; During this game, the subject ('investor') is first provided a sum of money (20 units). He then has the choice in terms of how much to invest in a fictional computer-generated trustee. The trustee then sends some percentage back to the subject ('investor'), and the game iterates over 20 trials (rounds). We computed the investment ratio as the ratio of the actual investment and the maximum allowed amount of 20 units, and analogously for the repayment ratio. Benevolent rounds were defined as those with increased investment ratios even after a decreased repayment ratio.</description>
+        <time_frame>Immediately after completion of the study, for each subject.</time_frame>
+        <population>Healthy adult men.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Oxytocin</title>
+            <description>Subjects received oxytocin prior to the scan.</description>
+          </group>
+          <group group_id="O2">
+            <title>Placebo</title>
+            <description>Subjects received placebo prior to the scan.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Benevolent Rounds</title>
+          <description>This study recruited healthy adults. Subjects participated in an interactive neuroeconomic game, an iterative version of the classical &quot;Trust Study.&quot; During this game, the subject ('investor') is first provided a sum of money (20 units). He then has the choice in terms of how much to invest in a fictional computer-generated trustee. The trustee then sends some percentage back to the subject ('investor'), and the game iterates over 20 trials (rounds). We computed the investment ratio as the ratio of the actual investment and the maximum allowed amount of 20 units, and analogously for the repayment ratio. Benevolent rounds were defined as those with increased investment ratios even after a decreased repayment ratio.</description>
+          <population>Healthy adult men.</population>
+          <units>number of rounds</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="17"/>
+                <count group_id="O2" value="17"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6.8" spread="2.0"/>
+                    <measurement group_id="O2" value="6.8" spread="2.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Malevolent Rounds</title>
+        <description>This study recruited healthy adults. Subjects participated in an interactive neuroeconomic game, an iterative version of the classical &quot;Trust Study.&quot; During this game, the subject ('investor') is first provided a sum of money (20 units). He then has the choice in terms of how much to invest in a fictional computer-generated trustee. The trustee then sends some percentage back to the subject ('investor'), and the game iterates over 20 trials (rounds). We computed the investment ratio as the ratio of the actual investment and the maximum allowed amount of 20 units, and analogously for the repayment ratio. Malevolent rounds were defined as those with decreased investment ratios even after an increased repayment ratio.</description>
+        <time_frame>Immediately after completion of the study, for each subject.</time_frame>
+        <population>Healthy adult men.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Oxytocin</title>
+            <description>Subjects received oxytocin prior to the scan.</description>
+          </group>
+          <group group_id="O2">
+            <title>Placebo</title>
+            <description>Subjects received placebo prior to the scan.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Malevolent Rounds</title>
+          <description>This study recruited healthy adults. Subjects participated in an interactive neuroeconomic game, an iterative version of the classical &quot;Trust Study.&quot; During this game, the subject ('investor') is first provided a sum of money (20 units). He then has the choice in terms of how much to invest in a fictional computer-generated trustee. The trustee then sends some percentage back to the subject ('investor'), and the game iterates over 20 trials (rounds). We computed the investment ratio as the ratio of the actual investment and the maximum allowed amount of 20 units, and analogously for the repayment ratio. Malevolent rounds were defined as those with decreased investment ratios even after an increased repayment ratio.</description>
+          <population>Healthy adult men.</population>
+          <units>number of rounds</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="17"/>
+                <count group_id="O2" value="17"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.8" spread="1.5"/>
+                    <measurement group_id="O2" value="3.0" spread="2.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Functional Connectivity Between OFC and AMY</title>
+        <description>During functional scans, subjects participated in an interactive neuroeconomic game, an iterative version of the classical “Trust Study.” Subjects participated in an interactive neuroeconomic game, an iterative version of the classical &quot;Trust Study.&quot; During this game, the subject ('investor') is first provided a sum of money (20 units). He then has the choice in terms of how much to invest in a fictional computer-generated trustee. The trustee then sends some percentage back to the subject ('investor'), and the game iterates over 20 trials (rounds).
+Using Dynamical Causal Modeling (DCM) we modeled the dynamic interaction between amygdala (AMY), nucleus accumbens (NAcc) and the orbitofrontal cortex (OFC). We observed altered connectivity strength between AMY and OFC under OT as compared to PL conditions.</description>
+        <time_frame>Within two weeks of enrollment completion.</time_frame>
+        <population>Healthy adult men (17 subjects completed the task fMRI (Trust Study) at MGH, remaining 3 subjects at MGH did not complete the task). The values reported for connections strengths below (0.45 and 0.18) are from the Bayesian Parameter Averaging. The measure of precision is the associated posterior probability, which is 1 for both.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Oxytocin</title>
+            <description>Subjects received oxytocin prior to the scan.</description>
+          </group>
+          <group group_id="O2">
+            <title>Placebo</title>
+            <description>Subjects received placebo prior to the scan.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Functional Connectivity Between OFC and AMY</title>
+          <description>During functional scans, subjects participated in an interactive neuroeconomic game, an iterative version of the classical “Trust Study.” Subjects participated in an interactive neuroeconomic game, an iterative version of the classical &quot;Trust Study.&quot; During this game, the subject ('investor') is first provided a sum of money (20 units). He then has the choice in terms of how much to invest in a fictional computer-generated trustee. The trustee then sends some percentage back to the subject ('investor'), and the game iterates over 20 trials (rounds).
+Using Dynamical Causal Modeling (DCM) we modeled the dynamic interaction between amygdala (AMY), nucleus accumbens (NAcc) and the orbitofrontal cortex (OFC). We observed altered connectivity strength between AMY and OFC under OT as compared to PL conditions.</description>
+          <population>Healthy adult men (17 subjects completed the task fMRI (Trust Study) at MGH, remaining 3 subjects at MGH did not complete the task). The values reported for connections strengths below (0.45 and 0.18) are from the Bayesian Parameter Averaging. The measure of precision is the associated posterior probability, which is 1 for both.</population>
+          <units>Hz</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="17"/>
+                <count group_id="O2" value="17"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.45">The value reported for connections strength (0.45 ) is from the Bayesian Parameter Averaging. The measure of precision is the associated posterior probability, which, in this case, is 1.</measurement>
+                    <measurement group_id="O2" value="0.18">The value reported for connections strength (0.18) is from the Bayesian Parameter Averaging. The measure of precision is the associated posterior probability, which, in this case, is 1.</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Oxytocin, Then Placebo</title>
+          <description>Subjects who received oxytocin before their first scan, and placebo before their second scan.</description>
+        </group>
+        <group group_id="E2">
+          <title>Placebo, Then Oxytocin</title>
+          <description>Subjects who received placebo before their first scan, and oxytocin before their second scan.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="19"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="20"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="19"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>Data collection has been completed, but data analysis is ongoing.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Lilianne Mujica Parodi, PhD / Study Principal Investigator</name_or_title>
+      <organization>Stony Brook University</organization>
+      <phone>631-632-1008</phone>
+      <email>lilianne.strey@stonybrook.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,249 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03398551</url>
+  </required_header>
+  <id_info>
+    <org_study_id>4872-Ped-ERC-17</org_study_id>
+    <nct_id>NCT03398551</nct_id>
+  </id_info>
+  <brief_title>Machine Learning From Fetal Flow Waveforms to Predict Adverse Perinatal Outcomes</brief_title>
+  <official_title>Machine Learning From Fetal Flow Waveforms to Predict Adverse Perinatal Outcomes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Aga Khan University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Universitat Pompeu Fabra</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Aga Khan University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this study is to get a proof of concept for using a computational model of fetal
+      haemodynamics, combined with machine learning based on Doppler patterns of the fetal
+      cardiovascular, cerebral and placental flows, to identify those at increased risk of adverse
+      perinatal outcomes such as stillbirth, perinatal mortality and other neonatal morbidities.
+
+      We will also compare the sensitivity and specificity of UmbiFlow device with the machine
+      learning model in predicting adverse perinatal outcomes
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Pakistan is one of the countries where stillbirth rate (43/1000 total births) and neonatal
+      mortality rate (55/1000 live births) are among the highest in the world. The figures for
+      perinatal mortality remained unchanged between Pakistan Demographic and Health Survey (PDHS)
+      1990-91 and PDHS 2012-13. It is hence important to evaluate new techniques to identify
+      high-risk pregnant women who can then subsequently receive personalized care to improve
+      perinatal outcomes. Fetal blood flow waveforms assessed via Doppler ultrasound to indicate
+      wellbeing of the fetus have been in practice for nearly four decades. Abnormal blood flow
+      patterns in the fetal circulation detected by Doppler ultrasound may indicate poor fetal
+      prognosis. These tracings will then be incorporated in a computational model and combined
+      with machine learning, will be used to predict adverse perinatal outcomes.
+
+      This will be a prospective one group cohort study for a period of twelve months which will be
+      based in Ibrahim Hyderi, a peri-urban settlement of approximately 70,000 on the south east of
+      Karachi. The sample size for this study has been calculated based on the outcomes of the
+      pregnancy and was estimated to be 525 pregnant women.
+
+      Recruitment - Household surveillance will be done by community health workers (CHWs) in the
+      catchment area in a sequential manner to identify pregnant women. Eligible women between
+      22-34 weeks of gestation on last menstrual period (LMP) will then be explained regarding the
+      purpose of the study and invited for an ultrasound scan.
+
+      First and enrollment visit - The first visit window for the ultrasound scan will be between
+      22-26 weeks of gestation. This window is selected because pregnancies at risk may be better
+      identified and also visualization of fetal cardiac flow is possible. Based on the rigorous
+      surveillance, we anticipate that most women will be in this window. The following information
+      will be collected:
+
+        -  Socio-demographic information
+
+        -  Medical history, including exposure to tobacco, gravidity, parity, past obstetric
+           history (including number of miscarriages, stillbirths or neonatal deaths) and comorbid
+           conditions (pre-eclampsia, diabetes mellitus)
+
+        -  Maternal anthropometry (height, weight and mid-upper arm circumference)
+
+        -  Maternal blood pressure
+
+        -  Hemoglobin of the mother
+
+        -  Symphysiofundal height will be measured
+
+        -  Standard obstetric Doppler evaluation including the four primary ultrasound measures of
+           fetal growth—head circumference, biparietal diameter, abdominal circumference, and femur
+           length is routinely performed for all pregnant women presenting at the center. These
+           parameters will be used to estimate fetal weight (automatically calculated by the
+           machine).
+
+        -  Focused Fetal Doppler Echocardiography - These would include transabdominal measurements
+           of the Doppler velocity of the umbilical artery, the middle cerebral artery (MCA),
+           ductus arteriosus, fetal aortic isthmus (AoI) and left and right ventricular outflow
+           tracts
+
+        -  UmbiFlow - Umbilical artery continuous wave Doppler image will also be obtained on these
+           women. The device will generate graphs for the flow pattern and calculate the resistance
+           index for the flow.
+
+      Second visit - The second visit window of ultrasound scan will be between 30-34 weeks of
+      gestation. This will be applicable for all women who have had their first scan during 22-26
+      weeks of gestation as well as newly enrolled women during 30-34 weeks of gestational age.
+      Cardiotocography (CTG) will be performed for all recruited women during the second visit
+      followed by the Doppler examination. The same procedures as described in the first visit will
+      be done.
+
+      Follow up - We will obtain contact information (phone number) from all enrolled women. A
+      trained research midwife will be responsible for making phone calls, as well as performing
+      household visits at pre-specified intervals for immediate and early identification of the
+      pregnancy outcome. A team of CHWs will perform home visits to the baby at post-natal day 1
+      and 6 and questions related to delayed cry, neonatal sepsis and hospital course (if any) will
+      be collected and the weight and length of the baby will be recorded.
+
+      Verbal autopsy - The VA team will visit the family after the grieving period (at least 14
+      days after the death). VA will be performed using a structured tool
+      (http://www.who.int/healthinfo/statistics/WHO_VA_2012_RC1_Instrument.pdf ).
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">February 2018</start_date>
+  <completion_date type="Anticipated">December 2018</completion_date>
+  <primary_completion_date type="Anticipated">September 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Stillbirth</measure>
+    <time_frame>At birth</time_frame>
+    <description>Baby born with no signs of life at or after 28 weeks of gestation</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Early neonatal mortality</measure>
+    <time_frame>Within the first 7 days of life</time_frame>
+    <description>Death of a baby within the first 7 days of life</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>IUGR</measure>
+    <time_frame>At birth</time_frame>
+    <description>Fetal weight that is below the 10th percentile for gestational age as determined through an ultrasound</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prematurity</measure>
+    <time_frame>At birth</time_frame>
+    <description>Birth of a fetus at &lt; 37 weeks of gestation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Birth asphyxia</measure>
+    <time_frame>At birth</time_frame>
+    <description>Delayed cry after at least 1 minute of life</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Neonatal sepsis</measure>
+    <time_frame>Within the first 7 days of life</time_frame>
+    <description>Any 1 of the following danger signs: fever &gt; 38 of &lt; 35.5 C, convulsions, lethargy, poor feeding, chest in drawing and tachypnea (respiratory rate &gt; 60/min)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Low Birth Weight</measure>
+    <time_frame>At birth</time_frame>
+    <description>Birth weight &lt; 2.5 kg</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">525</enrollment>
+  <condition>Perinatal Mortality</condition>
+  <condition>Neonatal Morbidities</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Pregnant women between 22-34 weeks who reside in Ibrahim Hyderi Goth which is a peri-urban
+        settlement of approximately 70,000 on the south east of Karachi. It is one of the seven
+        union councils in Bin Qasim town which has a population of one million.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Pregnant woman coming to the ultrasound clinic between 22-34 weeks of gestation.
+
+          -  Written informed consent
+
+          -  Resident of the study area
+
+        Exclusion Criteria:
+
+          -  Multiple gestation
+
+          -  Known congenital anomaly in the fetus or newborn
+
+          -  Refusal for the ultrasound
+
+          -  Poor echocardiographic images for Doppler acquisition
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>This study will recruit pregnant women only.</gender_description>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Zahra Hoodbhoy</last_name>
+    <phone>92-21-34930051</phone>
+    <phone_ext>4126</phone_ext>
+    <email>zahra.hoodbhoy@aku.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Babar Hasan</last_name>
+    <phone>92-21-34930051</phone>
+    <phone_ext>4364</phone_ext>
+    <email>babar.hasan@aku.edu</email>
+  </overall_contact_backup>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 6, 2018</study_first_submitted>
+  <study_first_submitted_qc>January 6, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 12, 2018</study_first_posted>
+  <last_update_submitted>January 6, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 6, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 12, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Aga Khan University</investigator_affiliation>
+    <investigator_full_name>Zahra Hoodbhoy</investigator_full_name>
+    <investigator_title>Dr Zahra Hoodbhoy</investigator_title>
+  </responsible_party>
+  <keyword>pregnancy</keyword>
+  <keyword>machine learning</keyword>
+  <keyword>fetal Doppler echocardiography</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Perinatal Death</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

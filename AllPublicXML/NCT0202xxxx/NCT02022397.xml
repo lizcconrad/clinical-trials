@@ -1,0 +1,190 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02022397</url>
+  </required_header>
+  <id_info>
+    <org_study_id>183/09</org_study_id>
+    <secondary_id>CTI</secondary_id>
+    <nct_id>NCT02022397</nct_id>
+  </id_info>
+  <brief_title>Automated Assessment of Difficult Airway With Facial Recognition Techniques</brief_title>
+  <acronym>PeScho</acronym>
+  <official_title>Automatic Assessment of Difficult Ventilation and Intubation From Automatic Face Analysis and Artificial Intelligence</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Lausanne Hospitals</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Ecole Polytechnique Fédérale de Lausanne</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Lausanne Hospitals</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      General anaesthesia mandates artificial ventilation and tracheal intubation in order to
+      provide patients with artificial breathing. Difficulties related to ventilation and
+      intubation remain the leading cause of morbidity and mortality in general anaesthesia,
+      essentially due to inaccuracies in pre-operative detection of anatomical factors predisposing
+      to difficult airways. In this project investigators will develop image and video-processing
+      technologies software solutions to allow automatic recognition of anatomical features playing
+      a key role in identification of difficult ventilation and intubation, leading to
+      modifications in pre-operative anaesthesia management assessment and therefore increase
+      patients' safety.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Any tracheal intubation requires a pre-operative screening and assessment in order to obtain
+      the essential medical history of the patient, optimize patients' condition in case of any
+      co-existing disease before the operation and select the best method of anesthesia for the day
+      of surgery. The aim of this assessment is to identify potential anesthetic difficulties, such
+      as predictors of difficult airways, which still nowadays represent the first cause of
+      litigation in anesthesia related closed claim studies.
+
+      In the first step of the pre-operative assessment procedure, the patient will be analyzed by
+      the software. The patient will be automatically guided through a 10 minutes series of tests
+      and the software will analyze in real-time his/her morphological and dynamic features in
+      order to classify the patient into one of 5 categories described in the next Section. Details
+      relevant to difficult ventilation and intubation (static and dynamic), such as quantifying
+      the exact inter-incisors distance (mouth opening), visibility and detection of anatomical
+      landmarks in the open mouth (uvulae, pillars, tonsils, tongue, posterior pharynx),
+      thyro-mental distance, neck circumference, neck mobility with maximal anterior and posterior
+      movement. The analysis will be performed by:
+
+        -  automatically computing these relevant measures using robust computer vision algorithms
+           capable to detect, describe and track the face and the neck with high level of accuracy
+           and robustness to extreme poses (left and right rotation and up and down movement of the
+           face)
+
+        -  developing powerful image processing techniques to describe and compute intra-oral
+           structures. The two sets of measures will be then combined into a machine learning
+           approach capable to classify the patient. The results of the analysis as well as all the
+           recorded videos of every single test will be stored on a central database and accessed
+           in real-time by the doctor to continue the pre-operative consultancy.
+
+      The patient will then undergo his planned surgery at the initially planned time and be
+      intubated for that purpose. Proper recording of the grade of intubation in the operating room
+      will be documented and introduced in the assessment database. By this mean, the database will
+      evolve with the assessment and the final post-operative intubation score so that to improve
+      the automatic predictability of the machine learning algorithm.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>March 2012</start_date>
+  <primary_completion_date type="Anticipated">December 2016</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Day</target_duration>
+  <primary_outcome>
+    <measure>Computerized classification of difficult intubation</measure>
+    <time_frame>1 day</time_frame>
+    <description>automatic classification by artificial intelligence into 3 classes of intubation difficulty</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">6000</enrollment>
+  <condition>Adverse Effect of Other General Anesthetics, Sequela</condition>
+  <arm_group>
+    <arm_group_label>difficult intubation</arm_group_label>
+    <description>general population necessitating tracheal intubation for general anesthesia</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        patient undergoing general anesthesia necessitating endotracheal intubation
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  adult patient (15 years of age)
+
+          -  patients necessitating endotracheal intubation for general anesthesia
+
+        Exclusion Criteria:
+
+        -patient refusal
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Patrick Schoettker, Assoc Prof</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Lausanne Hospitals</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Patrick Schoettker, Assoc Prof</last_name>
+    <phone>+41795561043</phone>
+    <email>patrick.schoettker@chuv.ch</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Dpt of Anesthesiology, University of Lausanne CHUV</name>
+      <address>
+        <city>Lausanne</city>
+        <state>VD</state>
+        <zip>1011</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Patrick Schoettker, Assoc Prof</last_name>
+      <phone>+41795561043</phone>
+      <email>patrick.schoettker@chuv.ch</email>
+    </contact>
+    <investigator>
+      <last_name>Patrick Schoettker, Assoc Prof</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>August 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 16, 2013</study_first_submitted>
+  <study_first_submitted_qc>December 20, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 27, 2013</study_first_posted>
+  <last_update_submitted>August 6, 2015</last_update_submitted>
+  <last_update_submitted_qc>August 6, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">August 7, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Lausanne Hospitals</investigator_affiliation>
+    <investigator_full_name>Patrick Schoettker,MD PD</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>tracheal intubation</keyword>
+  <keyword>predicting difficult intubation</keyword>
+  <keyword>general anesthesia</keyword>
+  <keyword>difficult ventilation</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

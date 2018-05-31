@@ -1,0 +1,455 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02425956</url>
+  </required_header>
+  <id_info>
+    <org_study_id>114-2014-GES-0039</org_study_id>
+    <nct_id>NCT02425956</nct_id>
+  </id_info>
+  <brief_title>Non-invasive Quantification of Liver Iron With MRI</brief_title>
+  <official_title>Non-invasive Quantification of Liver Iron With MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>GE Healthcare</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>GE Healthcare</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is being conducted to build a library of prospectively collected clinical data
+      from subjects with iron overload examined with commercially available MRI devices. This data
+      library is intended for use in future engineering development and other research activities,
+      including future regulatory submissions.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study is being conducted to build a library of prospectively collected clinical data
+      from subjects with iron overload examined with commercially available MRI devices. This data
+      library is intended for use in future engineering development and other research activities,
+      including future regulatory submissions. Data from human subjects is required to develop and
+      test Magnetic resonance (MR) reconstruction techniques that can provide quantitative
+      information about tissue properties, such as volumetric fat and iron concentrations.
+      Collection of MR data and corresponding quantitative liver iron concentration (LIC) data is
+      necessary for development of MR techniques that can show both overall and regional iron
+      concentrations of in vivo tissues. These techniques may provide viable alternatives to
+      invasive and expensive conventional liver biopsy and to less accurate serum biomarker
+      testing, potentially benefiting future clinical patients with iron overload.
+
+      MR image data and corresponding quantitative data about serum and liver iron levels will be
+      collected from each subject in this study. These datasets are considered suitable for future
+      development and testing of MR reconstruction software, including MR reconstruction algorithms
+      developed by General Electric Healthcare (GEHC) to use Longitudinal relaxation rate equal to
+      the reciprocal of T2 relaxation time (1/T2) (R2) techniques to assess LIC. To achieve a
+      sufficiently diverse library for future testing, MRI data of the liver and surrounding
+      tissues will be acquired using 1.5T and 3.0T GEHC IDEAL IQ scans and commercially available
+      1.5T MRI scans conducted according to the FerriScan® Specialized Reconstruction Service
+      guidelines (Resonance Health, Claremont, AU). Quantitative hematologic (serum ferritin) based
+      on blood testing and FerriScan® Analysis Service LIC reports will be collected for each
+      subject.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2015</start_date>
+  <completion_date type="Actual">June 30, 2016</completion_date>
+  <primary_completion_date type="Actual">June 30, 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Per Subject Evaluable DICOM Data Sets From Liver MRI</measure>
+    <time_frame>48 hours pre or 24 hours post blood draw</time_frame>
+    <description>The primary outcome measure is collection of evaluable (based on physician determination) MR DICOM datasets including valid 1.5 and 3.0T image data, P-file, R2* maps, and raw data for each enrolled subject. The datasets were gathered via three independent MR scans conducted within a three hour time block, with up to ten minutes break in between.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Serum Ferritin Based on Blood Draw</measure>
+    <time_frame>48 hours post MR scan or 24 hours pre MR scan</time_frame>
+    <description>The secondary outcome is collection of serum ferritin from hematologic analysis (blood draw analyzed by site central lab).</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">21</enrollment>
+  <condition>Iron Overload</condition>
+  <arm_group>
+    <arm_group_label>MRI imaging of liver</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>GE Optima/Discovery® MRI imaging data of the liver and surrounding tissues will be acquired using 1.5T and 3.0T GE Healthcare (GEHC) IDEAL IQ scans and commercially available 1.5T MRI scans conducted according to the FerriScan®</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>GE Optima/Discovery® MRI data of the liver</intervention_name>
+    <description>GE Optima 1.5T®/Discovery 3.0T® MRI data scanning data of the liver and surrounding tissues will be acquired using both field strengths for GE IDEAL IQ® and single field strength with FerriScan® (Resondence Health) Specialized Reconstruction Service, according instructions provided by manufacturer</description>
+    <arm_group_label>MRI imaging of liver</arm_group_label>
+    <other_name>GE Optima/Discovery® MRI</other_name>
+    <other_name>FerriScan® (Resondence Health)</other_name>
+    <other_name>GE IDEAL IQ®</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria
+
+          1. Be at least ten (10) years of age;
+
+          2. Have clinical history of iron overload;
+
+          3. If female of childbearing potential (not surgically sterile or post-menopausal), be
+             determined non-pregnant by the medical co-investigator and/or a delegated physician on
+             the study staff or are demonstrated non-pregnant by negative urine pregnancy test
+             administered within the 24 hour period before participating in study procedures;
+
+          4. Provide evidence of willingness to participate by providing written informed consent
+             to participate OR, if aged less than 18 years (&lt;18) be willing to provide written
+             assent to participate and have parent(s) or legal guardian(s) willing to provide
+             written informed consent for the subject's participation;
+
+          5. Be able to hear and understand instructions without assistive devices;
+
+          6. Have necessary mental capacity to understand instructions be able to comply with
+             protocol requirements;
+
+          7. Be able to remain relatively motionless for the expected duration of imaging
+             procedures (maximum of approximately 90 minutes).
+
+        Exclusion Criteria
+
+          1. Have medical history of present or prior focal liver disease, such as neoplasms or
+             vascular abnormalities;
+
+          2. Have contraindication(s) to MRI scanning per the routine MR Safety Screening policy of
+             the investigational site;
+
+          3. Are scheduled for surgery, changes in dosage or type of chelating medications, or
+             other medical interventions in between blood draw and MRI scanning that could be
+             expected to impact study results or conduct;
+
+          4. Have had or plan to have a change in dosage or type of chelating medications (such as
+             Deferoxamine or Deferasirox) within the 3 days prior to the first study procedure
+             (blood draw or MRI, whichever comes first);
+
+          5. Are minor subjects with parent(s) or legal guardian(s) that require that they
+             accompany the subject into the MR environment;
+
+          6. Have previously participated in this study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>10 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Frank Korosec, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Wisconsin, Madison</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Wisconsin-Madison</name>
+      <address>
+        <city>Madison</city>
+        <state>Wisconsin</state>
+        <zip>53705</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 16, 2015</study_first_submitted>
+  <study_first_submitted_qc>April 21, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 24, 2015</study_first_posted>
+  <results_first_submitted>April 28, 2017</results_first_submitted>
+  <results_first_submitted_qc>June 22, 2017</results_first_submitted_qc>
+  <results_first_posted type="Actual">July 24, 2017</results_first_posted>
+  <last_update_submitted>June 22, 2017</last_update_submitted>
+  <last_update_submitted_qc>June 22, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 24, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Iron Overload</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Liver Extracts</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>MRI Imaging of Liver</title>
+          <description>GE Optima/Discovery® MRI imaging data of the liver and surrounding tissues will be acquired using 1.5T and 3.0T GE Healthcare (GEHC) IDEAL IQ scans and commercially available 1.5T MRI scans conducted according to the FerriScan®
+GE Optima/Discovery® MRI data of the liver: GE Optima 1.5T®/Discovery 3.0T® MRI data scanning data of the liver and surrounding tissues will be acquired using both field strengths for GE IDEAL IQ® and single field strength with FerriScan® (Resondence Health) Specialized Reconstruction Service, according instructions provided by manufacturer</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="21"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="21"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>MRI Imaging of Liver</title>
+          <description>GE Optima/Discovery® MRI imaging data of the liver and surrounding tissues will be acquired using 1.5T and 3.0T GE Healthcare (GEHC) IDEAL IQ scans and commercially available 1.5T MRI scans conducted according to the FerriScan®
+GE Optima/Discovery® MRI data of the liver: GE Optima 1.5T®/Discovery 3.0T® MRI data scanning data of the liver and surrounding tissues will be acquired using both field strengths for GE IDEAL IQ® and single field strength with FerriScan® (Resondence Health) Specialized Reconstruction Service, according instructions provided by manufacturer</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="21"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Per Subject Evaluable DICOM Data Sets From Liver MRI</title>
+        <description>The primary outcome measure is collection of evaluable (based on physician determination) MR DICOM datasets including valid 1.5 and 3.0T image data, P-file, R2* maps, and raw data for each enrolled subject. The datasets were gathered via three independent MR scans conducted within a three hour time block, with up to ten minutes break in between.</description>
+        <time_frame>48 hours pre or 24 hours post blood draw</time_frame>
+        <population>MR DICOM datasets were gathered for each enrolled subject (total of three scans per subject equals one complete dataset)</population>
+        <group_list>
+          <group group_id="O1">
+            <title>MRI Imaging of Liver</title>
+            <description>GE Optima/Discovery® MRI imaging data of the liver and surrounding tissues will be acquired using 1.5T and 3.0T GE Healthcare (GEHC) IDEAL IQ scans and commercially available 1.5T MRI scans conducted according to the FerriScan®
+GE Optima/Discovery® MRI data of the liver: GE Optima 1.5T®/Discovery 3.0T® MRI data scanning data of the liver and surrounding tissues will be acquired using both field strengths for GE IDEAL IQ® and single field strength with FerriScan® (Resondence Health) Specialized Reconstruction Service, according instructions provided by manufacturer</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Per Subject Evaluable DICOM Data Sets From Liver MRI</title>
+          <description>The primary outcome measure is collection of evaluable (based on physician determination) MR DICOM datasets including valid 1.5 and 3.0T image data, P-file, R2* maps, and raw data for each enrolled subject. The datasets were gathered via three independent MR scans conducted within a three hour time block, with up to ten minutes break in between.</description>
+          <population>MR DICOM datasets were gathered for each enrolled subject (total of three scans per subject equals one complete dataset)</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="21"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="21"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Serum Ferritin Based on Blood Draw</title>
+        <description>The secondary outcome is collection of serum ferritin from hematologic analysis (blood draw analyzed by site central lab).</description>
+        <time_frame>48 hours post MR scan or 24 hours pre MR scan</time_frame>
+        <population>Every enrolled subject</population>
+        <group_list>
+          <group group_id="O1">
+            <title>MRI Imaging of Liver</title>
+            <description>GE Optima/Discovery® MRI imaging data of the liver and surrounding tissues will be acquired using 1.5T and 3.0T GE Healthcare (GEHC) IDEAL IQ scans and commercially available 1.5T MRI scans conducted according to the FerriScan®
+GE Optima/Discovery® MRI data of the liver: GE Optima 1.5T®/Discovery 3.0T® MRI data scanning data of the liver and surrounding tissues will be acquired using both field strengths for GE IDEAL IQ® and single field strength with FerriScan® (Resondence Health) Specialized Reconstruction Service, according instructions provided by manufacturer</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Serum Ferritin Based on Blood Draw</title>
+          <description>The secondary outcome is collection of serum ferritin from hematologic analysis (blood draw analyzed by site central lab).</description>
+          <population>Every enrolled subject</population>
+          <units>mg FE /g dry</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="21"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="8.3" spread="7.71400705"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Date collected during duration of study enrollment through completion</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>MRI Imaging of Liver</title>
+          <description>GE Optima/Discovery® MRI imaging data of the liver and surrounding tissues will be acquired using 1.5T and 3.0T GE Healthcare (GEHC) IDEAL IQ scans and commercially available 1.5T MRI scans conducted according to the FerriScan®
+GE Optima/Discovery® MRI data of the liver: GE Optima 1.5T®/Discovery 3.0T® MRI data scanning data of the liver and surrounding tissues will be acquired using both field strengths for GE IDEAL IQ® and single field strength with FerriScan® (Resondence Health) Specialized Reconstruction Service, according instructions provided by manufacturer</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="21"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="21"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="21"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Research Manager</name_or_title>
+      <organization>GE Healthcare</organization>
+      <phone>262-521-6819</phone>
+      <email>Sandhya.Parameswaran@med.ge.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

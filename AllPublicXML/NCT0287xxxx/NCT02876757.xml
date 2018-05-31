@@ -1,0 +1,518 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02876757</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2016 0906 192 000</org_study_id>
+    <nct_id>NCT02876757</nct_id>
+  </id_info>
+  <brief_title>5 Alpha Reductase Inhibitors And The Risk Of Suicide And Depression</brief_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Lawson Health Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Lawson Health Research Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In December 2015, Health Canada issued a warning about a potential relationship between
+      suicide and finasteride use and called for further research. No population based studies have
+      assessed the risk of suicide with finasteride use, and this risk is not currently part of the
+      product monograph. Furthermore, the link between depression and finasteride has not been well
+      studied in the older population who are the primary users of this medication.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2003</start_date>
+  <completion_date type="Actual">March 2017</completion_date>
+  <primary_completion_date type="Actual">December 2013</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Suicide (Based on Administrative Data Elements From Ontario Registrar General Death Database, National Ambulatory Care Reporting System, Hospital Discharge Abstracts, and Ontario Regional Mental Health Database)</measure>
+    <time_frame>Through study completition, an average of 18 months.</time_frame>
+    <description>Ontario Registrar General Death database. Use the COD_primary variable (used from 2003 onwards) to define suicide, based on an ICD10 code of X60-X84.
+NACRS: X60-84 (dx10code1-dx10code10) AND dead on arrival or death after arrival (visdisp2002 = 10 or 11). Consider admission date the date of the event.
+OMHRS: Discharge reason (dischreason (X90) = 2). Died from suicide. Consider admission date the date of the event.
+CIHI-DAD (Consider admission date the date of the event):
+i. suicide=1, or ii. dx10code1-25= ICD10 X60-84 AND dischdisp=&quot;07&quot;.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Suicide Attempt (Based on Administrative Data Elements From National Ambulatory Care Reporting System, and Ontario Regional Mental Health Database)</measure>
+    <time_frame>Through study completition, an average of 18 months.</time_frame>
+    <description>NACRS: presentation to the emergency room: ICD 10 codes X60-X84 (intentional self harm).
+OMHRS: admission with suicide ideation.
+i. Self injury attempts: D1A or selfinjury_attempt=3, 4, 5, or 6 ii. Self injury intent: D1B or selfinjury_intent=1 iii. Self injury considered: D1C or selfinjury_cons=3, 4, 5 or 6 iv. Self injury plan: D1DB or suicide_plan=1</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Depression (Based on Administrative Data Elements From Hospital Discharge Abstract Database, and Ontario Regional Mental Health Database and Ontario Health Insurance Plan)</measure>
+    <time_frame>Through study completition, an average of 18 months.</time_frame>
+    <description>Any CIHI-DAD/SDS ICD 10 code, OR
+Any OMRHS code Axis1_dsm4code1-19 or Axis2_dsm4code 1-7 OR
+Look for any OHIP record billed by Mainspecialty = &quot;PSYCHIATRY&quot; with a diagnosis of depression OHIP dxcode 311, OR
+≥2 GP visits within 2 years AND both with OHIP dxcode 311
+i. OHIP dxcode: 311 ii. ICD 10: F32.0, F32.1, F32.2, F32.3, F32.8, F32.9, F33.0, F33.1, F33.2, F33.3, F33.4, F33.8, F34.1 iii. Psychiatry visits defined as any of these OHIP fee codes: A195, A895, A190, A795, A695, A395, A196, A193, A194, A191, A192 iv. OMHRS: 29620-29626, 29630-29636, 31100 (major depressive disorder)</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">186394</enrollment>
+  <condition>BPH</condition>
+  <condition>Depression</condition>
+  <condition>Suicide</condition>
+  <arm_group>
+    <arm_group_label>5ARI Users</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non 5ARI users</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>5ARI</intervention_name>
+    <description>Exposure to finasteride/dutasteride</description>
+    <arm_group_label>5ARI Users</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All men &gt;66 years of age in Ontario between 2003-2013
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All men &gt;66 years of age in Ontario between 2003-2013
+
+        Exclusion Criteria:
+
+          -  Non Ontario residents
+
+          -  No prescriptions filled in prior 180 days
+
+          -  Prior exposure to finasteride/dutasteride in the 2 years prior to study enrollment.
+
+          -  Prescription initiated during hospital admission or ER visit.
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>66 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>June 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 5, 2016</study_first_submitted>
+  <study_first_submitted_qc>August 18, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 24, 2016</study_first_posted>
+  <results_first_submitted>April 12, 2017</results_first_submitted>
+  <results_first_submitted_qc>July 19, 2017</results_first_submitted_qc>
+  <results_first_posted type="Actual">February 5, 2018</results_first_posted>
+  <last_update_submitted>July 19, 2017</last_update_submitted>
+  <last_update_submitted_qc>July 19, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 5, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Depression</mesh_term>
+    <mesh_term>Depressive Disorder</mesh_term>
+    <mesh_term>Suicide</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>5-alpha Reductase Inhibitors</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>5ARI Users</title>
+          <description>5ARI: Exposure to finasteride/dutasteride</description>
+        </group>
+        <group group_id="P2">
+          <title>Non 5ARI Users</title>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="93197"/>
+                <participants group_id="P2" count="93197"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="93197"/>
+                <participants group_id="P2" count="93197"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>5ARI Users</title>
+          <description>5ARI: Exposure to finasteride/dutasteride</description>
+        </group>
+        <group group_id="B2">
+          <title>Non 5ARI Users</title>
+          <description>Matched patients without 5ARI usage</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="93197"/>
+            <count group_id="B2" value="93197"/>
+            <count group_id="B3" value="186394"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="75.6" spread="6.7"/>
+                    <measurement group_id="B2" value="75.5" spread="6.9"/>
+                    <measurement group_id="B3" value="75.5" spread="6.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="93197"/>
+                    <measurement group_id="B2" value="93197"/>
+                    <measurement group_id="B3" value="186394"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Canada</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="93197"/>
+                    <measurement group_id="B2" value="93197"/>
+                    <measurement group_id="B3" value="186394"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Prior depression</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3353"/>
+                    <measurement group_id="B2" value="3353"/>
+                    <measurement group_id="B3" value="6706"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Suicide (Based on Administrative Data Elements From Ontario Registrar General Death Database, National Ambulatory Care Reporting System, Hospital Discharge Abstracts, and Ontario Regional Mental Health Database)</title>
+        <description>Ontario Registrar General Death database. Use the COD_primary variable (used from 2003 onwards) to define suicide, based on an ICD10 code of X60-X84.
+NACRS: X60-84 (dx10code1-dx10code10) AND dead on arrival or death after arrival (visdisp2002 = 10 or 11). Consider admission date the date of the event.
+OMHRS: Discharge reason (dischreason (X90) = 2). Died from suicide. Consider admission date the date of the event.
+CIHI-DAD (Consider admission date the date of the event):
+i. suicide=1, or ii. dx10code1-25= ICD10 X60-84 AND dischdisp=”07”.</description>
+        <time_frame>Through study completition, an average of 18 months.</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>5ARI Users</title>
+            <description>5ARI: Exposure to finasteride/dutasteride</description>
+          </group>
+          <group group_id="O2">
+            <title>Non 5ARI Users</title>
+          </group>
+        </group_list>
+        <measure>
+          <title>Suicide (Based on Administrative Data Elements From Ontario Registrar General Death Database, National Ambulatory Care Reporting System, Hospital Discharge Abstracts, and Ontario Regional Mental Health Database)</title>
+          <description>Ontario Registrar General Death database. Use the COD_primary variable (used from 2003 onwards) to define suicide, based on an ICD10 code of X60-X84.
+NACRS: X60-84 (dx10code1-dx10code10) AND dead on arrival or death after arrival (visdisp2002 = 10 or 11). Consider admission date the date of the event.
+OMHRS: Discharge reason (dischreason (X90) = 2). Died from suicide. Consider admission date the date of the event.
+CIHI-DAD (Consider admission date the date of the event):
+i. suicide=1, or ii. dx10code1-25= ICD10 X60-84 AND dischdisp=”07”.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="93197"/>
+                <count group_id="O2" value="93197"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="38"/>
+                    <measurement group_id="O2" value="36"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Suicide Attempt (Based on Administrative Data Elements From National Ambulatory Care Reporting System, and Ontario Regional Mental Health Database)</title>
+        <description>NACRS: presentation to the emergency room: ICD 10 codes X60-X84 (intentional self harm).
+OMHRS: admission with suicide ideation.
+i. Self injury attempts: D1A or selfinjury_attempt=3, 4, 5, or 6 ii. Self injury intent: D1B or selfinjury_intent=1 iii. Self injury considered: D1C or selfinjury_cons=3, 4, 5 or 6 iv. Self injury plan: D1DB or suicide_plan=1</description>
+        <time_frame>Through study completition, an average of 18 months.</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>5ARI Users</title>
+            <description>5ARI: Exposure to finasteride/dutasteride</description>
+          </group>
+          <group group_id="O2">
+            <title>Non 5ARI Users</title>
+          </group>
+        </group_list>
+        <measure>
+          <title>Suicide Attempt (Based on Administrative Data Elements From National Ambulatory Care Reporting System, and Ontario Regional Mental Health Database)</title>
+          <description>NACRS: presentation to the emergency room: ICD 10 codes X60-X84 (intentional self harm).
+OMHRS: admission with suicide ideation.
+i. Self injury attempts: D1A or selfinjury_attempt=3, 4, 5, or 6 ii. Self injury intent: D1B or selfinjury_intent=1 iii. Self injury considered: D1C or selfinjury_cons=3, 4, 5 or 6 iv. Self injury plan: D1DB or suicide_plan=1</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="93197"/>
+                <count group_id="O2" value="93197"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="169"/>
+                    <measurement group_id="O2" value="130"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Depression (Based on Administrative Data Elements From Hospital Discharge Abstract Database, and Ontario Regional Mental Health Database and Ontario Health Insurance Plan)</title>
+        <description>Any CIHI-DAD/SDS ICD 10 code, OR
+Any OMRHS code Axis1_dsm4code1-19 or Axis2_dsm4code 1-7 OR
+Look for any OHIP record billed by Mainspecialty = “PSYCHIATRY” with a diagnosis of depression OHIP dxcode 311, OR
+≥2 GP visits within 2 years AND both with OHIP dxcode 311
+i. OHIP dxcode: 311 ii. ICD 10: F32.0, F32.1, F32.2, F32.3, F32.8, F32.9, F33.0, F33.1, F33.2, F33.3, F33.4, F33.8, F34.1 iii. Psychiatry visits defined as any of these OHIP fee codes: A195, A895, A190, A795, A695, A395, A196, A193, A194, A191, A192 iv. OMHRS: 29620-29626, 29630-29636, 31100 (major depressive disorder)</description>
+        <time_frame>Through study completition, an average of 18 months.</time_frame>
+        <population>This population is restricted to those who had no history of depression, thus it is a subgroup of the total study population.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>5ARI Users</title>
+            <description>5ARI: Exposure to finasteride/dutasteride</description>
+          </group>
+          <group group_id="O2">
+            <title>Non 5ARI Users</title>
+          </group>
+        </group_list>
+        <measure>
+          <title>Depression (Based on Administrative Data Elements From Hospital Discharge Abstract Database, and Ontario Regional Mental Health Database and Ontario Health Insurance Plan)</title>
+          <description>Any CIHI-DAD/SDS ICD 10 code, OR
+Any OMRHS code Axis1_dsm4code1-19 or Axis2_dsm4code 1-7 OR
+Look for any OHIP record billed by Mainspecialty = “PSYCHIATRY” with a diagnosis of depression OHIP dxcode 311, OR
+≥2 GP visits within 2 years AND both with OHIP dxcode 311
+i. OHIP dxcode: 311 ii. ICD 10: F32.0, F32.1, F32.2, F32.3, F32.8, F32.9, F33.0, F33.1, F33.2, F33.3, F33.4, F33.8, F34.1 iii. Psychiatry visits defined as any of these OHIP fee codes: A195, A895, A190, A795, A695, A395, A196, A193, A194, A191, A192 iv. OMHRS: 29620-29626, 29630-29636, 31100 (major depressive disorder)</description>
+          <population>This population is restricted to those who had no history of depression, thus it is a subgroup of the total study population.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="89844"/>
+                <count group_id="O2" value="89844"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1750"/>
+                    <measurement group_id="O2" value="1231"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <desc>Please note that only mortality from suicide was assessed, all-cause mortality could not be determined.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>5ARI Users</title>
+          <description>5ARI: Exposure to finasteride/dutasteride</description>
+        </group>
+        <group group_id="E2">
+          <title>Non 5ARI Users</title>
+          <description>Matched control patients with no exposure to 5ARI</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="160" subjects_at_risk="93197"/>
+                <counts group_id="E2" subjects_affected="139" subjects_at_risk="93197"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="93197"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="93197"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="93197"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="93197"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Blayne Welk</name_or_title>
+      <organization>ICES Western</organization>
+      <phone>5196466000</phone>
+      <email>blayne.welk@sjhc.london.on.ca</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

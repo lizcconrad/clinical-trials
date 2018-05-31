@@ -1,0 +1,232 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03342703</url>
+  </required_header>
+  <id_info>
+    <org_study_id>38649</org_study_id>
+    <nct_id>NCT03342703</nct_id>
+  </id_info>
+  <brief_title>Correlation of Ultrasound Based Measurements of Liver Stiffness and Steatosis With MRI</brief_title>
+  <official_title>Correlation of Ultrasound Based Measurements of Liver Stiffness and Steatosis With MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Stanford University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>No</is_unapproved_device>
+    <is_ppsd>No</is_ppsd>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators will assess the ability of ultrasound (US) to measure liver stiffness
+      (cirrhosis) and liver fat content (steatosis).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Non-invasive monitoring of liver fibrosis using magnetic resonance imaging (MRI) can help
+      determine which patients will most benefit from interventional therapies to help reverse the
+      condition. Similarly, quantitative assessment of liver fat content using MRI can assist
+      physicians in identifying patients at risk for hepatic steatohepatitis.
+
+      Due to the widespread dissemination of US machines and their relative lower cost compared to
+      other imaging modalities, e.g. MRI, the ability of US to assess these parameters widens
+      diagnostic availability.
+
+      Patients who have undergone an MRI exam to assess liver stiffness (cirrhosis) and/or liver
+      fat content (steatosis) will be asked to undergo an US exam to assess the same parameters.
+      The cirrhosis and steatosis measurements obtained from both exams will be compared. If
+      US-based measurements of liver stiffness and/or liver fat content are shown to be
+      reproducible and accurate when compared to MRI values (will be used as the gold standard), US
+      may become the first-line diagnostic test for these liver conditions.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 4, 2016</start_date>
+  <completion_date type="Anticipated">August 1, 2018</completion_date>
+  <primary_completion_date type="Anticipated">August 1, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Discriminatory value (AUC) of US in assessing liver stiffness</measure>
+    <time_frame>an estimated time of 30 minutes</time_frame>
+    <description>Discriminatory value (the ability of the test to diagnose disease from healthy) will be calculated using nonparametric receiver operating characteristic (ROC) curve analysis. Sensitivity (i.e. true positive rate: the ability of a test to correctly identify patients with the disease being investigated) is plotted on the y axis and 1-specificity (i.e. false positive rate: the test incorrectly identifies patients who do not have the disease being investigated as having the disease) will be plotted on the x-axis. Cutoff points of US liver stiffness values will be chosen to create the graph of sensitivity versus 1-Specificity, i.e. the ROC curve, and the area under the curve (AUC) is used to determine how well US discriminates patients with liver stiffness from patients without liver stiffness.
+The closer the AUC gets to 1, the more discriminatory the test. An AUC=0.5 is a test that is right 50% of the time, and is no better than flipping a coin.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Discriminatory value (AUC) of US in assessing liver fat content</measure>
+    <time_frame>an estimated average of 30 minutes</time_frame>
+    <description>Discriminatory value (the ability of the test to diagnose disease from healthy) will be calculated using nonparametric receiver operating characteristic (ROC) curve analysis. Sensitivity (i.e. true positive rate: the ability of a test to correctly identify patients with the disease being investigated) is plotted on the y axis and 1-specificity (i.e. false positive rate: the test incorrectly identifies patients who do not have the disease being investigated as having the disease) will be plotted on the x-axis. Cutoff points of US liver fat content values will be chosen to create the graph of sensitivity versus 1-specificity, i.e. the ROC curve, and the area under the curve (AUC) is used to determine how well US discriminates patients with liver fat content from patients without liver fat content.
+The closer the AUC gets to 1, the more discriminatory the test. An AUC=0.5 is a test that is right 50% of the time, and is no better than flipping a coin.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>US Elastography Stiffness</measure>
+    <time_frame>an estimated average of 30 minutes</time_frame>
+    <description>MRI tissue stiffness is reported in shear modulus (S), while US uses Young's modulus (Y). Since Y = 2*(1+m)*S, where m is the Poisson's ratio for the material, and since that ratio is between 0.49 and 0.50 for tissue, the US measurements should be three times that of the MRI ones. In particular, treating the MRI measurements as the reference, theory predicts a linear relationship:
+Y = 0 + 3*S
+which can be tested with a linear regression model. The most straightforward means is by calculating the expected Young's modulus values for US from the MR measurements, and regressing them on the observed US measurements.
+Both US and MRI values are given below.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Liver Steatoses</condition>
+  <condition>Liver Cirrhosis</condition>
+  <arm_group>
+    <arm_group_label>Patients with Liver Disease</arm_group_label>
+    <description>Patients will undergo an Ultrasound to correlate cirrhosis and/or steatosis measurements obtained using standard-of-care MRI.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Ultrasound</intervention_name>
+    <description>Patients will undergo a standard liver US protocol for approximately 15 minutes.</description>
+    <arm_group_label>Patients with Liver Disease</arm_group_label>
+    <other_name>US</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects who have or are scheduled to undergo a routine clinical MRI at Stanford that
+        included assessment of liver stiffness or liver fat content will be identified using the
+        radiology schedule.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. participants who have a clinical indication for a standard of care MRI exam that
+             included assessment of the liver
+
+          2. participant is at least 18 years of age
+
+        Exclusion Criteria:
+
+          1. Participants unable to take part in the decision making process on whether to consent
+             to the trial
+
+          2. Patients with previous chemoembolization or other focal liver therapies to the liver
+             (* NOTE: for liver transplant patients, this criterion is only applicable to the
+             transplanted liver)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Juergen Willmann, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Andreas Loening, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Andrea Otte</last_name>
+    <email>anotte@stanford.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Lacey Greene, MS, CNMT</last_name>
+    <phone>6507254712</phone>
+    <email>lacey.greene@stanford.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Stanford University Hospital</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Andrea Otte</last_name>
+      <email>anotte@stanford.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Lacey Greene, MS, CNMT</last_name>
+      <phone>6507254712</phone>
+      <email>lacey.greene@stanford.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Andreas Loening, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Juergen Willmann, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Stanford University</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Andreas Loening, MD</last_name>
+      <phone>650-725-4936</phone>
+      <email>loening@stanford.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 12, 2017</study_first_submitted>
+  <study_first_submitted_qc>November 13, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 17, 2017</study_first_posted>
+  <last_update_submitted>November 13, 2017</last_update_submitted>
+  <last_update_submitted_qc>November 13, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 17, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stanford University</investigator_affiliation>
+    <investigator_full_name>Juergen Willmann</investigator_full_name>
+    <investigator_title>director</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Liver Cirrhosis</mesh_term>
+    <mesh_term>Fatty Liver</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

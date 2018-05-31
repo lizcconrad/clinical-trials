@@ -1,0 +1,284 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03258216</url>
+  </required_header>
+  <id_info>
+    <org_study_id>104-4725B</org_study_id>
+    <nct_id>NCT03258216</nct_id>
+  </id_info>
+  <brief_title>TCM Tongue Diagnosis Indices of UGI Disorders</brief_title>
+  <official_title>The Traditional Chinese Medicine (TCM) Tongue Diagnosis Indices of Upper Gastrointestinal (UGI) Disorders</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chang Gung Memorial Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Sun Yat-sen University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Chang Gung Memorial Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The Automatic Tongue Diagnosis System (ATDS) was developed to capture tongue images and
+      extract features reliably to assist the diagnosis of TCM practitioners.This project will
+      employ the ATDS verified to extract the tongue features of patients with upper
+      gastrointestinal disorders, such as peptic ulcer, etc. A TCM indices derived through the
+      non-intrusive tongue diagnosis procedure can provide valuable information for clinical
+      doctors to analyze the current status of a patient and dynamically schedule a treatment plan,
+      facilitating early detection and diagnosis of upper gastrointestinal disorders.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Upper gastrointestinal disorders are common in clinical practice. Currently, the diagnosis of
+      peptic ulcer only depends on laboratory exams such as clinical symptoms, blood test, urine
+      test and feces test. But the result can be only auxiliary exams which don't gain correct
+      diagnosis on helping assess ulcer severity. As the most suitable diagnosis method,
+      panendoscopy can directly observe lesions, judge disease severity, carry out a biopsy, test
+      lesion is benignant or malignant, Helicobacter Pylorus infection or not, the degree of
+      inflammation, etc. But panendoscopy belongs to invasive test. If we can observe tongue
+      characteristics of patients with upper gastrointestinal diseases through scientific tongue
+      diagnosis, physical discomfort caused by the test will be significantly reduced.
+
+      Based on clinical observational study, this project will employ the Automatic Tongue
+      Diagnosis System (ATDS) developed. The ATDS was developed to capture tongue images and
+      extract features reliably to assist the diagnosis of TCM practitioners demonstrates the steps
+      in the three major functions, i.e., image capturing and color calibration, tongues area
+      segmentation, and tongue feature extraction, included in the ATDS.
+
+      Variations in background lighting may change the color and brightness of the acquired images,
+      greatly affecting consistency and stability of the extracted tongue features. The ATDS
+      developed can automatically correct lighting and color deviation caused by the change of
+      background lighting with a color bar attached in the ATDS. The color bar placed beside the
+      patient is used for color calibration to make sure the image quality is consistent even taken
+      at different circumstances. Tongue images are analyzed by first isolating the tongue region
+      within an image to eliminate irrelevant lower facial portions and background surrounding the
+      tongue, thereby facilitating feature identification and extraction; and then extracting the
+      tongue features by employing criteria such as the aspect ratio, color composition, location,
+      shape, and color distribution of the tongue, as well as the quantity of neighboring pixels.
+      Features including tongue color, tongue fissure, fur color, fur thickness, ecchymosis, tooth
+      mark, red dot, saliva, and tongue shape are extracted to further generate detailed
+      information regarding length, area, moisture, and number of fissures, marks, and dots to be
+      employed in tongue diagnosis. Nine primary tongue features, including tongue color (slightly
+      white, slightly red, red, dark red, dark purple), fur color (white, yellow, dye), fur
+      thickness (none, thin, thick), saliva (none, little, normal, excessive), tongue shape (thin
+      and small, moderate, fat and large), tongue fissure, red dot, ecchymosis, and tooth marks
+      (the last four features are divided into categories of none, mild, moderate, and severe), are
+      selected for tongue diagnosis.
+
+      This project will employ the ATDS verified to extract the tongue features of patients with
+      upper gastrointestinal disorders. Through statistically analysis of the data collected and
+      cross-referencing the existing indices of western medicine, we aim to derive meaningful TCM
+      indices from tongue diagnosis of upper gastrointestinal diseases, such as peptic ulcer, etc.
+      A TCM indices derived through the non-intrusive tongue diagnosis procedure can provide
+      valuable information for clinical doctors to analyze the current status of a patient and
+      dynamically schedule a treatment plan, facilitating early detection and diagnosis of upper
+      gastrointestinal disorders.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2016</start_date>
+  <completion_date type="Anticipated">December 31, 2017</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Tongue features</measure>
+    <time_frame>5-10 mins</time_frame>
+    <description>diagnosed by the Automatic Tongue Diagnosis System (ATDS)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Panendoscopy report</measure>
+    <time_frame>20-30 mins</time_frame>
+    <description>diagnosed upper GI disorders by panendoscopy</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Upper Gastrointestinal Disorders</condition>
+  <arm_group>
+    <arm_group_label>peptic ulcer</arm_group_label>
+    <description>patients who had upper GI symptoms and diagnosed as peptic ulcer by panendoscopy, followed tongue images by Automatic Tongue Diagnosis System</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>healthy</arm_group_label>
+    <description>patients who had no past history or systemic disease, diagnosed as UGI negative finding by panendoscopy, followed tongue images by Automatic Tongue Diagnosis System</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>panendoscopy</intervention_name>
+    <description>panendoscopy</description>
+    <arm_group_label>peptic ulcer</arm_group_label>
+    <arm_group_label>healthy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>tongue image</intervention_name>
+    <description>capture tongue images by Automatic Tongue Diagnosis System</description>
+    <arm_group_label>peptic ulcer</arm_group_label>
+    <arm_group_label>healthy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with upper gastrointestinal disorders
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients with upper gastrointestinal disorders
+
+          -  Both males and females above 20 years old were included
+
+          -  Patients who had signed Institutional Review Board (IRB) agreement
+
+        Exclusion Criteria:
+
+          -  Patients who had not signed IRB agreement
+
+          -  Patients who had hypertension, diabetes, hepatitis, or other systemic diseases
+
+          -  Pregnant women
+
+          -  Patient with acute infection
+
+          -  Cognitive impaired, for example, cancer metastasis to brain or dementia
+
+          -  Risk of temporomandibular joint dislocation
+
+          -  Patients unable to protrude the tongue stably
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>yu-chiang hung, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Chang Gung Memorial Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>yu-chiang hung, Ph.D.</last_name>
+    <phone>+88677317123</phone>
+    <phone_ext>2334</phone_ext>
+    <email>hungyuchiang@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>tzu-chan wu, Dr.</last_name>
+    <phone>+886975056784</phone>
+    <email>tzuchanwu@gmail.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Kaohsiung Chang Gung Memorial Hospital</name>
+      <address>
+        <city>Kaohsiung</city>
+        <zip>833</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>yu-chiang Hung, PhD</last_name>
+      <phone>+886-77317123</phone>
+      <phone_ext>2334</phone_ext>
+      <email>hungyuchiang@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <reference>
+    <citation>Lo LC, Cheng TL, Chiang JY, Damdinsuren N. Breast cancer index: a perspective on tongue diagnosis in traditional chinese medicine. J Tradit Complement Med. 2013 Jul;3(3):194-203. doi: 10.4103/2225-4110.114901.</citation>
+    <PMID>24716178</PMID>
+  </reference>
+  <reference>
+    <citation>Lo LC, Chiang JY, Cheng TL, Shieh PS. Visual agreement analyses of traditional chinese medicine: a multiple-dimensional scaling approach. Evid Based Complement Alternat Med. 2012;2012:516473. Epub 2012 Sep 17.</citation>
+    <PMID>23024693</PMID>
+  </reference>
+  <reference>
+    <citation>Kim J, Son J, Jang S, Nam DH, Han G, Yeo I, Ko SJ, Park JW, Ryu B, Kim J. Availability of tongue diagnosis system for assessing tongue coating thickness in patients with functional dyspepsia. Evid Based Complement Alternat Med. 2013;2013:348272. doi: 10.1155/2013/348272. Epub 2013 Sep 15.</citation>
+    <PMID>24159343</PMID>
+  </reference>
+  <reference>
+    <citation>Chiu CC. A novel approach based on computerized image analysis for traditional Chinese medical diagnosis of the tongue. Comput Methods Programs Biomed. 2000 Feb;61(2):77-89.</citation>
+    <PMID>10661393</PMID>
+  </reference>
+  <reference>
+    <citation>Lee TC, Lo LC, Wu FC. Traditional Chinese Medicine for Metabolic Syndrome via TCM Pattern Differentiation: Tongue Diagnosis for Predictor. Evid Based Complement Alternat Med. 2016;2016:1971295. doi: 10.1155/2016/1971295. Epub 2016 May 25.</citation>
+    <PMID>27313640</PMID>
+  </reference>
+  <reference>
+    <citation>Kim J, Han G, Ko SJ, Nam DH, Park JW, Ryu B, Kim J. Tongue diagnosis system for quantitative assessment of tongue coating in patients with functional dyspepsia: a clinical trial. J Ethnopharmacol. 2014 Aug 8;155(1):709-13. doi: 10.1016/j.jep.2014.06.010. Epub 2014 Jun 13.</citation>
+    <PMID>24933221</PMID>
+  </reference>
+  <reference>
+    <citation>Lo LC, Chen CY, Chiang JY, Cheng TL, Lin HJ, Chang HH. Tongue diagnosis of traditional Chinese medicine for rheumatoid arthritis. Afr J Tradit Complement Altern Med. 2013 Aug 12;10(5):360-9. eCollection 2013.</citation>
+    <PMID>24311851</PMID>
+  </reference>
+  <reference>
+    <citation>Lo LC, Chen YF, Chen WJ, Cheng TL, Chiang JY. The Study on the Agreement between Automatic Tongue Diagnosis System and Traditional Chinese Medicine Practitioners. Evid Based Complement Alternat Med. 2012;2012:505063. doi: 10.1155/2012/505063. Epub 2012 Aug 8.</citation>
+    <PMID>22924055</PMID>
+  </reference>
+  <reference>
+    <citation>Hu J, Han S, Chen Y, Ji Z. Variations of Tongue Coating Microbiota in Patients with Gastric Cancer. Biomed Res Int. 2015;2015:173729. doi: 10.1155/2015/173729. Epub 2015 Sep 17.</citation>
+    <PMID>26457297</PMID>
+  </reference>
+  <reference>
+    <citation>Jung CJ, Jeon YJ, Kim JY, Kim KH. Review on the current trends in tongue diagnosis systems. Integr Med Res. 2012 Dec;1(1):13-20. doi: 10.1016/j.imr.2012.09.001. Epub 2012 Oct 5. Review.</citation>
+    <PMID>28664042</PMID>
+  </reference>
+  <verification_date>August 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 17, 2017</study_first_submitted>
+  <study_first_submitted_qc>August 21, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 23, 2017</study_first_posted>
+  <last_update_submitted>August 21, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 21, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 23, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Chang Gung Memorial Hospital</investigator_affiliation>
+    <investigator_full_name>hung yu chiang</investigator_full_name>
+    <investigator_title>Director of Chinese Medicine department</investigator_title>
+  </responsible_party>
+  <keyword>Upper gastrointestinal disorders</keyword>
+  <keyword>Automatic tongue diagnosis system</keyword>
+  <keyword>Panendoscopy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Disease</mesh_term>
+    <mesh_term>Digestive System Diseases</mesh_term>
+    <mesh_term>Gastrointestinal Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

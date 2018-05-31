@@ -1,0 +1,1053 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02298361</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PCORI Award (308)</org_study_id>
+    <nct_id>NCT02298361</nct_id>
+  </id_info>
+  <brief_title>IMPACCT for Kids' Care</brief_title>
+  <acronym>IMPACCT</acronym>
+  <official_title>Innovative Methods for Parents And Clinics to Create Tools (IMPACCT) for Kids' Care</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ochin, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Oregon Health and Science University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Ochin, Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Health insurance is important for children. Public insurance programs are available to many
+      children, but some families report being confused about how to get and keep this insurance.
+      Community Health Centers (CHCs) can help families get and keep health insurance for their
+      children.
+
+      The investigators will work with families, policy makers, and community health care providers
+      and staff to develop and test new computer health information technology (IT) tools to help
+      health care clinics find pediatric patients in need of insurance and communicate with their
+      families about public insurance programs. These tools will be based on technologies currently
+      used to help patients and clinics manage chronic diseases. The investigators will test the
+      tools by comparing four clinics using the tools and four clinics not using the tools. The
+      investigators will look to see if children in the clinics using the tools are more likely to
+      have health insurance and also more likely to receive certain health care services, compared
+      to children in the clinics without such tools. The investigators will also look at health
+      insurance rates and health care services for a larger population of Oregon children.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Summary of protocol changes made:
+
+        1. Changes to eligibility criteria. We changed patient eligibility to include all pediatric
+           patients through age 19 with &gt;=1 clinical visit in the study period. These decisions
+           were based on: 1) at age 20, individuals are no longer eligible for children's Medicaid
+           or CHIP in Oregon; 2) identification of PCP assignment was difficult in the EHR.
+
+        2. Added second comparison group/study arm. In the intervention clinics, the tools were
+           used on a smaller number of pediatric patients than anticipated, and there were
+           significant demographic differences between intervention and control site patients,
+           despite the clinics being matched. Thus we added a second comparison group,
+           &quot;within-clinic comparison patients&quot; as pediatric patients with &gt;=1 visit at an
+           intervention clinic in the study period but on whom the tools were NOT used. This
+           provided a comparison group that accounted for clinic-level effects and was more
+           demographically similar to the &quot;intervention patients&quot; on whom tools were used.
+
+        3. Revision of Aim 3 - CHIPRA recommended care assessment. We did not pursue assessment of
+           CHIPRA quality care measures due to 1) limited follow-up time due to the need to
+           implement iterative modifications to the study HIT tools, and 2) the tools were used on
+           a smaller set of pediatric patients than anticipated, thus we had a very limited
+           denominator for these analyses.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2013</start_date>
+  <completion_date type="Actual">February 2016</completion_date>
+  <primary_completion_date type="Actual">February 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percent of Study Period Covered by Medicaid</measure>
+    <time_frame>6 months pre- through 16 months post-tool implementation</time_frame>
+    <description>Percent of total days in 22-month assessment period that each child was covered by Medicaid insurance. Assessed using state administrative records linked to EHR data; this outcome was assessed among the subset of participants with a Medicaid ID (and thus could be linked between the two data sources).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Proportion of Patients Who Gained Medicaid Coverage</measure>
+    <time_frame>6 months pre- through 16 months post-tool implementation</time_frame>
+    <description>Proportion of participants who gained Medicaid coverage after a period of uninsurance. Assessed using state administrative records linked to EHR data; this outcome was assessed among the subset of participants with a Medicaid ID (and thus could be linked between the two data sources) and who had partial coverage during the study period (i.e., patients with 100% coverage were not 'eligible' to gain coverage).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Proportion of Patients Who Lost Medicaid Coverage</measure>
+    <time_frame>6 months pre- through 16 months post-tool implementation</time_frame>
+    <description>Proportion of participants who lost Medicaid coverage after a period of insurance. Assessed using state administrative records linked to EHR data; this outcome was assessed among the subset of participants with a Medicaid ID (and thus could be linked between the two data sources) and who had partial coverage during the study period (i.e., patients with 100% coverage were not 'eligible' to lose coverage).</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Actual">27251</enrollment>
+  <condition>Insurance Status/Stability</condition>
+  <arm_group>
+    <arm_group_label>Intervention patients</arm_group_label>
+    <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were used</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Within-clinic comparison patients</arm_group_label>
+    <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were not used</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control clinic comparison patients</arm_group_label>
+    <description>Matched Community Health Centers that did not implement health insurance outreach IT tools: active patients</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Health insurance outreach IT tools</intervention_name>
+    <description>IT tools that support Community Health Centers in children's health insurance outreach efforts (&quot;insurance outreach IT tools&quot;), adapted from tools proven to support chronic disease management.</description>
+    <arm_group_label>Intervention patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        For the analysis of the primary study outcome, our study population will include all
+        children who are &quot;established&quot; patients at an intervention or control clinic. Children will
+        be considered &quot;established&quot; patients if they had &gt;=1 clinical visit at a study clinic
+        during the 18-month study period.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  age 0-19
+
+          -  established patient (&gt;=1 clinical visit at a study clinic in the assessment period)
+
+        Exclusion Criteria:
+
+          -  age &gt; 19
+
+          -  not an established patient
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>19 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jennifer DeVoe, MD, DPhil</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>OCHIN, OHSU</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Christine Nelson, RN, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Ochin, Inc.</affiliation>
+  </overall_official>
+  <reference>
+    <citation>Devoe JE. Being uninsured is bad for your health: can medical homes play a role in treating the uninsurance ailment? Ann Fam Med. 2013 Sep-Oct;11(5):473-6. doi: 10.1370/afm.1541.</citation>
+    <PMID>24019280</PMID>
+  </reference>
+  <reference>
+    <citation>Angier H, Gold R, Crawford C, P O'Malley J, J Tillotson C, Marino M, DeVoe JE. Linkage methods for connecting children with parents in electronic health record and state public health insurance data. Matern Child Health J. 2014 Nov;18(9):2025-33. doi: 10.1007/s10995-014-1453-8.</citation>
+    <PMID>24562505</PMID>
+  </reference>
+  <reference>
+    <citation>DeVoe J, Angier H, Likumahuwa S, Hall J, Nelson C, Dickerson K, Keller S, Burdick T, Cohen D. Use of qualitative methods and user-centered design to develop customized health information technology tools within federally qualified health centers to keep children insured. J Ambul Care Manage. 2014 Apr-Jun;37(2):148-54. doi: 10.1097/JAC.0000000000000016.</citation>
+    <PMID>24594562</PMID>
+  </reference>
+  <reference>
+    <citation>DeVoe JE, Tillotson CJ, Angier H, Wallace LS. Predictors of children's health insurance coverage discontinuity in 1998 versus 2009: parental coverage continuity plays a major role. Matern Child Health J. 2015 Apr;19(4):889-96. doi: 10.1007/s10995-014-1590-0.</citation>
+    <PMID>25070735</PMID>
+  </reference>
+  <reference>
+    <citation>Hatch B, Angier H, Marino M, Heintzman J, Nelson C, Gold R, Vakarcs T, Devoe J. Using electronic health records to conduct children's health insurance surveillance. Pediatrics. 2013 Dec;132(6):e1584-91. doi: 10.1542/peds.2013-1470. Epub 2013 Nov 18.</citation>
+    <PMID>24249814</PMID>
+  </reference>
+  <reference>
+    <citation>Angier H, Likumahuwa S, Finnegan S, Vakarcs T, Nelson C, Bazemore A, Carrozza M, DeVoe JE. Using geographic information systems (GIS) to identify communities in need of health insurance outreach: An OCHIN practice-based research network (PBRN) report. J Am Board Fam Med. 2014 Nov-Dec;27(6):804-10. doi: 10.3122/jabfm.2014.06.140029.</citation>
+    <PMID>25381078</PMID>
+  </reference>
+  <reference>
+    <citation>DeVoe JE, Angier H, Burdick T, Gold R. Health information technology: an untapped resource to help keep patients insured. Ann Fam Med. 2014 Nov-Dec;12(6):568-72. doi: 10.1370/afm.1721.</citation>
+    <PMID>25384821</PMID>
+  </reference>
+  <reference>
+    <citation>Angier H, Hoopes M, Gold R, Bailey SR, Cottrell EK, Heintzman J, Marino M, DeVoe JE. An early look at rates of uninsured safety net clinic visits after the Affordable Care Act. Ann Fam Med. 2015 Jan-Feb;13(1):10-6. doi: 10.1370/afm.1741.</citation>
+    <PMID>25583886</PMID>
+  </reference>
+  <reference>
+    <citation>Heintzman J, Marino M, Hoopes M, Bailey SR, Gold R, O'Malley J, Angier H, Nelson C, Cottrell E, Devoe J. Supporting health insurance expansion: do electronic health records have valid insurance verification and enrollment data? J Am Med Inform Assoc. 2015 Jul;22(4):909-13. doi: 10.1093/jamia/ocv033. Epub 2015 Apr 17.</citation>
+    <PMID>25888586</PMID>
+  </reference>
+  <reference>
+    <citation>DeVoe JE, Crawford C, Angier H, O'Malley J, Gallia C, Marino M, Gold R. The Association Between Medicaid Coverage for Children and Parents Persists: 2002-2010. Matern Child Health J. 2015 Aug;19(8):1766-74. doi: 10.1007/s10995-015-1690-5.</citation>
+    <PMID>25874876</PMID>
+  </reference>
+  <reference>
+    <citation>Gold R, Burdick T, Angier H, Wallace L, Nelson C, Likumahuwa-Ackman S, Sumic A, DeVoe JE. Improve Synergy Between Health Information Exchange and Electronic Health Records to Increase Rates of Continuously Insured Patients. EGEMS (Wash DC). 2015 Aug 6;3(1):1158. doi: 10.13063/2327-9214.1158. eCollection 2015.</citation>
+    <PMID>26355818</PMID>
+  </reference>
+  <reference>
+    <citation>DeVoe JE, Tillotson CJ, Marino M, O'Malley J, Angier H, Wallace LS, Gold R. Trends in Type of Health Insurance Coverage for US Children and Their Parents, 1998-2011. Acad Pediatr. 2016 Mar;16(2):192-9. doi: 10.1016/j.acap.2015.06.009. Epub 2015 Aug 18.</citation>
+    <PMID>26297668</PMID>
+  </reference>
+  <reference>
+    <citation>Angier H, Marino M, Sumic A, O'Malley J, Likumahuwa-Ackman S, Hoopes M, Nelson C, Gold R, Cohen D, Dickerson K, DeVoe JE. Innovative methods for parents and clinics to create tools for kids' care (IMPACCT Kids' Care) study protocol. Contemp Clin Trials. 2015 Sep;44:159-163. doi: 10.1016/j.cct.2015.08.010. Epub 2015 Aug 18.</citation>
+    <PMID>26291916</PMID>
+  </reference>
+  <reference>
+    <citation>Arkind J, Likumahuwa-Ackman S, Warren N, Dickerson K, Robbins L, Norman K, DeVoe JE. Lessons Learned from Developing a Patient Engagement Panel: An OCHIN Report. J Am Board Fam Med. 2015 Sep-Oct;28(5):632-8. doi: 10.3122/jabfm.2015.05.150009. Review.</citation>
+    <PMID>26355135</PMID>
+  </reference>
+  <reference>
+    <citation>Likumahuwa-Ackman S, Angier H, Sumic A, Harding RL, Cottrell EK, Cohen DJ, Nelson CA, Burdick TE, Wallace LS, Gallia C, DeVoe JE. IMPACCT Kids' Care: a real-world example of stakeholder involvement in comparative effectiveness research. J Comp Eff Res. 2015 Aug;4(4):351-7. doi: 10.2217/cer.15.24.</citation>
+    <PMID>26274796</PMID>
+  </reference>
+  <reference>
+    <citation>Hoopes MJ, Angier H, Gold R, Bailey SR, Huguet N, Marino M, DeVoe JE. Utilization of Community Health Centers in Medicaid Expansion and Nonexpansion States, 2013-2014. J Ambul Care Manage. 2016 Oct-Dec;39(4):290-8. doi: 10.1097/JAC.0000000000000123.</citation>
+    <PMID>26765808</PMID>
+  </reference>
+  <reference>
+    <citation>Hatch B, Tillotson C, Angier H, Marino M, Hoopes M, Huguet N, DeVoe J. Using the electronic health record for assessment of health insurance in community health centers. J Am Med Inform Assoc. 2016 Sep;23(5):984-90. doi: 10.1093/jamia/ocv179. Epub 2016 Jan 23.</citation>
+    <PMID>26911812</PMID>
+  </reference>
+  <verification_date>April 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 5, 2014</study_first_submitted>
+  <study_first_submitted_qc>November 20, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 21, 2014</study_first_posted>
+  <results_first_submitted>April 26, 2016</results_first_submitted>
+  <results_first_submitted_qc>April 26, 2016</results_first_submitted_qc>
+  <results_first_posted type="Estimate">June 2, 2016</results_first_posted>
+  <last_update_submitted>April 26, 2016</last_update_submitted>
+  <last_update_submitted_qc>April 26, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">June 2, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Adolescent</keyword>
+  <keyword>Child</keyword>
+  <keyword>Child Health Services/organization &amp; administration*</keyword>
+  <keyword>Child, Preschool</keyword>
+  <keyword>Cohort Studies</keyword>
+  <keyword>Community Health Centers/organization &amp; administration</keyword>
+  <keyword>Community Health Centers/standards</keyword>
+  <keyword>Electronic Health Records</keyword>
+  <keyword>Feasibility Studies</keyword>
+  <keyword>Female</keyword>
+  <keyword>Health Services Accessibility/economics</keyword>
+  <keyword>Humans</keyword>
+  <keyword>Infant</keyword>
+  <keyword>Infant, Newborn</keyword>
+  <keyword>Insurance Coverage</keyword>
+  <keyword>Insurance Coverage/statistics &amp; numerical data</keyword>
+  <keyword>Insurance Coverage/trends</keyword>
+  <keyword>Insurance, Health</keyword>
+  <keyword>Insurance, Health/legislation &amp; jurisprudence</keyword>
+  <keyword>Insurance, Health/statistics &amp; numerical data</keyword>
+  <keyword>Insurance, Health/trends</keyword>
+  <keyword>Logistic Models</keyword>
+  <keyword>Longitudinal Studies</keyword>
+  <keyword>Male</keyword>
+  <keyword>Medicaid</keyword>
+  <keyword>Medicaid/statistics &amp; numerical data</keyword>
+  <keyword>Medicaid/trends</keyword>
+  <keyword>Medicaid/utilization</keyword>
+  <keyword>Medically Uninsured</keyword>
+  <keyword>Medicare/statistics &amp; numerical data</keyword>
+  <keyword>Medicare/trends</keyword>
+  <keyword>Medicare/utilization</keyword>
+  <keyword>Multivariate Analysis</keyword>
+  <keyword>Oregon</keyword>
+  <keyword>Patient Protection and Affordable Care Act</keyword>
+  <keyword>Patient-Centered Care</keyword>
+  <keyword>Pediatrics/legislation &amp; jurisprudence</keyword>
+  <keyword>Pediatrics/standards</keyword>
+  <keyword>Population Surveillance/methods</keyword>
+  <keyword>Primary Health Care/economics</keyword>
+  <keyword>Quality Assurance, Health Care/legislation &amp; jurisprudence</keyword>
+  <keyword>Quality Assurance, Health Care/methods</keyword>
+  <keyword>Quality Indicators, Health Care</keyword>
+  <keyword>Retrospective Studies</keyword>
+  <keyword>Socioeconomic Factors</keyword>
+  <keyword>United States</keyword>
+  <keyword>Young Adult</keyword>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Intervention Patients</title>
+          <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were used</description>
+        </group>
+        <group group_id="P2">
+          <title>Within-clinic Comparison Patients</title>
+          <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were not used</description>
+        </group>
+        <group group_id="P3">
+          <title>Control Clinic Comparison Patients</title>
+          <description>Matched Community Health Centers that did not implement health insurance outreach IT tools: active patients</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="2240"/>
+                <participants group_id="P2" count="12784"/>
+                <participants group_id="P3" count="12227"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="2240"/>
+                <participants group_id="P2" count="12784"/>
+                <participants group_id="P3" count="12227"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Intervention Patients</title>
+          <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were used</description>
+        </group>
+        <group group_id="B2">
+          <title>Within-clinic Comparison Patients</title>
+          <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were not used</description>
+        </group>
+        <group group_id="B3">
+          <title>Control Clinic Comparison Patients</title>
+          <description>Matched Community Health Centers that did not implement health insurance outreach IT tools: active patients</description>
+        </group>
+        <group group_id="B4">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="2240"/>
+            <count group_id="B2" value="12784"/>
+            <count group_id="B3" value="12227"/>
+            <count group_id="B4" value="27251"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2170"/>
+                    <measurement group_id="B2" value="12306"/>
+                    <measurement group_id="B3" value="11783"/>
+                    <measurement group_id="B4" value="26259"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="70"/>
+                    <measurement group_id="B2" value="478"/>
+                    <measurement group_id="B3" value="444"/>
+                    <measurement group_id="B4" value="992"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9.3" spread="5.4"/>
+                    <measurement group_id="B2" value="8.6" spread="5.9"/>
+                    <measurement group_id="B3" value="8.2" spread="5.9"/>
+                    <measurement group_id="B4" value="8.5" spread="5.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1119"/>
+                    <measurement group_id="B2" value="6524"/>
+                    <measurement group_id="B3" value="6128"/>
+                    <measurement group_id="B4" value="13771"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1121"/>
+                    <measurement group_id="B2" value="6260"/>
+                    <measurement group_id="B3" value="6099"/>
+                    <measurement group_id="B4" value="13480"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Hispanic or Latino</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2128"/>
+                    <measurement group_id="B2" value="8270"/>
+                    <measurement group_id="B3" value="7266"/>
+                    <measurement group_id="B4" value="17664"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Not Hispanic or Latino</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="103"/>
+                    <measurement group_id="B2" value="4031"/>
+                    <measurement group_id="B3" value="4831"/>
+                    <measurement group_id="B4" value="8965"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unknown or Not Reported</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                    <measurement group_id="B2" value="483"/>
+                    <measurement group_id="B3" value="130"/>
+                    <measurement group_id="B4" value="622"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>American Indian or Alaska Native</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="26"/>
+                    <measurement group_id="B3" value="166"/>
+                    <measurement group_id="B4" value="194"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Asian</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                    <measurement group_id="B2" value="198"/>
+                    <measurement group_id="B3" value="297"/>
+                    <measurement group_id="B4" value="503"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Native Hawaiian or Other Pacific Islander</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="30"/>
+                    <measurement group_id="B3" value="128"/>
+                    <measurement group_id="B4" value="161"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Black or African American</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="17"/>
+                    <measurement group_id="B2" value="407"/>
+                    <measurement group_id="B3" value="1345"/>
+                    <measurement group_id="B4" value="1769"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>White</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1996"/>
+                    <measurement group_id="B2" value="10758"/>
+                    <measurement group_id="B3" value="8462"/>
+                    <measurement group_id="B4" value="21216"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>More than one race</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="26"/>
+                    <measurement group_id="B3" value="260"/>
+                    <measurement group_id="B4" value="287"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unknown or Not Reported</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="213"/>
+                    <measurement group_id="B2" value="1339"/>
+                    <measurement group_id="B3" value="1569"/>
+                    <measurement group_id="B4" value="3121"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Primary language</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Spanish</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1976"/>
+                    <measurement group_id="B2" value="6490"/>
+                    <measurement group_id="B3" value="5803"/>
+                    <measurement group_id="B4" value="14269"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>English</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="241"/>
+                    <measurement group_id="B2" value="5629"/>
+                    <measurement group_id="B3" value="5103"/>
+                    <measurement group_id="B4" value="10973"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Other</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="22"/>
+                    <measurement group_id="B2" value="622"/>
+                    <measurement group_id="B3" value="1125"/>
+                    <measurement group_id="B4" value="1769"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unknown</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="43"/>
+                    <measurement group_id="B3" value="196"/>
+                    <measurement group_id="B4" value="240"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Household income as percent of Federal Poverty Level</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=138% FPL</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2083"/>
+                    <measurement group_id="B2" value="11253"/>
+                    <measurement group_id="B3" value="9998"/>
+                    <measurement group_id="B4" value="23334"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>139-199% FPL</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="114"/>
+                    <measurement group_id="B2" value="734"/>
+                    <measurement group_id="B3" value="918"/>
+                    <measurement group_id="B4" value="1766"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=200% FPL</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="29"/>
+                    <measurement group_id="B2" value="283"/>
+                    <measurement group_id="B3" value="1204"/>
+                    <measurement group_id="B4" value="1516"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unknown</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                    <measurement group_id="B2" value="514"/>
+                    <measurement group_id="B3" value="107"/>
+                    <measurement group_id="B4" value="635"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Percent of Study Period Covered by Medicaid</title>
+        <description>Percent of total days in 22-month assessment period that each child was covered by Medicaid insurance. Assessed using state administrative records linked to EHR data; this outcome was assessed among the subset of participants with a Medicaid ID (and thus could be linked between the two data sources).</description>
+        <time_frame>6 months pre- through 16 months post-tool implementation</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Intervention Patients</title>
+            <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were used</description>
+          </group>
+          <group group_id="O2">
+            <title>Within-clinic Comparison Patients</title>
+            <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were not used</description>
+          </group>
+          <group group_id="O3">
+            <title>Control Clinic Comparison Patients</title>
+            <description>Matched Community Health Centers that did not implement health insurance outreach IT tools: active patients</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percent of Study Period Covered by Medicaid</title>
+          <description>Percent of total days in 22-month assessment period that each child was covered by Medicaid insurance. Assessed using state administrative records linked to EHR data; this outcome was assessed among the subset of participants with a Medicaid ID (and thus could be linked between the two data sources).</description>
+          <units>participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="2080"/>
+                <count group_id="O2" value="11534"/>
+                <count group_id="O3" value="11729"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>0% covered</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="30"/>
+                    <measurement group_id="O2" value="451"/>
+                    <measurement group_id="O3" value="297"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1-49% covered</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="113"/>
+                    <measurement group_id="O2" value="1062"/>
+                    <measurement group_id="O3" value="933"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>50-99% covered</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="648"/>
+                    <measurement group_id="O2" value="3198"/>
+                    <measurement group_id="O3" value="3386"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>100% covered</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1289"/>
+                    <measurement group_id="O2" value="6823"/>
+                    <measurement group_id="O3" value="7113"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Proportion of Patients Who Gained Medicaid Coverage</title>
+        <description>Proportion of participants who gained Medicaid coverage after a period of uninsurance. Assessed using state administrative records linked to EHR data; this outcome was assessed among the subset of participants with a Medicaid ID (and thus could be linked between the two data sources) and who had partial coverage during the study period (i.e., patients with 100% coverage were not 'eligible' to gain coverage).</description>
+        <time_frame>6 months pre- through 16 months post-tool implementation</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Intervention Patients</title>
+            <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were used</description>
+          </group>
+          <group group_id="O2">
+            <title>Within-clinic Comparison Patients</title>
+            <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were not used</description>
+          </group>
+          <group group_id="O3">
+            <title>Control Clinic Comparison Patients</title>
+            <description>Matched Community Health Centers that did not implement health insurance outreach IT tools: active patients</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Proportion of Patients Who Gained Medicaid Coverage</title>
+          <description>Proportion of participants who gained Medicaid coverage after a period of uninsurance. Assessed using state administrative records linked to EHR data; this outcome was assessed among the subset of participants with a Medicaid ID (and thus could be linked between the two data sources) and who had partial coverage during the study period (i.e., patients with 100% coverage were not 'eligible' to gain coverage).</description>
+          <units>participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="761"/>
+                <count group_id="O2" value="4260"/>
+                <count group_id="O3" value="4319"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="444"/>
+                    <measurement group_id="O2" value="2611"/>
+                    <measurement group_id="O3" value="2426"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>1.76</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>1.60</ci_lower_limit>
+            <ci_upper_limit>1.93</ci_upper_limit>
+            <estimate_desc>Adjusted odds of gaining Medicaid: intervention patients (numerator) relative to within-clinic comparison patients (denominator)</estimate_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>2.28</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>1.91</ci_lower_limit>
+            <ci_upper_limit>2.72</ci_upper_limit>
+            <estimate_desc>Adjusted odds of gaining Medicaid: intervention patients (numerator) relative to control clinic comparison patients (denominator)</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Proportion of Patients Who Lost Medicaid Coverage</title>
+        <description>Proportion of participants who lost Medicaid coverage after a period of insurance. Assessed using state administrative records linked to EHR data; this outcome was assessed among the subset of participants with a Medicaid ID (and thus could be linked between the two data sources) and who had partial coverage during the study period (i.e., patients with 100% coverage were not 'eligible' to lose coverage).</description>
+        <time_frame>6 months pre- through 16 months post-tool implementation</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Intervention Patients</title>
+            <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were used</description>
+          </group>
+          <group group_id="O2">
+            <title>Within-clinic Comparison Patients</title>
+            <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were not used</description>
+          </group>
+          <group group_id="O3">
+            <title>Control Clinic Comparison Patients</title>
+            <description>Matched Community Health Centers that did not implement health insurance outreach IT tools: active patients</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Proportion of Patients Who Lost Medicaid Coverage</title>
+          <description>Proportion of participants who lost Medicaid coverage after a period of insurance. Assessed using state administrative records linked to EHR data; this outcome was assessed among the subset of participants with a Medicaid ID (and thus could be linked between the two data sources) and who had partial coverage during the study period (i.e., patients with 100% coverage were not 'eligible' to lose coverage).</description>
+          <units>participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="761"/>
+                <count group_id="O2" value="4260"/>
+                <count group_id="O3" value="4319"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="377"/>
+                    <measurement group_id="O2" value="1873"/>
+                    <measurement group_id="O3" value="2173"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.71</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.53</ci_lower_limit>
+            <ci_upper_limit>0.94</ci_upper_limit>
+            <estimate_desc>Adjusted odds of losing Medicaid: intervention patients (numerator) relative to within-clinic comparison patients (denominator)</estimate_desc>
+          </analysis>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O3</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority or Other</non_inferiority_type>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.55</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.45</ci_lower_limit>
+            <ci_upper_limit>0.67</ci_upper_limit>
+            <estimate_desc>Adjusted odds of losing Medicaid: intervention patients (numerator) relative to control clinic comparison patients (denominator)</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <desc>Adverse events not monitored; not applicable to the study.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Intervention Patients</title>
+          <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were used</description>
+        </group>
+        <group group_id="E2">
+          <title>Within-clinic Comparison Patients</title>
+          <description>Community Health Centers that implemented health insurance outreach IT tools: active patients on whom tools were not used</description>
+        </group>
+        <group group_id="E3">
+          <title>Control Clinic Comparison Patients</title>
+          <description>Matched Community Health Centers that did not implement health insurance outreach IT tools: active patients</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Jennifer E. DeVoe, MD, DPhil</name_or_title>
+      <organization>OCHIN, Inc.</organization>
+      <phone>503-943-2618</phone>
+      <email>devoej@ohsu.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

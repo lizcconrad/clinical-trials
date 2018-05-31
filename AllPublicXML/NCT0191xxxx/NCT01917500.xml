@@ -1,0 +1,177 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01917500</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HeartBeat_V1.0</org_study_id>
+    <nct_id>NCT01917500</nct_id>
+  </id_info>
+  <brief_title>Feasibility Study of Non-invasive and Continuous Measurement of Blood Pressure and Cardiac Output: Comparison to Non-invasive and Non-continuous Measurements</brief_title>
+  <official_title>Feasibility Study of Non-invasive and Continuous Measurement of Blood Pressure and Cardiac Output: Comparison to Non-invasive and Non-continuous Measurements</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Rambam Health Care Campus</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Rambam Health Care Campus</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objectives of this clinical trial is to validate a S/W application to compare the
+      calculations of Hemodynamic parameters like Continuous blood pressure (BP) and Continuous
+      cardiac output (CO). This Hemodynamic parameters are computed from Pulse Oximeter
+      (PhotoPlethysmograph or PPG) signal with results obtained by NIBP intermittent measurements
+      and Echocardiography. The first phase of the study will be done on 10 patients of the
+      Cardiology dept.- Cardiac ICU, that have routine measurements of BP and CO using
+      Echocardiography.
+
+      The HeartBeat system combines an FDA/CE approved watch-like Pulse Oximeter for acquiring the
+      data and a Smartphone S/W application that serves as the Hemodynamic calculator. The S/W
+      application performs POST-PROCESSING of the PhotoPlethismoGraphic (PPG) signal (Normally the
+      PPG signal in Pulse Oximeters is used only to compute heart rate and SpO2). The raw data is
+      transferred from the watch oximeter to the smartphone using a standard Bluetooth protocol.
+
+      The Post-processing uses wavelet signal processing to estimate and display certain
+      Hemodynamic parameters like (Blood Pressure) BP and CO in a continuous and graphical way on a
+      standard Android Smartphone. In addition to the standard heart rate and SpO2, the application
+      displays the measured PPG signal and estimated continues BP and CO.
+
+      HeartBeat is the only device that can non-invasively estimate Continuous BP and its Cardiac
+      Output component and the resistance component in a mobile wearable device. Differentiating
+      between these 2 components can play a major role in helping the doctor to understand the
+      effect of cardiovascular medications and Lifestyle interventions.
+    </textblock>
+  </brief_summary>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Not yet recruiting</last_known_status>
+  <start_date>August 2013</start_date>
+  <completion_date type="Anticipated">September 2013</completion_date>
+  <primary_completion_date type="Anticipated">September 2013</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Cardiac Output</measure>
+    <time_frame>1 month</time_frame>
+    <description>Patients in the cardiac department pass an echo-cardiograph procedure to measure their cardiac output. When it is done, we will attach our oximeter to the patient and using the application we will calculate Cardiac Output.
+We will compare between both measurements</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Blood Pressure</measure>
+    <time_frame>1 month</time_frame>
+    <description>Patients in the cardiac department have their blood pressure often measured . When it is done, we will attach our oximeter to the patient and using the application we will calculate our blood pressure.
+We will compare between both measurements</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">10</enrollment>
+  <condition>Heart or Vascular Disease</condition>
+  <arm_group>
+    <arm_group_label>Cardiac ward 10 patients</arm_group_label>
+    <description>10 patients from the cardiac ward.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The trial will be conducted on a group of patients in the cardiac ward at the Rambam
+        hospital. As long as they fall under the criteria, they will fit for the trial.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Male and females
+
+          -  Between the ages of 20-70 years old
+
+        Exclusion Criteria:
+
+          -  Over 70 years old
+
+          -  under 20 years old
+
+          -  Supportive blood pressure
+
+          -  Severe Sepsis
+
+          -  Ventilated patients
+
+          -  Supported by Amines
+
+          -  Patients in state of Shock
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Yair Feld, Dr</last_name>
+    <phone>+972 52 5459943</phone>
+    <email>yairfeld@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Michael Kasan</last_name>
+    <phone>+972 52 5410430</phone>
+    <email>michael.kasan@gmail.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Rambam Health Care Campus</name>
+      <address>
+        <city>Haifa</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Yair Feld, Dr</last_name>
+      <phone>+972-52-5459943</phone>
+      <email>yairfeld@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Yair Feld, Dr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>August 2013</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 1, 2013</study_first_submitted>
+  <study_first_submitted_qc>August 5, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 6, 2013</study_first_posted>
+  <last_update_submitted>August 5, 2013</last_update_submitted>
+  <last_update_submitted_qc>August 5, 2013</last_update_submitted_qc>
+  <last_update_posted type="Estimate">August 6, 2013</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Continues non-invasive Blood pressure measurement</keyword>
+  <keyword>Continues non-invasive Cardiac Output measurement</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Vascular Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

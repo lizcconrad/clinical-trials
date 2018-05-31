@@ -1,0 +1,216 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03414320</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BolusCalc</org_study_id>
+    <nct_id>NCT03414320</nct_id>
+  </id_info>
+  <brief_title>Proof of Concept - Identification of Patient-specific Parameters for Bolus Calculators for Type 1 Diabetes</brief_title>
+  <acronym>POC-IDENTITY-1</acronym>
+  <official_title>Proof of Concept Study for the Identification of Patient-specific Parameters for Bolus Calculators in Type 1 Diabetic Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Universitaire Ziekenhuizen Leuven</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Katholieke Universiteit Leuven</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Universitaire Ziekenhuizen Leuven</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The adoption of bolus calculators has been limited by the slow speed of the current trial and
+      error approach. The goal of this project is to automate the determination of patient specific
+      insulin pump parameters based on current automatic electronic logbooks of glucose
+      measurements, carbohydrate intake, and insulin usage, by means of a mathematical model. More
+      specifically, the investigators are interested in computing the carbohydrate to insulin ratio
+      (CIR) and insulin sensitivity factor (ISF), which are the main parameters of bolus
+      calculators.
+
+      The present study is a proof-of-concept, open label, single arm clinical trial to validate
+      the new method and refine both the mathematical model and the numerical techniques in
+      well-regulated and disciplined type 1 diabetic subject.
+
+      The study is a &quot;trial&quot; of the selected underlying mathematical model and the associated
+      algorithms to simulate the glucose values of a patient with uncertain meal-data.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      After signing informed consent and checking eligibility criteria participants will receive
+      uniform education related to self-monitoring of blood glucose and continuous glucose
+      monitoring (CGM) using the CGM sensor as well as on the bolus calculator (BC). The study will
+      take three weeks (or three sensors) per patient.
+
+      Patients should live a close to normal life and should participate in their normal daily
+      activities. During the study, patients must consequently keep using the BC of their insulin
+      pump, record in the insulin pump when they eat extra food outside their regular meals and
+      when they inject extra insulin without the use of their insulin pump. Faulty 'meal markers'
+      have to be noted in a booklet and patients will also have to take pictures of their plate for
+      each meal or record their meals in detail in a booklet. Patients should also consequently
+      shut off insulin delivery when they disconnect their insulin pump and write it down in a
+      booklet. The patients will be asked to wear an activity tracker (i.e. Fitbit), this data will
+      help in the refinement of the model and will be used for research later in the same project.
+
+      During the study, patients must skip a total of three meals: breakfast, lunch and dinner (not
+      on the same day, but within the three weeks). This gives the investigators a period of
+      measurements in which they know that there are no significant amounts of unpredictable
+      carbohydrates in the blood. Patients can give correction insulin or take extra fast
+      carbohydrates to correct the glycaemia when needed and record this in the insulin pump or in
+      a booklet. The fast rescue carbohydrates should be in the form of Dextro energy tablets
+      (provided by the study team).
+
+      After the three weeks, patients will come back to the hospital where the study team will
+      download data from the insulin pump, CGM sensor, and activity tracker. The booklet and
+      photographs of the meals will be handed over to the study team. This is the end of the study
+      for the patient. The collected patient data will further be used to assess the model fit of
+      the chosen mathematical model as in, i.e. the investigators evaluate how well the model is
+      able to reproduce the collected data.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">January 11, 2018</start_date>
+  <completion_date type="Anticipated">June 1, 2018</completion_date>
+  <primary_completion_date type="Anticipated">May 1, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>proof-of-concept, open label, single arm</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accepting mathematical model</measure>
+    <time_frame>three weeks</time_frame>
+    <description>The study only involves gathering of time series data (both from the insulin pump and the activity tracker).
+It does not study clinical parameters of subjects, nor will it change and assess treatment therapy.
+For each subject we will calibrate a virtual model based on a proposed mathematical model of the insulin-glucose interaction and measure the mean-square error (MSE).
+The primary outcome measure will be to accept or reject the mathematical model by calculating mean-squared error differences with the data.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Type1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Study Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>We will gather data from this group of patients.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Gathering data</intervention_name>
+    <description>Gathering data about sleep, heart rate, carbohydrate intake, insulin pump, continuous glucose sensor, meals.</description>
+    <arm_group_label>Study Arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Signed informed consent
+
+          -  Patient followed at the endocrinology department of UZ Leuven
+
+          -  Type 1 diabetes
+
+          -  Treated with subcutaneous insulin pump (CSII) for more than 12 weeks
+
+          -  Using a continuous glucose monitor (CGM) for more than 12 weeks
+
+          -  No known diabetic gastroparesis
+
+          -  C-peptide negative
+
+          -  HbA1c between 6-10%
+
+          -  Using, or willing to use, the bolus calculator
+
+        Exclusion Criteria:
+
+          -  Type 2 diabetes, patients with secondary diabetes
+
+          -  Patients treated with multiple daily insulin injections or begin of treatment with
+             CSII less than 12 weeks before inclusion
+
+          -  Known diabetic gastroparesis
+
+          -  C-peptide positive
+
+          -  HbA1c &lt; 6% or &gt; 10%
+
+          -  Not using or not willing to use the bolus calculator
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>UZ Leuven</name>
+      <address>
+        <city>Leuven</city>
+        <zip>3000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 12, 2018</study_first_submitted>
+  <study_first_submitted_qc>January 22, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 29, 2018</study_first_posted>
+  <last_update_submitted>January 22, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 22, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 29, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Universitaire Ziekenhuizen Leuven</investigator_affiliation>
+    <investigator_full_name>prof dr Pieter Gillard</investigator_full_name>
+    <investigator_title>Prof. dr.</investigator_title>
+  </responsible_party>
+  <keyword>type 1 diabetes</keyword>
+  <keyword>insulin pump</keyword>
+  <keyword>bolus calculator</keyword>
+  <keyword>continuous glucose monitoring</keyword>
+  <keyword>carbohydrate to insulin ratio</keyword>
+  <keyword>insulin sensitivity factor</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,206 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01161381</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EK1001</org_study_id>
+    <nct_id>NCT01161381</nct_id>
+  </id_info>
+  <brief_title>Evaluation Of Patients With Obstructive Sleep Apnea-Hypopnea Syndrome (OSAHS) Based on Nonlinear Analysis Of Respiratory Signals</brief_title>
+  <official_title>Evaluation Of Patients With Suspected Obstructive Sleep Apnea - Hypopnea Syndrome Using Two Models Based on Nonlinear Analysis Of Respiratory Signals</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Aristotle University Of Thessaloniki</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Greek State Scholarship Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Aristotle University Of Thessaloniki</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Objective: Obstructive Sleep Apnea-Hypopnea Syndrome (OSAHS) is a common sleep disorder
+      requiring the time and money consuming full polysomnography to be diagnosed. Alternative
+      methods for initial evaluation are sought. The investigators aim was the prediction of
+      Apnea-Hypopnea Index (AHI) in patients suspected to suffer from OSAHS using two models based
+      on nonlinear analysis of three biosignals during sleep.
+
+      Methods: One hundred patients referred to a Sleep Unit underwent full polysomnography. Three
+      nonlinear indices (Largest Lyapunov Exponent, Detrended Fluctuation Analysis and Approximate
+      Entropy) were extracted from three biosignals (airflow from a nasal cannula, thoracic
+      movement and Oxygen saturation) providing input to a data mining application for the creation
+      of predictive models for AHI.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients referred to the Sleep Unit of a tertiary hospital in northern Greece during the
+      years 2005-2008 and who accepted to sign the informed consent form were included in the
+      study. One out of every five consecutive patients was selected in order to ensure
+      randomization. The study protocol was approved by the ethics committee of the hospital. All
+      the subjects reported symptoms consistent with OSAHS and had no significant comorbidities.
+      The presence of dementia, neuromuscular disorders, overlap syndrome or severe cardiac
+      problems was an exclusion criterion for the participants. The subjects underwent full
+      overnight attended polysomnography (Somnologica 7000, Flaga; Iceland) according to standard
+      criteria including respiratory recordings of thoracic and abdominal movements, nasal flow by
+      pressure cannula, snoring, and arterial oxygen saturation using pulse oximetry. Apnea and
+      hypopnea were defined in accordance with standard used criteria. All the recordings were
+      manually scored by the same experienced medical doctor.
+
+      Three nonlinear indices (Largest Lyapunov Exponent-LLE, Detrended Fluctuation Analysis-DFA
+      and Approximate Entropy-APEN) were extracted from two respiratory signals (nasal cannula
+      flow-F and thoracic belt movement-T). The oxygen saturation signal (SpO2) from pulse oximetry
+      was also selected. The above signals had a mean duration of 317.5 minutes and were first
+      exported in European Data Format (EDF) to be further processed with the use of signal
+      processing software (Matlab by Mathworks Inc.) in personal computers. The LLE calculation
+      required the use of a command line application by Rosenstein et al as well as a spreadsheet
+      program (Microsoft Excel).
+
+      The basic statistical analysis was performed with the use of SPSS for Windows, Version 15.0
+      (SPSS Inc, Chicago, Illinois). Correlations between the studied or derived parameters were
+      explored with the Pearson's correlation test and differences in the mean observed values
+      between the various OSAHS severity groups were analyzed using the Student's t-test. The
+      statistical significance level was set at p&lt;0.05. The predictive model was created by
+      utilizing the linear regression tool.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2005</start_date>
+  <completion_date type="Actual">December 2009</completion_date>
+  <primary_completion_date type="Actual">December 2009</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>nonlinear dynamics of respiratory signals</measure>
+    <time_frame>One night</time_frame>
+    <description>calculation of nonlinear parameters (DFA, LLE, APEN) from recorded respiratory biosignals (nasal airflow, thoracic movement and SpO2) during sleep.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">100</enrollment>
+  <condition>Obstructive Sleep Apnea Syndrome (OSAS)</condition>
+  <arm_group>
+    <arm_group_label>Normal</arm_group_label>
+    <description>Subjects that underwent night polysomnography with an observed Apnea-Hypopnea Index (AHI) &lt; 5.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>OSAHS patients</arm_group_label>
+    <description>Subjects that underwent night polysomnography with an observed Apnea-Hypopnea Index (AHI) &gt; 5.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Estimation of nonlinear indices from Polysomnography</intervention_name>
+    <description>All subjects underwent full night polysomnography. Three nonlinear indices (Largest Lyapunov Exponent, Detrended Fluctuation Analysis and Approximate Entropy) were extracted from three biosignals (airflow from a nasal cannula, thoracic movement and Oxygen saturation) providing input to a data mining application for the creation of predictive models for AHI.</description>
+    <arm_group_label>Normal</arm_group_label>
+    <arm_group_label>OSAHS patients</arm_group_label>
+    <other_name>polysomnography device: Somnologica 7000, Flaga; Iceland</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients referred to the Sleep Unit of a tertiary hospital in northern Greece during the
+        years 2005-2008 and who accepted to sign the informed consent form were included in the
+        study. One out of every five consecutive patients was selected in order to ensure
+        randomization.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  symptoms compatible with OSAHS
+
+          -  voluntary participation
+
+        Exclusion Criteria:
+
+          -  presence of dementia
+
+          -  neuromuscular disorders
+
+          -  overlap syndrome
+
+          -  severe cardiac problems
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Evangelos K Kaimakamis, MD, MSc</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Aristotle University Of Thessaloniki</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Nikolaos Maglaveras, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Aristotle University Of Thessaloniki</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Sleep Unit of &quot;G. Papanikolaou&quot; General Hospital</name>
+      <address>
+        <city>Exochi</city>
+        <zip>GR57010</zip>
+        <country>Greece</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Greece</country>
+  </location_countries>
+  <results_reference>
+    <citation>Kaimakamis E, Bratsas C, Sichletidis L, Karvounis C, Maglaveras N. Screening of patients with Obstructive Sleep Apnea Syndrome using C4.5 algorithm based on non linear analysis of respiratory signals during sleep. Conf Proc IEEE Eng Med Biol Soc. 2009;2009:3465-9. doi: 10.1109/IEMBS.2009.5334605.</citation>
+    <PMID>19964987</PMID>
+  </results_reference>
+  <verification_date>December 2005</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 12, 2010</study_first_submitted>
+  <study_first_submitted_qc>July 12, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 13, 2010</study_first_posted>
+  <last_update_submitted>July 12, 2010</last_update_submitted>
+  <last_update_submitted_qc>July 12, 2010</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 13, 2010</last_update_posted>
+  <responsible_party>
+    <name_title>Lab of Medical Informatics</name_title>
+    <organization>Aristotle University of Thessaloniki</organization>
+  </responsible_party>
+  <keyword>OSAHS</keyword>
+  <keyword>nonlinear analysis</keyword>
+  <keyword>polysomnography</keyword>
+  <keyword>biosignal analysis</keyword>
+  <keyword>DFA</keyword>
+  <keyword>APEN</keyword>
+  <keyword>LLE</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Syndrome</mesh_term>
+    <mesh_term>Apnea</mesh_term>
+    <mesh_term>Sleep Apnea Syndromes</mesh_term>
+    <mesh_term>Sleep Apnea, Obstructive</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

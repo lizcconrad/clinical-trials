@@ -1,0 +1,252 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03487952</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NCLUNG</org_study_id>
+    <nct_id>NCT03487952</nct_id>
+  </id_info>
+  <brief_title>Evaluation of Lung Nodule Detection With Artificial Intelligence Assisted Computed Tomography in North China</brief_title>
+  <official_title>Evaluation of Lung Nodule and Lung Cancer Detection With Artificial Intelligence Assisted Computed Tomography Among People Living in North China: a Prospective Single-arm Multicentre Study of Screening</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University People's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Lu'an Municipal Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>North China Petroleum Bureau General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Peking University People's Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Lung cancer is one of the leading cause of cancer related death in China. Lung cancer
+      screening with low-dose computed tomography was considered as a better approach than
+      radiography. However, the role of Lung cancer screening with Low-dose CT (LDCT) among Chinese
+      people remains unclear. With rapid development of artificial intelligence (AI),the
+      application of AI in detection and diagnosis of diseases has become research focus. Moreover,
+      patients' psychological status also plays an important role in diagnosis and treatment.
+
+      This study focuses on detection and natural history management of lung nodule and lung cancer
+      with AI assisted chest CT among people living in North China, and aims to investigate
+      epidemiological results, patients' medical records and social psychological status.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Lu'an Municipal Hospital and North China Petroleum Bureau General Hospital initialed the lung
+      cancer screening by LDCT a few years ago. People living in North China who are administrated
+      by these hospitals routinely took a chest CT every year. This study is to the best of our
+      knowledge the first one designed to combine lung nodule and lung cancer screening with the
+      application of artificial intelligence in China.
+
+      Methods: Firstly, the study acquires epidemiological, medical information and psychological
+      status of people recruited, and investigates the data acquired from past several years of CT
+      scans using AI to develop a model for lung nodule detection. Secondly, evaluating the
+      performance of models and apply it to analyse the CT scans from the North China population
+      recruited. Thirdly, improving the model and adding function for lung nodule prediction of
+      natural history and probability of malignancy.
+
+      Aims: To depict the epidemiological results about the incidence of lung nodules and lung
+      cancer in North China population; To evaluate association between people 's epidemiological,
+      medical and psychological profiles and incidence, diagnosis and treatment of lung nodule; To
+      develop an artificial intelligence assisted lung nodule diagnosis and management software to
+      assist strategies of CT screening.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">April 2018</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Detection rate of lung nodule</measure>
+    <time_frame>3 months</time_frame>
+    <description>Study participants undergo baseline LDCT. Images are reviewed via AI software independently to identify lung nodules with diameters greater than 4mm. The software is developed by our computer technology collaborator. A radiologist then reviews the images, reports lung nodules with diameters greater than 4mm and any other abnormalities. The radiologist's findings will be conveyed to the study participants or their primary care physicians within 3 weeks. The process was conducted via double-blind method and detection rates of AI and radiologist will be recorded respectively. Unit of measurement: Percentage (number of participants with detected lung nodules over the total number of participants).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Profile of detected lung nodule</measure>
+    <time_frame>3 months</time_frame>
+    <description>All lung nodules detected will be classified as 4 classes by the density and composition of nodule: 1. pure ground-glass nodule (pGGN); 2. part-solid nodule; 3. solid nodule; 4. uncertain nodule. The number and proportion of each class and the diameter and location of each nodule will be recorded. Unit of measurement: Percentage (number of nodules in each class over the total number of nodules); Numerical value (average value±standard deviation of nodules in each class); Percentage (number of nodules in each lobe over the total number of nodules).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity in the detection of clinically actionable lung nodules</measure>
+    <time_frame>3 months</time_frame>
+    <description>AI assisted CT compared with conventional CT read via radiologist. Unit of measurement: Percentage (detected actionable lung nodules over the total number of actionable nodules).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Growth of lung nodule</measure>
+    <time_frame>3 years</time_frame>
+    <description>Study participants undergo baseline LDCT and subsequent yearly LDCT. Making use of these consecutive CT images, volume doubling time (VDT) for each lung nodule can be calculated via software and can be used to evaluate growth of nodule. cUnit of measurement: Numerical value (volume doubling time, VDT).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Anxiety and depression level</measure>
+    <time_frame>3 months</time_frame>
+    <description>Hospital Anxiety and Depression Scale (HADS) is included in our questionnaire and score of this scale will be recorded. Unit of measurement: Numerical value (score of scale).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Life quality and health status</measure>
+    <time_frame>3 months</time_frame>
+    <description>The MOS item short from health survey (SF-36) is included in our questionnaire and score of this scale will be recorded. Unit of measurement: Numerical value (score of scale).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Lung cancer detection rate</measure>
+    <time_frame>3 months</time_frame>
+    <description>Percentage (the number of detected lung nodules which was finally diagnosed as primary lung cancer over the total number of detected lung nodules)</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">5000</enrollment>
+  <condition>Solitary Pulmonary Nodule</condition>
+  <condition>Multiple Pulmonary Nodules</condition>
+  <arm_group>
+    <arm_group_label>LDCT screening group</arm_group_label>
+    <description>People receive questionnaire administration at baseline, then subsequent yearly chest LDCT scan and follow up.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Questionnaire Administration</intervention_name>
+    <description>Subjects will be asked to complete an additional detailed questionnaire regarding personal information, smoking history, medical history, their diet and lifestyle habits, family history of malignant neoplasm, any past or current environmental exposures and psychological status.</description>
+    <arm_group_label>LDCT screening group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        People aged over 40, routinely conducting chest LDCT scan yearly in designated hospital of
+        North China in at least the past 4 years up to December 2017, with acceptable physical
+        conditions are eligible.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Aged 40 years or older
+
+          -  Routinely conducting chest CT scan at a low-dose setting (120kVp, 40-80mA, slice
+             thickness of 1.25 mm or less) yearly in Lu'an Municipal Hospital and North China
+             Petroleum Bureau General Hospital in at least the past 4 years up to December 2017,
+             willing to continue routine yearly LDCT scan.
+
+          -  Chest CT data are available for DICOM format.
+
+          -  Signed Informed Consent Form.
+
+        Exclusion Criteria:
+
+          -  Pregnant woman and the disabled
+
+          -  Past thoracic surgery history, except for diagnostic thoracoscopy
+
+          -  Poor physical status without sufficient respiratory reserve to undergo lobectomy if
+             necessary
+
+          -  Shortened life expectancy less than 10 years
+
+          -  Malignant tumor history within the past 5 years, except for the following conditions:
+             cured skin basal cell carcinoma, superficial bladder carcinoma. and uterine cervix
+             cancer in situ.
+
+          -  Past history of interstitial lung disease, pulmonary bulla and lung tuberculosis.
+
+          -  Other circumstances which is deemed inappropriate for enrollment by the researchers.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jun J Wang, MM</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Peking University People's Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jun J Wang, MM</last_name>
+    <phone>+8601088326650</phone>
+    <email>xiongwai@263.net</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Feng F Yang, MD</last_name>
+    <email>yangfeng1007@sina.com</email>
+  </overall_contact_backup>
+  <reference>
+    <citation>Field JK, Oudkerk M, Pedersen JH, Duffy SW. Prospects for population screening and diagnosis of lung cancer. Lancet. 2013 Aug 24;382(9893):732-41. doi: 10.1016/S0140-6736(13)61614-1. Review.</citation>
+    <PMID>23972816</PMID>
+  </reference>
+  <reference>
+    <citation>Silva M, Pastorino U, Sverzellati N. Lung cancer screening with low-dose CT in Europe: strength and weakness of diverse independent screening trials. Clin Radiol. 2017 May;72(5):389-400. doi: 10.1016/j.crad.2016.12.021. Epub 2017 Feb 4. Review.</citation>
+    <PMID>28168954</PMID>
+  </reference>
+  <reference>
+    <citation>National Lung Screening Trial Research Team, Aberle DR, Adams AM, Berg CD, Black WC, Clapp JD, Fagerstrom RM, Gareen IF, Gatsonis C, Marcus PM, Sicks JD. Reduced lung-cancer mortality with low-dose computed tomographic screening. N Engl J Med. 2011 Aug 4;365(5):395-409. doi: 10.1056/NEJMoa1102873. Epub 2011 Jun 29.</citation>
+    <PMID>21714641</PMID>
+  </reference>
+  <reference>
+    <citation>Detterbeck FC, Mazzone PJ, Naidich DP, Bach PB. Screening for lung cancer: Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines. Chest. 2013 May;143(5 Suppl):e78S-e92S. doi: 10.1378/chest.12-2350. Review.</citation>
+    <PMID>23649455</PMID>
+  </reference>
+  <reference>
+    <citation>Baldwin DR, Callister ME; Guideline Development Group. The British Thoracic Society guidelines on the investigation and management of pulmonary nodules. Thorax. 2015 Aug;70(8):794-8. doi: 10.1136/thoraxjnl-2015-207221. Epub 2015 Jul 1. Review.</citation>
+    <PMID>26135833</PMID>
+  </reference>
+  <reference>
+    <citation>Wiener RS, Gould MK, Woloshin S, Schwartz LM, Clark JA. What do you mean, a spot?: A qualitative analysis of patients' reactions to discussions with their physicians about pulmonary nodules. Chest. 2013 Mar;143(3):672-677. doi: 10.1378/chest.12-1095.</citation>
+    <PMID>22814873</PMID>
+  </reference>
+  <reference>
+    <citation>Harris RP, Sheridan SL, Lewis CL, Barclay C, Vu MB, Kistler CE, Golin CE, DeFrank JT, Brewer NT. The harms of screening: a proposed taxonomy and application to lung cancer screening. JAMA Intern Med. 2014 Feb 1;174(2):281-5. doi: 10.1001/jamainternmed.2013.12745. Review. Erratum in: JAMA Intern Med. 2014 Mar;174(3):484.</citation>
+    <PMID>24322781</PMID>
+  </reference>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 21, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 27, 2018</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 4, 2018</study_first_posted>
+  <last_update_submitted>March 27, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 27, 2018</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 4, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Peking University People's Hospital</investigator_affiliation>
+    <investigator_full_name>Jun Wang</investigator_full_name>
+    <investigator_title>Principal Investigator, Clinical Professor</investigator_title>
+  </responsible_party>
+  <keyword>Lung nodule</keyword>
+  <keyword>Computed tomography</keyword>
+  <keyword>Artificial intelligence</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Multiple Pulmonary Nodules</mesh_term>
+    <mesh_term>Solitary Pulmonary Nodule</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

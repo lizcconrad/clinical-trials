@@ -1,0 +1,291 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03366558</url>
+  </required_header>
+  <id_info>
+    <org_study_id>5137/31/2016</org_study_id>
+    <nct_id>NCT03366558</nct_id>
+  </id_info>
+  <brief_title>Identification of Motor Symptoms Related to Parkinson's Disease Using Motion Tracking Sensors at Home</brief_title>
+  <acronym>KÄVELI</acronym>
+  <official_title>Sensor-based Motion Characterization in Patients With Parkinson's Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Satakunta Central Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Tampere University of Technology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Satakunta Central Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Parkinson's disease (PD) is a chronic and progressive neurological movement disorder, meaning
+      that symptoms continue and worsen over time. Nearly 10 million people worldwide are living
+      with Parkinson's disease. Finding cost-effective non-invasive monitoring techniques for
+      detecting motor symptoms caused by Parkinson's disease are potentially of significant value
+      for improving care. Of the PD symptoms, the motor symptoms are the most common and detectable
+      signs that can be assessed unobtrusively for both diagnosis and for evaluating the
+      effectiveness of the treatments.
+
+      The goal of our study is to find methods for identifying and classifying the motor symptoms
+      caused by Parkinson's disease. Focus of the study is on long-term motion tracking
+      measurements conducted at home during normal everyday life. Both accelerometers connected to
+      arm and leg and mobile phone inbuilt sensors carried in the belt are utilized in the study.
+      The research has two main objectives / hypotheses:
+
+        1. Can the motor symptoms related to different levels of Parkinson's disease be identified
+           using motion tracking sensors? The first objective includes extracting and screening the
+           motion differences of patients in early stages of the diseases in comparison with the
+           patients in developed stages (patients having hypokinesia, dyskinesia and state changes)
+           of the diseases and their differences with healthy control elderly adults using advanced
+           signal and data analytics. Data from questionnaires and walking test conducted in the
+           hospital environment are utilized as comparison points. Goal is to test the hypothesis
+           that the amount of motor symptoms can be detected and the three groups can be reliably
+           separated using sensor data.
+
+        2. Can the time when the Parkinson medicine is taken be detected from the movement signals?
+
+      A sample of 50 volunteer PD patients with early stage of the disease (no dyskinesia and state
+      changes), plus 50 volunteer PD patients in the later stage of the disease (having dyskinesia
+      and state changes), plus 50 volunteers who do not have Parkinson's disease will be recruited
+      for the research.
+
+      Study starts with a telephone screening and visit to the hospital. Background characteristics
+      and stage of the Parkinson's disease is evaluated in the hospital using a UPDRS
+      questionnaires (Unified Parkinson's Disease Rating Scale; Finnish version) and a standardized
+      20-step walking test. Before the walking test, accelerometer sensors are attached to the
+      shank and on the nondominant wrist. In addition, the participant wears a smart mobile phone
+      with embedded accelerometer and gyroscope sensors. Based on the questionnaires and walking
+      test study physiotherapist classifies the participant into one of the three study groups.
+
+      The major part of the study involves a 3-day motion screening in a free-living setting in
+      which the subjects are wearing the abovementioned sensors for as long duration as they
+      comfortably can and are willing. This 3-day study starts immediately after completion of the
+      20-step walking test in the hospital. During the 3-day study, subjects are free to live their
+      lives without any additional tests. Subjects mark down the time when they take their
+      Parkinson medication.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 27, 2018</start_date>
+  <completion_date type="Anticipated">December 31, 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2018</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>3 Days</target_duration>
+  <primary_outcome>
+    <measure>Accuracy of the classification of data from movement sensors in relation to the detected motor symptoms</measure>
+    <time_frame>3 days</time_frame>
+    <description>Accuracy and consistency of the classification of the subjects in the 3 categories (early stage disease, developed stage of disease, no disease) based on movement signals recorded with accelerometers and gyroscopes. Sensitivity and specificity of the classification are analyzed. Several features and methods of classification are tested including time-domain features, time-frequency domain features and machine learning both from raw data and calculated feature sets.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of the detection of the time when the Parkinson medicine was taken</measure>
+    <time_frame>3 days</time_frame>
+    <description>Accuracy and consistency of detecting the time when the medicine is taken based on movement signals recorded with accelerometers and gyroscopes. Sensitivity and specificity of the detection are analyzed. Several features and methods of analysis are tested including time-domain features, time-frequency domain features and machine learning both from raw data and calculated feature sets.</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Parkinson Disease</condition>
+  <arm_group>
+    <arm_group_label>PD patients: early stage</arm_group_label>
+    <description>Parkinson Disease patients with early stage of the disease: potentially hypokinesia, but no dyskinesia and motor fluctuations</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PD patients: developed stage</arm_group_label>
+    <description>PD patients having dyskinesia and motor fluctuations (described as &quot;developed stage of the disease&quot;)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No PD</arm_group_label>
+    <description>Subjects not having diagnosed Parkinson Disease</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>UPDRS questionnaires</intervention_name>
+    <description>UPDRS (Unified Parkinson's Disease Rating Scale) questionnaires are utilized for the assessment of the disease stage.</description>
+    <arm_group_label>PD patients: early stage</arm_group_label>
+    <arm_group_label>PD patients: developed stage</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>20-step walking test</intervention_name>
+    <description>20-step walking test is utilized either for assessing the disease stage (subjects having Parkinson disease) or for assessing the normal walking (subjects not having Parkinson disease)</description>
+    <arm_group_label>PD patients: early stage</arm_group_label>
+    <arm_group_label>PD patients: developed stage</arm_group_label>
+    <arm_group_label>No PD</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients having Parkinson's disease will be recruited with two methods: A) Unit of
+        Neurology at Satakunta Central Hospital searches from the patient records potential
+        participants, who have visited the hospital during the past 5 years with ICD-10 code G20.
+        B) In case not enough participants are found from the Unit of Neurology, advertisements in
+        local newspapers, in local Parkinson's disease patient association newsletters and in the
+        web site of the hospital will be utilized.
+
+        For recruiting volunteers without Parkinson's disease into the reference group, an
+        advertisement is placed in local newspapers and in the web pages of the hospital.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        (A) participants must be 30 years of age or older. (B) (for the Parkinson groups) diagnosed
+        with PD (ICD-10 code G20) by a physician (neurologist or physician specializing in
+        neurology). (C) They should be able to walk at least 20 steps unassisted (subjects are
+        allowed to get help from assistive devices but not from other persons).
+
+        Exclusion Criteria:
+
+        (A) The subjects must not be receiving any deep brain stimulation (DBS) treatment while
+        they are participating, but intraduodenal administration of levodopa (Duodopa®) or
+        intradermal administration of apomorphine (Apogo® or Dacepton®) is accepted. (B) .Other
+        extrapyramidal syndromes such as MSA (multiple system atrophy), PSP (progressive
+        supranuclear palsy), CBD (corticobasal degeneration), LBD (Lewy body dementia) or dopamine
+        antagonist drug (such as antipsychotic drug, metoclopramide) induced Parkinsonism will be
+        excluded.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>30 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jari Ruokolainen, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Tampere University of Technology</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Hannu Nieminen, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Tampere University of Technology</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Juha Puustinen, MD, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Satakunta Central Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Juha Puustinen, MD, PhD</last_name>
+    <phone>+358 44 707 7806</phone>
+    <email>juha.puustinen@satshp.fi</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Terhi Pakkanen, physiotherapist</last_name>
+    <email>terhi.pakkanen@satshp.fi</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Satakunta Central Hospital, Unit of Neurology</name>
+      <address>
+        <city>Pori</city>
+        <country>Finland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Terhi Pakkanen, physiotherapist</last_name>
+      <phone>+358 2 627 71</phone>
+      <email>terhi.pakkanen@satshp.fi</email>
+    </contact>
+    <contact_backup>
+      <last_name>Juha Puustinen, MD, PhD</last_name>
+      <phone>+358 2 627 71</phone>
+      <email>juha.puustinen@satshp.fi</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Finland</country>
+  </location_countries>
+  <reference>
+    <citation>Jankovic J. Parkinson's disease: clinical features and diagnosis. J Neurol Neurosurg Psychiatry. 2008 Apr;79(4):368-76. doi: 10.1136/jnnp.2007.131045. Review.</citation>
+    <PMID>18344392</PMID>
+  </reference>
+  <reference>
+    <citation>Bot BM, Suver C, Neto EC, Kellen M, Klein A, Bare C, Doerr M, Pratap A, Wilbanks J, Dorsey ER, Friend SH, Trister AD. The mPower study, Parkinson disease mobile data collected using ResearchKit. Sci Data. 2016 Mar 3;3:160011. doi: 10.1038/sdata.2016.11.</citation>
+    <PMID>26938265</PMID>
+  </reference>
+  <reference>
+    <citation>Silva de Lima AL, Hahn T, de Vries NM, Cohen E, Bataille L, Little MA, Baldus H, Bloem BR, Faber MJ. Large-Scale Wearable Sensor Deployment in Parkinson's Patients: The Parkinson@Home Study Protocol. JMIR Res Protoc. 2016 Aug 26;5(3):e172. doi: 10.2196/resprot.5990.</citation>
+    <PMID>27565186</PMID>
+  </reference>
+  <reference>
+    <citation>Goetz CG, Tilley BC, Shaftman SR, Stebbins GT, Fahn S, Martinez-Martin P, Poewe W, Sampaio C, Stern MB, Dodel R, Dubois B, Holloway R, Jankovic J, Kulisevsky J, Lang AE, Lees A, Leurgans S, LeWitt PA, Nyenhuis D, Olanow CW, Rascol O, Schrag A, Teresi JA, van Hilten JJ, LaPelle N; Movement Disorder Society UPDRS Revision Task Force. Movement Disorder Society-sponsored revision of the Unified Parkinson's Disease Rating Scale (MDS-UPDRS): scale presentation and clinimetric testing results. Mov Disord. 2008 Nov 15;23(15):2129-70. doi: 10.1002/mds.22340.</citation>
+    <PMID>19025984</PMID>
+  </reference>
+  <results_reference>
+    <citation>Bayle N, Patel AS, Crisan D, Guo LJ, Hutin E, Weisz DJ, Moore ST, Gracies JM. Contribution of Step Length to Increase Walking and Turning Speed as a Marker of Parkinson's Disease Progression. PLoS One. 2016 Apr 25;11(4):e0152469. doi: 10.1371/journal.pone.0152469. eCollection 2016.</citation>
+    <PMID>27111531</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Samà A, Pérez-López C, Rodríguez-Martín D, Català A, Moreno-Aróstegui JM, Cabestany J, de Mingo E, Rodríguez-Molinero A. Estimating bradykinesia severity in Parkinson's disease by analysing gait through a waist-worn sensor. Comput Biol Med. 2017 May 1;84:114-123. doi: 10.1016/j.compbiomed.2017.03.020. Epub 2017 Mar 23.</citation>
+    <PMID>28351715</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Bernad-Elazari H, Herman T, Mirelman A, Gazit E, Giladi N, Hausdorff JM. Objective characterization of daily living transitions in patients with Parkinson's disease using a single body-fixed sensor. J Neurol. 2016 Aug;263(8):1544-51. doi: 10.1007/s00415-016-8164-6. Epub 2016 May 23.</citation>
+    <PMID>27216626</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Salarian A, Russmann H, Wider C, Burkhard PR, Vingerhoets FJ, Aminian K. Quantification of tremor and bradykinesia in Parkinson's disease using a novel ambulatory monitoring system. IEEE Trans Biomed Eng. 2007 Feb;54(2):313-22.</citation>
+    <PMID>17278588</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Weiss A, Sharifi S, Plotnik M, van Vugt JP, Giladi N, Hausdorff JM. Toward automated, at-home assessment of mobility among patients with Parkinson disease, using a body-worn accelerometer. Neurorehabil Neural Repair. 2011 Nov-Dec;25(9):810-8. doi: 10.1177/1545968311424869.</citation>
+    <PMID>21989633</PMID>
+  </results_reference>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 4, 2017</study_first_submitted>
+  <study_first_submitted_qc>December 4, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 8, 2017</study_first_posted>
+  <last_update_submitted>April 18, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 18, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 19, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Satakunta Central Hospital</investigator_affiliation>
+    <investigator_full_name>Juha Puustinen</investigator_full_name>
+    <investigator_title>MD, PhD, Adjunct Professor (Docent)</investigator_title>
+  </responsible_party>
+  <keyword>motion detectors</keyword>
+  <keyword>early stage Parkinson's disease</keyword>
+  <keyword>advanced Parkinson's disease</keyword>
+  <keyword>UPDRS</keyword>
+  <keyword>observational study with non-diseased controls</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Anonymized 3-day motion data recordings.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

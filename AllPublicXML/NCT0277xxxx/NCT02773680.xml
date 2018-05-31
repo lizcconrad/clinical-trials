@@ -1,0 +1,178 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02773680</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1917/2015</org_study_id>
+    <nct_id>NCT02773680</nct_id>
+  </id_info>
+  <brief_title>Human Electrical-Impedance-Tomography Reconstruction Models</brief_title>
+  <official_title>Assessment of CT-derived Thoracic Electrical-Impedance-Tomography Finite Element Models</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Medical University of Vienna</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Medical University of Vienna</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Current EIT analyses are based on the assumption of a circular thorax-shape and do not
+      provide any information on lung borders. The aim is to obtain the body and lung border
+      contours of male subjects by multi-detector computed tomography (MDCT) in defined thresholds
+      of anthropometric data (gender = male; height; weight) for calibration of more realistic EIT
+      reconstruction models.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      A major drawback of EIT is its relatively poor spatial resolution and its limitation in
+      measuring changes in bioimpedance as compared to a reference state (and not absolute
+      quantities). Therefore, the technique cannot differentiate between extrapulmonary structures
+      (muscles, thorax, heart, large vessels, spine, etc.) and non-aerated lung tissues - which is
+      a major limitation for the clinical use of information derived from EIT-imaging. Moreover,
+      current EIT-reconstruction algorithms are based on the consideration of a complete circular
+      thoracic shape and do not take into account the body contours and lung borders.
+
+      The investigators are convinced that EIT-derived dynamic bedside lung imaging can be advanced
+      by morphing computed tomography (CT) scans of the respective thoracic levels with concomitant
+      EIT images - thus enhancing EIT-image information with CT-data. Integrating the anatomy of
+      thoracic shape and lung borders provided by high-spatial resolution multi detector CT-scans
+      (MDCT) with high-temporal resolution EIT has the potential to improve image quality
+      considerably. This data can be used to compute mean EIT-reconstruction models that further
+      offer the possibility to develop novel and clinically meaningful EIT parameters.
+
+      Therefore, the investigators hypothesize that by integration of CT-scan information of body
+      and lung contours (and by computing different EIT reconstruction models) the current
+      methodological limitations of EIT technology can be overcome.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Not yet recruiting</last_known_status>
+  <start_date>May 2016</start_date>
+  <completion_date type="Anticipated">June 2017</completion_date>
+  <primary_completion_date type="Anticipated">November 2016</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Electrical Impedance Tomography Finite Element Model</measure>
+    <time_frame>approximately 1 year through study completion</time_frame>
+    <description>Based on CT-derived thorax, lung and heart contours we propose to calculate human finite element models (FEM) for EIT analysis</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>height</measure>
+    <time_frame>at the time-point of inclusion</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>weight</measure>
+    <time_frame>at the time-point of inclusion</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>gender</measure>
+    <time_frame>at the time-point of inclusion</time_frame>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">160</enrollment>
+  <condition>Respiratory Monitoring</condition>
+  <arm_group>
+    <arm_group_label>Study cohort 1</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>&quot;electrical impedance tomography&quot;</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>&quot;electrical impedance tomography&quot;</intervention_name>
+    <description>One continous electrical impedance tomography (EIT) measurement per subject of approximately 5 minutes duration (2 min prior to MDCT scanning, during end-inspiratory MDCT acquisition and 2 min after MDCT scanning)</description>
+    <arm_group_label>Study cohort 1</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  spontaneous breathing male subjects
+
+          -  age &gt; 18,
+
+          -  clinical indication for thoracic CT scanning,
+
+          -  matching of weight and height to the predefined model-thresholds
+
+        Exclusion Criteria:
+
+          -  pre-existing chronic pulmonary disease
+
+          -  skin lesions / wounds in the thoracic plane where the EIT SensorBelt will be attached
+
+          -  known allergy against any ingredient of the used ContactAgent
+
+          -  abnormalities in thoracic shape as defined by the radiologist in charge (e.g. extreme
+             kyphosis, funnel chest, pigeon breast, multiple rip fractures)
+
+          -  pneumothorax
+
+          -  pace maker (external and internal)
+
+          -  other implanted electrical devices
+
+          -  other methods measuring bioimpedance
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Stefan Boehme, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of General Anesthesia, Intensive Care Medicine and Pain Management, Medical University of Vienna, Austria</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Stefan Boehme, MD</last_name>
+    <phone>+43 40400 41020</phone>
+    <email>stefan.boehme@meduniwien.ac.at</email>
+  </overall_contact>
+  <verification_date>May 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 9, 2016</study_first_submitted>
+  <study_first_submitted_qc>May 11, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 16, 2016</study_first_posted>
+  <last_update_submitted>May 11, 2016</last_update_submitted>
+  <last_update_submitted_qc>May 11, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 16, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Medical University of Vienna</investigator_affiliation>
+    <investigator_full_name>Ass.-Prof. Dr. Stefan Boehme</investigator_full_name>
+    <investigator_title>MD</investigator_title>
+  </responsible_party>
+  <keyword>respiration</keyword>
+  <keyword>monitoring, physiologic</keyword>
+  <keyword>diagnostic techniques, respiratory system</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

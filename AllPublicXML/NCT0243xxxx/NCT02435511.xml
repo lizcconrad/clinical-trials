@@ -1,0 +1,344 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02435511</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1R01AG047869-01</org_study_id>
+    <nct_id>NCT02435511</nct_id>
+  </id_info>
+  <brief_title>Study the Impact of the CommunityRx Program on Health, Self-care and Cost</brief_title>
+  <official_title>Evaluating CommunityRx, a Self-Care Innovation for Older Adults, Using Agent-Based Modeling: Collecting and Analyzing Data to Build the Agent Based Model</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Chicago</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Chicago</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      CommunityRx is a health information technology-based innovation that, starting with the
+      patient-health care provider encounter, facilitates self-care coordination for patients,
+      caregivers, and providers. The CommunityRx database interfaces with electronic medical
+      records to provide patients with a &quot;HealtheRx.&quot; A HealtheRx is a list of community-based
+      self-care resources tailored to the patients health needs (e.g., a person with diabetes
+      receives information about podiatrists, nutrition classes, and other resources need to manage
+      diabetes). CommunityRx aims to measurably improve health and health care while reducing
+      health care costs especially in underserved health care settings. Specifically, the proposed
+      research aims to 1) evaluate the impact of CommunityRx on health care utilization, cost,
+      health, and patient-centered outcomes for program participants compared to controls; 2)
+      examine the flow and spread of information to and through primary agents including: program
+      participants, community health information experts, healthcare providers, and community-based
+      service providers (businesses and organizations providing self-care resources); and 3) build
+      and use an agent-based model to test the distributed impact, including economic effects, of
+      CommunityRx system adoption on the demonstration area and predict performance over time by
+      conducting experiments that vary assumptions about agent, environment, and population-level
+      characteristics.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      CommunityRx connects health care to self-care. CommunityRx begins with the medical encounter
+      and functions like an e-prescribing system, modeled after medication e-prescribing.9 Rather
+      than sending a medication prescription to the patient's pharmacy, a HealtheRx &quot;prescription&quot;
+      is automatically generated at the point of care, delivered to the patient in paper (or
+      electronic) form and stored in the Electronic Medical Record (EMR) for future reference. The
+      HealtheRx is ontologically-generated, driven by standard demographic (eg. age, gender,
+      address, language) data fields in the EMR and customized to patient problems/diagnoses like
+      &quot;homelessness,&quot; or &quot;obesity.&quot; Like e-prescribing medicine, CommunityRx involves prescribing,
+      fulfillment (patient signs up for a Weight Watchers class), and administration (patient
+      participates in the weight loss program) (Fig. 2).10 The HealtheRx prescription is the
+      primary information agent in the system, driven by simple ontologic rules that generate
+      complexity, including iteration of the CommunityRx system itself, as human agents interact
+      with the self-care information.
+
+      CommunityRx can be best understood as part of a complex adaptive system. The HealtheRx, in
+      contrast to a drug prescription, is designed specifically to enhance the interpersonal aspect
+      of the patient-physician encounter, informing both agents about self-care resources. A
+      patient receives a HealtheRx and then contacts a Community Health Information Specialist
+      (CHIS) or not. She seeks self-care resources or not.
+
+      Data captured by the CommunityRx system about patient referrals and needs are distributed to
+      community-based service providers (CBSPs) in the form of quarterly reports delivered to CBSP
+      contacts cultivated by CHIS. These data efficiently reveal to CBSPs real-time needs and gaps
+      in self-care resources. The investigators hypothesize these data will be used by CBSPs over
+      time to ensure supply. Youth who generate community resource data through employment with
+      MAPSCorps also gain insight to community resources and engage with CBSP personnel and CHIS as
+      they gather their data. Youth spread information to their networks about community resources
+      and increase their use of these resources. MAPSCorps data about community resources are
+      shared publicly (www.healtherx.org, www.southsidehealth.org, www.dondeesta.org). Self-care
+      becomes more efficient. Supply meets demand. Patients and providers have more time and
+      resources to devote to other salubrious activities and CBSPs become stronger. Over time,
+      transparency in the market for self-care resources increases competition and quality.
+
+      This hypothetical dynamic is an example of emergent self-organization from a complex adaptive
+      system. The intervention starts with a simple encounter, governed by simple rules, between
+      patient and health care provider. As the number of these encounters grow, previously siloed
+      sectors - health care and self-care - evolve a new kind of formation that is far more
+      efficient for the community than the current state. CommunityRx drives this new formation
+      through multiple agents who are unaware of the complexity they are producing: &quot;…the
+      self-organized structure simply emerges as a result of each individual doing their own thing,
+      independently.&quot; In evaluating the economic effects of CommunityRx adoption, agent-based
+      modeling (ABM) can test how close the attractor state, or end-point in a CommunityRx system
+      configuration (set of assumed behaviors and designed interventions), comes to a Pareto
+      efficient point of equilibrium. The effects of the CommunityRx intervention are non-linear,
+      involve interactions and feedback loops, and therefore require a complex system modeling
+      approach for evaluation.
+
+      A. Purpose or Hypothesis
+
+      Data inputs for agent based modeling (ABM) can come from a range of sources, including
+      empirical quantitative and qualitative data, data from the literature, and expert opinion.
+      Because CommunityRx targets people of all ages (0-99 yrs, to date), a prospective,
+      experimental, community-based design (eg. RCT) to assess outcomes by age strata would be very
+      informative about patient agents (the investigators expect age-group differences in behavior,
+      social networks, and outcomes) but cost-prohibitive. ABM can accommodate assumptions made
+      based on this important, but specific, population subgroup (or &quot;testbed&quot;), includes many
+      agents, and allows for multiple simulations to assess the impact of variations in those
+      assumptions for the much larger and more diverse population that the system-wide model
+      includes. A cost-effectiveness analysis is needed to understand the true economic impact of
+      CommunityRx on the total cost of the burden of disease. In addition, the research team brings
+      clinical and research expertise and specialized interest in middle-age and older adult
+      populations with chronic disease. Focusing on this subgroup builds on this track record and
+      will meaningfully extend our contributions to the gerontology and geriatrics fields.
+
+      Specifically, the aims (and associated hypotheses) of this research include:
+
+      Aim 1. Evaluate the impact of CommunityRx on health care utilization, cost, health, and
+      patient-centered outcomes for program participants (patients who receive care at the clinical
+      demonstration sites and live in an 16 zip code area) compared to controls (patients who
+      receive health care at the demonstration sites, but live outside the 16 zip code area), with
+      a special focus on middle-age and older adults.
+
+      Aim 1a. Evaluate the impact of CommunityRx on health care utilization, health care costs, and
+      on health outcomes for program participants (patients who receive care at the clinical
+      demonstration sites and live in an 16 zip code area) compared to controls (patients who
+      receive health care at the demonstration sites, but live outside the 11 zip code area) of all
+      ages. NOTE: This aim is funded separately and registered on clinicaltrials.gov separately
+      (see ID 1C1CMS330997).
+
+      Hypothesis: CommunityRx will decrease emergency/inpatient care utilization, decrease percent
+      per beneficiary per year (%PBPY) costs and improve health.
+
+      Aim 1b. Evaluate the impact of the CommunityRx system on patient-centered outcomes in a
+      randomized control trail of 200 program participants ages 45-74 and compared to 200 controls.
+
+      Hypothesis: CommunityRx will be associated with clinically meaningful improvements in: a)
+      self-care behavior; b) perceived care quality; and c) quality of life.
+
+      Aim 1c. Characterize the economic value of care augmented with the CommunityRx system
+      compared to usual care, based on the prospective participant-control study described in Aim
+      1b.
+
+      Hypothesis: Compared to usual care, care augmented with the CommunityRx system will be as
+      cost-effective as commonly accepted medical devices and treatments.
+
+      Aim 2. Examine the flow and spread of information to and through primary agents including:
+      program participants, community health information specialists, healthcare providers, and
+      community-based service providers (businesses and organizations providing self-care
+      resources).
+
+      Hypotheses: 1) Among the CBSPs receiving high volumes of CommunityRx referrals for people ≥45
+      years old (&gt;1000/year), CommunityRx will produce a self-reported increase in: a) knowledge of
+      community resources especially for older adults, b) referrals to other CBSPs, c) older client
+      volume, and d) aging-related goods/services /programs inventory; and 2) Delivery of the
+      CommunityRx intervention at the point of medical care produces knowledge about self-care
+      resources in the community that spreads to secondary agents including members of patient and
+      provider social networks.
+
+      Aim 3. Build and use an agent-based model to test the distributed impact, including economic
+      effects, of CommunityRx adoption on the demonstration area and predict performance over time
+      by conducting experiments that vary assumptions about agent, environment, and
+      population-level characteristics.
+
+      Hypotheses: 1) The system-level value of CommunityRx is greater than the value quantified as
+      %PBPY health care utilization savings and is projected to increase with population aging; 2)
+      Experiments run on a systems-based model will predict and quantify the impact of strategies
+      to optimize CommunityRx performance for improvements, sustainability, and spread to other
+      settings; and 3) Systems-Based Modeling is an effective and efficient tool for large-scale
+      evaluation of a health information technology-based intervention to improve health and health
+      care.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>December 2015</start_date>
+  <completion_date type="Anticipated">September 2019</completion_date>
+  <primary_completion_date type="Actual">December 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change from baseline in mental health-related quality of life at 3 months</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Health-related quality of life will be measured using the Short Form Health Survey (SF-12)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline in cost effectiveness at 3 months</measure>
+    <time_frame>Baseline, 3 months</time_frame>
+    <description>Using claims data and self-reported data on heath care utilization, we will use data from intervention baseline and at 3 months following the intervention to assess the cost effectiveness of HealtheRx.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline in patient satisfaction at 3 months</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Patient satisfaction will be measures using the Patient Satisfaction Questionnaire (PSQ-18)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline in physical health-related quality of life at 3 months</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Health-related quality of life will be measured using the SF-12</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-efficacy - Finding places and services in community to manage health as measured by questionnaire</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Measure confidence in ability to find services to take care of health</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Access to resources - Weight loss class or support group as measured by questionnaire developed for this study</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Measure perceived and self-reported access to weight loss classes or support groups</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Access to resources - Healthy eating classes as measured by questionnaire developed for this study</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Measure perceived and self-reported access to health eating classes</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Access to resources - Counseling as measured by questionnaire developed for this study</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Measure perceived and self-reported access to counseling</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Access to resources - Smoking cessation classes as measured by questionnaire developed for this study</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Measure perceived and self-reported access to smoking cessation classes</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Access to resources - Stress management classes as measured by questionnaire developed for this study</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Measure perceived and self-reported access to stress management classes</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Access to resources - Rent/Mortgage as measured by questionnaire developed for this study</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Measure perceived and self-reported access to help paying rent or mortgage</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Self-efficacy - Smoking cessation as measured by questionnaire based on Healthy People 20/20 and applies Likert scale</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Measure confidence in ability to quit smoking</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Self-efficacy - Weight as measured by questionnaire based on Healthy People 20/20 and applies Likert scale</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Measure confidence in ability to manage weight</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Self-efficacy - Eating healthy as measured by questionnaire based on Healthy People 20/20 and applies Likert scale</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Measure confidence in ability to eat healthy</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Self-efficacy - Exercise as measured by questionnaire based on Healthy People 20/20 and applies Likert scale</measure>
+    <time_frame>Baseline, 1 week, 1 month and 3 months</time_frame>
+    <description>Measure confidence in ability to exercise</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">411</enrollment>
+  <condition>Health Behavior</condition>
+  <arm_group>
+    <arm_group_label>Control arm</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The control group will receive usual care, no HealtheRx.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Intervention arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The intervention arm will receive the intervention, a HealtheRx, which includes a list of resources in their community tailored to their health needs.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>HealtheRx</intervention_name>
+    <description>The HealtheRx is an informational intervention. The HealtheRx is generated and administered at the point of care. It includes a list of community resources, tailored to a patient's needs based on diagnoses, that are located near the patient's home. A health care provider and/or administrative staff administers and reviews the HealtheRx with the patient.</description>
+    <arm_group_label>Intervention arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  45-74 years old
+
+          -  Medicaid and/or Medicare beneficiary
+
+          -  Living in 1 of the 16 zip codes served by CommunityRx
+
+          -  Seen at University of Chicago primary care or emergency department
+
+        Exclusion Criteria:
+
+          -  Recollection of previous receipt of a HealtheRx
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>45 Years</minimum_age>
+    <maximum_age>74 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Stacy T Lindau, MD, MAPP</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Chicago</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Chicago Medicine - Adult Emergency Department and Primary Care Group clinic</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60637</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 17, 2015</study_first_submitted>
+  <study_first_submitted_qc>April 30, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 6, 2015</study_first_posted>
+  <last_update_submitted>January 2, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 2, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 4, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>agent-based modeling</keyword>
+  <keyword>community resources</keyword>
+  <keyword>simulation modeling</keyword>
+  <keyword>information intervention</keyword>
+  <keyword>clinic-to-community linkages</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

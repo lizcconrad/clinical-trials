@@ -1,0 +1,329 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01945060</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HM15215 &amp; 17256</org_study_id>
+    <secondary_id>17-2013-498</secondary_id>
+    <nct_id>NCT01945060</nct_id>
+  </id_info>
+  <brief_title>Closed Loop Control in Adolescents Using Heart Rate as Exercise Indicator</brief_title>
+  <official_title>Closed Loop Control in Adolescents Using Heart Rate as Exercise Indicator</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Marc Breton</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Virginia Commonwealth University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>DexCom, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tandem Diabetes Care, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to see if the Artificial Pancreas (AP) Platform can successfully
+      control blood sugar in people with type 1 diabetes mellitus on insulin pump therapy in a
+      hospital setting. Investigators will also be studying to see if the heart rate informed
+      Control To Range (hrCTR) can improve the performance of the system during and immediately
+      after exercise.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The artificial pancreas (AP), known as Closed-Loop Control of blood glucose in diabetes, is a
+      system combining a continuous glucose monitor (glucose sensor), a control algorithm (complex
+      mathematical formulas), and an insulin pump. The algorithms are intended to maintain your
+      blood glucose level within a certain range. This is called Control-to-Range. The algorithms
+      are intended to maintain your blood glucose level within a certain range. The algorithms run
+      on a portable AP platform on an Android smart phone, called the Diabetes Assistant (DiAs)
+      Medical Platform.
+
+      In this study, researchers hypothesize that the heart rate informed Control To Range (hrCTR)
+      will limit the risk for hypo and hyperglycemia during and immediately after exercise in
+      adolescents 12 - 17 years of age and assess if the hrCTR will improve additional measures of
+      overall short term glycemic control in this population.
+
+      This trial will be performed at both Virginia Commonwealth University and the University of
+      Virginia. IRB approvals have been obtained at both institutions.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2013</start_date>
+  <completion_date type="Actual">April 2015</completion_date>
+  <primary_completion_date type="Actual">April 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Low Blood Glucose Index (LBGI)</measure>
+    <time_frame>48 hours</time_frame>
+    <description>The Low Blood Glucose Index, which quantifies the risk for hypoglycemia, and the hypoglycemic count (number sequences of blood glucose less than 70 mg/dL).</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">18</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>heart rate Control to Range System (hrCTR) using DiAs Platform</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The Diabetes Assistant (DiAs) Control-to-Range system is notified of heart rate during exercise. The study team member will activate and deactivate a heart rate button when the subject's heart rate exceeds and then returns below 140 beats per minute.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>DiAs Control-to-Range System not informed for heart rate</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Using the DiAs Platform, the Control-to-Range system is not notified of the heart rate during exercise. Heart rate not of interest in this arm.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>heart rate Control to Range System (hrCTR) using DiAs Platform</intervention_name>
+    <description>Diabetes Assistant (DiAs) Medical Platform System
+A smart-phone medical platform (DiAs);
+Continuous Glucose Monitor;
+Insulin pump;
+Bluetooth connection;
+Remote Monitoring Server.</description>
+    <arm_group_label>heart rate Control to Range System (hrCTR) using DiAs Platform</arm_group_label>
+    <arm_group_label>DiAs Control-to-Range System not informed for heart rate</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>DiAs Control-to-Range System not informed for heart rate</intervention_name>
+    <description>Not informing system of heart rate during exercise.</description>
+    <arm_group_label>DiAs Control-to-Range System not informed for heart rate</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Criteria for documented hyperglycemia (at least 1 must be met):
+
+               -  Fasting glucose ≥ 126 mg/dL - confirmed
+
+               -  Two-hour Oral Glucose Tolerance Test (OGTT) glucose ≥ 200 mg/dL - confirmed
+
+               -  Hemoglobin A1c (HbA1c) ≥ 6.5% documented - confirmed
+
+               -  Random glucose ≥ 200 mg/dL with symptoms
+
+               -  No data are available from the time of diagnosis but the participant has a
+                  convincing history of medical care and biochemical parameters consistent with
+                  T1DM
+
+          2. Criteria for requiring insulin at diagnosis (1 must be met):
+
+               -  Participant required insulin at diagnosis and continually thereafter
+
+               -  Participant did not start insulin at diagnosis but upon investigator review
+                  likely needed insulin (significant hyperglycemia that did not respond to oral
+                  agents) and did eventually require insulin that has been used continually
+
+          3. Criteria for Type 1 Diabetes Mellitus (T1DM) (at least 1 must be met):
+
+               -  Documented low or absent C-peptide level.
+
+               -  Documented presence of islet cell autoantibodies (ICA) or glutamic acid
+                  decarboxylase (GAD65) autoantibodies.
+
+               -  No data are available from the time of diagnosis but the participant has a
+                  convincing history of medical care and biochemical parameters consistent with
+                  T1DM
+
+        In addition, all subjects will meet the following additional criteria:
+
+          -  Use an insulin pump (CSII) to treat his/her diabetes for at least 6 months
+
+          -  Actively use a bolus calculator with the current insulin pump with pre-defined
+             parameters for carbohydrate (CHO) ratio, insulin sensitivity factor (ISF), and target
+             glucose
+
+          -  Current HbA1c between 5.0% and 10.5% as measured with DCA2000 or equivalent device
+
+          -  Not currently known to be pregnant, breast feeding, or intending to become pregnant
+             (females)
+
+          -  Demonstration of proper mental status and cognition for the study
+
+          -  Willingness to avoid consumption of acetaminophen-containing products while wearing
+             the continuous glucose monitor sensor.
+
+        Exclusion Criteria:
+
+          -  Clinical diagnosis of Type 2 Diabetes Mellitus (T2DM)
+
+          -  Diabetic ketoacidosis within 6 months prior to enrollment
+
+          -  Severe hypoglycemia resulting in seizure or loss of consciousness within 3 months
+             prior to enrollment
+
+          -  Pregnancy, breast feeding, or intention to become pregnant
+
+          -  Subjects weighing less than 40 kg
+
+          -  Hematocrit &lt;36% (females); &lt;38% (males)
+
+          -  Conditions which may increase the risk of hypoglycemia such as known history of
+             cerebrovascular event, history of arrhythmias, seizure disorder, syncope, adrenal
+             insufficiency, or neurologic disease
+
+          -  Additional conditions which may inhibit the ability to perform exercise (e.g. injury
+             to or immobility of limbs, neuromuscular disease, exercise-induced asthma requiring
+             inhaler use within the last 12 months or clinically impaired pulmonary function)
+
+          -  Use of a medication that significantly lowers heart rate (beta blockers, reserpine,
+             guanethidine, methyldopa, clonidine, cimetidine, digitalis, calcium channel blockers,
+             amiodarone, antiarrythmic drugs, or lithium)
+
+          -  History of a systemic or deep tissue infection with methicillin-resistant staph aureus
+             or Candida albicans
+
+          -  Use of a device that may pose electromagnetic compatibility issues and/or
+             radiofrequency interference with the continuous glucose monitor (implantable
+             cardioverter defibrillator, electronic pacemaker, neurostimulator, intrathecal pump,
+             and cochlear implants)
+
+          -  Medical condition requiring use of an acetaminophen-containing medication that cannot
+             be withheld for the study admission.
+
+          -  Psychiatric disorders that would interfere with study tasks (e.g. inpatient
+             psychiatric treatment within 6 months prior to enrollment, uncontrolled anxiety or
+             panic disorder)
+
+          -  Mental incapacity, unwillingness or language barriers precluding adequate
+             understanding or cooperation
+
+          -  Medical conditions that would make operating a continuous glucose monitor, cell phone
+             or insulin pump difficult (e.g. blindness, severe arthritis, immobility)
+
+          -  Any skin condition that prevents sensor or pump placement on the abdomen or arm (e.g.
+             bad sunburn, pre-existing dermatitis, intertrigo, psoriasis, extensive scarring,
+             cellulitis)
+
+          -  Known micro vascular (diabetic) complications (other than diabetic non-proliferative
+             retinopathy), such as history of laser coagulation, proliferative diabetic
+             retinopathy, known diabetic nephropathy (other than microalbuminuria with normal
+             creatinine) or neuropathy requiring treatment
+
+          -  Active gastroparesis requiring current medical therapy
+
+          -  If on antihypertensive, thyroid, or lipid lowering medication, lack of stability on
+             the medication for the past 2 months prior to enrollment in the study
+
+          -  Known bleeding diathesis or dyscrasia
+
+          -  Allergy to medical adhesives, components of the insulin pump insertion set or
+             continuous glucose monitor sensor
+
+          -  Anticoagulant therapy other than aspirin
+
+          -  Oral steroids
+
+          -  Active enrollment in another clinical trial
+
+          -  Unwillingness to avoid acetaminophen while wearing the continuous glucose monitor
+             sensor.
+
+          -  Unwillingness to withhold dietary supplements two weeks prior to and during admission
+
+          -  Unwillingness to use an approved form of birth control during this study by a sexually
+             active female participant.
+
+          -  Subject develops a febrile illness within 24 hours of inpatient admission.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>12 Years</minimum_age>
+    <maximum_age>17 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gary Francis, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Virginia Commonwealth University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Marc Breton, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Virginia Center for Diabetes Technology</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22903</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Virginia Commonwealth University Medical Center</name>
+      <address>
+        <city>Richmond</city>
+        <state>Virginia</state>
+        <zip>23298-0140</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 10, 2013</study_first_submitted>
+  <study_first_submitted_qc>September 13, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 18, 2013</study_first_posted>
+  <last_update_submitted>May 10, 2016</last_update_submitted>
+  <last_update_submitted_qc>May 10, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 11, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Marc Breton</investigator_full_name>
+    <investigator_title>Co-Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Pancreas Project</keyword>
+  <keyword>Diabetes Assistant (DiAs) Medical Platform System</keyword>
+  <keyword>Artificial Pancreas Platform</keyword>
+  <keyword>Insulin Pump</keyword>
+  <keyword>Continuous Glucose Monitor</keyword>
+  <keyword>Closed-Loop Control</keyword>
+  <keyword>heart rate Control to Range System (hrCTR)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

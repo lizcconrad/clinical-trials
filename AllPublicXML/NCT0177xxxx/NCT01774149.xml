@@ -1,0 +1,604 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01774149</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2011/1939 (REK)</org_study_id>
+    <nct_id>NCT01774149</nct_id>
+  </id_info>
+  <brief_title>Model Driven Diabetes Care</brief_title>
+  <acronym>MDDC</acronym>
+  <official_title>Data Driven Feedback as a Method to Improve Glycaemic Control in Type 1 Diabetes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital of North Norway</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Tromso</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Research Council of Norway</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital of North Norway</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Patients with Diabetes Mellitus Type 1 using electronic self-help tools typically registers a
+      large amount of data on their disease. The study intends to see if giving advanced feedback
+      on these data can improve their blood glucose management.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      All patients will be given access to a mobile phone with the diabetes diary known as the Few
+      Touch Application (FTA) installed. They may use either their own compatible Android handsets,
+      or provided handsets. The study uses a delayed start design. Participants are randomized into
+      two groups, who get access to the module &quot;Diastat&quot; after 4 and 12 weeks post-enrollment
+      respectively. Each group uses the FTA with Diastat for 8 weeks post-intervention (i.e. access
+      to Diastat).
+
+      Diastat is a module within FTA that provides data-driven feedback to the patients using their
+      own data. This module is based on the data recorded in a previous trial [1]. Three submodules
+      are part of Diastat; Periodicity detection and visualization, multiscale trend detection
+      based on the c-SiZer algorithm [2], and situation matching for insulin dosage [3].
+
+        1. Skrøvseth SO et al, Diabetes Technol Ther (2012)
+
+        2. Skrøvseth SO et al, PLoS ONE (2012)
+
+        3. Skrøvseth SO et al, Accepted for Advanced Technologies and Treatments for Diabetes,
+           Paris, France, 2013.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2013</start_date>
+  <completion_date type="Actual">August 2013</completion_date>
+  <primary_completion_date type="Actual">August 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in the Frequency of Hyper- and Hypo-glycemic Events From Baseline to Week 8-12.</measure>
+    <time_frame>Up to 12 weeks post-enrollment</time_frame>
+    <description>The number of self-measured blood glucose values &lt; 4 mmol/L (72 mg/dL) or &gt; 15 mmol/L (270 mg/dL) will be recorded during baseline (first 4 weeks post-enrollment/start of study) and during weeks 8-12 post-enrollment for all participants.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in HbA1c</measure>
+    <time_frame>up to 20 weeks post-enrollment</time_frame>
+    <description>HbA1c will be measured at the start of the study (week 1 post-enrollment) and during the last week of intervention (week 12 for the intervention group and week 20 for the active comparator group).</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Usability</measure>
+    <time_frame>up to 20 weeks post-enrollment</time_frame>
+    <description>System Usability Scale (SUS) will be applied to assess usability of the approach and recorded during the last week of intervention (week 12 for the intervention group and week 20 for the active comparator group).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Empowerment</measure>
+    <time_frame>Up to 12 weeks post-enrollment.</time_frame>
+    <description>Diabetes Empowerment Scale-Short Form (DES-SF) will be used to assess empowerment at the start of the study (week 1 post-enrollment) and during week 12 of intervention.</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">30</enrollment>
+  <condition>Diabetes Mellitus, Type 1</condition>
+  <arm_group>
+    <arm_group_label>Delayed Diastat</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Mobile phone application Few Touch Application (FTA) in the regular version, with Diastat turned on in week 12 post-enrollment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Diastat</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Few Touch Application with Diastat module turned on in week 4 post-enrollment.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Few Touch Application</intervention_name>
+    <description>Users get access to the regular version of the Few Touch Application for Type 1 Diabetes.</description>
+    <arm_group_label>Delayed Diastat</arm_group_label>
+    <arm_group_label>Diastat</arm_group_label>
+    <other_name>Diabetesdagboka</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Diastat</intervention_name>
+    <description>Users get the Few Touch Application with Diastat module activated.</description>
+    <arm_group_label>Delayed Diastat</arm_group_label>
+    <arm_group_label>Diastat</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Confirmed diagnosis with Diabetes Mellitus type 1 for at least one year.
+
+          -  Age over 18 years
+
+          -  Has basic familiarity with mobile phones, and uses mobile phone on a daily basis.
+
+        Exclusion Criteria:
+
+          -  Severe complications due to their diabetes.
+
+          -  Unable to understand or conform to the guidelines when presented with the phone's
+             software.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Stein Olav Skrøvseth, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Hospital of North Norway</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University Hopital of North Norway</name>
+      <address>
+        <city>Tromsø</city>
+        <zip>9038</zip>
+        <country>Norway</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Norway</country>
+  </location_countries>
+  <reference>
+    <citation>Skrøvseth SO, Årsand E, Godtliebsen F, Hartvigsen G. Mobile phone-based pattern recognition and data analysis for patients with type 1 diabetes. Diabetes Technol Ther. 2012 Dec;14(12):1098-104. doi: 10.1089/dia.2012.0160. Epub 2012 Oct 4.</citation>
+    <PMID>23035775</PMID>
+  </reference>
+  <reference>
+    <citation>Skrøvseth SO, Arsand E, Godtliebsen F, Joakimsen RM. Model driven mobile care for patients with type 1 diabetes. Stud Health Technol Inform. 2012;180:1045-9.</citation>
+    <PMID>22874353</PMID>
+  </reference>
+  <reference>
+    <citation>Årsand E, Frøisland DH, Skrøvseth SO, Chomutare T, Tatara N, Hartvigsen G, Tufano JT. Mobile health applications to assist patients with diabetes: lessons learned and design implications. J Diabetes Sci Technol. 2012 Sep 1;6(5):1197-206. Review.</citation>
+    <PMID>23063047</PMID>
+  </reference>
+  <reference>
+    <citation>Skrøvseth SO, Bellika JG, Godtliebsen F. Causality in scale space as an approach to change detection. PLoS One. 2012;7(12):e52253. doi: 10.1371/journal.pone.0052253. Epub 2012 Dec 27.</citation>
+    <PMID>23300626</PMID>
+  </reference>
+  <reference>
+    <citation>Skrøvseth SO, Årsand E, Godtliebsen F, Joakimsen RM. Model-driven diabetes care: study protocol for a randomized controlled trial. Trials. 2013 May 14;14:139. doi: 10.1186/1745-6215-14-139.</citation>
+    <PMID>23672413</PMID>
+  </reference>
+  <verification_date>August 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 11, 2013</study_first_submitted>
+  <study_first_submitted_qc>January 20, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 23, 2013</study_first_posted>
+  <results_first_submitted>June 16, 2015</results_first_submitted>
+  <results_first_submitted_qc>August 17, 2015</results_first_submitted_qc>
+  <results_first_posted type="Estimate">September 16, 2015</results_first_posted>
+  <last_update_submitted>August 17, 2015</last_update_submitted>
+  <last_update_submitted_qc>August 17, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">September 16, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diazepam</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Delayed Diastat</title>
+          <description>Mobile phone application Few Touch Application (FTA) in the regular version, with Diastat turned on in week 12 post-enrollment.
+Few Touch Application: Users get access to the regular version of the Few Touch Application for Type 1 Diabetes.
+Diastat: Users get the Few Touch Application with Diastat module activated.</description>
+        </group>
+        <group group_id="P2">
+          <title>Diastat</title>
+          <description>Few Touch Application with Diastat module turned on in week 4 post-enrollment.
+Few Touch Application: Users get access to the regular version of the Few Touch Application for Type 1 Diabetes.
+Diastat: Users get the Few Touch Application with Diastat module activated.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="15"/>
+                <participants group_id="P2" count="15"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="14"/>
+                <participants group_id="P2" count="12"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="3"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Delayed Diastat</title>
+          <description>Mobile phone application Few Touch Application (FTA) in the regular version, with Diastat turned on in week 12 post-enrollment.
+Few Touch Application: Users get access to the regular version of the Few Touch Application for Type 1 Diabetes.
+Diastat: Users get the Few Touch Application with Diastat module activated.</description>
+        </group>
+        <group group_id="B2">
+          <title>Diastat</title>
+          <description>Few Touch Application with Diastat module turned on in week 4 post-enrollment.
+Few Touch Application: Users get access to the regular version of the Few Touch Application for Type 1 Diabetes.
+Diastat: Users get the Few Touch Application with Diastat module activated.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="15"/>
+            <count group_id="B2" value="15"/>
+            <count group_id="B3" value="30"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                    <measurement group_id="B2" value="14"/>
+                    <measurement group_id="B3" value="29"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="38.3" spread="7.3"/>
+                    <measurement group_id="B2" value="41.1" spread="13.5"/>
+                    <measurement group_id="B3" value="39.7" spread="10.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                    <measurement group_id="B2" value="10"/>
+                    <measurement group_id="B3" value="19"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                    <measurement group_id="B2" value="5"/>
+                    <measurement group_id="B3" value="11"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Norway</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                    <measurement group_id="B2" value="15"/>
+                    <measurement group_id="B3" value="30"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>HbA1c</title>
+          <units>%</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8.06" spread="1.32"/>
+                    <measurement group_id="B2" value="8.33" spread="0.87"/>
+                    <measurement group_id="B3" value="8.20" spread="1.11"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Change in the Frequency of Hyper- and Hypo-glycemic Events From Baseline to Week 8-12.</title>
+        <description>The number of self-measured blood glucose values &lt; 4 mmol/L (72 mg/dL) or &gt; 15 mmol/L (270 mg/dL) will be recorded during baseline (first 4 weeks post-enrollment/start of study) and during weeks 8-12 post-enrollment for all participants.</description>
+        <time_frame>Up to 12 weeks post-enrollment</time_frame>
+        <population>14 participants in each group were active users and had sufficient data to be analyzed for the outcome.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Delayed Diastat</title>
+            <description>Mobile phone application Few Touch Application (FTA) in the regular version, with Diastat turned on in week 12 post-enrollment.
+Few Touch Application: Users get access to the regular version of the Few Touch Application for Type 1 Diabetes.
+Diastat: Users get the Few Touch Application with Diastat module activated.</description>
+          </group>
+          <group group_id="O2">
+            <title>Diastat</title>
+            <description>Few Touch Application with Diastat module turned on in week 4 post-enrollment.
+Few Touch Application: Users get access to the regular version of the Few Touch Application for Type 1 Diabetes.
+Diastat: Users get the Few Touch Application with Diastat module activated.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Change in the Frequency of Hyper- and Hypo-glycemic Events From Baseline to Week 8-12.</title>
+          <description>The number of self-measured blood glucose values &lt; 4 mmol/L (72 mg/dL) or &gt; 15 mmol/L (270 mg/dL) will be recorded during baseline (first 4 weeks post-enrollment/start of study) and during weeks 8-12 post-enrollment for all participants.</description>
+          <population>14 participants in each group were active users and had sufficient data to be analyzed for the outcome.</population>
+          <units>Events</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="14"/>
+                <count group_id="O2" value="14"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-18" lower_limit="-25" upper_limit="-13"/>
+                    <measurement group_id="O2" value="-7.5" lower_limit="-15.5" upper_limit="-.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Change in HbA1c</title>
+        <description>HbA1c will be measured at the start of the study (week 1 post-enrollment) and during the last week of intervention (week 12 for the intervention group and week 20 for the active comparator group).</description>
+        <time_frame>up to 20 weeks post-enrollment</time_frame>
+        <population>11 participants in each group met for measurement of HbA1c. Reasons for not meeting was not recorded.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Delayed Diastat</title>
+            <description>Mobile phone application Few Touch Application (FTA) in the regular version, with Diastat turned on in week 12 post-enrollment.
+Few Touch Application: Users get access to the regular version of the Few Touch Application for Type 1 Diabetes.
+Diastat: Users get the Few Touch Application with Diastat module activated.</description>
+          </group>
+          <group group_id="O2">
+            <title>Diastat</title>
+            <description>Few Touch Application with Diastat module turned on in week 4 post-enrollment.
+Few Touch Application: Users get access to the regular version of the Few Touch Application for Type 1 Diabetes.
+Diastat: Users get the Few Touch Application with Diastat module activated.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Change in HbA1c</title>
+          <description>HbA1c will be measured at the start of the study (week 1 post-enrollment) and during the last week of intervention (week 12 for the intervention group and week 20 for the active comparator group).</description>
+          <population>11 participants in each group met for measurement of HbA1c. Reasons for not meeting was not recorded.</population>
+          <units>Percentage points</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="11"/>
+                <count group_id="O2" value="11"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.57" lower_limit="-1.1" upper_limit="-.05"/>
+                    <measurement group_id="O2" value="-0.63" lower_limit="-1.02" upper_limit="-0.24"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Usability</title>
+        <description>System Usability Scale (SUS) will be applied to assess usability of the approach and recorded during the last week of intervention (week 12 for the intervention group and week 20 for the active comparator group).</description>
+        <time_frame>up to 20 weeks post-enrollment</time_frame>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Empowerment</title>
+        <description>Diabetes Empowerment Scale-Short Form (DES-SF) will be used to assess empowerment at the start of the study (week 1 post-enrollment) and during week 12 of intervention.</description>
+        <time_frame>Up to 12 weeks post-enrollment.</time_frame>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Delayed Diastat</title>
+          <description>Mobile phone application Few Touch Application (FTA) in the regular version, with Diastat turned on in week 12 post-enrollment.
+Few Touch Application: Users get access to the regular version of the Few Touch Application for Type 1 Diabetes.
+Diastat: Users get the Few Touch Application with Diastat module activated.</description>
+        </group>
+        <group group_id="E2">
+          <title>Diastat</title>
+          <description>Few Touch Application with Diastat module turned on in week 4 post-enrollment.
+Few Touch Application: Users get access to the regular version of the Few Touch Application for Type 1 Diabetes.
+Diastat: Users get the Few Touch Application with Diastat module activated.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="15"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="15"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="15"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="15"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Stein Olav Skrøvseth</name_or_title>
+      <organization>Norwegian Center for Integrated Care and Telemedicine</organization>
+      <phone>+4795805841</phone>
+      <email>stein.olav.skrovseth@telemed.no</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

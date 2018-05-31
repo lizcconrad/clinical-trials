@@ -1,0 +1,618 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01351064</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CHICA_ADHD_Study</org_study_id>
+    <secondary_id>R01LM010031</secondary_id>
+    <nct_id>NCT01351064</nct_id>
+  </id_info>
+  <brief_title>Using Computers to Assist in the Diagnosis and Treatment of Attention-deficit/Hyperactivity Disorder (ADHD)</brief_title>
+  <official_title>Using Computers to Assist in the Diagnosis and Treatment of Attention-deficit/Hyperactivity Disorder (ADHD)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Indiana University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Library of Medicine (NLM)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Indiana University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Attention-deficit/hyperactivity disorder (ADHD) is the most commonly diagnosed behavioral
+      disorder in children. Prevalence rates in the United States range from 2% to 18% depending on
+      diagnostic criteria and population studied. Primary care physicians, especially
+      pediatricians, have historically played a large role in the diagnosis and treatment of ADHD.
+      Despite the existence of authoritative guidelines to assist primary care physicians, ample
+      evidence demonstrates that they continue to diagnose and treat this disorder suboptimally.
+      This is due, in part, to a lack of training and cumbersome delivery system designs. Modern
+      computer decision support strategies offer the best hope of equipping general practitioners
+      to deal with the mental health epidemic of ADHD.
+
+      The investigators have developed a novel decision support system for implementing clinical
+      guidelines in pediatric practice. CHICA (Child Health Improvement through Computer
+      Automation) combines three elements: (1) pediatric guidelines encoded in Arden Syntax; (2) a
+      dynamic, scannable paper user interface; and (3) an HL7-compliant interface to existing
+      electronic medical record systems. The result is a system that both delivers &quot;just-in-time&quot;
+      patient-relevant guidelines to physicians during the clinical encounter, and accurately
+      captures structured data from all who interact with it. Preliminary work with CHICA has
+      demonstrated the feasibility of using the system to implement and evaluate clinical
+      guidelines. The investigators propose to expand CHICA to include ADHD diagnosis and treatment
+      guidelines. The investigators hypothesize that implementation of the ADHD guidelines will
+      result in better outcomes, including higher rates of adherence to recommendations and
+      improved patient functioning.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Attention-deficit/hyperactivity disorder (ADHD) is the most commonly diagnosed behavioral
+      disorder in children. Prevalence rates in the United States range from 2% to 18% depending on
+      diagnostic criteria and population studied. Primary care physicians, especially
+      pediatricians, have historically played a large role in the diagnosis and treatment of ADHD.
+      Despite the existence of authoritative guidelines to assist primary care physicians, ample
+      evidence demonstrates that they continue to diagnose and treat this disorder suboptimally.
+      This is due, in part, to a lack of training and cumbersome delivery system designs. Modern
+      computer decision support strategies offer the best hope of equipping general practitioners
+      to deal with the mental health epidemic of ADHD.
+
+      The investigators have developed a novel decision support system for implementing clinical
+      guidelines in pediatric practice. CHICA (Child Health Improvement through Computer
+      Automation) combines three elements: (1) pediatric guidelines encoded in Arden Syntax; (2) a
+      dynamic, scannable paper user interface; and (3) an HL7-compliant interface to existing
+      electronic medical record systems. The result is a system that both delivers &quot;just-in-time&quot;
+      patient-relevant guidelines to physicians during the clinical encounter, and accurately
+      captures structured data from all who interact with it. Preliminary work with CHICA has
+      demonstrated the feasibility of using the system to implement and evaluate clinical
+      guidelines. The investigators propose to expand CHICA to include ADHD diagnosis and treatment
+      guidelines. The investigators hypothesize that implementation of the ADHD guidelines will
+      result in better outcomes, including higher rates of adherence to recommendations and
+      improved patient functioning.
+
+      The specific research aims of this proposal are:
+
+      Aim 1: Expand and modify an existing computer-based decision support system (CHICA) to
+      include ADHD treatment and diagnosis guideline rules as well as the capability to fax data
+      directly into the medical record.
+
+      Aim 2: Evaluate the effect of the CHICA system on the processes of ADHD care in pediatric
+      practices, including adherence to guidelines for ADHD treatment and diagnosis.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2010</start_date>
+  <completion_date type="Actual">July 2012</completion_date>
+  <primary_completion_date type="Actual">July 2012</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Children Diagnosed With ADHD With Structured Diagnostic Assessment</measure>
+    <time_frame>one year</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percent of Patients Receiving ADHD Care Component</measure>
+    <time_frame>one year</time_frame>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">84</enrollment>
+  <condition>Attention Deficit Hyperactivity Disorder</condition>
+  <arm_group>
+    <arm_group_label>CHICA ADHD Module</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This arm received The CHICA ADHD Module</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>CHICA ADHD Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>This arm received CHICA without the ADHD module</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>CHICA ADHD Module</intervention_name>
+    <description>This module was added to CHICA to help diagnose and manage ADHD</description>
+    <arm_group_label>CHICA ADHD Module</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Child between age 5 and 12 years seen in one of our clinics
+
+        Exclusion Criteria:
+
+          -  Child outside the age range or who is not seen in one of our clinics.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>5 Years</minimum_age>
+    <maximum_age>12 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Aaron E Carroll, MD, MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Indiana University School of Medicine</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Children's Health Services Research</name>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <zip>46202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 9, 2011</study_first_submitted>
+  <study_first_submitted_qc>May 9, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 10, 2011</study_first_posted>
+  <results_first_submitted>November 17, 2015</results_first_submitted>
+  <results_first_submitted_qc>November 17, 2015</results_first_submitted_qc>
+  <results_first_posted type="Estimate">December 18, 2015</results_first_posted>
+  <last_update_submitted>December 18, 2015</last_update_submitted>
+  <last_update_submitted_qc>December 18, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 25, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Indiana University</investigator_affiliation>
+    <investigator_full_name>Aaron Carroll</investigator_full_name>
+    <investigator_title>Assoc. Prof of Pediatrics</investigator_title>
+  </responsible_party>
+  <keyword>ADHD</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Disease</mesh_term>
+    <mesh_term>Attention Deficit Disorder with Hyperactivity</mesh_term>
+    <mesh_term>Hyperkinesis</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>CHICA ADHD Module</title>
+          <description>This arm received The Child Health Improvement through Computer Automation (CHICA) Attention Deficit Hyperactivity Disorder (ADHD) Module
+CHICA ADHD Module: This module was added to CHICA to help diagnose and manage ADHD</description>
+        </group>
+        <group group_id="P2">
+          <title>CHICA ADHD Control</title>
+          <description>This arm received CHICA without the ADHD module</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="42"/>
+                <participants group_id="P2" count="42"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="42"/>
+                <participants group_id="P2" count="42"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>CHICA ADHD Module</title>
+          <description>This arm received The CHICA ADHD Module
+CHICA ADHD Module: This module was added to CHICA to help diagnose and manage ADHD</description>
+        </group>
+        <group group_id="B2">
+          <title>CHICA ADHD Control</title>
+          <description>This arm received CHICA without the ADHD module</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="42"/>
+            <count group_id="B2" value="42"/>
+            <count group_id="B3" value="84"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="42"/>
+                    <measurement group_id="B2" value="42"/>
+                    <measurement group_id="B3" value="84"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13"/>
+                    <measurement group_id="B2" value="11"/>
+                    <measurement group_id="B3" value="24"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="29"/>
+                    <measurement group_id="B2" value="31"/>
+                    <measurement group_id="B3" value="60"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>American Indian or Alaska Native</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Asian</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Native Hawaiian or Other Pacific Islander</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Black or African American</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="19"/>
+                    <measurement group_id="B2" value="29"/>
+                    <measurement group_id="B3" value="48"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>White</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="21"/>
+                    <measurement group_id="B2" value="9"/>
+                    <measurement group_id="B3" value="30"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>More than one race</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unknown or Not Reported</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Children Diagnosed With ADHD With Structured Diagnostic Assessment</title>
+        <time_frame>one year</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>CHICA ADHD Module</title>
+            <description>This arm received The CHICA ADHD Module
+CHICA ADHD Module: This module was added to CHICA to help diagnose and manage ADHD</description>
+          </group>
+          <group group_id="O2">
+            <title>CHICA ADHD Control</title>
+            <description>This arm received CHICA without the ADHD module</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Children Diagnosed With ADHD With Structured Diagnostic Assessment</title>
+          <units>number of kids</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="42"/>
+                <count group_id="O2" value="42"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="34"/>
+                    <measurement group_id="O2" value="16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Percent of Patients Receiving ADHD Care Component</title>
+        <time_frame>one year</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>CHICA ADHD Module</title>
+            <description>This arm received The CHICA ADHD Module
+CHICA ADHD Module: This module was added to CHICA to help diagnose and manage ADHD</description>
+          </group>
+          <group group_id="O2">
+            <title>CHICA ADHD Control</title>
+            <description>This arm received CHICA without the ADHD module</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percent of Patients Receiving ADHD Care Component</title>
+          <units>percentage of participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="42"/>
+                <count group_id="O2" value="42"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Medication adjusted</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="45"/>
+                    <measurement group_id="O2" value="33"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Reassessment of symptoms</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="50"/>
+                    <measurement group_id="O2" value="33"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Mental Health Referral</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="74"/>
+                    <measurement group_id="O2" value="55"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Mental Health Visit</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="67"/>
+                    <measurement group_id="O2" value="48"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Three months</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>CHICA ADHD Module</title>
+          <description>This arm received The CHICA ADHD Module
+CHICA ADHD Module: This module was added to CHICA to help diagnose and manage ADHD</description>
+        </group>
+        <group group_id="E2">
+          <title>CHICA ADHD Control</title>
+          <description>This arm received CHICA without the ADHD module</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="42"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="42"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="42"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="42"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Aaron Carroll</name_or_title>
+      <organization>IUSM</organization>
+      <phone>3172789696</phone>
+      <email>aaecarro@iu.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

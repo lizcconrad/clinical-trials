@@ -1,0 +1,213 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02235883</url>
+  </required_header>
+  <id_info>
+    <org_study_id>130_2012</org_study_id>
+    <nct_id>NCT02235883</nct_id>
+  </id_info>
+  <brief_title>High Performance Computing of Personalized Cardio Component Models</brief_title>
+  <acronym>HEART</acronym>
+  <official_title>High Performance Computing of Personalized Cardio Component Models</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Transilvania University of Brasov</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Spitalul Clinic de Urgenţǎ Bucureşti</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Siemens Corporate Technology Romania</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Universitatea Politehnica Bucureşti</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Transilvania University of Brasov</source>
+  <brief_summary>
+    <textblock>
+      The objective of the HEART Study is to develop a multiscale model of the coronary circulation
+      based on multimodal imaging data (angiography, echocardiography). The predictive
+      comprehensive multi-scale model, developed during this proof-of-concept study, will be used
+      for analyzing functional aspects of coronary artery disease. Model validation is performed
+      against invasive measurements
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The main objective of HEART is the development and validation of a patient-specific
+      multiscale computational model of the coronary circulation with high predictive power in
+      healthy and diseased vessels:
+
+        -  Comprehensive modeling of the anatomical and hemodynamic phenomena in the coronary
+           circulation based on input data acquired from both angiography and echocardiography;
+
+        -  Assessment of functional parameters and subsequent validation of the models;
+
+        -  High performance computing architecture for efficiently addressing the multi-scale
+           complexity, which is a critical requirement for translation into clinical decision
+           making.
+
+      Patient measurements used as input data for the multiscale models, or for validating the
+      computational results include:
+
+        -  Angiography: targeted angiographic views include LAO 30, LAO 30/20 cranial, LAO 30/20
+           caudal, RAO 30 (RCA views) and RAO 25/25 caudal, RAO 0/40 caudal, RAO 10/40 cranial, LAO
+           50/20 cranial, LAO 50/20 caudal (LCA views)
+
+        -  Echocardiography:
+
+             -  Standard apical acquisitions (2D harmonic 4-chamber, 2-chamber, 3-chamber)
+
+             -  Color flow Doppler/spectral Doppler (MR, AI, TR evaluation; CW and PW spectral
+                Doppler)
+
+             -  Three-dimensional imaging (From apical 4-chamber view one ECG-triggered real time
+                complete full volume acquisition including LV and LA - 1 acquisition at low volume
+                per second (VPS) rate and one at high VPS, real time volumetric color flow Doppler,
+                cover MV and AV).
+
+        -  Non-invasive pressure measurements: cuff-based measurements at the left and right arm,
+           before echocardiography and angiography
+
+        -  Invasive pressure measurements: rest - aortic pressure (Pa), distal pressure (Pd), Pd/Pa
+           ratio; hyperemia - aortic pressure (Pa), distal pressure (Pd), FFR (Pd/Pa)
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2014</start_date>
+  <completion_date type="Actual">January 2017</completion_date>
+  <primary_completion_date type="Actual">December 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of coronary hemodynamic indices extracted from the computational model of the coronary circulation as compared to the invasively measured indices (FFR, basal Pd/Pa)</measure>
+    <time_frame>up to 18 months</time_frame>
+    <description>Coronary hemodynamic indices (FFR, basal Pd/Pa) are measured invasively and are computed from the computational model of coronary hemodynamics. The diagnostic accuracy of the computed hemodynamic indices is evaluated against the measured hemodynamic indices.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Net reclassification index when using echocardiography data as input parameters for the computational model (in addition to the angiographic data)</measure>
+    <time_frame>up to 18 months</time_frame>
+    <description>Coronary hemodynamic indices (FFR, basal Pd/Pa) are determined from the computational model in two configurations: with and without echocardiography based input data. We evaluate the net reclassification index of the computed coronary hemodynamic indices when echocardiography based input data is used (as compared to the gold standard represented by the measured coronary hemodynamic indices).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Numerical correlation between computed and measured distal coronary pressure at rest and hyperemia</measure>
+    <time_frame>up to 18 months</time_frame>
+    <description>Distal coronary pressure at rest and hyperemia are measured invasively and are extracted from the computational model. The correlation between measured and computed quantities is evaluated.</description>
+  </secondary_outcome>
+  <enrollment type="Actual">94</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects scheduled to undergo clinically-indicated non-emergent invasive coronary
+        angiography, with suspected coronary artery disease
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  age &gt;18 years
+
+          -  providing written informed consent
+
+          -  scheduled to undergo clinically-indicated non-emergent invasive coronary angiography
+             (ICA)
+
+          -  likelihood of stenosis in one of the main coronary epicardial vessels (LAD, LCx, RCA)
+
+        Exclusion Criteria:
+
+          -  prior PCI
+
+          -  prior bypass surgery
+
+          -  prior valve surgery or replacement
+
+          -  significant arrhythmia
+
+          -  very low systolic BP (&lt;90 mmHg)
+
+          -  abnormally high HR (&gt;120 bpm)
+
+          -  significant Left Main disease
+
+          -  STEMI or NSTEMI
+
+          -  suspected microvascular disease
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Constantin Suciu, Conf. dr. ing.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Siemens Corporate Technology Romania</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Spitalul Clinic de Urgenţǎ Bucureşti</name>
+      <address>
+        <city>Bucharest</city>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Romania</country>
+  </location_countries>
+  <link>
+    <url>http://heart.unitbv.ro/</url>
+  </link>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 26, 2014</study_first_submitted>
+  <study_first_submitted_qc>September 6, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 10, 2014</study_first_posted>
+  <last_update_submitted>April 24, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 24, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 25, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Siemens Corporate Technology Romania</investigator_affiliation>
+    <investigator_full_name>Lucian Itu</investigator_full_name>
+    <investigator_title>Conf. dr. ing. Constantin Suciu</investigator_title>
+  </responsible_party>
+  <keyword>Coronary artery disease</keyword>
+  <keyword>FFR</keyword>
+  <keyword>diagnosis</keyword>
+  <keyword>computational model</keyword>
+  <keyword>non-invasive</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

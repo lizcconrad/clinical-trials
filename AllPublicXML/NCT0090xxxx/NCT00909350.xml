@@ -1,0 +1,187 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00909350</url>
+  </required_header>
+  <id_info>
+    <org_study_id>06-005272</org_study_id>
+    <nct_id>NCT00909350</nct_id>
+  </id_info>
+  <brief_title>Micro-RNA (miR) Expression in Upper Gastrointestinal Mucosal Tissue</brief_title>
+  <official_title>Micro-RNA (miR) Expression in Upper Gastrointestinal Mucosal Tissue: A Potential Target for Understanding and Preventing the Progression of Barrett's Esophagus</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Mayo Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Mayo Clinic</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a laboratory-based, exploratory study using tissue obtained from our clinical
+      practice. The purpose of this study is to confirm our ability to characterize miR expression
+      in various tissues (proximal and distal esophagus, stomach and duodenum) obtained from the
+      upper gastrointestinal tract in preparation for the study of MiR in patients with Barrett's
+      esophagus and other inflammatory conditions of the upper gastrointestinal tract.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The incidence of esophageal adenocarcinoma has increased dramatically over the past three
+      decades. These adenocarcinomas usually arise from columnar lined epithelium of the esophagus
+      known as Barrett's esophagus (BE). There is an established association between
+      gastroesophageal reflux disease (GERD) and the development of BE and esophageal
+      adenocarcinoma. In an attempt to diagnose esophageal adenocarcinoma at an earlier and more
+      treatable stage, efforts have been directed at identifying patients with BE and enrolling
+      them in surveillance protocols. Several authors have challenged this strategy since it has
+      not yet been proven to save lives and is very expensive. A major unresolved problem is the
+      fact that the clinical factors considered to be somewhat predictive of the presence or
+      absence of BE are neither sufficiently sensitive nor specific. In addition, once BE is
+      identified, predicting who may or may not progress to cancer is far from perfect. A molecular
+      understanding of why certain patients develop BE and why certain of those progress to cancer
+      is of obvious importance.
+
+      The molecular pathway from normal esophageal mucosa to Barrett's esophagus and on to
+      adenocarcinoma is not well understood. Micro-RNA (miR) RNAs have recently emerged as
+      important regulators of carcinogenesis and have not been studied in BE. We seek to confirm
+      our ability to characterize miR expression in various tissues (esophagus, stomach and
+      duodenum) obtained from the upper gastrointestinal tract in preparation for the study of MiR
+      in patients with Barrett's esophagus and other inflammatory conditions of the upper
+      gastrointestinal tract.
+
+      This study will involve collection of tissue via endoscopic biopsy in 10 patients with normal
+      endoscopic appearance from the esophagus, stomach and duodenum. Ambion miR oligonucleotide
+      arrays will be utilized to profile miRs that are specifically expressed in epithelial
+      biopsies from the duodenum, stomach, and esophagus. Total RNA will be extracted from
+      independent biopsy samples using the mirVana(R) micro RNA isolation kit from Ambion. The
+      Ambion Flash PAGE(R) electrophoresis system will be used to resolve mature miRs from the
+      larger pre-miR species. Mature miRs will be labeled and hybridized to Ambion mirVana
+      miR(R)arrays, which will be scanned to identify miRs that are regulated under these
+      circumstances. Signals from the microarrays will be processed using the R functions of
+      Bioconductor for normalization and background correction and RMA for summarization.
+      Statistical significance will be determined using Insightful S+ functions and assuming a
+      least pooled error model. Potential targets will be confirmed by northern blotting. The
+      routine histology sample will be reviewed simply to exclude other, unexpected microscopic
+      pathology. Benign histologic findings such as minor inflammation, will not exclude the
+      patient from inclusion. If there is a wide variation in miR expression, then the histology
+      might be needed to help explain such variation.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2008</start_date>
+  <completion_date type="Actual">November 2008</completion_date>
+  <primary_completion_date type="Actual">November 2008</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>miR expression between tissue from Barrett's esophagus and that from normal tissues</measure>
+    <time_frame>time it takes to have standard of care biopsies taken during one routine Upper Endoscopy</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>expression of miR in Barrett's esophagus patients with cancer in comparison to those who do not progress to cancer</measure>
+    <time_frame>time it takes to have standard of care biopsies during one routine Upper Endoscopy</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">10</enrollment>
+  <condition>Barrett's Esophagus</condition>
+  <condition>Esophageal Adenocarcinoma</condition>
+  <arm_group>
+    <arm_group_label>No treatment</arm_group_label>
+    <description>genetic research project; to meet inclusion criteria, participants must have normal upper GI tract upon upper endoscopy, for study biopsies to be taken</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      biopsy tissue from proximal and distal esophagus, stomach and duodenum
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Study subjects identified from individuals referred for upper endoscopy at Mayo Clinic in
+        Jacksonville, Florida
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  willingness to give consent
+
+          -  normal gross appearance of the esophagus, stomach and duodenum
+
+        Exclusion Criteria:
+
+          -  contraindication to mucosal biopsy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kenneth R. DeVault,, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Mayo Clinic, Jacksonville, Florida</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Mayo Clinic</name>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <zip>32224</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 27, 2009</study_first_submitted>
+  <study_first_submitted_qc>May 27, 2009</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 28, 2009</study_first_posted>
+  <last_update_submitted>February 11, 2015</last_update_submitted>
+  <last_update_submitted_qc>February 11, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">February 12, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Mayo Clinic</investigator_affiliation>
+    <investigator_full_name>Kenneth R. DeVault, M.D.</investigator_full_name>
+    <investigator_title>Professor and Chair, Department of Medicine, Mayo Clinic, Jacksonville Florida</investigator_title>
+  </responsible_party>
+  <keyword>Barrett's esophagus</keyword>
+  <keyword>BE</keyword>
+  <keyword>esophageal adenocarcinoma</keyword>
+  <keyword>Micro-RNA</keyword>
+  <keyword>miR expression</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Adenocarcinoma</mesh_term>
+    <mesh_term>Barrett Esophagus</mesh_term>
+    <mesh_term>Esophageal Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

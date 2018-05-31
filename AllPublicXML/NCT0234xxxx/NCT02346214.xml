@@ -1,0 +1,245 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02346214</url>
+  </required_header>
+  <id_info>
+    <org_study_id>OPP1119360</org_study_id>
+    <nct_id>NCT02346214</nct_id>
+  </id_info>
+  <brief_title>Smartphone Ophthalmoscope of Lens Vascularity to Estimate Gestational Age</brief_title>
+  <official_title>Smartphone Ophthalmoscope Lens Vascularity Estimated Gestational Age (SOLVE-GA)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>RTI International</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of North Carolina, Chapel Hill</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Loma Linda University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Iowa</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>RTI International</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to develop a novel, highly automated method of gestational age
+      estimation at delivery combining anterior lens capsule vascularity (ALCV) and biophysical
+      parameters appropriate for use in low income countries. The specific aims of the proposed
+      study are: (1) To develop an algorithm to predict gestational age at delivery from 26 to 42
+      weeks' gestation with ALCV and key biophysical parameters (2)To evaluate the performance of
+      ALCV and biophysical parameter-based gestational age estimates. Specifically, we hypothesize
+      that the accuracy of the predictive algorithm will be comparable to commonly used measures of
+      gestational age dating (±2 days) and have better precision (±14 days) than commonly used
+      measures of gestational age dating.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Postnatal gestational age dating methods are needed in low/middle income settings as
+      ultrasound is often unavailable, last menstrual dates uncertain, and physical/neurological
+      scoring complex. The disappearance of anterior lens capsule vascularity (ALCV), a normal
+      embryological process, has a high correlation with gestational age at delivery among preterm
+      neonates. We will use an observational method-comparison study to establish the validity of
+      smartphone ophthalmoscope ALCV gestational age estimates among preterm infants at delivery
+      compared to the referent standard of ultrasound gestational age estimates. Study objectives
+      and methods include the following: Objective 1. Develop an ALCV biomarker dataset from
+      smartphone ophthalmoscope images using automated image analysis software. The dataset will
+      include image features including: vessel quantity, lens clearing, tortuosity, vessel
+      thickness, and branching angles and coefficients. Methods: (1) capture ALCV images via
+      smartphone ophthalmoscope within 24 hours of delivery, and (2) segment ALCV images using
+      software developed for the assessment of retinal vasculature. Proposed software will convert
+      images into graphs and automatically find the vasculature based on the Dijkstra's
+      shortest-path algorithm. The proposed software is tested for video-indirect neonatal
+      ophthalmoscope images. Objective 2. Develop an algorithm to predict gestational age at
+      delivery from 26 to 42 weeks' gestation with the ALCV biomarker dataset combined with key
+      neonatal biophysical measures. Methods: (1) conduct descriptive and univariate analyses of
+      predictors and assess linear model assumptions, and (2) fit a constrained linear regression
+      model by selecting and shrinking estimated model coefficients from a fully specified model in
+      the original sample to optimize predictive accuracy and model parsimony. Objective 3. Assess
+      the performance of ALCV gestational age estimates compared to referent standard ultrasound
+      estimates. Methods: (1) compare distributions of gestational age and the mean difference in
+      days between dating methods, (2) test agreement between dating methods using Lin's
+      concordance correlation coefficient and Bland-Altman plots with limits of agreement (3)
+      internally validate test agreement using a bootstrap procedure for optimism correction of the
+      agreement statistics. All statistical analyses will be performed in SAS 9.4 (SAS, Cary, North
+      Carolina, USA).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 2016</start_date>
+  <completion_date type="Actual">November 30, 2017</completion_date>
+  <primary_completion_date type="Actual">November 30, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Anterior lens capsule vascularity estimated gestational age</measure>
+    <time_frame>Within 24 hours of delivery</time_frame>
+    <description>The gestational age is estimated by eye lens vascularity measurement</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">252</enrollment>
+  <condition>Gestational Age</condition>
+  <arm_group>
+    <arm_group_label>Preterm and term neonates</arm_group_label>
+    <description>A. Preterm and term neonates B. Singleton live births between 26 and 42 weeks gestation (determined by first of early-second trimester ultrasound dating) at three referral hospitals</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Singleton live births between 26 and 42 weeks' gestation (determined by first or
+        early-second trimester ultrasound dating)
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Gestational age 260/7 to 426/7 weeks (based on antenatal ultrasound &lt;20 weeks
+             gestation)
+
+               -  Chronological age &lt;24 hours
+
+               -  Consent of the patient's parents or legal guardians
+
+        Exclusion Criteria:
+
+          -  Fused eyelids
+
+          -  Corneal opacity or cataract
+
+          -  Obstetrical ultrasound performed at &lt;20 weeks' gestation not performed/not available
+
+          -  Known genetic/congenital anomalies
+
+          -  Known coagulopathies
+
+          -  Patients who, in the opinion of the attending physician or clinical study staff, are
+             too medically unstable to participate in the study safely
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>24 Hours</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jennifer Griffin, Ph.D. M.P.H.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>RTI International</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Loma Linda University Children's Hospital</name>
+      <address>
+        <city>Loma Linda</city>
+        <state>California</state>
+        <zip>92345</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Iowa Children's Hospital</name>
+      <address>
+        <city>Iowa City</city>
+        <state>Iowa</state>
+        <zip>45542</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of North Carolina at Chapel Hill North Carolina Children's Hospital</name>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <zip>27599-2200</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Altman, D. G. and J. M. Bland (1983).</citation>
+  </reference>
+  <reference>
+    <citation>Bland, J. M. and D. G. Altman (2010).</citation>
+  </reference>
+  <reference>
+    <citation>Blencowe H, Cousens S, Chou D, Oestergaard M, Say L, Moller AB, Kinney M, Lawn J; Born Too Soon Preterm Birth Action Group. Born too soon: the global epidemiology of 15 million preterm births. Reprod Health. 2013;10 Suppl 1:S2. doi: 10.1186/1742-4755-10-S1-S2. Epub 2013 Nov 15. Review.</citation>
+    <PMID>24625129</PMID>
+  </reference>
+  <reference>
+    <citation>Concato, J., P. Peduzzi, T. R. Holford and A. R. Feinstein (1995). Estrada, R., C. Tomasi, M. T. Cabrera, D. K. Wallace, S. F. Freedman and S. Farsiu (2011).</citation>
+  </reference>
+  <reference>
+    <citation>Estrada R, Tomasi C, Cabrera MT, Wallace DK, Freedman SF, Farsiu S. Exploratory Dijkstra forest based automatic vessel segmentation: applications in video indirect ophthalmoscopy (VIO). Biomed Opt Express. 2012 Feb 1;3(2):327-39. doi: 10.1364/BOE.3.000327. Epub 2012 Jan 18.</citation>
+    <PMID>22312585</PMID>
+  </reference>
+  <reference>
+    <citation>Hittner HM, Gorman WA, Rudolph AJ. Examination of the anterior vascular capsule of the lens: II. Assessment of gestational age in infants small for gestational age. J Pediatr Ophthalmol Strabismus. 1981 Mar-Apr;18(2):52-4.</citation>
+    <PMID>7195426</PMID>
+  </reference>
+  <reference>
+    <citation>Hittner HM, Hirsch NJ, Rudolph AJ. Assessment of gestational age by examination of the anterior vascular capsule of the lens. J Pediatr. 1977 Sep;91(3):455-8.</citation>
+    <PMID>894419</PMID>
+  </reference>
+  <reference>
+    <citation>Nagpal J, Kumar A, Ramji S. Anterior lens capsule vascularity in evaluating gestation in small for gestation neonates. Indian Pediatr. 2004 Aug;41(8):817-21.</citation>
+    <PMID>15347869</PMID>
+  </reference>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 20, 2015</study_first_submitted>
+  <study_first_submitted_qc>January 23, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 26, 2015</study_first_posted>
+  <last_update_submitted>January 12, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 12, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 17, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Gestational Age</keyword>
+  <keyword>Anterior Lens Capsule Vascularity</keyword>
+  <keyword>Preterm</keyword>
+  <keyword>Method-comparison</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,175 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02360241</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DCIC 14-36</org_study_id>
+    <nct_id>NCT02360241</nct_id>
+  </id_info>
+  <brief_title>Light Needle Positioning Robot Under MRI Guidance</brief_title>
+  <acronym>LPRobacus</acronym>
+  <official_title>LPRobacus: Light Needle Positioning Robot Under MRI Guidance</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Grenoble</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>TIMC-IMAG</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Grenoble</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aim is to evaluate the needle positioning precision, compared to the real path
+      planned by the physician on healthy voluntaries, by positioning a fictional needle, without
+      inserting it.
+
+      Additionally, this study will evaluate:
+
+        -  the robot precision,
+
+        -  the robot detection robustness,
+
+        -  the software and device ergonomics,
+
+        -  the device security.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>February 2015</start_date>
+  <completion_date type="Actual">October 2015</completion_date>
+  <primary_completion_date type="Actual">March 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Amount of needle positioning needed to reach the real path wanted, with a 5mm precision (cylinder diameter including the path defined by the two skin marker and the need axe).</measure>
+    <time_frame>1hour20minutes</time_frame>
+    <description>evaluate the real needle positioning precision: the robot effectiveness</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of time in percentage of failed robot use.</measure>
+    <time_frame>1hour20minutes</time_frame>
+    <description>evaluate the robot detection robustness</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of time in percentage of failed fixation of the robot over the patient.</measure>
+    <time_frame>1hour20minutes</time_frame>
+    <description>match of the robot fixation system</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Score from a qualitative evaluation scale of the healthy voluntary discomfort during robot use and the score from a scale of the physician satisfaction (girth, ease, speed).</measure>
+    <time_frame>1hour20minutes</time_frame>
+    <description>device and software ergonomics</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of time in percentage that the robot was stopped (voluntary/dysfonctionnement) during its use</measure>
+    <time_frame>1hour20minutes</time_frame>
+    <description>Device security</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Magnetic Resonance Imaging</condition>
+  <condition>Robotic Surgical Procedures</condition>
+  <arm_group>
+    <arm_group_label>Robot</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A robot will be used and it's position will be evaluated</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Robot</intervention_name>
+    <description>Use of the robot to locate the fictional needle</description>
+    <arm_group_label>Robot</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  person over 18 years old,
+
+          -  person with height is under 1m90,
+
+          -  person with abdomen height is under 28 cm,
+
+          -  person with abdomen width is between 26 cm to 50 cm,
+
+          -  person able to hold his breath during 30 seconds,
+
+          -  person affiliated to social security or similarly regime,
+
+          -  signed consent for participation in the study.
+
+        Exclusion Criteria:
+
+          -  person with a contraindication for abdomen MRI,
+
+          -  claustrophobic person,
+
+          -  protected person referred to in Articles L1121-5 to L1121-8 of the Code of Public
+             Health
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ivan Bricault, PhD, Pr</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>echipon@chu-grenoble.fr</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University Hospital Grenoble</name>
+      <address>
+        <city>Grenoble</city>
+        <state>Isère</state>
+        <zip>38043</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <link>
+    <url>http://www-timc.imag.fr/</url>
+    <description>Website of TIMC-IMAG laboratory</description>
+  </link>
+  <verification_date>October 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>January 12, 2015</study_first_submitted>
+  <study_first_submitted_qc>February 4, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 10, 2015</study_first_posted>
+  <last_update_submitted>November 27, 2015</last_update_submitted>
+  <last_update_submitted_qc>November 27, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">November 30, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,161 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01586013</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PSepulveda_ke0age</org_study_id>
+    <nct_id>NCT01586013</nct_id>
+  </id_info>
+  <brief_title>the Effect Site Equilibration Time of Propofol is Age Dependant</brief_title>
+  <acronym>ke0agedep</acronym>
+  <official_title>Importance of Age as Covariable in the Requirements to Determine the Drug Plasma -Site Effect Equilibration Time for TCI Propofol Pharmacokinetic Models</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Universidad del Desarrollo</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Universidad del Desarrollo</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study obtains an effect site model for White (Modified Marsh) pharmacokinetic propofol
+      model. The plasma effect-site rate constant (ke0) obtained is affected by age.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In the Target Controlled Infusion pumps the first order plasma-effect-site steady-state rate
+      constant (ke0) links the pharmacokinetics (PK) and pharmacodynamics (PD) for a given drug and
+      it is used to predict the course of the effect and to calculate a theoretical drug
+      concentration at the effect site. The PK model for propofol recently published by White et
+      al. (derived from the Marsh model used by the Diprifusor®) include covariate as age and
+      gender to describe the pharmacokinetics but does not incorporate a ke0.
+
+      Methods: 45 healthy adult patients will be scheduled for elective surgery with standard
+      monitoring and BIS XP (Aspect) will received a White PK model-driven plasma target controlled
+      infusion of propofol ( 12 ugml-1 or 10 ugml-1 over 65 years) to be reached in 4 min. After
+      reaching the target, the infusion will be stopped obtaining a complete effect curve upon
+      patient awakening. Calculated plasma concentration and EEG data were stored every one second.
+      Loss (LOC) and recovery (ROC) of consciousness were assessed and recorded. The dynamic
+      relationship between propofol Ce and its effect as measured by BIS will be modeled with an
+      inhibitory Emax model using a population PK/PD approach with NONMEM V.
+
+      the Study take around 12 min.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2010</start_date>
+  <completion_date type="Actual">August 2011</completion_date>
+  <primary_completion_date type="Actual">August 2011</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>pharmacodynamic model for the White propofol pharmacokinetic</measure>
+    <time_frame>Bispectral index</time_frame>
+    <description>Using a propofol target controlled infusion using de White propofol model, we evaluate a complete curve of depression and recovery of the BIS</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">45</enrollment>
+  <condition>Healthy</condition>
+  <arm_group>
+    <arm_group_label>propofol infusion</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Healthy adults scheduled for elective surgery will receive a computer controlled infusion until obtain the loss of counsiousness (BIS &lt;50). After stoping the infusion we observe the emergency of anesthesia and the correspondant BIS curve. Using the complete loss and recovery curve of BIS we can describe the course of the effect of the drug. Venous sample will be taken during the study to evaluate the pharmacokinetic performance of the model.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>evaluation of propofol effect using BIS</intervention_name>
+    <description>propofol administered in target controlled infusion using the pharmacokinetic model of White</description>
+    <arm_group_label>propofol infusion</arm_group_label>
+    <other_name>evaluation of effect of intravenous di-isopropilfenol</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  ASA 1-2
+
+        Exclusion Criteria:
+
+          -  less than 70% or more than 130% ideal body mass index,
+
+          -  neurologic disorders,
+
+          -  pregnancy,
+
+          -  psychoactive medication intake during last 48 hours
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Pablo O Sepulveda, Dr</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Clinica Alemana Universidad del Desarrollo</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Clinica Alemana</name>
+      <address>
+        <city>Santiago de Chile</city>
+        <zip>7650670</zip>
+        <country>Chile</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Chile</country>
+  </location_countries>
+  <reference>
+    <citation>White M, Kenny GN, Schraag S. Use of target controlled infusion to derive age and gender covariates for propofol clearance. Clin Pharmacokinet. 2008;47(2):119-27.</citation>
+    <PMID>18193918</PMID>
+  </reference>
+  <verification_date>April 2012</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 19, 2012</study_first_submitted>
+  <study_first_submitted_qc>April 25, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 26, 2012</study_first_posted>
+  <last_update_submitted>April 25, 2012</last_update_submitted>
+  <last_update_submitted_qc>April 25, 2012</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 26, 2012</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Universidad del Desarrollo</investigator_affiliation>
+    <investigator_full_name>Pablo Sepulveda</investigator_full_name>
+    <investigator_title>Dr Med</investigator_title>
+  </responsible_party>
+  <keyword>propofol</keyword>
+  <keyword>pharmacodynamic</keyword>
+  <keyword>age</keyword>
+  <keyword>ke0</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Propofol</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

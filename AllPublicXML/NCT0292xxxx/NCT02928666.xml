@@ -1,0 +1,232 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02928666</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RambamMC-16-IH-0400-16-RMB</org_study_id>
+    <nct_id>NCT02928666</nct_id>
+  </id_info>
+  <brief_title>Integration of Guidelines for Comorbidities</brief_title>
+  <official_title>Goal-oriented Ontology-supported Methodology for Integrating Computer-interpretable Clinical Guidelines and Medical Knowledge to Support Comorbidity Management</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Rambam Health Care Campus</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Haifa</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Rambam Health Care Campus</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Introduction: in the course of the research, the investigators will develop a
+      decision-support system (comorbidity-DSS) consisting (1) a knowledge base (KB) consisting of
+      (a) computer-interpretable clinical guidelines for type 2 diabetes and 2 other diseases from:
+      obstructive pulmonary disease, osteoporosis, hypertension, and osteoarthritis; and (b) an
+      ontology of relevant general medical knowledge that could complement (a) in order to propose
+      non conflicting treatment options not mentioned in the clinical practice guidelines; and (2)
+      an algorithm that matches the KB with a patient's data set to identify the guidelines-based
+      recommendations applicable for the patient and their interactions and which proposes ways to
+      mitigate conflicting interactions (e.g., suggesting to select intervention A.2 (instead of
+      A.1) from guideline A and intervention B.3 (instead of B.1) from guideline B together with an
+      action B' mentioned in the general medical knowledge, because these interventions are not
+      conflicting yet A.3 fulfills the same goals as intervention A.1 and intervention B.3 + B'
+      together fulfill the same goal as B.1).
+
+      Research purpose: Assessing the correctness and completeness of detection of
+      recommendation-interaction and generation of conflict-free recommendations by a
+      comorbidity-DSS
+
+      Research question: How will the usage of the comorbidity-DSS affect the completeness and
+      correctness of clinicians regarding (a) detection of interactions between recommendations
+      originating from different clinical guidelines applicable for patients with comorbidities and
+      (b) identification of interventions that fulfill the guidelines' goals and are not
+      conflicting.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The protocol is as follows.
+
+        1. In consultation with 3 expert clinicians, the investigators will create a database of
+           patient scenarios. The investigators will obtain deidentified extracts from medical
+           records of 6-12 typical patients who have type 2 diabetes and at least one of the
+           following comorbidities: obstructive pulmonary disease, osteoporosis, hypertension, and
+           osteoarthritis will be obtained. The data obtained will include relevant observations,
+           medications, and procedures regarding these patients. Relevancy will be determined from
+           the clinical practice guidelines for the above-mentioned diseases, which specify which
+           data should be collected from such patients. The data will not include information that
+           could identify the patient, such as date of birth, name, identification number, street
+           address, telephone number.
+
+           The patient cases will be assembled into a database of scenarios, decomposed into
+           several steps, each step taking place at a different point along the clinical
+           guideline's timeline and being composed of several decision-points regarding goals of
+           the clinical guidelines. In total, there would be 60 decision points across all patient
+           scenarios.
+
+        2. Validation of the KB and creation of a gold standard. The three experienced clinicians
+           will validate the KB and will also create a gold standard set of interactions between
+           recommendations for the decision points of the patient scenarios as well as a set of
+           recommendations that fulfill the clinical guidelines' goals for these decision points
+           that are conflict-free.
+
+        3. Recruiting study participants. The investigators will send invitations to 50
+           clinicians/medical students in order to recruit at least 30 participants for our
+           experiment. The participants will be asked to solve (detect interactions and propose non
+           conflicting interventions) six scenarios. Anticipated time for solving the cases: 3
+           hours + 1 hour of introduction and signing consent documents.
+
+        4. Crossover study design will be used to compare the effect of using the comorbidity-DSS
+           for detection of recommendations interactions and on generation of correct
+           non-conflicting recommendations. Each participant will be given 6 scenarios: 3 will be
+           solved with the aid of the system and 3 without it. Each scenario will be presented to
+           the clinicians as a series of single steps. In DSS-mode the clinicians will be presented
+           with the output of the comorbidity-DSS for each step, including the list of interactions
+           between recommendations originating in the different clinical guidelines and the set of
+           non-conflicting recommendations that fulfill the goals of the relevant decision
+           point/goal. They will need to say for each interaction and for each non-conflicting
+           recommendation whether they accept or reject it, possibly adding some free text; in the
+           non-DSS mode, the clinicians will need to provide their set of detected interactions and
+           proposed non-conflicting recommendations after each step, in free text.
+
+        5. While the gold standard interactions and recommendations would have been created ahead
+           of time by the three clinicians from RAMBAM in step 1, it is possible that the
+           comorbidity-DSS or that the study participants will identify additional interactions and
+           non-conflicting recommendations. The three clinicians will review these as well and
+           could potentially revise the gold standard to include a richer set of interactions and
+           of non-conflicting recommendations for each set. Based on the revised gold standard,
+           completeness and correctness of the interactions detected and the non-conflicting
+           recommendations generated by the participant will be calculated, while using the
+           comorbidity-DSS vs. without it for the different steps (decisions/goals). The overall
+           completeness and correctness are percentages, and thus range from 0 to 1, relative to
+           the extended gold standard.
+
+        6. Statistical analysis will be done as follows. Assuming that total completeness and
+           correctness are two dependent variables, as they are bounded variables between zero and
+           1. Thus, a beta regression model with a logit link function will be used for the mean
+           response model; a log link function will be fitted for the precision model. This model
+           is based on the assumption that the dependent variable is beta-distributed and that its
+           mean is related to a set of regressors through a linear predictor with unknown
+           coefficients and a link function. The full model shall include three factors: (1) DSS
+           mode (DSS and Non-DSS), (2) Level of training (e.g., 1st year resident, experienced
+           resident, specialist), and (3) Scenario (as different scenarios will be used). The
+           pseudo R2 value (squared correlation of linear predictor and link-transformed response)
+           will be used to measure the overall goodness of fit of the model. A backward elimination
+           algorithm will be used to assess what are the important factors. Unlike the total
+           completeness measure, which was computed for the overall set of decision-points per
+           scenario per clinician, the investigators will also analyze the completeness measure for
+           each decision-point (e.g., &quot;order lab test&quot;), increasing resolution and looking at the
+           clinician's guideline-based action per decision; therefore, the measured variable is
+           binary, and a logistic regression with a logit link function will be used. As in the
+           previous case, the full model will include three factors; a backward elimination
+           algorithm will be used to reach the final model.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 2018</start_date>
+  <completion_date type="Anticipated">September 2019</completion_date>
+  <primary_completion_date type="Anticipated">July 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of conflicting recommendations detected out of total number of conflicts</measure>
+    <time_frame>3 hours</time_frame>
+    <description>Total number of conflicts will be defined by a gold standard prepared by medical experts from RambamMC</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Type 2 Diabetes Mellitus</condition>
+  <condition>Lung Diseases, Obstructive</condition>
+  <condition>Osteoporosis</condition>
+  <condition>Hypertension</condition>
+  <condition>Osteoarthritis</condition>
+  <arm_group>
+    <arm_group_label>DSS for recommendation interactions</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>participants may use the DSS for mitigating interactions between recommendations to detect interactions between guideline recommendations and find sets of non-conflicting recommendations. In addition, they may look at the relevant clinical guidelines and additional medical knowledge sources regarding drug-drug relationships, indications and contraindications.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No DSS</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>participants use only the relevant clinical guidelines and additional medical knowledge sources regarding drug-drug relationships, indications and contraindications to detect interactions between guideline recommendations and find sets of non-conflicting recommendations</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>DSS for mitigating interactions between recommendations</intervention_name>
+    <description>DSS that detects and mitigates interactions between recommendations, proposing a set of non-conflicting guideline recommendations</description>
+    <arm_group_label>DSS for recommendation interactions</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Medical students from Technion medical school or clinical experts from RAMBAM
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <verification_date>October 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 4, 2016</study_first_submitted>
+  <study_first_submitted_qc>October 7, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 10, 2016</study_first_posted>
+  <last_update_submitted>April 27, 2017</last_update_submitted>
+  <last_update_submitted_qc>April 27, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 28, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Rambam Health Care Campus</investigator_affiliation>
+    <investigator_full_name>Irit HOCHBERG MD</investigator_full_name>
+    <investigator_title>Researcher, Institute of Endrocrinology, RAMBAM MC</investigator_title>
+  </responsible_party>
+  <keyword>decision-support</keyword>
+  <keyword>ontology</keyword>
+  <keyword>computer-interpretable guidelines</keyword>
+  <keyword>comorbidities</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Osteoarthritis</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 2</mesh_term>
+    <mesh_term>Osteoporosis</mesh_term>
+    <mesh_term>Lung Diseases</mesh_term>
+    <mesh_term>Lung Diseases, Obstructive</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

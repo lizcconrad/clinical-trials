@@ -1,0 +1,251 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02801877</url>
+  </required_header>
+  <id_info>
+    <org_study_id>R01MH100482-01-RCTIC</org_study_id>
+    <secondary_id>R01MH100482-01</secondary_id>
+    <nct_id>NCT02801877</nct_id>
+  </id_info>
+  <brief_title>IntelliCare Study: Artificial Intelligence in a Mobile (AIM) Intervention for Depression</brief_title>
+  <acronym>AIM</acronym>
+  <official_title>Artificial Intelligence in a Mobile (AIM) Intervention for Depression</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Northwestern University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Northwestern University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate and compare a smartphone intervention for depression and anxiety
+      that uses machine learning to tailor treatment for participants with the same intervention
+      without the machine learning component. The intervention, referred to as IntelliCare,
+      delivers participant-specific treatment material and motivational messaging via a mobile
+      phone to help individuals with depression and/or anxiety. Information and data received from
+      the participant will inform the tailored treatment approach through machine learning. The
+      purpose of this study is to compare different versions of the main IntelliCare Hub App (the
+      centralized program delivery system) and participant user experience whether with the support
+      of a coach or used independently. The RCT aims to obtain information on the feasibility and
+      effectiveness of IntelliCare in improving symptoms of depression and anxiety.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Major depressive disorder (MDD) is a common mental disorder, with up to 10.3% of the
+      population experiencing the disorder in a given 12-month period. The relationship between
+      depression and anxiety has been well documented. Depression is a significant predictor of
+      future anxiety, and anxiety is a significant predictor of future onset of depression. Indeed,
+      studies find that more than 50% of all individuals with MDD also have a current anxiety
+      disorder. Although effective treatments have been developed over the years to address
+      depression and anxiety, the lack of personalization and inability to adapt to patient needs
+      or preferences contributes to poor treatment adherence and outcomes.
+
+      An intelligent treatment system was developed that uses state of the art machine learning
+      approaches within a mobile intervention application to treat MDD and anxiety. Machine
+      learning, a branch of artificial intelligence, focuses on the development of algorithms that
+      automatically improve and evolve based on collected data. The intervention, called
+      IntelliCare, uses a mobile application to continuously collect patient data and adapt
+      intervention content and motivational messaging to create a highly tailored and
+      user-responsive treatment system.
+
+      During the RCT study, 270 participants with Major Depression and/or Anxiety will use
+      IntelliCare apps for up to 8 weeks and will be invited to complete online questionnaires at
+      four follow-up time points: weeks 4 and 8 in the study program, and months 3 and 6 after the
+      study program ends. All participants will first undergo initial assessments that will include
+      a telephone interview and a series of online questionnaires about their mood. Eligible
+      participants will receive up to 8 weeks of access to the IntelliCare system, which consists
+      of apps with lessons and tools designed to teach skills for mood management. It is suggested
+      that participants utilize the mobile phone tools every day.
+
+      Participants will be randomly assigned to one of two versions of the IntelliCare Hub App,
+      which is the central delivery system for the IntelliCare program, and participants will also
+      be randomly assigned to get support from a human coach or use the IntelliCare program
+      independently.
+
+      Each week, participants assigned to work with a coach will receive a brief motivational
+      intervention. This coach will also be available to participants via email throughout the 8
+      week study. Participants randomly assigned to use the IntelliCare program independently will
+      receive an on-boarding guide to set up the IntelliCare Hub App on their phone, and
+      participants will have access to our tech support team if technical difficulties arise while
+      using the program.
+
+      Data from the RCT study will be used to examine whether: the IntelliCare program is an
+      effective intervention for reducing depressive and anxiety symptoms; the recommender system
+      will produce greater program adherence and; support from a coach or independent use might
+      affect user experience and adherence. Data collected will also be used to further develop and
+      evaluate machine learning methods for future research and deployment efforts.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2016</start_date>
+  <completion_date type="Actual">January 2018</completion_date>
+  <primary_completion_date type="Actual">January 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Factorial Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Adherence to the mobile application intervention</measure>
+    <time_frame>Participants will be followed for the duration of the 8 week trial</time_frame>
+    <description>Adherence will be defined as app usage throughout the 8 weeks.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Depression/Anxiety severity</measure>
+    <time_frame>Measured at start of treatment (baseline), week 4, week 8, month 3, and month 6.</time_frame>
+    <description>Self-reported anxiety symptom severity and self-reported depressive symptom severity. Treatment response will be defined as change from baseline through week 8.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Participant satisfaction</measure>
+    <time_frame>Participants will be followed for the duration of the 8 week trial</time_frame>
+    <description>Self-reported satisfaction, usefulness, ease of use, and ease of learning measured by the USE questionnaire</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">301</enrollment>
+  <condition>Depression</condition>
+  <condition>Anxiety</condition>
+  <arm_group>
+    <arm_group_label>IntelliCare Hub recommender, coach</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participant is randomly assigned to receive the IntelliCare Hub App with the recommender system, and receive coaching for the 8 week IntelliCare program.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>IntelliCare Hub recommender, no coach</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participant is randomly assigned to receive the IntelliCare Hub App with the recommender system, and independently use the IntelliCare program for 8 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>IntelliCare Hub no recommender, coach</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participant is randomly assigned to receive the IntelliCare Hub App without the recommender system, and receive coaching for the 8 week IntelliCare program.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>IntelliCare Hub no recommender, no coach</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participant is randomly assigned to receive the IntelliCare Hub App without the recommender system, and independently use the IntelliCare program for 8 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>IntelliCare</intervention_name>
+    <arm_group_label>IntelliCare Hub recommender, coach</arm_group_label>
+    <arm_group_label>IntelliCare Hub recommender, no coach</arm_group_label>
+    <arm_group_label>IntelliCare Hub no recommender, coach</arm_group_label>
+    <arm_group_label>IntelliCare Hub no recommender, no coach</arm_group_label>
+    <other_name>Behavioral intervention for depression &amp; anxiety via app</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Hub App with the Recommender System</intervention_name>
+    <arm_group_label>IntelliCare Hub recommender, coach</arm_group_label>
+    <arm_group_label>IntelliCare Hub recommender, no coach</arm_group_label>
+    <other_name>Recommender via IntelliCare Hub app.</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Coaching</intervention_name>
+    <arm_group_label>IntelliCare Hub recommender, coach</arm_group_label>
+    <arm_group_label>IntelliCare Hub no recommender, coach</arm_group_label>
+    <other_name>Support from coach via phone calls and messaging</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Meets criteria for clinically significant symptoms of depression or anxiety using
+             self-report measures used in screening for depression, as well as interviewer
+             administered measures to ensure symptoms are not transitory and have been present for
+             at least two weeks.
+
+          -  Is familiar with the use of mobile phones
+
+          -  Has an Android phone and is willing download the IntelliCare apps on their own device
+
+          -  Is able to speak and read English
+
+          -  Is at least 18 years of age (* Note: Depending on which state individual resides in,
+             the age to consent to research may be 19 years of age.)
+
+          -  Is able to give informed consent
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David C Mohr, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Northwestern University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Northwestern University</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 8, 2016</study_first_submitted>
+  <study_first_submitted_qc>June 15, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 16, 2016</study_first_posted>
+  <last_update_submitted>February 14, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 14, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 15, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Northwestern University</investigator_affiliation>
+    <investigator_full_name>David Mohr</investigator_full_name>
+    <investigator_title>Director, Center for Behavioral Intervention Technologies; Professor, Department of Preventive Medicine</investigator_title>
+  </responsible_party>
+  <keyword>Depression</keyword>
+  <keyword>Anxiety</keyword>
+  <keyword>Behavior Therapy</keyword>
+  <keyword>Technology Assisted</keyword>
+  <keyword>Mobile Phone</keyword>
+  <keyword>Cellular Phone</keyword>
+  <keyword>Smartphone</keyword>
+  <keyword>App</keyword>
+  <keyword>Coach</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Depression</mesh_term>
+    <mesh_term>Depressive Disorder</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,265 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01732029</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H12-02365</org_study_id>
+    <nct_id>NCT01732029</nct_id>
+  </id_info>
+  <brief_title>Calibration and Evaluation of an Audio Pulse Oximeter Sensor (AudioOx) at Ascent and Descent From Simulated Altitude</brief_title>
+  <official_title>Calibration and Evaluation of an Audio Pulse Oximeter Sensor (AudioOx) at Ascent and Descent From Simulated Altitude</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of British Columbia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of British Columbia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Pulse oximetry is a standard non-invasive method of measuring blood oxygen saturation (SpO2).
+      In developing countries, pulse oximeters are rare because of expense and electricity
+      requirements. Our ECEM group has developed the Phone Oximeter, which uses a cell phone (which
+      are widely available in developing countries) to compute and analyze information from a pulse
+      oximeter sensor. To further reduce costs, we have developed an oximeter sensor (AudioOx) that
+      plugs into the audio jack of a standard cell phone. This study aims to calibrate the AudioOx
+      by exposing 30 healthy adult volunteers to various altitudes in UBC's hypoxia chamber.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Purpose:
+
+      We at the Electrical and Computer Engineering in Medicine Group (ECEM) at the University of
+      British Columbia, Vancouver, Canada, plan to make pulse oximetry available to resource poor
+      countries by designing a low-cost, battery-powered pulse oximeter device consisting of a
+      low-cost pulse oximeter sensor connected to a cell phone. The use of cell phones as patient
+      monitors is appealing as they are widely available in many developing countries. Utilizing
+      battery power, cell phones do not rely on a continuous source of electricity. This is
+      essential, as most low-resource settings lack adequate infrastructure and thus cannot provide
+      the uninterrupted power supply required for conventional patient monitoring. Furthermore, a
+      cell phone has the efficiency, integrated display, and processing power required to analyze
+      and store the raw data derived from the pulse oximeter sensors. Data from the pulse oximeter
+      can be transmitted to referral centers for diagnostic and advisory purposes where cellular
+      and networking services permit.
+
+      Proprietary oximeter sensors and modules are expensive. To reduce cost, we are proposing to
+      develop a simple audio pulse oximeter sensor (AudioOx) that that does not require a sensor
+      module and interfaces via the audio jack of any standard cell phone. By utilizing the audio
+      jack for transmission of data from the sensor to phone, we can ensure that cell phone types
+      most common in various areas of the world are universally supported. Preliminary laboratory
+      tests showed that oximetry data from the AudioOx has sufficient signal strength and
+      resolution for extraction of heart rate and SpO2.
+
+      Hypothesis:
+
+      We hypothesize that this study will allow us to successfully calibrate the AudioOx.
+
+      Justification:
+
+      Development of pulse oximeters requires calibration and evaluation for accuracy. There is no
+      acceptable surrogate calibration tool for pulse oximeters. To quote the current International
+      Organization for Standardization (ISO) Pulse Oximetry standard document: &quot;There is today no
+      accepted method of verifying the correct calibration of a pulse oximeter probe/pulse oximeter
+      monitor combination other than testing on human beings. This is due to the complexity of the
+      optical intricacies of the interaction of light and human tissue upon which pulse oximetry
+      depends&quot;.
+
+      A previous calibration study was performed on volunteers during a concurrent study in the UBC
+      hypoxia chamber. The results demonstrated that the AudioOx can be calibrated to within the 4%
+      accuracy required by ISO. The study setup, however, was suboptimal as the measured SpO2 data
+      was predominantly hypoxic. Motion artifacts were also abundant, as the subjects had
+      unrestricted movement.
+
+      Objectives:
+
+      Our main objective is to improve the calibration of the AudioOx by:
+
+        -  Asking subjects to remain relatively immobile during data measurement.
+
+        -  Exposing subjects to a very gradual change in oxygen concentration so that measurements
+           are distributed over the entire clinical range of SpO2 (70% to 100%).
+
+        -  Using two (instead of one) clinically-approved pulse oximeters from different
+           manufacturers as secondary reference standards.
+
+      Our secondary objective is to evaluate and compare the performance of the AudioOx during
+      motion, low perfusion, and rapidly changing SpO2 by:
+
+        -  Asking the subjects to perform standardized hand and finger motions during data
+           measurement.
+
+        -  Simulating low perfusion via two methods: by partially occluding the brachial artery
+           using a blood pressure cuff and by having the patient raise their arm for two minutes
+           and using light filters to reduce the red and infra-red signals detected by the pulse
+           oximeter sensors.
+
+        -  Measuring SpO2 as the subject enters and exits the hypoxia chamber.
+
+      Research Method:
+
+      This will be a non-invasive concurrent observational study of healthy voluntary adult
+      subjects in a normobaric (sea-level atmospheric pressure) hypoxia (low oxygen) chamber.
+
+      Study subjects will be put into a hypoxic state by exposing them to normobaric hypoxia by
+      administrating an air mix containing a reduced O2 concentration. This is achieved in a
+      hypoxia chamber where O2 concentration is gradually reduced to simulate high altitude (about
+      4500 m).
+
+      The goals of the current study are very similar to another study conducted in the hypoxia
+      chamber (REB ID#H12-02362, The Camera Oximeter), the same methodology is applied. This will
+      allow recruiting subjects for both studies and will reduce the total number of subjects
+      necessary for achieving our goal.
+
+      Statistical Analysis:
+
+      Calibration of SpO2 Data from the initial set of subjects (at least 10) in the study will be
+      used to calibrate the AudioOx oximetry data. Firstly, ratio R is calculated from the red and
+      infra-red (IR) photo-absorbance signals, where
+
+      R = ( ACRED / DCRED ) / ( ACIR / DCIR )
+
+      ACRED and ACIR are pulsatile components of the red and infra-red light detected by the
+      oximeter photosensor. DCRED and DCIR are constant components of the red and infra-red light
+      detected by the oximeter photosensor.
+
+      R values are paired to the reference SpO2 values (average of the two readings from the two
+      reference pulse oximeters) and plotted on a scatter plot. Depending on the shape of the plot,
+      the R values are translated to SpO2 values using a linear equation, multiple linear
+      equations, or polynomial equations.
+
+      Evaluation of Accuracy
+
+      Readings from the oximeter sensors are grouped into six ranges (70-75%, 76-80%, 81-85%,
+      86-90%, 91-95% and 96-100%). For each range of SpO2 and the overall range (70-100%) accuracy
+      will be calculated as per ISO definitions:
+
+      Accuracy of the pulse oximeter shall be stated in terms of the root-mean-square (rms)
+      difference between AudioOx values (SpO2i) and reference values (SRi), as given by:
+
+      Arms = √((∑i=1 to n(SpO2i- SRi)^2 )/n)
+
+      To express Accuracy relative to the &quot;gold-standard&quot; blood gas analysis, the error of the
+      secondary standard pulse oximeter (errorref) will be included:
+
+      Accuracy = √(Arms^2 + error(ref)^2)
+
+      Motion &amp; low perfusion will be quantified by the proportion of time that the test
+      measurements either gave no readings or were more than 4% different from the corresponding
+      control measurements.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2013</start_date>
+  <completion_date type="Actual">August 2013</completion_date>
+  <primary_completion_date type="Actual">August 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Oxygen saturation</measure>
+    <time_frame>Across 3 hours</time_frame>
+    <description>Accurately calibrated AudioOx for measuring oxygen saturation</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Heart rate</measure>
+    <time_frame>Across 3 hours</time_frame>
+    <description>Accurately calibrated AudioOx for measuring heart rate</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Blood Oxygen Saturation Level</condition>
+  <condition>Heart Rate</condition>
+  <arm_group>
+    <arm_group_label>Normobaric hypoxia chamber</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Study subjects will be put into a hypoxic state by exposing them to normobaric hypoxia by administrating an air mix containing a reduced O2 concentration. This is achieved in a hypoxia chamber where O2 concentration is gradually reduced to simulate high altitude (about 4500 m).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Normobaric hypoxia chamber</intervention_name>
+    <arm_group_label>Normobaric hypoxia chamber</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Non-smokers
+
+          -  UBC students age 18 and older or non-university students age 19 and older
+
+          -  No medical history of respiratory, cardiovascular and neurological problems (capable
+             of undergoing controlled hypoxemia down to SpO2 of 70%).
+
+        Exclusion Criteria:
+
+          -  Medical history including respiratory, cardiovascular and neurological problems
+
+          -  Smokers or individuals exposed to high levels of carbon monoxide that result in
+             elevated carboxyhemoglobin levels (interferes with oximetry readings)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>BC Children's Hospital</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <zip>V6H 3V4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <link>
+    <url>http://www.part.cfri.ca</url>
+  </link>
+  <verification_date>June 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 16, 2012</study_first_submitted>
+  <study_first_submitted_qc>November 16, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 22, 2012</study_first_posted>
+  <last_update_submitted>June 22, 2017</last_update_submitted>
+  <last_update_submitted_qc>June 22, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 26, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of British Columbia</investigator_affiliation>
+    <investigator_full_name>Mark Ansermino</investigator_full_name>
+    <investigator_title>Principle Investigator</investigator_title>
+  </responsible_party>
+  <keyword>pulse oximeter</keyword>
+  <keyword>oxygen saturation</keyword>
+  <keyword>heart rate</keyword>
+  <keyword>calibration</keyword>
+  <keyword>accuracy</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

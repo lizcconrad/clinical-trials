@@ -1,0 +1,150 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01680380</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB00008533</org_study_id>
+    <nct_id>NCT01680380</nct_id>
+  </id_info>
+  <brief_title>Tracking Breathing During Sleep With Non-contact Sensors</brief_title>
+  <official_title>Tracking Breathing During Sleep With Non-contact Sensors</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Oregon Health and Science University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Oregon Health and Science University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate the feasibility of tracking breathing during sleep
+      with non-contact sensors (for example, microphones or wireless movement sensors). The
+      investigators will use the data collected with these sensors to develop algorithms for
+      tracking breathing during sleep. The investigators will assess the performance of the
+      algorithms by comparing automatic output against manually-generated labels.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Subjects will be asked to place non-contact sensors (for example, ambient microphones,
+      wireless movement sensors) in their home sleep environment. No sensors will be attached to or
+      otherwise in contact with the subject's body. The subjects will start the data collection
+      before they fall asleep, and stop the data collection the next morning when they wake. The
+      subjects will then return the sensors to the investigator for analysis.
+
+      The investigators will study the data and associated manual labeling. The investigators will
+      develop algorithms that use statistical and machine-learning methods to train computer models
+      designed to track breathing automatically. The investigators will compare the automatic
+      output against manually generated labels to determine breath-tracking accuracy.
+    </textblock>
+  </detailed_description>
+  <overall_status>Withdrawn</overall_status>
+  <why_stopped>
+    Superseded by larger funded study
+  </why_stopped>
+  <start_date>October 2012</start_date>
+  <completion_date type="Anticipated">August 2016</completion_date>
+  <primary_completion_date type="Anticipated">August 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Breathing sounds are evident in overnight audio recordings</measure>
+    <time_frame>Night of recording</time_frame>
+    <description>This study aims to track breathing during sleep using a high-quality audio interface. Our primary objective is to determine if quiet breathing sounds are visible (in the spectral domain) to trained human labelers.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">0</enrollment>
+  <condition>Sleep Apnea Syndromes</condition>
+  <condition>Snoring</condition>
+  <arm_group>
+    <arm_group_label>At-Home</arm_group_label>
+    <description>Overnight sleep at home</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Participants will be recruited from the PI's department (OHSU faculty, Ph.D. students) by
+        email and the investigators' personal acquaintances. Participants must be age 21-100 and
+        have no self-reported sleep breathing problems.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age 21-89
+
+          -  No self-reported sleep breathing problems
+
+        Exclusion Criteria:
+
+          -  Positive diagnosis for sleep breathing problem (e.g., obstructive sleep apnea)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>89 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alexander Kain, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Oregon Health and Science University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Center for Spoken Language Understanding</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97239</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 4, 2012</study_first_submitted>
+  <study_first_submitted_qc>September 6, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 7, 2012</study_first_posted>
+  <last_update_submitted>July 5, 2016</last_update_submitted>
+  <last_update_submitted_qc>July 5, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 7, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Oregon Health and Science University</investigator_affiliation>
+    <investigator_full_name>Alexander Kain</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>sleep apnea</keyword>
+  <keyword>snoring</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sleep Apnea Syndromes</mesh_term>
+    <mesh_term>Snoring</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

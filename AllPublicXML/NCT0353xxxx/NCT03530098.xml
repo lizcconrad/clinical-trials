@@ -1,0 +1,192 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03530098</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB #44764</org_study_id>
+    <nct_id>NCT03530098</nct_id>
+  </id_info>
+  <brief_title>Validation of an Artificial Intelligence-based Algorithm for Skeletal Age Assessment</brief_title>
+  <official_title>Prospective Clinical Validation of an Artificial Intelligence-based Algorithm for Skeletal Age Assessment</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Stanford University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_ppsd>No</is_ppsd>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to understand the effects of using a Artificial Intelligence
+      algorithm for skeletal age estimation as a computer-aided diagnosis (CADx) system. In this
+      prospective real-time study, the investigators will send de-identified hand radiographs to
+      the Artificial Intelligence algorithm and surface the output of this algorithm to the
+      radiologist, who will incorporate this information with their normal workflows to make a
+      diagnosis of the patient's bone age. All radiologists involved in the study will be trained
+      to recognize the surfaced prediction to be the output of the Artificial Intelligence
+      algorithm. The radiologists' diagnosis will be final and considered independent to the output
+      of the algorithm.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators are targeting to study the effect of their Artificial Intelligence
+      algorithm on the radiologists' estimation of skeletal age. Currently, radiologists make the
+      estimation using only the patients' radiographic images and health records. As part of this
+      study, the radiologists will make diagnoses about their patients using the patients'
+      radiographic images, health records, and the output of the CADx algorithm. The investigators
+      wish to understand how radiologists using the Artificial Intelligence algorithm compare to
+      radiologists who do not for the specific task of estimating skeletal age.
+
+      This study is organized as a multi-institutional randomized control trial with two arms -
+      experiment (receiving the Artificial Intelligence algorithm's output) and control (no
+      intervention). Both of these arms will be compared to a clinical reference standard (&quot;gold
+      standard&quot;) composed of a panel of radiologists. The metric of comparison will be Mean
+      Absolute Distance (MAD) and Root-Mean-Square (RMS) error. The investigators plan to use
+      statistical tests such as the t-test to determine any statistically-significant difference in
+      skeletal age estimation between the two groups.
+
+      The investigators hope to recruit and analyze data from a sample size of 1000 patients.The
+      patients will not undergo any research procedures that deviate from the current standard
+      practices.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 2018</start_date>
+  <completion_date type="Anticipated">December 2018</completion_date>
+  <primary_completion_date type="Anticipated">November 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>A hand radiograph will be randomly assigned to one of two groups - control and experiment. In the control group, participating radiologists will diagnose the case using the current standard of care (no intervention). In the experiment group, the radiologists will factor in the output of the Artificial Intelligence algorithm in their diagnosis. In all cases, the decision of the radiologist will be considered final.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Paired Difference of Skeletal Age Estimate</measure>
+    <time_frame>Through study completion, an average of 8 months</time_frame>
+    <description>The skeletal age estimates from radiologists in the experiment arm will compared to that from the radiologists in the control group. The metrics used for comparison will be Mean Absolute Difference (MAD) and Root Mean Squared (RMS), both of which will be computed against a clinical reference standard composed of expert radiologists. Intuitively, this outcome compares the &quot;accuracy&quot; of the radiologists when they are using the BoneAgeModel to when they are not.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time Saved</measure>
+    <time_frame>Through study completion, an average of 8 months</time_frame>
+    <description>Amount of time taken by radiologists when using the BoneAgeModel as compared to when they are not.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Bone Age</condition>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>This is the control arm where no intervention is provided; represents current standard of care.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Experiment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This is the experiment arm where the intervention, &quot;BoneAgeModel&quot;, is provided. The participating radiologists in this arm will receive the output of the Artificial Intelligence algorithm. They will be asked to incorporate this new information with their normal workflows to make a diagnosis. The radiologists' diagnosis will be considered final.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>BoneAgeModel</intervention_name>
+    <description>BoneAgeModel is an Artificial Intelligence tool that takes in a pediatric patient's hand radiograph and gender, and outputs their skeletal (bone) age. The intervention involves using this tool as a factor in the clinical decision making process of the participating radiologists. The radiologist's decision will be considered final.</description>
+    <arm_group_label>Experiment</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients between the age of 1 years and 18 years
+
+          -  Patients referred to get a hand radiograph taken for skeletal age assessment
+
+        Exclusion Criteria:
+
+          -  Patients with age less than 1 year or greater than 18 years
+
+          -  Patients not referred to get a hand radiograph taken for skeletal age assessment
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>1 Year</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Curtis Langlotz, M.D. Ph.D.</last_name>
+    <role>Study Chair</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>David Eng, B.S.</last_name>
+    <role>Study Director</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Nishith Khandwala, B.S.</last_name>
+    <role>Study Director</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Safwan Halabi, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Safwan Halabi, M.D.</last_name>
+    <phone>(650) 721-2850</phone>
+    <email>safwan.halabi@stanford.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Nishith Khandwala, B.S.</last_name>
+    <phone>(650) 842-0198</phone>
+    <email>nishith@cs.stanford.edu</email>
+  </overall_contact_backup>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 7, 2018</study_first_submitted>
+  <study_first_submitted_qc>May 17, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 21, 2018</study_first_posted>
+  <last_update_submitted>May 17, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 17, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 21, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stanford University</investigator_affiliation>
+    <investigator_full_name>Safwan Halabi</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Age Determination by Skeleton</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Deep Learning</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Prospective</keyword>
+  <keyword>Clinical Validation</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Individual participant data that underlie the results reported in this article after deidentification (text, tables, figures and appendices).</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

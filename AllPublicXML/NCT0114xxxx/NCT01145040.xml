@@ -1,0 +1,324 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01145040</url>
+  </required_header>
+  <id_info>
+    <org_study_id>TFC-UK10</org_study_id>
+    <secondary_id>3718-10</secondary_id>
+    <secondary_id>U1111-1122-3273</secondary_id>
+    <secondary_id>DRKS00003153</secondary_id>
+    <nct_id>NCT01145040</nct_id>
+  </id_info>
+  <brief_title>NOMOTHETICOS: Nonlinear Modelling of Thyroid Hormones' Effect on Thyrotropin Incretion in Confirmed Open-loop Situation</brief_title>
+  <acronym>NOMOTHETICOS</acronym>
+  <official_title>NOMOTHETICOS: Nonlinear Modelling of Thyroid Hormones' Effect on Thyrotropin Incretion in Confirmed Open-loop Situation. A Correlation Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ruhr University of Bochum</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Ruhr University of Bochum</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The NOMOTHETICOS study is a unicentric cross-sectional study for a quantitative analysis of
+      feedback-inhibition in the thyrotropic homeostatic control. Structural parameters are
+      obtained in vivo from open-loop analysis in patients with disconnected feedback, i.e. with
+      overt thyroid dysfunction or full dose substitution therapy with levothyroxine.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Control of thyroid hormone homeostasis is essential for function and development of the
+      organism and hence for individual health. It is therefore not surprising that the thyroid's
+      function is controlled by a complex, multi-loop feedback control system.
+
+      Today, the central component of the thyrotropic feedback control system is still poorly
+      understood on a physiological level. Therefore, in mathematical models different functional
+      relations describing the feedback-inhibition of thyrotropin incretion by thyroid hormones
+      have been suggested [Danziger and Elmergreen 1956, Roston 1959, Norwich and Reiter 1965,
+      DiStefano and Stear 1968, DiStefano 1969, Saratchandran et al. 1973, Li et al. 1995, Dietrich
+      et al. 2004, Degon et al. 2008, Jonklaas and Soldin 2008, Hörmann et al. 2010]. Most of these
+      models fail in delivering biochemical explanations for the functional interrelations they
+      postulate.
+
+      Nevertheless, some clinical applications of these models have been developed, although their
+      diagnostical potential is usually rather limited [Yagi et al. 1997, Pohlenz et al. 1999,
+      Jostel et al. 2009].
+
+      Assuming that the pituitary's response to peripheral thyroid hormones is determined by active
+      transmembrane thyroxine transport mechanisms [Dietrich et al. 2008], intracellular
+      deiodination of thyroxine (T4), binding of resulting triiodothyronine (T3) to iodothyronine
+      receptors and, finally, their inhibiting effect on mRNA expression, translation and release
+      of TRH, a novel, physiologically motivated model has been developed that is based on
+      compartment-analytical approaches, Michaelis-Menten kinetics and non competitive divisive
+      inhibition [Dietrich et al 2004]. However, this model has not been sufficiently evaluated in
+      a clinical context.
+
+      It is the aim of the NOMOTHETICOS study to deliver new systems-level insights into the
+      pituitary's thyrotropic function. This unicentric cross-sectional study compares different
+      models of feedback-inhibition by means of modern statistical methods like nonlinear
+      regression and Akaike information criterion. Structural parameters are obtained in vivo from
+      open-loop analysis in patients with disconnected feedback in equilibrium.
+
+      These parameters can serve as theoretical basis for possible future trials developing
+      advanced diagnostical evaluation methods of thyrotropic pituitary function.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date>June 2010</start_date>
+  <completion_date type="Anticipated">March 31, 2019</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Nonlinear correlation of thyrotropin levels with peripheral levothyroxine levels.</measure>
+    <time_frame>Data of individual patients are obtained one work day after consultation (to allow for laboratory investigations). Model comparison will take place immediately after the inclusion of the 100th patient.</time_frame>
+    <description>Nonlinear modeling of the pituitary response with different models (logarithmic, polynomial, non-competitive divisive inhibition). Selection of one out of different possible mathematical models that suffices an optimal combination of
+best nonlinear fit (minimal p-value),
+minimal entropy (as expressed by minimal values for Akaike information criterion, Bayesian information criterion and Hannan-Quinn information criterion) and
+best compatibility with biochemical mechanisms.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Parameters of feedback inhibition.</measure>
+    <time_frame>Data of individual patients are obtained one work day after consultation (to allow for laboratory investigations). Parameter estimation will take place immediately after the inclusion of the 100th patient.</time_frame>
+    <description>Extraction of structural parameters out of the model that has been selected (see primary outcome measure)</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Hypothyroidism</condition>
+  <condition>Hyperthyroidism</condition>
+  <arm_group>
+    <arm_group_label>Partition 1</arm_group_label>
+    <description>Overt primary hypothyroidism</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Partition 2</arm_group_label>
+    <description>Hypothyroidism with &quot;full dose&quot; levothyroxine substitution therapy (more than 1.75 µg per kg of body mass)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Partition 3</arm_group_label>
+    <description>Overt primary hyperthyroidism</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Outpatients with &quot;open-loop&quot; thyrotropic feedback control (disconnection at the site of the
+        thyroid)
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Outpatients with disconnected feedback control due to the following conditions:
+
+               -  Overt primary hypothyroidism with TSH level over 10 mU/l and FT4 level below 0.5
+                  ng/l (Partition 1)
+
+               -  Overt primary hyperthyroidism with TSH level below 0.1 mU/l and FT4 level over 25
+                  ng/l (Partition 3)
+
+               -  All other constellations, if the patient receives substitution therapy with more
+                  1.75 µg Levothyroxin per kg of body mass (Partition 2).
+
+          -  System in equilibrium (e.g. unchanged substitution dose over the past six weeks)
+
+        Exclusion Criteria:
+
+          -  Pituitary or hypothalamic dysfunction
+
+          -  Severe illness that may be associated with euthyroid sick syndrome (non-thyroidal
+             illness syndrome)
+
+          -  Medication influencing pituitary function
+
+          -  Pregnancy
+
+          -  Missing consent for participation in the study
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>14 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Johannes W Dietrich, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Medical Hospital I, Bergmannsheil University Hospitals, Ruhr University of Bochum</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Harald H Klein, M.D.</last_name>
+    <role>Study Chair</role>
+    <affiliation>Medical Hospital I, Bergmannsheil University Hospitals, Ruhr University of Bochum</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Johannes W Dietrich, M.D.</last_name>
+    <role>Study Director</role>
+    <affiliation>Medical Hospital I, Bergmannsheil University Hospitals, Ruhr University of Bochum</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Klinikum Ludwigsburg-Bietigheim</name>
+      <address>
+        <city>Bietigheim</city>
+        <state>BW</state>
+        <zip>D-74321</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Institute for diagnostical radiology, interventional radiology and nuclear medicine, Bergmannsheil University Hospitals, Ruhr University of Bochum</name>
+      <address>
+        <city>Bochum</city>
+        <state>NRW</state>
+        <zip>D-44789</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Medical Hospital I, Bergmannsheil University Hospitals, Ruhr University of Bochum</name>
+      <address>
+        <city>Bochum</city>
+        <state>NRW</state>
+        <zip>D-44789</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <reference>
+    <citation>Norwich KH, Reiter R. Homeostatic control of thyroxin concentration expressed by a set of linear differential equations. Bull Math Biophys. 1965 Jun;27(2):133-44.</citation>
+    <PMID>5832691</PMID>
+  </reference>
+  <reference>
+    <citation>DiStefano JJ 3rd, Stear EB. Neuroendocrine control of thyroid secretion in living systems: a feedback control system model. Bull Math Biophys. 1968 Mar;30(1):3-26.</citation>
+    <PMID>4969955</PMID>
+  </reference>
+  <reference>
+    <citation>DiStefano JJ 3rd. A model of the normal thyroid hormone glandular secretion mechanism. J Theor Biol. 1969 Mar;22(3):412-7.</citation>
+    <PMID>5803330</PMID>
+  </reference>
+  <reference>
+    <citation>Saratchandran P, Carson ER, Reeve J. An improved mathematical model of human thyroid hormone regulation. Clin Endocrinol (Oxf). 1976 Sep;5(5):473-83.</citation>
+    <PMID>825330</PMID>
+  </reference>
+  <reference>
+    <citation>Li G, Liu B, Liu Y. A dynamical model of the pulsatile secretion of the hypothalamo-pituitary-thyroid axis. Biosystems. 1995;35(1):83-92.</citation>
+    <PMID>7772725</PMID>
+  </reference>
+  <reference>
+    <citation>Degon M, Chipkin SR, Hollot CV, Zoeller RT, Chait Y. A computational model of the human thyroid. Math Biosci. 2008 Mar;212(1):22-53. doi: 10.1016/j.mbs.2007.10.009. Epub 2007 Nov 6.</citation>
+    <PMID>18291425</PMID>
+  </reference>
+  <reference>
+    <citation>Dietrich JW, Brisseau K, Boehm BO. [Absorption, transport and bio-availability of iodothyronines]. Dtsch Med Wochenschr. 2008 Aug;133(31-32):1644-8. doi: 10.1055/s-0028-1082780. Review. German.</citation>
+    <PMID>18651367</PMID>
+  </reference>
+  <reference>
+    <citation>Yagi H, Pohlenz J, Hayashi Y, Sakurai A, Refetoff S. Resistance to thyroid hormone caused by two mutant thyroid hormone receptors beta, R243Q and R243W, with marked impairment of function that cannot be explained by altered in vitro 3,5,3'-triiodothyroinine binding affinity. J Clin Endocrinol Metab. 1997 May;82(5):1608-14.</citation>
+    <PMID>9141558</PMID>
+  </reference>
+  <reference>
+    <citation>Pohlenz J, Weiss RE, Macchia PE, Pannain S, Lau IT, Ho H, Refetoff S. Five new families with resistance to thyroid hormone not caused by mutations in the thyroid hormone receptor beta gene. J Clin Endocrinol Metab. 1999 Nov;84(11):3919-28.</citation>
+    <PMID>10566629</PMID>
+  </reference>
+  <reference>
+    <citation>Jostel A, Ryder WD, Shalet SM. The use of thyroid function tests in the diagnosis of hypopituitarism: definition and evaluation of the TSH Index. Clin Endocrinol (Oxf). 2009 Oct;71(4):529-34. doi: 10.1111/j.1365-2265.2009.03534.x. Epub 2009 Feb 18.</citation>
+    <PMID>19226261</PMID>
+  </reference>
+  <reference>
+    <citation>Jonklaas J, Soldin SJ. Tandem mass spectrometry as a novel tool for elucidating pituitary-thyroid relationships. Thyroid. 2008 Dec;18(12):1303-11. doi: 10.1089/thy.2008.0155.</citation>
+    <PMID>19067639</PMID>
+  </reference>
+  <reference>
+    <citation>Danziger L, Elmergreen GL. The Thyroid-Pituitary Homeostatic Mechanism. Bulletin of Mathematical Biophysics 18 : 1-13, 1956.</citation>
+  </reference>
+  <reference>
+    <citation>Roston S: Mathematical Represention of Some Endocrinological Systems. Bulletin of Mathematical Biophysics, 21:271-282, 1959.</citation>
+  </reference>
+  <reference>
+    <citation>Dietrich JW,Tesche A, Pickardt, CR, Mitzdorf U. Thyrotropic Feedback Control: Evidence for an Additional Ultrashort Feedback Loop from Fractal Analysis. Cybernetics and Systems 35 (4): 315-31, 2004.</citation>
+  </reference>
+  <reference>
+    <citation>Hoermann R, Eckl W, Hoermann C, Larisch R. Complex relationship between free thyroxine and TSH in the regulation of thyroid function. Eur J Endocrinol. 2010 Jun;162(6):1123-9. doi: 10.1530/EJE-10-0106. Epub 2010 Mar 18.</citation>
+    <PMID>20299491</PMID>
+  </reference>
+  <reference>
+    <citation>Dietrich JW, Landgrafe G, Fotiadou EH. TSH and Thyrotropic Agonists: Key Actors in Thyroid Homeostasis. J Thyroid Res. 2012;2012:351864. doi: 10.1155/2012/351864. Epub 2012 Dec 30.</citation>
+    <PMID>23365787</PMID>
+  </reference>
+  <reference>
+    <citation>Dietrich JW, Leow MK, Goede SL, Midgley JE, Landgrafe G, Hoermann R. Do thyroid-stimulating hormone, body weight, or body mass index serve as adequate markers to guide levothyroxine dose titration? J Am Coll Surg. 2013 Oct;217(4):752-3. doi: 10.1016/j.jamcollsurg.2013.06.008.</citation>
+    <PMID>24054412</PMID>
+  </reference>
+  <reference>
+    <citation>Dietrich JW, Landgrafe-Mende G, Wiora E, Chatzitomaris A, Klein HH, Midgley JE, Hoermann R. Calculated Parameters of Thyroid Homeostasis: Emerging Tools for Differential Diagnosis and Clinical Research. Front Endocrinol (Lausanne). 2016 Jun 9;7:57. doi: 10.3389/fendo.2016.00057. eCollection 2016.</citation>
+    <PMID>27375554</PMID>
+  </reference>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 14, 2010</study_first_submitted>
+  <study_first_submitted_qc>June 15, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 16, 2010</study_first_posted>
+  <last_update_submitted>May 14, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 14, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 15, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Ruhr University of Bochum</investigator_affiliation>
+    <investigator_full_name>PD Dr. Johannes W. Dietrich, MD</investigator_full_name>
+    <investigator_title>Senior consultant endocrinologist</investigator_title>
+  </responsible_party>
+  <keyword>Overt primary hypothyroidism</keyword>
+  <keyword>Overt primary hyperthyroidism</keyword>
+  <keyword>Thyrotropic feedback control</keyword>
+  <keyword>Mathematical modelling</keyword>
+  <keyword>Nonlinear modelling</keyword>
+  <keyword>Thyroid</keyword>
+  <keyword>Pituitary</keyword>
+  <keyword>Physiological cybernetics</keyword>
+  <keyword>Full-dose levothyroxine substitution therapy</keyword>
+  <keyword>Syndrome T</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypothyroidism</mesh_term>
+    <mesh_term>Hyperthyroidism</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hormones</mesh_term>
+    <mesh_term>Calcitonin</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

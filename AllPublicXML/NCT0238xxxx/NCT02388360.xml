@@ -1,0 +1,354 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02388360</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MaisonneuveRH</org_study_id>
+    <nct_id>NCT02388360</nct_id>
+  </id_info>
+  <brief_title>The Impact of Topical Prostaglandins on the Biomechanical Properties of the Cornea in Patients With Open Angle Glaucoma</brief_title>
+  <official_title>The Impact of Topical Prostaglandin Analogs on the Biomechanical Properties of the Cornea in Patients With Open Angle Glaucoma</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maisonneuve-Rosemont Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Maisonneuve-Rosemont Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to determine the influence of topical prostaglandin analog (PGA)
+      medication on corneal biomechanical properties in patients undergoing PGA treatment for
+      open-angle glaucoma.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients: Thirty five patients (seventy eyes) with bilateral open angle glaucoma on
+      monotherapy with topical PGA medication in both eyes were recruited from the Montreal
+      Glaucoma Institute, Montreal, QC, Canada. Informed consent was acquired from all
+      participants. The research protocol of this study adhered to the tenets of the Declaration of
+      Helsinki. It was approved by the Maisonneuve-Rosemont Hospital Ethics committee (Montreal,
+      QC, Canada) and all patients signed a research consent form.
+
+      Study Procedures: Consenting patients undergoing topical PGA treatment in both eyes were
+      asked to discontinue the PGA in their best eye and to continue the administration of PGA in
+      the contralateral eye. All measurements were taken before PGA cessation (Visit 1) and
+      repeated 6 weeks after cessation (Visit 2). Patients then restarted the application of PGA to
+      the experimental eye and all measurements were repeated once more after an additional 6 weeks
+      (Visit 3).
+
+      The best eye was selected based on less glaucoma damages. It was defined by the results of
+      the Humphrey Visual Field (HFA, Carl Zeiss Meditec, Inc., Dublin, CA), Heidelberg Retinal
+      Tomograph (HRT II, Heidelberg Engineering GmbH, Heidelberg, Germany) and Optical Coherence
+      Tomography (CIRRUS HD-OCT, Carl Zeiss Meditec, Inc., Dublin, CA). The Humphrey Visual Field
+      defines early glaucoma as a mean defect (MD) of -2.00 to -6.00 db, moderate glaucoma as a MD
+      of -6.10 to -12.0 db and advanced as a MD less than -12.0 db. The Optical Coherence
+      Tomography enables the identification of the better linear Cup/Disk ratio, Rim area, RNFL
+      thickness and ganglion cells analysis between both of the patient's eyes. The lesser of the
+      maximum IOP values recorded in each of the patient's eyes also contributed to the selection
+      of the best eye.
+
+      Instruments: The Ocular Response Analyzer (ORA) (Reichert, INC, Depew, NY) was used to assess
+      the biomechanical properties of the cornea. This instrument utilizes a dynamic bi-directional
+      applanation process to measure the biomechanical properties of cornea and estimate IOP. A
+      rapid air pulse applies force to the cornea and an advanced electro-optical system monitors
+      corneal deformation. A precisely-metered collimated-air-pulse pushes the cornea inwards, past
+      a flat state and into a slight concavity. Milliseconds after applanation, the air pump shuts
+      off and the pressure gradually declines. As the pressure decreases, the cornea first passes
+      through an applanated state before resuming its original curved structure. The applanation
+      detection system monitors the corneal movement throughout the entire process. Two separate
+      pressure values are derived from the INWARD and OUTWARD applanation events. The difference
+      between these two pressure values is termed CH. This biomechanical property reflects corneal
+      absorption and dissipation of the energy from an applied force. Derived from the measurement
+      of CH is the Corneal resistance factor (CRF). CRF represents the cornea's ability to resist
+      deformation in the presence of an external force.
+
+      Goldmann applanation tonometry (Haag-Streit AG, Koeniz, Switzerland) is still recognized as
+      the gold standard for measuring IOP in glaucoma patients and it was performed in all patients
+      at all visits. The ORA takes the CH and CRF measurements into account to generate the
+      corneal-compensated intraocular pressure (IOPcc) value, which is mean to be less affected by
+      corneal biomechanical properties than the Goldmann-IOP. The IOP bias is estimated as the
+      difference between IOPcc and Goldmann-IOP (IOPcc - Goldmann IOP). A positive bias value
+      indicates that the IOPcc is larger than the Goldmann-IOP, meaning that Goldman tonometry
+      underestimated IOP in comparison to the IOPcc.
+
+      Four ORA measurements were taken per eye and the mean value was recorded for each parameter
+      (CH, CRF and IOPcc). Central corneal thickness (CCT) was measured by ultrasound pachymetry
+      (DGH Technology, INC, Exton, PA) and the average of three measurements was recorded. All
+      study measurements were performed by the same trained observer (RM), with the same equipment
+      and at the same time of day. All of the equipment needed for this research was calibrated
+      prior to each use.
+
+      Statistical Analysis: The hypothesis of no effect regarding the discontinuation of PGA on the
+      biomechanical properties was examined by a linear mixed-effect model using the nlme package
+      in R. Random-effects were defined on two levels: the patient (level-1) and the eye within
+      each patient (level-2). Those random-effects were added to the model to account for the
+      intra-individual variance due to the repeated-measure design. Age was also included in the
+      model as a covariate. Contrasts between the eyes and times were estimated using adjusted
+      p-values to control for familywise error rate using multcomp package in R.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>May 2013</start_date>
+  <completion_date type="Anticipated">June 2015</completion_date>
+  <primary_completion_date type="Anticipated">June 2015</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The Corneal Hysteresis (in mmHg) difference in patient with PGAs and without PGAs based on the integrated analysis of the data collected from the Reichert Ocular Response Analyzer (ORA)</measure>
+    <time_frame>12 weeks</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The intraocular pressure (in mmHg) difference in patient with PGAs and without PGAs based on the integrated analysis of the data collected from Goldmann tonometry</measure>
+    <time_frame>12 weeks</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The corneal thickness (in µm) difference in patient with PGAs and without PGAs based on the integrated analysis of the data collected from pachymetry</measure>
+    <time_frame>12 weeks</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Corneal Resistance Factor (in mmHg) difference in patient with PGAs and without PGAs based on the integrated analysis of the data collected from the Reichert Ocular Response Analyzer (ORA)</measure>
+    <time_frame>12 weeks</time_frame>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">35</enrollment>
+  <condition>Glaucoma, Open-Angle</condition>
+  <arm_group>
+    <arm_group_label>topical prostaglandin analogs</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>topical prostaglandin analogs</intervention_name>
+    <arm_group_label>topical prostaglandin analogs</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  patients with bilateral open angle glaucoma on monotherapy with topical PGA medication
+             in both eyes
+
+        Exclusion Criteria:
+
+          -  corneal disease (such as Fuchs' endothelial dystrophy or keratoconus)
+
+          -  past history of corneal trauma or surgery (including refractive surgery) that may
+             affect hysteresis measurements
+
+          -  contact lens wearers
+
+          -  uncontrolled glaucoma or advanced visual field (VF) damage (mean defect &lt; -12.0 db)
+
+          -  patients taking systemic prostaglandin medication, non-steroidal anti-inflammatory
+             drugs, or undergoing hormone replacement therapy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Paul Harasymowycz, Dr</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Maisonneuve-Rosemont Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Roman Meda, MSc</last_name>
+    <phone>1-514-663-2141</phone>
+    <email>romeda80@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Montreal Glaucoma Institut</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H1V 1G5</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Nataliya Khrushch</last_name>
+      <phone>(514) 256-0007</phone>
+      <email>nkhrushch@hotmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <reference>
+    <citation>Quigley HA, Broman AT. The number of people with glaucoma worldwide in 2010 and 2020. Br J Ophthalmol. 2006 Mar;90(3):262-7.</citation>
+    <PMID>16488940</PMID>
+  </reference>
+  <reference>
+    <citation>Terai N, Raiskup F, Haustein M, Pillunat LE, Spoerl E. Identification of biomechanical properties of the cornea: the ocular response analyzer. Curr Eye Res. 2012 Jul;37(7):553-62. doi: 10.3109/02713683.2012.669007. Epub 2012 May 4. Review.</citation>
+    <PMID>22559332</PMID>
+  </reference>
+  <reference>
+    <citation>Touboul D, Roberts C, Kérautret J, Garra C, Maurice-Tison S, Saubusse E, Colin J. Correlations between corneal hysteresis, intraocular pressure, and corneal central pachymetry. J Cataract Refract Surg. 2008 Apr;34(4):616-22. doi: 10.1016/j.jcrs.2007.11.051.</citation>
+    <PMID>18361984</PMID>
+  </reference>
+  <reference>
+    <citation>Ottino P, He J, Axelrad TW, Bazan HE. PAF-induced furin and MT1-MMP expression is independent of MMP-2 activation in corneal myofibroblasts. Invest Ophthalmol Vis Sci. 2005 Feb;46(2):487-96.</citation>
+    <PMID>15671273</PMID>
+  </reference>
+  <reference>
+    <citation>Luce DA. Determining in vivo biomechanical properties of the cornea with an ocular response analyzer. J Cataract Refract Surg. 2005 Jan;31(1):156-62.</citation>
+    <PMID>15721708</PMID>
+  </reference>
+  <reference>
+    <citation>Roberts C. The cornea is not a piece of plastic. J Refract Surg. 2000 Jul-Aug;16(4):407-13. Review.</citation>
+    <PMID>10939720</PMID>
+  </reference>
+  <reference>
+    <citation>Glass DH, Roberts CJ, Litsky AS, Weber PA. A viscoelastic biomechanical model of the cornea describing the effect of viscosity and elasticity on hysteresis. Invest Ophthalmol Vis Sci. 2008 Sep;49(9):3919-26. doi: 10.1167/iovs.07-1321. Epub 2008 Jun 6.</citation>
+    <PMID>18539936</PMID>
+  </reference>
+  <reference>
+    <citation>Roberts C. Biomechanics of the cornea and wavefront-guided laser refractive surgery. J Refract Surg. 2002 Sep-Oct;18(5):S589-92.</citation>
+    <PMID>12361163</PMID>
+  </reference>
+  <reference>
+    <citation>Detry-Morel M, Jamart J, Hautenauven F, Pourjavan S. Comparison of the corneal biomechanical properties with the Ocular Response Analyzer® (ORA) in African and Caucasian normal subjects and patients with glaucoma. Acta Ophthalmol. 2012 Mar;90(2):e118-24. doi: 10.1111/j.1755-3768.2011.02274.x. Epub 2011 Oct 11.</citation>
+    <PMID>21989354</PMID>
+  </reference>
+  <reference>
+    <citation>Congdon NG, Broman AT, Bandeen-Roche K, Grover D, Quigley HA. Central corneal thickness and corneal hysteresis associated with glaucoma damage. Am J Ophthalmol. 2006 May;141(5):868-75. Epub 2006 Mar 9.</citation>
+    <PMID>16527231</PMID>
+  </reference>
+  <reference>
+    <citation>Agarwal DR, Ehrlich JR, Shimmyo M, Radcliffe NM. The relationship between corneal hysteresis and the magnitude of intraocular pressure reduction with topical prostaglandin therapy. Br J Ophthalmol. 2012 Feb;96(2):254-7. doi: 10.1136/bjo.2010.196899. Epub 2011 Mar 24.</citation>
+    <PMID>21436180</PMID>
+  </reference>
+  <reference>
+    <citation>Tsikripis P, Papaconstantinou D, Koutsandrea C, Apostolopoulos M, Georgalas I. The effect of prostaglandin analogs on the biomechanical properties and central thickness of the cornea of patients with open-angle glaucoma: a 3-year study on 108 eyes. Drug Des Devel Ther. 2013 Oct 4;7:1149-56. doi: 10.2147/DDDT.S50622. eCollection 2013.</citation>
+    <PMID>24115838</PMID>
+  </reference>
+  <reference>
+    <citation>Shah S, Laiquzzaman M, Cunliffe I, Mantry S. The use of the Reichert ocular response analyser to establish the relationship between ocular hysteresis, corneal resistance factor and central corneal thickness in normal eyes. Cont Lens Anterior Eye. 2006 Dec;29(5):257-62. Epub 2006 Nov 7.</citation>
+    <PMID>17085066</PMID>
+  </reference>
+  <reference>
+    <citation>Detry-Morel M, Jamart J, Pourjavan S. Evaluation of corneal biomechanical properties with the Reichert Ocular Response Analyzer. Eur J Ophthalmol. 2011 Mar-Apr;21(2):138-48.</citation>
+    <PMID>20853262</PMID>
+  </reference>
+  <reference>
+    <citation>Wells AP, Garway-Heath DF, Poostchi A, Wong T, Chan KC, Sachdev N. Corneal hysteresis but not corneal thickness correlates with optic nerve surface compliance in glaucoma patients. Invest Ophthalmol Vis Sci. 2008 Aug;49(8):3262-8. doi: 10.1167/iovs.07-1556. Epub 2008 Mar 3.</citation>
+    <PMID>18316697</PMID>
+  </reference>
+  <reference>
+    <citation>Gordon MO, Beiser JA, Brandt JD, Heuer DK, Higginbotham EJ, Johnson CA, Keltner JL, Miller JP, Parrish RK 2nd, Wilson MR, Kass MA. The Ocular Hypertension Treatment Study: baseline factors that predict the onset of primary open-angle glaucoma. Arch Ophthalmol. 2002 Jun;120(6):714-20; discussion 829-30.</citation>
+    <PMID>12049575</PMID>
+  </reference>
+  <reference>
+    <citation>Lopilly Park HY, Kim JH, Lee KM, Park CK. Effect of prostaglandin analogues on tear proteomics and expression of cytokines and matrix metalloproteinases in the conjunctiva and cornea. Exp Eye Res. 2012 Jan;94(1):13-21. doi: 10.1016/j.exer.2011.10.017. Epub 2011 Nov 4.</citation>
+    <PMID>22067128</PMID>
+  </reference>
+  <reference>
+    <citation>Visse R, Nagase H. Matrix metalloproteinases and tissue inhibitors of metalloproteinases: structure, function, and biochemistry. Circ Res. 2003 May 2;92(8):827-39. Review.</citation>
+    <PMID>12730128</PMID>
+  </reference>
+  <reference>
+    <citation>Weinreb RN, Lindsey JD, Marchenko G, Marchenko N, Angert M, Strongin A. Prostaglandin FP agonists alter metalloproteinase gene expression in sclera. Invest Ophthalmol Vis Sci. 2004 Dec;45(12):4368-77.</citation>
+    <PMID>15557445</PMID>
+  </reference>
+  <reference>
+    <citation>Ottino P, Taheri F, Bazan HE. Platelet-activating factor induces the gene expression of TIMP-1, -2, and PAI-1: imbalance between the gene expression of MMP-9 and TIMP-1 and -2. Exp Eye Res. 2002 Mar;74(3):393-402.</citation>
+    <PMID>12014920</PMID>
+  </reference>
+  <reference>
+    <citation>Tao Y, Bazan HE, Bazan NG. Platelet-activating factor enhances urokinase-type plasminogen activator gene expression in corneal epithelium. Invest Ophthalmol Vis Sci. 1996 Sep;37(10):2037-46.</citation>
+    <PMID>8814143</PMID>
+  </reference>
+  <reference>
+    <citation>Lindsey JD, Kashiwagi K, Kashiwagi F, Weinreb RN. Prostaglandins alter extracellular matrix adjacent to human ciliary muscle cells in vitro. Invest Ophthalmol Vis Sci. 1997 Oct;38(11):2214-23.</citation>
+    <PMID>9344344</PMID>
+  </reference>
+  <reference>
+    <citation>Lindsey JD, Kashiwagi K, Kashiwagi F, Weinreb RN. Prostaglandin action on ciliary smooth muscle extracellular matrix metabolism: implications for uveoscleral outflow. Surv Ophthalmol. 1997 Feb;41 Suppl 2:S53-9. Review.</citation>
+    <PMID>9154277</PMID>
+  </reference>
+  <reference>
+    <citation>Mankus C, Chi C, Rich C, Ren R, Trinkaus-Randall V. The P2X(7) receptor regulates proteoglycan expression in the corneal stroma. Mol Vis. 2012;18:128-38. Epub 2012 Jan 18.</citation>
+    <PMID>22275804</PMID>
+  </reference>
+  <reference>
+    <citation>Mayo C, Ren R, Rich C, Stepp MA, Trinkaus-Randall V. Regulation by P2X7: epithelial migration and stromal organization in the cornea. Invest Ophthalmol Vis Sci. 2008 Oct;49(10):4384-91. doi: 10.1167/iovs.08-1688. Epub 2008 May 23.</citation>
+    <PMID>18502993</PMID>
+  </reference>
+  <reference>
+    <citation>Kataoka A, Tozaki-Saitoh H, Koga Y, Tsuda M, Inoue K. Activation of P2X7 receptors induces CCL3 production in microglial cells through transcription factor NFAT. J Neurochem. 2009 Jan;108(1):115-25. doi: 10.1111/j.1471-4159.2008.05744.x. Epub 2008 Nov 10.</citation>
+    <PMID>19014371</PMID>
+  </reference>
+  <reference>
+    <citation>Sagara T, Gaton DD, Lindsey JD, Gabelt BT, Kaufman PL, Weinreb RN. Topical prostaglandin F2alpha treatment reduces collagen types I, III, and IV in the monkey uveoscleral outflow pathway. Arch Ophthalmol. 1999 Jun;117(6):794-801.</citation>
+    <PMID>10369592</PMID>
+  </reference>
+  <reference>
+    <citation>Chronopoulos A, Tang A, Beglova E, Trackman PC, Roy S. High glucose increases lysyl oxidase expression and activity in retinal endothelial cells: mechanism for compromised extracellular matrix barrier function. Diabetes. 2010 Dec;59(12):3159-66. doi: 10.2337/db10-0365. Epub 2010 Sep 7.</citation>
+    <PMID>20823103</PMID>
+  </reference>
+  <reference>
+    <citation>Mathew JH, Bergmanson JP, Doughty MJ. Fine structure of the interface between the anterior limiting lamina and the anterior stromal fibrils of the human cornea. Invest Ophthalmol Vis Sci. 2008 Sep;49(9):3914-8. doi: 10.1167/iovs.07-0707.</citation>
+    <PMID>18765633</PMID>
+  </reference>
+  <reference>
+    <citation>Scott JE, Dyne KM, Thomlinson AM, Ritchie M, Bateman J, Cetta G, Valli M. Human cells unable to express decoron produced disorganized extracellular matrix lacking &quot;shape modules&quot; (interfibrillar proteoglycan bridges). Exp Cell Res. 1998 Aug 25;243(1):59-66.</citation>
+    <PMID>9716449</PMID>
+  </reference>
+  <reference>
+    <citation>He J, Bazan NG, Bazan HE. Alkali-induced corneal stromal melting prevention by a novel platelet-activating factor receptor antagonist. Arch Ophthalmol. 2006 Jan;124(1):70-8.</citation>
+    <PMID>16401787</PMID>
+  </reference>
+  <verification_date>February 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 20, 2014</study_first_submitted>
+  <study_first_submitted_qc>March 9, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 17, 2015</study_first_posted>
+  <last_update_submitted>March 9, 2015</last_update_submitted>
+  <last_update_submitted_qc>March 9, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">March 17, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Maisonneuve-Rosemont Hospital</investigator_affiliation>
+    <investigator_full_name>Dr. Paul Harasymowycz</investigator_full_name>
+    <investigator_title>Paul Harasymowycz, MD</investigator_title>
+  </responsible_party>
+  <keyword>Prostaglandin analogs</keyword>
+  <keyword>Corneal biomechanics</keyword>
+  <keyword>Corneal Hysteresis</keyword>
+  <keyword>Glaucoma, Open-Angle</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Glaucoma</mesh_term>
+    <mesh_term>Glaucoma, Open-Angle</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

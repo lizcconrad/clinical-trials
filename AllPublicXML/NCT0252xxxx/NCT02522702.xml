@@ -1,0 +1,221 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02522702</url>
+  </required_header>
+  <id_info>
+    <org_study_id>COACH</org_study_id>
+    <nct_id>NCT02522702</nct_id>
+  </id_info>
+  <brief_title>Computer Assisted Optical Assessment of Small Colorectal Polyps</brief_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Technische Universität München</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Technische Universität München</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of the study is to develop a computer program which is able to distinguish between
+      adenomatous and non- adenomatous polyps on the basis of optical features of the polyps. Still
+      images of polyps (&lt; 10 mm of size) will be collected during routine colonoscopy procedures.
+      All polyps will be resected endoscopically so that histopathological diagnoses (gold
+      standard) can be notified.
+
+      In the validation phase of the study a computer program will be established which aims to
+      distinguish between adenomatous and non- adenomatous polyps on the basis of optical features
+      derived from still images. The program will operated using the the random forest learning
+      method. Afterwards, in the testing phase of the study, still images of 100 polyps (not used
+      in the validation phase) will be presented to the computer program. The establishment of a
+      well- functioning computer program is the primary aim of the study.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Adenomas are polyps of the colorectum that have the potential to develop into colon cancer
+      [1]. However, some adenomas never become malignant and if they do, progression from adenoma
+      into cancer usually takes a long time. As a result, screening colonoscopy programs were
+      established in order to detect and resect adenomas at an early stage [2]. After resection,
+      polyps should be sent to pathology in order to make a histological diagnosis. Not every
+      colorectal polyp has adenomatous histology. Approximately 40-50% of all polyps contain other
+      benign histology (e.g. hyperplastic or inflammatory polyps). These polyps do not bear the
+      risk of colon cancer.
+
+      The implementation of screening programs has led to increasing numbers of colonoscopies in
+      the last years [3]. This approach naturally implies higher amounts of detected polyps. The
+      removal of these polyps and consultation of a pathologist in order to make a diagnosis is
+      time consuming and expensive. An optical- based prediction of polyp histology (adenomatous
+      versus non- adenomatous) would enable endoscopists to save money and to inform patients
+      faster about examination results. The approach of predicting polyp histology on the basis of
+      optical features is called the &quot;optical biopsy&quot; method. The prediction is made by the
+      endoscopists during real-time colonoscopy. The aim of this strategy is to make an optical
+      diagnosis which enables users to resect polyps without sending the specimen to pathology.
+      Narrow Band Imaging (NBI) is a light-filter device which can be switched on during
+      colonoscopy. NBI is useful to better display vascular patterns of the colon mucosa. It has
+      been shown that the use of NBI can facilitate optical classification of colorectal polyps
+      [5]. A NBI- based classification schemes exists which can be used to assign polyps into
+      specific polyp categories (adenomatous versus non- adenomatous) [6].
+
+      Prior to the implementation of the optical classification approach for routine use in
+      endoscopy it is necessary to proof its feasibility and accuracy [7]. Otherwise the approach
+      would entail the risk of wrong diagnoses which could lead to wrong recommendations on further
+      diagnostic or therapeutic steps.
+
+      Until now, some clinical trials have shown good accuracy for the optical biopsy method [5].
+      However, there is growing evidence that optical biopsy does not yet meet demanded accuracy
+      thresholds [8]. The aim of our study is to create a computer program that is able to
+      distinguish between adenomatous and non-adenomatous polyps. Still images of colorectal polyps
+      including NBI- pictures of polyps will be used for machine learning (validation phase).
+      Afterwards a set of 100 still pictures will be used to test whether the computer program is
+      able to distinguish between adenomatous and non- adenomatous polyps (primary endpoint).
+      Statistical measures (accuracy, sensitivity, specificity) will be calculated.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>August 2015</start_date>
+  <completion_date type="Anticipated">August 2017</completion_date>
+  <primary_completion_date type="Actual">January 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Assessment of the computer- made optical diagnosis of each colorectal polyp</measure>
+    <time_frame>up to 2 weeks</time_frame>
+    <description>The predicted polyp histology (made optically by the computer program) will be assessed; the predicted diagnosis will be compared with the histopathological diagnosis (gold standard) after resection of the polyp;
+(participants will be followed for the duration of hospital stay or outpatient treatment, an expected average of 2 weeks)] [Safety Issue: No] After obtaining the histopathological diagnosis of resected polyps (approximately 3 days - 2 weeks)</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">250</enrollment>
+  <condition>Colonic Polyps</condition>
+  <arm_group>
+    <arm_group_label>Routine colonoscopy Cohort</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Photography of polyps, resection of polyps</intervention_name>
+    <description>Ther is no study specific intervention. Still images will be taken if polyps are found in the colon. Polyps will then be resected routinely.</description>
+    <arm_group_label>Routine colonoscopy Cohort</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Colonic Polyps
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients undergoing routine colonoscopy
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  indication for colonoscopy
+
+          -  patients &gt;= 18 years
+
+        Exclusion Criteria:
+
+          -  pregnant women
+
+          -  indication for colonoscopy: inflammatory bowel disease
+
+          -  indication for colonoscopy: polyposis syndrome
+
+          -  indication for colonoscopy: emergency colonoscopy e.g. acute bleeding
+
+          -  contraindication for polyp resection e.g. patients on warfarin
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>II Medizinische Klinik am Klinikum rechts der Isar der Technischen Universität München München, Deutschland Germany</name>
+      <address>
+        <city>Munich</city>
+        <zip>81675</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <reference>
+    <citation>Vogelstein B, Fearon ER, Hamilton SR, Kern SE, Preisinger AC, Leppert M, Nakamura Y, White R, Smits AM, Bos JL. Genetic alterations during colorectal-tumor development. N Engl J Med. 1988 Sep 1;319(9):525-32.</citation>
+    <PMID>2841597</PMID>
+  </reference>
+  <reference>
+    <citation>Brenner H, Altenhofen L, Stock C, Hoffmeister M. Prevention, early detection, and overdiagnosis of colorectal cancer within 10 years of screening colonoscopy in Germany. Clin Gastroenterol Hepatol. 2015 Apr;13(4):717-23. doi: 10.1016/j.cgh.2014.08.036. Epub 2014 Sep 15.</citation>
+    <PMID>25218160</PMID>
+  </reference>
+  <reference>
+    <citation>Stock C, Haug U, Brenner H. Population-based prevalence estimates of history of colonoscopy or sigmoidoscopy: review and analysis of recent trends. Gastrointest Endosc. 2010 Feb;71(2):366-381.e2. doi: 10.1016/j.gie.2009.06.018. Epub 2009 Oct 20. Review.</citation>
+    <PMID>19846082</PMID>
+  </reference>
+  <reference>
+    <citation>Lopez-Ceron M, Sanabria E, Pellise M. Colonic polyps: is it useful to characterize them with advanced endoscopy? World J Gastroenterol. 2014 Jul 14;20(26):8449-57. doi: 10.3748/wjg.v20.i26.8449. Review.</citation>
+    <PMID>25024601</PMID>
+  </reference>
+  <reference>
+    <citation>ASGE Technology Committee, Abu Dayyeh BK, Thosani N, Konda V, Wallace MB, Rex DK, Chauhan SS, Hwang JH, Komanduri S, Manfredi M, Maple JT, Murad FM, Siddiqui UD, Banerjee S. ASGE Technology Committee systematic review and meta-analysis assessing the ASGE PIVI thresholds for adopting real-time endoscopic assessment of the histology of diminutive colorectal polyps. Gastrointest Endosc. 2015 Mar;81(3):502.e1-502.e16. doi: 10.1016/j.gie.2014.12.022. Epub 2015 Jan 16. Review.</citation>
+    <PMID>25597420</PMID>
+  </reference>
+  <reference>
+    <citation>Hewett DG, Kaltenbach T, Sano Y, Tanaka S, Saunders BP, Ponchon T, Soetikno R, Rex DK. Validation of a simple classification system for endoscopic diagnosis of small colorectal polyps using narrow-band imaging. Gastroenterology. 2012 Sep;143(3):599-607.e1. doi: 10.1053/j.gastro.2012.05.006. Epub 2012 May 15.</citation>
+    <PMID>22609383</PMID>
+  </reference>
+  <reference>
+    <citation>Kamiński MF, Hassan C, Bisschops R, Pohl J, Pellisé M, Dekker E, Ignjatovic-Wilson A, Hoffman A, Longcroft-Wheaton G, Heresbach D, Dumonceau JM, East JE. Advanced imaging for detection and differentiation of colorectal neoplasia: European Society of Gastrointestinal Endoscopy (ESGE) Guideline. Endoscopy. 2014 May;46(5):435-49. doi: 10.1055/s-0034-1365348. Epub 2014 Mar 17.</citation>
+    <PMID>24639382</PMID>
+  </reference>
+  <reference>
+    <citation>Kang HY, Kim YS, Kang SJ, Chung GE, Song JH, Yang SY, Lim SH, Kim D, Kim JS. Comparison of Narrow Band Imaging and Fujinon Intelligent Color Enhancement in Predicting Small Colorectal Polyp Histology. Dig Dis Sci. 2015 Sep;60(9):2777-84. doi: 10.1007/s10620-015-3661-5. Epub 2015 Apr 14.</citation>
+    <PMID>25868634</PMID>
+  </reference>
+  <verification_date>April 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 8, 2015</study_first_submitted>
+  <study_first_submitted_qc>August 11, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 13, 2015</study_first_posted>
+  <last_update_submitted>April 8, 2017</last_update_submitted>
+  <last_update_submitted_qc>April 8, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 11, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Technische Universität München</investigator_affiliation>
+    <investigator_full_name>Dr. Peter Klare</investigator_full_name>
+    <investigator_title>Dr. med. Peter Klare</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Polyps</mesh_term>
+    <mesh_term>Colonic Polyps</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

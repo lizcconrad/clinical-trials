@@ -1,0 +1,255 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03239795</url>
+  </required_header>
+  <id_info>
+    <org_study_id>001</org_study_id>
+    <secondary_id>HP 14/51</secondary_id>
+    <secondary_id>1783641 v 0</secondary_id>
+    <nct_id>NCT03239795</nct_id>
+  </id_info>
+  <brief_title>Promoting Influenza Vaccination In General Practice Waiting Rooms</brief_title>
+  <acronym>ProFluGP</acronym>
+  <official_title>Promoting Influenza Vaccination In General Practice Waiting Rooms By Posters And Pamphlets: A Registry Based Cluster Randomized Controlled Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Christophe Berkhout</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University Hospital, Lille</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Berkhout, Christophe</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Most of family physicians (FPs) use advertising in their waiting rooms in order to educate
+      patients. Our objective was to assess an advertising campaign for influenza vaccination using
+      posters and pamphlets in FPs' waiting rooms.
+
+      Registry based 2/1 cluster randomized controlled trial. Clusters gathered the listed patients
+      over the age of 16 of 75 randomized FPs. The trial was conducted during the 2014-2015
+      influenza vaccination campaign. Intervention group, 25 FPs received and exposed in their
+      waiting rooms pamphlets and one poster promoting the influenza vaccination campaign (added to
+      the usual mandatory information). Control group (50 FPs), usual waiting room. The main
+      outcome was the number of vaccination units delivered in pharmacies. Data were first
+      extracted for 2013-2015 from the SIAM-ERASME claim database of the Health Insurance Fund of
+      Lille-Douai (Northern France). The association between the intervention and the main outcome
+      was assessed trough a generalized estimating equation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Every autumn the French National Health Insurance conducts a seasonal influenza immunization
+      campaign. Since 2009, in France like in many other countries, the seasonal influenza
+      immunization uptake has been decreasing in people over 65 years of age and in people with
+      diverse target chronic diseases or pregnancy. It has remained far under the national and
+      European objective of 75%. For this reason, public advertising has been intensified (TV,
+      newspapers and magazines) and the involvement of health professionals was stimulated,
+      particularly by means of encounters with Health Insurance delegates, and posters and
+      pamphlets to be exposed in FPs' waiting rooms. We conducted a preliminary systematic review
+      (in press) to seek for publications assessing the effect of audio-visual aids in primary
+      health waiting rooms. It appears that most articles about this topic have a low level of
+      evidence and that the effect on patient health behaviour has only been assessed on surrogate
+      outcomes. The existence of an effect on behaviour change is controversial, and if any, it is
+      small sized, needing more than 10,000 subjects to be demonstrated.
+
+      Our aim is to evaluate the effect of the advertising campaign using posters and pamphlets in
+      FPs' waiting rooms on patients behaviour measuring the number of influenza vaccination units
+      delivered in community pharmacies.
+
+      We designed a single blinded 2/1 registry based cluster randomized controlled trial.
+
+      The outcome is the number of seasonal influenza vaccination sets released in community
+      pharmacies. The target population are patients over the age of 65 or having a chronic disease
+      requiring seasonal influenza immunization (like chronic obstructive pulmonary disease (COPD)
+      or diabetes). Patients are informed about the anonymous use of their data and can refuse to
+      participate at any time.
+
+      A cluster is defined as the patients over the age of 16, who are registered by the Health
+      Insurance on the participating FPs' patients' lists. A computerized random draw is used to
+      allocate FPs in each group. In the intervention group, FPs will receive and expose in their
+      waiting rooms 135 pamphlets and one poster (added to the usual mandatory information)
+      withdrawing all the other posters. In the control group, waiting rooms are kept in their
+      usual state. To evaluate the number of FPs needed for the trial, we set an interclass
+      correlation coefficient of 0.02, for α = 5% and β = 20%. With a predicted rate of influenza
+      vaccination delivery of 0.65 in the intervention group and 0.60 in the control group, and a
+      target size by FP of 400 patients, 75 FPs have to be enrolled (50 in the control group and 25
+      in the intervention group).
+
+      Baseline is defined as the 2013-2014 vaccination campaign. Data are extracted between October
+      15, 2014 and February 28, 2015 from the SIAM-ERASME claim database of the Lille-Douai
+      district Health Insurance Fund on patient level. To assess the association between the
+      vaccination status (dependent variable) and the group intervention/control, because of the
+      hierarchical structure of the data and the high incidence rate of the main outcome, we will
+      use a generalized estimating equation (GEE) Poisson regression clustering by GP; an
+      exchangeable working correlation matrix will be used. The analysis will be carried out using
+      R software (version 3.3.1) and the package Geepack.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 15, 2014</start_date>
+  <completion_date type="Actual">May 19, 2017</completion_date>
+  <primary_completion_date type="Actual">February 28, 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Registry based cluster randomized trial. The population was the patients aged over 16 of 75 FPs, with an indication for seasonal influenza immunization (pregnancy, long lasting disease, age over 65). The main outcome is the proportion of vaccinated patients, based on the number of vaccination units dispensed in community pharmacies. This number is retrieved from the SIAM-ERASME claim database of the Lille-Douai Health Insurance Fund.</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Single (Participant)</masking>
+    <masking_description>Patients were identified by a number</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of seasonal influenza vaccination sets released in community pharmacies</measure>
+    <time_frame>20 weeks</time_frame>
+    <description>The number of seasonal influenza vaccination sets released in community pharmacies and the date of release are extracted from the SIAM-ERASME claim database of the Lille-Douai district Health Insurance Fund on patient level.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">10597</enrollment>
+  <condition>Health Behavior</condition>
+  <condition>Vaccination</condition>
+  <condition>Influenza, Human</condition>
+  <arm_group>
+    <arm_group_label>Intervention group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Family physicians' patients exposed to advertisement in waiting rooms consisting in a poster and pamphlets promoting seasonal influenza vaccination (+ usual mandatory information)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Family physicians' patients exposed to usual laying out of waiting rooms</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Advertisement</intervention_name>
+    <description>Advertisement by means of a poster and pamphlets in FP waiting rooms, removing all the other posters and pamphlets (except mandatory information, like opening hours, fees, etc.)</description>
+    <arm_group_label>Intervention group</arm_group_label>
+    <other_name>Advertising, poster, pamphlets</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All patients aged 65 years and more
+
+          -  Pregnant women
+
+          -  Patients with a chronic long lasting disease needing yearly seasonal influenza
+             immunization
+
+               -  respiratory diseases: COPD, emphysema, asthma, silicosis, Bronchial dilatation,
+                  cystic fibrosis, other respiratory diseases at risk of influenza complications
+
+               -  cardiovascular diseases: Congenital heart disease, heart failure, valvulopathy,
+                  rhythm disorder, coronary heart disease, stroke, infarction, coronary bypass
+
+               -  neurologic diseases: Myopathy, multiple sclerosis, sequelae of stroke, dementia
+                  (Alzheimer or others), poliomyelitis, gravis, paraplegia or tetraplegia reaching
+                  the diaphragm
+
+               -  kidney and liver diseases: severe kidney failure, nephrotic syndrome, chronic
+                  hepatitis, cirrhosis
+
+               -  metabolic disorders: diabetes, malignant obesity
+
+               -  immunity disorders and blood diseases: cancer and other malignant diseases, organ
+                  and marrow transplantation, immune deficiency, Inflammatory and autoimmune
+                  diseases with immunosuppressive medication, HIV infection, sickle cell disease.
+
+        Exclusion Criteria:
+
+          -  patients aged less than 16 years
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Christophe Berkhout, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Lille Univ. UDSL</affiliation>
+  </overall_official>
+  <results_reference>
+    <citation>Tuppin P, Choukroun S, Samson S, Weill A, Ricordeau P, Allemand H. [Vaccination against seasonal influenza in France in 2010 and 2011: decrease of coverage rates and associated factors]. Presse Med. 2012 Nov;41(11):e568-76. doi: 10.1016/j.lpm.2012.05.017. Epub 2012 Jul 15. French.</citation>
+    <PMID>22795870</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Böhmer MM, Walter D, Falkenhorst G, Müters S, Krause G, Wichmann O. Barriers to pandemic influenza vaccination and uptake of seasonal influenza vaccine in the post-pandemic season in Germany. BMC Public Health. 2012 Oct 31;12:938. doi: 10.1186/1471-2458-12-938.</citation>
+    <PMID>23113995</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Wicke DM, Lorge RE, Coppin RJ, Jones KP. The effectiveness of waiting room notice-boards as a vehicle for health education. Fam Pract. 1994 Sep;11(3):292-5.</citation>
+    <PMID>7843520</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ward K, Hawthorne K. Do patients read health promotion posters in the waiting room? A study in one general practice. Br J Gen Pract. 1994 Dec;44(389):583-5.</citation>
+    <PMID>7748670</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Gignon M, Idris H, Manaouil C, Ganry O. The waiting room: vector for health education? The general practitioner's point of view. BMC Res Notes. 2012 Sep 18;5:511. doi: 10.1186/1756-0500-5-511.</citation>
+    <PMID>22988947</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Austin PC. A comparison of the statistical power of different methods for the analysis of cluster randomization trials with binary outcomes. Stat Med. 2007 Aug 30;26(19):3550-65.</citation>
+    <PMID>17238238</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Eubelen C, Brendel F, Belche JL, Freyens A, Vanbelle S, Giet D. Effect of an audiovisual message for tetanus booster vaccination broadcast in the waiting room. BMC Fam Pract. 2011 Sep 28;12:104. doi: 10.1186/1471-2296-12-104.</citation>
+    <PMID>21955570</PMID>
+  </results_reference>
+  <verification_date>August 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 1, 2017</study_first_submitted>
+  <study_first_submitted_qc>August 3, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 4, 2017</study_first_posted>
+  <last_update_submitted>August 3, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 3, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 4, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Berkhout, Christophe</investigator_affiliation>
+    <investigator_full_name>Christophe Berkhout</investigator_full_name>
+    <investigator_title>University Professor</investigator_title>
+  </responsible_party>
+  <keyword>Posters</keyword>
+  <keyword>Pamphlets</keyword>
+  <keyword>Primary Health Care</keyword>
+  <keyword>Health Facilities</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Influenza, Human</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Vaccines</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>IPD have been anonymized and will be available after full publication of the results</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

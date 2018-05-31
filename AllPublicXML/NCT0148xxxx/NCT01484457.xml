@@ -1,0 +1,435 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01484457</url>
+  </required_header>
+  <id_info>
+    <org_study_id>JDRF 22-2009-796</org_study_id>
+    <nct_id>NCT01484457</nct_id>
+  </id_info>
+  <brief_title>Controlled Insulin Delivery: Combining Technology With Treatment</brief_title>
+  <official_title>Controlled Insulin Delivery: Combining Technology With Treatment</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sansum Diabetes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Juvenile Diabetes Research Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Schneider Children's Medical Center, Israel</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sansum Diabetes Research Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Hypothesis: Closed-loop control systems for an artificial pancreas using multi-parametric
+      model predictive control can be developed and evaluated safely in patients with Type 1
+      Diabetes Mellitus (T1DM) to control blood glucose concentrations.
+
+      This study seeks to combine real-time continuous glucose sensing with automated insulin
+      delivery in a closed-loop system that will achieve euglycemia in patients with T1DM. The end
+      result of this line of research will be an artificial pancreas that will provide
+      around-the-clock glucose regulation through controlled insulin delivery in response to
+      detected patterns of change in glucose levels.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The goal of the JDRF Artificial Pancreas Project is to produce an autonomous artificial
+      pancreas that can safely and effectively regulate glycemia in people with type 1 diabetes
+      mellitus. In our work, this fully automated closed-loop system combines a subcutaneous
+      continuous glucose monitor (CGM) and a continuous subcutaneous insulin infusion (CSII) pump
+      with a sophisticated control algorithm. This is a proof-of-concept study to demonstrate that
+      the controller could bring the patient back to a relatively normal glucose concentration
+      after an unannounced meal and from mild hyperglycemia. Once the system is initiated, all
+      insulin delivery is calculated automatically. There was no outside intervention either by the
+      subject or medical personnel. An artificial pancreas system that aims at replicating normal
+      beta-cell function by using the subcutaneous-subcutaneous (sc-sc) route needs to address
+      inherent delays in both glucose sensing and insulin delivery. Our strategic approach is that
+      a closed-loop system should operate safely without any knowledge of meals or other
+      disturbances. We have developed the Artificial Pancreas System (APS©) and used it to
+      clinically evaluate a control strategy that allows efficient glycemic control without any a
+      priori meal information. The Artificial Pancreas device uses the Artificial Pancreas System
+      (APS©) platform with the OmniPod insulin pump, the DexCom SEVEN PLUS CGM and a
+      multi-parametric model predictive control algorithm (mpMPC) with an insulin-on-board (IOB)
+      safety constraint.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2008</start_date>
+  <completion_date type="Actual">January 2010</completion_date>
+  <primary_completion_date type="Actual">January 2010</primary_completion_date>
+  <phase>Early Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Restoration of Euglycemia</measure>
+    <time_frame>24 hours</time_frame>
+    <description>The primary endpoint of this pilot study is successful restoration of euglycemia from the two perturbed conditions using closed loop control with minimal hypo- and hyperglycemia exposure. The first condition involves restoration of euglycemia when the subject is in a hyperglycemic state. The second condition involves restoration of euglycemia following consumption of a meal containing 25g CHO with no insulin bolus.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Average percent-of-time-in-range (80 - 180 mg/dL)</measure>
+    <time_frame>24 hours</time_frame>
+    <description>All reported blood glucose values per both CGM and YSI ware analyzed for average percent-of-time-in-range (80 - 180 mg/dL).</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">19</enrollment>
+  <condition>Diabetes Mellitus, Type 1</condition>
+  <arm_group>
+    <arm_group_label>Closed-loop control system</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The objective of this study is to automate glucose control in subjects with type 1 diabetes using a computer control algorithm in a controlled in-clinic research setting.
+The controller will be evaluated under two conditions:
+restoring euglycemia (80-140 mg/dL) when the controller is initiated during a period when the subject's glucose is above the euglycemic range;
+restoring euglycemia (80-140 mg/dL) when the controller is challenged with a small unannounced meal (~25 g CHO).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Closed-loop session</intervention_name>
+    <description>Subjects will arrive fasting at 7am unless needed for hypoglycemia (glucose &lt; 70 mg/dL) and no extra bolus insulin after 3am. An IV catheter will be inserted for blood samples and for IV administration of glucose if necessary. Blood samples will be analyzed for glucose by YSI 2300Stat every 30 minutes.
+Breakfast consisting of 25g of CHO will be eaten at 7:30 am and the subject will bolus for this amount of CHO. The controller is switched &quot;on&quot; on the down slope of the meal response, and the subject is brought to a basal steady-state by the controller. Target blood glucose is 110 ± 30-mg/dL.
+After approximately 3 hours a small lunch will be eaten consisting of 25g of CHO (unannounced meal challenge). The subject will be monitored until blood glucose returns to euglycemia.</description>
+    <arm_group_label>Closed-loop control system</arm_group_label>
+    <other_name>Closed-loop Artificial Pancreas Device</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Willing to sign the consent form
+
+          2. Type 1 diabetes for at least 1 year prior to the study
+
+          3. Using continuous subcutaneous insulin infusion pump
+
+          4. Above 21 years of age
+
+          5. Willing to follow the study requirements
+
+        Exclusion Criteria:
+
+          1. Allergy to the sensor or to one of its components
+
+          2. Psychiatric disorders
+
+          3. Reported diabetic ketoacidosis within last 3 months
+
+          4. Abnormal liver function (Transaminase &gt; 2 times the upper limit of normal)
+
+          5. Heart failure
+
+          6. Any carcinogenic disease
+
+          7. Any other chronic abnormality
+
+          8. Unwilling to perform or to follow the research protocol
+
+          9. Participation in any other study concurrent with the proposed study
+
+         10. Creatinine concentration above the upper limit of normal for age and sex
+
+         11. Active coronary artery disease
+
+         12. Active gastroparesis
+
+         13. History of uncontrolled seizures
+
+         14. Pregnancy
+
+         15. Untreated adrenal insufficiency
+
+         16. Hypokalemia
+
+         17. Uncontrolled thyroid disease.
+
+         18. Condition, which in the opinion of the investigator, would interfere with patient
+             safety
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Lois Jovanovic, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sansum Diabetes Research Institute</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Sansum Diabetes Research Institute</name>
+      <address>
+        <city>Santa Barbara</city>
+        <state>California</state>
+        <zip>93105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Schneider Children's Medical Center of Israel</name>
+      <address>
+        <city>Petah Tikva</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Basu R, Di Camillo B, Toffolo G, Basu A, Shah P, Vella A, Rizza R, Cobelli C. Use of a novel triple-tracer approach to assess postprandial glucose metabolism. Am J Physiol Endocrinol Metab. 2003 Jan;284(1):E55-69.</citation>
+    <PMID>12485809</PMID>
+  </reference>
+  <reference>
+    <citation>Bellazzi R, Arcelloni M, Bensa G, Blankenfeld H, Brugués E, Carson E, Cobelli C, Cramp D, D'Annunzio G, De Cata P, De Leiva A, Deutsch T, Fratino P, Gazzaruso C, Garcìa A, Gergely T, Gómez E, Harvey F, Ferrari P, Hernando E, Boulos MK, Larizza C, Ludekke H, Maran A, Nucci G, Pennati C, Ramat S, Roudsari A, Rigla M, Stefanelli M. Design, methods, and evaluation directions of a multi-access service for the management of diabetes mellitus patients. Diabetes Technol Ther. 2003;5(4):621-9.</citation>
+    <PMID>14511417</PMID>
+  </reference>
+  <reference>
+    <citation>Bellazzi R, Nucci G, Cobelli C. The subcutaneous route to insulin-dependent diabetes therapy. IEEE Eng Med Biol Mag. 2001 Jan-Feb;20(1):54-64. Review.</citation>
+    <PMID>11211661</PMID>
+  </reference>
+  <reference>
+    <citation>Bequette BW. A critical assessment of algorithms and challenges in the development of a closed-loop artificial pancreas. Diabetes Technol Ther. 2005 Feb;7(1):28-47.</citation>
+    <PMID>15738702</PMID>
+  </reference>
+  <reference>
+    <citation>Bevier WC, Zisser H, Palerm CC, Finan DA, Seborg DE, Doyle FJ, Wollitzer AO, Jovanovic L. Calculating the insulin to carbohydrate ratio using the hyperinsulinaemic-euglycaemic clamp-a novel use for a proven technique. Diabetes Metab Res Rev. 2007 Sep;23(6):472-8.</citation>
+    <PMID>17315240</PMID>
+  </reference>
+  <reference>
+    <citation>Bode BW. Clinical utility of the continuous glucose monitoring system. Diabetes Technol Ther. 2000;2 Suppl 1:S35-41.</citation>
+    <PMID>11469630</PMID>
+  </reference>
+  <reference>
+    <citation>Bode BW, Gross TM, Thornton KR, Mastrototaro JJ. Continuous glucose monitoring used to adjust diabetes therapy improves glycosylated hemoglobin: a pilot study. Diabetes Res Clin Pract. 1999 Dec;46(3):183-90. Erratum in: Diabetes Res Clin Pract 2000 Mar;47(3):225.</citation>
+    <PMID>10624783</PMID>
+  </reference>
+  <reference>
+    <citation>Bode BW, Hirsch IB. Using the continuous glucose monitoring system to improve the management of type 1 diabetes. Diabetes Technol Ther. 2000;2 Suppl 1:S43-8.</citation>
+    <PMID>11469631</PMID>
+  </reference>
+  <reference>
+    <citation>Broekhuyse HM, Nelson JD, Zinman B, Albisser AM. Comparison of algorithms for the closed-loop control of blood glucose using the artificial beta cell. IEEE Trans Biomed Eng. 1981 Oct;28(10):678-87.</citation>
+    <PMID>7033107</PMID>
+  </reference>
+  <reference>
+    <citation>Chanoch LH, Jovanovic L, Peterson CM. The evaluation of a pocket computer as an aid to insulin dose determination by patients. Diabetes Care. 1985 Mar-Apr;8(2):172-6.</citation>
+    <PMID>3838930</PMID>
+  </reference>
+  <reference>
+    <citation>Dalla Man C, Caumo A, Basu R, Rizza R, Toffolo G, Cobelli C. Measurement of selective effect of insulin on glucose disposal from labeled glucose oral test minimal model. Am J Physiol Endocrinol Metab. 2005 Nov;289(5):E909-14. Epub 2005 Jun 21.</citation>
+    <PMID>15972269</PMID>
+  </reference>
+  <reference>
+    <citation>Dassau E, Palerm CC, Zisser H, Buckingham BA, Jovanovic L, Doyle FJ. In silico evaluation platform for artificial pancreatic beta-cell development--a dynamic simulator for closed-loop control with hardware-in-the-loop. Diabetes Technol Ther. 2009 Mar;11(3):187-94. doi: 10.1089/dia.2008.0055.</citation>
+    <PMID>19191486</PMID>
+  </reference>
+  <reference>
+    <citation>Dassau E, Zisser H, C Palerm C, A Buckingham B, Jovanovic L, J Doyle F 3rd. Modular artificial beta-cell system: a prototype for clinical research. J Diabetes Sci Technol. 2008 Sep;2(5):863-72.</citation>
+    <PMID>19885271</PMID>
+  </reference>
+  <reference>
+    <citation>Diabetes Research in Children Network (DirecNet) Study Group, Buckingham B, Beck RW, Tamborlane WV, Xing D, Kollman C, Fiallo-Scharer R, Mauras N, Ruedy KJ, Tansey M, Weinzimer SA, Wysocki T. Continuous glucose monitoring in children with type 1 diabetes. J Pediatr. 2007 Oct;151(4):388-93, 393.e1-2. Epub 2007 Aug 24.</citation>
+    <PMID>17889075</PMID>
+  </reference>
+  <reference>
+    <citation>Dua P, Doyle FJ 3rd, Pistikopoulos EN. Model-based blood glucose control for Type 1 diabetes via parametric programming. IEEE Trans Biomed Eng. 2006 Aug;53(8):1478-91.</citation>
+    <PMID>16916082</PMID>
+  </reference>
+  <reference>
+    <citation>Garg S, Zisser H, Schwartz S, Bailey T, Kaplan R, Ellis S, Jovanovic L. Improvement in glycemic excursions with a transcutaneous, real-time continuous glucose sensor: a randomized controlled trial. Diabetes Care. 2006 Jan;29(1):44-50.</citation>
+    <PMID>16373894</PMID>
+  </reference>
+  <reference>
+    <citation>Hovorka R, Chassin LJ, Wilinska ME, Canonico V, Akwi JA, Federici MO, Massi-Benedetti M, Hutzli I, Zaugg C, Kaufmann H, Both M, Vering T, Schaller HC, Schaupp L, Bodenlenz M, Pieber TR. Closing the loop: the adicol experience. Diabetes Technol Ther. 2004 Jun;6(3):307-18.</citation>
+    <PMID>15198833</PMID>
+  </reference>
+  <reference>
+    <citation>Hovorka R, Shojaee-Moradie F, Carroll PV, Chassin LJ, Gowrie IJ, Jackson NC, Tudor RS, Umpleby AM, Jones RH. Partitioning glucose distribution/transport, disposal, and endogenous production during IVGTT. Am J Physiol Endocrinol Metab. 2002 May;282(5):E992-1007.</citation>
+    <PMID>11934663</PMID>
+  </reference>
+  <reference>
+    <citation>Jeha GS, Karaviti LP, Anderson B, Smith EO, Donaldson S, McGirk TS, Haymond MW. Insulin pump therapy in preschool children with type 1 diabetes mellitus improves glycemic control and decreases glucose excursions and the risk of hypoglycemia. Diabetes Technol Ther. 2005 Dec;7(6):876-84.</citation>
+    <PMID>16386093</PMID>
+  </reference>
+  <reference>
+    <citation>Jones SM, Quarry JL, Caldwell-McMillan M, Mauger DT, Gabbay RA. Optimal insulin pump dosing and postprandial glycemia following a pizza meal using the continuous glucose monitoring system. Diabetes Technol Ther. 2005 Apr;7(2):233-40.</citation>
+    <PMID>15857224</PMID>
+  </reference>
+  <reference>
+    <citation>Jovanovic L. Role of diet and insulin treatment of diabetes in pregnancy. Clin Obstet Gynecol. 2000 Mar;43(1):46-55. Review.</citation>
+    <PMID>10694987</PMID>
+  </reference>
+  <reference>
+    <citation>Kan S, Onodera H, Furutani E, Aung T, Araki M, Nishimura H, Maetani S, Imamura M. Novel control system for blood glucose using a model predictive method. ASAIO J. 2000 Nov-Dec;46(6):657-62.</citation>
+    <PMID>11110261</PMID>
+  </reference>
+  <reference>
+    <citation>Kaufman FR. Searching for glycemic control in pediatric type 1 diabetes: A long way to go. J Pediatr. 2001 Aug;139(2):174-6.</citation>
+    <PMID>11487739</PMID>
+  </reference>
+  <reference>
+    <citation>Klonoff DC. Continuous glucose monitoring: roadmap for 21st century diabetes therapy. Diabetes Care. 2005 May;28(5):1231-9. Review.</citation>
+    <PMID>15855600</PMID>
+  </reference>
+  <reference>
+    <citation>Klonoff DC. A review of continuous glucose monitoring technology. Diabetes Technol Ther. 2005 Oct;7(5):770-5. Review.</citation>
+    <PMID>16241880</PMID>
+  </reference>
+  <reference>
+    <citation>Kovatchev BP, Cox DJ, Gonder-Frederick LA, Young-Hyman D, Schlundt D, Clarke W. Assessment of risk for severe hypoglycemia among adults with IDDM: validation of the low blood glucose index. Diabetes Care. 1998 Nov;21(11):1870-5.</citation>
+    <PMID>9802735</PMID>
+  </reference>
+  <reference>
+    <citation>Lehmann ED, Deutsch T. A physiological model of glucose-insulin interaction in type 1 diabetes mellitus. J Biomed Eng. 1992 May;14(3):235-42.</citation>
+    <PMID>1588781</PMID>
+  </reference>
+  <reference>
+    <citation>Lehmann ED, Deutsch T. Compartmental models for glycaemic prediction and decision-support in clinical diabetes care: promise and reality. Comput Methods Programs Biomed. 1998 May;56(2):193-204. Review.</citation>
+    <PMID>9700433</PMID>
+  </reference>
+  <reference>
+    <citation>Livesey G, Wilson PD, Dainty JR, Brown JC, Faulks RM, Roe MA, Newman TA, Eagles J, Mellon FA, Greenwood RH. Simultaneous time-varying systemic appearance of oral and hepatic glucose in adults monitored with stable isotopes. Am J Physiol. 1998 Oct;275(4 Pt 1):E717-28.</citation>
+    <PMID>9755093</PMID>
+  </reference>
+  <reference>
+    <citation>Ludvigsson J, Hanas R. Continuous subcutaneous glucose monitoring improved metabolic control in pediatric patients with type 1 diabetes: a controlled crossover study. Pediatrics. 2003 May;111(5 Pt 1):933-8.</citation>
+    <PMID>12728068</PMID>
+  </reference>
+  <reference>
+    <citation>Magni L, Raimondo DM, Man CD, Breton M, Patek S, Nicolao GD, Cobelli C, Kovatchev BP. Evaluating the efficacy of closed-loop glucose regulation via control-variability grid analysis. J Diabetes Sci Technol. 2008 Jul;2(4):630-5.</citation>
+    <PMID>19885239</PMID>
+  </reference>
+  <reference>
+    <citation>Matsuo Y, Shimoda S, Sakakida M, Nishida K, Sekigami T, Ichimori S, Ichinose K, Shichiri M, Araki E. Strict glycemic control in diabetic dogs with closed-loop intraperitoneal insulin infusion algorithm designed for an artificial endocrine pancreas. J Artif Organs. 2003;6(1):55-63.</citation>
+    <PMID>14598126</PMID>
+  </reference>
+  <reference>
+    <citation>Mauras N, Beck RW, Ruedy KJ, Kollman C, Tamborlane WV, Chase HP, Buckingham BA, Tsalikian E, Weinzimer S, Booth AD, Xing D; Diabetes Research in Children Network (DirecNet) Accuracy Study. Lack of accuracy of continuous glucose sensors in healthy, nondiabetic children: results of the Diabetes Research in Children Network (DirecNet) accuracy study. J Pediatr. 2004 Jun;144(6):770-5.</citation>
+    <PMID>15192625</PMID>
+  </reference>
+  <reference>
+    <citation>Owens C, Zisser H, Jovanovic L, Srinivasan B, Bonvin D, Doyle FJ 3rd. Run-to-run control of blood glucose concentrations for people with Type 1 diabetes mellitus. IEEE Trans Biomed Eng. 2006 Jun;53(6):996-1005.</citation>
+    <PMID>16761826</PMID>
+  </reference>
+  <reference>
+    <citation>Palerm CC, Zisser H, Bevier WC, Jovanovic L, Doyle FJ 3rd. Prandial insulin dosing using run-to-run control: application of clinical data and medical expertise to define a suitable performance metric. Diabetes Care. 2007 May;30(5):1131-6. Epub 2007 Feb 15.</citation>
+    <PMID>17303792</PMID>
+  </reference>
+  <reference>
+    <citation>Palerm CC, Zisser H, Jovanovič L, Doyle FJ 3rd. A Run-to-Run Control Strategy to Adjust Basal Insulin Infusion Rates in Type 1 Diabetes. J Process Control. 2008;18(3-4):258-265.</citation>
+    <PMID>18709180</PMID>
+  </reference>
+  <reference>
+    <citation>Parker RS, Doyle FJ 3rd, Peppas NA. A model-based algorithm for blood glucose control in type I diabetic patients. IEEE Trans Biomed Eng. 1999 Feb;46(2):148-57.</citation>
+    <PMID>9932336</PMID>
+  </reference>
+  <reference>
+    <citation>Parker RS, Doyle FJ 3rd, Peppas NA. The intravenous route to blood glucose control. IEEE Eng Med Biol Mag. 2001 Jan-Feb;20(1):65-73. Review.</citation>
+    <PMID>11211662</PMID>
+  </reference>
+  <reference>
+    <citation>Peterson CM, Jones RL, Drexler AJ, Jovanovic LB. A randomized comparative crossover evaluation of glucose monitoring technologies. Diabetes Res. 1984 Nov;1(4):195-9.</citation>
+    <PMID>6529891</PMID>
+  </reference>
+  <reference>
+    <citation>Peterson CM, Jovanovic L, Chanoch LH. Randomized trial of computer-assisted insulin delivery in patients with type I diabetes beginning pump therapy. Am J Med. 1986 Jul;81(1):69-72.</citation>
+    <PMID>3524226</PMID>
+  </reference>
+  <reference>
+    <citation>Palerm CC, Rodríguez-Fernández M, Bevier WC, Zisser H, Banga JR, Jovanovic L, Doyle FJ 3rd. Robust parameter estimation in a model for glucose kinetics in type 1 diabetes subjects. Conf Proc IEEE Eng Med Biol Soc. 2006;1:319-22.</citation>
+    <PMID>17946395</PMID>
+  </reference>
+  <reference>
+    <citation>Shimoda S, Nishida K, Sakakida M, Konno Y, Ichinose K, Uehara M, Nowak T, Shichiri M. Closed-loop subcutaneous insulin infusion algorithm with a short-acting insulin analog for long-term clinical application of a wearable artificial endocrine pancreas. Front Med Biol Eng. 1997;8(3):197-211.</citation>
+    <PMID>9444512</PMID>
+  </reference>
+  <reference>
+    <citation>Steil GM, Clark B, Kanderian S, Rebrin K. Modeling insulin action for development of a closed-loop artificial pancreas. Diabetes Technol Ther. 2005 Feb;7(1):94-108.</citation>
+    <PMID>15738707</PMID>
+  </reference>
+  <reference>
+    <citation>Steil GM, Panteleon AE, Rebrin K. Closed-loop insulin delivery-the path to physiological glucose control. Adv Drug Deliv Rev. 2004 Feb 10;56(2):125-44. Review.</citation>
+    <PMID>14741112</PMID>
+  </reference>
+  <reference>
+    <citation>Tanenberg R, Bode B, Lane W, Levetan C, Mestman J, Harmel AP, Tobian J, Gross T, Mastrototaro J. Use of the Continuous Glucose Monitoring System to guide therapy in patients with insulin-treated diabetes: a randomized controlled trial. Mayo Clin Proc. 2004 Dec;79(12):1521-6.</citation>
+    <PMID>15595336</PMID>
+  </reference>
+  <reference>
+    <citation>Trajanoski Z, Wach P. Neural predictive controller for insulin delivery using the subcutaneous route. IEEE Trans Biomed Eng. 1998 Sep;45(9):1122-34.</citation>
+    <PMID>9735562</PMID>
+  </reference>
+  <reference>
+    <citation>Wilinska ME, Chassin LJ, Schaller HC, Schaupp L, Pieber TR, Hovorka R. Insulin kinetics in type-I diabetes: continuous and bolus delivery of rapid acting insulin. IEEE Trans Biomed Eng. 2005 Jan;52(1):3-12.</citation>
+    <PMID>15651559</PMID>
+  </reference>
+  <reference>
+    <citation>Zisser H, Jovanovic L, Doyle F 3rd, Ospina P, Owens C. Run-to-run control of meal-related insulin dosing. Diabetes Technol Ther. 2005 Feb;7(1):48-57.</citation>
+    <PMID>15738703</PMID>
+  </reference>
+  <reference>
+    <citation>Zisser H, Robinson L, Bevier W, Dassau E, Ellingsen C, Doyle FJ, Jovanovic L. Bolus calculator: a review of four &quot;smart&quot; insulin pumps. Diabetes Technol Ther. 2008 Dec;10(6):441-4. doi: 10.1089/dia.2007.0284. Review.</citation>
+    <PMID>19049372</PMID>
+  </reference>
+  <reference>
+    <citation>Zisser HC, Bevier WC, Jovanovic L. Restoring euglycemia in the basal state using continuous glucose monitoring in subjects with type 1 diabetes mellitus. Diabetes Technol Ther. 2007 Dec;9(6):509-15.</citation>
+    <PMID>18034605</PMID>
+  </reference>
+  <verification_date>June 2012</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 15, 2011</study_first_submitted>
+  <study_first_submitted_qc>November 30, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 2, 2011</study_first_posted>
+  <last_update_submitted>June 5, 2012</last_update_submitted>
+  <last_update_submitted_qc>June 5, 2012</last_update_submitted_qc>
+  <last_update_posted type="Estimate">June 7, 2012</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sansum Diabetes Research Institute</investigator_affiliation>
+    <investigator_full_name>Lois Jovanovic, MD</investigator_full_name>
+    <investigator_title>CEO and Chief Scientific Officer</investigator_title>
+  </responsible_party>
+  <keyword>Diabetes Mellitus</keyword>
+  <keyword>Closed Loop</keyword>
+  <keyword>Artificial Pancreas</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin</mesh_term>
+    <mesh_term>Pancrelipase</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

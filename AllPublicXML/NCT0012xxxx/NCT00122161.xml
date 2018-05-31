@@ -1,0 +1,263 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00122161</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CPI 99-275</org_study_id>
+    <nct_id>NCT00122161</nct_id>
+  </id_info>
+  <brief_title>Guidelines for Drug Therapy of Hypertension: Multi-Site Implementation</brief_title>
+  <official_title>Guidelines for Drug Therapy of Hypertension: Multi-Site Implementation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Clinical trial of implementation of clinical practice guidelines for managing hypertension in
+      primary care clinics.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background:
+
+      Hypertension, the most commonly reported medical problem in veterans, is a major risk factor
+      for heart disease and stroke. Lowering blood pressure decreases the risk of these adverse
+      clinical outcomes. Widely promoted evidence-based clinical practice guidelines set target
+      blood pressures for adequate control, yet most hypertensives, including VA patients, do not
+      meet the targets. Guidelines also call for use of specific drugs depending on the patient's
+      pattern of comorbid characteristics; yet, clinicians often prescribe drugs that are not
+      guideline-concordant.
+
+      Objectives:
+
+      The long term objective of this work is to contribute to the VA's ability to respond flexibly
+      to rapidly evolving medical knowledge by establishing a system guidelines that can be used
+      throughout the VA nationally for implementing multiple different clinical practice. In
+      collaboration with Stanford Medical Informatics we developed an automated decision support
+      system for hypertension management, known as ATHENA DSS built with EON technology for
+      guideline-based decision support. ATHENA DSS incorporates hundreds of knowledge rules to
+      operationalize guidelines for hypertension.
+
+      Methods:
+
+      ATHENA DSS combines patient information from VistA with an automated knowledge base of
+      hypertension to generate patient-specific recommendations for management of hypertension that
+      are displayed to primary care clinicians in pop-up windows in the VA�s Computerized Patient
+      Record System (CPRS) when the record for appropriate patients is opened on the day of
+      scheduled primary care clinic visits. The ATHENA DSS pop-up provides advice on adequacy of
+      control of blood pressure and specific recommendations for drug therapy of hypertension, a
+      visual display of the patient�s medication history and concurrent blood pressures, evidence
+      supporting the main recommendations, and other information. We deployed the system at three
+      VA medical centers--Durham, San Francisco, and Palo Alto�and conducted a clinician-randomized
+      trial. We logged data on use of the system, monitored comments entered by clinicians, and
+      conducted a questionnaire survey of clinicians. We planned analyses of impact on clinician
+      prescribing and patient blood pressures. We planned preparation for dissemination of the
+      system to additional VA medical centers.
+
+      Status:
+
+      Project work is ongoing at time of preparing this report. We recently received notice of
+      funding for a VISN collaborative that will use the ATHENA DSS in five medical centers in VISN
+      1 (New England).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <completion_date type="Actual">September 2005</completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Primary care clinicians adherence to hypertension guidelines and blood pressure control in their panels of patients.</measure>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">190</enrollment>
+  <condition>Hypertension</condition>
+  <arm_group>
+    <arm_group_label>Arm 1</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>ATHENA Decision Support System, An Automated Clinical Decision Support System for Health Care Providers</intervention_name>
+    <arm_group_label>Arm 1</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Profiling performance</intervention_name>
+    <arm_group_label>Arm 1</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Primary care clinicians at participating study sites. That is physicians, nurse
+        practitioners and physician assistants who have their own panel of patients to whom they
+        provide direct patient care.
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mary K. Goldstein, MD MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>VA Palo Alto Health Care System, Palo Alto, CA</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>VA Palo Alto Health Care System, Palo Alto, CA</name>
+      <address>
+        <city>Palo Alto</city>
+        <state>California</state>
+        <zip>94304-1290</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>San Francisco VA Medical Center, San Francisco, CA</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94121</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Durham VA Medical Center, Durham, NC</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27705</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://med.stanford.edu/profiles/Mary_Goldstein/</url>
+    <description>Click here for more information about this study: Guidelines for Drug Therapy of Hypertension: Multi-Site Implementation</description>
+  </link>
+  <results_reference>
+    <citation>Siegel D, Lopez J, Meier J, Goldstein MK, Lee S, Brazill BJ, Matalka MS. Academic detailing to improve antihypertensive prescribing patterns. Am J Hypertens. 2003 Jun;16(6):508-11.</citation>
+    <PMID>12799103</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Bosworth HB, Dudley T, Olsen MK, Voils CI, Powers B, Goldstein MK, Oddone EZ. Racial differences in blood pressure control: potential explanatory factors. Am J Med. 2006 Jan;119(1):70.e9-15.</citation>
+    <PMID>16431192</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Szeto HC, Coleman RK, Gholami P, Hoffman BB, Goldstein MK. Accuracy of computerized outpatient diagnoses in a Veterans Affairs general medicine clinic. Am J Manag Care. 2002 Jan;8(1):37-43.</citation>
+    <PMID>11814171</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Chan AS, Shankar RD, Coleman RW, Matins SB, Hoffman BB, Goldstein MK. Leveraging point-of-care clinician feedback to study barriers to guideline adherence. AMIA Annu Symp Proc. 2005:915.</citation>
+    <PMID>16779202</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Steinman MA, Fischer MA, Shlipak MG, Bosworth HB, Oddone EZ, Hoffman BB, Goldstein MK. Clinician awareness of adherence to hypertension guidelines. Am J Med. 2004 Nov 15;117(10):747-54.</citation>
+    <PMID>15541324</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Tu SW, Musen MA, Shankar R, Campbell J, Hrabak K, McClay J, Huff SM, McClure R, Parker C, Rocha R, Abarbanel R, Beard N, Glasgow J, Mansfield G, Ram P, Ye Q, Mays E, Weida T, Chute CG, McDonald K, Molu D, Nyman MA, Scheitel S, Solbrig H, Zill DA, Goldstein MK. Modeling guidelines for integration into clinical workflow. Stud Health Technol Inform. 2004;107(Pt 1):174-8.</citation>
+    <PMID>15360798</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Advani A, Jones N, Shahar Y, Goldstein MK, Musen MA. An intelligent case-adjustment algorithm for the automated design of population-based quality auditing protocols. Stud Health Technol Inform. 2004;107(Pt 2):1003-7.</citation>
+    <PMID>15360963</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Shankar RD, Tu SW, Martins SB, Fagan LM, Goldstein MK, Musen MA. Integration of textual guideline documents with formal guideline knowledge bases. Proc AMIA Symp. 2001:617-21.</citation>
+    <PMID>11825260</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Chan AS, Coleman RW, Martins SB, Advani A, Musen MA, Bosworth HB, Oddone EZ, Shlipak MG, Hoffman BB, Goldstein MK. Evaluating provider adherence in a trial of a guideline-based decision support system for hypertension. Stud Health Technol Inform. 2004;107(Pt 1):125-9.</citation>
+    <PMID>15360788</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Goldstein MK, Coleman RW, Tu SW, Shankar RD, O'Connor MJ, Musen MA, Martins SB, Lavori PW, Shlipak MG, Oddone E, Advani AA, Gholami P, Hoffman BB. Translating research into practice: organizational issues in implementing automated decision support for hypertension in three medical centers. J Am Med Inform Assoc. 2004 Sep-Oct;11(5):368-76. Epub 2004 Jun 7.</citation>
+    <PMID>15187064</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Shankar RD, Martins SB, Tu SW, Goldstein MK, Musen MA. Building an explanation function for a hypertension decision-support system. Stud Health Technol Inform. 2001;84(Pt 1):538-42.</citation>
+    <PMID>11604798</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Lin ND, Martins SB, Chan AS, Coleman RW, Bosworth HB, Oddone EZ, Shankar RD, Musen MA, Hoffman BB, Goldstein MK. Identifying barriers to hypertension guideline adherence using clinician feedback at the point of care. AMIA Annu Symp Proc. 2006:494-8.</citation>
+    <PMID>17238390</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Bosworth HB, Olsen MK, Goldstein MK, Orr M, Dudley T, McCant F, Gentry P, Oddone EZ. The veterans' study to improve the control of hypertension (V-STITCH): design and methodology. Contemp Clin Trials. 2005 Apr;26(2):155-68.</citation>
+    <PMID>15837438</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Tu SW, Hrabak KM, Campbell JR, Glasgow J, Nyman MA, McClure R, McClay J, Abarbanel R, Mansfield JG, Martins SM, Goldstein MK, Musen MA. Use of declarative statements in creating and maintaining computer-interpretable knowledge bases for guideline-based care. AMIA Annu Symp Proc. 2006:784-8.</citation>
+    <PMID>17238448</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Peralta CA, Shlipak MG, Wassel-Fyr C, Bosworth H, Hoffman B, Martins S, Oddone E, Goldstein MK. Association of antihypertensive therapy and diastolic hypotension in chronic kidney disease. Hypertension. 2007 Sep;50(3):474-80. Epub 2007 Jul 30.</citation>
+    <PMID>17664397</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Martins SB, Lai S, Tu S, Shankar R, Hastings SN, Hoffman BB, Dipilla N, Goldstein MK. Offline testing of the ATHENA Hypertension decision support system knowledge base to improve the accuracy of recommendations. AMIA Annu Symp Proc. 2006:539-43.</citation>
+    <PMID>17238399</PMID>
+  </results_reference>
+  <verification_date>October 2007</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 18, 2005</study_first_submitted>
+  <study_first_submitted_qc>July 18, 2005</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 21, 2005</study_first_posted>
+  <last_update_submitted>April 6, 2015</last_update_submitted>
+  <last_update_submitted_qc>April 6, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 7, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Drug therapy</keyword>
+  <keyword>Practice guidelines</keyword>
+  <keyword>Reminder systems</keyword>
+  <keyword>Ambulatory care</keyword>
+  <keyword>Hypertension</keyword>
+  <keyword>Clinical protocols</keyword>
+  <keyword>Quality Assurance, Health Care</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypertension</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,200 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02748044</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CCPMOH2016-China3</org_study_id>
+    <nct_id>NCT02748044</nct_id>
+  </id_info>
+  <brief_title>Validation of the Utility of Rare Disease Intelligence Platform</brief_title>
+  <official_title>Validation of the Utility of Rare Disease Intelligence Platform: A Multicenter Cluster Clinical Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sun Yat-sen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Ministry of Health, China</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Xidian University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sun Yat-sen University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The prevention and treatment of diseases via artificial intelligence represents an ultimate
+      goal in computational medicine. The artificial intelligence for systematic clinical
+      application has not yet been successfully validated. Currently, the main prevention strategy
+      for rare diseases is to build specialized care centers. However, these centers are scattered,
+      and their coverage is insufficient, resulting in inadequate health care among a large
+      proportion of rare disease patients. Here, the investigators use &quot;deep learning&quot; to create
+      CC-Cruiser, an intelligence agent involving three functional networks: &quot;pick-up networks&quot; for
+      diagnostics, &quot;evaluation networks&quot; for risk stratification and &quot;strategist networks&quot; to
+      provide assisted treatment decisions. The investigator also establish a cloud intelligence
+      platform for multi-hospital collaboration and conduct clinical trial and website-based study
+      to validate its versatility.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2012</start_date>
+  <completion_date type="Actual">April 2016</completion_date>
+  <primary_completion_date type="Actual">April 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The proportion of accurate, mistaken and miss detection of CC-Cruiser.</measure>
+    <time_frame>Up to 4 years</time_frame>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">53</enrollment>
+  <condition>Cataract</condition>
+  <condition>Artificial Intelligence</condition>
+  <arm_group>
+    <arm_group_label>Eligible patients for CC-Cruiser test</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>CC-Cruiser</intervention_name>
+    <description>An artificial intelligence to make comprehensive evaluation and treatment decision of congenital cataracts</description>
+    <arm_group_label>Eligible patients for CC-Cruiser test</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients who underwent ophthalmic examination of the eye and recorded their ocular
+             information in the collaborating hospital.
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Haotian Lin, M.D., Ph.D</last_name>
+    <role>Study Director</role>
+    <affiliation>Zhongshan Ophthalmic Center, Sun Yat-sen University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Yizhi Liu, M.D., Ph.D</last_name>
+    <role>Study Chair</role>
+    <affiliation>Zhongshan Ophthalmic Center, Sun Yat-sen University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Erping Long, M.D., Ph.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Zhongshan Ophthalmic Center, Sun Yat-sen University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Zhongshan Ophthalmic Center, Sun Yat-sen University</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510060</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Ophthalmology, Guangdong General Hospital, Guangdong Academy of Medical Sciences</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510080</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Ophthalmology, First Affiliated Hospital, Guangzhou University of Traditional Chinese Medicine</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510405</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Ophthalmology, Qingyuan People's Hospital</name>
+      <address>
+        <city>Qingyuan</city>
+        <state>Guangdong</state>
+        <zip>511518</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <link>
+    <url>http://www.gzzoc.com/</url>
+    <description>Home page of Zhongshan Ophthalmic Center</description>
+  </link>
+  <link>
+    <url>http://www.cnccclub.com/</url>
+    <description>Homepage of Childhood Cataract Program of the Chinese Ministry of Health(CCPMOH)</description>
+  </link>
+  <reference>
+    <citation>Lin H, Long E, Chen W, Liu Y. Documenting rare disease data in China. Science. 2015 Sep 4;349(6252):1064. doi: 10.1126/science.349.6252.1064-b.</citation>
+    <PMID>26339020</PMID>
+  </reference>
+  <reference>
+    <citation>Lin H, Ouyang H, Zhu J, Huang S, Liu Z, Chen S, Cao G, Li G, Signer RA, Xu Y, Chung C, Zhang Y, Lin D, Patel S, Wu F, Cai H, Hou J, Wen C, Jafari M, Liu X, Luo L, Zhu J, Qiu A, Hou R, Chen B, Chen J, Granet D, Heichel C, Shang F, Li X, Krawczyk M, Skowronska-Krawczyk D, Wang Y, Shi W, Chen D, Zhong Z, Zhong S, Zhang L, Chen S, Morrison SJ, Maas RL, Zhang K, Liu Y. Lens regeneration using endogenous stem cells with gain of visual function. Nature. 2016 Mar 17;531(7594):323-8. doi: 10.1038/nature17181. Epub 2016 Mar 9. Erratum in: Nature. 2017 Jan 26;541(7638):558.</citation>
+    <PMID>26958831</PMID>
+  </reference>
+  <verification_date>April 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 13, 2016</study_first_submitted>
+  <study_first_submitted_qc>April 21, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 22, 2016</study_first_posted>
+  <last_update_submitted>April 21, 2016</last_update_submitted>
+  <last_update_submitted_qc>April 21, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 22, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sun Yat-sen University</investigator_affiliation>
+    <investigator_full_name>Erping Long</investigator_full_name>
+    <investigator_title>Principal Investigator, Home for Cataract Children, Zhongshan Ophthalmic Center</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cataract</mesh_term>
+    <mesh_term>Rare Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

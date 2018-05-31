@@ -1,0 +1,197 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02603640</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2014-45</org_study_id>
+    <secondary_id>2015-A00298-41</secondary_id>
+    <secondary_id>RCAPHM14_0109</secondary_id>
+    <nct_id>NCT02603640</nct_id>
+  </id_info>
+  <brief_title>&quot; Virtual Brain &quot;-Based Interpretation of Electrophysiological Signals in Epilepsy</brief_title>
+  <acronym>VIBRATIONS</acronym>
+  <official_title>&quot; Virtual Brain &quot;-Based Interpretation of Electrophysiological Signals in Epilepsy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assistance Publique Hopitaux De Marseille</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Assistance Publique Hopitaux De Marseille</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Epilepsy is a major neurological disorder, affecting of the order of 0.5 to 1% of the
+      population. It is a very invalidating disease, with high impact on quality of life. In a
+      large proportion of cases, medication cannot prevent seizures; surgical removal of the
+      regions responsible for seizures is then the only way to cure patients. However, results
+      crucially depend on the correct delineation of the epileptogenic zone.
+
+      In this context, computational modeling, under the form of a &quot;virtual brain&quot; is a powerful
+      tool to investigate the impact of different configurations of the sources on the measures, in
+      a well-controlled environment.
+
+      In this project, the simulate in a biologically realistic way MEG (Magnetoencephalography)
+      and EEG (Electroencephalography) fields produced by different configurations of brain
+      sources, which will differ in terms of spatial and dynamic characteristics will be offered to
+      participants. The research hypothesis is that computational and biophysical models can bring
+      crucial information to clinically interpret the signals measured by MEG and EEG. In
+      particular, the hypothesis can help to efficiently address some complementary questions faced
+      by epileptologists when analyzing electrophysiological data.
+
+      The strategy will be three-fold:
+
+      i) Construct a virtual brain models with both dynamic aspects (reproducing both
+      hyperexcitability and hypersynchronisation alterations observed in the epileptic brain) and a
+      realistic geometry based on actual tractography measures performed in patients ii) Explore
+      the parameter space though large-scale simulations of source configurations, using parallel
+      computing implemented on a computer cluster.
+
+      iii) Confront the results of these simulations to simultaneous recordings of EEG, MEG and
+      intracerebral EEG (stereotactic EEG, stereoelectroencephalography (SEEG)). The models will be
+      tuned on SEEG signals, and tested versus the surface signals in order to validate the ability
+      of the models to represent real MEG and EEG signals.
+
+      The project constitutes a translational effort from theoretical neuroscience and mathematics
+      towards clinical investigation. A first output of the project will be a database of
+      simulations, which will permit in a given situation to assess the number of configurations
+      that could have given rise to the observed signals in EEG, MEG and SEEG. A second - and major
+      - output of the project will be to give the clinician access to a software platform which
+      will allow for testing possible configurations of hyperexcitable regions in a user-friendly
+      way. Moreover, representative examples will be made available to the community through a
+      website, which will permit its use in future studies aimed at confronting the results of
+      different signal processing methods on the same 'ground truth' data.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date>October 2015</start_date>
+  <completion_date type="Anticipated">September 2018</completion_date>
+  <primary_completion_date type="Anticipated">September 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Determining regions responsible epileptic discharges</measure>
+    <time_frame>36 months</time_frame>
+    <description>Diffusion MRI</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>recordings Magnetoencephalography (MEG)</measure>
+    <time_frame>36 months</time_frame>
+    <description>The number of events per sensor</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>recordings Electroencephalography (EEG)</measure>
+    <time_frame>36 months</time_frame>
+    <description>The number of events per sensor</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>recordings Stereoelectroencephalography (SEEG)</measure>
+    <time_frame>36 months</time_frame>
+    <description>The number of events per sensor</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Epilepsy</condition>
+  <arm_group>
+    <arm_group_label>epileptic patient</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MRI scanning</intervention_name>
+    <arm_group_label>epileptic patient</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Epilepsy patients with planned intracerebral exploration (SEEG)
+
+          -  informed patient
+
+          -  patient affiliated to French social security
+
+        Exclusion Criteria:
+
+          -  Patients under 18
+
+          -  Pregnant or breastfeeding women
+
+          -  Patients deprived of liberty by legal decision
+
+          -  Patients not covered by social security
+
+          -  Patients who did not sign informed consent
+
+          -  patients who cannot undertake MRI exam
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Urielle DESALBRES, Director</last_name>
+    <phone>0493382747</phone>
+    <email>drci@ap-hm.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Assistance Publique Hôpitaux de Marseille</name>
+      <address>
+        <city>Marseille</city>
+        <zip>13354</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Urielle DESALBRES, Director</last_name>
+    </contact>
+    <investigator>
+      <last_name>Fabrice Bartolomeï, PUPH</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>May 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 7, 2015</study_first_submitted>
+  <study_first_submitted_qc>November 10, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 13, 2015</study_first_posted>
+  <last_update_submitted>June 19, 2017</last_update_submitted>
+  <last_update_submitted_qc>June 19, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 20, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Epilepsy</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

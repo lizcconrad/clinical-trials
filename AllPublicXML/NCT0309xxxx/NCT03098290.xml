@@ -1,0 +1,941 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03098290</url>
+  </required_header>
+  <id_info>
+    <org_study_id>VF1_2016-028</org_study_id>
+    <nct_id>NCT03098290</nct_id>
+  </id_info>
+  <brief_title>IDOMENEO - Is Treatment Reality in Vascular Medicine Evidence-based and Follows Guideline Recommendations? A Project for Quality Development Exemplified by Peripheral Arterial Disease (PAD)</brief_title>
+  <acronym>IDOMENEO</acronym>
+  <official_title>IDOMENEO: Multimethodical and Multistage Registry-based Longitudinal Study Project to Collect Primary Registry Data and Health Insurance Claims Data of Patients Invasively Treated for Peripheral Artery Disease (PAD) in Germany</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Universitätsklinikum Hamburg-Eppendorf</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>GermanVasc</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Heart Center Hamburg</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>BARMER GEK Germany</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Hamburg</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Universitätsklinikum Hamburg-Eppendorf</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The prevalence of peripheral arterial disease (PAD) and the proportion of endovascular
+      procedures for treatment are increasing worldwide. For many cases of treatment or procedures
+      no randomized controlled trials (RCT) or results from meta-analyses are so far available. The
+      decision for treatment and selection of procedure is therefore not uncommonly left up to the
+      personal expertise of the physician. The IDOMENEO study represents a multistage
+      multimethodological project for healthcare research and quality assurance in
+      interdisciplinary vascular medicine, which undertakes a comprehensive examination of this
+      topic. Various methods and data sources (even routine data) are linked in a meaningful way.
+      The essential components of the total project are implementation of a register platform
+      (GermanVasc), which conforms to data protection and data security as well as the development
+      of instruments for valid measurement of the quality of life of patients with PAD. The data
+      protection-conform linking of primary data in the register and routine data of the consortium
+      partner BARMER should also enable validation of the data sources.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 1, 2018</start_date>
+  <completion_date type="Anticipated">April 2020</completion_date>
+  <primary_completion_date type="Anticipated">March 2020</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>12 Months</target_duration>
+  <primary_outcome>
+    <measure>All-cause Mortality</measure>
+    <time_frame>12 Months</time_frame>
+    <description>Death from any reason</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Lower Extremity Amputation</measure>
+    <time_frame>12 Months</time_frame>
+    <description>Amputation of lower extremity</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Amputation-free Survival</measure>
+    <time_frame>12 Months</time_frame>
+    <description>Long-term-survival without any major amputation</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patency of Revascularization</measure>
+    <time_frame>12 Months</time_frame>
+    <description>Patency of treated vessel</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Quality of Life (SF12, WIQ)</measure>
+    <time_frame>12 Months</time_frame>
+    <description>Combined questionnaire including 26 questions using QoL-SF12 and Walking Impairment Questionnaire</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Ambulation</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Myocardial infarction</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Stroke or TIA</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Stent or Graft Thrombosis</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Functional Status</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Modified Rutherford Classification</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Foot Infection</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Tissue Loss</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>New Revascularization</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Major Adverse Cardiovascular Events (MACE, MACCE)</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Major Adverse Limb Events (MALE)</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Surgical Site Infection</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Major Bleeding Complication</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Acute kidney injury (AKI) requiring hemodialysis</measure>
+    <time_frame>At time of discharge (in-hospital period)</time_frame>
+    <description>As defined by the National Kidney Foundation.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Ankle-Brachial-Index</measure>
+    <time_frame>12 Months</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Occurrence of target vessel dissection</measure>
+    <time_frame>At time of discharge (in-hospital period)</time_frame>
+    <description>Any new dissection of the target vessel related to the procedure</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Compartment Syndrome</measure>
+    <time_frame>At time of discharge (in-hospital period)</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Graft or Device Failure</measure>
+    <time_frame>At time of discharge (in-hospital period)</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Distal Embolisation</measure>
+    <time_frame>At time of discharge (in-hospital period)</time_frame>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Symptomatic Peripheral Arterial Disease</condition>
+  <condition>Occlusive Disease of Artery of Lower Extremity</condition>
+  <condition>Quality of Life</condition>
+  <arm_group>
+    <arm_group_label>Intermittent Claudication</arm_group_label>
+    <description>Mild to severe claudication</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Ischaemic Rest Pain</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Critical Limb Threatening Ischaemia</arm_group_label>
+    <description>Ulcers, Necrosis, Gangrene</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Catheter-based endovascular revascularization</intervention_name>
+    <description>(e.g. PTA-alone, Bare-Metal or Drug-Eluting-Stent, Covered Stent, Atherectomy, Mechanical Thrombectomy, Scoring Ballon, Cutting Ballon)</description>
+    <arm_group_label>Intermittent Claudication</arm_group_label>
+    <arm_group_label>Ischaemic Rest Pain</arm_group_label>
+    <arm_group_label>Critical Limb Threatening Ischaemia</arm_group_label>
+    <other_name>ER</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Bypass-Surgery</intervention_name>
+    <description>Venous or alloplastic or comparable Bypass</description>
+    <arm_group_label>Intermittent Claudication</arm_group_label>
+    <arm_group_label>Ischaemic Rest Pain</arm_group_label>
+    <arm_group_label>Critical Limb Threatening Ischaemia</arm_group_label>
+    <other_name>Bypass</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Endarterectomy</intervention_name>
+    <description>Endarterectomy, Patchplasty</description>
+    <arm_group_label>Intermittent Claudication</arm_group_label>
+    <arm_group_label>Ischaemic Rest Pain</arm_group_label>
+    <arm_group_label>Critical Limb Threatening Ischaemia</arm_group_label>
+    <other_name>TEA</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with symptomatic peripheral artery disease (PAD) treated invasively at certified
+        multidisciplinary vascular centres in Germany.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Symptomatic peripheral artery disease (intermittent claudication or critical limb
+             ischemia)
+
+          -  Invasive treatment (open-surgical or endovascular)
+
+          -  Informed consent was obtained
+
+        Exclusion Criteria:
+
+          -  No informed consent was obtained
+
+          -  Acute limb ischemia without any chronic symptomatic PAD
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Christian-Alexander Behrendt, Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Universitätsklinikum Hamburg-Eppendorf</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Christian-Alexander Behrendt, Dr.</last_name>
+    <phone>+49-40-7410-18087</phone>
+    <email>ch.behrendt@uke.de</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Nicol Splawinski</last_name>
+    <phone>+49-40-7410-35679</phone>
+    <email>info@idomeneo.de</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Zentralklinik Bad Berka GmbH</name>
+      <address>
+        <city>Bad Berka</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Thomas Knöfel, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Herz- und Gefäßzentrum Bad Bevensen</name>
+      <address>
+        <city>Bad Bevensen</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Thomas Nolte, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Universitäts-Herzzentrum Freiburg - Bad Krozingen (UHZ)</name>
+      <address>
+        <city>Bad Krozingen</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Thomas Zeller, Prof. Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kerckhoff-Klinik Bad Nauheim</name>
+      <address>
+        <city>Bad Nauheim</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Karlfried Kainer, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Charité-Universitätsmedizin Berlin, Campus Benjamin Franklin</name>
+      <address>
+        <city>Berlin</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Irene Hinterseher, PD Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Ev. Krankenhaus Hubertus</name>
+      <address>
+        <city>Berlin</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Ernst Weigang, Prof. Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>HELIOS Klinikum Berlin-Buch</name>
+      <address>
+        <city>Berlin</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Andreas Gussmann, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Asklepios Klinik Birkenwerder</name>
+      <address>
+        <city>Birkenwerder</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Mario Kuhnert, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>St. Josef Hospital I Katholisches Klinikum der Ruhr-Universität Bochum</name>
+      <address>
+        <city>Bochum</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Thomas Hummel, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Gemeinschaftskrankenhaus Bonn, Haus St. Petrus</name>
+      <address>
+        <city>Bonn</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Jürgen Remig, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>GFO Kliniken Bonn, Betriebsstätte St. Marien</name>
+      <address>
+        <city>Bonn</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Oliver Friedrich, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Michael Waloßek, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Klinikum Chemnitz gGmbH</name>
+      <address>
+        <city>Chemnitz</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Sven Seifert, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Carl-Thiem-Klinikum Cottbus</name>
+      <address>
+        <city>Cottbus</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Rene Mettke, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Klinikum Darmstadt GmbH</name>
+      <address>
+        <city>Darmstadt</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Rupert Bauersachs, Prof. Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Städtisches Klinikum Dresden Friedrichstadt</name>
+      <address>
+        <city>Dresden</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Sebastian Schellong, Prof. Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>HELIOS Klinikum Erfurt</name>
+      <address>
+        <city>Erfurt</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Hendrik Bergert, PD Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Elisabeth-Krankenhaus Essen</name>
+      <address>
+        <city>Essen</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Johannes Hoffmann, Prof. Dr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Frankfurter RotKreuz-Kliniken e.V.</name>
+      <address>
+        <city>Frankfurt</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Savvas Apostolidis, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Universitäts-Herzzentrum Freiburg - Bad Krozingen (UHZ)</name>
+      <address>
+        <city>Freiburg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Friedhelm Beyersdorf, Prof. Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Martin Czerny, Prof. Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Klinikum Fulda</name>
+      <address>
+        <city>Fulda</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Richard Kellersmann, PD Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University Heart Center Hamburg</name>
+      <address>
+        <city>Hamburg</city>
+        <zip>20246</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Henrik C Rieß, Dr.</last_name>
+    </contact>
+    <investigator>
+      <last_name>Sebastian E Debus, Prof. Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Henrik C Rieß, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Agaplesion Diakonieklinikum Hamburg</name>
+      <address>
+        <city>Hamburg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Janine Sonnemann, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Dimitri Theodosiou, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Universitätsklinikum Jena</name>
+      <address>
+        <city>Jena</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Jürgen Zanow, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>SRH-Klinikum-Karlsbad-Langensteinbach</name>
+      <address>
+        <city>Karlsbach</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Rita Hubert, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Klinikum Karlsruhe</name>
+      <address>
+        <city>Karlsruhe</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Martin Storck, Prof. Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Agaplesion Diakonie Kliniken Kassel</name>
+      <address>
+        <city>Kassel</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Amin Moussa</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kath. Karl-Leisner-Klinikum I Marienhospital Kevelaer</name>
+      <address>
+        <city>Kevelaer</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Patrick Berg, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Universitätsklinikum Schleswig-Holstein, Campus Kiel</name>
+      <address>
+        <city>Kiel</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Hans-Jörg Hippe, PD Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>St. Bonifatius Hospital Lingen</name>
+      <address>
+        <city>Lingen</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Jörg Teßarek, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Universitätsklinikum Schleswig-Holstein, Campus Lübeck</name>
+      <address>
+        <city>Lübeck</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Markus Kleemann, Prof. Dr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Klinikum Magdeburg gGmbH</name>
+      <address>
+        <city>Magdeburg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>J Tautenhahn, PD Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Arndt Hribaschek, PD Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Theresienkrankenhaus Mannheim</name>
+      <address>
+        <city>Mannheim</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Matthias H Tenholt, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kliniken Maria Hilf GmbH</name>
+      <address>
+        <city>Mönchengladbach</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Christian Reinhold, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Ev. Krankenhaus Mühlheim an der Ruhr</name>
+      <address>
+        <city>Mühlheim</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Alexander Stehr, PD Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>HELIOS Klinikum München West</name>
+      <address>
+        <city>München</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Reza Ghotbi, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Isarklinikum München</name>
+      <address>
+        <city>München</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Peter Heider, PD Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Friedrich-Ebert-Krankenhaus Neumünster</name>
+      <address>
+        <city>Neumünster</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Alexander Selch, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Klinikum Peine</name>
+      <address>
+        <city>Peine</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Omke E Teebken, Prof. Dr.</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Sana Klinikum Remscheid</name>
+      <address>
+        <city>Remscheid</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Florian Lepique, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Klinikum Rheine I Mathias Spital</name>
+      <address>
+        <city>Rheine</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Gerd R Lulay, Prof. Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Klinikum Stadt Soest</name>
+      <address>
+        <city>Soest</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Kristian Nitschmann, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Klinikum Mutterhaus der Borromäerinnen gGmbH (Mitte)</name>
+      <address>
+        <city>Trier</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Christian Sprenger, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <link>
+    <url>http://idomeneo.de</url>
+    <description>Project website (German)</description>
+  </link>
+  <link>
+    <url>http://germanvasc.de</url>
+    <description>Website of the working group leading the project</description>
+  </link>
+  <reference>
+    <citation>Behrendt CA, Rieß H, Härter M, Kriston L, Federrath H, Marschall U, Debus ES. [Guideline recommendations and quality indicators for invasive treatment of peripheral arterial disease in Germany : The IDOMENEO study for quality improvement and research in vascular medicine]. Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz. 2018 Feb;61(2):218-223. doi: 10.1007/s00103-017-2676-9. Review. German.</citation>
+    <PMID>29230514</PMID>
+  </reference>
+  <reference>
+    <citation>Behrendt CA, Härter M, Kriston L, Federrath H, Marschall U, Straub C, Debus ES. [IDOMENEO - Does treatment reality in vascular medicine conform to guidelines and treatment?] Gefaesschirurgie. 2017;22(1):41-47.</citation>
+  </reference>
+  <reference>
+    <citation>Behrendt CA, Pridöhl H, Schaar K, Federrath H, Debus ES. [Clinical registers in the twenty-first century : Balancing act between data protection and feasibility?]. Chirurg. 2017 Nov;88(11):944-949. doi: 10.1007/s00104-017-0542-9. Review. German.</citation>
+    <PMID>29079875</PMID>
+  </reference>
+  <reference>
+    <citation>Behrendt CA, Heidemann F, Haustein K, Grundmann RT, Debus ES; PSI Collaborators. Percutaneous endovascular treatment of infrainguinal PAOD: Results of the PSI register study in 74 German vascular centers. Gefasschirurgie. 2017;22(Suppl 1):17-27. doi: 10.1007/s00772-016-0202-2. Epub 2016 Oct 28.</citation>
+    <PMID>28715513</PMID>
+  </reference>
+  <reference>
+    <citation>Behrendt CA, Bertges D, Eldrup N, Beck AW, Mani K, Venermo M, Szeberin Z, Menyhei G, Thomson I, Heller G, Wigger P, Danielsson G, Galzerano G, Lopez C, Altreuther M, Sigvant B, Rieß HC, Sedrakyan A, Beiles B, Björck M, Boyle JR, Debus ES, Cronenwett J. International Consortium of Vascular Registries Consensus Recommendations for Peripheral Revascularization Registry Data Collection. Eur J Vasc Endovasc Surg. 2018;Epub ahead of print.</citation>
+  </reference>
+  <reference>
+    <citation>Rieß HC, Debus ES, Schwaneberg T, Hischke S, Maier J, Bublitz M, Kriston L, Härter M, Marschall U, Zeller T, Schellong SM, Behrendt CA. Indicators of Outcome Quality in Peripheral Arterial Disease Revascularisations - A Delphi Expert Consensus. VASA. 2018;Epub ahead of print.</citation>
+  </reference>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 26, 2017</study_first_submitted>
+  <study_first_submitted_qc>March 26, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 31, 2017</study_first_posted>
+  <last_update_submitted>May 16, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 16, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 21, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Universitätsklinikum Hamburg-Eppendorf</investigator_affiliation>
+    <investigator_full_name>Christian Behrendt</investigator_full_name>
+    <investigator_title>Dr.</investigator_title>
+  </responsible_party>
+  <keyword>GermanVasc</keyword>
+  <keyword>Peripheral Arterial Disease</keyword>
+  <keyword>IDOMENEO</keyword>
+  <keyword>Routine Data</keyword>
+  <keyword>Registry Data</keyword>
+  <keyword>Data Validity</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Peripheral Arterial Disease</mesh_term>
+    <mesh_term>Peripheral Vascular Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

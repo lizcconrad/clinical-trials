@@ -1,0 +1,284 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02100488</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CL4M Controls</org_study_id>
+    <secondary_id>470/13/EC</secondary_id>
+    <nct_id>NCT02100488</nct_id>
+  </id_info>
+  <brief_title>Improving Postprandial Glycaemia by a New Developed Closed-loop Control System - Closedloop4meals</brief_title>
+  <acronym>CL4M-Controls</acronym>
+  <official_title>Improving Postprandial Glycaemia by a New Developed Closed-loop Control System (Closedloop4meals). An Interdisciplinary, Investigator's Initiated Project for Optimization of Glucose Control in Type1 Diabetic Subjects</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fundación para la Investigación del Hospital Clínico de Valencia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Hospital Clinic of Barcelona</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Universitat Politècnica de València</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Universitat de Girona</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Fundación para la Investigación del Hospital Clínico de Valencia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Achieving near-normoglycemia has been established as the main objective for most patients
+      with diabetes. However, postprandial glucose control is a challenging issue in everyday
+      diabetes care. Indeed, excessive postprandial glucose excursions are the major contributors
+      to plasma glucose (PG) variability in subjects with type 1 diabetes (T1DM). In addition, the
+      poor reproducibility of postprandial glucose response is burdensome for patients and
+      healthcare professionals.
+
+      Automatic glucose control, the so-called artificial pancreas or closed-loop system, may
+      represent the ideal solution for reaching the therapeutic goals in diabetic patients.
+      Intuitively, closed-loop insulin delivery may be superior to open-loop insulin delivery due
+      to a better compensation of the variability of subcutaneous insulin absorption and the
+      intra-subject insulin sensitivity. However, several challenges exist to effectively realize
+      an optimal postprandial closed-loop control of blood glucose. Indeed, the eating process
+      induces one of the major glucose perturbations that need to be controlled by an artificial
+      pancreas and is currently one of the main challenges found in clinical validations of the few
+      existing prototypes of an artificial pancreas. In particular, experiments carried out with
+      the currently used algorithms for glucose control (the so called PID and MPC) showed that
+      closed-loop insulin delivery often tend to overcorrect hyperglycemia thus increasing the risk
+      hypoglycemia.
+
+      In this project, a rigorous clinical testing of a novel closed-loop controller ('artificial
+      pancreas') will be carried out in T1DM patients treated with continuous subcutaneous insulin
+      infusion (CSII). The innovative element of the controller is a safety auxiliary feedback
+      based on sliding mode reference conditioning (SMRC), which has been demonstrated (in
+      simulation studies) to limit over-insulinization and the resulting hypoglycemia, reducing
+      glycaemic variability.
+
+      Standardized meal test studies will be performed in T1DM subjects treated with CSII,
+      comparing the administration of a classical bolus (open-loop study) with a controller-driven
+      prandial insulin delivery (closed-loop study) based on continuous subcutaneous glucose
+      monitoring (CGM).
+
+      The hypothesis is that closed loop control will provide better postprandial control,
+      especially in terms of reduction of glucose variability and incidence of hypoglycemia.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2014</start_date>
+  <completion_date type="Actual">October 2015</completion_date>
+  <primary_completion_date type="Actual">July 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Intra-subject postprandial glycemic variability</measure>
+    <time_frame>Eight-hour post-prandial period</time_frame>
+    <description>Clinical validation of a new algorithm (glucose controller) for closed-loop control of postprandial glucose in comparison with a standard bolus (open-loop control), in type 1 diabetic subjects using insulin pump therapy. The robustness and effectiveness of the new algorithm for closed-loop glycaemic control (PID controller modified by SMRC-based external loop adjustments) will be evaluated through measurement of intra-subject postprandial glycemic variability expressed as the coefficient of variation (CV) of the area under the curve (AUC) of plasma glucose (PG) during the 8h post-prandial period (CV_AUC-PG_0-8h).
+The hypothesis is that closed-loop insulin infusion reduces postprandial glucose variability as compared with standard treatment.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>CV_AUC-PG_3-8h</measure>
+    <time_frame>the 3-8 hour post-prandial interval</time_frame>
+    <description>Coefficient of variation of the area under the curve (AUC) of plasma glucose (PG) during the late postprandial phase.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>AUC_PG_0-8h</measure>
+    <time_frame>the 8h post-prandial period</time_frame>
+    <description>Area under the curve of plasma glucose (PG) during the 8h post-prandial period</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Time into range</measure>
+    <time_frame>0-8h post-prandial period</time_frame>
+    <description>Time spent in an acceptable glycaemic range (70-180 mg/dl), during the postprandial period</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Diabetes Mellitus, Type 1</condition>
+  <arm_group>
+    <arm_group_label>Open-loop insulin infusion system</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Standard Open-loop intensive insulin treatment with continuous insulin infusion (CSII). Commercially available insulin infusion systems will be used.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Closed-loop insulin infusion system</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Sliding Mode Reference Conditioning (SMRC) Closed-loop insulin administration. Automated insulin infusion based on subcutaneous continuous glucose monitoring (CGM). Commercially available insulin infusion systems and CGM devices will be used. However, insulin infusion will be driven by the by the software under investigation (CL4M Controls) based on blood glucose estimations from CGM.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Closed-loop insulin infusion system</intervention_name>
+    <description>Each subject will undergo two &quot;Open-loop&quot; and two &quot;Closed-loop&quot; meal tests, each one at 1-2 week intervals, thus completing the 4 experiments in about 6 weeks. The day of the experiment, a standard mixed meal test containing 60 g of carbohydrates (CHO), will be administered. On two occasions, patients will receive in a randomized order the standard insulin bolus based on the individual insulin to CHO ratio (First arm, Open-loop study). On the other two occasions they will receive a Sliding Mode Reference Conditioning (SMRC) Closed-loop insulin administration, based on subcutaneous continuous glucose monitoring (Second arm, Closed-loop study). Commercial insulin infusion systems and continuous glucose monitoring devices will be used.</description>
+    <arm_group_label>Closed-loop insulin infusion system</arm_group_label>
+    <other_name>CL4M Controls</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Open-loop insulin infusion system</intervention_name>
+    <description>Standard subcutaneous insulin infusion based on the individual insulin to carbohydrate ratio. Commercial insulin infusion systems and continuous glucose monitoring devices will be used.</description>
+    <arm_group_label>Open-loop insulin infusion system</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Subjects with type 1 diabetes mellitus
+
+          -  Continuous subcutaneous insulin infusion (CSII) treatment for at least six months
+             before Visit 1
+
+          -  Body mass index of between 18 and 30 kg/m2
+
+          -  HbA1c 6.0-8.5% at Visit 1
+
+          -  Normal laboratory values, ECG, and vital signs unless the investigator considered an
+             abnormality to be clinically irrelevant
+
+          -  Women postmenopausal or using contraception judged by the investigator to be adequate
+             (e.g., oral contraceptives, intra-uterine device or surgical treatment), or with a
+             negative negative urine pregnancy tests at visits 1, 3 and 5
+
+        Exclusion Criteria:
+
+          -  Pregnancy and lactation
+
+          -  History of hypersensitivity to the study medications or to drugs with similar chemical
+             structures
+
+          -  Hypoglycaemia unawareness
+
+          -  Progressive fatal diseases
+
+          -  History of drug or alcohol abuse
+
+          -  History of positive HIV or hepatitis B or C test
+
+          -  Impaired hepatic function, as shown by, but not limited to, SGPT or SGOT of more than
+             twice the upper limit of the normal range at visit 1
+
+          -  Impaired renal function, as shown by, but not limited to, serum creatinine &gt; 1.5 mg/dL
+             at visit 1
+
+          -  Clinically relevant microvascular (pre-proliferative and proliferative retinopathy and
+             macroalbuminuria), cardiovascular, hepatic, neurologic, endocrine or other major
+             systemic diseases other than T1DM which could hinder implementation of the clinical
+             study protocol or interpretation of the study results
+
+          -  Pre-planned surgery during the study
+
+          -  Blood donation of more than 500 ml during the past three months for men, or during the
+             past six months for women
+
+          -  Mental condition rendering the subject unable to understand the nature, scope and
+             possible consequences of the study
+
+          -  Subject unlikely to comply with clinical study protocol, e.g., uncooperative attitude,
+             inability to return for follow-up visits, or poor likelihood of completing the study
+
+          -  Receipt of an experimental drug or use of an experimental device during the past 30
+             days.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Francisco Javier Ampudia-Blasco, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Medicine, Division of Endocrinology and Nutrition, Clinic University Hospital of Valencia - Fundación INCLIVA, University of Valencia, Valencia, Spain.</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Ignacio Conget, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Unidad de Diabetes. Servicio de Endocrinología y Nutrición, Hospital Clínic i Universitari de Barcelona, Barcelona, Spain</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jorge Bondia, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>University Institute of Control Systems and Industrial Computing (ai2 Institute), Polytechnic University of Valencia, Valencia, Spain</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Josep Vehí, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Institute of Informatics and Applications, University of Girona, Girona, Spain</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Hospital Clínic i Universitari de Barcelona</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>08036</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Clínico Universitario de Valencia</name>
+      <address>
+        <city>Valencia</city>
+        <zip>46010</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <reference>
+    <citation>Revert A, Garelli F, Pico J, De Battista H, Rossetti P, Vehi J, Bondia J. Safety auxiliary feedback element for the artificial pancreas in type 1 diabetes. IEEE Trans Biomed Eng. 2013 Aug;60(8):2113-22. doi: 10.1109/TBME.2013.2247602. Epub 2013 Feb 15.</citation>
+    <PMID>23428611</PMID>
+  </reference>
+  <verification_date>November 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 27, 2014</study_first_submitted>
+  <study_first_submitted_qc>March 31, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 1, 2014</study_first_posted>
+  <last_update_submitted>November 14, 2015</last_update_submitted>
+  <last_update_submitted_qc>November 14, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">November 17, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Closed-loop insulin infusion</keyword>
+  <keyword>Postprandial glucose control</keyword>
+  <keyword>Glucose variability</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,413 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03306524</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16/28</org_study_id>
+    <nct_id>NCT03306524</nct_id>
+  </id_info>
+  <brief_title>The Role of Circuit Flow During Mechanical Ventilation of Neonates</brief_title>
+  <acronym>E-Flow</acronym>
+  <official_title>Investigating the Effect of Altering the Slope of the Rise in Pressure During Mechanical Ventilation of Preterm Babies</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cambridge University Hospitals NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Cambridge University Hospitals NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      During neonatal mechanical ventilation inflating pressures, tidal volumes, and inflation and
+      expiration times need to be set and adjusted to optimise oxygenation and carbon dioxide
+      removal. The flow of gas into the ventilator circuit has a big effect on ventilation but is
+      usually set to a constant value (~8 L/min) for all babies regardless of size or severity of
+      illness, based on minimal research. High circuit flow may lead to lung damage and low flow to
+      inadequate ventilation. The investigators recently developed a unique system to capture,
+      record, analyse, and display ventilator data at high resolution over long periods. Using this
+      the investigators will investigate, in within patient cross-over studies, how the level of
+      gas flow affects ventilator parameters and ventilation, in two commonly used ventilation
+      modes. The results will determine the lowest circuit flow that ventilates a baby safely and
+      effectively. It will also provide preliminary data for a randomised trial.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      - Background of the project
+
+      About 1.5% of newborns require mechanical ventilation. Although mechanical ventilation can be
+      life-saving for neonates with respiratory failure, it may cause lung injury due to excess
+      airway pressure (barotrauma), delivery of high tidal volumes (volutrauma) and repetitive
+      closing/re-opening of lung units (atelectotrauma)1. Very preterm neonates are especially
+      vulnerable to ventilator induced lung injury. Ventilator associated lung injury is one of
+      several factors contributing to the burden of chronic lung disease of infancy, also called
+      bronchopulmonary dysplasia (BPD).
+
+      Ventilators have several different modes. The most frequently used mode is, time-cycled,
+      pressure limited, where the doctor sets inspired oxygen level, the peak inflation pressure
+      (PIP), rate, and inflation time of the ventilator. In this mode the inflations are usually
+      synchronised with the baby's breathing. This is either Synchronised Intermittent Positive
+      Pressure Ventilation (SIPPV), where the ventilator synchronises inflations with all the
+      baby's breaths, or Synchronised Intermittent Mandatory Ventilation (SIMV), where the
+      ventilator only synchronises with a set number of breaths. These can be delivered with or
+      without targeting the tidal volume delivered to a set value by adjusting the peak inflating
+      pressure. This mode is called volume guarantee (VG). A similar mode of ventilation is
+      flow-cycled or Pressure Support Ventilation (PSV) and can be combined with tidal volume
+      targeting 2. In this mode the inflation is terminated as soon as the flow rate falls to 15%
+      of the maximum flow during inflation.
+
+      These modes have continuous gas flow through the ventilation circuit. Inflation starts and
+      pressure rises when the expiratory valve is closed. The rate of circuit flow alters the
+      ventilation waveforms. With time-cycled ventilation the higher the circuit flow the faster
+      the pressure rises, the lung is distended and potentially injured, and the earlier the set
+      PIP is achieved. A high flow, with a relatively long inflation time will result in a
+      &quot;pressure plateau&quot;, that is the PIP is sustained after the flow, into the baby, has stopped
+      because the lung volume is maximal at the PIP used (Figure 1). In PSV inflation stops when
+      the flow has decreased to ~15% of the peak inflation flow and so the inflation time is
+      shorter. Increasing the device flow shortens the inflation time and thereby reduces the mean
+      airway pressure.
+
+      Despite the effects on ventilation patterns and the speed of lung distension and injury,
+      consideration has rarely been given to the circuit flow. By protocol, it is usually set at
+      7-10 L/min when the ventilator is turned on and it is not changed.
+
+      This is relatively high, and usually produces a &quot;square&quot; pressure waveform with a rapid
+      distention of the lungs and a sustained pressure plateau. (see A in figure 1) With PSV a high
+      flow results in a relatively short inflation time (~0.2 sec; it needs to be at least 0.3 sec
+      for adequate lung aeration). There is no evidence these high flows are best for optimum
+      ventilation and minimum lung damage. In a preterm lamb model there were no adverse effects on
+      gas exchange or cardiovascular parameters until the flow was reduced to 3 l/min 3. In animal
+      studies ventilation with high flow resulted in histologic and molecular changes of lung
+      injury 4. The effect of lowering the ventilator circuit flow rate has never been investigated
+      in clinical studies.
+
+      The Dräger Babylog VN500 ventilator has an alternative to setting a gas flow: the user can
+      set the slope time instead, that is time required to reach the set pressure. In Cambridge it
+      is invariably set to 0.08 sec which results in a flow ~7 L/min. As we use an inflation time
+      between 0.33 - 0.45 sec, there is a pressure plateau lasting at least 0.25 sec and sustained
+      inflation with little or no flow.
+
+      The investigators are the first to develop a unique system for downloading and analysing data
+      from the Dräger VN500 neonatal ventilator. Using DataGrabber software obtained from Dräger
+      Medical, the investigators can retrieve ventilator parameters at 100Hz frequency over long
+      periods (hours and even days). To analyse and visualise the large datasets the investigators
+      developed a data analysis workflow using the Python programing language and its add-on
+      packages (Figure 2). With this tool the investigators can now study details of each inflation
+      and spontaneous breath. The Investigators have recorded detailed data from 30 babies and
+      shown it is feasible, accurate, and the investigators have the expertise (Belteki et al,
+      submitted).
+
+      In this application the investigators propose to investigate the effect of different slope
+      times (and therefore different levels of circuit flow) on ventilation parameters and gas
+      exchange in preterm infants. The investigators hypothesise that a longer slope time (= lower
+      circuit flow) will distend the lungs more gently yet maintain ventilation and gas exchange.
+
+        -  Intervention:
+
+      The study is a within patient crossover design comparing short periods of ventilation with
+      different slope times both in SIPPV-VG and PSV-VG modes with the following interventions:
+
+      A ventilator download tool and transcutaneous and expired CO2 monitors is attached to the
+      ventilator and data download commences while the baby is ventilated with the parameters used
+      by the clinical team. An arterial blood gas is performed. The ventilated parameters are
+      changed as shown below. The order of these epochs is randomised. Another arterial blood gas
+      is performed. Ventilator is changed back to the original parameters (or different as
+      appropriate by the blood gas). Ventilator data and CO2 recording will be continued for
+      another 30 minutes.
+
+      Interventions
+
+      Duration Ventilator More Slope time Inspiratory time[max] 15 min SIPPV-VG 0.08 0.40 15 min
+      PSV-VG 0.08 [0.60] 15 min PSV-VG 0.16 [0.60] 15 min SIPPV-VG 0.16 0.40 15 min SIPPV-VG 0.24
+      0.40 15 min PSV-VG 0.24 [0.60] 15 min PSV-VG 0.32 [0.60] 15 min SIPPV-VG 0.32 0.40 15 min
+      SIPPV-VG 0.40 0.40 115 min PSV-VG 0.40 [0.60]
+
+      Total study duration is 220 minutes. A researcher will be present continuously. FiO2 will be
+      adjusted if needed to maintain saturations between 90-95%. If the FiO2 rises &gt;15% or the
+      end-tidal CO2 rises &gt;1.5kPa over the pre-study level, that intervention will be abandoned.
+
+      Comparison:
+
+      At each slope time, the following parameters will be determined and compared with those
+      recorded at 0.08 sec slope time: (1) peak inflating pressure, (2) inflation duration, (3)
+      duration of inflation plateau, (4) duration of no gas flow, (5) expired tidal and minute
+      volumes (mandatory/spontaneous, inspiratory/expiratory, (6) ventilator rate, (7) FiO2, (8)
+      transcutaneous and/or end-tidal CO2 and, (9) interaction between ventilator inflations and
+      baby's breaths. Values for SIPPV and PSV will also be compared.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 1, 2017</start_date>
+  <completion_date type="Anticipated">June 30, 2018</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>Ten different interventions (with changing slope time or ventilation mode) will be compared in a crossover design. Each intervention will be given for 15 minutes. For details of the intervention see study design details.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+    <masking_description>Neonates</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>End tidal CO2 measurement</measure>
+    <time_frame>One year</time_frame>
+    <description>Primary outcome will be the difference in end-tidal CO2 concentration during the epochs with slope times of 0.40 and 0.08 sec.</description>
+  </primary_outcome>
+  <number_of_arms>10</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Respiratory Distress Syndrome in Premature Infant</condition>
+  <arm_group>
+    <arm_group_label>SIPPV_VG_0_08</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>SIPPV VG ventilation for 15 minutes slope time = 0.08 seconds inspiratory time = 0.40 seconds</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PSV_VG_0_08</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PSV VG ventilation for 15 minutes slope time = 0.08 seconds maximum inspiratory time = 0.60 seconds</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SIPPV_VG_0_16</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>SIPPV VG ventilation for 15 minutes slope time = 0.16 seconds inspiratory time = 0.40 seconds</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PSV_VG_0_16</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PSV VG ventilation for 15 minutes slope time = 0.16 seconds maximum inspiratory time = 0.60 seconds</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SIPPV_VG_0_24</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>SIPPV VG ventilation for 15 minutes slope time = 0.24 seconds inspiratory time = 0.40 seconds</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PSV_VG_0_24</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PSV VG ventilation for 15 minutes slope time = 0.24 seconds maximum inspiratory time = 0.60 seconds</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SIPPV_VG_0_32</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>SIPPV VG ventilation for 15 minutes slope time = 0.32 seconds inspiratory time = 0.40 seconds</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PSV_VG_0_32</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PSV VG ventilation for 15 minutes slope time = 0.32 seconds maximum inspiratory time = 0.60 seconds</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SIPPV_VG_0_40</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>SIPPV VG ventilation for 15 minutes slope time = 0.32 seconds inspiratory time = 0.40 seconds</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PSV_VG_0_40</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PSV VG ventilation for 15 minutes slope time = 0.40 seconds maximum inspiratory time = 0.60 seconds</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>SIPPV_VG_0_08</intervention_name>
+    <description>Mechanical ventilation using SIPPV-VG ventilator mode with a slope time of 0.08 seconds, inspiratory time of 0.40 seconds for 15 minutes</description>
+    <arm_group_label>SIPPV_VG_0_08</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>SIPPV_VG_0_16</intervention_name>
+    <description>Mechanical ventilation using SIPPV-VG ventilator mode with a slope time of 0.16seconds, inspiratory time of 0.40 seconds for 15 minutes</description>
+    <arm_group_label>SIPPV_VG_0_16</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>SIPPV_VG_0_24</intervention_name>
+    <description>Mechanical ventilation using SIPPV-VG ventilator mode with a slope time of 0.24 seconds, inspiratory time of 0.40 seconds for 15 minutes</description>
+    <arm_group_label>SIPPV_VG_0_24</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>SIPPV_VG_0_32</intervention_name>
+    <description>Mechanical ventilation using SIPPV-VG ventilator mode with a slope time of 0.32 seconds, inspiratory time of 0.40 seconds for 15 minutes</description>
+    <arm_group_label>SIPPV_VG_0_32</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>SIPPV_VG_0_40</intervention_name>
+    <description>Mechanical ventilation using SIPPV-VG ventilator mode with a slope time of 0.40 seconds, inspiratory time of 0.40 seconds for 15 minutes</description>
+    <arm_group_label>SIPPV_VG_0_40</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>PSV_VG_0_08</intervention_name>
+    <description>Mechanical ventilation using PSV-VG ventilator mode with a slope time of 0.08 seconds, maximum inspiratory time of 0.60 seconds for 15 minutes</description>
+    <arm_group_label>PSV_VG_0_08</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>PSV_VG_0_16</intervention_name>
+    <description>Mechanical ventilation using PSV-VG ventilator mode with a slope time of 0.16 seconds, maximum inspiratory time of 0.60 seconds for 15 minutes</description>
+    <arm_group_label>PSV_VG_0_16</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>PSV_VG_0_24</intervention_name>
+    <description>Mechanical ventilation using PSV-VG ventilator mode with a slope time of 0.24 seconds, maximum inspiratory time of 0.60 seconds for 15 minutes</description>
+    <arm_group_label>PSV_VG_0_24</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>PSV_VG_0_32</intervention_name>
+    <description>Mechanical ventilation using PSV-VG ventilator mode with a slope time of 0.32 seconds, maximum inspiratory time of 0.60 seconds for 15 minutes</description>
+    <arm_group_label>PSV_VG_0_32</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>PSV_VG_0_40</intervention_name>
+    <description>Mechanical ventilation using PSV-VG ventilator mode with a slope time of 0.40 seconds, maximum inspiratory time of 0.60 seconds for 15 minutes</description>
+    <arm_group_label>PSV_VG_0_40</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Birth weight &lt; 2 kg;
+
+          -  Ventilated with SIPPV-VG modes,
+
+          -  Informed parental consent,
+
+          -  Clinician assent.
+
+        Exclusion Criteria:
+
+          -  Baby's respiratory condition unstable (Inspired oxygen (FiO2) &gt; 50%, PaCO2 &gt; 8.5kPa or
+             &lt;5kPa in the last 12 hours)
+
+          -  Extubation planned in the next 12 hours;
+
+          -  Neonatal or surgical procedure in the last 12 hours or planned in the next 12 hours;
+
+          -  Significant pneumothorax requiring drainage;
+
+          -  Gas leak around the endotracheal tube &gt;50%; #
+
+          -  No arterial access;
+
+          -  The responsible clinician does not agree with recruitment;
+
+          -  Parents do not consent.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>2 Months</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gusztav Belteki, M.D., Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Cambridge University Hospitals NHS Trust</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Gusztav Belteki, M.D., Ph.D.</last_name>
+    <phone>00441223274183</phone>
+    <email>gusztav.belteki@addenbrookes.nhs.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Sabrina Kayser, R.N.</last_name>
+    <phone>00441223256957</phone>
+    <email>sabrina.ploenzke@addenbrookes.nhs.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Neonatal Intensive Care Unit, Cambridge University Hospitals NHS Trust</name>
+      <address>
+        <city>Cambridge</city>
+        <zip>CB20QQ</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Gusztav Belteki, M.D. Ph.D</last_name>
+      <phone>00441223274183</phone>
+      <email>gusztav.belteki@addenbrookes.nhs.uk</email>
+    </contact>
+    <contact_backup>
+      <last_name>Sabrina Kayser, R.N.</last_name>
+      <phone>00441223245151</phone>
+      <phone_ext>4169</phone_ext>
+      <email>sabrina.ploencke@addenbrookes.nhs.uk</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <reference>
+    <citation>Attar MA, Donn SM. Mechanisms of ventilator-induced lung injury in premature infants. Semin Neonatol. 2002 Oct;7(5):353-60. Review.</citation>
+    <PMID>12464497</PMID>
+  </reference>
+  <reference>
+    <citation>Nafday SM, Green RS, Lin J, Brion LP, Ochshorn I, Holzman IR. Is there an advantage of using pressure support ventilation with volume guarantee in the initial management of premature infants with respiratory distress syndrome? A pilot study. J Perinatol. 2005 Mar;25(3):193-7.</citation>
+    <PMID>15674409</PMID>
+  </reference>
+  <reference>
+    <citation>Bach KP, Kuschel CA, Oliver MH, Bloomfield FH. Ventilator gas flow rates affect inspiratory time and ventilator efficiency index in term lambs. Neonatology. 2009;96(4):259-64. doi: 10.1159/000220765. Epub 2009 May 27.</citation>
+    <PMID>19478530</PMID>
+  </reference>
+  <reference>
+    <citation>Bach KP, Kuschel CA, Hooper SB, Bertram J, McKnight S, Peachey SE, Zahra VA, Flecknoe SJ, Oliver MH, Wallace MJ, Bloomfield FH. High bias gas flows increase lung injury in the ventilated preterm lamb. PLoS One. 2012;7(10):e47044. doi: 10.1371/journal.pone.0047044. Epub 2012 Oct 8.</citation>
+    <PMID>23056572</PMID>
+  </reference>
+  <verification_date>October 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 25, 2017</study_first_submitted>
+  <study_first_submitted_qc>October 10, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 11, 2017</study_first_posted>
+  <last_update_submitted>October 10, 2017</last_update_submitted>
+  <last_update_submitted_qc>October 10, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 11, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Cambridge University Hospitals NHS Foundation Trust</investigator_affiliation>
+    <investigator_full_name>Gusztav Belteki</investigator_full_name>
+    <investigator_title>Consultant Neonatologist</investigator_title>
+  </responsible_party>
+  <keyword>mechanical ventilation</keyword>
+  <keyword>SIPPV</keyword>
+  <keyword>PSV</keyword>
+  <keyword>Device flow</keyword>
+  <keyword>Circuit flow</keyword>
+  <keyword>Slope time</keyword>
+  <keyword>neonatal intensive care</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Respiratory Distress Syndrome, Newborn</mesh_term>
+    <mesh_term>Respiratory Distress Syndrome, Adult</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

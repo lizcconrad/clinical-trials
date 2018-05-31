@@ -1,0 +1,218 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01262053</url>
+  </required_header>
+  <id_info>
+    <org_study_id>10-05-156E</org_study_id>
+    <nct_id>NCT01262053</nct_id>
+  </id_info>
+  <brief_title>Investigating Wrong-Patient Computerized Physician Order Entry (CPOE) Errors</brief_title>
+  <official_title>Investigating Wrong-Patient CPOE Errors</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Montefiore Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Montefiore Medical Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      With the increased adoption of CPOE systems, it is important to recognize that design flaws
+      have resulted in the creation of new types of iatrogenic medical errors. An example of a new
+      type of iatrogenic medical error introduced by CPOE systems has been named &quot;juxtaposition
+      errors&quot;. Juxtaposition errors, as defined by Ash, et al. are &quot;errors that can result when
+      something is close to something else on the screen, and the wrong option is too easily
+      clicked in error.&quot; Juxtaposition errors can lead to a patient receiving a medication, a test,
+      or a treatment intended for another patient, sometimes with dire consequences. Juxtaposition
+      errors are likely a subclass of a broader group of wrong-patient CPOE errors that have
+      multiple etiologies.
+
+      The primary objectives of this research proposal is to investigate the prevalence of
+      wrong-patient near miss CPOE errors, to investigate the root cause of these errors, and to
+      investigate and compare the efficacy and workflow impact of two distinct interventions to
+      prevent these errors.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Computerized Physician Order Entry (CPOE) systems have been shown to prevent medical errors,
+      and have become a major component of the patient safety movement. To accelerate the adoption
+      of clinical information technology including CPOE systems, the American Recovery and
+      Reinvestment Act of 2009 allocated approximately $17 billion as incentive payments to
+      providers and hospitals who implement health information technology. With the increased
+      adoption of CPOE systems, however, it is important to recognize that design flaws have
+      resulted in the creation of new types of iatrogenic medical errors. In addition, CPOE systems
+      developed with suboptimal and onerous user interfaces have contributed to entire systems
+      being rejected by physicians. The ideal CPOE system maximizes medical error reduction,
+      minimizes medical error creation, and has a user friendly interface that is accepted by
+      nurses, physicians, and pharmacists.
+
+      An example of a new type of iatrogenic medical error introduced by CPOE systems has been
+      named &quot;juxtaposition errors&quot; . Juxtaposition errors, as defined by Ash, et al. are &quot;errors
+      that can result when something is close to something else on the screen, and the wrong option
+      is too easily clicked in error.&quot; Juxtaposition errors can lead to a patient receiving a
+      medication, a test, or a treatment intended for another patient, sometimes with dire
+      consequences.
+
+      Juxtaposition errors are likely a subclass of a broader group of wrong-patient CPOE errors
+      that have multiple etiologies. Other possible causes of wrong-patient CPOE orders include
+      interruption errors, or double-interruption errors.
+
+      Primary Objectives:
+
+        -  Specific Aim 1: Investigate the prevalence of wrong-patient near miss CPOE errors.
+
+        -  Specific Aim 2: Investigate the root cause of wrong-patient near miss CPOE errors.
+
+        -  Specific Aim 3: Investigate and compare the efficacy and workflow impact of two distinct
+           interventions to prevent wrong-patient near miss CPOE errors against a control.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Active, not recruiting</last_known_status>
+  <start_date>December 2010</start_date>
+  <completion_date type="Anticipated">May 2011</completion_date>
+  <primary_completion_date type="Anticipated">May 2011</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Factorial Assignment</intervention_model>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Reduction of wrong patient CPOE errors</measure>
+    <time_frame>Within one hour of placing an order</time_frame>
+    <description>Compare reduction of wrong patient CPOE errors in each intervention group against a control</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Impact of interventions on workflow</measure>
+    <time_frame>Within one hour of placing an order</time_frame>
+    <description>Compare the efficacy and workflow impact of two distinct interventions to prevent wrong-patient near miss CPOE errors against a control</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">5000</enrollment>
+  <condition>Wrong Patient Computerized Physician Order Entry Errors</condition>
+  <arm_group>
+    <arm_group_label>Passive Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>When a user is about to place orders on a patient, a pop up alert will show the user the name, age, sex, room number and MR# of the patient who is currently activated.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Invasive Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The user will be required to enter the initials, age and sex of the activated patient prior to placing any orders.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Parallel control with no intervention</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Passive Intervention</intervention_name>
+    <description>When a user is about to place orders on a patient, a pop up alert will show the user the name, age, sex, room number and MR# of the patient who is currently activated. The point of the alert is to display identification information about the patient as a double check for the provider to make sure he is on the correct patient. This alert will only occur once at the onset of each order session (i.e. the provider will not be alerted for every single order, but if the provider leaves the order pad and then returns, the alert will reoccur).</description>
+    <arm_group_label>Passive Intervention</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Active Intervention</intervention_name>
+    <description>The user will be required to enter the initials, age and sex of the activated patient prior to placing any orders. For example, for a patient named Donald Duck who is 76 years old and male, the user will be required to type &quot;dd76m&quot; to unlock the order pad. This step will NOT be required for every order, but WILL be required every time the user enters the order pad (i.e. if a user leaves the order pad and then returns, the system will require the initials, age and sex to be re-entered as above). This will be a forcing function.</description>
+    <arm_group_label>Invasive Intervention</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Control</intervention_name>
+    <description>Parallel control with no intervention</description>
+    <arm_group_label>Control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All providers that place order in the Computerized Physician Order Entry (CPOE) System
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jason S Adelman, MD, MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Montefiore Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Montefiore Medical Center</name>
+      <address>
+        <city>Bronx</city>
+        <state>New York</state>
+        <zip>10467</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Ash JS, Sittig DF, Poon EG, Guappone K, Campbell E, Dykstra RH. The extent and importance of unintended consequences related to computerized provider order entry. J Am Med Inform Assoc. 2007 Jul-Aug;14(4):415-23. Epub 2007 Apr 25.</citation>
+    <PMID>17460127</PMID>
+  </reference>
+  <reference>
+    <citation>Koppel R, Metlay JP, Cohen A, Abaluck B, Localio AR, Kimmel SE, Strom BL. Role of computerized physician order entry systems in facilitating medication errors. JAMA. 2005 Mar 9;293(10):1197-203.</citation>
+    <PMID>15755942</PMID>
+  </reference>
+  <reference>
+    <citation>Weiner JP, Kfuri T, Chan K, Fowles JB. &quot;e-Iatrogenesis&quot;: the most critical unintended consequence of CPOE and other HIT. J Am Med Inform Assoc. 2007 May-Jun;14(3):387-8; discussion 389. Epub 2007 Feb 28.</citation>
+    <PMID>17329719</PMID>
+  </reference>
+  <reference>
+    <citation>Campbell EM, Sittig DF, Ash JS, Guappone KP, Dykstra RH. Types of unintended consequences related to computerized provider order entry. J Am Med Inform Assoc. 2006 Sep-Oct;13(5):547-56. Epub 2006 Jun 23.</citation>
+    <PMID>16799128</PMID>
+  </reference>
+  <reference>
+    <citation>Wachter RM. Expected and unanticipated consequences of the quality and information technology revolutions. JAMA. 2006 Jun 21;295(23):2780-3.</citation>
+    <PMID>16788133</PMID>
+  </reference>
+  <verification_date>December 2010</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 15, 2010</study_first_submitted>
+  <study_first_submitted_qc>December 15, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 17, 2010</study_first_posted>
+  <last_update_submitted>December 24, 2010</last_update_submitted>
+  <last_update_submitted_qc>December 24, 2010</last_update_submitted_qc>
+  <last_update_posted type="Estimate">December 27, 2010</last_update_posted>
+  <responsible_party>
+    <name_title>Jason Adelman, MD, MS/Patient Safety Officer</name_title>
+    <organization>Montefiore Medical Center</organization>
+  </responsible_party>
+  <keyword>Computerized Physician Order Entry</keyword>
+  <keyword>CPOE</keyword>
+  <keyword>Wrong Patient</keyword>
+  <keyword>Juxtaposition</keyword>
+  <keyword>Patient Safety</keyword>
+  <keyword>Medical Errors</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

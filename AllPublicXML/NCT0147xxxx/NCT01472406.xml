@@ -1,0 +1,373 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01472406</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DK085628</org_study_id>
+    <nct_id>NCT01472406</nct_id>
+  </id_info>
+  <brief_title>Feasibility Study Using Zone-MPC Controller (Zone-Model Predictive Control) and Health Monitoring System (HMS)</brief_title>
+  <official_title>Artificial Pancreas Device Feasibility Study for Type 1 Diabetes Patients Using Model-predictive Control and Health Monitoring System Algorithms With an Approved Subcutaneous Insulin Delivery Pump and Subcutaneous Continuous Glucose Monitor</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sansum Diabetes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of California, Santa Barbara</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sansum Diabetes Research Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This clinical trial is a feasibility study to assess the performance of an Artificial
+      Pancreas (AP) device using the Artificial Pancreas System (APS©) platform for subjects with
+      type 1 diabetes. The device is a closed-loop between a DexCom™ SEVEN® PLUS (DexCom™ Corp, San
+      Diego, CA) continuous glucose monitor (CGM) and a OneTouch® Ping® Glucose Monitoring System
+      (Animas Corp, Westchester, PA) subcutaneous insulin delivery pump (CSII). The AP device is
+      controlled by a zone-Model Predictive Control (zone-MPC) algorithm augmented by a safety
+      algorithm named the Health Monitoring System (HMS). The clinical study will include 12 to 20
+      adults subjects aged 21 to 65 years old.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study consists of an evaluation of the Artificial Pancreas device during a 24-hour
+      closed-loop in a clinic environment (Sansum Diabetes Research Institute, Santa Barbara, CA).
+      The 24-hour period includes:
+
+        -  2 unannounced meals (evening dinner and breakfast);
+
+        -  1 period of 30 minutes of exercise at 50% of the predicted heart rate reserve (HRR)
+           preceded with a snack and followed by a snack 3 hours later (on Day 2);
+
+        -  complete night from 12:00 am to 7:00 am; The subject will arrive at approximately 4:00
+           pm to the CRC (clinical research center), the closed-loop will be initiated at
+           approximately 4:30 pm that same day and continued until 4:30 pm the next day. A
+           physician will be monitoring the patient with the artificial Pancreas (AP) device at all
+           time.
+
+      The proposed study will evaluate the performance of the AP device in predicting the fall and
+      rise of glucose values and in regulating insulin delivery to mitigate extreme blood glucose
+      variations during the following challenges:
+
+        -  following unannounced meals,
+
+        -  during a nocturnal period, and
+
+        -  during a period of active exercise.
+
+      The goal is to demonstrate that the AP device is able to maintain the subject blood glucose
+      within a safe range at all times. One of the objectives of the study will be to measure the
+      percent of time spent in the following zones:
+
+        -  [80-140] mg/dL at all times unless described otherwise
+
+        -  [80-140] mg/dL during the nocturnal period
+
+        -  [70-180] mg/dL postprandial, for 5 hours following the unannounced meals
+
+        -  [70-150] mg/dL during and for 3 hours following exercise It is anticipated that
+           following the planned challenges, glucose value might increase temporarily beyond those
+           ranges. These excursions will be reviewed and analyzed (value and duration) and the
+           study will determine how the AP device mitigates those excursions and maintains glucose
+           levels within a safe and acceptable range. The clinical study will also review any event
+           that occur during the course of the 24-hour closed-loop: hypoglycemic events,
+           hyperglycemic events, outside intervention, other Adverse Event, Serious Adverse Events,
+           Unanticipated Adverse Device Effect, and device complaints for the commercial devices
+           used. The safety of the patient will remain the primary goal. The goal of the AP device
+           is to operate without outside intervention even when challenged by meals or exercise
+           unless the outside intervention is requested by the Health Monitoring System (HMS).
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>November 2011</start_date>
+  <completion_date type="Anticipated">March 2014</completion_date>
+  <primary_completion_date type="Anticipated">March 2014</primary_completion_date>
+  <phase>Early Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>% of time within zone [80-140] mg/dL except 5 hours post-prandial and during exercise and 3 hours post-exercise</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Measures ability of AP device to maintain glucose level within a safe zone and to return to save zone following unannounced meals and exercises.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>% of time within zone [80-140] mg/dL during night between 12:00 am and 7:00 am</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Measures ability of AP device to maintain glucose level with a safe zone during the night and prevent hypoglycemia</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% of time within zone [70-180] mg/dL 5 hours after unannounced evening meal, and breakfast</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Measures ability of AP device to react to small meal and to prevent glucose level from dangerous excursions.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% of time within zone [70-150] mg/dL during the 30 min exercise</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Measures ability of AP device to maintain safe glucose level during 30 minutes of non-strenuous exercise</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% of time within zone [70-150] mg/dL during the 3 hours following exercise</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Measures ability of AP device to address exercise and to prevent glucose level from dangerous excursions</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Closed-loop session</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The study consists of an evaluation of the Sansum Closed-loop Artificial Pancreas Device, insulin infusion pump, Continuous Glucose Monitor, zone-Model Predictive Control algorithm, and a Safety Health Monitoring System. during a 24-hour closed-loop in a clinic environment (Sansum Diabetes Research Institute, Santa Barbara, CA).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Sansum Closed-Loop Artificial Pancreas</intervention_name>
+    <description>The Sansum Closed-loop Artificial Pancreas Device is the infrastructure that allows communication between the insulin pump, the CGM, the zone-MPC, and the HMS.</description>
+    <arm_group_label>Closed-loop session</arm_group_label>
+    <other_name>Sansum AP</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Insulin infusion pump</intervention_name>
+    <description>The insulin pump, which has received 510k clearance (K080639), delivers insulin subcutaneously through an infusion set.</description>
+    <arm_group_label>Closed-loop session</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Continuous Glucose Monitor</intervention_name>
+    <description>The CGM, which is an approved device (P050012), measures interstitial glucose.</description>
+    <arm_group_label>Closed-loop session</arm_group_label>
+    <other_name>CGM</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>zone-Model Predictive Control algorithm</intervention_name>
+    <description>The zone-MPC predicts future glucose values, based on CGM data, to regulate blood glucose level by increasing, decreasing, or stopping insulin infusion via an insulin infusion pump.</description>
+    <arm_group_label>Closed-loop session</arm_group_label>
+    <other_name>zone-MPC</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Safety Health Monitoring System</intervention_name>
+    <description>The HMS predicts future glucose values, based on CGM data, to warn the Sansum Closed-loop Artificial Pancreas Device of values below 70 mg/dL.</description>
+    <arm_group_label>Closed-loop session</arm_group_label>
+    <other_name>HMS</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinical diagnosis of type 1 diabetes for at least one year and using an insulin pump
+             for at least 6 months with commercially available rapid actin insulin
+
+          -  The diagnosis of type 1 diabetes is based on the investigator's judgment; C peptide
+             level and antibody determinations are not needed.
+
+          -  Age 21 to 65 years
+
+          -  For females, not currently known to be pregnant or nursing
+
+          -  HbA1c between 5.0% and 10%, as measured with DCA2000 or equivalent device
+
+          -  Willing to perform the calibration of the study CGMs using a finger stick only and
+             willing to follow instructions for insulin pump and CGM wear.
+
+          -  Willing to use the study CGM and study insulin pump during closed-loop.
+
+          -  Able to and agrees to avoid the following medication starting 24 hours before sensor
+             wear through completion of CRC visit: acetaminophen, prednisone, and pseudoephedrine.
+
+          -  An understanding of and willingness to follow the protocol and sign the informed
+             consent
+
+        Exclusion Criteria:
+
+          -  Pregnancy (as determined by a positive blood pregnancy test performed in females of
+             childbearing capacity during screening visit and urine test at time of admission for
+             in-patient visit) or nursing mother.
+
+          -  Diabetic ketoacidosis in the past 6 months prior to enrollment requiring emergency
+             room visit or hospitalization
+
+          -  Severe hypoglycemia resulting in seizure or loss of consciousness in the 12 months
+             prior to enrollment
+
+          -  Current treatment for a seizure disorder; Subjects with a history of seizures may be
+             included in the study if they receive written clearance from their neurologist
+
+          -  Cystic fibrosis
+
+          -  Active infection
+
+          -  A known medical condition that in the judgment of the investigator might interfere
+             with the completion of the protocol such as cognitive deficit.
+
+          -  Mental incapacity, unwillingness or language barriers precluding adequate
+             understanding or co-operation, including subjects not able to read or write.
+
+          -  Inpatient psychiatric treatment in the past 6 months for either the subject or the
+             subject's primary care giver (i.e., parent or guardian)
+
+          -  Coronary artery disease or heart failure. Subjects with a history of coronary artery
+             disease may be included in the study if they receive written clearance from their
+             cardiologist
+
+          -  Presence of a known adrenal disorder
+
+          -  Active coronary artery disease or heart failure
+
+          -  Active gastroparesis
+
+          -  If on antihypertensive, thyroid, anti-depressant or lipid lowering medication, lack of
+             stability on the medication for the past 2 months prior to enrollment in the study
+
+          -  Uncontrolled thyroid disease. Adequately treated thyroid disease and celiac disease do
+             not exclude subjects from enrollment
+
+          -  Abuse of alcohol
+
+          -  A recent injury to body or limb, muscular disorder, use of any medication, any
+             carcinogenic disease, or other significant medical disorder if that injury, medication
+             or disease in the judgment of the investigator will affect the completion of the
+             exercise protocol
+
+          -  Current use of a beta blocker medication
+
+          -  Laboratory results:
+
+               -  Hematocrit &lt; 30% or &gt;55%
+
+               -  A1C &gt; 10%
+
+               -  Abnormal liver or renal function (Transaminase &gt; 2 times the upper limit of
+                  normal, Creatinine&gt; 1.5 mg/dL)
+
+               -  Labs drawn at screening visit or within one month prior to screening (for other
+                  purposes) will suffice for enrollment purposes related to hematocrit
+
+          -  Subject has skin conditions that, in the determination of the investigator, would
+             preclude wearing the study devices (infusion set and sensor), in the abdomen. Examples
+             include but are not limited to: psoriasis, burns, scaring, eczema, tattoos, and
+             significant hypertrophy at sites of device wear; any known allergy to medical
+             adhesives.
+
+          -  Current participation in another investigational trial or has previously participated
+             to this study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Howard Zisser, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sansum Diabetes Research Institute</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Francis J Doyle, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>University of California, Santa Barbara</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Howard Zisser, MD</last_name>
+    <phone>805-682-7640</phone>
+    <phone_ext>255</phone_ext>
+    <email>hzisser@sansum.org</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Eyal Dassau, Ph.D.</last_name>
+    <phone>1-805-893-3120</phone>
+    <email>dassau@engineering.ucsb.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Sansum Diabetes Research Institute</name>
+      <address>
+        <city>Santa Barbara</city>
+        <state>California</state>
+        <zip>93105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Howard Zisser, MD</last_name>
+      <phone>805-682-7640</phone>
+      <phone_ext>255</phone_ext>
+      <email>hzisser@sansum.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Wendy Bevier, PhD</last_name>
+      <phone>805-682-7640</phone>
+      <phone_ext>207</phone_ext>
+      <email>wbevier@sansum.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Lois Jovanovic, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Eyal Dassau, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Francis Doyle, Ph.D.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2012</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 27, 2011</study_first_submitted>
+  <study_first_submitted_qc>November 11, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 16, 2011</study_first_posted>
+  <last_update_submitted>May 22, 2013</last_update_submitted>
+  <last_update_submitted_qc>May 22, 2013</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 24, 2013</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>type 1 diabetes mellitus</keyword>
+  <keyword>closed-loop artificial pancreas</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+    <mesh_term>Pancrelipase</mesh_term>
+    <mesh_term>Pancreatin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

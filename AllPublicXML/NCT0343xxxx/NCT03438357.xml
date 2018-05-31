@@ -1,0 +1,252 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03438357</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IDIL/2017/ET-01</org_study_id>
+    <nct_id>NCT03438357</nct_id>
+  </id_info>
+  <brief_title>Evaluation of an Automatic Segmentation Software (Pixyl.Neuro) to Track Lesions in Multiple Sclerosis Patients Via Cerebral MRI</brief_title>
+  <acronym>PIXCIS</acronym>
+  <official_title>Evaluation of an Automatic Segmentation Software (Pixyl.Neuro) to Track Lesions in Multiple Sclerosis Patients Via Cerebral MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centre Hospitalier Universitaire de Nīmes</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Roche Pharma AG</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Centre Hospitalier Universitaire de Nīmes</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Using an automatic software tool, Pixyl.Neuro, to conduct a retrospective analysis (detection
+      of lesions + segmentation of images + tracking over time) of cerebral MRI images acquired
+      during a prospective study of patients presenting with clinically isolated syndrome, and
+      comparing the results against manual analysis.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 2018</start_date>
+  <completion_date type="Anticipated">November 2018</completion_date>
+  <primary_completion_date type="Anticipated">November 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Lesions detected by Pixyl.Neuro software that were missed by manual analysis of MRI images follow-up images compared to reference image (new T2 lesions, enlarging T2 lesions, new T1 gadolinium lesions)</measure>
+    <time_frame>baseline until follow-up (maximum 2 years)</time_frame>
+    <description>% cases</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Inter-reader reproducibility</measure>
+    <time_frame>baseline until follow-up (maximum 2 years)</time_frame>
+    <description>DICE similarity coefficient between readers</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Software versus manual analysis reproducibility for same reader</measure>
+    <time_frame>baseline until follow-up (maximum 2 years)</time_frame>
+    <description>DICE similarity coefficient between software result and manual result</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Classification of discordances</measure>
+    <time_frame>baseline until follow-up (maximum 2 years)</time_frame>
+    <description>Specific description of missed lesions according to technology at fault</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Multiple Sclerosis</condition>
+  <condition>Clinically Isolated Syndrome</condition>
+  <arm_group>
+    <arm_group_label>Patients with multiple sclerosis</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Analysis of cerebral MRI with automatic segmentation software</intervention_name>
+    <description>Pixyl.Neuro software versus manual analysis of lesions</description>
+    <arm_group_label>Patients with multiple sclerosis</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subset of patient data collected for the project D-Lay-MS: NCT01817166
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Identical to those of the study D-Lay-MS: NCT01817166:
+
+        Inclusion Criteria:
+
+          -  The patient must have given his/her informed and signed consent
+
+          -  The patient must be insured or beneficiary of a health insurance plan
+
+          -  The patient is available for 24 months of follow-up
+
+          -  The patient has had a classic CIS with the past 90 days
+
+          -  Reference cerebro-medullary MRI scheduled within the 90 days after the beginning of
+             symptoms
+
+          -  With MRI (cerebro ± medullary) showing demyelination according to spatial spread
+             criteria by Swanton (2006):
+
+          -  At least 1 lesion in at least 2 of the 4 following territories: (1) Peri-ventricular;
+             (2) Juxta-cortical; (3) Sub-tentorial; (4) Medullary
+
+          -  No other suspected pathology
+
+          -  Vitamin D level in blood less than 100 nmol / l at the pre-inclusion visit
+
+          -  Women of childbearing potential must use very effective contraception for the duration
+             of the study. A very effective contraceptive method is defined as a method resulting
+             in a low failure rate (that is to say less than 1% per year) when used consistently
+             and correctly, such as implants, injectables, combined oral contraceptives, IUDs,
+             sexual abstinence, or partner with a vasectomy.
+
+        Randomisation stratification criteria:
+
+        • The patient can also also meet the temporal dissemination criteria defined according to
+        McDonald criteria 2010 (Polman et al., 2011), because this condition is currently not
+        sufficient for prescribing a background treatment: Simultaneous presence of at least one
+        asymptomatic lesion taking on contrast and at least one asymptomatic lesion not taking on
+        contrast after injection of gadolinium
+
+        Exclusion Criteria:
+
+          -  The patient is participating in another study other than D-Lay-MS: NCT01817166 (this
+             criteria does not apply to the POLAR study (RCB 2011-A01269-32); patients included in
+             this study may simultaneously participate in the POLAR study)
+
+          -  The patient is in an exclusion period determined by a previous study
+
+          -  The patient is under judicial protection, under tutorship or curatorship
+
+          -  The patient refuses to sign the consent
+
+          -  It is impossible to correctly inform the patient
+
+          -  The patient is pregnant, parturient, or breastfeeding
+
+          -  Major medical or psychiatric illness that, according to the investigator, would result
+             in the patient running an unnecessary risk or that could affect compliance with the
+             study protocol
+
+          -  Vitamin D insufficiency linked to currently active digestive or more general diseases
+             (celiac disease, inflammatory bowel disease, intestinal bypass, short bowel syndrome,
+             cirrhosis, nephrotic syndrome, hyperthyroidism, rickets, hypoparathyroidism, cancer,
+             granulomatous diseases and lymphomas)
+
+          -  Moderate or severe renal insufficiency (creatinine clearance less than 60 ml / min)
+
+          -  Epilepsy not adequately controlled by treatment
+
+          -  Any illness requiring chronic treatment with corticosteroids
+
+          -  Patient with osteoporosis or history of osteopenia
+
+          -  Pathology requiring calcium intakes greater than 1 gram per day
+
+          -  Current or past history of hypercalcemia
+
+          -  Medications that affect the metabolism of vitamin D other than corticosteroids; e.g.
+             anticonvulsants [phenobarbital, primidone, phenytoin] rifampicin, isoniazid,
+             ketoconazole, 5-FU and leucovorin, thiazide diuretics.
+
+          -  Situations accompanied by increased vulnerability to hypercalcemia, e.g. arrhythmia or
+             known heart disease, treatment with digitalis, and subjects with nephrolithiasis.
+
+          -  Contraindications to vitamin D3 as mentioned in the documentation for UVEDOSE
+
+          -  Known hypersensitivity to gadolinium and / or known inability to undergo an MRI
+             (pacemaker, osteosynthesis material, intraocular metal splinter, etc ....).
+
+          -  The subject is participating in an interventional study, or is in a period of
+             exclusion determined by a previous study
+
+          -  The subject refuses to sign the consent
+
+          -  It is impossible to give the subject informed information
+
+          -  The patient is under safeguard of justice or state guardianship
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>56 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Eric Thouvenot</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>CHU Nimes</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Eric Thouvenot, MD</last_name>
+    <phone>+33 (0)4 66 68 32 61</phone>
+    <email>eric.thouvenot@chu-nimes.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>CHU Nimes</name>
+      <address>
+        <city>Nîmes</city>
+        <zip>30029</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Anissa Megzari</last_name>
+      <phone>+33 (0)4.66.68.42.36</phone>
+      <email>drc@chu-nimes.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Eric Thouvenot, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 2, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 16, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 19, 2018</study_first_posted>
+  <last_update_submitted>March 8, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 8, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 9, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sclerosis</mesh_term>
+    <mesh_term>Multiple Sclerosis</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

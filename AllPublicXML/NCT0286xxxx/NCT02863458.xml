@@ -1,0 +1,209 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02863458</url>
+  </required_header>
+  <id_info>
+    <org_study_id>15-1066</org_study_id>
+    <nct_id>NCT02863458</nct_id>
+  </id_info>
+  <brief_title>DNA Hypomethylating Agents and Lenalidomide in Elderly Patients With Myeloid Malignancies in the US</brief_title>
+  <official_title>Effectiveness of DNA Hypomethylating Agents and Lenalidomide in Elderly Patients With Myeloid Malignancies in the United States</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The Cleveland Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Celgene</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The Cleveland Clinic</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study aims to comprehensively analyze data from a large and unselected older AML
+      population in the US, both treated and untreated. These data will widen understanding of
+      treatment decisions for the older Acute Myeloid Leukemia (AML) population. Through use of the
+      SEER-Medicare Registry, the effectiveness and impact of HMA treatments as well as the
+      effectiveness of lenalidomide will be studied.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This will be the first study to comprehensively analyze data from a large and unselected
+      older AML population in the US, both treated and untreated. These data will widen
+      understanding of treatment decisions for the older AML population and shed light on the
+      impact of HMA in this vulnerable population. The findings from this study will help identify
+      the role of HMA (with its salient features of better tolerability and lesser toxicity) as a
+      new treatment paradigm for older AML patients and enable comparison of outcomes with HMA vs
+      other &quot;conventional&quot; leukemia therapies (intensive chemotherapy, low dose cytarabine or best
+      supportive care). Additionally, with updated SEER-Medicare file carrying Medicare claims
+      through 2013, this study will help analyze several long term outcome measures extending up to
+      eight years for MDS patients treated with lenalidomide. Finally, the effectiveness of HMA in
+      the SEER-Medicare MDS population will be studied by using SEER-Medicare data. This registry
+      includes information on Medicare MDS beneficiaries - a population age cohort that has the
+      highest incidence rates for MDS and a large sample size with absolute MDS cases approaching
+      40000, making it the largest MDS registry in the world.
+
+      The overall sample will include cases of MDS and AML newly diagnosed between 2001 and 2011
+      with claims from 2000 to 2012. Investigators estimate this will include approximately 50,000
+      patients.Therefore, the Target Follow Up design looks at patient records over a span of 12
+      years. Consists of patients with myeloid malignancies diagnosed during 2001-2011 at the age
+      of 66 years or older and alive in September 2004 (i.e. 3 months after FDA approval of
+      azacitidine for MDS), with known month of diagnosis, and not identified from death
+      certificates or autopsy only, who had continuous Medicare Part A and B coverage, and were not
+      enrolled in a health maintenance organization during the period of interest. The overall
+      sample will include cases of MDS and AML newly diagnosed between 2001 and 2011 with claims
+      from 2000 to 2012.
+
+      Variables of interest to be collected will include: MDS subtypes, age at diagnosis, sex,
+      race, comorbidities, median household income at the zip code level, treatments (including
+      supportive care) from diagnosis to AML progression, transfusion status, NCI comorbidity index
+      score, response to treatments (using International Working Group criteria), physician
+      characteristics (speciality data),and hospital characteristics (bed size, teaching status,
+      case volume).
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 1, 2018</start_date>
+  <completion_date type="Anticipated">September 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2018</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <target_duration>12 Years</target_duration>
+  <primary_outcome>
+    <measure>Number of Participants on hypomethylating agents (HMA) and the effectiveness of HMA in the SEER-Medicare MDS population</measure>
+    <time_frame>Analaysis restricted to patients alive at least 3 months after HMA approval. Patients will be followed from date of their first MDS claim (index date) through death or study end, whichever occurred first.</time_frame>
+    <description>Study patterns &amp; determinants of HMA use in SEER-Medicare MDS population: Use of &quot;2+BCBM&quot; to ID registered &amp; unregistered MDS cases. Map out geographical distribution of HMA use based on MDS patients reclassified by SMMRS, which will yield the proportion of higher-risk (HR) &amp; lower-risk (LR) patients receiving HMA. Survival times to be analyzed using Cox models with time varying covariates. Predictors to be selected for both types of responses using learning interactions via hierarchical group-lasso regularization &amp; monotone spline transformations. Utilization of non-parametric random Forest &amp; random Survival Forest methods to build regression models &amp; assess goodness of fit &amp; functional form of the model-based results. Conduction of propensity score analyses of treatment effects as an alternative method for treatment-assignment bias correction. Propensity scores to be calculated using a generalized boosting method as implemented in the R package twang. Computations will be done in R.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Develop predictive models of HMA treatment outcomes using SEER-Medicare data</measure>
+    <time_frame>Analaysis restricted to patients alive at least 3 months after HMA approval. Patients will be followed from date of their first MDS claim (index date) through death or study end, whichever occurred first.</time_frame>
+    <description>To develop predictive models of HMA treatment outcomes using SEER-Medicare data: Treatment response analysis will include variables that are extractable from SEER-Medicare files that can be used to infer standard clinical response criteria. The outcome measures will include: 1) the proportion of patients completing an HMA therapeutic-length treatment episode (TTE) [6 cycles = ~6 months]; 2) changes in transfusion dependence; 3) the number of acute hospitalizations during the HMA therapy period; 4) the time from treatment initiation for MDS to progression to AML; and 5) overall survival from the time of HMA initiation.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Effectiveness of lenalidomide in the SEER-Medicare MDS population</measure>
+    <time_frame>Analaysis restricted to patients alive at least 3 months after HMA approval. Patients will be followed from date of their first MDS claim (index date) through death or study end, whichever occurred first.</time_frame>
+    <description>An adequate sample size is used to undertake assessment of several variables that affect use of lenalidomide as well as treatment outcomes which aim to analyze (a) prescribing patters of lenalidomide among the low risk (LR)and high risk (HR) MDS with time (from 2006 to 2013) and consistency with clinical guidelines (b) trends in combination therapy (lenalidomide + other MDS therapies) with time (c) determinants of response to lenalidomide - underlying comorbidities, duration of treatment exposure (in terms of number of cycles), concomitant use of azacitidine or other MDS therapies with transfusion status (e) associations between lenalidomide and a variety of outcomes, including survival, progression to AML, secondary solid tumor malignancies and thromboembolic events and (e) differences in lenalidomide use and outcome between MDS Centers of Excellence (using data from MDS Clinical Consortium) versus community setting.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Identify the role of HMA (with its salient features of better tolerability and lesser toxicity) as a new treatment paradigm for older AML patients and enable comparison of outcomes with HMA vs other &quot;conventional&quot; leukemia therapies.</measure>
+    <time_frame>Analaysis restricted to patients alive at least 3 months after HMA approval. Patients will be followed from date of their first MDS claim (index date) through death or study end, whichever occurred first.</time_frame>
+    <description>To develop predictive models of HMA treatment outcomes using SEER-Medicare data: Treatment response analysis will include variables that are extractable from SEER-Medicare files that can be used to infer standard clinical response criteria. The outcome measures will include: 1) the proportion of patients completing an HMA therapeutic-length treatment episode (TTE) [6 cycles = ~6 months]; 2) changes in transfusion dependence; 3) the number of acute hospitalizations during the HMA therapy period; 4) the time from treatment initiation for MDS to progression to AML; and 5) overall survival from the time of HMA initiation.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">50000</enrollment>
+  <condition>Acute Myeloid Leukemia</condition>
+  <condition>Myelodysplastic Syndromes</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The overall sample will include cases of MDS and AML newly diagnosed between 2001 and 2011
+        with claims from 2000 to 2012. Investigators estimate this will include approximately
+        50,000 patients. To allow adequate time for HMA usage to begin to stabilize, our analysis
+        will be restricted to patients alive at least 3 months after its approval. Decitabine
+        received FDA approval for all subtypes of MDS in June 2006, but it was not covered by
+        Medicare initially, so our analysis of it will be restricted to patients who were alive in
+        January 2007. Patients will be followed from the date of their first MDS claim (index date)
+        through death or study end, whichever occurred first.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  patients with myeloid malignancies diagnosed during 2001-2011 at the age of 66 years
+             or older
+
+          -  alive in September 2004 (i.e. 3 months after FDA approval of azacitidine for MDS)
+
+          -  known month of diagnosis, and not identified from death certificates or autopsy only
+
+          -  continuous Medicare Part A and B coverage, and were not enrolled in a health
+             maintenance organization during the period of interest
+
+        Exclusion Criteria:
+
+          -  Anyone under 66 years
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>66 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sudipto Mukherjee, MD, MPh</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Cleveland Clinic</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jaime Fernsterl</last_name>
+    <phone>(216) 444-9814</phone>
+    <email>FENSTEJ@ccf.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Cleveland Clinic</name>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44195</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 13, 2015</study_first_submitted>
+  <study_first_submitted_qc>August 6, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 11, 2016</study_first_posted>
+  <last_update_submitted>May 10, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 10, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 16, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>MDS</keyword>
+  <keyword>AML</keyword>
+  <keyword>hypomethylating agents (HMA)</keyword>
+  <keyword>Surveillance Epidemiology and End Results (SEER)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Leukemia, Myeloid, Acute</mesh_term>
+    <mesh_term>Myelodysplastic Syndromes</mesh_term>
+    <mesh_term>Preleukemia</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lenalidomide</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>share study data with Celgene and will plan to publish a manuscript upon completion of the study</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

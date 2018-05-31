@@ -1,0 +1,155 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02931500</url>
+  </required_header>
+  <id_info>
+    <org_study_id>4-2016-0383</org_study_id>
+    <nct_id>NCT02931500</nct_id>
+  </id_info>
+  <brief_title>Machine Learning for Identification of Future Disease Development: A Nationwide Cohort Study (MILESTONE)</brief_title>
+  <official_title>MachIne LEarning for Identification of Future Development of cardiovaScular and meTabOlic Disease: a NationwidE Time-series Cohort Study (MILESTONE)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Yonsei University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Yonsei University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To develop machine learning algorithms for the identification of future development of
+      cardiovascular and metabolic disease
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The MILESTONE trial is retrospective and data review study with health checkup data from the
+      National Health Insurance Services(NHIS) in Korea. The data will be included general health
+      examination for individuals , type of health insurance, medical bill details, medical
+      histories, treatment and prescriptions about 514,795 individuals who were over 40 years old.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 1, 2016</start_date>
+  <completion_date type="Anticipated">December 31, 2018</completion_date>
+  <primary_completion_date type="Anticipated">October 30, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy in prediction of development of cardiovascular and metabolic disease using machine learning algorithm</measure>
+    <time_frame>6months</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy in prediction of development of cardiovascular and metabolic disease using logistic regression analysis</measure>
+    <time_frame>6months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy in prediction of development of cardiovascular and metabolic disease using Framingham risk score</measure>
+    <time_frame>6months</time_frame>
+  </secondary_outcome>
+  <enrollment type="Anticipated">510000</enrollment>
+  <condition>Cardiovascular Disease</condition>
+  <condition>Metabolic Disease</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The data which is health checkup record about 510,000 Subjects between 2002 and 2013 from
+        National Health Insurance Service (NHIS) in South Korea.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  The Subject who is got health checkup between 2002 and 2013, and had been recorded the
+             health checkup result to the National Health Insurance Service(NHIS) in South Korea.
+
+        Exclusion Criteria:
+
+          -  Persons whose disease development is not identified from the records due to emigration
+             or disappearance
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Hyuk-Jae Chang, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Yonsei Univerity</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Hyuk-Jae Chang, PhD</last_name>
+    <email>hjchang@yuhs.ac</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>In-Jeong Cho</last_name>
+    <email>injeongcho@yuhs.ac</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Yonsei University Severance Hospital</name>
+      <address>
+        <city>Seoul</city>
+        <zip>102-752</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Hyuk-Jae Chang, MD</last_name>
+      <phone>82-2-2228-8454</phone>
+      <email>hjchang@yuhs.ac</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 21, 2016</study_first_submitted>
+  <study_first_submitted_qc>October 12, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 13, 2016</study_first_posted>
+  <last_update_submitted>January 9, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 9, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 10, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Yonsei University</investigator_affiliation>
+    <investigator_full_name>Hyuk-Jae Chang</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>machine learning</keyword>
+  <keyword>cohort study</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cardiovascular Diseases</mesh_term>
+    <mesh_term>Metabolic Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

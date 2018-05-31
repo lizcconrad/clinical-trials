@@ -1,0 +1,182 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02914444</url>
+  </required_header>
+  <id_info>
+    <org_study_id>registry_vital</org_study_id>
+    <nct_id>NCT02914444</nct_id>
+  </id_info>
+  <brief_title>Registry Construction of Intraoperative Vital Signs and Clinical Information in Surgical Patients</brief_title>
+  <official_title>Registry Construction of Intraoperative Vital Signs and Clinical Information for Retrospective Cohort Study in Surgical Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Seoul National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Seoul National University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Monitoring data during anesthesia of surgical patient in the operation room will be collected
+      and stored into the registry automatically. Patients' information and preoperative assessment
+      from medical records will be included. Furthermore, intraoperative events will integrated and
+      entered in the registry.
+
+      The purpose of the registry is to establish an automatic and accessible database of surgical
+      patients for further retrospective studies.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Capture and storage of vital signs data are performed with our own developed data gathering
+      program, Vital Recorder. The Vital Recorder program is a Windows® software and acquires
+      time-synced patient monitoring data from the serial ports of multiple anesthesia devices like
+      patient monitor, anesthesia machine, bispectral index monitor, cardiac output monitor,
+      infusion pumps, etc. The retrieved data are stored on the local or network data storage.
+
+      Variables captured by the Vital Recorder program are as follows: heart rate, blood pressure,
+      saturation, temperature, respiratory parameters, bispectral index, infusion history of
+      target-controlled infusion pump, cardiac output, cerebral oxygen concentration, etc.
+
+      Time interval of the data is 1-2 sec for numeric variables. Resolution of waves (analog data
+      such as ECG, plethysmogram, and pressure waves) is usually 500 Hz. Captured data of a patient
+      is stored as a *.vital file.
+
+      A laptop is connected to 4-6 anesthesia devices at the same time via serial connections.
+      Patients enrolled (all of the surgical patients who undergo surgery at our hospital) receive
+      routine anesthesia and surgery. Due to the program's automatic function, the program
+      identifies the start and end of a case then automatically records the vital signs of every
+      patient 24/365, once the program starts.
+
+      Patient information is additionally gathered from the electronic medical recording system
+      (EMR). Data from the EMR are as follows: sex, age, weight, height, diagnosis, operation,
+      anesthesia and surgery times, premedical history, perioperative lab data and medication.
+
+      List of vital files and patient information is integrated in an encrypted spreadsheet file.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>June 2015</start_date>
+  <completion_date type="Anticipated">June 2025</completion_date>
+  <primary_completion_date type="Actual">June 2017</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Day</target_duration>
+  <primary_outcome>
+    <measure>Integrated patient monitoring data (*.vital fime) from multiple anesthesia devices during surgery</measure>
+    <time_frame>during surgery</time_frame>
+    <description>Variables captured by the Vital Recorder program are as follows: heart rate, blood pressure, saturation, temperature, respiratory parameters, bispectral index, infusion history of target-controlled infusion pump, cardiac output, cerebral oxygen concentration, etc.
+Time interval of the data is 1-2 sec for numeric variables. Resolution of waves (analog data such as ECG, plethysmography, and pressure waves) is usually 500 Hz.
+All the values of abovementioned variables are stored as a single file per patient case, with the extension of *.vital that is created by the Vital Recorder program.
+Due to the program's automatic function, the program identifies the start and end of a case then automatically records the vital signs of every patient 24/365, once the program starts.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Patient weight</measure>
+    <time_frame>baseline</time_frame>
+    <description>Patient weight (kg) is gathered from the electronic medical recording system (EMR).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient gender</measure>
+    <time_frame>baseline</time_frame>
+    <description>Patient gender (M/F) is gathered from the electronic medical recording system (EMR).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient age</measure>
+    <time_frame>baseline</time_frame>
+    <description>Patient age (years) is gathered from the electronic medical recording system (EMR).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnosis</measure>
+    <time_frame>baseline</time_frame>
+    <description>Patient's diagnosis is gathered from the electronic medical recording system (EMR).</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">200000</enrollment>
+  <condition>Anesthesia</condition>
+  <condition>Monitoring, Intraoperative</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients undergoing surgery in Seoul National University Hospital.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients undergoing surgery
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Chul-Woo Jung</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Seoul National University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Chul-Woo Jung</last_name>
+    <phone>82-10-8984-4611</phone>
+    <email>jungcwoo@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Seoul National University Hospital</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Chul-Woo Jung, MD. PhD</last_name>
+      <phone>82-2-2072-2467</phone>
+      <email>jungcwoo@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <verification_date>October 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 30, 2016</study_first_submitted>
+  <study_first_submitted_qc>September 23, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 26, 2016</study_first_posted>
+  <last_update_submitted>October 31, 2017</last_update_submitted>
+  <last_update_submitted_qc>October 31, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 6, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Seoul National University Hospital</investigator_affiliation>
+    <investigator_full_name>Chul-Woo Jung</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

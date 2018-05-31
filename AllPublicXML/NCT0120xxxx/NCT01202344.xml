@@ -1,0 +1,234 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01202344</url>
+  </required_header>
+  <id_info>
+    <org_study_id>08-0335-BE</org_study_id>
+    <nct_id>NCT01202344</nct_id>
+  </id_info>
+  <brief_title>Computer Prediction of Restenosis Following Peripheral Angioplasty</brief_title>
+  <official_title>Computer Prediction of Restenosis Following Peripheral Angioplasty</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dheeraj Rajan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Health Network, Toronto</source>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to develop a computer program that might be able to accurately
+      assess the risk of artery re-narrowing following angioplasty or stenting based on computer
+      images. After angioplasty (a procedure to re-open narrowed or blocked blood vessels) the
+      patients will have extra images taken in order to assess the results of the procedure; which
+      will then be used to see whether or not these images can help predict outcomes such as the
+      patient having to come back to the hospital to have the procedure done again.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study involves medical imaging of patients undergoing an angioplasty intervention in a
+      peripheral artery. It is similar to an observational study, except that additional imaging is
+      performed which is above the standard-of-care. Some risks may be associated with the
+      additional imaging due to a small increase in radiation exposure and intravenous contrast
+      administration. No investigational drug or device will be tested in this study. No control
+      group will be used.
+
+      Logistic regression analysis will be performed using NCSS statistical software to identify
+      which explanatory variable(s), selected from the simulation results, can be used to predict
+      binary restenosis, the categorical dependent variable.
+
+      For each subject, binary restenosis will be determined by comparing the CT-scan images
+      obtained 1 hour post-intervention to those obtained at the 6 month follow-up study. The
+      CT-scan images will be segmented and a mesh of the target vessel will be reconstructed as
+      described in objective 1. The lumen area will be measured in every cross-section of the mesh
+      perpendicular to the vessel centerline, with 2 mm steps between cross-sections. The minimum
+      lumen diameter will be calculated from the minimum lumen area. If the minimum lumen diameter
+      at follow-up is less than 50% of the minimum lumen diameter post-intervention, then the
+      binary restenosis is positive. Otherwise it is negative.
+
+      Objective 1: Evaluate the accuracy of computer predictions of artery dilatation and stent
+      implantation from CT-scan images. This information is hypothesized to be indicative of the
+      accuracy of other quantities predicted by computer simulation of angioplasty, such as those
+      used as independent variables in objective 2.
+
+      Objective 2: Establish a regression model with 80% sensitivity and 80% specificity for
+      predicting binary restenosis based on one or several injury parameters in patients undergoing
+      angioplasty. The candidate injury parameters are:
+
+        -  endothelium denudation (in % of total endothelium area)
+
+        -  descriptors of the magnitude and spatial distribution of stretch ratio in the arterial
+           wall
+
+        -  descriptors of the magnitude and spatial distribution of intramural stress in the
+           arterial wall All injury parameters are predicted by computer simulation of angioplasty.
+    </textblock>
+  </detailed_description>
+  <overall_status>Suspended</overall_status>
+  <why_stopped>
+    lack of funding
+  </why_stopped>
+  <start_date>September 2010</start_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Simulation Accuracy</measure>
+    <time_frame>less than 6 hours after the procedure</time_frame>
+    <description>From the pre-intervention CT-scans, the target artery, calcium and lumen will be segmented, meshed and used to simulate the angioplasty steps. Simulation accuracy will be evaluated by comparing geometrical descriptors of the artery and lumen size and shape calculated in the simulation to those measured on the post-intervention CT scan images.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Logistic Regression Analysis</measure>
+    <time_frame>6 months</time_frame>
+    <description>Logistic regression analysis will be performed using NCSS statistical software to identify which explanatory variable(s), selected from the simulation results, can be used to predict binary restenosis, the categorical dependent variable.
+Binary restenosis will be determined by comparing the CT-scan images obtained 1 hour post-intervention to those obtained at the 6 month follow-up study.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">15</enrollment>
+  <condition>Peripheral Angioplasty</condition>
+  <arm_group>
+    <arm_group_label>Restenosis</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Patients who have restinosis immediately following angioplasty.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No Restenosis</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Patients who do not have restinosis immediately following angioplasty.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Additional x-ray images</intervention_name>
+    <description>Approximately 3 additional x-ray images following angioplasty (within 1 hour)</description>
+    <arm_group_label>Restenosis</arm_group_label>
+    <arm_group_label>No Restenosis</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  scheduled for percutaneous dilation of a peripheral artery;
+
+          -  age more than 18 years;
+
+          -  informed consent signed by the subject;
+
+          -  target lesion in native artery;
+
+          -  baseline lumen diameter greater than 4 mm.
+
+        Exclusion Criteria:
+
+          -  previous revascularization of the target lesion;
+
+          -  subject undergoing chemotherapy.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Dheeraj Rajan, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Health Network, Toronto</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University Health Network</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M5G 2C4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <reference>
+    <citation>Hoffmann R, Mintz GS, Mehran R, Kent KM, Pichard AD, Satler LF, Leon MB. Tissue proliferation within and surrounding Palmaz-Schatz stents is dependent on the aggressiveness of stent implantation technique. Am J Cardiol. 1999 Apr 15;83(8):1170-4.</citation>
+    <PMID>10215278</PMID>
+  </reference>
+  <reference>
+    <citation>Koyama J, Owa M, Sakurai S, Shimada H, Hikita H, Higashikata T, Ikeda S. Relation between vascular morphologic changes during stent implantation and the magnitude of in-stent neointimal hyperplasia. Am J Cardiol. 2000 Oct 1;86(7):753-8.</citation>
+    <PMID>11018195</PMID>
+  </reference>
+  <reference>
+    <citation>Syeda B, Wexberg P, Gyongyosi M, Denk S, Beran G, Kiss K, Sperker W, Glogar D. Effects of radial stretch on target lesion revascularization after percutaneous coronary intervention: an intravascular ultrasound study. Can J Cardiol. 2003 May;19(6):691-7.</citation>
+    <PMID>12772020</PMID>
+  </reference>
+  <reference>
+    <citation>Schwartz RS, Huber KC, Murphy JG, Edwards WD, Camrud AR, Vlietstra RE, Holmes DR. Restenosis and the proportional neointimal response to coronary artery injury: results in a porcine model. J Am Coll Cardiol. 1992 Feb;19(2):267-74.</citation>
+    <PMID>1732351</PMID>
+  </reference>
+  <reference>
+    <citation>Rogers C, Tseng DY, Squire JC, Edelman ER. Balloon-artery interactions during stent placement: a finite element analysis approach to pressure, compliance, and stent design as contributors to vascular injury. Circ Res. 1999 Mar 5;84(4):378-83.</citation>
+    <PMID>10066671</PMID>
+  </reference>
+  <reference>
+    <citation>Capron L, Bruneval P. Influence of applied stress on mitotic response of arteries to injury with a balloon catheter: quantitative study in rat thoracic aorta. Cardiovasc Res. 1989 Nov;23(11):941-8.</citation>
+    <PMID>2611802</PMID>
+  </reference>
+  <reference>
+    <citation>Olson NE, Chao S, Lindner V, Reidy MA. Intimal smooth muscle cell proliferation after balloon catheter injury. The role of basic fibroblast growth factor. Am J Pathol. 1992 May;140(5):1017-23.</citation>
+    <PMID>1580326</PMID>
+  </reference>
+  <reference>
+    <citation>Jamal A, Bendeck M, Langille BL. Structural changes and recovery of function after arterial injury. Arterioscler Thromb. 1992 Mar;12(3):307-17.</citation>
+    <PMID>1547190</PMID>
+  </reference>
+  <reference>
+    <citation>Doornekamp FN, Borst C, Post MJ. Endothelial cell recoverage and intimal hyperplasia after endothelium removal with or without smooth muscle cell necrosis in the rabbit carotid artery. J Vasc Res. 1996 Mar-Apr;33(2):146-55.</citation>
+    <PMID>8630348</PMID>
+  </reference>
+  <reference>
+    <citation>Nugent HM, Rogers C, Edelman ER. Endothelial implants inhibit intimal hyperplasia after porcine angioplasty. Circ Res. 1999 Mar 5;84(4):384-91.</citation>
+    <PMID>10066672</PMID>
+  </reference>
+  <verification_date>February 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 10, 2010</study_first_submitted>
+  <study_first_submitted_qc>September 13, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 15, 2010</study_first_posted>
+  <last_update_submitted>February 27, 2018</last_update_submitted>
+  <last_update_submitted_qc>February 27, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 28, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University Health Network, Toronto</investigator_affiliation>
+    <investigator_full_name>Dheeraj Rajan</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Angioplasty</keyword>
+  <keyword>Stenosis</keyword>
+  <keyword>Restenosis</keyword>
+  <keyword>Elastic Recoil</keyword>
+  <keyword>cheduled for percutaneous dilation of a peripheral artery</keyword>
+  <keyword>Target lesion in native artery</keyword>
+  <keyword>Baseline lumen diameter greater than 4 mm</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

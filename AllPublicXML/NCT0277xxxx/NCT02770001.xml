@@ -1,0 +1,157 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02770001</url>
+  </required_header>
+  <id_info>
+    <org_study_id>999916110</org_study_id>
+    <secondary_id>16-HG-N110</secondary_id>
+    <nct_id>NCT02770001</nct_id>
+  </id_info>
+  <brief_title>Suitability of Some Data Quality Controls Thresholds for Genetic Association Studies of Admixed Population</brief_title>
+  <official_title>Investigating the Suitability of Some Data Quality Controls Thresholds for Genetic Association Studies of Admixed Population</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Human Genome Research Institute (NHGRI)</agency>
+      <agency_class>NIH</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Institutes of Health Clinical Center (CC)</source>
+  <brief_summary>
+    <textblock>
+      Background: In genetic studies, the quality of DNA samples is tested first. Samples that are
+      low-quality are not used. Some studies involve minority ethnic groups. And example is admixed
+      African American. These studies often have small sample sizes. It is important to make sure
+      samples are not discarded unnecessarily. This may happen by using quality control (QC)
+      thresholds for homogenous groups. These may not be appropriate for an admixed group.
+      Researchers want to study samples that failed certain QC tests. They want to see if this has
+      to do with the ancestry of the outliers or the quality of the samples.
+
+      Objectives:
+
+      To study samples that fail heterozygosity and sample genotype call rate QC. To see if the
+      failing rates have to do with the ancestry composition of the outliers or the quality of the
+      samples.
+
+      Eligibility:
+
+      No new participants. Researchers will review data that has already been collected.
+
+      Design:
+
+      Researchers will study DNA samples in a lab.
+
+      The samples will not include data that can identify the person the sample came from.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The purpose of this IRB proposal is to gain access to genetic data generated from
+      participants of publically-funded genomic studies and deposited into dbGaP. It is our
+      intention to use dbGaP data to conduct secondary analysis of the influence of admixture on
+      the outcome of data quality control (QC) in genetic association studies to inform future
+      studies of the optimal QC metric for the genetic association analysis of admixed population.
+      The data we intend to use is deposited in dbGaP and is from the Michigan University Health
+      and Retirement Study (HRS). This protocol is being sent to you because of a dbGaP requirement
+      for this specific de-identified dataset to be reviewed by an IRB as that was not in the
+      protocol.
+
+      This work will require the use of statistical analyses tools to estimate the genetic ancestry
+      make-up of each sample, from the genotype data, and determine how that ancestry relates to QC
+      outcomes (i.e. whether or not the sample might be excluded from an analysis due to its
+      ancestral genetic composition rather that the sample genetic quality).
+
+      Objectives and specific aims: This work aims to investigate samples failing heterozygosity
+      and sample genotype call rate quality control (QC) to determine whether or not the samples
+      call rate and heterozygosity rate have to do with the ancestry composition of the outliers
+      rather than the quality of the samples and inform future studies of potential loss if general
+      QC is applied to genetic data of admixed sample sets.
+
+      Rationale and Background: In genetic association studies DNA sample quality can vary largely
+      across study participants and such variation has an impact on genotype call rate and genotype
+      accuracy; samples of low DNA quality tend to have lower genotype call rate and genotype
+      accuracy. Heterozygosity rate (proportion of heterozygous loci per individual) and genotype
+      failure rate (proportion of missing genotypes per individual) are jointly and routinely used
+      to identify samples with low DNA quality at the data quality control (QC) stage of genetic
+      association studies. Excessive heterozygosity rate may indicate sample contamination whilst a
+      reduced heterozygosity rate could indicate inbreeding [1]. Samples with 3-7% [2,3] genotype
+      call-rate and heterozygosity &gt; 2-3 standard deviations from the mean heterozygosity are
+      usually excluded from genetic case-control studies.
+
+      Generally, the sample size of genetic association studies involving minority ethnic groups
+      such as admixed African American tends to be small. It is hence important to ensure samples
+      are not discarded unnecessarily, resulting into reduced statistical power, by using QC
+      thresholds applied to homogenous groups which might not be appropriate for an admixed sample
+      set. The aim of this analysis is to investigate samples failing heterozygosity and sample
+      genotype call rate QC to determine whether or not the samples call rate and heterozygosity
+      rate have to do with the ancestry composition of the outliers rather than the quality of the
+      samples. The motivation is to inform future studies of potential loss if general
+    </textblock>
+  </detailed_description>
+  <overall_status>Withdrawn</overall_status>
+  <start_date>May 5, 2016</start_date>
+  <completion_date type="Actual">May 15, 2017</completion_date>
+  <primary_completion_date type="Actual">May 15, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Continental genetic ancestry fraction</measure>
+    <time_frame>Study Completion</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Heterozygosity rate</measure>
+    <time_frame>Study Completion</time_frame>
+  </secondary_outcome>
+  <enrollment type="Actual">0</enrollment>
+  <condition>African American Genetics</condition>
+  <eligibility>
+    <criteria>
+      <textblock>
+        -  All the genotype data will be used and no individual will be excluded based on any
+             phenotype.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>50 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sharon K Davis</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>National Human Genome Research Institute (NHGRI)</affiliation>
+  </overall_official>
+  <removed_countries>
+    <country>United States</country>
+  </removed_countries>
+  <verification_date>May 15, 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 11, 2016</study_first_submitted>
+  <study_first_submitted_qc>May 11, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 12, 2016</study_first_posted>
+  <last_update_submitted>May 24, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 24, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 25, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Admixture</keyword>
+  <keyword>African American</keyword>
+  <keyword>African American Genetics</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

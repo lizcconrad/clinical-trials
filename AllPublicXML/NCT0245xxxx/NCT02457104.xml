@@ -1,0 +1,320 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02457104</url>
+  </required_header>
+  <id_info>
+    <org_study_id>14-2046</org_study_id>
+    <nct_id>NCT02457104</nct_id>
+  </id_info>
+  <brief_title>The Effect of PPI Therapy on Weight, Gut Microbiome, and Expression of GPR41 and GPR43</brief_title>
+  <official_title>The Effect of PPI Therapy on Weight, Gut Microbiome, and Expression of GPR41 and GPR43</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Colorado, Denver</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Colorado, Denver</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators long-term goal is to understand how PPIs influence energy balance in both
+      obese and normal-weight individuals. The overall goal of this study is to determine whether
+      PPI use causes detrimental changes in the composition and functional properties of the gut
+      microbiome, and whether any such effects are mediated by altered responses of human fatty
+      acid receptors (e.g., GPR41/43).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Research Plan:
+
+      Patients without gastrointestinal symptoms scheduled for a screening or surveillance
+      colonoscopy (for colorectal cancer) at the UCH endoscopy lab will be screened for the study
+      based on the inclusion and exclusion criteria. Eligible patients who consent to the study
+      will have height, weight, and demographic information measured and recorded. They will
+      complete a weight/diet history questionnaire. Patients will undergo the
+      screening/surveillance colonoscopy per routine clinical care. Residual stool is standardly
+      aspirated through the colonoscope to ensure full visualization of the mucosa to enhance polyp
+      detection. We will take stool aspirates from three separate locations: sigmoid colon, cecum,
+      and terminal ileum. Evidence suggests that a bowel preparation (prior to colonoscopy) does
+      not significantly change the composition of the intestinal microbiota for the majority of
+      subjects. We will also take four small, pinch biopsies at each of these three sites. Stool
+      aspirates and biopsy specimens will be snap-frozen in liquid N2 and frozen at -80C until
+      required for their assays.
+
+      We will enroll a total of 48 subjects divided equally between four groups: OB/PPI,
+      OB/non-PPI, NW/PPI, and NW/non-PPI. Approximately 40-50 patients per week meeting the above
+      inclusion/exclusion criteria undergo a screening/surveillance colonoscopy at UCH, making
+      recruitment of 2-3 patients/week over 6-9 months realistic to reach targeted enrollment.
+
+      Aim 1: To examine the effects of PPI use on the gut microbiota in the colon and terminal
+      ileum of normal-weight (NW) and obese (OB) patients. Intestinal microbiomes will be profiled
+      by 16S rRNA sequencing to identify PPI-associated alterations in gut biodiversity.
+
+      Separate sterile specimen collection containers will be used for the stool aspirates and
+      mucosal biopsies from the sigmoid colon, cecum, and terminal ileum. High-throughput DNA
+      sequencing for microbiome analysis will be used.
+
+      Microbiome 16S rRNA Profiling Total community genomic DNA will be prepared from intestinal
+      specimens and 16S rRNA genes PCR amplified as previously described. Paired-end, multiplexed
+      sequencing will be performed. 10-20 million DNA sequences will be generated in a single run
+      and 100,000 rRNA reads generated per sample to ensure &gt;99% sequence coverage. Demultiplexing,
+      quality filtering, chimera-removal and sequence classification (using SINA/Silva) will follow
+      previous publications. Similar sequences are grouped into operational taxonomic units (OTUs)
+      based on taxonomy.
+
+      Microbiome Data Analysis The main outcome is the percent relative abundance (PRA) of
+      microbial groups, and we hypothesize this will differ between PPI users and non-users of acid
+      suppression medications. Specific microbial groups (species/genera/phyla) that differ between
+      experimental groups will be identified using a non-parametric two-part statistic.40
+      Statistical analyses will be assessed at = 0.05 and p-values corrected for false discovery
+      rate (FDR).41 Results will be validated by species-specific QPCR.
+
+      Aim 2: To determine whether PPI use alters the relative amount of gut bacterial RNA dedicated
+      to the fermentation cycle in NW and OB individuals. We will perform shotgun sequencing of
+      bulk RNA prepared from intestinal microbiomes to identify microbial metabolic pathways
+      differentially expressed in patients on PPIs. Stool aspirates from the terminal ileum, cecum,
+      and sigmoid colon will be obtained as detailed above.
+
+      RNA Isolation and Sequencing Microbial RNA will be extracted from 50 mg of fecal aspirates
+      using the RiboPure Bacteria extraction kit (Life Technologies Inc., USA). For this pilot, we
+      will assay specimens from a total of 48 subjects divided equally between four groups: OB/PPI,
+      OB/non-PPI, NW/PPI, and NW/non-PPI. Host and microbial rRNA will be removed using the
+      Ribo-Zero bacteria and Ribo-Zero mouse kits (Epicentre, Inc, USA). RNA samples will be
+      prepared for sequencing using the ScriptSeq v2 RNA-Seq (bacteria) kits (Epicentre, Inc, USA).
+      Sequencing will be performed on an Illumina HiSeq2000 platform (UC-Denver Microarray and
+      Genomics Core), which provides high depth of coverage. For quality assurance of
+      reproducibility, two mRNA samples of each specimen will be pooled and sequenced. In this
+      pilot experiment, we will generate ~20x106 single-end 150-base reads per sample for each
+      microbial meta-transcriptome dataset.
+
+      Metatranscriptome Data Analysis Annotation and enumeration of bacterial transcripts will be
+      performed at the peptide level using BLASTX searches against the approximately 1800 bacterial
+      genome sequences currently available in GenBank as well as the NCBI non-redundant protein
+      database using an E-value cutoff of &lt;10-5.44 Broad-level functional differences between
+      samples will be assessed using annotations generated through the COG,47 KEGG48 and RAST/SEED
+      tools.49, 50 Statistical analysis of enteric microbial transcriptomes will focus on the
+      identification of metabolic pathways that are differentially expressed between groups.44
+      Genes with high-quality annotations (E&lt;10-5) will be used to construct an NxM matrix of genes
+      (M) by subjects (N) recording the number of sequence reads annotated for a given gene and
+      subject. A similar NxM matrix of gene categories (M) by subjects (N) will be constructed to
+      tabulate the distribution of sequence reads assigned to functional categories. Genes or gene
+      categories that differ in prevalence or abundance between treatment groups will be identified
+      by the Fisher exact test or Kruskal-Wallis test, respectively, applied to each gene/category
+      in the matrix. Significance will be assessed at = 0.05, following correction for FDR.41
+      P-values will be used to prioritize a candidate gene list for follow-up validation using QPCR
+      to screen for gene expression across the entire patient cohort.
+
+      Aim 3: To determine the extent to which PPI use alters expression of GPR41, GPR43, and their
+      effector genes in the colon and terminal ileum of NW and OB patients. Biopsy specimens will
+      be subjected to a panel of RT-QPCR assays to monitor expression of target genes impacted by
+      microbial SCFA production. Biopsies from the terminal ileum, cecum, and sigmoid colon will be
+      obtained as detailed above.
+
+      Quantitative reverse transcriptase-PCR (qRT-PCR) analysis Total RNA will be extracted using
+      the RNeasy Mini Kit (Qiagen) and ISOGEN (WAKO). Complementary DNAs will be transcribed using
+      RNAs as templates with Moloney murine leukaemia virus reverse transcriptase (Invitrogen).
+      cDNAs will be amplified by PCR with Taq DNA polymerase (TaKaRa) using the appropriate
+      primers. qRT-PCR analyses will be performed using DNA Engine Opticon-2 (MJ Research). The
+      expression will be quantified in duplicate.
+
+      Sample Size and Power Analysis:
+
+      We will enroll 24 NW and 24 obese (OB) participants. Half of the NW and OB groups will be PPI
+      users and half will be non-users of acid suppressing medications. The primary outcome for Aim
+      1 is the difference in the PRA of Firmicutes and Bacteroidetes. A two-way ANOVA (factors of
+      BMI category and PPI use) will be used. Based on our preliminary data, we will have 94% power
+      to detect a difference in the PRA of Firmicutes (72% vs 52% with SD of 20%) and 95% power to
+      detect differences in the PRA of Bacteroidetes (16% vs 5% with SD of 5%) between PPI users
+      and non-users. The primary outcome for Aim 2 is the difference in bacterial RNA dedicated to
+      the fermentation cycle while the outcome for Aim 3 is the difference in expression of GPR 41
+      and GPR 43. Based on the expected differences in the gut microbiota profile and subsequent
+      SCFA production, we expect a 25% difference between PPI users and non-users for both
+      outcomes, giving us 99% power for both Aims 2 and 3). We will also perform subgroup analyses
+      within the NW and OB groups.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>June 2015</start_date>
+  <completion_date type="Anticipated">December 2017</completion_date>
+  <primary_completion_date type="Anticipated">October 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Gut microbiota</measure>
+    <time_frame>Within 3 months of colonoscopy</time_frame>
+    <description>The primary aim of this study is to examine the effect of PPI therapy on the gut microbiota in the colon and terminal ileum of normal weight and obese patients.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Gut bacterial RNA dedicated to the fermentation cycle</measure>
+    <time_frame>within 3 month of colonoscopy.</time_frame>
+    <description>The second aim is to determine whether PPI use alters the relative amount of gut bacterial RNA dedicated to the fermentation cycle in NW and OB individuals.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>GPR41, GPR43 expression</measure>
+    <time_frame>within 3 months of colonoscopy</time_frame>
+    <description>The third aim is to determine the extent to which PPI use alters expression of GPR41, GPR43, and their effector genes in the colon and terminal ileum of NW and OB patients.</description>
+  </other_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Gastroesophageal Reflux Disease</condition>
+  <condition>Obesity</condition>
+  <arm_group>
+    <arm_group_label>normal weight individuals not taking PPI</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>normal weight individuals taking PPI</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>obese individuals not taking PPI</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>obese individuals taking PPI</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Colonoscopy</intervention_name>
+    <description>Patients selected from those undergoing screening colonoscopy. During colonoscopy, stool aspirates and biopsies will be taken from the terminal ileum, cecum, and sigmoid colon.</description>
+    <arm_group_label>normal weight individuals not taking PPI</arm_group_label>
+    <arm_group_label>normal weight individuals taking PPI</arm_group_label>
+    <arm_group_label>obese individuals not taking PPI</arm_group_label>
+    <arm_group_label>obese individuals taking PPI</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Weight and diet questionnaire</intervention_name>
+    <description>Brief questionnaire outlining weight history, type and dose of PPI, and diet.</description>
+    <arm_group_label>normal weight individuals not taking PPI</arm_group_label>
+    <arm_group_label>normal weight individuals taking PPI</arm_group_label>
+    <arm_group_label>obese individuals not taking PPI</arm_group_label>
+    <arm_group_label>obese individuals taking PPI</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Stool aspirate will be frozen (temporarily &quot;banked&quot;) until a sufficient number of samples is
+      available to analyze the microbiome in a cost-effective manner. The samples will not be saved
+      after this microbiome analysis for any future analysis. The colonic and small intestinal
+      mucosal tissue will be frozen. The colonic and small instestinal samples will be used for RNA
+      isolation as a part of this study. The remainder of the sample will be banked for possible
+      future use.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        We will select four groups of patients presenting for colonoscopy to participate in this
+        study: normal weight individuals not taking PPI, normal weight individuals taking PPI,
+        obese individuals not taking PPI, and obese individuals taking PPI.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. asymptomatic (no complaints of abdominal pain, diarrhea, blood in stools,
+             constipation, etc.)
+
+          2. age 40-59 years
+
+          3. PPI users (Use of a PPI for ≥ 4 days/week for the preceding 8 weeks) or non-users of
+             acid suppressing medications (no use of a PPI or H2B for the previous 8 weeks)
+
+          4. BMI that is either normal-weight (BMI of 18.5-&lt;25 kg/m2) or Class I/ II obese (BMI of
+             30-&lt;40 kg/m2).
+
+        Exclusion Criteria:
+
+          1. probiotic or antibiotic use within 3 months of the colonoscopy
+
+          2. inflammatory bowel disease
+
+          3. personal history of colon cancer
+
+          4. resection of any portion of the gastrointestinal tract (including appendectomy and
+             cholecystectomy)
+
+          5. diabetes
+
+          6. Significant motility disorders of the GI tract (e.g., gastroparesis, colonic inertia)
+
+          7. Use of immunosuppressive medications within the past 6 months
+
+          8. pregnancy/lactation
+
+          9. HIV or other immune deficiencies
+
+         10. prisoners
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>59 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jennifer Czwornog, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Colorado, Denver</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jennifer Czwornog, MD</last_name>
+    <email>jennifer.czwornog@ucdenver.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Gregory Austin, MD</last_name>
+    <phone>303-724-1857</phone>
+    <email>gregory.austin@ucdenver.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Colorado Hospital</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 27, 2015</study_first_submitted>
+  <study_first_submitted_qc>May 28, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 29, 2015</study_first_posted>
+  <last_update_submitted>May 23, 2017</last_update_submitted>
+  <last_update_submitted_qc>May 23, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 24, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Gastroesophageal Reflux</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

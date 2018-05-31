@@ -1,0 +1,278 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02506738</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HUGetafe</org_study_id>
+    <secondary_id>PI09/91070</secondary_id>
+    <secondary_id>CEIC-09/37</secondary_id>
+    <nct_id>NCT02506738</nct_id>
+  </id_info>
+  <brief_title>mHealth to Early Detect Exacerbation for Older People With Heart Failure</brief_title>
+  <acronym>mobileHF</acronym>
+  <official_title>(in Spanish) Utilidad de un Instrumento telediagnóstico en la detección de la reagudización de la Insuficiencia Cardiaca crónica en Ancianos</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hospital Universitario Getafe</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>SALUDNOVA SOLUTION S.L</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Instituto de Salud Carlos III</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hospital Universitario Getafe</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of the study was to demonstrate the effectiveness of telemonitoring functional status
+      and vital signs to early detect heart failure exacerbation, and to minimize readmissions and
+      length of hospitalisations.
+
+      Patients over 75 with heart failure were included after a hospitalisation due to heart
+      failure exacerbation. Patients were assigned randomly into intervention or control. The
+      intervention group comprised 47 patients who were assessed through telemonitoring, while 40
+      followed traditional clinical pathways.
+
+      Patients were followed-up for 3 months after discharge, collecting emergency visits and
+      readmissions due to a new heart failure exacerbation. Those patients in the intervention
+      group used a commercial telemedicine system: Careline H@me, which was provided by the company
+      SALUDNOVA. They system was personalized by adding the functional status monitoring
+      capabilities. Thus, the system collected vital signs (i.e. blood pressure, heart rate,
+      respiratory rate, oxygen saturation, glucose, and weight); symptoms of decompensated heart
+      failure (i.e. dyspnoea and orthopnoea); and functional status (i.e. part of the Short
+      Physical Performance Battery, SPPB) and a brief questionnaire (i.e. Do you have the
+      medication?) every 48 hours.
+
+      Two staff geriatricians at the Hospital Universitario de Getafe accessed, during working
+      days, a secured dedicated web-portal to assess the progression of their patients, evaluated
+      through the monitored variables and the self reported symptoms. They reacted to the data, if
+      needed, making a phone call or visiting the patient. Besides, patients could contact the
+      geriatricians or attending the emergency room as usually.
+
+      After completion, we analysed the results. First, we carried out a descriptive analysis of
+      the data. Later, we analysed the effects of the intervention with telemedicine and the
+      predictive values of the different measured variables through logistic regressions.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patient registries were carried out in two different Databases: one included general
+      information on patients and epidemiological data. The other database stored the monitored
+      data obtained every 48 hours.
+
+      Quality assurance and source data verification was achieved by retrieving general information
+      on patients from the Hospital Electronic Medical Record. Moreover epidemiological information
+      was assessed by the Principal Investigator who removed outlier values and assessed the
+      occurrence of sharp changes in temporal series (e.g. changes &gt;0.5Kg in two days).
+
+      Patients were recruited at the acute unit of the Geriatrics Service. When they were admitted
+      due a heart failure exacerbation a trained nurse performed the initial assess. If the patient
+      was suitable, a geriatrician explained to him /her the study and if the patient accepted we
+      was asked to sign the informed consent. Then he was assigned randomly to a group. For those
+      in the intervention group, they were trained by the geriatrician and the nurse on how to
+      perform the measurements in the mobile phone. For those in the control group, the staff
+      recorded the baseline characteristics, and during the follow-up the emergency visits,
+      readmissions and death was recorded. These latter variables were also recorded in the
+      patients of the intervention group.
+
+      The data dictionary included variables identifying patients and others describing their
+      status and evolution:
+
+        -  Oxygen saturation, measured as an integer (80-100)
+
+        -  Heart rate, measured in beats/minute (0-200)
+
+        -  Diastolic blood, measured in mmHg (0-100)
+
+        -  Systolic blood pressure, measured in mmHg (0-100)
+
+        -  Respiratory rate, measured in breaths/minute (0-100)
+
+        -  Skin temperature, measured in Celsius
+
+        -  Weight, measured in kg
+
+        -  Glucose, measured in mg/dl (0-500)
+
+        -  Short Physical Performance Battery, time to walk for 4.3 meters, measured in seconds
+           (0-100)
+
+        -  Short Physical Performance Battery, gait speed for 4.3 meters, measured in decimal
+           meters/second (0-1)
+
+        -  Short Physical Performance Battery, chair stand test once, measured in seconds (0-100)
+
+        -  Symptom question Q1: Do you feel worse than the last time?, measured as a Boolean
+           variable (YES/NO)
+
+        -  Symptom question Q2: Do you feel worse than the day of the hospital discharge?, measured
+           as a Boolean variable (YES/NO)
+
+        -  Symptom question Q3: Do you feel shorten of breath?, measured as a categorical variable
+           (effort/DLA/at rest)
+
+        -  Symptom question Q4: Do you feel your legs swollen? ?, measured as a Boolean variable
+           (YES/NO)
+
+        -  Symptom question Q5: Have you woken up during the night feeling fatigue? ?, measured as
+           a Boolean variable (YES/NO)
+
+        -  Symptom question Q6: Have you needed more pillows to sleep than last time? ?, measured
+           as a Boolean variable (YES/NO)
+
+        -  Symptom question Q7: Have you taken all your drugs? ?, measured as a Boolean variable
+           (YES/NO)
+
+        -  Symptom question Q8: Have you followed the food and drinks indications of your
+           physician?, measured as a Boolean variable (YES/NO) Sample size was calculated to reduce
+           readmission rate by 10% in 3 months time. Having a significant level of 0.05. Sample:
+           50-60 per group. With the first 20 patients included, sample size was recalculated, only
+           40 were needed in each group. However, we included more patients in the intervention (up
+           to 50) to face drops, only 3 dropped the study, so we obtained data from 47 in the
+           intervention group.
+
+      Missing data were excluded from the analysis, the registry was excluded. If a patient
+      registered more than one measurement for the same expected data, the latest remained, and the
+      rest was deleted.
+
+      Statistical analysis:
+
+      First, we carried out a descriptive analysis of the data. Later, we analysed the effects of
+      the intervention with telemedicine and the predictive values of the different measured
+      variables through logistic regressions.
+
+      Descriptive data are presented as median values (IQR). Baseline characteristics between
+      control and intervention groups were compared using non-parametric tests (Mann-Whitney).
+
+      In order to determine the effects of the intervention, the analysis was divided in two parts.
+      First, a logistic regression model was fitted to determine if the patient monitorization
+      (yes/no) significantly predict worsening using age and sex as covariates. Then, a new
+      variable, hospitalization length of stay, was created with the length of stay for any
+      readmission in each group to assess whether the use of telemonitoring affected the length of
+      hospitalisation. Both control and intervention groups were compared using Mann-Whitney.
+
+      Finally, in the intervention group, the same logistic regression model was fitted to
+      determine the factors that significantly predict worsening.
+
+      All analyses were made with the Statistical Package R for windows (Vienna, Austria)
+      (http://www.r-project.org), version 3.1.1. P-value was set at level &lt;0.05.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2010</start_date>
+  <completion_date type="Actual">October 2013</completion_date>
+  <primary_completion_date type="Actual">October 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Readmissions</measure>
+    <time_frame>3 months</time_frame>
+    <description>Number of visits to the emergency room that require readmission</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Emergency visits</measure>
+    <time_frame>3 months</time_frame>
+    <description>Number of visits to the emergency room that did not require readmission</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Worsening</measure>
+    <time_frame>3 months</time_frame>
+    <description>Sum of emergency visits + readmissions, used as proxy of worsening</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Readmissions length</measure>
+    <time_frame>3 months</time_frame>
+    <description>Length of hospitalizations in days</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">90</enrollment>
+  <condition>Heart Failure</condition>
+  <arm_group>
+    <arm_group_label>Intervention using mHealth</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patients in the intervention used at home a mobile system to monitor their clinical and health status.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Patients in the control group received the usual care.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Intervention using mHealth</intervention_name>
+    <description>Patients in the intervention used at home a mobile system to monitor their clinical and health status.</description>
+    <arm_group_label>Intervention using mHealth</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients admitted at the acute care unit at the Hospital Universitario de Getafe who
+             are diagnosed with Heart Failure as primary cause for admission.
+
+        Exclusion Criteria:
+
+          -  Moderate/severe cognitive impairment (MMSE&lt;23)
+
+          -  Visual/auditory deficits, communication problems
+
+          -  Moderate/severe non-reversible functional impairment (Barthel&lt;60)
+
+          -  To be institutionalized
+
+          -  To be discharged to a Functional Rehabilitation Hospital
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>75 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>July 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 22, 2015</study_first_submitted>
+  <study_first_submitted_qc>July 22, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 23, 2015</study_first_posted>
+  <last_update_submitted>July 22, 2015</last_update_submitted>
+  <last_update_submitted_qc>July 22, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 23, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>telemonitoring</keyword>
+  <keyword>mHealth</keyword>
+  <keyword>functional status</keyword>
+  <keyword>older people</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,538 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01134900</url>
+  </required_header>
+  <id_info>
+    <org_study_id>081002</org_study_id>
+    <secondary_id>R01LM009965</secondary_id>
+    <nct_id>NCT01134900</nct_id>
+  </id_info>
+  <brief_title>Achieving Medication Safety During Acute Kidney Injury</brief_title>
+  <official_title>Achieving Medication Safety During Acute Kidney Injury: The Impact of Clinical Decision Support and Real-Time Pharmacy Surveillance</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Vanderbilt University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Library of Medicine (NLM)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Vanderbilt University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The utilization of clinical decision support (CDS) is increasing among healthcare facilities
+      which have implemented computerized physician order entry or electronic medical records.
+      Formal prospective evaluation of CDS implementations occurs rarely, and misuse or flaws in
+      system design are often unrecognized. Retrospective review can identify failures but is too
+      late to make critical corrections or initiate redesign efforts. A real-time surveillance
+      dashboard for high-alert medications integrates externalized CDS interactions with relevant
+      medication ordering, administration, and therapeutic monitoring data. The surveillance view
+      of the dashboard displays all currently admitted, eligible patients and provides brief
+      demographics with triggering order, laboratory, and CDS failure data to allow prioritization
+      of high-risk scenarios. The patient detail view displays a detailed timeline of orders, order
+      administrations, laboratory values, and CDS interactions for an individual patient and allows
+      users to understand provider actions and patient condition changes occurring in conjunction
+      with CDS failures. Clinical pharmacists' use of the dashboard for patient monitoring and
+      intervention aims to increase the rate and timeliness of intercepted medication errors
+      compared to CPOE-based CDS in the setting of acute kidney injury, which affects patients at
+      various points across all hospital units and services and has numerous opportunities for
+      intervention.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>June 2010</start_date>
+  <completion_date type="Actual">August 2010</completion_date>
+  <primary_completion_date type="Actual">August 2010</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Double (Participant, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Adverse Drug Events or Potential Adverse Drug Events</measure>
+    <time_frame>Until patient discharge (~2 week average)</time_frame>
+    <description>Our primary outcome measured the rate of AKI-related ADEs and pADEs. We defined pADEs as incidents with the potential for injury related to a drug, such as use of a non-steroidal anti-inflammatory drug for at least 24 hours, and ADEs as injuries resulting from the administration of a drug, such as a toxic vancomycin trough level or a bleed after administration of enoxaparin. We measured outcomes after completion of the inpatient encounter (either by death or discharge); pADEs or ADEs occurring after patient discharge were not included in the analysis.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time to Provider Response</measure>
+    <time_frame>Until patient discharge (~2 week average)</time_frame>
+    <description>Time from study event to modification or discontinuation of targeted medication</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">540</enrollment>
+  <condition>Kidney Failure, Acute</condition>
+  <arm_group>
+    <arm_group_label>Dashboard</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients appear on dashboard and are eligible for pharmacy intervention in addition to existing clinical decision support interventions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Patients do not appear on dashboard for pharmacy intervention, but only receive existing clinical decision support interventions.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Pharmacy Dashboard Review and Intervention</intervention_name>
+    <description>Clinical pharmacist reviews patients on dashboard and makes intervention with providing team when necessary.</description>
+    <arm_group_label>Dashboard</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  0.5 mg/dl increase or decrease in serum creatinine within 48 hours
+
+          -  Active, recurring order for targeted renally cleared or nephrotoxic medication
+
+        Exclusion Criteria:
+
+          -  Chronic dialysis
+
+          -  Transplant patients
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Allison B McCoy, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The University of Texas Health Science Center at Houston (UTHealth)</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Josh F Peterson, MD, MPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Vanderbilt University Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Vanderbilt University Medical Center</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37235</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>McCoy AB, Peterson JF, Gadd CS, Danciu I, Waitman LR. A system to improve medication safety in the setting of acute kidney injury: initial provider response. AMIA Annu Symp Proc. 2008 Nov 6:1051.</citation>
+    <PMID>18999252</PMID>
+  </reference>
+  <verification_date>January 2012</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 27, 2010</study_first_submitted>
+  <study_first_submitted_qc>June 1, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 2, 2010</study_first_posted>
+  <results_first_submitted>January 25, 2012</results_first_submitted>
+  <results_first_submitted_qc>January 25, 2012</results_first_submitted_qc>
+  <results_first_posted type="Estimate">February 27, 2012</results_first_posted>
+  <last_update_submitted>January 25, 2012</last_update_submitted>
+  <last_update_submitted_qc>January 25, 2012</last_update_submitted_qc>
+  <last_update_posted type="Estimate">February 27, 2012</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Vanderbilt University</investigator_affiliation>
+    <investigator_full_name>Allison McCoy</investigator_full_name>
+    <investigator_title>Principle Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Medication Errors</keyword>
+  <keyword>Adverse Drug Events</keyword>
+  <keyword>Decision Support Systems, Clinical</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Acute Kidney Injury</mesh_term>
+    <mesh_term>Renal Insufficiency</mesh_term>
+  </condition_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>We performed a randomized, controlled trial during June 1, 2010 through August 31, 2010 at a large academic, tertiary care facility. We included all admitted adult patients who experienced a 0.5 mg/dl change in serum creatinine over 48 hours following an active, recurring order for one or more targeted nephrotoxic or renally cleared medications.</recruitment_details>
+      <pre_assignment_details>Patients who were dialyzed prior to the first serum creatinine change event or identified as a dialysis patient through a dialysis flag order, in addition to those admitted to renal transplant, liver transplant, or nephrology services were excluded.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Dashboard</title>
+          <description>Patients appear on dashboard and are eligible for pharmacy intervention in addition to existing clinical decision support interventions.</description>
+        </group>
+        <group group_id="P2">
+          <title>Control</title>
+          <description>Patients do not appear on dashboard for pharmacy intervention, but only receive existing clinical decision support interventions.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="200"/>
+                <participants group_id="P2" count="196"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="200"/>
+                <participants group_id="P2" count="196"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Dashboard</title>
+          <description>Patients appear on dashboard and are eligible for pharmacy intervention in addition to existing clinical decision support interventions.</description>
+        </group>
+        <group group_id="B2">
+          <title>Control</title>
+          <description>Patients do not appear on dashboard for pharmacy intervention, but only receive existing clinical decision support interventions.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="200"/>
+            <count group_id="B2" value="196"/>
+            <count group_id="B3" value="396"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="111"/>
+                    <measurement group_id="B2" value="120"/>
+                    <measurement group_id="B3" value="231"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="89"/>
+                    <measurement group_id="B2" value="76"/>
+                    <measurement group_id="B3" value="165"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="60.7" spread="16.8"/>
+                    <measurement group_id="B2" value="58.3" spread="15.7"/>
+                    <measurement group_id="B3" value="59.5" spread="16.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="94"/>
+                    <measurement group_id="B2" value="77"/>
+                    <measurement group_id="B3" value="171"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="106"/>
+                    <measurement group_id="B2" value="119"/>
+                    <measurement group_id="B3" value="225"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="200"/>
+                    <measurement group_id="B2" value="196"/>
+                    <measurement group_id="B3" value="396"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Adverse Drug Events or Potential Adverse Drug Events</title>
+        <description>Our primary outcome measured the rate of AKI-related ADEs and pADEs. We defined pADEs as incidents with the potential for injury related to a drug, such as use of a non-steroidal anti-inflammatory drug for at least 24 hours, and ADEs as injuries resulting from the administration of a drug, such as a toxic vancomycin trough level or a bleed after administration of enoxaparin. We measured outcomes after completion of the inpatient encounter (either by death or discharge); pADEs or ADEs occurring after patient discharge were not included in the analysis.</description>
+        <time_frame>Until patient discharge (~2 week average)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Dashboard</title>
+            <description>Patients appear on dashboard and are eligible for pharmacy intervention in addition to existing clinical decision support interventions.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control</title>
+            <description>Patients do not appear on dashboard for pharmacy intervention, but only receive existing clinical decision support interventions.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Adverse Drug Events or Potential Adverse Drug Events</title>
+          <description>Our primary outcome measured the rate of AKI-related ADEs and pADEs. We defined pADEs as incidents with the potential for injury related to a drug, such as use of a non-steroidal anti-inflammatory drug for at least 24 hours, and ADEs as injuries resulting from the administration of a drug, such as a toxic vancomycin trough level or a bleed after administration of enoxaparin. We measured outcomes after completion of the inpatient encounter (either by death or discharge); pADEs or ADEs occurring after patient discharge were not included in the analysis.</description>
+          <units>Patient-Medication Pairs</units>
+          <param>Number</param>
+          <units_analyzed>Participants</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="200"/>
+                <count group_id="O2" value="196"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>Patient-Medication Pairs</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1396"/>
+                <count group_id="O2" value="1303"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="99"/>
+                    <measurement group_id="O2" value="104"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Time to Provider Response</title>
+        <description>Time from study event to modification or discontinuation of targeted medication</description>
+        <time_frame>Until patient discharge (~2 week average)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Dashboard</title>
+            <description>Patients appear on dashboard and are eligible for pharmacy intervention in addition to existing clinical decision support interventions.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control</title>
+            <description>Patients do not appear on dashboard for pharmacy intervention, but only receive existing clinical decision support interventions.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Time to Provider Response</title>
+          <description>Time from study event to modification or discontinuation of targeted medication</description>
+          <units>Hours</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <units_analyzed>Participants</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="200"/>
+                <count group_id="O2" value="196"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>Patient-Medication Pairs</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1396"/>
+                <count group_id="O2" value="1303"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Ordered Prior to AKI</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="23.7" lower_limit="5.61" upper_limit="57.67"/>
+                    <measurement group_id="O2" value="27.31" lower_limit="5.98" upper_limit="62.57"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Ordered After AKI</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="42.37" lower_limit="17.9" upper_limit="77.93"/>
+                    <measurement group_id="O2" value="43.83" lower_limit="17.62" upper_limit="80.58"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Dashboard</title>
+          <description>Patients appear on dashboard and are eligible for pharmacy intervention in addition to existing clinical decision support interventions.</description>
+        </group>
+        <group group_id="E2">
+          <title>Control</title>
+          <description>Patients do not appear on dashboard for pharmacy intervention, but only receive existing clinical decision support interventions.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Allison B. McCoy, PhD</name_or_title>
+      <organization>The University of Texas Health Science Center at Houston (UTHealth)</organization>
+      <phone>713-500-6931</phone>
+      <email>allison.b.mccoy@uth.tmc.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

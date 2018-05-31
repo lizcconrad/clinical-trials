@@ -1,0 +1,278 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02796768</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H14-01448</org_study_id>
+    <nct_id>NCT02796768</nct_id>
+  </id_info>
+  <brief_title>Automatic Characterization of the Neonatal Hip Using Ultrasound Imaging</brief_title>
+  <official_title>Automatic Characterization of the Neonatal Hip Using Ultrasound Imaging</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>British Columbia Children's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of British Columbia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>British Columbia Children's Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Ultrasound imaging (US), a radiation-free imaging modality, is currently used in diagnosis of
+      developmental dysplasia of the hip (DDH) in infants. The current protocol involves manually
+      identifying specific measures that are prone to error, and may give rise to false positives.
+      We aim to use 2-dimensional (2D) and 3-dimensional (3D) ultrasound imaging to create an
+      automatic measurement procedure that we hope will reduce the errors in measurement and
+      increase reliability.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      STUDY OBJECTIVES To investigate the use of a novel approach for accurate and automatic
+      extraction of bone, cartilage and muscle surfaces from 3D US images, and to automatically
+      characterize the infant DDH hip. To evaluate the performance of the 3D US-based approach, we
+      will be comparing the results with regular 2D US images of the same patients from the
+      radiology archives at our institution.
+
+      HYPOTHESIS We hypothesize that automatically extracted bone/cartilage boundaries can provide
+      useful information about DDH, enable more reliable and reproducible diagnoses, and reduce
+      false diagnostic positives and negatives of DDH. Using 3D US may reveal clinically
+      significant disease or dysplasia metrics that have the potential to change diagnostic
+      procedures.
+
+      AIMS:
+
+        1. To determine if automatically extracted 3D bone/cartilage surfaces provide useful
+           information (i.e., disease or dysplasia metrics) during the assessment of DDH and
+           provide better visualization of the infant hip anatomy in comparison to regular 2D
+           US-based DDH assessment.
+
+        2. To determine if diagnosing DDH using the 3D US images reduces the operator dependent
+           false positive and false negative rates.
+
+        3. To determine if 3D US-based dysplasia metrics are as valuable in tracking disease
+           progression as 2D US-based dysplasia metrics.
+
+      RESEARCH METHOD Parents and their infants that have been referred to the Orthopaedic Clinic
+      at our institution for suspected or diagnosed DDH will be approached by the Orthopaedic
+      Department's research staff to participate in the study. We are hoping to reach an n=75 as we
+      expect 33% will be lost to follow up. Once eligible infants have been identified by clinical
+      staff, the research staff will outline the study and will obtain informed consent. The
+      parents will be informed of the four additional scan sessions that we would like to collect.
+      Two separate orthopaedic surgeons will each perform one of the 3D and one 2D scan sessions,
+      so as to assess inter-rater reliability. In order to assess intra-rater reliability, each
+      scan session will consist of 2 successive scans.
+
+      A major goal of this study is to show that the automated image extraction/analysis by 3D US
+      can reproduce the findings of an expert clinician trained in DDH diagnosis. The 3D images
+      will be processed by using the confidence-weighted local-phase feature based image processing
+      method. Accordingly, the dysplasia metrics can be directly compared between two specialists
+      to determine the feasibility of this approach. Should this method prove to be efficacious,
+      further study could potentially investigate whether this aspect of patient care could be made
+      the responsibility of nurse practitioners.
+
+      A secondary goal of this study is to assess how 3D US compares to 2D US in tracking DDH
+      progression. In order to investigate this, we will be giving parents the option to opt in to
+      a second set of US scans if it is necessary for their infant to return to clinic for
+      follow-up treatment. This will not be a mandatory criterion for inclusion into the study.
+      However, as current clinical practice involves checking for DDH progression with 2D US scans,
+      it will provide additional information that could be valuable for comparing the two scanning
+      methods in tracking DDH progression. This option will be presented to parents in the form of
+      a check box on the consent form for them to opt in if they so wish.
+
+      DATA ANALYSIS The reliability and accuracy of the 3D image-derived dysplasia metrics will be
+      compared with the standard 2D B-mode US images in terms of variability within inter-rater and
+      intra-rater measurements. For statistical significance of improvement in the diagnostic
+      procedure, we require at least 50 infants with at least one affected hip or suspected
+      affected hip with DDH. We have asked for a recruitment size of 75 as we believe that at least
+      33% will be lost to follow up. This will be achieved by performing a comparison study between
+      the 2D and 3D US images collected for each patient at each clinic visit. Orthopaedic surgeons
+      from our institution will be asked to identify important features from both (processed and
+      un-processed) US images. For 2D images, the surgeons will measure α and ß angles and percent
+      coverage of the femur. Intra- and inter-rater reliability will be calculated using kappa
+      scores. For 3D images, profiles of α and ß angles and 3-dimensional percentage coverage of
+      the femur (i.e. volume coverage instead of surface coverage), will be measured. These manual
+      measurements will be compared to the measurements determined by automatic image extraction
+      and analysis to test for improvement in diagnostic procedure.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>December 2014</start_date>
+  <completion_date type="Anticipated">June 2017</completion_date>
+  <primary_completion_date type="Anticipated">June 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Alpha angles automatically extracted from 3D US images as a measure of dysplasia of the infant hip</measure>
+    <time_frame>Baseline</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Alpha angles automatically extracted/measured from 2D US images as a measure of dysplasia of the infant hip</measure>
+    <time_frame>Baseline</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Beta angles automatically extracted from 3D US images as a measure of dysplasia of the infant hip</measure>
+    <time_frame>Baseline</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Beta angles automatically extracted/measured from 2D US images as a measure of dysplasia of the infant hip</measure>
+    <time_frame>Baseline</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Femoral head coverage automatically extracted from 3D US images as a measure of dysplasia of the infant hip</measure>
+    <time_frame>Baseline</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Femoral head coverage automatically extracted/measured from 2D US images as a measure of dysplasia of the infant hip</measure>
+    <time_frame>Baseline</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">75</enrollment>
+  <condition>Developmental Dysplasia of the Hip</condition>
+  <arm_group>
+    <arm_group_label>Participants</arm_group_label>
+    <description>Study participants will be 0 to 4 months of age and undergoing DDH screening. They will have the following scans:
+BASELINE - 1 3D US scanning session of right and left hip by Specialist 1, 1 3D US scanning session of right and left hip by Specialist 2, 1 2D US scanning session of right and left hip by Specialist 1, 1 2D US scanning session of right and left hip by Specialist 2.
+FOLLOW-UP (OPTIONAL) - 1 3D US scanning session of right and left hip by Specialist 1, 1 3D US scanning session of right and left hip by Specialist 2,
+1 2D US scanning session of right and left hip by Specialist 1,
+1 2D US scanning session of right and left hip by Specialist 2.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>3D US Scanning</intervention_name>
+    <description>3D ultrasound will be used by both clinicians to scan both the right and left hips of the infant.</description>
+    <arm_group_label>Participants</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>2D US Scanning</intervention_name>
+    <description>2D ultrasound will be used by both clinicians to scan both the right and left hips of the infant.</description>
+    <arm_group_label>Participants</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Infants that have been referred to the Orthopaedic Clinic at our institution for suspected
+        or diagnosed Developmental Dysplasia of the Hip (DDH).
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Children with suspected DDH at our institution
+
+          -  Ages 0 to 4 months of age
+
+        Exclusion Criteria:
+
+          -  US not performed at our institution
+
+          -  No diagnosis of DDH or not suspected of having DDH
+
+          -  Other congenital hip abnormalities or genetic syndromes
+
+          -  Patient/family does not live in the Lower Mainland
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>4 Months</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kishore Mulpuri, MBBS, MS(Ortho), MHSc</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Provincial Health Services Authority</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Antony Hodgson, BASc, MASc, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of British Columbia</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Anthony Cooper, BSc, MBChB, FRCS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Provincial Health Services Authority</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Rafeef Abugharbieh, BSc, MSc, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of British Columbia</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Kishore Mulpuri, MBBS, MS(Ortho), MHSc</last_name>
+    <phone>6048752054</phone>
+    <email>kmulpuri@cw.bc.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Emily Schaeffer, PhD</last_name>
+    <phone>6048752359</phone>
+    <email>emily.schaeffer@cw.bc.ca</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>British Columbia Children's Hospital</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <zip>V6H 3V4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kishore Mulpuri, MBBS, MS(Ortho), MHSc</last_name>
+      <phone>6048752054</phone>
+      <email>kmulpuri@cw.bc.ca</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>June 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 26, 2016</study_first_submitted>
+  <study_first_submitted_qc>June 7, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 13, 2016</study_first_posted>
+  <last_update_submitted>June 7, 2016</last_update_submitted>
+  <last_update_submitted_qc>June 7, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">June 13, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>British Columbia Children's Hospital</investigator_affiliation>
+    <investigator_full_name>Kishore Mulpuri</investigator_full_name>
+    <investigator_title>Pediatric Orthopaedic Surgeon</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hip Dislocation, Congenital</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

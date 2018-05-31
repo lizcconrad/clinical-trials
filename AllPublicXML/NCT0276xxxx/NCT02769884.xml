@@ -1,0 +1,313 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02769884</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MMPPC- outpatient-2016</org_study_id>
+    <nct_id>NCT02769884</nct_id>
+  </id_info>
+  <brief_title>MMPPC Outpatient Clinical Protocol 2016</brief_title>
+  <acronym>MMPPC</acronym>
+  <official_title>Multiple Model Probabilistic Predictive Control (MMPPC) Outpatient Clinical Protocol</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Rensselaer Polytechnic Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Colorado, Denver</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Mount Sinai Hospital, New York</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Rensselaer Polytechnic Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study trials a prototype artificial pancreas system that consists of a Roche insulin
+      pump, a Dexcom continuous glucose monitor (CGM), and an experiential MMPPC (multiple model
+      probabilistic predictive control) algorithm housed on an android cell phone. The system doses
+      insulin based on CGM sensor glucose levels and the experimental algorithm.
+
+      The aim of this clinical study is to determine the efficacy of the MMPPC controller in
+      adolescents and adults with type 1 diabetes in a hotel setting.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study trials a prototype artificial pancreas system that consists of a Roche insulin
+      pump, a Dexcom continuous glucose monitor (CGM), and an experiential MMPPC (multiple model
+      probabilistic predictive control) algorithm housed on an android cell phone. The system doses
+      insulin based on CGM sensor glucose levels and the experimental algorithm. The algorithm runs
+      through a glucose control platform called the DiAs (Diabetes Assistant)
+
+      The aim of this study is to determine the safety and feasibility of the MMPPC controller in
+      adults and adolescents with type 1 diabetes testing the use of predefined tuning parameters
+      to provide adaptability to patient. We will assess the safety of the system with both
+      unannounced meals, and meals using a meal announcement with a premeal insulin bolus based on
+      the subject's estimated carbohydrate content of the meal
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2016</start_date>
+  <completion_date type="Actual">December 2016</completion_date>
+  <primary_completion_date type="Actual">December 2016</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Use the MMPPC system for 72 hours in a hotel setting</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mean CGM glucose value</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Average CGm glucose value during the experimental trial</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>CGM percent time &lt; 60 mg/dl</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Percent of time the CGM was reading &lt;60 mg/dl</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>CGM percent time &lt; 50 mg/dl</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Percent of time the CGM was reading &lt;50 mg/dl</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CGM percent time &lt; 70 mg/dl</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Percent of time the CGM was reading &lt;70 mg/dl</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% 70-140 mg/dl</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Percent of time CGM glucose levels were between 70-140 mg/dl</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% 70-180 mg/dl</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Percent of time CGM glucose levels were between 70-180 mg/dl</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% CGM &gt;180 mg/dl</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Percent of time CGM glucose levels were &gt;180 mg/dl</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% CGM &gt;250 mg/dl</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Percent of time CGM glucose levels were &gt;250 mg/dl</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>number of SMBG &lt;70 mg/dl</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Number of self monitored blood glucose levels less than 70 mg/dl</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>number of SMBG &lt;60 mg/dl</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Number of self monitored blood glucose levels less than 60 mg/dl</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>number of SMBG &lt;50 mg/dl</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Number of self monitored blood glucose levels less than 50 mg/dl</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Grams of carbs for hypoglycemia</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Number of carbohydrates consumed for treatment of hypoglycemia</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total daily dose of insulin</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Total daily dose of insulin</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% time CGM used</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Percent of time CGM was used</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% time in closed loop</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Percent of time in closed loop</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>% of subjects with mean CGM &lt;169 (eHbA1C &lt; 7.5%)</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Percentage of subjects with mean CGM value &lt; 169 for the 72 hour period. This corresponds to an estimated hemoglobin A1c of &lt;7.5%.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Comparison of Announced and Unannounced Meals</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Glycemic control in the 4 hour period after announced meals will be compared to glycemic control in the 4 hour period after unannounced meals as an exploratory measure</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Safety Criteria 1: No more than 3 SMBG values &lt; 50 mg/dL per subject</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Safety evaluation of system based on SMBG detected severe hypoglycemia</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Safety Criteria 2: No more than 2 episodes with SMBG value &gt;300 mg/dL for &gt;1 hour not due to infusion set failure per subject</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Safety evaluation of system based on SMBG detected hyperglycemia</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Safety Criteria 3: No kotonemia &gt;1.0 mmol/L, while the system is functional unless related to an intercurrent illness or infusion set failure for any patient</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Safety evaluation of system based on ketone detection</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Safety Criteria 4: No seizures or loss of consciousness while system is on and functional</measure>
+    <time_frame>72 hours</time_frame>
+    <description>Safety evaluation of system based on severe hypoglycemic events</description>
+  </other_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">10</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>MMPPC arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects in this arm will wear the experimental MMPPC algorithm artificial pancreas for 72 hours in a hotel/house setting. The study period will involve unannounced meals and exercise</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MMPPC algorithm artificial pancreas</intervention_name>
+    <description>An artificial pancreas system using the MMPPC algorithm, Roche insulin pump, and Dexcom CGM</description>
+    <arm_group_label>MMPPC arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        3.1 Eligibility Criteria
+
+        1. Clinical diagnosis of type 1 diabetes for at least 12 months 2. Daily insulin therapy
+        for at least 12 months 3. Age between 15.0 to 55.0 years of age 4. Use of an insulin pump
+        for at least 3 months 5. Current use of continuous glucose monitoring with Dexcom sensor 6.
+        Subject comprehends English 7. Females of childbearing potential must use an adequate
+        method of contraception and have a negative pregnancy test 8. Total daily insulin
+        requirement ≥ 0.3 units/kg/day 9. A1C between 7.0 and 10% 3.2 Exclusion Criteria
+
+          1. Diabetic ketoacidosis in the past 6 months
+
+          2. Hypoglycemic seizure or loss of consciousness in the past 6 months
+
+          3. Hypoglycemia unawareness as defined by no recognition of hypoglycemia until the
+             glucose is &lt;60 mg/dL and no adrenergic symptoms at glucose of 60 mg/dL (shakiness,
+             palpitations, diaphoresis). Subjects will also be administered the Clark questionnaire
+             for hypoglycemia unawareness. If they have a score ≥ 4, they are excluded from the
+             study
+
+          4. Subjects requiring an intermediate or long-acting insulin (such as NPH, detemir or
+             glargine)
+
+          5. Subjects using other anti-diabetic medications other than insulin (oral or injectable)
+             at the time of enrollment. Any prior use of other anti-diabetic medications must be
+             washed out for at least 8 weeks prior to enrollment.
+
+          6. Current use of other medications, which in the judgment of the investigator would be a
+             contraindication to participation in the study
+
+          7. Subject has a medical disorder that in the judgment of the investigator will affect
+             completion of any aspect of the protocol
+
+          8. Subject is currently participating in another investigational device or drug study
+             within 30 days or 5-half lives of the drug.
+
+          9. Subject has a history of any cardiac or vascular disorder including, but not limited
+             to, myocardial infarction, unstable angina, coronary artery bypass surgery, coronary
+             artery stenting, transient ischemic attack, cerebrovascular accident, angina,
+             congestive heart failure, arrhythmia or thromboembolic disease
+
+         10. An EKG will be obtained on subjects who are ≥ 45 years of age, or who have had a 20
+             year history of diabetes and are ≥ 30 years of age. Subjects will be excluded if they
+             have an abnormal EKG consistent with coronary artery disease or increased risk of
+             malignant arrhythmia including, but not limited to, evidence of active ischemia, prior
+             myocardial infarction, proximal LAD critical stenosis (Wellen's sign), prolonged QT
+             interval (&gt; 440 ms). Non-specific ST segment and T wave changes are not grounds for
+             exclusion in the absence of symptoms or history of heart disease.
+
+         11. Subject has a history of hepatic disease
+
+         12. Subject has renal failure on dialysis
+
+         13. Systolic blood pressure &gt; 160 mmHg on screening visit
+
+         14. Diastolic blood pressure &gt; 90 mmHg on screening visit
+
+         15. Subjects with inadequately treated thyroid disease or celiac disease
+
+         16. Subject has a neurologic disorder that in the judgment of the investigator will affect
+             completion of the protocol
+
+         17. Subject has received inpatient psychiatric treatment in the past 6 months
+
+         18. Subject consumes more than an average of 4 standard alcoholic drinks/day in the last
+             30 days
+
+         19. Subject has an active skin condition that would affect sensor placement
+
+         20. Subject is unable to avoid acetaminophen for the duration of the study
+
+         21. Subject consuming less than 100g of carbohydrates daily
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>15 Years</minimum_age>
+    <maximum_age>55 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>January 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 10, 2016</study_first_submitted>
+  <study_first_submitted_qc>May 11, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 12, 2016</study_first_posted>
+  <last_update_submitted>January 26, 2018</last_update_submitted>
+  <last_update_submitted_qc>January 26, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 30, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Rensselaer Polytechnic Institute</investigator_affiliation>
+    <investigator_full_name>B. Wayne Bequette</investigator_full_name>
+    <investigator_title>Professor, Department of Chemical &amp; Biological Engineering</investigator_title>
+  </responsible_party>
+  <keyword>artificial pancreas</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pancrelipase</mesh_term>
+    <mesh_term>Pancreatin</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

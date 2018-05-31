@@ -1,0 +1,517 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03358342</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ePneumonia - CDS</org_study_id>
+    <nct_id>NCT03358342</nct_id>
+  </id_info>
+  <brief_title>ePneumonia: Development of an Electronic Clinical Decision Support System for Community-Onset Pneumonia</brief_title>
+  <official_title>ePneumonia: Development of an Electronic Clinical Decision Support System for Community-Onset Pneumonia</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Intermountain Health Care, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Intermountain Health Care, Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators plan to further develop a prototype, evidence-based, electronic clinical
+      decision support system (CDSS) for pneumonia care (ePneumonia) with interoperability across
+      Electronic Health Records in order to improve clinical outcomes and reduce healthcare
+      resource utilization. The specific aims of this study are to evaluate the usability of
+      ePneumonia adapted for Cerner and its impact on clinical, patient-centered and healthcare
+      resource utilization outcomes in a stepped-wedge implementation study in 16 hospital
+      emergency departments (EDs) across the Intermountain Healthcare integrated health system.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Since the launch of a paper-based pneumonia care process model in 1994, decision support for
+      pneumonia care has been under continuous development at Intermountain. Studies published in
+      2001 and 2006 demonstrated decreased mortality using paper-based methods. An electronic
+      pneumonia Clinical Decision Support System was later developed in the original Intermountain
+      computing environment and implemented in 4 regional emergency departments (ED) in 2011. This
+      tool featured a novel mortality predictor and real-time synthesis of clinical data to guide
+      diagnosis, risk stratification, admission triage and guideline-concordant treatment. An
+      outcome study published in 2015 demonstrated reduction in mortality with tool use compared to
+      usual care. Most recently, Intermountain researchers led by study co-Investigator, Dr.
+      Brandon Webb, developed an innovative tool to predict risk of drug-resistant bacteria and
+      demonstrated its potential to improve antibiotic use and outcomes.
+
+      The investigators have entered a robust phase of additional development and adaptation of
+      ePneumonia into the Cerner Electronic Health Record (EHR) system. The objective of this study
+      is to advance development of an evidence-based, electronic CDSS for pneumonia care with
+      interoperability across EHRs in order to improve clinical outcomes and reduce healthcare
+      resource utilization. The specific aim of this study is to evaluate the usability of
+      ePneumonia and its associated impact on clinical, patient-centered and healthcare resource
+      utilization outcomes in a stepped-wedge implementation study in 16 hospital EDs in the
+      Intermountain Healthcare integrated health system.
+
+        -  Hypothesis #1: Healthcare providers will affirm ePneumonia usability, lack of
+           interference with clinical workflow and only minor unintended consequences of use.
+
+        -  Hypothesis #2: In patients with community-onset pneumonia, ePneumonia use will improve
+           clinical and patient-centered outcomes and decrease healthcare resource utilization.
+
+      One year of baseline clinical outcome data will be gathered for all 16 emergency departments.
+      The first of 6 clusters of ED's will begin prospective data collection in January 2018, with
+      the remaining coming on at 2 month intervals until ePneumonia has been deployed at all sites.
+      An additional 1 year of data collection will be continued through 2019.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 2, 2018</start_date>
+  <completion_date type="Anticipated">June 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>30 day all-cause mortality</measure>
+    <time_frame>30 days</time_frame>
+    <description>mortality within 30 days of initial ED visit</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Matching of patient disposition from the ED with ePneumonia recommendation</measure>
+    <time_frame>End of initial ED visit, &lt;24 hours after ED arrival</time_frame>
+    <description>ePneumonia use will increase simple agreement between patient disposition from the ED with ePneumonia recommendation based on illness severity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of Drug Resistance in Pneumonia (DRIP) score within the ePneumonia logic to predict Multi-Drug Resistant (MDR) pathogens</measure>
+    <time_frame>30 days</time_frame>
+    <description>Sensitivity, specificity, positive and negative predictive values for DRIP score versus identified pathogens</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Antibiotic utilization rates, in terms of appropriateness of spectrum</measure>
+    <time_frame>30 days</time_frame>
+    <description>Antibiotic utilization rates, in terms of appropriateness of spectrum versus identified pneumonia pathogen</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of secondary hospital admission within 7 days for ED patients whose initial disposition was outpatient care</measure>
+    <time_frame>7 days</time_frame>
+    <description>Rate of secondary hospital admission within 7 days for ED patients whose initial disposition was outpatient care</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Direct costs</measure>
+    <time_frame>Duration of hospital stay, censored at 90 days</time_frame>
+    <description>ePneumonia use will produce lower direct costs (total and variable)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Length of stay</measure>
+    <time_frame>Duration of hospital stay, censored at 90 days</time_frame>
+    <description>ePneumonia use will shorten length of stay measured in hours</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Healthcare providers will affirm ePneumonia usability, lack of interference with clinical workflow and only minor unintended consequences of use</measure>
+    <time_frame>3 year study duration</time_frame>
+    <description>Qualitative outcome based on provider surveys</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">8000</enrollment>
+  <condition>Pneumonia</condition>
+  <arm_group>
+    <arm_group_label>ED Patients treated using ePneumonia CDS</arm_group_label>
+    <description>ED patients with community-acquired pneumonia treated in ED's after roll out of ePneumonia</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual care</arm_group_label>
+    <description>ED patients with pneumonia receiving usual care without electronic CDS</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>ePneumonia CDS</intervention_name>
+    <description>ePneumonia clinical decision support system for community-onset pneumonia</description>
+    <arm_group_label>ED Patients treated using ePneumonia CDS</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        (1) All patients ≥ 18 years who are identified by either (2a) ICD-10 codes for pneumonia;
+        or acute respiratory failure or sepsis with secondary pneumonia codes or (2b) clinician
+        completion of ePneumonia for Cerner.
+
+        Intermountain Healthcare physicians
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All patients ≥ 18 years who are identified by either (2a) ICD-10 codes for pneumonia;
+             or acute respiratory failure or sepsis with secondary pneumonia codes or (2b)
+             clinician completion of ePneumonia for Cerner.
+
+          -  Intermountain Healthcare physicians working in the 16 ED's
+
+        Exclusion Criteria:
+
+          -  Patients without radiographic confirmation of pneumonia
+
+          -  subsequent episodes of pneumonia within the study period, so as not to over-represent
+             patients with recurrent pneumonia caused by recurrent aspiration or structural lung
+             disease, and
+
+          -  immunosuppressed patients, such as those with AIDS.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Nathan Dean, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Intermountain Health Care, Inc.</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Nathan Dean, MD</last_name>
+    <phone>(801) 507-4696</phone>
+    <email>nathan.dean@imail.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Cassia Regional Hospital</name>
+      <address>
+        <city>Burley</city>
+        <state>Idaho</state>
+        <zip>83318</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>nathan.dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>American Fork Hospital</name>
+      <address>
+        <city>American Fork</city>
+        <state>Utah</state>
+        <zip>84003</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>nathan.dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Cedar City Hospital</name>
+      <address>
+        <city>Cedar City</city>
+        <state>Utah</state>
+        <zip>84721</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Delta Community Hospital</name>
+      <address>
+        <city>Delta</city>
+        <state>Utah</state>
+        <zip>84624</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>nathan.dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Fillmore Hospital</name>
+      <address>
+        <city>Fillmore</city>
+        <state>Utah</state>
+        <zip>84631</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>nathan.dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Heber Valley Hospital</name>
+      <address>
+        <city>Heber</city>
+        <state>Utah</state>
+        <zip>84032</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>nathan.dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Logan Regional Hospital</name>
+      <address>
+        <city>Logan</city>
+        <state>Utah</state>
+        <zip>84341</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>nathan.dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Sanpete Valley Hospital</name>
+      <address>
+        <city>Mount Pleasant</city>
+        <state>Utah</state>
+        <zip>84647</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>Nathan.Dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Intermountain Medical Center</name>
+      <address>
+        <city>Murray</city>
+        <state>Utah</state>
+        <zip>84157</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>nathan.dean@imail.org</email>
+    </contact>
+    <investigator>
+      <last_name>Todd L. Allen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sarah Daly, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jenna Rubin, RN</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Caroline G. Vines, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Brandon Webb, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>McKay-Dee Hospital</name>
+      <address>
+        <city>Ogden</city>
+        <state>Utah</state>
+        <zip>84403</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>Nathan.Dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Orem Community Hospital</name>
+      <address>
+        <city>Orem</city>
+        <state>Utah</state>
+        <zip>84057</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>Nathan.Dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Garfield Memorial Hospital</name>
+      <address>
+        <city>Panguitch</city>
+        <state>Utah</state>
+        <zip>84759</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>Nathan.Dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Park City Medical Center</name>
+      <address>
+        <city>Park City</city>
+        <state>Utah</state>
+        <zip>84060</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>nathan.dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Utah Valley Hospital</name>
+      <address>
+        <city>Provo</city>
+        <state>Utah</state>
+        <zip>84604</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>nathan.dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Sevier Valley Hospital</name>
+      <address>
+        <city>Richfield</city>
+        <state>Utah</state>
+        <zip>84701</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>Nathan.Dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Dixie Regional Medical Center</name>
+      <address>
+        <city>Saint George</city>
+        <state>Utah</state>
+        <zip>84790</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nathan Dean, MD</last_name>
+      <phone>801-507-4696</phone>
+      <email>nathan.dean@imail.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Bear River Hospital</name>
+      <address>
+        <city>Tremonton</city>
+        <state>Utah</state>
+        <zip>84337</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 24, 2017</study_first_submitted>
+  <study_first_submitted_qc>November 29, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 30, 2017</study_first_posted>
+  <last_update_submitted>November 29, 2017</last_update_submitted>
+  <last_update_submitted_qc>November 29, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 30, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Intermountain Health Care, Inc.</investigator_affiliation>
+    <investigator_full_name>Nathan Dean</investigator_full_name>
+    <investigator_title>Section Chief of Pulmonary and Critical Care Medicine</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pneumonia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

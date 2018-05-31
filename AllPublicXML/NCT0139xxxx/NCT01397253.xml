@@ -1,0 +1,655 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01397253</url>
+  </required_header>
+  <id_info>
+    <org_study_id>3130920</org_study_id>
+    <nct_id>NCT01397253</nct_id>
+  </id_info>
+  <brief_title>Virtual Continuity and Its Impact on Complex Hospitalized Patients' Care</brief_title>
+  <official_title>Virtual Continuity and Its Impact on Complex Hospitalized Patients' Care</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Pittsburgh</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Agency for Healthcare Research and Quality (AHRQ)</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Pittsburgh</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Communication between physicians caring for a patient in the hospital and that patient's
+      primary care provider is less than optimal, and can lead to diminished health care quality
+      and safety. This project will lead to better communication between physicians and could
+      decrease medication errors that tend to occur as the patient goes from hospital to home.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Communication between physicians caring for hospitalized patients and those patients' primary
+      care providers (PCPs) is often suboptimal. Hospital-based information systems can improve
+      communication by automating information exchange between hospital physicians and PCPs, and
+      perhaps, as a result, improve the quality and safety of health care. MedTrak, the University
+      of Pittsburgh Medical Center (UPMC) electronic physician communication tool, has proven
+      successful and is poised to move forward with an initiative the investigators call virtual
+      continuity, allowing PCPs to follow their patients electronically if they cannot do so
+      physically. Virtual continuity will include: emails to PCPs triggered by clinical events with
+      embedded links to electronic medical record data and communication portals, medication lists
+      electronically delivered to PCPs at admission and discharge, and immediate PCP notification
+      of discharge with pertinent clinical details. To evaluate virtual continuity, the
+      investigators will examine the frequency of discharge medication errors in complex medical
+      patients using a pre-post study design of virtual continuity compared to usual communication.
+      Medication errors will be ascertained using accepted methods. The investigators will also
+      investigate differences in rehospitalization, post discharge emergency department visit and
+      PCP follow up rates. The IT cost of implementing and maintaining the virtual continuity
+      intervention will also be assessed. Virtual continuity will allow PCPs to participate more
+      directly in the care of their hospitalized patients. Improved communication could lead to
+      higher-quality patient care and greater patient care safety for hospitalized patients with
+      complex medical problems.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2010</start_date>
+  <completion_date type="Actual">January 2013</completion_date>
+  <primary_completion_date type="Actual">January 2013</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Medication Errors at Hospital Discharge</measure>
+    <time_frame>Approximately 1-30 days</time_frame>
+    <description>Medication name, dose, and frequency of administration for patient pre-admission medications will be recorded. Medications received during the hospitalization and discharge medications will be obtained by medical record review following hospital discharge. Pre-admission medications will be compared to discharge medications and differences will be considered discharge medication variances. Two trained pharmacists will independently review medication variances to determine clinical indications or medication errors.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Patient PCP Visits, Emergency Room Visits and Rehospitalizations Within 30 Days Post-discharge.</measure>
+    <time_frame>Within 30 post-discharge from hospital</time_frame>
+    <description>Details regarding patient PCP follow-up office appointments, ER visits and rehospitalizations occuring within 30 days post-discharge will be collected from the EMR.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">835</enrollment>
+  <condition>Automated Communication Tools</condition>
+  <condition>Complex Medical Patients</condition>
+  <arm_group>
+    <arm_group_label>(Usual) MedTrak system of PCP notification</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>MedTrak, the information system used by the University of Pittsburgh Medical Center (UPMC), currently notifies PCPs when patients are admitted and discharged from the hospital.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Automated communication tools</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>An enhanced version of MedTrak (the present system of PCP notification). Electronic medical record links will be developed and used to allow automated communication with the PCP.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Automated communication tools</intervention_name>
+    <description>Automated communication tools will include:
+PCP notification of patient admission and location
+Data on medications begun on admission
+Automated alerts on changes in patient status and location while the patient is hospitalized
+Links to the EMR and to hospital physician contact information on all email alerts
+Real-time delivery of discharge information (medications, instructions, and follow-up) to the PCP
+Automatic reporting to PCPs of test results pending at discharge
+Electronic delivery of final discharge summaries</description>
+    <arm_group_label>Automated communication tools</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Are admitted to UPMC Presbyterian General Medicine, Geriatrics, Cardiology, or Surgery
+             inpatient services;
+
+          -  Are 18 years of age or older;
+
+          -  Are currently receiving 5 or more medications;
+
+          -  Have 2 or more comorbid conditions present, defined using the Elixhauser comorbidity
+             system (Med Care 1998;36:8-27 and Med Care. 2005 Nov; 43(11): 1130-9 ). These
+             comorbidities are: congestive heart failure, cardiac arrhythmias, valvular disease,
+             pulmonary circulation disorders, peripheral vascular disorders, hypertension,
+             paralysis, other neurologic disorders, chronic pulmonary disease, diabetes
+             uncomplicated, diabetes complicated, hypothyroidism, renal failure, liver disease,
+             peptic ulcer disease excluding bleeding, AIDS/HIV disease, lymphoma, metastatic
+             cancer, solid tumor without metastasis, rheumatoid arthritis/collagen vascular
+             diseases, coagulopathy, obesity, weight loss, fluid and electrolyte disorders, blood
+             loss anemia, deficiency anemias, alcohol abuse, drug abuse, psychoses, and depression
+
+          -  Have a Primary Care Physician who has outpatient data included on EPIC electronic
+             health record.
+
+        Exclusion Criteria:
+
+          -  Are admitted to critical care units;
+
+          -  Are admitted from skilled nursing facilities;
+
+          -  Have dementia;
+
+          -  Were previously enrolled in the study
+
+          -  Are organ transplant recipients
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kenneth J Smith, MD, MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pittsburgh Medical Center, University of Pittsburgh</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>UPMC Presbyterian Hospital</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15213-2582</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Halasyamani L, Kripalani S, Coleman E, Schnipper J, van Walraven C, Nagamine J, Torcson P, Bookwalter T, Budnitz T, Manning D. Transition of care for hospitalized elderly patients--development of a discharge checklist for hospitalists. J Hosp Med. 2006 Nov;1(6):354-60. Review.</citation>
+    <PMID>17219528</PMID>
+  </reference>
+  <reference>
+    <citation>Kripalani S, Jackson AT, Schnipper JL, Coleman EA. Promoting effective transitions of care at hospital discharge: a review of key issues for hospitalists. J Hosp Med. 2007 Sep;2(5):314-23. Review.</citation>
+    <PMID>17935242</PMID>
+  </reference>
+  <reference>
+    <citation>Kripalani S, LeFevre F, Phillips CO, Williams MV, Basaviah P, Baker DW. Deficits in communication and information transfer between hospital-based and primary care physicians: implications for patient safety and continuity of care. JAMA. 2007 Feb 28;297(8):831-41. Review.</citation>
+    <PMID>17327525</PMID>
+  </reference>
+  <reference>
+    <citation>Coleman EA, Boult C; American Geriatrics Society Health Care Systems Committee. Improving the quality of transitional care for persons with complex care needs. J Am Geriatr Soc. 2003 Apr;51(4):556-7.</citation>
+    <PMID>12657079</PMID>
+  </reference>
+  <reference>
+    <citation>Coleman EA, Mahoney E, Parry C. Assessing the quality of preparation for posthospital care from the patient's perspective: the care transitions measure. Med Care. 2005 Mar;43(3):246-55.</citation>
+    <PMID>15725981</PMID>
+  </reference>
+  <verification_date>March 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 15, 2011</study_first_submitted>
+  <study_first_submitted_qc>July 18, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 19, 2011</study_first_posted>
+  <results_first_submitted>March 12, 2015</results_first_submitted>
+  <results_first_submitted_qc>March 12, 2015</results_first_submitted_qc>
+  <results_first_posted type="Estimate">March 25, 2015</results_first_posted>
+  <last_update_submitted>March 27, 2015</last_update_submitted>
+  <last_update_submitted_qc>March 27, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 16, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Automated Communication Tools</keyword>
+  <keyword>Medication errors</keyword>
+  <keyword>PCP communication</keyword>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>(Usual) MedTrak System of PCP Notification</title>
+          <description>MedTrak, the information system used by the University of Pittsburgh Medical Center (UPMC), currently notifies PCPs when patients are admitted and discharged from the hospital.</description>
+        </group>
+        <group group_id="P2">
+          <title>Automated Communication Tools</title>
+          <description>An enhanced version of MedTrak (the present system of PCP notification). Electronic medical record links will be developed and used to allow automated communication with the PCP.
+Automated communication tools will include:
+PCP notification of patient admission and location
+Data on medications begun on admission
+Automated alerts on changes in patient status and location while the patient is hospitalized
+Links to the EMR and to hospital physician contact information on all email alerts
+Real-time delivery of discharge information (medications, instructions, and follow-up) to the PCP
+Automatic reporting to PCPs of test results pending at discharge
+Electronic delivery of final discharge summaries</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="443"/>
+                <participants group_id="P2" count="392"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="317">Primary analysis, remaining patients included in a sensitivity analysis</participants>
+                <participants group_id="P2" count="243">Primary analysis, remaining patients included in a sensitivity analysis</participants>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="126"/>
+                <participants group_id="P2" count="149"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Reviewed by only 1 pharmacist</title>
+              <participants_list>
+                <participants group_id="P1" count="126"/>
+                <participants group_id="P2" count="149"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Hospitalized medical patients with ≥2 comorbidities and ≥5 chronic medications, at a single center</population>
+      <group_list>
+        <group group_id="B1">
+          <title>(Usual) MedTrak System of PCP Notification</title>
+          <description>MedTrak, the information system used by the University of Pittsburgh Medical Center (UPMC), currently notifies PCPs when patients are admitted and discharged from the hospital.</description>
+        </group>
+        <group group_id="B2">
+          <title>Automated Communication Tools</title>
+          <description>An enhanced version of MedTrak (the present system of PCP notification). Electronic medical record links will be developed and used to allow automated communication with the PCP.
+Automated communication tools will include:
+PCP notification of patient admission and location
+Data on medications begun on admission
+Automated alerts on changes in patient status and location while the patient is hospitalized
+Links to the EMR and to hospital physician contact information on all email alerts
+Real-time delivery of discharge information (medications, instructions, and follow-up) to the PCP
+Automatic reporting to PCPs of test results pending at discharge
+Electronic delivery of final discharge summaries</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="317"/>
+            <count group_id="B2" value="243"/>
+            <count group_id="B3" value="560"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="63" lower_limit="53" upper_limit="76"/>
+                    <measurement group_id="B2" value="63" lower_limit="54" upper_limit="73"/>
+                    <measurement group_id="B3" value="63" lower_limit="54" upper_limit="75"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="178"/>
+                    <measurement group_id="B2" value="150"/>
+                    <measurement group_id="B3" value="328"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="139"/>
+                    <measurement group_id="B2" value="93"/>
+                    <measurement group_id="B3" value="232"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Hispanic or Latino</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Not Hispanic or Latino</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="316"/>
+                    <measurement group_id="B2" value="242"/>
+                    <measurement group_id="B3" value="558"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unknown or Not Reported</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>American Indian or Alaska Native</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Asian</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Native Hawaiian or Other Pacific Islander</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Black or African American</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="96"/>
+                    <measurement group_id="B2" value="86"/>
+                    <measurement group_id="B3" value="182"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>White</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="216"/>
+                    <measurement group_id="B2" value="151"/>
+                    <measurement group_id="B3" value="367"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>More than one race</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unknown or Not Reported</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="317"/>
+                    <measurement group_id="B2" value="243"/>
+                    <measurement group_id="B3" value="560"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Medication Errors at Hospital Discharge</title>
+        <description>Medication name, dose, and frequency of administration for patient pre-admission medications will be recorded. Medications received during the hospitalization and discharge medications will be obtained by medical record review following hospital discharge. Pre-admission medications will be compared to discharge medications and differences will be considered discharge medication variances. Two trained pharmacists will independently review medication variances to determine clinical indications or medication errors.</description>
+        <time_frame>Approximately 1-30 days</time_frame>
+        <population>Hospitalized medical patients with ≥2 comorbidities and ≥5 chronic medications, at a single center</population>
+        <group_list>
+          <group group_id="O1">
+            <title>(Usual) MedTrak System of PCP Notification</title>
+            <description>MedTrak, the information system used by the University of Pittsburgh Medical Center (UPMC), currently notifies PCPs when patients are admitted and discharged from the hospital.</description>
+          </group>
+          <group group_id="O2">
+            <title>Automated Communication Tools</title>
+            <description>An enhanced version of MedTrak (the present system of PCP notification). Electronic medical record links will be developed and used to allow automated communication with the PCP.
+Automated communication tools will include:
+PCP notification of patient admission and location
+Data on medications begun on admission
+Automated alerts on changes in patient status and location while the patient is hospitalized
+Links to the EMR and to hospital physician contact information on all email alerts
+Real-time delivery of discharge information (medications, instructions, and follow-up) to the PCP
+Automatic reporting to PCPs of test results pending at discharge
+Electronic delivery of final discharge summaries</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Medication Errors at Hospital Discharge</title>
+          <description>Medication name, dose, and frequency of administration for patient pre-admission medications will be recorded. Medications received during the hospitalization and discharge medications will be obtained by medical record review following hospital discharge. Pre-admission medications will be compared to discharge medications and differences will be considered discharge medication variances. Two trained pharmacists will independently review medication variances to determine clinical indications or medication errors.</description>
+          <population>Hospitalized medical patients with ≥2 comorbidities and ≥5 chronic medications, at a single center</population>
+          <units>Errors</units>
+          <param>Number</param>
+          <units_analyzed>Participants</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="317"/>
+                <count group_id="O2" value="243"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>Number of medications</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="3490"/>
+                <count group_id="O2" value="2823"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="645"/>
+                    <measurement group_id="O2" value="359"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Patient PCP Visits, Emergency Room Visits and Rehospitalizations Within 30 Days Post-discharge.</title>
+        <description>Details regarding patient PCP follow-up office appointments, ER visits and rehospitalizations occuring within 30 days post-discharge will be collected from the EMR.</description>
+        <time_frame>Within 30 post-discharge from hospital</time_frame>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>(Usual) MedTrak System of PCP Notification</title>
+          <description>MedTrak, the information system used by the University of Pittsburgh Medical Center (UPMC), currently notifies PCPs when patients are admitted and discharged from the hospital.</description>
+        </group>
+        <group group_id="E2">
+          <title>Automated Communication Tools</title>
+          <description>An enhanced version of MedTrak (the present system of PCP notification). Electronic medical record links will be developed and used to allow automated communication with the PCP.
+Automated communication tools will include:
+PCP notification of patient admission and location
+Data on medications begun on admission
+Automated alerts on changes in patient status and location while the patient is hospitalized
+Links to the EMR and to hospital physician contact information on all email alerts
+Real-time delivery of discharge information (medications, instructions, and follow-up) to the PCP
+Automatic reporting to PCPs of test results pending at discharge
+Electronic delivery of final discharge summaries</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="317"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="243"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="317"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="243"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Kenneth J Smith, MD, MS</name_or_title>
+      <organization>University of Pittsburgh</organization>
+      <phone>4126474794</phone>
+      <email>smithkj2@upmc.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

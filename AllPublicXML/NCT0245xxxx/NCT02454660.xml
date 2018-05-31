@@ -1,0 +1,321 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02454660</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1R21HS022336-01A1</org_study_id>
+    <nct_id>NCT02454660</nct_id>
+  </id_info>
+  <brief_title>Improving Adherence and Outcomes by Artificial Intelligence-Adapted Text Messages</brief_title>
+  <acronym>AIM@BP</acronym>
+  <official_title>Improving Adherence and Outcomes by Artificial Intelligence-Adapted Text Messages</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Michigan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Agency for Healthcare Research and Quality (AHRQ)</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Michigan</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Uncontrolled hypertension is a major cause of morbidity and mortality and many patients fail
+      to take their antihypertensive medication as prescribed. The investigators propose to use
+      artificial intelligence (AI) to allow short message service (SMS or text messages)
+      interventions to adapt to patients' adherence needs and substantially improve medication
+      taking. The aims of the study are to: (1) develop AI methods for adaptive decision-making in
+      human-centered environments and demonstrate the feasibility of the resulting AI-enhanced SMS
+      medication adherence intervention, (2) demonstrate that the intervention can &quot;learn&quot; by
+      adapting the SMS message stream according to patients' medication taking over time, and (3)
+      examine potential intervention impact as measured by improvements in medication adherence and
+      systolic blood pressures. The investigators will recruit 100 patients with uncontrolled
+      hypertension and antihypertensive medication non-adherence. Adherence and other covariates
+      will be measured via surveys at baseline, 3- and 6 months; blood pressures will be measured
+      at baseline and 6 months. Participants will be given an electronic pill-bottle adherence
+      monitor. Participants will receive SMS messages designed to motivate antihypertensive
+      medication adherence. Message content and frequency will adapt automatically using AI
+      algorithms designed to automatically optimize expected pill bottle opening. For Aim 1, the
+      first 25 patients will be enrolled to develop and test alternative RL algorithms and
+      fine-tune the system parameters. For Aim 2, the investigators will examine changes in the
+      probability distribution over message-types and compare that distribution with patients'
+      reasons for non-adherence reported at baseline. For Aim 3, the investigators will examine
+      changes in self-reported medication non-adherence and blood pressure and
+      automatically-reported pill bottle openings. This pilot study will establish the feasibility
+      and potential impact of this novel approach to mobile health messaging for self-management
+      support. The results will be used to support an R01 application for a larger and more
+      definitive trial of intervention impacts.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Self-management of chronic conditions involves complex behaviors, and patients vary in their
+      adherence to these behaviors. The focus of this proposal is medication adherence because
+      patients' failure to take their medications as prescribed is a major cause of excess
+      morbidity and mortality and increased health care costs. Studies suggest that 33-50% of
+      patients do not take their medications properly, contributing to nearly 100,000 premature
+      deaths each year and $290 billion in health care costs. Adherence to antihypertensive
+      medications is of particular importance in its own right, and hypertension can serve as an
+      important tracer condition to better understand and improve medication adherence more
+      generally. Uncontrolled hypertension is a major cause of stroke, coronary heart disease,
+      heart failure and mortality, and medication non-adherence is a major cause of uncontrolled
+      hypertension. For example, in a one-year study of ~5,000 hypertensive patients, most patients
+      took their medications only intermittently with half of patients eventually discontinuing
+      their medications against medical advise.
+
+      Improving medication adherence requires addressing multiple challenges because patients
+      typically have a variety of reasons for not taking their medication as prescribed, such as
+      beliefs about their disease and its treatment, organizational challenges, and cost barriers.
+      Moreover, as patients' regimens, health status, and social context change over time,
+      adherence support interventions need to adapt, but most services lack the flexibility to do
+      so.
+
+      Mobile health (mHealth) services such as patient text messaging or SMS have shown some
+      promise in improving medication adherence. However, since almost all mHealth services are
+      based on simplistic, deterministic protocols, these interventions lack the capacity to meet
+      patients' complex changing needs. As a consequence, these rudimentary systems have
+      demonstrated only modest effects that tend to decrease over time. The investigators propose
+      to apply artificial intelligence (AI) methods, specifically Reinforcement Learning (one type
+      of AI), to develop a model medication adherence system that can automatically adapt SMS
+      communication to improve individual medication taking.
+
+      The proposed project is the result of a new multidisciplinary collaboration between UM
+      experts from the College of Pharmacy, College of Engineering, and School of Medicine. Our
+      long-term goal is to improve health outcomes using artificial intelligence (AI) enhanced
+      mobile health tools. The objective in the proposed pilot study is to develop a Reinforcement
+      Learning-based mHealth program focused on medication adherence among patients with poorly
+      controlled hypertension. Our central hypotheses are that a SMS system that uses Reinforcement
+      Learning (RL) will: be acceptable to patients, adapt to hypertension patients' unique
+      adherence-related needs and preferences and changes in these needs over time, and improve
+      medication adherence and blood pressure control. The specific aims are:
+
+        1. Develop RL methods for adaptive decision-making in human-centered environments and
+           demonstrate the feasibility of the resulting RL-based adaptive SMS medication adherence
+           intervention,
+
+        2. Demonstrate &quot;learning&quot; by the RL-base adaptive system using data showing adaptation of
+           the SMS message stream according to variation across patients and over time in the
+           reasons for non-adherence, and
+
+        3. Examine the potential efficacy of the RL-based adaptive SMS intervention with respect to
+           improvements in medication adherence and systolic blood pressure.
+
+      The results of this pilot project will include a novel AI/RL technology and evidence
+      regarding its real-world use based on experience with a sample of adults with poorly
+      controlled hypertension. These results will be used to support an R01 application for a
+      larger and more definitive study of the intervention's impact on patients' health and
+      long-term adherence behaviors. Over the longer term, this AI-enhanced mHealth self-management
+      support infrastructure and unprecedented collaboration between investigators in Pharmacy,
+      Medicine, and Computer Science will lay the foundation for a larger program of NIH-funded
+      research using similar AI approaches to addressing behavior change challenges in a large
+      number of health and healthcare problems.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 2015</start_date>
+  <completion_date type="Actual">November 4, 2016</completion_date>
+  <primary_completion_date type="Actual">November 4, 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Medication Adherence (Proportion Days Covered (PDC)) assessed by administrative insurance records</measure>
+    <time_frame>2 years</time_frame>
+    <description>A measure of Proportion Days Covered (PDC) and is assessed administrative insurance records</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Self-reported medication adherence assessed via a questionnaire</measure>
+    <time_frame>baseline, 3 months and 9 months</time_frame>
+    <description>Medication adherence is collected at these time points and assessed via a questionnaire.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pill bottle openings (how often medication was taken) assessed by records from pill bottle caps (MEMS readers)</measure>
+    <time_frame>9 months</time_frame>
+    <description>proxy measure of how often medication was taken, assessed by records from pill bottle caps (MEMS readers)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Medication Beliefs assessed via a questionnaire</measure>
+    <time_frame>baseline, 3 months and 9 months</time_frame>
+    <description>A measurement of the patients beliefs about the medication they take will be collected at these time points and assessed via a questionnaire.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">49</enrollment>
+  <condition>Medication Non-adherence</condition>
+  <arm_group>
+    <arm_group_label>SMS (Text messaging)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This group will receive text messages during their entire enrollment period in the study.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No SMS (No text messages)</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>This group will not receive text messages during their entire enrollment period in the study.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>SMS (Text messages)</intervention_name>
+    <description>Up to 1 text message a day. The artificial agent will determine whether to send a message each day. If it sends a message, it will also determine which of five message types to send.</description>
+    <arm_group_label>SMS (Text messaging)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patient must have Priority Health Care Health Insurance Coverage
+
+          -  Patient must have PDC of &lt; 0.5 for anti-hypertensive medications
+
+        Exclusion Criteria:
+
+          -  No hypertension medicine currently taken
+
+          -  Patient doesn't text message (no cell phone) in an average week
+
+          -  No access to the internet
+
+          -  Patient has heart failure which makes it difficult to catch breath and move around
+
+          -  Patient uses artificial oxygen to breathe
+
+          -  Patient is currently under treatment for cancer
+
+          -  Patient currently has kidney disease that requires dialysis
+
+          -  Patient self reports a mental health diagnosis (from a health professional)
+
+          -  Patient reports having schizophrenia
+
+          -  Patient reports currently being treated bipolar disorder or manic-depressive illness
+             or schizophrenia
+
+          -  Patients reports ever been diagnosed with dementia or Alzheimer's disease
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Karen Farris, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Univerity of Michigan, College of Pharmacy</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Michigan College of Pharmacy</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Spectrum Health</name>
+      <address>
+        <city>Grand Rapids</city>
+        <state>Michigan</state>
+        <zip>49503</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Lawn S, Schoo A. Supporting self-management of chronic health conditions: common approaches. Patient Educ Couns. 2010 Aug;80(2):205-11. doi: 10.1016/j.pec.2009.10.006. Review.</citation>
+    <PMID>19931372</PMID>
+  </reference>
+  <reference>
+    <citation>Coleman MT, Newton KS. Supporting self-management in patients with chronic illness. Am Fam Physician. 2005 Oct 15;72(8):1503-10. Review.</citation>
+    <PMID>16273817</PMID>
+  </reference>
+  <reference>
+    <citation>Osterberg L, Blaschke T. Adherence to medication. N Engl J Med. 2005 Aug 4;353(5):487-97. Review.</citation>
+    <PMID>16079372</PMID>
+  </reference>
+  <reference>
+    <citation>NEHI. Thinking outside the pillbox: a system-wide approach to improving patient medication adherence for chronic disease. http://www.nehi.net/publications/44/thinking_outside_the_pillbox_a_systemwide_approach_to_improving_patient_medication_adherence_for_chronic_disease, Accessed 09 12 12</citation>
+  </reference>
+  <reference>
+    <citation>Hill MN, Miller NH, Degeest S; American Society of Hypertension Writing Group, Materson BJ, Black HR, Izzo JL Jr, Oparil S, Weber MA. Adherence and persistence with taking medication to control high blood pressure. J Am Soc Hypertens. 2011 Jan-Feb;5(1):56-63. doi: 10.1016/j.jash.2011.01.001. Review.</citation>
+    <PMID>21320699</PMID>
+  </reference>
+  <reference>
+    <citation>Munger MA, Van Tassell BW, LaFleur J. Medication nonadherence: an unrecognized cardiovascular risk factor. MedGenMed. 2007 Sep 19;9(3):58. Review.</citation>
+    <PMID>18092064</PMID>
+  </reference>
+  <reference>
+    <citation>Vrijens B, Vincze G, Kristanto P, Urquhart J, Burnier M. Adherence to prescribed antihypertensive drug treatments: longitudinal study of electronically compiled dosing histories. BMJ. 2008 May 17;336(7653):1114-7. doi: 10.1136/bmj.39553.670231.25. Epub 2008 May 14.</citation>
+    <PMID>18480115</PMID>
+  </reference>
+  <reference>
+    <citation>Haynes RB, Ackloo E, Sahota N, McDonald HP, Yao X. Interventions for enhancing medication adherence. Cochrane Database Syst Rev. 2008 Apr 16;(2):CD000011. doi: 10.1002/14651858.CD000011.pub3. Review. Update in: Cochrane Database Syst Rev. 2014;11:CD000011.</citation>
+    <PMID>18425859</PMID>
+  </reference>
+  <reference>
+    <citation>Marx G, Witte N, Himmel W, Kühnel S, Simmenroth-Nayda A, Koschack J. Accepting the unacceptable: medication adherence and different types of action patterns among patients with high blood pressure. Patient Educ Couns. 2011 Dec;85(3):468-74. doi: 10.1016/j.pec.2011.04.011. Epub 2011 May 19.</citation>
+    <PMID>21600724</PMID>
+  </reference>
+  <reference>
+    <citation>Sabate E - World Health Organization. Adherence to long-term therapies: evidence for action. 2003. http://apps.who.int/medicinedocs/en/d/Js4883e/, Accessed 09 12 12</citation>
+  </reference>
+  <reference>
+    <citation>Elliott RA, Shinogle JA, Peele P, Bhosle M, Hughes DA. Understanding medication compliance and persistence from an economics perspective. Value Health. 2008 Jul-Aug;11(4):600-10. doi: 10.1111/j.1524-4733.2007.00304.x. Epub 2008 Jan 8.</citation>
+    <PMID>18194403</PMID>
+  </reference>
+  <reference>
+    <citation>Vervloet M, Linn AJ, van Weert JC, de Bakker DH, Bouvy ML, van Dijk L. The effectiveness of interventions using electronic reminders to improve adherence to chronic medication: a systematic review of the literature. J Am Med Inform Assoc. 2012 Sep-Oct;19(5):696-704. doi: 10.1136/amiajnl-2011-000748. Epub 2012 Apr 25. Review.</citation>
+    <PMID>22534082</PMID>
+  </reference>
+  <verification_date>March 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 12, 2015</study_first_submitted>
+  <study_first_submitted_qc>May 26, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 27, 2015</study_first_posted>
+  <last_update_submitted>April 7, 2017</last_update_submitted>
+  <last_update_submitted_qc>April 7, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 11, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Michigan</investigator_affiliation>
+    <investigator_full_name>Karen Farris, PhD.</investigator_full_name>
+    <investigator_title>Charles R. Walgreen Professor of Pharmacy Administration</investigator_title>
+  </responsible_party>
+  <keyword>adherence</keyword>
+  <keyword>hypertension</keyword>
+  <keyword>mobile technology</keyword>
+  <keyword>intervention</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

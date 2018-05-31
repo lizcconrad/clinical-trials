@@ -1,0 +1,310 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02828774</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2015050</org_study_id>
+    <nct_id>NCT02828774</nct_id>
+  </id_info>
+  <brief_title>Peptide-drug-conjugates for Personalized, Targeted Therapy of Chronic Lymphocytic Leukemia</brief_title>
+  <official_title>Peptide-drug-conjugates for Personalized, Targeted Therapy of Chronic Lymphocytic Leukemia</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assuta Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Assuta Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Using phage libraries extensively pre-absorbed on a series of normal cell types, we will
+      isolate phage specifically internalized by B-CLL cells from newly diagnosed and untreated CLL
+      patients. Peptide sequences are then derived by Next Generation Sequencing (NGS). NGS-based
+      studies are contributing to an improved understanding of cancer heterogeneity in order to
+      tailor treatment to patients based on the individual makeup of their tumor. However the use
+      of NGS to derive phage displayed peptide sequences is so far rare (22). Traditionally, after
+      exposure to a target and recovery by elution, the phage clones are isolated by titration on
+      bacterial lawns. It is technically demanding and labour intensive to select and analyze more
+      than about 15 of the sometimes thousands clones recovered. Therefore information on other
+      potentially important sequences is missed. NGS allows sequencing of the entire recovered
+      phage pool and provides far more detailed bioinformatic analyses of peptide sequences or
+      motifs. RNA from the CLL cells is used for RNA-seq expression sequencing. The wide
+      application of NGS in combination with bioinformatics tools has begun to revolutionize cancer
+      research, diagnosis and therapy. The peptide and RNA sequencing data will afford
+      bioinformatic testing of correlations of exome expression and clinical parameters with the
+      pattern of peptide sequences internalized by CLL cells of different patients. This
+      information is crucial to answering questions 1, 2 and 3 discussed on page 1 above. The
+      results of this analysis will probably not allow identification of specific receptors
+      targeted by the peptides. The aim at this stage of the research is to identify candidate
+      targeting peptides. Once identified, further research will be needed to identify the
+      receptors to which they bind. Regarding question 4, there is currently very little published
+      information on the therapeutic potential of PDCs in leukemia. Using two peptides we have
+      isolated that target murine A20 leukemic cells, we will prepare multi-drug PDCs (using
+      technology we have developed) and in an animal model, test their ability to enhance the
+      survival and quality of life of CLL bearing animals.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Methodology A: CLL specific peptides: (Specific aim 1) Whole blood samples are received from
+      healthy volunteers and newly diagnosed and untreated CLL patients according to our Helsinki
+      permit no. 0432-13-RMC. (Rabin Medical Center) Acquisition of samples at follow up and from
+      an additional 80 patients will be covered by additional Helsinki submissions now underway.
+      Lymphocytes are separated using Ficoll and the B cells isolated using a B-cell isolation kit.
+      The B-cells from the healthy volunteers and an aliquot of those isolated cells from each
+      patient are frozen for later use (see D: below). The remaining patient cells are divided into
+      two fractions. One is used for RNA extraction. The other is exposed to an &quot;Absorbed&quot; phage
+      library pre-absorbed on normal cells. After incubation, cells are washed and phage bound to
+      the cell membrane are eluted and recovered. Cells are then lysed and the lysate retained.
+      Phage in the eluate and lysate (membrane-bound and internalized respectively) are amplified
+      separately in E.coli. The amplified phage are isolated and DNA prepared for NGS. Sequencing
+      is carried out in an external core facility (The Technion Genome Center).
+
+      . B: Bioinformatic analyses of peptide sequences (Specific aim 1) I) Sequencing of peptides:
+      Sequence reads are obtained from phage DNA libraries generated and analyzed with
+      high-throughput sequencing (Illumina HiSeq system). Quality control checks are performed
+      using FastQC tool. The reads are processed to trim adaptors and remove the consensus
+      sequences from either side using the Cutadapt software (23). The remaining fragment tags
+      contain the peptides' DNA sequence and are expected to be 21 nucleotides in length. Next, the
+      BioString package from the Bioconductor framework are used to translate these nucleotide
+      sequences, and the number of occurrences of each peptide sequence is calculated to find the
+      most frequent peptides. Following normalization to library size, peptide sequence counts from
+      different patient libraries are compared to find common sequences. Sequences from the
+      membrane-bound pool fraction are subtracted from the internalized pool fraction so as to
+      remove membrane-bound clones that may not have been successfully eluted off the CLL cell. The
+      sequences remaining in the internalized pool serve as candidates for peptide-conjugate
+      therapy. A univariate logistic regression approach will then be used to test possible
+      associations of peptide counts with clinical and genetic findings. When clinical parameters
+      are treated as continuous variables, linear regression will be implemented. Candidate
+      peptides will be queried against the PepBank database (24) in order to check if they are
+      known to be related to cancer or other diseases and conditions such as apoptosis or
+      angiogenesis. Finally, a bioinformatic pipeline script will be developed automating the above
+      bioinformatics analysis steps.
+
+      II) RNA-seq to detect gene expression patterns and fusion genes:
+
+      The main aim of the RNA-seq analysis is to detect specific gene expression patterns which can
+      be correlated with peptide sequences and clinical parameters. These expression patterns will
+      give clues to cell surface receptor expression and intracellular pathway activity. Patients
+      will be divided based on the peptide sequences internalized by B-CLL cells, and a statistical
+      test will be performed in order to detect differentially expressed genes. Pathway analysis
+      will be performed in order to infer functional changes which may shade a light on the
+      possible role of the peptide receptors in the cell signaling cascade. Trim galore software
+      will be used for adapter trimming, and for removing low quality bases from the ends of reads.
+      Trimmed reads will be mapped to the human genome (hg38) using TopHat2 software. The number of
+      reads overlaping each of the annotated genes will be counted using the HT-seq python package.
+      DESeq within the Bioconductor framework will be used for normalization and differential
+      expression analysis using variants of Fisher's exact test. The Generally Applicable Gene-set
+      Enrichment (GAGE) method will be applied to detect up and down-regulated pathways. RNA-seq is
+      also used to detect fusion gene events in the patient's cancer cells and can be used as an
+      independent validation method to test the sensitivity of the peptide-dye conjugate used as
+      for disease monitoring. For this aim, three different tools TopHat-fusion, defuse and
+      ChimeraScan will be used to identify fusion transcripts. Several filtration steps will be
+      applied in order to remove low-quality candidates as described before, and only those
+      candidates detected by all the three tools will be chosen for RT-PCR validation.
+
+      C: Syntheses of Peptides and conjugates (Specific aims 1,2,3) Peptides will be synthesized
+      using solid-phase chemistry. In the first stage of the project, the two peptides specific for
+      A20 mouse leukemic cells already identified will be synthesized, namely HIS SER THR PRO SER
+      SER PRO (Peptide 1) and ASP SER SER LEU PHE ALA LEU (Peptide 2). In later stages (see below),
+      selected human CLL specific peptides will be synthesized as their sequences become available.
+      Only peptides will multiple repeat reads (&gt;5) (see B above) will be selected (maximum of 3
+      per patient) as these represent phage clones with greater propensity to induce uptake into
+      cells. Peptides will be synthesized both as fluorescent dye- and drug-conjugates based on our
+      previous work with targeted multi-drug conjugates (21). We will employ drugs with differing
+      mechanisms of action, such as the nitrogen mustard Chlorambucil used to treat elderly CLL
+      patients, and the microtubule inhibitor Combretastatin 4A, known to induce apoptosis in CLL
+      cells (25). Purity and composition of the products will be verified by HPLC and LC/MS.
+      Syntheses will be carried out by an external supplier.
+
+      D: In vitro validation of peptide specificity and PDC activity: (Specific aims 1, 2, 3)
+      Specificity of peptides: The specificity of targeting peptides will be demonstrated by
+      incubating peptide-dye conjugates with target and controls cells. For the mouse CLL system,
+      A20 cells will be used as target cells and normal mouse splenic lymphocytes and primary
+      cultures of mouse skin and epithelial cells will be used as controls cells. For the human CLL
+      system, patient CLL cells and normal human lymphocytes and HUVEC cells will be used as target
+      and controls cells respectively. Cells will be incubated with FITC-labeled peptides at both
+      4oC and 37oC, washed and analyzed for binding and internalization respectively. Binding will
+      be evaluated by flow cytometry and internalization by confocal microscopy.
+
+      Cytotoxicity of PDCs: Target and control cells will be incubated for 24 and 48 hrs with
+      increasing concentrations (0-50uM drug equivalents) of free drug or PDCs. Percent Growth
+      Inhibition will be assessed by the XTT assay. Cytotoxic A20 specific PDCs will then be
+      evaluated in vivo (see E: below).
+
+      Cell culture systems: The A20 cell line is grown and maintained in FBS supplemented RPMI
+      culture medium. Normal primary cultures are maintained with selective media. On the other
+      hand, the survival of human CLL cells in culture is dependent on several unique
+      microenvironmental factors, including antigen stimulation of the B-cell BCR, T cell help
+      through the CD40-CD40L interaction, stimulation from the bone marrow stromal cell-derived
+      CXCL12 chemokine and stimulation of Toll-Like Receptor 9. These conditions will be mimicked
+      in vitro (26) by addition to the culture medium of anti-IgM (to crosslink the BCRs),
+      co-culture with fibroblasts expressing CD40L, addition of recombinant CXCL12 and CpG
+      dinucleotides respectively. These conditions will be used to test the specificity and
+      efficacy of human PDCs against cryopreserved samples of patient CLL cells and normal human
+      lymphocytes (controls).
+
+      E: Animal studies using A20 mouse model of CLL (Specific aim 3) While several antibody-drug
+      conjugates for the treatment of CLL have been used or are being tested (16), there is little
+      published information as to the efficacy of PDCs for this disease. Therefore we aim to study
+      the behavior of our A20 specific PDCs in an animal model of CLL, according to protocols
+      approved by the Ariel University Institutional Animal Ethics Committee, permit no.
+      IL-47-08-13. To validate the calibration of CLL development, A20 cells will be injected
+      intravenously into Balb/c mice and the development of CLL symptoms monitored. Usually this
+      takes between 40-50 days.
+
+      Study A): At this point, we know little about the most effective treatment schedule with
+      PDCs. For this reason, and based on published literature, we will first test the systemic
+      tolerance of the animals to the drugs in the PDCs by injecting groups of non-tumor bearing
+      mice intraperitoneally with 1, 7.5 or 15 mg/Kg of one Chlorambucil and Combretastatin 4A
+      containing PDC every third days for 3 weeks. Animals will be monitored for systemic morbidity
+      and survival. On the basis of these results, an initial treatment schedule will be selected
+      to compare two concentrations for each of the two PDCs. Animals showing initial signs of CLL
+      will be treated and followed for survival and development of CLL symptoms for at least and
+      additional 70 days.
+
+      Study B: Using the Study A results, the most effective PDC will be studied further. The PK of
+      the drug conjugate will be analyzed by administering it in 5 drug concentrations, including
+      that used for Study A. Blood samples will be drawn from the tail vein at 0.25, 0.5, 1, 2, 5,
+      10 and 24 hrs. PDC will be extracted and analyzed by LC/MS for content and integrity. Drug
+      concentrations will be analyzed by HPLC and used to calculate standard PK parameters [Cmax;
+      TCmax; T1/2]. Based on these experiments, an additional treatment protocol will be devised
+      aimed at maintaining a maximum blood PDC concentration over the treatment period. The
+      protocol will be tested on an additional group of animals. After the treatment period,
+      animals will be followed for survival and development of CLL symptoms for at least and
+      additional 70 days.
+
+      F: Detection of CLL cells in animal and patient whole blood. (Specific aims 1 and 2) The aim
+      of these experiments is to assess the potential of CLL-specific peptide-dye conjugates to
+      detect CLL cells in blood samples. Calibration experiments will be carried out on three
+      levels.
+
+        1. Cell doping: Cryopreserved samples of patient CLL cells will be added to either RPMI
+           culture medium or normal human blood (in three concentrations). B-cells isolated as
+           described in A above will be incubated with the appropriate Peptide-dye conjugate for
+           30mins at 37OC. Cells will be washed and analyzed for peptide binding by flow cytometry.
+           Similarly, A20 cells will be added to normal mouse blood and tested with A20 specific
+           peptide-dye conjugates.
+
+        2. Animal model: Using the animal model described above, blood samples will be taken
+           once/week during the tumor induction phase. After RBC lysis, the remaining cells will be
+           incubated with peptide-dye conjugates, washed and analysed by flow cytometry.
+           Furthermore, samples will be taken once/fortnight from animals surviving Study B and
+           analysed for Minimal residual Disease and relapse.
+
+        3. Patient follow up: Aliquots of blood samples taken during routine follow up of the CLL
+           patients will be used. Cells will be incubated with the appropriate Peptide-dye
+           conjugate for 30mins at 37OC. Cells will be washed and analyzed for peptide binding by
+           flow cytometry.
+
+      G: Statistics Cytotoxicity of PDCs and free drug will be assessed by calculating % Growth
+      Inhibition of treated versus untreated cells. Experiments will be performed in triplicate and
+      repeated thrice. In animal studies, survival will be assessed using Kaplan-Meier curves.
+      Additional statistics related to the bioinformatic analyses are described in detail above in
+      section 1.7-B.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date>August 2016</start_date>
+  <completion_date type="Anticipated">June 2020</completion_date>
+  <primary_completion_date type="Anticipated">June 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Cytotoxicity of PDCs and free drug will be assessed by calculating % Growth Inhibition of treated versus untreated cells.</measure>
+    <time_frame>36 months</time_frame>
+  </primary_outcome>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>CLL</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>there will be no intervention.</intervention_name>
+    <description>this study is observational, procedure are done in vitro and on animal models.</description>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      RNA will be extracted from CLL cells in the blood.
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        CLL patients
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  CLL patients intended to receive treatment in 30 days from recruitment to the study..
+
+        Exclusion Criteria:
+
+          -  CLL patient not about to receive treatment in 30 day of recruitment to the study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ofer Shpilberg, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Assuta Medical Centers</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ofer Shpilberg, MD</last_name>
+    <phone>+972-37644364</phone>
+    <email>ofers@assuta.co.il</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Noa Zifman, MSc</last_name>
+    <phone>+972-37645497</phone>
+    <email>noaz@assuta.co.il</email>
+  </overall_contact_backup>
+  <verification_date>June 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 13, 2016</study_first_submitted>
+  <study_first_submitted_qc>July 7, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 12, 2016</study_first_posted>
+  <last_update_submitted>July 7, 2016</last_update_submitted>
+  <last_update_submitted_qc>July 7, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">July 12, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Assuta Medical Center</investigator_affiliation>
+    <investigator_full_name>shpilberg ofer</investigator_full_name>
+    <investigator_title>Prof. Ofer Shpilberg</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Leukemia, Lymphoid</mesh_term>
+    <mesh_term>Leukemia, Lymphocytic, Chronic, B-Cell</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

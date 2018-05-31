@@ -1,0 +1,334 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03459456</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H41632</org_study_id>
+    <nct_id>NCT03459456</nct_id>
+  </id_info>
+  <brief_title>Measuring Automated Behavioral Observations &amp; Vocal Expressions (ABOVE)</brief_title>
+  <acronym>ABOVE</acronym>
+  <official_title>Measuring Automated Behavioral Observations &amp; Vocal Expressions (ABOVE) While Recording From the Brain</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Baylor College of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Brown University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Pittsburgh</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Baylor College of Medicine</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators propose to synchronize automated measurements of behavior - head, body, and
+      face dynamics, gaze, and vocal prosody - with simultaneous recordings of brain activity in
+      clinically relevant contexts.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Baylor College of Medicine (BCM), University of Pittsburgh (UPitt) and Brown University will
+      collaborate on this research project. BCM will be the only site that will enroll study
+      subjects and perform study assessments. UPitt and Brown will supervise data management,
+      measurement and modeling of multimodal signals and collaborate on research design and machine
+      learning.
+
+      Following initial screening, subjects will participate in one testing session lasting about 2
+      hours. The addition of these preliminary studies will allow investigators to obtain
+      information in order to differentiate and code OCD-distress versus social anxiety and
+      identify rituals related to OCD.
+
+      Research Material, Data, and Information to be collected:
+
+      Interviews, rating scales, video, audio, behavioral assessments, heart rate and EEG will be
+      obtained in the preliminary studies.
+
+      Preliminary Testing in Un-implanted Subjects: Automated Behavioral Measures of OCD-related
+      Distress (i.e., obsessions and urge to ritualize) and Overt Rituals:
+
+      The Provocation OC task (Provoc) and the Trier Social Stress Test (TSST) will be used to
+      evoke OC-related distress and anxiety unrelated to OCD (e.g., performance anxiety),
+      respectively. These tasks will be preceded by a neutral baseline (the subject may be asked to
+      describe how they traveled to the clinic to the experimenter) and a positive affect
+      induction, the Broad-Minded Affective Coping procedure (BMAC) a clinical technique that uses
+      recalled positive autobiographical memories and mental imagery to elicit positive affect.
+      Because anxiety and negative affect may have carryover effects, neutral baseline and BMAC
+      will be presented prior to the non-OCD and OCD distress inductions. In the BMAC, subjects
+      will be instructed to recall and describe a recent positive memory/experience. The order of
+      Provoc and TSST will be counterbalanced across the subjects. Simultaneously recorded measures
+      are noted in the Table attached in Section S and include: AFAR, new suite of behavioral
+      measures (shown as shaded), EEG, hand/arm movements from Apple Watch and Heart Rate.
+
+      A third provocation task will be added to elicit overt rituals (e.g., handwashing) in the
+      clinic. It will occur following the BMAC and TSST/Provoc tasks and a relaxation break during
+      which the EEG cap will be removed and the hair washed. (The investigators will not record EEG
+      during induction of rituals due to the cabling challenges and noise.)
+
+      Subjects will be asked to use a public restroom in our clinic and allowed to wash their hands
+      in a sink (outside the restroom) where their behaviors will be recorded using
+      hardware-synchronized cameras: one, to capture frontal view of the face for AFAR; and
+      another, to record full body movement for CPM. The investigators are aware of only one prior
+      study of automated coding of compulsive behavior. In that study, a computer vision approach
+      was able to discriminate subjects with OCD from healthy subjects on the basis of handwashing
+      videos in which regions of interest (ROIs) were defined for objects (e.g., soap dispenser)
+      used for handwashing. The investigators will combine this ROI paradigm with a CPM approach
+      that captures hand and body movements. Dropouts from the ritual paradigm will be replaced.
+
+      These same tasks will also be performed on up to 4 subjects that have consented to receive a
+      DBS implant on a separate protocol. Informed consent will also be collected from these
+      implanted subjects for the purpose of completing the tasks described above on this study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 2018</start_date>
+  <completion_date type="Anticipated">May 2019</completion_date>
+  <primary_completion_date type="Anticipated">February 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in brain activity</measure>
+    <time_frame>baseline to Hour 2</time_frame>
+    <description>measured before, during and after PROVOC task, Trier Social Stress Test (TSST) and exposure task</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in Heart Rate</measure>
+    <time_frame>baseline to Hour 2</time_frame>
+    <description>measured before, during and after PROVOC task, Trier Social Stress Test (TSST) and exposure task</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">27</enrollment>
+  <condition>OCD</condition>
+  <condition>Obsessive-Compulsive Disorder</condition>
+  <arm_group>
+    <arm_group_label>OCD subjects</arm_group_label>
+    <description>Subjects meeting inclusion/exclusion criteria with OCD will be exposed to the following:
+Provocation OC task (Provoc)
+Trier Social Stress Test (TSST)
+Exposure provocation task</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control subjects</arm_group_label>
+    <description>Subjects meeting inclusion/exclusion criteria without OCD (age and gender matched with OCD subjects) will be exposed to the following:
+Provocation OC task (Provoc)
+Trier Social Stress Test (TSST)
+Exposure provocation task</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Provocation OC task (Provoc)</intervention_name>
+    <description>used to evoke OC-related distress</description>
+    <arm_group_label>OCD subjects</arm_group_label>
+    <arm_group_label>Control subjects</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Trier Social Stress Test (TSST)</intervention_name>
+    <description>used to evoke anxiety unrelated to OCD (e.g., performance anxiety)</description>
+    <arm_group_label>OCD subjects</arm_group_label>
+    <arm_group_label>Control subjects</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Exposure provocation task</intervention_name>
+    <description>used to elicit overt OCD rituals</description>
+    <arm_group_label>OCD subjects</arm_group_label>
+    <arm_group_label>Control subjects</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The primary source of OCD subjects will be self-referrals generated through BCM
+        Clinicaltrials website, Clinicaltrials.gov, and BCM Psychiatry Clinic. The investigators
+        also anticipate referrals from local area clinicians in addition to affiliate entities.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        OCD subjects:
+
+          -  The subject has a minimum score of ≥16 on the Y-BOCS;
+
+          -  If applicable, on a stable pharmacologic regimen;
+
+          -  Sample will be enriched with OCD subjects having contamination obsessions and
+             handwashing compulsions, and scores on items 9 and 10 of the Y-BOCS reflecting
+             difficulty resisting and controlling compulsions;
+
+        Healthy Control Subjects:
+
+          -  Men and women will be age/gender matched with subjects
+
+          -  Absence of any psychiatric disorder determined by the MINI^53 for DSM-5 with the
+             exception of non-impairing specific phobia.
+
+          -  Low scores on measures of contamination concerns and disgust sensitivity based on
+             Y-BOCS scores below 10 and the Disgust Scale-Revised (total score &lt;8).
+
+        Exclusion Criteria:
+
+        OCD Subjects:
+
+          -  Subject has a documented lifetime diagnosis of psychotic disorders such as
+             schizophrenia;
+
+          -  Alcohol or substance abuse/dependence reported within 6 months, excluding nicotine;
+
+          -  The subject is deemed at high risk of suicidal behavior or impulsivity. The Beck
+             Depression Inventory^52 (BDI) will be completed by all subjects and responses reviewed
+             by a clinician.
+
+        Healthy Control Subjects:
+
+        - Those not meeting the inclusion criteria described in the inclusion section above.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Wayne Goodman, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Baylor College of Medicine</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Gregory Vogt</last_name>
+    <phone>713-798-4729</phone>
+    <email>gsvogt@bcm.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Alician Brown, MPH</last_name>
+    <phone>713-798-3876</phone>
+    <email>aabrown@bcm.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Pittsburgh</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15260</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nicki Siverling</last_name>
+      <phone>412-624-7676</phone>
+      <email>nicki.siverling@pitt.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jeffrey Cohn, PhD</last_name>
+      <phone>412-624-8825</phone>
+      <email>jeffcohn@pitt.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Jeffrey Cohn, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Brown University</name>
+      <address>
+        <city>Providence</city>
+        <state>Rhode Island</state>
+        <zip>02912</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>David Borton, PhD</last_name>
+    </contact>
+    <investigator>
+      <last_name>David Borton, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Baylor College of Medicine</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Gregory Vogt</last_name>
+      <phone>713-798-4729</phone>
+      <email>gsvogt@bcm.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Alician Brown, MPH</last_name>
+      <phone>(713) 798-3876</phone>
+      <email>aabrown@bcm.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Wayne K Goodman, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 1, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 7, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 9, 2018</study_first_posted>
+  <last_update_submitted>April 26, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 26, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 30, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Baylor College of Medicine</investigator_affiliation>
+    <investigator_full_name>Wayne Goodman MD</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>OCD</keyword>
+  <keyword>Obsessive-Compulsive Disorder</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Compulsive Personality Disorder</mesh_term>
+    <mesh_term>Obsessive-Compulsive Disorder</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

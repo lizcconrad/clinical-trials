@@ -1,0 +1,298 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02940678</url>
+  </required_header>
+  <id_info>
+    <org_study_id>martin-gerdin-201610191906</org_study_id>
+    <nct_id>NCT02940678</nct_id>
+  </id_info>
+  <brief_title>Transferability of Clinical Prediction Models for Early Trauma Care in a Swedish Setting</brief_title>
+  <official_title>Transferability of Clinical Prediction Models for Early Trauma Care in a Swedish Setting</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Karolinska Institutet</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Karolinska Institutet</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Trauma is one of the top threats to population health globally. A substantial body of
+      research has been devoted to the development of clinical prediction models to aid early
+      decision making in trauma care. Often these models are applied outside the context in which
+      they were originally developed. In contrast, very little research has focused on the effects
+      on model performance of such transfers despite the fact that a potential loss in performance
+      could have devastating consequences.
+
+      Data from the Swedish trauma registry SweTrau will be used to study the effects on model
+      performance of transfers between different contexts within a single conceptually homogenous
+      setting. Using logistic regression models for predicting all-cause mortality within 30 days
+      of trauma in adult patients will be developed, focusing on systolic blood pressure,
+      respiratory rate, and Glasgow coma scale as predictors.
+
+      Four different sets of data sampled from SweTrau will be used to simulate transfer of models
+      between high and low volume centres, metropolitan and non-metropolitan centres, multicentre
+      and single centre data, and finally between individual centres. Measures of overall
+      performance, clinical usefulness, discrimination, calibration, and recalibration will be used
+      to quantify the effects on performance of model transfers.
+
+      The study will provide evidence to help clinicians and policy makers in deciding on whether
+      it is appropriate to apply models developed in other contexts. For example, the results of
+      this study may inform decisions on the development and implementation of models intended to
+      be applied on a national or regional level, and ultimately help designing better trauma care
+      and improve the outcomes of trauma patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Design
+
+      Registry based study
+
+      Setting and data
+
+      Data from the Swedish trauma registry SweTrau will be used. This is a quality registry, which
+      means that patients are registered continuously as part of their care. They receive written
+      information about the registration and may opt to withdraw their data from the registry. The
+      registry was implemented in 2011 and had as of early 2016 more than 30,000 entries.
+
+      SweTrau includes data from Swedish university hospitals and non-university county hospitals.
+      The country has approximately 50 university and non-university county hospitals that receive
+      trauma patients and out of those all seven university hospitals and more than 60% of
+      non-university county hospitals contribute data to SweTrau.
+
+      There are currently no national classification of hospitals that receive trauma patients in
+      Sweden. Previous research has described the university hospitals as level I-II trauma
+      centres, using the classification in the American College of Surgeons Committee on Trauma
+      guidelines. Prehospital care and transport is provided by ground and air ambulances.
+
+      The registry include any patient that prompts trauma team activation and any transferred
+      trauma patient. Trauma team activation criteria vary across hospitals but there are generally
+      two levels of trauma team activation, for suspected major and minor trauma respectively. The
+      criteria are based on prehospital vital signs and a priori specified mechanisms.
+
+      Variables Predictors
+
+      Systolic blood pressure (mmHg), respiratory rate (breaths per minute) and Glasgow coma scale
+      will be included as predictors in the clinical prediction mode. All are recorded on arrival
+      to hospital.
+
+      Other covariates
+
+      The following variables will be used to characterize the patient cohort: age in years, sex
+      registered as male or female, pre-injury comorbidity status according to the American Society
+      of Anesthesiology (ASA) Physical Status classification, anatomical injury severity according
+      to the injury severity score (ISS) and new injury severity score (NISS), and transfer from
+      other hospital.
+
+      Study size
+
+      All participants in SweTrau matching the eligibility criteria. Details on sample size for
+      specific analysis steps are provided below.
+
+      Quantitative variables
+
+      In the modelling exercises quantitative variables, i.e. all predictors, will be handled as
+      continuous. Both systolic blood pressure and respiratory rate are assumed to be non-linearly
+      associated with mortality and will therefore be modelled using restricted cubic splines with
+      four knots placed at equally spaced percentiles, as implemented in the R rms package. Glasgow
+      coma scale will be modelled as a linear term.
+
+      Missing data strategy
+
+      Multiple imputation using chained equations will be employed to handle missing data, assuming
+      a missing at random (MAR) missing data mechanism. The R package mice will be used. Predictive
+      mean matching to impute quantitative variables and logistic regression for qualitative
+      variables will be used as appropriate. The number of imputed datasets will be equal to the
+      percentage of missing data, rounded up.
+
+      Analysis plan
+
+      The transfer of models will be studied using four different sets of data. Each set of data
+      will simulate a specific, plausible, situation in which models are transferred between
+      different but related contexts. In each set of data there will be at least two samples of
+      data drawn from the complete SweTrau database.
+
+      High and low volume centres
+
+      To study the transfer of models between high and low volume centres the data will be split in
+      two, using centre volume. High volume centres will be those belonging to the quartile of
+      centres with the largest number of patients registered.
+
+      Metropolitan and non-metropolitan centres
+
+      This set of data will also consist of two samples, one with patients from Sweden's
+      metropolitan areas Greater Stockholm, Greater Gothenburg and Greater Malmö as defined by
+      Statistics Sweden, and one with patients from non-metropolitan areas. The underlying
+      assumption is that trauma mechanisms differ between metropolitan and non-metropolitan areas.
+
+      Multi and single centre data
+
+      The data from each centre with large enough effective sample size to allow for model
+      development and validation as outlined below will constitute its own sample. The multicentre
+      data sample will be the combined data from all those centres.
+
+      Individual centres
+
+      To study the transfer of models between individual centres this set of data will consist of
+      samples from centres with large enough effective sample size to allow for model development
+      and validation as outlined below.
+
+      Statistical methods
+
+      R will be used for all statistical analyses, which will be conducted in the following
+      sequence: model development, model validation, model comparison. A temporal split of each
+      sample will be made based on the date of trauma. The earlier part of the data will is
+      henceforth referred to as the development sample. The later part is henceforth referred to as
+      the validation sample.
+
+      The temporal split will be made so that the development sample includes 70 events, i.e.
+      patients who died within 30 days, and all non-events registered during the same time period.
+      These 70 events correspond to 10 events per free parameter in the prediction models, since
+      systolic blood pressure and respiratory rate will be modeled using three spline bases each
+      and Glasgow coma scale as a single term.
+
+      The validation sample needs to include at least 100 events and non-events. Therefore, in the
+      studies of transfer of models between multi and single centre data and between individual
+      centres, only centres with at least 170 events can be included.
+
+      95% confidence intervals will be estimated for predictive performance measures by repeating
+      the analysis in 1000 bootstrap samples drawn with replacement. Each imputed dataset will be
+      bootstrapped separately and analysed using standard techniques for multiple imputed data.
+
+      Development
+
+      One model per development sample will be developed using logistic regression to select main
+      effects. To avoid overfitting and model optimism a shrinkage factor will be estimated using a
+      bootstrap approach. Model performance in the development sample will be evaluated using
+      measures of overall performance, discrimination, calibration, and clinical usefulness as
+      outlined in section.
+
+      Validation
+
+      The models will be validated by using the linear predictor generated in the model development
+      phase to estimate the probability of 30 day mortality in the corresponding validation sample.
+      Validation will be performed by estimating the same predictive performance measures as in the
+      model development phase.
+
+      Comparison
+
+      Models will be compared in the validation part of each sample. The performance of models will
+      be compared in terms of overall performance, discrimination, calibration, clinical
+      usefulness, and reclassification, see below.
+
+      Predictive performance measures
+
+      Overall performance will be assessed using the Brier score and net benefit will be used as a
+      measure of clinical usefulness. Discrimination will be assessed by calculating the area under
+      the receiver operating characteristics curve (AUROCC) and by estimating specificity at 95%
+      sensitivity . The 95% sensitivity was chosen as this is the cutoff often quoted as indicative
+      of an &quot;acceptable&quot; level of undertriage, i.e. false negative ratio.
+
+      To assess calibration the sample will first be grouped using ten quantiles of the mortality
+      probabilities estimated by the model of interest. The mean mortality probability (x) and the
+      proportion of patients who died in each group (Y) will be calculated. Finally, the general
+      linear model Y=A+B*x+e, and use the calibration intercept A and slope B to quantify
+      calibration.
+
+      To estimate reclassification the models being compared will first be used to categorise
+      patients as belonging to one of four risk groups. The difference between &quot;original&quot; groupings
+      compared to those obtained by using &quot;external&quot; model, i.e. reclassification, will be measured
+      as the net reclassification improvement (NRI).
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>October 2016</start_date>
+  <completion_date type="Anticipated">December 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>All cause mortality</measure>
+    <time_frame>30 days</time_frame>
+  </primary_outcome>
+  <enrollment type="Anticipated">30000</enrollment>
+  <condition>Wounds and Injuries</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No intervention</intervention_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Trauma patients, defined as patients that prompt trauma team activation or is a transferred
+        trauma patient.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Included in SweTrau
+
+          -  At least 15 years old
+
+        Exclusion Criteria:
+
+          -  Duplicate observation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>15 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 19, 2016</study_first_submitted>
+  <study_first_submitted_qc>October 20, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 21, 2016</study_first_posted>
+  <last_update_submitted>March 7, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 7, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 8, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Karolinska Institutet</investigator_affiliation>
+    <investigator_full_name>Martin Gerdin</investigator_full_name>
+    <investigator_title>Researcher</investigator_title>
+  </responsible_party>
+  <keyword>Trauma</keyword>
+  <keyword>Clinical prediction models</keyword>
+  <keyword>Transferability studies</keyword>
+  <keyword>Sweden</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Wounds and Injuries</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <study_docs>
+    <study_doc>
+      <doc_id>10.6084/m9.figshare.4042572.v1</doc_id>
+      <doc_type>Study Protocol</doc_type>
+      <doc_url>https://dx.doi.org/10.6084/m9.figshare.4042572.v1</doc_url>
+    </study_doc>
+  </study_docs>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

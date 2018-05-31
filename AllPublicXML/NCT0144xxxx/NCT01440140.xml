@@ -1,0 +1,225 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01440140</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ANGELA03</org_study_id>
+    <nct_id>NCT01440140</nct_id>
+  </id_info>
+  <brief_title>Closing the Loop in Adults With Type 1 Diabetes in the Home Setting</brief_title>
+  <official_title>An Open-label, Three-centre, Randomised, Two-period, Crossover Study to Assess the Efficacy, Safety and Utility of Real-time Continuous Subcutaneous Glucose Monitoring Combined With Overnight Closed-loop Glucose Control in the Home Setting in Comparison With Real-time Continuous Subcutaneous Glucose Monitoring Alone in Adults With Type 1 Diabetes on Subcutaneous Insulin Infusion Pump Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Cambridge</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Diabetes UK</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Cambridge</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The main study objective is to compare real-time continuous subcutaneous glucose monitoring
+      (CGM) combined with overnight automated closed-loop glucose control, and real-time CGM alone
+      in the home setting.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Achievement of tight glycaemic control in type 1 diabetes mellitus (T1D) using intensive
+      insulin regimens, which has been shown to be important for the prevention of long term
+      diabetes-related complications, is limited by a significantly increased risk of
+      hypoglycaemia. The average patient with T1D suffers two symptomatic episodes of hypoglycaemia
+      per week, and one episode of severe hypoglycaemia, defined as an event requiring assistance
+      of another person to administer rescue treatment in the form of carbohydrate and/or glucagon,
+      per year.Despite the rapid advancements in insulin pump technology and the ongoing
+      development of more physiological insulin preparations, the currently available therapeutic
+      regimens are still unable to achieve optimal glycaemic control.The emergence of continuous
+      glucose monitoring (CGM) over the last decade, which enables users to view in real-time
+      estimates of plasma glucose and receive alarms for impending hypo- or hyperglycaemia, thus
+      facilitating appropriate changes in insulin therapy, is a major step towards improved
+      diabetes monitoring.
+
+      The desirable goal is the development of an insulin delivery that is glucose responsive and
+      the development of effective real time glucose monitoring should allow this. Glucose
+      responsive insulin delivery should allow achievement of ideal glucose targets with less risk
+      of hypoglycaemia. Closed-loop systems may provide a realistic treatment option for people
+      with T1D. The research we are conducting at the University of Cambridge has been focused on
+      developing a closed-loop system for overnight glucose control in patients with T1D. The
+      studies that have been performed so far employ model predictive control (MPC) - this
+      algorithm estimates patient-specific parameters from CGM measurements taken every 1 to 15
+      minutes and makes predictions of glucose excursions, which are then used to calculate basal
+      insulin infusion rates. We hypothesize that overnight automated closed-loop glucose control
+      in the home setting will be efficacious and safe compared to CGM alone, in T1D subjects on
+      insulin pump treatment.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>December 2012</start_date>
+  <completion_date type="Actual">January 2014</completion_date>
+  <primary_completion_date type="Actual">December 2013</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of CGM (Continuous glucose monitoring) values in target (3.9 - 8.0 mmol/l).</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Participants will be assessed overnight (00:00 to 07:00) for 4 weeks in each arm.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of CGM values below 3.9 mmol/l.</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Participants will be assessed overnight (00:00 to 07:00) for 4 weeks in each arm.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time spent with glucose levels below 3.9 mmol/l and above 8.0 mmol/l, as recorded by CGM and other CGM-based metrics</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Participants will be assessed overnight (00:00 to 07:00) for 4 weeks in each arm.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glycaemic control assessed by fructosamine and HbA1c</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Participants will be assessed for 4 weeks in each arm.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">24</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Closed loop (algorithm)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open loop</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Closed-loop</intervention_name>
+    <description>Subcutaneous delivery of Novorapid insulin, dose calculated by control algorithm, based on continuous glucose sensor readings.</description>
+    <arm_group_label>Closed loop (algorithm)</arm_group_label>
+    <other_name>Automated CL</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Conventional insulin pump delivery</intervention_name>
+    <description>Subcutaneous delivery of Novorapid insulin according to usual pump regime</description>
+    <arm_group_label>Open loop</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Type 1 diabetes, as defined by WHO for at least 6 months or confirmed C−peptide
+             negative.
+
+          -  On insulin pump therapy for at least 3 months
+
+        Exclusion Criteria:
+
+          -  Non−type 1 diabetes mellitus
+
+          -  Any physical/psychological disease likely to interfere with the study
+
+          -  Taking medication likely to interfere with interpretation of the results
+
+          -  Known/suspected allergy against insulin
+
+          -  Patients with clinically significant nephropathy, neuropathy or retinopathy as judged
+             by the investigator
+
+          -  Ongoing severe recurrent hypoglycaemia as judged by the investigator.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Roman Hovorka, PhD, MSc, BSc</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Cambridge</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Addenbrooke's Hospital</name>
+      <address>
+        <city>Cambridge</city>
+        <zip>CB2 0QQ</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>King's College London</name>
+      <address>
+        <city>London</city>
+        <zip>SE5 9RJ</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Northern General Hospital</name>
+      <address>
+        <city>Sheffield</city>
+        <zip>S5 7AU</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>January 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 20, 2011</study_first_submitted>
+  <study_first_submitted_qc>September 22, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 26, 2011</study_first_posted>
+  <last_update_submitted>January 28, 2014</last_update_submitted>
+  <last_update_submitted_qc>January 28, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 29, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Cambridge</investigator_affiliation>
+    <investigator_full_name>Hood Thabit</investigator_full_name>
+    <investigator_title>Clinical Investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

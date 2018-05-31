@@ -1,0 +1,259 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02541175</url>
+  </required_header>
+  <id_info>
+    <org_study_id>149/15</org_study_id>
+    <nct_id>NCT02541175</nct_id>
+  </id_info>
+  <brief_title>Multi-Channel Esophageal ECG Signal Classification</brief_title>
+  <acronym>MC-EECG</acronym>
+  <official_title>Paroxysmal Atrial Fibrillation Detection and Heart Beat Classification in Multi-Channel Esophageal Long-Term ECG</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital Inselspital, Berne</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Bern University of Applied Sciences</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital Inselspital, Berne</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is designed to prove new methods to enable the automated analysis of esophageal
+      electrocardiography (eECG) signals in long-term measurements as well as the detection of
+      atrial fibrillation. The investigators hypothesis is that eECG signals allow the reliable
+      atrial and ventricular ECG signal distinction and the detection of atrial fibrillation.
+      Therefore 14 patients with arrhythmias and 6 cardiac healthy subjects are asked to take part
+      in this study. On each subject an esophageal ECG and a simultaneous standard surface ECG will
+      be taken for about half an hour. Patient undergoing a cardiac catheter ablation during their
+      current hospitalization will be further asked to allow access to the invasively obtained
+      measurements (i.e. atrial potential map) to further improve the understanding of the eECG
+      signals.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background
+
+      The fast and correct diagnosis of heart rhythm disorders is very important to reduce
+      morbidity and mortality in cardiovascular patients. Atrial fibrillation is of special
+      interest, because it is an important cause of devastating brain strokes. A significant number
+      of strokes have a cardioembolic genesis due to paroxysmal atrial fibrillation which was not
+      diagnosed early enough. Therefore, it is very important to detect atrial fibrillation as soon
+      as possible. With oral anticoagulation an effective therapeutic option in available to
+      prevent cardioembolisms.
+
+      In the clinical routine, mostly 24-hour or 7-day ECGs are made to look for cardiac
+      arrhythmias. The use of such devices is well established. Nevertheless, they have some side
+      effects/limitations. Skin electrodes used for derivation of the ECG often cause skin
+      irritation, sometimes leading to premature termination of the recording. Because of dryout of
+      the contact gel (causes artifacts), small p-waves and especially also motion artifacts,
+      triggered recording or semi-automatic analysis of the recording is problematic, but for
+      longer recording times such a semi-automatic analysis would be helpful. As an alternative
+      esophageal electrocardiography can be performed. Signal quality of the ECG recording
+      (especially of the left atrium) is better than in the standard surface ECG because of the
+      vicinity of the esophagus and the left atrium. The esophagus tolerates well foreign bodies as
+      the investigators know from long-term nasogastric intubation. Therefore use of the esophageal
+      technique for long-term rhythm monitoring is an interesting and promising alternative to
+      conventional surface Holter ECGs.
+
+      Earlier studies have already shown the improved p-wave in eECG signals, but the automatic or
+      semi-automatic wave analysis algorithms were not satisfactory. By increasing the number of
+      measuring channels on the esophageal catheter, new classes of algorithm can be applied in
+      order to increase the detection reliability. Using multiple channels to increase the quality
+      of the result is an intuitive and widely used method e.g. in 12 lead ECG or EECG, etc.
+
+      Objective
+
+      Primary Objective: Differentiation of electrical atrial and ventricular cardiac activity (A/V
+      classification) Secondary Objective: Detection of atrial fibrillation sequences (AFib
+      Detection)
+
+      Methods
+
+      20 subjects are included in this pilot study to verify enhanced multi-channel detection
+      algorithm. In order to cover a wide variety of arrhythmias to test the algorithm with, the
+      subjects are selected according to 4 categories: 1) 4 patients with intermitting or
+      persisting atrial fibrillation. 2) 4 patients with atrial flutter 3) 6 patients with frequent
+      atrial or ventricular extra-systoles. 4) 6 cardiac healthy subjects. In total around 50'000
+      heart beats are recorded. The surface ECG signal is used as the reference (manually
+      analyzed). Sensitivity and specificity of the correctly detected atrial and ventricular
+      activities compared to this manual reference including the 95% confidence intervals are
+      calculated (A/V Classification). Additionally the sensitivity and specificity of the detected
+      of atrial fibrillation sequences including the 95% confidence intervals are calculated (AFib
+      Detection).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2015</start_date>
+  <completion_date type="Actual">December 2016</completion_date>
+  <primary_completion_date type="Actual">December 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of correct classified A/V beats in automated eECG analysis compared to manually analyzed surface ECG</measure>
+    <time_frame>during analysis of ECG (approx. 30 minutes records)</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of correctly detected atrial fibrillation sequences in automated eECG analysis compared to manually analyzed surface ECG</measure>
+    <time_frame>during analysis of ECG (approx. 30 minutes records)</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Atrial Fibrillation</condition>
+  <condition>Atrial Function</condition>
+  <condition>Arrhythmias, Cardiac</condition>
+  <condition>Atrial Premature Complexes</condition>
+  <arm_group>
+    <arm_group_label>All study participants</arm_group_label>
+    <description>In order to cover a wide variety of common arrhythmias but keeping the number of subjects needed low (pilot study), the subjects are pre-selected according to following 4 categories: 1) 4 patients with intermitting or persisting atrial fibrillation. 2) 4 patients with atrial flutter 3) 6 patients with frequent atrial or ventricular extra-systoles. 4) 6 cardiac healthy subjects.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients: Adults, hospitalised at University Hospital Bern, Dept. of Cardiology.
+
+        Healthy subjects: Adults without any assumed or known cardiac disease.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age &gt;/= 18 years
+
+          -  Written informed consent
+
+          -  ambulatory/hospitalized due to peripheral percutaneous intervention
+
+          -  ambulatory/hospitalized due to shunt stenosis or occlusion
+
+          -  ambulatory/hospitalized due to electrophysiological intervention
+
+          -  ambulatory/hospitalized due to pacemaker implantation
+
+          -  ambulatory/hospitalized due to decompensated heart failure
+
+          -  ambulatory/hospitalized due to planed cardioangiography
+
+          -  ambulatory/hospitalized due to performed cardioangiography after Non-ST-elevation
+             myocardial infarction (NSTEMI) or ST-elevation myocardial infarction (STEMI)
+
+          -  cardiac healthy adults
+
+        Exclusion Criteria
+
+          -  History of ablation of atrial fibrillation
+
+          -  History of heart transplantation
+
+          -  Instable angina pectoris/acute myocardial infarction before revascularisation
+
+          -  Cardiorespiratory unstable patients
+
+          -  History of valve replacement operation less than 4 weeks ago
+
+          -  Obstructive cardiomyopathy with severe dynamic Left Ventricular Outflow Tract (LVOT)
+             obstruction
+
+          -  Known severe bleeding diathesis
+
+          -  Known malformations or disease in the upper airways, conflicting with the catheter
+             insertion
+
+          -  Known malformations or disease in the esophagus, conflicting with the catheter
+             insertion
+
+          -  Uncontrolled arterial hypertonia (syst. blood pressure &gt; 200mmHg)
+
+          -  Pregnancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Hildegard Tanner, Prof. Dr. med.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Dept. of Cardiology, University Hospital Bern</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Dept. of Cardiology, University Hospital Bern</name>
+      <address>
+        <city>Bern</city>
+        <zip>3010</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <reference>
+    <citation>Haeberlin A, Niederhauser T, Marisa T, Goette J, Jacoment M, Mattle D, Roten L, Fuhrer J, Tanner H, Vogel R. The optimal lead insertion depth for esophageal ECG recordings with respect to atrial signal quality. J Electrocardiol. 2013 Mar-Apr;46(2):158-65. doi: 10.1016/j.jelectrocard.2012.12.004. Epub 2013 Jan 8.</citation>
+    <PMID>23305907</PMID>
+  </reference>
+  <reference>
+    <citation>Haeberlin A, Niederhauser T, Tanner H, Vogel R. Atrial waveform analysis using esophageal long-term electrocardiography reveals atrial ectopic activity. Clin Res Cardiol. 2012 Nov;101(11):941-2. doi: 10.1007/s00392-012-0477-6. Epub 2012 May 22.</citation>
+    <PMID>22614730</PMID>
+  </reference>
+  <reference>
+    <citation>Haeberlin A, Roten L, Schilling M, Scarcia F, Niederhauser T, Vogel R, Fuhrer J, Tanner H. Software-based detection of atrial fibrillation in long-term ECGs. Heart Rhythm. 2014 Jun;11(6):933-8. doi: 10.1016/j.hrthm.2014.03.014. Epub 2014 Mar 12.</citation>
+    <PMID>24632179</PMID>
+  </reference>
+  <reference>
+    <citation>Wallmann D, Tüller D, Wustmann K, Meier P, Isenegger J, Arnold M, Mattle HP, Delacrétaz E. Frequent atrial premature beats predict paroxysmal atrial fibrillation in stroke patients: an opportunity for a new diagnostic strategy. Stroke. 2007 Aug;38(8):2292-4. Epub 2007 Jun 21.</citation>
+    <PMID>17585079</PMID>
+  </reference>
+  <verification_date>January 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>August 27, 2015</study_first_submitted>
+  <study_first_submitted_qc>September 1, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 4, 2015</study_first_posted>
+  <last_update_submitted>January 12, 2017</last_update_submitted>
+  <last_update_submitted_qc>January 12, 2017</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 13, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Electrocardiography</keyword>
+  <keyword>Automation</keyword>
+  <keyword>Arrhythmias, Cardiac</keyword>
+  <keyword>Atrial Fibrillation</keyword>
+  <keyword>Atrial Flutter</keyword>
+  <keyword>Atrial Premature Complexes</keyword>
+  <keyword>Esophagus</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+    <mesh_term>Arrhythmias, Cardiac</mesh_term>
+    <mesh_term>Atrial Premature Complexes</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

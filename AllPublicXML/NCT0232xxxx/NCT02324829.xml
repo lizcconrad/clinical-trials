@@ -1,0 +1,199 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02324829</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ORE 18193</org_study_id>
+    <secondary_id>REB 12-025</secondary_id>
+    <nct_id>NCT02324829</nct_id>
+  </id_info>
+  <brief_title>Automatic Physiotherapy and Rehabilitation System for Lower Body Total Joint Replacement</brief_title>
+  <official_title>Automatic Physiotherapy and Rehabilitation System for Lower Body Total Joint Replacement</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Waterloo</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Toronto Rehabilitation Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Natural Sciences and Engineering Research Council, Canada</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Waterloo</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Physiotherapists spend a large amount of their time with patients observing their
+      rehabilitation techniques. A patient going through rehabilitation exercises are routine and
+      does not necessarily require the attention of the physiotherapist. This research will develop
+      a sensor system that will be strapped onto the patients and will provide feedback on how
+      accurately the exercise is being executed. This will free up the physiotherapist to focus on
+      diagnosis and other tasks that will better utilize the physiotherapist's training. A previous
+      study has shown that this system is feasible for healthy subjects. This study would test to
+      see if this system is extendable to rehabilitation subjects.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Many of the tasks performed regularly by physiotherapists during any given rehabilitation
+      session are repetitive and do not rely on the physiotherapist's expertise, and could be
+      performed and observed by automated means. The developed system will detect patient body
+      postures and movements with data collected through sensors such as accelerometers. This data
+      will be pattern matched to a predetermined movement pattern and feedback will be provided for
+      patients regarding accuracy of their exercises. This data can be logged for the
+      physiotherapist to examine at a later time. By automating this component of a rehabilitation
+      session, the system will allow the physiotherapist to focus diagnosis and other tasks that
+      will better utilize their training. The specific application for this prototype will be
+      post-operative knee/hip replacement patients, so all devices must be non-invasive and must
+      not interfere with normal recovery processes.
+
+      A previous version of this experiment on healthy participants has been successfully
+      performed. This study would like to examine the feasibility of this system on rehabilitation
+      subjects, as the movement patterns of a subject in physical rehabilitation may be
+      dramatically different then a healthy subject. No intervention is suggested by the system, as
+      this study is observational.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2012</start_date>
+  <completion_date type="Actual">December 2015</completion_date>
+  <primary_completion_date type="Actual">July 2013</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Joint angle assessment</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Inertial measurement unit (IMU) data will be translated to joint angles via extended Kalman filter and kinematic modeling.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Motion segmentation and identification</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>The joint angle data will be processed to automatically segment and identify rehabilitation motion.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">18</enrollment>
+  <condition>Lower-body Total Joint Replacement</condition>
+  <arm_group>
+    <arm_group_label>Total joint replacement</arm_group_label>
+    <description>Patients who has undergone lower body total joint replacement surgery.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Specific target audience for sensor deployment is patients who has undergone knee or hip
+        joint replacement and is taking physiotherapy rehabilitation sessions to recover. The
+        target audience of this system is rehabilitation subjects who have recently had knee or hip
+        replacement therapy. We would like to track several subjects over their rehabilitation stay
+        to see the impact of rehabilitation on their movement pattern. Recruitment will be limited
+        to in-patients only, as out-patients tend to be discharged from rehabilitation because they
+        are healthier, and would likely have movement patterns closer to healthy subjects.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Any patient who has had hip and/or knee total joint replacement and requires
+             rehabilitation, and are assessed by physiotherapists as likely able to finish their
+             rehabilitation cycle and be discharged to home.
+
+          -  Patients with medical complications or other injuries will be not be excluded, as we
+             are interested in seeing the movement profiles of a wide range of people.
+
+          -  In-patients
+
+        Exclusion Criteria:
+
+          -  Patients at risk of developing serious postoperative complications, such as an
+             infection, myocardial infarction or anything that requires subsequent surgery, they
+             may be excluded.
+
+          -  Out-patients.
+
+          -  Patients who cannot give explicit consent or understand the physiotherapist's
+             instructions
+
+          -  Patients who do not speak fluent English
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Dana Kulic, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Waterloo</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Toronto Rehabilitation Instititue</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M5G 2A2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <reference>
+    <citation>Lin JF, Kulić D. Human pose recovery using wireless inertial measurement units. Physiol Meas. 2012 Dec;33(12):2099-115. doi: 10.1088/0967-3334/33/12/2099. Epub 2012 Nov 23.</citation>
+    <PMID>23174667</PMID>
+  </reference>
+  <reference>
+    <citation>Feng-Shun Lin J, Kulić D. Segmenting human motion for automated rehabilitation exercise analysis. Conf Proc IEEE Eng Med Biol Soc. 2012;2012:2881-4. doi: 10.1109/EMBC.2012.6346565.</citation>
+    <PMID>23366526</PMID>
+  </reference>
+  <results_reference>
+    <citation>Lin JF, Kulić D. Online Segmentation of Human Motion for Automated Rehabilitation Exercise Analysis. IEEE Trans Neural Syst Rehabil Eng. 2014 Jan;22(1):168-80. doi: 10.1109/TNSRE.2013.2259640. Epub 2013 May 2.</citation>
+    <PMID>23661321</PMID>
+  </results_reference>
+  <verification_date>June 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 3, 2014</study_first_submitted>
+  <study_first_submitted_qc>December 18, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 24, 2014</study_first_posted>
+  <last_update_submitted>June 16, 2016</last_update_submitted>
+  <last_update_submitted_qc>June 16, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">June 20, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Total joint replacement</keyword>
+  <keyword>Physiotherapy</keyword>
+  <keyword>Kalman filtering</keyword>
+  <keyword>Kinematic modeling</keyword>
+  <keyword>Hidden Markov model</keyword>
+  <keyword>Motion segmentation</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

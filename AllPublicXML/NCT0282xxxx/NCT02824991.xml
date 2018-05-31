@@ -1,0 +1,173 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02824991</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CH-Sp-01</org_study_id>
+    <nct_id>NCT02824991</nct_id>
+  </id_info>
+  <brief_title>Ultrasonography Detection of Local Twitch Response During Dry Needling</brief_title>
+  <acronym>US-DN</acronym>
+  <official_title>Semi-Automatic Ultrasonography Detection of Local Twitch Response Intensities During Dry Needling: Implications on Joint Range of Motion</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Malaga</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Chile</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Malaga</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background: One treatment of Muscle trigger points (MTrPs) is deep dry needling (DN) with the
+      purpose of obtaining local twitch responses (LTRs), which are highly effective in releasing
+      MTrPs. In DN procedures the mechanisms associated with LTRs and the LTR intensities required
+      for optimal clinical results are poorly understood, especially in relation to range of motion
+      after intervention. Therefore, evaluating the intensity of LTRs is relevant for implementing
+      DN in different clinical settings, such as in patients with muscular or neurological
+      dysfunctions. One way to assess muscle contractions and LTRs is through ultrasound video
+      analysis.
+
+      The aim of this report was to evaluate the reliability of semi-automatic LTR intensities
+      tracking during dry needling by assessing ultrasound signals with an image processing method,
+      in addition to evaluating the relationship between LTR intensities and muscle elasticity.
+
+      Method: Young males without signs or symptoms of musculoskeletal pain were included. Primary
+      outcome measure was the LTR intensities determined by percentage change of muscle thickness.
+      The secondary outcome measures were the muscle elasticity of medial gastrocnemius and
+      hamstring, previous and posterior DN in both lower limbs for each subject. Three LTRs,
+      detected by a physical therapist and ultrasound assessment, were induced by inserting a
+      filament needle into muscle latent trigger points in medial gastrocnemius. The intensities of
+      LTRs were measured by assessing ultrasound images using an optical flow method and through
+      comparisons with manual detection.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The aim of this report was to evaluate the reliability of semi-automatically tracking local
+      twitch responses (LTR) intensities during dry needling by assessing ultrasound signals with
+      an optical flow method designed to estimate movement of ROIs, in addition to evaluating the
+      relationship between LTR intensities and muscle elasticity.
+
+      Experimental protocol and measurements For each subject, the ROM of the medial gastrocnemius
+      (MG) and hamstring (HA) was determined in both lower limbs using weight bearing and the
+      active knee extension test, respectively, using a universal goniometer. For the knee
+      extension test, 180° were subtracted from the obtained range, and the values were presented
+      as negative. Both tests present excellent intra- and inter-rater reliability.
+
+      All participants were placed in a prone position with the ankle locked at 90º. Latent MTrPs
+      were identified in both MG using according the presence of a palpable taut band and
+      hypersensitive spot in the palpable taut band as diagnostic criteria. The ultrasound
+      transducer was positioned over the MG muscle using a fixing device that was composed of a
+      thermoplastic polymer, with enough space for the dry needling (DN) technique to be performed.
+
+      The deep DN was administered by a physical therapist with three years of experience in the
+      technique. The ultrasound video (SonoSite Titan; Sonosite, Bothell, WA, USA) was recorded at
+      60 frames per second captured through an external capture device from Epiphan Systems Inc.
+      (Ottawa, Ontario, Canada). According to the perception of the physical therapist and the
+      ultrasound assessment, the filament needle was inserted into the MTrP to achieve three LTRs.
+      Posterior to DN application, the ROMs of the MG and HA were measured.
+
+      The recorded ultrasound video was examined by the Camtasia software (Tech-Smith Corp, Okemos,
+      MI, USA) to select three LTRs for latter analysis. Each LTR was tracked by the Lucas-Kanade
+      optical flow (LKOF) algorithm with affine optic flow extension [12]. All analyses were
+      performed using the Matlab® 2014 software (Mathworks Inc., Natick, MA, USA). For tracking
+      muscle thickness, two ROIs (size 250 x 70 pixels) positioned on the superficial and deep
+      aponeurosis were manually selected.
+
+      Muscle thickness was normalized as a percentage of recruitment using the following equation:
+      (thickness contracted-thickness rest/thickness rest)*100. For manual tracking of LTRs, the
+      recorded ultrasound video was analyzed in the Matlab® 2014 software. Peak muscle thickness
+      was determined by selecting muscle borders using hyperechoic aponeurosis lines.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2016</start_date>
+  <completion_date type="Actual">April 2016</completion_date>
+  <primary_completion_date type="Actual">March 2016</primary_completion_date>
+  <phase>Early Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Size of local twitch responses to Dry Needling with Ultrasonomiography</measure>
+    <time_frame>throughout study completion</time_frame>
+    <description>acute effect</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">7</enrollment>
+  <condition>Healthy Participants</condition>
+  <arm_group>
+    <arm_group_label>Deep Dry Needling</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Deep Dry Needling (DN) with the purpose of obtaining local twitch responses (LTRs). Description: Latent MTrPs were identified in both MG using according the presence of a palpable taut band and hypersensitive spot in the palpable taut band as diagnostic criteria.
+The deep DN was administered by a physical therapist with three years of experience in the technique. The ultrasound video (SonoSite Titan; Sonosite, Bothell, WA, USA) was recorded at 60 frames per second captured through an external capture device from Epiphan Systems Inc. (Ottawa, Ontario, Canada). According to the perception of the physical therapist and the ultrasound assessment, the filament needle was inserted into the MTrP to achieve three LTRs. Posterior to DN application, the ROMs of the MG and HA were measured</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>detection of local twitch response intensities during dry needling</intervention_name>
+    <arm_group_label>Deep Dry Needling</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Healthy volunteer
+
+        Exclusion Criteria:
+
+          -  Participants were excluded if they presented any history of musculoskeletal pain in
+             the last six months, pathological conditions of the vertebral column, neurological
+             diseases, respiratory diseases, a systemic rheumatic condition, heritable connective
+             tissue disorders, and/or any previous abdominal surgery
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>35 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Antonio Cuesta-Vargas, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Malaga</affiliation>
+  </overall_official>
+  <verification_date>June 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 24, 2016</study_first_submitted>
+  <study_first_submitted_qc>July 6, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 7, 2016</study_first_posted>
+  <last_update_submitted>October 3, 2016</last_update_submitted>
+  <last_update_submitted_qc>October 3, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">October 4, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Malaga</investigator_affiliation>
+    <investigator_full_name>Dr. Antonio I Cuesta-Vargas</investigator_full_name>
+    <investigator_title>Principal Research PhD</investigator_title>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

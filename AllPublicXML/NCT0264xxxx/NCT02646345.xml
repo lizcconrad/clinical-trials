@@ -1,0 +1,226 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02646345</url>
+  </required_header>
+  <id_info>
+    <org_study_id>12-218</org_study_id>
+    <nct_id>NCT02646345</nct_id>
+  </id_info>
+  <brief_title>Surgical Checklist Success in Latin America</brief_title>
+  <official_title>WHO Surgical Safety Checklist Implementation and Its Impact in Perioperative Morbidity and Mortality in an Academic Medical Center in Chile</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Pontificia Universidad Catolica de Chile</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Pontificia Universidad Catolica de Chile</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Limited information is available about surgical checklist effectiveness in Latin America. We
+      plan to compare the pre and post surgical checklist implementation in a tertiary healthcare
+      center in terms of morbidity (length of stay and surgical site infection rate) and
+      in-hospital mortality rate.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The purpose was to determine the impact of the implementation of the World Health
+      Organization (WHO) Surgical Safety Checklist in terms of morbidity and mortality in adult
+      surgical patients in a tertiary healthcare institution in Chile.
+
+      After Institutional Review Board (IRB) approval (Facultad de Medicina, Pontificia Universidad
+      Católica de Chile, Santiago, Chile), a retrospective analysis of all surgical encounters on
+      patients age 15 and above from January 2005 to December 2012 at our center will be reviewed.
+
+      Encounter data will include up to 14 diagnostic and procedure International Classification of
+      Diseases, 9th Revision, Clinical Modification (ICD-9-CM) codes, demographic data, date of
+      admission and discharge, emergency status, healthcare system used and in-hospital death. A
+      5-level &quot;high risk&quot; variable was created in order to account for surgical complexity and
+      associated in-hospital mortality (level 1, surgeries with &lt;1% in-hospital mortality; level 2,
+      1% to &lt;5%; level 3, 5% to &lt;10%; level 4, 10% to &lt;15%; level 5, &gt; or = 15%)6.
+
+      Surgical heterogeneity will be calculated by the Internal Herfindahl Index, which represents
+      the diversity or comprehensiveness of the types of procedures performed at a facility.
+
+      Statistics:
+
+      Propensity score (PS) analysis will be used to control for differences in baseline
+      characteristics. The PS is the conditional probability of receiving an exposure (e.g.
+      checklist) given a set of measured covariates. To estimate the PS, a logistic regression
+      model will be used in which &quot;treatment&quot; status (checklist performed vs. not performed) will
+      be regressed on the baseline (pre-treatment) characteristics.
+
+      PS analysis will be implemented in two ways to control for confounding:
+
+        1. PS matching: matching will be performed using a one-to-one nearest neighbor caliper
+           matching without replacement with a caliper size of 0.2 standard deviations. Balances in
+           the distribution of baseline covariates will be assessed by estimating absolute
+           standardized differences of the covariates between the two groups before and after
+           matching. Any imbalanced covariates (standardized difference &gt;10%) after matching will
+           be adjusted for in the final analysis. As the PS matched sample does not consist of
+           independent observations, we will use a marginal regression model with robust standard
+           errors.
+
+        2. PS weighting: the entire sample will be weighted by the inverse probability of the
+           treatment weights derived from the PS. If a subject has a higher probability of being in
+           a group, it will be considered over-represented and therefore will be assigned a lower
+           weight. Conversely, if the subject has a smaller probability, it will be considered as
+           under-represented and will be assigned a higher weight. We then will fit a weighted
+           linear regression model using an indicator variable representing checklist intervention
+           status as the sole predictor, and mortality as our outcome variable.
+
+      Data will be expressed as mean (SD; standard deviation) or median (IQR, interquartile range)
+      unless otherwise stated. A two-sided p value less than 0.05 will be considered significant.
+      The analyses will be performed using STATA v.12.0 (StataCorp, College Station, TX).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2012</start_date>
+  <completion_date type="Actual">April 2014</completion_date>
+  <primary_completion_date type="Actual">April 2014</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mortality</measure>
+    <time_frame>Three years</time_frame>
+    <description>30 day postoperative mortality</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Morbidity</measure>
+    <time_frame>Three years</time_frame>
+    <description>30 day postoperative surgical site infection (measured in number of patients with surgical site infection)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Length of stay</measure>
+    <time_frame>Three years</time_frame>
+    <description>Length of stay in days</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">70639</enrollment>
+  <condition>External Causes of Morbidity and Mortality</condition>
+  <condition>External Causes of Morbidity (V00-Y99)</condition>
+  <arm_group>
+    <arm_group_label>Pre Checklist</arm_group_label>
+    <description>All surgical encounters before surgical checklist implementation</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Post Checklist</arm_group_label>
+    <description>All surgical encounters after surgical checklist implementation</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Surgical checklist</intervention_name>
+    <description>Use of the World Health Organization Surgical checklist</description>
+    <arm_group_label>Post Checklist</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All surgical patients age 15 and above
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All surgical patients
+
+        Exclusion Criteria:
+
+          -  Obstetrical patients delivering vaginally
+
+          -  Patients less than 15 years old
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>15 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Hector J Lacassie, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Pontificia Universidad Catolica de Chile</affiliation>
+  </overall_official>
+  <reference>
+    <citation>Haynes AB, Weiser TG, Berry WR, Lipsitz SR, Breizat AH, Dellinger EP, Herbosa T, Joseph S, Kibatala PL, Lapitan MC, Merry AF, Moorthy K, Reznick RK, Taylor B, Gawande AA; Safe Surgery Saves Lives Study Group. A surgical safety checklist to reduce morbidity and mortality in a global population. N Engl J Med. 2009 Jan 29;360(5):491-9. doi: 10.1056/NEJMsa0810119. Epub 2009 Jan 14.</citation>
+    <PMID>19144931</PMID>
+  </reference>
+  <reference>
+    <citation>de Vries EN, Ramrattan MA, Smorenburg SM, Gouma DJ, Boermeester MA. The incidence and nature of in-hospital adverse events: a systematic review. Qual Saf Health Care. 2008 Jun;17(3):216-23. doi: 10.1136/qshc.2007.023622. Review.</citation>
+    <PMID>18519629</PMID>
+  </reference>
+  <reference>
+    <citation>Tscholl DW, Weiss M, Kolbe M, Staender S, Seifert B, Landert D, Grande B, Spahn DR, Noethiger CB. An Anesthesia Preinduction Checklist to Improve Information Exchange, Knowledge of Critical Information, Perception of Safety, and Possibly Perception of Teamwork in Anesthesia Teams. Anesth Analg. 2015 Oct;121(4):948-56. doi: 10.1213/ANE.0000000000000671.</citation>
+    <PMID>25806399</PMID>
+  </reference>
+  <reference>
+    <citation>Schwarze ML, Barnato AE, Rathouz PJ, Zhao Q, Neuman HB, Winslow ER, Kennedy GD, Hu YY, Dodgion CM, Kwok AC, Greenberg CC. Development of a list of high-risk operations for patients 65 years and older. JAMA Surg. 2015 Apr;150(4):325-31. doi: 10.1001/jamasurg.2014.1819.</citation>
+    <PMID>25692282</PMID>
+  </reference>
+  <reference>
+    <citation>Wachtel RE, Dexter F. Differentiating among hospitals performing physiologically complex operative procedures in the elderly. Anesthesiology. 2004 Jun;100(6):1552-61.</citation>
+    <PMID>15166578</PMID>
+  </reference>
+  <reference>
+    <citation>Urbach DR, Govindarajan A, Saskin R, Wilton AS, Baxter NN. Introduction of surgical safety checklists in Ontario, Canada. N Engl J Med. 2014 Mar 13;370(11):1029-38. doi: 10.1056/NEJMsa1308261.</citation>
+    <PMID>24620866</PMID>
+  </reference>
+  <reference>
+    <citation>de Vries EN, Prins HA, Crolla RM, den Outer AJ, van Andel G, van Helden SH, Schlack WS, van Putten MA, Gouma DJ, Dijkgraaf MG, Smorenburg SM, Boermeester MA; SURPASS Collaborative Group. Effect of a comprehensive surgical safety system on patient outcomes. N Engl J Med. 2010 Nov 11;363(20):1928-37. doi: 10.1056/NEJMsa0911535.</citation>
+    <PMID>21067384</PMID>
+  </reference>
+  <reference>
+    <citation>Calland JF, Turrentine FE, Guerlain S, Bovbjerg V, Poole GR, Lebeau K, Peugh J, Adams RB. The surgical safety checklist: lessons learned during implementation. Am Surg. 2011 Sep;77(9):1131-7.</citation>
+    <PMID>21944620</PMID>
+  </reference>
+  <reference>
+    <citation>Leape LL. The checklist conundrum. N Engl J Med. 2014 Mar 13;370(11):1063-4. doi: 10.1056/NEJMe1315851.</citation>
+    <PMID>24620871</PMID>
+  </reference>
+  <reference>
+    <citation>Conley DM, Singer SJ, Edmondson L, Berry WR, Gawande AA. Effective surgical safety checklist implementation. J Am Coll Surg. 2011 May;212(5):873-9. doi: 10.1016/j.jamcollsurg.2011.01.052. Epub 2011 Mar 12.</citation>
+    <PMID>21398154</PMID>
+  </reference>
+  <verification_date>December 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 28, 2015</study_first_submitted>
+  <study_first_submitted_qc>December 31, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 5, 2016</study_first_posted>
+  <last_update_submitted>December 31, 2015</last_update_submitted>
+  <last_update_submitted_qc>December 31, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 5, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Checklist</keyword>
+  <keyword>Mortality</keyword>
+  <keyword>Latin America</keyword>
+  <keyword>Surgery</keyword>
+  <keyword>Morbidity</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

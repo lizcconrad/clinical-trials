@@ -1,0 +1,513 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00977808</url>
+  </required_header>
+  <id_info>
+    <org_study_id>12998</org_study_id>
+    <secondary_id>BPK004</secondary_id>
+    <nct_id>NCT00977808</nct_id>
+  </id_info>
+  <brief_title>Pilot Study of Closed-Loop Glucose Control in People With Type 1 Diabetes (BPK004)</brief_title>
+  <official_title>Pilot Study of Closed-Loop Glucose Control in People With Type 1 Diabetes(BPK004)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Juvenile Diabetes Research Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study plans to link two existing technologies, the insulin pump and the continuous
+      glucose monitor (CGM), to essentially develop an artificial pancreas, i.e., closed-loop. This
+      will be done using two continuous glucose monitors (CGMs), a computer containing an
+      investigational control algorithm that uses glucose information from the CGM to recommend
+      insulin dosing, and an insulin pump. The purpose of this study is to test the ability of
+      continuous glucose monitors together with an insulin pump and a mathematical formula to
+      control blood sugar levels of people with type 1 diabetes.
+
+      The Closed-Loop control algorithm will:
+
+        1. Suggest adequate insulin delivery for blood glucose control in steady state (overnight);
+
+        2. Cover adequately with an insulin bolus the pre-set carbohydrate content of a breakfast.
+
+      If successful, this study will conceptually prove the feasibility of automated
+      model-predictive closed-loop glucose control in T1DM.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Each patient had an outpatient screening evaluation, and two 22 h overnight hospital
+      admissions separated by a 2- to 4-week waiting period. Each inpatient admission began at
+      15:00 and ended at 13:00 on the following day. Subjects ate dinners and lunches with
+      carbohydrate content that was the same at admission 1 and admission 2 and had identical
+      morning meals of Ensure Plus (Abbott Nutrition, Columbus, OH). Two days before each
+      admission, two Freestyle Navigator CGM devices (Abbott Diabetes Care) continuous glucose
+      monitors were applied to the patient to allow for stabilization of the sensors and for
+      assessment of their performance.
+
+      During admission 1, open-loop control was used, with the subjects' usual insulin routine and
+      their personal insulin pump. During admission 2, an OmniPod Insulin Management System
+      (Insulet Corp.) was inserted and used for closed-loop control of blood glucose. Insulin
+      lispro (Eli Lilly, Indianapolis, IN), chosen based on commercial assays available, was used
+      during both inpatient admissions.
+
+      At the beginning of admission 2, one of the two CGM devices was designated as primary, and
+      the closed-loop control algorithm used the data of that system, unless a problem was
+      detected. At 17:00, the model-predictive control (MPC) was initiated in a data-collection
+      mode, automatically receiving CGM data every minute. Administration of the predinner insulin
+      bolus was overseen by the attending physician. MPC, closed-loop control began at 21:30 and
+      continued until 12:00 the next day for a total of 14.5 h.
+
+      Per FDA restrictions, the algorithm did not automatically control the insulin pump. Instead,
+      the algorithm suggested insulin boluses every 15 min, which, if accepted, were programmed
+      into the insulin pump by the attending physician. This was done for safety reasons, allowing
+      the physician to override insulin delivery suggestions at any time. Reference blood glucose
+      (using a YSI Life Sciences or a Beckman glucose analyzer) was sampled every 30 min. The
+      protocol required switching to more frequent 15 min reference blood glucose sampling if
+      hypoglycemia occurred or was imminent. Fast-acting carbohydrate (glucose tablets or fruit
+      juice) was given when reference blood glucose fell below 3.9 mmol/liter, regardless of the
+      CGM readings.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2008</start_date>
+  <completion_date type="Actual">February 2009</completion_date>
+  <primary_completion_date type="Actual">February 2009</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Occurrence of Hypoglycemic Episodes</measure>
+    <time_frame>Overnight (21:30 until 08:00)</time_frame>
+    <description>Hypoglycemic events were defined as below 3.9 mmol/liter and the percentage of time within the range of 3.9 to 7.8 mmol/liter overnight (21:30 until 08:00) as measured by reference blood glucose (YSI or Beckman Glucose Analyzer).</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">12</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>Closed-Loop Model Predictive Control (MPC)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Insulin dosing was performed by a model-predictive control (MPC) algorithm.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open-Loop</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Insulin dosing was performed by the patient (using their normal routine and personal insulin pump) under a physician's supervision.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Closed-Loop, Model Predictive Control (MPC)</intervention_name>
+    <description>Subjects used the OmniPod Insulin Management System (Insulet Corp.) and Insulin lispro (Eli Lilly, Indianapolis, IN). MPC algorithm suggested insulin boluses every 15 min, which, if accepted, were programmed into the insulin pump by the attending physician. Otherwise, the admission remained the same as in the open-loop admission (i.e. meals, sleep, etc...).</description>
+    <arm_group_label>Closed-Loop Model Predictive Control (MPC)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Open-Loop</intervention_name>
+    <description>This admission was to assess the subjects' level of glucose control and created a base to compare the performance of the closed-loop system. Subjects monitored their own blood glucose values and administer their basal/bolus as they would at home. Subjects used their own insulin pumps and Insulin lispro (Eli Lilly, Indianapolis, IN). Otherwise, the admission remained the same as in the closed-loop admission (i.e. meals, sleep, etc...).</description>
+    <arm_group_label>Open-Loop</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  21 years of age or older
+
+          -  Have Type 1 Diabetes Mellitus as defined by American Diabetes Association criteria or
+             judgment of physician for at least 2 years (including those who may also be treated
+             with metformin, thiazolidinedione, exenatide, or pramlintide).
+
+          -  Use of an insulin pump
+
+          -  If on antihypertensive, thyroid, anti-depressant or lipid lowering medication, have
+             stability on the medication for at least 1 month prior to enrollment in the study
+
+          -  Willingness to use lispro (Humalog) insulin for the duration of the inpatient study
+
+          -  Demonstration of proper mental status and cognition for the study
+
+        Exclusion Criteria:
+
+          -  Age &lt;21
+
+          -  Pregnancy
+
+          -  Hematocrit &lt;36% (females); &lt;38% (males)
+
+          -  Symptomatic coronary artery disease (e.g. history of myocardial infarction, history of
+             acute coronary syndrome, history of therapeutic coronary intervention, history of
+             coronary bypass or stenting procedure, stable or unstable angina, episode of chest
+             pain of cardiac etiology with documented EKG changes, positive stress test or
+             catheterization with coronary blockages &gt;50%).
+
+          -  Congestive heart failure
+
+          -  History of a cerebrovascular event
+
+          -  Use of a medication that significantly impacts glucose metabolism (oral steroids)
+
+          -  Atrial fibrillation
+
+          -  Uncontrolled hypertension (resting blood pressure &gt;140/90)
+
+          -  History of a systemic or deep tissue infection with methicillin-resistant staph aureus
+             or Candida albicans
+
+          -  Use of a device that may pose electromagnetic compatibility issues and/or
+             radiofrequency interference with the FreeStyle NavigatorTM CGM (implantable
+             cardioverter-defibrillator, electronic pacemaker, neurostimulator, intrathecal pump,
+             and cochlear implants)
+
+          -  Active enrollment in another clinical trial
+
+          -  Allergy or adverse reaction to lispro insulin
+
+          -  Known adrenal gland problem, pancreatic tumor, or insulinoma
+
+          -  Current alcohol abuse, substance abuse, or severe mental illness
+
+          -  Retinopathy and renal failure
+
+          -  Uncontrolled anxiety or panic disorder
+
+          -  Known bleeding diathesis or dyscrasia
+
+          -  Renal insufficiency (creatinine &gt;1.5)
+
+          -  Any comorbid condition affecting glucose metabolism
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Boris P Kovatchev, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Virginia</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22904</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Kovatchev B, Cobelli C, Renard E, Anderson S, Breton M, Patek S, Clarke W, Bruttomesso D, Maran A, Costa S, Avogaro A, Dalla Man C, Facchinetti A, Magni L, De Nicolao G, Place J, Farret A. Multinational study of subcutaneous model-predictive closed-loop control in type 1 diabetes mellitus: summary of the results. J Diabetes Sci Technol. 2010 Nov 1;4(6):1374-81.</citation>
+    <PMID>21129332</PMID>
+  </reference>
+  <verification_date>August 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 15, 2009</study_first_submitted>
+  <study_first_submitted_qc>September 15, 2009</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 16, 2009</study_first_posted>
+  <results_first_submitted>September 12, 2011</results_first_submitted>
+  <results_first_submitted_qc>August 8, 2014</results_first_submitted_qc>
+  <results_first_posted type="Estimate">August 25, 2014</results_first_posted>
+  <last_update_submitted>August 25, 2014</last_update_submitted>
+  <last_update_submitted_qc>August 25, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">September 4, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Boris Kovatchev, PhD</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Artificial pancreas</keyword>
+  <keyword>Closed-Loop control</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+  </intervention_browse>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Adults With Type 1 Diabetes</title>
+          <description>During admission 1, open-loop control was used, with the subjects’ usual insulin routine and their personal insulin pump.
+At the beginning of admission 2 (closed-loop control), one of the two CGM devices was designated as primary, and the closed-loop control algorithm used the data of that system, unless a problem was detected. At 17:00, the model-predictive control (MPC) was initiated in a data-collection mode, automatically receiving CGM data every minute. Administration of the predinner insulin bolus was overseen by the attending physician. MPC, closed-loop control began at 21:30 and continued until 12:00 the next day for a total of 14.5 h. Per FDA restrictions, the algorithm did not automatically control the insulin pump. Instead, the algorithm suggested insulin boluses every 15 min, which, if accepted, were programmed into the insulin pump by the attending physician.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="12"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Completion of Open-Loop Admission</title>
+              <participants_list>
+                <participants group_id="P1" count="12"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Completion of Closed-Loop Admission</title>
+              <participants_list>
+                <participants group_id="P1" count="11"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="11"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Adults With Type 1 Diabetes</title>
+          <description>During admission 1, open-loop control was used, with the subjects’ usual insulin routine and their personal insulin pump.
+At the beginning of admission 2 (closed-loop control), one of the two CGM devices was designated as primary, and the closed-loop control algorithm used the data of that system, unless a problem was detected. At 17:00, the model-predictive control (MPC) was initiated in a data-collection mode, automatically receiving CGM data every minute. Administration of the predinner insulin bolus was overseen by the attending physician. MPC, closed-loop control began at 21:30 and continued until 12:00 the next day for a total of 14.5 h. Per FDA restrictions, the algorithm did not automatically control the insulin pump. Instead, the algorithm suggested insulin boluses every 15 min, which, if accepted, were programmed into the insulin pump by the attending physician.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="11"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="41.17" spread="10.31"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Occurrence of Hypoglycemic Episodes</title>
+        <description>Hypoglycemic events were defined as below 3.9 mmol/liter and the percentage of time within the range of 3.9 to 7.8 mmol/liter overnight (21:30 until 08:00) as measured by reference blood glucose (YSI or Beckman Glucose Analyzer).</description>
+        <time_frame>Overnight (21:30 until 08:00)</time_frame>
+        <population>Only participants who completed both study periods were considered for this assessment.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Experimental: Closed-Loop Model Predictive Control (MPC)</title>
+            <description>Insulin dosing was performed by a model-predictive control (MPC) algorithm.</description>
+          </group>
+          <group group_id="O2">
+            <title>Control: Open-Loop</title>
+            <description>Insulin dosing was performed by the patient (using their normal routine and personal insulin pump) under a physician's supervision.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Occurrence of Hypoglycemic Episodes</title>
+          <description>Hypoglycemic events were defined as below 3.9 mmol/liter and the percentage of time within the range of 3.9 to 7.8 mmol/liter overnight (21:30 until 08:00) as measured by reference blood glucose (YSI or Beckman Glucose Analyzer).</description>
+          <population>Only participants who completed both study periods were considered for this assessment.</population>
+          <units>Hypoglycemic Episodes</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="11"/>
+                <count group_id="O2" value="11"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5"/>
+                    <measurement group_id="O2" value="23"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Adults With Type 1 Diabetes</title>
+          <description>During admission 1, open-loop control was used, with the subjects' usual insulin routine and their personal insulin pump.
+At the beginning of admission 2 (closed-loop control), one of the two CGM devices was designated as primary, and the closed-loop control algorithm used the data of that system, unless a problem was detected. At 17:00, the model-predictive control (MPC) was initiated in a data-collection mode, automatically receiving CGM data every minute. Administration of the predinner insulin bolus was overseen by the attending physician. MPC, closed-loop control began at 21:30 and continued until 12:00 the next day for a total of 14.5 h. Per FDA restrictions, the algorithm did not automatically control the insulin pump. Instead, the algorithm suggested insulin boluses every 15 min, which, if accepted, were programmed into the insulin pump by the attending physician.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Boris Kovatchev, Ph.D./Principal Investigator</name_or_title>
+      <organization>University of Virginia</organization>
+      <phone>434-982-6479</phone>
+      <email>pcm9b@virginia.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

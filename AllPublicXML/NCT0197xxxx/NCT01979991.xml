@@ -1,0 +1,157 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01979991</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HUM00038447</org_study_id>
+    <nct_id>NCT01979991</nct_id>
+  </id_info>
+  <brief_title>Model-Based Image Reconstruction for X-Ray CT in Lung Imaging</brief_title>
+  <official_title>Model-Based Image Reconstruction for X-Ray CT in Lung Imaging</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Michigan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institutes of Health (NIH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>General Electric</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Michigan</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To develop a computer program that will improve CT image quality and decrease the amount of
+      x-ray radiation that future patients may be exposed to when they have a CT examination.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      We will be asking patients for their permission to save and use the sinogram from their CT
+      scan. The sinogram will be de-identified and sent to an archive system for storage. It will
+      be exported to a computer for processing using MBIR (model based iterative reconstruction).
+      MBIR (model based iterative reconstruction) is a new method being developed to process CT
+      sinograms. The newly reconstructed images will be reviewed by experts to determine if they
+      are as readable and accurate as CT images created with the software that is currently being
+      used. Sinogram data and the reconstructed images will be shared with collaborating
+      researchers at General Electric Global Research.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2010</start_date>
+  <completion_date type="Actual">December 2015</completion_date>
+  <primary_completion_date type="Actual">March 2015</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Developement of a computer program to improve CT image quality</measure>
+    <time_frame>6 years</time_frame>
+    <description>Sinograms will be retrieved by an archive system and processed by MBIR (model-based image reconstruction) methods that we are developing that improve image quality (reduce noise, improve spatial resolution, reduce artifacts). We will evaluate the image quality both quantitatively and qualitatively.
+We hope to develop and benchmark methods for algorithm acceleration to enable routine clinical use of MBIR (model-based image reconstruction) methods.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">184</enrollment>
+  <condition>Lung Diseases</condition>
+  <arm_group>
+    <arm_group_label>CT Imaging and Reconstruction</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>To develop a MBIR (model-based image reconstruction) method that will improve X-ray CT lung imaging by improving image quality and reducing dose.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>CT Imaging and Reconstruction</intervention_name>
+    <description>Patients will be consented for their permission to save and use the sinogram from their CT chest/lung scan. The sinogram will be de-identified and sent to an archive system for storage.
+Later it will be exported to a computer for processing using MBIR (model based image reconstruction). The newly processed images will then be read by blinded readers. The quality of the images will be reviewed to determine if they are as readable and accurate as CT images created with the software that is currently being used.</description>
+    <arm_group_label>CT Imaging and Reconstruction</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        1. 18 years of age and older 2. No medical or psychiatric condition precluding informed
+        consent
+
+        Exclusion Criteria:
+
+          1. Inability to lie flat on the back with arms raised over the head for 30min.
+
+          2. Metallic implants or metallic devices in the chest or back.
+
+          3. Participation in other research trials involving ionizing radiation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jeffrey Fessler, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Michigan Hospital</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jeffrey Fessler, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Michigan</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Michigan Hospital</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 1, 2013</study_first_submitted>
+  <study_first_submitted_qc>November 1, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 8, 2013</study_first_posted>
+  <last_update_submitted>February 3, 2016</last_update_submitted>
+  <last_update_submitted_qc>February 3, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">February 5, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Michigan</investigator_affiliation>
+    <investigator_full_name>Jeffrey Fessler PhD.</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

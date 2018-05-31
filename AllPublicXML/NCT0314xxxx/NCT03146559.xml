@@ -1,0 +1,207 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03146559</url>
+  </required_header>
+  <id_info>
+    <org_study_id>loe003516CTIL</org_study_id>
+    <nct_id>NCT03146559</nct_id>
+  </id_info>
+  <brief_title>Using EMG of the Healthy Hand to Control TENS of the Affected Hand in Hemiparetic Patients</brief_title>
+  <official_title>Using EMG of the Healthy Hand to Control TENS of the Affected Hand in Hemiparetic Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Nachum Soroker, MD</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Tel Aviv University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Loewenstein Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to investigate learning transfer from the healthy hand to the
+      paretic hand in stroke patients. EMG signals from the healthy hand - while performing wrist
+      dorsi flexion movement - will be used to activate electric muscles stimulation of the dorsi
+      flexors of the paretic hand.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      14 post-stroke subjects will be recruited from neurological rehabilitation department at
+      Loewenstein rehabilitation hospital, Ra`anana, Israel. The patients will be randomly assigned
+      to one of two groups: 1) Experimental group. 2) Control group. The 3 weeks intervention (15
+      sessions) in each group will include electric muscles stimuli (pulse rate 35-100Hz pulse
+      width 200 microseconds, 5 sec on and 10 sec rest ) of the hemiparetic hand for 15 minutes.
+      The patients in the experimental group will wear a wireless Bluetooth EMG (&quot;Myo&quot; bracelet) on
+      their healthy forearm and when they will execute wrist dorsi flexion, the data will be
+      transmitted to a PC which will be used to activate (via Arduino controller) a Transcutaneous
+      Electric Nerve Stimulator (TENS) that is attached to the paretic dorsi flexors (electrodes
+      are placed on the paretic forearm). The control group will get only automatic stimuli on the
+      paretic forearm via the TENS.
+
+      The assessments will be done before the intervention, at the end of three weeks of
+      intervention, and after 1 month from the end of the intervention (follow up).
+
+      The outcomes will include: active range of motion of fingers and wrist dorsi flexion (using
+      cybermin 5DT glove for digital measures), upper limb section of Fugl-Meyer test, Box and
+      Blocks test and Jebsen Taylor Hand Function Test. Only before the beginning of the
+      intervention the sensory ability of the patient will be assessed using the Sensory section of
+      Fugl-Meyer (FM) and Semmes-Weinstein filaments for superficial sensation. Normalized lesion
+      data will be computed using the ABLE module within MEDx software (Medical Numerics).
+
+      Differences between groups will be calculated using t-tests or Mann-Whitney, depending on
+      distribution of normality with corrections for multiple comparisons.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 25, 2017</start_date>
+  <completion_date type="Anticipated">May 2018</completion_date>
+  <primary_completion_date type="Anticipated">May 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Double (Participant, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in active range of motion of wrist dorsi flexion and fingers extension</measure>
+    <time_frame>Baseline, after 3 weeks of intervention and one month after the end of the intervention (follow up).</time_frame>
+    <description>The ability of the paretic hand to produce active range of motion (ROM) of paretic fingers and wrist by using digital measurements with 5DT Cybermin glove.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in Fugl-Meyer Assessment</measure>
+    <time_frame>Baseline, after 3 weeks of intervention and one month after the end of the intervention (follow up).</time_frame>
+    <description>Score of 66 point indicate normal motor functioning of upper limb</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Box and Blocks test</measure>
+    <time_frame>Baseline, after 3 weeks of intervention and one month after the end of the intervention (follow up).</time_frame>
+    <description>Number of cubes transferred from one side of cube (chamber) to the other side of the cube within a minute</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Jebsen Taylor Hand Function Test</measure>
+    <time_frame>Baseline, after 3 weeks of intervention and one month after the end of the intervention (follow up).</time_frame>
+    <description>Time of performance of different task, mimicking activity of daily living, is measured.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">14</enrollment>
+  <condition>Stroke</condition>
+  <arm_group>
+    <arm_group_label>EMG and TENS</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Wireless Bluetooth EMG (&quot;Myo&quot;) bracelet will be placed on the healthy forearm. A voluntary dorsi flexion of the healthy wrist produces data that will be transmitted to a PC and will be used to activate (via Arduino controller) a Transcutaneous Electric Nerve Stimulator (TENS), placed on the paretic forearm, that will stimulate wrist dorsi flexors.
+5 days per week, for 3 weeks, 15 minutes per day.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>TENS only</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Custom-built software &amp; hardware: PC + Arduino controller and Transcutaneous Electric Nerve Stimulator (TENS) device, will be used to stimulate wrist dorsi flexors of the paretic forearm.
+5 days per week, for 3 weeks, 15 minutes per day.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>EMG and TENS</intervention_name>
+    <description>Healthy hand EMG signal measured while making voluntarily wrist dorsi flexion will activate TENS, which will be placed on the paretic forearm and will produce wrist dorsi flexion.</description>
+    <arm_group_label>EMG and TENS</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>TENS only</intervention_name>
+    <description>Automatic TENS stimuli to the paretic dorsi flexors (i.e., producing wrist dorsi flexion).</description>
+    <arm_group_label>TENS only</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  First stroke
+
+          -  Age 25-80 years
+
+          -  Able to understand research instructions
+
+        Exclusion Criteria:
+
+          -  Unstable clinical/metabolic state
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>25 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sivi Frenkel-Toledo, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Loewenstein Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Silvi Frenkel-Toledo</last_name>
+    <phone>972545509413</phone>
+    <email>silvi197@bezeqint.net</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Nachum Soroker, MD</last_name>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Loewenstain hospital</name>
+      <address>
+        <city>Raanana</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Nachum Soroker, MD</last_name>
+      <email>nachums@clalit.org.il</email>
+    </contact>
+    <contact_backup>
+      <last_name>Silvi Frenkel-Toledo, PhD</last_name>
+      <phone>972545509413</phone>
+      <email>silvi197@bezeqint.net</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>August 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 7, 2017</study_first_submitted>
+  <study_first_submitted_qc>May 7, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 10, 2017</study_first_posted>
+  <last_update_submitted>August 24, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 24, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 25, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Loewenstein Hospital</investigator_affiliation>
+    <investigator_full_name>Nachum Soroker, MD</investigator_full_name>
+    <investigator_title>head, Department of neurologic rehabilitation, Loewenstein</investigator_title>
+  </responsible_party>
+  <keyword>Cross education</keyword>
+  <keyword>EMG</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

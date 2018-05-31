@@ -1,0 +1,607 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02020863</url>
+  </required_header>
+  <id_info>
+    <org_study_id>UCIANES03</org_study_id>
+    <nct_id>NCT02020863</nct_id>
+  </id_info>
+  <brief_title>Closed-Loop Fluid Administration System Using Hemodynamic Monitors</brief_title>
+  <official_title>Closed-Loop Fluid Administration System Using Hemodynamic Monitors</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, Irvine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of California, Irvine</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate the feasibility of a closed-loop (automated) fluid
+      administration system to deliver fluids using feedback from standard operating room
+      hemodynamic monitors. In standard anesthesia care the rate of IV fluid administration to the
+      patient is determined by the anesthesiologist caring for the patient. In this study protocol,
+      the rate of fluid administration will be determined instead by the closed-loop (automated)
+      control system under the supervision of the anesthesiologist. The system will independently
+      decide when to give fluid and at what rate; the supervising anesthesiologist will monitor the
+      system to ensure appropriate volumes are being delivered and to intervene if necessary.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In our protocol we will test the hypothesis that closed-loop fluid administration can
+      maintain higher cardiac stroke volume (shown to improve patient outcomes after surgery) than
+      anesthesiologist management. We have shown this to be the case in multiple simulation studies
+      and in-vivo animal studies, but not yet experimentally in a clinical setting. Investigators
+      will recruit their patients from the surgical record that that require cardiac output
+      monitoring undergoing surgery and require mechanical ventilation and consent to participate
+      in the study will be included in the study. They will receive standard patient care in that
+      in no way will their anesthetic or surgical procedure will be altered as part of the study,
+      with the exception of fluid administration. Fluids are usually given to a patient based on
+      the physician's discretion. As part of the study patients will receive fluid management via a
+      closed loop (automated) system that will use an infusion pump (Q-Core) and a controller (a
+      computer run index and algorithm developed by Sironis) to make frequent, regular and accurate
+      adjustments to the amount of fluid the patient receives using feedback from standard
+      operating room monitors at UCI). Data from this study will be retrospectively compared to
+      subjects case matched to evaluate differences in cardiac output, total fluid given, and
+      patient outcomes.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2012</start_date>
+  <completion_date type="Actual">May 2014</completion_date>
+  <primary_completion_date type="Actual">May 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Fluid Status During Surgery</measure>
+    <time_frame>Duration of Surgery, up to 8 hours</time_frame>
+    <description>The primary outcome between groups is preload independence, defined as % case time where Stroke Volume Variation (SVV) is ≤12%.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">40</enrollment>
+  <condition>Intraoperative Volume Status</condition>
+  <condition>Postoperative Complications</condition>
+  <arm_group>
+    <arm_group_label>Closed Loop</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Study patients will receive a baseline crystalloid infusion of 3 cc/kg/hr and all additional fluid management will be performed via a closed loop (automated) system that will determine rate, amount, and timing of fluid administration.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Closed Loop</intervention_name>
+    <description>Fluid management in the closed loop group will be performed via a closed loop (automated) system that will use an infusion pump (Q-Core) and a controller (a computer run index and algorithm developed by Sironis) to make frequent, regular and accurate adjustments to the amount of fluid the patient receives using feedback from standard operating room monitors.</description>
+    <arm_group_label>Closed Loop</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult subjects (over the age of 18)
+
+          -  Subjects undergoing elective major, abdominal surgery
+
+          -  Subjects requiring general anesthesia and mechanical ventilation
+
+          -  Subjects requiring cardiac output monitoring and an arterial line
+
+        Exclusion Criteria:
+
+          -  Subjects under 18 years of age
+
+          -  Subjects not undergoing surgery
+
+          -  Subjects not requiring general anesthesia or mechanical ventilation
+
+          -  Subjects not requiring cardiac output monitoring or an arterial line
+
+          -  Subjects who are pregnant
+
+          -  Subjects without the capacity to give informed consent
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Maxime Cannesson, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, Irvine</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of California, Irvine Medical Center</name>
+      <address>
+        <city>Orange</city>
+        <state>California</state>
+        <zip>92858</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.sironis.com/</url>
+    <description>Related info</description>
+  </link>
+  <reference>
+    <citation>Rinehart J, Liu N, Alexander B, Cannesson M. Review article: closed-loop systems in anesthesia: is there a potential for closed-loop fluid management and hemodynamic optimization? Anesth Analg. 2012 Jan;114(1):130-43. doi: 10.1213/ANE.0b013e318230e9e0. Epub 2011 Sep 29. Review.</citation>
+    <PMID>21965362</PMID>
+  </reference>
+  <reference>
+    <citation>Bednarski P, Siclari F, Voigt A, Demertzis S, Lau G. Use of a computerized closed-loop sodium nitroprusside titration system for antihypertensive treatment after open heart surgery. Crit Care Med. 1990 Oct;18(10):1061-5.</citation>
+    <PMID>2209031</PMID>
+  </reference>
+  <reference>
+    <citation>Colvin JR, Kenny GN. Development and evaluation of a dual-pump microcomputer-based closed-loop arterial pressure control system. Int J Clin Monit Comput. 1989 Jan;6(1):31-5.</citation>
+    <PMID>2723513</PMID>
+  </reference>
+  <reference>
+    <citation>Blankenship HB, Wallace FD, Pacifico AD. Clinical application of closed-loop postoperative autotransfusion. Med Prog Technol. 1990 May;16(1-2):89-93.</citation>
+    <PMID>2138701</PMID>
+  </reference>
+  <reference>
+    <citation>Bowman RJ, Westenskow DR. A microcomputer-based fluid infusion system for the resuscitation of burn patients. IEEE Trans Biomed Eng. 1981 Jun;28(6):475-9.</citation>
+    <PMID>7287047</PMID>
+  </reference>
+  <reference>
+    <citation>Chaisson NF, Kirschner RA, Deyo DJ, Lopez JA, Prough DS, Kramer GC. Near-infrared spectroscopy-guided closed-loop resuscitation of hemorrhage. J Trauma. 2003 May;54(5 Suppl):S183-92.</citation>
+    <PMID>12768123</PMID>
+  </reference>
+  <reference>
+    <citation>DeBey RK, Westenskow DR, Jordan WS, McJames SW. A urine based control system for fluid infusion. Biomed Sci Instrum. 1987;23:195-8.</citation>
+    <PMID>3607171</PMID>
+  </reference>
+  <reference>
+    <citation>Rinehart J, Alexander B, Le Manach Y, Hofer C, Tavernier B, Kain ZN, Cannesson M. Evaluation of a novel closed-loop fluid-administration system based on dynamic predictors of fluid responsiveness: an in silico simulation study. Crit Care. 2011;15(6):R278. doi: 10.1186/cc10562. Epub 2011 Nov 23.</citation>
+    <PMID>22112587</PMID>
+  </reference>
+  <reference>
+    <citation>Rinehart J, Lee C, Cannesson M, Dumont G. Closed-loop fluid resuscitation: robustness against weight and cardiac contractility variations. Anesth Analg. 2013 Nov;117(5):1110-8. doi: 10.1213/ANE.0b013e3182930050.</citation>
+    <PMID>23835454</PMID>
+  </reference>
+  <reference>
+    <citation>Rinehart J, Lee C, Canales C, Kong A, Kain Z, Cannesson M. Closed-loop fluid administration compared to anesthesiologist management for hemodynamic optimization and resuscitation during surgery: an in vivo study. Anesth Analg. 2013 Nov;117(5):1119-29. doi: 10.1213/ANE.0b013e3182937d61.</citation>
+    <PMID>23835453</PMID>
+  </reference>
+  <reference>
+    <citation>Pearse R, Dawson D, Fawcett J, Rhodes A, Grounds RM, Bennett ED. Early goal-directed therapy after major surgery reduces complications and duration of hospital stay. A randomised, controlled trial [ISRCTN38797445]. Crit Care. 2005;9(6):R687-93. Epub 2005 Nov 8.</citation>
+    <PMID>16356219</PMID>
+  </reference>
+  <reference>
+    <citation>Forget P, Lois F, de Kock M. Goal-directed fluid management based on the pulse oximeter-derived pleth variability index reduces lactate levels and improves fluid management. Anesth Analg. 2010 Oct;111(4):910-4. doi: 10.1213/ANE.0b013e3181eb624f. Epub 2010 Aug 12.</citation>
+    <PMID>20705785</PMID>
+  </reference>
+  <reference>
+    <citation>Rinehart J, Chung E, Canales C, Cannesson M. Intraoperative stroke volume optimization using stroke volume, arterial pressure, and heart rate: closed-loop (learning intravenous resuscitator) versus anesthesiologists. J Cardiothorac Vasc Anesth. 2012 Oct;26(5):933-9. doi: 10.1053/j.jvca.2012.05.015. Epub 2012 Jul 12.</citation>
+    <PMID>22795172</PMID>
+  </reference>
+  <verification_date>April 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 19, 2013</study_first_submitted>
+  <study_first_submitted_qc>December 19, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 25, 2013</study_first_posted>
+  <results_first_submitted>March 8, 2016</results_first_submitted>
+  <results_first_submitted_qc>April 20, 2016</results_first_submitted_qc>
+  <results_first_posted type="Estimate">May 27, 2016</results_first_posted>
+  <last_update_submitted>April 20, 2016</last_update_submitted>
+  <last_update_submitted_qc>April 20, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 27, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, Irvine</investigator_affiliation>
+    <investigator_full_name>Maxime Cannesson</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Postoperative Complications</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Closed Loop</title>
+          <description>Study patients will receive a baseline crystalloid infusion of 3 cc/kg/hr and all additional fluid management will be performed via a closed loop (automated) system that will determine rate, amount, and timing of fluid administration.
+Closed Loop: Fluid management in the closed loop group will be performed via a closed loop (automated) system that will use an infusion pump (Q-Core) and a controller (a computer run index and algorithm developed by Sironis) to make frequent, regular and accurate adjustments to the amount of fluid the patient receives using feedback from standard operating room monitors.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="40"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="35"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="5"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Discovery of Metastatic disease</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Team chose not to place an a line</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Closed Loop</title>
+          <description>Study patients will receive a baseline crystalloid infusion of 3 cc/kg/hr and all additional fluid management will be performed via a closed loop (automated) system that will determine rate, amount, and timing of fluid administration.
+Closed Loop: Fluid management in the closed loop group will be performed via a closed loop (automated) system that will use an infusion pump (Q-Core) and a controller (a computer run index and algorithm developed by Sironis) to make frequent, regular and accurate adjustments to the amount of fluid the patient receives using feedback from standard operating room monitors.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="35"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>&lt;=18 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Between 18 and 65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="23"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;=65 years</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="61.6" spread="12.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Gender</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Female</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Male</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="19"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="35"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Specific Surgical procedure</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Whipple</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Whipple + additional</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Distal pancreatectomy</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Liver resection</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Complex cholecystectomy</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>ASA Physical Status patient classification</title>
+          <description>ASA II A patient with mild systemic disease Mild diseases only without substantive functional limitations.
+ASA III A patient with severe systemic disease Substantive functional limitations; One or more moderate to severe diseases.
+ASA IV A patient with severe systemic disease that is a constant threat to life Examples include (but not limited to): recent ( &lt; 3 months) MI, CVA, TIA, or CAD/stents, ongoing cardiac ischemia or severe valve dysfunction, severe reduction of ejection fraction, sepsis, DIC, ARD or ESRD not undergoing regularly scheduled dialysis</description>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>2</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="28"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>4</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Stroke Volume Index</title>
+          <units>ml per meter-squared</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="44" spread="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Fluid Status During Surgery</title>
+        <description>The primary outcome between groups is preload independence, defined as % case time where Stroke Volume Variation (SVV) is ≤12%.</description>
+        <time_frame>Duration of Surgery, up to 8 hours</time_frame>
+        <population>Closed Loop Study population at Stroke Volume Variation (SVV) ≤12%</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Closed Loop</title>
+            <description>Study patients will receive a baseline crystalloid infusion of 3 cc/kg/hr and all additional fluid management will be performed via a closed loop (automated) system that will determine rate, amount, and timing of fluid administration.
+Closed Loop: Fluid management in the closed loop group will be performed via a closed loop (automated) system that will use an infusion pump (Q-Core) and a controller (a computer run index and algorithm developed by Sironis) to make frequent, regular and accurate adjustments to the amount of fluid the patient receives using feedback from standard operating room monitors.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Fluid Status During Surgery</title>
+          <description>The primary outcome between groups is preload independence, defined as % case time where Stroke Volume Variation (SVV) is ≤12%.</description>
+          <population>Closed Loop Study population at Stroke Volume Variation (SVV) ≤12%</population>
+          <units>percentage of case time</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="40"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="95" spread="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>Closed Loop</title>
+          <description>Study patients will receive a baseline crystalloid infusion of 3 cc/kg/hr and all additional fluid management will be performed via a closed loop (automated) system that will determine rate, amount, and timing of fluid administration.
+Closed Loop: Fluid management in the closed loop group will be performed via a closed loop (automated) system that will use an infusion pump (Q-Core) and a controller (a computer run index and algorithm developed by Sironis) to make frequent, regular and accurate adjustments to the amount of fluid the patient receives using feedback from standard operating room monitors.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="35"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="35"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Maxime Cannesson, PhD</name_or_title>
+      <organization>University of California, Irvine Health</organization>
+      <phone>714- 456-5059</phone>
+      <email>mcanness@uci.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

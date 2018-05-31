@@ -1,0 +1,356 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02970461</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2258</org_study_id>
+    <nct_id>NCT02970461</nct_id>
+  </id_info>
+  <brief_title>Gamifying Patient's Personal Data Validation and Completion in a Personal Health Record</brief_title>
+  <official_title>Gamifying Patient's Personal Data Validation and Completion in a Personal Health Record</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hospital Italiano de Buenos Aires</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Salumedia Tecnologias</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hospital Italiano de Buenos Aires</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A randomized controlled trial design is used to test the efficacy of gamification elements to
+      drive user behavior in a personal health record.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Electronic personal health record systems (PHRs) support patient centered healthcare by
+      making medical records and other relevant information accessible to patients, thus assisting
+      patients in health self-management[1,2]. The Hospital Italiano de Buenos Aires (HIBA) is a
+      private hospital in Buenos Aires, capital of Argentina. It has 500 beds and serves around
+      50,000 patients per month. Its main facilities cover a surface area of 78,000 m² (850,000
+      ft²). The hospital treats both private patients and those derived by social security. It also
+      provides its own Health Maintenance Organization (HMO) being the most important pre-paid
+      healthcare service in Argentina, with about 150,000 clients. HIBA has a Health Information
+      System (HIS) and Electronic Health Records (EHR) since 1998 and implemented a PHR in 2007.
+      The PHR gives patients access to aspects of the EHR related to their Health Care (laboratory,
+      diagnosis, preventive information, medications lists), supports messaging with their
+      physician, scheduling services and medication delivery for Self management, among other
+      things. The majority of HIBA HMO affiliates are enrolled to this PHR. In 2015 HIBA underwent
+      the process of accreditation by the United States Joint Commission[3]. As part of this
+      process, HIBA redefined and refined the EHR/PHR data set, including new fields and regrouping
+      pre-existent ones. EHR/PHR's personal data set is now composed of a series of fields grouped
+      as depicted below. Personal data information is a difficult data set to capture, particularly
+      those regarding social and cultural background information[4]. This data set is not only
+      useful to help better healthcare system management, it is also relevant as it is used for
+      epidemiological and preventive purposes[5-7].
+
+      Gamification is a term used to describe using game elements in non-game environments to
+      enhance user experience[8,9]. It has been incorporated with commercial success into several
+      platforms (Linkedin, Badgeville, Facebook). While over the past years gamification elements
+      have been incorporated in healthcare scenarios there is still little evidence on how
+      effective they are[10-12]. Game elements provide engagement consistent with various theories
+      of motivation[13], positive psychology (e.g., flow)[14], and also provide instant feedback.
+      Feedback is more effective when it provides sufficient and specific information for goal
+      achievement and is presented relatively close in time to the event being evaluated. Feedback
+      can reference individual progress, can make social comparisons, or can refer to task
+      criteria.
+
+      In order to assess whether gamification is an effective tactic to drive PHR users' behavior,
+      an intervention was designed. The investigators used gamification elements such as points,
+      graphical representations and playful attitude to the design and interactions of the Bio page
+      in the Hospital's PHR. These elements provide instant feedback to user actions. A control
+      group with no game elements will be compared with a gamified group to see if these new game
+      elements would increase patient's personal data rectification, validation and completion in
+      the Hospital's PHR. A status variable was created and assigned to all fields according to the
+      following scheme:
+
+        -  Completed: user has modified empty field.
+
+        -  Corrected: user has modified non-empty field.
+
+        -  Verified: user has updated Group but field data has experienced no change.
+
+        -  Validated: user has clicked on the &quot;validate&quot; button.
+
+      EHR/PHR Personal data set
+
+        1. Contact Information
+
+             -  First Name
+
+             -  Last Name
+
+             -  Date of Birth
+
+             -  ID Number
+
+        2. Nationality
+
+             -  Citizenship
+
+             -  Languages Spoken
+
+        3. Place of Residence
+
+             -  Street
+
+             -  Number
+
+             -  Floor
+
+             -  Zip Code
+
+             -  Town
+
+             -  Province
+
+             -  Country
+
+        4. E-Mail
+
+           - E-mail address
+
+        5. Phone Numbers
+
+             -  Home Number
+
+             -  Work Number
+
+             -  Fax
+
+        6. Emergency Contact
+
+             -  First Name
+
+             -  Last Name
+
+             -  Relationship with patient
+
+             -  Address
+
+             -  Phone Number
+
+        7. Billing Information
+
+             -  Street
+
+             -  Number
+
+             -  Floor
+
+             -  Zip Code
+
+             -  Town
+
+             -  Province
+
+             -  Country
+
+        8. Social Aspects
+
+             -  Type of Residence
+
+             -  Living Situation
+
+        9. Education
+
+           - Highest Academic Degree Achieved
+
+       10. Cultural Aspects
+
+           - Religious Belief
+
+       11. Special Needs
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>July 2016</start_date>
+  <completion_date type="Anticipated">December 2016</completion_date>
+  <primary_completion_date type="Anticipated">November 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in Number of Completed Fields</measure>
+    <time_frame>Measured at baseline, 30 days after and 6 months after</time_frame>
+    <description>See &quot;Completed&quot; and &quot;EHR/PHR Personal data set&quot; in Study Detailed Description for more information.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in Number of Corrected Fields</measure>
+    <time_frame>Measured at baseline, 30 days after and 6 months after</time_frame>
+    <description>See &quot;Corrected&quot; and &quot;EHR/PHR Personal data set&quot; in Study Detailed Description for more information.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Number of Validated Fields</measure>
+    <time_frame>Measured at baseline, 30 days after and 6 months after</time_frame>
+    <description>See &quot;Validated&quot; and &quot;EHR/PHR Personal data set&quot; in Study Detailed Description for more information.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">40000</enrollment>
+  <condition>Chronic Disease</condition>
+  <arm_group>
+    <arm_group_label>Control Group</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Subjects will see in their Personal Health Record home page a simple text link pointing to their Bio page. Once in their Bio page, the site will display their personal information as usual with the only addition of a &quot;validate data&quot; button next to any non-validated field. The option to edit fields will also be present.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Gamified Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will see in their Personal Health Record home page a graphical representation of the percentage of completeness their Bio page has that when clicked acts as a link to their Bio page. Once in their Bio page, the site will display graphical elements such grayed out fields, graphical representations of the percentage of completeness for each data group and on mouse hover over any field a tooltip will inform of what percentage of completeness will be awarded if the data is validated. Also, an addition of a &quot;validate data&quot; button next to any non-validated field. The option to edit fields will also be present.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Gamified Group</intervention_name>
+    <description>See Gamified Group in Arms description.</description>
+    <arm_group_label>Gamified Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Control Group</intervention_name>
+    <description>See Control Group in Arms description.</description>
+    <arm_group_label>Control Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients enrolled in the Hospital Italiano de Buenos Aires system who are over 18
+             years old
+
+          -  Patients who are registered in Hospital Italiano de Buenos Aires' Personal Health
+             Record
+
+          -  Patients whose use of the Personal Health Record during the previous year exceeds the
+             median of use
+
+        Exclusion Criteria:
+
+          -  Refusal to participate or to the informed consent process
+
+          -  Subjects with a record of Obsessive Compulsive Disorders or related condition as per
+             DSM IV
+
+          -  Subjects with a record of Neurological conditions that could impair reading (aphasia,
+             dementia, etc)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Carlos Bonofiglio, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Hospital Italiano de Buenos Aires</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Hospital Italiano de Buenos Aires, Gascon 450</name>
+      <address>
+        <city>Buenos Aires</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Argentina</country>
+  </location_countries>
+  <reference>
+    <citation>Cahill JE, Gilbert MR, Armstrong TS. Personal health records as portal to the electronic medical record. J Neurooncol. 2014 Mar;117(1):1-6. doi: 10.1007/s11060-013-1333-x. Epub 2014 Jan 30. Review.</citation>
+    <PMID>24477621</PMID>
+  </reference>
+  <reference>
+    <citation>Tang PC, Ash JS, Bates DW, Overhage JM, Sands DZ. Personal health records: definitions, benefits, and strategies for overcoming barriers to adoption. J Am Med Inform Assoc. 2006 Mar-Apr;13(2):121-6. Epub 2005 Dec 15.</citation>
+    <PMID>16357345</PMID>
+  </reference>
+  <reference>
+    <citation>Jci. Joint Commission International Accreditation Standards for Hospitals. Jt Comm Resour Inc. 2013;5th Ed. doi:10.1017/CBO9781107415324.004.</citation>
+  </reference>
+  <reference>
+    <citation>Tang PC, Black W, Young CY. Proposed criteria for reimbursing eVisits: content analysis of secure patient messages in a personal health record system. AMIA Annu Symp Proc. 2006:764-8.</citation>
+    <PMID>17238444</PMID>
+  </reference>
+  <reference>
+    <citation>Tenforde M, Jain A, Hickner J. The value of personal health records for chronic disease management: what do we know? Fam Med. 2011 May;43(5):351-4. Review.</citation>
+    <PMID>21557106</PMID>
+  </reference>
+  <reference>
+    <citation>Kaelber DC, Jha AK, Johnston D, Middleton B, Bates DW. A research agenda for personal health records (PHRs). J Am Med Inform Assoc. 2008 Nov-Dec;15(6):729-36. doi: 10.1197/jamia.M2547. Epub 2008 Aug 28.</citation>
+    <PMID>18756002</PMID>
+  </reference>
+  <reference>
+    <citation>Wells S, Rozenblum R, Park A, Dunn M, Bates DW. Organizational strategies for promoting patient and provider uptake of personal health records. J Am Med Inform Assoc. 2015 Jan;22(1):213-22. doi: 10.1136/amiajnl-2014-003055. Epub 2014 Oct 17.</citation>
+    <PMID>25326601</PMID>
+  </reference>
+  <reference>
+    <citation>Deterding S, Dixon D, Khaled R, Nacke L, Sicart M, O'Hara K. Gamification: Using Game Design Elements in Non-Game Contexts. Proc 2011 Annu Conf Ext Abstr Hum Factors Comput Syst (CHI 2011). 2011:2425-2428. doi:10.1145/1979742.1979575.</citation>
+  </reference>
+  <reference>
+    <citation>Lister C, West JH, Cannon B, Sax T, Brodegard D. Just a fad? Gamification in health and fitness apps. JMIR Serious Games. 2014 Aug 4;2(2):e9. doi: 10.2196/games.3413.</citation>
+    <PMID>25654660</PMID>
+  </reference>
+  <reference>
+    <citation>King D, Greaves F, Exeter C, Darzi A. 'Gamification': influencing health behaviours with games. J R Soc Med. 2013 Mar;106(3):76-8. doi: 10.1177/0141076813480996.</citation>
+    <PMID>23481424</PMID>
+  </reference>
+  <reference>
+    <citation>McKeown S, Krause C, Shergill M, Siu A, Sweet D. Gamification as a strategy to engage and motivate clinicians to improve care. Healthc Manage Forum. 2016 Mar;29(2):67-73. doi: 10.1177/0840470415626528. Epub 2016 Feb 12. Review.</citation>
+    <PMID>26872801</PMID>
+  </reference>
+  <reference>
+    <citation>Ryan RM, Deci EL. Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. Am Psychol. 2000 Jan;55(1):68-78.</citation>
+    <PMID>11392867</PMID>
+  </reference>
+  <reference>
+    <citation>Mihaly Csikszentmihalyi. 1991. Flow: The psychology of optimal experience. HarperCollins Publishers, New York, New York, USA.</citation>
+  </reference>
+  <verification_date>November 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>November 15, 2016</study_first_submitted>
+  <study_first_submitted_qc>November 17, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">November 22, 2016</study_first_posted>
+  <last_update_submitted>November 17, 2016</last_update_submitted>
+  <last_update_submitted_qc>November 17, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">November 22, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>personal health record</keyword>
+  <keyword>gamification</keyword>
+  <keyword>chronic patient care</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Chronic Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

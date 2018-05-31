@@ -1,0 +1,187 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02566499</url>
+  </required_header>
+  <id_info>
+    <org_study_id>B2015:73</org_study_id>
+    <nct_id>NCT02566499</nct_id>
+  </id_info>
+  <brief_title>Performance Assessment of a First Generation Breast Microwave Imaging System: Study of Breast Abnormalities Detection</brief_title>
+  <official_title>Performance Assessment of a First Generation Breast Microwave Imaging System: Study of Breast Abnormalities Detection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Manitoba</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Manitoba</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The main goal of this project is to assess the ability of a recently developed Breast
+      Microwave Imaging (BMI) system to detect abnormalities in a human breast. These trials will
+      be performed by recruiting fourteen volunteers that have been diagnosed with breast
+      abnormalities using x-ray mammography. The breast presenting the abnormality will be imaged
+      using the BMI system in a controlled and comfortable environment. As this is a feasibility
+      study of the technology, and has the main goal to evaluate the diagnostic accuracy of this
+      technology. The data collected from this study will be used to: (1) evaluate the overall
+      participant experience during the BMI imaging procedure, (2) optimize the design of the BMI
+      imaging system (both hardware and software), (3) open discussions with other medical
+      professionals (e.g. radiologists) about the clinical feasibility of this emerging diagnostic
+      imaging modality.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The Breast Microwave Imaging (BMI) system that will be used in this study is designed to
+      detect breast abnormalities using low power microwave waveforms. The system is formed by
+      three main components:
+
+        1. Patient bed. The volunteer will be positioned in this bed in a prone position where with
+           the breast to be imaged in a pendant position.
+
+        2. Instrumentation rack. This component contains all the microwave instrumentation and
+           motion mechanisms required to illuminate the breast using an ultrawide band waveform and
+           record the responses from the breast structures.
+
+        3. Control computer. This component is used to control the motion of the mechanical
+           components of the system and to retrieve the responses from the breast structures from
+           the microwave instruments and store them in an electronic format.
+
+      The system takes between 7.5 to 10 minutes to collect a three dimensional dataset from a
+      single breast.
+
+      The BMI system used in the study operates in the frequency range of 20 megahertz (MHz) to 9
+      gigahertz (GHz). Canadian safety limits for the interaction of these non-ionizing
+      electromagnetic waves with humans are outlined in the Health Canada publication &quot;Safety Code
+      6: Limits of Human Exposure to Radiofrequency Electromagnetic Energy in the Frequency Range
+      from 3 kilohertz (kHz) to 300 GHz [1]. For unregulated environments, the Specific Absorption
+      Rate (SAR) limit set by Health Canada is 1.6 W/Kg. In the system used in this study,
+      radio-frequency energy is generated via the Vector Network Analyzer (VNA). If the VNA is set
+      at its maximum output power, which is 3.2 milliwatt (mW), the power received at 5 cm from the
+      antenna (which is the distance where the breast will be) was measured to be 890 microwatt,
+      which would yield a SAR value of 0.0196 W/kg.
+
+      References
+
+      [1] Consumer and Clinical Radiation Protection Bureau, Limits of Human Exposure to
+      Radiofrequency Electromagnetic Energy in the Frequency Range from 3 kHz to 300 GHz, Health
+      Canada, Ottawa, Ontario, 2015.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">April 1, 2019</start_date>
+  <completion_date type="Anticipated">June 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic Accuracy (NO units)</measure>
+    <time_frame>1 year</time_frame>
+    <description>Diagnostic Accuracy = (TP+TN)/(TP+FP+FN+TN): The fraction of patients that are diagnosed accurately, which is in turn a function of the Sensitivity and Specificity of the test.
+Sensitivity: The probability that a test result will be positive when the disease is present (true-positive fraction) = TP/(TP+FN)
+Specificity: The probability that a test result will be normal when the disease is absent (true-negative fraction) = TN/(FP+TN)
+TP = True Positive TN = True Negative FP = False Positive FN = False Negative</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity (NO units)</measure>
+    <time_frame>1 year</time_frame>
+    <description>Sensitivity: The probability that a test result will be positive when the disease is present (true-positive fraction) = TP/(TP+FN)
+TP = True Positive TN = True Negative FP = False Positive FN = False Negative</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specificity (NO units)</measure>
+    <time_frame>1 year</time_frame>
+    <description>Specificity: The probability that a test result will be normal when the disease is absent (true-negative fraction) = TN/(FP+TN)
+TP = True Positive TN = True Negative FP = False Positive FN = False Negative</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">14</enrollment>
+  <condition>Breast Diseases</condition>
+  <arm_group>
+    <arm_group_label>Abnormal x-ray Mammography group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A Breast Microwave Imaging Procedure will be carried out on volunteers who have abnormal x-ray mammograms, prior to the volunteer undergoing a biopsy to confirm diagnosis (as part of their normal care).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Breast Microwave Imaging</intervention_name>
+    <description>A Breast Microwave Imaging Procedure will be carried out on volunteers who have abnormal x-ray mammograms, prior to the volunteer undergoing a biopsy to confirm diagnosis (as part of their normal care).</description>
+    <arm_group_label>Abnormal x-ray Mammography group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  The volunteers must be at least 40 years old.
+
+          -  The volunteers should have been diagnosed with a breast abnormality using x-ray
+             mammography within the preceding two months.
+
+        Exclusion Criteria:
+
+          -  The volunteers should not have breast implants.
+
+          -  The volunteers should have not yet had a biopsy.
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Stephen Pistorius, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Manitoba</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Stephen Pistorius, Ph.D.</last_name>
+    <phone>204 474 6205</phone>
+    <email>stephen.pistorius@umanitoba.ca</email>
+  </overall_contact>
+  <verification_date>April 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 13, 2015</study_first_submitted>
+  <study_first_submitted_qc>October 1, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">October 2, 2015</study_first_posted>
+  <last_update_submitted>April 30, 2018</last_update_submitted>
+  <last_update_submitted_qc>April 30, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 1, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Medical imaging</keyword>
+  <keyword>Microwaves</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

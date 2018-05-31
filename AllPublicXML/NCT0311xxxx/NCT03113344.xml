@@ -1,0 +1,284 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03113344</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BCH_PPK002</org_study_id>
+    <secondary_id>Yu-Jie Qi</secondary_id>
+    <secondary_id>Wei Zhao</secondary_id>
+    <secondary_id>Hui Qi</secondary_id>
+    <secondary_id>Fei Jin</secondary_id>
+    <secondary_id>Evelyne Jacqz-Aigrain</secondary_id>
+    <secondary_id>Stephanie Leroux</secondary_id>
+    <nct_id>NCT03113344</nct_id>
+  </id_info>
+  <brief_title>Population Pharmacokinetics of Anti-infective Drugs in Children With Infectious Diseases</brief_title>
+  <official_title>Population Pharmacokinetics of Anti-infective Drugs in Children in Anti-infectious Therapies</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Beijing Children's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Shandong University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Robert Debré Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Centre Hospitalier Universitaire de Rennes</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Beijing Children's Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is based on the hypothesis that the pharmacokinetics of anti-infective drugs in
+      children are different from adults. We aim to study the population pharmacokinetics of
+      children receiving the anti-infective drugs for treatment of infectious diseases. In this
+      study, we will detect drug concentration in plasma by using residual blood samples of blood
+      gas analysis and other clinical tests and employ computers for constructing population
+      pharmacokinetic models. In addition, we also want to correlate use of anti-infective drugs
+      with treatment effectiveness and incidence of adverse effects in children. This novel
+      knowledge will allow better and more rational approaches to the treatment of infectious
+      diseases in children. It will also set the foundation for further studies to improve
+      anti-infective drug therapies for children.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      1.Establish population pharmacokinetic (PPK) models of each anti-infective drug in children
+      by nonlinear mixed effect modeling (NONMEM).
+
+        1. At different timepoint after antibiotic administration, plasma samples of 100 children
+           will be collected from neonatal intensive care unit (NICU) and pneumology department for
+           each drug. The clinical information includes demography, medication, concentration data,
+           blood biochemical parameters and so on .
+
+        2. Plasma samples will be tested by high performance liquid chromatography (HPLC).
+
+        3. PPK models of antibiotics will be established by NONMEM program.
+
+        4. The reliability and stability of the PPK model will be evaluated by 1000 times of
+           Bootstrap procedure and normalized predictive distribution error (NPDE).
+
+      2.Evaluation of the clinical feasibility and safety of individualized dosing.
+
+        1. According the results of PPK models, we will use dosages recommended in models to cure
+           children infectious diseases in prospective studies. For each antibiotic, 50 children
+           will be collected.
+
+        2. We will compare the therapeutic effects and safety between children with conventional
+           therapies and children with individualized therapies, including proportions of children
+           with effective drug concentration, improvement speed of of children, liver and kidney
+           functions of of children, adverse reactions of drugs and so on.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 21, 2017</start_date>
+  <completion_date type="Anticipated">December 31, 2025</completion_date>
+  <primary_completion_date type="Anticipated">October 1, 2025</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>18 Years</target_duration>
+  <primary_outcome>
+    <measure>maximum concentration (Cmax)</measure>
+    <time_frame>up to 4 weeks</time_frame>
+    <description>Cmax is a term used in pharmacokinetics refers to the maximum (or peak) serum concentration that a drug achieves in a specified compartment or test area of the body after the drug has been administrated and before the administration of a second dose.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>time to achieve maximum concentration (Tmax)</measure>
+    <time_frame>up to 4 weeks</time_frame>
+    <description>Tmax is the term used in pharmacokinetics to describe the time at which the Cmax is observed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>absorption rate constant (ka)</measure>
+    <time_frame>up to 4 weeks</time_frame>
+    <description>Ka is the rate constant of drug absorption.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>elimination rate constant (kel)</measure>
+    <time_frame>up to 4 weeks</time_frame>
+    <description>The elimination rate constant is a value used in pharmacokinetics to describe the rate at which a drug is removed from the system.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>half-life (t1/2)</measure>
+    <time_frame>up to 4 weeks</time_frame>
+    <description>Half-life is the time required for a quantity to reduce to half its initial value.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">800</enrollment>
+  <condition>Children; Infection</condition>
+  <arm_group>
+    <arm_group_label>Children with the usage of anti-infective drugs</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>cephalosporins,penicillins,macrolides,carbapenems and antiviral drugs</intervention_name>
+    <description>According to the models of population pharmacokinetics,the investigators and want to correlate use of antibiotics with treatment effectiveness and safety in children.</description>
+    <arm_group_label>Children with the usage of anti-infective drugs</arm_group_label>
+    <other_name>latamoxef</other_name>
+    <other_name>ceftriaxone</other_name>
+    <other_name>ceftazidime</other_name>
+    <other_name>ampicillin</other_name>
+    <other_name>penicillin</other_name>
+    <other_name>amoxicillin</other_name>
+    <other_name>erythromycin</other_name>
+    <other_name>azithromycin</other_name>
+    <other_name>meropenem</other_name>
+    <other_name>imipenem</other_name>
+    <other_name>ganciclovir</other_name>
+    <other_name>acyclovir</other_name>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      whole blood and plasma
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Children with anti-infectious therapies.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Children (0-18 years old) with anti-infective therapy against infectious diseases.
+
+          -  The anti-infective therapy includes drugs commonly used in children infectious
+             diseases, for example, cephalosporins (such as latamoxef, ceftazidime, ceftriaxone and
+             so on), penicillins (such as penicillin, amoxicillin, ampicillin and so on),
+             macrolides (such as erythromycin, azithromycin and so on), carbapenems (sucn as
+             meropenem, imipenem and so on) and antiviral drugs (such as ganciclovir, acyclovir and
+             so on).
+
+          -  Children infectious diseases include pneumonia, sepsis, purulent meningitis and other
+             diseases with infection.
+
+          -  Informed consent signed by the parents and/or guardians.
+
+        Exclusion Criteria:
+
+          -  Anti-infective drugs aren't involved in the therapies of children.
+
+          -  It is unable to provide complete medical records or the current condition cannot
+             accept the study process.
+
+          -  Patients are allergic to anti-infective drugs.
+
+          -  Parents and/or guardians do not agree to participate in this study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>A-Dong Shen, Master</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Beijing Children's Hospital of Capital Medical University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Yu-Jie Qi, Master</last_name>
+    <role>Study Director</role>
+    <affiliation>Beijing Children's Hospital of Capital Medical University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Wei Zhao, Doctor</last_name>
+    <role>Study Director</role>
+    <affiliation>Children's Hospital of Hebei Province;Shandong Provincial Qianfoshan Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>A-Dong Shen, Master</last_name>
+    <phone>+86-010-59616898</phone>
+    <email>shenad16@hotmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Beijing Children's Hospital of Capital Medical University</name>
+      <address>
+        <city>Beijing</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Adong Shen, Master</last_name>
+      <phone>13370115087</phone>
+      <email>shenad16@hotmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <results_reference>
+    <citation>Zhao W, Lopez E, Biran V, Durrmeyer X, Fakhoury M, Jacqz-Aigrain E. Vancomycin continuous infusion in neonates: dosing optimisation and therapeutic drug monitoring. Arch Dis Child. 2013 Jun;98(6):449-53. doi: 10.1136/archdischild-2012-302765. Epub 2012 Dec 19.</citation>
+    <PMID>23254142</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Leroux S, Zhao W, Bétrémieux P, Pladys P, Saliba E, Jacqz-Aigrain E; French Society of Neonatology. Therapeutic guidelines for prescribing antibiotics in neonates should be evidence-based: a French national survey. Arch Dis Child. 2015 Apr;100(4):394-8. doi: 10.1136/archdischild-2014-306873. Epub 2015 Jan 27.</citation>
+    <PMID>25628457</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Jacqz-Aigrain E, Leroux S, Zhao W, van den Anker JN, Sharland M. How to use vancomycin optimally in neonates: remaining questions. Expert Rev Clin Pharmacol. 2015;8(5):635-48. doi: 10.1586/17512433.2015.1060124. Epub 2015 Aug 4. Review.</citation>
+    <PMID>26289222</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ramos-Martín V, Johnson A, Livermore J, McEntee L, Goodwin J, Whalley S, Docobo-Pérez F, Felton TW, Zhao W, Jacqz-Aigrain E, Sharland M, Turner MA, Hope WW. Pharmacodynamics of vancomycin for CoNS infection: experimental basis for optimal use of vancomycin in neonates. J Antimicrob Chemother. 2016 Apr;71(4):992-1002. doi: 10.1093/jac/dkv451. Epub 2016 Jan 10.</citation>
+    <PMID>26755499</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Zhao W, Hill H, Le Guellec C, Neal T, Mahoney S, Paulus S, Castellan C, Kassai B, van den Anker JN, Kearns GL, Turner MA, Jacqz-Aigrain E; TINN Consortium. Population pharmacokinetics of ciprofloxacin in neonates and young infants less than three months of age. Antimicrob Agents Chemother. 2014 Nov;58(11):6572-80. doi: 10.1128/AAC.03568-14. Epub 2014 Aug 25.</citation>
+    <PMID>25155587</PMID>
+  </results_reference>
+  <verification_date>December 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 10, 2017</study_first_submitted>
+  <study_first_submitted_qc>April 10, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 13, 2017</study_first_posted>
+  <last_update_submitted>December 17, 2017</last_update_submitted>
+  <last_update_submitted_qc>December 17, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 19, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Beijing Children's Hospital</investigator_affiliation>
+    <investigator_full_name>Adong Shen</investigator_full_name>
+    <investigator_title>Deputy Chief of China National Clinical Research Center for Respiratory Diseases</investigator_title>
+  </responsible_party>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Antiviral Agents</mesh_term>
+    <mesh_term>Penicillins</mesh_term>
+    <mesh_term>Erythromycin</mesh_term>
+    <mesh_term>Cephalosporins</mesh_term>
+    <mesh_term>Anti-Infective Agents</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

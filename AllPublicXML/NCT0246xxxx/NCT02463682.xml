@@ -1,0 +1,388 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02463682</url>
+  </required_header>
+  <id_info>
+    <org_study_id>99796-JPIN</org_study_id>
+    <nct_id>NCT02463682</nct_id>
+  </id_info>
+  <brief_title>Early Feasibility Study of Zone-MPC and HMS With DiAs in the Outpatient Setting</brief_title>
+  <official_title>Early Feasibility Study of a Zone-Model Predictive Control (MPC) Controller and a Health Monitoring System (HMS) With the Diabetes Assistant (DiAS) in the Outpatient Setting</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sansum Diabetes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of California, Santa Barbara</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Mayo Clinic</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Padova</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sansum Diabetes Research Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a feasibility study of an artificial pancreas (AP) system with our previously
+      validated Zone-MPC and Health Monitoring System (HMS) algorithms (ClinicalTraisl.gov:
+      NCT01929798) integrated into the Diabetes Assistant (DiAs) system.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a feasibility study of an artificial pancreas (AP) system with our previously
+      validated Zone-MPC and Health Monitoring System (HMS) algorithms (ClinicalTraisl.gov:
+      NCT01929798) integrated into the Diabetes Assistant (DiAs) system. The system will be
+      evaluated on 2-3 subjects per site (n=6-9 subjects) for 2 weeks at 3 different sites (William
+      Sansum Diabetes Center, University of Virginia, and Mayo Clinic, Rochester, MN). Basal rates
+      will be adjusted in a run-to-run manner by study physicians prior to the closed-loop phase
+      for a maximum of 3 weeks. Subjects will then complete 2 weeks at home use of the Zone-MPC/HMS
+      system using the DIAs platform for a closed-loop feasibility trial. The purpose of this pilot
+      study is to establish that safe day-and-night use of the Zone-MPC/HMS system integrated into
+      the DiAs is achievable in the home environment, to analyze and learn to improve upon the
+      run-to- run optimization process, and to collect efficacy data to inform a future larger
+      study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2015</start_date>
+  <completion_date type="Actual">October 2015</completion_date>
+  <primary_completion_date type="Actual">October 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Safety and efficacy of the system, as assessed by the composite outcome of time in range for glucose levels of 70-180 mg/dL and time &lt; 70 mg/dL.</measure>
+    <time_frame>1 Week</time_frame>
+    <description>The primary endpoint for this pilot study will be to determine the safety and efficacy of the system, as assessed by the composite outcome of time in range for glucose levels of 70-180 mg/dL and time &lt; 70 mg/dL, comparing between sensor-augmented pump use (open loop care) (week 1) to closed-loop care (final week), so as to determine the feasibility of eventual long-term use of the system.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time in range for glucose 80-140 mg/dL</measure>
+    <time_frame>1 Week</time_frame>
+    <description>Time in range for glucose 80-140 mg/dL at all times unless described otherwise.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in range for glucose during the nocturnal period</measure>
+    <time_frame>1 week</time_frame>
+    <description>Time in range for glucose 70-180 mg/dL during the nocturnal period.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in Range Postprandial</measure>
+    <time_frame>1 Week</time_frame>
+    <description>Time in range for glucose 70-180 mg/dL postprandial, for 5 hours following all meals</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Markers of hypo- and hyperglycemia</measure>
+    <time_frame>1 Week</time_frame>
+    <description>Markers of hypo- and hyperglycemia.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Insulin Doses Given</measure>
+    <time_frame>1 Week</time_frame>
+    <description>Change in insulin doses given between the open and closed-loop phases of the study.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Treatments for hypoglycemia</measure>
+    <time_frame>1 week</time_frame>
+    <description>Treatments for hypoglycemia between the open and closed-loop phases of the study.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of alerts given by the HMS to prevent hypoglycemia</measure>
+    <time_frame>2 Weeks</time_frame>
+    <description>Number of alerts given by the HMS to prevent hypoglycemia during closed-Loop control.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Outside interventions needed</measure>
+    <time_frame>2 Weeks</time_frame>
+    <description>Outside interventions needed to aid with treatment during closed-Loop control.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Failure analysis of the devices/connectivity issues that may occur.</measure>
+    <time_frame>2 Weeks</time_frame>
+    <description>Failure analysis of the devices/connectivity issues that may occur during closed-Loop control.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">9</enrollment>
+  <condition>Diabetes Mellitus, Type 1</condition>
+  <arm_group>
+    <arm_group_label>Sensor-Augmented Pump Open-Loop Care (Week 1)</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>The subjects Sensor-Augmented Pump Open-Loop Care for the first week of the study before any adjustments to pump settings.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Closed-Loop Control System with Zone MPC and HMS</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The artificial pancreas system will be allowed to employ its Model Predictive Control algorithm to make decisions about insulin delivery based on measured glucose levels. The Health Monitoring System algorithm uses the same CGM data as the MPC control algorithm but utilizes a separate algorithm for trending and predictions of future glucose values. Using a redundant and independent algorithm is an important safety feature of the overall AP device.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>CGM and Insulin Pump</intervention_name>
+    <description>Dexcom G4 Platinum CGM with Share AP Receiver Roche Accu-Chek insulin pump</description>
+    <arm_group_label>Sensor-Augmented Pump Open-Loop Care (Week 1)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Closed-Loop Control System</intervention_name>
+    <description>The devices that will be used in the Closed-Loop Control System include the following components:
+DiAs - a smart-phone medical platform; Dexcom Dexcom G4 Platinum connected to DiAs via Bluetooth CGM receiver; Roche Accu-Chek insulin pump connected to DiAs via wireless Bluetooth; Remote Monitoring Server connected to DiAs via 3G or local Wi-Fi network, and Zone-MPC and HMS algorithms running on DiAs (MPC and HMS)</description>
+    <arm_group_label>Closed-Loop Control System with Zone MPC and HMS</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinical diagnosis, based on investigator assessment, of type 1 diabetes for at least
+             one year and using insulin for at least 1 year and an insulin pump for at least 6
+             months
+
+          -  Willing to wear the study CGM device for the duration of the study
+
+          -  Age ≥21 to &lt;65 years
+
+          -  HbA1c &lt;10.0%; if HbA1c &lt;6.0% then total daily insulin must be ≥0.5 U/kg
+
+          -  For females, not currently known to be pregnant If female and sexually active, must
+             agree to use a form of contraception to prevent pregnancy while a participant in the
+             study. A negative urine pregnancy test will be required for all premenopausal women
+             who are not surgically sterile. Subjects who become pregnant will be discontinued from
+             the study.
+
+          -  Demonstration of proper mental status and cognition for the study
+
+          -  Currently using insulin-to-carbohydrate ratio to calculate meal bolus sizes
+
+          -  Hypoglycemia awareness as demonstrated by a Clarke Hypoglycemia Unawareness score of 2
+             or lower
+
+          -  Access to internet and cell phone service at home, and a computer for downloading
+             device data
+
+          -  Availability of care partner committed to participating in training activities,
+             knowledgeable at all times of the participant's location, and being present and
+             available to provide assistance when system is being used at night
+
+          -  Commitment to maintaining uninterrupted availability via cell phone and avoiding any
+             overnight travel for the duration the period using the closed-loop system
+
+          -  An understanding of and willingness to follow the protocol and sign the informed
+             consent
+
+        Exclusion Criteria:
+
+          -  Admission for diabetic ketoacidosis in the 12 months prior to enrollment
+
+          -  Severe hypoglycemia resulting in seizure or loss of consciousness in the 12 months
+             prior to enrollment
+
+          -  History of a seizure disorder (except hypoglycemic seizure), unless written clearance
+             is received from a neurologist
+
+          -  Coronary artery disease or heart failure, unless written clearance is received from a
+             cardiologist
+
+          -  History of cardiac arrhythmia (except for benign premature atrial contractions and
+             benign premature ventricular contractions which are permitted)
+
+          -  Cystic fibrosis
+
+          -  A known medical condition that in the judgment of the investigator might interfere
+             with the completion of the protocol such as the following examples:
+
+               -  Inpatient psychiatric treatment in the past 6 months for either the subject or
+                  the subject's primary care giver (i.e., parent or guardian)
+
+               -  Presence of a known adrenal disorder
+
+               -  Abnormal liver function test results (Transaminase &gt;2 times the upper limit of
+                  normal); testing required for subjects taking medications known to affect liver
+                  function or with diseases known to affect liver function
+
+               -  Abnormal renal function test results (calculated GFR &lt;60 mL/min/1.73m2); testing
+                  required for subjects with diabetes duration of greater than 5 years post onset
+                  of puberty
+
+               -  Active gastroparesis
+
+               -  If on antihypertensive, thyroid, anti-depressant or lipid lowering medication,
+                  lack of stability on the medication for the past 2 months prior to enrollment in
+                  the study
+
+               -  Uncontrolled thyroid disease (TSH undetectable or &gt;10 mlU/L); testing required
+                  within three months prior to admission for subjects with a goiter or who are on
+                  thyroid hormone replacement, and within one year otherwise
+
+               -  Abuse of alcohol or recreational drugs
+
+               -  Infectious process not anticipated to resolve prior to study procedures (e.g.
+                  meningitis, pneumonia, osteomyelitis)
+
+          -  A recent injury to body or limb, muscular disorder, use of any medication, any
+             carcinogenic disease, or other significant medical disorder if that injury, medication
+             or disease in the judgment of the investigator will affect the completion of the
+             protocol
+
+          -  Current use of the following drugs and supplements:
+
+               -  Acetaminophen
+
+               -  Any medication being taken to lower blood glucose, such as Pramlintide,
+                  Metformin,GLP-1 Analogs such as Liraglutide, and nutraceuticals intended to lower
+                  blood glucose
+
+               -  Beta blockers
+
+               -  Oral or injectable glucocorticoids
+
+               -  Any other medication that the investigator believes is a contraindication to the
+                  subject's participation
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Francis J Doyle III, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, Santa Barbara/William Sansum Diabetes Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Eyal Dassau, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, Santa Barbara/William Sansum Diabetes Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jordan E Pinsker, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sansum Diabetes Research Institute</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Ananda Basu, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Mayo Clinic, Rochester, MN</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Yogish Kudva, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Mayo Clinic, Rochester, MN</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Boris Kovatchev, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Sue Brown, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Stephen Patek, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Claudio Cobelli, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Padova</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>William Sansum Diabetes Center</name>
+      <address>
+        <city>Santa Barbara</city>
+        <state>California</state>
+        <zip>93111</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mayo Clinic</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Virginia</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22903</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 28, 2015</study_first_submitted>
+  <study_first_submitted_qc>June 3, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 4, 2015</study_first_posted>
+  <last_update_submitted>April 7, 2016</last_update_submitted>
+  <last_update_submitted_qc>April 7, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 11, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Artificial Pancreas</keyword>
+  <keyword>Diabetes Mellitus, Type 1</keyword>
+  <keyword>Autoimmune Diseases</keyword>
+  <keyword>Diabetes Mellitus</keyword>
+  <keyword>Endocrine System Diseases</keyword>
+  <keyword>Glucose Metabolism Disorders</keyword>
+  <keyword>Immune System Diseases</keyword>
+  <keyword>Metabolic Diseases</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

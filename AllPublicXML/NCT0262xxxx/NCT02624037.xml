@@ -1,0 +1,367 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02624037</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GCO 15-1475</org_study_id>
+    <nct_id>NCT02624037</nct_id>
+  </id_info>
+  <brief_title>Precision IFX: Using a Dashboard to Individualize Infliximab Dosage</brief_title>
+  <official_title>Precision IFX: Using a Pharmacokinetic Dashboard to Optimize and Individualize Infliximab Dosage for Pediatric Inflammatory Bowel Disease Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Icahn School of Medicine at Mount Sinai</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Prometheus Laboratories</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Icahn School of Medicine at Mount Sinai</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The introduction of infliximab (IFX) and other monoclonal antibodies (MAbs) targeting tumor
+      necrosis factor (TNF) was a major advancement in the management of inflammatory bowel disease
+      (IBD). These biologics were able to improve the health outcomes of many IBD patients for whom
+      other treatments were neither satisfactory nor sufficient. Despite clear advantages and
+      increased use of these treatments, physicians still see a loss of response in up to 50% of
+      their IBD patients within one year of initiating these therapies. Most of these phenomena are
+      attributed to low drug concentrations in the presence or absence of anti-drug antibodies
+      (ADA).
+
+      The fundamental issue is that approved/on-label dosing of these drug therapies does not take
+      into account the various factors that impact the way an individual's body responds and
+      processes these therapies. Dashboard software systems can quickly integrate patient data and
+      serve as a revolutionary decision-support tool for physicians. The Precision IFX dashboard
+      prototype was specifically developed to facilitate dosing of therapeutic monoclonal
+      antibodies by integrating patient's clinical characteristics and drug concentrations into
+      pharmacokinetic (PK) algorithms. Using clinical observations and patient laboratories, the
+      system provides multiple dosing regimens that could allow the patient to attain and sustain a
+      therapeutic drug trough level.
+
+      Using the Precision IFX dashboard to analyze and forecast optimal dosing regimens with
+      prospectively collected individual patient data, the clinician will select an appropriate
+      dose to actively maintain therapeutic drug trough levels throughout the infliximab
+      maintenance period. This study aims to examine the outcomes of one year of maintenance
+      infusions in IBD patients dosed using the Precision IFX dashboard prototype and compare the
+      results with historical controls.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Therapeutic monoclonal antibodies (MAbs) targeting the tumor necrosis alpha pathway
+      (anti-TNFα, anti-TNF) in the treatment of immune diseases such as rheumatoid arthritis,
+      psoriasis, and inflammatory bowel diseases (IBD) have improved short and long term clinical
+      outcomes. Crohn's Disease (CD) and ulcerative colitis (UC), two main subtypes of IBD, are
+      chronic diseases resulting from immune dysregulation in genetically susceptible individuals.
+      CD and UC are conventionally treated using anti-inflammatory agents including aminosalicylate
+      based therapies (mesalamines), corticosteroids, and antimetabolites such as purine analogs
+      (azathioprine and 6-mercaptopurine) and methotrexate. A high percentage of patients fail to
+      respond or are intolerant to these therapies and require treatment with anti-TNF. However,
+      despite their therapeutic efficacy, approximately 20% of patients show no or limited response
+      during induction therapy (primary non-responders) and in up to 50% of responders, treatment
+      becomes ineffective during maintenance therapy despite initial response (secondary
+      non-responders). Recent publications have underscored substantial variability in patient
+      exposure and response when anti-TNF therapies are administered at the labeled induction and
+      maintenance dose, supporting the need to individualize dosing to account for variability and
+      ensure safe and sustainable efficacy. Suboptimal exposure can be attributed to under-dosing,
+      rapid drug clearance and/or the development of anti-drug antibodies (ADA) and can result in
+      primary or secondary loss of response (LOR). Identifying an individual's effective dose and
+      adjusting the doses of anti-TNF over the course of treatment to maintain effective
+      concentrations is not intuitive.
+
+      Software-guided dosing has been shown to effectively control doses for individual patients
+      and to increase efficiency in clinics. Individualized adaptive dosing using PK models has
+      been undertaken but was a labor-intensive process prior to using dashboard systems. Several
+      dashboard systems already exist to improve dosing in pediatric patients. Clinical use of such
+      systems is still limited, in part because of a lack of familiarity with dashboards,
+      ineffective communication to practicing clinical staff on the use and benefits of such
+      systems to facilitate decision making, and the resources required to use modeling to fully
+      individualize treatment. However in the case of pediatric patients, particularly for those
+      patients dosed based on body size (e.g. mg/kg or mg/m2), the drug exposure in pediatrics is
+      often substantially lower than adult patients making these dosing metrics particularly
+      difficult for patients with low body weight or pediatrics, as has been shown for infliximab.
+      This suggests that pediatric patients would potentially garner the greatest benefit from
+      individualized dosing.
+
+      Until recently, effective use of drug concentrations and biomarkers has been limited by the
+      lack of decision support tools allowing physicians to integrate patient data and generate
+      treatment recommendations. Implementation of adaptive Bayesian dosing in the clinic has not
+      yet gained wide acceptance, and requires careful evaluation and testing. However Bayesian
+      forecasting has been shown to substantially increase the number of patients whose trough
+      phenytoin levels were within the target range and improve clinical outcomes in pediatric
+      oncology patients. Van Lent-Evers at all found that the use of Bayesian adaptive dosing of
+      aminoglycosides offered resulted in higher antibiotic efficacy, shorter hospitalization, and
+      reduced incidence of nephrotoxicity. The authors also found lower treatment costs in patients
+      who were dosed using Bayesian approaches. There have been a number of dashboard systems
+      developed recently for improving treatment in pediatric oncology and infectious disease
+      although these have not yet gained widespread clinical use.
+
+      From a clinician's perspective, it would be highly advantageous to be able to optimize the
+      exposure of MAbs in patients receiving these therapies for disease control. The advent of
+      commercially available drug and ADA concentration assays has indeed improved understanding of
+      why patients are not responding or are losing response while in maintenance. With
+      conventional weight based (on label) dosing, the investigators make the assumption that all
+      patients clear anti-TNF therapies at the same rate and do not take into account
+      inter-individual variability. A model that selects the correct induction dose based on
+      clinical variables that alter clearance and allows clinicians to dose adjust in maintenance
+      as the disease activity, weight, and drug concentrations fluctuate over the course of disease
+      would not only be helpful but also economical. Consistent with the potential advantage of
+      dashboards, a recent evaluation found individualized infliximab dosing reduced treatment
+      costs compared to conventional dosing.
+
+      Presently for infliximab, patients are escalated from 5 mg/kg to 10 mg/kg and without
+      necessarily considering that a patient may benefit from just increasing to 6 mg/kg to
+      maintain therapeutic concentrations based on the dashboard predictions. Moreover it could be
+      that a frequency change in dosing (e.g., from every 8 weeks to every 4 or 6 weeks) should be
+      considered rather than dose escalation which carries significantly more cost than more
+      frequent infusions. Rather than waiting for a patient to declare themselves a failure of the
+      indicated dosing, predictive models can ensure the investigators are dosing correctly up
+      front and being proactive and flexible with dosing regimens.
+
+      The ultimate goal of precision medicine is to utilize new information to optimize therapy for
+      individual patients so that patients are treated with the right dose of the right drug at the
+      right time. Overall, this approach is intended maximize benefit and minimize risk. Research
+      has provided a wealth of new information, but health care providers are not always equipped
+      to collect and manage this information in the patient care setting. Thus, dashboard systems
+      may provide an important decision-support tool to facilitate the use of this new information
+      into patient care.
+
+      The shift from conventional empirical dose adjustments to dashboard facilitated dosing will
+      require access to the models developed during drug development or during post-marketing
+      evaluations. However, prior to routine implementation in clinical use, dashboard systems will
+      need to be designed to merge seamlessly with current clinical practice and the use of these
+      systems will need to be verified by prospective clinical trials showing the benefit of this
+      approach, and education about these systems will have to be made available to practicing
+      physicians.
+
+      Preliminary data of a retroactive study completed using an IFX dashboard prototype showed a
+      there was 0.70 concordance of actual trough values with forecasted trough values when using
+      clinical profiles with laboratory observations from the first maintenance infusion. The
+      dashboard retroactively evaluated dosing regimens for the patients and recommended every 7-8
+      week dosing in 56% of patients who received every 7-8 week. The dashboard system recommended
+      a dose decrease for 52% of subjects and dose increased for 38% of patients. Additionally,
+      71.4% of subjects who developed antibodies were recommended dose changes and/or dosing
+      frequency changes.
+
+      The dashboard system will actively monitor and dose to target a drug trough level of 5 µg/L
+      after the standard induction period is complete. By proactively monitoring and dosing
+      patients, this study hopes to reduce the frequency of subjects losing response due to
+      anti-drug antibody development and to increase the frequency of subjects attaining and
+      sustaining therapeutic drug levels.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>January 2015</start_date>
+  <completion_date type="Anticipated">December 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>drug trough levels</measure>
+    <time_frame>Week 54</time_frame>
+    <description>use of Precision IFX dashboard - frequency of attaining and maintaining target drug trough levels</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>anti-drug antibody level</measure>
+    <time_frame>Week 54</time_frame>
+    <description>use of Precision IFX dashboard reduce - frequency of anti-drug antibody development prior to one year of maintenance therapy</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">800</enrollment>
+  <condition>Inflammatory Bowel Disease</condition>
+  <arm_group>
+    <arm_group_label>Individualized Dosage Precision IFX Dashboard</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A clinician will select a dose and dosing frequency that is populated by a pharmacokinetic dashboard system that monitors and aims to dose patients to maintain a target trough infliximab concentration. Dosage and dosing frequency may vary from each patient.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Individualized Dosage Precision IFX Dashboard</intervention_name>
+    <description>Pharmacokinetic Dashboard Recommended Dosage and Dosing Frequency of Infliximab</description>
+    <arm_group_label>Individualized Dosage Precision IFX Dashboard</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients with Inflammatory Bowel Disease
+
+          -  Patients at least 6 years of age, upper limit of 45 years old
+
+          -  Recently Indicated for (or already scheduled for) infliximab induction as per
+             standard-of-care by treating gastroenterologist
+
+          -  Patient consent/assent and/or parent/guardian consent
+
+        Exclusion Criteria:
+
+          -  Patients do not consent to participate in study
+
+          -  Patients unable to comply with protocol
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>6 Years</minimum_age>
+    <maximum_age>45 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marla C Dubinsky, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Icahn School of Medicine at Mount Sinai</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Becky L Phan, BSc</last_name>
+    <phone>212-824-7785</phone>
+    <email>becky.phan@mssm.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Marla C Dubinsky, MD</last_name>
+    <phone>212-241-5415</phone>
+    <email>marla.dubinsky@mssm.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Susan and Leonard Feinstein Inflammatory Bowel Disease Clinical Center</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Becky L Phan, BSc</last_name>
+      <phone>212-842-7785</phone>
+      <email>becky.phan@mssm.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Marla C Dubinsky, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Baumgart DC, Carding SR. Inflammatory bowel disease: cause and immunobiology. Lancet. 2007 May 12;369(9573):1627-40. Review.</citation>
+    <PMID>17499605</PMID>
+  </reference>
+  <reference>
+    <citation>Travis SP, Stange EF, Lémann M, Oresland T, Chowers Y, Forbes A, D'Haens G, Kitis G, Cortot A, Prantera C, Marteau P, Colombel JF, Gionchetti P, Bouhnik Y, Tiret E, Kroesen J, Starlinger M, Mortensen NJ; European Crohn's and Colitis Organisation. European evidence based consensus on the diagnosis and management of Crohn's disease: current management. Gut. 2006 Mar;55 Suppl 1:i16-35.</citation>
+    <PMID>16481629</PMID>
+  </reference>
+  <reference>
+    <citation>Peyrin-Biroulet L, Deltenre P, de Suray N, Branche J, Sandborn WJ, Colombel JF. Efficacy and safety of tumor necrosis factor antagonists in Crohn's disease: meta-analysis of placebo-controlled trials. Clin Gastroenterol Hepatol. 2008 Jun;6(6):644-53. doi: 10.1016/j.cgh.2008.03.014.</citation>
+    <PMID>18550004</PMID>
+  </reference>
+  <reference>
+    <citation>Seow CH, Newman A, Irwin SP, Steinhart AH, Silverberg MS, Greenberg GR. Trough serum infliximab: a predictive factor of clinical outcome for infliximab treatment in acute ulcerative colitis. Gut. 2010 Jan;59(1):49-54. doi: 10.1136/gut.2009.183095.</citation>
+    <PMID>19651627</PMID>
+  </reference>
+  <reference>
+    <citation>Takeuchi T, Miyasaka N, Inoue K, Abe T, Koike T; RISING study. Impact of trough serum level on radiographic and clinical response to infliximab plus methotrexate in patients with rheumatoid arthritis: results from the RISING study. Mod Rheumatol. 2009;19(5):478-87. doi: 10.1007/s10165-009-0195-8. Epub 2009 Jul 22.</citation>
+    <PMID>19626391</PMID>
+  </reference>
+  <reference>
+    <citation>Imaeda H, Takahashi K, Fujimoto T, Bamba S, Tsujikawa T, Sasaki M, Fujiyama Y, Andoh A. Clinical utility of newly developed immunoassays for serum concentrations of adalimumab and anti-adalimumab antibodies in patients with Crohn's disease. J Gastroenterol. 2014 Jan;49(1):100-9. doi: 10.1007/s00535-013-0803-4. Epub 2013 Apr 11.</citation>
+    <PMID>23575576</PMID>
+  </reference>
+  <reference>
+    <citation>Billioud V, Sandborn WJ, Peyrin-Biroulet L. Loss of response and need for adalimumab dose intensification in Crohn's disease: a systematic review. Am J Gastroenterol. 2011 Apr;106(4):674-84. doi: 10.1038/ajg.2011.60. Epub 2011 Mar 15. Review.</citation>
+    <PMID>21407178</PMID>
+  </reference>
+  <reference>
+    <citation>Miskulin DC, Weiner DE, Tighiouart H, Ladik V, Servilla K, Zager PG, Martin A, Johnson HK, Meyer KB; Medical Directors of Dialysis Clinic Inc. Computerized decision support for EPO dosing in hemodialysis patients. Am J Kidney Dis. 2009 Dec;54(6):1081-8. doi: 10.1053/j.ajkd.2009.07.010. Epub 2009 Sep 25.</citation>
+    <PMID>19781831</PMID>
+  </reference>
+  <reference>
+    <citation>Montazeri A, Culine S, Laguerre B, Pinguet F, Lokiec F, Albin N, Goupil A, Déporte-Féty R, Bugat R, Canal P, Chatelut E. Individual adaptive dosing of topotecan in ovarian cancer. Clin Cancer Res. 2002 Feb;8(2):394-9.</citation>
+    <PMID>11839654</PMID>
+  </reference>
+  <reference>
+    <citation>Barrett JS, Mondick JT, Narayan M, Vijayakumar K, Vijayakumar S. Integration of modeling and simulation into hospital-based decision support systems guiding pediatric pharmacotherapy. BMC Med Inform Decis Mak. 2008 Jan 28;8:6. doi: 10.1186/1472-6947-8-6.</citation>
+    <PMID>18226244</PMID>
+  </reference>
+  <reference>
+    <citation>Holford SD, Holford NHG, Anderson BJ. Online dose calculation tool for determining dosing regimens in the very young. PAGANZ website. http://www.paganz.org/wp-content/uploads/2013/01/Online-dose-calculation-tool-for-determining-dosing-regimens-in-the-very-young1.pdf. Accessed July 5, 2013.</citation>
+  </reference>
+  <reference>
+    <citation>Shaw G. Clinical modeling hits prime time. Drug Discovery and Development website. http://www.dddmag.com/articles/2007/09/clinical-modeling-hits-prime-time. Published September 6, 2007. Accessed July, 5 2013.</citation>
+  </reference>
+  <reference>
+    <citation>Xu Z, Davis HM, Zhou H. Rational development and utilization of antibody-based therapeutic proteins in pediatrics. Pharmacol Ther. 2013 Feb;137(2):225-47. doi: 10.1016/j.pharmthera.2012.10.005. Epub 2012 Oct 23. Review.</citation>
+    <PMID>23092685</PMID>
+  </reference>
+  <reference>
+    <citation>Xu Z, Mould DR, Hu C, Ford J, Keen M, Davis HM, Zhou H. &quot;A Population-Based Pharmacokinetic Pooled Analysis of Infliximab in Pediatrics&quot; ACCP National Meeting 2012 San Diego CA.</citation>
+  </reference>
+  <reference>
+    <citation>Tobler A, Mühlebach S. Intravenous phenytoin: a retrospective analysis of Bayesian forecasting versus conventional dosing in patients. Int J Clin Pharm. 2013 Oct;35(5):790-7. doi: 10.1007/s11096-013-9809-5. Epub 2013 Jun 29.</citation>
+    <PMID>23812678</PMID>
+  </reference>
+  <reference>
+    <citation>Evans WE, Relling MV, Rodman JH, Crom WR, Boyett JM, Pui CH. Conventional compared with individualized chemotherapy for childhood acute lymphoblastic leukemia. N Engl J Med. 1998 Feb 19;338(8):499-505.</citation>
+    <PMID>9468466</PMID>
+  </reference>
+  <reference>
+    <citation>van Lent-Evers NA, Mathôt RA, Geus WP, van Hout BA, Vinks AA. Impact of goal-oriented and model-based clinical pharmacokinetic dosing of aminoglycosides on clinical outcome: a cost-effectiveness analysis. Ther Drug Monit. 1999 Feb;21(1):63-73.</citation>
+    <PMID>10051056</PMID>
+  </reference>
+  <reference>
+    <citation>Steenholdt C, Brynskov J, Thomsen OØ, Munck LK, Fallingborg J, Christensen LA, Pedersen G, Kjeldsen J, Jacobsen BA, Oxholm AS, Kjellberg J, Bendtzen K, Ainsworth MA. Individualised therapy is more cost-effective than dose intensification in patients with Crohn's disease who lose response to anti-TNF treatment: a randomised, controlled trial. Gut. 2014 Jun;63(6):919-27. doi: 10.1136/gutjnl-2013-305279. Epub 2013 Jul 22.</citation>
+    <PMID>23878167</PMID>
+  </reference>
+  <verification_date>December 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 3, 2015</study_first_submitted>
+  <study_first_submitted_qc>December 7, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 8, 2015</study_first_posted>
+  <last_update_submitted>December 5, 2017</last_update_submitted>
+  <last_update_submitted_qc>December 5, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 7, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Inflammatory Bowel Disease, Ulcerative Colitis</keyword>
+  <keyword>Crohn's Disease</keyword>
+  <keyword>Pharmacokinetics, Individualized Dosage, Dashboard System</keyword>
+  <keyword>Remicade, Infliximab</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Intestinal Diseases</mesh_term>
+    <mesh_term>Inflammatory Bowel Diseases</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infliximab</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

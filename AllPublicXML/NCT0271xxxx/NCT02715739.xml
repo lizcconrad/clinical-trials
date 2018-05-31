@@ -1,0 +1,237 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02715739</url>
+  </required_header>
+  <id_info>
+    <org_study_id>mattias-attergrim-201603131327</org_study_id>
+    <nct_id>NCT02715739</nct_id>
+  </id_info>
+  <brief_title>Is There a Difference in the Mortality Prediction Performance of Two ICISS Approaches for Trauma Patients Admitted to Hospitals in Urban India?</brief_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Karolinska Institutet</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Tata Institute of Social Sciences</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>King Edward Memorial Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Lokmanya Tilak Municipal General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Jai Prakash Narayan Apex Trauma Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Seth Sukhlal Karnani Memorial Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Karolinska Institutet</source>
+  <brief_summary>
+    <textblock>
+      This study aims to compare the predictive performance of two different approaches of the
+      international classification of disease injury severity score (ICISS) using data from four
+      public university hospitals in urban India.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Research question Is there a difference in the mortality prediction performance of two ICISS
+      approaches for trauma patients admitted to hospitals in urban India?
+
+      Study design The investigators will conduct a retrospective registry based study.
+
+      Setting The data that will be used is from a prospective cohort study named towards improved
+      trauma care outcomes in India (TITCO). It was collected from four public university hospitals
+      in India between October 2013 and January 2015. The hospitals are in Mumbai, Delhi and
+      Kolkata. The two centers in Mumbai were King Edward Memorial Hospital and Lokmanya Tilak
+      Municipal General Hospital. The one in Delhi was Jai Prakash Narayan Apex Trauma Center and
+      the one in Kolkata was the Institute of Post-Graduate Medical Education and Research and Seth
+      Sukhlal Karnani Memorial Hospital.
+
+      The data was collected by one trained project officer at each hospital, working eight-hour
+      shifts with a rotating schedule between day, evening and night shifts. Data from patients
+      admitted outside of the shift hours was collected retrospectively within days of arrival to
+      hospital. The patients were followed until discharge, death or to a maximum of 30 days. If
+      discharged, the patients were considered to be alive at 30 days. There was no follow-up after
+      patient discharge or after the 30 days.
+
+      Source and method of participant selection Project officers included consecutive patients
+      that presented to participating hospitals. Patients were included either by direct
+      observation during the project officers' shifts or by retrospective data extraction from
+      patient records.
+
+      Data sources/ measurement Patient mortality data was extracted from patient records, as was
+      data on all covariates. If covariate data was missing in records an attempt was made to
+      retrieve this data from the patient or patient relatives. The injury data was extracted from
+      patient records, including imaging reports and intraoperative findings. Protocols from
+      post-mortem examinations were not available. Injuries will be coded using ICD-10. The SRR for
+      an ICD-code will be calculated by dividing the number of fatal outcomes for each ICD-code by
+      the total number of patients with that ICD-code. This results in a number from 0 to 1 that is
+      interpreted as the patient survival ratio.
+
+      For example, if 65 out of 100 patients with a given ICD-code survived the SRR for that code
+      would be 0,65. That would mean 65% of the patients with that ICD code survived. In this
+      study, the SRRs used for ICISS calculations were taken from a publicly available SRR-set
+      calculated from the TITCO dataset (TO BE RELEASED). The ICISS for each patient will then be
+      calculated using two different approaches. The cICISS will be calculated as the product of
+      all of the patient's SRRs. The swiICISS will be equal to the patient's lowest SRR. Both ICISS
+      methods result in a number that ranges from 0 to 1 that should be interpreted as the patient
+      specific probability of survival.
+
+      Bias The project officers were trained by project management. They were not involved in
+      patient care and only acquired data by observing hospital staff, using patient records or
+      from patient relatives. All project officers had at least a health science master's degree
+      and were continuously supervised by project management. Injury coders will be blinded to
+      patient demographics and mortality data during the conversion from free-text injuries to
+      ICD-codes and will be trained prior to the ICD-10 coding using the World Health Organization
+      (WHO) ICD-10 online training module. They will gain access to the injury dataset first after
+      reaching 80% agreement in several samples of 50 injuries compared to an external coder.
+
+      Study size The sample size calculation is based on published recommendations on effective
+      sample sizes needed to validate prediction models. These recommendations are based on
+      simulations of the sample sizes needed to detect statistically significant differences in
+      predictive performance measures between two scores setting the power to 80% and the
+      significance level to 5%. Hence, the required sample size was calculated to include the most
+      recent 200 consecutive events, i.e. patients who died within 24 hours, and all non-events
+      enrolled during the same time period. Mortality within 24 hours for was used for the sample
+      size calculation as the investigators wanted the study to be powered for secondary outcomes
+      also.
+
+      Quantitative variables All quantitative variables will be analyzed as continuous.
+
+      Statistical methods and analyses The investigators will use R for all statistical analyses.
+      Predictive performance will be assessed in terms of discrimination and calibration.
+      Discrimination will be assessed by calculating the area under the receiver operating
+      characteristics curve (AUROCC) and calibration will be assessed by comparing observed and
+      predicted outcomes visually in a calibration plot and statistically by calculating the
+      calibration slope. Confidence intervals for predictive performance measures will be estimated
+      using a bootstrap approach (15).
+
+      Overlapping confidence intervals will be interpreted as evidence of lack of a statistically
+      significant difference. Parametric and non-parametric exact tests will be used as
+      appropriate, with 95% confidence intervals and a 5% significance level. The main analysis
+      will be a complete case analysis, in which observations with missing values in any of the
+      following variables will be excluded: time of arrival, age, sex, mechanism of injury,
+      transfer status, and outcome variables. Observations with no injuries reported will be
+      assigned ICISS scores of 1 and for each observation the final ICISS scores will be calculated
+      based only on SRRs for ICD-codes that occur at least ten times in the published SRR-set used
+      in this study.
+
+      The published SRR-set includes SRRs based on both mortality within 30 days, henceforth
+      referred to as SRR-30D, and SRRs based on mortality within 24 hours, henceforth referred to
+      as SRR-24H. The investigators will use these SRRs to calculate cICISS and swiICISS for each
+      patient, henceforth referred to as cICISS-30D, cICISS-24H, swiICISS-30D and swiICISS-24H.
+      Finally, the investigators will assess and compare the performance of cICISS-30D and
+      swiICISS-30D in predicting mortality within 30 days and within 24 hours, and repeat this
+      analysis for cICISS-24H and swiICISS-24H.
+
+      Sensitivity analyses Four sensitivity analyses will be conducted. In the first sensitivity
+      analysis the investigators will only include observations with complete outcome data, however
+      missing values in covariates were allowed. In the second sensitivity analysis the
+      investigators will exclude observations without any reported injury. In the third sensitivity
+      analysis the investigators calculated cICISS and swiICISS based on all available SRRs,
+      regardless of how frequently the corresponding ICD-10 codes occurred in the dataset. Finally,
+      the investigators calculated the two ICISS scores for each patient based only on unique
+      ICD-10 codes. In other words, each ICD-10 code was only allowed to contribute with one SRR to
+      the ICISS scores even if it occurred more than once in the same patient.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2016</start_date>
+  <completion_date type="Actual">January 2017</completion_date>
+  <primary_completion_date type="Actual">January 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mortality</measure>
+    <time_frame>Within 30 days of patient arrival to participating centre</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mortality</measure>
+    <time_frame>Within 24 hours of patient arrival to participating centre</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">3921</enrollment>
+  <condition>Wounds and Injuries</condition>
+  <arm_group>
+    <arm_group_label>All participants</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No intervention</intervention_name>
+    <arm_group_label>All participants</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Trauma patients admitted to participating centres.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria
+
+          -  All admitted patients that presented with history of trauma and were alive at arrival
+             to any of the studied hospitals.
+
+          -  Patients who died after arrival but before admittance were also included.
+
+        Exclusion criteria
+
+          -  Eligible patients with isolated limb injury, i.e. isolated extremity fractures without
+             vascular injury were not included.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>February 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>March 13, 2016</study_first_submitted>
+  <study_first_submitted_qc>March 21, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 22, 2016</study_first_posted>
+  <last_update_submitted>February 26, 2017</last_update_submitted>
+  <last_update_submitted_qc>February 26, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 28, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Karolinska Institutet</investigator_affiliation>
+    <investigator_full_name>Martin Gerdin</investigator_full_name>
+    <investigator_title>Researcher</investigator_title>
+  </responsible_party>
+  <keyword>Trauma</keyword>
+  <keyword>India</keyword>
+  <keyword>ICISS</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Wounds and Injuries</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

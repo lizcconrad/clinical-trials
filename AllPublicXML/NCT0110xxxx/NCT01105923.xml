@@ -1,0 +1,198 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01105923</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2009P001846</org_study_id>
+    <nct_id>NCT01105923</nct_id>
+  </id_info>
+  <brief_title>Study of an Intervention to Improve Problem List Accuracy and Use</brief_title>
+  <acronym>MAPLE</acronym>
+  <official_title>Making Accurate Problem Lists in the EHR</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this study is to identify patients with problem list gaps and intervene to correct
+      these gaps by creating clinical decision support interventions that alert providers to likely
+      problem list gaps and offer clinicians the opportunity to correct them. The investigators
+      will randomize the clinics that will receive the intervention and formally evaluate the study
+      after a period of 6 months for improved problem list completeness to determine the
+      effectiveness of our intervention.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The clinical problem list is a cornerstone of the problem-oriented medical record. Problem
+      lists are used in a variety of ways throughout the process of clinical care. In addition to
+      its use by clinicians, the problem list is also critical for decision support and quality
+      measurement.
+
+      Patients with gaps in their problem list face significant risks. For example, if a
+      hypothetical patient has diabetes properly documented, his clinician would receive
+      appropriate alerts and reminders to guide care. Additionally, the patient might be included
+      in special care management programs and the quality of care provided to him would be measured
+      and tracked. Without diabetes on his problem list, he might receive none of these benefits.
+
+      In this study, the investigators developed an clinical decision support intervention that
+      will identify patients with problem lists gaps. The investigators will alert providers of
+      these likely gaps and offer providers the opportunity to correct them.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Active, not recruiting</last_known_status>
+  <start_date>May 2010</start_date>
+  <completion_date type="Anticipated">November 2017</completion_date>
+  <primary_completion_date type="Actual">November 2010</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Intervention acceptance</measure>
+    <time_frame>6 months (May 2010-Nov2010)</time_frame>
+    <description>Of those providers who were shown (or who would have been shown, for the control group) the intervention, the number that added a problem across control and intervention groups.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Problem list prevalence</measure>
+    <time_frame>pre and post intervention</time_frame>
+    <description>Number of patients with selected problems on their problem list pre and post intervention across intervention and control groups.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Problem list incidence</measure>
+    <time_frame>pre and post intervention</time_frame>
+    <description>For the conditions of interest, the percent of patients that had the problem added during the study period</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quality improvement based on problem list accuracy/completion</measure>
+    <time_frame>post intervention</time_frame>
+    <description>For those with problems added due to the intervention, the number of new triggered reminders or other clinical actions.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">140</enrollment>
+  <condition>Attention Deficit Disorder With Hyperactivity</condition>
+  <condition>Asthma</condition>
+  <condition>COPD</condition>
+  <condition>Breast Cancer</condition>
+  <condition>Coronary Artery Disease</condition>
+  <condition>Congestive Heart Failure</condition>
+  <condition>Diabetes</condition>
+  <condition>Glaucoma</condition>
+  <condition>Hemophilia</condition>
+  <condition>Hypertension</condition>
+  <condition>Hyperthyroidism</condition>
+  <condition>Hypothyroidism</condition>
+  <condition>Myasthenia Gravis</condition>
+  <condition>Osteoporosis</condition>
+  <condition>Osteopenia</condition>
+  <condition>Renal Failure</condition>
+  <condition>Renal Insufficiency</condition>
+  <condition>Sickle Cell Disease</condition>
+  <condition>Stroke</condition>
+  <arm_group>
+    <arm_group_label>Receive CDS intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Providers in clinics that will receive the CDS alert, as their clinic was randomized into our study.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No CDS intervention</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>MAPLE</intervention_name>
+    <description>MAPLE is a CDS intervention within the EHR that will alert providers to problem lists gaps and present an opportunity to correct them.</description>
+    <arm_group_label>Receive CDS intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Independent healthcare provider (physician, NP, PA)
+
+          -  Practices at participating site
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Adam Wright, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brigham and Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2015</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 15, 2010</study_first_submitted>
+  <study_first_submitted_qc>April 16, 2010</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 19, 2010</study_first_posted>
+  <last_update_submitted>January 30, 2015</last_update_submitted>
+  <last_update_submitted_qc>January 30, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">February 2, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Adam Wright</investigator_full_name>
+    <investigator_title>Senior Scientist</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+    <mesh_term>Osteoporosis</mesh_term>
+    <mesh_term>Attention Deficit Disorder with Hyperactivity</mesh_term>
+    <mesh_term>Anemia, Sickle Cell</mesh_term>
+    <mesh_term>Renal Insufficiency</mesh_term>
+    <mesh_term>Bone Diseases, Metabolic</mesh_term>
+    <mesh_term>Hypothyroidism</mesh_term>
+    <mesh_term>Myasthenia Gravis</mesh_term>
+    <mesh_term>Hyperthyroidism</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

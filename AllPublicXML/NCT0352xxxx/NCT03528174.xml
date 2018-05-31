@@ -1,0 +1,372 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03528174</url>
+  </required_header>
+  <id_info>
+    <org_study_id>18241</org_study_id>
+    <nct_id>NCT03528174</nct_id>
+  </id_info>
+  <brief_title>Single Hormone Closed Loop Study With PDT Sensor</brief_title>
+  <official_title>Assessment of a Novel Sensing Catheter During Automated Insulin Delivery in Patients With Type 1 Diabetes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Oregon Health and Science University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Oregon Health and Science University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>No</is_unapproved_device>
+    <is_ppsd>No</is_ppsd>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study described within this protocol is designed to test a single hormone closed-loop
+      algorithm for managing blood glucose in type 1 diabetes using insulin only and a new device
+      for measuring glucose continuously in the immediate vicinity of subcutaneous insulin
+      delivery. Subjects will undergo one all day closed loop study using insulin only. The closed
+      loop insulin only system includes a Dexcom G5 transmitter, a Nexus 5 smart phone and two
+      Tandem tslim pumps connected to two Pacific Diabetes Technologies glucose sensing cannulas.
+      The closed loop system will be started after G5 2 hour sensor start-up with an IV catheter
+      for frequent blood withdrawal for 10 hours.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Subjects will undergo one 12 hour inpatient study. During this intervention visit, subjects
+      will wear the single hormone closed loop system which includes two t:slim insulin pumps to
+      deliver insulin or saline through two investigational PDT glucose sensing cannulas, and a
+      Dexcom G5 CGM to measure glucose. The subject will come to the research center at
+      approximately 7am for the inpatient visit. The Dexcom G5 sensor and PDT glucose sensing
+      cannulas will be placed after arrival. An 18-22 gauge IV catheter will be placed for blood
+      sampling every 15 minutes after sensor warm-up is complete for measuring blood glucose
+      concentration. After a 2 hour warm-up period for the G5 sensor, glucose will be controlled
+      using the FMPD single hormone mode. The single hormone mode of the controller determines
+      insulin delivery rates based on proportional and derivative error through one t:slim insulin
+      pump. The second t:slim insulin pump will deliver normal saline at the same delivery rates as
+      the insulin. Subjects will eat breakfast and lunch at approximately 11 am and 3 pm
+      respectively. Subjects will have the ability to complete light exercise on a treadmill. The
+      closed loop system will be stopped at approximately 6pm with removal of all devices.
+
+      During the study, the subject will wear one subcutaneous DexcomTM G5 continuous glucose
+      monitoring (CGM) system. The CGM system will provide sensed glucose data every 5 minutes. The
+      accuracy of the sensed data will be obtained by reference measurements of two YSI venous
+      blood glucose values to calibrate the sensor at the beginning of the closed loop study.
+      Sensed glucose data will be wirelessly transmitted via Bluetooth Low Energy (BTLE) from the
+      Dexcom G5 transmitter to the Nexus 5 master controller every five minutes. The controller is
+      a Google Nexus 5 phone. The smart phone will wirelessly communicate via BTLE to two Tandem
+      t:slim insulin pumps, one for automated insulin delivery and one of automated saline
+      delivery.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 16, 2018</start_date>
+  <completion_date type="Anticipated">October 31, 2018</completion_date>
+  <primary_completion_date type="Anticipated">July 1, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mean absolute difference of sensed glucose values</measure>
+    <time_frame>10 hour study</time_frame>
+    <description>Assess the mean absolute difference for the PDT CGM/insulin infusion system based on reference YSI venous blood glucose values less than or equal to 75 mg/dl.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Mean absolute relative difference of sensed glucose values</measure>
+    <time_frame>10 hour study</time_frame>
+    <description>Assess the mean absolute relative difference for the PDT CGM/insulin infusion system based on reference YSI venous blood glucose values greater than 75 mg/dl.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose between 70-180 mg/dl</measure>
+    <time_frame>10 hour study</time_frame>
+    <description>Assess the percent of time with sensed glucose between 70-180 mg/dl based on the Dexcom G5 CGM sensor values.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose less than 70 mg/dl</measure>
+    <time_frame>10 hour study</time_frame>
+    <description>Assess the percent of time with sensed glucose less than 70 mg/dl based on the Dexcom G5 CGM sensor values.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose less than 54 mg/dl</measure>
+    <time_frame>10 hour study</time_frame>
+    <description>Assess the percent of time with sensed glucose less than 54 mg/dl based on the Dexcom G5 CGM sensor values.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose greater than 250 mg/dl</measure>
+    <time_frame>10 hour study</time_frame>
+    <description>Assess the percent of time with sensed glucose greater than 250 mg/dl based on the Dexcom G5 CGM sensor values.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean sensed glucose</measure>
+    <time_frame>10 hour study</time_frame>
+    <description>Assess the average sensor glucose based on the Dexcom G5 CGM sensor values.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of carbohydrate treatments</measure>
+    <time_frame>10 hour study</time_frame>
+    <description>Assess the number of carbohydrate treatments defined as 15 or 20 grams of carbohydrates.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean amount of insulin delivered</measure>
+    <time_frame>10 hour study</time_frame>
+    <description>Assess the average amount of insulin delivered in units/kg.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean score of visual analog scale at 15 minutes</measure>
+    <time_frame>15 minutes post insertion</time_frame>
+    <description>Assess the average score on the visual analog scale at 15 minutes after insertion of the PDT glucose sensor. This scale will be used to measure sensor site discomfort from the PDT glucose sensing cannula. The subject completes the visual analog scale by drawing a single vertical line through a 100 mm line corresponding to the perceived intensity (severity) of discomfort from the insertion of the sensors. Subjects will be instructed to mark their line starting on the left side over to the right side. If subjects are feeling no discomfort, they would circle the vertical line on the left end of the scale. If subjects are currently feeling the worst discomfort possible, they would circle the vertical line on the right side of the scale. One staff member will measure all scales and document score as a measurement of 0-100.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean score of visual analog scale at 120 minutes</measure>
+    <time_frame>120 minutes post insertion</time_frame>
+    <description>Assess the average score on the visual analog scale at 120 minutes after insertion of the PDT glucose sensor.This scale will be used to measure sensor site discomfort from the PDT glucose sensing cannula. The subject completes the visual analog scale by drawing a single vertical line through a 100 mm line corresponding to the perceived intensity (severity) of discomfort since the devices were inserted. Subjects will be instructed to mark their line starting on the left side to the right side. If subjects are feeling no discomfort, they would circle the vertical line on the left end of the scale. If subjects are currently feeling the worst discomfort possible, they would circle the vertical line on the right side of the scale. One staff member will measure all scales and document score as a measurement of 0-100.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean score of visual analog scale at end of study</measure>
+    <time_frame>End of 10 hour study</time_frame>
+    <description>Assess the average score on the visual analog scale at the end of the study. This scale will be used to measure sensor site discomfort from the PDT glucose sensing cannula. The subject completes the visual analog scale by drawing a single vertical line through a 100 mm line corresponding to the perceived intensity (severity) of discomfort since the devices were inserted. Subjects will be instructed to mark their line starting on the left side to the right side. If subjects are feeling no discomfort, they would circle the vertical line on the left end of the scale. If subjects are currently feeling the worst discomfort possible, they would circle the vertical line on the right side of the scale. One staff member will measure all scales and document score as a measurement of 0-100.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean Draize scale at end of study</measure>
+    <time_frame>End of 10 hour study</time_frame>
+    <description>Assess the average score on the Draize scale at the end of the study of the PDT glucose sensor. The investigator discharging the subject will inspect each PDT glucose sensing cannula insertion site and rate the level of redness (erythema) and swelling (edema). Both the left and right insertion sites will be inspected. Erythema will be measured from 0-4. A score of 0 indicates no erythema, a score of 1 indicates very slight, barely perceptible erythema, a score of 2 indicates well defined erythema, a score of 3 indicates moderate erythema, and a score of 4 indicates severe erythema, beet redness to slight eschar formation. Edema will be measured from a score of 0-4. A score of 0 indicates no edema, a score of 1 indicates very slight, barely perceptible edema, a score of 2 indicates well defined edema, a score of 3 indicates moderate edema, raised approximately 1 mm, and a score of 4 indicates severe edema, raised greater than 1 mm and beyond exposure area.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">10</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Single Hormone closed loop</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will have glucose managed using the Artificial Pancreas Control system (APC) using insulin only. Insulin will be infused through the Pacific Diabetes Technologies CGM Insulin Infusion system.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Artificial Pancreas Control system (APC)</intervention_name>
+    <description>This intervention is a single hormone closed loop system including a Nexus 5 smart phone, two tslim insulin pumps, a Dexcom G5 CGM and two PDT glucose sensing cannulas that together make up a new experimental, investigational device system. The algorithm included in the APC is an automated version of the Fading Memory Proportional Derivative (FMPD) insulin and glucagon control algorithm.</description>
+    <arm_group_label>Single Hormone closed loop</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Pacific Diabetes Technologies CGM Insulin Infusion system</intervention_name>
+    <description>An integrated combination CGM/insulin infusion system</description>
+    <arm_group_label>Single Hormone closed loop</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Diagnosis of type 1 diabetes mellitus for at least 1 year.
+
+          -  Male or female subjects 21 to 65 years of age.
+
+          -  Current use of an insulin pump for at least 3 months with stable insulin pump settings
+             for &gt; 2 weeks.
+
+          -  HbA1c ≤ 10% at screening.
+
+          -  Body Mass Index ≥ 22.
+
+          -  Total daily insulin requirement is less than 200 units/day.
+
+          -  Willingness to follow all study procedures, including attending all clinic visits.
+
+          -  Willingness to sign informed consent and HIPAA documents.
+
+        Exclusion Criteria:
+
+          -  Female of childbearing potential who is pregnant or intending to become pregnant or
+             breast-feeding, or is not using adequate contraceptive methods. Acceptable
+             contraception includes birth control pill / patch / vaginal ring, Depo-Provera,
+             Norplant, an IUD, the double barrier method (the woman uses a diaphragm and spermicide
+             and the man uses a condom), or abstinence.
+
+          -  Any cardiovascular disease, defined as a clinically significant EKG abnormality at the
+             time of screening or any history of: stroke, heart failure, myocardial infarction,
+             angina pectoris, or coronary arterial bypass graft or angioplasty. Diagnosis of 2nd or
+             3rd degree heart block or any non-physiological arrhythmia judged by the investigator
+             to be exclusionary.
+
+          -  Renal insufficiency (GFR &lt; 60 ml/min, using the MDRD equation as reported by the OHSU
+             laboratory).
+
+          -  Liver failure, cirrhosis, or any other liver disease that compromises liver function
+             as determined by the investigator.
+
+          -  Hematocrit of less than 36% for men, less than 32% for women.
+
+          -  History of severe hypoglycemia during the past 12 months prior to screening visit or
+             hypoglycemia unawareness as judged by the investigator.
+
+          -  History of Diabetic Ketoacidosis during the prior 6 months prior to screening visit,
+             as diagnosed on hospital admission or as judged by the investigator.
+
+          -  Adrenal insufficiency.
+
+          -  Any active infection.
+
+          -  Known or suspected abuse of alcohol, narcotics, or illicit drugs.
+
+          -  Seizure disorder.
+
+          -  Active foot ulceration.
+
+          -  Severe peripheral arterial disease characterized by ischemic rest pain or severe
+             claudication.
+
+          -  Major surgical operation within 30 days prior to screening.
+
+          -  Use of an investigational drug within 30 days prior to screening.
+
+          -  Chronic usage of any immunosuppressive medication (such as cyclosporine, azathioprine,
+             sirolimus, or tacrolimus).
+
+          -  Bleeding disorder, treatment with warfarin, or platelet count below 50,000.
+
+          -  Allergy to lispro insulin.
+
+          -  Allergy to acrylate-based skin adhesives.
+
+          -  Need for uninterrupted treatment of acetaminophen.
+
+          -  Current administration of oral or parenteral corticosteroids.
+
+          -  Any life threatening disease, including malignant neoplasms and medical history of
+             malignant neoplasms within the past 5 years prior to screening (except basal and
+             squamous cell skin cancer).
+
+          -  Beta blockers or non-dihydropyridine calcium channel blockers.
+
+          -  Current use of any medication intended to lower glucose other than insulin (ex. use of
+             liraglutide).
+
+          -  Any clinically significant disease or disorder which in the opinion of the
+             Investigator may jeopardize the subject's safety or compliance with the protocol.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jessica Castle, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Oregon Health and Science University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Peter Jacobs, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Oregon Health and Science University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Deborah Branigan</last_name>
+    <phone>503-418-9070</phone>
+    <email>branigad@ohsu.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jessica Castle, MD</last_name>
+    <phone>503-494-7072</phone>
+    <email>castleje@ohsu.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Oregon Health and Science University</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97239</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Deborah Branigan, BA CCRP</last_name>
+      <phone>503-418-9070</phone>
+      <email>branigad@ohsu.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jessica Castle, MD</last_name>
+      <phone>503-494-7072</phone>
+      <email>castleje@ohsu.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Peter Jacobs, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jessica Castle, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Joseph El Youssef, MBBS</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kathryn Hanavan, RN MSN ANP-BC, BC-ADM</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Leah Wilson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Roula Zahr, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 26, 2018</study_first_submitted>
+  <study_first_submitted_qc>May 10, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 17, 2018</study_first_posted>
+  <last_update_submitted>May 10, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 10, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 17, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Oregon Health and Science University</investigator_affiliation>
+    <investigator_full_name>Jessica Castle</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+    <mesh_term>Hormones</mesh_term>
+    <mesh_term>Pancrelipase</mesh_term>
+    <mesh_term>Pancreatin</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,203 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02851329</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20160728TRPN</org_study_id>
+    <nct_id>NCT02851329</nct_id>
+  </id_info>
+  <brief_title>Therapeutic Resistance Prediction of Tyrosine Kinase Inhibitors</brief_title>
+  <official_title>Association of Computed Tomography Phenotypic Signature With Progression-free Survival in Stage IV EGFR-mutant Non-small Cell Lung Cancer Undergoing Tyrosine Kinase Inhibitors</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chinese Academy of Sciences</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Guangdong Academy of Medical Sciences</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>West China Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Shanghai Pulmonary Hospital, Shanghai, China</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Chinese Academy of Sciences</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators propose a non-invasive prognostic tool for TKIs resistance in patients with
+      stage IV EGFR-mutant non-small cell lung cancer (NSCLC) by computed tomography phenotypic
+      features, which can be conveniently translated to facilitate the pre-therapy individualized
+      management of EGFR TKIs in this disease.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators develop a multi-CT-phenotypic-feature-based classifier to predict TKI
+      benefit and therapeutic resistance for stage IV EGFR-mutant non-small cell lung cancer
+      (NSCLC). The investigators also compared its prognostic and predictive efficacy with single
+      features and clinicopathological risk factors. An individualized nomogram integrated the
+      classifier and three clinicopathological risk factors was built for clinical use. The
+      prognostic accuracy of the proposed model was evaluated in two independent validation sets.
+
+      Nearly 500 patients will be enrolled in this clinical trial. Eligible patients were diagnosed
+      with NSCLC, and stage IV according to the TNM system classification of the American Joint
+      Committee on Cancer, presence of activating EGFR mutations, age 20 years or older, and no
+      history of systemic anticancer therapy for advanced disease. Patients who underwent
+      first-line or second-line EGFR TKIs were eligible for inclusion. All patients had to be
+      capable of undergoing contrast-enhanced CT, and pretreatment CT was strictly controlled in
+      two weeks before the EGFR TKIs starts. Patients who underwent resection for local advanced or
+      metastatic disease were withdrawn from the study.
+
+      Therapeutic resistance was measured by PFS, as the time from the initiation of EGFR TKIs
+      therapy to the date of confirmed disease progression or death. PFS was censored at the date
+      of death from other causes, or the date of the last follow-up visit for progression-free
+      patients.
+
+      The investigators will use extracted 1000 phenotypic features on the region of interest
+      manually segmented by radiologists. The Lasso Cox regression model and Nomogram will be used
+      to build a prognosis model for the therapeutic resistance prediction of EGFR TKIs for stage
+      IV EGFR-mutant NSCLC. The Harrell's concordance index(C-index) of the proposed nomogram will
+      be used to quantify the discrimination performance.
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date>February 2015</start_date>
+  <completion_date type="Anticipated">July 2017</completion_date>
+  <primary_completion_date type="Anticipated">March 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>progression-free survival</measure>
+    <time_frame>3 years</time_frame>
+  </primary_outcome>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Non-small Cell Lung Cancer</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Currently, a cohort of 300 patients has already been collected from the collaborating
+        hospitals. Next, the 3 hospitals will collect at least 200 patients within 1 years.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Eligible patients were diagnosed with NSCLC, and stage IV according to the TNM system
+             classification of the American Joint Committee on Cancer.
+
+          -  Presence of activating EGFR mutations.
+
+          -  Age 20 years or older, and no history of systemic anticancer therapy for advanced
+             disease.
+
+          -  Patients who underwent first-line or second-line EGFR TKIs were eligible for
+             inclusion.
+
+          -  All patients had to be capable of undergoing contrast-enhanced CT, and pretreatment CT
+             was strictly controlled in two weeks before the EGFR TKIs starts.
+
+        Exclusion Criteria:
+
+          -  Based on the criteria above, patients who underwent resection for local advanced or
+             metastatic disease were withdrawn from the study.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jiangdian Song, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>CAS Key Laboratory of Molecular Imaging, Institute of Automation, Chinese Academy of Sciences</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Key Laboratory of Molecular Imaging, Chinese Academy of Sciences</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <zip>100190</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Crystal AS, Shaw AT, Sequist LV, Friboulet L, Niederst MJ, Lockerman EL, Frias RL, Gainor JF, Amzallag A, Greninger P, Lee D, Kalsy A, Gomez-Caraballo M, Elamine L, Howe E, Hur W, Lifshits E, Robinson HE, Katayama R, Faber AC, Awad MM, Ramaswamy S, Mino-Kenudson M, Iafrate AJ, Benes CH, Engelman JA. Patient-derived models of acquired resistance can identify effective drug combinations for cancer. Science. 2014 Dec 19;346(6216):1480-6. doi: 10.1126/science.1254721. Epub 2014 Nov 13.</citation>
+    <PMID>25394791</PMID>
+  </reference>
+  <reference>
+    <citation>Seto T, Kato T, Nishio M, Goto K, Atagi S, Hosomi Y, Yamamoto N, Hida T, Maemondo M, Nakagawa K, Nagase S, Okamoto I, Yamanaka T, Tajima K, Harada R, Fukuoka M, Yamamoto N. Erlotinib alone or with bevacizumab as first-line therapy in patients with advanced non-squamous non-small-cell lung cancer harbouring EGFR mutations (JO25567): an open-label, randomised, multicentre, phase 2 study. Lancet Oncol. 2014 Oct;15(11):1236-44. doi: 10.1016/S1470-2045(14)70381-X. Epub 2014 Aug 27. Erratum in: Lancet Oncol. 2014 Oct;15(11):e475.</citation>
+    <PMID>25175099</PMID>
+  </reference>
+  <reference>
+    <citation>Lambin P, van Stiphout RG, Starmans MH, Rios-Velazquez E, Nalbantov G, Aerts HJ, Roelofs E, van Elmpt W, Boutros PC, Granone P, Valentini V, Begg AC, De Ruysscher D, Dekker A. Predicting outcomes in radiation oncology--multifactorial decision support systems. Nat Rev Clin Oncol. 2013 Jan;10(1):27-40. doi: 10.1038/nrclinonc.2012.196. Epub 2012 Nov 20. Review.</citation>
+    <PMID>23165123</PMID>
+  </reference>
+  <reference>
+    <citation>Balachandran VP, Gonen M, Smith JJ, DeMatteo RP. Nomograms in oncology: more than meets the eye. Lancet Oncol. 2015 Apr;16(4):e173-80. doi: 10.1016/S1470-2045(14)71116-7. Review.</citation>
+    <PMID>25846097</PMID>
+  </reference>
+  <reference>
+    <citation>Miller VA, Hirsh V, Cadranel J, Chen YM, Park K, Kim SW, Zhou C, Su WC, Wang M, Sun Y, Heo DS, Crino L, Tan EH, Chao TY, Shahidi M, Cong XJ, Lorence RM, Yang JC. Afatinib versus placebo for patients with advanced, metastatic non-small-cell lung cancer after failure of erlotinib, gefitinib, or both, and one or two lines of chemotherapy (LUX-Lung 1): a phase 2b/3 randomised trial. Lancet Oncol. 2012 May;13(5):528-38. doi: 10.1016/S1470-2045(12)70087-6. Epub 2012 Mar 26. Erratum in: Lancet Oncol. 2012 May;13(5):e186.</citation>
+    <PMID>22452896</PMID>
+  </reference>
+  <verification_date>January 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 28, 2016</study_first_submitted>
+  <study_first_submitted_qc>July 29, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">August 1, 2016</study_first_posted>
+  <last_update_submitted>January 17, 2017</last_update_submitted>
+  <last_update_submitted_qc>January 17, 2017</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 19, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Chinese Academy of Sciences</investigator_affiliation>
+    <investigator_full_name>Chongwei Chi, Ph.D</investigator_full_name>
+    <investigator_title>Associate professor</investigator_title>
+  </responsible_party>
+  <keyword>stage IV EGFR-mutant</keyword>
+  <keyword>EGFR TKIs</keyword>
+  <keyword>progression-free survival</keyword>
+  <keyword>prognosis</keyword>
+  <keyword>computed tomography</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Carcinoma, Non-Small-Cell Lung</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

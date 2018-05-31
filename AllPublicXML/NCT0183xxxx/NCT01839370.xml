@@ -1,0 +1,342 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01839370</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16666</org_study_id>
+    <nct_id>NCT01839370</nct_id>
+  </id_info>
+  <brief_title>Phase 2 Study of Adaptive Insulin Meal Supervisor (AIMS) in Adults With Type 1 Diabetes Mellitus</brief_title>
+  <official_title>Phase 2 Study of Adaptive Insulin Meal Supervisor (AIMS) in Adults With Type 1 Diabetes Mellitus</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>DexCom, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tandem Diabetes Care, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this study, a closed-loop Adaptive Insulin Meal Supervisor system (AIMS) utilizing
+      continuous glucose monitoring (CGM), a subcutaneous insulin pump and standard pramlintide
+      therapy will be applied in individuals with type 1 diabetes. Pramlintide, a drug well
+      recognized to help control hyperglycemia with meals, will be evaluated in both closed loop
+      and open loop control. It is expected that the closed loop control condition with pramlintide
+      will improve glycemia, thus combining better control with enhanced safety. In a recent pilot
+      study, the investigators started testing this concept and collected data showing that in
+      order to be successful such strategy must have a controller equipped with the ability to
+      optimize the configuration and timing of meal boluses with concomitant administration of
+      pramlintide. Our preliminary data and review of previously unavailable individual data from a
+      German study indicate a large individual variability in the timing of the appearance of meal
+      insulin needs. Thus, for both adequate safety and efficacy of meal insulin on pramlintide,
+      the investigators have developed a new closed-loop controller that accounts for the
+      variability in the individual responses to a meal and meal delays, the Adaptive Insulin Meal
+      Supervisor system (AIMS). In this study, the performance of a combination between the AIMS
+      system and a standard pramlintide treatment will be tested versus the standard pramlintide
+      treatment alone.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The current study will probe the concept that if a Model Predictive Control insulin delivery
+      strategy for closed-loop glucose control supervised by a safety system is coupled with a
+      standard amylin replacement therapy in patients with type 1 diabetes the resulting combined
+      treatment will unify the benefits of both individual therapies. In order to reduce post-meal
+      blood glucose excursions in patients with type 1 diabetes mellitus, pramlintide (an analog of
+      the human β-cell hormone, amylin) has been utilized, thus dealing with the problem or meal
+      hyperglycemia more effectively than insulin infusion alone. Pramlintide has been successful
+      in maintaining more normal blood glucose concentrations by significantly improving the
+      postprandial glucose excursions in these patients when added to their mealtime insulin to
+      mimic more closely the diurnal β-cell secretory pattern seen in normal physiology. However,
+      pramlintide treatment can result in post-prandial hypoglycemia primarily due to overbolusing
+      with insulin. Closed-loop systems have shown potential for significantly reducing
+      hypoglycemia. A combined closed-loop insulin + pramlintide therapy could provide advantages
+      over each of the individual therapies, and may also provide certain benefits with respect to
+      weight control and improvement in sense of well being while decreasing glucose variability. A
+      potentially important secondary benefit of combining the pramlintide treatment with a precise
+      insulin delivery by the closed-loop system is that, based upon animal studies performed by
+      the research team, a moderate inhibition of glucagon, as is usually achieved with pramlintide
+      treatment, is anticipated to potentially improve the safety of insulin treatment as well by
+      enhancing the glucagon response to hypoglycemia, which are usually impaired in type 1
+      diabetes, if it should occur in the early postprandial period.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2013</start_date>
+  <completion_date type="Actual">November 2013</completion_date>
+  <primary_completion_date type="Actual">November 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percent of Glucose Measurements within Target Range</measure>
+    <time_frame>13 days</time_frame>
+    <description>Demonstrate that a new Adaptive Insulin Meal Supervisor (AIMS), designed to handle variability in individual responses to a meal, in combination with a Standard pramlintide therapy will result in a more efficacious strategy for controlling glycemia as compared to the standard pramlintide therapy alone in terms of increased percent of glucose measurements between 71 - 180 mg/dL during the day and 71 - 140 mg/dL during the night.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">9</enrollment>
+  <condition>Diabetes Mellitus, Type 1</condition>
+  <arm_group>
+    <arm_group_label>Closed Loop with Pramlintide</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The experimental condition consists of closed loop admission with the Adaptive Insulin Meal Supervisor system (AIMS) system with pramlintide 30 mcg at meal time. During this admission, the Diabetes Assistant (DiAs), a Cell Phone Medical Platform and the central component of the system, will provide basal insulin to maintain glucose levels within a prescribed range.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open Loop with Pramlintide</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Insulin delivery will be controlled by the DiAs system running in Open Loop mode. Subjects will be permitted to administer correction boluses and set temporary temporary basal levels at any time during the admission, whether or not they are eating a scheduled meal. Subjects will inject Pramlintide 30 mcg prior to meal time.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Closed Loop with Pramlintide</intervention_name>
+    <description>A closed-loop automated insulin management system (Adaptive Insulin Meal Supervisor- AIMS) for meals utilizing continuous glucose monitoring (CGM)and subcutaneous insulin pump and a standard pramlintide therapy will be compared to a standard pramlintide therapy alone to control glucose levels in individuals with type 1 diabetes. DiAs is controlled by the subject, with assistance from the study personnel as needed.</description>
+    <arm_group_label>Closed Loop with Pramlintide</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        INCLUSION CRITERIA
+
+          1. ≥21 and &lt;65 years old.
+
+          2. Clinical diagnosis of type 1 diabetes mellitus. For an individual to be enrolled at
+             least one criterion from each list must be met.
+
+             o Criteria for documented hyperglycemia (at least 1 must be met): i. Fasting glucose
+             ≥126 mg/dL - confirmed ii. Two-hour Oral Glucose Tolerance Test (OGTT) glucose ≥200
+             mg/dL - confirmed iii. HbA1c ≥6.5% documented - confirmed iv. Random glucose ≥200
+             mg/dL with symptoms v. No data at diagnosis is available but the participant has a
+             convincing history of hyperglycemia consistent with diabetes
+
+             o Criteria for requiring insulin at diagnosis (1 must be met): i. Participant required
+             insulin at diagnosis and continually thereafter ii. Participant did not start insulin
+             at diagnosis but upon investigator review likely needed insulin (significant
+             hyperglycemia that did not respond to oral agents) and did require insulin eventually
+             and used continually iii. Participant did not start insulin at diagnosis but continued
+             to be hyperglycemic, had positive islet cell antibodies - consistent with latent
+             autoimmune diabetes in adults (LADA) and did require insulin eventually and used
+             continually
+
+          3. Use of an insulin pump to treat his/her diabetes for at least 1 year.
+
+          4. Familiarity with a bolus calculator with the current insulin pump with pre-defined
+             parameters for carbohydrate (CHO) ratio, insulin sensitivity factor (ISF), target
+             glucose and active insulin.
+
+          5. HbA1c 6.5-9% as measured with DCA2000 or equivalent device.
+
+          6. Not currently known to be pregnant, breast feeding, or intending to become pregnant
+             (females).
+
+          7. Demonstration of proper mental status and cognition for the study.
+
+          8. Willingness to avoid consumption of acetaminophen-containing products during the study
+             interventions involving CGM use.
+
+          9. Willingness to refrain from strenuous exercise for 2 days prior to admission.
+             Non-strenuous walks of less than 15 minutes around the guest house will be permitted
+             during the study.
+
+         10. If on antihypertensive, thyroid, anti-depressant or lipid lowering medication, have
+             stability on the medication for at least 2 months prior to enrollment in the study.
+
+         11. Normal renal function (determined utilizing the comprehensive metabolic panel at
+             screening with the Modification of Diet in Renal Disease (MDRD) formula and defined by
+             estimated Glomerular Filtration Rate (eGFR) ≥60 ml/min/1.73 m2.
+
+        EXCLUSION CRITERIA
+
+          1. Known hypersensitivity to pramlintide or any of its components, including metacresol.
+
+          2. Severe hypoglycemia resulting in seizure, loss of consciousness, or diabetic
+             ketoacidosis (DKA) within the 12 months prior to enrollment.
+
+          3. Pregnancy; breast feeding, or intention of becoming pregnant.
+
+          4. Uncontrolled arterial hypertension (Resting diastolic blood pressure &gt;90 mmHg and/or
+             systolic blood pressure &gt;160 mmHg).
+
+          5. Conditions which may increase the risks associated with possible hypoglycemia, such as
+             any active cardiac disorder/arrhythmia, uncontrolled coronary artery disease during
+             the previous year (e.g. history of myocardial infarction, acute coronary syndrome,
+             therapeutic coronary intervention, coronary bypass or stenting procedure, stable or
+             unstable angina, episode of chest pain of cardiac etiology with documented
+             electrocardiogram (EKG) changes, or positive stress test or catheterization with
+             coronary blockages &gt;50%), congestive heart failure, history of cerebrovascular event,
+             seizure disorder, syncope, adrenal insufficiency, neurologic disease or atrial
+             fibrillation.
+
+          6. Self-reported hypoglycemia unawareness.
+
+          7. History of a systemic or deep tissue infection with methicillin-resistant staph aureus
+             or Candida albicans.
+
+          8. Use of a device that may pose electromagnetic compatibility issues and/or
+             radiofrequency interference with the CGM (implantable cardioverter-defibrillator,
+             electronic pacemaker, neurostimulator, intrathecal pump, and cochlear implants).
+
+          9. Anticoagulant therapy other than aspirin.
+
+         10. Medical condition requiring use of an acetaminophen-containing medication that cannot
+             be withheld for the study admissions.
+
+         11. Psychiatric disorders that would interfere with study tasks (e.g. inpatient
+             psychiatric treatment within 6 months prior to enrollment).
+
+         12. Mental incapacity, unwillingness or language barriers precluding adequate
+             understanding or cooperation.
+
+         13. Known current or recent alcohol or drug abuse.
+
+         14. Medical conditions that would make operating a CGM, the DiAs cell phone or insulin
+             pump difficult (e.g. blindness, severe arthritis, immobility).
+
+         15. Any skin condition that prevents sensor or pump placement on the abdomen or arm (e.g.
+             bad sunburn, pre-existing dermatitis, intertrigo, psoriasis, extensive scarring,
+             cellulitis).
+
+         16. In adherence with the One Touch Ultra 2 User Guide, subjects with hematocrit levels
+             less than 30% and above 55% will be excluded.
+
+         17. Impaired hepatic function measured as alanine aminotransferase or aspartate
+             aminotransferase ≥three times the upper reference limit.
+
+         18. Abnormal liver function (Transaminase &gt;2 times the upper limit of normal).
+
+         19. Uncontrolled microvascular (diabetic) complications, such as current proliferative
+             diabetic retinopathy or macular edema, known diabetic nephropathy (other than
+             microalbuminuria with normal creatinine) or neuropathy requiring drug treatment.
+
+         20. Active gastroparesis requiring current medical therapy.
+
+         21. Uncontrolled adrenal disorder.
+
+         22. Uncontrolled thyroid disease.
+
+         23. If on antihypertensive, thyroid, anti-depressant or lipid lowering medication, lack of
+             stability on the medication for the past 2 months prior to enrollment in the study.
+
+         24. Known bleeding diathesis or dyscrasia.
+
+         25. Known allergy to medical adhesives, components of the insulin pump insertion set or
+             continuous glucose monitor sensor.
+
+         26. Subjects with basal rates less than 0.01U/hr.
+
+         27. Subjects who are sexually active and able to become pregnant and not using an
+             acceptable method of birth control.
+
+        RESTRICTIONS ON USE OF OTHER DRUGS OR TREATMENTS
+
+          1. Use of anti-diabetic agents other than continuous subcutaneous insulin infusion (CSII)
+             including long-acting insulin, intermediate-acting insulin, metformin, sulfonylureas,
+             meglitinides, thiazolidinediones, dipeptidyl peptidase 4 (DPP-4 ) inhibitors,
+             glucagon- like peptide 1 agonists, colesevelam, quick release bromocriptine,
+             sodium-glucose linked transporter (SGLT-2) inhibitors and alpha-glucosidase
+             inhibitors.
+
+          2. Acetaminophen will not be allowed while the continuous glucose monitor is in use.
+
+          3. Medications that block symptoms of hypoglycemia, including but not limited to beta
+             blockers.
+
+          4. Oral steroids or other medications, which in the judgment of the investigator would be
+             a contraindication to participation in the study.
+
+          5. Use of drugs that stimulate gastrointestinal motility (e.g. metoclopramide).
+
+          6. Orally administered medications (prescription and non-prescription) which require
+             rapid onset as a critical determinant of effectiveness must be given at least 1 hour
+             prior to or 2 hours after the Pramlintide injection and that subjects who require such
+             medications be excluded if the medication must be given less than 1 hour prior to or 2
+             hours after the pramlintide dose.
+
+          7. Medications known to interfere with hypoglycemic symptoms including but not limited to
+             beta- blockers, clonidine, reserpine, and guanethidine.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Anthony McCall, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Virginia</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22908</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>April 15, 2013</study_first_submitted>
+  <study_first_submitted_qc>April 19, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 24, 2013</study_first_posted>
+  <last_update_submitted>February 18, 2014</last_update_submitted>
+  <last_update_submitted_qc>February 18, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">February 19, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Anthony McCall</investigator_full_name>
+    <investigator_title>James M. Moss Professor of Diabetes in Internal Medicine</investigator_title>
+  </responsible_party>
+  <keyword>Pramlintide</keyword>
+  <keyword>Closed Loop</keyword>
+  <keyword>Continuous Glucose Monitor (CGM)</keyword>
+  <keyword>Diabetes Assistant (DiAs)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin, Globin Zinc</mesh_term>
+    <mesh_term>Pramlintide</mesh_term>
+    <mesh_term>Insulin</mesh_term>
+    <mesh_term>Islet Amyloid Polypeptide</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

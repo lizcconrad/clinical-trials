@@ -1,0 +1,293 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01434862</url>
+  </required_header>
+  <id_info>
+    <org_study_id>15401</org_study_id>
+    <nct_id>NCT01434862</nct_id>
+  </id_info>
+  <brief_title>Pramlintide Combined With Model Predictive Control Algorithm</brief_title>
+  <acronym>ALM002</acronym>
+  <official_title>Pramlintide Combined With Model Predictive Control Algorithm</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>The Paul Manning Foundation (private)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a scientific research study that will look at how a &quot;closed-loop&quot; system and the drug
+      Pramlintide may work together to improve blood sugar control in people with type 1 diabetes
+      mellitus. Pramlintide is approved by the Food and Drug Administration (FDA) and is given as
+      an injection (subcutaneous) that works with insulin to lower blood sugar.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The objective of this study is to test whether standard pramlintide treatment plus a
+      closed-loop insulin therapy is more efficacious in controlling glycemia than either of the
+      individual therapies. The control algorithm is in effect an insulin dose calculator for
+      mimicry of basal insulin secretion by estimating requirements for basal rates of insulin pump
+      infusion based on current and past glucose levels estimated from the Continuous Glucose
+      Monitor (CGM) device and prior insulin infusions. The closed-loop system-recommended insulin
+      will replace (in a clinical setting) the basal rate insulin that the patient would normally
+      use. The patients' meal insulin needs will be estimated using an insulin-to-carbohydrate
+      ratio as per standard clinical practice and will be optimized prior to admission to the
+      Clinical Research Unit.
+
+      The primary goal of this feasibility study is to test the hypothesis that the combination of
+      a closed loop system (Open-Loop Informed with a Model Predicted Control (MPC) algorithm plus
+      a safety system module (SSM)) with pramlintide (a synthetic analog of the hormone amylin
+      which in health is released by the β-cells along with insulin) treatment will improve glucose
+      control versus each of the individual therapies. Because pramlintide reduces hyperglycemia
+      extremes generated at meals and closed loop control markedly reduces the risk of
+      hypoglycemia, thus representing potentially important complementary actions to reduced
+      variability — the investigators expect to find decreased hyperglycemia while simultaneously
+      decreasing hypoglycemia risks.
+
+      Secondary goals are to explore factors associated with achieving safer and/or more effective
+      closed loop control. For example, based upon our work in animal models, one secondary goal is
+      to explore whether moderate inhibition of α-cell glucagon, known to occur with pramlintide
+      administration in the early postprandial period, has the potential to repair inadequate
+      glucagon counterregulation.
+    </textblock>
+  </detailed_description>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    Modified study; created new study as a result of these modifications
+  </why_stopped>
+  <start_date>February 2011</start_date>
+  <completion_date type="Actual">February 2012</completion_date>
+  <primary_completion_date type="Actual">February 2012</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percent of Blood glucose tests within target range of 70 to 180 mg/dl</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Percent of Blood glucose tests within target range of 70 to 180 mg/dl
+The primary outcome variable of glucose control within an American Diabetes Association (ADA) standard target range between 70 mg/dl to 180 mg/dl on a Yellow Springs Instrument (YSI) glucose analyzer. This is based upon the sample size estimate difference expected for % time within target range between artificial pancreas vs. patient control vs. Pramlintide plus artificial pancreas.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percent of Continuous Glucose Monitoring (CGM) System estimated blood glucose within target range of 70 to 180 mg/dl</measure>
+    <time_frame>72 hours</time_frame>
+    <description>A secondary analysis will be performed using the Continuous Glucose Monitoring [CGM] data estimated blood glucose within the American Diabetes Association [ADA] recommended target of 70-180 mg/dl.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">2</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Closed loop with pramlintide</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Pramlintide will be provided to study subjects who will subsequently be admitted for inpatient testing with the closed loop system. The term closed loop refers to insulin adjustment automatically regulated by computer input to the insulin pump based on monitoring (often a combination of patient blood glucose (BG) testing and/or continuous glucose monitoring (CGM)).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Closed loop without pramlintide</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This visit is necessary to assess how well the closed loop system works without the pramlintide (how well it protects from hypoglycemia and hyperglycemia). It will be the exact protocol as for the closed loop with pramlintide but without the medication.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open loop with pramlintide</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The term open loop refers to insulin infusions regulated in their delivery based on patient self-monitoring and adjustment. The study subject will be in charge of their insulin treatment while also receiving pramlintide.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Closed loop with pramlintide</intervention_name>
+    <description>Dose of pramlintide will be titrated based on subject's current prescribed dose. The target dose is 60 mcq three times daily.</description>
+    <arm_group_label>Closed loop with pramlintide</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Closed loop without pramlintide</intervention_name>
+    <description>This visit will assess how well the closed loop system works without the pramlintide.</description>
+    <arm_group_label>Closed loop without pramlintide</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Open loop with pramlintide</intervention_name>
+    <description>Dose of pramlintide will be titrated based on subject's current prescribed dose. The target dose is 60 mcq three times daily.</description>
+    <arm_group_label>Open loop with pramlintide</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinical diagnosis of type 1 diabetes for at least one year and using an insulin pump
+             for at least six months (the diagnosis of type 1 diabetes is based on the
+             investigator's judgment; C peptide level and antibody determination are not needed).
+
+          -  Age 21 to 65 years
+
+          -  For females, not currently known to be pregnant
+
+          -  An understanding of the protocol and a willingness to follow it
+
+          -  HbA1c between 7 and 9%
+
+          -  Normal renal function (determined utilizing the comprehensive metabolic panel at
+             screening with the Modification of Diet in Renal Disease (MDRD) formula and defined by
+             estimated Glomerular Filtration Rate (eGFR) of ≥60 ml/min/1.73 m2.
+
+          -  Hematocrit &gt;36 (females); &gt;38 (males)
+
+        Exclusion Criteria:
+
+          -  Known hypersensitivity to SYMLIN or any of its components, including metacresol
+
+          -  Poor compliance with current insulin regimen
+
+          -  Poor compliance with prescribed self-blood glucose monitoring
+
+          -  HbA1c &lt;7 or &gt;9%
+
+          -  Severe hypoglycemia resulting in seizure or loss of consciousness in the 2 weeks prior
+             to enrollment
+
+          -  Active infection
+
+          -  Current use of dietary supplements (subjects may be enrolled if they stop taking
+             dietary supplements two weeks prior to admission and for the duration of their
+             participation)
+
+          -  Active gastroparesis
+
+          -  Use of drugs that stimulate gastrointestinal motility (e.g. metoclopramide)
+
+          -  Diabetic ketoacidosis in the past 3 months
+
+          -  Current treatment for a seizure disorder
+
+          -  Cystic fibrosis
+
+          -  Asthma requiring hospitalization or treatment with oral steroids within the past year
+
+          -  Presence of a uncontrolled adrenal disorder
+
+          -  A known medical condition that in the judgment of the investigator might interfere
+             with the completion of the protocol such as the following examples:
+
+               -  Inpatient psychiatric treatment in the past 6 months
+
+               -  Abnormal liver function (Transaminase &gt;2 times the upper limit of normal)
+
+               -  Heart failure
+
+               -  Coronary artery disease
+
+               -  Arrhythmia
+
+               -  Seizure disorder
+
+               -  Any carcinogenic disease
+
+               -  Creatinine concentration above the upper limit of normal for age and sex
+
+               -  Active coronary artery disease
+
+               -  Uncontrolled thyroid disease
+
+               -  Use or abuse of alcohol
+
+               -  Active kidney dialysis
+
+               -  If on antihypertensive, thyroid, anti-depressant or lipid lowering medication,
+                  lack of stability on the medication for the past 2 months prior to enrollment in
+                  the study
+
+               -  Note: adequately treated thyroid disease and celiac disease do not exclude
+                  subjects from enrollment
+
+          -  Addison's disease
+
+          -  Current use of a beta blocker medication
+
+          -  Hematocrit &lt; 36 (female), &lt;38 (male)
+
+          -  Current use of oral glucocorticoids or other medications, which in the judgment of the
+             investigator would be a contraindication to participation in the study
+
+          -  Allergy to the sensor or to one of its components
+
+          -  Continued use of acetaminophen.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Anthony McCall, M.D., Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Virginia, Center for Diabetes Technology</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22903</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2014</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 7, 2011</study_first_submitted>
+  <study_first_submitted_qc>September 14, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 15, 2011</study_first_posted>
+  <last_update_submitted>April 30, 2014</last_update_submitted>
+  <last_update_submitted_qc>April 30, 2014</last_update_submitted_qc>
+  <last_update_posted type="Estimate">May 1, 2014</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Anthony McCall</investigator_full_name>
+    <investigator_title>Professor of Diabetes</investigator_title>
+  </responsible_party>
+  <keyword>Type 1 Diabetes Mellitus</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pramlintide</mesh_term>
+    <mesh_term>Islet Amyloid Polypeptide</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

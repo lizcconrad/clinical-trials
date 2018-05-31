@@ -1,0 +1,288 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03375658</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PDWS</org_study_id>
+    <nct_id>NCT03375658</nct_id>
+  </id_info>
+  <brief_title>Evaluation of the Patient Deterioration Warning System</brief_title>
+  <acronym>PDWS</acronym>
+  <official_title>Cluster Randomized Trial of the Patient Deterioration Warning System in Emergency Departments</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Southern Denmark</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Odense University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hospital of South Western Jutland</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Southern Denmark</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The overall goal of the project is to reduce the number of unexpected patient deteriorations
+      by 50% at Emergency Departments (ED) by investigating if the novel Patient Deterioration
+      Warning Systems (PDWS), can improve clinicians' ability to identify deterioration at an
+      earlier stage.
+
+      A third of all acute medical patients with normal vital signs at arrival, experience a
+      deterioration in vital signs during the 24 first hours. This can potentially lead to dire
+      consequences for these patients, as the risk of deterioration is present across all severity
+      levels. The utilization of patient monitoring systems in the dispersed and shared working
+      environments of EDs and acute wards may help to identify some of the reasons for failure to
+      rescue patients. Thus, quantifying the extent to which a patient is being monitored, may be
+      an aid to bridge the current gap between usage of automated and manual monitoring as clinical
+      work will continue to depend on tacit knowledge and intuition.
+
+      Several systems and protocols have been established to swiftly deal with identified
+      deterioration. Most systems struggle with issues of clinical adherence and are difficult to
+      assess on-the-fly, and in some cases nurses failed to notice abnormality in 43% of patients
+      experiencing deterioration. Although the trajectories of patients' vital signs have been
+      identified as more important than the initial scoring value, most of the widely used Track
+      and Trigger systems lack a temporal aspect. Furthermore, a limited number of these Track and
+      Trigger systems have been integrated into real time clinical decision support systems, which
+      has not evolved much in the last decades.
+
+      The PDWS deals with these challenges by aggregating and summarizing all vital values measured
+      with the ED's patient monitors in the ongoing admission to intuitively present the state and
+      trajectory. The investigators intend to determine if making the PDWS system available to
+      nurses and physicians throughout the entire ED improves their ability to identify patients at
+      risk of deterioration. To make this assessment, the PDWS will be evaluated in a cluster
+      randomized trial (CRT) at two ED facilities in Denmark. The CRT is structured in three 5-week
+      intervention, and three 5-week control periods, separated by a washout period of at least one
+      week. The primary outcome is in-hospital deterioration - defined as transfer to the intensive
+      care unit, heart/respiratory failure or death. The effect the PDWS will be assessed by
+      comparing the proportions of events in each study arm using Pearsons's chi-squared test on
+      these two samples. Furthermore, the technical and economical effects are evaluated using the
+      Technology Acceptance Model, and the Model for Assessment of Telemedicine.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 14, 2018</start_date>
+  <completion_date type="Anticipated">January 31, 2019</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>In-hospital deterioration</measure>
+    <time_frame>Admission length (1-7 days)</time_frame>
+    <description>Defined as transfer to intensive care units, heart/respiratory failure, and in-hospital mortality. Events are reviewed by experts to exclude cases expected of deterioration at time of arrival.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Economic effect of PDWS</measure>
+    <time_frame>35 weeks</time_frame>
+    <description>Cost effective analysis of savings in DKK between differences in primary outcomes in intervention and control arms of the study when inspecting DRG associations.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Acceptance of novel patient monitoring system</measure>
+    <time_frame>35 weeks</time_frame>
+    <description>Technology Acceptance Model based evaluation of the clinicians' perception of the novel system's usefulness and ease of use.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Reduction in length of stay</measure>
+    <time_frame>Admission length (1-7 days)</time_frame>
+    <description>Evaluation of differences in length of stay for patients admitted during the intervention and control arms respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Monitoring load effect</measure>
+    <time_frame>Admission length (1-7 days)</time_frame>
+    <description>Does the automatic presentation of patients average severity defined by registered vital signs affect how much patients are monitored during their admission. Degree of monitoring as defined as monitor load.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">10500</enrollment>
+  <condition>Patient Transfer to Intensive Care Unit (Procedure)</condition>
+  <condition>Respiratory Arrest (Disorder)</condition>
+  <condition>Cardiac Arrest (Disorder)</condition>
+  <condition>Patient Died in Hospital (Finding)</condition>
+  <arm_group>
+    <arm_group_label>Intervention arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All vital signs registered as part of usual care are used for modelling patients state and trajectories and made available to clinicans via the Patient Deterioration Warning System in nursing and physician offices.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control arm</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Usual care</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>PDWS Intervension</intervention_name>
+    <description>Patients admitted to the emergency department in the intervention period will have their vital values presented on the PDWS in addition to existing patient monitoring systems</description>
+    <arm_group_label>Intervention arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  All adult patients admitted to the emergency department
+
+        Exclusion Criteria:
+
+          -  Critically ill patients who die during their admission
+
+          -  Orthopedic patients with minor injuries
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Thomas Schmidt, PhD</last_name>
+    <phone>004565507456</phone>
+    <email>schmidt@mmmi.sdu.dk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Uffe K Wiil, PhD</last_name>
+    <phone>004560113565</phone>
+    <email>ukwiil@mmmi.sdu.dk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Odense University Hospital</name>
+      <address>
+        <city>Odense</city>
+        <state>Fyn</state>
+        <zip>5000</zip>
+        <country>Denmark</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Annmarie Lassen, PhD</last_name>
+      <email>annmarie.lassen@rsyd.dk</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital of South Western Jutland</name>
+      <address>
+        <city>Esbjerg</city>
+        <state>Jylland</state>
+        <zip>6700</zip>
+        <country>Denmark</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Mikkel Brabrand, PhD</last_name>
+      <email>mikkel.brabrand@rsyd.dk</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Denmark</country>
+  </location_countries>
+  <reference>
+    <citation>Henriksen DP, Brabrand M, Lassen AT. Prognosis and risk factors for deterioration in patients admitted to a medical emergency department. PLoS One. 2014 Apr 9;9(4):e94649. doi: 10.1371/journal.pone.0094649. eCollection 2014.</citation>
+    <PMID>24718637</PMID>
+  </reference>
+  <reference>
+    <citation>Kellett J, Emmanuel A, Deane B. Who will be sicker in the morning? Changes in the Simple Clinical Score the day after admission and the subsequent outcomes of acutely ill unselected medical patients. Eur J Intern Med. 2011 Aug;22(4):375-81. doi: 10.1016/j.ejim.2011.03.005. Epub 2011 Apr 8.</citation>
+    <PMID>21767755</PMID>
+  </reference>
+  <reference>
+    <citation>Armstrong B, Walthall H, Clancy M, Mullee M, Simpson H. Recording of vital signs in a district general hospital emergency department. Emerg Med J. 2008 Dec;25(12):799-802. doi: 10.1136/emj.2007.052951.</citation>
+    <PMID>19033493</PMID>
+  </reference>
+  <reference>
+    <citation>Brier J, Carolyn M, Haverly M, Januario ME, Padula C, Tal A, Triosh H. Knowing 'something is not right' is beyond intuition: development of a clinical algorithm to enhance surveillance and assist nurses to organise and communicate clinical findings. J Clin Nurs. 2015 Mar;24(5-6):832-43. doi: 10.1111/jocn.12670. Epub 2014 Sep 19.</citation>
+    <PMID>25236182</PMID>
+  </reference>
+  <reference>
+    <citation>Brabrand M, Hallas J, Knudsen T. Nurses and physicians in a medical admission unit can accurately predict mortality of acutely admitted patients: a prospective cohort study. PLoS One. 2014 Jul 14;9(7):e101739. doi: 10.1371/journal.pone.0101739. eCollection 2014.</citation>
+    <PMID>25019354</PMID>
+  </reference>
+  <reference>
+    <citation>Schmidt T, Bech CN, Brabrand M, Wiil UK, Lassen A. Factors related to monitoring during admission of acute patients. J Clin Monit Comput. 2017 Jun;31(3):641-649. doi: 10.1007/s10877-016-9876-y. Epub 2016 Apr 12.</citation>
+    <PMID>27067076</PMID>
+  </reference>
+  <reference>
+    <citation>Centre for Clinical Practice at NICE (UK). Acutely Ill Patients in Hospital: Recognition of and Response to Acute Illness in Adults in Hospital [Internet]. London: National Institute for Health and Clinical Excellence (UK); 2007 Jul. Available from http://www.ncbi.nlm.nih.gov/books/NBK45947/</citation>
+    <PMID>21204323</PMID>
+  </reference>
+  <reference>
+    <citation>Clifton DA, Wong D, Clifton L, Wilson S, Way R, Pullinger R, Tarassenko L. A large-scale clinical validation of an integrated monitoring system in the emergency department. IEEE J Biomed Health Inform. 2013 Jul;17(4):835-42. doi: 10.1109/JBHI.2012.2234130.</citation>
+    <PMID>25055312</PMID>
+  </reference>
+  <reference>
+    <citation>Fuhrmann L, Lippert A, Perner A, Østergaard D. Incidence, staff awareness and mortality of patients at risk on general wards. Resuscitation. 2008 Jun;77(3):325-30. doi: 10.1016/j.resuscitation.2008.01.009. Epub 2008 Mar 14.</citation>
+    <PMID>18342422</PMID>
+  </reference>
+  <reference>
+    <citation>Murray A, Kellett J, Huang W, Woodworth S, Wang F. Trajectories of the averaged abbreviated Vitalpac early warning score (AbEWS) and clinical course of 44,531 consecutive admissions hospitalized for acute medical illness. Resuscitation. 2014 Apr;85(4):544-8. doi: 10.1016/j.resuscitation.2013.12.015. Epub 2013 Dec 21.</citation>
+    <PMID>24361459</PMID>
+  </reference>
+  <reference>
+    <citation>Smith GB, Prytherch DR, Schmidt P, Featherstone PI, Knight D, Clements G, Mohammed MA. Hospital-wide physiological surveillance-a new approach to the early identification and management of the sick patient. Resuscitation. 2006 Oct;71(1):19-28. Epub 2006 Aug 30.</citation>
+    <PMID>16945465</PMID>
+  </reference>
+  <reference>
+    <citation>Görges M, Staggers N. Evaluations of physiological monitoring displays: a systematic review. J Clin Monit Comput. 2008 Feb;22(1):45-66. Epub 2007 Dec 7. Review.</citation>
+    <PMID>18064532</PMID>
+  </reference>
+  <reference>
+    <citation>Kidholm K, Ekeland AG, Jensen LK, Rasmussen J, Pedersen CD, Bowes A, Flottorp SA, Bech M. A model for assessment of telemedicine applications: mast. Int J Technol Assess Health Care. 2012 Jan;28(1):44-51. doi: 10.1017/S0266462311000638.</citation>
+    <PMID>22617736</PMID>
+  </reference>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>October 6, 2017</study_first_submitted>
+  <study_first_submitted_qc>December 12, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 18, 2017</study_first_posted>
+  <last_update_submitted>May 5, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 5, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 8, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Southern Denmark</investigator_affiliation>
+    <investigator_full_name>Thomas Schmidt</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>Information Science: Algorithms</keyword>
+  <keyword>Information Science: Informatics: Nursing Informatics</keyword>
+  <keyword>Information Science: Data Display: Computer graphics</keyword>
+  <keyword>Diagnosis: Diagnostic Techiques and Procedures: Monitoring, Physiologic</keyword>
+  <keyword>Health care facilities, Manpower and services: Health services: Emergency Medical Services: Triage</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Disease</mesh_term>
+    <mesh_term>Heart Arrest</mesh_term>
+    <mesh_term>Apnea</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

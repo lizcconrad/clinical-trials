@@ -1,0 +1,198 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03465319</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PersA500-PM</org_study_id>
+    <nct_id>NCT03465319</nct_id>
+  </id_info>
+  <brief_title>Evaluation of the Concentration-prediction for Oxygen and Volatile Anesthetic Agents in the 'Draeger Perseus A500' Anesthesia Machine</brief_title>
+  <official_title>Studie Zur Evaluation Der Narkosemittel- Und Sauerstoffkonzentrationsvorhersage im Narkosegeraet Perseus-A500 Der Firma Draeger</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Erlangen-Nürnberg Medical School</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Drägerwerk AG &amp; Co. KGaA</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Erlangen-Nürnberg Medical School</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The anesthesia machine &quot;Draeger Perseus A 500&quot; has an integrated software which calculates
+      the predicted course of the concentration of oxygen and the volatile anesthetics sevoflurane
+      and desflurane for the next 20 minutes.
+
+      The Goal of this study was to evaluate the accuracy of this prediction under controlled
+      clinical circumstances.
+
+      Therefore 20 patients undergoing an operation with general anesthesia were included. They
+      were assigned to a sevoflurane- or desflurane-group by lots.
+
+      The oxygen- and volatile anesthetic influx into the anesthesia machine`s circuit was adjusted
+      following a fixed protocol. The concentration of oxygen and the volatile anesthetic was
+      measured and compared to the predicted values.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In an anesthesia machine´s circuit the concentration of oxygen and volatile anesthetics
+      depends on many variables. Especially during low- or minimal-flow anesthesia it can be
+      difficult for the anesthesist to anticipate these values.
+
+      In the anesthesia machine 'Draeger Perseus A500' a software is included, which calculates and
+      predicts the course of the inspired and exhaled concentration of oxygen and the volatile
+      anesthetics sevoflurane and desflurane for the next 20 minutes. The results can be displayed
+      as a diagram and are based on the actual setup of the anesthesia machine.
+
+      The behavior of the oxygen-concentration depends on the oxygen-delivery on the one hand and
+      on the patients oxygen-consumption on the other hand. The oxygen delivery into the
+      anesthesia-circuit can be analysed easily and exactly. The patients oxygen-consumption cannot
+      be measured except invasive procedures such as a pulmonary-catheter are used. In daily
+      routine the oxygen-consumption can only be calculated. Different methods based on the
+      Brody-equation are published. In the Perseus-software a simplified formula suggested by Arndt
+      ist used.
+
+      The concentration-progress of volatile anesthetics depends on many factors and can be
+      described as a cascade of systems beginning with the influx of gas into the anesthesia
+      machine, the uptake or release of the anesthetic agent in the alveoli and ending with the
+      distribution between the different compartments and possibly the metabolisation. These
+      processes can be described by pharmacologic more-compartment models. In the Perseus
+      anesthesia machine a five-compartment model described by Bailey is used for predicting.
+
+      These two models have never before been included into the software of an anesthesia machine
+      an therefore never been evaluated ind such a surrounding.
+
+      For the evaluation the investigators included 20 patients from the surgical department
+      undergoing an operation with general anesthesia. 10 patients received sevoflurane, 10
+      patients desflurane.
+
+      The investigators generated stable conditions to evaluate the precision of these predictions.
+      Thus the investigators used a fixed protocol for the gas influx to the anesthesia machine,
+      the vapor adjustment and the ventilator setup. At least three periods lasting 20 minutes were
+      measured.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">December 15, 2015</start_date>
+  <completion_date type="Actual">January 10, 2017</completion_date>
+  <primary_completion_date type="Actual">January 10, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Prediction Error</measure>
+    <time_frame>20 minutes period (data collection every 2 seconds)</time_frame>
+    <description>median prediction error (%) and median absolut prediction error (%) for the concentration of oxygen- and volatile anesthetics</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Anesthesia</condition>
+  <arm_group>
+    <arm_group_label>Sevoflurane</arm_group_label>
+    <description>10 patients receiving an anesthesia with sevoflurane</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Desflurane</arm_group_label>
+    <description>10 patients receiving an anesthesia with desflurane</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Consecutive patients of the surgical department.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  patients undergoing an operation under general anesthesia
+
+        Exclusion Criteria:
+
+          -  body-mass-index &gt; 35 kg/m2
+
+          -  pregnancy
+
+          -  patients who are not able to give informed consent
+
+          -  patients with relevant comorbidity (ASA-classification &gt; II), especially
+             cardio-vascular or pulmonary disease
+
+          -  contraindications for volatile anesthetics (for example disposition for malignant
+             hyperthermia)
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Tino Muenster, Prof. Dr. med.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Anesthesiology</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University Hospital</name>
+      <address>
+        <city>Erlangen</city>
+        <state>Bavaria</state>
+        <zip>91054</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>February 27, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 7, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 14, 2018</study_first_posted>
+  <last_update_submitted>March 14, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 14, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 16, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Erlangen-Nürnberg Medical School</investigator_affiliation>
+    <investigator_full_name>Tino Münster</investigator_full_name>
+    <investigator_title>Vice director of the Department of Anaesthesiology</investigator_title>
+  </responsible_party>
+  <keyword>oxygen concentration</keyword>
+  <keyword>volatile anesthetics concentration</keyword>
+  <keyword>prediction model</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Anesthetics</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

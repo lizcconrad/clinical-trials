@@ -1,0 +1,205 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03215472</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Pro00081972</org_study_id>
+    <nct_id>NCT03215472</nct_id>
+  </id_info>
+  <brief_title>DASH Cloud: Using Digital Health to Improve Adherence to the DASH Diet Among Women</brief_title>
+  <official_title>DASH Cloud: Using Digital Health to Improve Adherence to the DASH Diet Among Women at Risk for Cardiovascular Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Duke University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will test whether a digital health intervention (DASH Cloud) using smartphones can
+      improve diet quality among women at risk for cardiovascular disease. The DASH (Dietary
+      Approaches to Stop Hypertension) Diet has been proven to lower blood pressure, yet
+      dissemination efforts remain poor. This study aims to use technology to improve adherence to
+      DASH.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Specifically, this study aims to
+
+        1. To test the feasibility of the DASH Cloud intervention compared to education control
+           among women with prehypertension and hypertension via a 3-month randomized controlled
+           trial.
+
+        2. To evaluate the preliminary efficacy of the DASH Cloud intervention relative to
+           education control on blood pressure, weight and medication adherence at 3 months.
+
+      This study will enroll 50 adult women aged 21-70 with pre-hypertension or hypertension in a
+      3-month randomized controlled trial to test the initial feasibility of DASH Cloud. Women will
+      be randomized to either the DASH Cloud intervention or DASH Light and followed up 3 months
+      post randomization. The investigators will recruit participants from the Durham, NC area.
+
+      Women randomized to the DASH Cloud intervention will be asked to track their diet daily using
+      a smartphone diet tracking app. Based on the foods/beverages entered, the intervention will
+      send daily or weekly text messages with feedback about DASH adherence and information videos
+      about how to follow DASH. Women randomized to DASH Light will also be asked to track their
+      diet using the smartphone diet tracking app and will receive basic informational materials
+      about DASH.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 21, 2017</start_date>
+  <completion_date type="Actual">March 12, 2018</completion_date>
+  <primary_completion_date type="Actual">March 12, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>3-month randomized controlled trial to test the initial feasibility of DASH Cloud, a digital health intervention for women at risk for CVD</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Adherence to the DASH Diet</measure>
+    <time_frame>3 months</time_frame>
+    <description>Dietary intake data will be collected using NCI's Automated Self-Administered 24-hour Recall tool.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in Blood Pressure</measure>
+    <time_frame>Baseline, 3 months</time_frame>
+    <description>Blood pressure will be measured at baseline and 3 months in the upper arm in triplicate at 1-minute intervals. Measurements will be obtained using the validated Omron HEM-907XL blood pressure monitor.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Weight</measure>
+    <time_frame>Baseline, 3 months</time_frame>
+    <description>Weight will be collected in kilograms at baseline and 3 months using a calibrated digital scale.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Engagement</measure>
+    <time_frame>3 months</time_frame>
+    <description>Utilization of intervention component (daily diet tracking using Nutritionix app) at 3 months. This will be measured by the proportion of participants completing daily dietary self-monitoring.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Engagement</measure>
+    <time_frame>3 months</time_frame>
+    <description>Utilization of intervention component (review of skills training videos) at 3 months. This will be measured by the number of clicks to skills training via video tracking software.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">59</enrollment>
+  <condition>Diet Modification</condition>
+  <condition>Hypertension</condition>
+  <condition>Women's Health</condition>
+  <condition>Cardiovascular Diseases</condition>
+  <condition>Digital Health</condition>
+  <arm_group>
+    <arm_group_label>DASH Cloud intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>In group 1, participants will be instructed to input their dietary intake daily for three months using the Nutritionix app. A participant's data will automatically be uploaded from the Nutritionix app via the API that links the device with DASH Cloud. DASH Cloud will run an algorithm and send daily or weekly feedback text messages reflecting DASH adherence. The intervention components include tailored feedback texts, and behavioral skills training videos.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Dash Light</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Group 2 participants will be asked to use the Nutritionix app daily and receive publicly available written materials on the DASH diet.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>DASH Cloud</intervention_name>
+    <description>With DASH Cloud, the investigators will ask participants to track their diet daily using a commercial diet tracking app. The investigators will retrieve the diet data on our DASH Cloud platform and provide tailored feedback about a participant's DASH adherence via fully automated daily or weekly text messages. These feedback messages will describe both an individual's absolute performance and change over time. The investigators also include theory-driven tailored content that reinforces successes, offers motivational strategies, and offers short behavior change tips.</description>
+    <arm_group_label>DASH Cloud intervention</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Nutritionix Track app</intervention_name>
+    <description>DASH Light Control participants will be asked to use the Nutritionix app daily and receive publicly available written materials on the DASH diet.</description>
+    <arm_group_label>Dash Light</arm_group_label>
+    <other_name>DASH Light</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  ages 21-70 years; BMI &gt;18.5 kg/m2
+
+          -  on antihypertensive medication or systolic blood pressure 120-159 mmHg and/or
+             diastolic blood pressure of 80-99
+
+          -  current use of a smartphone and willingness to be texted daily or weekly
+
+          -  an email account; spoken and written English fluency.
+
+        Exclusion Criteria:
+
+          -  CVD event in prior 6 months
+
+          -  active malignancy; active psychosis or recent psychiatric institutionalization
+
+          -  current pregnancy or lactation
+
+          -  current participation in a similar trial.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Dori M Steinberg, PhD, RD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Duke University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>The Sarah W. Stedman Nutrition and Metabolism Center</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27708</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 20, 2017</study_first_submitted>
+  <study_first_submitted_qc>July 10, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 12, 2017</study_first_posted>
+  <last_update_submitted>March 27, 2018</last_update_submitted>
+  <last_update_submitted_qc>March 27, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 29, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cardiovascular Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

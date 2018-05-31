@@ -1,0 +1,230 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02454257</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ICNARC/02/07/15</org_study_id>
+    <nct_id>NCT02454257</nct_id>
+  </id_info>
+  <brief_title>Risk Modelling for Quality Improvement in the Critically Ill: Making Best Use of Routinely Available Data</brief_title>
+  <official_title>Risk Modelling for Quality Improvement in the Critically Ill: Making Best Use of Routinely Available Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Intensive Care National Audit &amp; Research Centre</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Intensive Care National Audit &amp; Research Centre</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of the proposed study is to better understand the epidemiology of, risk factors for
+      and consequences of critical illness leading to improvements in the risk models used to
+      underpin national clinical audits for adult general critical care, cardiothoracic critical
+      care and in-hospital cardiac arrest using data linkage with other routinely collected data
+      sources.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Aim: To improve risk models used to underpin national clinical audits for adult general
+      critical care, cardiothoracic critical care and in-hospital cardiac arrest using data linkage
+      with other routinely collected data sources.
+
+      Specific objectives are:
+
+        1. To improve risk models for adult general critical care by: (1a) developing risk models
+           for mortality at fixed time-points and time-to event outcomes (by data linkage between
+           the CMP and death registrations from ONS); developing risk models for longer term
+           chronic health outcomes of (1b) diabetes (by data linkage between the CMP and the
+           National Diabetes Audit) and (1c) end-stage renal disease (by data linkage between the
+           CMP and the UK Renal Registry); and (1d) developing risk models for subsequent health
+           care utilisation and costs (by data linkage between the CMP and HES)
+
+        2. To improve risk models for cardiothoracic critical care by: (2a) enhancing risk factor
+           data (by data linkage with the National Adult Cardiac Surgery Database); (2b) developing
+           risk models for longer term mortality (by data linkage between the CMP and death
+           registrations from ONS); and (2c) developing risk models for subsequent health care
+           utilisation and costs (by data linkage between the CMP and HES)
+
+        3. .To improve risk models for in-hospital cardiac arrest by: (3a) enhancing risk factor
+           data (by data linkage between NCAA and HES); (3b) developing risk models for longer term
+           mortality, health care utilisation and costs (by data linkage between NCAA and ONS);
+           (3c) developing risk models for subsequent critical care utilisation (by data linkage
+           between NCAA and CMP); and (3d) developing risk models for subsequent health care
+           utilisation and costs (by data linkage between NCAA, ONS and HES)
+
+        4. Immediate translation of the improved risk models into practice through: (4a) adoption
+           into routine comparative outcome reporting for the national clinical audits; and (4b)
+           communication of research output to providers, managers, commissioners, policy makers
+           and academics in critical care
+
+      Data collection: The project will utilise high quality clinical data collected for the Case
+      Mix Programme (CMP) and National Cardiac Arrest Audit (NCAA) - the national clinical audits
+      for adult critical care and in-hospital cardiac arrest. These data will be linked with data
+      from the National Diabetes Audit, UK Renal Registry and National Adult Cardiac Surgery Audit,
+      routine administrative data from Hospital Episode Statistics (HES) and death registrations
+      from the Office for National Statistics (ONS).
+
+      Data linkage will be undertaken by the HSCIC Data Linkage and Extract Service (DLES) acting
+      as a trusted third party. Identifiers (with no associated clinical data) will be uploaded
+      from each national clinical audit to secure servers at HSCIC. DLES will perform the data
+      linkage and will return a common key that can be used to link all records of the same patient
+      across the datasets. The three national clinical audits external to ICNARC will extract an
+      agreed, pseudonymised dataset for linked records and DLES will extract data from HES and ONS
+      and these datasets will be passed to ICNARC. ICNARC will produce pseudonymised data extracts
+      from the CMP and NCAA and these will be linked to the datasets provided by the national
+      clinical audits and DLES using the common key. In this way, only pseudonymised data will be
+      linked between the multiple data sources.
+
+      Data analysis: The following approaches for model development will be applied depending on
+      the outcome and objectives of the analysis:
+
+        -  Modelling of mortality at fixed time-points (30 days, 90 days, 1 year) using logistic
+           regression.
+
+        -  Modelling of time-to-event outcomes using standard survival regression methods such as
+           Weibull and Cox regression.
+
+        -  To handle interval-censored data: Cox proportional hazards models, complementary log-log
+           models using partial likelihood estimation (to permit interval censoring) and
+           discrete-time hazard models.
+
+        -  To account for both interval censoring of the time-to-onset and competition with death:
+           Cause-specific Cox proportional hazards models and illness-death models will be
+           considered.
+
+        -  For Objective 3, return of spontaneous circulation (ROSC) for greater than 20 minutes
+           and survival to hospital discharge outcome, multilevel logistic regression with random
+           effects of hospital will be applied.
+
+        -  To model Hospital resource use and costs post-critical care: multilevel regression model
+           and Log linear regression model.
+
+      Risk prediction models will be validated for their discrimination, calibration and overall
+      fit using a panel of measures including: c index; plots of observed against predicted risk;
+      Hosmer-Lemeshow goodness-of-fit statistic; Cox's calibration regression; Shapiro's R, Brier's
+      score and corresponding approximate R2 measures; and reclassification.
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Active, not recruiting</last_known_status>
+  <start_date>August 2015</start_date>
+  <completion_date type="Anticipated">October 2016</completion_date>
+  <primary_completion_date type="Anticipated">October 2016</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>All cause mortality</measure>
+    <time_frame>30-days</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>All cause mortality</measure>
+    <time_frame>90-days</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>All cause mortality</measure>
+    <time_frame>1-year</time_frame>
+  </primary_outcome>
+  <other_outcome>
+    <measure>diabetes</measure>
+    <time_frame>up to 5 year</time_frame>
+    <description>new diagnosis of diabetes post-critical care</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>end-stage renal disease</measure>
+    <time_frame>up to 5 year</time_frame>
+    <description>new diagnosis of end-stage renal disease post-critical care</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>ROSC</measure>
+    <time_frame>at time of reanimation</time_frame>
+    <description>return of spontaneous circulation (ROSC) for greater than 20 minutes</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>survival to hospital discharge</measure>
+    <time_frame>30 days, 90 days and 1 year</time_frame>
+  </other_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">940000</enrollment>
+  <condition>Critical Illness</condition>
+  <condition>Heart Arrest</condition>
+  <arm_group>
+    <arm_group_label>Admission to ICU</arm_group_label>
+    <description>Patients admitted to an adult critical care unit or cardiothoracic critical care unit</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>In-hospital cardiac arrest</arm_group_label>
+    <description>Patients experiencing an in-hospital cardiac arrest</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients admitted to an adult critical care unit or cardiothoracic critical care unit or
+        experiencing an in-hospital cardiac arrest in an NHS acute hospital in England or Wales.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Admission to an adult critical care unit or cardiothoracic critical care unit or
+             in-hospital cardiac arrest
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David Harrison, MA PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Senior Statistician, ICNARC</affiliation>
+  </overall_official>
+  <verification_date>March 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>May 20, 2015</study_first_submitted>
+  <study_first_submitted_qc>May 21, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 27, 2015</study_first_posted>
+  <last_update_submitted>March 31, 2016</last_update_submitted>
+  <last_update_submitted_qc>March 31, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">April 1, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Intensive Care National Audit &amp; Research Centre</investigator_affiliation>
+    <investigator_full_name>David Harrison</investigator_full_name>
+    <investigator_title>Senior statistician</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Critical Illness</mesh_term>
+    <mesh_term>Heart Arrest</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>An anonymised study dataset will be available on request from the Chief Investigator, subject to any necessary approvals</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

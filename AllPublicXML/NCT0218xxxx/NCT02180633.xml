@@ -1,0 +1,257 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02180633</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BBB-BMD/2739/2012</org_study_id>
+    <nct_id>NCT02180633</nct_id>
+  </id_info>
+  <brief_title>Unveiling Preclinical Idiopathic Macular Hole Formation</brief_title>
+  <acronym>IMH_2012</acronym>
+  <official_title>Unveiling Preclinical Idiopathic Macular Hole Formation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Coimbra</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Coimbra</source>
+  <brief_summary>
+    <textblock>
+      A macular hole is a rupture in the macula. In terms of pathogenesis, as much as 80% are
+      idiopathic (Idiopathic Macular Hole, IMH). The normal incidence of this condition is about
+      0.17%; however, there is a 10-29% chance of development of a macular hole in the fellow eye
+      of patients suffering from unilateral macular hole.
+
+      Our hypothesis is that embedded in the topography of the retina is information that can allow
+      for discrimination between healthy eyes and eyes with an increased risk of developing IMH. As
+      such, our work aims to develop a system that allows the automatic identification of these
+      eyes.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      A macular hole is a rupture in the macula, the central portion of the retina, responsible for
+      sharp, central vision and hence indispensable for most tasks. In terms of pathogenesis, even
+      though some can be related to trauma, as much as 80% are idiopathic (Idiopathic Macular Hole,
+      IMH). It is theorized that antero-posterior and tangential forces are behind this condition;
+      however, no conclusions have been reached. While the normal incidence of this condition is
+      about 0.17%, there is a 10-29% chance of developing a macular hole in the fellow eye of
+      patients suffering from unilateral macular hole.
+
+      Our working hypothesis is that embedded in the topography of the retina is information that
+      can allow for discrimination between healthy eyes and eyes with an increased risk of
+      developing IMH. As such, our study consists on the characterisation of the retinal topography
+      of fellow eyes of patients with unilateral IMH but no other visible retinal pathologies, and
+      of eyes from controls subjects in the same approximate age group. From these topographic maps
+      we acquire a series of features (parameters), and using machine learning techniques create a
+      system that separates eyes into one of the groups - healthy or at risk.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2013</start_date>
+  <completion_date type="Actual">September 2015</completion_date>
+  <primary_completion_date type="Actual">September 2015</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Macular Topography</measure>
+    <time_frame>at 1 visit</time_frame>
+    <description>When a patient that fits into the description of either the case or the control group comes in for a routine visit, a routine optical coherence tomography scan is performed. These scans are non-invasive and common in ophthalmological visits.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">200</enrollment>
+  <condition>Idiopathic Macular Hole</condition>
+  <arm_group>
+    <arm_group_label>Fellow Eyes</arm_group_label>
+    <description>Patients that suffer from unilateral idiopathic macular hole, and whose fellow eyes don't show any sign of retinal pathology.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Controls</arm_group_label>
+    <description>Healthy subjects age-matched to the other group, with no visible retinal pathologies.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Optical Coherence Tomography Scan</intervention_name>
+    <description>As an observational study, the only interventive action taken is the acquisition of a non-invasive volumetric image of the retina via optical coherence tomography (OCT).</description>
+    <arm_group_label>Fellow Eyes</arm_group_label>
+    <arm_group_label>Controls</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with unilateral idiopathic macular hole and no other visible retinal pathologies.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  normal OCT, with or without vitreous adhesion
+
+          -  fellow group: unilateral idiopathic macular hole
+
+        Exclusion Criteria:
+
+          -  OCT with vitreous adhesion
+
+          -  lamellar or pseudoholes
+
+          -  inner retinal surface alterations
+
+          -  myopia(&gt;4D)
+
+          -  glaucoma
+
+          -  significative media opacity
+
+          -  previous retina photocoagulation
+
+          -  any type of intraocular surgery in the last 6 months
+
+          -  intravitreal medication
+
+          -  diabetes or neurodegenerative diseases
+
+          -  macular hole secondary to trauma
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>45 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rui Bernardes, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Institute for Biomedical Imaging and Life Sciences, Faculty of Medicine, University of Coimbra</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Braga Hospital</name>
+      <address>
+        <city>Braga</city>
+        <zip>4710-243</zip>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>AIBILI - Association for Innovation and Biomedical Research on Light and Image</name>
+      <address>
+        <city>Coimbra</city>
+        <zip>3000-548</zip>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>IBILI - Institute for Biomedical Imaging and Life Sciences</name>
+      <address>
+        <city>Coimbra</city>
+        <zip>3000-548</zip>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>North Lisbon Hospital Center</name>
+      <address>
+        <city>Lisbon</city>
+        <zip>1649-035</zip>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>St. Maria Hospital</name>
+      <address>
+        <city>Lisbon</city>
+        <zip>1649-035</zip>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>St. Antonio Hospital</name>
+      <address>
+        <city>Porto</city>
+        <zip>4099-001</zip>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>St. Joao Hospital</name>
+      <address>
+        <city>Porto</city>
+        <zip>4200-319</zip>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Portugal</country>
+  </location_countries>
+  <results_reference>
+    <citation>H. Pereira; M. Alfaiate; T. Santos; L. Pedrosa; M. Mendes; R. Venâncio; J. Figueira; R. Bernardes: Identification of Eyes at Risk of Developing Idiopathic Macular Holes by Support Vector Machines. IBILI Meeting 2011, December 2011</citation>
+  </results_reference>
+  <results_reference>
+    <citation>P. Rodrigues; T. Santos; H. Pereira; J. Figueira; R. Bernardes: Identification of Eyes at Risk of Developing Idiopathic Macular Holes by Support Vector Machines. DOI: 10.1109/ENBENG.2012.6331372</citation>
+  </results_reference>
+  <results_reference>
+    <citation>J. Figueira; H. Pereira; M. Alfaiate; A. R. Santos; T. Santos; L. Pedrosa; M. Mendes; R. Venâncio; R. Bernardes: Identification of Eyes at Risk of Developing Idiopathic Macular Holes by Support Vector Machines. ARVO Annual Meeting 2012. Invest Ophthalmol Vis Sci 2012;53: E-Abstract 5219.</citation>
+  </results_reference>
+  <results_reference>
+    <citation>A. S. Silva, T. Santos, S. Simão, J. Figueira, R. Bernardes: Unveiling preclinical idiopathic macular hole formation: structural changes by high-definition OCT and machine learning. V Annual meeting of IBILI, Coimbra, Portugal, December 12-13 2013.</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Figueira, João; Silva, Ana S. C; Meireles, Angelina; Gomes, Nuno; Ferreira, Natália; Neves, Carlos; Bernardes, Rui. Identificação de Olhos em Risco de Desenvolvimento de Buracos Maculares Idiopáticos (BMI). 56th Congress of the Portuguese Ophthalmology Society. 2013.</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Silva, Ana S. C; Figueira, João; Simão, Sílvia; Gomes, Nuno; Neves, Carlos; Meireles, Angelina; Ferreira, Natália; Bernardes, Rui. 2014. Unveiling Preclinical Idiopathic Macular Hole Formation Using Support Vector Machines, Proceedings of the Biomedical and Health Informatics International Conference, IEEE - EMB Chapter, 2014.</citation>
+  </results_reference>
+  <verification_date>June 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>July 1, 2014</study_first_submitted>
+  <study_first_submitted_qc>July 1, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 2, 2014</study_first_posted>
+  <last_update_submitted>June 16, 2016</last_update_submitted>
+  <last_update_submitted_qc>June 16, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">June 17, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Coimbra</investigator_affiliation>
+    <investigator_full_name>Rui Bernardes</investigator_full_name>
+    <investigator_title>Prof.</investigator_title>
+  </responsible_party>
+  <keyword>Idiopathic Macular Hole</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Retinal Perforations</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

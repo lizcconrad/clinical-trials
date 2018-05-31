@@ -1,0 +1,163 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00801619</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2006P001624</org_study_id>
+    <nct_id>NCT00801619</nct_id>
+  </id_info>
+  <brief_title>Bilicurves: Using Information Technology to Improve the Management of Neonatal Hyperbilirubinemia</brief_title>
+  <official_title>Bilicurves: Using Information Technology to Integrate Clinical Practice Guidelines Into the Management of Neonatal Hyperbilirubinemia</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Massachusetts General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Massachusetts General Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      We will use information technology to integrate the 2004 American Academy of Pediatrics
+      guidelines for management of neonatal hyperbilirubinemia with laboratory reporting of newborn
+      bilirubin test results to improve physician adherence to the guidelines and quality of care.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In 2004, the American Academy of Pediatrics disseminated clinical practice guidelines for the
+      management of neonatal hyperbilirubinemia. Using the infant's age in hours, serum bilirubin
+      levels are applied to hour-specific nomograms to assess risk of developing significant
+      hyperbilirubinemia as well as the necessity for treatment. Prior guidelines did not include
+      nomograms for either. A systems approach to managing neonatal hyperbilirubinemia, including
+      use of the nomograms, has been shown to improve outcomes and patient safety.
+
+      Despite the existence of these guidelines, decision support does not exist within MGH
+      clinical information systems for managing neonatal hyperbilirubinemia. We propose to create
+      BiliCurves, an application that integrates perinatal information from the obstetrical health
+      record with that of the newborn's, providing seamless reporting of neonatal bilirubin results
+      in the context of the practice guidelines and relevant obstetrical data. BiliCurves will
+      graphically superimpose bilirubin results onto hour-specific guideline nomograms that
+      providers can view when viewing bilirubin results. We propose to randomize BiliCurves access
+      to pediatric providers, and study its effects on management of hyperbilirubinemia both during
+      birth hospitalization as well as in the outpatient setting after discharge. We hypothesize
+      infants treated by physicians with BiliCurves access will receive birth hospitalization
+      phototherapy at a higher rate and readmission for hyperbilirubinemia at a lower rate than
+      that of the control group. We also hypothesize that physicians with BiliCurves access will
+      report greater ease and confidence in nomogram use and providing evidence-based care as
+      BiliCurves obviates the provider having to have access to paper based versions of the
+      nomogram (usual care) as well decreases potential errors in plotting test results on the
+      nomograms.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2008</start_date>
+  <completion_date type="Actual">December 2011</completion_date>
+  <primary_completion_date type="Actual">December 2011</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Adherence to clinical guidelines</measure>
+    <time_frame>Initial Newborn Inpatient Stay, which on average is 2-3 days in length</time_frame>
+    <description>Adeherence to AAP clinical guidelines in treating neonatal hyperbilirubinemia</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">273</enrollment>
+  <condition>Neonatal Hyperbilirubinemia</condition>
+  <arm_group>
+    <arm_group_label>Intervention</arm_group_label>
+    <description>Receive decision support when reviewing bilirubin results in the clinical information systems/electronic health record</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <description>No decision support</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Providers who care for infants in the newborn nursery at MGH will be study eligible. All
+        newborns 35 weeks or more weeks of gestation will be study eligible.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Providers who care for infants in the newborn nursery.
+
+          -  All newborns in the newborn nursery that are 35 weeks or more weeks of gestation will
+             be study eligible.
+
+        Exclusion Criteria:
+
+          -  Infants less than 35 weeks gestation.
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>1 Month</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John Patrick T Co, MD, MPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Massachusetts General Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Massachusetts General Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>American Academy of Pediatrics Subcommittee on Hyperbilirubinemia. Management of hyperbilirubinemia in the newborn infant 35 or more weeks of gestation. Pediatrics. 2004 Jul;114(1):297-316. Erratum in: Pediatrics. 2004 Oct;114(4):1138.</citation>
+    <PMID>15231951</PMID>
+  </reference>
+  <verification_date>March 2016</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>December 2, 2008</study_first_submitted>
+  <study_first_submitted_qc>December 2, 2008</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 3, 2008</study_first_posted>
+  <last_update_submitted>March 14, 2016</last_update_submitted>
+  <last_update_submitted_qc>March 14, 2016</last_update_submitted_qc>
+  <last_update_posted type="Estimate">March 16, 2016</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Massachusetts General Hospital</investigator_affiliation>
+    <investigator_full_name>John Patrick Co</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hyperbilirubinemia</mesh_term>
+    <mesh_term>Hyperbilirubinemia, Neonatal</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

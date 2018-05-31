@@ -1,0 +1,299 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02470507</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CSP88220</org_study_id>
+    <nct_id>NCT02470507</nct_id>
+  </id_info>
+  <brief_title>Immune Function in Acute Kidney Injury</brief_title>
+  <official_title>Evaluation of Immune Function in Patients With Acute Kidney Injury</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Guy's and St Thomas' NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>King's College London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Guy's and St Thomas' NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The immune response to kidney damage during acute kidney injury (AKI) is an important
+      contributor to the prolonged lack of renal function and progression of kidney injury. Most
+      data related to intrarenal and interorgan pathways in AKI stem from animal research with
+      sometimes conflicting results. Accurate evaluation of these processes in humans and
+      identification of early diagnostic tools are critical for the development of strategies to
+      prevent and attenuate AKI-related morbidity and mortality in patients.
+
+      The aim of this study is to evaluate immune function and miRNA expression in hospitalised
+      patients with and without AKI.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Hypothesis:
+
+      An overriding pro-inflammatory immune response underlies AKI in humans which contributes to
+      dysfunction of non-renal organs
+
+      Principal research question:
+
+      Is AKI in humans associated with a predominantly pro-inflammatory immune response?
+
+      Secondary research questions:
+
+        1. Does AKI affect the phenotypic characterisation and function of neutrophils?
+
+        2. Does severity of AKI lead to differences in phenotypic characterisation and function of
+           neutrophils?
+
+        3. What are the differences in cytokine profiles between AKI patients with and without
+           systemic inflammation?
+
+        4. What are the differences in cytokine profiles between AKI patients with systemic
+           inflammation and patients with systemic inflammation without AKI?
+
+        5. Is there a correlation between microRNA levels in patients with AKI and degree of AKI,
+           renal recovery and patient outcome?
+
+      Study design:
+
+      Observational non-interventional study
+
+      Study population:
+
+      30 patients with AKI stage II or III * and systemic inflammation without sepsis 30 patients
+      with AKI stage II or III * and no systemic inflammation 30 patients with systemic
+      inflammation and normal renal function 30 patients after major surgery who do not have an
+      infection, SIRS or AKI
+
+      * AKI will be defined by the KDIGO criteria
+
+      Primary outcome Detection of measurable phenotypic characteristics and function of leukocytes
+      that are specific of patients with AKI.
+
+      Secondary outcomes:
+
+        1. Differences in phenotypic characterisation and function of neutrophils between patients
+           with AKI stage II and III.
+
+        2. Differences in phenotypic characterisation and function of neutrophils between patients
+           with and without AKI.
+
+        3. Differences in cytokine profiles between patients with AKI and systemic inflammation and
+           patients with AKI without systemic inflammation
+
+        4. Differences in cytokine profiles between AKI patients with systemic inflammation and
+           patients with systemic inflammation without AKI
+
+        5. Correlation between microRNA levels in patients with AKI and renal recovery
+
+        6. Correlation between microRNA levels in patients with AKI and patient outcome
+
+        7. Differences in cytokine profiles between AKI patients without systemic inflammation and
+           patients without AKI and without systemic inflammation / infection.
+
+      Statistical analysis:
+
+      For the analysis of laboratory variables that describe the immunological phenotype, standard
+      statistical methods will be applied. 1) When the normal distribution assumption is met,
+      groups will be compared using ANOVA and the corresponding contrasts for group by group
+      comparisons; 2) In the absence of normality or for ordinal variables, Kruskal Wallis will be
+      applied for multi-group comparisons, and Wilcoxon for two-groups analysis. We will apply
+      multiple testing correction via Benjamini-Hochberg FDR control.
+
+      For the analysis of miRNA array data, we will first follow the protocol quality control
+      measures appropriate for the platform of choice, and subsequently will carry out statistical
+      analysis using the SAMr and LIMMA packages from Bioconductor, via the R software. Similarly,
+      for the analysis of PCR data, the package HTqPCR from bioconductor will be used for quality
+      control. Depending on the distribution of the final data, either non-parametric statistics,
+      or a moderated t-test will be applied for statistical comparisons, with the corresponding
+      multiple testing corrections as above.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>June 2013</start_date>
+  <completion_date type="Anticipated">December 2017</completion_date>
+  <primary_completion_date type="Anticipated">December 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Phenotypic characteristics and function of leukocytes</measure>
+    <time_frame>7 days</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Differences in phenotypic characterisation and function of neutrophils between AKI stage II and III.</measure>
+    <time_frame>7 days</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Differences in phenotypic characterisation and function of neutrophils between AKI and no AKI</measure>
+    <time_frame>7 days</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Differences in cytokine profiles between AKI + SIRS and AKI without SIRS</measure>
+    <time_frame>7 days</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Differences in cytokine profiles between SIRS + AKI and SIRS without AKI</measure>
+    <time_frame>7 days</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between microRNA levels in patients with AKI and renal recovery</measure>
+    <time_frame>7 days</time_frame>
+    <description>Correlation between microRNA levels in patients with AKI and patient outcome Differences in cytokine profiles between AKI patients without systemic inflammation and patients without AKI and without systemic inflammation / infection.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between microRNA levels in patients with AKI and patient outcome</measure>
+    <time_frame>7 days</time_frame>
+    <description>Differences in cytokine profiles between AKI patients without systemic inflammation and patients without AKI and without systemic inflammation / infection.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Differences in cytokine profiles between AKI patients without SIRS and patients without AKI and without SIRS</measure>
+    <time_frame>7 days</time_frame>
+  </secondary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Acute Kidney Failure</condition>
+  <arm_group>
+    <arm_group_label>AKI with SIRS</arm_group_label>
+    <description>Patients with AKI stage II or III and systemic inflammation without sepsis</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>AKI without SIRS</arm_group_label>
+    <description>Patients with AKI stage II or III and no systemic inflammation</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SIRS without AKI</arm_group_label>
+    <description>Patients with systemic inflammation and normal renal function</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No SIRS and no AKI</arm_group_label>
+    <description>Patients after major surgery who do not have an infection, SIRS or AKI</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>AKI</intervention_name>
+    <description>development of immune dysregulation and rise in inflammatory markers and activation of immune cells</description>
+    <arm_group_label>AKI with SIRS</arm_group_label>
+    <arm_group_label>AKI without SIRS</arm_group_label>
+    <arm_group_label>SIRS without AKI</arm_group_label>
+    <arm_group_label>No SIRS and no AKI</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Hospitalised patients
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult patients (≥ 18 years) admitted to the hospital (incl ICU) with one of the
+             following:
+
+               1. postoperative AKI II or III and systemic inflammation without sepsis
+
+               2. systemic inflammation and normal renal function
+
+               3. AKI II or III without systemic inflammation
+
+               4. post-surgery with normal renal function and without SIRS or an infection
+
+        Exclusion Criteria:
+
+          -  Renal transplant patients
+
+          -  Patients on immunosuppressive drugs (except steroids)
+
+          -  Patients with haematological malignancy
+
+          -  Jehovah's witness
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marlies Ostermann</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Guy's &amp; St Thomas NHS Foundation Trust</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Elizabeth Bruna</last_name>
+    <phone>02071887188</phone>
+    <phone_ext>51682</phone_ext>
+    <email>Elizabeth.Bruna@gstt.nhs.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Marlies Ostermann</last_name>
+    <phone>02071887188</phone>
+    <phone_ext>83038</phone_ext>
+    <email>marlies@ostermann.freeserve.co.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Guy's &amp; St Thomas Foundation Hospital</name>
+      <address>
+        <city>London</city>
+        <zip>SE1 7EH</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marlies Ostermann</last_name>
+      <phone>02071887188</phone>
+      <phone_ext>83038</phone_ext>
+      <email>Marlies.Ostermann@gstt.nhs.uk</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>July 2017</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>June 10, 2015</study_first_submitted>
+  <study_first_submitted_qc>June 11, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 12, 2015</study_first_posted>
+  <last_update_submitted>July 10, 2017</last_update_submitted>
+  <last_update_submitted_qc>July 10, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 13, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Acute Kidney Injury</mesh_term>
+    <mesh_term>Renal Insufficiency</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

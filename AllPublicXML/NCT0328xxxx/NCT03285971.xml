@@ -1,0 +1,272 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on May 29, 2018</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03285971</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HUM117828</org_study_id>
+    <nct_id>NCT03285971</nct_id>
+  </id_info>
+  <brief_title>Real-Time Decision Support for Improving Intraoperative Cerebral Perfusion Pressure</brief_title>
+  <official_title>Real-Time Decision Support for Improving Intraoperative Cerebral Perfusion Pressure</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Michigan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Michigan</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Across broad surgical populations, cerebral hypoperfusion is associated with increased
+      mortality, stroke, brain cellular injury, and poor functional outcomes. Based on available
+      evidence, The Brain Trauma Foundation recommends that cerebral perfusion pressure (CPP) be
+      maintained greater than 60 mmHg in high-risk settings to minimize risk of cerebral ischemia.
+      Though several lines of investigation have focused on optimal cerebrovascular management in
+      the intensive care unit and cardiac surgery settings, much less focus has been placed on
+      cerebrovascular management during non-cardiac surgery.
+
+      Preliminary data indicate that intraoperative CPP routinely falls below 60 mmHg in
+      neurosurgical and trauma surgery settings, though the relationship between reduced
+      intraoperative CPP and outcomes remains unclear. Furthermore, effective methods by which low
+      intraoperative CPP could be prevented have not been thoroughly investigated, which represents
+      the first required step prior to studying the relationship between intraoperative CPP and
+      clinical outcomes. Thus, the aim of this study is to evaluate the efficacy of an automated
+      algorithm that alerts clinicians to a decrease in CPP below 60 mmHg. This study tests the
+      hypothesis that an automated pager alert system (triggered by CPP falling below 60 mmHg) will
+      increase intraoperative CPP compared to standard of care.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This will be a single-center study taking place at the University of Michigan Health System,
+      Ann Arbor, MI. The study has been approved by the University of Michigan Medical School
+      Institutional Review Board (IRBMED).
+
+      Automated pager alert protocols have been previously published from the investigators'
+      department, and this alerting system is used for operational purposes on a daily basis.
+      Surgical patients will be automatically screened using a designed script from the anesthesia
+      information management system (Centricity, Wishahaka, WI).
+
+      The script will screen for active surgical patients with intracranial pressure (ICP) data
+      recording in our hospital's non-cardiac operating rooms. When these data are captured, an
+      automated enrollment process will occur if the following electronic charting criteria are
+      met:
+
+        -  Age ≥ 18 years old
+
+        -  Case identified as a general anesthetic
+
+        -  Non-intracranial aneurysm surgery
+
+        -  Non-pregnant patient
+
+      After &quot;anesthetic induction end&quot; time is documented within the case, the alerting system will
+      turn on after a 10-minute grace period. The alerting system will then retroactively measure
+      median CPP values over 5-minute epochs, and if median CPP is &lt; 60 mmHg, the following
+      alphanumeric pager alert will be delivered:
+
+      &quot;Patient: LAST NAME, FIRST NAME, OR(N), has a cerebral perfusion pressure &lt; 60 mmHg.
+      Disregard alert for intracranial aneurysm cases or if patient is pregnant.&quot;
+
+      This alert will be delivered twice total (if criteria are met). The aim of the pager alerts
+      will be to relay information regarding cerebral ischemia risk between when CPP decreases
+      below 60 mmHg. Final clinical decision-making, however, will be left to the anesthesia team.
+      The pager alerts will not otherwise compel action, and no other recommendations will be made.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 25, 2017</start_date>
+  <completion_date type="Anticipated">December 31, 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2020</primary_completion_date>
+  <phase>Early Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mean Cerebral Perfusion Pressure (CPP, mmHg)</measure>
+    <time_frame>Assessed intraoperatively for the duration of the CPP monitoring period</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mortality (incidence, %)</measure>
+    <time_frame>Within 30 days of surgery</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postoperative Stroke (incidence, %)</measure>
+    <time_frame>Within 30 days of surgery</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Myocardial Infarction (incidence, %)</measure>
+    <time_frame>Within 30 days of surgery</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Congestive Heart Failure (incidence, %)</measure>
+    <time_frame>Within 30 days of surgery</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac Dysrythmias (incidence, %)</measure>
+    <time_frame>Within 30 days of surgery</time_frame>
+    <description>New onset of any of the following: supraventricular tachycardia, atrial fibrillation, atrial flutter, ventricular fibrilation, ventricular tachycardia, heart block requiring pacing</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Acute Respiratory Distress Syndrome, ARDS (incidence, %)</measure>
+    <time_frame>Within 30 days of surgery</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Acute Kidney Injury, AKI (incidence, %)</measure>
+    <time_frame>Within 30 days of surgery</time_frame>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Area Under the Curve (AUC) 60 mmHg (min*mmHg)</measure>
+    <time_frame>Assessed intraoperatively for the duration of the CPP monitoring period</time_frame>
+  </other_outcome>
+  <other_outcome>
+    <measure>Time Spent with CPP &lt;60 mmHg</measure>
+    <time_frame>Assessed intraoperatively for the duration of the CPP monitoring period</time_frame>
+  </other_outcome>
+  <other_outcome>
+    <measure>Volume of Cerebrospinal Fluid (CSF) Drained Intraoperatively (mL)</measure>
+    <time_frame>Assessed intraoperatively for the duration of the CPP monitoring period</time_frame>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Cerebral Hypoperfusion</condition>
+  <arm_group>
+    <arm_group_label>CPP Alert Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Device: Electronic CPP pager alert anesthesia providers will receive a pager alert when CPP decreases below 60 mmHg (median value over 5-minute epochs)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>This arm will not receive the automated pager alerts.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Electronic CPP pager alert</intervention_name>
+    <description>Anesthesia providers will receive a pager alert when CPP decreases beow 60 mmHG (median value over 5-minute epochs)</description>
+    <arm_group_label>CPP Alert Group</arm_group_label>
+    <other_name>Alerting system</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult (≥18 years old) surgical patients
+
+          -  Intracranial pathology requiring intracranial pressure (ICP) monitoring
+
+        Exclusion Criteria:
+
+          -  Intracranial aneurysm surgery
+
+          -  Cases with pressures monitored from a lumbar drain
+
+          -  Cardiac surgery cases
+
+          -  Enrolled in conflicting study
+
+          -  Pregnancy
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Phillip Vlisides, MD</last_name>
+    <phone>(734) 936-4280</phone>
+    <email>pvliside@med.umich.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Amy McKinney, MA</last_name>
+    <phone>(734) 647-8129</phone>
+    <email>adrongo@med.umich.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Michigan Medicine - University of Michigan</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Phillip Vlisides, MD</last_name>
+      <phone>734-936-4280</phone>
+      <email>pvliside@med.umich.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Amy McKinney, MA</last_name>
+      <phone>(734) 647-8129</phone>
+      <email>adrongo@med.umich.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Brain Trauma Foundation; American Association of Neurological Surgeons; Congress of Neurological Surgeons; Joint Section on Neurotrauma and Critical Care, AANS/CNS, Bratton SL, Chestnut RM, Ghajar J, McConnell Hammond FF, Harris OA, Hartl R, Manley GT, Nemecek A, Newell DW, Rosenthal G, Schouten J, Shutter L, Timmons SD, Ullman JS, Videtta W, Wilberger JE, Wright DW. Guidelines for the management of severe traumatic brain injury. IX. Cerebral perfusion thresholds. J Neurotrauma. 2007;24 Suppl 1:S59-64. Erratum in: J Neurotrauma. 2008 Mar;25(3):276-8. multiple author names added.</citation>
+    <PMID>17511547</PMID>
+  </reference>
+  <reference>
+    <citation>Moore LE, Sharifpour M, Shanks A, Kheterpal S, Tremper KK, Mashour GA. Cerebral perfusion pressure below 60 mm Hg is common in the intraoperative setting. J Neurosurg Anesthesiol. 2012 Jan;24(1):58-62. doi: 10.1097/ANA.0b013e31822b4f05.</citation>
+    <PMID>21862931</PMID>
+  </reference>
+  <reference>
+    <citation>Mashour GA, Tremper KK, Avidan MS. Protocol for the &quot;Michigan Awareness Control Study&quot;: A prospective, randomized, controlled trial comparing electronic alerts based on bispectral index monitoring or minimum alveolar concentration for the prevention of intraoperative awareness. BMC Anesthesiol. 2009 Nov 5;9:7. doi: 10.1186/1471-2253-9-7.</citation>
+    <PMID>19891771</PMID>
+  </reference>
+  <reference>
+    <citation>Mashour GA, Shanks A, Tremper KK, Kheterpal S, Turner CR, Ramachandran SK, Picton P, Schueller C, Morris M, Vandervest JC, Lin N, Avidan MS. Prevention of intraoperative awareness with explicit recall in an unselected surgical population: a randomized comparative effectiveness trial. Anesthesiology. 2012 Oct;117(4):717-25.</citation>
+    <PMID>22990178</PMID>
+  </reference>
+  <reference>
+    <citation>Blum JM, Stentz MJ, Maile MD, Jewell E, Raghavendran K, Engoren M, Ehrenfeld JM. Automated alerting and recommendations for the management of patients with preexisting hypoxia and potential acute lung injury: a pilot study. Anesthesiology. 2013 Aug;119(2):295-302. doi: 10.1097/ALN.0b013e3182987af4.</citation>
+    <PMID>23681144</PMID>
+  </reference>
+  <verification_date>May 2018</verification_date>
+  <!-- For several months we've had both old and new date name tags                             -->
+  <!-- Now, the old date names have been dropped.                                               -->
+  <!-- The new date name replacements are:                                                      -->
+  <!--     OLD (gone)                                        NEW (in use)                       -->
+  <!--   lastchanged_date                         becomes   last_update_submitted               -->
+  <!--   firstreceived_date                       becomes   study_first_submitted               -->
+  <!--   firstreceived_results_date               becomes   results_first_submitted             -->
+  <!--   firstreceived_results_disposition_date   becomes   disposition_first_submitted         -->
+  <study_first_submitted>September 14, 2017</study_first_submitted>
+  <study_first_submitted_qc>September 15, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 18, 2017</study_first_posted>
+  <last_update_submitted>May 3, 2018</last_update_submitted>
+  <last_update_submitted_qc>May 3, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 4, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Michigan</investigator_affiliation>
+    <investigator_full_name>Phillip Vlisides</investigator_full_name>
+    <investigator_title>Assistant Professor of Anesthesiology</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+
